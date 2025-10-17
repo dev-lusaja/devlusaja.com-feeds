@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: feeds_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-feeds_db}
+      MYSQL_USER: ${MYSQL_USER:-feeds_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-feeds_password}
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - feeds_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$${MYSQL_ROOT_PASSWORD:-root_password}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  feed_collector:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: feed_collector
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ../feeds_data:/app/feeds_data
+      - ../backups:/app/backups
+      - ../feeds_config.yaml:/app/feeds_config.yaml
+      - ../.env:/app/.env
+    environment:
+      - TZ=America/Bogota
+      - USE_MYSQL=true
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_NAME=${MYSQL_DATABASE:-feeds_db}
+      - DB_USER=${MYSQL_USER:-feeds_user}
+      - DB_PASSWORD=${MYSQL_PASSWORD:-feeds_password}
+    networks:
+      - feeds_network
+    restart: "no"
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  feeds_network:
+    driver: bridge
