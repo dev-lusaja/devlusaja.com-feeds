@@ -177,7 +177,7 @@ function clean_all() {
     docker compose -f $COMPOSE_FILE down
 
     # Eliminar volumen
-    docker volume rm devlusajacom-feeds_mysql_data 2>/dev/null
+    docker volume rm docker_mysql_data 2>/dev/null
 
     echo -e "${GREEN}✅ Todo limpiado. Usa '$0 start' para empezar de nuevo${NC}"
 }

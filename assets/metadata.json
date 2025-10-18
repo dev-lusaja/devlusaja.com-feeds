@@ -1,0 +1,302 @@
+{
+  "totalItems": 2531,
+  "generatedAt": "2025-10-17T22:44:51.066710Z",
+  "sources": [
+    {
+      "title": "Xataka IA",
+      "category": "Xataka",
+      "type": "notice"
+    },
+    {
+      "title": "OpenAI Blog",
+      "category": "OpenAI",
+      "type": "notice"
+    },
+    {
+      "title": "DeepMind Blog",
+      "category": "DeepMind",
+      "type": "notice"
+    },
+    {
+      "title": "KDnuggets",
+      "category": "KDnuggets",
+      "type": "notice"
+    },
+    {
+      "title": "Machine Learning Mastery",
+      "category": "MachineLearningMastery",
+      "type": "notice"
+    },
+    {
+      "title": "MIT Tech Review AI",
+      "category": "MIT_AI",
+      "type": "notice"
+    },
+    {
+      "title": "GoogleNews AI",
+      "category": "GoogleNews_AI",
+      "type": "notice"
+    },
+    {
+      "title": "GoogleNews ML",
+      "category": "GoogleNews_ML",
+      "type": "notice"
+    },
+    {
+      "title": "TechCrunch AI",
+      "category": "TechCrunch_AI",
+      "type": "notice"
+    },
+    {
+      "title": "Hugging Face Blog",
+      "category": "HuggingFace",
+      "type": "notice"
+    },
+    {
+      "title": "Towards Data Science",
+      "category": "Towards",
+      "type": "notice"
+    },
+    {
+      "title": "arXiv cs.LG",
+      "category": "arXiv_LG",
+      "type": "pappers"
+    },
+    {
+      "title": "arXiv cs.AI",
+      "category": "arXiv_AI",
+      "type": "pappers"
+    },
+    {
+      "title": "Reddit MachineLearning",
+      "category": "Reddit_MachineLearning",
+      "type": "forum"
+    },
+    {
+      "title": "Reddit LocalLLaMA",
+      "category": "Reddit_LocalLLaMA",
+      "type": "forum"
+    },
+    {
+      "title": "Reddit ClaudeAI",
+      "category": "Reddit_ClaudeAI",
+      "type": "forum"
+    },
+    {
+      "title": "DotCSV Lab",
+      "category": "YouTube_DotCSV_Lab",
+      "type": "youtube"
+    },
+    {
+      "title": "La Inteligencia Artificial",
+      "category": "YouTube_la_inteligencia_artificial",
+      "type": "youtube"
+    },
+    {
+      "title": "DotCSV",
+      "category": "YouTube_DotCSV",
+      "type": "youtube"
+    },
+    {
+      "title": "Codificando Bits",
+      "category": "YouTube_CodificandoBits",
+      "type": "youtube"
+    }
+  ],
+  "byType": {
+    "forum": {
+      "totalItems": 80,
+      "totalChunks": 3,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "forum-all"
+    },
+    "notice": {
+      "totalItems": 1711,
+      "totalChunks": 58,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "notice-all"
+    },
+    "pappers": {
+      "totalItems": 680,
+      "totalChunks": 23,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "pappers-all"
+    },
+    "youtube": {
+      "totalItems": 60,
+      "totalChunks": 2,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "youtube-all"
+    }
+  },
+  "categories": {
+    "forum": [
+      {
+        "category": "Reddit_MachineLearning",
+        "title": "Reddit MachineLearning",
+        "count": 27,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "forum-Reddit_MachineLearning"
+      },
+      {
+        "category": "Reddit_ClaudeAI",
+        "title": "Reddit ClaudeAI",
+        "count": 27,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "forum-Reddit_ClaudeAI"
+      },
+      {
+        "category": "Reddit_LocalLLaMA",
+        "title": "Reddit LocalLLaMA",
+        "count": 26,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "forum-Reddit_LocalLLaMA"
+      }
+    ],
+    "notice": [
+      {
+        "category": "OpenAI",
+        "title": "OpenAI Blog",
+        "count": 691,
+        "isPriority": true,
+        "totalChunks": 24,
+        "chunkPrefix": "notice-OpenAI"
+      },
+      {
+        "category": "HuggingFace",
+        "title": "Hugging Face Blog",
+        "count": 640,
+        "isPriority": true,
+        "totalChunks": 22,
+        "chunkPrefix": "notice-HuggingFace"
+      },
+      {
+        "category": "GoogleNews_AI",
+        "title": "GoogleNews AI",
+        "count": 100,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-GoogleNews_AI"
+      },
+      {
+        "category": "GoogleNews_ML",
+        "title": "GoogleNews ML",
+        "count": 100,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-GoogleNews_ML"
+      },
+      {
+        "category": "DeepMind",
+        "title": "DeepMind Blog",
+        "count": 100,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-DeepMind"
+      },
+      {
+        "category": "Towards",
+        "title": "Towards Data Science",
+        "count": 20,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-Towards"
+      },
+      {
+        "category": "TechCrunch_AI",
+        "title": "TechCrunch AI",
+        "count": 20,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-TechCrunch_AI"
+      },
+      {
+        "category": "Xataka",
+        "title": "Xataka IA",
+        "count": 10,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-Xataka"
+      },
+      {
+        "category": "KDnuggets",
+        "title": "KDnuggets",
+        "count": 10,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-KDnuggets"
+      },
+      {
+        "category": "MIT_AI",
+        "title": "MIT Tech Review AI",
+        "count": 10,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-MIT_AI"
+      },
+      {
+        "category": "MachineLearningMastery",
+        "title": "Machine Learning Mastery",
+        "count": 10,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-MachineLearningMastery"
+      }
+    ],
+    "pappers": [
+      {
+        "category": "arXiv_AI",
+        "title": "arXiv cs.AI",
+        "count": 363,
+        "isPriority": true,
+        "totalChunks": 13,
+        "chunkPrefix": "pappers-arXiv_AI"
+      },
+      {
+        "category": "arXiv_LG",
+        "title": "arXiv cs.LG",
+        "count": 317,
+        "isPriority": true,
+        "totalChunks": 11,
+        "chunkPrefix": "pappers-arXiv_LG"
+      }
+    ],
+    "youtube": [
+      {
+        "category": "YouTube_CodificandoBits",
+        "title": "Codificando Bits",
+        "count": 15,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "youtube-YouTube_CodificandoBits"
+      },
+      {
+        "category": "YouTube_DotCSV",
+        "title": "DotCSV",
+        "count": 15,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "youtube-YouTube_DotCSV"
+      },
+      {
+        "category": "YouTube_la_inteligencia_artificial",
+        "title": "La Inteligencia Artificial",
+        "count": 15,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "youtube-YouTube_la_inteligencia_artificial"
+      },
+      {
+        "category": "YouTube_DotCSV_Lab",
+        "title": "DotCSV Lab",
+        "count": 15,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "youtube-YouTube_DotCSV_Lab"
+      }
+    ]
+  }
+}
