@@ -311,3 +311,308 @@ def register_execution(db: DatabaseConnection, feeds_processed: int, feeds_inser
         return False
     finally:
         cursor.close()
+
+def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Genera metadata desde la base de datos con estadísticas de feeds.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        feeds_config: Lista de configuración de feeds del YAML
+
+    Returns:
+        Diccionario con metadata en el formato requerido
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return {}
+
+    try:
+        # Obtener total de items
+        total_query = "SELECT COUNT(*) as count FROM feeds"
+        cursor.execute(total_query)
+        total_items = cursor.fetchone()['count']
+
+        # Obtener conteo por tipo
+        type_query = """
+        SELECT sourceType as type, COUNT(*) as count
+        FROM feeds
+        GROUP BY sourceType
+        """
+        cursor.execute(type_query)
+        type_counts = {row['type']: row['count'] for row in cursor.fetchall()}
+
+        # Obtener conteo por categoría y tipo
+        category_query = """
+        SELECT sourceCategory as category, sourceTitle as title, sourceType as type, COUNT(*) as count
+        FROM feeds
+        GROUP BY sourceCategory, sourceTitle, sourceType
+        ORDER BY sourceType, count DESC
+        """
+        cursor.execute(category_query)
+        category_data = cursor.fetchall()
+
+        # Crear estructura de sources
+        sources = []
+        for feed in feeds_config:
+            sources.append({
+                "title": feed['title'],
+                "category": feed['category'],
+                "type": feed['sourceType']
+            })
+
+        # Crear estructura byType
+        by_type = {}
+        for source_type, count in type_counts.items():
+            items_per_chunk = 30
+            total_chunks = (count + items_per_chunk - 1) // items_per_chunk
+            by_type[source_type] = {
+                "totalItems": count,
+                "totalChunks": total_chunks,
+                "itemsPerChunk": items_per_chunk,
+                "chunkPrefix": f"{source_type}-all"
+            }
+
+        # Crear estructura categories
+        categories = {}
+        for row in category_data:
+            source_type = row['type']
+            if source_type not in categories:
+                categories[source_type] = []
+
+            items_per_chunk = 30
+            total_chunks = (row['count'] + items_per_chunk - 1) // items_per_chunk
+
+            categories[source_type].append({
+                "category": row['category'],
+                "title": row['title'],
+                "count": row['count'],
+                "isPriority": True,
+                "totalChunks": total_chunks,
+                "chunkPrefix": f"{source_type}-{row['category']}"
+            })
+
+        # Construir metadata completo
+        metadata = {
+            "totalItems": total_items,
+            "generatedAt": datetime.now().isoformat() + "Z",
+            "sources": sources,
+            "byType": by_type,
+            "categories": categories
+        }
+
+        return metadata
+
+    except Error as e:
+        log(f"❌ Error al generar metadata: {e}")
+        return {}
+    finally:
+        cursor.close()
+
+def get_all_source_types(db: DatabaseConnection) -> List[str]:
+    """
+    Obtiene todos los tipos de fuentes (sourceType) únicos de la base de datos.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+
+    Returns:
+        Lista de sourceTypes únicos
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return []
+
+    try:
+        query = "SELECT DISTINCT sourceType FROM feeds WHERE sourceType IS NOT NULL AND sourceType != ''"
+        cursor.execute(query)
+        results = cursor.fetchall()
+        return [row['sourceType'] for row in results]
+    except Error as e:
+        log(f"❌ Error al obtener tipos de fuentes: {e}")
+        return []
+    finally:
+        cursor.close()
+
+def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: int = None, offset: int = 0) -> List[Dict[str, Any]]:
+    """
+    Obtiene feeds por tipo de fuente (sourceType).
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        source_type: Tipo de fuente (notice, forum, pappers, youtube, etc.)
+        limit: Número máximo de resultados (None = todos)
+        offset: Offset para paginación
+
+    Returns:
+        Lista de diccionarios con los datos de los feeds
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return []
+
+    try:
+        if limit:
+            query = """
+            SELECT id, title, link, pubDate, description, author,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   content, image, created_at
+            FROM feeds
+            WHERE sourceType = %s
+            ORDER BY pubDate DESC
+            LIMIT %s OFFSET %s
+            """
+            cursor.execute(query, (source_type, limit, offset))
+        else:
+            query = """
+            SELECT id, title, link, pubDate, description, author,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   content, image, created_at
+            FROM feeds
+            WHERE sourceType = %s
+            ORDER BY pubDate DESC
+            """
+            cursor.execute(query, (source_type,))
+
+        results = cursor.fetchall()
+        return results
+    except Error as e:
+        log(f"❌ Error al obtener feeds de tipo {source_type}: {e}")
+        return []
+    finally:
+        cursor.close()
+
+def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str) -> int:
+    """
+    Obtiene el número de feeds de un sourceType específico.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        source_type: Tipo de fuente
+
+    Returns:
+        Número de feeds del tipo especificado
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return 0
+
+    try:
+        query = "SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s"
+        cursor.execute(query, (source_type,))
+        result = cursor.fetchone()
+        return result['count'] if result else 0
+    except Error as e:
+        log(f"❌ Error al contar feeds de tipo {source_type}: {e}")
+        return 0
+    finally:
+        cursor.close()
+
+def get_categories_by_source_type(db: DatabaseConnection, source_type: str) -> List[str]:
+    """
+    Obtiene todas las categorías únicas para un sourceType específico.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        source_type: Tipo de fuente
+
+    Returns:
+        Lista de categorías únicas
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return []
+
+    try:
+        query = """
+        SELECT DISTINCT sourceCategory
+        FROM feeds
+        WHERE sourceType = %s
+        AND sourceCategory IS NOT NULL
+        AND sourceCategory != ''
+        ORDER BY sourceCategory
+        """
+        cursor.execute(query, (source_type,))
+        results = cursor.fetchall()
+        return [row['sourceCategory'] for row in results]
+    except Error as e:
+        log(f"❌ Error al obtener categorías de tipo {source_type}: {e}")
+        return []
+    finally:
+        cursor.close()
+
+def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: str, category: str, limit: int = None, offset: int = 0) -> List[Dict[str, Any]]:
+    """
+    Obtiene feeds filtrados por sourceType y category.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        source_type: Tipo de fuente (notice, forum, pappers, youtube, etc.)
+        category: Categoría específica
+        limit: Número máximo de resultados (None = todos)
+        offset: Offset para paginación
+
+    Returns:
+        Lista de diccionarios con los datos de los feeds
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return []
+
+    try:
+        if limit:
+            query = """
+            SELECT id, title, link, pubDate, description, author,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   content, image, created_at
+            FROM feeds
+            WHERE sourceType = %s AND sourceCategory = %s
+            ORDER BY pubDate DESC
+            LIMIT %s OFFSET %s
+            """
+            cursor.execute(query, (source_type, category, limit, offset))
+        else:
+            query = """
+            SELECT id, title, link, pubDate, description, author,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   content, image, created_at
+            FROM feeds
+            WHERE sourceType = %s AND sourceCategory = %s
+            ORDER BY pubDate DESC
+            """
+            cursor.execute(query, (source_type, category))
+
+        results = cursor.fetchall()
+        return results
+    except Error as e:
+        log(f"❌ Error al obtener feeds de tipo {source_type} y categoría {category}: {e}")
+        return []
+    finally:
+        cursor.close()
+
+def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_type: str, category: str) -> int:
+    """
+    Obtiene el número de feeds para un sourceType y category específicos.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        source_type: Tipo de fuente
+        category: Categoría específica
+
+    Returns:
+        Número de feeds
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return 0
+
+    try:
+        query = "SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s AND sourceCategory = %s"
+        cursor.execute(query, (source_type, category))
+        result = cursor.fetchone()
+        return result['count'] if result else 0
+    except Error as e:
+        log(f"❌ Error al contar feeds de tipo {source_type} y categoría {category}: {e}")
+        return 0
+    finally:
+        cursor.close()

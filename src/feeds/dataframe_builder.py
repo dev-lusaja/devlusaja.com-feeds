@@ -5,6 +5,11 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any
 from utils.logger import log
+from dateutil import parser as date_parser
+from bs4 import BeautifulSoup
+from utils.arxiv import extract_abstract
+from utils.youtube import get_youtube_thumbnail
+from utils.xataka import extract_first_image
 
 def load_all_feeds(feeds_dir: str = "feeds_data") -> List[Dict[str, Any]]:
     """
@@ -44,6 +49,33 @@ def make_deterministic_uuid(fields: dict, namespace: uuid.UUID = uuid.NAMESPACE_
     name = json.dumps(fields, sort_keys=True, separators=(',', ':'))
     return str(uuid.uuid5(namespace, name))
 
+def standardize_pub_date(pub_date_str: str) -> str:
+    """
+    Estandariza el formato de fecha a ISO 8601 (YYYY-MM-DDTHH:MM:SS+00:00).
+
+    Maneja múltiples formatos de entrada:
+    - ISO 8601: "2025-10-17T15:33:24+00:00"
+    - RFC 2822: "Fri, 17 Oct 2025 00:00:00 -0400"
+    - RFC 2822 GMT: "Thu, 16 Oct 2025 08:20:00 GMT"
+
+    Args:
+        pub_date_str: Cadena de fecha en cualquier formato
+
+    Returns:
+        Fecha en formato ISO 8601 o cadena vacía si hay error
+    """
+    if not pub_date_str or pub_date_str.strip() == '':
+        return ''
+
+    try:
+        # dateutil.parser es muy flexible y maneja múltiples formatos automáticamente
+        parsed_date = date_parser.parse(pub_date_str)
+        # Retornar en formato ISO 8601 estándar
+        return parsed_date.isoformat()
+    except (ValueError, TypeError) as e:
+        log(f"⚠️ Error al parsear fecha '{pub_date_str}': {e}")
+        return pub_date_str  # Retornar la fecha original si falla el parseo
+
 def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
                        source_url: str, source_type: str) -> Dict[str, Any]:
     """
@@ -81,12 +113,19 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
     elif 'updated' in entry:
         pub_date = entry['updated']
 
+    # Estandarizar formato de fecha a ISO 8601
+    pub_date = standardize_pub_date(pub_date)
+
     # Extraer descripción/summary
     description = ''
     if 'summary' in entry:
         description = entry['summary']
     elif 'description' in entry:
         description = entry['description']
+
+    original_description = description # with html content
+    soup = BeautifulSoup(description, "html.parser")
+    description = soup.get_text(separator=" ", strip=True) # clean content
 
     # Extraer autor
     author = entry.get('author', 'Desconocido')
@@ -100,10 +139,31 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
 
     # Extraer imagen
     image = ''
-    if 'media_content' in entry and len(entry['media_content']) > 0:
-        image = entry['media_content'][0].get('url', '')
-    elif 'media_thumbnail' in entry and len(entry['media_thumbnail']) > 0:
-        image = entry['media_thumbnail'][0].get('url', '')
+
+    ####################
+    # CASOS ESPECIALES #
+    ####################
+
+    # CASO ESPECIAL: ArXiv (Pappers) - Extraer solo el abstract
+    if source_type == 'pappers' and category.lower().startswith('arxiv'):
+        description = extract_abstract(description)
+
+    # CASO ESPECIAL: YouTube - Construir URL del thumbnail desde el ID del video
+    if source_type == 'youtube':
+        # Intentar obtener el thumbnail de YouTube
+        original_entry_id = entry.get('id', '')
+        image = get_youtube_thumbnail(original_entry_id, link)
+
+    # CASO ESPECIAL: Xataka - obtener primera imagen
+    if source_type == 'notice' and category.lower() == 'xataka':
+        image = extract_first_image(original_description)
+
+    # Si no es YouTube o no se pudo obtener el thumbnail, usar métodos estándar
+    if not image:
+        if 'media_content' in entry and len(entry['media_content']) > 0:
+            image = entry['media_content'][0].get('url', '')
+        elif 'media_thumbnail' in entry and len(entry['media_thumbnail']) > 0:
+            image = entry['media_thumbnail'][0].get('url', '')
 
     return {
         'id': entry_id,
