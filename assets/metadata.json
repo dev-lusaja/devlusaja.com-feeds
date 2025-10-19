@@ -1,6 +1,6 @@
 {
-  "totalItems": 2531,
-  "generatedAt": "2025-10-17T22:44:51.066710Z",
+  "totalItems": 2796,
+  "generatedAt": "2025-10-18T21:31:28.195630Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -50,6 +50,16 @@
     {
       "title": "Hugging Face Blog",
       "category": "HuggingFace",
+      "type": "notice"
+    },
+    {
+      "title": "AWS Machine Learning Blog",
+      "category": "AWS_ML",
+      "type": "notice"
+    },
+    {
+      "title": "AWS Artificial Intelligence Blog",
+      "category": "AWS_AI",
       "type": "notice"
     },
     {
@@ -105,14 +115,14 @@
   ],
   "byType": {
     "forum": {
-      "totalItems": 80,
-      "totalChunks": 3,
+      "totalItems": 157,
+      "totalChunks": 6,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1711,
-      "totalChunks": 58,
+      "totalItems": 1899,
+      "totalChunks": 64,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
@@ -132,28 +142,28 @@
   "categories": {
     "forum": [
       {
-        "category": "Reddit_MachineLearning",
-        "title": "Reddit MachineLearning",
-        "count": 27,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "forum-Reddit_MachineLearning"
-      },
-      {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 27,
+        "count": 60,
         "isPriority": true,
-        "totalChunks": 1,
+        "totalChunks": 2,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
       },
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 26,
+        "count": 59,
         "isPriority": true,
-        "totalChunks": 1,
+        "totalChunks": 2,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
+      },
+      {
+        "category": "Reddit_MachineLearning",
+        "title": "Reddit MachineLearning",
+        "count": 38,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "forum-Reddit_MachineLearning"
       }
     ],
     "notice": [
@@ -176,17 +186,17 @@
       {
         "category": "GoogleNews_AI",
         "title": "GoogleNews AI",
-        "count": 100,
+        "count": 171,
         "isPriority": true,
-        "totalChunks": 4,
+        "totalChunks": 6,
         "chunkPrefix": "notice-GoogleNews_AI"
       },
       {
         "category": "GoogleNews_ML",
         "title": "GoogleNews ML",
-        "count": 100,
+        "count": 162,
         "isPriority": true,
-        "totalChunks": 4,
+        "totalChunks": 6,
         "chunkPrefix": "notice-GoogleNews_ML"
       },
       {
@@ -198,20 +208,44 @@
         "chunkPrefix": "notice-DeepMind"
       },
       {
+        "category": "TechCrunch_AI",
+        "title": "TechCrunch AI",
+        "count": 23,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-TechCrunch_AI"
+      },
+      {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 20,
+        "count": 22,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-Towards"
       },
       {
-        "category": "TechCrunch_AI",
-        "title": "TechCrunch AI",
+        "category": "AWS_AI",
+        "title": "AWS Artificial Intelligence Blog",
         "count": 20,
         "isPriority": true,
         "totalChunks": 1,
-        "chunkPrefix": "notice-TechCrunch_AI"
+        "chunkPrefix": "notice-AWS_AI"
+      },
+      {
+        "category": "MachineLearningMastery",
+        "title": "Machine Learning Mastery",
+        "count": 20,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-MachineLearningMastery"
+      },
+      {
+        "category": "AWS_ML",
+        "title": "AWS Machine Learning Blog",
+        "count": 20,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-AWS_ML"
       },
       {
         "category": "Xataka",
@@ -236,14 +270,6 @@
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-MIT_AI"
-      },
-      {
-        "category": "MachineLearningMastery",
-        "title": "Machine Learning Mastery",
-        "count": 10,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-MachineLearningMastery"
       }
     ],
     "pappers": [

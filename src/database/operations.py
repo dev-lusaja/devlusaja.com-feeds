@@ -616,3 +616,31 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         return 0
     finally:
         cursor.close()
+
+def update_feed_image(db: DatabaseConnection, feed_id: str, image_url: str) -> bool:
+    """
+    Actualiza el campo image de un feed específico.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        feed_id: ID del feed a actualizar
+        image_url: URL de la imagen a guardar
+
+    Returns:
+        True si se actualizó exitosamente, False en caso contrario
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return False
+
+    try:
+        query = "UPDATE feeds SET image = %s WHERE id = %s"
+        cursor.execute(query, (image_url, feed_id))
+        db.commit()
+        return True
+    except Error as e:
+        log(f"❌ Error al actualizar imagen del feed {feed_id}: {e}")
+        db.rollback()
+        return False
+    finally:
+        cursor.close()

@@ -1,0 +1,230 @@
+#!/bin/bash
+# ===============================================
+# 🎯 Script centralizado para gestionar feeds
+# ===============================================
+
+# Colores para output
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+RED='\033[0;31m'
+CYAN='\033[0;36m'
+NC='\033[0m' # Sin color
+
+# Banner
+print_banner() {
+    echo -e "${CYAN}"
+    echo "╔════════════════════════════════════════════════╗"
+    echo "║     🚀 FEEDS MANAGER - Menu Principal         ║"
+    echo "╚════════════════════════════════════════════════╝"
+    echo -e "${NC}"
+}
+
+# Mostrar menú
+show_menu() {
+    echo -e "${BLUE}Selecciona una opción:${NC}\n"
+    echo -e "  ${GREEN}1)${NC} 📥 Recolectar feeds (normal)"
+    echo -e "  ${GREEN}2)${NC} 🔄 Recolectar feeds (forzar descarga del día)"
+    echo -e "  ${GREEN}3)${NC} 🖼️  Post-procesar imágenes (todas las categorías notice)"
+    echo -e "  ${GREEN}4)${NC} 🖼️  Post-procesar imágenes (personalizado)"
+    echo -e "  ${GREEN}5)${NC} 🔄 Regenerar todos los assets JSON desde BD"
+    echo -e "  ${GREEN}6)${NC} 🗄️  Iniciar solo MySQL"
+    echo -e "  ${GREEN}7)${NC} 🛑 Detener MySQL"
+    echo -e "  ${GREEN}8)${NC} 📊 Ver logs de MySQL"
+    echo -e "  ${GREEN}0)${NC} ❌ Salir"
+    echo ""
+}
+
+# Verificar .env
+check_env() {
+    if [ ! -f .env ]; then
+        echo -e "${YELLOW}⚠️  No se encontró .env, copiando desde .env.example...${NC}"
+        cp .env.example .env
+        echo -e "${GREEN}✅ Archivo .env creado. Por favor, revisa y ajusta las variables.${NC}"
+    fi
+
+    # Cargar variables de entorno
+    if [ -f .env ]; then
+        set -a
+        source .env
+        set +a
+    fi
+}
+
+# Iniciar MySQL
+start_mysql() {
+    echo -e "${GREEN}🐳 Iniciando MySQL...${NC}"
+    docker compose -f docker/docker-compose.yml up -d mysql
+    echo -e "${GREEN}⏳ Esperando a que MySQL esté listo...${NC}"
+    sleep 10
+    echo -e "${GREEN}✅ MySQL iniciado${NC}"
+}
+
+# Detener MySQL
+stop_mysql() {
+    echo -e "${YELLOW}🛑 Deteniendo MySQL...${NC}"
+    docker compose -f docker/docker-compose.yml down
+    echo -e "${GREEN}✅ MySQL detenido${NC}"
+}
+
+# Ver logs de MySQL
+show_mysql_logs() {
+    echo -e "${GREEN}📊 Mostrando logs de MySQL (Ctrl+C para salir)...${NC}"
+    docker compose -f docker/docker-compose.yml logs -f mysql
+}
+
+# Ejecutar recolector de feeds
+run_feeds() {
+    local force_arg="$1"
+
+    check_env
+    start_mysql
+
+    echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
+    docker compose -f docker/docker-compose.yml build feed_collector
+
+    echo -e "${GREEN}🚀 Ejecutando el recolector de feeds...${NC}"
+    FORCE_ARG="$force_arg" docker compose -f docker/docker-compose.yml up feed_collector
+
+    echo -e "${GREEN}🧹 Limpiando contenedor del feed collector...${NC}"
+    docker compose -f docker/docker-compose.yml rm -f feed_collector
+
+    echo -e "${GREEN}✅ Proceso completado. Los feeds están en ./feeds_data${NC}"
+    echo -e "${GREEN}📋 Metadata generado en ./assets/metadata.json${NC}"
+}
+
+# Post-procesar imágenes
+postprocess_images() {
+    local source_type="$1"
+    local category="$2"
+    local all_flag="$3"
+    local limit="$4"
+
+    check_env
+
+    # Verificar si MySQL está corriendo
+    if ! docker ps | grep -q feeds_mysql; then
+        echo -e "${YELLOW}⚠️  MySQL no está corriendo. Iniciándolo...${NC}"
+        start_mysql
+    fi
+
+    echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
+    docker compose -f docker/docker-compose.yml build feed_collector
+
+    # Construir comando
+    local cmd="python src/feed_postprocess_images.py --source-type $source_type"
+
+    if [ "$all_flag" == "true" ]; then
+        cmd="$cmd --all"
+    elif [ -n "$category" ]; then
+        cmd="$cmd --category $category"
+    fi
+
+    if [ -n "$limit" ]; then
+        cmd="$cmd --limit $limit"
+    fi
+
+    echo -e "${GREEN}🖼️  Ejecutando post-procesamiento de imágenes...${NC}"
+    echo -e "${CYAN}Comando: $cmd${NC}\n"
+
+    docker compose -f docker/docker-compose.yml run --rm feed_collector sh -c "$cmd"
+
+    echo -e "${GREEN}✅ Post-procesamiento completado${NC}"
+}
+
+# Menú de post-procesamiento personalizado
+custom_postprocess_menu() {
+    echo ""
+    echo -e "${BLUE}Post-procesamiento personalizado:${NC}\n"
+
+    read -p "Source Type (por defecto: notice): " source_type
+    source_type=${source_type:-notice}
+
+    read -p "Category (deja vacío para todas): " category
+
+    read -p "Límite de feeds (deja vacío para todos): " limit
+
+    echo ""
+
+    if [ -z "$category" ]; then
+        postprocess_images "$source_type" "" "true" "$limit"
+    else
+        postprocess_images "$source_type" "$category" "false" "$limit"
+    fi
+}
+
+# Regenerar todos los assets JSON desde la BD
+regenerate_assets() {
+    check_env
+
+    # Verificar si MySQL está corriendo
+    if ! docker ps | grep -q feeds_mysql; then
+        echo -e "${YELLOW}⚠️  MySQL no está corriendo. Iniciándolo...${NC}"
+        start_mysql
+    fi
+
+    echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
+    docker compose -f docker/docker-compose.yml build feed_collector
+
+    echo -e "${GREEN}🔄 Regenerando todos los assets JSON desde la base de datos...${NC}\n"
+
+    docker compose -f docker/docker-compose.yml run --rm feed_collector python src/regenerate_assets.py
+
+    echo -e "${GREEN}✅ Regeneración completada${NC}"
+}
+
+# Loop principal
+main() {
+    while true; do
+        clear
+        print_banner
+        show_menu
+
+        read -p "Opción: " option
+        echo ""
+
+        case $option in
+            1)
+                echo -e "${GREEN}📥 Iniciando recolección de feeds...${NC}\n"
+                run_feeds ""
+                ;;
+            2)
+                echo -e "${YELLOW}🔄 Forzando descarga de feeds del día...${NC}\n"
+                run_feeds "--force"
+                ;;
+            3)
+                echo -e "${GREEN}🖼️  Post-procesando todas las categorías notice...${NC}\n"
+                postprocess_images "notice" "" "true" ""
+                ;;
+            4)
+                custom_postprocess_menu
+                ;;
+            5)
+                echo -e "${CYAN}🔄 Regenerando assets JSON desde BD...${NC}\n"
+                regenerate_assets
+                ;;
+            6)
+                start_mysql
+                ;;
+            7)
+                stop_mysql
+                ;;
+            8)
+                show_mysql_logs
+                ;;
+            0)
+                echo -e "${CYAN}👋 ¡Hasta luego!${NC}"
+                exit 0
+                ;;
+            *)
+                echo -e "${RED}❌ Opción inválida${NC}"
+                ;;
+        esac
+
+        echo ""
+        read -p "Presiona Enter para continuar..."
+    done
+}
+
+# Ejecutar menú principal
+main
