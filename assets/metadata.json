@@ -1,6 +1,6 @@
 {
-  "totalItems": 2796,
-  "generatedAt": "2025-10-18T23:52:22.449104Z",
+  "totalItems": 3045,
+  "generatedAt": "2025-10-19T11:49:56.723647Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -8,12 +8,12 @@
       "type": "notice"
     },
     {
-      "title": "OpenAI Blog",
+      "title": "OpenAI",
       "category": "OpenAI",
       "type": "notice"
     },
     {
-      "title": "DeepMind Blog",
+      "title": "DeepMind",
       "category": "DeepMind",
       "type": "notice"
     },
@@ -33,13 +33,13 @@
       "type": "notice"
     },
     {
-      "title": "GoogleNews AI",
-      "category": "GoogleNews_AI",
+      "title": "GoogleNews",
+      "category": "GoogleNews",
       "type": "notice"
     },
     {
-      "title": "GoogleNews ML",
-      "category": "GoogleNews_ML",
+      "title": "GoogleNews",
+      "category": "GoogleNews",
       "type": "notice"
     },
     {
@@ -48,23 +48,33 @@
       "type": "notice"
     },
     {
-      "title": "Hugging Face Blog",
+      "title": "HuggingFace",
       "category": "HuggingFace",
       "type": "notice"
     },
     {
-      "title": "AWS Machine Learning Blog",
-      "category": "AWS_ML",
+      "title": "AWS",
+      "category": "AWS",
       "type": "notice"
     },
     {
-      "title": "AWS Artificial Intelligence Blog",
-      "category": "AWS_AI",
+      "title": "AWS",
+      "category": "AWS",
       "type": "notice"
     },
     {
       "title": "Towards Data Science",
       "category": "Towards",
+      "type": "notice"
+    },
+    {
+      "title": "Nvidia",
+      "category": "Nvidia",
+      "type": "notice"
+    },
+    {
+      "title": "Nvidia",
+      "category": "Nvidia",
       "type": "notice"
     },
     {
@@ -115,14 +125,14 @@
   ],
   "byType": {
     "forum": {
-      "totalItems": 157,
-      "totalChunks": 6,
+      "totalItems": 206,
+      "totalChunks": 7,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1899,
-      "totalChunks": 64,
+      "totalItems": 2099,
+      "totalChunks": 70,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
@@ -144,23 +154,23 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 60,
+        "count": 84,
         "isPriority": true,
-        "totalChunks": 2,
+        "totalChunks": 3,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
       },
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 59,
+        "count": 81,
         "isPriority": true,
-        "totalChunks": 2,
+        "totalChunks": 3,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 38,
+        "count": 41,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -169,7 +179,7 @@
     "notice": [
       {
         "category": "OpenAI",
-        "title": "OpenAI Blog",
+        "title": "OpenAI",
         "count": 691,
         "isPriority": true,
         "totalChunks": 24,
@@ -177,35 +187,59 @@
       },
       {
         "category": "HuggingFace",
-        "title": "Hugging Face Blog",
+        "title": "HuggingFace",
         "count": 640,
         "isPriority": true,
         "totalChunks": 22,
         "chunkPrefix": "notice-HuggingFace"
       },
       {
-        "category": "GoogleNews_AI",
-        "title": "GoogleNews AI",
-        "count": 171,
+        "category": "GoogleNews",
+        "title": "GoogleNews",
+        "count": 423,
         "isPriority": true,
-        "totalChunks": 6,
-        "chunkPrefix": "notice-GoogleNews_AI"
-      },
-      {
-        "category": "GoogleNews_ML",
-        "title": "GoogleNews ML",
-        "count": 162,
-        "isPriority": true,
-        "totalChunks": 6,
-        "chunkPrefix": "notice-GoogleNews_ML"
+        "totalChunks": 15,
+        "chunkPrefix": "notice-GoogleNews"
       },
       {
         "category": "DeepMind",
-        "title": "DeepMind Blog",
+        "title": "DeepMind",
         "count": 100,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-DeepMind"
+      },
+      {
+        "category": "Nvidia",
+        "title": "Nvidia",
+        "count": 100,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-Nvidia"
+      },
+      {
+        "category": "AWS",
+        "title": "AWS",
+        "count": 40,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "notice-AWS"
+      },
+      {
+        "category": "MachineLearningMastery",
+        "title": "Machine Learning Mastery",
+        "count": 24,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-MachineLearningMastery"
+      },
+      {
+        "category": "Towards",
+        "title": "Towards Data Science",
+        "count": 24,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-Towards"
       },
       {
         "category": "TechCrunch_AI",
@@ -216,41 +250,9 @@
         "chunkPrefix": "notice-TechCrunch_AI"
       },
       {
-        "category": "Towards",
-        "title": "Towards Data Science",
-        "count": 22,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-Towards"
-      },
-      {
-        "category": "AWS_AI",
-        "title": "AWS Artificial Intelligence Blog",
-        "count": 20,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-AWS_AI"
-      },
-      {
-        "category": "MachineLearningMastery",
-        "title": "Machine Learning Mastery",
-        "count": 20,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-MachineLearningMastery"
-      },
-      {
-        "category": "AWS_ML",
-        "title": "AWS Machine Learning Blog",
-        "count": 20,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-AWS_ML"
-      },
-      {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 10,
+        "count": 14,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-Xataka"
