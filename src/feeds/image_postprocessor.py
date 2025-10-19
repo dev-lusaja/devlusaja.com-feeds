@@ -62,7 +62,6 @@ def extract_first_image_from_url(
 
         # Caso especial: Towards con sourceType notice
         if source_type == 'notice' and category == 'Towards':
-            log(f"   🎯 Buscando imagen con clase 'attachment-post-thumbnail' (Towards)")
             towards_img = soup.find('img', class_='attachment-post-thumbnail')
             if towards_img and towards_img.get('src'):
                 img_src = towards_img['src']
@@ -72,10 +71,7 @@ def extract_first_image_from_url(
                 elif img_src.startswith('/'):
                     from urllib.parse import urljoin
                     img_src = urljoin(url, img_src)
-                log(f"   ✅ Imagen encontrada en attachment-post-thumbnail")
                 return img_src
-            else:
-                log(f"   ⚠️ No se encontró imagen con clase 'attachment-post-thumbnail'")
 
         # 1. Buscar Open Graph image
         og_image = soup.find('meta', property='og:image')
