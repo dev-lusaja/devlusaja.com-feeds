@@ -45,7 +45,7 @@ services:
       - DB_NAME=${MYSQL_DATABASE:-feeds_db}
       - DB_USER=${MYSQL_USER:-feeds_user}
       - DB_PASSWORD=${MYSQL_PASSWORD:-feeds_password}
-    command: sh -c "python src/main.py ${FORCE_ARG}"
+    command: sh -c "python src/feed_fetcher.py ${FORCE_ARG}"
     networks:
       - feeds_network
     restart: "no"

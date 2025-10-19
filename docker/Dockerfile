@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 COPY src ./src
 COPY feeds_config.yaml .
 
-CMD ["python", "src/main.py"]
+CMD ["python", "src/feed_fetcher.py"]
