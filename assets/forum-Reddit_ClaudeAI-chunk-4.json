@@ -1,0 +1,58 @@
+[
+  {
+    "id": "6e5afbb7-9dcf-583a-8192-ffbd5f268fda",
+    "title": "It's not just \"Skills\" - Claude now has a full Linux development environment built-in",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1o8uhns/its_not_just_skills_claude_now_has_a_full_linux/",
+    "pubDate": "2025-10-17T07:03:31+00:00",
+    "description": "I feel like this whole \"Skills\" announcement really buried the lede. You also have a full on user_data directory to instruct Claude to use as you wish. Not to mention that what's installed in Claude's sandbox goes beyond what you might expect. No internet connectivity, but the Python packages installed go well beyond the \"just Numpy and Pandas\" you might expect, these sandboxes have a bunch of nonstandard stuff: Playwright (browser automation), beautifulsoup & other parsing libraries, libraries for generating MS office and a bunch more. Try asking Claude \"hey, write yourself as script that investigates what python packages you have installed, then run it\" - see for yourself what comes up submitted by /u/ascendant23 [link] [comments]",
+    "author": "/u/ascendant23",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I feel like this whole &quot;Skills&quot; announcement really buried the lede. You also have a full on user_data directory to instruct Claude to use as you wish. Not to mention that what's installed in Claude's sandbox goes beyond what you might expect. No internet connectivity, but the Python packages installed go well beyond the &quot;just Numpy and Pandas&quot; you might expect, these sandboxes have a bunch of nonstandard stuff: Playwright (browser automation), beautifulsoup &amp; other parsing libraries, libraries for generating MS office and a bunch more. Try asking Claude &quot;hey, write yourself as script that investigates what python packages you have installed, then run it&quot; - see for yourself what comes up</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ascendant23\"> /u/ascendant23 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o8uhns/its_not_just_skills_claude_now_has_a_full_linux/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o8uhns/its_not_just_skills_claude_now_has_a_full_linux/\">[comments]</a></span>",
+    "image": ""
+  },
+  {
+    "id": "4eefea1f-bae6-58cf-b03a-75e483c9d0d2",
+    "title": "Turn off your MCPs",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1o8rt7i/turn_off_your_mcps/",
+    "pubDate": "2025-10-17T04:24:25+00:00",
+    "description": "If you're not actively using them your context, they are eating up a ton of your window. The chrome tools MCP alone eats up 10% of you context in every conversation. These tools are great when you need them but are quite expensive in terms of tokens. submitted by /u/ansmo [link] [comments]",
+    "author": "/u/ansmo",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>If you're not actively using them your context, they are eating up a ton of your window. The chrome tools MCP alone eats up <strong>10%</strong> of you context in every conversation. These tools are great when you need them but are quite expensive in terms of tokens.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ansmo\"> /u/ansmo </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o8rt7i/turn_off_your_mcps/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o8rt7i/turn_off_your_mcps/\">[comments]</a></span>",
+    "image": ""
+  },
+  {
+    "id": "7801da03-6c5d-5842-9d78-acb07b82ddac",
+    "title": "Claude can now use Skills",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1o8af9q/claude_can_now_use_skills/",
+    "pubDate": "2025-10-16T16:12:56+00:00",
+    "description": "Skills are how you turn your institutional knowledge into automatic workflows. You know what works—the way you structure reports, analyze data, communicate with clients. Skills let you capture that approach once. Then, Claude applies it automatically whenever it's relevant. Build a Skill for how you structure quarterly reports, and every report follows your methodology. Create one for client communication standards, and Claude maintains consistency across every interaction. Available now for all paid plans. Enable Skills and build your own in Settings > Capabilities > Skills. Read more: https://www.anthropic.com/news/skills For the technical deep-dive: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills submitted by /u/ClaudeOfficial [link] [comments]",
+    "author": "/u/ClaudeOfficial",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o8af9q/claude_can_now_use_skills/\"> <img alt=\"Claude can now use Skills\" src=\"https://external-preview.redd.it/MjY1aWczbmV3aHZmMZSgCifrbZSCmuTMqIXvI-WyB8vxPE-CCmt4QWXYCM4T.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5a6f40c47a0e44ecc0e848046d75e8ce09232257\" title=\"Claude can now use Skills\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Skills are how you turn your institutional knowledge into automatic workflows. </p> <p>You know what works—the way you structure reports, analyze data, communicate with clients. Skills let you capture that approach once. Then, Claude applies it automatically whenever it's relevant.</p> <p>Build a Skill for how you structure quarterly reports, and every report follows your methodology. Create one for client communication standards, and Claude maintains consistency across every interaction.</p> <p>Available now for all paid plans. </p> <p>Enable Skills and build your own in Settings &gt; Capabilities &gt; Skills.</p> <p>Read more: <a href=\"https://www.anthropic.com/news/skills\">https://www.anthropic.com/news/skills</a></p> <p>For the technical deep-dive: <a href=\"https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills\">https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://v.redd.it/d36u92newhvf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o8af9q/claude_can_now_use_skills/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/MjY1aWczbmV3aHZmMZSgCifrbZSCmuTMqIXvI-WyB8vxPE-CCmt4QWXYCM4T.png?width=640&crop=smart&auto=webp&s=5a6f40c47a0e44ecc0e848046d75e8ce09232257"
+  },
+  {
+    "id": "42eed2bf-4743-54d3-b519-b1fe6566ba1a",
+    "title": "Usage Limits Discussion Megathread - beginning October 8, 2025",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1o1wrrf/usage_limits_discussion_megathread_beginning/",
+    "pubDate": "2025-10-09T04:30:57+00:00",
+    "description": "This Megathread is a continuation of the discussion of your thoughts, concerns and suggestions about the changes involving the Weekly Usage Limits implemented alongside the recent Claude 4.5 release. Please help us keep all your feedback in one place so we can prepare a report for Anthropic's consideration about readers' suggestions, complaints and feedback. This also helps us to free the feed for other discussion. For discussion about recent Claude performance and bug reports, please use the Weekly Performance Megathread instead. Please try to be as constructive as possible and include as much evidence as possible. Be sure to include what plan you are on. Feel free to link out to images. Recent related Anthropic announcement : https://www.reddit.com/r/ClaudeAI/comments/1ntq8tv/introducing_claude_usage_limit_meter/ Original Anthropic announcement here: https://www.reddit.com/r/ClaudeAI/comments/1mbo1sb/updating_rate_limits_for_claude_subscription/ Anthropic's update on usage limits post here : https://www.reddit.com/r/ClaudeAI/comments/1nvnafs/update_on_usage_limits/ Last week's Megathread: https://www.reddit.com/r/ClaudeAI/comments/1nu9wew/usage_limits_discussion_megathread_beginning_sep/ Megathread's response to Anthropic's usage limits update post here: https://www.reddit.com/r/ClaudeAI/comments/1o1wn34/megathreads_response_to_anthropics_post_update_on/ submitted by /u/sixbillionthsheep [link] [comments]",
+    "author": "/u/sixbillionthsheep",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>This Megathread is a continuation of the discussion of your thoughts, concerns and suggestions about the changes involving the <strong>Weekly Usage Limits</strong> implemented alongside the recent Claude 4.5 release. Please help us keep all your feedback in one place so we can prepare a report for Anthropic's consideration about readers' suggestions, complaints and feedback. This also helps us to free the feed for other discussion. For discussion about recent Claude performance and bug reports, please use the <a href=\"https://www.reddit.com/r/ClaudeAI/wiki/performancemegathread/\">Weekly Performance Megathread</a> instead.</p> <p><strong>Please try to be as constructive as possible and include as much evidence as possible. Be sure to include what plan you are on. Feel free to link out to images.</strong></p> <p>Recent related Anthropic announcement : <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ntq8tv/introducing_claude_usage_limit_meter/\">https://www.reddit.com/r/ClaudeAI/comments/1ntq8tv/introducing_claude_usage_limit_meter/</a></p> <p>Original Anthropic announcement here: <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1mbo1sb/updating_rate_limits_for_claude_subscription/\">https://www.reddit.com/r/ClaudeAI/comments/1mbo1sb/updating_rate_limits_for_claude_subscription/</a></p> <p>Anthropic's update on usage limits post here : <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1nvnafs/update_on_usage_limits/\">https://www.reddit.com/r/ClaudeAI/comments/1nvnafs/update_on_usage_limits/</a></p> <p>Last week's Megathread: <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1nu9wew/usage_limits_discussion_megathread_beginning_sep/\">https://www.reddit.com/r/ClaudeAI/comments/1nu9wew/usage_limits_discussion_megathread_beginning_sep/</a></p> <hr /> <h1>Megathread's response to Anthropic's usage limits update post here:</h1> <p><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o1wn34/megathreads_response_to_anthropics_post_update_on/\">https://www.reddit.com/r/ClaudeAI/comments/1o1wn34/megathreads_response_to_anthropics_post_update_on/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sixbillionthsheep\"> /u/sixbillionthsheep </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o1wrrf/usage_limits_discussion_megathread_beginning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o1wrrf/usage_limits_discussion_megathread_beginning/\">[comments]</a></span>",
+    "image": ""
+  }
+]
