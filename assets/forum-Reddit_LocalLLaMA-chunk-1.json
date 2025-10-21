@@ -1,5 +1,80 @@
 [
   {
+    "id": "701b9c49-315d-5642-bd0b-ac2ad4add2c6",
+    "title": "Which LLM to use to replace Gemma3?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obgdae/which_llm_to_use_to_replace_gemma3/",
+    "pubDate": "2025-10-20T11:20:25+00:00",
+    "description": "I build a complex program that uses Gemma 3 27b to add a memory node graph, drives, emotions, goals, needs, identity, dreaming onto it, but I'm still using Gemma 3 to run the whole thing. Is there any non-thinking LLM as of now that I can fully fit on my 3090 that can also handle complex JSON output and is good at conversations and would be an improvement? Here is a screenshot of the program Link to terminal output of the start sequence of the program and a single reply generation submitted by /u/PSInvader [link] [comments]",
+    "author": "/u/PSInvader",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I build a complex program that uses Gemma 3 27b to add a memory node graph, drives, emotions, goals, needs, identity, dreaming onto it, but I'm still using Gemma 3 to run the whole thing.</p> <p>Is there any non-thinking LLM as of now that I can fully fit on my 3090 that can also handle complex JSON output and is good at conversations and would be an improvement?</p> <p><a href=\"https://i.imgur.com/DAPRDNQ.png\">Here is a screenshot of the program</a></p> <p><a href=\"https://pastes.io/cognitive-architecture-initialization-log-for-memtest\">Link to terminal output of the start sequence of the program and a single reply generation</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PSInvader\"> /u/PSInvader </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obgdae/which_llm_to_use_to_replace_gemma3/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obgdae/which_llm_to_use_to_replace_gemma3/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ef807b1c-9bd7-5e31-9e7f-895164d18d37",
+    "title": "Is Meta done with open-source Llama releases?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases/",
+    "pubDate": "2025-10-20T11:19:17+00:00",
+    "description": "Was cleaning up my local LM stacks and noticed all the old Llama models I had. Brought back memories of how much fun they were — made me wonder, is Meta done releasing open-source models? submitted by /u/emimix [link] [comments]",
+    "author": "/u/emimix",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Was cleaning up my local LM stacks and noticed all the old Llama models I had. Brought back memories of how much fun they were — made me wonder, is Meta done releasing open-source models?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/emimix\"> /u/emimix </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obgci1/is_meta_done_with_opensource_llama_releases/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "3f7c5254-78c4-56ee-a8a3-6c8d1a76cbae",
+    "title": "Practical takeaways from recent hands-on use of PaddleOCR‑VL 0.9B",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obfwt9/practical_takeaways_from_recent_handson_use_of/",
+    "pubDate": "2025-10-20T10:50:26+00:00",
+    "description": "Bottom line up front: I care most about whether complex layouts can be restored into structured data, whether handwriting tables and formulas are stable, and local inference speed and cost. Paddleocr‑VL 0.9B feels purpose built for production, especially for multi column PDFs, table structures, and formulas. Cloud models like GPT‑4o and Gemini 2.5 Pro are more general for commonsense cross domain understanding and conversational interaction, but you need to factor in cost and privacy compliance. Scope and Constraints Task domain: Document parsing and OCR, including text, tables, formulas, handwriting, and chart annotations. Versions and sources: PaddleOCR‑VL 0.9B based on public materials and official demos. Baselines include GPT‑4o, Gemini 2.5 Pro, Mineru2.5, and dots.ocr using public information. On multi column complex layouts and whether they can be directly restored into structured data, which I value highly because it decides how much human cleanup downstream automation needs. Paddleocr‑VL takes an engineering first approach: a NaViT dynamic visual encoder plus a lightweight ERNIE, combining layout understanding with structured outputs. In my experience with academic PDFs and financial reports that mix multi columns, formulas, and footnotes, it less often produces results that look correct but have broken structure. If your core goal is structured outputs that minimize rework, the default path of Paddleocr‑VL is steadier. General VLMs can understand the content, but often need extra prompt engineering or postprocessing to guarantee structure. Handwriting, tables, and formulas: which is steadier? I would not claim any model absolutely dominates, but considering both recognition accuracy and structural usability together, PaddleOCR‑VL feels more production ready. It emphasizes strong performance on printed Chinese and English, handwritten English, and even Chinese handwriting and pinyin. Tables and formulas are traditional strengths of OCR systems, and emitting Markdown, html, or latex can save a lot of time. Cloud models are strong at formula inference and cross page linkage, but they sometimes output plausible looking yet misgridded or misaligned structures, which requires an extra verification pass. Multilingual support is a classic ocr topic. This generation of Paddleocr‑VL highlights coverage of 109 languages and continues the pp‑ocr family’s lightweight design without sacrificing multilingual capability. Traditional ocr recognition modules can even be kept within hundreds of megabytes. My hunch is that common European languages plus Chinese Japanese Korean pose no pressure, while long tail scripts and rare character sets depend on your data distribution, so it is best to pilot with a small batch first. I'm not an expert either; I'm just sharing as a newbie with everyone: If your goal is to extract multi column PDFs, reports, and papers into structured data in as close to one pass as possible, and you need to run extensively on an enterprise intranet or at the edge, prioritize Paddleocr‑VL. If you need to chat with documents, do cross domain summarization reasoning rewriting, and the volume is small with no hard privacy constraints, use GPT‑4o or Gemini 2.5 pro, then add some postprocessing for structure. If you already have Mineru2.5 or dots.ocr pipelines and costs are under control, there is no need to churn if production is good enough. If you must tackle complex layouts with structured export, run another head‑to‑head focusing on rework volume. Reference links https://huggingface.co/PaddlePaddle/PaddleOCR-VL https://github.com/PaddlePaddle/PaddleOCR https://aistudio.baidu.com/paddleocr submitted by /u/contportvas [link] [comments]",
+    "author": "/u/contportvas",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Bottom line up front: I care most about whether complex layouts can be restored into structured data, whether handwriting tables and formulas are stable, and local inference speed and cost. Paddleocr‑VL 0.9B feels purpose built for production, especially for multi column PDFs, table structures, and formulas. Cloud models like GPT‑4o and Gemini 2.5 Pro are more general for commonsense cross domain understanding and conversational interaction, but you need to factor in cost and privacy compliance.</p> <p>Scope and Constraints</p> <ol> <li>Task domain: Document parsing and OCR, including text, tables, formulas, handwriting, and chart annotations.</li> <li>Versions and sources: PaddleOCR‑VL 0.9B based on public materials and official demos. Baselines include GPT‑4o, Gemini 2.5 Pro, Mineru2.5, and dots.ocr using public information.</li> </ol> <p>On multi column complex layouts and whether they can be directly restored into structured data, which I value highly because it decides how much human cleanup downstream automation needs. Paddleocr‑VL takes an engineering first approach: a NaViT dynamic visual encoder plus a lightweight ERNIE, combining layout understanding with structured outputs. In my experience with academic PDFs and financial reports that mix multi columns, formulas, and footnotes, it less often produces results that look correct but have broken structure. If your core goal is structured outputs that minimize rework, the default path of Paddleocr‑VL is steadier. General VLMs can understand the content, but often need extra prompt engineering or postprocessing to guarantee structure.</p> <p>Handwriting, tables, and formulas: which is steadier? I would not claim any model absolutely dominates, but considering both recognition accuracy and structural usability together, PaddleOCR‑VL feels more production ready. It emphasizes strong performance on printed Chinese and English, handwritten English, and even Chinese handwriting and pinyin. Tables and formulas are traditional strengths of OCR systems, and emitting Markdown, html, or latex can save a lot of time. Cloud models are strong at formula inference and cross page linkage, but they sometimes output plausible looking yet misgridded or misaligned structures, which requires an extra verification pass.</p> <p>Multilingual support is a classic ocr topic. This generation of Paddleocr‑VL highlights coverage of 109 languages and continues the pp‑ocr family’s lightweight design without sacrificing multilingual capability. Traditional ocr recognition modules can even be kept within hundreds of megabytes. My hunch is that common European languages plus Chinese Japanese Korean pose no pressure, while long tail scripts and rare character sets depend on your data distribution, so it is best to pilot with a small batch first.</p> <p>I'm not an expert either; I'm just sharing as a newbie with everyone:</p> <ol> <li>If your goal is to extract multi column PDFs, reports, and papers into structured data in as close to one pass as possible, and you need to run extensively on an enterprise intranet or at the edge, prioritize Paddleocr‑VL.</li> <li>If you need to chat with documents, do cross domain summarization reasoning rewriting, and the volume is small with no hard privacy constraints, use GPT‑4o or Gemini 2.5 pro, then add some postprocessing for structure.</li> <li>If you already have Mineru2.5 or dots.ocr pipelines and costs are under control, there is no need to churn if production is good enough. If you must tackle complex layouts with structured export, run another head‑to‑head focusing on rework volume.</li> </ol> <p>Reference links</p> <ol> <li><a href=\"https://huggingface.co/PaddlePaddle/PaddleOCR-VL\">https://huggingface.co/PaddlePaddle/PaddleOCR-VL</a></li> <li><a href=\"https://github.com/PaddlePaddle/PaddleOCR\">https://github.com/PaddlePaddle/PaddleOCR</a></li> <li><a href=\"https://aistudio.baidu.com/paddleocr\">https://aistudio.baidu.com/paddleocr</a></li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/contportvas\"> /u/contportvas </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obfwt9/practical_takeaways_from_recent_handson_use_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obfwt9/practical_takeaways_from_recent_handson_use_of/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "5440a298-a83f-5991-bb22-8b21fe961414",
+    "title": "DAMN! Kimi K2 is 5x faster and more accurate than frontier proprietary models",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obftw9/damn_kimi_k2_is_5x_faster_and_more_accurate_than/",
+    "pubDate": "2025-10-20T10:33:42+00:00",
+    "description": "https://preview.redd.it/bw20aruc58wf1.png?width=1192&format=png&auto=webp&s=80ef4d2d3b6b194d08a290d37a68cd1f5bd072bb Guillermo Rauch ( Vercel CEO ) just shared benchmark results from their internal agent testing. That’s roughly 5× faster and 50% higher accuracy than the top proprietary models It’s wild to see open source models not just catching up but starting to outperform in both efficiency and accuracy. submitted by /u/nekofneko [link] [comments]",
+    "author": "/u/nekofneko",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obftw9/damn_kimi_k2_is_5x_faster_and_more_accurate_than/\"> <img alt=\"DAMN! Kimi K2 is 5x faster and more accurate than frontier proprietary models\" src=\"https://a.thumbs.redditmedia.com/07jxlZQFGtUtHiMuztBNSU_MiE3T0do53uVR780HIi0.jpg\" title=\"DAMN! Kimi K2 is 5x faster and more accurate than frontier proprietary models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/bw20aruc58wf1.png?width=1192&amp;format=png&amp;auto=webp&amp;s=80ef4d2d3b6b194d08a290d37a68cd1f5bd072bb\">https://preview.redd.it/bw20aruc58wf1.png?width=1192&amp;format=png&amp;auto=webp&amp;s=80ef4d2d3b6b194d08a290d37a68cd1f5bd072bb</a></p> <p>Guillermo Rauch (<strong>Vercel CEO</strong>) just shared benchmark results from their internal agent testing. That’s roughly <strong>5× faster</strong> and <strong>50% higher accuracy</strong> than the top proprietary models</p> <p>It’s wild to see open source models not just catching up but starting to outperform in both efficiency and accuracy.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nekofneko\"> /u/nekofneko </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obftw9/damn_kimi_k2_is_5x_faster_and_more_accurate_than/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obftw9/damn_kimi_k2_is_5x_faster_and_more_accurate_than/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://a.thumbs.redditmedia.com/07jxlZQFGtUtHiMuztBNSU_MiE3T0do53uVR780HIi0.jpg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "7643a2cb-0d92-5cdc-aebb-4528b35929c8",
+    "title": "DreamOmni2 — multimodal instruction-based editing & generation (web demo + code)",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obfodq/dreamomni2_multimodal_instructionbased_editing/",
+    "pubDate": "2025-10-20T09:55:55+00:00",
+    "description": "Open-source, unified model that uses text + reference images to do precise edits or full generations, including abstract attributes and multi-reference workflows. See the project page demos, try the HF Web demo, and grab code + weights. • Capabilities shown: object replacement, lighting/style transfer, pose/expression/hair edits, in-context & multi-reference examples. ￼ • Try it now: DreamOmni2-Edit Space on Hugging Face. ￼ https://huggingface.co/spaces/wcy1122/DreamOmni2-Edit https://github.com/dvlab-research/DreamOmni2 submitted by /u/freesysck [link] [comments]",
+    "author": "/u/freesysck",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Open-source, unified model that uses text + reference images to do precise edits or full generations, including abstract attributes and multi-reference workflows. See the project page demos, try the HF Web demo, and grab code + weights. • Capabilities shown: object replacement, lighting/style transfer, pose/expression/hair edits, in-context &amp; multi-reference examples. ￼ • Try it now: DreamOmni2-Edit Space on Hugging Face. ￼</p> <p><a href=\"https://huggingface.co/spaces/wcy1122/DreamOmni2-Edit\">https://huggingface.co/spaces/wcy1122/DreamOmni2-Edit</a></p> <p><a href=\"https://github.com/dvlab-research/DreamOmni2\">https://github.com/dvlab-research/DreamOmni2</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/freesysck\"> /u/freesysck </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obfodq/dreamomni2_multimodal_instructionbased_editing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obfodq/dreamomni2_multimodal_instructionbased_editing/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "145217b8-fa70-5473-99b7-61a016f8925e",
     "title": "Hands-on tutorial on fine-tuning Small Vision Models",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obexku/handson_tutorial_on_finetuning_small_vision_models/",
@@ -11,7 +86,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>In this repository you will learn how to build and deploy high-accuracy-and-low-latency image classifers into your phone using local Visual Language Models.</p> <p>We will use</p> <ul> <li>a sequence of increasingly complex classification tasks, to uncover step-by-step how to build highly-specialized image classification systems, tailored to your specific use case.</li> <li>the <a href=\"https://huggingface.co/collections/LiquidAI/lfm2-vl-68963bbc84a610f7638d5ffa\"><strong>LFM2-VL</strong> family of open-weight Visual Language Models (aka VLMs) by Liquid AI</a> to classify images for these tasks.</li> <li>the <a href=\"https://leap.liquid.ai/docs\"><strong>Leap Edge SDK</strong></a> for iOS to deploy the final models into an iOS app.</li> </ul> <p>Link to the github repo: <a href=\"https://github.com/Paulescu/image-classification-with-local-vlms\">https://github.com/Paulescu/image-classification-with-local-vlms</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PauLabartaBajo\"> /u/PauLabartaBajo </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obexku/handson_tutorial_on_finetuning_small_vision_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obexku/handson_tutorial_on_finetuning_small_vision_models/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "edb50834-e99b-50b0-bf37-c37293b63add",
@@ -25,7 +101,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obcm9r/deepseek_releases_deepseek_ocr/\"> <img alt=\"DeepSeek releases DeepSeek OCR\" src=\"https://external-preview.redd.it/ddlXXAanndfx0k3ivMcCdrEJtDQlMZs1JyMP8q81Yms.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=54c207b8079de2f72cbaafba0d28b87918c60e33\" title=\"DeepSeek releases DeepSeek OCR\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://huggingface.co/deepseek-ai/DeepSeek-OCR\">https://huggingface.co/deepseek-ai/DeepSeek-OCR</a></p> <p><a href=\"https://preview.redd.it/t4ji6agdn7wf1.png?width=2646&amp;format=png&amp;auto=webp&amp;s=f76bdf09e595fa18f0d701b98f9b0f3ed01ee5db\">https://preview.redd.it/t4ji6agdn7wf1.png?width=2646&amp;format=png&amp;auto=webp&amp;s=f76bdf09e595fa18f0d701b98f9b0f3ed01ee5db</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nekofneko\"> /u/nekofneko </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obcm9r/deepseek_releases_deepseek_ocr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obcm9r/deepseek_releases_deepseek_ocr/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ddlXXAanndfx0k3ivMcCdrEJtDQlMZs1JyMP8q81Yms.png?width=640&crop=smart&auto=webp&s=54c207b8079de2f72cbaafba0d28b87918c60e33"
+    "image": "https://external-preview.redd.it/ddlXXAanndfx0k3ivMcCdrEJtDQlMZs1JyMP8q81Yms.png?width=640&crop=smart&auto=webp&s=54c207b8079de2f72cbaafba0d28b87918c60e33",
+    "isShortVideo": 0
   },
   {
     "id": "1a816df0-f993-5c51-a5dc-6b5ccb0a0385",
@@ -39,7 +116,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Or something that goes against the general opinions of the community? Vibes are the only benchmark that counts after all.</p> <p>I tend to agree with the flow on most things <em>but</em> my thoughts that I'd consider going against the grain:</p> <ul> <li><p>QwQ was think-slop and was never <em>that</em> good</p></li> <li><p>Qwen3-32B is still SOTA for 32GB and under. I cannot get anything to reliably beat it despite shiny benchmarks</p></li> <li><p>Deepseek is still open-weight SotA. I've really tried Kimi, GLM, and Qwen3's larger variants but asking Deepseek still feels like asking the adult in the room. Caveat is GLM codes better</p></li> <li><p>(proprietary bonus): Grok4 handles news data better than Chatgpt5 or Gemini2.5 and will always win if you ask it about something that happened <em>that day</em>.</p></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ForsookComparison\"> /u/ForsookComparison </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obb4c4/what_are_your_rlocalllama_hottakes/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obb4c4/what_are_your_rlocalllama_hottakes/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "4da0b7b4-5709-5877-baf4-0719f4c13ef6",
@@ -53,7 +131,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>What happens when Chinese companies stop providing open source models? Good example would be Alibaba's WAN. It was open source until the last version WAN2.5, which is closed source and it costs money. What happens when they start doing this across the board? Edit: Qwen Max is another example </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/1BlueSpork\"> /u/1BlueSpork </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob9vvk/what_happens_when_chinese_companies_stop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob9vvk/what_happens_when_chinese_companies_stop/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "db9ea95c-69c6-517e-ab37-3ca5f60a77a6",
@@ -67,7 +146,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob9bli/how_i_built_lightningfast_vector_search_for_legal/\"> <img alt=\"How I Built Lightning-Fast Vector Search for Legal Documents\" src=\"https://external-preview.redd.it/yTyQwb8h92SADq3dGPHjZVD8A4qDhAKutT4IHEH7UFE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=71cacbcc942a0d80e2aee0bed02c52803264926a\" title=\"How I Built Lightning-Fast Vector Search for Legal Documents\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Neon0asis\"> /u/Neon0asis </a> <br /> <span><a href=\"https://medium.com/@adlumal/how-i-built-lightning-fast-vector-search-for-legal-documents-fbc3eaad55ea\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob9bli/how_i_built_lightningfast_vector_search_for_legal/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/yTyQwb8h92SADq3dGPHjZVD8A4qDhAKutT4IHEH7UFE.png?width=640&crop=smart&auto=webp&s=71cacbcc942a0d80e2aee0bed02c52803264926a"
+    "image": "https://external-preview.redd.it/yTyQwb8h92SADq3dGPHjZVD8A4qDhAKutT4IHEH7UFE.png?width=640&crop=smart&auto=webp&s=71cacbcc942a0d80e2aee0bed02c52803264926a",
+    "isShortVideo": 0
   },
   {
     "id": "276c51d5-6bc3-51f3-a590-3483195e1f8e",
@@ -81,7 +161,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob7q6m/nvidias_omnivinci_enhancing_architecture_and_data/\"> <img alt=\"Nvidia's OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM\" src=\"https://external-preview.redd.it/T8a1JuGOfWYN7yWqfBi5-bruC3MzoVLZu36ygPTxd0o.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=264bdb16d9e4730080c65c21ffa671e23a0de176\" title=\"Nvidia's OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ninjasaid13\"> /u/ninjasaid13 </a> <br /> <span><a href=\"https://huggingface.co/nvidia/omnivinci\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob7q6m/nvidias_omnivinci_enhancing_architecture_and_data/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/T8a1JuGOfWYN7yWqfBi5-bruC3MzoVLZu36ygPTxd0o.png?width=640&crop=smart&auto=webp&s=264bdb16d9e4730080c65c21ffa671e23a0de176"
+    "image": "https://external-preview.redd.it/T8a1JuGOfWYN7yWqfBi5-bruC3MzoVLZu36ygPTxd0o.png?width=640&crop=smart&auto=webp&s=264bdb16d9e4730080c65c21ffa671e23a0de176",
+    "isShortVideo": 0
   },
   {
     "id": "2c4c9fed-a6df-5785-8fc4-65ea3bc70ff7",
@@ -95,7 +176,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob6ydq/gigabyte_ai_top_atom_introduces_nvidia_grace/\"> <img alt=\"GIGABYTE AI TOP ATOM Introduces NVIDIA Grace Blackwell GB10 Performance for the Desktop\" src=\"https://external-preview.redd.it/9USPaHCqnaWZUhhwpPcmVYuxokNlKHBzm3mdxx2L9rE.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=5c5a9785f74812c007fd190cf17bd9645963730e\" title=\"GIGABYTE AI TOP ATOM Introduces NVIDIA Grace Blackwell GB10 Performance for the Desktop\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeliciousBelt9520\"> /u/DeliciousBelt9520 </a> <br /> <span><a href=\"https://linuxgizmos.com/gigabyte-ai-top-atom-introduces-nvidia-grace-blackwell-gb10-performance-for-the-desktop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob6ydq/gigabyte_ai_top_atom_introduces_nvidia_grace/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/9USPaHCqnaWZUhhwpPcmVYuxokNlKHBzm3mdxx2L9rE.png?width=320&crop=smart&auto=webp&s=5c5a9785f74812c007fd190cf17bd9645963730e"
+    "image": "https://external-preview.redd.it/9USPaHCqnaWZUhhwpPcmVYuxokNlKHBzm3mdxx2L9rE.png?width=320&crop=smart&auto=webp&s=5c5a9785f74812c007fd190cf17bd9645963730e",
+    "isShortVideo": 0
   },
   {
     "id": "23caeba7-a050-5f0c-a491-6384fd98ff22",
@@ -109,7 +191,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oavxt8/i_built_a_1b_cad_generator_model/\"> <img alt=\"I built a 1B CAD generator model\" src=\"https://external-preview.redd.it/ZGFhNmE0bzJ2M3dmMdhv6U5XLy0vFYTB3BWLA3H-O3YDxkmUtGbojZ8LN3lz.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a21d6d0c153a39bacb389fe42d52137134b86925\" title=\"I built a 1B CAD generator model\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>On a weekend, I decided to build a small language model to generate me 3d files. No reason except for pure curiosity. Here's what I did:</p> <p>- Gather dataset on OpenSCAD: This turns out to be quite bad because people's code quality is low &amp; in-consistent.</p> <p>- Generate synthetic data (prompt -&gt; openscad): This was the most wasteful per dollar part. I spent 150$+ on Claude API (70% are on reasoning token). Ended up using Gemma3-12b running in 48 hours continuously.</p> <p>- Finetune Gemma3-270M, 1B &amp; 4B: 270M lacks fundamental code &amp; object understanding and failed badly. 1B is a good balance between render-ability rate &amp; speed.</p> <p>Overall, I spent 150$ on Claude (totally wasted) &amp; 25$ on GPU. Both given as credits and grants.</p> <p>I also made a CLI app if you wanna try on Mac, Linux or Raspberry Pi 4/5: <a href=\"https://github.com/ThomasVuNguyen/MakeMe\">https://github.com/ThomasVuNguyen/MakeMe</a></p> <p>Models, dataset &amp; code:</p> <p><a href=\"https://github.com/ThomasVuNguyen/K\">https://github.com/ThomasVuNguyen/K</a></p> <p><a href=\"https://huggingface.co/collections/ThomasTheMaker/makeme-68f52281c3adf70d1e1dfe5b\">https://huggingface.co/collections/ThomasTheMaker/makeme-68f52281c3adf70d1e1dfe5b</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThomasPhilli\"> /u/ThomasPhilli </a> <br /> <span><a href=\"https://v.redd.it/pn0yo3o2v3wf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oavxt8/i_built_a_1b_cad_generator_model/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ZGFhNmE0bzJ2M3dmMdhv6U5XLy0vFYTB3BWLA3H-O3YDxkmUtGbojZ8LN3lz.png?width=640&crop=smart&auto=webp&s=a21d6d0c153a39bacb389fe42d52137134b86925"
+    "image": "https://external-preview.redd.it/ZGFhNmE0bzJ2M3dmMdhv6U5XLy0vFYTB3BWLA3H-O3YDxkmUtGbojZ8LN3lz.png?width=640&crop=smart&auto=webp&s=a21d6d0c153a39bacb389fe42d52137134b86925",
+    "isShortVideo": 0
   },
   {
     "id": "6a195301-1048-5970-91ef-372f42b0a5f1",
@@ -123,7 +206,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oau144/its_impossible_change_my_mind/\"> <img alt=\"Its Impossible, Change My Mind\" src=\"https://a.thumbs.redditmedia.com/-5N6Ro_ZEhjm5QoSv4CXqcRAybOfTp5MVUX-Zj2hFC0.jpg\" title=\"Its Impossible, Change My Mind\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>So........Many people say: Qwen models are benchmaxed, they can't be as great as the benchmarks say they are yada yada yada🗣️🗣️🗣️. And then those same people say: Well....they also think a lot.</p> <p>And im like.....what???? If these models are benchmaxed, then why are they using this many tokens??? They should just spit out the answer without thinking much coz they already know the answer to that question (apparently)</p> <p>An Ai model must be benchmaxed if they perform very very good in benchmarks but dont use massive amount of reasoning tokens. But thats not the case with most of the models. Like for example, Apriel 1.5 15b thinking is very small model, but performs very good in benchmarks. So was it benchmaxed???? No, coz it uses massive amount of reasoning tokens.</p> <p>I will update the title if someone changes my mind</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Brave-Hold-9389\"> /u/Brave-Hold-9389 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1oau144\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oau144/its_impossible_change_my_mind/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://a.thumbs.redditmedia.com/-5N6Ro_ZEhjm5QoSv4CXqcRAybOfTp5MVUX-Zj2hFC0.jpg"
+    "image": "https://a.thumbs.redditmedia.com/-5N6Ro_ZEhjm5QoSv4CXqcRAybOfTp5MVUX-Zj2hFC0.jpg",
+    "isShortVideo": 0
   },
   {
     "id": "246e80bc-7d97-56bb-b1a0-be39bf2b4fee",
@@ -137,7 +221,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>I have been experimenting for now on &quot;regular machines&quot; (aka with no GPU) and I want to start experimenting a bit. I want to start by experimenting. My priority is working with TTS engines like Chatterbox (<a href=\"https://github.com/resemble-ai/chatterbox\">https://github.com/resemble-ai/chatterbox</a>). Over all I am trying to figure out the hardware I should get to start learning and I am clueless. I learn more from playing then from reading docs. Can someone explain to me &quot;like I am five&quot; the quests below?</p> <ul> <li>How GPU's work when it comes to loading models? Like if the model I am loading needs 8GB then do I need a card that has at least 8GB on it to load it?</li> <li>If I want to run concurrent requests at once (say two requests at once) do I then need a card that has 16GB?</li> <li>Is it better get a system like a MAC that has unified memory or get multiple cards? Again my goal for now is concurrently TTS. I would like to branch into Speech to Text with the spare time that I have (when I am not generating TTS).</li> <li>What kind of cards should I look at? I have heard cards like the 4070, 3090 etc. but I am clueless where I start.</li> <li>Can anyone explain the differences in cards other than the memory capacity? Like how do I know the speed of the card and how does that matter for concurrency and speed of testing.</li> <li>How do I find out how much memory is needed (for instance for chatterbox). Do you look at the project and try to figure out what's needed or do you run it and find out what it takes?</li> <li>Would one of these cards work with a Zima board?</li> </ul> <p>For now I just want to experiment and test. I don't care so much about speed as I care about getting my feet wet and seeing what I can do. My current TTS bill with Google is about $150.00 per month and growing and I am wondering if it's time to get some GPU's and do it myself. I am also thinking about getting one of these (<a href=\"https://marketplace.nvidia.com/en-us/developer/dgx-spark/\">https://marketplace.nvidia.com/en-us/developer/dgx-spark/</a>) but based on this video (<a href=\"https://www.youtube.com/watch?v=FYL9e_aqZY0\">https://www.youtube.com/watch?v=FYL9e_aqZY0</a>) it seems like the bang per buck you get here is more for training. Side note: I have a pile Nvidia Jetsons' though I think they are only 2GB and doubt they can be of any use here.</p> <p>TIA.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dovi5988\"> /u/dovi5988 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oatzjf/n00b_looking_to_get_initial_hardware_to_play_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oatzjf/n00b_looking_to_get_initial_hardware_to_play_with/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "6b6fb614-cb44-524e-be74-16b41d1ac65a",
@@ -151,7 +236,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>If all this AI bubble talk really comes to an popa after all, how might this affect the development of more local AI models? From what I've seen MoE models still outperforms most models easily, but creating models is still expensive as shit, rather for the planet than their pocket, donation exists anyways.</p> <p>But the servers these models use to be trained consumes a shitton of load, and I could imagine most big company servers not allowing AI to be trained on their servers anymore considering the massive amounts of models being released every week. Do you think AI would immediately freeze in advancement upon a bubble pop making us have to wait more 80 years for an actual AGI?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WEREWOLF_BX13\"> /u/WEREWOLF_BX13 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oatip1/if_the_bubble_really_pops_how_can_that_affect/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oatip1/if_the_bubble_really_pops_how_can_that_affect/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "222da076-8cf4-51af-a22f-ceaeb9cf7389",
@@ -165,7 +251,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The title says it all. I'm looking to work with Rust, C/C++, Python and Assembly. </p> <p>Thank you in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MurazakiUsagi\"> /u/MurazakiUsagi </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oat6fh/best_current_model_for_programming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oat6fh/best_current_model_for_programming/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "6bc0647e-e8a6-5802-9754-4395d29dfddd",
@@ -179,7 +266,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We saw that most people in the past had very limited GPUs, and under the pretext of making AI more &quot;intelligent&quot; and &quot;accessible,&quot; you had the brilliant idea of ​​making larger models with the same performance as smaller models. And then you made the model &quot;think,&quot; filling your precious VRAM with a bunch of useless nonsense, only to end up with a very similar result. Later, we realized that all of this was just pure laziness and excessive savings from companies that didn't want to make their models smarter simply by improving their datasets and training methods. We laughed a lot here, but everything serves as a learning experience! Thank you! 🤣</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Substantial-Dig-8766\"> /u/Substantial-Dig-8766 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oasmnx/i_came_from_the_future_and_in_the_future_we_all/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oasmnx/i_came_from_the_future_and_in_the_future_we_all/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "f7d84e6b-b076-5058-af5d-502be5636695",
@@ -193,7 +281,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve tried Claude code, CLINE, continue, codex. I want to find the best local LLM based Claude code that I can run, have it debug and test/improve the code all by itself. I’ll be using OSS:120b or any recommended model for the DGX Spark, what are yalls recommendations?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huge-Solution-7168\"> /u/Huge-Solution-7168 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oash81/best_agentic_coder/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oash81/best_agentic_coder/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "56641260-8a42-5996-9d7f-f7c5af52ddb4",
@@ -207,7 +296,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oas6ki/same_banchmark_diff_results/\"> <img alt=\"Same banchmark, diff results?\" src=\"https://a.thumbs.redditmedia.com/t3yYkcIIgvIwZhhOflvRUt-lpf4cslCOMDzxbTUj8T8.jpg\" title=\"Same banchmark, diff results?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I wanted so see which model performs better in benches, ring mini 2.0 or gpt oss 20b (high). So, i searched for a direct comparison. I couldn't find it though, but what i did find was more interesting.</p> <p>The hugging face card for ring mini 2.0 shows a couple of benchmarks. Benchmarks of ring mini 2.0 vs gpt oss 20b (medium) vs qwen3 8b thinking. So i thought that this model (ring mini 2.0) aint that great coz they were comparing it with gpt oss 20b set to medium thinking budget (not high thinking budget) and a model half the size of ring mini 2.0 (qwen3 8b thinking).</p> <p>So i looked for benchmarks of gpt oss 20b (high), and i found this:</p> <p>Gpt oss 20b (medium) scorers 73.33 in AIME 25 (ring mini 2.0's model card) Gpt oss 20b (high) scores only 62 in AIME 25 (artificial intelligence analysis)</p> <p>Gpt oss 20b (medium) scorers 65.53 in GPQA Diamond (ring mini 2.0's model card) Gpt oss 20b (high) scorers only 62 in GPQA Diamond (artificial intelligence analysis)</p> <p>So, my questions are:</p> <p>1)Are these inconsistencies coz of faulty benchmarking or coz gpt oss 20b (medium) is actually better than gpt oss 20b (high) in some cases?</p> <p>2)Which one is actually better, ring mini 2.0 or gpt oss 20b (high).</p> <p>If there is a direct comparison than please share it.</p> <p>[Unsessary coz this is reasonable, high outperforming medium:</p> <p>Gpt oss 20b (medium) scorers 54.90 in LiveCodeBench (ring mini 2.0's model card) Gpt oss 20b (high) scores 57 in LiveCodeBench (artificial intelligence analysis)]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Brave-Hold-9389\"> /u/Brave-Hold-9389 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1oas6ki\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oas6ki/same_banchmark_diff_results/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://a.thumbs.redditmedia.com/t3yYkcIIgvIwZhhOflvRUt-lpf4cslCOMDzxbTUj8T8.jpg"
+    "image": "https://a.thumbs.redditmedia.com/t3yYkcIIgvIwZhhOflvRUt-lpf4cslCOMDzxbTUj8T8.jpg",
+    "isShortVideo": 0
   },
   {
     "id": "947bb3eb-948f-53e0-bce0-380c1326bd60",
@@ -221,7 +311,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey there I’m about to pull the trigger on this on Monday. Is there anything I’m not taking into account here?</p> <p>I currently have an 80TB SSD NAS, I’m debating going 25GbE for network so I can also use it for storage, and am considering adding an additional 7.68 or 15 NVMe U2/U3 SSD.</p> <p>Is there anything you’d consider adding here or anything obvious I’ve missed? Thanks. </p> <p>CPU: Ryzen Threadripper PRO 7985WX – 64C/128T, 3.2GHz base / 5.1GHz boost, 256MB L3 Cooler: AIO Liquid for SP3/TR4/TR5 RAM: 64GB DDR5 ECC REG 6400MT/s 512GB total</p> <p>Storage: 2TB M.2 NVMe (OS) 7.68TB U.2/U.3 NVMe Enterprise SSD 20TB 7200RPM SATA HDD (Enterprise) GPU: NVIDIA RTX PRO 6000 Blackwell Max-Q, 96GB GDDR7, 300W x 2 Networking: 2x 10GbE + 1x GbE IPMI Case: 240x580x560mm, supports 4x double-wide GPUs PCIe Layout: 6x PCIe 5.0 x16 + 1x PCIe 5.0 x8 Motherboard storage: 4x SATA, 4x M.2 NVMe, 2x SlimSAS U.2/U.3</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Direct_Bodybuilder63\"> /u/Direct_Bodybuilder63 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oas343/build_advice_rtx_6000_7985wx/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oas343/build_advice_rtx_6000_7985wx/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "800169fb-5798-5ccb-b3ae-a0dd1a73b027",
@@ -235,7 +326,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://docs.modaic.dev/\">https://docs.modaic.dev/</a></p> <p>My friend and I built Modaic, an open source, RL native Agent Development Kit on top of DSPy.</p> <p>We've been building agents for a while now and have deployed several to production. Like the creators of Atomic Agents, I've found that most ADKs (LangChain, CrewAI, etc.) abstract away too much, preventing devs from making necessary optimizations.</p> <p>At the same time, I believe ADKs that are too low-level sacrifice maintainability and explainability. I resonate more with DSPy's philosophy: treat the LLM as a CPU and the ADK as a compiler that translates human intent into LLM execution. This essentially means prompts <em>should</em> be abstracted. Not as hardcoded strings buried in the library, but as declarative, self-improving parameters optimized for your agent via RL.</p> <p>That's why my friend and I built Modaic on top of DSPy. We added extensive context engineering tools (Context class, GraphDB, VectorDB, SQLDB, etc). We also added a hub for sharing and downloading pre-optimized agents for specific tasks such as text-2-sql. There are a few up there already! You can see them here: <a href=\"https://www.modaic.dev/agents\">https://www.modaic.dev/agents</a></p> <p>We're still early, but we'd really appreciate any feedback (love or hate).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Disneyskidney\"> /u/Disneyskidney </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oarzhf/modaic_a_new_rl_native_agent_development_kit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oarzhf/modaic_a_new_rl_native_agent_development_kit/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "cc9bcab7-e453-56bd-82d2-e85dd008ade8",
@@ -249,7 +341,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oarkn3/i_am_generally_impressed_by_iphone_17_gpu/\"> <img alt=\"I am generally impressed by iPhone 17 GPU\" src=\"https://external-preview.redd.it/bHkzd2twcGkwM3dmMdYUh878AlpOQDz4eE-1IUAASsN5-1iGTSJV8Fv1Kuhw.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=182ac263223acd4366fff9b131c07961a7377440\" title=\"I am generally impressed by iPhone 17 GPU\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Qwen3 4B runs at ~25t/s on A19 Pro with MLX. This is a massive gain even compared with iPhone 16 pro. Energy efficiency appears to have gotten better too, as my iPhone Air did not get very hot. Finally feels like local AI is going to possible. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Glad-Speaker3006\"> /u/Glad-Speaker3006 </a> <br /> <span><a href=\"https://v.redd.it/kk520tyi03wf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oarkn3/i_am_generally_impressed_by_iphone_17_gpu/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/bHkzd2twcGkwM3dmMdYUh878AlpOQDz4eE-1IUAASsN5-1iGTSJV8Fv1Kuhw.png?width=640&crop=smart&auto=webp&s=182ac263223acd4366fff9b131c07961a7377440"
+    "image": "https://external-preview.redd.it/bHkzd2twcGkwM3dmMdYUh878AlpOQDz4eE-1IUAASsN5-1iGTSJV8Fv1Kuhw.png?width=640&crop=smart&auto=webp&s=182ac263223acd4366fff9b131c07961a7377440",
+    "isShortVideo": 0
   },
   {
     "id": "76a066c9-36ab-541b-acf9-5840f8e31b22",
@@ -263,7 +356,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>is there any resource you found helpful to learn LLM fine tuning at a medium level so. i can start tinkering by knowing what's happening behind the scenes? Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SnooMarzipans2470\"> /u/SnooMarzipans2470 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oar69q/any_resource_to_understand_llm_fine/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oar69q/any_resource_to_understand_llm_fine/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "a0661998-ac45-5728-b9a5-5c6954a2607e",
@@ -277,7 +371,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I've been building Binharic, an open-source AI coding assistant that runs in the terminal. It's entirely written in TypeScript and uses the AI SDK from Vercel for its agentic logic, including tool use and workflow management.</p> <p>It supports models from OpenAI, Google, Anthropic, and local ones through Ollama. It has a built-in keyword-based RAG pipeline and can use external tools via the MCP. Many things about the agent are customizable, including its personality. The default persona is a Tech-Priest (from Warhammer 40k), but this can be changed.</p> <p>Project's GitHub repo: <a href=\"https://github.com/CogitatorTech/binharic-cli\">https://github.com/CogitatorTech/binharic-cli</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/West-Bottle9609\"> /u/West-Bottle9609 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oar5du/i_made_a_multiprovider_ai_coding_agent/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oar5du/i_made_a_multiprovider_ai_coding_agent/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "72db0872-7c94-5835-a908-c3c99e71ee3b",
@@ -291,7 +386,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am trying to fine tune a LLM for a hospital but I don't know how to get started. I want it to know about my hospital details. Also, When asked &quot;Who are you?&quot; It must say &quot;I am a Chatbot of XYZ Hospital&quot; rather than saying about the base model. Can someone tell me how to do it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bruce_spixky\"> /u/Bruce_spixky </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oaqr7x/how_to_fine_tune_a_llm_to_give_it_a_persona/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oaqr7x/how_to_fine_tune_a_llm_to_give_it_a_persona/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "cab00f91-64b1-5b01-8e79-cf333cf33abe",
@@ -305,7 +401,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I don't need and am not interested in video/image generation - just want something to work with me on coding stuff. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gameguy56\"> /u/gameguy56 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oapgtj/i_want_to_have_a_local_llm_server_for_my_house/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oapgtj/i_want_to_have_a_local_llm_server_for_my_house/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "17138727-b3cd-51ad-842a-07ad719d03b1",
@@ -319,7 +416,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>As the title says, I’m an absolute beginner when it comes to local LLMs. I’ve been using ChatGPT, Claude, and Perplexity daily, but that’s about it. I work in hospitality and mostly with English speakers, but English is my second language.</p> <p>I’ve been thinking about building a local LLM that could act as a personal coach and therapist. I’ve been in therapy with a certified therapist for the past 18 months, and she’s allowed me to record every session. Having those sessions twice a month has been a game changer for me.</p> <p>The thing is, I pay around $100 per 45-minute session out of pocket, and I’m currently focused on paying off some debt. So, I’d like to reduce my sessions to once every 4–6 weeks instead and supplement them with something AI-based. My therapist is totally on board with this idea.</p> <p>My main concern, though, is privacy. I don’t want to upload any personal data to random AI tools, which is why I want to explore a local setup. The problem is, I can’t afford new hardware right now I only have a Mac Mini M3 Pro. My goal is to run a local LLM offline, ideally with voice input, and have it push me like David Goggins but also use the same therapeutic techniques my therapist does.</p> <p>The issue is.. I have zero clue where to start or if this is even possible. I see people on YouTube using tools like NotebookLM for personal stuff like Tiago Forte in one of his videos but I’m just too paranoid to trust big tech companies with something this personal.</p> <p>Any advice, resources, or starting points would be super appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tokyothrowie\"> /u/tokyothrowie </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oap367/total_noob_here_who_wants_to_run_a_local_llm_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oap367/total_noob_here_who_wants_to_run_a_local_llm_to/\">[comments]</a></span>",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "761642ca-f72f-5b60-90e7-4686f55f656d",
@@ -333,7 +431,8 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oanpdt/qwen3_next_support_almost_ready/\"> <img alt=\"Qwen3 Next support almost ready 🎉\" src=\"https://external-preview.redd.it/i7eFNEDuUciRrfCZPE4vDbbnitlKFru9a-LhPWvWNKY.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c40ba30707796f926638df0347f891c8e7cb6d0c\" title=\"Qwen3 Next support almost ready 🎉\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/beneath_steel_sky\"> /u/beneath_steel_sky </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/16095#issuecomment-3419600401\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oanpdt/qwen3_next_support_almost_ready/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/i7eFNEDuUciRrfCZPE4vDbbnitlKFru9a-LhPWvWNKY.png?width=640&crop=smart&auto=webp&s=c40ba30707796f926638df0347f891c8e7cb6d0c"
+    "image": "https://external-preview.redd.it/i7eFNEDuUciRrfCZPE4vDbbnitlKFru9a-LhPWvWNKY.png?width=640&crop=smart&auto=webp&s=c40ba30707796f926638df0347f891c8e7cb6d0c",
+    "isShortVideo": 0
   },
   {
     "id": "fd828f21-068b-5f90-a459-d8a887427345",
@@ -347,76 +446,7 @@
     "sourceCategory": "Reddit_LocalLLaMA",
     "sourceType": "forum",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>People are very very excited about the release of gemini 3.0 including me, but im more excited in the gemma family of models since they are based on gemini models and on top of that are open-sourced. And simce Gemini 3.0 is groundbreaking (apparently, like the pelican svg, robot svg, xbox svg, os etc tests), I am very curious about how will the gemma 4 models perform. And also, gemma 4 is going to be a big leap compared to gemma 3 coz It was based on gemini 2.0, not 2.5. So we are getting 2 genarational leaps!</p> <p>When it will be released??</p> <p>Gemma 1 was based on gemini 1 and was released ~1-2 months after gemini</p> <p>Gemma 2 was based on gemini 1.5 and was released ~4 months after gemini 1.5</p> <p>Gemma 3 was based on gemini 2 and was released ~1-2 months after gemini 2.0</p> <p>So Gemma 4 might be released ~1-2 months after gemini 3??? Maybe???</p> <p>What are your thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Brave-Hold-9389\"> /u/Brave-Hold-9389 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oamo0k/gemma_4/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oamo0k/gemma_4/\">[comments]</a></span>",
-    "image": ""
-  },
-  {
-    "id": "61824950-eb97-589f-890d-bb2eb01ef06c",
-    "title": "Stanford just dropped 5.5hrs worth of lectures on foundational LLM knowledge",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oakwgs/stanford_just_dropped_55hrs_worth_of_lectures_on/",
-    "pubDate": "2025-10-19T09:01:21+00:00",
-    "description": "Enjoy? https://www.youtube.com/@stanfordonline/videos submitted by /u/igorwarzocha [link] [comments]",
-    "author": "/u/igorwarzocha",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oakwgs/stanford_just_dropped_55hrs_worth_of_lectures_on/\"> <img alt=\"Stanford just dropped 5.5hrs worth of lectures on foundational LLM knowledge\" src=\"https://preview.redd.it/2klkt23e91wf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=017d4a00c64748e6f3b664b4a89abc3602199d49\" title=\"Stanford just dropped 5.5hrs worth of lectures on foundational LLM knowledge\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Enjoy? <a href=\"https://www.youtube.com/@stanfordonline/videos\">https://www.youtube.com/@stanfordonline/videos</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/igorwarzocha\"> /u/igorwarzocha </a> <br /> <span><a href=\"https://i.redd.it/2klkt23e91wf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oakwgs/stanford_just_dropped_55hrs_worth_of_lectures_on/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/2klkt23e91wf1.png?width=640&crop=smart&auto=webp&s=017d4a00c64748e6f3b664b4a89abc3602199d49"
-  },
-  {
-    "id": "e41cbf1e-93ac-54bb-b2bc-ac0d2ecb10f9",
-    "title": "Drop your underrated models you run LOCALLY",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oakrdm/drop_your_underrated_models_you_run_locally/",
-    "pubDate": "2025-10-19T08:52:22+00:00",
-    "description": "Preferably within the 0.2b -32b range, or MoEs up to 140b I’m on a LLM downloading spree, and wanna fill up a 2tb SSD with them. Can be any use case. Just make sure to mention the use case too Thank you ✌️ submitted by /u/Adventurous-Gold6413 [link] [comments]",
-    "author": "/u/Adventurous-Gold6413",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Preferably within the 0.2b -32b range, or MoEs up to 140b</p> <p>I’m on a LLM downloading spree, and wanna fill up a 2tb SSD with them. </p> <p>Can be any use case. Just make sure to mention the use case too </p> <p>Thank you ✌️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adventurous-Gold6413\"> /u/Adventurous-Gold6413 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oakrdm/drop_your_underrated_models_you_run_locally/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oakrdm/drop_your_underrated_models_you_run_locally/\">[comments]</a></span>",
-    "image": ""
-  },
-  {
-    "id": "c51258b7-c5e3-5fce-bea5-51290c21355b",
-    "title": "Apple M5 Max and Ultra will finally break monopoly of NVIDIA for AI interference",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oak08e/apple_m5_max_and_ultra_will_finally_break/",
-    "pubDate": "2025-10-19T08:02:23+00:00",
-    "description": "According to https://opendata.blender.org/benchmarks The Apple M5 10-core GPU already scores 1732 - outperforming the M1 Ultra with 64 GPU cores. With simple math: Apple M5 Max 40-core GPU will score 7000 - that is league of M3 Ultra Apple M5 Ultra 80-core GPU will score 14000 on par with RTX 5090 and RTX Pro 6000! Seems like it will be the best performance/memory/tdp/price deal. submitted by /u/inkberk [link] [comments]",
-    "author": "/u/inkberk",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oak08e/apple_m5_max_and_ultra_will_finally_break/\"> <img alt=\"Apple M5 Max and Ultra will finally break monopoly of NVIDIA for AI interference\" src=\"https://a.thumbs.redditmedia.com/h4jhl1-2PSdEVtcHTb5JaJVVUfcXqSVvVdD4T8fo5L0.jpg\" title=\"Apple M5 Max and Ultra will finally break monopoly of NVIDIA for AI interference\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>According to <a href=\"https://opendata.blender.org/benchmarks\">https://opendata.blender.org/benchmarks</a><br /> The Apple M5 10-core GPU already scores 1732 - outperforming the M1 Ultra with 64 GPU cores.<br /> With simple math:<br /> Apple M5 Max 40-core GPU will score 7000 - that is league of M3 Ultra<br /> Apple M5 Ultra 80-core GPU will score 14000 on par with RTX 5090 and RTX Pro 6000! </p> <p>Seems like it will be the best performance/memory/tdp/price deal.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/inkberk\"> /u/inkberk </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1oak08e\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oak08e/apple_m5_max_and_ultra_will_finally_break/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://a.thumbs.redditmedia.com/h4jhl1-2PSdEVtcHTb5JaJVVUfcXqSVvVdD4T8fo5L0.jpg"
-  },
-  {
-    "id": "03abc307-60fb-594f-a7d1-f40bf9b2e0b6",
-    "title": "When you have little money but want to run big models",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oahpmx/when_you_have_little_money_but_want_to_run_big/",
-    "pubDate": "2025-10-19T05:38:21+00:00",
-    "description": "I live in India. Everything is expensive. Importers want hefty margin. Government want hefty tax. Rtx 6000 96gb which is possible to get for 7-8k usd in USA is impossible to find even for 11 lakhs(12-13k usd) in India. So we have a couple of friends 1) Juggad 2) Olx ( indian craigslists) 3) Other similar p2p sites like fb marketplace. Let me show you what I built. 1) Dell T7910 - it has 7 pci slots. I can only get 5 to work. Found it on fb mp with 256 gb ddr4 2) 5 * 3090 from olx 3) 5 pci raisers amazon. These are hard to find for cheap. 4) 1300 watt additional power supply There are only 4*3090 in this build 5th slot I am using for nvme extension. Total cost for this build of 96gb vram is around 3.25 lakhs. ( Around 4.6k usd) This post is just for reference for those who are in a similar boat. Please understand there is a lot of difference between planning and execution. Keep +1 lakhs in hand for things that can go wrong. submitted by /u/alok_saurabh [link] [comments]",
-    "author": "/u/alok_saurabh",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oahpmx/when_you_have_little_money_but_want_to_run_big/\"> <img alt=\"When you have little money but want to run big models\" src=\"https://a.thumbs.redditmedia.com/vj3j4Vjr082yd6wYwhFLXQpEt2Zp3s7yg7spOglJoq8.jpg\" title=\"When you have little money but want to run big models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I live in India. Everything is expensive. Importers want hefty margin. Government want hefty tax. Rtx 6000 96gb which is possible to get for 7-8k usd in USA is impossible to find even for 11 lakhs(12-13k usd) in India. So we have a couple of friends 1) Juggad 2) Olx ( indian craigslists) 3) Other similar p2p sites like fb marketplace.</p> <p>Let me show you what I built. 1) Dell T7910 - it has 7 pci slots. I can only get 5 to work. Found it on fb mp with 256 gb ddr4 2) 5 * 3090 from olx 3) 5 pci raisers amazon. These are hard to find for cheap. 4) 1300 watt additional power supply </p> <p>There are only 4*3090 in this build 5th slot I am using for nvme extension.</p> <p>Total cost for this build of 96gb vram is around 3.25 lakhs. ( Around 4.6k usd) This post is just for reference for those who are in a similar boat. Please understand there is a lot of difference between planning and execution. Keep +1 lakhs in hand for things that can go wrong.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alok_saurabh\"> /u/alok_saurabh </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1oahpmx\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oahpmx/when_you_have_little_money_but_want_to_run_big/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://a.thumbs.redditmedia.com/vj3j4Vjr082yd6wYwhFLXQpEt2Zp3s7yg7spOglJoq8.jpg"
-  },
-  {
-    "id": "b7bf7604-88f0-5c9a-97a6-79d6289a1d21",
-    "title": "Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oafumx/own_your_ai_learn_how_to_finetune_gemma_3_270m/",
-    "pubDate": "2025-10-19T03:51:17+00:00",
-    "description": "submitted by /u/phone_radio_tv [link] [comments]",
-    "author": "/u/phone_radio_tv",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oafumx/own_your_ai_learn_how_to_finetune_gemma_3_270m/\"> <img alt=\"Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device\" src=\"https://external-preview.redd.it/1REAPLhpZknr_BaLbzQgHufo9VWmTuOWut1-PIVgTuo.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b3c98ea4dc27d76e781b86ebeda6b0c583cc503d\" title=\"Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/phone_radio_tv\"> /u/phone_radio_tv </a> <br /> <span><a href=\"https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oafumx/own_your_ai_learn_how_to_finetune_gemma_3_270m/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/1REAPLhpZknr_BaLbzQgHufo9VWmTuOWut1-PIVgTuo.png?width=640&crop=smart&auto=webp&s=b3c98ea4dc27d76e781b86ebeda6b0c583cc503d"
+    "image": "",
+    "isShortVideo": 0
   }
 ]

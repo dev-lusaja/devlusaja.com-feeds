@@ -1,5 +1,170 @@
 [
   {
+    "id": "83df320b-a2f0-5153-bbd0-3609dbcfc2f1",
+    "title": "How Amgen uses GPT-5",
+    "link": "https://openai.com/index/gpt-5-amgen",
+    "pubDate": "2025-08-07T00:00:00+00:00",
+    "description": "Learn how Amgen uses GPT-5.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8a19acf8-9188-52e9-a7e8-f4760599551b",
+    "title": "First look at GPT-5",
+    "link": "https://openai.com/index/gpt-5-first-look",
+    "pubDate": "2025-08-07T00:00:00+00:00",
+    "description": "See how a group of leading developers use GPT-5 for the first time.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2Qyf8L5KOY0UAdFRe5VpH8/e0da97f4644eac19faf33ff3abeec2fc/OAI_GPT5_API_Vibes_1920x1080.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "91df81e9-062f-5f5c-b57c-51edb4731a50",
+    "title": "Vision Language Model Alignment in TRL ⚡️",
+    "link": "https://huggingface.co/blog/trl-vlm-alignment",
+    "pubDate": "2025-08-07T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/trl_vlm/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "9c99a252-8154-5075-aa65-cc2dfc3e5fe7",
+    "title": "From hard refusals to safe-completions: toward output-centric safety training",
+    "link": "https://openai.com/index/gpt-5-safe-completions",
+    "pubDate": "2025-08-07T00:00:00+00:00",
+    "description": "Discover how OpenAI's new safe-completions approach in GPT-5 improves both safety and helpfulness in AI responses—moving beyond hard refusals to nuanced, output-centric safety training for handling dual-use prompts.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6Om5YB8IToptz1wlmljc1f/617e6fbe8ebb78e4ef7fa9137d9da193/GPT-5_SafetyReport_ArtCard_16x9.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "a1d7fa8d-5fcf-57ef-99d4-4508a3b90c89",
+    "title": "GPT-5 System Card",
+    "link": "https://openai.com/index/gpt-5-system-card",
+    "pubDate": "2025-08-07T00:00:00+00:00",
+    "description": "This GPT-5 system card explains how a unified model routing system powers fast and smart responses using gpt-5-main, gpt-5-thinking, and lightweight versions like gpt-5-thinking-nano, optimized for different tasks and developer use.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4QP8peX4AveIvJYteLVF9k/4e4068791700a0bb7eedbf49b8a450ec/GPT-5_SystemCard_ArtCard_16x9.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "0e1bb771-a992-5482-873e-62bbb0f1b175",
+    "title": "Minimize AI hallucinations and deliver up to 99% verification accuracy with Automated Reasoning checks: Now available",
+    "link": "https://aws.amazon.com/blogs/aws/minimize-ai-hallucinations-and-deliver-up-to-99-verification-accuracy-with-automated-reasoning-checks-now-available/",
+    "pubDate": "2025-08-06T15:06:47+00:00",
+    "description": "Build responsible AI applications with the first and only solution that delivers up to 99% verification accuracy using sound mathematical logic and formal verification techniques to minimize AI hallucinations and data ambiguity.",
+    "author": "Danilo Poccia",
+    "sourceTitle": "AWS",
+    "sourceUrl": "https://aws.amazon.com/es/blogs/machine-learning/feed/",
+    "sourceCategory": "AWS",
+    "sourceType": "notice",
+    "content": "<p><em><strong>August 15, 2025</strong>: Post updated to clarify the token limit for document ingestion.</em></p> \n<p>Today, I’m happy to share that Automated Reasoning checks, a new <a href=\"https://aws.amazon.com/bedrock/guardrails/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock Guardrails</a> policy <a href=\"https://aws.amazon.com/blogs/aws/prevent-factual-errors-from-llm-hallucinations-with-mathematically-sound-automated-reasoning-checks-preview/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">that we previewed during AWS re:Invent</a>, is now generally available. Automated Reasoning checks helps you validate the accuracy of content generated by <a href=\"https://aws.amazon.com/what-is/foundation-models/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">foundation models (FMs)</a> against a domain knowledge. This can help prevent factual errors due to AI hallucinations. The policy uses mathematical logic and formal verification techniques to validate accuracy, providing definitive rules and parameters against which AI responses are checked for accuracy.</p> \n<p>This approach is fundamentally different from probabilistic reasoning methods which deal with uncertainty by assigning probabilities to outcomes. In fact, Automated Reasoning checks delivers up to 99% verification accuracy, providing provable assurance in detecting AI hallucinations while also assisting with ambiguity detection when the output of a model is open to more than one interpretation.</p> \n<p>With general availability, you get the following new features:</p> \n<ul> \n <li>Support for large documents in a single build, up to 122,880 tokens – Process extensive documentation; we found this can add up to 100 pages of content</li> \n <li>Simplified policy validation – Save your validation tests and run them repeatedly, making it easier to maintain and verify your policies over time</li> \n <li>Automated scenario generation – Create test scenarios automatically from your definitions, saving time and effort while helping make coverage more comprehensive</li> \n <li>Enhanced policy feedback – Provide natural language suggestions for policy changes, simplifying the way you can improve your policies</li> \n <li>Customizable validation settings – Adjust confidence score thresholds to match your specific needs, giving you more control over validation strictness</li> \n</ul> \n<p>Let’s see how this works in practice.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Creating Automated Reasoning checks in Amazon Bedrock Guardrails<br /> </strong></span>To use Automated Reasoning checks, you first encode rules from your knowledge domain into an Automated Reasoning policy, then use the policy to validate generated content. For this scenario, I’m going to create a mortgage approval policy to safeguard an AI assistant evaluating who can qualify for a mortgage. It is important that the predictions of the AI system do not deviate from the rules and guidelines established for mortgage approval. These rules and guidelines are captured in a policy document written in natural language.</p> \n<p>In the <a href=\"https://console.aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock console</a>, I choose <strong>Automated Reasoning</strong> from the navigation pane to create a policy.</p> \n<p>I enter name and description of the policy and upload the PDF of the policy document. The name and description are just metadata and do not contribute in building the Automated Reasoning policy. I describe the source content to add context on how it should be translated into formal logic. For example, I explain how I plan to use the policy in my application, including sample Q&amp;A from the AI assistant.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-create-policy-1.png\"><img alt=\"Consoel screenshot.\" class=\"aligncenter size-full wp-image-98597\" height=\"1199\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-create-policy-1.png\" width=\"1232\" /></a></p> \n<p>When the policy is ready, I land on the overview page, showing the policy details and a summary of the tests and definitions. I choose <strong>Definitions</strong> from the dropdown to examine the Automated Reasoning policy, made of rules, variables, and types that have been created to translate the natural language policy into formal logic.</p> \n<p>The <strong>Rules</strong> describe how variables in the policy are related and are used when evaluating the generated content. For example, in this case, which are the thresholds to apply and how some of the decisions are taken. For traceability, each rule has its own unique ID.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-rules.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98432\" height=\"819\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-rules.png\" width=\"1051\" /></a></p> \n<p>The <strong>Variables</strong> represent the main concepts at play in the original natural language documents. Each variable is involved in one or more rules. Variables allow complex structures to be easier to understand. For this scenario, some of the rules need to look at the down payment or at the credit score.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-variables.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98433\" height=\"937\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-variables.png\" width=\"1052\" /></a></p> \n<p>Custom <strong>Types</strong> are created for variables that are neither boolean nor numeric. For example, for variables that can only assume a limited number of values. In this case, there are two type of mortgage described in the policy, insured and conventional.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-types.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98434\" height=\"508\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-types.png\" width=\"1056\" /></a></p> \n<p>Now we can assess the quality of the initial Automated Reasoning policy through testing. I choose <strong>Tests</strong> from the dropdown. Here I can manually enter a test, consisting of input (optional) and output, such as a question and its possible answer from the interaction of a customer with the AI assistant. I then set the expected result from the Automated Reasoning check. The expected result can be valid (the answer is correct), invalid (the answer is not correct), or satisfiable (the answer could be true or false depending on specific assumptions). I can also assign a confidence threshold for the translation of the query/content pair from natural language to logic.</p> \n<p>Before I enter tests manually, I use the option to automatically generate a scenario from the definitions. This is the easiest way to validate a policy and (unless you’re an expert in logic) should be the first step after the creation of the policy.</p> \n<p>For each generated scenario, I provide an expected validation to say if it is something that can happen (satisfiable) or not (invalid). If not, I can add an annotation that can then be used to update the definitions. For a more advanced understanding of the generated scenario, I can show the formal logic representation of a test using <a href=\"https://smt-lib.org/\">SMT-LIB</a> syntax.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-generate.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98435\" height=\"487\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-generate.png\" width=\"841\" /></a></p> \n<p>After using the generate scenario option, I enter a few tests manually. For these tests, I set different expected results: some are valid, because they follow the policy, some are invalid, because they flout the policy, and some are satisfiable, because their result depends on specific assumptions.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-add-tests-1.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98595\" height=\"652\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-add-tests-1.png\" width=\"1419\" /></a></p> \n<p>Then, I choose <strong>Validate all tests</strong> to see the results. All tests passed in this case. Now, when I update the policy, I can use these tests to validate that the changes didn’t introduce errors.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-summary-tests.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98437\" height=\"350\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-summary-tests.png\" width=\"1079\" /></a></p> \n<p>For each test, I can look at the findings. If a test doesn’t pass, I can look at the rules that created the contradiction that made the test fail and go against the expected result. Using this information, I can understand if I should add an annotation, to improve the policy, or correct the test.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-findings-test.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98438\" height=\"459\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-findings-test.png\" width=\"1075\" /></a></p> \n<p>Now that I’m satisfied with the tests, I can create a new Amazon Bedrock guardrail (or update an existing one) to use up to two Automated Reasoning policies to check the validity of the responses of the AI assistant. All six policies offered by Guardrails are modular, and can be used together or separately. For example, Automated Reasoning checks can be used with other safeguards such as content filtering and contextual grounding checks. The guardrail can be applied to models served by Amazon Bedrock or with any third-party model (such as OpenAI and Google Gemini) via the <a href=\"https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_ApplyGuardrail.html?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">ApplyGuardrail</a> API. I can also <a href=\"https://strandsagents.com/latest/documentation/docs/user-guide/safety-security/guardrails/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">use the guardrail with an agent framework such as Strands Agents,</a> including <a href=\"https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">agents deployed using Amazon Bedrock AgentCore</a>.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-guardrails-1.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98596\" height=\"861\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-guardrails-1.png\" width=\"1235\" /></a></p> \n<p>Now that we saw how to set up a policy, let’s look at how Automated Reasoning checks are used in practice.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Customer case study – Utility outage management systems<br /> </strong></span>When the lights go out, every minute counts. That’s why utility companies are turning to AI solutions to improve their outage management systems. We collaborated on a solution in this space together with <a href=\"https://www.pwc.com/us/en/technology/alliances/amazon-web-services/ai-solutions.html\">PwC</a>.&nbsp;Using Automated Reasoning checks, utilities can streamline operations through:</p> \n<ul> \n <li>Automated protocol generation – Creates standardized procedures that meet regulatory requirements</li> \n <li>Real-time plan validation – Ensures response plans comply with established policies</li> \n <li>Structured workflow creation – Develops severity-based workflows with defined response targets</li> \n</ul> \n<p>At its core, this solution combines intelligent policy management with optimized response protocols. Automated Reasoning checks are used to assess AI-generated responses. When a response is found to be invalid or satisfiable, the result of the Automated Reasoning check is used to rewrite or enhance the answer.</p> \n<p>This approach demonstrates how AI can transform traditional utility operations, making them more efficient, reliable, and responsive to customer needs. By combining mathematical precision with practical requirements, this solution sets a new standard for outage management in the utility sector. The result is faster response times, improved accuracy, and better outcomes for both utilities and their customers.</p> \n<p>In the words of Matt Wood, PwC’s Global and US Commercial Technology and Innovation Officer:</p> \n<p><em>“At PwC, we’re helping clients move from AI pilot to production with confidence—especially in highly regulated industries where the cost of a misstep is measured in more than dollars. Our collaboration with AWS on Automated Reasoning checks is a breakthrough in responsible AI: mathematically assessed safeguards, now embedded directly into Amazon Bedrock Guardrails. We’re proud to be AWS’s launch collaborator, bringing this innovation to life across sectors like pharma, utilities, and cloud compliance—where trust isn’t a feature, it’s a requirement.”</em></p> \n<p><span style=\"text-decoration: underline;\"><strong>Things to know<br /> </strong></span>Automated Reasoning checks in <a href=\"https://aws.amazon.com/bedrock/guardrails/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock Guardrails</a> is generally available today in the following <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regions_az/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">AWS Regions</a>: US East (Ohio, N. Virginia), US West (Oregon), and Europe (Frankfurt, Ireland, Paris).</p> \n<p>With Automated Reasoning checks, you pay based on the amount of text processed. For more information, see <a href=\"https://aws.amazon.com/bedrock/pricing/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock pricing</a>.</p> \n<p>To learn more, and build secure and safe AI applications, see the <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-automated-reasoning-checks.html?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">technical documentation</a> and the <a href=\"https://github.com/aws-samples/amazon-bedrock-samples/tree/main/responsible_ai/bedrock-automated-reasoning-checks\">GitHub code samples</a>. Follow <a href=\"https://console.aws.amazon.com/bedrock/home#/automated-reasoning/policies?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">this link for direct access to the Amazon Bedrock console</a>.</p> \n<p>The <a href=\"https://www.youtube.com/playlist?list=PLhr1KZpdzukd_l_X4z1PE0PVHOnMu3gXi\">videos in this playlist</a> include an introduction to Automated Reasoning checks, a deep dive presentation, and hands-on tutorials to create, test, and refine a policy. This is the second video in the playlist, where my colleague <a href=\"https://www.linkedin.com/in/waleakinfaderin/\">Wale</a> provides a nice intro to the capability.</p> \n<p></p> \n<p>— <a href=\"https://x.com/danilop\">Danilo</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "622864c6-9956-516e-aa2d-e2a93e043f94",
+    "title": "Minimize AI hallucinations and deliver up to 99% verification accuracy with Automated Reasoning checks: Now available",
+    "link": "https://aws.amazon.com/blogs/aws/minimize-ai-hallucinations-and-deliver-up-to-99-verification-accuracy-with-automated-reasoning-checks-now-available/",
+    "pubDate": "2025-08-06T15:06:47+00:00",
+    "description": "Build responsible AI applications with the first and only solution that delivers up to 99% verification accuracy using sound mathematical logic and formal verification techniques to minimize AI hallucinations and data ambiguity.",
+    "author": "Danilo Poccia",
+    "sourceTitle": "AWS",
+    "sourceUrl": "https://aws.amazon.com/es/blogs/aws/category/artificial-intelligence/feed/",
+    "sourceCategory": "AWS",
+    "sourceType": "notice",
+    "content": "<p><em><strong>August 15, 2025</strong>: Post updated to clarify the token limit for document ingestion.</em></p> \n<p>Today, I’m happy to share that Automated Reasoning checks, a new <a href=\"https://aws.amazon.com/bedrock/guardrails/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock Guardrails</a> policy <a href=\"https://aws.amazon.com/blogs/aws/prevent-factual-errors-from-llm-hallucinations-with-mathematically-sound-automated-reasoning-checks-preview/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">that we previewed during AWS re:Invent</a>, is now generally available. Automated Reasoning checks helps you validate the accuracy of content generated by <a href=\"https://aws.amazon.com/what-is/foundation-models/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">foundation models (FMs)</a> against a domain knowledge. This can help prevent factual errors due to AI hallucinations. The policy uses mathematical logic and formal verification techniques to validate accuracy, providing definitive rules and parameters against which AI responses are checked for accuracy.</p> \n<p>This approach is fundamentally different from probabilistic reasoning methods which deal with uncertainty by assigning probabilities to outcomes. In fact, Automated Reasoning checks delivers up to 99% verification accuracy, providing provable assurance in detecting AI hallucinations while also assisting with ambiguity detection when the output of a model is open to more than one interpretation.</p> \n<p>With general availability, you get the following new features:</p> \n<ul> \n <li>Support for large documents in a single build, up to 122,880 tokens – Process extensive documentation; we found this can add up to 100 pages of content</li> \n <li>Simplified policy validation – Save your validation tests and run them repeatedly, making it easier to maintain and verify your policies over time</li> \n <li>Automated scenario generation – Create test scenarios automatically from your definitions, saving time and effort while helping make coverage more comprehensive</li> \n <li>Enhanced policy feedback – Provide natural language suggestions for policy changes, simplifying the way you can improve your policies</li> \n <li>Customizable validation settings – Adjust confidence score thresholds to match your specific needs, giving you more control over validation strictness</li> \n</ul> \n<p>Let’s see how this works in practice.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Creating Automated Reasoning checks in Amazon Bedrock Guardrails<br /> </strong></span>To use Automated Reasoning checks, you first encode rules from your knowledge domain into an Automated Reasoning policy, then use the policy to validate generated content. For this scenario, I’m going to create a mortgage approval policy to safeguard an AI assistant evaluating who can qualify for a mortgage. It is important that the predictions of the AI system do not deviate from the rules and guidelines established for mortgage approval. These rules and guidelines are captured in a policy document written in natural language.</p> \n<p>In the <a href=\"https://console.aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock console</a>, I choose <strong>Automated Reasoning</strong> from the navigation pane to create a policy.</p> \n<p>I enter name and description of the policy and upload the PDF of the policy document. The name and description are just metadata and do not contribute in building the Automated Reasoning policy. I describe the source content to add context on how it should be translated into formal logic. For example, I explain how I plan to use the policy in my application, including sample Q&amp;A from the AI assistant.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-create-policy-1.png\"><img alt=\"Consoel screenshot.\" class=\"aligncenter size-full wp-image-98597\" height=\"1199\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-create-policy-1.png\" width=\"1232\" /></a></p> \n<p>When the policy is ready, I land on the overview page, showing the policy details and a summary of the tests and definitions. I choose <strong>Definitions</strong> from the dropdown to examine the Automated Reasoning policy, made of rules, variables, and types that have been created to translate the natural language policy into formal logic.</p> \n<p>The <strong>Rules</strong> describe how variables in the policy are related and are used when evaluating the generated content. For example, in this case, which are the thresholds to apply and how some of the decisions are taken. For traceability, each rule has its own unique ID.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-rules.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98432\" height=\"819\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-rules.png\" width=\"1051\" /></a></p> \n<p>The <strong>Variables</strong> represent the main concepts at play in the original natural language documents. Each variable is involved in one or more rules. Variables allow complex structures to be easier to understand. For this scenario, some of the rules need to look at the down payment or at the credit score.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-variables.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98433\" height=\"937\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-variables.png\" width=\"1052\" /></a></p> \n<p>Custom <strong>Types</strong> are created for variables that are neither boolean nor numeric. For example, for variables that can only assume a limited number of values. In this case, there are two type of mortgage described in the policy, insured and conventional.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-types.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98434\" height=\"508\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-types.png\" width=\"1056\" /></a></p> \n<p>Now we can assess the quality of the initial Automated Reasoning policy through testing. I choose <strong>Tests</strong> from the dropdown. Here I can manually enter a test, consisting of input (optional) and output, such as a question and its possible answer from the interaction of a customer with the AI assistant. I then set the expected result from the Automated Reasoning check. The expected result can be valid (the answer is correct), invalid (the answer is not correct), or satisfiable (the answer could be true or false depending on specific assumptions). I can also assign a confidence threshold for the translation of the query/content pair from natural language to logic.</p> \n<p>Before I enter tests manually, I use the option to automatically generate a scenario from the definitions. This is the easiest way to validate a policy and (unless you’re an expert in logic) should be the first step after the creation of the policy.</p> \n<p>For each generated scenario, I provide an expected validation to say if it is something that can happen (satisfiable) or not (invalid). If not, I can add an annotation that can then be used to update the definitions. For a more advanced understanding of the generated scenario, I can show the formal logic representation of a test using <a href=\"https://smt-lib.org/\">SMT-LIB</a> syntax.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-generate.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98435\" height=\"487\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-generate.png\" width=\"841\" /></a></p> \n<p>After using the generate scenario option, I enter a few tests manually. For these tests, I set different expected results: some are valid, because they follow the policy, some are invalid, because they flout the policy, and some are satisfiable, because their result depends on specific assumptions.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-add-tests-1.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98595\" height=\"652\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-add-tests-1.png\" width=\"1419\" /></a></p> \n<p>Then, I choose <strong>Validate all tests</strong> to see the results. All tests passed in this case. Now, when I update the policy, I can use these tests to validate that the changes didn’t introduce errors.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-summary-tests.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98437\" height=\"350\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-summary-tests.png\" width=\"1079\" /></a></p> \n<p>For each test, I can look at the findings. If a test doesn’t pass, I can look at the rules that created the contradiction that made the test fail and go against the expected result. Using this information, I can understand if I should add an annotation, to improve the policy, or correct the test.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-findings-test.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98438\" height=\"459\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-findings-test.png\" width=\"1075\" /></a></p> \n<p>Now that I’m satisfied with the tests, I can create a new Amazon Bedrock guardrail (or update an existing one) to use up to two Automated Reasoning policies to check the validity of the responses of the AI assistant. All six policies offered by Guardrails are modular, and can be used together or separately. For example, Automated Reasoning checks can be used with other safeguards such as content filtering and contextual grounding checks. The guardrail can be applied to models served by Amazon Bedrock or with any third-party model (such as OpenAI and Google Gemini) via the <a href=\"https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_ApplyGuardrail.html?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">ApplyGuardrail</a> API. I can also <a href=\"https://strandsagents.com/latest/documentation/docs/user-guide/safety-security/guardrails/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">use the guardrail with an agent framework such as Strands Agents,</a> including <a href=\"https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">agents deployed using Amazon Bedrock AgentCore</a>.</p> \n<p><a href=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-guardrails-1.png\"><img alt=\"Console screenshot.\" class=\"aligncenter size-full wp-image-98596\" height=\"861\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/22/ar-checks-guardrails-1.png\" width=\"1235\" /></a></p> \n<p>Now that we saw how to set up a policy, let’s look at how Automated Reasoning checks are used in practice.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Customer case study – Utility outage management systems<br /> </strong></span>When the lights go out, every minute counts. That’s why utility companies are turning to AI solutions to improve their outage management systems. We collaborated on a solution in this space together with <a href=\"https://www.pwc.com/us/en/technology/alliances/amazon-web-services/ai-solutions.html\">PwC</a>.&nbsp;Using Automated Reasoning checks, utilities can streamline operations through:</p> \n<ul> \n <li>Automated protocol generation – Creates standardized procedures that meet regulatory requirements</li> \n <li>Real-time plan validation – Ensures response plans comply with established policies</li> \n <li>Structured workflow creation – Develops severity-based workflows with defined response targets</li> \n</ul> \n<p>At its core, this solution combines intelligent policy management with optimized response protocols. Automated Reasoning checks are used to assess AI-generated responses. When a response is found to be invalid or satisfiable, the result of the Automated Reasoning check is used to rewrite or enhance the answer.</p> \n<p>This approach demonstrates how AI can transform traditional utility operations, making them more efficient, reliable, and responsive to customer needs. By combining mathematical precision with practical requirements, this solution sets a new standard for outage management in the utility sector. The result is faster response times, improved accuracy, and better outcomes for both utilities and their customers.</p> \n<p>In the words of Matt Wood, PwC’s Global and US Commercial Technology and Innovation Officer:</p> \n<p><em>“At PwC, we’re helping clients move from AI pilot to production with confidence—especially in highly regulated industries where the cost of a misstep is measured in more than dollars. Our collaboration with AWS on Automated Reasoning checks is a breakthrough in responsible AI: mathematically assessed safeguards, now embedded directly into Amazon Bedrock Guardrails. We’re proud to be AWS’s launch collaborator, bringing this innovation to life across sectors like pharma, utilities, and cloud compliance—where trust isn’t a feature, it’s a requirement.”</em></p> \n<p><span style=\"text-decoration: underline;\"><strong>Things to know<br /> </strong></span>Automated Reasoning checks in <a href=\"https://aws.amazon.com/bedrock/guardrails/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock Guardrails</a> is generally available today in the following <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regions_az/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">AWS Regions</a>: US East (Ohio, N. Virginia), US West (Oregon), and Europe (Frankfurt, Ireland, Paris).</p> \n<p>With Automated Reasoning checks, you pay based on the amount of text processed. For more information, see <a href=\"https://aws.amazon.com/bedrock/pricing/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock pricing</a>.</p> \n<p>To learn more, and build secure and safe AI applications, see the <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-automated-reasoning-checks.html?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">technical documentation</a> and the <a href=\"https://github.com/aws-samples/amazon-bedrock-samples/tree/main/responsible_ai/bedrock-automated-reasoning-checks\">GitHub code samples</a>. Follow <a href=\"https://console.aws.amazon.com/bedrock/home#/automated-reasoning/policies?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">this link for direct access to the Amazon Bedrock console</a>.</p> \n<p>The <a href=\"https://www.youtube.com/playlist?list=PLhr1KZpdzukd_l_X4z1PE0PVHOnMu3gXi\">videos in this playlist</a> include an introduction to Automated Reasoning checks, a deep dive presentation, and hands-on tutorials to create, test, and refine a policy. This is the second video in the playlist, where my colleague <a href=\"https://www.linkedin.com/in/waleakinfaderin/\">Wale</a> provides a nice intro to the capability.</p> \n<p></p> \n<p>— <a href=\"https://x.com/danilop\">Danilo</a></p>",
+    "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/18/Guardrails-automated-reasoning.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "29a3830c-6393-5c56-9019-acefadb9745b",
+    "title": "OpenAI open weight models now available on AWS",
+    "link": "https://aws.amazon.com/blogs/aws/openai-open-weight-models-now-available-on-aws/",
+    "pubDate": "2025-08-06T05:56:44+00:00",
+    "description": "AWS continues to expand access to the most advanced foundation models with OpenAI open weight models now available in Amazon Bedrock and Amazon SageMaker JumpStart. Accessing these new models from OpenAI on AWS, gpt-oss-120b and gpt-oss-20b, gives you more freedom to innovate and choose the right model for your specific use cases while maintaining complete control over your infrastructure and data.",
+    "author": "Danilo Poccia",
+    "sourceTitle": "AWS",
+    "sourceUrl": "https://aws.amazon.com/es/blogs/aws/category/artificial-intelligence/feed/",
+    "sourceCategory": "AWS",
+    "sourceType": "notice",
+    "content": "<p><em><strong>September 3, 2025: The sample code has been updated to use streaming and tools.</strong></em></p> \n<p><em><strong>September 18, 2025: Removing the model access request section because no longer required.</strong></em></p> \n<p>AWS is committed to bringing you the most advanced <a href=\"https://aws.amazon.com/what-is/foundation-models/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">foundation models (FMs)</a> in the industry, continuously expanding our selection to include groundbreaking models from leading AI innovators so that you always have access to the latest advancements to drive your business forward.</p> \n<p>Today, I am happy to announce the availability of two new <a href=\"https://aws.amazon.com/bedrock/openai/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">OpenAI models with open weights</a> in <a href=\"https://aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock</a> and <a href=\"https://aws.amazon.com/sagemaker-ai/jumpstart/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker JumpStart</a>. OpenAI <a href=\"https://openai.com/index/introducing-gpt-oss\"><strong>gpt-oss-120b</strong> and <strong>gpt-oss-20b</strong></a>&nbsp;models are designed for text generation and reasoning tasks, offering developers and organizations new options to build AI applications with complete control over their infrastructure and data.</p> \n<p>These open weight models excel at coding, scientific analysis, and mathematical reasoning, with performance comparable to leading alternatives. Both models support a 128K context window and provide adjustable reasoning levels (low/medium/high) to match your specific use case requirements. The models support external tools to enhance their capabilities and can be used in an agentic workflow, for example, using a framework like <a href=\"https://strandsagents.com/\">Strands Agents</a>.</p> \n<p>With Amazon Bedrock and Amazon SageMaker JumpStart, AWS gives you the freedom to innovate with access to hundreds of FMs from leading AI companies, including OpenAI open weight models. With our comprehensive selection of models, you can match your AI workloads to the perfect model every time.</p> \n<p>Through Amazon Bedrock, you can seamlessly experiment with different models, mix and match capabilities, and switch between providers without rewriting code—turning <a href=\"https://aws.amazon.com/bedrock/model-choice/\">model choice</a> into a strategic advantage that helps you continuously evolve your AI strategy as new innovations emerge. These new models are available in Bedrock via an OpenAI-compatible endpoint. You can point the OpenAI SDK to this endpoint or use the Bedrock <a href=\"https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html\">InvokeModel</a> and <a href=\"https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html\">Converse API</a>.</p> \n<p>With SageMaker JumpStart, you can quickly evaluate, compare, and customize models for your use case. You can then deploy the original or the customized model in production with the SageMaker AI console or using the <a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-use-python-sdk.html\">SageMaker Python SDK</a>.</p> \n<p>Let’s see how these work in practice.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Getting started with OpenAI open weight models in Amazon Bedrock<br /> </strong></span>In the <a href=\"https://console.aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock console</a>, I use the <strong>Chat/Test</strong> playground to test and evaluate the models. I select <strong>OpenAI</strong> as the category and then the <strong>gpt-oss-120b</strong> model.</p> \n<p><img alt=\"Console screenshot\" class=\"aligncenter size-full wp-image-98754\" height=\"707\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/05/openai-gpt-model-selection.png\" style=\"width: 90%;\" width=\"845\" /></p> \n<p>Using this model, I run the following sample prompt:</p> \n<p><em>A family has $5,000 to save for their vacation next year. They can place the money in a savings account earning 2% interest annually or in a certificate of deposit earning 4% interest annually but with no access to the funds until the vacation. If they need $1,000 for emergency expenses during the year, how should they divide their money between the two options to maximize their vacation fund?</em></p> \n<p>This prompt generates an output that includes the chain of thought used to produce the result.</p> \n<p><img alt=\"\" class=\"aligncenter wp-image-98776 size-full\" height=\"536\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/06/2025-openai-models-bedrock-chat-playground-1.jpg\" width=\"1064\" /></p> \n<p>I can use these models with the OpenAI SDK by configuring the API endpoint (base URL) and using an <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock API key</a> for authentication. For example, I set this environment variables to use the US West (Oregon) AWS Region endpoint (<code>us-west-2</code>) and my Amazon Bedrock API key:</p> \n<pre><code class=\"lang-bash\">export OPENAI_API_KEY=\"&lt;my-bedrock-api-key&gt;\"\nexport OPENAI_BASE_URL=\"https://bedrock-runtime.us-west-2.amazonaws.com/openai/v1\"</code></pre> \n<p>Now I invoke the model using the OpenAI Python SDK.</p> \n<pre><code class=\"lang-python\">from openai import OpenAI\n\nclient = OpenAI()\n\nresponse = client.chat.completions.create( \n    messages=[{ \"role\": \"user\", \"content\": \"Tell me the square root of 42 ^ 3\" }],\n    model=\"openai.gpt-oss-120b-1:0\",\n    stream=True\n)\n\nfor item in response:\n    print(item)</code></pre> \n<p>I save the code (<code>test-openai.py</code> file), install the dependencies, and run the agent locally:</p> \n<pre><code class=\"lang-bash\">pip install openai\npython test-openai.py</code></pre> \n<p>To build an AI agent, I can choose any framework that supports the Amazon Bedrock API or the OpenAI API. For example, here’s the starting code for Strands Agents using the Amazon Bedrock API:</p> \n<pre><code class=\"lang-python\">from strands import Agent\nfrom strands.models import BedrockModel\nfrom strands_tools import calculator\n\nbedrock_model = BedrockModel(\n    model_id=\"openai.gpt-oss-120b-1:0\",\n    region_name=\"us-west-2\"\n)\n\nagent = Agent(\n    model=bedrock_model,\n    tools=[calculator]\n)\n\nagent(\"Tell me the square root of 42 ^ 3\")</code></pre> \n<p>I save the code (<code>test-strands.py</code> file), install the dependencies, and run the agent locally:</p> \n<pre><code class=\"lang-bash\">pip install strands-agents strands-agents-tools\npython test-strands.py</code></pre> \n<p>When I am satisfied with the agent, I can deploy in production using the <a href=\"https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">capabilities offered by Amazon Bedrock AgentCore</a>, including a fully managed serverless runtime and memory and identity management.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Getting started with OpenAI open weight models in Amazon SageMaker JumpStart<br /> </strong></span>In the <a href=\"https://console.aws.amazon.com/sagemaker/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker AI console</a>, you can use OpenAI open weight models in the <a href=\"https://aws.amazon.com/sagemaker-ai/studio/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">SageMaker Studio</a>. The first time I do this, I need to set up a SageMaker domain. There are options to set it up for a single user (simpler) or an organization. For these tests, I use a single user setup.</p> \n<p>In the <strong>SageMaker JumpStart</strong> model view, I have access to a detailed description of the <strong>gpt-oss-120b</strong> or<strong> gpt-oss-20b</strong> model.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-98774\" height=\"560\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/06/2025-openai-models-sagemaker-js-model.jpg\" width=\"1248\" /></p> \n<p>I choose the <strong>gpt-oss-20b model</strong> and then deploy the model. In the next steps, I select the instance type and the initial instance count. After a few minutes, the deployment creates an endpoint that I can then invoke in SageMaker Studio and using any <a href=\"https://aws.amazon.com/tools/\">AWS SDKs</a>.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-98771\" height=\"799\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/06/2025-openai-models-sagemaker-js.jpg\" width=\"1440\" /></p> \n<p>To learn more, visit <a href=\"https://aws.amazon.com/blogs/machine-learning/gpt-oss-models-from-openai-are-now-available-on-sagemaker-jumpstart/\">GPT OSS models from OpenAI are now available on SageMaker JumpStart</a> in the AWS Artificial Intelligence Blog.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Things to know<br /> </strong></span>The new&nbsp;<a href=\"https://aws.amazon.com/bedrock/openai/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">OpenAI open weight models</a> are now available in <a href=\"https://aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock</a> in the US West (Oregon) <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regions_az/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">AWS Region</a>, while <a href=\"https://aws.amazon.com/sagemaker-ai/jumpstart/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker JumpStart</a> supports these models in US East (Ohio, N. Virginia) and Asia Pacific (Mumbai, Tokyo).</p> \n<p>Each model comes equipped with full chain-of-thought output capabilities, providing you with detailed visibility into the model’s reasoning process. This transparency is particularly valuable for applications requiring high levels of interpretability and validation.&nbsp;These models give you the freedom to modify, adapt, and customize them to your specific needs. This flexibility allows you to fine-tune the models for your unique use cases, integrate them into your existing workflows, and even build upon them to create new, specialized models tailored to your industry or application.</p> \n<p>Security and safety are built into the core of these models, with comprehensive evaluation processes and safety measures in place. The models maintain compatibility with the standard GPT-4 tokenizer.</p> \n<p>Both models can be used in your preferred environment, whether that’s through the serverless experience of Amazon Bedrock or the extensive <a href=\"https://aws.amazon.com/ai/machine-learning/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">machine learning (ML)</a> development capabilities of SageMaker JumpStart. For information about the costs associated with using these models and services, visit the <a href=\"https://aws.amazon.com/bedrock/pricing/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock pricing</a> and <a href=\"https://aws.amazon.com/sagemaker-ai/pricing/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker AI pricing</a> pages.</p> \n<p>To learn more, see the <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-openai.html\">parameters for the models</a> and <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html\">how to invoke a model with the OpenAI Chat Completions API</a> in the Amazon Bedrock documentation.</p> \n<p>Get started today with OpenAI open weight models on AWS in the <a href=\"https://console.aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock console</a> or in <a href=\"https://console.aws.amazon.com/sagemaker/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker AI console</a>.</p> \n<p>– <a href=\"https://x.com/danilop\">Danilo</a></p>",
+    "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/05/OpenAI-AWS.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "492f7972-31a5-5c8c-850d-b078dbd9c0a5",
+    "title": "OpenAI open weight models now available on AWS",
+    "link": "https://aws.amazon.com/blogs/aws/openai-open-weight-models-now-available-on-aws/",
+    "pubDate": "2025-08-06T05:56:44+00:00",
+    "description": "AWS continues to expand access to the most advanced foundation models with OpenAI open weight models now available in Amazon Bedrock and Amazon SageMaker JumpStart. Accessing these new models from OpenAI on AWS, gpt-oss-120b and gpt-oss-20b, gives you more freedom to innovate and choose the right model for your specific use cases while maintaining complete control over your infrastructure and data.",
+    "author": "Danilo Poccia",
+    "sourceTitle": "AWS",
+    "sourceUrl": "https://aws.amazon.com/es/blogs/machine-learning/feed/",
+    "sourceCategory": "AWS",
+    "sourceType": "notice",
+    "content": "<p><em><strong>September 3, 2025: The sample code has been updated to use streaming and tools.</strong></em></p> \n<p><em><strong>September 18, 2025: Removing the model access request section because no longer required.</strong></em></p> \n<p>AWS is committed to bringing you the most advanced <a href=\"https://aws.amazon.com/what-is/foundation-models/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">foundation models (FMs)</a> in the industry, continuously expanding our selection to include groundbreaking models from leading AI innovators so that you always have access to the latest advancements to drive your business forward.</p> \n<p>Today, I am happy to announce the availability of two new <a href=\"https://aws.amazon.com/bedrock/openai/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">OpenAI models with open weights</a> in <a href=\"https://aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock</a> and <a href=\"https://aws.amazon.com/sagemaker-ai/jumpstart/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker JumpStart</a>. OpenAI <a href=\"https://openai.com/index/introducing-gpt-oss\"><strong>gpt-oss-120b</strong> and <strong>gpt-oss-20b</strong></a>&nbsp;models are designed for text generation and reasoning tasks, offering developers and organizations new options to build AI applications with complete control over their infrastructure and data.</p> \n<p>These open weight models excel at coding, scientific analysis, and mathematical reasoning, with performance comparable to leading alternatives. Both models support a 128K context window and provide adjustable reasoning levels (low/medium/high) to match your specific use case requirements. The models support external tools to enhance their capabilities and can be used in an agentic workflow, for example, using a framework like <a href=\"https://strandsagents.com/\">Strands Agents</a>.</p> \n<p>With Amazon Bedrock and Amazon SageMaker JumpStart, AWS gives you the freedom to innovate with access to hundreds of FMs from leading AI companies, including OpenAI open weight models. With our comprehensive selection of models, you can match your AI workloads to the perfect model every time.</p> \n<p>Through Amazon Bedrock, you can seamlessly experiment with different models, mix and match capabilities, and switch between providers without rewriting code—turning <a href=\"https://aws.amazon.com/bedrock/model-choice/\">model choice</a> into a strategic advantage that helps you continuously evolve your AI strategy as new innovations emerge. These new models are available in Bedrock via an OpenAI-compatible endpoint. You can point the OpenAI SDK to this endpoint or use the Bedrock <a href=\"https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html\">InvokeModel</a> and <a href=\"https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html\">Converse API</a>.</p> \n<p>With SageMaker JumpStart, you can quickly evaluate, compare, and customize models for your use case. You can then deploy the original or the customized model in production with the SageMaker AI console or using the <a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-use-python-sdk.html\">SageMaker Python SDK</a>.</p> \n<p>Let’s see how these work in practice.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Getting started with OpenAI open weight models in Amazon Bedrock<br /> </strong></span>In the <a href=\"https://console.aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock console</a>, I use the <strong>Chat/Test</strong> playground to test and evaluate the models. I select <strong>OpenAI</strong> as the category and then the <strong>gpt-oss-120b</strong> model.</p> \n<p><img alt=\"Console screenshot\" class=\"aligncenter size-full wp-image-98754\" height=\"707\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/05/openai-gpt-model-selection.png\" style=\"width: 90%;\" width=\"845\" /></p> \n<p>Using this model, I run the following sample prompt:</p> \n<p><em>A family has $5,000 to save for their vacation next year. They can place the money in a savings account earning 2% interest annually or in a certificate of deposit earning 4% interest annually but with no access to the funds until the vacation. If they need $1,000 for emergency expenses during the year, how should they divide their money between the two options to maximize their vacation fund?</em></p> \n<p>This prompt generates an output that includes the chain of thought used to produce the result.</p> \n<p><img alt=\"\" class=\"aligncenter wp-image-98776 size-full\" height=\"536\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/06/2025-openai-models-bedrock-chat-playground-1.jpg\" width=\"1064\" /></p> \n<p>I can use these models with the OpenAI SDK by configuring the API endpoint (base URL) and using an <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock API key</a> for authentication. For example, I set this environment variables to use the US West (Oregon) AWS Region endpoint (<code>us-west-2</code>) and my Amazon Bedrock API key:</p> \n<pre><code class=\"lang-bash\">export OPENAI_API_KEY=\"&lt;my-bedrock-api-key&gt;\"\nexport OPENAI_BASE_URL=\"https://bedrock-runtime.us-west-2.amazonaws.com/openai/v1\"</code></pre> \n<p>Now I invoke the model using the OpenAI Python SDK.</p> \n<pre><code class=\"lang-python\">from openai import OpenAI\n\nclient = OpenAI()\n\nresponse = client.chat.completions.create( \n    messages=[{ \"role\": \"user\", \"content\": \"Tell me the square root of 42 ^ 3\" }],\n    model=\"openai.gpt-oss-120b-1:0\",\n    stream=True\n)\n\nfor item in response:\n    print(item)</code></pre> \n<p>I save the code (<code>test-openai.py</code> file), install the dependencies, and run the agent locally:</p> \n<pre><code class=\"lang-bash\">pip install openai\npython test-openai.py</code></pre> \n<p>To build an AI agent, I can choose any framework that supports the Amazon Bedrock API or the OpenAI API. For example, here’s the starting code for Strands Agents using the Amazon Bedrock API:</p> \n<pre><code class=\"lang-python\">from strands import Agent\nfrom strands.models import BedrockModel\nfrom strands_tools import calculator\n\nbedrock_model = BedrockModel(\n    model_id=\"openai.gpt-oss-120b-1:0\",\n    region_name=\"us-west-2\"\n)\n\nagent = Agent(\n    model=bedrock_model,\n    tools=[calculator]\n)\n\nagent(\"Tell me the square root of 42 ^ 3\")</code></pre> \n<p>I save the code (<code>test-strands.py</code> file), install the dependencies, and run the agent locally:</p> \n<pre><code class=\"lang-bash\">pip install strands-agents strands-agents-tools\npython test-strands.py</code></pre> \n<p>When I am satisfied with the agent, I can deploy in production using the <a href=\"https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">capabilities offered by Amazon Bedrock AgentCore</a>, including a fully managed serverless runtime and memory and identity management.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Getting started with OpenAI open weight models in Amazon SageMaker JumpStart<br /> </strong></span>In the <a href=\"https://console.aws.amazon.com/sagemaker/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker AI console</a>, you can use OpenAI open weight models in the <a href=\"https://aws.amazon.com/sagemaker-ai/studio/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">SageMaker Studio</a>. The first time I do this, I need to set up a SageMaker domain. There are options to set it up for a single user (simpler) or an organization. For these tests, I use a single user setup.</p> \n<p>In the <strong>SageMaker JumpStart</strong> model view, I have access to a detailed description of the <strong>gpt-oss-120b</strong> or<strong> gpt-oss-20b</strong> model.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-98774\" height=\"560\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/06/2025-openai-models-sagemaker-js-model.jpg\" width=\"1248\" /></p> \n<p>I choose the <strong>gpt-oss-20b model</strong> and then deploy the model. In the next steps, I select the instance type and the initial instance count. After a few minutes, the deployment creates an endpoint that I can then invoke in SageMaker Studio and using any <a href=\"https://aws.amazon.com/tools/\">AWS SDKs</a>.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-98771\" height=\"799\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/08/06/2025-openai-models-sagemaker-js.jpg\" width=\"1440\" /></p> \n<p>To learn more, visit <a href=\"https://aws.amazon.com/blogs/machine-learning/gpt-oss-models-from-openai-are-now-available-on-sagemaker-jumpstart/\">GPT OSS models from OpenAI are now available on SageMaker JumpStart</a> in the AWS Artificial Intelligence Blog.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Things to know<br /> </strong></span>The new&nbsp;<a href=\"https://aws.amazon.com/bedrock/openai/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">OpenAI open weight models</a> are now available in <a href=\"https://aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock</a> in the US West (Oregon) <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regions_az/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">AWS Region</a>, while <a href=\"https://aws.amazon.com/sagemaker-ai/jumpstart/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker JumpStart</a> supports these models in US East (Ohio, N. Virginia) and Asia Pacific (Mumbai, Tokyo).</p> \n<p>Each model comes equipped with full chain-of-thought output capabilities, providing you with detailed visibility into the model’s reasoning process. This transparency is particularly valuable for applications requiring high levels of interpretability and validation.&nbsp;These models give you the freedom to modify, adapt, and customize them to your specific needs. This flexibility allows you to fine-tune the models for your unique use cases, integrate them into your existing workflows, and even build upon them to create new, specialized models tailored to your industry or application.</p> \n<p>Security and safety are built into the core of these models, with comprehensive evaluation processes and safety measures in place. The models maintain compatibility with the standard GPT-4 tokenizer.</p> \n<p>Both models can be used in your preferred environment, whether that’s through the serverless experience of Amazon Bedrock or the extensive <a href=\"https://aws.amazon.com/ai/machine-learning/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">machine learning (ML)</a> development capabilities of SageMaker JumpStart. For information about the costs associated with using these models and services, visit the <a href=\"https://aws.amazon.com/bedrock/pricing/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock pricing</a> and <a href=\"https://aws.amazon.com/sagemaker-ai/pricing/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker AI pricing</a> pages.</p> \n<p>To learn more, see the <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-openai.html\">parameters for the models</a> and <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html\">how to invoke a model with the OpenAI Chat Completions API</a> in the Amazon Bedrock documentation.</p> \n<p>Get started today with OpenAI open weight models on AWS in the <a href=\"https://console.aws.amazon.com/bedrock/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon Bedrock console</a> or in <a href=\"https://console.aws.amazon.com/sagemaker/?trk=e61dee65-4ce8-4738-84db-75305c9cd4fe&amp;sc_channel=el\">Amazon SageMaker AI console</a>.</p> \n<p>– <a href=\"https://x.com/danilop\">Danilo</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "4bf3d9bb-deb4-58cf-a197-022d84b8cda2",
+    "title": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+    "link": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+    "pubDate": "2025-08-06T00:00:00+00:00",
+    "description": "Today, OpenAI for Government is announcing a new partnership with the U.S. General Services Administration (GSA) to launch a transformative initiative. For the next year, ChatGPT Enterprise will be available to the entire federal executive branch workforce at essentially no cost.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/yPFazfsKaQGHV81l6jwx3/ff83e98a9676062609dd2663a0e4404f/oai_GA_Stories_1.1__9_.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "a9c79ed7-8dee-5b4a-8c77-4a23f8909f01",
+    "title": "Genie 3: A new frontier for world models",
+    "link": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+    "pubDate": "2025-08-05T14:00:00+00:00",
+    "description": "Genie 3 can generate dynamic worlds that you can navigate in real time at 24 frames per second, retaining consistency for a few minutes at a resolution of 720p.",
+    "author": "Desconocido",
+    "sourceTitle": "DeepMind",
+    "sourceUrl": "https://deepmind.google/blog/rss.xml",
+    "sourceCategory": "DeepMind",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://lh3.googleusercontent.com/pXnO9nBpgw0RnwPCDrcbdFqO0cHkaIsQYNuOyXd7L3iFrp0Mr_yLMROiWzz3EqG8W-qq-QzGPTEAs1pr75kX7SzVC-y4jnON7b7P9Bwqd19Nl-bkJYc=w528-h297-n-nu-rw",
+    "isShortVideo": 0
+  },
+  {
     "id": "6c45b249-282c-5b31-b95a-4bb78a1a7f69",
     "title": "Open Weights and AI for All",
     "link": "https://openai.com/global-affairs/open-weights-and-ai-for-all",
@@ -11,7 +176,8 @@
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/6hQ6oTeO93EdmiahaAP6LA/3c304d8a49d207b0f356ae2d6911189f/oai_GA_Stories_1.1__11_.png?w=1600&h=900&fit=fill"
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6hQ6oTeO93EdmiahaAP6LA/3c304d8a49d207b0f356ae2d6911189f/oai_GA_Stories_1.1__11_.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
   },
   {
     "id": "30b4b20e-07d0-53fe-88a9-c5057aa98730",
@@ -25,7 +191,53 @@
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "5a882e81-2072-5bf2-ac04-de96dcea17f4",
+    "title": "Introducing gpt-oss",
+    "link": "https://openai.com/index/introducing-gpt-oss",
+    "pubDate": "2025-08-05T00:00:00+00:00",
+    "description": "We’re releasing gpt-oss-120b and gpt-oss-20b—two state-of-the-art open-weight language models that deliver strong real-world performance at low cost. Available under the flexible Apache 2.0 license, these models outperform similarly sized open models on reasoning tasks, demonstrate strong tool use capabilities, and are optimized for efficient deployment on consumer hardware.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "5b929320-5a74-57e3-b06c-09563542d443",
+    "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
+    "link": "https://huggingface.co/blog/welcome-openai-gpt-oss",
+    "pubDate": "2025-08-05T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/openai/openai-hf-thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "7b7bfa4e-dd50-5656-86b6-2bf46b4abeb1",
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "link": "https://openai.com/index/gpt-oss-model-card",
+    "pubDate": "2025-08-05T00:00:00+00:00",
+    "description": "We introduce gpt-oss-120b and gpt-oss-20b, two open-weight reasoning models available under the Apache 2.0 license and our gpt-oss usage policy.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3vlhDMtFUrKBwnx6jOeLRb/eddabb8d71e16a0a680e85dfc5de8115/Open_Model_SystemCard_1x1.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
   },
   {
     "id": "d2073c0f-7aff-53ef-96fd-b5804f355d40",
@@ -39,7 +251,8 @@
     "sourceCategory": "DeepMind",
     "sourceType": "notice",
     "content": "",
-    "image": "https://lh3.googleusercontent.com/W4TA350_8bmFow8aEKIIKEofRZ5wRx0NztIINxbI5iCK3bskTQp7LUuKoCmgJ2Cv7VhiZEjI4KGdSgogPtrIk3bZMJQRMY3-GAuEScxVzp5dKsO0fNw=w528-h297-n-nu-rw"
+    "image": "https://lh3.googleusercontent.com/W4TA350_8bmFow8aEKIIKEofRZ5wRx0NztIINxbI5iCK3bskTQp7LUuKoCmgJ2Cv7VhiZEjI4KGdSgogPtrIk3bZMJQRMY3-GAuEScxVzp5dKsO0fNw=w528-h297-n-nu-rw",
+    "isShortVideo": 0
   },
   {
     "id": "02d34832-0fa7-5921-b787-8368b95e36bf",
@@ -53,7 +266,8 @@
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/76FvR5IKzRocz01AkaKVDj/50b4b903fe3fb3c145f62a91589919d8/Blog_Asset_Wellbeing_SEO.png?w=1600&h=900&fit=fill"
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/76FvR5IKzRocz01AkaKVDj/50b4b903fe3fb3c145f62a91589919d8/Blog_Asset_Wellbeing_SEO.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
   },
   {
     "id": "2957b8f5-2ba1-588e-93af-ca066abd58f6",
@@ -67,7 +281,8 @@
     "sourceCategory": "DeepMind",
     "sourceType": "notice",
     "content": "",
-    "image": "https://lh3.googleusercontent.com/CWLtogzFGG0ttMRcNsK8CRWa1xgBK5GiimD8meXqXNK4NTdoINOBjSFkpJYsAgpRyxVCjxkWbM_qHEpQc6e7JZpai8iTwM5XQI4P0N2IZuH-o7MZNA=w528-h297-n-nu-rw"
+    "image": "https://lh3.googleusercontent.com/CWLtogzFGG0ttMRcNsK8CRWa1xgBK5GiimD8meXqXNK4NTdoINOBjSFkpJYsAgpRyxVCjxkWbM_qHEpQc6e7JZpai8iTwM5XQI4P0N2IZuH-o7MZNA=w528-h297-n-nu-rw",
+    "isShortVideo": 0
   },
   {
     "id": "eaad205e-25b8-5c1e-93b1-766279a1efbb",
@@ -81,7 +296,8 @@
     "sourceCategory": "GoogleNews",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "acbc5493-dbcf-5e3a-b06e-33e670aed8e8",
@@ -95,7 +311,8 @@
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/3gmLPttPo2B1LJFaTxptYk/3381c40607833d343beb5207449a5fef/EF_Ep12_1.1.png?w=1600&h=900&fit=fill"
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3gmLPttPo2B1LJFaTxptYk/3381c40607833d343beb5207449a5fef/EF_Ep12_1.1.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
   },
   {
     "id": "c600daec-e833-5512-8e27-509c286e8812",
@@ -109,7 +326,8 @@
     "sourceCategory": "GoogleNews",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "c8863488-a70a-5b74-8ac6-718e0708165f",
@@ -123,7 +341,8 @@
     "sourceCategory": "GoogleNews",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "bf2fa7ef-1f6a-59a2-adca-8e3d3c275601",
@@ -137,7 +356,8 @@
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/4JSOazgf62axHY6EuSJfln/44f09d56ae8d58cf80a59242d9cd071b/oai_GA_Stories_1.1__8_.png?w=1600&h=900&fit=fill"
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4JSOazgf62axHY6EuSJfln/44f09d56ae8d58cf80a59242d9cd071b/oai_GA_Stories_1.1__8_.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
   },
   {
     "id": "b72e4bc9-2c62-5ec2-94a8-995adadf8831",
@@ -151,7 +371,8 @@
     "sourceCategory": "HuggingFace",
     "sourceType": "notice",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/gradio-vton-mcp/AiAssistantTitle.png"
+    "image": "https://huggingface.co/blog/assets/gradio-vton-mcp/AiAssistantTitle.png",
+    "isShortVideo": 0
   },
   {
     "id": "3f7b5632-5ceb-5015-8979-00098f678319",
@@ -165,7 +386,8 @@
     "sourceCategory": "DeepMind",
     "sourceType": "notice",
     "content": "",
-    "image": "https://lh3.googleusercontent.com/HDhR_jsZ6VhgwXTApMGZVLbHRE49liKtWC_4REPPFHUmiyRRbtKH9Bb5tjSEZrPoWLm-yu69vpBvEzwOf6oFKHawCUlANxD8djHP_DQQRpwI9JRwbA=w528-h297-n-nu-rw"
+    "image": "https://lh3.googleusercontent.com/HDhR_jsZ6VhgwXTApMGZVLbHRE49liKtWC_4REPPFHUmiyRRbtKH9Bb5tjSEZrPoWLm-yu69vpBvEzwOf6oFKHawCUlANxD8djHP_DQQRpwI9JRwbA=w528-h297-n-nu-rw",
+    "isShortVideo": 0
   },
   {
     "id": "2c949cd4-11da-5f5d-ad5b-72d74df218d3",
@@ -179,7 +401,8 @@
     "sourceCategory": "GoogleNews",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "27ecbf14-b33c-5670-9b22-4d2d0ce6eb2e",
@@ -193,7 +416,8 @@
     "sourceCategory": "GoogleNews",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "2e8d0e1b-b0ca-54d5-9704-a3a88790d8b6",
@@ -207,7 +431,8 @@
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   },
   {
     "id": "7a64676c-c398-54db-804b-38256de23593",
@@ -221,202 +446,7 @@
     "sourceCategory": "GoogleNews",
     "sourceType": "notice",
     "content": "",
-    "image": ""
-  },
-  {
-    "id": "29c40ebc-f720-5ec3-a1ac-53135dcd0029",
-    "title": "Artificial Intelligence - National Science Foundation (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBkaGczNXFxZTkxUE5Zd21VUHhoeEZwQXpwQndJeWZDRFFTU3ZHVWppYUQ0SG56U0xEeUFyX3ZTVk56Z0taVDV2Q09n?oc=5",
-    "pubDate": "2025-07-29T15:16:47+00:00",
-    "description": "Artificial Intelligence National Science Foundation (.gov)",
-    "author": "Desconocido",
-    "sourceTitle": "GoogleNews",
-    "sourceUrl": "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
-    "sourceCategory": "GoogleNews",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "afc00822-1779-59ea-932e-58b2e5efbf5e",
-    "title": "Introducing study mode in ChatGPT",
-    "link": "https://openai.com/index/chatgpt-study-mode",
-    "pubDate": "2025-07-29T10:00:00+00:00",
-    "description": "Introducing study mode in ChatGPT, a new learning experience that helps you work through problems step by step, guiding students with questions, scaffolding, and feedback for deeper learning.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/7MX2mPI1TJGJqIdwZpRcnY/c54d6250b7ef8cccf09724330fb3d200/Blog_StudyMode_OpenGraph.png?w=1600&h=900&fit=fill"
-  },
-  {
-    "id": "85d871ea-4e4d-5713-a0d8-96f390ed94b6",
-    "title": "Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face",
-    "link": "https://huggingface.co/blog/trackio",
-    "pubDate": "2025-07-29T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/trackio/thumbnail.gif"
-  },
-  {
-    "id": "3dcce4ec-90ca-5d58-ac47-f91453949c56",
-    "title": "UCF Institute of Artificial Intelligence | A Bold Leap Forward - ucf.edu",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15R090RG1ydnByc3hlRjNFNlR0QWVNT0kyYlh4ck1qX0JlZ0dKejQ2T3JnbkhrVkkweEJ4enZrTnlnSXdMMUtGZlJtYXo2ZE1VVzMyOXdEVjlabXkwd3pJNWhXNGtsWXo1?oc=5",
-    "pubDate": "2025-07-28T07:00:00+00:00",
-    "description": "UCF Institute of Artificial Intelligence | A Bold Leap Forward ucf.edu",
-    "author": "Desconocido",
-    "sourceTitle": "GoogleNews",
-    "sourceUrl": "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
-    "sourceCategory": "GoogleNews",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "a2cdebab-0533-53a8-ae64-99e6390b78c2",
-    "title": "Parquet Content-Defined Chunking",
-    "link": "https://huggingface.co/blog/parquet-cdc",
-    "pubDate": "2025-07-25T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/parquet-cdc/thumbnail.png"
-  },
-  {
-    "id": "c807be63-2030-5218-9810-4a70bf9ae78a",
-    "title": "Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨",
-    "link": "https://huggingface.co/blog/hf-cli",
-    "pubDate": "2025-07-25T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/hf-cli-thumbnail.png"
-  },
-  {
-    "id": "e4d0f7fd-2e36-5b21-a99d-db6f88ddca7b",
-    "title": "Apple Workshop on Human-Centered Machine Learning 2024 - Apple Machine Learning Research",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05bENPdlprZEFKT0ZyUnZROXZPYlRIdHhKYXR2RDc1TmxELURzUldXZkhCU0lTLXFMd1JkV0t3bm0wR1pDSFlmUUpScFE1NWFXc1pSQnJ2Qjhpd3pNdkFWWVBfeEo5V1RLRUljTg?oc=5",
-    "pubDate": "2025-07-24T07:00:00+00:00",
-    "description": "Apple Workshop on Human-Centered Machine Learning 2024 Apple Machine Learning Research",
-    "author": "Desconocido",
-    "sourceTitle": "GoogleNews",
-    "sourceUrl": "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
-    "sourceCategory": "GoogleNews",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "78a94c4d-dc08-5891-8869-203b121fb7e2",
-    "title": "Apple Workshop on Human-Centered Machine Learning 2024 - Apple Machine Learning Research",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05bENPdlprZEFKT0ZyUnZROXZPYlRIdHhKYXR2RDc1TmxELURzUldXZkhCU0lTLXFMd1JkV0t3bm0wR1pDSFlmUUpScFE1NWFXc1pSQnJ2Qjhpd3pNdkFWWVBfeEo5V1RLRUljTg?oc=5",
-    "pubDate": "2025-07-24T07:00:00+00:00",
-    "description": "Apple Workshop on Human-Centered Machine Learning 2024 Apple Machine Learning Research",
-    "author": "Desconocido",
-    "sourceTitle": "GoogleNews",
-    "sourceUrl": "https://news.google.com/rss/search?q=machine+learning&hl=en-US&gl=US&ceid=US:en",
-    "sourceCategory": "GoogleNews",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "2bb5116d-ef33-5294-87cf-4e09a3f3c814",
-    "title": "New machine-learning application to help researchers predict chemical properties - MIT News",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWktid0NEaWlwRzNBQXRfQ2pUQV8weEwyblFWV1psbldvRGxJQUo3RXUwajJmZ25KekdBY01KRXdJVnJ0SEZNa29US29hN0x0cWhjaVZ4Qm9jQThxZ2xDeGpTenRTTGdaTHNwSXpBSU94dENVclNwVDB5OWFpdjJydGo4X3liTUJJ?oc=5",
-    "pubDate": "2025-07-24T07:00:00+00:00",
-    "description": "New machine-learning application to help researchers predict chemical properties MIT News",
-    "author": "Desconocido",
-    "sourceTitle": "GoogleNews",
-    "sourceUrl": "https://news.google.com/rss/search?q=machine+learning&hl=en-US&gl=US&ceid=US:en",
-    "sourceCategory": "GoogleNews",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "663cc228-5869-5a24-bd99-327747ac1a66",
-    "title": "Resolving digital threats 100x faster with OpenAI",
-    "link": "https://openai.com/index/outtake",
-    "pubDate": "2025-07-24T00:00:00+00:00",
-    "description": "Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/6ndUQXibUAMFP9MDEq2a3Z/c36faa5a2a1c9e7294820ae74035c31f/oai_Outtake_1x1.png?w=1600&h=900&fit=fill"
-  },
-  {
-    "id": "64253e8f-3e17-50ab-a3b7-76c79610b96d",
-    "title": "Aeneas transforms how historians connect the past",
-    "link": "https://deepmind.google/discover/blog/aeneas-transforms-how-historians-connect-the-past/",
-    "pubDate": "2025-07-23T14:59:00+00:00",
-    "description": "We’re publishing a paper in Nature introducing Aeneas, the first AI model for contextualizing ancient inscriptions.",
-    "author": "Desconocido",
-    "sourceTitle": "DeepMind",
-    "sourceUrl": "https://deepmind.google/blog/rss.xml",
-    "sourceCategory": "DeepMind",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://lh3.googleusercontent.com/eMe8bNk3nHJU_unVGcgIUKuPiI-it3NstOK0wixMnl_EwVI5RudgU2W6ktg0RMLsEovZyA8ckoMg2t9_ARQKev-HZhTgFzKTQtU4UC6dr6hektPG=w528-h297-n-nu-rw"
-  },
-  {
-    "id": "bd6b94ea-ecae-5674-8b1f-1c7e59c55584",
-    "title": "Protein–ligand data at scale to support machine learning - Nature",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uVVZlbE1HS29oaVM3UjZxT1o0cFdQOXpDcHN1aFI5bEtEZ0VORkFhdTdfaGMwTHJVLTVpTEFUWXZTeldhQzFKcmM4aUhfZERUM3NlWmVDZnVtS0xhcmln?oc=5",
-    "pubDate": "2025-07-23T07:00:00+00:00",
-    "description": "Protein–ligand data at scale to support machine learning Nature",
-    "author": "Desconocido",
-    "sourceTitle": "GoogleNews",
-    "sourceUrl": "https://news.google.com/rss/search?q=machine+learning&hl=en-US&gl=US&ceid=US:en",
-    "sourceCategory": "GoogleNews",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "ad2ea640-3c53-59e8-8370-9224cfc16af8",
-    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
-    "link": "https://openai.com/index/model-ml-chaz-englander",
-    "pubDate": "2025-07-23T00:00:00+00:00",
-    "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
-  },
-  {
-    "id": "f6a41612-25d0-53ba-be1d-1ad3f2b071ef",
-    "title": "Announcing OpenAI DevDay 2025",
-    "link": "https://openai.com/index/announcing-devday-2025",
-    "pubDate": "2025-07-23T00:00:00+00:00",
-    "description": "OpenAI DevDay returns on October 6, 2025 in San Francisco—bringing together 1,500+ developers to preview new tools, hear from OpenAI leaders, and shape the future of AI.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": ""
+    "image": "",
+    "isShortVideo": 0
   }
 ]

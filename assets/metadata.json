@@ -1,6 +1,6 @@
 {
-  "totalItems": 3943,
-  "generatedAt": "2025-10-20T19:42:47.944988Z",
+  "totalItems": 5168,
+  "generatedAt": "2025-10-20T23:55:31.428856Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -125,20 +125,20 @@
   ],
   "byType": {
     "forum": {
-      "totalItems": 296,
-      "totalChunks": 10,
+      "totalItems": 311,
+      "totalChunks": 11,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 2382,
+      "totalItems": 2399,
       "totalChunks": 80,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
     "pappers": {
-      "totalItems": 1200,
-      "totalChunks": 40,
+      "totalItems": 2393,
+      "totalChunks": 80,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
     },
@@ -154,7 +154,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 124,
+        "count": 134,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -162,9 +162,9 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 119,
+        "count": 124,
         "isPriority": true,
-        "totalChunks": 4,
+        "totalChunks": 5,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
@@ -196,9 +196,9 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 620,
+        "count": 635,
         "isPriority": true,
-        "totalChunks": 21,
+        "totalChunks": 22,
         "chunkPrefix": "notice-GoogleNews"
       },
       {
@@ -228,7 +228,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 35,
+        "count": 36,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -244,7 +244,7 @@
       {
         "category": "MachineLearningMastery",
         "title": "Machine Learning Mastery",
-        "count": 24,
+        "count": 25,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-MachineLearningMastery"
@@ -276,20 +276,20 @@
     ],
     "pappers": [
       {
-        "category": "arXiv_AI",
-        "title": "arXiv cs.AI",
-        "count": 607,
-        "isPriority": true,
-        "totalChunks": 21,
-        "chunkPrefix": "pappers-arXiv_AI"
-      },
-      {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 593,
+        "count": 1206,
         "isPriority": true,
-        "totalChunks": 20,
+        "totalChunks": 41,
         "chunkPrefix": "pappers-arXiv_LG"
+      },
+      {
+        "category": "arXiv_AI",
+        "title": "arXiv cs.AI",
+        "count": 1187,
+        "isPriority": true,
+        "totalChunks": 40,
+        "chunkPrefix": "pappers-arXiv_AI"
       }
     ],
     "youtube": [

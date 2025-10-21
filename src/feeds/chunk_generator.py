@@ -38,8 +38,11 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
 
         # Procesar cada tipo de fuente
         for source_type in source_types:
+            # Para YouTube, excluir shorts (isShortVideo=1)
+            exclude_shorts = (source_type == 'youtube')
+
             # Obtener conteo total de feeds para este tipo
-            total_feeds = get_feed_count_by_source_type(db, source_type)
+            total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts)
 
             if total_feeds == 0:
                 log(f"⚠️ No hay feeds para el tipo '{source_type}'")
@@ -55,7 +58,7 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
                 offset = chunk_number * items_per_chunk
 
                 # Obtener feeds para este chunk
-                feeds = get_feeds_by_source_type(db, source_type, limit=items_per_chunk, offset=offset)
+                feeds = get_feeds_by_source_type(db, source_type, limit=items_per_chunk, offset=offset, exclude_shorts=exclude_shorts)
 
                 if not feeds:
                     continue
@@ -75,7 +78,8 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
                         "sourceCategory": feed.get('sourceCategory', ''),
                         "sourceType": feed.get('sourceType', ''),
                         "content": feed.get('content', ''),
-                        "image": feed.get('image', '')
+                        "image": feed.get('image', ''),
+                        "isShortVideo": feed.get('isShortVideo', 0)
                     }
                     feeds_data.append(feed_item)
 
