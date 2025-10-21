@@ -48,10 +48,13 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
 
             log(f"📦 Procesando tipo '{source_type}' con {len(categories)} categorías")
 
+            # Para YouTube, excluir shorts (isShortVideo=1)
+            exclude_shorts = (source_type == 'youtube')
+
             # Procesar cada categoría
             for category in categories:
                 # Obtener conteo total de feeds para este tipo y categoría
-                total_feeds = get_feed_count_by_source_type_and_category(db, source_type, category)
+                total_feeds = get_feed_count_by_source_type_and_category(db, source_type, category, exclude_shorts=exclude_shorts)
 
                 if total_feeds == 0:
                     log(f"  ⚠️ No hay feeds para {source_type}/{category}")
@@ -67,7 +70,7 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                     offset = chunk_number * items_per_chunk
 
                     # Obtener feeds para este chunk
-                    feeds = get_feeds_by_source_type_and_category(db, source_type, category, limit=items_per_chunk, offset=offset)
+                    feeds = get_feeds_by_source_type_and_category(db, source_type, category, limit=items_per_chunk, offset=offset, exclude_shorts=exclude_shorts)
 
                     if not feeds:
                         continue
@@ -87,7 +90,8 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                             "sourceCategory": feed.get('sourceCategory', ''),
                             "sourceType": feed.get('sourceType', ''),
                             "content": feed.get('content', ''),
-                            "image": feed.get('image', '')
+                            "image": feed.get('image', ''),
+                            "isShortVideo": feed.get('isShortVideo', 0)
                         }
                         feeds_data.append(feed_item)
 

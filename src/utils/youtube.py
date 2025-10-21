@@ -1,3 +1,18 @@
+def is_youtube_short(link: str) -> bool:
+    """
+    Detecta si un link de YouTube corresponde a un Short.
+
+    Args:
+        link: URL del video de YouTube
+
+    Returns:
+        True si el link contiene 'shorts', False en caso contrario
+    """
+    if not link:
+        return False
+
+    return '/shorts/' in link.lower()
+
 def get_youtube_thumbnail(entry_id: str, link: str) -> str:
     """
     Extrae el thumbnail de YouTube desde el ID del video o el link.

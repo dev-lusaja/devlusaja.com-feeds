@@ -8,7 +8,7 @@ from utils.logger import log
 from dateutil import parser as date_parser
 from bs4 import BeautifulSoup
 from utils.arxiv import extract_abstract
-from utils.youtube import get_youtube_thumbnail
+from utils.youtube import get_youtube_thumbnail, is_youtube_short
 from utils.xataka import extract_first_image
 
 def load_all_feeds(feeds_dir: str = "feeds_data") -> List[Dict[str, Any]]:
@@ -140,6 +140,9 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
     # Extraer imagen
     image = ''
 
+    # Detectar si es un video corto (YouTube Shorts)
+    is_short_video = 0
+
     ####################
     # CASOS ESPECIALES #
     ####################
@@ -153,6 +156,10 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         # Intentar obtener el thumbnail de YouTube
         original_entry_id = entry.get('id', '')
         image = get_youtube_thumbnail(original_entry_id, link)
+
+        # Detectar si es un YouTube Short
+        if is_youtube_short(link):
+            is_short_video = 1
 
     # CASO ESPECIAL: Xataka - obtener primera imagen
     if source_type == 'notice' and category.lower() == 'xataka':
@@ -178,6 +185,7 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         'sourceType': source_type,
         'content': content,
         'image': image,
+        'isShortVideo': is_short_video,
         'raw_data': json.dumps(entry, ensure_ascii=False)
     }
 
