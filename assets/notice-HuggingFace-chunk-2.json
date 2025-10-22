@@ -15,6 +15,21 @@
     "isShortVideo": 0
   },
   {
+    "id": "3ea29f46-6243-5e3b-89a6-b91461c7f38b",
+    "title": "SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data",
+    "link": "https://huggingface.co/blog/smolvla",
+    "pubDate": "2025-06-03T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/smolvla/SmolVLA_thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "0d8f2a6c-8bef-5da6-a0a4-8ce918e5020d",
     "title": "CodeAgents + Structure: A Better Way to Execute Actions",
     "link": "https://huggingface.co/blog/structured-codeagent",
@@ -45,21 +60,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "1be66dad-037a-5c18-a42e-3395c6f1c046",
-    "title": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
-    "link": "https://huggingface.co/blog/python-tiny-agents",
-    "pubDate": "2025-05-23T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/python-tiny-agents/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "43910308-abb0-5e07-8842-893007368ed3",
     "title": "Dell Enterprise Hub is all you need to build AI on premises",
     "link": "https://huggingface.co/blog/dell-ai-applications",
@@ -75,10 +75,10 @@
     "isShortVideo": 0
   },
   {
-    "id": "8d380330-3978-5166-8b4d-114c66d14d23",
-    "title": "Exploring Quantization Backends in Diffusers",
-    "link": "https://huggingface.co/blog/diffusers-quantization",
-    "pubDate": "2025-05-21T00:00:00+00:00",
+    "id": "1be66dad-037a-5c18-a42e-3395c6f1c046",
+    "title": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
+    "link": "https://huggingface.co/blog/python-tiny-agents",
+    "pubDate": "2025-05-23T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -86,7 +86,7 @@
     "sourceCategory": "HuggingFace",
     "sourceType": "notice",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/diffusers-quantization/thumbnail.png",
+    "image": "https://huggingface.co/blog/assets/python-tiny-agents/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -102,6 +102,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/nanovlm/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8d380330-3978-5166-8b4d-114c66d14d23",
+    "title": "Exploring Quantization Backends in Diffusers",
+    "link": "https://huggingface.co/blog/diffusers-quantization",
+    "pubDate": "2025-05-21T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/diffusers-quantization/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -195,21 +210,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "f511fdd1-6a90-52bf-bd05-68d25cc6be9f",
-    "title": "How to Build an MCP Server with Gradio",
-    "link": "https://huggingface.co/blog/gradio-mcp",
-    "pubDate": "2025-04-30T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/gradio-mcp/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "a921a2e1-b0fd-5bd8-bae8-ff64530744a3",
     "title": "The 4 Things Qwen-3's Chat Template Teaches Us",
     "link": "https://huggingface.co/blog/qwen-3-chat-template-deep-dive",
@@ -225,10 +225,10 @@
     "isShortVideo": 0
   },
   {
-    "id": "1f0479a4-1c56-5d90-83dc-7b72fac10b48",
-    "title": "Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs",
-    "link": "https://huggingface.co/blog/autoround",
-    "pubDate": "2025-04-29T00:00:00+00:00",
+    "id": "f511fdd1-6a90-52bf-bd05-68d25cc6be9f",
+    "title": "How to Build an MCP Server with Gradio",
+    "link": "https://huggingface.co/blog/gradio-mcp",
+    "pubDate": "2025-04-30T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -236,7 +236,7 @@
     "sourceCategory": "HuggingFace",
     "sourceType": "notice",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/autoround/thumbnail.png",
+    "image": "https://huggingface.co/blog/assets/gradio-mcp/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -255,6 +255,21 @@
     "isShortVideo": 0
   },
   {
+    "id": "1f0479a4-1c56-5d90-83dc-7b72fac10b48",
+    "title": "Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs",
+    "link": "https://huggingface.co/blog/autoround",
+    "pubDate": "2025-04-29T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/autoround/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "7883bb2c-019c-5950-90c3-e5928b48f1c0",
     "title": "Tiny Agents: a MCP-powered agent in 50 lines of code",
     "link": "https://huggingface.co/blog/tiny-agents",
@@ -267,21 +282,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/tiny-agents/thumbnail.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a900f6f3-836a-559b-960e-1c774d3dc6a5",
-    "title": "17 Reasons Why Gradio Isn't Just Another UI Library",
-    "link": "https://huggingface.co/blog/why-gradio-stands-out",
-    "pubDate": "2025-04-16T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/why-gradio-stands-out/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -300,6 +300,21 @@
     "isShortVideo": 0
   },
   {
+    "id": "a900f6f3-836a-559b-960e-1c774d3dc6a5",
+    "title": "17 Reasons Why Gradio Isn't Just Another UI Library",
+    "link": "https://huggingface.co/blog/why-gradio-stands-out",
+    "pubDate": "2025-04-16T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/why-gradio-stands-out/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "f9d31e18-21a6-5442-9bcb-ca0fa5b1343b",
     "title": "Introducing HELMET",
     "link": "https://huggingface.co/blog/helmet",
@@ -315,21 +330,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "465b1a33-c28d-53f2-b7b5-803be6e850fa",
-    "title": "Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖",
-    "link": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
-    "pubDate": "2025-04-14T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/hugging-face-pollen-robotics-acquisition/hf-pollen.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "44d43172-68f2-5fb2-ad98-fc89b19b879b",
     "title": "4M Models Scanned: Protect AI + Hugging Face 6 Months In",
     "link": "https://huggingface.co/blog/pai-6-month",
@@ -342,6 +342,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/pai-6-month/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "465b1a33-c28d-53f2-b7b5-803be6e850fa",
+    "title": "Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖",
+    "link": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+    "pubDate": "2025-04-14T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/hugging-face-pollen-robotics-acquisition/hf-pollen.png",
     "isShortVideo": 0
   },
   {
@@ -432,21 +447,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/infisical/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fe66022a-93de-5645-b705-ad2d1240fe64",
-    "title": "Accelerating LLM Inference with TGI on Intel Gaudi",
-    "link": "https://huggingface.co/blog/intel-gaudi-backend-for-tgi",
-    "pubDate": "2025-03-28T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/intel-gaudi-backend-for-tgi/tgi-gaudi-thumbnail.png",
     "isShortVideo": 0
   }
 ]

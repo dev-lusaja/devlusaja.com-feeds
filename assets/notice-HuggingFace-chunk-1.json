@@ -1,9 +1,9 @@
 [
   {
-    "id": "c807be63-2030-5218-9810-4a70bf9ae78a",
-    "title": "Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨",
-    "link": "https://huggingface.co/blog/hf-cli",
-    "pubDate": "2025-07-25T00:00:00+00:00",
+    "id": "85d871ea-4e4d-5713-a0d8-96f390ed94b6",
+    "title": "Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face",
+    "link": "https://huggingface.co/blog/trackio",
+    "pubDate": "2025-07-29T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -11,7 +11,7 @@
     "sourceCategory": "HuggingFace",
     "sourceType": "notice",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/hf-cli-thumbnail.png",
+    "image": "https://huggingface.co/blog/assets/trackio/thumbnail.gif",
     "isShortVideo": 0
   },
   {
@@ -27,6 +27,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/parquet-cdc/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "c807be63-2030-5218-9810-4a70bf9ae78a",
+    "title": "Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨",
+    "link": "https://huggingface.co/blog/hf-cli",
+    "pubDate": "2025-07-25T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/hf-cli-thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -75,6 +90,21 @@
     "isShortVideo": 0
   },
   {
+    "id": "5346ea71-9de8-5406-b850-540e46447b4b",
+    "title": "Consilium: When Multiple LLMs Collaborate",
+    "link": "https://huggingface.co/blog/consilium-multi-llm",
+    "pubDate": "2025-07-17T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/consilium-multi-llm/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "d8e03865-2754-5bb7-a869-09eaa7fa1fb6",
     "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
     "link": "https://huggingface.co/blog/futurebench",
@@ -102,21 +132,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/gradio-mcp-updates/5_mcp_improvements.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5346ea71-9de8-5406-b850-540e46447b4b",
-    "title": "Consilium: When Multiple LLMs Collaborate",
-    "link": "https://huggingface.co/blog/consilium-multi-llm",
-    "pubDate": "2025-07-17T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/consilium-multi-llm/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -195,21 +210,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "7ba46ae8-c45a-5598-ab38-f4a5ac13c715",
-    "title": "Creating custom kernels for the AMD MI300",
-    "link": "https://huggingface.co/blog/mi300kernels",
-    "pubDate": "2025-07-09T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/mi300kernels/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "cf4ab818-c2d2-589d-937a-ec0a4518c1b8",
     "title": "Upskill your LLMs with Gradio MCP Servers",
     "link": "https://huggingface.co/blog/gradio-mcp-servers",
@@ -222,6 +222,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/upskill-llms-with-gradio-mcp/UpskillThumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "7ba46ae8-c45a-5598-ab38-f4a5ac13c715",
+    "title": "Creating custom kernels for the AMD MI300",
+    "link": "https://huggingface.co/blog/mi300kernels",
+    "pubDate": "2025-07-09T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/mi300kernels/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -360,21 +375,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "f68bfe91-4cbf-5f6d-a641-dbe4d5ca9975",
-    "title": "Featherless AI on Hugging Face Inference Providers 🔥",
-    "link": "https://huggingface.co/blog/inference-providers-featherless",
-    "pubDate": "2025-06-12T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/inference-providers/welcome-featherless.jpg",
-    "isShortVideo": 0
-  },
-  {
     "id": "77b4bc39-e6b0-590c-a505-ff411bfaa2a5",
     "title": "Enhance Your Models in 5 Minutes with the Hugging Face Kernel Hub",
     "link": "https://huggingface.co/blog/hello-hf-kernels",
@@ -387,6 +387,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/hello-hf-kernels/kernel-hub-five-mins-short.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "f68bfe91-4cbf-5f6d-a641-dbe4d5ca9975",
+    "title": "Featherless AI on Hugging Face Inference Providers 🔥",
+    "link": "https://huggingface.co/blog/inference-providers-featherless",
+    "pubDate": "2025-06-12T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/inference-providers/welcome-featherless.jpg",
     "isShortVideo": 0
   },
   {
@@ -432,21 +447,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/kv-cache/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3ea29f46-6243-5e3b-89a6-b91461c7f38b",
-    "title": "SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data",
-    "link": "https://huggingface.co/blog/smolvla",
-    "pubDate": "2025-06-03T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/smolvla/SmolVLA_thumbnail.png",
     "isShortVideo": 0
   }
 ]
