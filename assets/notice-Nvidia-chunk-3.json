@@ -1,5 +1,35 @@
 [
   {
+    "id": "504c68d1-07b1-5a3f-9d40-5cfbc0e1c2c3",
+    "title": "Just Released: NVIDIA PhysicsNeMo 25.08",
+    "link": "https://nvidia.github.io/physicsnemo/blog/2025/08/27/physicsnemo-release-25-08/",
+    "pubDate": "2025-09-05T17:37:49+00:00",
+    "description": "NVIDIA PhysicsNeMo 25.08 is packed with powerful new workflows and recipes for CAE application developers.",
+    "author": "Bhoomi Gadhia",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338-1-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338\" width=\"600\" />NVIDIA PhysicsNeMo 25.08 is packed with powerful new workflows and recipes for CAE application developers.<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338-1-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338\" width=\"600\" /><p>NVIDIA PhysicsNeMo 25.08 is packed with powerful new workflows and recipes for CAE application developers.</p>\n<p><a href=\"https://nvidia.github.io/physicsnemo/blog/2025/08/27/physicsnemo-release-25-08/\" rel=\"nofollow\" target=\"_blank\">Source</a></p>",
+    "image": "http://www.example.com/assets/images/social/blog/posts/2025.8-release-blog.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "83328b23-1fd4-5505-b1e1-57d63eb4296e",
+    "title": "Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing",
+    "link": "https://developer.nvidia.com/blog/accelerate-large-scale-llm-inference-and-kv-cache-offload-with-cpu-gpu-memory-sharing/",
+    "pubDate": "2025-09-05T17:24:06+00:00",
+    "description": "Large Language Models (LLMs) are at the forefront of AI innovation, but their massive size can complicate inference efficiency. Models such as Llama 3 70B and...",
+    "author": "Afroze Syed",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/LLM-Large-Scale-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"LLM-Large-Scale\" width=\"768\" />Large Language Models (LLMs) are at the forefront of AI innovation, but their massive size can complicate inference efficiency. Models such as Llama 3 70B and...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/LLM-Large-Scale-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"LLM-Large-Scale\" width=\"768\" /><p>Large Language Models (LLMs) are at the forefront of AI innovation, but their massive size can complicate inference efficiency. Models such as Llama 3 70B and Llama 4 Scout 109B may require more memory than is included in the GPU, especially when including large context windows. For example, loading Llama 3 70B and Llama 4 Scout 109B models in half precision (FP16) requires approximately 140…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-large-scale-llm-inference-and-kv-cache-offload-with-cpu-gpu-memory-sharing/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/LLM-Large-Scale.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "33a0c5c3-4426-50c5-bd49-9aa347a027aa",
     "title": "Accelerate Autonomous Vehicle Development with the NVIDIA DRIVE AGX Thor Developer Kit",
     "link": "https://developer.nvidia.com/blog/accelerate-autonomous-vehicle-development-with-the-nvidia-drive-agx-thor-developer-kit/",
@@ -417,36 +447,6 @@
     "sourceType": "notice",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/coding-cloud-data-flow-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"coding-cloud-data-flow\" width=\"768\" />If you’ve ever installed an NVIDIA GPU-accelerated Python package, you’ve likely encountered a familiar dance: navigating to pytorch.org, jax.dev,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/coding-cloud-data-flow-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"coding-cloud-data-flow\" width=\"768\" /><p>If you’ve ever installed an NVIDIA GPU-accelerated Python package, you’ve likely encountered a familiar dance: navigating to pytorch.org, jax.dev, rapids.ai, or a similar site to find the artifact built for your NVIDIA CUDA version. You then copy a custom pip, uv, or other installer command with a special index URL or special package name such as . This isn’t just an inconvenience…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-cuda-accelerated-python-install-and-packaging-workflows-with-wheel-variants/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/coding-cloud-data-flow.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2ba3818b-34f5-5097-a36f-5e1ca5dcb8fe",
-    "title": "Scaling LLM Reinforcement Learning with Prolonged Training Using ProRL v2",
-    "link": "https://developer.nvidia.com/blog/scaling-llm-reinforcement-learning-with-prolonged-training-using-prorl-v2/",
-    "pubDate": "2025-08-13T21:33:03+00:00",
-    "description": "Currently, one of the most compelling questions in AI is whether large language models (LLMs) can continue to improve through sustained reinforcement learning...",
-    "author": "Jian Hu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2024/10/point-field-waves-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"point-field-waves\" width=\"768\" />Currently, one of the most compelling questions in AI is whether large language models (LLMs) can continue to improve through sustained reinforcement learning...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2024/10/point-field-waves-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"point-field-waves\" width=\"768\" /><p>Currently, one of the most compelling questions in AI is whether large language models (LLMs) can continue to improve through sustained reinforcement learning (RL), or if their capabilities will eventually plateau. Developed by NVIDIA Research, ProRL v2 is the latest evolution of Prolonged Reinforcement Learning (ProRL), specifically designed to test the effects of extended RL training on…</p>\n<p><a href=\"https://developer.nvidia.com/blog/scaling-llm-reinforcement-learning-with-prolonged-training-using-prorl-v2/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/10/point-field-waves.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "03cae0dd-1919-533d-ba99-d373186b0cba",
-    "title": "Streamlining Quantum Error Correction and Application Development with CUDA-QX 0.4",
-    "link": "https://developer.nvidia.com/blog/streamlining-quantum-error-correction-and-application-development-with-cuda-qx-0-4/",
-    "pubDate": "2025-08-13T16:00:00+00:00",
-    "description": "As quantum processor unit (QPU) builders and algorithm developers work to create large-scale, commercially viable quantum supercomputers, they are increasingly...",
-    "author": "Shane Caldwell",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/QEC_2-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"QEC_2\" width=\"768\" />As quantum processor unit (QPU) builders and algorithm developers work to create large-scale, commercially viable quantum supercomputers, they are increasingly...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/QEC_2-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"QEC_2\" width=\"768\" /><p>As quantum processor unit (QPU) builders and algorithm developers work to create large-scale, commercially viable quantum supercomputers, they are increasingly concentrating on quantum error correction (QEC). It represents the greatest opportunity and the biggest challenge in current quantum computing research. CUDA-Q QEC aims to speed up researchers’ QEC experiments through the rapid…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamlining-quantum-error-correction-and-application-development-with-cuda-qx-0-4/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/QEC_2-1.png",
     "isShortVideo": 0
   }
 ]

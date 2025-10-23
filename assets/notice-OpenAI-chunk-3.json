@@ -1,5 +1,35 @@
 [
   {
+    "id": "7b7bfa4e-dd50-5656-86b6-2bf46b4abeb1",
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "link": "https://openai.com/index/gpt-oss-model-card",
+    "pubDate": "2025-08-05T00:00:00+00:00",
+    "description": "We introduce gpt-oss-120b and gpt-oss-20b, two open-weight reasoning models available under the Apache 2.0 license and our gpt-oss usage policy.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3vlhDMtFUrKBwnx6jOeLRb/eddabb8d71e16a0a680e85dfc5de8115/Open_Model_SystemCard_1x1.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "30b4b20e-07d0-53fe-88a9-c5057aa98730",
+    "title": "Estimating worst case frontier risks of open weight LLMs",
+    "link": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms",
+    "pubDate": "2025-08-05T00:00:00+00:00",
+    "description": "In this paper, we study the worst-case frontier risks of releasing gpt-oss. We introduce malicious fine-tuning (MFT), where we attempt to elicit maximum capabilities by fine-tuning gpt-oss to be as capable as possible in two domains: biology and cybersecurity.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6c45b249-282c-5b31-b95a-4bb78a1a7f69",
     "title": "Open Weights and AI for All",
     "link": "https://openai.com/global-affairs/open-weights-and-ai-for-all",
@@ -105,11 +135,11 @@
     "isShortVideo": 0
   },
   {
-    "id": "f6a41612-25d0-53ba-be1d-1ad3f2b071ef",
-    "title": "Announcing OpenAI DevDay 2025",
-    "link": "https://openai.com/index/announcing-devday-2025",
+    "id": "ad2ea640-3c53-59e8-8370-9224cfc16af8",
+    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+    "link": "https://openai.com/index/model-ml-chaz-englander",
     "pubDate": "2025-07-23T00:00:00+00:00",
-    "description": "OpenAI DevDay returns on October 6, 2025 in San Francisco—bringing together 1,500+ developers to preview new tools, hear from OpenAI leaders, and shape the future of AI.",
+    "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
     "author": "Desconocido",
     "sourceTitle": "OpenAI",
     "sourceUrl": "https://openai.com/news/rss.xml",
@@ -120,11 +150,11 @@
     "isShortVideo": 0
   },
   {
-    "id": "ad2ea640-3c53-59e8-8370-9224cfc16af8",
-    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
-    "link": "https://openai.com/index/model-ml-chaz-englander",
+    "id": "f6a41612-25d0-53ba-be1d-1ad3f2b071ef",
+    "title": "Announcing OpenAI DevDay 2025",
+    "link": "https://openai.com/index/announcing-devday-2025",
     "pubDate": "2025-07-23T00:00:00+00:00",
-    "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
+    "description": "OpenAI DevDay returns on October 6, 2025 in San Francisco—bringing together 1,500+ developers to preview new tools, hear from OpenAI leaders, and shape the future of AI.",
     "author": "Desconocido",
     "sourceTitle": "OpenAI",
     "sourceUrl": "https://openai.com/news/rss.xml",
@@ -225,21 +255,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "3cf2c1b1-28fb-532e-b716-f13f964ad2be",
-    "title": "ChatGPT agent System Card",
-    "link": "https://openai.com/index/chatgpt-agent-system-card",
-    "pubDate": "2025-07-17T10:00:00+00:00",
-    "description": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/4MBcZnnZGYlsr4Ev1eHT9j/a8556ef6251e5a968dd00ade958f1192/Agent_System_Card_SEO_Image.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
     "id": "c9308103-4170-51e4-b2ed-5df78a6227b3",
     "title": "Introducing ChatGPT agent",
     "link": "https://openai.com/index/introducing-chatgpt-agent",
@@ -255,33 +270,18 @@
     "isShortVideo": 0
   },
   {
-    "id": "48f6a528-1543-5cb0-9c1c-8d2647f1fd63",
-    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
-    "link": "https://openai.com/index/invideo-ai",
-    "pubDate": "2025-07-17T00:00:00+00:00",
-    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.",
+    "id": "3cf2c1b1-28fb-532e-b716-f13f964ad2be",
+    "title": "ChatGPT agent System Card",
+    "link": "https://openai.com/index/chatgpt-agent-system-card",
+    "pubDate": "2025-07-17T10:00:00+00:00",
+    "description": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
     "author": "Desconocido",
     "sourceTitle": "OpenAI",
     "sourceUrl": "https://openai.com/news/rss.xml",
     "sourceCategory": "OpenAI",
     "sourceType": "notice",
     "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/77O0lBlbCnj51n7zqfSW7H/93c65c193c5e4339551b4d238d575260/oai_invideo_SEO.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a0ddd2fd-5c35-561c-b6e7-c1cc6682bbae",
-    "title": "Statement from the OpenAI Board of Directors on the Nonprofit Commission Report",
-    "link": "https://openai.com/index/nonprofit-commission-report",
-    "pubDate": "2025-07-17T00:00:00+00:00",
-    "description": "The Board of Directors thanks the members of the independent OpenAI Nonprofit Commission for their extensive work and engagement.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/3JQvx0N0vYFV7GLRUWSHWa/4658661fc41caf4b4cd72f30d8ef95d8/oai_GA_Stories_16.9__2_.png?w=1600&h=900&fit=fill",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4MBcZnnZGYlsr4Ev1eHT9j/a8556ef6251e5a968dd00ade958f1192/Agent_System_Card_SEO_Image.png?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   },
   {
@@ -300,6 +300,21 @@
     "isShortVideo": 0
   },
   {
+    "id": "48f6a528-1543-5cb0-9c1c-8d2647f1fd63",
+    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
+    "link": "https://openai.com/index/invideo-ai",
+    "pubDate": "2025-07-17T00:00:00+00:00",
+    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/77O0lBlbCnj51n7zqfSW7H/93c65c193c5e4339551b4d238d575260/oai_invideo_SEO.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
     "id": "15c116b2-fade-5d78-98fe-0987afbbff94",
     "title": "OpenAI nonprofit jam",
     "link": "https://openai.com/global-affairs/openai-nonprofit-jam",
@@ -312,6 +327,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://images.ctfassets.net/kftzwdyauwt9/6or61c63kRzbnHevA0pALI/67d082728a36b2db36c4c263d58ebd0e/oai_GA_Stories_1.1__2_.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "a0ddd2fd-5c35-561c-b6e7-c1cc6682bbae",
+    "title": "Statement from the OpenAI Board of Directors on the Nonprofit Commission Report",
+    "link": "https://openai.com/index/nonprofit-commission-report",
+    "pubDate": "2025-07-17T00:00:00+00:00",
+    "description": "The Board of Directors thanks the members of the independent OpenAI Nonprofit Commission for their extensive work and engagement.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3JQvx0N0vYFV7GLRUWSHWa/4658661fc41caf4b4cd72f30d8ef95d8/oai_GA_Stories_16.9__2_.png?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   },
   {
@@ -417,36 +447,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://images.ctfassets.net/kftzwdyauwt9/1rlg2wlCTLN87OUhRRqiRE/29c34cafa93d0c2d43c710b7338f61cb/oai_RetellAI_SEO__1_.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ca40e1a9-5d77-512f-a1d8-23717c847755",
-    "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
-    "link": "https://openai.com/index/unify",
-    "pubDate": "2025-06-24T00:00:00+00:00",
-    "description": "Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow, Unify helps teams generate pipeline at scale while focusing on high-impact customer interactions.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/4Zk21VkqRdhQg95kIcrmKc/9a51d3c304e36df765c60d834f6c8552/oai_unify_hero_1x1.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3a4ddf8b-c71d-53c5-a566-07329994ce61",
-    "title": "Preparing for future AI risks in biology",
-    "link": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology",
-    "pubDate": "2025-06-18T10:00:00+00:00",
-    "description": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/693nvynxpuEwLVFEhHybWx/71c3683ed9af5dea7d6f0d11fa88d19f/oai_GA_Stories_16.9.png?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,35 @@
 [
   {
+    "id": "ca40e1a9-5d77-512f-a1d8-23717c847755",
+    "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
+    "link": "https://openai.com/index/unify",
+    "pubDate": "2025-06-24T00:00:00+00:00",
+    "description": "Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow, Unify helps teams generate pipeline at scale while focusing on high-impact customer interactions.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4Zk21VkqRdhQg95kIcrmKc/9a51d3c304e36df765c60d834f6c8552/oai_unify_hero_1x1.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "f5325ac6-f042-5b6f-983a-8446755a6ca8",
+    "title": "Toward understanding and preventing misalignment generalization",
+    "link": "https://openai.com/index/emergent-misalignment",
+    "pubDate": "2025-06-18T10:00:00+00:00",
+    "description": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior—one that can be reversed with minimal fine-tuning.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7uP2bsqs3siC735aO1t7Rm/bf1e57eff61dcc105f9951f3e008b395/oai_emergent_misalignment_blog_seo__1_.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
     "id": "3a4ddf8b-c71d-53c5-a566-07329994ce61",
     "title": "Preparing for future AI risks in biology",
     "link": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology",
@@ -195,21 +225,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "b5b737f5-29b2-537e-aaad-ce051c053fba",
-    "title": "Introducing Codex",
-    "link": "https://openai.com/index/introducing-codex",
-    "pubDate": "2025-05-16T08:00:00+00:00",
-    "description": "Introducing Codex: a cloud-based software engineering agent that can work on many tasks in parallel, powered by codex-1. With Codex, developers can simultaneously deploy multiple agents to independently handle coding tasks such as writing features, answering questions about your codebase, fixing bugs, and proposing pull requests for review.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/1CW331OdlwCNKFHscMjdus/30544027f0bfeca6900ac8d719ffe7dd/Codex_Blog_SEO_Image_V2.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
     "id": "90ab7911-1f61-5667-ba8b-2771e1fe674c",
     "title": "Addendum to o3 and o4-mini system card: Codex",
     "link": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum",
@@ -222,6 +237,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://images.ctfassets.net/kftzwdyauwt9/39RuuEd9Wo8Kv8bfni6gUg/8b886b4ba4005e50a1089ff03cd36e37/Codex_System_Card_1x1.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b5b737f5-29b2-537e-aaad-ce051c053fba",
+    "title": "Introducing Codex",
+    "link": "https://openai.com/index/introducing-codex",
+    "pubDate": "2025-05-16T08:00:00+00:00",
+    "description": "Introducing Codex: a cloud-based software engineering agent that can work on many tasks in parallel, powered by codex-1. With Codex, developers can simultaneously deploy multiple agents to independently handle coding tasks such as writing features, answering questions about your codebase, fixing bugs, and proposing pull requests for review.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1CW331OdlwCNKFHscMjdus/30544027f0bfeca6900ac8d719ffe7dd/Codex_Blog_SEO_Image_V2.png?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   },
   {
@@ -417,36 +447,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f682e0d1-6975-5560-9fd6-3c8de7a463db",
-    "title": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
-    "link": "https://openai.com/index/sycophancy-in-gpt-4o",
-    "pubDate": "2025-04-29T18:00:00+00:00",
-    "description": "We have rolled back last week’s GPT‑4o update in ChatGPT so people are now using an earlier version with more balanced behavior. The update we removed was overly flattering or agreeable—often described as sycophantic.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/4ANZSKbjCR8X9GQZfc5Xum/5cacac2b940befbf666742eb4ddbe227/Sycophancy_16.9.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f4c2c765-1148-5b11-94cc-397c75e9b16a",
-    "title": "New in ChatGPT for Business: April 2025",
-    "link": "https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025",
-    "pubDate": "2025-04-24T00:00:00+00:00",
-    "description": "Watch hands-on demos of the lastest in ChatGPT for Business: o3, image generation, enhanced memory, and internal knowledge.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/3DTdiuXA26bgSDSAd78N3C/304dce548b96ee9c642dcf5186a13cca/oai_business_SEO_16x9.png?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   }
 ]

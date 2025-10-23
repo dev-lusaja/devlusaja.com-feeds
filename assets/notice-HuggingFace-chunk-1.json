@@ -1,5 +1,35 @@
 [
   {
+    "id": "81c51ff2-96b9-5a10-84cf-547a1cec79d7",
+    "title": "Accelerate ND-Parallel: A Guide to Efficient Multi-GPU Training",
+    "link": "https://huggingface.co/blog/accelerate-nd-parallel",
+    "pubDate": "2025-08-08T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/accelerate-nd-parallel/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "91df81e9-062f-5f5c-b57c-51edb4731a50",
+    "title": "Vision Language Model Alignment in TRL ⚡️",
+    "link": "https://huggingface.co/blog/trl-vlm-alignment",
+    "pubDate": "2025-08-07T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/trl_vlm/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "5b929320-5a74-57e3-b06c-09563542d443",
     "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
     "link": "https://huggingface.co/blog/welcome-openai-gpt-oss",
@@ -45,21 +75,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "a2cdebab-0533-53a8-ae64-99e6390b78c2",
-    "title": "Parquet Content-Defined Chunking",
-    "link": "https://huggingface.co/blog/parquet-cdc",
-    "pubDate": "2025-07-25T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/parquet-cdc/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "c807be63-2030-5218-9810-4a70bf9ae78a",
     "title": "Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨",
     "link": "https://huggingface.co/blog/hf-cli",
@@ -72,6 +87,21 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/hf-cli-thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "a2cdebab-0533-53a8-ae64-99e6390b78c2",
+    "title": "Parquet Content-Defined Chunking",
+    "link": "https://huggingface.co/blog/parquet-cdc",
+    "pubDate": "2025-07-25T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/parquet-cdc/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -195,6 +225,21 @@
     "isShortVideo": 0
   },
   {
+    "id": "e722d61d-6927-57bf-81df-f9cbbaef9ac4",
+    "title": "Building the Hugging Face MCP Server",
+    "link": "https://huggingface.co/blog/building-hf-mcp",
+    "pubDate": "2025-07-10T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/building-hf-mcp/building-hf-mcp.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "924cf6e5-a5f4-554c-a09f-50df53c2afba",
     "title": "ScreenEnv: Deploy your full stack Desktop Agent",
     "link": "https://huggingface.co/blog/screenenv",
@@ -225,24 +270,9 @@
     "isShortVideo": 0
   },
   {
-    "id": "e722d61d-6927-57bf-81df-f9cbbaef9ac4",
-    "title": "Building the Hugging Face MCP Server",
-    "link": "https://huggingface.co/blog/building-hf-mcp",
-    "pubDate": "2025-07-10T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/building-hf-mcp/building-hf-mcp.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cf4ab818-c2d2-589d-937a-ec0a4518c1b8",
-    "title": "Upskill your LLMs with Gradio MCP Servers",
-    "link": "https://huggingface.co/blog/gradio-mcp-servers",
+    "id": "3f8ace50-eab1-5ff9-b422-fc109d4e8a34",
+    "title": "Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders",
+    "link": "https://huggingface.co/blog/reachy-mini",
     "pubDate": "2025-07-09T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
@@ -251,7 +281,7 @@
     "sourceCategory": "HuggingFace",
     "sourceType": "notice",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/upskill-llms-with-gradio-mcp/UpskillThumbnail.png",
+    "image": "https://huggingface.co/blog/assets/reachy-mini/thumbnail.jpg",
     "isShortVideo": 0
   },
   {
@@ -270,9 +300,9 @@
     "isShortVideo": 0
   },
   {
-    "id": "3f8ace50-eab1-5ff9-b422-fc109d4e8a34",
-    "title": "Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders",
-    "link": "https://huggingface.co/blog/reachy-mini",
+    "id": "cf4ab818-c2d2-589d-937a-ec0a4518c1b8",
+    "title": "Upskill your LLMs with Gradio MCP Servers",
+    "link": "https://huggingface.co/blog/gradio-mcp-servers",
     "pubDate": "2025-07-09T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
@@ -281,7 +311,22 @@
     "sourceCategory": "HuggingFace",
     "sourceType": "notice",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/reachy-mini/thumbnail.jpg",
+    "image": "https://huggingface.co/blog/assets/upskill-llms-with-gradio-mcp/UpskillThumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d8977a09-35f4-541b-b081-26a16d8ed75f",
+    "title": "Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure",
+    "link": "https://huggingface.co/blog/infrastructure-alerting",
+    "pubDate": "2025-07-08T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/infrastructure-alerting/thumbnail.jpg",
     "isShortVideo": 0
   },
   {
@@ -312,21 +357,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/smollm3/image.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d8977a09-35f4-541b-b081-26a16d8ed75f",
-    "title": "Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure",
-    "link": "https://huggingface.co/blog/infrastructure-alerting",
-    "pubDate": "2025-07-08T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/infrastructure-alerting/thumbnail.jpg",
     "isShortVideo": 0
   },
   {
@@ -417,36 +447,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://huggingface.co/blog/assets/hello-hf-kernels/kernel-hub-five-mins-short.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f68bfe91-4cbf-5f6d-a641-dbe4d5ca9975",
-    "title": "Featherless AI on Hugging Face Inference Providers 🔥",
-    "link": "https://huggingface.co/blog/inference-providers-featherless",
-    "pubDate": "2025-06-12T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/inference-providers/welcome-featherless.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ce609fb5-1685-51c3-af4d-bf2aa3264598",
-    "title": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
-    "link": "https://huggingface.co/blog/nvidia-training-cluster",
-    "pubDate": "2025-06-11T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/nvidia-training-cluster/nvidia-training-cluster-thumbnail-compressed.png",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,35 @@
 [
   {
+    "id": "3082b214-fab2-5fdd-86aa-7640bb544c2d",
+    "title": "Faster Training Throughput in FP8 Precision with NVIDIA NeMo",
+    "link": "https://developer.nvidia.com/blog/faster-training-throughput-in-fp8-precision-with-nvidia-nemo/",
+    "pubDate": "2025-09-23T16:36:21+00:00",
+    "description": "In previous posts on FP8 training, we explored the fundamentals of FP8 precision and took a deep dive into the various scaling recipes for practical large-scale...",
+    "author": "Karin Sevegnani",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-optimize-deploy-graphic-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy-graphic\" width=\"600\" />In previous posts on FP8 training, we explored the fundamentals of FP8 precision and took a deep dive into the various scaling recipes for practical large-scale...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-optimize-deploy-graphic-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy-graphic\" width=\"600\" /><p>In previous posts on FP8 training, we explored the fundamentals of FP8 precision and took a deep dive into the various scaling recipes for practical large-scale deep learning. If you haven’t read those yet, we recommend starting there for a solid foundation. This post focuses on what matters most in production: speed. FP8 training promises faster computation, but how much real-world…</p>\n<p><a href=\"https://developer.nvidia.com/blog/faster-training-throughput-in-fp8-precision-with-nvidia-nemo/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-optimize-deploy-graphic.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8eb9d2ed-445c-5106-a8f0-779fb1f30eed",
+    "title": "How to Accelerate Community Detection in Python Using GPU-Powered Leiden",
+    "link": "https://developer.nvidia.com/blog/how-to-accelerate-community-detection-in-python-using-gpu-powered-leiden/",
+    "pubDate": "2025-09-23T16:30:00+00:00",
+    "description": "Community detection algorithms play an important role in understanding data by identifying hidden groups of related entities in networks. Social network...",
+    "author": "Rick Ratzel",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/image1-4-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1 (4)\" width=\"768\" />Community detection algorithms play an important role in understanding data by identifying hidden groups of related entities in networks. Social network...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/image1-4-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1 (4)\" width=\"768\" /><p>Community detection algorithms play an important role in understanding data by identifying hidden groups of related entities in networks. Social network analysis, recommendation systems, GraphRAG, genomics, and more depend on community detection. But for data scientists working in Python, the ability to efficiently analyze graph data as it grows in size and complexity can pose a problem when…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-accelerate-community-detection-in-python-using-gpu-powered-leiden/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/image1-4.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "2c22dd18-ed1f-54b5-b789-49d0250a6bca",
     "title": "Build a Real-Time Visual Inspection Pipeline with NVIDIA TAO 6 and NVIDIA DeepStream 8",
     "link": "https://developer.nvidia.com/blog/build-a-real-time-visual-inspection-pipeline-with-nvidia-tao-6-and-nvidia-deepstream-8/",
@@ -417,36 +447,6 @@
     "sourceType": "notice",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/nvt-thumb-how-to-prep-for-gen-ai-certifcation-webinar-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvt-thumb-how-to-prep-for-gen-ai-certifcation-webinar-1920x1080\" width=\"768\" />Join a global webinar on Oct. 7 to get everything you need to succeed on the NVIDIA generative-AI certification exams, including the new professional level...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/nvt-thumb-how-to-prep-for-gen-ai-certifcation-webinar-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvt-thumb-how-to-prep-for-gen-ai-certifcation-webinar-1920x1080\" width=\"768\" /><p>Join a global webinar on Oct. 7 to get everything you need to succeed on the NVIDIA generative-AI certification exams, including the new professional level agentic AI and generative AI LLMs certifications. Discover exam prep strategies, see sample exam questions, and hear directly from our certification experts in a live Q&amp;A. Register now.</p>\n<p><a href=\"https://nvda.ws/4g1w81S\" rel=\"nofollow\" target=\"_blank\">Source</a></p>",
     "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-    "isShortVideo": 0
-  },
-  {
-    "id": "504c68d1-07b1-5a3f-9d40-5cfbc0e1c2c3",
-    "title": "Just Released: NVIDIA PhysicsNeMo 25.08",
-    "link": "https://nvidia.github.io/physicsnemo/blog/2025/08/27/physicsnemo-release-25-08/",
-    "pubDate": "2025-09-05T17:37:49+00:00",
-    "description": "NVIDIA PhysicsNeMo 25.08 is packed with powerful new workflows and recipes for CAE application developers.",
-    "author": "Bhoomi Gadhia",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338-1-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338\" width=\"600\" />NVIDIA PhysicsNeMo 25.08 is packed with powerful new workflows and recipes for CAE application developers.<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338-1-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"newsletter-sc24-newsletter-recap-car-wind-tunnel-600x338\" width=\"600\" /><p>NVIDIA PhysicsNeMo 25.08 is packed with powerful new workflows and recipes for CAE application developers.</p>\n<p><a href=\"https://nvidia.github.io/physicsnemo/blog/2025/08/27/physicsnemo-release-25-08/\" rel=\"nofollow\" target=\"_blank\">Source</a></p>",
-    "image": "http://www.example.com/assets/images/social/blog/posts/2025.8-release-blog.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "83328b23-1fd4-5505-b1e1-57d63eb4296e",
-    "title": "Accelerate Large-Scale LLM Inference and KV Cache Offload with CPU-GPU Memory Sharing",
-    "link": "https://developer.nvidia.com/blog/accelerate-large-scale-llm-inference-and-kv-cache-offload-with-cpu-gpu-memory-sharing/",
-    "pubDate": "2025-09-05T17:24:06+00:00",
-    "description": "Large Language Models (LLMs) are at the forefront of AI innovation, but their massive size can complicate inference efficiency. Models such as Llama 3 70B and...",
-    "author": "Afroze Syed",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/LLM-Large-Scale-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"LLM-Large-Scale\" width=\"768\" />Large Language Models (LLMs) are at the forefront of AI innovation, but their massive size can complicate inference efficiency. Models such as Llama 3 70B and...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/LLM-Large-Scale-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"LLM-Large-Scale\" width=\"768\" /><p>Large Language Models (LLMs) are at the forefront of AI innovation, but their massive size can complicate inference efficiency. Models such as Llama 3 70B and Llama 4 Scout 109B may require more memory than is included in the GPU, especially when including large context windows. For example, loading Llama 3 70B and Llama 4 Scout 109B models in half precision (FP16) requires approximately 140…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-large-scale-llm-inference-and-kv-cache-offload-with-cpu-gpu-memory-sharing/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/LLM-Large-Scale.jpg",
     "isShortVideo": 0
   }
 ]
