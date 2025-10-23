@@ -1,0 +1,47 @@
+[
+  {
+    "id": "b748d1e8-9090-5e35-b89f-a8486af9f773",
+    "title": "NAEL: Non-Anthropocentric Ethical Logic",
+    "link": "https://arxiv.org/abs/2510.14676",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "We introduce NAEL (Non-Anthropocentric Ethical Logic), a novel ethical framework for artificial agents grounded in active inference and symbolic reasoning. Departing from conventional, human-centred approaches to AI ethics, NAEL formalizes ethical behaviour as an emergent property of intelligent systems minimizing global expected free energy in dynamic, multi-agent environments. We propose a neuro-symbolic architecture to allow agents to evaluate the ethical consequences of their actions in uncertain settings. The proposed system addresses the limitations of existing ethical models by allowing agents to develop context-sensitive, adaptive, and relational ethical behaviour without presupposing anthropomorphic moral intuitions. A case study involving ethical resource distribution illustrates NAEL's dynamic balancing of self-preservation, epistemic learning, and collective welfare.",
+    "author": "Bianca Maria Lerma, Rafael Pe\\~naloza",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b74d5926-3b79-50f9-963c-ed2be05aa05a",
+    "title": "Users as Annotators: LLM Preference Learning from Comparison Mode",
+    "link": "https://arxiv.org/abs/2510.13830",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "Pairwise preference data have played an important role in the alignment of large language models (LLMs). Each sample of such data consists of a prompt, two different responses to the prompt, and a binary label indicating which of the two responses is better. The labels are usually annotated by professional human annotators. In this paper, we consider an alternative approach to collect pairwise preference data -- user annotation from comparison mode. With the increasingly wider adoption of LLMs among the population, users are contributing more and more of their preference labels through their daily interactions with the LLMs. The upside of such labels is that users are the best experts in judging the responses to their own queries/prompts, but the downside is the lack of quality control in these labels. In this paper, we consider a new idea of generating two responses from two different models or two different versions of the same model. The asymmetry allows us to make an inference of the user's data quality through our proposed user behavior model. We develop an expectation-maximization algorithm to estimate a latent quality factor of the user, and filter users' annotation data accordingly. The downstream task shows the effectiveness of our approach in both capturing the user behavior and data filtering for LLM alignment.",
+    "author": "Zhongze Cai, Xiaocheng Li",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b79cb3fd-1e49-5577-8a4e-49a297626d55",
+    "title": "LabOS: The AI-XR Co-Scientist That Sees and Works With Humans",
+    "link": "https://arxiv.org/abs/2510.14861",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "Modern science advances fastest when thought meets action. LabOS represents the first AI co-scientist that unites computational reasoning with physical experimentation through multimodal perception, self-evolving agents, and Entended-Reality(XR)-enabled human-AI collaboration. By connecting multi-model AI agents, smart glasses, and human-AI collaboration, LabOS allows AI to see what scientists see, understand experimental context, and assist in real-time execution. Across applications--from cancer immunotherapy target discovery to stem-cell engineering -- LabOS shows that AI can move beyond computational design to participation, turning the laboratory into an intelligent, collaborative environment where human and machine discovery evolve together.",
+    "author": "Le Cong, Zaixi Zhang, Xiaotong Wang, Yin Di, Ruofan Jin, Michal Gerasimiuk, Yinkai Wang, Ravi K. Dinesh, David Smerkous, Alex Smerkous, Xuekun Wu, Shilong Liu, Peishan Li, Yi Zhu, Simran Serrao, Ning Zhao, Imran A. Mohammad, John B. Sunwoo, Joseph C. Wu, Mengdi Wang",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  }
+]

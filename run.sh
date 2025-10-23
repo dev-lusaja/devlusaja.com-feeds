@@ -73,12 +73,22 @@ show_mysql_logs() {
     docker compose -f docker/docker-compose.yml logs -f mysql
 }
 
+# Iniciar RSSHub
+start_rsshub() {
+    echo -e "${GREEN}🐳 Iniciando RSSHub...${NC}"
+    docker compose -f docker/docker-compose.yml up -d rsshub
+    echo -e "${GREEN}⏳ Esperando a que RSSHub esté listo...${NC}"
+    sleep 10
+    echo -e "${GREEN}✅ RSSHub iniciado${NC}"
+}
+
 # Ejecutar recolector de feeds
 run_feeds() {
     local force_arg="$1"
 
     check_env
     start_mysql
+    start_rsshub
 
     echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
     docker compose -f docker/docker-compose.yml build feed_collector

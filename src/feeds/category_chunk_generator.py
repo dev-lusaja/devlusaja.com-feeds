@@ -48,9 +48,10 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
 
             log(f"📦 Procesando tipo '{source_type}' con {len(categories)} categorías")
 
-            # Para YouTube, excluir shorts (isShortVideo=1)
-            exclude_shorts = (source_type == 'youtube')
-
+            # Para YouTube y TikTok, excluir shorts (isShortVideo=1)
+            # exclude_shorts = (source_type in ['youtube', 'tiktok'])
+            exclude_shorts = False
+            
             # Procesar cada categoría
             for category in categories:
                 # Obtener conteo total de feeds para este tipo y categoría

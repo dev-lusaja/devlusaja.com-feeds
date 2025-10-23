@@ -22,6 +22,39 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+  
+  # Servicio RSSHub (instancia local)
+  rsshub:
+    image: diygod/rsshub:chromium-bundled
+    container_name: feeds_rsshub
+    restart: unless-stopped
+    ports:
+      - "1200:1200"
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: memory
+      # Configuración de TikTok
+      TIKTOK_SESSION_ID: ${TIKTOK_SESSION_ID:-}
+      TIKTOK_COOKIE: ${TIKTOK_COOKIE:-}
+      # Configuración de rate limiting
+      CACHE_EXPIRE: 600
+      # Configuración de seguridad
+      ACCESS_KEY: ${RSSHUB_ACCESS_KEY:-}
+      # Habilitar CORS
+      ALLOW_ORIGIN: '*'
+      # Logging
+      DEBUG_INFO: 'true'
+      # La imagen chromium-bundled incluye Chromium automáticamente
+      # No necesitamos configurar rutas manualmente
+    networks:
+      - feeds_network
+    # Aumentar memoria compartida para Chromium
+    shm_size: '2gb'
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:1200/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   feed_collector:
     build:

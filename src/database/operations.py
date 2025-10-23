@@ -442,10 +442,10 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
 
     Args:
         db: Objeto de conexión a la base de datos
-        source_type: Tipo de fuente (notice, forum, pappers, youtube, etc.)
+        source_type: Tipo de fuente (notice, forum, pappers, youtube, tiktok, etc.)
         limit: Número máximo de resultados (None = todos)
         offset: Offset para paginación
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
 
     Returns:
         Lista de diccionarios con los datos de los feeds
@@ -457,7 +457,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type == 'youtube':
+        if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
         if limit:
@@ -497,7 +497,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
     Args:
         db: Objeto de conexión a la base de datos
         source_type: Tipo de fuente
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
 
     Returns:
         Número de feeds del tipo especificado
@@ -509,7 +509,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type == 'youtube':
+        if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
         query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s{short_filter}"
@@ -561,11 +561,11 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
 
     Args:
         db: Objeto de conexión a la base de datos
-        source_type: Tipo de fuente (notice, forum, pappers, youtube, etc.)
+        source_type: Tipo de fuente (notice, forum, pappers, youtube, tiktok, etc.)
         category: Categoría específica
         limit: Número máximo de resultados (None = todos)
         offset: Offset para paginación
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
 
     Returns:
         Lista de diccionarios con los datos de los feeds
@@ -577,7 +577,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type == 'youtube':
+        if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
         if limit:
@@ -618,7 +618,7 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         db: Objeto de conexión a la base de datos
         source_type: Tipo de fuente
         category: Categoría específica
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
 
     Returns:
         Número de feeds
@@ -630,7 +630,7 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type == 'youtube':
+        if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
         query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s AND sourceCategory = %s{short_filter}"
