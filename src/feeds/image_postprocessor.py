@@ -57,6 +57,9 @@ def extract_first_image_from_url(
         response = session.get(url, timeout=timeout, headers=headers, allow_redirects=True)
         response.raise_for_status()
 
+        # Forzar encoding UTF-8 para evitar problemas de decodificación
+        response.encoding = response.apparent_encoding or 'utf-8'
+
         # Parsear HTML
         soup = BeautifulSoup(response.content, 'html.parser')
 
@@ -72,6 +75,17 @@ def extract_first_image_from_url(
                     from urllib.parse import urljoin
                     img_src = urljoin(url, img_src)
                 return img_src
+
+        # Caso especial: Anthropic - extraer imagen (Next.js Image Optimization)
+        if source_type == 'notice' and category and 'anthropic' in category.lower():
+            from utils.anthropic import extract_hero_image
+            # Habilitar debug para ver qué está buscando
+            anthropic_image = extract_hero_image(response.text, debug=True)
+            if anthropic_image:
+                log(f"   ✅ Imagen de Anthropic extraída: {anthropic_image[:80]}...")
+                return anthropic_image
+            else:
+                log(f"   ⚠️ No se encontró imagen en Anthropic (ver detalles arriba)")
 
         # 1. Buscar Open Graph image
         og_image = soup.find('meta', property='og:image')
@@ -220,6 +234,10 @@ def process_feeds_images(
         feed_category = feed.get('sourceCategory')
 
         stats['processed'] += 1
+        
+        # Lógica especial: Saltar GoogleNews notices
+        if feed_source_type == 'notice' and feed_category == 'GoogleNews':
+            continue
 
         log(f"\n🔍 [{stats['processed']}/{len(feeds)}] Procesando: {feed_title[:60]}...")
         log(f"   URL: {feed_link}")

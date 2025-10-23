@@ -38,8 +38,9 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
 
         # Procesar cada tipo de fuente
         for source_type in source_types:
-            # Para YouTube, excluir shorts (isShortVideo=1)
-            exclude_shorts = (source_type == 'youtube')
+            # Para YouTube y TikTok, excluir shorts (isShortVideo=1)
+            #exclude_shorts = (source_type in ['youtube', 'tiktok'])
+            exclude_shorts = False
 
             # Obtener conteo total de feeds para este tipo
             total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts)

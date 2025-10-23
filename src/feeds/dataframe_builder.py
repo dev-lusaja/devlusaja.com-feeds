@@ -9,6 +9,7 @@ from dateutil import parser as date_parser
 from bs4 import BeautifulSoup
 from utils.arxiv import extract_abstract
 from utils.youtube import get_youtube_thumbnail, is_youtube_short
+from utils.tiktok import is_tiktok_video, get_tiktok_thumbnail
 from utils.xataka import extract_first_image
 
 def load_all_feeds(feeds_dir: str = "feeds_data") -> List[Dict[str, Any]]:
@@ -161,11 +162,19 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         if is_youtube_short(link):
             is_short_video = 1
 
+    # CASO ESPECIAL: TikTok - Todos los videos de TikTok son shorts
+    if source_type == 'tiktok':
+        # Intentar obtener el thumbnail de TikTok desde el feed
+        image = get_tiktok_thumbnail(entry, link)
+
+        # Todos los videos de TikTok son videos cortos por definición
+        is_short_video = 1
+
     # CASO ESPECIAL: Xataka - obtener primera imagen
     if source_type == 'notice' and category.lower() == 'xataka':
         image = extract_first_image(original_description)
 
-    # Si no es YouTube o no se pudo obtener el thumbnail, usar métodos estándar
+    # Si no se pudo obtener el thumbnail de casos especiales, usar métodos estándar
     if not image:
         if 'media_content' in entry and len(entry['media_content']) > 0:
             image = entry['media_content'][0].get('url', '')
