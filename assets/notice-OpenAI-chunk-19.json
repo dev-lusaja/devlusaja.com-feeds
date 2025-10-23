@@ -1,5 +1,35 @@
 [
   {
+    "id": "82727fce-7809-5f3f-abe0-a6a9b0ee89b5",
+    "title": "OpenAI Five Finals",
+    "link": "https://openai.com/index/openai-five-finals",
+    "pubDate": "2019-03-26T07:00:00+00:00",
+    "description": "We’ll be holding our final live event for OpenAI Five at 11:30am PT on April 13.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/75b8fbb3-f482-40da-bb453d167fa7/66214ec8757c8df68b601fc3d101e6a8/openai-five-finals.jpg?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
+    "id": "46ef0db4-2e68-5b9d-b340-d39a39fb26ed",
+    "title": "Implicit generation and generalization methods for energy-based models",
+    "link": "https://openai.com/index/energy-based-models",
+    "pubDate": "2019-03-21T07:00:00+00:00",
+    "description": "We’ve made progress towards stable and scalable training of energy-based models (EBMs) resulting in better sample quality and generalization ability than existing models. Generation in EBMs spends more compute to continually refine its answers and doing so can generate samples competitive with GANs at low temperatures, while also having mode coverage guarantees of likelihood-based models. We hope these findings stimulate further research into this promising class of models.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6d9752a0-b6e4-4cab-75e7a40c4e07/9475aed9016fe5f38846089722728321/image-21.webp?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
     "id": "60594bcb-cceb-5f7d-bb40-1e53efb4b374",
     "title": "OpenAI Scholars 2019: Meet our Scholars",
     "link": "https://openai.com/index/openai-scholars-2019-meet-our-scholars",
@@ -417,36 +447,6 @@
     "sourceType": "notice",
     "content": "",
     "image": "https://images.ctfassets.net/kftzwdyauwt9/93f0df18-2587-424a-34aeabdb8555/ea4ba2a57e360eea0c6da4798d15b057/image_137.png?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "999d2c5b-3c48-5240-a01b-df2a811048cf",
-    "title": "Learning Montezuma’s Revenge from a single demonstration",
-    "link": "https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration",
-    "pubDate": "2018-07-04T07:00:00+00:00",
-    "description": "We’ve trained an agent to achieve a high score of 74,500 on Montezuma’s Revenge from a single human demonstration, better than any previously published result. Our algorithm is simple: the agent plays a sequence of games starting from carefully chosen states from the demonstration, and learns from them by optimizing the game score using PPO, the same reinforcement learning algorithm that underpins OpenAI Five.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/2c736f64-38dc-4c65-282d3813fbae/54c7b5681339136b3fa57f60091c54f9/image-89.webp?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7375d5fd-1698-5399-9f2d-6ddb09a6eadb",
-    "title": "OpenAI Five",
-    "link": "https://openai.com/index/openai-five",
-    "pubDate": "2018-06-25T07:00:00+00:00",
-    "description": "Our team of five neural networks, OpenAI Five, has started to defeat amateur human teams at Dota 2.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/16faabb9-51a6-4f88-95288038cbd1/0c6fc97768e17d1c40ce86e26367128d/openai-five.jpg?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   }
 ]
