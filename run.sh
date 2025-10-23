@@ -35,6 +35,61 @@ show_menu() {
     echo ""
 }
 
+# Función para verificar si Docker está corriendo
+check_docker() {
+    if ! docker info > /dev/null 2>&1; then
+        return 1
+    fi
+    return 0
+}
+
+# Función para intentar iniciar Docker
+start_docker() {
+    echo -e "${YELLOW}Intentando iniciar Docker...${NC}"
+
+    # Detectar el sistema operativo
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        # macOS
+        echo -e "${BLUE}Iniciando Docker Desktop en macOS...${NC}"
+        open -a Docker
+
+        # Esperar a que Docker esté listo
+        echo -e "${YELLOW}Esperando a que Docker esté listo...${NC}"
+        local max_attempts=30
+        local attempt=0
+
+        while ! docker info > /dev/null 2>&1; do
+            attempt=$((attempt + 1))
+            if [ $attempt -ge $max_attempts ]; then
+                echo -e "${RED}Timeout esperando a que Docker inicie${NC}"
+                return 1
+            fi
+            echo -n "."
+            sleep 2
+        done
+        echo ""
+        echo -e "${GREEN}Docker está listo!${NC}"
+
+    elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        # Linux
+        echo -e "${BLUE}Iniciando Docker en Linux...${NC}"
+        sudo systemctl start docker
+
+        if [ $? -eq 0 ]; then
+            echo -e "${GREEN}Docker iniciado correctamente${NC}"
+        else
+            echo -e "${RED}Error al iniciar Docker${NC}"
+            return 1
+        fi
+    else
+        echo -e "${RED}Sistema operativo no soportado para iniciar Docker automáticamente${NC}"
+        echo -e "${YELLOW}Por favor, inicia Docker manualmente${NC}"
+        return 1
+    fi
+
+    return 0
+}
+
 # Verificar .env
 check_env() {
     if [ ! -f .env ]; then
@@ -185,6 +240,28 @@ regenerate_assets() {
 
 # Loop principal
 main() {
+
+    echo -e "${YELLOW}Verificando Docker...${NC}"
+
+    if ! check_docker; then
+        echo -e "${RED}✗ Docker no está corriendo${NC}"
+        echo -e "${YELLOW}¿Deseas iniciar Docker? (s/n)${NC}"
+        read -r response
+        if [[ "$response" =~ ^[Ss]$ ]]; then
+            if ! start_docker; then
+                echo -e "${RED}No se pudo iniciar Docker. Saliendo...${NC}"
+                exit 1
+            fi
+        else
+            echo -e "${RED}Docker es necesario para continuar. Saliendo...${NC}"
+            exit 1
+        fi
+    else
+        echo -e "${GREEN}✓ Docker está corriendo${NC}"
+    fi
+
+    sleep 1
+
     while true; do
         clear
         print_banner
