@@ -4,8 +4,12 @@ feeds:
     category: 'Xataka'
     sourceType: 'notice'
   - url: 'https://es.wired.com/tag/inteligencia-artificial'
-    title: 'Wired ES IA'
+    title: 'Wired'
     category: 'Wired_ES'
+    sourceType: 'notice'
+  - url: 'https://elpais.com/noticias/inteligencia-artificial/'
+    title: 'El País'
+    category: 'El_Pais'
     sourceType: 'notice'
   - url: https://openai.com/news/rss.xml
     title: OpenAI
