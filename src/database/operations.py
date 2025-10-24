@@ -335,10 +335,11 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         cursor.execute(total_query)
         total_items = cursor.fetchone()['count']
 
-        # Obtener conteo por tipo
+        # Obtener conteo por tipo (excluyendo GoogleNews de notice)
         type_query = """
         SELECT sourceType as type, COUNT(*) as count
         FROM feeds
+        WHERE NOT (sourceType = 'notice' AND sourceCategory = 'GoogleNews')
         GROUP BY sourceType
         """
         cursor.execute(type_query)
@@ -436,7 +437,7 @@ def get_all_source_types(db: DatabaseConnection) -> List[str]:
     finally:
         cursor.close()
 
-def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: int = None, offset: int = 0, exclude_shorts: bool = False) -> List[Dict[str, Any]]:
+def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: int = None, offset: int = 0, exclude_shorts: bool = False, exclude_categories: List[str] = None) -> List[Dict[str, Any]]:
     """
     Obtiene feeds por tipo de fuente (sourceType).
 
@@ -446,6 +447,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         limit: Número máximo de resultados (None = todos)
         offset: Offset para paginación
         exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        exclude_categories: Lista de categorías a excluir (opcional)
 
     Returns:
         Lista de diccionarios con los datos de los feeds
@@ -460,27 +462,40 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
+        # Determinar si aplicar filtro de categorías
+        category_filter = ""
+        if exclude_categories:
+            placeholders = ', '.join(['%s'] * len(exclude_categories))
+            category_filter = f" AND sourceCategory NOT IN ({placeholders})"
+
         if limit:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s{short_filter}
+            WHERE sourceType = %s{short_filter}{category_filter}
             ORDER BY pubDate DESC
             LIMIT %s OFFSET %s
             """
-            cursor.execute(query, (source_type, limit, offset))
+            params = [source_type]
+            if exclude_categories:
+                params.extend(exclude_categories)
+            params.extend([limit, offset])
+            cursor.execute(query, tuple(params))
         else:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s{short_filter}
+            WHERE sourceType = %s{short_filter}{category_filter}
             ORDER BY pubDate DESC
             """
-            cursor.execute(query, (source_type,))
+            params = [source_type]
+            if exclude_categories:
+                params.extend(exclude_categories)
+            cursor.execute(query, tuple(params))
 
         results = cursor.fetchall()
         return results
@@ -490,7 +505,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
     finally:
         cursor.close()
 
-def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, exclude_shorts: bool = False) -> int:
+def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, exclude_shorts: bool = False, exclude_categories: List[str] = None) -> int:
     """
     Obtiene el número de feeds de un sourceType específico.
 
@@ -498,6 +513,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
         db: Objeto de conexión a la base de datos
         source_type: Tipo de fuente
         exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        exclude_categories: Lista de categorías a excluir (opcional)
 
     Returns:
         Número de feeds del tipo especificado
@@ -512,8 +528,16 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
         if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
-        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s{short_filter}"
-        cursor.execute(query, (source_type,))
+        # Determinar si aplicar filtro de categorías
+        category_filter = ""
+        params = [source_type]
+        if exclude_categories:
+            placeholders = ', '.join(['%s'] * len(exclude_categories))
+            category_filter = f" AND sourceCategory NOT IN ({placeholders})"
+            params.extend(exclude_categories)
+
+        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s{short_filter}{category_filter}"
+        cursor.execute(query, tuple(params))
         result = cursor.fetchone()
         return result['count'] if result else 0
     except Error as e:

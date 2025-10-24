@@ -13,6 +13,7 @@ from utils.logger import log
 def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30) -> bool:
     """
     Genera archivos JSON con chunks de feeds agrupados por sourceType.
+    Excluye la categoría GoogleNews de los archivos -all para el sourceType 'notice'.
 
     Args:
         db: Objeto de conexión a la base de datos
@@ -42,8 +43,14 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
             #exclude_shorts = (source_type in ['youtube', 'tiktok'])
             exclude_shorts = False
 
+            # Categorías a excluir de los archivos -all
+            exclude_categories = None
+            if source_type == 'notice':
+                exclude_categories = ['GoogleNews']
+                log(f"📦 Excluyendo categoría 'GoogleNews' de {source_type}-all")
+
             # Obtener conteo total de feeds para este tipo
-            total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts)
+            total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories)
 
             if total_feeds == 0:
                 log(f"⚠️ No hay feeds para el tipo '{source_type}'")
@@ -59,7 +66,7 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
                 offset = chunk_number * items_per_chunk
 
                 # Obtener feeds para este chunk
-                feeds = get_feeds_by_source_type(db, source_type, limit=items_per_chunk, offset=offset, exclude_shorts=exclude_shorts)
+                feeds = get_feeds_by_source_type(db, source_type, limit=items_per_chunk, offset=offset, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories)
 
                 if not feeds:
                     continue
