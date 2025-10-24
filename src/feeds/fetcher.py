@@ -2,6 +2,7 @@ import feedparser
 from utils.logger import log
 from utils.wired import scrape_wired_es_ai, is_wired_feed
 from utils.elpais import scrape_elpais_ia, is_elpais_feed
+from utils.euronews import scrape_euronews_es_ai, is_euronews_feed
 
 def fetch_feed(url: str, category):
     """
@@ -25,6 +26,11 @@ def fetch_feed(url: str, category):
     if is_elpais_feed(category):
         log(f"🔍 Usando scraper personalizado para El País")
         return scrape_elpais_ia(url)
+
+    # Detectar si es Euronews ES y usar scraper personalizado
+    if is_euronews_feed(category):
+        log(f"🔍 Usando scraper personalizado para Euronews ES")
+        return scrape_euronews_es_ai(url)
 
     # Para otros feeds, usar feedparser estándar
     return feedparser.parse(url)
