@@ -1,5 +1,20 @@
 [
   {
+    "id": "72c32009-ceec-5c82-9792-fa1a7a956ac7",
+    "title": "Developers Can Now Get CUDA Directly from Their Favorite Third-Party Platforms",
+    "link": "https://developer.nvidia.com/blog/developers-can-now-get-cuda-directly-from-their-favorite-third-party-platforms/",
+    "pubDate": "2025-09-10T16:00:00+00:00",
+    "description": "Building and deploying applications can be challenging for developers, requiring them to navigate the complex relationship between hardware and software...",
+    "author": "Jonathan Bentz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/image1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />Building and deploying applications can be challenging for developers, requiring them to navigate the complex relationship between hardware and software...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/image1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>Building and deploying applications can be challenging for developers, requiring them to navigate the complex relationship between hardware and software capabilities and compatibility. Ensuring that each underlying software component is not only installed correctly but also matches the required versions to avoid conflicts can be a time-consuming task, and often leads to deployment delays and…</p>\n<p><a href=\"https://developer.nvidia.com/blog/developers-can-now-get-cuda-directly-from-their-favorite-third-party-platforms/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/image1.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "bc76b5e7-3ebc-5df1-8d42-21baab2ee052",
     "title": "Developers Can Now Get NVIDIA CUDA Directly from Their Favorite Third-Party Platforms",
     "link": "https://developer.nvidia.com/blog/developers-can-now-get-cuda-directly-from-their-favorite-third-party-platforms/",
@@ -432,21 +447,6 @@
     "sourceType": "notice",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/image4-2-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" />As datasets get bigger, ensuring data security and integrity becomes increasingly important. Cryptographic techniques, such as inclusion proofs, data-integrity...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/image4-2-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" /><p>As datasets get bigger, ensuring data security and integrity becomes increasingly important. Cryptographic techniques, such as inclusion proofs, data-integrity checks, consistency validation, and digital signatures, are essential for addressing these challenges and protecting critical workloads. That’s where cuPQC SDK v0.4 comes in. By offering powerful device functions capable of fusing…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improve-data-integrity-and-security-with-accelerated-hash-functions-and-merkle-trees-in-cupqc-0-4/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/image4-2.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4410a497-306f-58a1-a3e0-8e451c80df7e",
-    "title": "Reinforcement Learning with NVIDIA NeMo-RL: Megatron-Core Support for Optimized Training Throughput",
-    "link": "https://developer.nvidia.com/blog/reinforcement-learning-with-nvidia-nemo-rl-megatron-core-support-for-optimized-training-throughput/",
-    "pubDate": "2025-08-20T15:15:16+00:00",
-    "description": "The initial release of NVIDIA NeMo-RL included training support through PyTorch DTensor (otherwise known as FSDP2). This backend enables native integration with...",
-    "author": "Anna Shors",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2024/03/nvidia-nemo-customizer-microservice-graphic-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-nemo-customizer-microservice-graphic\" width=\"768\" />The initial release of NVIDIA NeMo-RL included training support through PyTorch DTensor (otherwise known as FSDP2). This backend enables native integration with...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2024/03/nvidia-nemo-customizer-microservice-graphic-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-nemo-customizer-microservice-graphic\" width=\"768\" /><p>The initial release of NVIDIA NeMo-RL included training support through PyTorch DTensor (otherwise known as FSDP2). This backend enables native integration with the HuggingFace ecosystem, quick experimentation, and scaling with PyTorch native parallelisms (FSDP2, tensor parallel, sequence parallel, and context parallel). However, when model sizes approach hundreds of billions of parameters…</p>\n<p><a href=\"https://developer.nvidia.com/blog/reinforcement-learning-with-nvidia-nemo-rl-megatron-core-support-for-optimized-training-throughput/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/03/nvidia-nemo-customizer-microservice-graphic.jpg",
     "isShortVideo": 0
   }
 ]

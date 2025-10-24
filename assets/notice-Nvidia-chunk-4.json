@@ -1,5 +1,20 @@
 [
   {
+    "id": "4410a497-306f-58a1-a3e0-8e451c80df7e",
+    "title": "Reinforcement Learning with NVIDIA NeMo-RL: Megatron-Core Support for Optimized Training Throughput",
+    "link": "https://developer.nvidia.com/blog/reinforcement-learning-with-nvidia-nemo-rl-megatron-core-support-for-optimized-training-throughput/",
+    "pubDate": "2025-08-20T15:15:16+00:00",
+    "description": "The initial release of NVIDIA NeMo-RL included training support through PyTorch DTensor (otherwise known as FSDP2). This backend enables native integration with...",
+    "author": "Anna Shors",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2024/03/nvidia-nemo-customizer-microservice-graphic-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-nemo-customizer-microservice-graphic\" width=\"768\" />The initial release of NVIDIA NeMo-RL included training support through PyTorch DTensor (otherwise known as FSDP2). This backend enables native integration with...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2024/03/nvidia-nemo-customizer-microservice-graphic-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-nemo-customizer-microservice-graphic\" width=\"768\" /><p>The initial release of NVIDIA NeMo-RL included training support through PyTorch DTensor (otherwise known as FSDP2). This backend enables native integration with the HuggingFace ecosystem, quick experimentation, and scaling with PyTorch native parallelisms (FSDP2, tensor parallel, sequence parallel, and context parallel). However, when model sizes approach hundreds of billions of parameters…</p>\n<p><a href=\"https://developer.nvidia.com/blog/reinforcement-learning-with-nvidia-nemo-rl-megatron-core-support-for-optimized-training-throughput/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/03/nvidia-nemo-customizer-microservice-graphic.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "4d0ceaa3-4e49-540a-a4e8-229f99f6ecef",
     "title": "Deploying Your Omniverse Kit Apps at Scale",
     "link": "https://developer.nvidia.com/blog/deploying-your-omniverse-kit-apps-at-scale/",
