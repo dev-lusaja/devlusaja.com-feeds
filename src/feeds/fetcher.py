@@ -1,6 +1,7 @@
 import feedparser
 from utils.logger import log
 from utils.wired import scrape_wired_es_ai, is_wired_feed
+from utils.elpais import scrape_elpais_ia, is_elpais_feed
 
 def fetch_feed(url: str, category):
     """
@@ -19,6 +20,11 @@ def fetch_feed(url: str, category):
     if is_wired_feed(category):
         log(f"🔍 Usando scraper personalizado para Wired ES")
         return scrape_wired_es_ai(url)
+
+    # Detectar si es El País y usar scraper personalizado
+    if is_elpais_feed(category):
+        log(f"🔍 Usando scraper personalizado para El País")
+        return scrape_elpais_ia(url)
 
     # Para otros feeds, usar feedparser estándar
     return feedparser.parse(url)
