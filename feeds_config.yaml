@@ -1,3 +1,20 @@
+# Configuración de exclusiones
+# chunks_all: Categorías a excluir de los archivos -all y estadísticas de metadata
+# Se agrupan por sourceType (notice, youtube, tiktok, etc.)
+exclusions:
+  chunks_all:
+    notice:
+      - GoogleNews
+      - OpenAI
+      - anthropic
+      - DeepMind
+      - Nvidia
+    # Ejemplo para otros sourceTypes:
+    # youtube:
+    #   - SomeCategory
+    # tiktok:
+    #   - AnotherCategory
+
 feeds:
   - url: 'https://www.xataka.com/tag/inteligencia-artificial/rss2.xml'
     title: 'Xataka IA'

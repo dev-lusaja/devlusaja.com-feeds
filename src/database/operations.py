@@ -1,8 +1,10 @@
 import pandas as pd
 from typing import Dict, Any, List, Optional
 from datetime import datetime, date
+from pathlib import Path
 from mysql.connector import Error
 from database.connection import DatabaseConnection
+from config.loader import load_exclusions_config
 from utils.logger import log
 
 def create_feeds_table(db: DatabaseConnection) -> bool:
@@ -314,32 +316,53 @@ def register_execution(db: DatabaseConnection, feeds_processed: int, feeds_inser
     finally:
         cursor.close()
 
-def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]]) -> Dict[str, Any]:
+def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]], config_path: str = None) -> Dict[str, Any]:
     """
     Genera metadata desde la base de datos con estadísticas de feeds.
+    Las exclusiones de categorías se configuran en feeds_config.yaml.
 
     Args:
         db: Objeto de conexión a la base de datos
         feeds_config: Lista de configuración de feeds del YAML
+        config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
 
     Returns:
         Diccionario con metadata en el formato requerido
     """
+    # Si no se proporciona config_path, usar el path por defecto
+    if config_path is None:
+        config_path = str(Path(__file__).parent.parent.parent / "feeds_config.yaml")
+
     cursor = db.get_cursor()
     if not cursor:
         return {}
 
     try:
+        # Cargar configuración de exclusiones
+        exclusions_config = load_exclusions_config(config_path)
+        chunks_all_exclusions = exclusions_config.get('chunks_all', {})
+
         # Obtener total de items
         total_query = "SELECT COUNT(*) as count FROM feeds"
         cursor.execute(total_query)
         total_items = cursor.fetchone()['count']
 
-        # Obtener conteo por tipo (excluyendo GoogleNews de notice)
-        type_query = """
+        # Construir query dinámico para exclusiones basadas en la configuración
+        where_conditions = []
+        for source_type, excluded_categories in chunks_all_exclusions.items():
+            if excluded_categories:
+                placeholders = ', '.join([f"'{cat}'" for cat in excluded_categories])
+                where_conditions.append(f"NOT (sourceType = '{source_type}' AND sourceCategory IN ({placeholders}))")
+
+        where_clause = ""
+        if where_conditions:
+            where_clause = "WHERE " + " AND ".join(where_conditions)
+
+        # Obtener conteo por tipo (aplicando exclusiones configuradas)
+        type_query = f"""
         SELECT sourceType as type, COUNT(*) as count
         FROM feeds
-        WHERE NOT (sourceType = 'notice' AND sourceCategory = 'GoogleNews')
+        {where_clause}
         GROUP BY sourceType
         """
         cursor.execute(type_query)

@@ -8,21 +8,26 @@ from database.operations import (
     get_feeds_by_source_type,
     get_feed_count_by_source_type
 )
+from config.loader import get_chunks_all_exclusions
 from utils.logger import log
 
-def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30) -> bool:
+def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None) -> bool:
     """
     Genera archivos JSON con chunks de feeds agrupados por sourceType.
-    Excluye la categoría GoogleNews de los archivos -all para el sourceType 'notice'.
+    Las exclusiones de categorías para archivos -all se configuran en feeds_config.yaml.
 
     Args:
         db: Objeto de conexión a la base de datos
         output_dir: Directorio donde guardar los archivos (por defecto 'assets')
         items_per_chunk: Número máximo de feeds por chunk (por defecto 30)
+        config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
 
     Returns:
         True si se generaron exitosamente, False en caso contrario
     """
+    # Si no se proporciona config_path, usar el path por defecto
+    if config_path is None:
+        config_path = str(Path(__file__).parent.parent.parent / "feeds_config.yaml")
     try:
         # Crear directorio si no existe
         assets_dir = Path(output_dir)
@@ -43,11 +48,10 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
             #exclude_shorts = (source_type in ['youtube', 'tiktok'])
             exclude_shorts = False
 
-            # Categorías a excluir de los archivos -all
-            exclude_categories = None
-            if source_type == 'notice':
-                exclude_categories = ['GoogleNews']
-                log(f"📦 Excluyendo categoría 'GoogleNews' de {source_type}-all")
+            # Obtener categorías a excluir de los archivos -all desde la configuración
+            exclude_categories = get_chunks_all_exclusions(config_path, source_type)
+            if exclude_categories:
+                log(f"📦 Excluyendo categorías {exclude_categories} de {source_type}-all")
 
             # Obtener conteo total de feeds para este tipo
             total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories)
