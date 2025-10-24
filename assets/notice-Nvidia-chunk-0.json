@@ -1,5 +1,20 @@
 [
   {
+    "id": "9f08cd68-d6a3-5460-b3c4-3722184fdf44",
+    "title": "Reconstruct a Scene in NVIDIA Isaac Sim Using Only a Smartphone",
+    "link": "https://developer.nvidia.com/blog/reconstruct-a-scene-in-nvidia-isaac-sim-using-only-a-smartphone/",
+    "pubDate": "2025-10-23T23:06:12+00:00",
+    "description": "Building realistic 3D environments for robotics simulation can be a labor-intensive process. Now, with NVIDIA Omniverse NuRec, you can complete the entire...",
+    "author": "Wonsik Han",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/humanoid-robot-dancing-among-tables-chairs.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robot-dancing-among-tables-chairs\" width=\"600\" />Building realistic 3D environments for robotics simulation can be a labor-intensive process. Now, with NVIDIA Omniverse NuRec, you can complete the entire...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/humanoid-robot-dancing-among-tables-chairs.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robot-dancing-among-tables-chairs\" width=\"600\" /><p>Building realistic 3D environments for robotics simulation can be a labor-intensive process. Now, with NVIDIA Omniverse NuRec, you can complete the entire process using just a smartphone. This post walks you through each step—from capturing photos using an iPhone to rebuilding the scene in 3D using 3DGUT to loading it into NVIDIA Isaac Sim and inserting a robot. To skip the reconstruction (Steps 1…</p>\n<p><a href=\"https://developer.nvidia.com/blog/reconstruct-a-scene-in-nvidia-isaac-sim-using-only-a-smartphone/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "089c1918-3a9d-5bae-80bb-9f00962473b8",
     "title": "Train an LLM on an NVIDIA Blackwell Desktop with Unsloth—and Scale It",
     "link": "https://developer.nvidia.com/blog/train-an-llm-on-an-nvidia-blackwell-desktop-with-unsloth-and-scale-it/",
@@ -432,21 +447,6 @@
     "sourceType": "notice",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/800-VDC-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"800-VDC\" width=\"768\" />For decades, traditional data centers have been vast halls of servers with power and cooling as secondary considerations. The rise of generative AI has changed...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/800-VDC-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"800-VDC\" width=\"768\" /><p>For decades, traditional data centers have been vast halls of servers with power and cooling as secondary considerations. The rise of generative AI has changed these facilities into AI factories, flipping the architectural script. Power infrastructure, once an afterthought, is becoming the primary factor that dictates the scale, location, and feasibility of new deployments. We’re at a…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-the-800-vdc-ecosystem-for-efficient-scalable-ai-factories/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/800-VDC.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4d842be4-1d2d-52f7-b9cb-ad84d552a7c7",
-    "title": "Build a Log Analysis Multi-Agent Self-Corrective RAG System with NVIDIA Nemotron",
-    "link": "https://developer.nvidia.com/blog/build-a-log-analysis-multi-agent-self-corrective-rag-system-with-nvidia-nemotron/",
-    "pubDate": "2025-10-10T16:00:00+00:00",
-    "description": "Logs are the lifeblood of modern systems. But as applications scale, logs often grow into endless walls of text—noisy, repetitive, and overwhelming. Hunting...",
-    "author": "Prashant Bhende",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/genai-press-rag-visual-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-press-rag-visual-1920x1080\" width=\"768\" />Logs are the lifeblood of modern systems. But as applications scale, logs often grow into endless walls of text—noisy, repetitive, and overwhelming. Hunting...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/genai-press-rag-visual-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-press-rag-visual-1920x1080\" width=\"768\" /><p>Logs are the lifeblood of modern systems. But as applications scale, logs often grow into endless walls of text—noisy, repetitive, and overwhelming. Hunting down the root cause of a timeout or a misconfiguration can feel like finding a needle in a haystack. That’s where our AI-powered log analysis solution comes in. The log analysis agent, introduced in NVIDIA’s Generative AI reference…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-a-log-analysis-multi-agent-self-corrective-rag-system-with-nvidia-nemotron/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/genai-press-rag-visual-1920x1080-1.jpg",
     "isShortVideo": 0
   }
 ]
