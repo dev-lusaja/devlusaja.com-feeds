@@ -1,6 +1,6 @@
 {
-  "totalItems": 8239,
-  "generatedAt": "2025-10-24T18:51:28.875122Z",
+  "totalItems": 8271,
+  "generatedAt": "2025-10-24T19:30:04.405476Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -20,6 +20,11 @@
     {
       "title": "Euronews",
       "category": "Euronews",
+      "type": "notice"
+    },
+    {
+      "title": "El Comercio (PE)",
+      "category": "ElComercio_PE",
       "type": "notice"
     },
     {
@@ -155,14 +160,14 @@
   ],
   "byType": {
     "forum": {
-      "totalItems": 638,
+      "totalItems": 645,
       "totalChunks": 22,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1068,
-      "totalChunks": 36,
+      "totalItems": 1092,
+      "totalChunks": 37,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
@@ -184,7 +189,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 292,
+        "count": 299,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -210,7 +215,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 1181,
+        "count": 1182,
         "isPriority": true,
         "totalChunks": 40,
         "chunkPrefix": "notice-GoogleNews"
@@ -288,28 +293,20 @@
         "chunkPrefix": "notice-El_Pais"
       },
       {
+        "category": "MachineLearningMastery",
+        "title": "Machine Learning Mastery",
+        "count": 29,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-MachineLearningMastery"
+      },
+      {
         "category": "Wired_ES",
         "title": "Wired",
         "count": 26,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-Wired_ES"
-      },
-      {
-        "category": "MachineLearningMastery",
-        "title": "Machine Learning Mastery",
-        "count": 25,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-MachineLearningMastery"
-      },
-      {
-        "category": "KDnuggets",
-        "title": "KDnuggets",
-        "count": 22,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-KDnuggets"
       },
       {
         "category": "anthropic",
@@ -320,12 +317,28 @@
         "chunkPrefix": "notice-anthropic"
       },
       {
+        "category": "KDnuggets",
+        "title": "KDnuggets",
+        "count": 22,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-KDnuggets"
+      },
+      {
         "category": "Euronews",
         "title": "Euronews",
         "count": 20,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-Euronews"
+      },
+      {
+        "category": "ElComercio_PE",
+        "title": "El Comercio (PE)",
+        "count": 20,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-ElComercio_PE"
       },
       {
         "category": "MIT_AI",
