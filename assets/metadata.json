@@ -1,6 +1,6 @@
 {
-  "totalItems": 8286,
-  "generatedAt": "2025-10-24T23:08:39.273378Z",
+  "totalItems": 8321,
+  "generatedAt": "2025-10-25T00:36:31.260568Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -25,6 +25,11 @@
     {
       "title": "El Comercio",
       "category": "ElComercio_PE",
+      "type": "notice"
+    },
+    {
+      "title": "La Nación",
+      "category": "LaNacion_AR",
       "type": "notice"
     },
     {
@@ -160,14 +165,14 @@
   ],
   "byType": {
     "forum": {
-      "totalItems": 654,
+      "totalItems": 658,
       "totalChunks": 22,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1095,
-      "totalChunks": 37,
+      "totalItems": 1126,
+      "totalChunks": 38,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
@@ -189,7 +194,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 306,
+        "count": 309,
         "isPriority": true,
         "totalChunks": 11,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -197,7 +202,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 264,
+        "count": 265,
         "isPriority": true,
         "totalChunks": 9,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -279,7 +284,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 44,
+        "count": 45,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-Towards"
@@ -291,6 +296,14 @@
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-El_Pais"
+      },
+      {
+        "category": "LaNacion_AR",
+        "title": "La Nación",
+        "count": 30,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-LaNacion_AR"
       },
       {
         "category": "MachineLearningMastery",

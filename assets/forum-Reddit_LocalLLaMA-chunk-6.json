@@ -1,5 +1,21 @@
 [
   {
+    "id": "db9ea95c-69c6-517e-ab37-3ca5f60a77a6",
+    "title": "How I Built Lightning-Fast Vector Search for Legal Documents",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ob9bli/how_i_built_lightningfast_vector_search_for_legal/",
+    "pubDate": "2025-10-20T03:22:16+00:00",
+    "description": "submitted by /u/Neon0asis [link] [comments]",
+    "author": "/u/Neon0asis",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob9bli/how_i_built_lightningfast_vector_search_for_legal/\"> <img alt=\"How I Built Lightning-Fast Vector Search for Legal Documents\" src=\"https://external-preview.redd.it/yTyQwb8h92SADq3dGPHjZVD8A4qDhAKutT4IHEH7UFE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=71cacbcc942a0d80e2aee0bed02c52803264926a\" title=\"How I Built Lightning-Fast Vector Search for Legal Documents\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Neon0asis\"> /u/Neon0asis </a> <br /> <span><a href=\"https://medium.com/@adlumal/how-i-built-lightning-fast-vector-search-for-legal-documents-fbc3eaad55ea\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob9bli/how_i_built_lightningfast_vector_search_for_legal/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/yTyQwb8h92SADq3dGPHjZVD8A4qDhAKutT4IHEH7UFE.png?width=640&crop=smart&auto=webp&s=71cacbcc942a0d80e2aee0bed02c52803264926a",
+    "isShortVideo": 0
+  },
+  {
     "id": "276c51d5-6bc3-51f3-a590-3483195e1f8e",
     "title": "Nvidia's OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ob7q6m/nvidias_omnivinci_enhancing_architecture_and_data/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am trying to understand which computer I should get if my goal is to explore modern AI techniques \\ (specifically fine-tuning and inference of VLA models, Vision+Language+Action)</p> <p>Even if we assume money was not an issue it remains not clear to me what is a “good choice”. \\ For example “100k USD for a computer” would be ridiculous even if one could pay for it; \\ the opportunity cost becomes huge, one could do “much better” with 100k than buy a computer. \\ It is unclear if I should think of spending 500, 1k, 5k, 10k, or 30k USD, there seems to be an argument for each price-level.</p> <p>To my current understanding (guesstimated prices, Gb indicate “AI Model RAM”): * 30k+ USD for something like a top of line custom pc with a H100 80Gb inside. * 10k USD for a maxed-up Mac M3 Ultra 512Gb. * 8k USD for a 2xNVIDIA DGX Spark 256Gb interconnected. * 7k USD for a 2xNVIDIA 5090 64Gb machine. * 6k USD for a 2xNVIDIA 4090 48Gb machine. * 4k USD for a NVIDIA DGX Spark 128Gb. * 3k USD for a maxed out AMD Ryzen AI Max+ 395 128Gb Framework PC. * 3k USD for a M5 Macbook Pro 24Gb. * 2k USD for a Beelink GTR9 Pro AMD Ryzen™ AI Max+ 395 128Gb. * 500 USD for a Chromebook Plus and then rent the GPUs by the hour, with a budget of about 100 USD per month (with a service like <a href=\"https://vast.ai\">https://vast.ai</a> ) that would allow plenty of time to work with e.g. 4090 GPUs. </p> <p>I can see arguments pro- and con- each of these options and I am left unclear what will end up being a good bang for bucks. \\ Some of these prices start to be quite crazy (comparable to amazing vacation travels, brand new car, multiple years of GPU renting, a year of weekly dinners at Michelin restaurants, etc.) \\ I think I am missing some technical dimension that I am currently blind to (e.g. optimize memory bandwidth?). </p> <p>For my use case \\ I do not care about gaming, \\ I do not care about the looks, \\ I do not care much about the size (albeit smaller is better), \\ I care a bit about the noise (the less the better), \\ I care about having a powerful CPU (for scientific computing, but at those prices that seems a given), \\ and Linux variant as main OS is my preference. </p> <p>Thanks a lot for your comments and guidance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rodrigo-benenson\"> /u/rodrigo-benenson </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oa8tq5/which_price_point_to_train_and_run_local_vla/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oa8tq5/which_price_point_to_train_and_run_local_vla/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "54fa21c6-b630-5e4a-9ba4-0084f662f657",
-    "title": "Open source custom implementation of GPT-5 Pro / Gemini Deepthink now supports local models",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oa8klx/open_source_custom_implementation_of_gpt5_pro/",
-    "pubDate": "2025-10-18T21:54:34+00:00",
-    "description": "submitted by /u/Ryoiki-Tokuiten [link] [comments]",
-    "author": "/u/Ryoiki-Tokuiten",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oa8klx/open_source_custom_implementation_of_gpt5_pro/\"> <img alt=\"Open source custom implementation of GPT-5 Pro / Gemini Deepthink now supports local models\" src=\"https://external-preview.redd.it/ZnUwMzR3NXV5eHZmMTNcUS_6HPKChleMDpJ0qQU2p3V675TK2MrxaOnhSll8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=568275d60bed24ec215f8d24a426e506eab3f5d7\" title=\"Open source custom implementation of GPT-5 Pro / Gemini Deepthink now supports local models\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ryoiki-Tokuiten\"> /u/Ryoiki-Tokuiten </a> <br /> <span><a href=\"https://v.redd.it/jak8lx5uyxvf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oa8klx/open_source_custom_implementation_of_gpt5_pro/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ZnUwMzR3NXV5eHZmMTNcUS_6HPKChleMDpJ0qQU2p3V675TK2MrxaOnhSll8.png?width=640&crop=smart&auto=webp&s=568275d60bed24ec215f8d24a426e506eab3f5d7",
     "isShortVideo": 0
   }
 ]
