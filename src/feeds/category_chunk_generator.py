@@ -90,6 +90,7 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                             "sourceUrl": feed.get('sourceUrl', ''),
                             "sourceCategory": feed.get('sourceCategory', ''),
                             "sourceType": feed.get('sourceType', ''),
+                            "sourceCountry": feed.get('sourceCountry', ''),
                             "content": feed.get('content', ''),
                             "image": feed.get('image', ''),
                             "isShortVideo": feed.get('isShortVideo', 0)
