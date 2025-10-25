@@ -1,0 +1,55 @@
+# Netlify Configuration
+# Este proyecto solo expone los archivos JSON estáticos de la carpeta assets/
+
+[build]
+  # La carpeta que se publicará
+  publish = "assets"
+
+  # No necesitamos un comando de build porque los assets se generan localmente
+  command = "echo 'Assets already generated locally'"
+
+# Headers para todos los archivos JSON
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # CORS - Permite que cualquier dominio acceda a los JSON
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
+
+    # Cache - Los archivos JSON se actualizan frecuentemente
+    # Cachea por 5 minutos en el navegador, 1 hora en el CDN
+    Cache-Control = "public, max-age=300, s-maxage=3600"
+
+    # Security headers
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+# Headers específicos para archivos JSON
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+# Redirects y rewrites
+[[redirects]]
+  from = "/api/*"
+  to = "/:splat"
+  status = 200
+
+# Configuración del sitio
+[build.environment]
+  NODE_VERSION = "18"
+
+# Context para producción
+[context.production]
+  publish = "assets"
+
+# Context para deploys de preview
+[context.deploy-preview]
+  publish = "assets"
+
+# Context para branch deploys
+[context.branch-deploy]
+  publish = "assets"

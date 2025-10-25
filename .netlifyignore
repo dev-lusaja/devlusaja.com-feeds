@@ -1,0 +1,50 @@
+# Netlify Ignore
+# Archivos que NO se incluirán en el deploy de Netlify
+# Solo queremos publicar la carpeta assets/
+
+# Código fuente Python
+src/
+*.py
+*.pyc
+__pycache__/
+
+# Docker
+docker/
+Dockerfile
+docker-compose.yml
+
+# Base de datos
+feeds_data/
+backups/
+*.db
+*.sqlite
+
+# Scripts
+run.sh
+*.sh
+
+# Configuración local
+.env
+.env.example
+feeds_config.yaml
+
+# Git
+.git/
+.gitignore
+
+# Documentación
+README.md
+README_EXECUTION.md
+
+# Tests
+test_*.py
+*_test.py
+
+# Logs
+*.log
+logs/
+
+# Temporales
+*.tmp
+tmp/
+temp/

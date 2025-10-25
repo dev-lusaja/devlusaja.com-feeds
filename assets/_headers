@@ -1,0 +1,14 @@
+# Headers para todos los archivos JSON
+# Este archivo debe estar dentro de la carpeta assets/
+
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+  Cache-Control: public, max-age=300, s-maxage=3600
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/*.json
+  Content-Type: application/json; charset=utf-8
