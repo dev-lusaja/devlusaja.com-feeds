@@ -25,7 +25,7 @@ feeds:
     title: 'Wired'
     category: 'Wired_ES'
     sourceType: 'notice'
-    country: ''
+    country: 'Internacional'
   - url: 'https://elpais.com/noticias/inteligencia-artificial/'
     title: 'El País'
     category: 'El_Pais'
@@ -41,6 +41,11 @@ feeds:
     category: 'ElComercio_PE'
     sourceType: 'notice'
     country: 'Peru'
+  - url: 'https://www.lanacion.com.ar/tema/inteligencia-artificial-tid58563/'
+    title: 'La Nación'
+    category: 'LaNacion_AR'
+    sourceType: 'notice'
+    country: 'Argentina'
   - url: https://openai.com/news/rss.xml
     title: OpenAI
     category: OpenAI
