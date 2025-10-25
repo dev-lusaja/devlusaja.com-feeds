@@ -34,6 +34,7 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             sourceUrl TEXT,
             sourceCategory VARCHAR(255),
             sourceType VARCHAR(50),
+            sourceCountry VARCHAR(100),
             content LONGTEXT,
             image TEXT,
             isShortVideo TINYINT(1) DEFAULT 0,
@@ -42,6 +43,7 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
             INDEX idx_source_category (sourceCategory),
             INDEX idx_source_type (sourceType),
+            INDEX idx_source_country (sourceCountry),
             INDEX idx_pub_date (pubDate),
             INDEX idx_created_at (created_at)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -119,11 +121,11 @@ def insert_feed(db: DatabaseConnection, feed_data: Dict[str, Any]) -> bool:
         insert_query = """
         INSERT INTO feeds (
             id, title, link, pubDate, description, author,
-            sourceTitle, sourceUrl, sourceCategory, sourceType,
+            sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
             content, image, isShortVideo, raw_data
         ) VALUES (
             %(id)s, %(title)s, %(link)s, %(pubDate)s, %(description)s, %(author)s,
-            %(sourceTitle)s, %(sourceUrl)s, %(sourceCategory)s, %(sourceType)s,
+            %(sourceTitle)s, %(sourceUrl)s, %(sourceCategory)s, %(sourceType)s, %(sourceCountry)s,
             %(content)s, %(image)s, %(isShortVideo)s, %(raw_data)s
         )
         """
@@ -177,6 +179,7 @@ def insert_feeds_from_dataframe(db: DatabaseConnection, df: pd.DataFrame) -> Dic
             'sourceUrl': row['sourceUrl'] if pd.notna(row['sourceUrl']) else '',
             'sourceCategory': row['sourceCategory'] if pd.notna(row['sourceCategory']) else '',
             'sourceType': row['sourceType'] if pd.notna(row['sourceType']) else '',
+            'sourceCountry': row['sourceCountry'] if pd.notna(row['sourceCountry']) else '',
             'content': row['content'] if pd.notna(row['content']) else '',
             'image': row['image'] if pd.notna(row['image']) else '',
             'isShortVideo': row['isShortVideo'] if pd.notna(row['isShortVideo']) else 0,
@@ -494,7 +497,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         if limit:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
-                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
             WHERE sourceType = %s{short_filter}{category_filter}
@@ -509,7 +512,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         else:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
-                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
             WHERE sourceType = %s{short_filter}{category_filter}
@@ -630,7 +633,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         if limit:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
-                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
             WHERE sourceType = %s AND sourceCategory = %s{short_filter}
@@ -641,7 +644,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         else:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
-                   sourceTitle, sourceUrl, sourceCategory, sourceType,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
             WHERE sourceType = %s AND sourceCategory = %s{short_filter}

@@ -78,7 +78,7 @@ def standardize_pub_date(pub_date_str: str) -> str:
         return pub_date_str  # Retornar la fecha original si falla el parseo
 
 def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
-                       source_url: str, source_type: str) -> Dict[str, Any]:
+                       source_url: str, source_type: str, country: str = '') -> Dict[str, Any]:
     """
     Extrae y transforma los datos de una entrada de feed al formato deseado.
 
@@ -88,6 +88,7 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         source_title: Título de la fuente
         source_url: URL de la fuente
         source_type: Tipo de fuente (notice, forum, youtube, pappers)
+        country: País de origen del feed
 
     Returns:
         Diccionario con los datos estructurados
@@ -192,6 +193,7 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         'sourceUrl': source_url,
         'sourceCategory': category,
         'sourceType': source_type,
+        'sourceCountry': country,
         'content': content,
         'image': image,
         'isShortVideo': is_short_video,
@@ -224,7 +226,8 @@ def get_feed_metadata(file_path: str, feeds_config: List[Dict[str, Any]]) -> Dic
                     'category': category,
                     'source_title': feed_info['title'],
                     'source_url': feed_info['url'],
-                    'source_type': feed_info['sourceType']
+                    'source_type': feed_info['sourceType'],
+                    'country': feed_info.get('country', '')
                 }
 
 def build_dataframe(feeds_dir: str = "feeds_data",
@@ -266,7 +269,8 @@ def build_dataframe(feeds_dir: str = "feeds_data",
                 metadata['category'],
                 metadata['source_title'],
                 metadata['source_url'],
-                metadata['source_type']
+                metadata['source_type'],
+                metadata.get('country', '')
             )
             all_entries.append(entry_data)
 
