@@ -1,6 +1,6 @@
 {
-  "totalItems": 8321,
-  "generatedAt": "2025-10-25T00:36:31.260568Z",
+  "totalItems": 8522,
+  "generatedAt": "2025-10-26T11:56:12.340382Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -165,14 +165,14 @@
   ],
   "byType": {
     "forum": {
-      "totalItems": 658,
-      "totalChunks": 22,
+      "totalItems": 714,
+      "totalChunks": 24,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1126,
-      "totalChunks": 38,
+      "totalItems": 1152,
+      "totalChunks": 39,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
@@ -183,7 +183,7 @@
       "chunkPrefix": "pappers-all"
     },
     "youtube": {
-      "totalItems": 98,
+      "totalItems": 99,
       "totalChunks": 4,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -194,23 +194,23 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 309,
+        "count": 335,
         "isPriority": true,
-        "totalChunks": 11,
+        "totalChunks": 12,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
       },
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 265,
+        "count": 290,
         "isPriority": true,
-        "totalChunks": 9,
+        "totalChunks": 10,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 84,
+        "count": 89,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -220,9 +220,9 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 1185,
+        "count": 1302,
         "isPriority": true,
-        "totalChunks": 40,
+        "totalChunks": 44,
         "chunkPrefix": "notice-GoogleNews"
       },
       {
@@ -244,10 +244,18 @@
       {
         "category": "Nvidia",
         "title": "Nvidia",
-        "count": 136,
+        "count": 137,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-Nvidia"
+      },
+      {
+        "category": "TechCrunch_AI",
+        "title": "TechCrunch AI",
+        "count": 101,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-TechCrunch_AI"
       },
       {
         "category": "DeepMind",
@@ -258,41 +266,33 @@
         "chunkPrefix": "notice-DeepMind"
       },
       {
-        "category": "TechCrunch_AI",
-        "title": "TechCrunch AI",
-        "count": 96,
-        "isPriority": true,
-        "totalChunks": 4,
-        "chunkPrefix": "notice-TechCrunch_AI"
-      },
-      {
         "category": "AWS",
         "title": "AWS",
-        "count": 88,
+        "count": 92,
         "isPriority": true,
-        "totalChunks": 3,
+        "totalChunks": 4,
         "chunkPrefix": "notice-AWS"
-      },
-      {
-        "category": "Xataka",
-        "title": "Xataka IA",
-        "count": 48,
-        "isPriority": true,
-        "totalChunks": 2,
-        "chunkPrefix": "notice-Xataka"
       },
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 45,
+        "count": 50,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-Towards"
       },
       {
+        "category": "Xataka",
+        "title": "Xataka IA",
+        "count": 49,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "notice-Xataka"
+      },
+      {
         "category": "El_Pais",
         "title": "El País",
-        "count": 43,
+        "count": 49,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-El_Pais"
@@ -300,9 +300,9 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 30,
+        "count": 33,
         "isPriority": true,
-        "totalChunks": 1,
+        "totalChunks": 2,
         "chunkPrefix": "notice-LaNacion_AR"
       },
       {
@@ -338,20 +338,20 @@
         "chunkPrefix": "notice-KDnuggets"
       },
       {
+        "category": "ElComercio_PE",
+        "title": "El Comercio",
+        "count": 22,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-ElComercio_PE"
+      },
+      {
         "category": "Euronews",
         "title": "Euronews",
         "count": 20,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-Euronews"
-      },
-      {
-        "category": "ElComercio_PE",
-        "title": "El Comercio",
-        "count": 20,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-ElComercio_PE"
       },
       {
         "category": "MIT_AI",
@@ -408,7 +408,7 @@
       {
         "category": "YouTube_XavierMitjana",
         "title": "Xavier Mitjana",
-        "count": 16,
+        "count": 17,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_XavierMitjana"
