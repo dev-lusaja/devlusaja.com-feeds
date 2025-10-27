@@ -1,5 +1,21 @@
 [
   {
+    "id": "78a49700-599a-5362-83ca-c6b93f940bf0",
+    "title": "Haiku 4.5 better than Sonnet?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ocpoye/haiku_45_better_than_sonnet/",
+    "pubDate": "2025-10-21T21:30:38+00:00",
+    "description": "I tried out Haiku for the first time today, and it is consistently as good as Sonnet but so much quicker. I even tried coding and works both insanely efficiently and accurately. Props to the Dev team! submitted by /u/JAW100123 [link] [comments]",
+    "author": "/u/JAW100123",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I tried out Haiku for the first time today, and it is consistently as good as Sonnet but so much quicker. I even tried coding and works both insanely efficiently and accurately. Props to the Dev team!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JAW100123\"> /u/JAW100123 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ocpoye/haiku_45_better_than_sonnet/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ocpoye/haiku_45_better_than_sonnet/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bb37f54b-24b6-54c0-96c4-1152631e068b",
     "title": "M5 using neural accelerators in the GPU is up to 3.65x faster for prefil in test",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocousf/m5_using_neural_accelerators_in_the_gpu_is_up_to/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1occ4ws/contextguard_opensource_security_monitoring_for/\"> <img alt=\"ContextGuard – Open-source security monitoring for MCP servers\" src=\"https://external-preview.redd.it/jYrzgwBVz1ZxDH4WO7mgpJQ-31mgDD9xzOKECsCoSJA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b198563a0b534db44dd84f7961e1382957a74372\" title=\"ContextGuard – Open-source security monitoring for MCP servers\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I built ContextGuard after discovering that 43% of MCP servers have critical security vulnerabilities. MCP (Model Context Protocol) is the new standard that lets Claude Clients(Desktop, Windsurf, Cursor, etc.) access external tools and data sources - think of it as a plugin system for AI assistants.</p> <p>The problem: When you give those clients access to your filesystem, databases, or APIs through MCP servers, you're opening up serious attack vectors. Prompt injection, data leakage, and path traversal attacks are all possible. Most developers building MCP servers don't have security expertise, and there wasn't an easy way to add protection.</p> <p>What ContextGuard does:</p> <p>- Wraps your MCP server as a transparent security proxy</p> <p>- Detects 8+ prompt injection patterns in real-time</p> <p>- Scans for sensitive data (API keys, passwords, SSNs) in responses</p> <p>- Prevents path traversal attacks</p> <p>- Rate limiting to prevent abuse</p> <p>- Comprehensive JSON logging for auditing</p> <p>- &lt;1% performance overhead</p> <p>Technical approach:</p> <p>- TypeScript-based stdio proxy</p> <p>- Pattern matching + heuristics for threat detection</p> <p>- Works with any MCP server using stdio transport</p> <p>- Zero code changes needed - just wrap your existing server</p> <p>- All detection happens synchronously in the request/response flow</p> <p>The README includes a testing section where you can see the same attacks succeed on an unprotected server vs being blocked with ContextGuard enabled. It's pretty eye-opening to see how easy these attacks are.</p> <p>Why open source:</p> <p>Security tools need transparency. I want the community to audit the detection patterns, contribute new ones, and help identify blind spots. Plus, MCP is still early days - we need to establish security best practices together.</p> <p>Roadmap:</p> <p>Currently working on SSE/HTTP transport support, a web dashboard for monitoring, and a custom rule engine. Planning to offer Pro features for enterprises (team management, priority support, advanced analytics) while keeping the core security features free and open source forever.</p> <p>I'd love feedback on:</p> <ol> <li><p>What other attack patterns should I prioritize detecting?</p></li> <li><p>Is the web dashboard a must-have or nice-to-have?</p></li> <li><p>Any blind spots in the current detection logic?</p></li> <li><p>Should I focus more on detection accuracy or performance?</p></li> </ol> <p>The project is on GitHub with full docs and examples: <a href=\"https://github.com/amironi/contextguard\">https://github.com/amironi/contextguard</a></p> <p>You can try it right now:</p> <p>npm install -g contextguard</p> <p>contextguard --server &quot;node your-mcp-server.js&quot;</p> <p>Happy to answer any questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/contextguard25\"> /u/contextguard25 </a> <br /> <span><a href=\"https://github.com/amironi/contextguard\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1occ4ws/contextguard_opensource_security_monitoring_for/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/jYrzgwBVz1ZxDH4WO7mgpJQ-31mgDD9xzOKECsCoSJA.png?width=640&crop=smart&auto=webp&s=b198563a0b534db44dd84f7961e1382957a74372",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bfe66369-8cb5-5b4e-9268-f003c3a1db94",
-    "title": "We built ContextAgent — a context-centric take on multi-agent systems (rethinking what an “agent” is)",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocbxhm/we_built_contextagent_a_contextcentric_take_on/",
-    "pubDate": "2025-10-21T12:44:01+00:00",
-    "description": "We think multi-agent frameworks have gotten too heavy. So we tried something different — ContextAgent treats each “agent” simply as an LLM with a different context . Instead of managing tons of roles and message-passing, everything revolves around a central context object that stores and updates shared state between agents. That design makes it possible to: run complex multi-agent workflows (like research or data analysis) keep the whole system lightweight and minimal extend with simple, modular components We already built two pipelines — 🕸️ Web Research and 📈 Data Analysis (auto ML from a file) — and plan to add more while staying minimal. Repo: https://github.com/context-machine-lab/contextagent Would love to hear what others think about the agent system for context engineering. Really appreciate OpenAI Agents SDK , Youtu-Agent and agents-deep-research . submitted by /u/TimeLover935 [link] [comments]",
-    "author": "/u/TimeLover935",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We think multi-agent frameworks have gotten too heavy.</p> <p>So we tried something different — <strong>ContextAgent</strong> treats each “agent” simply as an <strong>LLM with a different context</strong>.</p> <p>Instead of managing tons of roles and message-passing, everything revolves around a <strong>central context object</strong> that stores and updates shared state between agents.</p> <p>That design makes it possible to:</p> <ul> <li>run complex multi-agent workflows (like research or data analysis)</li> <li>keep the whole system lightweight and minimal</li> <li>extend with simple, modular components</li> </ul> <p>We already built two pipelines —</p> <p>🕸️ <em>Web Research</em> and 📈 <em>Data Analysis (auto ML from a file)</em> — and plan to add more while staying minimal.</p> <p>Repo: <a href=\"https://github.com/context-machine-lab/contextagent\">https://github.com/context-machine-lab/contextagent</a></p> <p>Would love to hear what others think about the agent system for context engineering.</p> <p>Really appreciate <a href=\"https://github.com/openai/openai-agents-python\">OpenAI Agents SDK</a>, <a href=\"https://github.com/TencentCloudADP/youtu-agent\">Youtu-Agent</a> and <a href=\"https://github.com/qx-labs/agents-deep-research\">agents-deep-research</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TimeLover935\"> /u/TimeLover935 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocbxhm/we_built_contextagent_a_contextcentric_take_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocbxhm/we_built_contextagent_a_contextcentric_take_on/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

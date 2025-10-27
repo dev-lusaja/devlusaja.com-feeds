@@ -1,5 +1,21 @@
 [
   {
+    "id": "da5f3370-ca71-5ac2-92a4-5d9aa74c9a30",
+    "title": "Selling GPU Credits - 30% Discount",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oh3lxh/selling_gpu_credits_30_discount/",
+    "pubDate": "2025-10-27T02:57:00+00:00",
+    "description": "Hi , we have unused GPU credits (Around 600$) on a major GPU provider. Serverless , 100 workers ready etc... We switched our pipeline to FAL.AI so we don't use our account anymore. If you are interested about the credits or GPU work at discounted rate send me a message Legit offer can do a vid call etc. submitted by /u/Confident_Minimum_91 [link] [comments]",
+    "author": "/u/Confident_Minimum_91",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi , we have unused GPU credits (Around 600$) on a major GPU provider.</p> <p>Serverless , 100 workers ready etc...</p> <p>We switched our pipeline to <a href=\"http://fal.ai/\">FAL.AI</a> so we don't use our account anymore.</p> <p>If you are interested about the credits or GPU work at discounted rate send me a message</p> <p>Legit offer can do a vid call etc.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Confident_Minimum_91\"> /u/Confident_Minimum_91 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oh3lxh/selling_gpu_credits_30_discount/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oh3lxh/selling_gpu_credits_30_discount/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4c8f5dc0-678d-5757-b8cd-9133552d347d",
     "title": "The way MCP is used needs to change",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1oh3dks/the_way_mcp_is_used_needs_to_change/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Wanted to share some learnings we had optimizing and deploying Qwen-Image-Edit at scale to replace Nano-Banana. The goal was to generate a product catalogue of 1.2m images, which would have cost $46k with Nano-Banana or GPT-Image-Edit.</p> <p>Qwen-Image-Edit being Apache 2.0 allows you to fine-tune and apply a few tricks like compilation, lightning lora and quantization to cut costs.</p> <p>The base model takes ~15s to generate an image which would mean we would need 1,200,000*15/60/60=5,000 compute hours.</p> <p>Compilation of the PyTorch graph + applying a lightning LoRA cut inference down to ~4s per image which resulted in ~1,333 compute hours.</p> <p>I'm a big fan of open source models, so wanted to share the details in case it inspires you to own your own weights in the future.</p> <p><a href=\"https://www.oxen.ai/blog/how-we-cut-inference-costs-from-46k-to-7-5k-fine-tuning-qwen-image-edit\">https://www.oxen.ai/blog/how-we-cut-inference-costs-from-46k-to-7-5k-fine-tuning-qwen-image-edit</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FallMindless3563\"> /u/FallMindless3563 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogud3r/p_cutting_inference_costs_from_46k_to_75k_by/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogud3r/p_cutting_inference_costs_from_46k_to_75k_by/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e7dcbe1c-af11-50e7-9d11-6fa28938e9f0",
-    "title": "Maximum Length for Conversation",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ogtty4/maximum_length_for_conversation/",
-    "pubDate": "2025-10-26T19:39:46+00:00",
-    "description": "Is anyone else experiencing hitting the maximum length much more quickly? I asked for a token analysis of a previous chat and a current chat. The current chat showed it starts with ~85–90K tokens already used. It looks like all project docs are being loaded automatically, even with memory turned off. Previously it would only refer to project docs if necessary and now it eats half the context window before I type anything. Anyone know if there’s a way to turn this off or if Anthropic has responded about it? submitted by /u/tbslabslife [link] [comments]",
-    "author": "/u/tbslabslife",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is anyone else experiencing hitting the maximum length much more quickly?</p> <p>I asked for a token analysis of a previous chat and a current chat.</p> <p>The current chat showed it starts with ~85–90K tokens already used. It looks like all project docs are being loaded automatically, even with memory turned off.</p> <p>Previously it would only refer to project docs if necessary and now it eats half the context window before I type anything.</p> <p>Anyone know if there’s a way to turn this off or if Anthropic has responded about it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tbslabslife\"> /u/tbslabslife </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ogtty4/maximum_length_for_conversation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ogtty4/maximum_length_for_conversation/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "4a67852f-847e-5425-92cf-4b2e77393091",
+    "title": "LM Studio beta resizes images to 1024 px now for VL models",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/",
+    "pubDate": "2025-10-20T18:51:55+00:00",
+    "description": "https://preview.redd.it/gsoayja3cbwf1.png?width=800&format=png&auto=webp&s=69a9f2d362622335940a2883d9ba9babb930a7a4 Up from 500px. And they promise downsize will be configurable in the future. https://lmstudio.ai/beta-releases submitted by /u/egomarker [link] [comments]",
+    "author": "/u/egomarker",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/\"> <img alt=\"LM Studio beta resizes images to 1024 px now for VL models\" src=\"https://external-preview.redd.it/HLFitx4pf0jk0EXyGsTacqSfluQnnlai3zH8I6-hEEE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=bba9f38dcdd34d917cc627645eb8fd5d00d1f612\" title=\"LM Studio beta resizes images to 1024 px now for VL models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/gsoayja3cbwf1.png?width=800&amp;format=png&amp;auto=webp&amp;s=69a9f2d362622335940a2883d9ba9babb930a7a4\">https://preview.redd.it/gsoayja3cbwf1.png?width=800&amp;format=png&amp;auto=webp&amp;s=69a9f2d362622335940a2883d9ba9babb930a7a4</a></p> <p>Up from 500px. And they promise downsize will be configurable in the future.</p> <p><a href=\"https://lmstudio.ai/beta-releases\">https://lmstudio.ai/beta-releases</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/egomarker\"> /u/egomarker </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/HLFitx4pf0jk0EXyGsTacqSfluQnnlai3zH8I6-hEEE.png?width=640&crop=smart&auto=webp&s=bba9f38dcdd34d917cc627645eb8fd5d00d1f612",
+    "isShortVideo": 0
+  },
+  {
     "id": "a110001a-153a-5da5-b4ba-9be54d7609d1",
     "title": "Print your own Claw’d",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1obq3m6/print_your_own_clawd/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>AI seems magical when it generates amazing content or predicts complex trends, but most people forget that there are thousands of humans behind every dataset. Annotators, curators, photographers, and freelancers all contribute to the models we use every day.</p> <p>Even small contributions can be crucial. For example, platforms like <strong>Wirestock</strong> pay their creators for contributing content for AI training, which gives them visibility into how their work is being used. It made me realize how much invisible labor goes into every “smart” system we use.</p> <p>Do you think these contributors should get more recognition, maybe even some form of credit or royalties? Or is invisibility just part of how technology evolves? I’d love to hear from people who have done this kind of work, how do you feel about your contributions being behind the scenes?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Patient_Gate_2717\"> /u/Patient_Gate_2717 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1obkvie/the_invisible_human_workforce_behind_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1obkvie/the_invisible_human_workforce_behind_ai/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "86857bd7-f318-50cf-99f3-34650c95909c",
-    "title": "Qwen3-VL-8B + vllm on 3060 12gb",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obk7k5/qwen3vl8b_vllm_on_3060_12gb/",
-    "pubDate": "2025-10-20T14:21:00+00:00",
-    "description": "Hello, I used qwen2.5-vl-7b-awq during multiple weeks on my 3060 with vllm and was super satisfied with the perf. The model was maximizing the VRam usage Now I’m trying to upgrade to qwen3-vl-8B but unfortunately I cannot managed to fit into the 12Gb of vram and it is crashing while trying to allocate KV cache . I’m using vllm 0.11 was wondering is someone managed to make it run ? was trying some options to offload the kvcache to cpu ram but it is not working … maybe using LMCache ? any clues are welcome submitted by /u/vava2603 [link] [comments]",
-    "author": "/u/vava2603",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I used qwen2.5-vl-7b-awq during multiple weeks on my 3060 with vllm and was super satisfied with the perf. The model was maximizing the VRam usage </p> <p>Now I’m trying to upgrade to qwen3-vl-8B but unfortunately I cannot managed to fit into the 12Gb of vram and it is crashing while trying to allocate KV cache . I’m using vllm 0.11</p> <p>was wondering is someone managed to make it run ? was trying some options to offload the kvcache to cpu ram but it is not working … maybe using LMCache ? any clues are welcome </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vava2603\"> /u/vava2603 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obk7k5/qwen3vl8b_vllm_on_3060_12gb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obk7k5/qwen3vl8b_vllm_on_3060_12gb/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

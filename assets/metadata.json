@@ -1,6 +1,6 @@
 {
-  "totalItems": 8600,
-  "generatedAt": "2025-10-26T21:54:49.585786Z",
+  "totalItems": 8627,
+  "generatedAt": "2025-10-26T22:05:01.218875Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -46,11 +46,6 @@
       "title": "KDnuggets",
       "category": "KDnuggets",
       "type": "notice"
-    },
-    {
-      "title": "Machine Learning Mastery",
-      "category": "MachineLearningMastery",
-      "type": "educational"
     },
     {
       "title": "MIT Tech Review AI",
@@ -106,6 +101,16 @@
       "title": "Anthropic",
       "category": "anthropic",
       "type": "notice"
+    },
+    {
+      "title": "Machine Learning Mastery",
+      "category": "MachineLearningMastery",
+      "type": "educational"
+    },
+    {
+      "title": "Fast AI",
+      "category": "fastai",
+      "type": "educational"
     },
     {
       "title": "arXiv cs.LG",
@@ -165,13 +170,13 @@
   ],
   "byType": {
     "educational": {
-      "totalItems": 39,
+      "totalItems": 59,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 753,
+      "totalItems": 754,
       "totalChunks": 26,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -204,6 +209,14 @@
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "educational-MachineLearningMastery"
+      },
+      {
+        "category": "fastai",
+        "title": "Fast AI",
+        "count": 20,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "educational-fastai"
       }
     ],
     "forum": [
@@ -218,7 +231,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 306,
+        "count": 307,
         "isPriority": true,
         "totalChunks": 11,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -236,7 +249,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 1326,
+        "count": 1332,
         "isPriority": true,
         "totalChunks": 45,
         "chunkPrefix": "notice-GoogleNews"

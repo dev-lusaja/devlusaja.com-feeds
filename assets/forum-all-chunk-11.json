@@ -1,5 +1,21 @@
 [
   {
+    "id": "d4d832d3-209b-5b46-89ce-7c81768d3ed4",
+    "title": "Built a team knowledge base for Claude Code (and other AI tools) using MCP",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1odc482/built_a_team_knowledge_base_for_claude_code_and/",
+    "pubDate": "2025-10-22T15:53:57+00:00",
+    "description": "Claude Code is amazing and my daily driver, but every session starts fresh. It doesn't remember yesterday's architectural decision or know your team's coding patterns. I built Cont3xt.dev to give Claude (and other AI tools) persistent access to team context via MCP. How it works: Document your team's context once (architectural decisions, coding standards, patterns) When Claude Code (or Claude.ai , Cursor, etc.) needs context, it fetches relevant info via MCP Claude generates code that actually matches your team's approach Example: You: \"Create a user service\" Without context: Claude might use different patterns than your existing services With Cont3xt: Claude knows you use repository pattern, knows your error handling approach, follows your naming conventions Features: Rules library (prioritised - critical rules always included) Architectural Decision Records (why you chose X over Y) Smart filtering (only relevant context, respects token budgets) Analytics (track what's actually useful) Looking for beta testers. Free during beta, honest feedback expected. More info: https://cont3xt.dev How do you currently share project context with Claude? submitted by /u/ksred [link] [comments]",
+    "author": "/u/ksred",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Claude Code is amazing and my daily driver, but every session starts fresh. It doesn't remember yesterday's architectural decision or know your team's coding patterns.</p> <p>I built <a href=\"http://Cont3xt.dev\">Cont3xt.dev</a> to give Claude (and other AI tools) persistent access to team context via MCP.</p> <p><strong>How it works:</strong></p> <ol> <li>Document your team's context once (architectural decisions, coding standards, patterns)</li> <li>When Claude Code (or <a href=\"http://Claude.ai\">Claude.ai</a>, Cursor, etc.) needs context, it fetches relevant info via MCP</li> <li>Claude generates code that actually matches your team's approach</li> </ol> <p><strong>Example:</strong> You: &quot;Create a user service&quot; Without context: Claude might use different patterns than your existing services With Cont3xt: Claude knows you use repository pattern, knows your error handling approach, follows your naming conventions</p> <p><strong>Features:</strong></p> <ul> <li>Rules library (prioritised - critical rules always included)</li> <li>Architectural Decision Records (why you chose X over Y)</li> <li>Smart filtering (only relevant context, respects token budgets)</li> <li>Analytics (track what's actually useful)</li> </ul> <p>Looking for beta testers. Free during beta, honest feedback expected.</p> <p>More info: <a href=\"https://cont3xt.dev/\">https://cont3xt.dev</a></p> <p>How do you currently share project context with Claude?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ksred\"> /u/ksred </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1odc482/built_a_team_knowledge_base_for_claude_code_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1odc482/built_a_team_knowledge_base_for_claude_code_and/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fb0c5791-b2fb-5c83-98c8-02b94486e7ef",
     "title": "LFM2-VL 3B released today",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odbwjj/lfm2vl_3b_released_today/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Sorry for the non-learning question, but most of the community is here.</p> <p>There's ' upstream request timeout' on OpenReview. Has been for a while.</p> <p>Are you experiencing that too? Do you have an idea on the ETA on the uptime?</p> <p>Appreciated!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tahirsyed\"> /u/tahirsyed </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od1jgj/d_is_or_down_again/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od1jgj/d_is_or_down_again/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3ae4310f-ae3e-583a-b902-53625261301d",
-    "title": "hey Z.ai, two weeks was yesterday",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1od1hw4/hey_zai_two_weeks_was_yesterday/",
-    "pubDate": "2025-10-22T07:13:00+00:00",
-    "description": "submitted by /u/jacek2023 [link] [comments]",
-    "author": "/u/jacek2023",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1od1hw4/hey_zai_two_weeks_was_yesterday/\"> <img alt=\"hey Z.ai, two weeks was yesterday\" src=\"https://preview.redd.it/lg6u60lj5mwf1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fb37b472c5a42bbe348ff5652a5ce811e269f95d\" title=\"hey Z.ai, two weeks was yesterday\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://i.redd.it/lg6u60lj5mwf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1od1hw4/hey_zai_two_weeks_was_yesterday/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/lg6u60lj5mwf1.jpeg?width=640&crop=smart&auto=webp&s=fb37b472c5a42bbe348ff5652a5ce811e269f95d",
     "isShortVideo": 0
   }
 ]

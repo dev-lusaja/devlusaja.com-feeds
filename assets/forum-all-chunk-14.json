@@ -1,5 +1,21 @@
 [
   {
+    "id": "bfe66369-8cb5-5b4e-9268-f003c3a1db94",
+    "title": "We built ContextAgent — a context-centric take on multi-agent systems (rethinking what an “agent” is)",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocbxhm/we_built_contextagent_a_contextcentric_take_on/",
+    "pubDate": "2025-10-21T12:44:01+00:00",
+    "description": "We think multi-agent frameworks have gotten too heavy. So we tried something different — ContextAgent treats each “agent” simply as an LLM with a different context . Instead of managing tons of roles and message-passing, everything revolves around a central context object that stores and updates shared state between agents. That design makes it possible to: run complex multi-agent workflows (like research or data analysis) keep the whole system lightweight and minimal extend with simple, modular components We already built two pipelines — 🕸️ Web Research and 📈 Data Analysis (auto ML from a file) — and plan to add more while staying minimal. Repo: https://github.com/context-machine-lab/contextagent Would love to hear what others think about the agent system for context engineering. Really appreciate OpenAI Agents SDK , Youtu-Agent and agents-deep-research . submitted by /u/TimeLover935 [link] [comments]",
+    "author": "/u/TimeLover935",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We think multi-agent frameworks have gotten too heavy.</p> <p>So we tried something different — <strong>ContextAgent</strong> treats each “agent” simply as an <strong>LLM with a different context</strong>.</p> <p>Instead of managing tons of roles and message-passing, everything revolves around a <strong>central context object</strong> that stores and updates shared state between agents.</p> <p>That design makes it possible to:</p> <ul> <li>run complex multi-agent workflows (like research or data analysis)</li> <li>keep the whole system lightweight and minimal</li> <li>extend with simple, modular components</li> </ul> <p>We already built two pipelines —</p> <p>🕸️ <em>Web Research</em> and 📈 <em>Data Analysis (auto ML from a file)</em> — and plan to add more while staying minimal.</p> <p>Repo: <a href=\"https://github.com/context-machine-lab/contextagent\">https://github.com/context-machine-lab/contextagent</a></p> <p>Would love to hear what others think about the agent system for context engineering.</p> <p>Really appreciate <a href=\"https://github.com/openai/openai-agents-python\">OpenAI Agents SDK</a>, <a href=\"https://github.com/TencentCloudADP/youtu-agent\">Youtu-Agent</a> and <a href=\"https://github.com/qx-labs/agents-deep-research\">agents-deep-research</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TimeLover935\"> /u/TimeLover935 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocbxhm/we_built_contextagent_a_contextcentric_take_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocbxhm/we_built_contextagent_a_contextcentric_take_on/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0406c059-af8c-55fc-861a-fbd232d9b21c",
     "title": "[By GLM Team] Glyph: Scaling Context Windows via Visual-Text Compression",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocbkry/by_glm_team_glyph_scaling_context_windows_via/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I really like Claude Code's interactive question feature. It effectively shows the critical questions to clarify and easy to answer. However, I've noticed that my custom subagents only display questions as plain text instead of using the interactive prompt.</p> <p>Is there a way to trigger or enable interactive questions for custom subagents? Any guidance would be appreciated!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WashTop956\"> /u/WashTop956 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oc1gix/how_to_enable_interactive_questions_for_custom/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oc1gix/how_to_enable_interactive_questions_for_custom/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "84b145ea-0ae4-5bc9-bc44-88ad5b5df809",
-    "title": "STOP MAKING MARKDOWN FILES!!!!",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oc18yn/stop_making_markdown_files/",
-    "pubDate": "2025-10-21T02:31:44+00:00",
-    "description": "submitted by /u/explodingcb [link] [comments]",
-    "author": "/u/explodingcb",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oc18yn/stop_making_markdown_files/\"> <img alt=\"STOP MAKING MARKDOWN FILES!!!!\" src=\"https://preview.redd.it/4w3eutwfmdwf1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=c336b6a8ab0bde3b7e18984081e60babefb48b12\" title=\"STOP MAKING MARKDOWN FILES!!!!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/explodingcb\"> /u/explodingcb </a> <br /> <span><a href=\"https://i.redd.it/4w3eutwfmdwf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oc18yn/stop_making_markdown_files/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/4w3eutwfmdwf1.png?width=320&crop=smart&auto=webp&s=c336b6a8ab0bde3b7e18984081e60babefb48b12",
     "isShortVideo": 0
   }
 ]

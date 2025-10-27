@@ -1,5 +1,21 @@
 [
   {
+    "id": "da5f3370-ca71-5ac2-92a4-5d9aa74c9a30",
+    "title": "Selling GPU Credits - 30% Discount",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oh3lxh/selling_gpu_credits_30_discount/",
+    "pubDate": "2025-10-27T02:57:00+00:00",
+    "description": "Hi , we have unused GPU credits (Around 600$) on a major GPU provider. Serverless , 100 workers ready etc... We switched our pipeline to FAL.AI so we don't use our account anymore. If you are interested about the credits or GPU work at discounted rate send me a message Legit offer can do a vid call etc. submitted by /u/Confident_Minimum_91 [link] [comments]",
+    "author": "/u/Confident_Minimum_91",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi , we have unused GPU credits (Around 600$) on a major GPU provider.</p> <p>Serverless , 100 workers ready etc...</p> <p>We switched our pipeline to <a href=\"http://fal.ai/\">FAL.AI</a> so we don't use our account anymore.</p> <p>If you are interested about the credits or GPU work at discounted rate send me a message</p> <p>Legit offer can do a vid call etc.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Confident_Minimum_91\"> /u/Confident_Minimum_91 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oh3lxh/selling_gpu_credits_30_discount/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oh3lxh/selling_gpu_credits_30_discount/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "998d5ec9-cd47-5ef6-a410-f51bd659f605",
     "title": "Built a full voice AI assistant running locally on my RX 6700 with Vulkan - Proof AMD cards excel at LLM inference",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oh1kfe/built_a_full_voice_ai_assistant_running_locally/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogh8ec/using_glm_46_to_understand_its_limitations/\"> <img alt=\"Using GLM 4.6 to understand it's limitations\" src=\"https://a.thumbs.redditmedia.com/E-b1AYjpK-0wB4j8lY7BJQb9A8ucue0uF7crpypRrQ0.jpg\" title=\"Using GLM 4.6 to understand it's limitations\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/gq9yiommnfxf1.png?width=1994&amp;format=png&amp;auto=webp&amp;s=04be61d0c1fe988448c06878ea77b577ddd6aee1\">https://preview.redd.it/gq9yiommnfxf1.png?width=1994&amp;format=png&amp;auto=webp&amp;s=04be61d0c1fe988448c06878ea77b577ddd6aee1</a></p> <p>The actual loosing point will start at 30% less than the number in the table. For example, tool calling actually starting to fail randomly at 70k context.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Vozer_bros\"> /u/Vozer_bros </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogh8ec/using_glm_46_to_understand_its_limitations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogh8ec/using_glm_46_to_understand_its_limitations/\">[comments]</a></span> </td></tr></table>",
     "image": "https://a.thumbs.redditmedia.com/E-b1AYjpK-0wB4j8lY7BJQb9A8ucue0uF7crpypRrQ0.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f1002ea3-8cd0-58e0-9220-d85859a39f54",
-    "title": "Why didn't LoRA catch on with LLMs?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogg6sz/why_didnt_lora_catch_on_with_llms/",
-    "pubDate": "2025-10-26T09:22:15+00:00",
-    "description": "Explanation of LoRA for the folks at home (skip to next section if you already know what Lora is) I only know it from the image generation Stable Diffusion world, and I only tried that briefly, so this won't be 100% exact. Let's say your image generation model is Stable Diffusion 1.5, which came out a few years ago. It can't know the artstyle of a new artist that came up in the past year, let's say his name his Bobsolete. What lora creators did is create a small dataset of Bobsolete's art, and use it to train SD 1.5 for like 1-2 days. This outputs a small lora file (the SD 1.5 model is 8GB, a lora is like 20MB). Users can download this lora, and when loading SD 1.5, say \"also attach Bobsolete.lora to the model\". Now the user is interacting with SD 1.5 that has been augmented with knowledge of Bobsolete. The user can specify \"drawn in the style of Bobsolete\" and it will work. Loras are used to add new styles to a model, new unique characters, and so on. Back to LLMs LLMs apparently support loras, but no one seems to use them. I've never ever seen them discussed on this sub in my 2 years of casual browsing, although I see they exist in the search results. I was wondering why this hasn't caught on. People could add little bodies of knowledge to an already-released model. For example, you take a solid general model like Gemma 3 27B. Someone could release a lora trained on all scifi books, another based on all major movie scripts, etc. You could then \"./llama.cpp -m models/gemma3.gguf --lora models/scifi-books-rev6.lora --lora models/movie-scripts.lora\" and try to get Gemma 3 to help you write a modern scifi movie script. You could even focus even more on specific authors, cormac-mccarthy.lora etc. A more useful/legal example would be attaching current-events-2025.lora to a model whose cutoff date was December 2024. So why didn't this catch on the way it did in the image world? Is this technology inherently more limited on LLMs? Why does it seem like companies interested in integrating their doc with AI are more focused on RAG than training a Lora on their internal docs? submitted by /u/dtdisapointingresult [link] [comments]",
-    "author": "/u/dtdisapointingresult",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h2>Explanation of LoRA for the folks at home</h2> <p>(skip to next section if you already know what Lora is)</p> <p>I only know it from the image generation Stable Diffusion world, and I only tried that briefly, so this won't be 100% exact.</p> <p>Let's say your image generation model is Stable Diffusion 1.5, which came out a few years ago. It can't know the artstyle of a new artist that came up in the past year, let's say his name his Bobsolete.</p> <p>What lora creators did is create a small dataset of Bobsolete's art, and use it to train SD 1.5 for like 1-2 days. This outputs a small lora file (the SD 1.5 model is 8GB, a lora is like 20MB). Users can download this lora, and when loading SD 1.5, say &quot;also attach Bobsolete.lora to the model&quot;. Now the user is interacting with SD 1.5 that has been augmented with knowledge of Bobsolete. The user can specify &quot;drawn in the style of Bobsolete&quot; and it will work.</p> <p>Loras are used to add new styles to a model, new unique characters, and so on.</p> <h2>Back to LLMs</h2> <p>LLMs apparently support loras, but no one seems to use them. I've never ever seen them discussed on this sub in my 2 years of casual browsing, although I see they exist in the search results.</p> <p>I was wondering why this hasn't caught on. People could add little bodies of knowledge to an already-released model. For example, you take a solid general model like Gemma 3 27B. Someone could release a lora trained on all scifi books, another based on all major movie scripts, etc. You could then &quot;./llama.cpp -m models/gemma3.gguf --lora models/scifi-books-rev6.lora --lora models/movie-scripts.lora&quot; and try to get Gemma 3 to help you write a modern scifi movie script. You could even focus even more on specific authors, cormac-mccarthy.lora etc.</p> <p>A more useful/legal example would be attaching current-events-2025.lora to a model whose cutoff date was December 2024. </p> <p>So why didn't this catch on the way it did in the image world? Is this technology inherently more limited on LLMs? Why does it seem like companies interested in integrating their doc with AI are more focused on RAG than training a Lora on their internal docs?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dtdisapointingresult\"> /u/dtdisapointingresult </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogg6sz/why_didnt_lora_catch_on_with_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogg6sz/why_didnt_lora_catch_on_with_llms/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "9c467a7f-cc94-58f7-b25b-f6a8f5875080",
+    "title": "What’s the smartest NON thinking model under 40B or so?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oec0xm/whats_the_smartest_non_thinking_model_under_40b/",
+    "pubDate": "2025-10-23T19:03:31+00:00",
+    "description": "Seed 39B is excellent for thinking, but what about non-thinking? submitted by /u/Borkato [link] [comments]",
+    "author": "/u/Borkato",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Seed 39B is excellent for thinking, but what about non-thinking?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Borkato\"> /u/Borkato </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oec0xm/whats_the_smartest_non_thinking_model_under_40b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oec0xm/whats_the_smartest_non_thinking_model_under_40b/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "994eeb85-f9a5-5ee3-98be-0bd518f6f88c",
     "title": "Can Qwen3-VL count my push-ups? (Ronnie Coleman voice)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oebo07/can_qwen3vl_count_my_pushups_ronnie_coleman_voice/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been ML engineering for different startups in both in Europe and in the US and I can tell you... the gap between a RAG demo and a RAG product is almost always the same: people are still using naive retrieval.</p> <p>Let's be clear: if you actually want to ship a product that works, you must move beyond the basic <code>sim(BiEncoder(q), BiEncoder(d))</code> setup. It fails on precision, nuance, and complex queries.</p> <p>Your architecture must solve a specific problem. Here is a technical summary of three advanced patterns.</p> <h1>Notation Key</h1> <ul> <li><code>q, d</code>: Query, Document</li> <li><code>BiEncoder(x)</code>: Bi-encoder model (e.g., SBERT), computes v independently.</li> <li><code>CrossEncoder(q, d)</code>: Cross-encoder model, computes a joint relevance score.</li> <li><code>sim(v1, v2)</code>: Cosine similarity.</li> <li><code>S_naive</code> = sim(BiEncoder(q), BiEncoder(d))</li> </ul> <h1>1. The Retriever-Reranker (The Precision Stack)</h1> <p>This is the most reliable path to production accuracy. It decouples the recall problem from the precision problem.</p> <p>How it works:</p> <p><strong>Stage 1 (Retriever):</strong> Get Top-K candidates using a fast, high-recall hybrid search (RRF).</p> <p><code>RRF_Score(d) = SUM( 1 / (k + rank_r(d)) ) for r in {bm25, vector}</code></p> <p><strong>Stage 2 (Reranker):</strong> Re-score only the Top-K with the slower, more accurate CrossEncoder(q, d).</p> <p>Pros: This is the correct way to solve precision. The <code>CrossEncoder(q, d)</code> is fundamentally more powerful than <code>S_naive</code> and is the only reliable method to handle negation and nuance.</p> <p>Cons: The latency of a second network call is a minor, predictable cost for the massive gain in accuracy.</p> <p>There is a nice implementation of this with <strong>Turbopuffer</strong> and <strong>ZeroEntropy.</strong><br /> (btw this has given me the best results so far but you can find different variations)</p> <h1>2. The Query Transformer (The Recall Stack)</h1> <p>This pattern assumes the query <code>q</code> is the problem. It uses an LLM to refine q before retrieval.</p> <p>How it works: An LLM generates n query variants <code>{q_1, ..., q_n}</code> (Multi-Query) or a hypothetical document <code>d_hypo</code> (HyDE) to search against.</p> <p><code>Search Vector = BiEncoder(d_hypo)</code></p> <p>Pros: Fixes bad recall from vague or semantically mismatched user input.</p> <p>Cons: Adds a costly and slow LLM call before the search has even begun.</p> <h1>3. The Graph RAG (The Connections Stack)</h1> <p>A different paradigm focused on explicit, structured relationships.</p> <p>How it works: Abandons vector similarity for a graph query language.</p> <p><code>MATCH (e:Engineer)-[:WORKS_AT]-&gt;(c:Company) RETURN e .name</code></p> <p>Pros: Can answer complex, multi-hop questions that vector search fundamentally cannot.</p> <p>Cons: This is often a distraction. It requires a massive, upfront data-modeling bottleneck (ETL, schema definition). It is rigid, expensive, and defeats the primary purpose of RAG, which is to work with unstructured data.</p> <h1>TLDR</h1> <p><strong>Setup 1 (Retriever-Reranker)</strong> is the production standard for fixing precision.</p> <p><strong>Setup 2 (Query-Transformer)</strong> is a-costly-way to fix bad user queries.</p> <p><strong>Setup 3 (Graph RAG)</strong> solves a different problem (structured data) and is mostly a distraction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jremynse\"> /u/jremynse </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odv090/i_built_50_rags_in_2_years_here_are_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odv090/i_built_50_rags_in_2_years_here_are_the/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3416a45d-8a61-5749-8b79-250bdc3a80e7",
-    "title": "New 'Markovian Thinking' technique unlocks a path to million-token AI reasoning",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odnqga/new_markovian_thinking_technique_unlocks_a_path/",
-    "pubDate": "2025-10-22T23:19:50+00:00",
-    "description": "submitted by /u/qzrz [link] [comments]",
-    "author": "/u/qzrz",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/qzrz\"> /u/qzrz </a> <br /> <span><a href=\"https://venturebeat.com/ai/new-markovian-thinking-technique-unlocks-a-path-to-million-token-ai\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odnqga/new_markovian_thinking_technique_unlocks_a_path/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
