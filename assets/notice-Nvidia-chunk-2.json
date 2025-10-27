@@ -1,5 +1,21 @@
 [
   {
+    "id": "74c1af0f-1377-544e-9e74-4e3dde501066",
+    "title": "3 Easy Ways to Supercharge Your Robotics Development Using OpenUSD",
+    "link": "https://developer.nvidia.com/blog/3-easy-ways-to-supercharge-your-robotics-development-using-openusd/",
+    "pubDate": "2025-09-29T15:00:00+00:00",
+    "description": "The increasing demand for robotics is driving the need for physics-accurate simulation at an unprecedented scale. Universal Scene Description (OpenUSD) is key...",
+    "author": "Matias Codesal",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"A robot arm moving items.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/OpenUSD-robotics.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"OpenUSD-robotics\" width=\"600\" />The increasing demand for robotics is driving the need for physics-accurate simulation at an unprecedented scale. Universal Scene Description (OpenUSD) is key...<img alt=\"A robot arm moving items.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/OpenUSD-robotics.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"OpenUSD-robotics\" width=\"600\" /><p>The increasing demand for robotics is driving the need for physics-accurate simulation at an unprecedented scale. Universal Scene Description (OpenUSD) is key to this transformation, offering a powerful, open standard for building ‌virtual worlds where robots learn. This guide showcases three practical ways to supercharge your robotics development workflows using OpenUSD.</p>\n<p><a href=\"https://developer.nvidia.com/blog/3-easy-ways-to-supercharge-your-robotics-development-using-openusd/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/OpenUSD-robotics.gif",
+    "isShortVideo": 0
+  },
+  {
     "id": "e1349f18-1fc9-5b57-b837-527d09be9a04",
     "title": "Smart Multi-Node Scheduling for Fast and Efficient LLM Inference with NVIDIA Run:ai and NVIDIA Dynamo",
     "link": "https://developer.nvidia.com/blog/smart-multi-node-scheduling-for-fast-and-efficient-llm-inference-with-nvidia-runai-and-nvidia-dynamo/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-social-chat-labs-blog-5-tw-1200x675\" width=\"768\" />After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ),...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-social-chat-labs-blog-5-tw-1200x675\" width=\"768\" /><p>After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ), which applies numerical scaling techniques to approximate model weights in lower-precision data types. But two other strategies—quantization aware training (QAT) and quantization aware distillation (QAD)—can succeed where PTQ falls short by…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-quantization-aware-training-enables-low-precision-accuracy-recovery/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "db35f4dc-c3e4-5023-ba99-ca9a99ef5b6c",
-    "title": "Accelerate Protein Structure Inference Over 100x with NVIDIA RTX PRO 6000 Blackwell Server Edition",
-    "link": "https://developer.nvidia.com/blog/accelerate-protein-structure-inference-over-100x-with-nvidia-rtx-pro-6000-blackwell-server-edition/",
-    "pubDate": "2025-09-10T16:48:18+00:00",
-    "description": "The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to...",
-    "author": "Kyle Tretina",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-prediction\" width=\"768\" />The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-prediction\" width=\"768\" /><p>The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to predict how proteins fold determines the capacity to solve humanity’s most pressing biological challenges. Since the release of AlphaFold2, AI inference for determining protein structures has skyrocketed. Unoptimized tools for protein structure…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-protein-structure-inference-over-100x-with-nvidia-rtx-pro-6000-blackwell-server-edition/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-2048x1152.jpg",
     "isShortVideo": 0
   }
 ]
