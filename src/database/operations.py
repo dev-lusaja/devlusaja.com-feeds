@@ -720,3 +720,75 @@ def update_feed_image(db: DatabaseConnection, feed_id: str, image_url: str) -> b
         return False
     finally:
         cursor.close()
+
+def get_short_videos_count(db: DatabaseConnection) -> int:
+    """
+    Obtiene el número total de videos cortos (isShortVideo=1) en la base de datos.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+
+    Returns:
+        Número de videos cortos
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return 0
+
+    try:
+        query = "SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1"
+        cursor.execute(query)
+        result = cursor.fetchone()
+        return result['count'] if result else 0
+    except Error as e:
+        log(f"❌ Error al contar videos cortos: {e}")
+        return 0
+    finally:
+        cursor.close()
+
+def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0) -> List[Dict[str, Any]]:
+    """
+    Obtiene todos los videos cortos (isShortVideo=1) de la base de datos.
+
+    Args:
+        db: Objeto de conexión a la base de datos
+        limit: Número máximo de resultados (None = todos)
+        offset: Offset para paginación
+
+    Returns:
+        Lista de diccionarios con los datos de los videos cortos
+    """
+    cursor = db.get_cursor()
+    if not cursor:
+        return []
+
+    try:
+        if limit:
+            query = """
+            SELECT id, title, link, pubDate, description, author,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
+                   content, image, isShortVideo, created_at
+            FROM feeds
+            WHERE isShortVideo = 1
+            ORDER BY pubDate DESC
+            LIMIT %s OFFSET %s
+            """
+            cursor.execute(query, (limit, offset))
+        else:
+            query = """
+            SELECT id, title, link, pubDate, description, author,
+                   sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
+                   content, image, isShortVideo, created_at
+            FROM feeds
+            WHERE isShortVideo = 1
+            ORDER BY pubDate DESC
+            """
+            cursor.execute(query)
+
+        results = cursor.fetchall()
+        return results
+    except Error as e:
+        log(f"❌ Error al obtener videos cortos: {e}")
+        return []
+    finally:
+        cursor.close()
