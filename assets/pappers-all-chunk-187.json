@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b4307895-ab6f-516a-a111-ed4d025f9ad5",
+    "title": "Spatial Computing Communications for Multi-User Virtual Reality in Distributed Mobile Edge Computing Network",
+    "link": "https://arxiv.org/abs/2510.14243",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "Immersive virtual reality (VR) applications impose stringent requirements on latency, energy efficiency, and computational resources, particularly in multi-user interactive scenarios. To address these challenges, we introduce the concept of spatial computing communications (SCC), a framework designed to meet the latency and energy demands of multi-user VR over distributed mobile edge computing (MEC) networks. SCC jointly represents the physical space, defined by users and base stations, and the virtual space, representing shared immersive environments, using a probabilistic model of user dynamics and resource requirements. The resource deployment task is then formulated as a multi-objective combinatorial optimization (MOCO) problem that simultaneously minimizes system latency and energy consumption across distributed MEC resources. To solve this problem, we propose MO-CMPO, a multi-objective consistency model with policy optimization that integrates supervised learning and reinforcement learning (RL) fine-tuning guided by preference weights. Leveraging a sparse graph neural network (GNN), MO-CMPO efficiently generates Pareto-optimal solutions. Simulations with real-world New Radio base station datasets demonstrate that MO-CMPO achieves superior hypervolume performance and significantly lower inference latency than baseline methods. Furthermore, the analysis reveals practical deployment patterns: latency-oriented solutions favor local MEC execution to reduce transmission delay, while energy-oriented solutions minimize redundant placements to save energy.",
+    "author": "Caolu Xu, Zhiyong Chen, Meixia Tao, Li Song, Wenjun Zhang",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  }
+]

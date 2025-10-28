@@ -1,5 +1,53 @@
 [
   {
+    "id": "d903058c-428e-50be-a662-c01ccc6c4256",
+    "title": "New ViT and ALIGN Models From Kakao Brain",
+    "link": "https://huggingface.co/blog/vit-align",
+    "pubDate": "2023-03-06T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog//assets/132_vit_align/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "c250bd08-1cd4-5007-aedb-b57a5b0dc8df",
+    "title": "ControlNet in Diffusers 🧨",
+    "link": "https://huggingface.co/blog/controlnet",
+    "pubDate": "2023-03-03T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/controlnet/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ff1c1ae1-5496-5193-9fc1-302c4c5ea285",
+    "title": "Using Machine Learning to Aid Survivors and Race through Time",
+    "link": "https://huggingface.co/blog/using-ml-for-disasters",
+    "pubDate": "2023-03-03T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/using-ml-for-disasters/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "27ea0731-657b-55c9-8fc6-91adb1bba7f2",
     "title": "Ethical guidelines for developing the Diffusers library",
     "link": "https://huggingface.co/blog/ethics-diffusers",
@@ -240,22 +288,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "92368ed5-85fc-51b6-b1c0-0a49f50deb29",
-    "title": "Using LoRA for Efficient Stable Diffusion Fine-Tuning",
-    "link": "https://huggingface.co/blog/lora",
-    "pubDate": "2023-01-26T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/lora/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "d32e7382-0068-51aa-9722-2fa986c6f5ba",
     "title": "2D Asset Generation: AI for Game Development #4",
     "link": "https://huggingface.co/blog/ml-for-games-4",
@@ -272,10 +304,10 @@
     "isShortVideo": 0
   },
   {
-    "id": "ca9a89a1-ad74-5027-b9f2-acda96805f0c",
-    "title": "Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models",
-    "link": "https://huggingface.co/blog/optimum-onnxruntime-training",
-    "pubDate": "2023-01-24T00:00:00+00:00",
+    "id": "92368ed5-85fc-51b6-b1c0-0a49f50deb29",
+    "title": "Using LoRA for Efficient Stable Diffusion Fine-Tuning",
+    "link": "https://huggingface.co/blog/lora",
+    "pubDate": "2023-01-26T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -284,7 +316,7 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/optimum_onnxruntime-training/thumbnail.png",
+    "image": "https://huggingface.co/blog/assets/lora/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -301,6 +333,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/dialog-agents/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ca9a89a1-ad74-5027-b9f2-acda96805f0c",
+    "title": "Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models",
+    "link": "https://huggingface.co/blog/optimum-onnxruntime-training",
+    "pubDate": "2023-01-24T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/optimum_onnxruntime-training/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -400,22 +448,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "65501fd7-c173-54c5-a237-3ed94ea55f68",
-    "title": "AI for Game Development: Creating a Farming Game in 5 Days. Part 1",
-    "link": "https://huggingface.co/blog/ml-for-games-1",
-    "pubDate": "2023-01-02T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/124_ml-for-games/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "f31361b8-4336-5235-8ed4-535c30373274",
     "title": "Accelerating PyTorch Transformers with Intel Sapphire Rapids, part 1",
     "link": "https://huggingface.co/blog/intel-sapphire-rapids",
@@ -432,10 +464,10 @@
     "isShortVideo": 0
   },
   {
-    "id": "b7e10a99-c69f-5d9b-8429-ba3767074d9c",
-    "title": "Zero-shot image segmentation with CLIPSeg",
-    "link": "https://huggingface.co/blog/clipseg-zero-shot",
-    "pubDate": "2022-12-21T00:00:00+00:00",
+    "id": "65501fd7-c173-54c5-a237-3ed94ea55f68",
+    "title": "AI for Game Development: Creating a Farming Game in 5 Days. Part 1",
+    "link": "https://huggingface.co/blog/ml-for-games-1",
+    "pubDate": "2023-01-02T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -444,39 +476,7 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/123_clipseg-zero-shot/thumb.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f6012d1c-8775-55ce-803c-8fe893daa0e8",
-    "title": "Model Cards: Introducing HF Model documentation tools",
-    "link": "https://huggingface.co/blog/model-cards",
-    "pubDate": "2022-12-20T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/121_model-cards/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ace34825-d6b9-5a69-b6e4-1d4ad3d8e244",
-    "title": "Ethics and Society Newsletter #2: Let's talk about bias!",
-    "link": "https://huggingface.co/blog/ethics-soc-2",
-    "pubDate": "2022-12-15T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/122_ethics_soc_2/thumbnail-solstice.png",
+    "image": "https://huggingface.co/blog/assets/124_ml-for-games/thumbnail.png",
     "isShortVideo": 0
   }
 ]

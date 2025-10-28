@@ -1,0 +1,34 @@
+[
+  {
+    "id": "4ee007ae-b23b-5a20-8846-2c3e351d2b51",
+    "title": "Measuring and Mitigating Identity Bias in Multi-Agent Debate via Anonymization",
+    "link": "https://arxiv.org/abs/2510.07517",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "Multi-agent debate (MAD) aims to improve large language model (LLM) reasoning by letting multiple agents exchange answers and then aggregate their opinions. Yet recent studies reveal that agents are not neutral: they are prone to identity-driven sycophancy and self-bias, uncritically adopting a peer's view or stubbornly adhering to their own prior output, undermining the reliability of debate. In this work, we present the first principled framework that joins sycophancy and self-bias to mitigate and quantify identity bias in MAD. First, we formalize the debate dynamics as an identity-weighted Bayesian update process. Second, we propose response anonymization: by removing identity markers from prompts, agents cannot distinguish \"self\" from \"peer\", which forces equal weights on agent identity, thereby reducing bias. Third, we define the Identity Bias Coefficient (IBC), a principled metric that measures how often an agent follows a peer versus itself. Empirical studies across multiple models, datasets and debate rounds confirm that identity bias is widespread, with sycophancy far more common than self-bias. Our findings highlight the need to \"mask\" identity to ensure that MAD systems reason based on content rather than source identity. Code is released in https://github.com/deeplearning-wisc/MAD-identity-bias.",
+    "author": "Hyeong Kyu Choi, Xiaojin Zhu, Sharon Li",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "4f31b50f-399d-5bfe-a125-700610d2fef3",
+    "title": "Causality Enhancement for Cross-Domain Recommendation",
+    "link": "https://arxiv.org/abs/2510.14641",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "Cross-domain recommendation forms a crucial component in recommendation systems. It leverages auxiliary information through source domain tasks or features to enhance target domain recommendations. However, incorporating inconsistent source domain tasks may result in insufficient cross-domain modeling or negative transfer. While incorporating source domain features without considering the underlying causal relationships may limit their contribution to final predictions. Thus, a natural idea is to directly train a cross-domain representation on a causality-labeled dataset from the source to target domain. Yet this direction has been rarely explored, as identifying unbiased real causal labels is highly challenging in real-world scenarios. In this work, we attempt to take a first step in this direction by proposing a causality-enhanced framework, named CE-CDR. Specifically, we first reformulate the cross-domain recommendation as a causal graph for principled guidance. We then construct a causality-aware dataset heuristically. Subsequently, we derive a theoretically unbiased Partial Label Causal Loss to generalize beyond the biased causality-aware dataset to unseen cross-domain patterns, yielding an enriched cross-domain representation, which is then fed into the target model to enhance target-domain recommendations. Theoretical and empirical analyses, as well as extensive experiments, demonstrate the rationality and effectiveness of CE-CDR and its general applicability as a model-agnostic plugin. Moreover, it has been deployed in production since April 2025, showing its practical value in real-world applications.",
+    "author": "Zhibo Wu, Yunfan Wu, Lin Jiang, Ping Yang, Yao Hu",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  }
+]

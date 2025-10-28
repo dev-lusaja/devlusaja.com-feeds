@@ -5,6 +5,7 @@ from utils.elpais import scrape_elpais_ia, is_elpais_feed
 from utils.euronews import scrape_euronews_es_ai, is_euronews_feed
 from utils.elcomercio import scrape_elcomercio_ia, is_elcomercio_feed
 from utils.lanacion import scrape_lanacion_ar_ai, is_lanacion_feed
+from utils.tiktok_scraper import scrape_tiktok_user, is_tiktok_scraper_feed
 
 def fetch_feed(url: str, category):
     """
@@ -43,6 +44,11 @@ def fetch_feed(url: str, category):
     if is_lanacion_feed(category):
         log(f"🔍 Usando scraper personalizado para La Nación AR")
         return scrape_lanacion_ar_ai(url)
+
+    # Detectar si es TikTok y usar scraper personalizado
+    if is_tiktok_scraper_feed(url, category):
+        log(f"🔍 Usando scraper personalizado para TikTok")
+        return scrape_tiktok_user(url)
 
     # Para otros feeds, usar feedparser estándar
     return feedparser.parse(url)

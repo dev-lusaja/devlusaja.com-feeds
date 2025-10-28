@@ -1,5 +1,53 @@
 [
   {
+    "id": "7a57e581-21fb-5fbd-958e-1efa1132856f",
+    "title": "DABStep: Data Agent Benchmark for Multi-step Reasoning",
+    "link": "https://huggingface.co/blog/dabstep",
+    "pubDate": "2025-02-04T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/dabstep/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "096f84c7-047e-527a-b82a-1d3ef679ecb9",
+    "title": "Open-source DeepResearch – Freeing our search agents",
+    "link": "https://huggingface.co/blog/open-deep-research",
+    "pubDate": "2025-02-04T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/open-deep-research/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b96a93fc-3234-50af-ad0b-3df712dda287",
+    "title": "π0 and π0-FAST: Vision-Language-Action Models for General Robot Control",
+    "link": "https://huggingface.co/blog/pi0",
+    "pubDate": "2025-02-04T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/192_pi0/new_thumbnail_pi0.001.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "e4e084ee-9d6b-5f8e-923b-e5d181b35ab6",
     "title": "The AI tools for Art Newsletter - Issue 1",
     "link": "https://huggingface.co/blog/ai-art-newsletter-jan-25",
@@ -320,22 +368,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "2658bac4-ae89-5111-91df-1d3f5800782a",
-    "title": "Welcome the Falcon 3 Family of Open Models!",
-    "link": "https://huggingface.co/blog/falcon3",
-    "pubDate": "2024-12-17T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/falcon3/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "4abfafd3-cf60-5db0-8926-9a982086df91",
     "title": "Benchmarking Language Model Performance on 5th Gen Xeon at GCP",
     "link": "https://huggingface.co/blog/intel-gcp-c4",
@@ -349,6 +381,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/optimum_intel/intel_thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "2658bac4-ae89-5111-91df-1d3f5800782a",
+    "title": "Welcome the Falcon 3 Family of Open Models!",
+    "link": "https://huggingface.co/blog/falcon3",
+    "pubDate": "2024-12-17T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/falcon3/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -384,22 +432,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "0252a6bf-ab6f-5fb2-a3d0-820b90947eca",
-    "title": "Hugging Face models in Amazon Bedrock",
-    "link": "https://huggingface.co/blog/bedrock-marketplace",
-    "pubDate": "2024-12-09T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/bedrock-marketplace/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "c29c372b-df87-59da-8101-a91ff4880b36",
     "title": "Open Preference Dataset for Text-to-Image Generation by the 🤗 Community",
     "link": "https://huggingface.co/blog/image-preferences",
@@ -416,10 +448,10 @@
     "isShortVideo": 0
   },
   {
-    "id": "4287094c-6c95-5230-a99d-25d4bdbfdf05",
-    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
-    "link": "https://huggingface.co/blog/keras-chatbot-arena",
-    "pubDate": "2024-12-05T00:00:00+00:00",
+    "id": "0252a6bf-ab6f-5fb2-a3d0-820b90947eca",
+    "title": "Hugging Face models in Amazon Bedrock",
+    "link": "https://huggingface.co/blog/bedrock-marketplace",
+    "pubDate": "2024-12-09T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -428,7 +460,7 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/keras-chatbot-arena/thumbnail.png",
+    "image": "https://huggingface.co/blog/assets/bedrock-marketplace/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/paligemma/Paligemma2.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "11cf06ec-4084-52cc-9223-ee3d05b28846",
-    "title": "Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard",
-    "link": "https://huggingface.co/blog/leaderboard-3c3h-aragen",
-    "pubDate": "2024-12-04T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/leaderboards-on-the-hub/thumbnail_3c3h_aragen.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7f214f40-0fb1-5beb-9ff8-efc2b4725ec9",
-    "title": "Investing in Performance: Fine-tune small models with LLM insights  - a CFM case study",
-    "link": "https://huggingface.co/blog/cfm-case-study",
-    "pubDate": "2024-12-03T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/cfm-case-study/blogpost_cfm.png",
     "isShortVideo": 0
   }
 ]
