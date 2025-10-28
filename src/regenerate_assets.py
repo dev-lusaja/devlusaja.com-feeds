@@ -22,6 +22,7 @@ from database.operations import get_metadata_from_db, get_feed_count
 from feeds.chunk_generator import generate_feed_chunks
 from feeds.metadata_generator import save_metadata_json
 from feeds.category_chunk_generator import generate_category_chunks
+from feeds.shorts_chunk_generator import generate_shorts_chunks
 from utils.cleanup import cleanup_json_files
 from utils.logger import log
 
@@ -87,7 +88,16 @@ def regenerate_all_assets():
                 log("⚠️  No se pudieron generar los chunks por category")
                 return False
 
-            # 4. Limpiar archivos JSON huérfanos
+            # 4. Generar chunks de shorts (todos los videos cortos)
+            log("\n📦 Generando chunks de shorts (isShortVideo=1)...")
+            success = generate_shorts_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK)
+            if success:
+                log("✅ Chunks de shorts generados exitosamente")
+            else:
+                log("⚠️  No se pudieron generar los chunks de shorts")
+                # No retornar False aquí porque puede que no haya shorts aún
+
+            # 5. Limpiar archivos JSON huérfanos
             log("\n🧹 Limpiando archivos JSON obsoletos...")
             cleanup_json_files()
             log("✅ Archivos JSON limpiados")

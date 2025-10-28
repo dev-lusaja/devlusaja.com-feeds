@@ -19,6 +19,7 @@ from database.backup import create_mysql_backup
 from feeds.chunk_generator import generate_feed_chunks
 from feeds.metadata_generator import save_metadata_json
 from feeds.category_chunk_generator import generate_category_chunks
+from feeds.shorts_chunk_generator import generate_shorts_chunks
 from utils.cleanup import cleanup_json_files
 from utils.logger import log
 
@@ -137,6 +138,13 @@ def main(force: bool = False):
                     success = generate_category_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK)
                     if not success:
                         log("⚠️ No se pudieron generar los chunks por category feeds")
+
+                # Generar chunks de shorts (todos los videos cortos)
+                log("\n📦 Generando chunks de shorts (isShortVideo=1)...")
+                with DatabaseConnection() as db:
+                    success = generate_shorts_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK)
+                    if not success:
+                        log("⚠️ No se pudieron generar los chunks de shorts")
 
                 # Limpiar archivos JSON
                 log("\n🧹 Limpiando archivos JSON...")
