@@ -421,13 +421,30 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
                 "chunkPrefix": f"{source_type}-{row['category']}"
             })
 
+        # Obtener estadísticas de shorts (videos cortos)
+        shorts_query = "SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1"
+        cursor.execute(shorts_query)
+        shorts_count = cursor.fetchone()['count']
+
+        # Calcular chunks de shorts
+        items_per_chunk = 30
+        shorts_chunks = (shorts_count + items_per_chunk - 1) // items_per_chunk if shorts_count > 0 else 0
+
+        shorts_info = {
+            "totalItems": shorts_count,
+            "totalChunks": shorts_chunks,
+            "itemsPerChunk": items_per_chunk,
+            "chunkPrefix": "shorts-all"
+        }
+
         # Construir metadata completo
         metadata = {
             "totalItems": total_items,
             "generatedAt": datetime.now().isoformat() + "Z",
             "sources": sources,
             "byType": by_type,
-            "categories": categories
+            "categories": categories,
+            "shorts": shorts_info
         }
 
         return metadata
