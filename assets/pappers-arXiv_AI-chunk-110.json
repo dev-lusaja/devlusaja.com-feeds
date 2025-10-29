@@ -1,0 +1,50 @@
+[
+  {
+    "id": "25bca113-0b18-5717-879b-92b7f9ac0d25",
+    "title": "ColorBench: Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks",
+    "link": "https://arxiv.org/abs/2510.14621",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "The rapid advancement of multimodal large language models has enabled agents to operate mobile devices by directly interacting with graphical user interfaces, opening new possibilities for mobile automation. However, real-world mobile tasks are often complex and allow for multiple valid solutions. This contradicts current mobile agent evaluation standards: offline static benchmarks can only validate a single predefined \"golden path\", while online dynamic testing is constrained by the complexity and non-reproducibility of real devices, making both approaches inadequate for comprehensively assessing agent capabilities. To bridge the gap between offline and online evaluation and enhance testing stability, this paper introduces a novel graph-structured benchmarking framework. By modeling the finite states observed during real-device interactions, it achieves static simulation of dynamic behaviors. Building on this, we develop ColorBench, a benchmark focused on complex long-horizon tasks. It supports evaluation of multiple valid solutions, subtask completion rate statistics, and atomic-level capability analysis. ColorBench contains 175 tasks (74 single-app, 101 cross-app) with an average length of over 13 steps. Each task includes at least two correct paths and several typical error paths, enabling quasi-dynamic interaction. By evaluating ColorBench across various baselines, we discover limitations of existing models and propose improvement directions and feasible technical pathways to enhance agents' performance on complex, long-horizon problems based on experimental results. Code and data are available at: https://github.com/MadeAgents/ColorBench.",
+    "author": "Yuanyi Song, Heyuan Huang, Qiqiang Lin, Yin Zhao, Xiangmou Qu, Jun Wang, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Jun Wang, Yong Yu, Weinan Zhang, Zhaoxiang Wang",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "25ead436-8ffa-58aa-a080-8804cb230a4e",
+    "title": "The Gatekeeper Knows Enough",
+    "link": "https://arxiv.org/abs/2510.14881",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "Large Language Models (LLMs) are increasingly deployed as autonomous agents, yet their practical utility is fundamentally constrained by a limited context window and state desynchronization resulting from the LLMs' stateless nature and inefficient context management. These limitations lead to unreliable output, unpredictable behavior, and inefficient resource usage, particularly when interacting with large, structured, and sensitive knowledge systems such as codebases and documents. To address these challenges, we introduce the Gatekeeper Protocol, a novel, domain-agnostic framework that governs agent-system interactions. Our protocol mandates that the agent first operate and reason on a minimalist, low-fidelity \"latent state\" representation of the system to strategically request high-fidelity context on demand. All interactions are mediated through a unified JSON format that serves as a declarative, state-synchronized protocol, ensuring the agent's model of the system remains verifiably grounded in the system's reality. We demonstrate the efficacy of this protocol with Sage, a reference implementation of the Gatekeeper Protocol for software development. Our results show that this approach significantly increases agent reliability, improves computational efficiency by minimizing token consumption, and enables scalable interaction with complex systems, creating a foundational methodology for building more robust, predictable, and grounded AI agents for any structured knowledge domain.",
+    "author": "Fikresilase Wondmeneh Abebayew",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "26255dbd-360a-5a3c-9347-57db2f01afae",
+    "title": "Boosting Instruction Following at Scale",
+    "link": "https://arxiv.org/abs/2510.14842",
+    "pubDate": "2025-10-17T00:00:00-04:00",
+    "description": "A typical approach developers follow to influence an LLM's behavior in an application is through careful manipulation of the prompt, such as by adding or modifying instructions. However, merely adding more instructions provides little assurance that they will actually be followed. We introduce Instruction Boosting as a post-generation method to increase the reliability of LLM prompt instructions. We show that Instruction Boosting improves the instruction following rate by up to 7 points for two instructions and up to 4 points for ten instructions. To demonstrate these results we introduce SCALEDIF, a benchmark with a scaled instruction volume of up to ten instructions per data sample. We also present an analysis of the commonly observed trend that performance degrades as more instructions are added. We show that an important factor contributing to this trend is the degree of tension and conflict that arises as the number of instructions is increased. We contribute a quantitative conflict scoring tool that explains the observed performance trends and provides feedback to developers on the impact that additional prompt instructions have on a model's performance.",
+    "author": "Ben Elder, Evelyn Duesterwald, Vinod Muthusamy",
+    "sourceTitle": "arXiv cs.AI",
+    "sourceUrl": "https://export.arxiv.org/rss/cs.AI",
+    "sourceCategory": "arXiv_AI",
+    "sourceType": "pappers",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  }
+]
