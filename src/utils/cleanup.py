@@ -2,19 +2,21 @@ import os
 from pathlib import Path
 from utils.logger import log
 
-def cleanup_json_files(feeds_dir: str = "feeds_data"):
+def cleanup_json_files(feeds_dir: str = "feeds_data") -> int:
     """
     Elimina todos los archivos JSON del directorio de feeds.
     Mantiene el archivo feeds_dataframe.csv y feeds_dataframe.json
 
     Args:
         feeds_dir: Directorio donde se encuentran los archivos JSON
+
+    Returns:
+        Número de archivos eliminados
     """
     feeds_path = Path(feeds_dir)
 
     if not feeds_path.exists():
-        log(f"⚠️ El directorio {feeds_dir} no existe")
-        return
+        return 0
 
     # Archivos a mantener
     keep_files = {'feeds_dataframe.csv', 'feeds_dataframe.json'}
@@ -26,9 +28,7 @@ def cleanup_json_files(feeds_dir: str = "feeds_data"):
                 json_file.unlink()
                 deleted_count += 1
 
-        if deleted_count > 0:
-            log(f"🗑️  Limpieza completada: {deleted_count} archivos JSON eliminados")
-        else:
-            log("ℹ️  No se encontraron archivos JSON para eliminar")
+        return deleted_count
     except Exception as e:
         log(f"❌ Error al limpiar archivos JSON: {e}")
+        return deleted_count

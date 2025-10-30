@@ -7,6 +7,9 @@ from utils.logger import log
 def create_mysql_backup():
     """
     Crea un backup de MySQL con la fecha actual y mantiene solo los 2 backups más recientes.
+
+    Returns:
+        Path del archivo de backup creado, o None si hubo error
     """
     backup_dir = Path("backups")
     backup_dir.mkdir(exist_ok=True)
@@ -21,8 +24,6 @@ def create_mysql_backup():
     db_port = os.getenv('DB_PORT', '3306')
 
     try:
-        log(f"📦 Creando backup en {backup_file}...")
-
         # Crear backup usando mysqldump directamente
         cmd = [
             'mysqldump',
@@ -41,17 +42,18 @@ def create_mysql_backup():
             result = subprocess.run(cmd, stdout=f, stderr=subprocess.PIPE, text=True)
 
         if result.returncode == 0:
-            log(f"✅ Backup creado exitosamente: {backup_file}")
-
             # Mantener solo los 2 backups más recientes
             backups = sorted(backup_dir.glob("backup_*.sql"), key=lambda x: x.stat().st_mtime, reverse=True)
 
             if len(backups) > 2:
                 for old_backup in backups[2:]:
                     old_backup.unlink()
-                    log(f"🗑️  Eliminado backup antiguo: {old_backup.name}")
+
+            return str(backup_file)
         else:
             log(f"❌ Error al crear backup: {result.stderr}")
+            return None
 
     except Exception as e:
         log(f"❌ Error al crear backup: {e}")
+        return None

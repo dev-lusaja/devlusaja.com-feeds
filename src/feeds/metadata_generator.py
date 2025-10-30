@@ -26,7 +26,6 @@ def save_metadata_json(metadata: Dict[str, Any], output_dir: str = "assets") -> 
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(metadata, f, ensure_ascii=False, indent=2)
 
-        log(f"✅ Metadata guardado exitosamente en {output_path}")
         return True
 
     except Exception as e:
