@@ -1,6 +1,6 @@
 {
-  "totalItems": 11388,
-  "generatedAt": "2025-10-29T22:28:16.935394Z",
+  "totalItems": 11914,
+  "generatedAt": "2025-10-29T23:25:08.956333Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -176,7 +176,7 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 980,
+      "totalItems": 983,
       "totalChunks": 33,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -188,8 +188,8 @@
       "chunkPrefix": "notice-all"
     },
     "pappers": {
-      "totalItems": 6238,
-      "totalChunks": 208,
+      "totalItems": 6757,
+      "totalChunks": 226,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
     },
@@ -237,7 +237,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 405,
+        "count": 408,
         "isPriority": true,
         "totalChunks": 14,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -255,7 +255,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 1643,
+        "count": 1647,
         "isPriority": true,
         "totalChunks": 55,
         "chunkPrefix": "notice-GoogleNews"
@@ -393,17 +393,17 @@
       {
         "category": "arXiv_AI",
         "title": "arXiv cs.AI",
-        "count": 3303,
+        "count": 3565,
         "isPriority": true,
-        "totalChunks": 111,
+        "totalChunks": 119,
         "chunkPrefix": "pappers-arXiv_AI"
       },
       {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 2935,
+        "count": 3192,
         "isPriority": true,
-        "totalChunks": 98,
+        "totalChunks": 107,
         "chunkPrefix": "pappers-arXiv_LG"
       }
     ],
