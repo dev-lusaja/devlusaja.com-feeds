@@ -18,36 +18,28 @@ def fetch_feed(url: str, category):
     Returns:
         Objeto con estructura de feedparser
     """
-    log(f"📡 Obteniendo feed: {category} ({url})")
-
     # Detectar si es Wired ES y usar scraper personalizado
     if is_wired_feed(category):
-        log(f"🔍 Usando scraper personalizado para Wired ES")
         return scrape_wired_es_ai(url)
 
     # Detectar si es El País y usar scraper personalizado
     if is_elpais_feed(category):
-        log(f"🔍 Usando scraper personalizado para El País")
         return scrape_elpais_ia(url)
 
     # Detectar si es Euronews ES y usar scraper personalizado
     if is_euronews_feed(category):
-        log(f"🔍 Usando scraper personalizado para Euronews ES")
         return scrape_euronews_es_ai(url)
 
     # Detectar si es El Comercio PE y usar scraper personalizado
     if is_elcomercio_feed(category):
-        log(f"🔍 Usando scraper personalizado para El Comercio PE")
         return scrape_elcomercio_ia(url)
 
     # Detectar si es La Nación AR y usar scraper personalizado
     if is_lanacion_feed(category):
-        log(f"🔍 Usando scraper personalizado para La Nación AR")
         return scrape_lanacion_ar_ai(url)
 
     # Detectar si es TikTok y usar scraper personalizado
     if is_tiktok_scraper_feed(url, category):
-        log(f"🔍 Usando scraper personalizado para TikTok")
         return scrape_tiktok_user(url)
 
     # Para otros feeds, usar feedparser estándar

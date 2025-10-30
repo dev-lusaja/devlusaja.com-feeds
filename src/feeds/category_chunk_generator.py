@@ -10,7 +10,7 @@ from database.operations import (
 )
 from utils.logger import log
 
-def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30) -> bool:
+def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30) -> dict:
     """
     Genera archivos JSON con chunks de feeds agrupados por sourceType y category.
     Patrón de nombre: {sourceType}-{category}-chunk-{number}.json
@@ -21,8 +21,14 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
         items_per_chunk: Número máximo de feeds por chunk (por defecto 30)
 
     Returns:
-        True si se generaron exitosamente, False en caso contrario
+        Diccionario con estadísticas de generación
     """
+    stats = {
+        'success': False,
+        'total_files': 0,
+        'by_source_type': {}
+    }
+
     try:
         # Crear directorio si no existe
         assets_dir = Path(output_dir)
@@ -32,10 +38,7 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
         source_types = get_all_source_types(db)
 
         if not source_types:
-            log("⚠️ No se encontraron tipos de fuentes en la base de datos")
-            return False
-
-        total_files_generated = 0
+            return stats
 
         # Procesar cada tipo de fuente
         for source_type in source_types:
@@ -43,28 +46,21 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
             categories = get_categories_by_source_type(db, source_type)
 
             if not categories:
-                log(f"⚠️ No se encontraron categorías para el tipo '{source_type}'")
                 continue
 
-            log(f"📦 Procesando tipo '{source_type}' con {len(categories)} categorías")
-
-            # Para YouTube y TikTok, excluir shorts (isShortVideo=1)
-            # exclude_shorts = (source_type in ['youtube', 'tiktok'])
             exclude_shorts = False
-            
+            stats['by_source_type'][source_type] = {}
+
             # Procesar cada categoría
             for category in categories:
                 # Obtener conteo total de feeds para este tipo y categoría
                 total_feeds = get_feed_count_by_source_type_and_category(db, source_type, category, exclude_shorts=exclude_shorts)
 
                 if total_feeds == 0:
-                    log(f"  ⚠️ No hay feeds para {source_type}/{category}")
                     continue
 
                 # Calcular número de chunks necesarios
                 total_chunks = (total_feeds + items_per_chunk - 1) // items_per_chunk
-
-                log(f"  📄 Generando {total_chunks} chunks para {source_type}/{category} ({total_feeds} feeds)")
 
                 # Generar cada chunk
                 for chunk_number in range(total_chunks):
@@ -105,11 +101,17 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                     with open(filepath, 'w', encoding='utf-8') as f:
                         json.dump(feeds_data, f, ensure_ascii=False, indent=2)
 
-                    total_files_generated += 1
+                    stats['total_files'] += 1
 
-        log(f"✅ Total de archivos de categoría generados: {total_files_generated}")
-        return True
+                # Guardar estadísticas por categoría
+                stats['by_source_type'][source_type][category] = {
+                    'chunks': total_chunks,
+                    'total_feeds': total_feeds
+                }
+
+        stats['success'] = True
+        return stats
 
     except Exception as e:
         log(f"❌ Error al generar chunks de categoría: {e}")
-        return False
+        return stats

@@ -11,7 +11,7 @@ from database.operations import (
 from config.loader import get_chunks_all_exclusions
 from utils.logger import log
 
-def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None) -> bool:
+def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None) -> dict:
     """
     Genera archivos JSON con chunks de feeds agrupados por sourceType.
     Las exclusiones de categorías para archivos -all se configuran en feeds_config.yaml.
@@ -23,8 +23,14 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
         config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
 
     Returns:
-        True si se generaron exitosamente, False en caso contrario
+        Diccionario con estadísticas de generación
     """
+    stats = {
+        'success': False,
+        'total_files': 0,
+        'by_source_type': {}
+    }
+
     # Si no se proporciona config_path, usar el path por defecto
     if config_path is None:
         config_path = str(Path(__file__).parent.parent.parent / "feeds_config.yaml")
@@ -37,33 +43,23 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
         source_types = get_all_source_types(db)
 
         if not source_types:
-            log("⚠️ No se encontraron tipos de fuentes en la base de datos")
-            return False
-
-        total_files_generated = 0
+            return stats
 
         # Procesar cada tipo de fuente
         for source_type in source_types:
-            # Para YouTube y TikTok, excluir shorts (isShortVideo=1)
-            #exclude_shorts = (source_type in ['youtube', 'tiktok'])
             exclude_shorts = False
 
             # Obtener categorías a excluir de los archivos -all desde la configuración
             exclude_categories = get_chunks_all_exclusions(config_path, source_type)
-            if exclude_categories:
-                log(f"📦 Excluyendo categorías {exclude_categories} de {source_type}-all")
 
             # Obtener conteo total de feeds para este tipo
             total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories)
 
             if total_feeds == 0:
-                log(f"⚠️ No hay feeds para el tipo '{source_type}'")
                 continue
 
             # Calcular número de chunks necesarios
             total_chunks = (total_feeds + items_per_chunk - 1) // items_per_chunk
-
-            log(f"📦 Generando {total_chunks} chunks para tipo '{source_type}' ({total_feeds} feeds)")
 
             # Generar cada chunk
             for chunk_number in range(total_chunks):
@@ -104,15 +100,20 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(feeds_data, f, ensure_ascii=False, indent=2)
 
-                total_files_generated += 1
-                log(f"  ✅ Generado: {filename} ({len(feeds_data)} feeds)")
+                stats['total_files'] += 1
 
-        log(f"✅ Total de archivos generados: {total_files_generated}")
-        return True
+            # Guardar estadísticas por tipo de fuente
+            stats['by_source_type'][source_type] = {
+                'chunks': total_chunks,
+                'total_feeds': total_feeds
+            }
+
+        stats['success'] = True
+        return stats
 
     except Exception as e:
         log(f"❌ Error al generar chunks: {e}")
-        return False
+        return stats
 
 def save_metadata_json(metadata: Dict[str, Any], output_dir: str = "assets") -> bool:
     """

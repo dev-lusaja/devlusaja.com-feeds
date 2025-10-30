@@ -1,9 +1,9 @@
 [
   {
-    "id": "33c2053a-2852-51f0-9477-4b4db3189b5f",
-    "title": "From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels",
-    "link": "https://huggingface.co/blog/kernel-builder",
-    "pubDate": "2025-08-18T00:00:00+00:00",
+    "id": "4c346224-3cba-585a-96c1-a6570050a356",
+    "title": "Generate Images with Claude and Hugging Face",
+    "link": "https://huggingface.co/blog/claude-and-mcp",
+    "pubDate": "2025-08-19T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -12,7 +12,7 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/kernel-builder/kernel-builder.png",
+    "image": "https://huggingface.co/blog/assets/claude-and-mcp/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -32,10 +32,10 @@
     "isShortVideo": 0
   },
   {
-    "id": "35b81421-751f-5173-bb7e-c590b5f26455",
-    "title": "🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?",
-    "link": "https://huggingface.co/blog/filbench",
-    "pubDate": "2025-08-12T00:00:00+00:00",
+    "id": "33c2053a-2852-51f0-9477-4b4db3189b5f",
+    "title": "From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels",
+    "link": "https://huggingface.co/blog/kernel-builder",
+    "pubDate": "2025-08-18T00:00:00+00:00",
     "description": "",
     "author": "Desconocido",
     "sourceTitle": "HuggingFace",
@@ -44,7 +44,7 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "",
-    "image": "https://huggingface.co/blog/assets/filbench/thumbnail.png",
+    "image": "https://huggingface.co/blog/assets/kernel-builder/kernel-builder.png",
     "isShortVideo": 0
   },
   {
@@ -61,6 +61,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/textquests/thumbnail.gif",
+    "isShortVideo": 0
+  },
+  {
+    "id": "35b81421-751f-5173-bb7e-c590b5f26455",
+    "title": "🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?",
+    "link": "https://huggingface.co/blog/filbench",
+    "pubDate": "2025-08-12T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/filbench/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -192,22 +208,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "4fd7e836-ab94-5eea-990a-c81060095a9d",
-    "title": "TimeScope: How Long Can Your Video Large Multimodal Model Go?",
-    "link": "https://huggingface.co/blog/timescope-video-lmm-benchmark",
-    "pubDate": "2025-07-23T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/timescope/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "772f0e60-d76c-5af7-b973-af183ba1cf04",
     "title": "Fast LoRA inference for Flux with Diffusers and PEFT",
     "link": "https://huggingface.co/blog/lora-fast",
@@ -221,6 +221,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/lora-fast/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "4fd7e836-ab94-5eea-990a-c81060095a9d",
+    "title": "TimeScope: How Long Can Your Video Large Multimodal Model Go?",
+    "link": "https://huggingface.co/blog/timescope-video-lmm-benchmark",
+    "pubDate": "2025-07-23T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/timescope/thumbnail.png",
     "isShortVideo": 0
   },
   {
@@ -256,22 +272,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "d8e03865-2754-5bb7-a869-09eaa7fa1fb6",
-    "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
-    "link": "https://huggingface.co/blog/futurebench",
-    "pubDate": "2025-07-17T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/futurebench/leaderboard.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "b6262e58-5097-54ee-9b38-725ab8f45b97",
     "title": "Five Big Improvements to Gradio MCP Servers",
     "link": "https://huggingface.co/blog/gradio-mcp-updates",
@@ -285,6 +285,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/gradio-mcp-updates/5_mcp_improvements.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d8e03865-2754-5bb7-a869-09eaa7fa1fb6",
+    "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
+    "link": "https://huggingface.co/blog/futurebench",
+    "pubDate": "2025-07-17T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/futurebench/leaderboard.png",
     "isShortVideo": 0
   },
   {
@@ -336,22 +352,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "4e8c622b-4fa4-5b31-b6fd-62f785f89251",
-    "title": "Asynchronous Robot Inference: Decoupling Action Prediction and Execution",
-    "link": "https://huggingface.co/blog/async-robot-inference",
-    "pubDate": "2025-07-10T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/async_inference/thumbnail_async_blog.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "924cf6e5-a5f4-554c-a09f-50df53c2afba",
     "title": "ScreenEnv: Deploy your full stack Desktop Agent",
     "link": "https://huggingface.co/blog/screenenv",
@@ -365,6 +365,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/screenenv/screenenv.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "4e8c622b-4fa4-5b31-b6fd-62f785f89251",
+    "title": "Asynchronous Robot Inference: Decoupling Action Prediction and Execution",
+    "link": "https://huggingface.co/blog/async-robot-inference",
+    "pubDate": "2025-07-10T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/async_inference/thumbnail_async_blog.png",
     "isShortVideo": 0
   },
   {
@@ -416,22 +432,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "59fff6b9-be44-5abf-8815-220500334666",
-    "title": "Efficient MultiModal Data Pipeline",
-    "link": "https://huggingface.co/blog/mmdp",
-    "pubDate": "2025-07-08T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/mmdp/thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "bd6fbc61-9a93-57fa-aeea-613f63fe8d98",
     "title": "SmolLM3: smol, multilingual, long-context reasoner",
     "link": "https://huggingface.co/blog/smollm3",
@@ -448,6 +448,22 @@
     "isShortVideo": 0
   },
   {
+    "id": "59fff6b9-be44-5abf-8815-220500334666",
+    "title": "Efficient MultiModal Data Pipeline",
+    "link": "https://huggingface.co/blog/mmdp",
+    "pubDate": "2025-07-08T00:00:00+00:00",
+    "description": "",
+    "author": "Desconocido",
+    "sourceTitle": "HuggingFace",
+    "sourceUrl": "https://huggingface.co/blog/feed.xml",
+    "sourceCategory": "HuggingFace",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://huggingface.co/blog/assets/mmdp/thumbnail.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "d8977a09-35f4-541b-b081-26a16d8ed75f",
     "title": "Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure",
     "link": "https://huggingface.co/blog/infrastructure-alerting",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/infrastructure-alerting/thumbnail.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2c55c679-f731-5e87-bd65-e8b43d12c204",
-    "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers v5",
-    "link": "https://huggingface.co/blog/train-sparse-encoder",
-    "pubDate": "2025-07-01T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
     "isShortVideo": 0
   }
 ]
