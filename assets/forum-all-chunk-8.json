@@ -160,22 +160,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "1eb71c42-edb2-5ade-b29a-afe293ee5f41",
-    "title": "Claude code agent disappears on a new terminal?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ohfmay/claude_code_agent_disappears_on_a_new_terminal/",
-    "pubDate": "2025-10-27T14:17:44+00:00",
-    "description": "Greetings, I am in a terminal on macOS (either native or the VSCode one). Let’s say I create a Claude Code agent personal or project based. All good, I select /agents it’s there. Then I terminate the terminal open a new one at my project folder. I type claude to initialize Claude, type /agents, no agents available, even if there is the agent .md in the claude/agents folder previously created. Am I missing something? submitted by /u/DeepSpacegazer [link] [comments]",
-    "author": "/u/DeepSpacegazer",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Greetings,</p> <p>I am in a terminal on macOS (either native or the VSCode one). Let’s say I create a Claude Code agent personal or project based. All good, I select /agents it’s there.</p> <p>Then I terminate the terminal open a new one at my project folder. I type claude to initialize Claude, type /agents, no agents available, even if there is the agent .md in the claude/agents folder previously created.</p> <p>Am I missing something?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeepSpacegazer\"> /u/DeepSpacegazer </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ohfmay/claude_code_agent_disappears_on_a_new_terminal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ohfmay/claude_code_agent_disappears_on_a_new_terminal/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
     "id": "2973c7f7-971f-5127-acaa-e3d8fe8b6fb7",
     "title": "Found a faster way to build Claude Skills",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ohfmba/found_a_faster_way_to_build_claude_skills/",
@@ -188,6 +172,22 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been building Claude Skills for a while using the web interface, but it started to feel slow and restrictive. So I switched my workflow to Cursor, and it completely changed how I build and test new Skills.</p> <p>Here’s what I do:</p> <ol> <li>Paste Anthropic’s docs into Cursor and ask it to scaffold a <code>create-skills</code> project</li> <li>It generates a <a href=\"http://skill.md\"><code>skill.md</code></a> file with YAML metadata + detailed instructions</li> <li>Adds Python validators, templates, and linked resources automatically</li> <li>I can iterate fast, tweak prompts, rerun validation, and refine structure</li> <li>Finally, zip and upload the finished skill to Claude Capabilities</li> </ol> <p>Compared to the web UI, this setup gives me full control, faster iteration, and no waiting around for slow updates. Everything happens locally and feels instant.</p> <p>It’s honestly the smoothest way I’ve found so far to create Claude Skills. I also recorded a <a href=\"https://x.com/Arindam_1729/status/1982791215641924028\">short demo</a> showing the full build flow inside Cursor if you want to see it in action.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Arindam_200\"> /u/Arindam_200 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ohfmba/found_a_faster_way_to_build_claude_skills/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ohfmba/found_a_faster_way_to_build_claude_skills/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "1eb71c42-edb2-5ade-b29a-afe293ee5f41",
+    "title": "Claude code agent disappears on a new terminal?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ohfmay/claude_code_agent_disappears_on_a_new_terminal/",
+    "pubDate": "2025-10-27T14:17:44+00:00",
+    "description": "Greetings, I am in a terminal on macOS (either native or the VSCode one). Let’s say I create a Claude Code agent personal or project based. All good, I select /agents it’s there. Then I terminate the terminal open a new one at my project folder. I type claude to initialize Claude, type /agents, no agents available, even if there is the agent .md in the claude/agents folder previously created. Am I missing something? submitted by /u/DeepSpacegazer [link] [comments]",
+    "author": "/u/DeepSpacegazer",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Greetings,</p> <p>I am in a terminal on macOS (either native or the VSCode one). Let’s say I create a Claude Code agent personal or project based. All good, I select /agents it’s there.</p> <p>Then I terminate the terminal open a new one at my project folder. I type claude to initialize Claude, type /agents, no agents available, even if there is the agent .md in the claude/agents folder previously created.</p> <p>Am I missing something?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeepSpacegazer\"> /u/DeepSpacegazer </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ohfmay/claude_code_agent_disappears_on_a_new_terminal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ohfmay/claude_code_agent_disappears_on_a_new_terminal/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   },

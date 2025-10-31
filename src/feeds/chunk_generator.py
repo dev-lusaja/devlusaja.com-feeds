@@ -11,7 +11,7 @@ from database.operations import (
 from config.loader import get_chunks_all_exclusions
 from utils.logger import log
 
-def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None) -> dict:
+def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None, months_back: int = 2) -> dict:
     """
     Genera archivos JSON con chunks de feeds agrupados por sourceType.
     Las exclusiones de categorías para archivos -all se configuran en feeds_config.yaml.
@@ -21,6 +21,7 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
         output_dir: Directorio donde guardar los archivos (por defecto 'assets')
         items_per_chunk: Número máximo de feeds por chunk (por defecto 30)
         config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
+        months_back: Número de meses hacia atrás para filtrar feeds (por defecto 2)
 
     Returns:
         Diccionario con estadísticas de generación
@@ -52,8 +53,8 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
             # Obtener categorías a excluir de los archivos -all desde la configuración
             exclude_categories = get_chunks_all_exclusions(config_path, source_type)
 
-            # Obtener conteo total de feeds para este tipo
-            total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories)
+            # Obtener conteo total de feeds para este tipo (últimos N meses)
+            total_feeds = get_feed_count_by_source_type(db, source_type, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories, months_back=months_back)
 
             if total_feeds == 0:
                 continue
@@ -65,8 +66,8 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
             for chunk_number in range(total_chunks):
                 offset = chunk_number * items_per_chunk
 
-                # Obtener feeds para este chunk
-                feeds = get_feeds_by_source_type(db, source_type, limit=items_per_chunk, offset=offset, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories)
+                # Obtener feeds para este chunk (últimos N meses)
+                feeds = get_feeds_by_source_type(db, source_type, limit=items_per_chunk, offset=offset, exclude_shorts=exclude_shorts, exclude_categories=exclude_categories, months_back=months_back)
 
                 if not feeds:
                     continue

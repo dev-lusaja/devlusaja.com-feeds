@@ -1,6 +1,6 @@
 {
-  "totalItems": 12790,
-  "generatedAt": "2025-10-31T09:19:12.709469Z",
+  "totalItems": 12871,
+  "generatedAt": "2025-10-31T13:57:42.125242Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -182,8 +182,8 @@
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1431,
-      "totalChunks": 48,
+      "totalItems": 1450,
+      "totalChunks": 49,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
@@ -194,13 +194,13 @@
       "chunkPrefix": "pappers-all"
     },
     "tiktok": {
-      "totalItems": 32,
+      "totalItems": 33,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 124,
+      "totalItems": 127,
       "totalChunks": 5,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -255,9 +255,9 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 1800,
+        "count": 1858,
         "isPriority": true,
-        "totalChunks": 60,
+        "totalChunks": 62,
         "chunkPrefix": "notice-GoogleNews"
       },
       {
@@ -287,15 +287,15 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 150,
+        "count": 156,
         "isPriority": true,
-        "totalChunks": 5,
+        "totalChunks": 6,
         "chunkPrefix": "notice-LaNacion_AR"
       },
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 144,
+        "count": 150,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -319,7 +319,7 @@
       {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 77,
+        "count": 80,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Xataka"
@@ -327,7 +327,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 72,
+        "count": 73,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-El_Pais"
@@ -335,10 +335,18 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 65,
+        "count": 66,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Towards"
+      },
+      {
+        "category": "ElComercio_PE",
+        "title": "El Comercio",
+        "count": 43,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "notice-ElComercio_PE"
       },
       {
         "category": "Wired_ES",
@@ -349,17 +357,9 @@
         "chunkPrefix": "notice-Wired_ES"
       },
       {
-        "category": "ElComercio_PE",
-        "title": "El Comercio",
-        "count": 42,
-        "isPriority": true,
-        "totalChunks": 2,
-        "chunkPrefix": "notice-ElComercio_PE"
-      },
-      {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 39,
+        "count": 40,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-Euronews"
@@ -411,7 +411,7 @@
       {
         "category": "TikTok_MigueBaena",
         "title": "Migue Baena",
-        "count": 32,
+        "count": 33,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "tiktok-TikTok_MigueBaena"
@@ -421,7 +421,7 @@
       {
         "category": "YouTube_la_inteligencia_artificial",
         "title": "La Inteligencia Artificial",
-        "count": 50,
+        "count": 52,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "youtube-YouTube_la_inteligencia_artificial"
@@ -445,7 +445,7 @@
       {
         "category": "YouTube_XavierMitjana",
         "title": "Xavier Mitjana",
-        "count": 18,
+        "count": 19,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_XavierMitjana"
@@ -461,7 +461,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 107,
+    "totalItems": 110,
     "totalChunks": 4,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"

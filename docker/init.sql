@@ -9,12 +9,16 @@ CREATE TABLE IF NOT EXISTS feeds (
     title TEXT,
     link TEXT,
     pubDate VARCHAR(255),
+    pubDate_parsed DATETIME GENERATED ALWAYS AS (
+        STR_TO_DATE(SUBSTRING(pubDate, 1, 19), '%Y-%m-%dT%H:%i:%s')
+    ) STORED,
     description TEXT,
     author LONGTEXT,
     sourceTitle VARCHAR(255),
     sourceUrl TEXT,
     sourceCategory VARCHAR(255),
     sourceType VARCHAR(50),
+    sourceCountry VARCHAR(100),
     content LONGTEXT,
     image TEXT,
     isShortVideo TINYINT(1) DEFAULT 0,
@@ -23,7 +27,10 @@ CREATE TABLE IF NOT EXISTS feeds (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     INDEX idx_source_category (sourceCategory),
     INDEX idx_source_type (sourceType),
+    INDEX idx_source_country (sourceCountry),
     INDEX idx_pub_date (pubDate),
+    INDEX idx_pubDate_parsed (pubDate_parsed),
+    INDEX idx_sourceType_pubDate (sourceType, pubDate_parsed),
     INDEX idx_created_at (created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 

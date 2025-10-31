@@ -28,6 +28,9 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             title TEXT,
             link TEXT,
             pubDate VARCHAR(255),
+            pubDate_parsed DATETIME GENERATED ALWAYS AS (
+                STR_TO_DATE(SUBSTRING(pubDate, 1, 19), '%Y-%m-%dT%H:%i:%s')
+            ) STORED,
             description TEXT,
             author LONGTEXT,
             sourceTitle VARCHAR(255),
@@ -45,6 +48,8 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             INDEX idx_source_type (sourceType),
             INDEX idx_source_country (sourceCountry),
             INDEX idx_pub_date (pubDate),
+            INDEX idx_pubDate_parsed (pubDate_parsed),
+            INDEX idx_sourceType_pubDate (sourceType, pubDate_parsed),
             INDEX idx_created_at (created_at)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
         """
@@ -480,7 +485,7 @@ def get_all_source_types(db: DatabaseConnection) -> List[str]:
     finally:
         cursor.close()
 
-def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: int = None, offset: int = 0, exclude_shorts: bool = False, exclude_categories: List[str] = None) -> List[Dict[str, Any]]:
+def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: int = None, offset: int = 0, exclude_shorts: bool = False, exclude_categories: List[str] = None, months_back: Optional[int] = None) -> List[Dict[str, Any]]:
     """
     Obtiene feeds por tipo de fuente (sourceType).
 
@@ -491,6 +496,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         offset: Offset para paginación
         exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
         exclude_categories: Lista de categorías a excluir (opcional)
+        months_back: Si se especifica, solo devuelve feeds de los últimos N meses (usa pubDate_parsed)
 
     Returns:
         Lista de diccionarios con los datos de los feeds
@@ -511,14 +517,19 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
             placeholders = ', '.join(['%s'] * len(exclude_categories))
             category_filter = f" AND sourceCategory NOT IN ({placeholders})"
 
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
         if limit:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s{short_filter}{category_filter}
-            ORDER BY pubDate DESC
+            WHERE sourceType = %s{short_filter}{category_filter}{date_filter}
+            ORDER BY pubDate_parsed DESC
             LIMIT %s OFFSET %s
             """
             params = [source_type]
@@ -532,8 +543,8 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s{short_filter}{category_filter}
-            ORDER BY pubDate DESC
+            WHERE sourceType = %s{short_filter}{category_filter}{date_filter}
+            ORDER BY pubDate_parsed DESC
             """
             params = [source_type]
             if exclude_categories:
@@ -548,7 +559,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
     finally:
         cursor.close()
 
-def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, exclude_shorts: bool = False, exclude_categories: List[str] = None) -> int:
+def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, exclude_shorts: bool = False, exclude_categories: List[str] = None, months_back: Optional[int] = None) -> int:
     """
     Obtiene el número de feeds de un sourceType específico.
 
@@ -557,6 +568,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
         source_type: Tipo de fuente
         exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
         exclude_categories: Lista de categorías a excluir (opcional)
+        months_back: Si se especifica, solo cuenta feeds de los últimos N meses (usa pubDate_parsed)
 
     Returns:
         Número de feeds del tipo especificado
@@ -579,7 +591,12 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
             category_filter = f" AND sourceCategory NOT IN ({placeholders})"
             params.extend(exclude_categories)
 
-        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s{short_filter}{category_filter}"
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
+        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s{short_filter}{category_filter}{date_filter}"
         cursor.execute(query, tuple(params))
         result = cursor.fetchone()
         return result['count'] if result else 0
@@ -622,7 +639,7 @@ def get_categories_by_source_type(db: DatabaseConnection, source_type: str) -> L
     finally:
         cursor.close()
 
-def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: str, category: str, limit: int = None, offset: int = 0, exclude_shorts: bool = False) -> List[Dict[str, Any]]:
+def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: str, category: str, limit: int = None, offset: int = 0, exclude_shorts: bool = False, months_back: Optional[int] = None) -> List[Dict[str, Any]]:
     """
     Obtiene feeds filtrados por sourceType y category.
 
@@ -633,6 +650,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         limit: Número máximo de resultados (None = todos)
         offset: Offset para paginación
         exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        months_back: Si se especifica, solo devuelve feeds de los últimos N meses (usa pubDate_parsed)
 
     Returns:
         Lista de diccionarios con los datos de los feeds
@@ -647,14 +665,19 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
         if limit:
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s AND sourceCategory = %s{short_filter}
-            ORDER BY pubDate DESC
+            WHERE sourceType = %s AND sourceCategory = %s{short_filter}{date_filter}
+            ORDER BY pubDate_parsed DESC
             LIMIT %s OFFSET %s
             """
             cursor.execute(query, (source_type, category, limit, offset))
@@ -664,8 +687,8 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s AND sourceCategory = %s{short_filter}
-            ORDER BY pubDate DESC
+            WHERE sourceType = %s AND sourceCategory = %s{short_filter}{date_filter}
+            ORDER BY pubDate_parsed DESC
             """
             cursor.execute(query, (source_type, category))
 
@@ -677,7 +700,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
     finally:
         cursor.close()
 
-def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_type: str, category: str, exclude_shorts: bool = False) -> int:
+def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_type: str, category: str, exclude_shorts: bool = False, months_back: Optional[int] = None) -> int:
     """
     Obtiene el número de feeds para un sourceType y category específicos.
 
@@ -686,6 +709,7 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         source_type: Tipo de fuente
         category: Categoría específica
         exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        months_back: Si se especifica, solo cuenta feeds de los últimos N meses (usa pubDate_parsed)
 
     Returns:
         Número de feeds
@@ -700,7 +724,12 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         if exclude_shorts and source_type in ['youtube', 'tiktok']:
             short_filter = " AND isShortVideo = 0"
 
-        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s AND sourceCategory = %s{short_filter}"
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
+        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s AND sourceCategory = %s{short_filter}{date_filter}"
         cursor.execute(query, (source_type, category))
         result = cursor.fetchone()
         return result['count'] if result else 0
@@ -738,12 +767,13 @@ def update_feed_image(db: DatabaseConnection, feed_id: str, image_url: str) -> b
     finally:
         cursor.close()
 
-def get_short_videos_count(db: DatabaseConnection) -> int:
+def get_short_videos_count(db: DatabaseConnection, months_back: Optional[int] = None) -> int:
     """
     Obtiene el número total de videos cortos (isShortVideo=1) en la base de datos.
 
     Args:
         db: Objeto de conexión a la base de datos
+        months_back: Si se especifica, solo cuenta videos de los últimos N meses (usa pubDate_parsed)
 
     Returns:
         Número de videos cortos
@@ -753,7 +783,12 @@ def get_short_videos_count(db: DatabaseConnection) -> int:
         return 0
 
     try:
-        query = "SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1"
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
+        query = f"SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1{date_filter}"
         cursor.execute(query)
         result = cursor.fetchone()
         return result['count'] if result else 0
@@ -763,7 +798,7 @@ def get_short_videos_count(db: DatabaseConnection) -> int:
     finally:
         cursor.close()
 
-def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0) -> List[Dict[str, Any]]:
+def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0, months_back: Optional[int] = None) -> List[Dict[str, Any]]:
     """
     Obtiene todos los videos cortos (isShortVideo=1) de la base de datos.
 
@@ -771,6 +806,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0)
         db: Objeto de conexión a la base de datos
         limit: Número máximo de resultados (None = todos)
         offset: Offset para paginación
+        months_back: Si se especifica, solo devuelve videos de los últimos N meses (usa pubDate_parsed)
 
     Returns:
         Lista de diccionarios con los datos de los videos cortos
@@ -780,25 +816,30 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0)
         return []
 
     try:
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
         if limit:
-            query = """
+            query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE isShortVideo = 1
-            ORDER BY pubDate DESC
+            WHERE isShortVideo = 1{date_filter}
+            ORDER BY pubDate_parsed DESC
             LIMIT %s OFFSET %s
             """
             cursor.execute(query, (limit, offset))
         else:
-            query = """
+            query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE isShortVideo = 1
-            ORDER BY pubDate DESC
+            WHERE isShortVideo = 1{date_filter}
+            ORDER BY pubDate_parsed DESC
             """
             cursor.execute(query)
 
