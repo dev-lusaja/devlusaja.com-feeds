@@ -1,5 +1,21 @@
 [
   {
+    "id": "828f4093-044d-5b92-aeb6-05b782994095",
+    "title": "Reptile: A scalable meta-learning algorithm",
+    "link": "https://openai.com/index/reptile",
+    "pubDate": "2018-03-07T08:00:00+00:00",
+    "description": "We’ve developed a simple meta-learning algorithm called Reptile which works by repeatedly sampling a task, performing stochastic gradient descent on it, and updating the initial parameters towards the final parameters learned on that task. Reptile is the application of the Shortest Descent algorithm to the meta-learning setting, and is mathematically similar to first-order MAML (which is a version of the well-known MAML algorithm) that only needs black-box access to an optimizer such as SGD or Adam, with similar computational efficiency and performance.",
+    "author": "Desconocido",
+    "sourceTitle": "OpenAI",
+    "sourceUrl": "https://openai.com/news/rss.xml",
+    "sourceCategory": "OpenAI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/dd315656-1fce-424d-68adabc313db/5e603f8a6c5767f0f4a310f61f996649/image_97.png?w=1600&h=900&fit=fill",
+    "isShortVideo": 0
+  },
+  {
     "id": "f1cb22ab-03f8-5aed-99b1-0d9c44cab4d7",
     "title": "OpenAI Scholars",
     "link": "https://openai.com/index/openai-scholars",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://images.ctfassets.net/kftzwdyauwt9/2a2fb28e-2cb2-488e-e11cbf80e17f/85bef8616a48ac0a28cb309c71fc9219/better-exploration-with-parameter-noise.jpg?w=1600&h=900&fit=fill",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e8df4ea4-7a2b-56f0-b602-8065645f5b56",
-    "title": "Proximal Policy Optimization",
-    "link": "https://openai.com/index/openai-baselines-ppo",
-    "pubDate": "2017-07-20T07:00:00+00:00",
-    "description": "We’re releasing a new class of reinforcement learning algorithms, Proximal Policy Optimization (PPO), which perform comparably or better than state-of-the-art approaches while being much simpler to implement and tune. PPO has become the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance.",
-    "author": "Desconocido",
-    "sourceTitle": "OpenAI",
-    "sourceUrl": "https://openai.com/news/rss.xml",
-    "sourceCategory": "OpenAI",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/b4073079-b924-447c-00367a362468/d766c62670a5c92f913c54206060ba54/image_140.png?w=1600&h=900&fit=fill",
     "isShortVideo": 0
   }
 ]

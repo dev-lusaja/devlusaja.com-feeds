@@ -1,5 +1,21 @@
 [
   {
+    "id": "e199e4d5-82bf-5065-becb-7a3aa8c3748d",
+    "title": "7 NumPy Tricks to Vectorize Your Code",
+    "link": "https://machinelearningmastery.com/7-numpy-tricks-to-vectorize-your-code/",
+    "pubDate": "2025-10-08T11:00:40+00:00",
+    "description": "You've written Python that processes data in a loop.",
+    "author": "Bala Priya C",
+    "sourceTitle": "Machine Learning Mastery",
+    "sourceUrl": "https://machinelearningmastery.com/blog/feed/",
+    "sourceCategory": "MachineLearningMastery",
+    "sourceType": "educational",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://machinelearningmastery.com/wp-content/uploads/2025/10/mlm-bala-numpy-vectorization-tricks.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "f3b1223d-0e3c-584c-8632-3e8e47921bdd",
     "title": "Is ChatGPT-5 Able to Provide Proofs for Advanced Mathematics?",
     "link": "https://machinelearningmastery.com/is-chatgpt-5-able-to-provide-proofs-for-advanced-mathematics/",
@@ -128,7 +144,7 @@
     "isShortVideo": 0
   },
   {
-    "id": "981a4d87-8718-51b1-bf0b-8340f12a6b86",
+    "id": "53b7a8b8-0c4b-5056-a53f-9ae23586a3a3",
     "title": "7 Python Decorator Tricks to Write Cleaner Code",
     "link": "https://machinelearningmastery.com/7-python-decorator-tricks-to-write-cleaner-code/",
     "pubDate": "2025-09-29T13:19:14+00:00",
@@ -144,7 +160,7 @@
     "isShortVideo": 0
   },
   {
-    "id": "53b7a8b8-0c4b-5056-a53f-9ae23586a3a3",
+    "id": "981a4d87-8718-51b1-bf0b-8340f12a6b86",
     "title": "7 Python Decorator Tricks to Write Cleaner Code",
     "link": "https://machinelearningmastery.com/7-python-decorator-tricks-to-write-cleaner-code/",
     "pubDate": "2025-09-29T13:19:14+00:00",
@@ -320,22 +336,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "70f33b49-30d5-51b5-a4ad-505c70f47d65",
-    "title": "A Hands-On Introduction to cuML for GPU-Accelerated Machine Learning Workflows",
-    "link": "https://machinelearningmastery.com/a-hands-on-introduction-to-cuml-for-gpu-accelerated-machine-learning-workflows/",
-    "pubDate": "2025-09-18T12:03:53+00:00",
-    "description": "This article offers a hands-on Python introduction to",
-    "author": "Iván Palomares Carrascosa",
-    "sourceTitle": "Machine Learning Mastery",
-    "sourceUrl": "https://machinelearningmastery.com/blog/feed/",
-    "sourceCategory": "MachineLearningMastery",
-    "sourceType": "educational",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://machinelearningmastery.com/wp-content/uploads/2025/08/mlm-ipc-cuml-for-gpu-accelerated-ml-workflows.png",
-    "isShortVideo": 0
-  },
-  {
     "id": "2cd67294-1e65-5b7a-a509-01f14d8f1ece",
     "title": "A Hands-On Introduction to cuML for GPU-Accelerated Machine Learning Workflows",
     "link": "https://machinelearningmastery.com/a-hands-on-introduction-to-cuml-for-gpu-accelerated-machine-learning-workflows/",
@@ -352,11 +352,11 @@
     "isShortVideo": 0
   },
   {
-    "id": "309c42b4-0662-5d41-88f5-4c819eceeeb9",
-    "title": "A Hands-On Introduction to cuDF for GPU-Accelerated Data Workflows",
-    "link": "https://machinelearningmastery.com/a-hands-on-introduction-to-cudf-for-gpu-accelerated-data-workflows/",
-    "pubDate": "2025-09-18T12:03:42+00:00",
-    "description": "This article introduces, through a hands-on Python example, cuDF : one of the latest Python libraries designed by",
+    "id": "70f33b49-30d5-51b5-a4ad-505c70f47d65",
+    "title": "A Hands-On Introduction to cuML for GPU-Accelerated Machine Learning Workflows",
+    "link": "https://machinelearningmastery.com/a-hands-on-introduction-to-cuml-for-gpu-accelerated-machine-learning-workflows/",
+    "pubDate": "2025-09-18T12:03:53+00:00",
+    "description": "This article offers a hands-on Python introduction to",
     "author": "Iván Palomares Carrascosa",
     "sourceTitle": "Machine Learning Mastery",
     "sourceUrl": "https://machinelearningmastery.com/blog/feed/",
@@ -364,7 +364,7 @@
     "sourceType": "educational",
     "sourceCountry": "",
     "content": "",
-    "image": "https://machinelearningmastery.com/wp-content/uploads/2025/08/mlm-ipc-cudf-gpu-accelerated-data-workflows.png",
+    "image": "https://machinelearningmastery.com/wp-content/uploads/2025/08/mlm-ipc-cuml-for-gpu-accelerated-ml-workflows.png",
     "isShortVideo": 0
   },
   {
@@ -384,7 +384,23 @@
     "isShortVideo": 0
   },
   {
-    "id": "72031602-05ad-5bfe-a68c-9d3e9a165dbe",
+    "id": "309c42b4-0662-5d41-88f5-4c819eceeeb9",
+    "title": "A Hands-On Introduction to cuDF for GPU-Accelerated Data Workflows",
+    "link": "https://machinelearningmastery.com/a-hands-on-introduction-to-cudf-for-gpu-accelerated-data-workflows/",
+    "pubDate": "2025-09-18T12:03:42+00:00",
+    "description": "This article introduces, through a hands-on Python example, cuDF : one of the latest Python libraries designed by",
+    "author": "Iván Palomares Carrascosa",
+    "sourceTitle": "Machine Learning Mastery",
+    "sourceUrl": "https://machinelearningmastery.com/blog/feed/",
+    "sourceCategory": "MachineLearningMastery",
+    "sourceType": "educational",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://machinelearningmastery.com/wp-content/uploads/2025/08/mlm-ipc-cudf-gpu-accelerated-data-workflows.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "20501a1c-97d1-500f-89ff-7e56ab01e1b0",
     "title": "Feature Scaling in Practice: What Works and What Doesn’t",
     "link": "https://machinelearningmastery.com/feature-scaling-in-practice-what-works-and-what-doesnt/",
     "pubDate": "2025-09-17T14:08:26+00:00",
@@ -400,7 +416,7 @@
     "isShortVideo": 0
   },
   {
-    "id": "20501a1c-97d1-500f-89ff-7e56ab01e1b0",
+    "id": "72031602-05ad-5bfe-a68c-9d3e9a165dbe",
     "title": "Feature Scaling in Practice: What Works and What Doesn’t",
     "link": "https://machinelearningmastery.com/feature-scaling-in-practice-what-works-and-what-doesnt/",
     "pubDate": "2025-09-17T14:08:26+00:00",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://www.fast.ai/posts/flying-thumbnail.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c79ef747-8049-57f3-b250-d08b2dd79c4b",
-    "title": "In defense of screen time",
-    "link": "https://www.fast.ai/posts/2024-10-29-screen-time/",
-    "pubDate": "2024-10-29T00:00:00+00:00",
-    "description": "Pundits say my husband and I are parenting wrong.",
-    "author": "Rachel Thomas",
-    "sourceTitle": "Fast AI",
-    "sourceUrl": "https://www.fast.ai/index.xml",
-    "sourceCategory": "fastai",
-    "sourceType": "educational",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://www.fast.ai/posts/2024-10-29-screen-time/music-lab.jpg",
     "isShortVideo": 0
   }
 ]
