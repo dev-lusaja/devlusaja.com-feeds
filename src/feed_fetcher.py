@@ -2,7 +2,7 @@ import os
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
-from config.loader import load_feeds_config, get_feeds_months_back
+from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category
 from feeds.fetcher import fetch_feed
 from feeds.saver import save_feed, exits_feed
 from feeds.dataframe_builder import build_dataframe, save_dataframe, save_dataframe_json
@@ -58,6 +58,11 @@ def main(force: bool = False):
     # Obtener configuración de meses hacia atrás para filtrar feeds
     months_back = get_feeds_months_back(config_path)
     print(f"📅 Filtrando feeds de los últimos {months_back} meses")
+
+    # Obtener configuración de máximo de chunks por categoría
+    max_chunks = get_max_chunks_per_category(config_path)
+    if max_chunks:
+        print(f"📦 Límite de chunks por categoría: {max_chunks}")
 
     # Descargar feeds (sin logs)
     print("📡 Descargando feeds...", end='', flush=True)
@@ -116,7 +121,7 @@ def main(force: bool = False):
                 # Generar chunks por sourceType
                 print("📦 Generando chunks por tipo de fuente...", end='', flush=True)
                 with DatabaseConnection() as db:
-                    chunk_stats = generate_feed_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back)
+                    chunk_stats = generate_feed_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back, max_chunks=max_chunks)
                     if chunk_stats['success']:
                         stats.total_chunk_files = chunk_stats['total_files']
                         for source_type, source_stats in chunk_stats['by_source_type'].items():
@@ -130,7 +135,7 @@ def main(force: bool = False):
                 # Generar chunks por categoría
                 print("📋 Generando chunks por categoría...", end='', flush=True)
                 with DatabaseConnection() as db:
-                    category_stats = generate_category_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back)
+                    category_stats = generate_category_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back, max_chunks=max_chunks)
                     if category_stats['success']:
                         stats.category_chunk_files = category_stats['total_files']
                         for source_type, categories in category_stats['by_source_type'].items():
@@ -146,7 +151,7 @@ def main(force: bool = False):
                 # Generar chunks de shorts
                 print("🎬 Generando chunks de shorts...", end='', flush=True)
                 with DatabaseConnection() as db:
-                    shorts_stats = generate_shorts_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back)
+                    shorts_stats = generate_shorts_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back, max_chunks=max_chunks)
                     if shorts_stats['success']:
                         stats.shorts_chunks = shorts_stats['total_chunks']
                         stats.shorts_total = shorts_stats['total_shorts']

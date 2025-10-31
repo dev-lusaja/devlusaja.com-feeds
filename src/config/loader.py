@@ -63,3 +63,16 @@ def get_feeds_months_back(file_path: str) -> int:
     """
     config = load_config(file_path)
     return config.get('feeds_months_back', 2)
+
+def get_max_chunks_per_category(file_path: str) -> int:
+    """
+    Obtiene el número máximo de chunks a generar por categoría/tipo.
+
+    Args:
+        file_path: Ruta al archivo de configuración YAML
+
+    Returns:
+        Número máximo de chunks (None = sin límite, int > 0 = límite)
+    """
+    config = load_config(file_path)
+    return config.get('max_chunks_per_category', None)

@@ -1,7 +1,10 @@
 # Configuración general
 # feeds_months_back: Número de meses hacia atrás para filtrar feeds en los chunks (por defecto 2)
+# max_chunks_per_category: Número máximo de archivos chunks a generar por cada categoría/tipo (por defecto null = sin límite)
+#   Ejemplo: Si es 30, generará máximo 30 archivos de notice-all-chunk-*, 30 de pappers-arXiv_LG-chunk-*, etc.
 config:
   feeds_months_back: 2
+  max_chunks_per_category: 30  # null = sin límite, cualquier número > 0 = límite de chunks
 
 # Configuración de exclusiones
 # chunks_all: Categorías a excluir de los archivos -all y estadísticas de metadata
