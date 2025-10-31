@@ -1,3 +1,8 @@
+# Configuración general
+# feeds_months_back: Número de meses hacia atrás para filtrar feeds en los chunks (por defecto 2)
+config:
+  feeds_months_back: 2
+
 # Configuración de exclusiones
 # chunks_all: Categorías a excluir de los archivos -all y estadísticas de metadata
 # Se agrupan por sourceType (notice, youtube, tiktok, etc.)

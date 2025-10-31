@@ -13,7 +13,7 @@ from database.operations import get_short_videos_count, get_short_videos
 from utils.logger import log
 
 
-def generate_shorts_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30) -> dict:
+def generate_shorts_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, months_back: int = 2) -> dict:
     """
     Genera archivos JSON con chunks de videos cortos (isShortVideo=1).
 
@@ -21,6 +21,7 @@ def generate_shorts_chunks(db: DatabaseConnection, output_dir: str = "assets", i
         db: Objeto de conexión a la base de datos
         output_dir: Directorio donde guardar los archivos (por defecto 'assets')
         items_per_chunk: Número máximo de videos cortos por chunk (por defecto 30)
+        months_back: Número de meses hacia atrás para filtrar feeds (por defecto 2)
 
     Returns:
         Diccionario con estadísticas de generación
@@ -37,8 +38,8 @@ def generate_shorts_chunks(db: DatabaseConnection, output_dir: str = "assets", i
         assets_dir = Path(output_dir)
         assets_dir.mkdir(exist_ok=True)
 
-        # Obtener conteo total de videos cortos
-        total_shorts = get_short_videos_count(db)
+        # Obtener conteo total de videos cortos (últimos N meses)
+        total_shorts = get_short_videos_count(db, months_back=months_back)
 
         if total_shorts == 0:
             return stats
@@ -50,8 +51,8 @@ def generate_shorts_chunks(db: DatabaseConnection, output_dir: str = "assets", i
         for chunk_number in range(total_chunks):
             offset = chunk_number * items_per_chunk
 
-            # Obtener videos cortos para este chunk
-            shorts = get_short_videos(db, limit=items_per_chunk, offset=offset)
+            # Obtener videos cortos para este chunk (últimos N meses)
+            shorts = get_short_videos(db, limit=items_per_chunk, offset=offset, months_back=months_back)
 
             if not shorts:
                 continue
