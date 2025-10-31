@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 # Agregar el directorio src al path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from config.loader import load_feeds_config
+from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category
 from database.connection import DatabaseConnection
 from database.operations import get_metadata_from_db, get_feed_count
 from feeds.chunk_generator import generate_feed_chunks
@@ -51,6 +51,14 @@ def regenerate_all_assets():
         config_path = Path(__file__).parent.parent / "feeds_config.yaml"
         feeds_config = load_feeds_config(config_path)
 
+        # Cargar configuraciones adicionales
+        months_back = get_feeds_months_back(config_path)
+        max_chunks = get_max_chunks_per_category(config_path)
+
+        log(f"⚙️  Configuración: últimos {months_back} meses")
+        if max_chunks:
+            log(f"⚙️  Límite de chunks por categoría: {max_chunks}")
+
         with DatabaseConnection() as db:
             # Verificar cuántos feeds hay en la base de datos
             feed_count = get_feed_count(db)
@@ -72,7 +80,7 @@ def regenerate_all_assets():
 
             # 2. Generar chunks de feeds por sourceType (notice, forum, pappers)
             log("\n📦 Generando chunks de feeds por sourceType...")
-            success = generate_feed_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK)
+            success = generate_feed_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back, max_chunks=max_chunks)
             if success:
                 log("✅ Chunks por sourceType generados exitosamente")
             else:
@@ -81,7 +89,7 @@ def regenerate_all_assets():
 
             # 3. Generar chunks de feeds por sourceType y category
             log("\n📦 Generando chunks de feeds por category...")
-            success = generate_category_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK)
+            success = generate_category_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back, max_chunks=max_chunks)
             if success:
                 log("✅ Chunks por category generados exitosamente")
             else:
@@ -90,7 +98,7 @@ def regenerate_all_assets():
 
             # 4. Generar chunks de shorts (todos los videos cortos)
             log("\n📦 Generando chunks de shorts (isShortVideo=1)...")
-            success = generate_shorts_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK)
+            success = generate_shorts_chunks(db, output_dir="assets", items_per_chunk=ITEMS_PER_CHUNK, months_back=months_back, max_chunks=max_chunks)
             if success:
                 log("✅ Chunks de shorts generados exitosamente")
             else:

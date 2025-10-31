@@ -11,7 +11,7 @@ from database.operations import (
 from config.loader import get_chunks_all_exclusions
 from utils.logger import log
 
-def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None, months_back: int = 2) -> dict:
+def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None, months_back: int = 2, max_chunks: int = None) -> dict:
     """
     Genera archivos JSON con chunks de feeds agrupados por sourceType.
     Las exclusiones de categorías para archivos -all se configuran en feeds_config.yaml.
@@ -22,6 +22,7 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
         items_per_chunk: Número máximo de feeds por chunk (por defecto 30)
         config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
         months_back: Número de meses hacia atrás para filtrar feeds (por defecto 2)
+        max_chunks: Número máximo de chunks a generar por sourceType (None = sin límite)
 
     Returns:
         Diccionario con estadísticas de generación
@@ -61,6 +62,10 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
 
             # Calcular número de chunks necesarios
             total_chunks = (total_feeds + items_per_chunk - 1) // items_per_chunk
+
+            # Aplicar límite de chunks si está configurado
+            if max_chunks is not None and max_chunks > 0:
+                total_chunks = min(total_chunks, max_chunks)
 
             # Generar cada chunk
             for chunk_number in range(total_chunks):
