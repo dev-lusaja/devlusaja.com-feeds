@@ -1,5 +1,21 @@
 [
   {
+    "id": "17b02bf2-cdc3-5a4a-9c3e-67968f028650",
+    "title": "From Assistant to Adversary: Exploiting Agentic AI Developer Tools",
+    "link": "https://developer.nvidia.com/blog/from-assistant-to-adversary-exploiting-agentic-ai-developer-tools/",
+    "pubDate": "2025-10-09T16:00:00+00:00",
+    "description": "Developers are increasingly turning to AI-enabled tools for coding, including Cursor, OpenAI Codex, Claude Code, and GitHub Copilot. While these automation...",
+    "author": "Becca Lynch",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image-cybersecurity-ai-cyber-attack-166625247-3-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image-cybersecurity-ai-cyber-attack-166625247-3\" width=\"768\" />Developers are increasingly turning to AI-enabled tools for coding, including Cursor, OpenAI Codex, Claude Code, and GitHub Copilot. While these automation...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image-cybersecurity-ai-cyber-attack-166625247-3-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image-cybersecurity-ai-cyber-attack-166625247-3\" width=\"768\" /><p>Developers are increasingly turning to AI-enabled tools for coding, including Cursor, OpenAI Codex, Claude Code, and GitHub Copilot. While these automation tools can enable faster development and reviews, they also present an expanding attack surface for threat actors. These agentic tools have different implementations but all share the common framework of using LLMs to determine actions to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/from-assistant-to-adversary-exploiting-agentic-ai-developer-tools/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image-cybersecurity-ai-cyber-attack-166625247-3.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "70ab3102-3eae-590b-bb5a-9582ad1d0332",
     "title": "Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch",
     "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-battlefield-6/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/Deploy-High-Performance-AI-Models-in-Windows-Applications-on-NVIDIA-RTX-AI-PCs-copy-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Deploy High-Performance AI Models in Windows Applications on NVIDIA RTX AI PCs copy\" width=\"768\" />Today, Microsoft is making Windows ML available to developers. Windows ML enables C#, C++ and Python developers to optimally run AI models locally across PC...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/Deploy-High-Performance-AI-Models-in-Windows-Applications-on-NVIDIA-RTX-AI-PCs-copy-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Deploy High-Performance AI Models in Windows Applications on NVIDIA RTX AI PCs copy\" width=\"768\" /><p>Today, Microsoft is making Windows ML available to developers. Windows ML enables C#, C++ and Python developers to optimally run AI models locally across PC hardware from CPU, NPU and GPUs. On NVIDIA RTX GPUs, it utilizes the NVIDIA TensorRT for RTX Execution Provider (EP) leveraging the GPU’s Tensor Cores and architectural advancements like FP8 and FP4, to provide the fastest AI inference…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploy-ai-models-faster-with-windows-ml-on-rtx-pcs/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/Deploy-High-Performance-AI-Models-in-Windows-Applications-on-NVIDIA-RTX-AI-PCs-copy.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3082b214-fab2-5fdd-86aa-7640bb544c2d",
-    "title": "Faster Training Throughput in FP8 Precision with NVIDIA NeMo",
-    "link": "https://developer.nvidia.com/blog/faster-training-throughput-in-fp8-precision-with-nvidia-nemo/",
-    "pubDate": "2025-09-23T16:36:21+00:00",
-    "description": "In previous posts on FP8 training, we explored the fundamentals of FP8 precision and took a deep dive into the various scaling recipes for practical large-scale...",
-    "author": "Karin Sevegnani",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-optimize-deploy-graphic-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy-graphic\" width=\"600\" />In previous posts on FP8 training, we explored the fundamentals of FP8 precision and took a deep dive into the various scaling recipes for practical large-scale...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-optimize-deploy-graphic-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy-graphic\" width=\"600\" /><p>In previous posts on FP8 training, we explored the fundamentals of FP8 precision and took a deep dive into the various scaling recipes for practical large-scale deep learning. If you haven’t read those yet, we recommend starting there for a solid foundation. This post focuses on what matters most in production: speed. FP8 training promises faster computation, but how much real-world…</p>\n<p><a href=\"https://developer.nvidia.com/blog/faster-training-throughput-in-fp8-precision-with-nvidia-nemo/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-optimize-deploy-graphic.png",
     "isShortVideo": 0
   }
 ]

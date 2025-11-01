@@ -113,7 +113,7 @@ def main(force: bool = False):
                 # Generar metadata
                 print("📋 Generando metadata...", end='', flush=True)
                 with DatabaseConnection() as db:
-                    metadata = get_metadata_from_db(db, feeds)
+                    metadata = get_metadata_from_db(db, feeds, months_back=months_back, max_chunks=max_chunks)
                     if metadata:
                         save_metadata_json(metadata, output_dir="assets")
                 print(" ✓")
