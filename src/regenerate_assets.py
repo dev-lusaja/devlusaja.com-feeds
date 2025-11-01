@@ -70,7 +70,7 @@ def regenerate_all_assets():
 
             # 1. Generar metadata desde la base de datos
             log("\n📋 Generando metadata desde la base de datos...")
-            metadata = get_metadata_from_db(db, feeds_config)
+            metadata = get_metadata_from_db(db, feeds_config, months_back=months_back, max_chunks=max_chunks)
             if metadata:
                 save_metadata_json(metadata, output_dir="assets")
                 log("✅ Metadata generado exitosamente")

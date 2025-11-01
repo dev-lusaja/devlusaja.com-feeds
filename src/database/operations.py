@@ -324,7 +324,7 @@ def register_execution(db: DatabaseConnection, feeds_processed: int, feeds_inser
     finally:
         cursor.close()
 
-def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]], config_path: str = None) -> Dict[str, Any]:
+def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]], config_path: str = None, months_back: Optional[int] = None, max_chunks: Optional[int] = None) -> Dict[str, Any]:
     """
     Genera metadata desde la base de datos con estadísticas de feeds.
     Las exclusiones de categorías se configuran en feeds_config.yaml.
@@ -333,6 +333,8 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         db: Objeto de conexión a la base de datos
         feeds_config: Lista de configuración de feeds del YAML
         config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
+        months_back: Si se especifica, solo cuenta feeds de los últimos N meses (usa pubDate_parsed)
+        max_chunks: Número máximo de chunks por categoría (None = sin límite)
 
     Returns:
         Diccionario con metadata en el formato requerido
@@ -350,13 +352,24 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         exclusions_config = load_exclusions_config(config_path)
         chunks_all_exclusions = exclusions_config.get('chunks_all', {})
 
+        # Determinar si aplicar filtro de fecha
+        date_filter = ""
+        if months_back is not None:
+            date_filter = f" WHERE pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
         # Obtener total de items
-        total_query = "SELECT COUNT(*) as count FROM feeds"
+        total_query = f"SELECT COUNT(*) as count FROM feeds{date_filter}"
         cursor.execute(total_query)
         total_items = cursor.fetchone()['count']
 
         # Construir query dinámico para exclusiones basadas en la configuración
         where_conditions = []
+
+        # Agregar filtro de fecha si aplica
+        if months_back is not None:
+            where_conditions.append(f"pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)")
+
+        # Agregar exclusiones configuradas
         for source_type, excluded_categories in chunks_all_exclusions.items():
             if excluded_categories:
                 placeholders = ', '.join([f"'{cat}'" for cat in excluded_categories])
@@ -366,7 +379,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         if where_conditions:
             where_clause = "WHERE " + " AND ".join(where_conditions)
 
-        # Obtener conteo por tipo (aplicando exclusiones configuradas)
+        # Obtener conteo por tipo (aplicando exclusiones configuradas y filtro de fecha)
         type_query = f"""
         SELECT sourceType as type, COUNT(*) as count
         FROM feeds
@@ -376,10 +389,11 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         cursor.execute(type_query)
         type_counts = {row['type']: row['count'] for row in cursor.fetchall()}
 
-        # Obtener conteo por categoría y tipo
-        category_query = """
+        # Obtener conteo por categoría y tipo (con filtro de fecha si aplica)
+        category_query = f"""
         SELECT sourceCategory as category, sourceTitle as title, sourceType as type, COUNT(*) as count
         FROM feeds
+        {date_filter}
         GROUP BY sourceCategory, sourceTitle, sourceType
         ORDER BY sourceType, count DESC
         """
@@ -400,6 +414,11 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         for source_type, count in type_counts.items():
             items_per_chunk = 30
             total_chunks = (count + items_per_chunk - 1) // items_per_chunk
+
+            # Aplicar límite de chunks si está configurado
+            if max_chunks is not None and max_chunks > 0:
+                total_chunks = min(total_chunks, max_chunks)
+
             by_type[source_type] = {
                 "totalItems": count,
                 "totalChunks": total_chunks,
@@ -417,6 +436,10 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
             items_per_chunk = 30
             total_chunks = (row['count'] + items_per_chunk - 1) // items_per_chunk
 
+            # Aplicar límite de chunks si está configurado
+            if max_chunks is not None and max_chunks > 0:
+                total_chunks = min(total_chunks, max_chunks)
+
             categories[source_type].append({
                 "category": row['category'],
                 "title": row['title'],
@@ -426,14 +449,22 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
                 "chunkPrefix": f"{source_type}-{row['category']}"
             })
 
-        # Obtener estadísticas de shorts (videos cortos)
-        shorts_query = "SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1"
+        # Obtener estadísticas de shorts (videos cortos) con filtro de fecha si aplica
+        shorts_date_filter = ""
+        if months_back is not None:
+            shorts_date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+
+        shorts_query = f"SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1{shorts_date_filter}"
         cursor.execute(shorts_query)
         shorts_count = cursor.fetchone()['count']
 
         # Calcular chunks de shorts
         items_per_chunk = 30
         shorts_chunks = (shorts_count + items_per_chunk - 1) // items_per_chunk if shorts_count > 0 else 0
+
+        # Aplicar límite de chunks si está configurado
+        if max_chunks is not None and max_chunks > 0 and shorts_chunks > 0:
+            shorts_chunks = min(shorts_chunks, max_chunks)
 
         shorts_info = {
             "totalItems": shorts_count,
