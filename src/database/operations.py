@@ -393,10 +393,19 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         type_counts = {row['type']: row['count'] for row in cursor.fetchall()}
 
         # Obtener conteo por categoría y tipo (con filtro de fecha si aplica)
+        # IMPORTANTE: Excluir shorts (isShortVideo=1) para YouTube y TikTok
+        # porque estos se cuentan por separado en la sección "shorts"
+        category_where_parts = []
+        if months_back is not None:
+            category_where_parts.append(f"pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)")
+        category_where_parts.append("NOT (sourceType IN ('youtube', 'tiktok') AND isShortVideo = 1)")
+
+        category_where = "WHERE " + " AND ".join(category_where_parts)
+
         category_query = f"""
         SELECT sourceCategory as category, sourceTitle as title, sourceType as type, COUNT(*) as count
         FROM feeds
-        {date_filter}
+        {category_where}
         GROUP BY sourceCategory, sourceTitle, sourceType
         ORDER BY sourceType, count DESC
         """
