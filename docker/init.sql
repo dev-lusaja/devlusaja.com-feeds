@@ -7,7 +7,7 @@ USE feeds_db;
 CREATE TABLE IF NOT EXISTS feeds (
     id VARCHAR(36) PRIMARY KEY,
     title TEXT,
-    link TEXT,
+    link VARCHAR(2048),
     pubDate VARCHAR(255),
     pubDate_parsed DATETIME GENERATED ALWAYS AS (
         STR_TO_DATE(SUBSTRING(pubDate, 1, 19), '%Y-%m-%dT%H:%i:%s')
@@ -31,7 +31,8 @@ CREATE TABLE IF NOT EXISTS feeds (
     INDEX idx_pub_date (pubDate),
     INDEX idx_pubDate_parsed (pubDate_parsed),
     INDEX idx_sourceType_pubDate (sourceType, pubDate_parsed),
-    INDEX idx_created_at (created_at)
+    INDEX idx_created_at (created_at),
+    UNIQUE INDEX idx_unique_link (link(767))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Crear tabla de ejecuciones

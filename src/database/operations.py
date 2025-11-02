@@ -26,7 +26,7 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
         CREATE TABLE IF NOT EXISTS feeds (
             id VARCHAR(36) PRIMARY KEY,
             title TEXT,
-            link TEXT,
+            link VARCHAR(2048),
             pubDate VARCHAR(255),
             pubDate_parsed DATETIME GENERATED ALWAYS AS (
                 STR_TO_DATE(SUBSTRING(pubDate, 1, 19), '%Y-%m-%dT%H:%i:%s')
@@ -50,7 +50,8 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             INDEX idx_pub_date (pubDate),
             INDEX idx_pubDate_parsed (pubDate_parsed),
             INDEX idx_sourceType_pubDate (sourceType, pubDate_parsed),
-            INDEX idx_created_at (created_at)
+            INDEX idx_created_at (created_at),
+            UNIQUE INDEX idx_unique_link (link(767))
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
         """
         cursor.execute(create_table_query)
@@ -81,13 +82,13 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
     finally:
         cursor.close()
 
-def feed_exists(db: DatabaseConnection, feed_id: str) -> bool:
+def feed_exists(db: DatabaseConnection, feed_link: str) -> bool:
     """
-    Verifica si un feed ya existe en la base de datos.
+    Verifica si un feed ya existe en la base de datos usando el link.
 
     Args:
         db: Objeto de conexión a la base de datos
-        feed_id: ID único del feed
+        feed_link: URL del feed (más confiable que el ID)
 
     Returns:
         True si existe, False en caso contrario
@@ -97,12 +98,12 @@ def feed_exists(db: DatabaseConnection, feed_id: str) -> bool:
         return False
 
     try:
-        query = "SELECT COUNT(*) as count FROM feeds WHERE id = %s"
-        cursor.execute(query, (feed_id,))
+        query = "SELECT COUNT(*) as count FROM feeds WHERE link = %s"
+        cursor.execute(query, (feed_link,))
         result = cursor.fetchone()
         return result['count'] > 0 if result else False
     except Error as e:
-        log(f"❌ Error al verificar existencia de feed {feed_id}: {e}")
+        log(f"❌ Error al verificar existencia de feed con link {feed_link[:100]}...: {e}")
         return False
     finally:
         cursor.close()
@@ -110,6 +111,7 @@ def feed_exists(db: DatabaseConnection, feed_id: str) -> bool:
 def insert_feed(db: DatabaseConnection, feed_data: Dict[str, Any]) -> bool:
     """
     Inserta un feed en la base de datos.
+    Si el link ya existe (índice único), se ignora silenciosamente.
 
     Args:
         db: Objeto de conexión a la base de datos
@@ -123,8 +125,9 @@ def insert_feed(db: DatabaseConnection, feed_data: Dict[str, Any]) -> bool:
         return False
 
     try:
+        # INSERT IGNORE: ignora el insert si el índice único de 'link' falla
         insert_query = """
-        INSERT INTO feeds (
+        INSERT IGNORE INTO feeds (
             id, title, link, pubDate, description, author,
             sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
             content, image, isShortVideo, raw_data
@@ -165,10 +168,10 @@ def insert_feeds_from_dataframe(db: DatabaseConnection, df: pd.DataFrame) -> Dic
     log(f"📊 Procesando {len(df)} feeds para inserción en MySQL...")
 
     for index, row in df.iterrows():
-        feed_id = row['id']
+        feed_link = row['link'] if pd.notna(row['link']) else ''
 
-        # Verificar si el feed ya existe
-        if feed_exists(db, feed_id):
+        # Verificar si el feed ya existe por link (más confiable que por id)
+        if feed_link and feed_exists(db, feed_link):
             stats['skipped'] += 1
             continue
 
@@ -176,7 +179,7 @@ def insert_feeds_from_dataframe(db: DatabaseConnection, df: pd.DataFrame) -> Dic
         feed_data = {
             'id': row['id'],
             'title': row['title'] if pd.notna(row['title']) else '',
-            'link': row['link'] if pd.notna(row['link']) else '',
+            'link': feed_link,
             'pubDate': row['pubDate'] if pd.notna(row['pubDate']) else '',
             'description': row['description'] if pd.notna(row['description']) else '',
             'author': row['author'] if pd.notna(row['author']) else '',

@@ -103,8 +103,9 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
     if not link and 'links' in entry and len(entry['links']) > 0:
         link = entry['links'][0].get('href', '')
 
-    # Extraer el id
-    uuid_data = {"id":entry.get('id', ''), "category": category, "feed_title": title, "feed_url": link, "source_type": source_type}
+    # Extraer el id usando solo el link (único y estable) y el source_type
+    # Esto previene duplicados cuando el feed RSS cambia el ID original
+    uuid_data = {"feed_url": link, "source_type": source_type}
     uuid = make_deterministic_uuid(uuid_data)
     entry_id = uuid
 
