@@ -49,7 +49,9 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
 
         # Procesar cada tipo de fuente
         for source_type in source_types:
-            exclude_shorts = False
+            # Excluir shorts (isShortVideo=1) para YouTube y TikTok
+            # Estos tienen sus propios chunks separados (shorts-all-chunk-*)
+            exclude_shorts = source_type in ['youtube', 'tiktok']
 
             # Obtener categorías a excluir de los archivos -all desde la configuración
             exclude_categories = get_chunks_all_exclusions(config_path, source_type)

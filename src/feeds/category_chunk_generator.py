@@ -50,7 +50,9 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
             if not categories:
                 continue
 
-            exclude_shorts = False
+            # Excluir shorts (isShortVideo=1) para YouTube y TikTok
+            # Estos tienen sus propios chunks separados (shorts-all-chunk-*)
+            exclude_shorts = source_type in ['youtube', 'tiktok']
             stats['by_source_type'][source_type] = {}
 
             # Procesar cada categoría
