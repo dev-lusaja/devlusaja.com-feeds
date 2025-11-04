@@ -166,7 +166,7 @@ def get_feeds_without_images(
         query = """
         SELECT id, title, link, sourceType, sourceCategory
         FROM feeds
-        WHERE (image IS NULL OR image = '')
+        WHERE (image IS NULL OR image = '') AND sourceType not in ('pappers') AND sourceCategory not in ('GoogleNews', 'OpenAI')
         """
         params = []
 
@@ -178,7 +178,7 @@ def get_feeds_without_images(
             query += " AND sourceCategory = %s"
             params.append(category)
 
-        query += " ORDER BY created_at DESC"
+        query += " ORDER BY pubDate DESC"
 
         if limit:
             query += " LIMIT %s"
