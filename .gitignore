@@ -3,3 +3,10 @@
 # Backups de base de datos
 backups/
 *.sql
+
+# Logs de automatización
+logs/*.log
+logs/*.log.old
+
+# Mantener el directorio logs/
+!logs/.gitkeep
