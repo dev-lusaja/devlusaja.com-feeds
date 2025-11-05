@@ -1,5 +1,37 @@
 [
   {
+    "id": "6ece30bb-22b2-5080-b670-cd33b3932836",
+    "title": "200+ pages of Hugging Face secrets on how to train an LLM",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ok3xie/200_pages_of_hugging_face_secrets_on_how_to_train/",
+    "pubDate": "2025-10-30T16:11:22+00:00",
+    "description": "Hey it's elie from the hugging face pre-training team! We're very excited to share our new blog (book?) that cover the full pipeline: pre-training, post-training and infra. 200+ pages of what worked, what didn’t, and how to make it run reliably :) https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook Hope yall will enjoy it, don't hesitate to make feedback on the community tab :) submitted by /u/eliebakk [link] [comments]",
+    "author": "/u/eliebakk",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ok3xie/200_pages_of_hugging_face_secrets_on_how_to_train/\"> <img alt=\"200+ pages of Hugging Face secrets on how to train an LLM\" src=\"https://preview.redd.it/s12qz4k3w9yf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=44c78fbb2faf8b6857633466eb7cf34609898a57\" title=\"200+ pages of Hugging Face secrets on how to train an LLM\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey it's elie from the hugging face pre-training team! We're very excited to share our new blog (book?) that cover the full pipeline: pre-training, post-training and infra. 200+ pages of what worked, what didn’t, and how to make it run reliably :)</p> <p><a href=\"https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook\">https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook</a></p> <p>Hope yall will enjoy it, don't hesitate to make feedback on the community tab :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eliebakk\"> /u/eliebakk </a> <br /> <span><a href=\"https://i.redd.it/s12qz4k3w9yf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ok3xie/200_pages_of_hugging_face_secrets_on_how_to_train/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/s12qz4k3w9yf1.png?width=640&crop=smart&auto=webp&s=44c78fbb2faf8b6857633466eb7cf34609898a57",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8072ec7a-b3b9-55ce-a284-840961f72ba0",
+    "title": "Qwen 3 VL merged into llama.cpp!",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ok2lht/qwen_3_vl_merged_into_llamacpp/",
+    "pubDate": "2025-10-30T15:21:24+00:00",
+    "description": "https://github.com/ggml-org/llama.cpp/pull/16780 WE ARE SO BACK! submitted by /u/ervertes [link] [comments]",
+    "author": "/u/ervertes",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://github.com/ggml-org/llama.cpp/pull/16780\">https://github.com/ggml-org/llama.cpp/pull/16780</a></p> <p>WE ARE SO BACK!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ervertes\"> /u/ervertes </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ok2lht/qwen_3_vl_merged_into_llamacpp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ok2lht/qwen_3_vl_merged_into_llamacpp/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "71ac376b-70aa-5061-8b50-f81be288a4df",
     "title": "support for Qwen3 VL has been merged into llama.cpp",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ok2kr3/support_for_qwen3_vl_has_been_merged_into_llamacpp/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ojdvg4/openskills_a_open_sourced_and_completely_private/\"> <img alt=\"OpenSkills - a open sourced and completely private Claude Skills\" src=\"https://external-preview.redd.it/b3ZuaTI3bHVvM3lmMcQPZ78OnlmSenf3dLgyDsdkhOOH_RPCHGpkItvsPv93.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=34cfbcafe873157b2648db339edf7f2cdbd1c277\" title=\"OpenSkills - a open sourced and completely private Claude Skills\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Managed to build a completely local and Claude independent Skills. </p> <p><a href=\"https://github.com/bandarlabs/open-skills\">https://github.com/bandarlabs/open-skills</a></p> <p>You can import any existing claude skills (or its zip file dowloaded from claude desktop) and it will run it in a local code execution container, with dare I say, better isolation than docker containers. (caveat: its only for MacOS)</p> <p>Above video shows how it worked with Gemini CLI. You can use any other LLM (even claude code) which supports MCP.</p> <p>It's private because your pdf (or videos/photos) doesn't leave your system. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/badhiyahai\"> /u/badhiyahai </a> <br /> <span><a href=\"https://v.redd.it/rk4pq9luo3yf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ojdvg4/openskills_a_open_sourced_and_completely_private/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/b3ZuaTI3bHVvM3lmMcQPZ78OnlmSenf3dLgyDsdkhOOH_RPCHGpkItvsPv93.png?width=640&crop=smart&auto=webp&s=34cfbcafe873157b2648db339edf7f2cdbd1c277",
-    "isShortVideo": 0
-  },
-  {
-    "id": "51390a48-4f7e-57f1-b65a-3678c35d5068",
-    "title": "Where my fine tuners at?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ojdapo/where_my_fine_tuners_at/",
-    "pubDate": "2025-10-29T18:59:15+00:00",
-    "description": "[Before I babble… thank you /r/localllama community! By far my favorite sub and I’m grateful for all I’ve learned from you. I try to contribute where I can.] And now for the actual post. So almost a year ago I made this post asking for help on fine tuning an LLM. Although it got very few comments, it was enough to send me down the rabbit hole of model fine tuning. I’ve spent the past 11 months, self learning, experimenting like crazy and generally devouring any kind of resource I could find on the subject. I do feel like I’ve made a lot of progress and have actually fine tuned dozens of models with varying levels of success (as per my training objectives). Past couple of months I feel like that progress has stagnated, and the models I’m fine tuning are getting good, but still not the expert level I am aiming for. So why am I sharing all this? Cause I’m tired of having ChatGPT (ok, Gemini is pretty awesome too) as the only one I can consult with and brainstorm with. Although I’ve been in “the industry” (mostly IT to be honest) for a quite few years, I don’t have anyone in my professional network who has the technical experience I’m looking for. I’m longing for a brief technical discussion with a human . Obviously someone who has some experience in fine tuning small-mid sized LLM’s that I can bounce my training recipes off of and get some constructive feedback. I know this is uncommon on Reddit. I’ve been on this site forever, and the closest I’ve gotten to actually “talking” to someone on here (not through comments) were a few DM’s that are impossible to deep dive with. I’ll be more than happy to (virtually) buy anyone willing to give up some time a coffee. Also, I’m no where near being an “expert” but if I’d be more than willing to reciprocate which such gesture. So anyone looking to brainstorm, talk code, model training, etc. hit me up! submitted by /u/indicava [link] [comments]",
-    "author": "/u/indicava",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>[Before I babble… thank you <a href=\"https://www.reddit.com/r/localllama\">/r/localllama</a> community! By far my favorite sub and I’m grateful for all I’ve learned from you. I try to contribute where I can.]</p> <p>And now for the actual post.</p> <p>So almost a year ago I made <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1h7naiy/trainfinetune_a_coding_llm_on_a_proprietary/\">this</a> post asking for help on fine tuning an LLM.</p> <p>Although it got very few comments, it was enough to send me down the rabbit hole of model fine tuning. </p> <p>I’ve spent the past 11 months, self learning, experimenting like crazy and generally devouring any kind of resource I could find on the subject. I do feel like I’ve made a lot of progress and have actually fine tuned dozens of models with varying levels of success (as per my training objectives). </p> <p>Past couple of months I feel like that progress has stagnated, and the models I’m fine tuning are getting good, but still not the expert level I am aiming for.</p> <p>So why am I sharing all this? Cause I’m tired of having ChatGPT (ok, Gemini is pretty awesome too) as the only one I can consult with and brainstorm with. </p> <p>Although I’ve been in “the industry” (mostly IT to be honest) for a quite few years, I don’t have anyone in my professional network who has the technical experience I’m looking for. </p> <p>I’m longing for a brief technical discussion with a <strong>human</strong>. Obviously someone who has some experience in fine tuning small-mid sized LLM’s that I can bounce my training recipes off of and get some constructive feedback. </p> <p>I know this is uncommon on Reddit. I’ve been on this site forever, and the closest I’ve gotten to actually “talking” to someone on here (not through comments) were a few DM’s that are impossible to deep dive with. </p> <p>I’ll be more than happy to (virtually) buy anyone willing to give up some time a coffee. Also, I’m no where near being an “expert” but if I’d be more than willing to reciprocate which such gesture. So anyone looking to brainstorm, talk code, model training, etc. hit me up!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/indicava\"> /u/indicava </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ojdapo/where_my_fine_tuners_at/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ojdapo/where_my_fine_tuners_at/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "26e0e995-5624-5d39-8367-76871f00d82e",
-    "title": "Here's the best prompt you will ever need to test the new LLMs",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ojd1oq/heres_the_best_prompt_you_will_ever_need_to_test/",
-    "pubDate": "2025-10-29T18:49:59+00:00",
-    "description": "Prompt: The numbers Mason, what do they mean?!! 10 23 68 111 8 7 7 47 53 23 63 92 15 submitted by /u/Cool-Chemical-5629 [link] [comments]",
-    "author": "/u/Cool-Chemical-5629",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ojd1oq/heres_the_best_prompt_you_will_ever_need_to_test/\"> <img alt=\"Here's the best prompt you will ever need to test the new LLMs\" src=\"https://preview.redd.it/n2yilqu2k3yf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=575a481bdcf458b2fd06c48788fa5f9271cd30ad\" title=\"Here's the best prompt you will ever need to test the new LLMs\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Prompt:</p> <p>The numbers Mason, what do they mean?!! 10 23 68 111 8 7 7 47 53 23 63 92 15</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cool-Chemical-5629\"> /u/Cool-Chemical-5629 </a> <br /> <span><a href=\"https://i.redd.it/n2yilqu2k3yf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ojd1oq/heres_the_best_prompt_you_will_ever_need_to_test/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/n2yilqu2k3yf1.png?width=640&crop=smart&auto=webp&s=575a481bdcf458b2fd06c48788fa5f9271cd30ad",
     "isShortVideo": 0
   }
 ]

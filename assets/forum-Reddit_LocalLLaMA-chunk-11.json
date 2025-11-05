@@ -1,5 +1,37 @@
 [
   {
+    "id": "32bbcf21-6fa2-5107-9f90-d14bf72fea2f",
+    "title": "olmoOCR 2 released, big quality improvements, fully open training data and code",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odg6pz/olmoocr_2_released_big_quality_improvements_fully/",
+    "pubDate": "2025-10-22T18:22:09+00:00",
+    "description": "Given the interest in OCR models recently, Ai2's release today should be on your radar. The weights, training data, and training code are all open, and you can try it for free here: https://olmocr.allenai.org/ 📚 Blog: https://allenai.org/blog/olmocr-2 💻 Model: https://huggingface.co/allenai/olmOCR-2-7B-1025-FP8 submitted by /u/whistling_frank [link] [comments]",
+    "author": "/u/whistling_frank",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odg6pz/olmoocr_2_released_big_quality_improvements_fully/\"> <img alt=\"olmoOCR 2 released, big quality improvements, fully open training data and code\" src=\"https://external-preview.redd.it/jMHnzDUDDsA1xIrP_vxD1Z6TLTLk5mgpCRd-v7PwCn4.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=60397e0ca48d71f38e4f50d1bb3a4a5210618f9a\" title=\"olmoOCR 2 released, big quality improvements, fully open training data and code\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Given the interest in OCR models recently, Ai2's release today should be on your radar. The weights, training data, and training code are all open, and you can try it for free here:<br /> <a href=\"https://olmocr.allenai.org/\">https://olmocr.allenai.org/</a> </p> <p>📚 Blog: <a href=\"https://allenai.org/blog/olmocr-2\">https://allenai.org/blog/olmocr-2</a></p> <p>💻 Model: <a href=\"https://huggingface.co/allenai/olmOCR-2-7B-1025-FP8\">https://huggingface.co/allenai/olmOCR-2-7B-1025-FP8</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/whistling_frank\"> /u/whistling_frank </a> <br /> <span><a href=\"https://allenai.org/blog/olmocr-2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odg6pz/olmoocr_2_released_big_quality_improvements_fully/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/jMHnzDUDDsA1xIrP_vxD1Z6TLTLk5mgpCRd-v7PwCn4.png?width=640&crop=smart&auto=webp&s=60397e0ca48d71f38e4f50d1bb3a4a5210618f9a",
+    "isShortVideo": 0
+  },
+  {
+    "id": "574b915a-b989-50f7-bc44-9efb6f1cc871",
+    "title": "Introducing ExecuTorch 1.0",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odg1wm/introducing_executorch_10/",
+    "pubDate": "2025-10-22T18:17:14+00:00",
+    "description": "submitted by /u/dayanruben [link] [comments]",
+    "author": "/u/dayanruben",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dayanruben\"> /u/dayanruben </a> <br /> <span><a href=\"https://pytorch.org/blog/introducing-executorch-1-0/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odg1wm/introducing_executorch_10/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "aa8297ca-7e61-5f19-9d8b-4f9397f9ed4c",
     "title": "Devs, what are your experiences with Qwen3-coder-30b?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odf4ei/devs_what_are_your_experiences_with_qwen3coder30b/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocrocy/deepseekocr_lives_up_to_the_hype/\"> <img alt=\"DeepSeek-OCR - Lives up to the hype\" src=\"https://b.thumbs.redditmedia.com/q2Za3YAG4UtD5f1EPoF-xWngtth1gVchxREBKA2mc6k.jpg\" title=\"DeepSeek-OCR - Lives up to the hype\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I decided to try this out. Dockerized the model with fastapi in a wsl environment. Gave it 10000 pdfs to convert to markdown.</p> <p>Hardware - 1 x A6000 ADA on a Ryzen 1700 /w 32gb ram</p> <p>Processed prompts: 100%|██████████| 1/1 [00:00&lt;00:00, 3.29it/s, est. speed input: 3000.81 toks/s, output: 220.20 toks/s]</p> <p>I'm averaging less than 1 second per page.</p> <p>This is the real deal.</p> <p>EDIT: Decided to share the docker build if anyone is interested. It wraps the model up nicely so you can try it out directly with the api. it uses the vllm-openapi 0.8.5 public docker image. </p> <p>Also included a pdf to markdown utility which will process anything in the /data subfolder to .md just by running it since there is an issue using the batch processor directly via the api.</p> <p><a href=\"https://preview.redd.it/se9r9dsnyjwf1.png?width=1458&amp;format=png&amp;auto=webp&amp;s=fcd8118c3e1c167cc13d159579527a802e55fd84\">https://preview.redd.it/se9r9dsnyjwf1.png?width=1458&amp;format=png&amp;auto=webp&amp;s=fcd8118c3e1c167cc13d159579527a802e55fd84</a></p> <p><a href=\"https://github.com/Bogdanovich77/DeekSeek-OCR---Dockerized-API\">https://github.com/Bogdanovich77/DeekSeek-OCR---Dockerized-API</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bohdanowicz\"> /u/Bohdanowicz </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocrocy/deepseekocr_lives_up_to_the_hype/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocrocy/deepseekocr_lives_up_to_the_hype/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/q2Za3YAG4UtD5f1EPoF-xWngtth1gVchxREBKA2mc6k.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e084af9c-7536-5296-8af9-0af20445ccbf",
-    "title": "NanoChat WebGPU: Karpathy's full-stack ChatGPT project running 100% locally in the browser.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocr8yr/nanochat_webgpu_karpathys_fullstack_chatgpt/",
-    "pubDate": "2025-10-21T22:33:16+00:00",
-    "description": "Today I added WebGPU support for Andrej Karpathy's nanochat models, meaning they can run 100% locally in your browser (no server required). The d32 version runs pretty well on my M4 Max at over 50 tokens per second. The web-app is encapsulated in a single index.html file, and there's a hosted version at https://huggingface.co/spaces/webml-community/nanochat-webgpu if you'd like to try it out (or see the source code)! Hope you like it! submitted by /u/xenovatech [link] [comments]",
-    "author": "/u/xenovatech",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocr8yr/nanochat_webgpu_karpathys_fullstack_chatgpt/\"> <img alt=\"NanoChat WebGPU: Karpathy's full-stack ChatGPT project running 100% locally in the browser.\" src=\"https://external-preview.redd.it/C6NMHSToauD7x286acmD5ScxM2pyQ5WKEd0P3gGkigQ.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c39d83aefdbc0f288592ba981c632eeeb778c0d5\" title=\"NanoChat WebGPU: Karpathy's full-stack ChatGPT project running 100% locally in the browser.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Today I added WebGPU support for Andrej Karpathy's nanochat models, meaning they can run 100% locally in your browser (no server required). The d32 version runs pretty well on my M4 Max at over 50 tokens per second. The web-app is encapsulated in a single index.html file, and there's a hosted version at <a href=\"https://huggingface.co/spaces/webml-community/nanochat-webgpu\">https://huggingface.co/spaces/webml-community/nanochat-webgpu</a> if you'd like to try it out (or see the source code)! Hope you like it!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xenovatech\"> /u/xenovatech </a> <br /> <span><a href=\"https://v.redd.it/lqzpops0kjwf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocr8yr/nanochat_webgpu_karpathys_fullstack_chatgpt/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/C6NMHSToauD7x286acmD5ScxM2pyQ5WKEd0P3gGkigQ.png?width=640&crop=smart&auto=webp&s=c39d83aefdbc0f288592ba981c632eeeb778c0d5",
-    "isShortVideo": 0
-  },
-  {
-    "id": "508742b2-5c51-54d6-a0ed-8993e976cbe8",
-    "title": "Deal on Ryzen 395 w/ 128GB, now 1581€ in Europe",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocqmxw/deal_on_ryzen_395_w_128gb_now_1581_in_europe/",
-    "pubDate": "2025-10-21T22:08:11+00:00",
-    "description": "A deal for my fellow European Local AI lovers: The Bosgame M5 has increased in price from 1450€ to 1581€ but now it's being sent from Germany to European customers instead of China, so there are no more extra taxes! That means it's around 170€ cheaper than before. It's by far the cheapest Ryzen AI MAX+ 395 with 128GB DDR5-8000 RAM that I know of. ( Shop link ) Notebookcheck did a test of this particular model in August and they quite liked it: https://www.notebookcheck.net/Best-mini-PC-of-the-year-AMD-Strix-Halo-128-GB-RAM-Radeon-RX-8060S-reviewed-in-the-Bosgame-M5.1087793.0.html submitted by /u/Zyj [link] [comments]",
-    "author": "/u/Zyj",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>A deal for my fellow European Local AI lovers: The Bosgame M5 has increased in price from 1450€ to 1581€ <strong>but</strong> now it's being sent from Germany to European customers instead of China, so there are no more extra taxes! That means it's around 170€ <em>cheaper</em> than before. It's <strong>by far</strong> the cheapest Ryzen AI MAX+ 395 with 128GB DDR5-8000 RAM that I know of. (<a href=\"https://www.bosgamepc.com/products/bosgame-m5-ai-mini-desktop-ryzen-ai-max-395\">Shop link</a>)</p> <p>Notebookcheck did a test of this particular model in August and they quite liked it: <a href=\"https://www.notebookcheck.net/Best-mini-PC-of-the-year-AMD-Strix-Halo-128-GB-RAM-Radeon-RX-8060S-reviewed-in-the-Bosgame-M5.1087793.0.html\">https://www.notebookcheck.net/Best-mini-PC-of-the-year-AMD-Strix-Halo-128-GB-RAM-Radeon-RX-8060S-reviewed-in-the-Bosgame-M5.1087793.0.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zyj\"> /u/Zyj </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocqmxw/deal_on_ryzen_395_w_128gb_now_1581_in_europe/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocqmxw/deal_on_ryzen_395_w_128gb_now_1581_in_europe/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

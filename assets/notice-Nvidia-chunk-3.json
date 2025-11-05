@@ -1,5 +1,21 @@
 [
   {
+    "id": "e1349f18-1fc9-5b57-b837-527d09be9a04",
+    "title": "Smart Multi-Node Scheduling for Fast and Efficient LLM Inference with NVIDIA Run:ai and NVIDIA Dynamo",
+    "link": "https://developer.nvidia.com/blog/smart-multi-node-scheduling-for-fast-and-efficient-llm-inference-with-nvidia-runai-and-nvidia-dynamo/",
+    "pubDate": "2025-09-29T15:00:00+00:00",
+    "description": "The exponential growth in large language model complexity has created challenges, such as models too large for single GPUs, workloads that demand high...",
+    "author": "Ekin Karabulut",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/inference-nvidia-dynamo-blog-1280x680-1-e1758728822171-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-nvidia-dynamo-blog-1280x680\" width=\"768\" />The exponential growth in large language model complexity has created challenges, such as models too large for single GPUs, workloads that demand high...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/inference-nvidia-dynamo-blog-1280x680-1-e1758728822171-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-nvidia-dynamo-blog-1280x680\" width=\"768\" /><p>The exponential growth in large language model complexity has created challenges, such as models too large for single GPUs, workloads that demand high throughput and low latency, and infrastructure that must coordinate thousands of interconnected components seamlessly. The NVIDIA Run:ai v2.23 release addresses these challenges through an integration with NVIDIA Dynamo—a high-throughput…</p>\n<p><a href=\"https://developer.nvidia.com/blog/smart-multi-node-scheduling-for-fast-and-efficient-llm-inference-with-nvidia-runai-and-nvidia-dynamo/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/inference-nvidia-dynamo-blog-1280x680-1-e1758728822171.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "b926fa99-fb2a-5cd1-9883-10e501d7bfd3",
     "title": "Upcoming Digital Event: Open Accelerated Computing Summit",
     "link": "https://events.zoom.us/ev/Ag9h43l88Btk65TlD9a2oZD5gLWhBD4HPbnApXEgazabeggG1Amq~Ah35JdKFc3kjnPkJVjccd7ubm35Av5p_vKJviCDFm-OnTsouYuioDrkaYg#new_tab",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-prediction\" width=\"768\" />The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-prediction\" width=\"768\" /><p>The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to predict how proteins fold determines the capacity to solve humanity’s most pressing biological challenges. Since the release of AlphaFold2, AI inference for determining protein structures has skyrocketed. Unoptimized tools for protein structure…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-protein-structure-inference-over-100x-with-nvidia-rtx-pro-6000-blackwell-server-edition/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-2048x1152.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5bf37f36-8a69-5fea-bfd9-08e57b7d018b",
-    "title": "Deploy Scalable AI Inference with NVIDIA NIM Operator 3.0.0",
-    "link": "https://developer.nvidia.com/blog/deploy-scalable-ai-inference-with-nvidia-nim-operator-3-0-0/",
-    "pubDate": "2025-09-10T16:30:00+00:00",
-    "description": "AI models, inference engine backends, and distributed inference frameworks continue to evolve in architecture, complexity, and scale. With the rapid pace of...",
-    "author": "Meenakshi Kaushik",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/computing-stack-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"computing-stack\" width=\"768\" />AI models, inference engine backends, and distributed inference frameworks continue to evolve in architecture, complexity, and scale. With the rapid pace of...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/computing-stack-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"computing-stack\" width=\"768\" /><p>AI models, inference engine backends, and distributed inference frameworks continue to evolve in architecture, complexity, and scale. With the rapid pace of change, deploying and efficiently managing AI inference pipelines that support these advanced capabilities becomes a critical challenge. NVIDIA NIM Operator is designed to help you scale intelligently. It enables Kubernetes cluster…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploy-scalable-ai-inference-with-nvidia-nim-operator-3-0-0/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/computing-stack-1.jpg",
     "isShortVideo": 0
   }
 ]
