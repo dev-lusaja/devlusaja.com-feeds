@@ -5,13 +5,109 @@ Este módulo extrae videos de perfiles públicos de TikTok
 y los convierte en un formato compatible con feedparser.
 """
 
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError, BrowserContext
 from bs4 import BeautifulSoup
 from datetime import datetime
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 from utils.logger import log
+from database.connection import DatabaseConnection
+from database.operations import feed_exists
 import re
 import time
+
+
+def extract_date_from_video_page(context: BrowserContext, video_url: str) -> Optional[str]:
+    """
+    Visita la página de un video de TikTok y extrae la fecha de publicación.
+
+    Busca el elemento:
+    <span data-e2e="browser-nickname">
+        ...
+        <span>8-31</span>  <!-- Formato: M-D o MM-DD -->
+    </span>
+
+    Args:
+        context: Contexto del navegador Playwright
+        video_url: URL del video de TikTok
+
+    Returns:
+        Fecha en formato ISO (YYYY-MM-DDTHH:MM:SS+00:00) o None si no se encuentra
+    """
+    try:
+        # Crear nueva página en el mismo contexto
+        page = context.new_page()
+
+        # Navegar a la URL del video
+        page.goto(video_url, wait_until='domcontentloaded', timeout=15000)
+
+        # Esperar a que cargue el elemento con la fecha
+        try:
+            page.wait_for_selector('[data-e2e="browser-nickname"]', timeout=5000)
+        except PlaywrightTimeoutError:
+            log(f"   ⚠️ Timeout esperando fecha en {video_url[:60]}...")
+
+        # Pequeña espera adicional
+        time.sleep(0.5)
+
+        # Obtener HTML
+        html_content = page.content()
+        page.close()
+
+        # Parsear con BeautifulSoup
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        # Buscar el span con la fecha
+        nickname_span = soup.find('span', {'data-e2e': 'browser-nickname'})
+
+        if not nickname_span:
+            return None
+
+        # Obtener todos los spans dentro
+        spans = nickname_span.find_all('span')
+
+        # El último span debería contener la fecha en formato M-D o MM-DD
+        date_text = None
+        for span in reversed(spans):
+            text = span.get_text(strip=True)
+            # Verificar si parece una fecha (formato: números-números)
+            if re.match(r'^\d{1,2}-\d{1,2}$', text):
+                date_text = text
+                break
+
+        if not date_text:
+            return None
+
+        # Convertir "8-31" a fecha completa
+        parts = date_text.split('-')
+        if len(parts) != 2:
+            return None
+
+        month = int(parts[0])
+        day = int(parts[1])
+
+        # Determinar el año (asumir año actual, pero si la fecha es futura, usar año anterior)
+        now = datetime.utcnow()
+        current_year = now.year
+
+        try:
+            # Intentar con año actual
+            video_date = datetime(current_year, month, day)
+
+            # Si la fecha es futura, el video es del año anterior
+            if video_date > now:
+                video_date = datetime(current_year - 1, month, day)
+
+            # Convertir a ISO format
+            iso_date = video_date.isoformat() + '+00:00'
+            return iso_date
+
+        except ValueError:
+            # Fecha inválida
+            return None
+
+    except Exception as e:
+        log(f"   ⚠️ Error al extraer fecha de {video_url[:60]}: {e}")
+        return None
 
 
 def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
@@ -33,6 +129,15 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
         log(f"📡 Obteniendo TikTok desde: {url}")
 
         entries = []
+
+        # Conectar a BD para verificar videos existentes
+        db = None
+        try:
+            db = DatabaseConnection()
+            db.__enter__()
+        except Exception as e:
+            log(f"⚠️ No se pudo conectar a BD, se procesarán todos los videos: {e}")
+            db = None
 
         # Usar Playwright para renderizar la página
         with sync_playwright() as p:
@@ -85,7 +190,7 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
 
         for video_div in video_containers:
             try:
-                entry = extract_tiktok_video(video_div, username)
+                entry = extract_tiktok_video(video_div, username, context, db)
                 if entry and entry.get('title') and entry.get('link'):
                     entries.append(entry)
             except Exception as e:
@@ -93,6 +198,13 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
                 continue
 
         log(f"✅ TikTok @{username}: Extraídos {len(entries)} videos válidos")
+
+        # Cerrar conexión a BD si se abrió
+        if db:
+            try:
+                db.__exit__(None, None, None)
+            except Exception:
+                pass
 
         # Estructura compatible con feedparser
         return {
@@ -124,13 +236,15 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
         }
 
 
-def extract_tiktok_video(video_element, username: str) -> Dict[str, Any]:
+def extract_tiktok_video(video_element, username: str, context: BrowserContext, db: Optional[DatabaseConnection] = None) -> Dict[str, Any]:
     """
     Extrae datos de un elemento de video de TikTok.
 
     Args:
         video_element: Elemento BeautifulSoup del video
         username: Nombre de usuario del perfil
+        context: Contexto del navegador Playwright
+        db: Conexión a la base de datos (opcional, para verificar existencia)
 
     Returns:
         Diccionario con datos del video en formato feedparser
@@ -211,8 +325,32 @@ def extract_tiktok_video(video_element, username: str) -> Dict[str, Any]:
     # Autor
     entry['author'] = f"@{username}"
 
-    # Fecha (usar fecha actual ya que TikTok no siempre muestra la fecha en el perfil)
-    entry['published'] = datetime.utcnow().isoformat() + '+00:00'
+    # Fecha: Solo visitar la página del video si NO existe en la BD
+    if entry.get('link'):
+        # Verificar si el video ya existe en la BD
+        video_exists = False
+        if db:
+            try:
+                video_exists = feed_exists(db, entry['link'])
+            except Exception as e:
+                log(f"   ⚠️ Error al verificar existencia: {e}")
+                video_exists = False
+
+        if video_exists:
+            # Video ya existe, usar fecha actual (no se guardará de todas formas)
+            log(f"   ⏭️  Video ya existe en BD, omitiendo visita individual")
+            entry['published'] = datetime.utcnow().isoformat() + '+00:00'
+        else:
+            # Video nuevo, visitar página para extraer fecha real
+            log(f"   🆕 Video nuevo, extrayendo fecha...")
+            video_date = extract_date_from_video_page(context, entry['link'])
+            if video_date:
+                entry['published'] = video_date
+            else:
+                # Fallback: usar fecha actual si no se pudo extraer
+                entry['published'] = datetime.utcnow().isoformat() + '+00:00'
+    else:
+        entry['published'] = datetime.utcnow().isoformat() + '+00:00'
 
     return entry
 
