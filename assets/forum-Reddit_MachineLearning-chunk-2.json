@@ -1,5 +1,21 @@
 [
   {
+    "id": "5feb13bf-375f-52fa-8eb9-0ced1d5741f7",
+    "title": "[R] Help with Image Classification Experimentation (Skin Cancer Detection)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/",
+    "pubDate": "2025-10-27T20:17:36+00:00",
+    "description": "Hello i am a student currently working on my project skin cancer multiclass classification using clinical images(non-dermascopic) and have merged clinical images from 3 datasets(pad ufes,milk 10k,HIBA dataset) but the issue is that i am really stuck as i cant get the scores above 0.60 recall for some class and other is stuck at 0.30. i dont know if this is a cleaning issue or not choosing the optimum augmentation techniques and the model. It would bereally helpfull if i could get some help thankyou! submitted by /u/Intelligent_Bit2487 [link] [comments]",
+    "author": "/u/Intelligent_Bit2487",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello i am a student currently working on my project skin cancer multiclass classification using clinical images(non-dermascopic) and have merged clinical images from 3 datasets(pad ufes,milk 10k,HIBA dataset) but the issue is that i am really stuck as i cant get the scores above 0.60 recall for some class and other is stuck at 0.30. i dont know if this is a cleaning issue or not choosing the optimum augmentation techniques and the model. It would bereally helpfull if i could get some help thankyou!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Intelligent_Bit2487\"> /u/Intelligent_Bit2487 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a3e23d07-c70d-5dc7-bd4a-52e37454713f",
     "title": "[P] Need ArXiv endorsement for my accepted ML paper",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Insider threats are a growing concern for us, employees or partners with system access behaving abnormally before an incident. Has anyone deployed AI for behavioral analysis or anomaly detection in this context?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Champ-shady\"> /u/Champ-shady </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oekqm1/rhow_can_i_use_ai_to_detect_insider_threats/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oekqm1/rhow_can_i_use_ai_to_detect_insider_threats/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a3e46349-8a8c-5eeb-98e9-245da5085cf3",
-    "title": "[P] Looking for collaborators for a ML research project (inference protocol design) ,open to publish together!",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oefelf/p_looking_for_collaborators_for_a_ml_research/",
-    "pubDate": "2025-10-23T21:13:53+00:00",
-    "description": "Hey everyone, I’m currently working on a research project focused on designing a distributed inference protocol for large language models, something that touches on ideas like data routing, quantization, and KV caching for efficient inference across heterogeneous hardware. I’ve built out an initial design (in Alloy Analyzer) and am now exploring extensions, including simulation, partial implementations, and potential optimization techniques. I’d love to collaborate with others who are passionate about ML systems, distributed computing, or inference optimization. What’s in it for you: Learn deeply about inference internals, model execution graphs, and system-level ML design. Collaborate on real research , possibly leading to a joint publication or open-source release . Hands-on exploration ,we can experiment with design trade-offs (e.g., communication latency, node failure tolerance, precision scaling). Networking and co-learning , work with others who love ML systems and want to go beyond just training models. Looking for folks who: Have experience or interest in ML systems, distributed computing, or performance optimization. Can contribute ideas, experiments, or just engage in design discussions. Are curious and open to learning and building collaboratively. About me: I’m a machine learning engineer working on pre-training, fine-tuning, and inference optimization for custom AI accelerators. I’ve been building ML systems for the past many years and recently started exploring theoretical and protocol-level aspects of inference. I’m also writing about applied ML systems and would love to collaborate with others who think deeply about efficiency, design, and distributed intelligence. Let’s build something meaningful together! If this sounds interesting, drop a comment or DM me, happy to share more details about the current design and next steps. submitted by /u/dracovidian-man [link] [comments]",
-    "author": "/u/dracovidian-man",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’m currently working on a research project focused on <strong>designing a distributed inference protocol for large language models,</strong> something that touches on ideas like <strong>data routing, quantization, and KV caching</strong> for efficient inference across heterogeneous hardware.</p> <p>I’ve built out an initial design (in Alloy Analyzer) and am now exploring extensions, including simulation, partial implementations, and potential optimization techniques. I’d love to <strong>collaborate with others who are passionate about ML systems, distributed computing, or inference optimization.</strong></p> <p><strong>What’s in it for you:</strong></p> <ul> <li>Learn deeply about inference internals, model execution graphs, and system-level ML design.</li> <li>Collaborate on real research , possibly leading to a <strong>joint publication or open-source release</strong>.</li> <li>Hands-on exploration ,we can experiment with design trade-offs (e.g., communication latency, node failure tolerance, precision scaling).</li> <li>Networking and co-learning , work with others who love ML systems and want to go beyond just training models.</li> </ul> <p><strong>Looking for folks who:</strong></p> <ul> <li>Have experience or interest in ML systems, distributed computing, or performance optimization.</li> <li>Can contribute ideas, experiments, or just engage in design discussions.</li> <li>Are curious and open to learning and building collaboratively.</li> </ul> <p><strong>About me:</strong><br /> I’m a machine learning engineer working on pre-training, fine-tuning, and inference optimization for custom AI accelerators. I’ve been building ML systems for the past many years and recently started exploring theoretical and protocol-level aspects of inference. I’m also writing about applied ML systems and would love to collaborate with others who think deeply about efficiency, design, and distributed intelligence.</p> <p>Let’s build something meaningful together!</p> <p>If this sounds interesting, drop a comment or DM me, happy to share more details about the current design and next steps.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dracovidian-man\"> /u/dracovidian-man </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oefelf/p_looking_for_collaborators_for_a_ml_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oefelf/p_looking_for_collaborators_for_a_ml_research/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
