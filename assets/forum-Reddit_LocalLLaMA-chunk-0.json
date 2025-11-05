@@ -1,5 +1,21 @@
 [
   {
+    "id": "58f9fb2f-dd63-5925-8967-7127717b8521",
+    "title": "Are there still good models that aren’t chat finetuned?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1op55nk/are_there_still_good_models_that_arent_chat/",
+    "pubDate": "2025-11-05T15:00:49+00:00",
+    "description": "I’m looking for 2 models that I can feed context and predict next few words, one should be 1-2b and the other should be 24-30b. I’m not an expert and it’s possible in my searches I’m just using the wrong terms submitted by /u/No-Yak4416 [link] [comments]",
+    "author": "/u/No-Yak4416",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m looking for 2 models that I can feed context and predict next few words, one should be 1-2b and the other should be 24-30b. I’m not an expert and it’s possible in my searches I’m just using the wrong terms</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No-Yak4416\"> /u/No-Yak4416 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op55nk/are_there_still_good_models_that_arent_chat/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op55nk/are_there_still_good_models_that_arent_chat/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cf4584e5-d58f-5569-b48e-aca6c2b92eba",
     "title": "Kimi Thinking When?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1op3g6z/kimi_thinking_when/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been mapping which AI labs and companies actually <strong>publish their model weights</strong> on <a href=\"https://huggingface.co\">Hugging Face</a> — in today’s LLM ecosystem.</p> <p>Below is a list of organizations that currently maintain official hosting open-weight models:</p> <table><thead> <tr> <th>Creator</th> </tr> </thead><tbody> <tr> <td><a href=\"https://huggingface.co/01-ai\">01.AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/ai21labs\">AI21 Labs</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/baidu\">Baidu</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/ByteDance-Seed\">ByteDance Seed</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/CohereLabs\">Cohere</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/databricks\">Databricks</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/google\">Google Research</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/ibm-granite\">IBM Granite</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/inclusionAI\">InclusionAI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/LGAI-EXAONE\">LG AI Research</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/LiquidAI\">Liquid AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/meta-llama\">Meta (Llama)</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/microsoft\">Microsoft Azure AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/MiniMaxAI\">MiniMax AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/mistralai\">Mistral AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/moonshotai\">Moonshot AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/NousResearch\">Nous Research</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/nvidia\">NVIDIA</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/openai\">OpenAI (<em>some research artifacts only</em>)</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/openchat\">OpenChat</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/perplexity-ai\">Perplexity AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/Qwen\">Alibaba (Qwen)</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/RekaAI\">Reka AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/ServiceNow-AI\">ServiceNow AI</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/Snowflake\">Snowflake</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/upstage\">Upstage</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/xai-org\">xAI (Elon Musk)</a></td> </tr> <tr> <td><a href=\"https://huggingface.co/zai-org\">Z AI</a></td> </tr> </tbody></table> <hr /> <h3>Why I’m Building This List</h3> <p>I’m studying different LLM architecture families and how design philosophies vary between research groups — things like:</p> <ul> <li>Attention patterns (dense vs. MoE vs. hybrid routing)</li> <li>Tokenization schemes (BPE vs. SentencePiece vs. tiktoken variants)</li> <li>Quantization / fine-tuning strategies</li> <li>Context length scaling and memory efficiency</li> </ul> <hr /> <h3>Discussion</h3> <ul> <li>Which other organizations should be included here?</li> <li>Which model families have the most distinctive architectures?</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tkpred\"> /u/tkpred </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oofujk/companies_publishing_llm_weights_on_hugging_face/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oofujk/companies_publishing_llm_weights_on_hugging_face/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a39a08c2-048c-551a-8d25-f60f3226161a",
-    "title": "What are the most relevant agentic AI frameworks beyond LangGraph, LlamaIndex, Toolformer, and Parlant?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oofchr/what_are_the_most_relevant_agentic_ai_frameworks/",
-    "pubDate": "2025-11-04T18:37:40+00:00",
-    "description": "I’m researching current frameworks for agentic AI — systems that enable reasoning, planning, and tool use with LLMs. Besides LangGraph, LlamaIndex, Toolformer, and Parlant, what other frameworks or open-source projects should I explore? I’m interested in both research prototypes and production-grade systems. submitted by /u/Specialist_Arugula42 [link] [comments]",
-    "author": "/u/Specialist_Arugula42",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m researching current frameworks for agentic AI — systems that enable reasoning, planning, and tool use with LLMs.</p> <p>Besides LangGraph, LlamaIndex, Toolformer, and Parlant, what other frameworks or open-source projects should I explore?</p> <p>I’m interested in both research prototypes and production-grade systems.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist_Arugula42\"> /u/Specialist_Arugula42 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oofchr/what_are_the_most_relevant_agentic_ai_frameworks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oofchr/what_are_the_most_relevant_agentic_ai_frameworks/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "c102bd16-38a5-5726-a530-8bb7679ed277",
+    "title": "Quantizing MoE models to MXFP4",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogy9lh/quantizing_moe_models_to_mxfp4/",
+    "pubDate": "2025-10-26T22:43:53+00:00",
+    "description": "Lately its like my behind is on fire, and I'm downloading and quantizing models like crazy, but into this specific MXFP4 format only. And cause of this format, it can be done only on Mixture-of-Expert models. Why, you ask? Why not!, I respond. Must be my ADHD brain cause I couldn't find a MXFP4 model quant I wanted to test out, and I said to myself, why not quantize some more and uplaod them to hf? So here we are. I just finished quantizing one of the huge models, DeepSeek-V3.1-Terminus, and the MXFP4 is a cool 340GB... But I can't run this on my PC! I've got a bunch of RAM, but it reads most of it from disk and the speed is like 1 token per day. Anyway, I'm uploading it. And I want to ask you, would you like me to quantize other such large models? Or is it just a waste? You know the other large ones, like Kimi-K2-Instruct-0905, or DeepSeek-R1-0528, or cogito-v2-preview-deepseek-671B-MoE Do you have any suggestion for other MoE ones that are not in MXFP4 yet? Ah yes here is the link: https://huggingface.co/noctrex submitted by /u/noctrex [link] [comments]",
+    "author": "/u/noctrex",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Lately its like my behind is on fire, and I'm downloading and quantizing models like crazy, but into this specific MXFP4 format only.</p> <p>And cause of this format, it can be done only on Mixture-of-Expert models.</p> <p>Why, you ask?</p> <p>Why not!, I respond.</p> <p>Must be my ADHD brain cause I couldn't find a MXFP4 model quant I wanted to test out, and I said to myself, why not quantize some more and uplaod them to hf?</p> <p>So here we are.</p> <p>I just finished quantizing one of the huge models, DeepSeek-V3.1-Terminus, and the MXFP4 is a cool 340GB... </p> <p>But I can't run this on my PC! I've got a bunch of RAM, but it reads most of it from disk and the speed is like 1 token per day.</p> <p>Anyway, I'm uploading it.</p> <p>And I want to ask you, would you like me to quantize other such large models? Or is it just a waste?</p> <p>You know the other large ones, like Kimi-K2-Instruct-0905, or DeepSeek-R1-0528, or cogito-v2-preview-deepseek-671B-MoE</p> <p>Do you have any suggestion for other MoE ones that are not in MXFP4 yet?</p> <p>Ah yes here is the link:</p> <p><a href=\"https://huggingface.co/noctrex\">https://huggingface.co/noctrex</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/noctrex\"> /u/noctrex </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogy9lh/quantizing_moe_models_to_mxfp4/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogy9lh/quantizing_moe_models_to_mxfp4/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e8b82596-0584-5422-bcc5-a39983696029",
     "title": "New text diffusion model from inclusionAI - LLaDA2.0-flash-preview",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogxo2l/new_text_diffusion_model_from_inclusionai/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey Guys, I am very curious what everyone's opinion is regarding the DGX Spark. </p> <p>If you had $4k and you needed to use that money to start building out your own personal AI data center, would you buy a DGX Spark... or go a different direction?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Excellent_Koala769\"> /u/Excellent_Koala769 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1og87pd/if_you_had_4k_would_you_invest_in_a_dgx_spark/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1og87pd/if_you_had_4k_would_you_invest_in_a_dgx_spark/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "55768f7b-b7dd-5b68-b9a4-d7311745f355",
-    "title": "Llama.cpp model conversion guide",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1og3cnt/llamacpp_model_conversion_guide/",
-    "pubDate": "2025-10-25T21:35:28+00:00",
-    "description": "Since the open source community always benefits by having more people do stuff, I figured I would capitalize on my experiences with a few architectures I've done and add a guide for people who, like me, would like to gain practical experience by porting a model architecture. Feel free to propose any topics / clarifications and ask any questions! submitted by /u/ilintar [link] [comments]",
-    "author": "/u/ilintar",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1og3cnt/llamacpp_model_conversion_guide/\"> <img alt=\"Llama.cpp model conversion guide\" src=\"https://external-preview.redd.it/9H8ID2ho6Hmpcg_iEkUBl0dzrALfa1J8gFxkkoi6ojc.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=960cfd58e78583a22cdad3922567cd461d36ac4b\" title=\"Llama.cpp model conversion guide\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Since the open source community always benefits by having more people do stuff, I figured I would capitalize on my experiences with a few architectures I've done and add a guide for people who, like me, would like to gain practical experience by porting a model architecture.</p> <p>Feel free to propose any topics / clarifications and ask any questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ilintar\"> /u/ilintar </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/discussions/16770\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1og3cnt/llamacpp_model_conversion_guide/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/9H8ID2ho6Hmpcg_iEkUBl0dzrALfa1J8gFxkkoi6ojc.png?width=640&crop=smart&auto=webp&s=960cfd58e78583a22cdad3922567cd461d36ac4b",
     "isShortVideo": 0
   }
 ]

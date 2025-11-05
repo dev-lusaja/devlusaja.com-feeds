@@ -1,5 +1,21 @@
 [
   {
+    "id": "96c8ae14-52d9-5356-bbde-676e3b3671f0",
+    "title": "Need help properly setting up open-webui",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oicoeh/need_help_properly_setting_up_openwebui/",
+    "pubDate": "2025-10-28T15:37:06+00:00",
+    "description": "Hello localLLama experts, Could someone point me to some guide on how to tweak open-webui parameters to properly give me the correct results? I have OWUI and Ollama running in docker containers. I've pulled a few models to run on my RTX3090. eg. Codestral and Gemma3 27b. I've also connected to Mistral API and exposed a few models from that API to OWUI. All using default parameters, no custom prompts for any of the models as I don't know what I'm doing in those areas anyway. Here is the problem. When I give a sample data table and ask the model to give me code to do XYZ, the Codestral model using Mistral API correctly gives me code I asked for. But when I use the locally hosted Codestral running on ollama with the EXACT same prompt, all it just gives me is a summary of the data table. Could someone kindly help me or point me in the right direction to configure this setup to achieve the same/similar results running on the local model as the cloud model? Thank you in advance. submitted by /u/stuckwi [link] [comments]",
+    "author": "/u/stuckwi",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello localLLama experts, </p> <p>Could someone point me to some guide on how to tweak open-webui parameters to properly give me the correct results?<br /> I have OWUI and Ollama running in docker containers. I've pulled a few models to run on my RTX3090. eg. Codestral and Gemma3 27b. I've also connected to Mistral API and exposed a few models from that API to OWUI. All using default parameters, no custom prompts for any of the models as I don't know what I'm doing in those areas anyway.</p> <p>Here is the problem. When I give a sample data table and ask the model to give me code to do XYZ, the Codestral model using Mistral API correctly gives me code I asked for. But when I use the locally hosted Codestral running on ollama with the EXACT same prompt, all it just gives me is a summary of the data table. </p> <p>Could someone kindly help me or point me in the right direction to configure this setup to achieve the same/similar results running on the local model as the cloud model?</p> <p>Thank you in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/stuckwi\"> /u/stuckwi </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oicoeh/need_help_properly_setting_up_openwebui/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oicoeh/need_help_properly_setting_up_openwebui/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "22c559af-410c-520d-b8e2-b78ed0875d2f",
     "title": "Granite 4.0 Nano Language Models",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oichb7/granite_40_nano_language_models/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Brian-Puccio\"> /u/Brian-Puccio </a> <br /> <span><a href=\"https://www.phoronix.com/review/amd-radeon-ai-pro-r9700\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohlhdx/phoronix_benchmarks_single_and_dual_amd_r9700/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cdbe4870-c8b5-5a54-97fb-4c80a15a5b48",
-    "title": "Dataset streaming for distributed SOTA model training",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ohjyoc/dataset_streaming_for_distributed_sota_model/",
-    "pubDate": "2025-10-27T17:00:31+00:00",
-    "description": "\"Streaming datasets: 100x More Efficient\" is a new blog post sharing improvements on dataset streaming to train AI models. Link: https://huggingface.co/blog/streaming-datasets Summary of the blog post: There is also a 1min video explaining the impact of this: https://x.com/andimarafioti/status/1982829207471419879 submitted by /u/qlhoest [link] [comments]",
-    "author": "/u/qlhoest",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>&quot;Streaming datasets: 100x More Efficient&quot; is a new blog post sharing improvements on dataset streaming to train AI models.</p> <p>Link: <a href=\"https://huggingface.co/blog/streaming-datasets\">https://huggingface.co/blog/streaming-datasets</a></p> <p>Summary of the blog post:</p> <blockquote> </blockquote> <p>There is also a 1min video explaining the impact of this: <a href=\"https://x.com/andimarafioti/status/1982829207471419879\">https://x.com/andimarafioti/status/1982829207471419879</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/qlhoest\"> /u/qlhoest </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohjyoc/dataset_streaming_for_distributed_sota_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohjyoc/dataset_streaming_for_distributed_sota_model/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
