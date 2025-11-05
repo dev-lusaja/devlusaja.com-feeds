@@ -1,5 +1,37 @@
 [
   {
+    "id": "c4eb1c7f-8d2d-57b9-96d0-ccf31d4fbb4b",
+    "title": "Building Pure Python Web Apps with Reflex",
+    "link": "https://www.kdnuggets.com/building-pure-python-web-apps-with-reflex",
+    "pubDate": "2025-10-13T16:00:01+00:00",
+    "description": "Discover how to create stunning and engaging applications using Python.",
+    "author": "Cornellius Yudha Wijaya",
+    "sourceTitle": "KDnuggets",
+    "sourceUrl": "https://www.kdnuggets.com/feed",
+    "sourceCategory": "KDnuggets",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://www.kdnuggets.com/wp-content/uploads/Building-Pure-Python-Web-Apps-with-Reflex_1.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "03899543-2de3-5e26-bd2f-59050f8a1549",
+    "title": "How to Spin Up a Project Structure with Cookiecutter",
+    "link": "https://towardsdatascience.com/how-to-spin-up-a-project-structure-with-cookiecutter/",
+    "pubDate": "2025-10-13T14:33:26+00:00",
+    "description": "If you’re anything like me, “procrastination” might as well be your middle name. There’s always that nagging hesitation before starting a new project. Just thinking about setting up the project structure, creating documentation, or writing a decent README is enough to trigger yawns. It feels like staring at a blank page for a dreaded school […] The post How to Spin Up a Project Structure with Cookiecutter appeared first on Towards Data Science .",
+    "author": "Elena Jolkver",
+    "sourceTitle": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/feed/",
+    "sourceCategory": "Towards",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "46ae4acb-88a5-5006-8ef1-708441bc66bd",
     "title": "Make agents a reality with Amazon Bedrock AgentCore: Now generally available",
     "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-is-now-generally-available/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://huggingface.co/blog/assets/swift-transformers/swift-transformers-thumb.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "98c83d73-b2c6-5ed3-85db-b494eb34008f",
-    "title": "Accelerate AI agent development with the Nova Act IDE extension",
-    "link": "https://aws.amazon.com/blogs/aws/accelerate-ai-agent-development-with-the-nova-act-ide-extension/",
-    "pubDate": "2025-09-23T16:01:04+00:00",
-    "description": "The Nova Act extension is a new IDE-integrated tool that enables developers to create browser automation agents using natural language through the Nova Act model, offering features like Builder Mode, chat capabilities, and predefined templates while streamlining the development process without leaving their preferred development environment.",
-    "author": "Donnie Prakoso",
-    "sourceTitle": "AWS",
-    "sourceUrl": "https://aws.amazon.com/es/blogs/machine-learning/feed/",
-    "sourceCategory": "AWS",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<p>Today, I’m excited to announce the <a href=\"https://github.com/aws/nova-act-extension\">Nova Act extension</a> — a tool that streamlines the path to build browser automation agents without leaving your IDE. The Nova Act extension integrates directly into IDEs like <a href=\"https://code.visualstudio.com/\">Visual Studio Code (VS Code)</a>, <a href=\"https://kiro.dev/\">Kiro</a>, and <a href=\"https://cursor.com/en\">Cursor</a>, helping you to create web-based automation agents using natural language with the <a href=\"https://nova.amazon.com/act\">Nova Act model</a>.</p> \n<p>Here’s a quick look at the Nova Act extension in Visual Studio Code:</p> \n<p><img alt=\"\" class=\"aligncenter wp-image-99410 size-full\" height=\"752\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/21/news-2025-09-novaActExt-0.gif\" style=\"border: 1px solid black; padding: 3px;\" width=\"1381\" /></p> \n<p>The Nova Act extension is built on top of the <a href=\"https://labs.amazon.science/blog/nova-act\">Amazon Nova Act SDK (preview)</a>, our browser automation agents SDK (Software Development Kit). The Nova Act extension transforms traditional workflow development by eliminating context switching between coding and testing environments. You can now build, customize, and test production-grade agent scripts—all within your IDE—using features like natural language based generation, atomic cell-style editing, and integrated browser testing. This unified experience accelerates development velocity for tasks like form filling, QA automation, search, and complex multi-step workflows.</p> \n<p>You can start with the Nova Act extension by describing your workflow in natural language to quickly generate an initial agent script. Customize it using the notebook-style builder mode to integrate APIs, data sources, and authentication, then validate it with local testing tools that simulate real-world conditions, including live step-by-step debugging of lengthy multi-step workflows.</p> \n<p><span style=\"text-decoration: underline;\"><strong>Getting started with the Nova Act extension<br /></strong></span>First, I need to install the Nova Act extension from the extension manager in my IDE.&nbsp;</p> \n<p>I’m using Visual Studio Code, and after choosing <strong>Extensions</strong>, I enter <strong>Nova Act</strong>. Then, I select the extension and choose <strong>Install</strong>.&nbsp;</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99357\" height=\"1588\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-0.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2992\" /></p> \n<p>To get started, I need to obtain an API key. To do this, I navigate to the <a href=\"https://nova.amazon.com/act\">Nova Act</a> page and follow the instructions to get the API key. I select <strong>Set API Key</strong> by opening the Command Palette with <code>Cmd+Shift+P / Ctrl+Shift+P</code>.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99358\" height=\"890\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-1.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2984\" /></p> \n<p>After I’ve entered my API key, I can try <strong>Builder Mode</strong>. This is a notebook-style builder mode that breaks complex automation scripts into modular cells, allowing me to test and debug each step individually before moving to the next.</p> \n<p>Here, I can use the <a href=\"https://github.com/aws/nova-act\">Nova Act SDK</a> to build my agent. On the right side, I have a <strong>Live view</strong> panel to preview my agent’s actions in the browser and an <strong>Output</strong> panel to monitor execution logs, including the model’s thinking and actions.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99360\" height=\"1741\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-2-1.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2911\" /></p> \n<p>To test the Nova Act extension, I choose <strong>Run all cells</strong>. This will start a new browser instance and act based on the given prompt.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99361\" height=\"1080\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-3.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"1920\" /></p> \n<p>I choose <strong>Fullscreen</strong> to see how browser automation works.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99363\" height=\"1710\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-4-1.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"3024\" /></p> \n<p>Another useful feature in Builder Mode is that I can navigate to the <strong>Output</strong> panel and select the cell to see its logs. This helps me debug or review logs specific to the cell I’m working on.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99364\" height=\"1342\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-5.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2746\" /></p> \n<p>I can also select a template to get started.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99365\" height=\"1082\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-6.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2313\" /></p> \n<p>Besides using Builder Mode, I can also chat with Nova Act to create a script for me. To do that, I select the extension and choose <strong>Generate Nova Act Script</strong>. The Nova Act extension opens a chat dialog in the right panel and automatically creates a script for me.</p> \n<p><img alt=\"\" class=\"aligncenter wp-image-99412 size-full\" height=\"1898\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/21/news-2025-09-novaActExt-11-1.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"3024\" /></p> \n<p>After I finish creating the script, I can choose <strong>Start Builder Mode</strong>, and the Nova Act extension will help me create a Python file in Builder Mode. This creates a seamless integration because I can switch between chat capability and Builder Mode.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99368\" height=\"1750\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-8.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2887\" /></p> \n<p>In the chat interface, I see three workflow modes available:</p> \n<ul> \n <li><strong>Ask:</strong> Describe tasks in natural language to generate automation scripts</li> \n <li><strong>Edit:</strong> Refine or customize generated scripts before execution</li> \n <li><strong>Agent:</strong> Run, monitor, and interact with the AI agent performing the workflow</li> \n</ul> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99202\" height=\"975\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/10/news-2025-09-novaActExt11.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"1084\" /></p> \n<p>I can also add <strong>Context</strong> to provide relevant information about my active documents, instructions, problems, or additional Model Context Protocol (MCP) resources the agent can use, plus a screenshot of the current window. Providing this information helps the agent understand any specific requirements for the automation task.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99369\" height=\"1784\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/17/news-2025-09-novaActExt-9.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"2378\" /></p> \n<p>The Nova Act extension also provides a set of predefined templates that I can access by entering <code>/</code> in the chat. These templates are predefined automation scenarios designed to help quickly generate scripts for common web tasks.</p> \n<p><img alt=\"\" class=\"aligncenter size-full wp-image-99204\" height=\"977\" src=\"https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/10/news-2025-09-novaActExt13.png\" style=\"border: 1px solid black; padding: 3px;\" width=\"1068\" /></p> \n<p>I can use these templates (for example, <code>@novaAct /shopping [my requirements]</code>) to get tailored Python scripts for my workflow. At launch, Nova Act extension provides the following templates:</p> \n<ul> \n <li><code>/shopping</code>: Automates online shopping tasks (searching, comparing, purchasing)</li> \n <li><code>/extract</code>: Handles data extraction</li> \n <li><code>/search</code>: Performs search and information gathering</li> \n <li><code>/qa</code>: Automates quality assurance and testing workflows</li> \n <li><code>/formfilling</code>: Completes forms and data entry tasks</li> \n</ul> \n<p>This extension transforms my agent development workflow by positioning Nova Act extension as a full-stack agent builder tool—a complete agent IDE for the entire development lifecycle. I can prototype with natural language, customize with modular scripting, and validate with local testing—all without leaving my IDE—ensuring production-grade scripts.</p> \n<p><strong><span style=\"text-decoration: underline;\">Things to know</span><br /></strong>Here are key points to note:</p> \n<ul> \n <li><strong>Supported IDEs</strong>: At launch, the Nova Act extension is available for Visual Studio Code, Cursor, and Kiro, with additional IDE support planned</li> \n <li><strong>Open source</strong>: The Nova Act extension is available under the Apache 2.0 license, allowing for community contributions and customization</li> \n <li><strong>Pricing</strong>: The Nova Act extension is available at no charge.</li> \n</ul> \n<p>Get started with Nova Act extension by installing it from your IDE’s extension marketplace or visiting the <a href=\"https://github.com/aws/nova-act-extension\">GitHub repository</a> for documentation and examples.</p> \n<p>Happy automating!<br />— <a href=\"https://www.linkedin.com/in/donnieprakoso\">Donnie</a></p>",
-    "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/25/image-3-23-1260x626.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0ea9f30d-028e-5d4e-a7db-f21e0425002b",
-    "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
-    "link": "https://huggingface.co/blog/smol2operator",
-    "pubDate": "2025-09-23T00:00:00+00:00",
-    "description": "",
-    "author": "Desconocido",
-    "sourceTitle": "HuggingFace",
-    "sourceUrl": "https://huggingface.co/blog/feed.xml",
-    "sourceCategory": "HuggingFace",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://huggingface.co/blog/assets/smol2operator/thumbnail.png",
     "isShortVideo": 0
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "totalItems": 11211,
-  "generatedAt": "2025-11-04T20:02:50.737679Z",
+  "totalItems": 11291,
+  "generatedAt": "2025-11-04T22:51:47.540263Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -166,6 +166,16 @@
       "title": "Migue Baena",
       "category": "TikTok_MigueBaena",
       "type": "tiktok"
+    },
+    {
+      "title": "Angel Aparicio",
+      "category": "TikTok_AngelAparicio",
+      "type": "tiktok"
+    },
+    {
+      "title": "IA Hipster",
+      "category": "TikTok_IAHipster",
+      "type": "tiktok"
     }
   ],
   "byType": {
@@ -176,7 +186,7 @@
       "chunkPrefix": "youtube-all"
     },
     "notice": {
-      "totalItems": 914,
+      "totalItems": 916,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -188,7 +198,7 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 1192,
+      "totalItems": 1202,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -200,8 +210,8 @@
       "chunkPrefix": "pappers-all"
     },
     "tiktok": {
-      "totalItems": 36,
-      "totalChunks": 2,
+      "totalItems": 99,
+      "totalChunks": 4,
       "itemsPerChunk": 30,
       "chunkPrefix": "tiktok-all"
     }
@@ -229,15 +239,15 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 536,
+        "count": 542,
         "isPriority": true,
-        "totalChunks": 18,
+        "totalChunks": 19,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
       },
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 491,
+        "count": 495,
         "isPriority": true,
         "totalChunks": 17,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -255,7 +265,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2043,
+        "count": 2048,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -263,7 +273,7 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 212,
+        "count": 213,
         "isPriority": true,
         "totalChunks": 8,
         "chunkPrefix": "notice-LaNacion_AR"
@@ -271,7 +281,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 167,
+        "count": 168,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -451,8 +461,8 @@
     ]
   },
   "shorts": {
-    "totalItems": 119,
-    "totalChunks": 4,
+    "totalItems": 182,
+    "totalChunks": 7,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
   }
