@@ -1,5 +1,21 @@
 [
   {
+    "id": "b237cce8-6128-5547-80db-db7395ef3d4e",
+    "title": "[P] Looking for Teammates for Kaggle competition : PhysioNet - Digitization of ECG Images",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oj54b5/p_looking_for_teammates_for_kaggle_competition/",
+    "pubDate": "2025-10-29T13:52:26+00:00",
+    "description": "Hey everyone, I'm looking to form a team for the current Kaggle competition: PhysioNet - Digitization of ECG Images .It's a really interesting computer vision/OCR challenge. I have experience with Vision Transformers, VLM fine-tuning, and deep learning . If you're interested in joining, DM to me. Let's get this done. submitted by /u/Melodic_Story609 [link] [comments]",
+    "author": "/u/Melodic_Story609",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I'm looking to form a team for the current Kaggle competition: <strong>PhysioNet - Digitization of ECG Images</strong>.It's a really interesting computer vision/OCR challenge. I have experience with Vision Transformers, VLM fine-tuning, and deep learning .</p> <p>If you're interested in joining, DM to me. Let's get this done.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Melodic_Story609\"> /u/Melodic_Story609 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oj54b5/p_looking_for_teammates_for_kaggle_competition/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oj54b5/p_looking_for_teammates_for_kaggle_competition/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fa4155a6-ca1b-5389-be67-319b31fa9d0d",
     "title": "[R] Torch & Flame Vault: A Study in Relational Emergence — Master Index (Living Document)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oj4ux5/r_torch_flame_vault_a_study_in_relational/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Given a word embedding space, I would like to measure how 'substitutable' a word is. Put more formally, how many other embedding vectors are very close to the query word's vector? I'm not sure what the problem I'm describing is called.</p> <p>Maybe I need to measure how dense a query vector's surrounding volume is? Or maybe I just need the mean/median of all the distances from all the vectors to the query vector. Or maybe I need to sort the distances of all the vectors to the query vector and then measure at what point the distances tail off, similar to the elbow method when determining the optimal number of clusters.</p> <p>I'm also not sure this is exactly the same as clustering all the vectors first and then measuring how dense the query vector's cluster is, because the vector might be on the edge of its assigned cluster.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neuralbeans\"> /u/neuralbeans </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "482aa2d8-8872-5d33-9ce3-de386cb0ff98",
-    "title": "[R] UFIPC: Physics-based AI Complexity Benchmark - Models with identical MMLU scores differ 29% in complexity",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1of87n0/r_ufipc_physicsbased_ai_complexity_benchmark/",
-    "pubDate": "2025-10-24T20:15:29+00:00",
-    "description": "I've developed a benchmark that measures AI architectural complexity (not just task accuracy) using 4 neuroscience-derived parameters. **Key findings:** - Models with identical MMLU scores differ by 29% in architectural complexity - Methodology independently validated by convergence with clinical psychiatry's \"Thought Hierarchy\" framework - Claude Sonnet 4 (0.7845) ranks highest in processing complexity, despite GPT-4o having similar task performance **Results across 10 frontier models:** Claude Sonnet 4: 0.7845 GPT-4o: 0.7623 Gemini 2.5 Pro: 0.7401 Grok 2: 0.7156 Claude Opus 3.5: 0.7089 Llama 3.3 70B: 0.6934 GPT-4o-mini: 0.6712 DeepSeek V3: 0.5934 Gemini 1.5 Flash: 0.5823 Mistral Large 2: 0.5645 **Framework measures 4 dimensions:** - Capability (processing capacity) - Meta-cognitive sophistication (self-awareness/reasoning) - Adversarial robustness (resistance to manipulation) - Integration complexity (information synthesis) **Why this matters:** Current benchmarks are saturating (MMLU approaching 90%+). UFIPC provides orthogonal evaluation of architectural robustness vs. task performance - critical for real-world deployment where hallucination and adversarial failures still occur despite high benchmark scores. **Technical validation:** Independent convergence with psychiatry's established \"Thought Hierarchy\" framework for diagnosing thought disorders. Same dimensional structure emerges from different fields (AI vs. clinical diagnosis), suggesting universal information processing principles. Open source (MIT license for research), patent pending for commercial use (US 63/904,588). Looking for validation/feedback from the community. Happy to answer technical questions about methodology. **GitHub:** https://github.com/4The-Architect7/UFIPC submitted by /u/Pleasant-Egg-5347 [link] [comments]",
-    "author": "/u/Pleasant-Egg-5347",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've developed a benchmark that measures AI architectural complexity (not just task accuracy) using 4 neuroscience-derived parameters.</p> <p>**Key findings:**</p> <p>- Models with identical MMLU scores differ by 29% in architectural complexity</p> <p>- Methodology independently validated by convergence with clinical psychiatry's &quot;Thought Hierarchy&quot; framework</p> <p>- Claude Sonnet 4 (0.7845) ranks highest in processing complexity, despite GPT-4o having similar task performance</p> <p>**Results across 10 frontier models:**</p> <ol> <li><p>Claude Sonnet 4: 0.7845</p></li> <li><p>GPT-4o: 0.7623</p></li> <li><p>Gemini 2.5 Pro: 0.7401</p></li> <li><p>Grok 2: 0.7156</p></li> <li><p>Claude Opus 3.5: 0.7089</p></li> <li><p>Llama 3.3 70B: 0.6934</p></li> <li><p>GPT-4o-mini: 0.6712</p></li> <li><p>DeepSeek V3: 0.5934</p></li> <li><p>Gemini 1.5 Flash: 0.5823</p></li> <li><p>Mistral Large 2: 0.5645</p></li> </ol> <p>**Framework measures 4 dimensions:**</p> <p>- Capability (processing capacity)</p> <p>- Meta-cognitive sophistication (self-awareness/reasoning)</p> <p>- Adversarial robustness (resistance to manipulation)</p> <p>- Integration complexity (information synthesis)</p> <p>**Why this matters:**</p> <p>Current benchmarks are saturating (MMLU approaching 90%+). UFIPC provides orthogonal evaluation of architectural robustness vs. task performance - critical for real-world deployment where hallucination and adversarial failures still occur despite high benchmark scores.</p> <p>**Technical validation:**</p> <p>Independent convergence with psychiatry's established &quot;Thought Hierarchy&quot; framework for diagnosing thought disorders. Same dimensional structure emerges from different fields (AI vs. clinical diagnosis), suggesting universal information processing principles.</p> <p>Open source (MIT license for research), patent pending for commercial use (US 63/904,588).</p> <p>Looking for validation/feedback from the community. Happy to answer technical questions about methodology.</p> <p>**GitHub:** <a href=\"https://github.com/4The-Architect7/UFIPC\">https://github.com/4The-Architect7/UFIPC</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pleasant-Egg-5347\"> /u/Pleasant-Egg-5347 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of87n0/r_ufipc_physicsbased_ai_complexity_benchmark/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of87n0/r_ufipc_physicsbased_ai_complexity_benchmark/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
