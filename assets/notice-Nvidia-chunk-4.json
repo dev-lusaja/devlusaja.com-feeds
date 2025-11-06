@@ -1,5 +1,37 @@
 [
   {
+    "id": "753ad7a0-7cb4-568f-a626-986a97bdecdd",
+    "title": "How Quantization Aware Training Enables Low-Precision Accuracy Recovery",
+    "link": "https://developer.nvidia.com/blog/how-quantization-aware-training-enables-low-precision-accuracy-recovery/",
+    "pubDate": "2025-09-11T15:00:00+00:00",
+    "description": "After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ),...",
+    "author": "Eduardo Alvarez",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-social-chat-labs-blog-5-tw-1200x675\" width=\"768\" />After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ),...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-social-chat-labs-blog-5-tw-1200x675\" width=\"768\" /><p>After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ), which applies numerical scaling techniques to approximate model weights in lower-precision data types. But two other strategies—quantization aware training (QAT) and quantization aware distillation (QAD)—can succeed where PTQ falls short by…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-quantization-aware-training-enables-low-precision-accuracy-recovery/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "db35f4dc-c3e4-5023-ba99-ca9a99ef5b6c",
+    "title": "Accelerate Protein Structure Inference Over 100x with NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "link": "https://developer.nvidia.com/blog/accelerate-protein-structure-inference-over-100x-with-nvidia-rtx-pro-6000-blackwell-server-edition/",
+    "pubDate": "2025-09-10T16:48:18+00:00",
+    "description": "The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to...",
+    "author": "Kyle Tretina",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-prediction\" width=\"768\" />The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-prediction\" width=\"768\" /><p>The race to understand protein structures has never been more critical. From accelerating drug discovery to preparing for future pandemics, the ability to predict how proteins fold determines the capacity to solve humanity’s most pressing biological challenges. Since the release of AlphaFold2, AI inference for determining protein structures has skyrocketed. Unoptimized tools for protein structure…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-protein-structure-inference-over-100x-with-nvidia-rtx-pro-6000-blackwell-server-edition/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/protein-prediction-2048x1152.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "5bf37f36-8a69-5fea-bfd9-08e57b7d018b",
     "title": "Deploy Scalable AI Inference with NVIDIA NIM Operator 3.0.0",
     "link": "https://developer.nvidia.com/blog/deploy-scalable-ai-inference-with-nvidia-nim-operator-3-0-0/",

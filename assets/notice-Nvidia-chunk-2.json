@@ -1,5 +1,37 @@
 [
   {
+    "id": "50651541-06aa-5eaf-86eb-a59db0dc2c5e",
+    "title": "Understanding Memory Management on Hardware-Coherent Platforms",
+    "link": "https://developer.nvidia.com/blog/understanding-memory-management-on-hardware-coherent-platforms/",
+    "pubDate": "2025-10-14T16:00:00+00:00",
+    "description": "If you're an application developer or a cluster administrator, you’ve likely seen how non-uniform memory access (NUMA) can impact system performance. When an...",
+    "author": "Kumar Sankaran",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image1-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />If you're an application developer or a cluster administrator, you’ve likely seen how non-uniform memory access (NUMA) can impact system performance. When an...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image1-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>If you’re an application developer or a cluster administrator, you’ve likely seen how non-uniform memory access (NUMA) can impact system performance. When an application is not fully NUMA-aware, performance can be inconsistent and unpredictable. Because of these challenges, NVIDIA released the Coherent Driver-based Memory Management (CDMM) mode for the NVIDIA driver for platforms that are…</p>\n<p><a href=\"https://developer.nvidia.com/blog/understanding-memory-management-on-hardware-coherent-platforms/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image1-1.jpg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "85cf688a-527f-5e5d-af11-c0944f7e67d6",
+    "title": "Improve Variant Calling Accuracy with NVIDIA Parabricks",
+    "link": "https://developer.nvidia.com/blog/improve-variant-calling-accuracy-with-nvidia-parabricks/",
+    "pubDate": "2025-10-14T13:00:00+00:00",
+    "description": "Built for data scientists and bioinformaticians, NVIDIA Parabricks is a scalable genomics software suite for secondary analysis. Providing GPU-accelerated...",
+    "author": "TJ Chen",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Up close graphic of two DNA strands.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/image5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Clara Parabricks 3.7\" width=\"768\" />Built for data scientists and bioinformaticians, NVIDIA Parabricks is a scalable genomics software suite for secondary analysis. Providing GPU-accelerated...<img alt=\"Up close graphic of two DNA strands.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/image5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Clara Parabricks 3.7\" width=\"768\" /><p>Built for data scientists and bioinformaticians, NVIDIA Parabricks is a scalable genomics software suite for secondary analysis. Providing GPU-accelerated versions of open-source tools for increased speed and accuracy, researchers can uncover biological insights faster. The latest release, Parabricks v4.6, offers improvements to multiple features, most notably support for Google’s DeepVariant…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improve-variant-calling-accuracy-with-nvidia-parabricks/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/image5.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "f858949c-8d70-5cec-b25a-371e857da6a3",
     "title": "Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation",
     "link": "https://blogs.nvidia.com/blog/oracle-nvidia-accelerate-sovereign-ai-abu-dhabi/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newton-1-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"newton\" width=\"768\" />Physics plays a crucial role in robotic simulation, providing the foundation for accurate virtual representations of robot behavior and interactions within...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newton-1-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"newton\" width=\"768\" /><p>Physics plays a crucial role in robotic simulation, providing the foundation for accurate virtual representations of robot behavior and interactions within realistic environments. With these simulators, researchers and engineers can train, develop, test, and validate robotic control algorithms and prototype designs in a safe, accelerated, and cost-effective manner. However…</p>\n<p><a href=\"https://developer.nvidia.com/blog/train-a-quadruped-locomotion-policy-and-simulate-cloth-manipulation-with-nvidia-isaac-lab-and-newton/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/newton-1.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3a69799d-e185-5114-9cf6-739986ccd1d6",
-    "title": "Advancing Robotics Development with Neural Dynamics in Newton",
-    "link": "https://developer.nvidia.com/blog/advancing-robotics-development-with-neural-dynamics-in-newton/",
-    "pubDate": "2025-09-29T15:00:00+00:00",
-    "description": "Modern robotics requires more than what classical analytic dynamics provides because of simplified contacts, omitted kinematic loops, and non-differentiable...",
-    "author": "Jie Xu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Robots walking.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/NeRD.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NeRD\" width=\"600\" />Modern robotics requires more than what classical analytic dynamics provides because of simplified contacts, omitted kinematic loops, and non-differentiable...<img alt=\"Robots walking.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/NeRD.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NeRD\" width=\"600\" /><p>Modern robotics requires more than what classical analytic dynamics provides because of simplified contacts, omitted kinematic loops, and non-differentiable models. Neural Robot Dynamics (NeRD) tackles these hurdles by: Unlike task-specific neural simulators, NeRD serves as a drop-in backend within physics engines like Newton, enabling teams to reuse existing policy-learning…</p>\n<p><a href=\"https://developer.nvidia.com/blog/advancing-robotics-development-with-neural-dynamics-in-newton/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/NeRD-500x282.gif",
-    "isShortVideo": 0
-  },
-  {
-    "id": "74c1af0f-1377-544e-9e74-4e3dde501066",
-    "title": "3 Easy Ways to Supercharge Your Robotics Development Using OpenUSD",
-    "link": "https://developer.nvidia.com/blog/3-easy-ways-to-supercharge-your-robotics-development-using-openusd/",
-    "pubDate": "2025-09-29T15:00:00+00:00",
-    "description": "The increasing demand for robotics is driving the need for physics-accurate simulation at an unprecedented scale. Universal Scene Description (OpenUSD) is key...",
-    "author": "Matias Codesal",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A robot arm moving items.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/OpenUSD-robotics.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"OpenUSD-robotics\" width=\"600\" />The increasing demand for robotics is driving the need for physics-accurate simulation at an unprecedented scale. Universal Scene Description (OpenUSD) is key...<img alt=\"A robot arm moving items.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/OpenUSD-robotics.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"OpenUSD-robotics\" width=\"600\" /><p>The increasing demand for robotics is driving the need for physics-accurate simulation at an unprecedented scale. Universal Scene Description (OpenUSD) is key to this transformation, offering a powerful, open standard for building ‌virtual worlds where robots learn. This guide showcases three practical ways to supercharge your robotics development workflows using OpenUSD.</p>\n<p><a href=\"https://developer.nvidia.com/blog/3-easy-ways-to-supercharge-your-robotics-development-using-openusd/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/OpenUSD-robotics.gif",
     "isShortVideo": 0
   }
 ]
