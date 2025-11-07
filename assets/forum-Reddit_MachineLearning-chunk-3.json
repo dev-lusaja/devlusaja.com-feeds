@@ -1,5 +1,21 @@
 [
   {
+    "id": "7945aaf3-a325-5eb1-aacb-954064c8e38b",
+    "title": "[N] OpenEnv: Agentic Execution Environments for RL post training in PyTorch",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ogsupi/n_openenv_agentic_execution_environments_for_rl/",
+    "pubDate": "2025-10-26T19:00:55+00:00",
+    "description": "submitted by /u/DecodeBytes [link] [comments]",
+    "author": "/u/DecodeBytes",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DecodeBytes\"> /u/DecodeBytes </a> <br /> <span><a href=\"https://www.deepfabric.dev/blog/introduction_to_openenv\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogsupi/n_openenv_agentic_execution_environments_for_rl/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f932d280-4913-5ff9-a115-1370a16c0097",
     "title": "[P] Built a GPU time-sharing tool for research labs (feedback welcome)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone. I'd like to share something I've been working on: Attention-Driven Transformers for time series forecasting</p> <p>The approach focuses on maximizing attention's representational capacity by using a single top-layer attention block O(n²) to drive multiple lightweight projection blocks O(n), rather than repeating full attention across all blocks. It uses PatchTST's patching algorithm to segment time series into overlapping windows.</p> <p>The core insight is that attention works best as a global organizational mechanism, not necessarily something you need implemented in every block. The model also uses multiplicative positional encoding rather than additive, which scales features by learned positional weights.</p> <p>The architecture consistently improves performance over PatchTST (a SOTA baseline) across standard benchmarks while being 1.3-1.5x faster, with improvements ranging from 1-20% depending on the dataset.</p> <p>Code and full details can be found here: <a href=\"https://github.com/pfekin/attention-driven-transformers\">https://github.com/pfekin/attention-driven-transformers</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kertara\"> /u/kertara </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1odccyz/r_attentiondriven_transformers_for_forecasting/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1odccyz/r_attentiondriven_transformers_for_forecasting/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a8734c25-51ef-57f4-8c3a-01df24d3f6e4",
-    "title": "[N] Open AI just released Atlas browser. It's just accruing architectural debt",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/",
-    "pubDate": "2025-10-22T13:56:52+00:00",
-    "description": "The web wasn't built for AI agents. It was built for humans with eyes, mice, and 25 years of muscle memory navigating dropdown menus. Most AI companies are solving this with browser automation, playwright scripts, Selenium wrappers, headless Chrome instances that click, scroll, and scrape like a human would. It's a workaround and it's temporary. These systems are slow, fragile, and expensive. They burn compute mimicking human behavior that AI doesn't need. They break when websites update. They get blocked by bot detection. They're architectural debt pretending to be infrastructure etc. The real solution is to build web access designed for how AI actually works instead of teaching AI to use human interfaces. A few companies are taking this seriously. Exa or Linkup are rebuilding search from the ground up for semantic / vector-based retrieval Linkup provides structured, AI-native access to web data. Jina AI is building reader APIs for clean content extraction. Shopify in a way tried to address this by exposing its APIs for some partners (e.g., Perplexity) The web needs an API layer, not better puppeteering. As AI agents become the primary consumers of web content, infrastructure built on human-imitation patterns will collapse under its own complexity… submitted by /u/No_Marionberry_5366 [link] [comments]",
-    "author": "/u/No_Marionberry_5366",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>The web wasn't built for AI agents. It was built for humans with eyes, mice, and 25 years of muscle memory navigating dropdown menus. </p> <p>Most AI companies are solving this with browser automation, playwright scripts, Selenium wrappers, headless Chrome instances that click, scroll, and scrape like a human would.</p> <p>It's a workaround and it's temporary.</p> <p>These systems are slow, fragile, and expensive. They burn compute mimicking human behavior that AI doesn't need. They break when websites update. They get blocked by bot detection. They're architectural debt pretending to be infrastructure etc.</p> <p>The real solution is to build web access designed for how AI actually works instead of teaching AI to use human interfaces. </p> <p>A few companies are taking this seriously. Exa or Linkup are rebuilding search from the ground up for semantic / vector-based retrieval Linkup provides structured, AI-native access to web data. Jina AI is building reader APIs for clean content extraction. Shopify in a way tried to address this by exposing its APIs for some partners (e.g., Perplexity)</p> <p>The web needs an API layer, not better puppeteering.</p> <p>As AI agents become the primary consumers of web content, infrastructure built on human-imitation patterns will collapse under its own complexity…</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Marionberry_5366\"> /u/No_Marionberry_5366 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

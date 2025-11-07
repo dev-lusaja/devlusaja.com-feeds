@@ -1,5 +1,21 @@
 [
   {
+    "id": "5374c191-10ff-5637-b7dc-dd8fefe5dfab",
+    "title": "[D] ICML 2026 does not require in-person attendance, will the submission skyrocket?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oqio73/d_icml_2026_does_not_require_inperson_attendance/",
+    "pubDate": "2025-11-07T02:34:09+00:00",
+    "description": "Change in policy: Attendance for authors of accepted papers is optional. After acceptance notifications, the authors will be able to decide by a specified date whether they wish to present their paper in person at the conference or they just wish to include their paper in the proceedings (without presentation at the conference). Regardless of this choice, all the accepted papers will receive equivalent treatment in the proceedings. They will all be eligible for ICML awards as well as for the designations of distinction corresponding to the past “oral presentations” and “spotlight posters.” For proceedings-only papers, at least one of the authors must obtain virtual registration. source: https://icml.cc/Conferences/2026/CallForPapers submitted by /u/Striking-Warning9533 [link] [comments]",
+    "author": "/u/Striking-Warning9533",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong><em>Change in policy:</em></strong> <strong>Attendance for authors of accepted papers is optional.</strong> After acceptance notifications, the authors will be able to decide by a specified date whether they wish to present their paper in person at the conference or they just wish to include their paper in the proceedings (without presentation at the conference). Regardless of this choice, all the accepted papers will receive equivalent treatment in the proceedings. They will all be eligible for ICML awards as well as for the designations of distinction corresponding to the past “oral presentations” and “spotlight posters.” For proceedings-only papers, at least one of the authors must obtain virtual registration.</p> <p>source: <a href=\"https://icml.cc/Conferences/2026/CallForPapers\">https://icml.cc/Conferences/2026/CallForPapers</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Striking-Warning9533\"> /u/Striking-Warning9533 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oqio73/d_icml_2026_does_not_require_inperson_attendance/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oqio73/d_icml_2026_does_not_require_inperson_attendance/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "675b1574-6830-5212-9c2e-b6b84e17cf06",
     "title": "[R] My RL agent taught itself a complete skill progression using only a “boredom” signal (no rewards)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oqd0qp/r_my_rl_agent_taught_itself_a_complete_skill/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>TL;DR: The paper reveals that the performance gap between SNNs and ANNs stems not from information loss caused by binary spike activations, but from the intrinsic low-pass filtering of spiking neurons.</p> <p>Paper: <a href=\"https://arxiv.org/pdf/2505.18608\">https://arxiv.org/pdf/2505.18608</a> Repo (please ⭐️ if useful): <a href=\"https://github.com/bic-L/MaxForme\">https://github.com/bic-L/MaxForme</a></p> <p>The Main Story: For years, it's been widely believed that SNNs' performance gap comes from &quot;information loss due to binary/sparse activations.&quot; However, recent research has challenged this view. They have found that spiking neurons essentially act as low-pass filters at the network level. This causes high-frequency components to dissipate quickly, reducing the effectiveness of feature representation. Think of SNNs as having &quot;astigmatism&quot; – they see a coarse overall image but cannot clearly discern local details.</p> <p>Highlighted Results: 1. In a Spiking Transformer on CIFAR-100, simply replacing Avg-Pool (low-pass) with Max-Pool (high-pass) as the token mixer boosted accuracy by +2.39% (79.12% vs 76.73%) 2. Max-Former tried to fix this &quot;astigmatism&quot; through the very light-weight Max-Pool and DWC operation, achieving 82.39% (+7.58%) on ImageNet with 30% less energy. 3. Max-ResNet achieves +2.25% on Cifar10 and +6.65% on Cifar100 by simply adding two Max-Pool operations.</p> <p>This work provides a new perspective on understanding the performance bottlenecks of SNNs. It suggests that the path to optimizing SNNs may not simply be to mimic the successful designs of ANNs. By further exploring the unique properties of SNNs, we hope to usher in a truly efficient and powerful era of brain-inspired computing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Large-Status2352\"> /u/Large-Status2352 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on7ow7/r_we_were_wrong_about_snns_the_bottleneck_isnt/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on7ow7/r_we_were_wrong_about_snns_the_bottleneck_isnt/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e875c26f-b3c5-5866-9814-bf24606993c2",
-    "title": "[D] RTX 5070 Ti vs 5080 for machine learning",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1on4e8j/d_rtx_5070_ti_vs_5080_for_machine_learning/",
-    "pubDate": "2025-11-03T06:16:03+00:00",
-    "description": "I’m building a PC mainly for machine learning tasks. I can either get an RTX 5070 Ti (16 GB) or RTX 5080 (16 GB) . Since both have the same VRAM, I assume they can handle the same model sizes. If the 5070 Ti is just 10–15% slower but can do everything the 5080 can (just a bit slower), I’d rather save the money. Is there any real reason to choose the 5080 for ML work, or is the 5070 Ti the better value? submitted by /u/Wolfman_922 [link] [comments]",
-    "author": "/u/Wolfman_922",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m building a PC mainly for machine learning tasks. I can either get an <strong>RTX 5070 Ti (16 GB)</strong> or <strong>RTX 5080 (16 GB)</strong>.</p> <p>Since both have the same VRAM, I assume they can handle the same model sizes. If the 5070 Ti is just 10–15% slower but can do everything the 5080 can (just a bit slower), I’d rather save the money.</p> <p><strong>Is there any real reason to choose the 5080 for ML work, or is the 5070 Ti the better value?</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wolfman_922\"> /u/Wolfman_922 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on4e8j/d_rtx_5070_ti_vs_5080_for_machine_learning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on4e8j/d_rtx_5070_ti_vs_5080_for_machine_learning/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
