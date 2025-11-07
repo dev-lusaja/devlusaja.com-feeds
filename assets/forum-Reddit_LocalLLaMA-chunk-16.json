@@ -1,5 +1,37 @@
 [
   {
+    "id": "0550aa1a-ab8d-53cc-bd29-da6e20066be5",
+    "title": "ROCm 7.9 RC1 released. Supposedly this one supports Strix Halo. Finally, it's listed under supported hardware.",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obsdm6/rocm_79_rc1_released_supposedly_this_one_supports/",
+    "pubDate": "2025-10-20T20:12:35+00:00",
+    "description": "submitted by /u/fallingdowndizzyvr [link] [comments]",
+    "author": "/u/fallingdowndizzyvr",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fallingdowndizzyvr\"> /u/fallingdowndizzyvr </a> <br /> <span><a href=\"https://rocm.docs.amd.com/en/docs-7.9.0/about/release-notes.html#supported-hardware-and-operating-systems\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obsdm6/rocm_79_rc1_released_supposedly_this_one_supports/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b1c53546-f277-5979-b9e0-ad422ea9b73d",
+    "title": "Support for Ling and Ring models (1000B/103B/16B) has finally been merged into llama.cpp",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obrvab/support_for_ling_and_ring_models_1000b103b16b_has/",
+    "pubDate": "2025-10-20T19:54:08+00:00",
+    "description": "I’ve been following this PR for over a month because it adds support for some interesting MoE, the 103B size sounds cool 1T models: https://huggingface.co/inclusionAI/Ring-1T https://huggingface.co/inclusionAI/Ling-1T 103B models https://huggingface.co/inclusionAI/Ling-flash-2.0 https://huggingface.co/inclusionAI/Ring-flash-2.0 16B models https://huggingface.co/inclusionAI/Ring-mini-2.0 https://huggingface.co/inclusionAI/Ling-mini-2.0 submitted by /u/jacek2023 [link] [comments]",
+    "author": "/u/jacek2023",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obrvab/support_for_ling_and_ring_models_1000b103b16b_has/\"> <img alt=\"Support for Ling and Ring models (1000B/103B/16B) has finally been merged into llama.cpp\" src=\"https://external-preview.redd.it/n2_CIH2NdPrPVJO7RzSAqCKKA-IjXoFSmGm_ZeORNmA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0d670894b141c1fd2de6b21248ecab346ff0c897\" title=\"Support for Ling and Ring models (1000B/103B/16B) has finally been merged into llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I’ve been following this PR for over a month because it adds support for some interesting MoE, the 103B size sounds cool</p> <p>1T models:</p> <p><a href=\"https://huggingface.co/inclusionAI/Ring-1T\">https://huggingface.co/inclusionAI/Ring-1T</a></p> <p><a href=\"https://huggingface.co/inclusionAI/Ling-1T\">https://huggingface.co/inclusionAI/Ling-1T</a></p> <p>103B models</p> <p><a href=\"https://huggingface.co/inclusionAI/Ling-flash-2.0\">https://huggingface.co/inclusionAI/Ling-flash-2.0</a></p> <p><a href=\"https://huggingface.co/inclusionAI/Ring-flash-2.0\">https://huggingface.co/inclusionAI/Ring-flash-2.0</a></p> <p>16B models</p> <p><a href=\"https://huggingface.co/inclusionAI/Ring-mini-2.0\">https://huggingface.co/inclusionAI/Ring-mini-2.0</a></p> <p><a href=\"https://huggingface.co/inclusionAI/Ling-mini-2.0\">https://huggingface.co/inclusionAI/Ling-mini-2.0</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/16063\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obrvab/support_for_ling_and_ring_models_1000b103b16b_has/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/n2_CIH2NdPrPVJO7RzSAqCKKA-IjXoFSmGm_ZeORNmA.png?width=640&crop=smart&auto=webp&s=0d670894b141c1fd2de6b21248ecab346ff0c897",
+    "isShortVideo": 0
+  },
+  {
     "id": "92544587-f55f-573c-b3a8-c9edb760ee7f",
     "title": "Cerebras REAP update: pruned checkpoints for GLM4.5-Air & Qwen3-Coder-30B now of HF!",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obrde8/cerebras_reap_update_pruned_checkpoints_for/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob7q6m/nvidias_omnivinci_enhancing_architecture_and_data/\"> <img alt=\"Nvidia's OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM\" src=\"https://external-preview.redd.it/T8a1JuGOfWYN7yWqfBi5-bruC3MzoVLZu36ygPTxd0o.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=264bdb16d9e4730080c65c21ffa671e23a0de176\" title=\"Nvidia's OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ninjasaid13\"> /u/ninjasaid13 </a> <br /> <span><a href=\"https://huggingface.co/nvidia/omnivinci\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob7q6m/nvidias_omnivinci_enhancing_architecture_and_data/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/T8a1JuGOfWYN7yWqfBi5-bruC3MzoVLZu36ygPTxd0o.png?width=640&crop=smart&auto=webp&s=264bdb16d9e4730080c65c21ffa671e23a0de176",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2c4c9fed-a6df-5785-8fc4-65ea3bc70ff7",
-    "title": "GIGABYTE AI TOP ATOM Introduces NVIDIA Grace Blackwell GB10 Performance for the Desktop",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ob6ydq/gigabyte_ai_top_atom_introduces_nvidia_grace/",
-    "pubDate": "2025-10-20T01:23:37+00:00",
-    "description": "submitted by /u/DeliciousBelt9520 [link] [comments]",
-    "author": "/u/DeliciousBelt9520",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob6ydq/gigabyte_ai_top_atom_introduces_nvidia_grace/\"> <img alt=\"GIGABYTE AI TOP ATOM Introduces NVIDIA Grace Blackwell GB10 Performance for the Desktop\" src=\"https://external-preview.redd.it/9USPaHCqnaWZUhhwpPcmVYuxokNlKHBzm3mdxx2L9rE.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=5c5a9785f74812c007fd190cf17bd9645963730e\" title=\"GIGABYTE AI TOP ATOM Introduces NVIDIA Grace Blackwell GB10 Performance for the Desktop\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeliciousBelt9520\"> /u/DeliciousBelt9520 </a> <br /> <span><a href=\"https://linuxgizmos.com/gigabyte-ai-top-atom-introduces-nvidia-grace-blackwell-gb10-performance-for-the-desktop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ob6ydq/gigabyte_ai_top_atom_introduces_nvidia_grace/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/9USPaHCqnaWZUhhwpPcmVYuxokNlKHBzm3mdxx2L9rE.png?width=320&crop=smart&auto=webp&s=5c5a9785f74812c007fd190cf17bd9645963730e",
-    "isShortVideo": 0
-  },
-  {
-    "id": "23caeba7-a050-5f0c-a491-6384fd98ff22",
-    "title": "I built a 1B CAD generator model",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oavxt8/i_built_a_1b_cad_generator_model/",
-    "pubDate": "2025-10-19T17:43:33+00:00",
-    "description": "On a weekend, I decided to build a small language model to generate me 3d files. No reason except for pure curiosity. Here's what I did: - Gather dataset on OpenSCAD: This turns out to be quite bad because people's code quality is low & in-consistent. - Generate synthetic data (prompt -> openscad): This was the most wasteful per dollar part. I spent 150$+ on Claude API (70% are on reasoning token). Ended up using Gemma3-12b running in 48 hours continuously. - Finetune Gemma3-270M, 1B & 4B: 270M lacks fundamental code & object understanding and failed badly. 1B is a good balance between render-ability rate & speed. Overall, I spent 150$ on Claude (totally wasted) & 25$ on GPU. Both given as credits and grants. I also made a CLI app if you wanna try on Mac, Linux or Raspberry Pi 4/5: https://github.com/ThomasVuNguyen/MakeMe Models, dataset & code: https://github.com/ThomasVuNguyen/K https://huggingface.co/collections/ThomasTheMaker/makeme-68f52281c3adf70d1e1dfe5b submitted by /u/ThomasPhilli [link] [comments]",
-    "author": "/u/ThomasPhilli",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oavxt8/i_built_a_1b_cad_generator_model/\"> <img alt=\"I built a 1B CAD generator model\" src=\"https://external-preview.redd.it/ZGFhNmE0bzJ2M3dmMdhv6U5XLy0vFYTB3BWLA3H-O3YDxkmUtGbojZ8LN3lz.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a21d6d0c153a39bacb389fe42d52137134b86925\" title=\"I built a 1B CAD generator model\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>On a weekend, I decided to build a small language model to generate me 3d files. No reason except for pure curiosity. Here's what I did:</p> <p>- Gather dataset on OpenSCAD: This turns out to be quite bad because people's code quality is low &amp; in-consistent.</p> <p>- Generate synthetic data (prompt -&gt; openscad): This was the most wasteful per dollar part. I spent 150$+ on Claude API (70% are on reasoning token). Ended up using Gemma3-12b running in 48 hours continuously.</p> <p>- Finetune Gemma3-270M, 1B &amp; 4B: 270M lacks fundamental code &amp; object understanding and failed badly. 1B is a good balance between render-ability rate &amp; speed.</p> <p>Overall, I spent 150$ on Claude (totally wasted) &amp; 25$ on GPU. Both given as credits and grants.</p> <p>I also made a CLI app if you wanna try on Mac, Linux or Raspberry Pi 4/5: <a href=\"https://github.com/ThomasVuNguyen/MakeMe\">https://github.com/ThomasVuNguyen/MakeMe</a></p> <p>Models, dataset &amp; code:</p> <p><a href=\"https://github.com/ThomasVuNguyen/K\">https://github.com/ThomasVuNguyen/K</a></p> <p><a href=\"https://huggingface.co/collections/ThomasTheMaker/makeme-68f52281c3adf70d1e1dfe5b\">https://huggingface.co/collections/ThomasTheMaker/makeme-68f52281c3adf70d1e1dfe5b</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThomasPhilli\"> /u/ThomasPhilli </a> <br /> <span><a href=\"https://v.redd.it/pn0yo3o2v3wf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oavxt8/i_built_a_1b_cad_generator_model/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ZGFhNmE0bzJ2M3dmMdhv6U5XLy0vFYTB3BWLA3H-O3YDxkmUtGbojZ8LN3lz.png?width=640&crop=smart&auto=webp&s=a21d6d0c153a39bacb389fe42d52137134b86925",
     "isShortVideo": 0
   }
 ]

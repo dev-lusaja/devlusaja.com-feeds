@@ -1,5 +1,37 @@
 [
   {
+    "id": "ad61b077-3ff0-5766-a880-27d7baeee815",
+    "title": "What is the real world hit of using PCIe 4.0 instead of PCIe 5.0 with a 5090?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogtdbg/what_is_the_real_world_hit_of_using_pcie_40/",
+    "pubDate": "2025-10-26T19:21:18+00:00",
+    "description": "I’m trying to be a bit “cheap” and just buy a 5090 for my desktop that is currently running a 3060. It’s a high end build 128gb RAM, video card is the worst part. I’ll probably slowly end up upgrading everything, but I would like to start with the GPU. I’m assuming someone might have tried this already? submitted by /u/liviuberechet [link] [comments]",
+    "author": "/u/liviuberechet",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m trying to be a bit “cheap” and just buy a 5090 for my desktop that is currently running a 3060. It’s a high end build 128gb RAM, video card is the worst part. I’ll probably slowly end up upgrading everything, but I would like to start with the GPU. </p> <p>I’m assuming someone might have tried this already?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/liviuberechet\"> /u/liviuberechet </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogtdbg/what_is_the_real_world_hit_of_using_pcie_40/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogtdbg/what_is_the_real_world_hit_of_using_pcie_40/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8551ea02-7e35-5d98-b1bb-96f4252c42c2",
+    "title": "[P] VibeVoice-Hindi-7B: Open-Source Expressive Hindi TTS with Multi-Speaker + Voice Cloning",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/",
+    "pubDate": "2025-10-26T18:53:08+00:00",
+    "description": "Released VibeVoice-Hindi-7B and VibeVoice-Hindi-LoRA — fine-tuned versions of the Microsoft VibeVoice model, bringing frontier Hindi text-to-speech with long-form synthesis, multi-speaker support, and voice cloning. • Full Model: https://huggingface.co/tarun7r/vibevoice-hindi-7b • LoRA Adapters: https://huggingface.co/tarun7r/vibevoice-hindi-lora • Base Model: https://huggingface.co/vibevoice/VibeVoice-7B Features: • Natural Hindi speech synthesis with expressive prosody • Multi-speaker dialogue generation • Voice cloning from short reference samples (10–30 seconds) • Long-form audio generation (up to 45 minutes context) • Works with VibeVoice community pipeline and ComfyUI Tech Stack: • Qwen2.5-7B LLM backbone with LoRA fine-tuning • Acoustic (σ-VAE) + semantic tokenizers @ 7.5 Hz • Diffusion head (~600M params) for high-fidelity acoustics • 32k token context window Released under MIT License. Feedback and contributions welcome! submitted by /u/martian7r [link] [comments]",
+    "author": "/u/martian7r",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Released VibeVoice-Hindi-7B and VibeVoice-Hindi-LoRA — fine-tuned versions of the Microsoft VibeVoice model, bringing frontier Hindi text-to-speech with long-form synthesis, multi-speaker support, and voice cloning.</p> <p>• Full Model: <a href=\"https://huggingface.co/tarun7r/vibevoice-hindi-7b\">https://huggingface.co/tarun7r/vibevoice-hindi-7b</a></p> <p>• LoRA Adapters: <a href=\"https://huggingface.co/tarun7r/vibevoice-hindi-lora\">https://huggingface.co/tarun7r/vibevoice-hindi-lora</a></p> <p>• Base Model: <a href=\"https://huggingface.co/vibevoice/VibeVoice-7B\">https://huggingface.co/vibevoice/VibeVoice-7B</a></p> <p>Features: • Natural Hindi speech synthesis with expressive prosody</p> <p>• Multi-speaker dialogue generation</p> <p>• Voice cloning from short reference samples (10–30 seconds)</p> <p>• Long-form audio generation (up to 45 minutes context)</p> <p>• Works with VibeVoice community pipeline and ComfyUI</p> <p>Tech Stack: • Qwen2.5-7B LLM backbone with LoRA fine-tuning</p> <p>• Acoustic (σ-VAE) + semantic tokenizers @ 7.5 Hz</p> <p>• Diffusion head (~600M params) for high-fidelity acoustics</p> <p>• 32k token context window</p> <p>Released under MIT License. Feedback and contributions welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/martian7r\"> /u/martian7r </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "41606e26-67ba-54a3-a668-aecac93fab90",
     "title": "780M IGPU for Rocm and Vulkan Ubuntu instructions. (Original from MLDataScientist)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogrnxv/780m_igpu_for_rocm_and_vulkan_ubuntu_instructions/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofggny/kimi_k2_image_generation/\"> <img alt=\"Kimi k2 image generation\" src=\"https://preview.redd.it/vimkvz5976xf1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=202c4cfa6cd438c6e2e103ec6ec094a5b596d49a\" title=\"Kimi k2 image generation\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I am so confused because I can’t find any information on Kimi k2 image generation abilities. When I asked Kimi to generate an image it said it couldn’t. But I’m having it code a tarot reading project and it’s generating all these images…when I asked about it Kimi still said it couldn’t generate images. What’s going on and how are these images being generated??</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Used-Nectarine5541\"> /u/Used-Nectarine5541 </a> <br /> <span><a href=\"https://i.redd.it/vimkvz5976xf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofggny/kimi_k2_image_generation/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/vimkvz5976xf1.jpeg?width=640&crop=smart&auto=webp&s=202c4cfa6cd438c6e2e103ec6ec094a5b596d49a",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a7345720-314a-510c-a04e-c69c3e2b71c2",
-    "title": "If you could have one LLM distilled to a smaller size, which would model would you pick and what size(s) would you pick?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ofezsz/if_you_could_have_one_llm_distilled_to_a_smaller/",
-    "pubDate": "2025-10-25T01:23:12+00:00",
-    "description": "Really the question is… what larger open weight model do you wish you could run on your hardware with some reduced capacity: something large enough where quantization isn’t an option. This is a tough choice for me, as I’ve wanted to have a true distillation of Deepseek for the longest time, but I think Kimi-K2 has changed my mind. I would love to have Kimi-K2 distilled to a 70b dense model… a more likely size someone might attempt would be 106 billion total parameters and 12 billion active parameters, the same size as GLM 4.5 Air… though maybe I would even go so large as GLM-4.5 which has 355 billion total parameters with 32 billion active parameters. I completely forgot about the larger Qwen model! That would be great as well. How about you? What model would you pick and at what size? submitted by /u/silenceimpaired [link] [comments]",
-    "author": "/u/silenceimpaired",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Really the question is… what larger open weight model do you wish you could run on your hardware with some reduced capacity: something large enough where quantization isn’t an option.</p> <p>This is a tough choice for me, as I’ve wanted to have a true distillation of Deepseek for the longest time, but I think Kimi-K2 has changed my mind. </p> <p>I would love to have Kimi-K2 distilled to a 70b dense model… a more likely size someone might attempt would be 106 billion total parameters and 12 billion active parameters, the same size as GLM 4.5 Air… though maybe I would even go so large as GLM-4.5 which has 355 billion total parameters with 32 billion active parameters.</p> <p>I completely forgot about the larger Qwen model! That would be great as well.</p> <p>How about you? What model would you pick and at what size?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/silenceimpaired\"> /u/silenceimpaired </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofezsz/if_you_could_have_one_llm_distilled_to_a_smaller/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofezsz/if_you_could_have_one_llm_distilled_to_a_smaller/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0d7a9233-1b16-55f5-935d-8a4599d01e5c",
-    "title": "Strix Halo + RTX 3090 Achieved! Interesting Results...",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ofboir/strix_halo_rtx_3090_achieved_interesting_results/",
-    "pubDate": "2025-10-24T22:42:49+00:00",
-    "description": "Specs: Fedora 43 Server (bare metal, tried via Proxmox but to reduce complexity went BM, will try again), Bosgame M5 128gb AI Max+ 395 (identical board to GMKtek EVO-X2), EVGA FTW3 3090, MinisForum DEG1 eGPU dock with generic m.2 to Oculink adapter + 850w PSU. Compiled the latest version of llama.cpp with Vulkan RADV (NO CUDA), things are still very wonky but it does work. I was able to get GPT OSS 120b to run on llama-bench but running into weird OOM and VlkDeviceLost errors specifically in llama-bench when trying GLM 4.5 Air even though the rig has served all models perfectly fine thus far. KV cache quant also seems to be bugged out and throws context errors with llama-bench but again works fine with llama-server. Tried the strix-halo-toolbox build of llama.cpp but could never get memory allocation to function properly with the 3090. Saw a ~30% increase in PP at 12k context no quant going from 312 TPS on Strix Halo only to 413 TPS with SH + 3090, but a ~20% decrease in TG from 50 TPS on SH only to 40 on SH + 3090 which i thought was pretty interesting, and a part of me wonders if that was an anomaly or not but will confirm at a later date with more data. Going to do more testing with it but after banging my head into a wall for 4 days to get it serving properly im taking a break and enjoying my vette. Let me know if yall have any ideas or benchmarks yall might be interested in https://preview.redd.it/ly9ey0wr05xf1.jpg?width=3060&format=pjpg&auto=webp&s=cc073c67f6d2bd5f976f53679d8de83215fb4697 https://preview.redd.it/gv0terms05xf1.jpg?width=3060&format=pjpg&auto=webp&s=8ccc70fb59e9e7a0771274e15e67bc18a36ac624 https://preview.redd.it/0ohsyz23z4xf1.png?width=1654&format=png&auto=webp&s=9e0d122713096d181026c3a160b381e2db1333c6 submitted by /u/JayTheProdigy16 [link] [comments]",
-    "author": "/u/JayTheProdigy16",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofboir/strix_halo_rtx_3090_achieved_interesting_results/\"> <img alt=\"Strix Halo + RTX 3090 Achieved! Interesting Results...\" src=\"https://b.thumbs.redditmedia.com/b6nRUaAihZDoN0MlWEmQXboPVf1abHo_e9s727G4WNU.jpg\" title=\"Strix Halo + RTX 3090 Achieved! Interesting Results...\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Specs: Fedora 43 Server (bare metal, tried via Proxmox but to reduce complexity went BM, will try again), Bosgame M5 128gb AI Max+ 395 (identical board to GMKtek EVO-X2), EVGA FTW3 3090, MinisForum DEG1 eGPU dock with generic m.2 to Oculink adapter + 850w PSU.</p> <p>Compiled the latest version of llama.cpp with Vulkan RADV (NO CUDA), things are still very wonky but it does work. I was able to get GPT OSS 120b to run on llama-bench but running into weird OOM and VlkDeviceLost errors specifically in llama-bench when trying GLM 4.5 Air even though the rig has served all models perfectly fine thus far. KV cache quant also seems to be bugged out and throws context errors with llama-bench but again works fine with llama-server. Tried the strix-halo-toolbox build of llama.cpp but could never get memory allocation to function properly with the 3090.</p> <p>Saw a ~30% increase in PP at 12k context no quant going from 312 TPS on Strix Halo only to 413 TPS with SH + 3090, but a ~20% decrease in TG from 50 TPS on SH only to 40 on SH + 3090 which i thought was pretty interesting, and a part of me wonders if that was an anomaly or not but will confirm at a later date with more data.</p> <p>Going to do more testing with it but after banging my head into a wall for 4 days to get it serving properly im taking a break and enjoying my vette. Let me know if yall have any ideas or benchmarks yall might be interested in</p> <p><a href=\"https://preview.redd.it/ly9ey0wr05xf1.jpg?width=3060&amp;format=pjpg&amp;auto=webp&amp;s=cc073c67f6d2bd5f976f53679d8de83215fb4697\">https://preview.redd.it/ly9ey0wr05xf1.jpg?width=3060&amp;format=pjpg&amp;auto=webp&amp;s=cc073c67f6d2bd5f976f53679d8de83215fb4697</a></p> <p><a href=\"https://preview.redd.it/gv0terms05xf1.jpg?width=3060&amp;format=pjpg&amp;auto=webp&amp;s=8ccc70fb59e9e7a0771274e15e67bc18a36ac624\">https://preview.redd.it/gv0terms05xf1.jpg?width=3060&amp;format=pjpg&amp;auto=webp&amp;s=8ccc70fb59e9e7a0771274e15e67bc18a36ac624</a></p> <p><a href=\"https://preview.redd.it/0ohsyz23z4xf1.png?width=1654&amp;format=png&amp;auto=webp&amp;s=9e0d122713096d181026c3a160b381e2db1333c6\">https://preview.redd.it/0ohsyz23z4xf1.png?width=1654&amp;format=png&amp;auto=webp&amp;s=9e0d122713096d181026c3a160b381e2db1333c6</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JayTheProdigy16\"> /u/JayTheProdigy16 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofboir/strix_halo_rtx_3090_achieved_interesting_results/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ofboir/strix_halo_rtx_3090_achieved_interesting_results/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/b6nRUaAihZDoN0MlWEmQXboPVf1abHo_e9s727G4WNU.jpg",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,37 @@
 [
   {
+    "id": "7b346a04-9902-5235-9bce-6942d3af10a9",
+    "title": "Ling-1T-GGUF on ik_llama.cpp",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1o9g4if/ling1tgguf_on_ik_llamacpp/",
+    "pubDate": "2025-10-17T23:09:36+00:00",
+    "description": "I'll try to fixup the namespace ASAP but wanted to rush out some test quants of Ling-1T 1000B model. For now you'll need roughly 256GiB RAM + 24-32+ GiB VRAM to fit the available quants. Hope to release more after fixing up the 403 uploading issues. Big thanks to ik and CISC for all the help figuring out how to quantize this beast, and of course thanks to Wendell at level1techs for the hardware support and also the aifoundry folks supporting me to come out to SF for the upcoming AI Plumbers Unconference next week! In early testing I got out to roughly 40k context depth in ~6 turns of chat and it was doing okay reading some papers and generating diff patches without going off the rails at least. Please give it a test and lemme know what you find! submitted by /u/VoidAlchemy [link] [comments]",
+    "author": "/u/VoidAlchemy",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1o9g4if/ling1tgguf_on_ik_llamacpp/\"> <img alt=\"Ling-1T-GGUF on ik_llama.cpp\" src=\"https://external-preview.redd.it/R-9hsMR8vUhTujexAftojKeBUYgoMQ0LKYIfxmVtxHE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=98540d3830dcf459c8003a9578801440c349b88b\" title=\"Ling-1T-GGUF on ik_llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I'll try to fixup the namespace ASAP but wanted to rush out some test quants of Ling-1T 1000B model. For now you'll need roughly 256GiB RAM + 24-32+ GiB VRAM to fit the available quants. Hope to release more after fixing up the 403 uploading issues.</p> <p>Big thanks to ik and CISC for all the help figuring out how to quantize this beast, and of course thanks to Wendell at level1techs for the hardware support and also the aifoundry folks supporting me to come out to SF for the upcoming AI Plumbers Unconference next week!</p> <p>In early testing I got out to roughly 40k context depth in ~6 turns of chat and it was doing okay reading some papers and generating diff patches without going off the rails at least.</p> <p>Please give it a test and lemme know what you find!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VoidAlchemy\"> /u/VoidAlchemy </a> <br /> <span><a href=\"https://huggingface.co/ubergarm2/Ling-1T-GGUF\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1o9g4if/ling1tgguf_on_ik_llamacpp/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/R-9hsMR8vUhTujexAftojKeBUYgoMQ0LKYIfxmVtxHE.png?width=640&crop=smart&auto=webp&s=98540d3830dcf459c8003a9578801440c349b88b",
+    "isShortVideo": 0
+  },
+  {
+    "id": "4b25ce6c-6cf4-5e2b-a92b-5b44dab62672",
+    "title": "What is considered to be a top tier Speech To Text model, with speaker identification",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1o9evno/what_is_considered_to_be_a_top_tier_speech_to/",
+    "pubDate": "2025-10-17T22:14:42+00:00",
+    "description": "Looking to locally run a speech to text model, with the highest accuracy on the transcripts. ideally want it to not break when there is gaps in speech or \"ums\". I can guarantee high quality audio for the model, however I just need it to work when there is silence. I tried Whisper.CPP but it struggles with silence and it is not the most accurate. Additionally it does not identify or split the transcripts among the speakers. Any insights would be much appreciated!! submitted by /u/ImmediateFudge02 [link] [comments]",
+    "author": "/u/ImmediateFudge02",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Looking to locally run a speech to text model, with the highest accuracy on the transcripts. ideally want it to not break when there is gaps in speech or &quot;ums&quot;. I can guarantee high quality audio for the model, however I just need it to work when there is silence. I tried Whisper.CPP but it struggles with silence and it is not the most accurate. Additionally it does not identify or split the transcripts among the speakers. </p> <p>Any insights would be much appreciated!!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ImmediateFudge02\"> /u/ImmediateFudge02 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1o9evno/what_is_considered_to_be_a_top_tier_speech_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1o9evno/what_is_considered_to_be_a_top_tier_speech_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f76b1d87-9190-5a23-93fc-757831002b00",
     "title": "Qwen3-VL testout - open-source VL GOAT",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1o9eo4f/qwen3vl_testout_opensource_vl_goat/",

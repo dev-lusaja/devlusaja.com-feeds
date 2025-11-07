@@ -1,5 +1,37 @@
 [
   {
+    "id": "798ad3a1-6503-5fe9-899f-fe2e718ba0d6",
+    "title": "I built an SDK for research-grade semantic text chunking",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ohgmti/i_built_an_sdk_for_researchgrade_semantic_text/",
+    "pubDate": "2025-10-27T14:57:03+00:00",
+    "description": "Most RAG systems fall apart when you feed them large documents. You can embed a few paragraphs fine, but once the text passes a few thousand tokens, retrieval quality collapses, models start missing context, repeating sections, or returning irrelevant chunks. The core problem isn’t the embeddings. It’s how the text gets chunked. Most people still use dumb fixed-size splits, 1000 tokens with 200 overlap, which cuts off mid-sentence and destroys semantic continuity. That’s fine for short docs, but not for research papers, transcripts, or technical manuals. So I built a TypeScript SDK that implements multiple r esearch-grade text segmentation methods, all under one interface. It includes: Fixed-size: basic token or character chunking Recursive: splits by logical structure (headings, paragraphs, code blocks) Semantic: embedding-based splitting using cosine similarity z-score / std-dev thresholding percentile thresholding local minima detection gradient / derivative-based change detection full segmentation algorithms: TextTiling (1997), C99 (2000), and BayesSeg (2008) Hybrid: combines structural and semantic boundaries Topic-based: clustering sentences by embedding similarity Sliding Window: fixed window stride with overlap for transcripts or code The SDK unifies all of these behind one consistent API, so you can do things like: const chunker = createChunker({ type: \"hybrid\", embedder: new OpenAIEmbedder(), chunkSize: 1000 }); const chunks = await chunker.chunk(documentText); or easily compare methods: const strategies = [\"fixed\", \"semantic\", \"hybrid\"]; for (const s of strategies) { const chunker = createChunker({ type: s }); const chunks = await chunker.chunk(text); console.log(s, chunks.length); } It’s built for developers working on RAG systems, embeddings, or document retrieval who need consistent, meaningful chunk boundaries that don’t destroy context. If you’ve ever wondered why your retrieval fails on long docs, it’s probably not the model, it’s your chunking. It supports OpenAI, HuggingFace, and local embedding models Repo link: https://github.com/Mikethebot44/Scout-Text-Chunker submitted by /u/Lonely-Marzipan-9473 [link] [comments]",
+    "author": "/u/Lonely-Marzipan-9473",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most RAG systems fall apart when you feed them large documents.<br /> You can embed a few paragraphs fine, but once the text passes a few thousand tokens, retrieval quality collapses, models start missing context, repeating sections, or returning irrelevant chunks.</p> <p>The core problem isn’t the embeddings. It’s how the text gets chunked.<br /> Most people still use dumb fixed-size splits, 1000 tokens with 200 overlap, which cuts off mid-sentence and destroys semantic continuity. That’s fine for short docs, but not for research papers, transcripts, or technical manuals.</p> <p>So I built a TypeScript SDK that implements multiple <strong>r</strong>esearch-grade text segmentation methods, all under one interface. </p> <p>It includes:</p> <ul> <li>Fixed-size: basic token or character chunking</li> <li>Recursive: splits by logical structure (headings, paragraphs, code blocks)</li> <li>Semantic: embedding-based splitting using cosine similarity <ul> <li>z-score / std-dev thresholding</li> <li>percentile thresholding</li> <li>local minima detection</li> <li>gradient / derivative-based change detection</li> <li>full segmentation algorithms: TextTiling (1997), C99 (2000), and BayesSeg (2008)</li> </ul></li> <li>Hybrid: combines structural and semantic boundaries</li> <li>Topic-based: clustering sentences by embedding similarity</li> <li>Sliding Window: fixed window stride with overlap for transcripts or code</li> </ul> <p>The SDK unifies all of these behind one consistent API, so you can do things like: </p> <pre><code>const chunker = createChunker({ type: &quot;hybrid&quot;, embedder: new OpenAIEmbedder(), chunkSize: 1000 }); const chunks = await chunker.chunk(documentText); </code></pre> <p>or easily compare methods:</p> <pre><code>const strategies = [&quot;fixed&quot;, &quot;semantic&quot;, &quot;hybrid&quot;]; for (const s of strategies) { const chunker = createChunker({ type: s }); const chunks = await chunker.chunk(text); console.log(s, chunks.length); } </code></pre> <p>It’s built for developers working on RAG systems, embeddings, or document retrieval who need consistent, meaningful chunk boundaries that don’t destroy context.</p> <p>If you’ve ever wondered why your retrieval fails on long docs, it’s probably not the model, it’s your chunking.</p> <p>It supports OpenAI, HuggingFace, and local embedding models</p> <p>Repo link: <a href=\"https://github.com/Mikethebot44/Scout-Text-Chunker\">https://github.com/Mikethebot44/Scout-Text-Chunker</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lonely-Marzipan-9473\"> /u/Lonely-Marzipan-9473 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohgmti/i_built_an_sdk_for_researchgrade_semantic_text/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohgmti/i_built_an_sdk_for_researchgrade_semantic_text/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "15a9e269-11a9-515a-b87b-49ba2d2d2be1",
+    "title": "Batch inference locally on 4080",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ohgf9t/batch_inference_locally_on_4080/",
+    "pubDate": "2025-10-27T14:49:02+00:00",
+    "description": "Hi all, I’m running ollama with Gemma 3 12b locally on my 4080 but I’d like to have my endpoint be a similar interface as OpenAI’s batch interface. I’m trying to do this with a wrapper around VLLM but I’m having issues. I’m not super deep in this space and have been using agents to help me set everything up. My use case is to send 200k small profiles to a recommendation engine and get 5-15 classifications on each profile. Any advice on how to get this accomplished? Currently the agents are running into trouble as they say the engine isn’t handling memory well. VLLM model support doesn’t list latest models for Gemma either. Am I barking up the wrong tree? Any advice would be much appreciated submitted by /u/0bviousEcon [link] [comments]",
+    "author": "/u/0bviousEcon",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>I’m running ollama with Gemma 3 12b locally on my 4080 but I’d like to have my endpoint be a similar interface as OpenAI’s batch interface. I’m trying to do this with a wrapper around VLLM but I’m having issues. </p> <p>I’m not super deep in this space and have been using agents to help me set everything up. </p> <p>My use case is to send 200k small profiles to a recommendation engine and get 5-15 classifications on each profile. </p> <p>Any advice on how to get this accomplished? </p> <p>Currently the agents are running into trouble as they say the engine isn’t handling memory well. VLLM model support doesn’t list latest models for Gemma either. </p> <p>Am I barking up the wrong tree? Any advice would be much appreciated</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/0bviousEcon\"> /u/0bviousEcon </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohgf9t/batch_inference_locally_on_4080/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ohgf9t/batch_inference_locally_on_4080/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "354cc5ee-3894-5daa-82a4-0862a61e795a",
     "title": "Last week in Multimodal AI - Local Edition",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ohfuea/last_week_in_multimodal_ai_local_edition/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oguocr/running_local_models_with_multiple_backends/\"> <img alt=\"Running local models with multiple backends &amp; search capabilities\" src=\"https://external-preview.redd.it/NmtybGkwa2draXhmMWYfCBFJq_CgHTgLeaR86wcT1wa8nSuVfXl8XGpmTK5H.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0a5be46fac7dcbac9219ee8930d5d26e6cc02bde\" title=\"Running local models with multiple backends &amp; search capabilities\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi guys, I’m currently using this desktop app to run llms with ollama,llama.cpp and web gpu at the same place, there’s also a web version that stores the models to cache memory What do you guys suggest for extension of capabilities </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ibz04\"> /u/Ibz04 </a> <br /> <span><a href=\"https://v.redd.it/oixys9qgkixf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oguocr/running_local_models_with_multiple_backends/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/NmtybGkwa2draXhmMWYfCBFJq_CgHTgLeaR86wcT1wa8nSuVfXl8XGpmTK5H.png?width=640&crop=smart&auto=webp&s=0a5be46fac7dcbac9219ee8930d5d26e6cc02bde",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ad61b077-3ff0-5766-a880-27d7baeee815",
-    "title": "What is the real world hit of using PCIe 4.0 instead of PCIe 5.0 with a 5090?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogtdbg/what_is_the_real_world_hit_of_using_pcie_40/",
-    "pubDate": "2025-10-26T19:21:18+00:00",
-    "description": "I’m trying to be a bit “cheap” and just buy a 5090 for my desktop that is currently running a 3060. It’s a high end build 128gb RAM, video card is the worst part. I’ll probably slowly end up upgrading everything, but I would like to start with the GPU. I’m assuming someone might have tried this already? submitted by /u/liviuberechet [link] [comments]",
-    "author": "/u/liviuberechet",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m trying to be a bit “cheap” and just buy a 5090 for my desktop that is currently running a 3060. It’s a high end build 128gb RAM, video card is the worst part. I’ll probably slowly end up upgrading everything, but I would like to start with the GPU. </p> <p>I’m assuming someone might have tried this already?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/liviuberechet\"> /u/liviuberechet </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogtdbg/what_is_the_real_world_hit_of_using_pcie_40/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogtdbg/what_is_the_real_world_hit_of_using_pcie_40/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8551ea02-7e35-5d98-b1bb-96f4252c42c2",
-    "title": "[P] VibeVoice-Hindi-7B: Open-Source Expressive Hindi TTS with Multi-Speaker + Voice Cloning",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/",
-    "pubDate": "2025-10-26T18:53:08+00:00",
-    "description": "Released VibeVoice-Hindi-7B and VibeVoice-Hindi-LoRA — fine-tuned versions of the Microsoft VibeVoice model, bringing frontier Hindi text-to-speech with long-form synthesis, multi-speaker support, and voice cloning. • Full Model: https://huggingface.co/tarun7r/vibevoice-hindi-7b • LoRA Adapters: https://huggingface.co/tarun7r/vibevoice-hindi-lora • Base Model: https://huggingface.co/vibevoice/VibeVoice-7B Features: • Natural Hindi speech synthesis with expressive prosody • Multi-speaker dialogue generation • Voice cloning from short reference samples (10–30 seconds) • Long-form audio generation (up to 45 minutes context) • Works with VibeVoice community pipeline and ComfyUI Tech Stack: • Qwen2.5-7B LLM backbone with LoRA fine-tuning • Acoustic (σ-VAE) + semantic tokenizers @ 7.5 Hz • Diffusion head (~600M params) for high-fidelity acoustics • 32k token context window Released under MIT License. Feedback and contributions welcome! submitted by /u/martian7r [link] [comments]",
-    "author": "/u/martian7r",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Released VibeVoice-Hindi-7B and VibeVoice-Hindi-LoRA — fine-tuned versions of the Microsoft VibeVoice model, bringing frontier Hindi text-to-speech with long-form synthesis, multi-speaker support, and voice cloning.</p> <p>• Full Model: <a href=\"https://huggingface.co/tarun7r/vibevoice-hindi-7b\">https://huggingface.co/tarun7r/vibevoice-hindi-7b</a></p> <p>• LoRA Adapters: <a href=\"https://huggingface.co/tarun7r/vibevoice-hindi-lora\">https://huggingface.co/tarun7r/vibevoice-hindi-lora</a></p> <p>• Base Model: <a href=\"https://huggingface.co/vibevoice/VibeVoice-7B\">https://huggingface.co/vibevoice/VibeVoice-7B</a></p> <p>Features: • Natural Hindi speech synthesis with expressive prosody</p> <p>• Multi-speaker dialogue generation</p> <p>• Voice cloning from short reference samples (10–30 seconds)</p> <p>• Long-form audio generation (up to 45 minutes context)</p> <p>• Works with VibeVoice community pipeline and ComfyUI</p> <p>Tech Stack: • Qwen2.5-7B LLM backbone with LoRA fine-tuning</p> <p>• Acoustic (σ-VAE) + semantic tokenizers @ 7.5 Hz</p> <p>• Diffusion head (~600M params) for high-fidelity acoustics</p> <p>• 32k token context window</p> <p>Released under MIT License. Feedback and contributions welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/martian7r\"> /u/martian7r </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "41cd0eea-7b1a-5c50-be67-64ceb9151fcd",
+    "title": "How practical is finetuning larger models with 4x 3090 setup?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oqyix9/how_practical_is_finetuning_larger_models_with_4x/",
+    "pubDate": "2025-11-07T16:11:13+00:00",
+    "description": "I am thinking of building 4x3090 setup cause other options with large VRAM are quite expensive and not worth the buck. For instance, pro 6000 has 96gigs but costs around 10,000. OTH, 3090's VRAM could be pooled together so 4x3090 would have same VRAM (a bit slower though) but significantly cheaper. Is it practical? submitted by /u/Specialist-Let9791 [link] [comments]",
+    "author": "/u/Specialist-Let9791",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am thinking of building 4x3090 setup cause other options with large VRAM are quite expensive and not worth the buck. For instance, pro 6000 has 96gigs but costs around 10,000. OTH, 3090's VRAM could be pooled together so 4x3090 would have same VRAM (a bit slower though) but significantly cheaper. </p> <p>Is it practical? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist-Let9791\"> /u/Specialist-Let9791 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqyix9/how_practical_is_finetuning_larger_models_with_4x/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqyix9/how_practical_is_finetuning_larger_models_with_4x/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b663032f-f1ea-5801-9390-3f70b67f60fc",
     "title": "AMA Announcement: Moonshot AI, The Opensource Frontier Lab Behind Kimi K2 Thinking SoTA Model (Monday, 8AM-11AM PST)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oqy1k7/ama_announcement_moonshot_ai_the_opensource/",
@@ -29,6 +45,22 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqxx8w/vulnerability_inception_how_ai_code_assistants/\"> <img alt=\"Vulnerability Inception: How AI Code Assistants Replicate and Amplify Security Flaws\" src=\"https://external-preview.redd.it/5sm3GRNGqkHPJJHTtLe5heJ60MTx9qDDMNLNZZnboms.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=81efb413a983424e2fb3cecba428a0affa68289f\" title=\"Vulnerability Inception: How AI Code Assistants Replicate and Amplify Security Flaws\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi all, I'm sharing an article about prompt injection in Large Language Models (LLMs), specifically regarding coding and coding agents. The research shows that it's easy to manipulate LLMs into injecting backdoors and vulnerabilities into code, simply by embedding instructions in a comment, as the LLM will follow any instructions it finds in the original source code.</p> <p>This is relevant to the localLlama community because only one open-weights model, Deepseek 3.2 Exp, appears to resistant (but not immune) to this vulnerability. It seems to have received specialized training to avoid introducing security flaws. I think this is a significant finding and hope you find it useful.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ortegaalfredo\"> /u/ortegaalfredo </a> <br /> <span><a href=\"https://github.com/ortegaalfredo/aiweaknesses/blob/main/ai_vulnerabilities_article.pdf\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqxx8w/vulnerability_inception_how_ai_code_assistants/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/5sm3GRNGqkHPJJHTtLe5heJ60MTx9qDDMNLNZZnboms.png?width=640&crop=smart&auto=webp&s=81efb413a983424e2fb3cecba428a0affa68289f",
+    "isShortVideo": 0
+  },
+  {
+    "id": "1d7753e0-0c54-5821-87c1-4a50d9059d4e",
+    "title": "From your experience for text only, how is Qwen3VL compared to Qwen3, does having a Visual module penalize the text-only capacities ?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oqxuqs/from_your_experience_for_text_only_how_is_qwen3vl/",
+    "pubDate": "2025-11-07T15:46:05+00:00",
+    "description": "Title. Let's say Qwen3-30B-A3B-Instruct-2507 excels at text only and long context. What about Qwen3-VL-30B-A3B-Instruct if you use it as a text only model ? have you seen any quality loss ? We're wondering if it make sense to have in one gpu Qwen3 VL and on another gpu Qwen3. submitted by /u/LinkSea8324 [link] [comments]",
+    "author": "/u/LinkSea8324",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Title.</p> <p>Let's say <code>Qwen3-30B-A3B-Instruct-2507</code> excels at text only and long context.</p> <p>What about <code>Qwen3-VL-30B-A3B-Instruct</code> if you use it as a text only model ? have you seen any quality loss ?</p> <p>We're wondering if it make sense to have in one gpu Qwen3 VL and on another gpu Qwen3.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LinkSea8324\"> /u/LinkSea8324 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqxuqs/from_your_experience_for_text_only_how_is_qwen3vl/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqxuqs/from_your_experience_for_text_only_how_is_qwen3vl/\">[comments]</a></span>",
+    "image": "",
     "isShortVideo": 0
   },
   {
@@ -444,38 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Voice-to-voice latency needs to be under a certain threshold for conversational agents to sound natural. A general target is 1s or less. The Modal team wanted to see how fast we could get a STT &gt; LLM &gt; TTS pipeline working with self-deployed, open models only: <a href=\"https://modal.com/blog/low-latency-voice-bot\">https://modal.com/blog/low-latency-voice-bot</a></p> <p>We used:</p> <p>- Parakeet-tdt-v3* [STT]<br /> - Qwen3-4B-Instruct-2507 [LLM]<br /> - KokoroTTS</p> <p>plus Pipecat, an open-source voice AI framework, to orchestrate these services. </p> <p><em>\\</em> An interesting finding is that Parakeet (paired with VAD for segmentation) was so fast, it beat open-weights streaming models we tested*!</p> <p>Getting down to 1s latency required optimizations along several axes 🪄</p> <ul> <li>Streaming vs not-streaming STT models</li> <li>Colocating VAD (voice activity detection) with Pipecat vs with the STT service </li> <li>Different parameterizations for vLLM, the inference engine we used</li> <li>Optimizing audio chunk size and silence clipping for TTS</li> <li>Using WebRTC for client to bot communication. We used SmallWebRTC, an open-source transport from Daily.</li> <li>Using WebSockets for streaming inputs and outputs of the STT and TTS services.</li> <li>Pinning all our services to the same region.</li> </ul> <p>While we ran all the services on Modal, we think that many of these latency optimizations are relevant no matter where you deploy!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/crookedstairs\"> /u/crookedstairs </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqe8o2/1_second_voicetovoice_latency_with_all_open/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqe8o2/1_second_voicetovoice_latency_with_all_open/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "34958c69-7e07-513d-9e0f-12edee872084",
-    "title": "Now gemini-3-pro-preview-11-2025 works on Gemini CLI",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oqdj85/now_gemini3propreview112025_works_on_gemini_cli/",
-    "pubDate": "2025-11-06T22:47:49+00:00",
-    "description": "tweet: https://x.com/sigridjin_eth/status/1986564626449113126 it seems like the model overrides 403 issue occasionally, but mostly it is not able to use it. submitted by /u/Ok_Rub1689 [link] [comments]",
-    "author": "/u/Ok_Rub1689",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqdj85/now_gemini3propreview112025_works_on_gemini_cli/\"> <img alt=\"Now gemini-3-pro-preview-11-2025 works on Gemini CLI\" src=\"https://b.thumbs.redditmedia.com/66jjg5z2dPZZLm2lmnIto3S4WtVIRHOBEw9ogd_4spg.jpg\" title=\"Now gemini-3-pro-preview-11-2025 works on Gemini CLI\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>tweet: <a href=\"https://x.com/sigridjin_eth/status/1986564626449113126\">https://x.com/sigridjin_eth/status/1986564626449113126</a></p> <p>it seems like the model overrides 403 issue occasionally, but mostly it is not able to use it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Rub1689\"> /u/Ok_Rub1689 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1oqdj85\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqdj85/now_gemini3propreview112025_works_on_gemini_cli/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/66jjg5z2dPZZLm2lmnIto3S4WtVIRHOBEw9ogd_4spg.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b7256ac8-fd74-5053-b6bd-4e1a68cddc52",
-    "title": "Just want to take a moment to express gratitude for this tech",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oqcd1y/just_want_to_take_a_moment_to_express_gratitude/",
-    "pubDate": "2025-11-06T22:00:28+00:00",
-    "description": "What a time to be alive! I was just randomly reflecting today - a single file with just a bunch of numbers can be used to make poems, apps, reports and so much more. And that's just LLMs.. But then this applies to image, video, speech, music, audio, 3D models and whatever else that can be expressed digitally Anyone can do this with publicly available downloads and software. You dont need sophisticated computers or hardware. Possibly most insane of all is that you can do all of this for free. This is just utter insanity. If you had told me this would be the ecosystem before this wave happened, I would have never believed you. Regardless of how things evolve, I think we should be immensely grateful for all of this. submitted by /u/rm-rf-rm [link] [comments]",
-    "author": "/u/rm-rf-rm",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>What a time to be alive! </p> <p>I was just randomly reflecting today - a single file with just a bunch of numbers can be used to make poems, apps, reports and so much more. And that's just LLMs.. But then this applies to image, video, speech, music, audio, 3D models and whatever else that can be expressed digitally</p> <p>Anyone can do this with publicly available downloads and software. You dont need sophisticated computers or hardware.</p> <p>Possibly most insane of all is that you can do all of this for free.</p> <p>This is just utter insanity. If you had told me this would be the ecosystem before this wave happened, I would have never believed you. Regardless of how things evolve, I think we should be immensely grateful for all of this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rm-rf-rm\"> /u/rm-rf-rm </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqcd1y/just_want_to_take_a_moment_to_express_gratitude/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqcd1y/just_want_to_take_a_moment_to_express_gratitude/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
