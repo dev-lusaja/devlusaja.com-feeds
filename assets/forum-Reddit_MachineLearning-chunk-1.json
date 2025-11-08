@@ -1,5 +1,21 @@
 [
   {
+    "id": "0087a092-09c5-5766-bc08-4ff361565710",
+    "title": "[D] PhD New Grad Role OA",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oogsl7/d_phd_new_grad_role_oa/",
+    "pubDate": "2025-11-04T19:30:19+00:00",
+    "description": "Hi everyone, I have an upcoming online assignment HackerRank for PhD Machine Learning New Grad role at Stripe. I haven’t found any info about ML roles and most of the info is about SWE roles. Do you think it will be similar to SWE assignments? or more focused on machine learning tasks such as model training on a dataset? Or more like a leetcode style? It says: 90-minute, assess your coding and machine learning skills. I was wondering if anybody has some insight or tips to share. Would truly appreciate that! submitted by /u/NeM000N [link] [comments]",
+    "author": "/u/NeM000N",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have an upcoming online assignment HackerRank for PhD Machine Learning New Grad role at Stripe. I haven’t found any info about ML roles and most of the info is about SWE roles.</p> <p>Do you think it will be similar to SWE assignments? or more focused on machine learning tasks such as model training on a dataset? Or more like a leetcode style?</p> <p>It says: 90-minute, assess your coding and machine learning skills.</p> <p>I was wondering if anybody has some insight or tips to share. Would truly appreciate that!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeM000N\"> /u/NeM000N </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oogsl7/d_phd_new_grad_role_oa/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oogsl7/d_phd_new_grad_role_oa/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1fff6eaa-154c-5289-9052-c8e78c2040c2",
     "title": "[D] Moral Uncertainty Around Emerging AI Introspection",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ooaj2e/d_moral_uncertainty_around_emerging_ai/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>GitHub Repo:</strong> <a href=\"https://github.com/Aman-Khokhar18/safe-roads\">https://github.com/Aman-Khokhar18/safe-roads</a></p> <p><a href=\"https://www.saferoads-london.site/\">Web App Demo</a></p> <p><strong>TL;DR</strong><br /> I built a small app that shows live collision risk across London. It learns patterns from historical TfL collision data and overlays risk on an interactive map. Open source, friendly to poke around, and I would love feedback.</p> <p>What it is</p> <ul> <li>Spatiotemporal risk scoring for London using a fixed spatial grid (H3 hexes) and time context</li> <li>Interactive map with a hotspot panel in the top right</li> <li>A simple data exploration page and short notes on the model</li> </ul> <p>Why I made it</p> <ul> <li>I wanted a lightweight, transparent way to explore where and when collision risk trends higher</li> <li>Makes it easy to discuss what features help, what does not, and what is misleading</li> </ul> <p>Data</p> <ul> <li>Historical TfL collision records</li> <li>Time aligned context features</li> <li>Optional external context like OSM history and weather are supported in the pipeline</li> </ul> <p>Features</p> <ul> <li>Temporal features like hour of day and day of week with simple sine and cosine encodings</li> <li>Spatial features on a hex grid to avoid leaking between nearby points</li> <li>Optional neighbor aggregates so each cell has local context</li> </ul> <p>Model</p> <ul> <li>Start simple so it is easy to debug and explain</li> <li>Tree based classifiers with probability calibration so the scores are usable</li> <li>Focus on clarity over squeezing the last bit of PR AUC</li> </ul> <p>Training and evaluation</p> <ul> <li>Class imbalance is strong, so I look at PR curves, Brier score, and reliability curves</li> <li>Spatial or group style cross validation to reduce leakage between nearby hex cells</li> <li>Still iterating on split schemes, calibration, and uncertainty</li> </ul> <p>Serving and UI</p> <ul> <li>Backend API that scores tiles for a selected time context</li> <li>Map renders tile scores and lets you toggle hotspots from the panel</li> <li>Front end is a simple Leaflet app</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AntiFunSpammer\"> /u/AntiFunSpammer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1okwh3p/p_i_build_a_model_to_visualise_live_collision/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1okwh3p/p_i_build_a_model_to_visualise_live_collision/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4487b61d-fff5-53eb-8fa1-0e0e5c191a2d",
-    "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1okj2rw/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-    "pubDate": "2025-10-31T02:31:34+00:00",
-    "description": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for] ​ Please remember that this community is geared towards those with experience. submitted by /u/AutoModerator [link] [comments]",
-    "author": "/u/AutoModerator",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for]</p> </blockquote> <p>&#x200b;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1okj2rw/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1okj2rw/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

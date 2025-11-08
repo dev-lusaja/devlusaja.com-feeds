@@ -1,6 +1,6 @@
 {
-  "totalItems": 13231,
-  "generatedAt": "2025-11-07T20:46:27.709993Z",
+  "totalItems": 13284,
+  "generatedAt": "2025-11-08T09:56:16.583431Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -184,17 +184,17 @@
     }
   ],
   "byType": {
-    "youtube": {
-      "totalItems": 130,
-      "totalChunks": 5,
-      "itemsPerChunk": 30,
-      "chunkPrefix": "youtube-all"
-    },
     "notice": {
-      "totalItems": 1108,
+      "totalItems": 1123,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
+    },
+    "youtube": {
+      "totalItems": 129,
+      "totalChunks": 5,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "youtube-all"
     },
     "tiktok": {
       "totalItems": 77,
@@ -209,7 +209,7 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 1463,
+      "totalItems": 1495,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -244,7 +244,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 664,
+        "count": 680,
         "isPriority": true,
         "totalChunks": 23,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -252,7 +252,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 606,
+        "count": 621,
         "isPriority": true,
         "totalChunks": 21,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -260,7 +260,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 193,
+        "count": 194,
         "isPriority": true,
         "totalChunks": 7,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -270,7 +270,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2322,
+        "count": 2330,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -278,7 +278,7 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 290,
+        "count": 293,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-LaNacion_AR"
@@ -302,7 +302,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 107,
+        "count": 117,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-El_Pais"
@@ -310,7 +310,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 89,
+        "count": 90,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Towards"
@@ -326,7 +326,7 @@
       {
         "category": "OpenAI",
         "title": "OpenAI",
-        "count": 84,
+        "count": 83,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-OpenAI"
@@ -334,7 +334,7 @@
       {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 63,
+        "count": 64,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Euronews"
@@ -442,18 +442,10 @@
       {
         "category": "YouTube_DotCSV_Lab",
         "title": "DotCSV Lab",
-        "count": 8,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "youtube-YouTube_DotCSV_Lab"
-      },
-      {
-        "category": "YouTube_la_inteligencia_artificial",
-        "title": "La Inteligencia Artificial",
         "count": 7,
         "isPriority": true,
         "totalChunks": 1,
-        "chunkPrefix": "youtube-YouTube_la_inteligencia_artificial"
+        "chunkPrefix": "youtube-YouTube_DotCSV_Lab"
       },
       {
         "category": "YouTube_CodificandoBits",
@@ -462,6 +454,14 @@
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_CodificandoBits"
+      },
+      {
+        "category": "YouTube_la_inteligencia_artificial",
+        "title": "La Inteligencia Artificial",
+        "count": 7,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "youtube-YouTube_la_inteligencia_artificial"
       },
       {
         "category": "YouTube_DotCSV",
