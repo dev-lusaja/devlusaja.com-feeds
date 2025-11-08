@@ -338,11 +338,9 @@ def extract_tiktok_video(video_element, username: str, context: BrowserContext, 
 
         if video_exists:
             # Video ya existe, usar fecha actual (no se guardará de todas formas)
-            log(f"   ⏭️  Video ya existe en BD, omitiendo visita individual")
             entry['published'] = datetime.utcnow().isoformat() + '+00:00'
         else:
             # Video nuevo, visitar página para extraer fecha real
-            log(f"   🆕 Video nuevo, extrayendo fecha...")
             video_date = extract_date_from_video_page(context, entry['link'])
             if video_date:
                 entry['published'] = video_date

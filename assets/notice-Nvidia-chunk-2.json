@@ -1,5 +1,21 @@
 [
   {
+    "id": "9024b298-1919-518c-bb29-074adb31a023",
+    "title": "How Starcloud Is Bringing Data Centers to Outer Space",
+    "link": "https://blogs.nvidia.com/blog/starcloud/",
+    "pubDate": "2025-10-15T13:00:55+00:00",
+    "description": "The NVIDIA Inception startup projects that space-based data centers will offer 10x lower energy costs and reduce the need for energy consumption on Earth.",
+    "author": "Angie Lee",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<div id=\"bsf_rt_marker\"></div>",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2025/10/starcloud-featured-video-still-1280x680-1.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "950cbc2a-2fe7-52f9-be9e-29b22c6e6406",
     "title": "Accelerate Qubit Research with NVIDIA cuQuantum Integrations in QuTiP and scQubits",
     "link": "https://developer.nvidia.com/blog/accelerate-qubit-research-with-nvidia-cuquantum-integrations-in-qutip-and-scqubits/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/04/blackwell-cuda-12-9-family-specific-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blackwell-cuda-12-9-family-specific-featured\" width=\"768\" />Managing memory is one of the most important performance characteristics to consider when writing a GPU kernel.&nbsp; This post walks you through the important...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/04/blackwell-cuda-12-9-family-specific-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blackwell-cuda-12-9-family-specific-featured\" width=\"768\" /><p>Managing memory is one of the most important performance characteristics to consider when writing a GPU kernel. This post walks you through the important aspects you should know about global memory and its performance. There are several kinds of memory on a CUDA device, each with different scope, lifetime, and caching behavior. Global memory (also called device memory) is the primary…</p>\n<p><a href=\"https://developer.nvidia.com/blog/unlock-gpu-performance-global-memory-access-in-cuda/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/04/blackwell-cuda-12-9-family-specific-featured.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "11508165-35aa-5c48-a3dc-ea5416cf1cae",
-    "title": "Streamline Robot Learning with Whole-Body Control and Enhanced Teleoperation in NVIDIA Isaac Lab 2.3",
-    "link": "https://developer.nvidia.com/blog/streamline-robot-learning-with-whole-body-control-and-enhanced-teleoperation-in-nvidia-isaac-lab-2-3/",
-    "pubDate": "2025-09-29T15:12:20+00:00",
-    "description": "Training robot policies from real-world demonstrations is costly, slow, and prone to overfitting, limiting generalization across tasks and environments. A...",
-    "author": "Akhil Docca",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/pbt-lift-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"pbt-lift.\" width=\"600\" />Training robot policies from real-world demonstrations is costly, slow, and prone to overfitting, limiting generalization across tasks and environments. A...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/pbt-lift-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"pbt-lift.\" width=\"600\" /><p>Training robot policies from real-world demonstrations is costly, slow, and prone to overfitting, limiting generalization across tasks and environments. A sim-first approach streamlines development, lowers risk and cost, and enables safer, more adaptable deployment. The latest version of Isaac Lab 2.3, in early developer preview, improves humanoid robot capabilities with advanced whole-body…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-robot-learning-with-whole-body-control-and-enhanced-teleoperation-in-nvidia-isaac-lab-2-3/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/pbt-lift-1-500x282.gif",
     "isShortVideo": 0
   }
 ]

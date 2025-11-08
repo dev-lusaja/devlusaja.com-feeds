@@ -1,5 +1,37 @@
 [
   {
+    "id": "2a68e6e3-2b6b-57b0-808f-87adb55faf93",
+    "title": "[D] Need arxiv endorsements (cs.AI - Artificial Intelligence) 🙏",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ob04uo/d_need_arxiv_endorsements_csai_artificial/",
+    "pubDate": "2025-10-19T20:25:54+00:00",
+    "description": "Ive spent the last four years learning ML and I'm gonna publish a paper this time, the only issue is arXiv requires endorsements. here is my paper draft: https://drive.google.com/file/d/168LVj3AG8R9Uszo9ZqIWsSZgNoxmhSRy/view?usp=sharing My arXiv endorsement code is: CW9CKV . You can endorse me on: https://arxiv.org/auth/endorse?x=CW9CKV They said their requirements were that you have three papers published already. Thanks, and looking forward to meeting people 😁 submitted by /u/NeatJealous8110 [link] [comments]",
+    "author": "/u/NeatJealous8110",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Ive spent the last four years learning ML and I'm gonna publish a paper this time, the only issue is arXiv requires endorsements.</p> <p>here is my paper draft: <a href=\"https://drive.google.com/file/d/168LVj3AG8R9Uszo9ZqIWsSZgNoxmhSRy/view?usp=sharing\">https://drive.google.com/file/d/168LVj3AG8R9Uszo9ZqIWsSZgNoxmhSRy/view?usp=sharing</a></p> <p>My arXiv endorsement code is: <strong>CW9CKV</strong>.</p> <p>You can endorse me on: <a href=\"https://arxiv.org/auth/endorse?x=CW9CKV\">https://arxiv.org/auth/endorse?x=CW9CKV</a></p> <p>They said their requirements were that you have three papers published already. Thanks, and looking forward to meeting people 😁</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeatJealous8110\"> /u/NeatJealous8110 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ob04uo/d_need_arxiv_endorsements_csai_artificial/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ob04uo/d_need_arxiv_endorsements_csai_artificial/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "557cec96-04b0-5aa1-9732-182200f72e13",
+    "title": "[p] A multi-pass pipeline for Named Entity Recognition using fuzzy matching and a masked LLM to analyze 25,000+ Reddit comments",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oavw8g/p_a_multipass_pipeline_for_named_entity/",
+    "pubDate": "2025-10-19T17:41:47+00:00",
+    "description": "I've been working on a project to extract structured data (entities and sentiment) from noisy, unstructured text from Reddit and wanted to share the methodology, as it uses a hybrid approach that some of you might find interesting. The goal was to build a robust pipeline that could balance the speed of traditional search with the discovery capabilities of an LLM. The 5-Phase Pipeline Architecture The system processes text in five distinct phases: Phase 1: High-Speed Fuzzy Matching: The first pass uses Fuse.js to perform a fuzzy search against a pre-populated database of known entities (in this case, 465 brands, 8,751 models, and 50 steel types related to chef knives). This step is extremely fast and catches the vast majority of common entities, including variations and typos. Phase 2: LLM-Based Entity Discovery (The Masking Technique): The main limitation of Phase 1 is that it can only find what it already knows. To discover novel or obscure entities, we use an LLM. To optimize this process and focus the model's attention, we first \"mask\" all entities found in Phase 1, replacing them with a `` token. The masked text is then passed to the LLM with a prompt instructing it to identify only the remaining unknown entities. This prevents the LLM from wasting computation on redundant discoveries and significantly improves the precision of the discovery phase. Phase 3: Contextual Sentiment Analysis: With a complete list of entities from both phases, another LLM call is made to analyze the context surrounding each mention. It assigns a sentiment score from -1.0 to +1.0. Phase 4: Summarization: The system generates a summary of the discussion and calculates a \"controversy level\" based on the sentiment distribution. Phase 5: Database Storage: All extracted data, including entities, sentiment scores, and summaries, are stored in a MongoDB database for final analysis. This multi-pass approach proved effective for handling a large volume of noisy, domain-specific text. The masking technique in Phase 2 was particularly useful for efficiently leveraging the LLM's power for discovery without the high cost and latency of processing the entire raw text. I'm particularly interested in feedback on this hybrid NER approach or alternative methods for combining deterministic and probabilistic models for entity extraction. What are your thoughts? submitted by /u/Putrid-Television981 [link] [comments]",
+    "author": "/u/Putrid-Television981",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been working on a project to extract structured data (entities and sentiment) from noisy, unstructured text from Reddit and wanted to share the methodology, as it uses a hybrid approach that some of you might find interesting. The goal was to build a robust pipeline that could balance the speed of traditional search with the discovery capabilities of an LLM.</p> <p><strong>The 5-Phase Pipeline Architecture</strong></p> <p>The system processes text in five distinct phases:</p> <ol> <li><strong>Phase 1: High-Speed Fuzzy Matching:</strong> The first pass uses Fuse.js to perform a fuzzy search against a pre-populated database of known entities (in this case, 465 brands, 8,751 models, and 50 steel types related to chef knives). This step is extremely fast and catches the vast majority of common entities, including variations and typos.</li> <li><strong>Phase 2: LLM-Based Entity Discovery (The Masking Technique):</strong> The main limitation of Phase 1 is that it can only find what it already knows. To discover novel or obscure entities, we use an LLM. To optimize this process and focus the model's attention, we first &quot;mask&quot; all entities found in Phase 1, replacing them with a `` token. The masked text is then passed to the LLM with a prompt instructing it to identify only the <em>remaining</em> unknown entities. This prevents the LLM from wasting computation on redundant discoveries and significantly improves the precision of the discovery phase.</li> <li><strong>Phase 3: Contextual Sentiment Analysis:</strong> With a complete list of entities from both phases, another LLM call is made to analyze the context surrounding each mention. It assigns a sentiment score from -1.0 to +1.0.</li> <li><strong>Phase 4: Summarization:</strong> The system generates a summary of the discussion and calculates a &quot;controversy level&quot; based on the sentiment distribution.</li> <li><strong>Phase 5: Database Storage:</strong> All extracted data, including entities, sentiment scores, and summaries, are stored in a MongoDB database for final analysis.</li> </ol> <p>This multi-pass approach proved effective for handling a large volume of noisy, domain-specific text. The masking technique in Phase 2 was particularly useful for efficiently leveraging the LLM's power for discovery without the high cost and latency of processing the entire raw text.</p> <p>I'm particularly interested in feedback on this hybrid NER approach or alternative methods for combining deterministic and probabilistic models for entity extraction. What are your thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Putrid-Television981\"> /u/Putrid-Television981 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oavw8g/p_a_multipass_pipeline_for_named_entity/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oavw8g/p_a_multipass_pipeline_for_named_entity/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bd802d80-5ed7-5974-b10b-6f8e7718436e",
     "title": "Are MLE roles being commoditized and squeezed? Are the jobs moving to AI engineering? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oajofr/are_mle_roles_being_commoditized_and_squeezed_are/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7hywy/r_create_a_family_of_pretrained_llms_of/\"> <img alt=\"[R]: Create a family of pre-trained LLMs of intermediate sizes from a single student-teacher pair\" src=\"https://b.thumbs.redditmedia.com/64l8C0o26TXrqhLmZ3NHtYuA4-pMq7GYAVlnxRgGKwc.jpg\" title=\"[R]: Create a family of pre-trained LLMs of intermediate sizes from a single student-teacher pair\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hello everyone!</p> <p>Excited to share our new preprint on a phenomenon we call boomerang distillation.</p> <p>Distilling a large teacher into a smaller student, then re-incorporating teacher layers into the student, yields a spectrum of models whose performance smoothly interpolates between the student and teacher. We call this <strong>boomerang distillation</strong>.</p> <p>This approach enables us to dynamically create LLMs of fine-grained sizes while saving an enormous amount of compute and training time.</p> <p>Happy to answer any questions about the paper (I am one of the authors of the paper).</p> <p>Paper: <a href=\"https://arxiv.org/abs/2510.05064\">https://arxiv.org/abs/2510.05064</a><br /> Code: <a href=\"https://github.com/dcml-lab/boomerang-distillation\">https://github.com/dcml-lab/boomerang-distillation</a><br /> Models: <a href=\"https://huggingface.co/collections/Harvard-DCML/boomerang-distillation-68e95c276a09358d9a39b52e\">https://huggingface.co/collections/Harvard-DCML/boomerang-distillation-68e95c276a09358d9a39b52e</a><br /> Notebook (you can run it on Google Colab): <a href=\"https://drive.google.com/file/d/1bAzX436ZH4zQmk5iQNauAOhGHIBJ1CkB/view?usp=sharing\">https://drive.google.com/file/d/1bAzX436ZH4zQmk5iQNauAOhGHIBJ1CkB/view?usp=sharing</a><br /> Tweet: <a href=\"https://x.com/elmelis/status/1978469609708667021\">https://x.com/elmelis/status/1978469609708667021</a></p> <p>Edit: the boomerang gif did not work. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nihalnayak\"> /u/nihalnayak </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7hywy/r_create_a_family_of_pretrained_llms_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7hywy/r_create_a_family_of_pretrained_llms_of/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/64l8C0o26TXrqhLmZ3NHtYuA4-pMq7GYAVlnxRgGKwc.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "05dde920-d731-50e5-8adc-5b249acc541a",
-    "title": "[D] ML interviewers, what do you wnat to hear during an interview?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1o7d963/d_ml_interviewers_what_do_you_wnat_to_hear_during/",
-    "pubDate": "2025-10-15T14:55:47+00:00",
-    "description": "I have a masters (research) in AI. I have been looking for research inclined roles but haven't found success yet. I land some interview now and then but haven't gone past the 3rd round yet. Any tips on how to optimise my search and improve my interview performance? What do the interviewers want to hear? Additional info for context: - Around 1.5 yoe in ML research (including internships) - Prior work in object re-identification, adversarial training, speech recognition, and LLM and agent evaluation. - Roles seeking: LLM pre and post-training, LLM reasoning, general MLE / RE roles submitted by /u/SirOddSidd [link] [comments]",
-    "author": "/u/SirOddSidd",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a masters (research) in AI. I have been looking for research inclined roles but haven't found success yet. I land some interview now and then but haven't gone past the 3rd round yet. Any tips on how to optimise my search and improve my interview performance? What do the interviewers want to hear?</p> <p>Additional info for context:</p> <p>- Around 1.5 yoe in ML research (including internships)</p> <p>- Prior work in object re-identification, adversarial training, speech recognition, and LLM and agent evaluation.</p> <p>- Roles seeking: LLM pre and post-training, LLM reasoning, general MLE / RE roles</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SirOddSidd\"> /u/SirOddSidd </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7d963/d_ml_interviewers_what_do_you_wnat_to_hear_during/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7d963/d_ml_interviewers_what_do_you_wnat_to_hear_during/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7d433b93-59cf-5ccd-abd7-0bab4cc1e037",
-    "title": "[D] ICCV 2025 Hawaii",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1o7ar8w/d_iccv_2025_hawaii/",
-    "pubDate": "2025-10-15T13:17:47+00:00",
-    "description": "Hi all I'll be attending this year's iccv in honolulu. This is my first conference and I don't really know anyone else going. I was hoping to make some connections before I get there. If anyone is going, please let me know! submitted by /u/mfc2496 [link] [comments]",
-    "author": "/u/mfc2496",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all </p> <p>I'll be attending this year's iccv in honolulu. This is my first conference and I don't really know anyone else going. I was hoping to make some connections before I get there. If anyone is going, please let me know! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mfc2496\"> /u/mfc2496 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7ar8w/d_iccv_2025_hawaii/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o7ar8w/d_iccv_2025_hawaii/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

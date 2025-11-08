@@ -17,6 +17,7 @@ exclusions:
       - anthropic
       - DeepMind
       - Nvidia
+      - HuggingFace
     # Ejemplo para otros sourceTypes:
     # youtube:
     #   - SomeCategory
@@ -24,6 +25,7 @@ exclusions:
     #   - AnotherCategory
 
 feeds:
+### NOTICIAS EN ESPAÑOL ###
   - url: 'https://www.xataka.com/tag/inteligencia-artificial/rss2.xml'
     title: 'Xataka IA'
     category: 'Xataka'
@@ -32,6 +34,11 @@ feeds:
   - url: 'https://es.wired.com/tag/inteligencia-artificial'
     title: 'Wired'
     category: 'Wired_ES'
+    sourceType: 'notice'
+    country: 'Internacional'
+  - url: 'https://cnnespanol.cnn.com/ciencia/inteligencia-artificial'
+    title: 'CNN'
+    category: 'CNN_Espanol'
     sourceType: 'notice'
     country: 'Internacional'
   - url: 'https://elpais.com/noticias/inteligencia-artificial/'
@@ -54,16 +61,7 @@ feeds:
     category: 'LaNacion_AR'
     sourceType: 'notice'
     country: 'Argentina'
-  - url: https://openai.com/news/rss.xml
-    title: OpenAI
-    category: OpenAI
-    sourceType: notice
-    country: ''
-  - url: 'https://deepmind.google/blog/rss.xml'
-    title: 'DeepMind'
-    category: 'DeepMind'
-    sourceType: 'notice'
-    country: ''
+### NOTICIAS EN INGLÉS ###
   - url: 'https://www.kdnuggets.com/feed'
     title: 'KDnuggets'
     category: 'KDnuggets'
@@ -89,11 +87,6 @@ feeds:
     category: 'TechCrunch_AI'
     sourceType: 'notice'
     country: ''
-  - url: 'https://huggingface.co/blog/feed.xml'
-    title: 'HuggingFace'
-    category: 'HuggingFace'
-    sourceType: 'notice'
-    country: ''
   - url: 'https://aws.amazon.com/es/blogs/machine-learning/feed/'
     title: 'AWS'
     category: 'AWS'
@@ -107,6 +100,22 @@ feeds:
   - url: 'https://towardsdatascience.com/feed/'
     title: 'Towards Data Science'
     category: 'Towards'
+    sourceType: 'notice'
+    country: ''
+### TOP COMPANIES ###
+  - url: 'https://huggingface.co/blog/feed.xml'
+    title: 'HuggingFace'
+    category: 'HuggingFace'
+    sourceType: 'notice'
+    country: ''
+  - url: https://openai.com/news/rss.xml
+    title: OpenAI
+    category: OpenAI
+    sourceType: notice
+    country: ''
+  - url: 'https://deepmind.google/blog/rss.xml'
+    title: 'DeepMind'
+    category: 'DeepMind'
     sourceType: 'notice'
     country: ''
   - url: 'https://feeds.feedburner.com/nvidiablog'
@@ -124,6 +133,7 @@ feeds:
     category: 'anthropic'
     sourceType: 'notice'
     country: ''
+### BLOGS EDUCATIVOS ###
   - url: 'https://machinelearningmastery.com/blog/feed/'
     title: 'Machine Learning Mastery'
     category: 'MachineLearningMastery'
@@ -134,6 +144,7 @@ feeds:
     category: 'fastai'
     sourceType: 'educational'
     country: ''
+### ARXIV PAPERS ###
   - url: 'https://export.arxiv.org/rss/cs.LG'
     title: 'arXiv cs.LG'
     category: 'arXiv_LG'
@@ -144,6 +155,7 @@ feeds:
     category: 'arXiv_AI'
     sourceType: 'pappers'
     country: ''
+### FOROS DE REDDIT ###
   - url: 'https://www.reddit.com/r/MachineLearning/.rss'
     title: 'Reddit MachineLearning'
     category: 'Reddit_MachineLearning'
@@ -159,6 +171,7 @@ feeds:
     category: 'Reddit_ClaudeAI'
     sourceType: 'forum'
     country: ''
+  ### YOUTUBE CHANNELS AND TIKTOK PROFILES ###
   - url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCOTko-zmnQTcOxSRdg5_uOQ'
     title: 'DotCSV Lab'
     category: 'YouTube_DotCSV_Lab'
