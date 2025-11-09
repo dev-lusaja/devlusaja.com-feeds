@@ -1,5 +1,37 @@
 [
   {
+    "id": "94ec8553-8ec2-53ca-bf70-d3e30e4850fc",
+    "title": "[D] Question about Fact/Knowledge Graph Traversal, Model Traversal",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ory9fy/d_question_about_factknowledge_graph_traversal/",
+    "pubDate": "2025-11-08T19:31:39+00:00",
+    "description": "Hey all, Recently I made a post about Knowledge graph traversal: https://www.reddit.com/r/MachineLearning/s/RAzcGCatN6 I got a ton of constructive criticism about the research and I thank everyone for the comments. The main thing I realized was that it’s not a knowledge graph (ontological facts) but just a cosine/semantic similarity graph (cosine similarities). I have seen a lot of people in the sub here talk about fact/ontological knowledge graphs significantly more though. And I wanted to kind of spark a conversation about something. I did most of my research into cosine similarity graphs, but I’m curious if it’s possible to do some kind of combination of cosine similarity AND fact/ontology. Or if there’s even necessarily a use case for something like that. Additionally, and this was the big thing I found interesting, was having an LLM traverse a similarity graph proved very very effective at recall. I’m wondering if anyone has wanted to explore fact/ontological knowledge graph traversal. Or a combined graph that would ALSO contain cosine similarities. Has anyone explored or wanted to explore this? What about LLM traversal of combined knowledge graphs? I know that I’ve seen some people mentioned having an LLM build a knowledge graph from corpus which is very cool and doable, but I’m more talking about trying to make LLMs highly accurate via knowledge/information retrieval. submitted by /u/Alieniity [link] [comments]",
+    "author": "/u/Alieniity",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all,</p> <p>Recently I made a post about Knowledge graph traversal: <a href=\"https://www.reddit.com/r/MachineLearning/s/RAzcGCatN6\">https://www.reddit.com/r/MachineLearning/s/RAzcGCatN6</a></p> <p>I got a ton of constructive criticism about the research and I thank everyone for the comments. The main thing I realized was that it’s not a knowledge graph (ontological facts) but just a cosine/semantic similarity graph (cosine similarities).</p> <p>I have seen a lot of people in the sub here talk about fact/ontological knowledge graphs significantly more though. And I wanted to kind of spark a conversation about something. </p> <p>I did most of my research into cosine similarity graphs, but I’m curious if it’s possible to do some kind of combination of cosine similarity AND fact/ontology. Or if there’s even necessarily a use case for something like that. Additionally, and this was the big thing I found interesting, was having an LLM traverse a similarity graph proved very very effective at recall.</p> <p>I’m wondering if anyone has wanted to explore fact/ontological knowledge graph traversal. Or a combined graph that would ALSO contain cosine similarities. Has anyone explored or wanted to explore this? What about LLM traversal of combined knowledge graphs? I know that I’ve seen some people mentioned having an LLM <em>build</em> a knowledge graph from corpus which is very cool and doable, but I’m more talking about trying to make LLMs highly accurate via knowledge/information retrieval. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alieniity\"> /u/Alieniity </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ory9fy/d_question_about_factknowledge_graph_traversal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ory9fy/d_question_about_factknowledge_graph_traversal/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "19dac778-0906-5b0d-a2f8-46f1cb880999",
+    "title": "[D] Best AI coding assistant",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1orttl3/d_best_ai_coding_assistant/",
+    "pubDate": "2025-11-08T16:33:49+00:00",
+    "description": "I am an AI/ML engineer and I am currently using kilo code with gpt5 (for free, subscription given to me by my friend ) but my peers tell me that claude code is the better choice. So my question is, Is claude code so much better than gpt5 that I give up this free assistant and pay $20 every month? Also I have cursor too for free (provided by office). Any experience or suggestions to what should I use as my assistant for coding on daily basis. submitted by /u/ml_adrin [link] [comments]",
+    "author": "/u/ml_adrin",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am an AI/ML engineer and I am currently using kilo code with gpt5 (for free, subscription given to me by my friend ) but my peers tell me that claude code is the better choice. So my question is, Is claude code so much better than gpt5 that I give up this free assistant and pay $20 every month? Also I have cursor too for free (provided by office). Any experience or suggestions to what should I use as my assistant for coding on daily basis.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ml_adrin\"> /u/ml_adrin </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1orttl3/d_best_ai_coding_assistant/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1orttl3/d_best_ai_coding_assistant/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cecbbd20-7a49-5dc7-bb75-b97859a9e6d6",
     "title": "[D] Why TPUs are not as famous as GPUs",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ornns5/d_why_tpus_are_not_as_famous_as_gpus/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>WACV 2026 Final decisions are expected to be released within next 24 hours. Creating a discussion thread to discuss among ourselves, thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/akshitsharma1\"> /u/akshitsharma1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oowd9k/d_wacv_2026_final_decision_notification/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oowd9k/d_wacv_2026_final_decision_notification/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4b0641fd-8443-5687-a297-646324b4a704",
-    "title": "[P] arxiv troller: arxiv search tool",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ootf6k/p_arxiv_troller_arxiv_search_tool/",
-    "pubDate": "2025-11-05T04:24:57+00:00",
-    "description": "arxiv-sanity-lite stopped being hosted a few months back. I made a spiritual clone, arxiv troller with the goal of doing the same thing but with less jank. You can group papers into tags and search for similar papers, like with arxiv-sanity. You can also search for similar papers to a single paper, if you're just interested in just looking into a topic. The search works pretty well, and hopefully won't get pulled down to a crawl in the way that a-s did. https://preview.redd.it/57y918vw9dzf1.png?width=4040&format=png&auto=webp&s=965eb2ed604eb834c5aaf2a3797359414c06b3bc In the near future, I'm planning on adding citation-based similarity to the search and the ability for you to permanently remove undesired results from your tag searches. Would love to hear feature feedback (although I don't planning on expanding beyond basic search and paper org features), but most of all just for some people to use it if they miss a-s submitted by /u/Even-Tour-4580 [link] [comments]",
-    "author": "/u/Even-Tour-4580",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ootf6k/p_arxiv_troller_arxiv_search_tool/\"> <img alt=\"[P] arxiv troller: arxiv search tool\" src=\"https://a.thumbs.redditmedia.com/k-Fo7wUkyb7iO8N9FO3n7JUywhgB-gczQHRX8woJ-G4.jpg\" title=\"[P] arxiv troller: arxiv search tool\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>arxiv-sanity-lite stopped being hosted a few months back.</p> <p>I made a spiritual clone, <a href=\"http://arxiv-troller.com\">arxiv troller</a> with the goal of doing the same thing but with less jank. You can group papers into tags and search for similar papers, like with arxiv-sanity. You can also search for similar papers to a single paper, if you're just interested in just looking into a topic. The search works pretty well, and hopefully won't get pulled down to a crawl in the way that a-s did.</p> <p><a href=\"https://preview.redd.it/57y918vw9dzf1.png?width=4040&amp;format=png&amp;auto=webp&amp;s=965eb2ed604eb834c5aaf2a3797359414c06b3bc\">https://preview.redd.it/57y918vw9dzf1.png?width=4040&amp;format=png&amp;auto=webp&amp;s=965eb2ed604eb834c5aaf2a3797359414c06b3bc</a></p> <p>In the near future, I'm planning on adding citation-based similarity to the search and the ability for you to permanently remove undesired results from your tag searches.</p> <p>Would love to hear feature feedback (although I don't planning on expanding beyond basic search and paper org features), but most of all just for some people to use it if they miss a-s</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Even-Tour-4580\"> /u/Even-Tour-4580 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ootf6k/p_arxiv_troller_arxiv_search_tool/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ootf6k/p_arxiv_troller_arxiv_search_tool/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://a.thumbs.redditmedia.com/k-Fo7wUkyb7iO8N9FO3n7JUywhgB-gczQHRX8woJ-G4.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2e724a21-a13c-5484-aeda-4a85c69c33b4",
-    "title": "[R] Knowledge Graph Traversal With LLMs And Algorithms",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ookxb0/r_knowledge_graph_traversal_with_llms_and/",
-    "pubDate": "2025-11-04T22:08:33+00:00",
-    "description": "Hey all. After a year of research, I've published a GitHub repository containing Knowledge Graph Traversal algorithms for retrieval augmented generation, as well as for LLM traversal. The code is MIT licensed, and you may download/clone/fork the repository for your own testing. In short, knowledge graph traversal offers significant advantages over basic query similarity matching when it comes to retrieval augmented generation pipelines and systems. By moving through clustered ideas in high dimensional semantic space, you can retrieve much deeper, richer information based on a thought trail of understanding. There are two ways to traverse knowledge graphs in the research: - LLM directly (large language model actually traverses the knowledge graph unsupervised) - Algorithmic approach (various algorithms for efficient, accurate traversal for retrieval) If you get any value out of the research and want to continue it for your own use case, please do! Maybe drop a star on GitHub as well while you're at it. And if you have any questions, don't hesitate to ask. Link: https://github.com/glacier-creative-git/knowledge-graph-traversal-semantic-rag-research submitted by /u/Alieniity [link] [comments]",
-    "author": "/u/Alieniity",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ookxb0/r_knowledge_graph_traversal_with_llms_and/\"> <img alt=\"[R] Knowledge Graph Traversal With LLMs And Algorithms\" src=\"https://b.thumbs.redditmedia.com/5gWDT816s-Zr3XxUU7Uvc1x2NiDjNJAUGmTncFLxtWU.jpg\" title=\"[R] Knowledge Graph Traversal With LLMs And Algorithms\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey all. After a year of research, I've published a GitHub repository containing Knowledge Graph Traversal algorithms for retrieval augmented generation, as well as for LLM traversal. The code is MIT licensed, and you may download/clone/fork the repository for your own testing.</p> <p>In short, knowledge graph traversal offers significant advantages over basic query similarity matching when it comes to retrieval augmented generation pipelines and systems. By moving through clustered ideas in high dimensional semantic space, you can retrieve much deeper, richer information based on a thought trail of understanding. There are two ways to traverse knowledge graphs in the research:</p> <p>- LLM directly (large language model actually traverses the knowledge graph unsupervised)<br /> - Algorithmic approach (various algorithms for efficient, accurate traversal for retrieval)</p> <p>If you get any value out of the research and want to continue it for your own use case, please do! Maybe drop a star on GitHub as well while you're at it. And if you have any questions, don't hesitate to ask.</p> <p>Link: <a href=\"https://github.com/glacier-creative-git/knowledge-graph-traversal-semantic-rag-research\">https://github.com/glacier-creative-git/knowledge-graph-traversal-semantic-rag-research</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alieniity\"> /u/Alieniity </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1ookxb0\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ookxb0/r_knowledge_graph_traversal_with_llms_and/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/5gWDT816s-Zr3XxUU7Uvc1x2NiDjNJAUGmTncFLxtWU.jpg",
     "isShortVideo": 0
   }
 ]
