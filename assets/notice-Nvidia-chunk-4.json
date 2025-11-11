@@ -126,53 +126,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/asr-graphic-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"asr-graphic\" width=\"768\" />As AI models grow larger and process longer sequences of text, efficiency becomes just as important as scale.&nbsp;&nbsp; To showcase what’s next, Alibaba...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/asr-graphic-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"asr-graphic\" width=\"768\" /><p>As AI models grow larger and process longer sequences of text, efficiency becomes just as important as scale. To showcase what’s next, Alibaba released two new open source models, Qwen3-Next 80B-A3B-Thinking and Qwen3-Next 80B-A3B-Instruct to preview a new hybrid Mixture of Experts (MoE) architecture with the research and developer community. Qwen3-Next-80B-A3B-Thinking is now live…</p>\n<p><a href=\"https://developer.nvidia.com/blog/new-open-source-qwen3-next-models-preview-hybrid-moe-architecture-delivering-improved-accuracy-and-accelerated-parallel-processing-across-nvidia-platform/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/asr-graphic.jpg",
     "isShortVideo": 0
-  },
-  {
-    "id": "22dcf5a4-3689-55be-8a7a-3f6c248bd55e",
-    "title": "Modeling Attacks on AI-Powered Apps with the AI Kill Chain Framework",
-    "link": "https://developer.nvidia.com/blog/modeling-attacks-on-ai-powered-apps-with-the-ai-kill-chain-framework/",
-    "pubDate": "2025-09-11T16:00:00+00:00",
-    "description": "AI-powered applications are introducing new attack surfaces that traditional security models don’t fully capture, especially as these agentic systems gain...",
-    "author": "Rich Harang",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/security-techblog-press-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"security-techblog-press-1920x1080\" width=\"768\" />AI-powered applications are introducing new attack surfaces that traditional security models don’t fully capture, especially as these agentic systems gain...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/security-techblog-press-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"security-techblog-press-1920x1080\" width=\"768\" /><p>AI-powered applications are introducing new attack surfaces that traditional security models don’t fully capture, especially as these agentic systems gain autonomy. The guiding principle for the evolving attack surface is clear: Assume prompt injection. But turning that into effective defenses is rarely straightforward. The Cyber Kill Chain security framework defines how attackers operate.</p>\n<p><a href=\"https://developer.nvidia.com/blog/modeling-attacks-on-ai-powered-apps-with-the-ai-kill-chain-framework/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/security-techblog-press-1920x1080-1.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "25f2b03c-753a-542e-8ff2-055b8be61212",
-    "title": "Build High-Performance Vision AI Pipelines with NVIDIA CUDA-Accelerated VC-6",
-    "link": "https://developer.nvidia.com/blog/build-high-performance-vision-ai-pipelines-with-nvidia-cuda-accelerated-vc-6/",
-    "pubDate": "2025-09-11T16:00:00+00:00",
-    "description": "The constantly increasing compute throughput of NVIDIA GPUs presents a new opportunity for optimizing vision AI workloads: keeping the hardware fed with data....",
-    "author": "Andreas Kieslinger",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/Build-High-Performance-Vision-AI-Pipelines-with-NVIDIA-CUDA-Accelerated-VC-6-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Build High-Performance Vision AI Pipelines with NVIDIA CUDA-Accelerated VC-6\" width=\"768\" />The constantly increasing compute throughput of NVIDIA GPUs presents a new opportunity for optimizing vision AI workloads: keeping the hardware fed with data....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/Build-High-Performance-Vision-AI-Pipelines-with-NVIDIA-CUDA-Accelerated-VC-6-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Build High-Performance Vision AI Pipelines with NVIDIA CUDA-Accelerated VC-6\" width=\"768\" /><p>The constantly increasing compute throughput of NVIDIA GPUs presents a new opportunity for optimizing vision AI workloads: keeping the hardware fed with data. As GPU performance continues to scale, traditional data pipeline stages, such as I/O from storage, host-to-device data transfers (PCIe), and CPU-bound processing like decoding and resizing, don’t always keep pace. This disparity can create a…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-high-performance-vision-ai-pipelines-with-nvidia-cuda-accelerated-vc-6/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/Build-High-Performance-Vision-AI-Pipelines-with-NVIDIA-CUDA-Accelerated-VC-6.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "753ad7a0-7cb4-568f-a626-986a97bdecdd",
-    "title": "How Quantization Aware Training Enables Low-Precision Accuracy Recovery",
-    "link": "https://developer.nvidia.com/blog/how-quantization-aware-training-enables-low-precision-accuracy-recovery/",
-    "pubDate": "2025-09-11T15:00:00+00:00",
-    "description": "After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ),...",
-    "author": "Eduardo Alvarez",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-social-chat-labs-blog-5-tw-1200x675\" width=\"768\" />After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ),...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-social-chat-labs-blog-5-tw-1200x675\" width=\"768\" /><p>After training AI models, a variety of compression techniques can be used to optimize them for deployment. The most common is post-training quantization (PTQ), which applies numerical scaling techniques to approximate model weights in lower-precision data types. But two other strategies—quantization aware training (QAT) and quantization aware distillation (QAD)—can succeed where PTQ falls short by…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-quantization-aware-training-enables-low-precision-accuracy-recovery/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/llm-social-chat-labs-blog-5-tw-1200x675-1.png",
-    "isShortVideo": 0
   }
 ]
