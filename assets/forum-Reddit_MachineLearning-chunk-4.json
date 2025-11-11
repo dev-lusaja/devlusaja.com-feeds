@@ -1,5 +1,21 @@
 [
   {
+    "id": "a3e23d07-c70d-5dc7-bd4a-52e37454713f",
+    "title": "[P] Need ArXiv endorsement for my accepted ML paper",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/",
+    "pubDate": "2025-10-27T15:36:03+00:00",
+    "description": "Hi everyone, I recently had a paper accepted at a ML conference (can share details in DM). I’m trying to upload it to arXiv as a next step in conference publications but my account requires an endorsement in the corresponding CS category. I’ve reached out to people in my org without much luck so far. If anyone here is an arXiv endorser for a CS/ML category and is open to helping, I’d really appreciate it. Happy to share the abstract and author details privately. Thanks in advance! submitted by /u/Baby-Heisenberg [link] [comments]",
+    "author": "/u/Baby-Heisenberg",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/MachineLearning/?f=flair_name%3A%22Research%22\"></a>Hi everyone,</p> <p>I recently had a paper accepted at a ML conference (can share details in DM). I’m trying to upload it to arXiv as a next step in conference publications but my account requires an endorsement in the corresponding CS category.</p> <p>I’ve reached out to people in my org without much luck so far. If anyone here is an arXiv endorser for a CS/ML category and is open to helping, I’d really appreciate it.</p> <p>Happy to share the abstract and author details privately.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Baby-Heisenberg\"> /u/Baby-Heisenberg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e948b531-95ba-5729-aad4-52d592dbc5eb",
     "title": "[D] For those who’ve published on code reasoning — how did you handle dataset collection and validation?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ohge3t/d_for_those_whove_published_on_code_reasoning_how/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’m currently working on a research project focused on <strong>designing a distributed inference protocol for large language models,</strong> something that touches on ideas like <strong>data routing, quantization, and KV caching</strong> for efficient inference across heterogeneous hardware.</p> <p>I’ve built out an initial design (in Alloy Analyzer) and am now exploring extensions, including simulation, partial implementations, and potential optimization techniques. I’d love to <strong>collaborate with others who are passionate about ML systems, distributed computing, or inference optimization.</strong></p> <p><strong>What’s in it for you:</strong></p> <ul> <li>Learn deeply about inference internals, model execution graphs, and system-level ML design.</li> <li>Collaborate on real research , possibly leading to a <strong>joint publication or open-source release</strong>.</li> <li>Hands-on exploration ,we can experiment with design trade-offs (e.g., communication latency, node failure tolerance, precision scaling).</li> <li>Networking and co-learning , work with others who love ML systems and want to go beyond just training models.</li> </ul> <p><strong>Looking for folks who:</strong></p> <ul> <li>Have experience or interest in ML systems, distributed computing, or performance optimization.</li> <li>Can contribute ideas, experiments, or just engage in design discussions.</li> <li>Are curious and open to learning and building collaboratively.</li> </ul> <p><strong>About me:</strong><br /> I’m a machine learning engineer working on pre-training, fine-tuning, and inference optimization for custom AI accelerators. I’ve been building ML systems for the past many years and recently started exploring theoretical and protocol-level aspects of inference. I’m also writing about applied ML systems and would love to collaborate with others who think deeply about efficiency, design, and distributed intelligence.</p> <p>Let’s build something meaningful together!</p> <p>If this sounds interesting, drop a comment or DM me, happy to share more details about the current design and next steps.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dracovidian-man\"> /u/dracovidian-man </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oefelf/p_looking_for_collaborators_for_a_ml_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oefelf/p_looking_for_collaborators_for_a_ml_research/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "124363c8-6ea1-5299-8d0d-48b62e31efb5",
-    "title": "[P] Mojo or Julia for Deep Learning Inference in a CLI Executable on CPUs?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oef8b3/p_mojo_or_julia_for_deep_learning_inference_in_a/",
-    "pubDate": "2025-10-23T21:06:48+00:00",
-    "description": "I have a PyTorch deep learning module and I want to create a single executable file that performs inference of this module on a CPU. It needs to perform as fast as possible. The executable file should be easy to build for a specific platform and should be relatively small in size (less than 100MB of overhead on top of the model parameters). I am not afraid of getting down to for loops if I have to, but would prefer to avoid that if possible. Both Mojo and Julia seem like good candidates. If performance is the same, which one would require the least effort? submitted by /u/adeandrade [link] [comments]",
-    "author": "/u/adeandrade",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a PyTorch deep learning module and I want to create a single executable file that performs inference of this module on a CPU. It needs to perform as fast as possible. The executable file should be easy to build for a specific platform and should be relatively small in size (less than 100MB of overhead on top of the model parameters).</p> <p>I am not afraid of getting down to for loops if I have to, but would prefer to avoid that if possible.</p> <p>Both Mojo and Julia seem like good candidates. If performance is the same, which one would require the least effort?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/adeandrade\"> /u/adeandrade </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oef8b3/p_mojo_or_julia_for_deep_learning_inference_in_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oef8b3/p_mojo_or_julia_for_deep_learning_inference_in_a/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
