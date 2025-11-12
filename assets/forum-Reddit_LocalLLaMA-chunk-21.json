@@ -1,5 +1,37 @@
 [
   {
+    "id": "484b2939-82d0-5c29-9532-a9021c2efb18",
+    "title": "Running on surface laptop 7",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocdoc3/running_on_surface_laptop_7/",
+    "pubDate": "2025-10-21T13:56:54+00:00",
+    "description": "Hi all, i have a surface laptop 7 that has a Snapdragon X Elite 12 core/16GB and 128MB GPU 1TB HDD. Im needing to do some pretty straight forward text analysis on a few thousand records, extract and infer specific data. Am I wishful thinking that I can run something locally? Im not worried too much about speed. Would be happy for it to run over night. Any help, advice, recommendations would be great appreciated. submitted by /u/Daveddus [link] [comments]",
+    "author": "/u/Daveddus",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, i have a surface laptop 7 that has a Snapdragon X Elite 12 core/16GB and 128MB GPU 1TB HDD.</p> <p>Im needing to do some pretty straight forward text analysis on a few thousand records, extract and infer specific data.</p> <p>Am I wishful thinking that I can run something locally? Im not worried too much about speed. Would be happy for it to run over night.</p> <p>Any help, advice, recommendations would be great appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Daveddus\"> /u/Daveddus </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocdoc3/running_on_surface_laptop_7/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocdoc3/running_on_surface_laptop_7/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "c7e2bbcc-98f3-50ce-bc71-dd3442a45dd2",
+    "title": "Qwen3-Next 80B-A3B llama.cpp implementation with CUDA support half-working already (up to 40k context only), also Instruct GGUFs",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1occyly/qwen3next_80ba3b_llamacpp_implementation_with/",
+    "pubDate": "2025-10-21T13:28:06+00:00",
+    "description": "Llama.cpp pull request GGUFs for Instruct model (old news but info for the uninitiated) submitted by /u/Ok_Top9254 [link] [comments]",
+    "author": "/u/Ok_Top9254",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1occyly/qwen3next_80ba3b_llamacpp_implementation_with/\"> <img alt=\"Qwen3-Next 80B-A3B llama.cpp implementation with CUDA support half-working already (up to 40k context only), also Instruct GGUFs\" src=\"https://preview.redd.it/a21ouwhkvgwf1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=242dfbde4c1caaaa4f35057e48df50de5e9cc8f6\" title=\"Qwen3-Next 80B-A3B llama.cpp implementation with CUDA support half-working already (up to 40k context only), also Instruct GGUFs\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://github.com/ggml-org/llama.cpp/pull/16095#issuecomment-3424224842\">Llama.cpp pull request</a></p> <p><a href=\"https://huggingface.co/lefromage/Qwen3-Next-80B-A3B-Instruct-GGUF\">GGUFs for Instruct model</a> (old news but info for the uninitiated)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Top9254\"> /u/Ok_Top9254 </a> <br /> <span><a href=\"https://i.redd.it/a21ouwhkvgwf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1occyly/qwen3next_80ba3b_llamacpp_implementation_with/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/a21ouwhkvgwf1.jpeg?width=640&crop=smart&auto=webp&s=242dfbde4c1caaaa4f35057e48df50de5e9cc8f6",
+    "isShortVideo": 0
+  },
+  {
     "id": "0024b4f1-2b6f-542a-8647-6fd58de84f9d",
     "title": "Which vision language models are best?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1occepv/which_vision_language_models_are_best/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obqqdi/are_imagetexttotext_models_becoming_the_next_big/\"> <img alt=\"Are Image-Text-to-Text models becoming the next big AI?\" src=\"https://preview.redd.it/mlml3tzrfbwf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=d600ef38fb84f739a9f4292ab6f8b5b80796085b\" title=\"Are Image-Text-to-Text models becoming the next big AI?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I’ve been checking the trending models lately and it’s crazy how many of them are Image-Text-to-Text. Out of the top 7 right now, 5 fall in that category (PaddleOCR-VL, DeepSeek-OCR, Nanonets-OCR2-3B, Qwen3-VL, etc). DeepSeek even dropped their own model today.</p> <p>Personally, I have been playing around with a few of them (OCR used to be such a pain earlier, imo) and the jump in quality is wild. They’re getting better at understanding layout, handwriting, tables data.<br /> (ps: My earlier fav was Mistral OCR)</p> <p>It feels like companies are getting quite focused on multimodal systems that can understand and reason over images directly.</p> <p>thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Full_Piano_3448\"> /u/Full_Piano_3448 </a> <br /> <span><a href=\"https://i.redd.it/mlml3tzrfbwf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obqqdi/are_imagetexttotext_models_becoming_the_next_big/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/mlml3tzrfbwf1.png?width=640&crop=smart&auto=webp&s=d600ef38fb84f739a9f4292ab6f8b5b80796085b",
-    "isShortVideo": 0
-  },
-  {
-    "id": "78955780-1cb7-56ae-953f-96d32ce98095",
-    "title": "Best Local LLMs - October 2025",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obqkpe/best_local_llms_october_2025/",
-    "pubDate": "2025-10-20T19:06:06+00:00",
-    "description": "Welcome to the first monthly \"Best Local LLMs\" post! Share what your favorite models are right now and why. Given the nature of the beast in evaluating LLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage (how much, personal/professional use), tools/frameworks/prompts etc. Rules Should be open weights models Applications General Agentic/Tool Use Coding Creative Writing/RP (look for the top level comments for each Application and please thread your responses under that) submitted by /u/rm-rf-rm [link] [comments]",
-    "author": "/u/rm-rf-rm",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong><em>Welcome to the first monthly &quot;Best Local LLMs&quot; post!</em></strong></p> <p>Share what your favorite models are right now <strong>and why.</strong> Given the nature of the beast in evaluating LLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage (how much, personal/professional use), tools/frameworks/prompts etc.</p> <p><strong>Rules</strong></p> <ol> <li>Should be open weights models</li> </ol> <p><strong>Applications</strong></p> <ol> <li>General</li> <li>Agentic/Tool Use</li> <li>Coding</li> <li>Creative Writing/RP</li> </ol> <p>(look for the top level comments for each Application and please thread your responses under that)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rm-rf-rm\"> /u/rm-rf-rm </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obqkpe/best_local_llms_october_2025/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obqkpe/best_local_llms_october_2025/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4a67852f-847e-5425-92cf-4b2e77393091",
-    "title": "LM Studio beta resizes images to 1024 px now for VL models",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/",
-    "pubDate": "2025-10-20T18:51:55+00:00",
-    "description": "https://preview.redd.it/gsoayja3cbwf1.png?width=800&format=png&auto=webp&s=69a9f2d362622335940a2883d9ba9babb930a7a4 Up from 500px. And they promise downsize will be configurable in the future. https://lmstudio.ai/beta-releases submitted by /u/egomarker [link] [comments]",
-    "author": "/u/egomarker",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/\"> <img alt=\"LM Studio beta resizes images to 1024 px now for VL models\" src=\"https://external-preview.redd.it/HLFitx4pf0jk0EXyGsTacqSfluQnnlai3zH8I6-hEEE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=bba9f38dcdd34d917cc627645eb8fd5d00d1f612\" title=\"LM Studio beta resizes images to 1024 px now for VL models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/gsoayja3cbwf1.png?width=800&amp;format=png&amp;auto=webp&amp;s=69a9f2d362622335940a2883d9ba9babb930a7a4\">https://preview.redd.it/gsoayja3cbwf1.png?width=800&amp;format=png&amp;auto=webp&amp;s=69a9f2d362622335940a2883d9ba9babb930a7a4</a></p> <p>Up from 500px. And they promise downsize will be configurable in the future.</p> <p><a href=\"https://lmstudio.ai/beta-releases\">https://lmstudio.ai/beta-releases</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/egomarker\"> /u/egomarker </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1obq71x/lm_studio_beta_resizes_images_to_1024_px_now_for/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/HLFitx4pf0jk0EXyGsTacqSfluQnnlai3zH8I6-hEEE.png?width=640&crop=smart&auto=webp&s=bba9f38dcdd34d917cc627645eb8fd5d00d1f612",
     "isShortVideo": 0
   }
 ]

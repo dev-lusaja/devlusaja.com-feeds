@@ -1,5 +1,37 @@
 [
   {
+    "id": "b616b961-8d82-5693-850d-6f8ee706114f",
+    "title": "Is open-webui vibe coded? Why else is the documentation littered with emoji?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1otx50l/is_openwebui_vibe_coded_why_else_is_the/",
+    "pubDate": "2025-11-11T02:03:13+00:00",
+    "description": "It's like every other 5 words: an emoji. God damn, the future is bleak submitted by /u/ksoops [link] [comments]",
+    "author": "/u/ksoops",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>It's like every other 5 words: an emoji.</p> <p>God damn, the future is bleak</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ksoops\"> /u/ksoops </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1otx50l/is_openwebui_vibe_coded_why_else_is_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1otx50l/is_openwebui_vibe_coded_why_else_is_the/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "61e7e7ad-039e-5de2-b0e0-4fb143ffbb36",
+    "title": "AI Black&Blonde for a 230% boost on inference speed",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1otwk39/ai_blackblonde_for_a_230_boost_on_inference_speed/",
+    "pubDate": "2025-11-11T01:36:39+00:00",
+    "description": "R9700 AI Pro had only 32 GB Vram ddr6 that limits its ability to run locally LLM at Q8 precision due to large overall model size. Paired it with an RTX 5060 8GB vram ddr7 from my girlfriend's gaming PC and got a 230% boost. 4k context window partial offloading: the inference speed was 6.39 tps with AMD only vs. 14.81 tps with AMD&nvidia 100% GPU offloading for a 15k context window. Vulkan engine for both cards use command (below) so the 5060 is compute-only and the monitor is connected to R9700. Qwen 3 32B Q8 precision. 100% GPU offloading and 15k context window when using the Black&Blonde. Just plugged and played - no special setup but you will need to install both AMD and nvidia-580-open drivers. AMD is the display driver. # Set NVIDIA GPU to compute-exclusive mode (no display) sudo nvidia-smi -c EXCLUSIVE_PROCESS # Or set to compute mode (allows display but prioritizes compute) sudo nvidia-smi -c DEFAULT submitted by /u/OldEffective9726 [link] [comments]",
+    "author": "/u/OldEffective9726",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1otwk39/ai_blackblonde_for_a_230_boost_on_inference_speed/\"> <img alt=\"AI Black&amp;Blonde for a 230% boost on inference speed\" src=\"https://b.thumbs.redditmedia.com/O0FYna7i2U2Capgt_qA5NPup2uouLdNiqcu-nLZn8uY.jpg\" title=\"AI Black&amp;Blonde for a 230% boost on inference speed\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>R9700 AI Pro had only 32 GB Vram ddr6 that limits its ability to run locally LLM at Q8 precision due to large overall model size.</p> <p>Paired it with an RTX 5060 8GB vram ddr7 from my girlfriend's gaming PC and got a 230% boost. 4k context window partial offloading: the inference speed was 6.39 tps with AMD only vs. 14.81 tps with AMD&amp;nvidia 100% GPU offloading for a 15k context window. Vulkan engine for both cards use command (below) so the 5060 is compute-only and the monitor is connected to R9700. Qwen 3 32B Q8 precision. 100% GPU offloading and 15k context window when using the Black&amp;Blonde.</p> <p>Just plugged and played - no special setup but you will need to install both AMD and nvidia-580-open drivers. AMD is the display driver.</p> <p># Set NVIDIA GPU to compute-exclusive mode (no display)</p> <p>sudo nvidia-smi -c EXCLUSIVE_PROCESS</p> <p># Or set to compute mode (allows display but prioritizes compute)</p> <p>sudo nvidia-smi -c DEFAULT</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OldEffective9726\"> /u/OldEffective9726 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1otwk39\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1otwk39/ai_blackblonde_for_a_230_boost_on_inference_speed/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://b.thumbs.redditmedia.com/O0FYna7i2U2Capgt_qA5NPup2uouLdNiqcu-nLZn8uY.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "26518b80-0fe0-5554-9fe6-53ebcaecd953",
     "title": "Full Replication of Google's Nested Learning Paper in PyTorch – code now live",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1otwek3/full_replication_of_googles_nested_learning_paper/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm looking for a TTS engine where speed/low resources (no GPU) along with clarity are important.</p> <p>It doesn't need to sound human and I imagine it to be closer to espeak-ng than Kokoro-82.</p> <p>The problem with espeak-ng itself is that it is robotic to the point of not being easy to understand.</p> <p>What options are there that lie between espeak-ng and Kokoro-82 on the same quality/speed curves?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeltaSqueezer\"> /u/DeltaSqueezer </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1otb5vw/ultrafast_robotic_tts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1otb5vw/ultrafast_robotic_tts/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c19419b8-d628-5197-9dc1-4f0542f532e6",
-    "title": "Qwen3-VL's perceptiveness is incredible.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ot95gj/qwen3vls_perceptiveness_is_incredible/",
-    "pubDate": "2025-11-10T09:12:28+00:00",
-    "description": "I took a 4k image and scattered around 6 medium-length words. With Qwen3-VL-8B-Instruct-GGUF and a temperature of 0 , an image token count of 2300 (seems to be the sweet spot), and the prompt: Provide transcriptions and bounding boxes for the words in the image. Use JSON format. This is the output: [ {\"bbox_2d\": [160, 867, 181, 879], \"text_content\": \"steam\"}, {\"bbox_2d\": [146, 515, 168, 527], \"text_content\": \"queen\"}, {\"bbox_2d\": [565, 731, 589, 743], \"text_content\": \"satisfied\"}, {\"bbox_2d\": [760, 615, 784, 627], \"text_content\": \"feather\"}, {\"bbox_2d\": [335, 368, 364, 379], \"text_content\": \"mention\"}, {\"bbox_2d\": [515, 381, 538, 392], \"text_content\": \"cabinet\"} ] Flawless. No notes. It even got the bounding boxes correct. How do other models compare? Gemini 2.5 pro: Hallucinates an answer. Claude Opus 4: Correctly identifies 3/6 words. ChatGPT 5: After 5 minutes (!!) of thinking, it finds all 6 words. The bounding boxes are wrong. DeepSeekOCR: Produces garbage (possible PEBCAK) PaddleOCR-VL-0.9B: Finds 3 words, hallucinates 2. Doesn't output bounding boxes. GLM-4.5V: Also perfect results. Very impressive that such as small model can get such good results, especially considering it's not tuned for OCR. submitted by /u/Trypocopris [link] [comments]",
-    "author": "/u/Trypocopris",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://i.imgur.com/liqVUJd.jpeg\">I took a 4k image and scattered around 6 medium-length words.</a> </p> <p>With <code>Qwen3-VL-8B-Instruct-GGUF</code> and a temperature of <code>0</code>, an image token count of <code>2300</code> (seems to be the sweet spot), and the prompt:</p> <blockquote> <p>Provide transcriptions and bounding boxes for the words in the image. Use JSON format.</p> </blockquote> <p>This is the output:</p> <blockquote> <p>[ {&quot;bbox_2d&quot;: [160, 867, 181, 879], &quot;text_content&quot;: &quot;steam&quot;}, {&quot;bbox_2d&quot;: [146, 515, 168, 527], &quot;text_content&quot;: &quot;queen&quot;}, {&quot;bbox_2d&quot;: [565, 731, 589, 743], &quot;text_content&quot;: &quot;satisfied&quot;}, {&quot;bbox_2d&quot;: [760, 615, 784, 627], &quot;text_content&quot;: &quot;feather&quot;}, {&quot;bbox_2d&quot;: [335, 368, 364, 379], &quot;text_content&quot;: &quot;mention&quot;}, {&quot;bbox_2d&quot;: [515, 381, 538, 392], &quot;text_content&quot;: &quot;cabinet&quot;} ]</p> </blockquote> <p>Flawless. No notes. <a href=\"https://i.imgur.com/5bejqK9.jpeg\">It even got the bounding boxes correct.</a></p> <p>How do other models compare?</p> <ul> <li>Gemini 2.5 pro: Hallucinates an answer.</li> <li>Claude Opus 4: Correctly identifies 3/6 words.</li> <li>ChatGPT 5: After 5 minutes (!!) of thinking, it finds all 6 words. The bounding boxes are wrong.</li> <li>DeepSeekOCR: Produces garbage (possible PEBCAK)</li> <li>PaddleOCR-VL-0.9B: Finds 3 words, hallucinates 2. Doesn't output bounding boxes.</li> <li>GLM-4.5V: Also perfect results.</li> </ul> <p>Very impressive that such as small model can get such good results, especially considering it's not tuned for OCR.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Trypocopris\"> /u/Trypocopris </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ot95gj/qwen3vls_perceptiveness_is_incredible/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ot95gj/qwen3vls_perceptiveness_is_incredible/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "808f5b38-2ac8-57bc-a1f3-b3ae81a47a6e",
-    "title": "NVIDIA RTX Pro 5000 Blackwell 72 GB Price",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ot9346/nvidia_rtx_pro_5000_blackwell_72_gb_price/",
-    "pubDate": "2025-11-10T09:08:14+00:00",
-    "description": "Found one of the first price tags in germany. Seems quite high, I expected it to be around 6000-6500€. I hope it will go down when other offers come up... What do you think about this GPU? I think the 6000 series has better value, especially considering bandwidth and core count. https://www.comnet-itshop.de/eshop.php?eslink=1&action=article_detail&s_supplier_id=12&s_supplier_aid=12189390 https://preview.redd.it/pk7d074qae0g1.png?width=1284&format=png&auto=webp&s=8ad13e0998d176a60ae79e3141e86ccf1fa3e9b4 submitted by /u/Low_Philosophy7906 [link] [comments]",
-    "author": "/u/Low_Philosophy7906",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ot9346/nvidia_rtx_pro_5000_blackwell_72_gb_price/\"> <img alt=\"NVIDIA RTX Pro 5000 Blackwell 72 GB Price\" src=\"https://b.thumbs.redditmedia.com/rXjsj4BIQiwNGd80wvtzqLzsHERAFcaOduHZxzuem5w.jpg\" title=\"NVIDIA RTX Pro 5000 Blackwell 72 GB Price\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Found one of the first price tags in germany. Seems quite high, I expected it to be around 6000-6500€. I hope it will go down when other offers come up... </p> <p>What do you think about this GPU? I think the 6000 series has better value, especially considering bandwidth and core count.</p> <p><a href=\"https://www.comnet-itshop.de/eshop.php?eslink=1&amp;action=article_detail&amp;s_supplier_id=12&amp;s_supplier_aid=12189390\">https://www.comnet-itshop.de/eshop.php?eslink=1&amp;action=article_detail&amp;s_supplier_id=12&amp;s_supplier_aid=12189390</a></p> <p><a href=\"https://preview.redd.it/pk7d074qae0g1.png?width=1284&amp;format=png&amp;auto=webp&amp;s=8ad13e0998d176a60ae79e3141e86ccf1fa3e9b4\">https://preview.redd.it/pk7d074qae0g1.png?width=1284&amp;format=png&amp;auto=webp&amp;s=8ad13e0998d176a60ae79e3141e86ccf1fa3e9b4</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Low_Philosophy7906\"> /u/Low_Philosophy7906 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ot9346/nvidia_rtx_pro_5000_blackwell_72_gb_price/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ot9346/nvidia_rtx_pro_5000_blackwell_72_gb_price/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/rXjsj4BIQiwNGd80wvtzqLzsHERAFcaOduHZxzuem5w.jpg",
     "isShortVideo": 0
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "totalItems": 15566,
-  "generatedAt": "2025-11-12T15:16:35.965255Z",
+  "totalItems": 15590,
+  "generatedAt": "2025-11-12T17:00:22.897141Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -185,7 +185,7 @@
   ],
   "byType": {
     "notice": {
-      "totalItems": 1296,
+      "totalItems": 1303,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -209,7 +209,7 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 1834,
+      "totalItems": 1842,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -244,7 +244,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 834,
+        "count": 840,
         "isPriority": true,
         "totalChunks": 28,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -252,7 +252,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 766,
+        "count": 768,
         "isPriority": true,
         "totalChunks": 26,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -270,7 +270,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2594,
+        "count": 2603,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -278,7 +278,7 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 361,
+        "count": 366,
         "isPriority": true,
         "totalChunks": 13,
         "chunkPrefix": "notice-LaNacion_AR"
@@ -308,20 +308,20 @@
         "chunkPrefix": "notice-Nvidia"
       },
       {
+        "category": "Towards",
+        "title": "Towards Data Science",
+        "count": 104,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-Towards"
+      },
+      {
         "category": "Xataka",
         "title": "Xataka IA",
         "count": 103,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-Xataka"
-      },
-      {
-        "category": "Towards",
-        "title": "Towards Data Science",
-        "count": 102,
-        "isPriority": true,
-        "totalChunks": 4,
-        "chunkPrefix": "notice-Towards"
       },
       {
         "category": "OpenAI",
