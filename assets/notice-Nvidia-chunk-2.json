@@ -1,5 +1,21 @@
 [
   {
+    "id": "2299c23d-0b8f-53f6-9737-0922fc91ad2e",
+    "title": "Enabling Scalable AI-Driven Molecular Dynamics Simulations",
+    "link": "https://developer.nvidia.com/blog/enabling-scalable-ai-driven-molecular-dynamics-simulations/",
+    "pubDate": "2025-10-20T16:30:00+00:00",
+    "description": "Molecular dynamics (MD) simulations are a powerful tool in computational chemistry and materials science, and they’re essential for studying chemical...",
+    "author": "Justin S. Smith",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/v4_16-9-small-3-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"v4_16-9-small (3)\" width=\"768\" />Molecular dynamics (MD) simulations are a powerful tool in computational chemistry and materials science, and they’re essential for studying chemical...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/v4_16-9-small-3-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"v4_16-9-small (3)\" width=\"768\" /><p>Molecular dynamics (MD) simulations are a powerful tool in computational chemistry and materials science, and they’re essential for studying chemical reactions, material properties, and biological interactions at a microscopic level. However, their complexity and computational requirements often necessitate advanced techniques such as machine learning interatomic potentials (MLIPs) to achieve…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enabling-scalable-ai-driven-molecular-dynamics-simulations/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/v4_16-9-small-3.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "5aea9524-c168-5622-a476-1cf55a0d5513",
     "title": "NVIDIA and Google Cloud Accelerate Enterprise AI and Industrial Digitalization",
     "link": "https://blogs.nvidia.com/blog/nvidia-google-cloud-enterprise-ai-industrial-digitalization/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Semiconductor-Manufacturing-e1759339600266-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Semiconductor-Manufacturing\" width=\"768\" />In an earlier blog post, we introduced NVIDIA NV-Tesseract, a family of models designed to tackle diverse time-series tasks—such as anomaly detection,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Semiconductor-Manufacturing-e1759339600266-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Semiconductor-Manufacturing\" width=\"768\" /><p>In an earlier blog post, we introduced NVIDIA NV-Tesseract, a family of models designed to tackle diverse time-series tasks—such as anomaly detection, classification, and forecasting—within a single framework. This work laid the foundation for adapting a general-purpose backbone across industries where data is constantly evolving. In semiconductor manufacturing, the challenge is especially…</p>\n<p><a href=\"https://developer.nvidia.com/blog/smarter-anomaly-detection-in-semiconductor-manufacturing-with-nvidia-nv-tesseract-and-nvidia-nim/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Semiconductor-Manufacturing-e1759339600266.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ea73d0f0-9379-5277-9220-a8b2e0b431ec",
-    "title": "Enable Gang Scheduling and Workload Prioritization in Ray with NVIDIA KAI Scheduler",
-    "link": "https://developer.nvidia.com/blog/enable-gang-scheduling-and-workload-prioritization-in-ray-with-nvidia-kai-scheduler/",
-    "pubDate": "2025-10-03T14:22:41+00:00",
-    "description": "NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in...",
-    "author": "Ekin Karabulut",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"KAI-Scheduler\" width=\"768\" />NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"KAI-Scheduler\" width=\"768\" /><p>NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in NVIDIA Run:ai directly into your Ray clusters. This means you can now tap into gang scheduling, workload autoscaling, workload prioritization, hierarchical queues, and many more features in your Ray environment. Together…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enable-gang-scheduling-and-workload-prioritization-in-ray-with-nvidia-kai-scheduler/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler.jpg",
     "isShortVideo": 0
   }
 ]

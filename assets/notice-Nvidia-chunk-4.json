@@ -1,5 +1,21 @@
 [
   {
+    "id": "7fc45cff-2102-57a1-98a1-a1f98000e87d",
+    "title": "How to Reduce KV Cache Bottlenecks with NVIDIA Dynamo",
+    "link": "https://developer.nvidia.com/blog/how-to-reduce-kv-cache-bottlenecks-with-nvidia-dynamo/",
+    "pubDate": "2025-09-18T16:30:00+00:00",
+    "description": "As AI models grow larger and more sophisticated, inference, the process by which a model generates responses, is becoming a major challenge. Large language...",
+    "author": "Amr Elmeleegy",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/nvidia-ai-data-platform-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-ai-data-platform\" width=\"768\" />As AI models grow larger and more sophisticated, inference, the process by which a model generates responses, is becoming a major challenge. Large language...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/nvidia-ai-data-platform-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-ai-data-platform\" width=\"768\" /><p>As AI models grow larger and more sophisticated, inference, the process by which a model generates responses, is becoming a major challenge. Large language models (LLMs) like GPT-OSS and DeepSeek-R1 rely heavily on attention data—the Key-Value (KV) Cache—to understand and contextualize input prompts, but managing this data efficiently is becoming increasingly difficult.</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-reduce-kv-cache-bottlenecks-with-nvidia-dynamo/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/nvidia-ai-data-platform-1.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "79aafeeb-f2c0-548e-98a0-9a1ce97bf624",
     "title": "NVIDIA RAPIDS 25.08 Adds New Profiler for cuML, Updates to the Polars GPU Engine, Additional Algorithm Support, and More",
     "link": "https://developer.nvidia.com/blog/nvidia-rapids-25-08-adds-new-profiler-for-cuml-updates-to-the-polars-gpu-engine-additional-algorithm-support-and-more/",
