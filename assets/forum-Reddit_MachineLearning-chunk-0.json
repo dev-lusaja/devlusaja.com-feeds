@@ -1,5 +1,21 @@
 [
   {
+    "id": "dd6f5d73-26f3-535c-9a98-525012365525",
+    "title": "[R] is Top-K edge selection preserving task-relevant info, or am I reasoning in circles?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ow7g2u/r_is_topk_edge_selection_preserving_taskrelevant/",
+    "pubDate": "2025-11-13T17:37:29+00:00",
+    "description": "I have m modalities with embeddings H_i. I learn edge weights Φ_ij(c, e_t) for all pairs (just a learned feedforward function based on two embeddings + context), then select Top-K edges by weight and discard the rest. My thought , Since Φ_ij is learned via gradient descent to maximize task performance, high-weight edges should indicate that modalities i and j are relevant together. So by selecting Top-K, I'm keeping the most useful pairs and discarding irrelevant ones. Problem: This feels circular.. “Φ is good because we trained it to be good.\" Is there a formal way to argue that Top-K selection preserves task-relevant information that doesn't just assume this? submitted by /u/Efficient-Hovercraft [link] [comments]",
+    "author": "/u/Efficient-Hovercraft",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have m modalities with embeddings H_i. I learn edge weights Φ_ij(c, e_t) for all pairs (just a learned feedforward function based on two embeddings + context), then select Top-K edges by weight and discard the rest.</p> <p>My thought , Since Φ_ij is learned via gradient descent to maximize task performance, high-weight edges should indicate that modalities i and j are relevant together. So by selecting Top-K, I'm keeping the most useful pairs and discarding irrelevant ones.</p> <p>Problem: This feels circular.. “Φ is good because we trained it to be good.&quot; </p> <p>Is there a formal way to argue that Top-K selection preserves task-relevant information that doesn't just assume this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Efficient-Hovercraft\"> /u/Efficient-Hovercraft </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ow7g2u/r_is_topk_edge_selection_preserving_taskrelevant/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ow7g2u/r_is_topk_edge_selection_preserving_taskrelevant/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "edd8712c-3011-51b4-a1a0-f9b4892f41ba",
     "title": "[P] What does AGPL 3.0 actually include?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ovu5g9/p_what_does_agpl_30_actually_include/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Saw a project where a team trained a model to analyze infant MRIs with very few labeled scans, but now it can detect early signs of cerebral palsy with like 90% accuracy. They actually had to create the labels themselves, using pre-labeling with an open-source model called BIBSNet to build a dataset big enough for training. How would you approach an ML task like that?</p> <p><a href=\"https://github.com/yandex-cloud-socialtech/mri-newborns\">https://github.com/yandex-cloud-socialtech/mri-newborns</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aegismuzuz\"> /u/aegismuzuz </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otfes3/p_a_realworld_example_of_training_a_medical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otfes3/p_a_realworld_example_of_training_a_medical/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "161d79df-845a-5e50-abf8-8910ac2fc5a4",
-    "title": "[D] ML Pipelines completely in Notebooks within Databricks, thoughts?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1otcqo0/d_ml_pipelines_completely_in_notebooks_within/",
-    "pubDate": "2025-11-10T12:43:06+00:00",
-    "description": "I am an MLE part of a fresh new team in Data & AI innovations spinning up projects slowly. I always thought having notebooks in production is a bad thing and that I'd need to productionize the notebooks I'd receive from the DS. We are working with databricks and I am following some introductory courses and what I am seeing is that they work with a lot of notebooks. This might be because of the easy of use in tutorials and demos. But how do other professionals' experience translate when deploying models? Are they mostly notebooks based or are they re-written into python scripts? Any insights would be much appreciated since I need to setup the groundwork for our team and while we grow over the years I'd like to use scaleable solutions and a notebook, to me, just sounds a bit crude. But it seems databricks kind of embraces the notebook as a key part of the stack, even in prod. submitted by /u/Rajivrocks [link] [comments]",
-    "author": "/u/Rajivrocks",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am an MLE part of a fresh new team in Data &amp; AI innovations spinning up projects slowly.</p> <p>I always thought having notebooks in production is a bad thing and that I'd need to productionize the notebooks I'd receive from the DS. We are working with databricks and I am following some introductory courses and what I am seeing is that they work with a lot of notebooks. This might be because of the easy of use in tutorials and demos. But how do other professionals' experience translate when deploying models? Are they mostly notebooks based or are they re-written into python scripts?</p> <p>Any insights would be much appreciated since I need to setup the groundwork for our team and while we grow over the years I'd like to use scaleable solutions and a notebook, to me, just sounds a bit crude. But it seems databricks kind of embraces the notebook as a key part of the stack, even in prod.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rajivrocks\"> /u/Rajivrocks </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otcqo0/d_ml_pipelines_completely_in_notebooks_within/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otcqo0/d_ml_pipelines_completely_in_notebooks_within/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

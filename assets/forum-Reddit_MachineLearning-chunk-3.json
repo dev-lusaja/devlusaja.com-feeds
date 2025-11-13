@@ -1,5 +1,21 @@
 [
   {
+    "id": "983765b1-2222-5cd2-af74-18cc075ea0ae",
+    "title": "[R] AAAI 2026 target acceptance rate",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/",
+    "pubDate": "2025-11-02T22:38:59+00:00",
+    "description": "This is a question from reviewers, AC, or similar positions? Do you have any idea what is the target AAAI acceptance rate for this year (CV, ML, NLP) track? submitted by /u/That_Wish2205 [link] [comments]",
+    "author": "/u/That_Wish2205",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>This is a question from reviewers, AC, or similar positions? Do you have any idea what is the target AAAI acceptance rate for this year (CV, ML, NLP) track?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/That_Wish2205\"> /u/That_Wish2205 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a2cdaa5d-4b93-5e08-9e08-ec7c2db0d115",
     "title": "[D] AAAI 26 Decisions (Main Technical Track)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Just submitted our paper to MICAD 2025 and wanted to share what we've been working on.</p> <p><strong>The Problem:</strong></p> <p>Mycetoma is a neglected tropical disease that requires accurate differentiation between bacterial and fungal forms for proper treatment. Current deep learning approaches achieve decent accuracy (85-89%) but operate as black boxes - a major barrier to clinical adoption, especially in resource-limited settings.</p> <p><strong>Our Approach:</strong></p> <p>We built the first multi-modal knowledge graph for mycetoma diagnosis that integrates:</p> <ul> <li>Histopathology images (InceptionV3-based feature extraction)</li> <li>Clinical notes</li> <li>Laboratory results</li> <li>Geographic epidemiology data</li> <li>Medical literature (PubMed abstracts)</li> </ul> <p>The system uses retrieval-augmented generation (RAG) to combine CNN predictions with graph-based contextual reasoning, producing explainable diagnoses.</p> <p><strong>Results:</strong></p> <ul> <li>94.8% accuracy (6.3% improvement over CNN-only)</li> <li>AUC-ROC: 0.982</li> <li>Expert pathologists rated explanations 4.7/5 vs 2.6/5 for Grad-CAM</li> <li>Near-perfect recall (FN=0 across test splits in 5-fold CV)</li> </ul> <p><strong>Why This Matters:</strong></p> <p>Most medical AI research focuses purely on accuracy, but clinical adoption requires explainability and integration with existing workflows. Our knowledge graph approach provides transparent, multi-evidence diagnoses that mirror how clinicians actually reason - combining visual features with lab confirmation, geographic priors, and clinical context.</p> <p><strong>Dataset:</strong></p> <p>Mycetoma Micro-Image dataset from MICCAI 2024 (684 H&amp;E histopathology images, CC BY 4.0, Mycetoma Research Centre, Sudan)</p> <p><strong>Code &amp; Models:</strong></p> <p>GitHub: <a href=\"https://github.com/safishamsi/mycetoma-kg-rag\">https://github.com/safishamsi/mycetoma-kg-rag</a></p> <p>Includes:</p> <ul> <li>Complete implementation (TensorFlow, PyTorch, Neo4j)</li> <li>Knowledge graph construction pipeline</li> <li>Trained model weights</li> <li>Evaluation scripts</li> <li>RAG explanation generation</li> </ul> <p>Happy to answer questions about the architecture, knowledge graph construction, or retrieval-augmented generation approach!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/captainkink07\"> /u/captainkink07 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ojgl1b/djust_submitted_multimodal_knowledge_graph_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ojgl1b/djust_submitted_multimodal_knowledge_graph_for/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "927d00a4-e1b5-5e16-a3c7-b0e0a4d58390",
-    "title": "[D]NLP conferences look like a scam..",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ojeldl/dnlp_conferences_look_like_a_scam/",
-    "pubDate": "2025-10-29T19:47:56+00:00",
-    "description": "Not trying to punch down on other smart folks, but honestly, I feel like most NLP conference papers are kinda scams. Out of 10 papers I read, 9 have zero theoretical justification, and the 1 that does usually calls something a theorem when it’s basically just a lemma with ridiculous assumptions. And then they all cliam about like a 1% benchmark improvement using methods that are impossible to reproduce because of the insane resource constraints in the LLM world.. Even more funny, most of the benchmarks and made by themselves submitted by /u/BetterbeBattery [link] [comments]",
-    "author": "/u/BetterbeBattery",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Not trying to punch down on other smart folks, but honestly, I feel like most NLP conference papers are kinda scams. Out of 10 papers I read, 9 have zero theoretical justification, and the 1 that does usually calls something a <em>theorem</em> when it’s basically just a lemma with ridiculous assumptions.<br /> And then they all cliam about like a 1% benchmark improvement using methods that are impossible to reproduce because of the insane resource constraints in the LLM world.. Even more funny, most of the benchmarks and made by themselves </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BetterbeBattery\"> /u/BetterbeBattery </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ojeldl/dnlp_conferences_look_like_a_scam/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ojeldl/dnlp_conferences_look_like_a_scam/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
