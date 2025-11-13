@@ -1,5 +1,21 @@
 [
   {
+    "id": "f36130df-5976-577a-a6a3-7fed9128d969",
+    "title": "[P] Control your house heating system with RL",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/",
+    "pubDate": "2025-10-17T11:58:13+00:00",
+    "description": "Hi guys, I just released the source code of my most recent project: a DQN network controlling the radiator power of a house to maintain a perfect temperature when occupants are home while saving energy. I created a custom gymnasium environment for this project that relies on thermal transfer equation, so that it recreates exactly the behavior of a real house. The action space is discrete number between 0 and max_power. The state space given is : - Temperature in the inside, - Temperature of the outside, - Radiator state, - Occupant presence, - Time of day. I am really open to suggestion and feedback, don't hesitate to contribute to this project ! https://github.com/mp-mech-ai/radiator-rl EDIT: I am aware that for this linear behavior a statistical model would be sufficient, however I see this project as a template for more general physical behavior that could include high non-linearity or randomness. submitted by /u/poppyshit [link] [comments]",
+    "author": "/u/poppyshit",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys,</p> <p>I just released the source code of my most recent project: a DQN network controlling the radiator power of a house to maintain a perfect temperature when occupants are home while saving energy.</p> <p>I created a custom gymnasium environment for this project that relies on thermal transfer equation, so that it recreates exactly the behavior of a real house.</p> <p>The action space is discrete number between 0 and max_power.</p> <p>The state space given is :</p> <p>- Temperature in the inside,</p> <p>- Temperature of the outside,</p> <p>- Radiator state,</p> <p>- Occupant presence,</p> <p>- Time of day.</p> <p>I am really open to suggestion and feedback, don't hesitate to contribute to this project !</p> <p><a href=\"https://github.com/mp-mech-ai/radiator-rl\">https://github.com/mp-mech-ai/radiator-rl</a></p> <p>EDIT: I am aware that for this linear behavior a statistical model would be sufficient, however I see this project as a template for more general physical behavior that could include high non-linearity or randomness.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/poppyshit\"> /u/poppyshit </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "72b86e40-9dbe-5d58-bbb8-494e4f691289",
     "title": "[D] What ML/AI research areas are actively being pursued in industry right now?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1o8ve9w/d_what_mlai_research_areas_are_actively_being/",

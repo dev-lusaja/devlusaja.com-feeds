@@ -1,5 +1,21 @@
 [
   {
+    "id": "09332fb0-dfd7-5614-b75f-eb864b8e24fb",
+    "title": "[D] Measuring how similar a vector's neighbourhood (of vectors) is",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/",
+    "pubDate": "2025-10-25T15:01:58+00:00",
+    "description": "Given a word embedding space, I would like to measure how 'substitutable' a word is. Put more formally, how many other embedding vectors are very close to the query word's vector? I'm not sure what the problem I'm describing is called. Maybe I need to measure how dense a query vector's surrounding volume is? Or maybe I just need the mean/median of all the distances from all the vectors to the query vector. Or maybe I need to sort the distances of all the vectors to the query vector and then measure at what point the distances tail off, similar to the elbow method when determining the optimal number of clusters. I'm also not sure this is exactly the same as clustering all the vectors first and then measuring how dense the query vector's cluster is, because the vector might be on the edge of its assigned cluster. submitted by /u/neuralbeans [link] [comments]",
+    "author": "/u/neuralbeans",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Given a word embedding space, I would like to measure how 'substitutable' a word is. Put more formally, how many other embedding vectors are very close to the query word's vector? I'm not sure what the problem I'm describing is called.</p> <p>Maybe I need to measure how dense a query vector's surrounding volume is? Or maybe I just need the mean/median of all the distances from all the vectors to the query vector. Or maybe I need to sort the distances of all the vectors to the query vector and then measure at what point the distances tail off, similar to the elbow method when determining the optimal number of clusters.</p> <p>I'm also not sure this is exactly the same as clustering all the vectors first and then measuring how dense the query vector's cluster is, because the vector might be on the edge of its assigned cluster.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neuralbeans\"> /u/neuralbeans </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "482aa2d8-8872-5d33-9ce3-de386cb0ff98",
     "title": "[R] UFIPC: Physics-based AI Complexity Benchmark - Models with identical MMLU scores differ 29% in complexity",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1of87n0/r_ufipc_physicsbased_ai_complexity_benchmark/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>ICLR 2026 author guide says max 9 pages of main text in submissions, while FAQ says 10 pages. And Google shows several such contradictions in time and space...</p> <p>Vanilla definition of &quot;main text&quot; is all content between title and references, except for exempt sections, i.e. &quot;Ethics&quot; and &quot;Reproducibility&quot; sections per author guide.</p> <p>Random sampling suggests ~5% of the ~20,000 submissions under review have main text on page 10. Would you</p> <ol> <li>Allow all submissions with main text on page 10</li> <li>Disallow all submissions with main text on page 10</li> <li>Subjectively allow/disallow submissions with main text on page 10</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fresh-Opportunity989\"> /u/Fresh-Opportunity989 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1occpmf/d_iclr_2026_question/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1occpmf/d_iclr_2026_question/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f0242914-6537-5c07-b28a-1a15b48f2ab2",
-    "title": "[R] A simple PMF estimator in large supports",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ocb4s7/r_a_simple_pmf_estimator_in_large_supports/",
-    "pubDate": "2025-10-21T12:06:48+00:00",
-    "description": "When working on various recommender systems, it always was weird to me that creating dashboards or doing feature engineering is hard with integer-valued features that are heavily tailed and have large support, such as # of monthly visits on a website, or # monthly purchases of a product. So I decided to do a one small step towards tackling the problem. I hope you find it useful: https://arxiv.org/abs/2510.15132 submitted by /u/alexsht1 [link] [comments]",
-    "author": "/u/alexsht1",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>When working on various recommender systems, it always was weird to me that creating dashboards or doing feature engineering is hard with integer-valued features that are heavily tailed and have large support, such as # of monthly visits on a website, or # monthly purchases of a product.</p> <p>So I decided to do a one small step towards tackling the problem. I hope you find it useful:<br /> <a href=\"https://arxiv.org/abs/2510.15132\">https://arxiv.org/abs/2510.15132</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexsht1\"> /u/alexsht1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ocb4s7/r_a_simple_pmf_estimator_in_large_supports/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ocb4s7/r_a_simple_pmf_estimator_in_large_supports/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
