@@ -1,5 +1,37 @@
 [
   {
+    "id": "d53000be-b43d-5877-884e-e172efe5fb3a",
+    "title": "Building LangChain & LangGraph Concepts From Scratch (Next Step in My AI Agents Repo)",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1opt2q9/building_langchain_langgraph_concepts_from/",
+    "pubDate": "2025-11-06T07:58:54+00:00",
+    "description": "I’m extending my ai-agents-from-scratch project, the one that teaches AI agent fundamentals in plain JavaScript using local models via node-llama-cpp, with a new section focused on re-implementing core concepts from LangChain and LangGraph step by step. The goal is to get from understanding the fundamentals to build ai agents for production by understanding LangChain / LangGraph core principles. What Exists So Far The repo already has nine self-contained examples under examples/ : intro/ → basic LLM call simple-agent/ → tool-using agent react-agent/ → ReAct pattern memory-agent/ → persistent state Everything runs locally - no API keys or external services. What’s Coming Next A new series of lessons where you implement the pieces that make frameworks like LangChain tick: Foundations The Runnable abstraction - why everything revolves around it Message types and structured conversation data LLM wrappers for node-llama-cpp Context and configuration management Composition and Agency Prompts, parsers, and chains Memory and state Tool execution and agent loops Graphs, routing, and checkpointing Each lesson combines explanation, implementation, and small exercises that lead to a working system. You end up with your own mini-LangChain - and a full understanding of how modern agent frameworks are built. Why I’m Doing This Most tutorials show how to use frameworks, not how they work. You learn syntax but not architecture. This project bridges that gap: start from raw function calls, build abstractions, and then use real frameworks with clarity. What I’d Like Feedback On Would you find value in building a framework before using one? Is the progression (basics → build framework → use frameworks) logical? Would you actually code through the exercises or just read? The first lesson (Runnable) is available. I plan to release one new lesson per week. Repo: https://github.com/pguso/ai-agents-from-scratch If this approach sounds useful, I’d appreciate feedback before I finalize the full series. submitted by /u/purellmagents [link] [comments]",
+    "author": "/u/purellmagents",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m extending my <em>ai-agents-from-scratch</em> project, the one that teaches AI agent fundamentals in plain JavaScript using local models via <code>node-llama-cpp,</code>with a new section focused on <strong>re-implementing core concepts from LangChain and LangGraph</strong> step by step.</p> <p>The goal is to get from understanding the fundamentals to build ai agents for production by understanding LangChain / LangGraph core principles.</p> <h1>What Exists So Far</h1> <p>The repo already has nine self-contained examples under <code>examples/</code>:</p> <pre><code>intro/ → basic LLM call simple-agent/ → tool-using agent react-agent/ → ReAct pattern memory-agent/ → persistent state </code></pre> <p>Everything runs locally - no API keys or external services.</p> <h1>What’s Coming Next</h1> <p>A new series of lessons where you implement the pieces that make frameworks like LangChain tick:</p> <p><strong>Foundations</strong></p> <ul> <li>The Runnable abstraction - why everything revolves around it</li> <li>Message types and structured conversation data</li> <li>LLM wrappers for <code>node-llama-cpp</code></li> <li>Context and configuration management</li> </ul> <p><strong>Composition and Agency</strong></p> <ul> <li>Prompts, parsers, and chains</li> <li>Memory and state</li> <li>Tool execution and agent loops</li> <li>Graphs, routing, and checkpointing</li> </ul> <p>Each lesson combines explanation, implementation, and small exercises that lead to a working system.<br /> You end up with your own mini-LangChain - and a full understanding of how modern agent frameworks are built.</p> <h1>Why I’m Doing This</h1> <p>Most tutorials show how to <em>use</em> frameworks, not how they work.<br /> You learn syntax but not architecture.<br /> This project bridges that gap: start from raw function calls, build abstractions, and then use real frameworks with clarity.</p> <h1>What I’d Like Feedback On</h1> <ul> <li>Would you find value in <em>building</em> a framework before using one?</li> <li>Is the progression (basics → build framework → use frameworks) logical?</li> <li>Would you actually code through the exercises or just read?</li> </ul> <p>The first lesson (Runnable) is available.<br /> I plan to release one new lesson per week.</p> <p>Repo: <a href=\"https://github.com/pguso/ai-agents-from-scratch\">https://github.com/pguso/ai-agents-from-scratch</a><br /> If this approach sounds useful, I’d appreciate feedback before I finalize the full series.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/purellmagents\"> /u/purellmagents </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opt2q9/building_langchain_langgraph_concepts_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opt2q9/building_langchain_langgraph_concepts_from/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "bc25639b-79ae-5c91-9579-96bc414e11e1",
+    "title": "Most accurate STT (speech-to-text) for German",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1opsyus/most_accurate_stt_speechtotext_for_german/",
+    "pubDate": "2025-11-06T07:51:49+00:00",
+    "description": "Moin I’m looking for the best STT models for voice-AI applications in German. I’ve already tested most of the major providers. For example, Deepgram with keyword boosting performed noticeably worse in production than Azure STT without any keyword training. I’ve also tried many other models, but I might have missed something. I would appreciate it if you could share your experiences and model recommendations. submitted by /u/ZeroKelvinMood [link] [comments]",
+    "author": "/u/ZeroKelvinMood",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Moin</p> <p>I’m looking for the best STT models for voice-AI applications in German. I’ve already tested most of the major providers. For example, Deepgram with keyword boosting performed noticeably worse in production than Azure STT without any keyword training. I’ve also tried many other models, but I might have missed something. </p> <p>I would appreciate it if you could share your experiences and model recommendations.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZeroKelvinMood\"> /u/ZeroKelvinMood </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opsyus/most_accurate_stt_speechtotext_for_german/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opsyus/most_accurate_stt_speechtotext_for_german/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f3e9c6be-9689-58c3-a740-74b8d00c658e",
     "title": "Free credits will continue until retention improves.",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1opsqjh/free_credits_will_continue_until_retention/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op73qb/glm45v_model_for_local_computer_use/\"> <img alt=\"GLM-4.5V model for local computer use\" src=\"https://external-preview.redd.it/YzA4MDdtb3NxZ3pmMbWADQNBSkImjVESNjfi_q43l9ostHKNGAFX_QJdfnS0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6be507f0bbf2370a00306c48b3deca6f3dbc2931\" title=\"GLM-4.5V model for local computer use\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>On OSWorld-V, it scores 35.8% - beating UI-TARS-1.5, matching Claude-3.7-Sonnet-20250219, and setting SOTA for fully open-source computer-use models.</p> <p>Run it with Cua either: Locally via Hugging Face Remotely via OpenRouter</p> <p>Github : <a href=\"https://github.com/trycua\">https://github.com/trycua</a></p> <p>Docs + examples: <a href=\"https://docs.trycua.com/docs/agent-sdk/supported-agents/computer-use-agents#glm-45v\">https://docs.trycua.com/docs/agent-sdk/supported-agents/computer-use-agents#glm-45v</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Impressive_Half_2819\"> /u/Impressive_Half_2819 </a> <br /> <span><a href=\"https://v.redd.it/p5a328wsqgzf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op73qb/glm45v_model_for_local_computer_use/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/YzA4MDdtb3NxZ3pmMbWADQNBSkImjVESNjfi_q43l9ostHKNGAFX_QJdfnS0.png?width=640&crop=smart&auto=webp&s=6be507f0bbf2370a00306c48b3deca6f3dbc2931",
-    "isShortVideo": 0
-  },
-  {
-    "id": "58f9fb2f-dd63-5925-8967-7127717b8521",
-    "title": "Are there still good models that aren’t chat finetuned?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1op55nk/are_there_still_good_models_that_arent_chat/",
-    "pubDate": "2025-11-05T15:00:49+00:00",
-    "description": "I’m looking for 2 models that I can feed context and predict next few words, one should be 1-2b and the other should be 24-30b. I’m not an expert and it’s possible in my searches I’m just using the wrong terms submitted by /u/No-Yak4416 [link] [comments]",
-    "author": "/u/No-Yak4416",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m looking for 2 models that I can feed context and predict next few words, one should be 1-2b and the other should be 24-30b. I’m not an expert and it’s possible in my searches I’m just using the wrong terms</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No-Yak4416\"> /u/No-Yak4416 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op55nk/are_there_still_good_models_that_arent_chat/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op55nk/are_there_still_good_models_that_arent_chat/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cf4584e5-d58f-5569-b48e-aca6c2b92eba",
-    "title": "Kimi Thinking When?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1op3g6z/kimi_thinking_when/",
-    "pubDate": "2025-11-05T13:52:55+00:00",
-    "description": "https://preview.redd.it/vooceqxl1gzf1.png?width=1024&format=png&auto=webp&s=c26cd866dae399e81ce33c794e17c2f9f1c5df04 I really like Kimi K2. It’s way more emotionally intelligent than any other AI I’ve tried. like, it never flatters me or sugarcoats things. If I mess up, it’ll directly tell me that actually helps me improve. That kind of trust is rare. I’m just sitting here wondering… Kimi thinking when? btw, if fix the hallucination issues, I swear this thing will be unstoppable submitted by /u/InternationalAsk1490 [link] [comments]",
-    "author": "/u/InternationalAsk1490",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op3g6z/kimi_thinking_when/\"> <img alt=\"Kimi Thinking When?\" src=\"https://b.thumbs.redditmedia.com/MndVbBgYMkDWeRdjxPeCx0iqNEf3LEN1ZZjUFdJ-Z2k.jpg\" title=\"Kimi Thinking When?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/vooceqxl1gzf1.png?width=1024&amp;format=png&amp;auto=webp&amp;s=c26cd866dae399e81ce33c794e17c2f9f1c5df04\">https://preview.redd.it/vooceqxl1gzf1.png?width=1024&amp;format=png&amp;auto=webp&amp;s=c26cd866dae399e81ce33c794e17c2f9f1c5df04</a></p> <p>I really like Kimi K2. It’s way more emotionally intelligent than any other AI I’ve tried. like, it never flatters me or sugarcoats things. If I mess up, it’ll directly tell me that actually helps me improve. That kind of trust is rare.</p> <p>I’m just sitting here wondering… Kimi thinking when?</p> <p>btw, if fix the hallucination issues, I swear this thing will be unstoppable</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/InternationalAsk1490\"> /u/InternationalAsk1490 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op3g6z/kimi_thinking_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1op3g6z/kimi_thinking_when/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/MndVbBgYMkDWeRdjxPeCx0iqNEf3LEN1ZZjUFdJ-Z2k.jpg",
     "isShortVideo": 0
   }
 ]

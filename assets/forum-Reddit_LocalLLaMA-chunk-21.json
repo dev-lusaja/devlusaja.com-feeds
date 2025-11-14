@@ -1,5 +1,37 @@
 [
   {
+    "id": "aa8297ca-7e61-5f19-9d8b-4f9397f9ed4c",
+    "title": "Devs, what are your experiences with Qwen3-coder-30b?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odf4ei/devs_what_are_your_experiences_with_qwen3coder30b/",
+    "pubDate": "2025-10-22T17:43:11+00:00",
+    "description": "From code completion, method refactoring, to generating a full MVP project, how well does Qwen3-coder-30b perform? I have a desktop with 32GB DDR5 RAM and I'm planning to buy an RTX 50 series with at least 16GB of VRAM. Can it handle the quantized version of this model well? submitted by /u/AzRedx [link] [comments]",
+    "author": "/u/AzRedx",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>From code completion, method refactoring, to generating a full MVP project, how well does Qwen3-coder-30b perform?</p> <p>I have a desktop with 32GB DDR5 RAM and I'm planning to buy an RTX 50 series with at least 16GB of VRAM. Can it handle the quantized version of this model well?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AzRedx\"> /u/AzRedx </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odf4ei/devs_what_are_your_experiences_with_qwen3coder30b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odf4ei/devs_what_are_your_experiences_with_qwen3coder30b/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "151b7a0e-8de4-5c29-bc5b-45382924010c",
+    "title": "Ling-1T is very impressive – why are there no independent benchmarks?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odf249/ling1t_is_very_impressive_why_are_there_no/",
+    "pubDate": "2025-10-22T17:40:56+00:00",
+    "description": "Today, I finally had the chance to run some tests with ubergarm’s GGUF version of Ling-1T: Hugging Face – Ling-1T-GGUF I focused on mathematical and reasoning tasks, and I have to say: I’m genuinely impressed. I only used IQ2_K-quants and Ling-1T solved every problem I threw at it, while keeping costs low thanks to its minimal token usage. But: I can’t find any independent benchmarks. No results on Artificial Analysis, LiveBench, Aider’s LLM Leaderboard, EQ-Bench… nothing beyond anecdotal impressions. What are your thoughts? Any ideas why this model seems to fly under the radar? submitted by /u/Snail_Inference [link] [comments]",
+    "author": "/u/Snail_Inference",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Today, I finally had the chance to run some tests with ubergarm’s GGUF version of Ling-1T: </p> <p><a href=\"https://huggingface.co/ubergarm/Ling-1T-GGUF\">Hugging Face – Ling-1T-GGUF</a></p> <p>I focused on mathematical and reasoning tasks, and I have to say: I’m genuinely impressed. I only used IQ2_K-quants and Ling-1T solved every problem I threw at it, while keeping costs low thanks to its minimal token usage.</p> <p>But: I can’t find <strong>any</strong> independent benchmarks. No results on Artificial Analysis, LiveBench, Aider’s LLM Leaderboard, EQ-Bench… nothing beyond anecdotal impressions. </p> <p>What are your thoughts? Any ideas why this model seems to fly under the radar?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Snail_Inference\"> /u/Snail_Inference </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odf249/ling1t_is_very_impressive_why_are_there_no/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1odf249/ling1t_is_very_impressive_why_are_there_no/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8fed35d5-f82f-55e9-9df9-8d3c0e7945e8",
     "title": "Free GPU memory during local LLM inference without KV cache hogging VRAM",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1odddyg/free_gpu_memory_during_local_llm_inference/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>A deal for my fellow European Local AI lovers: The Bosgame M5 has increased in price from 1450€ to 1581€ <strong>but</strong> now it's being sent from Germany to European customers instead of China, so there are no more extra taxes! That means it's around 170€ <em>cheaper</em> than before. It's <strong>by far</strong> the cheapest Ryzen AI MAX+ 395 with 128GB DDR5-8000 RAM that I know of. (<a href=\"https://www.bosgamepc.com/products/bosgame-m5-ai-mini-desktop-ryzen-ai-max-395\">Shop link</a>)</p> <p>Notebookcheck did a test of this particular model in August and they quite liked it: <a href=\"https://www.notebookcheck.net/Best-mini-PC-of-the-year-AMD-Strix-Halo-128-GB-RAM-Radeon-RX-8060S-reviewed-in-the-Bosgame-M5.1087793.0.html\">https://www.notebookcheck.net/Best-mini-PC-of-the-year-AMD-Strix-Halo-128-GB-RAM-Radeon-RX-8060S-reviewed-in-the-Bosgame-M5.1087793.0.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zyj\"> /u/Zyj </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocqmxw/deal_on_ryzen_395_w_128gb_now_1581_in_europe/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocqmxw/deal_on_ryzen_395_w_128gb_now_1581_in_europe/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bb37f54b-24b6-54c0-96c4-1152631e068b",
-    "title": "M5 using neural accelerators in the GPU is up to 3.65x faster for prefil in test",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocousf/m5_using_neural_accelerators_in_the_gpu_is_up_to/",
-    "pubDate": "2025-10-21T20:58:20+00:00",
-    "description": "https://x.com/MaxWinebach/status/1980688266304114912 https://preview.redd.it/blz39usp3jwf1.jpg?width=2026&format=pjpg&auto=webp&s=c52e7e409972e818d7302b9f6c441cdee7539863 Should be very useful for M5 pro and M5 Max later on. Decode is bound by mem bandwidth The uplift is in reference to the M5 without using the neural accelerators submitted by /u/CalmSpinach2140 [link] [comments]",
-    "author": "/u/CalmSpinach2140",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocousf/m5_using_neural_accelerators_in_the_gpu_is_up_to/\"> <img alt=\"M5 using neural accelerators in the GPU is up to 3.65x faster for prefil in test\" src=\"https://b.thumbs.redditmedia.com/_2L_YRnz2Q9byJk9pxrHjZventwminHxY2xB72DexZQ.jpg\" title=\"M5 using neural accelerators in the GPU is up to 3.65x faster for prefil in test\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://x.com/MaxWinebach/status/1980688266304114912\">https://x.com/MaxWinebach/status/1980688266304114912</a></p> <p><a href=\"https://preview.redd.it/blz39usp3jwf1.jpg?width=2026&amp;format=pjpg&amp;auto=webp&amp;s=c52e7e409972e818d7302b9f6c441cdee7539863\">https://preview.redd.it/blz39usp3jwf1.jpg?width=2026&amp;format=pjpg&amp;auto=webp&amp;s=c52e7e409972e818d7302b9f6c441cdee7539863</a></p> <p>Should be very useful for M5 pro and M5 Max later on. Decode is bound by mem bandwidth</p> <p>The uplift is in reference to the M5 without using the neural accelerators</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CalmSpinach2140\"> /u/CalmSpinach2140 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocousf/m5_using_neural_accelerators_in_the_gpu_is_up_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocousf/m5_using_neural_accelerators_in_the_gpu_is_up_to/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/_2L_YRnz2Q9byJk9pxrHjZventwminHxY2xB72DexZQ.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "459429b8-d8b7-517c-a451-d4f22f3254ed",
-    "title": "Qwen3-VL-2B , it works very well ocr",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ocnohl/qwen3vl2b_it_works_very_well_ocr/",
-    "pubDate": "2025-10-21T20:13:41+00:00",
-    "description": "our friend Maziyar did a test with good results and also left us a Google colab so that we can run it https://x.com/MaziyarPanahi/status/1980692255414628637?t=VXwW705ixLW-rsai_37M_A&s=19 submitted by /u/Illustrious-Swim9663 [link] [comments]",
-    "author": "/u/Illustrious-Swim9663",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocnohl/qwen3vl2b_it_works_very_well_ocr/\"> <img alt=\"Qwen3-VL-2B , it works very well ocr\" src=\"https://b.thumbs.redditmedia.com/NvNLG1hzs6RPYC_difrPtdpvyMrKLDvDAdqUHQLLbnc.jpg\" title=\"Qwen3-VL-2B , it works very well ocr\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>our friend Maziyar did a test with good results and also left us a Google colab so that we can run it</p> <p><a href=\"https://x.com/MaziyarPanahi/status/1980692255414628637?t=VXwW705ixLW-rsai_37M_A&amp;s=19\">https://x.com/MaziyarPanahi/status/1980692255414628637?t=VXwW705ixLW-rsai_37M_A&amp;s=19</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Illustrious-Swim9663\"> /u/Illustrious-Swim9663 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1ocnohl\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ocnohl/qwen3vl2b_it_works_very_well_ocr/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/NvNLG1hzs6RPYC_difrPtdpvyMrKLDvDAdqUHQLLbnc.jpg",
     "isShortVideo": 0
   }
 ]

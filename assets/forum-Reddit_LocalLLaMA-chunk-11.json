@@ -1,5 +1,37 @@
 [
   {
+    "id": "a39a08c2-048c-551a-8d25-f60f3226161a",
+    "title": "What are the most relevant agentic AI frameworks beyond LangGraph, LlamaIndex, Toolformer, and Parlant?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oofchr/what_are_the_most_relevant_agentic_ai_frameworks/",
+    "pubDate": "2025-11-04T18:37:40+00:00",
+    "description": "I’m researching current frameworks for agentic AI — systems that enable reasoning, planning, and tool use with LLMs. Besides LangGraph, LlamaIndex, Toolformer, and Parlant, what other frameworks or open-source projects should I explore? I’m interested in both research prototypes and production-grade systems. submitted by /u/Specialist_Arugula42 [link] [comments]",
+    "author": "/u/Specialist_Arugula42",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m researching current frameworks for agentic AI — systems that enable reasoning, planning, and tool use with LLMs.</p> <p>Besides LangGraph, LlamaIndex, Toolformer, and Parlant, what other frameworks or open-source projects should I explore?</p> <p>I’m interested in both research prototypes and production-grade systems.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist_Arugula42\"> /u/Specialist_Arugula42 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oofchr/what_are_the_most_relevant_agentic_ai_frameworks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oofchr/what_are_the_most_relevant_agentic_ai_frameworks/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "bb23e8c3-103f-52b6-b9f2-61301fee0442",
+    "title": "Why does it seem like GGUF files are not as popular as others?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ood0kn/why_does_it_seem_like_gguf_files_are_not_as/",
+    "pubDate": "2025-11-04T17:13:43+00:00",
+    "description": "I feel like it’s the easiest to setup and it’s been around since the beginning I believe, why does it seem like HuggingFace mainly focuses on Transformers, vLLM, etc which don’t support GGUF submitted by /u/XiRw [link] [comments]",
+    "author": "/u/XiRw",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I feel like it’s the easiest to setup and it’s been around since the beginning I believe, why does it seem like HuggingFace mainly focuses on Transformers, vLLM, etc which don’t support GGUF</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/XiRw\"> /u/XiRw </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ood0kn/why_does_it_seem_like_gguf_files_are_not_as/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ood0kn/why_does_it_seem_like_gguf_files_are_not_as/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "01d17107-843a-5207-9f37-66f0f5f38d8d",
     "title": "Could you guys recommend the best web search API for function tool?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oocqk1/could_you_guys_recommend_the_best_web_search_api/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>In my experience, for general reasoning tasks (code, parsing data, following instructions, answering tricky questions), qwen3-32b seems strictly superior to gemma-3-27b, *if allowed to use thinking*.</p> <p>But if you disable thinking for qwen3-32b how do they compare? Anyone got any experience with this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RepulsiveMousse3992\"> /u/RepulsiveMousse3992 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1onbqtv/gemma327bit_vs_qwen332b_nonthinking/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1onbqtv/gemma327bit_vs_qwen332b_nonthinking/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4ce128ee-16ef-52b8-8a32-bf48641045c7",
-    "title": "⚡️ Scaling Coding-Agent RL to 32x H100s. Achieving 160% improvement on Stanford's TerminalBench",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1onaops/scaling_codingagent_rl_to_32x_h100s_achieving_160/",
-    "pubDate": "2025-11-03T12:41:41+00:00",
-    "description": "👋 Trekking along the forefront of applied AI is rocky territory, but it is the best place to be! My RL trained multi-agent-coding model Orca-Agent-v0.1 reached a 160% higher relative score than its base model on Stanford's TerminalBench. Which is cool! The trek across RL was at times painful, and at other times slightly less painful 😅 I've open sourced everything. What I did: I trained a 14B orchestrator model to better coordinate explorer & coder subagents (subagents are tool calls for orchestrator) Scaled to 32x H100s that were pushed to their limits across 4 bare-metal nodes Scaled to 256 Docker environments rolling out simultaneously, automatically distributed across the cluster Key results: Qwen3-14B jumped from 7% → 18.25% on TerminalBench after training Model now within striking distance of Qwen3-Coder-480B (19.7%) Training was stable with smooth entropy decrease and healthy gradient norms Key learnings: \"Intelligently crafted\" reward functions pale in performance to simple unit tests. Keep it simple! RL is not a quick fix for improving agent performance. It is still very much in the early research phase, and in most cases prompt engineering with the latest SOTA is likely the way to go. Training approach: Reward design and biggest learning: Kept it simple - **just unit tests**. Every \"smart\" reward signal I tried to craft led to policy collapse 😅 Curriculum learning: Stage-1: Tasks where base model succeeded 1-2/3 times (41 tasks) Stage-2: Tasks where Stage-1 model succeeded 1-4/5 times Dataset: Used synthetically generated RL environments and unit tests More details: I have added lots more details in the repo: ⭐️ Orca-Agent-RL repo - training code, model weights, datasets. Huge thanks to: Taras for providing the compute and believing in open source Prime Intellect team for building prime-rl and dealing with my endless questions 😅 Alex Dimakis for the conversation that sparked training the orchestrator model I am sharing this because I believe agentic AI is going to change everybody's lives, and so I feel it is important (and super fun!) for us all to share knowledge around this area, and also have enjoy exploring what is possible. Thanks for reading! Dan (Evaluated on the excellent TerminalBench benchmark by Stanford & Laude Institute) submitted by /u/DanAiTuning [link] [comments]",
-    "author": "/u/DanAiTuning",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1onaops/scaling_codingagent_rl_to_32x_h100s_achieving_160/\"> <img alt=\"⚡️ Scaling Coding-Agent RL to 32x H100s. Achieving 160% improvement on Stanford's TerminalBench\" src=\"https://b.thumbs.redditmedia.com/jSQzd0HL5GuJP640MvEdr9aB6Jcc16z589SDLzlVOhs.jpg\" title=\"⚡️ Scaling Coding-Agent RL to 32x H100s. Achieving 160% improvement on Stanford's TerminalBench\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>👋 Trekking along the forefront of applied AI is rocky territory, but it is the best place to be! My RL trained multi-agent-coding model Orca-Agent-v0.1 reached a 160% higher relative score than its base model on Stanford's TerminalBench. Which is cool! The trek across RL was at times painful, and at other times slightly less painful 😅 I've open sourced everything.</p> <p><strong>What I did:</strong></p> <ul> <li>I trained a 14B orchestrator model to better coordinate explorer &amp; coder subagents (subagents are tool calls for orchestrator)</li> <li>Scaled to 32x H100s that were pushed to their limits across 4 bare-metal nodes</li> <li>Scaled to 256 Docker environments rolling out simultaneously, automatically distributed across the cluster</li> </ul> <p><strong>Key results:</strong></p> <ul> <li>Qwen3-14B jumped from <strong>7% → 18.25%</strong> on TerminalBench after training</li> <li>Model now within striking distance of Qwen3-Coder-480B (19.7%)</li> <li>Training was stable with smooth entropy decrease and healthy gradient norms</li> </ul> <p><strong>Key learnings:</strong></p> <ul> <li>&quot;Intelligently crafted&quot; reward functions pale in performance to simple unit tests. Keep it simple!</li> <li>RL is not a quick fix for improving agent performance. It is still very much in the early research phase, and in most cases prompt engineering with the latest SOTA is likely the way to go.</li> </ul> <p><strong>Training approach:</strong></p> <p>Reward design and biggest learning: Kept it simple - **just unit tests**. Every &quot;smart&quot; reward signal I tried to craft led to policy collapse 😅</p> <p>Curriculum learning:</p> <ul> <li>Stage-1: Tasks where base model succeeded 1-2/3 times (41 tasks)</li> <li>Stage-2: Tasks where Stage-1 model succeeded 1-4/5 times</li> </ul> <p>Dataset: Used synthetically generated RL environments and unit tests</p> <p><strong>More details:</strong></p> <p>I have added lots more details in the repo:</p> <p><strong>⭐️</strong> <a href=\"https://github.com/Danau5tin/Orca-Agent-RL\"><strong>Orca-Agent-RL repo</strong></a> - training code, model weights, datasets.</p> <p>Huge thanks to:</p> <ul> <li>Taras for providing the compute and believing in open source</li> <li>Prime Intellect team for building prime-rl and dealing with my endless questions 😅</li> <li>Alex Dimakis for the conversation that sparked training the orchestrator model</li> </ul> <p>I am sharing this because I believe agentic AI is going to change everybody's lives, and so I feel it is important (and super fun!) for us all to share knowledge around this area, and also have enjoy exploring what is possible.</p> <p>Thanks for reading!</p> <p>Dan</p> <p>(Evaluated on the excellent TerminalBench benchmark by Stanford &amp; Laude Institute)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DanAiTuning\"> /u/DanAiTuning </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1onaops\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1onaops/scaling_codingagent_rl_to_32x_h100s_achieving_160/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/jSQzd0HL5GuJP640MvEdr9aB6Jcc16z589SDLzlVOhs.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a4ee9a15-5fb8-5781-817d-64559b361cfa",
-    "title": "MiniMax-M2 Asteroid game - Unsloth",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1on8zl6/minimaxm2_asteroid_game_unsloth/",
-    "pubDate": "2025-11-03T11:12:28+00:00",
-    "description": "https://pastebin.com/c2rAezEs MiniMax-M2 Asteroid game I wanted to test this model by asking it to run the Asteroid game in HTML. What surprised me? 1) 9~10 tokens/sec on DDR4 3200 + 5070ti. Faster than GLM 4.6 q2 despite being q3. 2) The code didn't work on the first pass; I copied the errors from the Chrome console, and fixed them 100% on the second pass. 3) This is the first time I've seen audio and VFX integrated without asking anything. What I love about this model is that it thinks, but very little compared to Qwen and GLM. llama-server.exe --model \"C:\\gptmodel\\unsloth\\MiniMax-M2-GGUF\\MiniMax-M2-UD-Q3_K_XL-00001-of-00003.gguf\" --n-gpu-layers 63 --flash-attn on --tensor-split 99,0 --cpu-moe --ctx-size 32768 --threads 16 --parallel 1 --host 127.0.0.1 --port 8080 --top-p 0.95 --top-k 40 --ubatch-size 512 --seed 3407 --no-mmap submitted by /u/LegacyRemaster [link] [comments]",
-    "author": "/u/LegacyRemaster",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1on8zl6/minimaxm2_asteroid_game_unsloth/\"> <img alt=\"MiniMax-M2 Asteroid game - Unsloth\" src=\"https://b.thumbs.redditmedia.com/v_JOWMapjxQlXq1fbgVBm7vR-T-xWQ9o_bEwh-ljehc.jpg\" title=\"MiniMax-M2 Asteroid game - Unsloth\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://pastebin.com/c2rAezEs\">https://pastebin.com/c2rAezEs</a> </p> <p><a href=\"https://preview.redd.it/mxhf3813y0zf1.png?width=1909&amp;format=png&amp;auto=webp&amp;s=6feb5ca56de1c506fb3c00131b32912899de4d18\">MiniMax-M2 Asteroid game</a></p> <p>I wanted to test this model by asking it to run the Asteroid game in HTML.</p> <p>What surprised me?</p> <p>1) 9~10 tokens/sec on DDR4 3200 + 5070ti. Faster than GLM 4.6 q2 despite being q3.</p> <p>2) The code didn't work on the first pass; I copied the errors from the Chrome console, and fixed them 100% on the second pass.</p> <p>3) This is the first time I've seen audio and VFX integrated without asking anything.</p> <p>What I love about this model is that it thinks, but very little compared to Qwen and GLM.</p> <p>llama-server.exe --model &quot;C:\\gptmodel\\unsloth\\MiniMax-M2-GGUF\\MiniMax-M2-UD-Q3_K_XL-00001-of-00003.gguf&quot; --n-gpu-layers 63 --flash-attn on --tensor-split 99,0 --cpu-moe --ctx-size 32768 --threads 16 --parallel 1 --host <a href=\"http://127.0.0.1\">127.0.0.1</a> --port 8080 --top-p 0.95 --top-k 40 --ubatch-size 512 --seed 3407 --no-mmap </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LegacyRemaster\"> /u/LegacyRemaster </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1on8zl6/minimaxm2_asteroid_game_unsloth/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1on8zl6/minimaxm2_asteroid_game_unsloth/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/v_JOWMapjxQlXq1fbgVBm7vR-T-xWQ9o_bEwh-ljehc.jpg",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,37 @@
 [
   {
+    "id": "746fd6b7-92b5-53f6-b304-0db60370e796",
+    "title": "RAG Paper 25.11.12",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ovw4gk/rag_paper_251112/",
+    "pubDate": "2025-11-13T08:48:22+00:00",
+    "description": "MARC: Multimodal and Multi-Task Agentic Retrieval-Augmented Generation for Cold-Start Recommender System Structured RAG for Answering Aggregative Questions Prompt Tuning for Natural Language to SQL with Embedding Fine-Tuning and RAG BiCA: Effective Biomedical Dense Retrieval with Citation-Aware Hard Negatives Introducing A Bangla Sentence - Gloss Pair Dataset for Bangla Sign Language Translation and Research Multi-Agent GraphRAG: A Text-to-Cypher Framework for Labeled Property Graphs JobSphere: An AI-Powered Multilingual Career Copilot for Government Employment Platforms Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation Collected by OpenBMB, transferred by RagView.ai / github/RagView . submitted by /u/Cheryl_Apple [link] [comments]",
+    "author": "/u/Cheryl_Apple",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><ol> <li><p><a href=\"http://arxiv.org/abs/2511.08181v1\">MARC: Multimodal and Multi-Task Agentic Retrieval-Augmented Generation for Cold-Start Recommender System</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.08505v1\">Structured RAG for Answering Aggregative Questions</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.08245v1\">Prompt Tuning for Natural Language to SQL with Embedding Fine-Tuning and RAG</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.08029v1\">BiCA: Effective Biomedical Dense Retrieval with Citation-Aware Hard Negatives</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.08507v1\">Introducing A Bangla Sentence - Gloss Pair Dataset for Bangla Sign Language Translation and Research</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.08274v1\">Multi-Agent GraphRAG: A Text-to-Cypher Framework for Labeled Property Graphs</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.08343v1\">JobSphere: An AI-Powered Multilingual Career Copilot for Government Employment Platforms</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.07943v1\">Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction</a></p></li> <li><p><a href=\"http://arxiv.org/abs/2511.07982v1\">NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation</a></p></li> </ol> <p><strong>Collected by OpenBMB, transferred by</strong> <a href=\"https://www.ragview.ai/\"><strong>RagView.ai</strong></a> <strong>/</strong> <a href=\"https://github.com/RagView/RagView\"><strong>github/RagView</strong></a> <strong>.</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cheryl_Apple\"> /u/Cheryl_Apple </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ovw4gk/rag_paper_251112/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ovw4gk/rag_paper_251112/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "70cfba3a-0b4e-5ca4-be8b-fef298327f5f",
+    "title": "Stanford's new Equivariant Encryption enables private AI inference with zero slowdown - works with any symmetric encryption",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ovv95d/stanfords_new_equivariant_encryption_enables/",
+    "pubDate": "2025-11-13T07:51:50+00:00",
+    "description": "Just came across this paper (arXiv:2502.01013) that could be huge for private local model deployment. The researchers achieved 99.999% accuracy on encrypted neural network inference with literally zero additional latency. Not \"minimal\" overhead - actually zero. The key insight: instead of using homomorphic encryption (10,000x slowdown), they train networks to use \"equivariant functions\" that commute with encryption operations. So you can compute directly on AES or ChaCha20 encrypted data. What this means for local LLMs: - Your prompts could remain encrypted in memory - Model weights could be encrypted at rest - No performance penalty for privacy The catch: you need to retrain models with their specific architecture constraints. Can't just plug this into existing models. Paper: https://arxiv.org/abs/2502.01013 Also made a technical breakdown analyzing the limitations they gloss over: https://youtu.be/PXKO5nkVLI4 Anyone see potential applications for local assistant privacy? The embedding layer limitations seem like the biggest bottleneck for LLM applications. submitted by /u/Proof-Possibility-54 [link] [comments]",
+    "author": "/u/Proof-Possibility-54",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Just came across this paper (arXiv:2502.01013) that could be huge for private local model deployment.</p> <p>The researchers achieved 99.999% accuracy on encrypted neural network inference with literally zero additional latency. Not &quot;minimal&quot; overhead - actually zero.</p> <p>The key insight: instead of using homomorphic encryption (10,000x slowdown), they train networks to use &quot;equivariant functions&quot; that commute with encryption operations. So you can compute directly on AES or ChaCha20 encrypted data.</p> <p>What this means for local LLMs:</p> <p>- Your prompts could remain encrypted in memory</p> <p>- Model weights could be encrypted at rest</p> <p>- No performance penalty for privacy</p> <p>The catch: you need to retrain models with their specific architecture constraints. Can't just plug this into existing models.</p> <p>Paper: <a href=\"https://arxiv.org/abs/2502.01013\">https://arxiv.org/abs/2502.01013</a></p> <p>Also made a technical breakdown analyzing the limitations they gloss over: <a href=\"https://youtu.be/PXKO5nkVLI4\">https://youtu.be/PXKO5nkVLI4</a></p> <p>Anyone see potential applications for local assistant privacy? The embedding layer limitations seem like the biggest bottleneck for LLM applications.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Proof-Possibility-54\"> /u/Proof-Possibility-54 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ovv95d/stanfords_new_equivariant_encryption_enables/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ovv95d/stanfords_new_equivariant_encryption_enables/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "908fafee-e2d0-5b27-b555-c8b2db0f6641",
     "title": "Insane week for LLMs",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ovsqs7/insane_week_for_llms/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouzxrw/𝚕𝚕𝚊𝚖𝚊𝚚𝚝𝚌𝚛𝚎𝚊𝚝𝚘𝚛_is_available_in_qt_creators/\"> <img alt=\"𝚕𝚕𝚊𝚖𝚊.𝚚𝚝𝚌𝚛𝚎𝚊𝚝𝚘𝚛 is available in Qt Creator's Extension Store\" src=\"https://external-preview.redd.it/cDZ5aG9vb2tmczBnMe-wOcA5k3ws7B9qNxPhbAFpjix4pw_ql6FN-CDjglod.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=42d5a58fc981c633dccbda024a13c069f9ea04d8\" title=\"𝚕𝚕𝚊𝚖𝚊.𝚚𝚝𝚌𝚛𝚎𝚊𝚝𝚘𝚛 is available in Qt Creator's Extension Store\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This video showcases how you can use <code>gpt-oss 20b</code> with Qt Creator 18 and llama.qtcreator.</p> <p>This was done on Windows 11 running on a Bosgame M5 &quot;Strix Halo&quot; AMD Ryzen AI Max+ 395 PC.</p> <p>First the llama.cpp extension in installed from Qt Creator's extension store, then llama.cpp via <code>winget</code>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cristianadam\"> /u/cristianadam </a> <br /> <span><a href=\"https://v.redd.it/kgkuowokfs0g1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouzxrw/𝚕𝚕𝚊𝚖𝚊𝚚𝚝𝚌𝚛𝚎𝚊𝚝𝚘𝚛_is_available_in_qt_creators/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/cDZ5aG9vb2tmczBnMe-wOcA5k3ws7B9qNxPhbAFpjix4pw_ql6FN-CDjglod.png?width=640&crop=smart&auto=webp&s=42d5a58fc981c633dccbda024a13c069f9ea04d8",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a5c2a06c-1f7b-54aa-96a3-914ca1e61db0",
-    "title": "Best local model for C++?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ouzs6u/best_local_model_for_c/",
-    "pubDate": "2025-11-12T08:28:11+00:00",
-    "description": "Greetings. What would you recommend as a local coding assistant for development in C++ for Windows apps? My x86 machine will soon have 32GB VRAM (+ 32GB of RAM). I heard good things about Qwen and Devstral, but would love to know your thoughts and experience. Thanks. submitted by /u/youmumin [link] [comments]",
-    "author": "/u/youmumin",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Greetings.</p> <p>What would you recommend as a local coding assistant for development in C++ for Windows apps? My x86 machine will soon have 32GB VRAM (+ 32GB of RAM).</p> <p>I heard good things about Qwen and Devstral, but would love to know your thoughts and experience.</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/youmumin\"> /u/youmumin </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouzs6u/best_local_model_for_c/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouzs6u/best_local_model_for_c/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b3444277-d62a-53f6-884f-4302642251a8",
-    "title": "I wrote a guide on running LLMs everywhere (desktop, mobile, game engines) with zero conversion",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ouzqja/i_wrote_a_guide_on_running_llms_everywhere/",
-    "pubDate": "2025-11-12T08:25:09+00:00",
-    "description": "Full article: https://medium.com/@planetbridging/loom-the-universal-ai-runtime-that-works-everywhere-and-why-that-matters-54de5e7ec182 TL;DR: Built LOOM to solve the \"download model → convert to 5 formats → hope outputs match\" problem. One HuggingFace model → works on Python, JS, C#, Go, WASM, Android, iOS, Godot game engine. No GGUF conversion needed. Demos in article: Running SmolLM2/Qwen2.5 on desktop, in Godot, on Android. Already published to PyPI/npm/NuGet for easy integration. Article covers technical details and why local AI matters for privacy/cost/sovereignty. Code: github.com/openfluke/loom submitted by /u/Apricot-Zestyclose [link] [comments]",
-    "author": "/u/Apricot-Zestyclose",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Full article: <a href=\"https://medium.com/@planetbridging/loom-the-universal-ai-runtime-that-works-everywhere-and-why-that-matters-54de5e7ec182\">https://medium.com/@planetbridging/loom-the-universal-ai-runtime-that-works-everywhere-and-why-that-matters-54de5e7ec182</a></p> <p>TL;DR: Built LOOM to solve the &quot;download model → convert to 5 formats → hope outputs match&quot; problem.</p> <p>One HuggingFace model → works on Python, JS, C#, Go, WASM, Android, iOS, Godot game engine. No GGUF conversion needed.</p> <p>Demos in article: Running SmolLM2/Qwen2.5 on desktop, in Godot, on Android.</p> <p>Already published to PyPI/npm/NuGet for easy integration.</p> <p>Article covers technical details and why local AI matters for privacy/cost/sovereignty.</p> <p>Code: github.com/openfluke/loom</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apricot-Zestyclose\"> /u/Apricot-Zestyclose </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouzqja/i_wrote_a_guide_on_running_llms_everywhere/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouzqja/i_wrote_a_guide_on_running_llms_everywhere/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
