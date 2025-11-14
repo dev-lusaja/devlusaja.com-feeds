@@ -1,5 +1,21 @@
 [
   {
+    "id": "7c331bb8-5250-5b34-b733-a4254eaeb88a",
+    "title": "Tried to mess with Claude but he made me laugh",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1onekr3/tried_to_mess_with_claude_but_he_made_me_laugh/",
+    "pubDate": "2025-11-03T15:22:01+00:00",
+    "description": "submitted by /u/Slight_Insurance_660 [link] [comments]",
+    "author": "/u/Slight_Insurance_660",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1onekr3/tried_to_mess_with_claude_but_he_made_me_laugh/\"> <img alt=\"Tried to mess with Claude but he made me laugh\" src=\"https://preview.redd.it/b7hh8bao72zf1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=c35f98eb77161f76ae0a1fd8403ac941df6d0e30\" title=\"Tried to mess with Claude but he made me laugh\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Slight_Insurance_660\"> /u/Slight_Insurance_660 </a> <br /> <span><a href=\"https://i.redd.it/b7hh8bao72zf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1onekr3/tried_to_mess_with_claude_but_he_made_me_laugh/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/b7hh8bao72zf1.jpeg?width=320&crop=smart&auto=webp&s=c35f98eb77161f76ae0a1fd8403ac941df6d0e30",
+    "isShortVideo": 0
+  },
+  {
     "id": "2ea85094-e6d2-5683-8d5e-757d1402d307",
     "title": "Debugging Codex with Claude",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1onedmb/debugging_codex_with_claude/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>One of my accounts had been beta testing the 1M context window for some time now. I think Anthropic has some things to figure out before the full release of this. Specifically around the usage limits.</p> <p>As it stands today, testing out this larger context window size does not jive with the current weekly usage limits. You lose all benefits of the larger context window. You either have to treat it like the regular 200K context window and `/compact` or `/clear` as you get close to 200K of context or suffer the blowback of continuously running sessions with 500K+ of context and burning through your weekly usage limit well before the week is over. At the very least, the accounts that were added to the 1M context beta testing should have been exempt from the weekly limits or given a higher threshold.</p> <p>As for the performance of the model on a larger context window. It's been great. I have not seen much deterioration or hallucination of the model as the context window grows in size. Until you get to about ~700K of context (sometimes). IMO I think the larger context window makes the use of subagent even better than before. Even though subagents have their own context window. Depending on what you're using the subagents for, with enough of them, their response back to the main agent will eventually fill up the main agent context window. The larger context windows allows we to work longer and on broader set of tasks that may benefit of having the main agent retain one unified context without worrying about losing some context from compacting, or having to maintain something like a memory file. It also opens up what you can do with the subagents themselves. With the larger context window, each subagent can work much longer on certain task that benefits from the higher context. Maybe you have extensive research to do. Since they can fit more into their context window, they can research for longer, analyze and only return back what's relevant to main agent. Though output max token is still a thing, so maybe have them write their findings instead of returning it as their last message. Or you're working on an app with a large codebase spread across multiple repos, and want to use subagents to crawl the repos and gather context while keeping your main agents 1M context window free.</p> <p>One negative thing I have been seeing recently though is with the feature that was added letting the agent be aware of its context window. For some reason, sometimes, CC tries to cut corners with it's output and or stop abruptly while implementing a task due to it's concern about reaching its context window limit. At what context length does it normally decide to do this? That's a coin toss. It will do this at any random context window length ( ~100K, ~200K, or ~500K, ~700K). Reading that post mortem Anthropic wrote about a month ago on the errors the community was seeing. I would say they may still have some type of issue with context window routing. (which they need to fix if they plan to release this the way I think they will)</p> <p>Overall the larger context window is great. Heavy users will highly appreciate it. But they certainly won't appreciate what it does to their weekly limits. I won't be surprised if the 1M context window was released as a separate $500 plan with increased usage limits. Honestly, I think that's the only way it would work, with how limits are today. If you're a heavy user, that plan could make perfect sense for you.</p> <p>Edit: For those that have been on the 1M context window beta. Would love to hear how you've been using it. How has the larger context change your workflow? Have you found yourself using up the entire context window frequently? And has your usage limit suffered?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mystic_unicorn_soul\"> /u/mystic_unicorn_soul </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ok8815/1m_context_window_feedback_concern/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ok8815/1m_context_window_feedback_concern/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "825b5e57-cdb9-5de4-818f-5d651c6cb185",
-    "title": "When your home rig runs on curiosity, but your work rig runs on compliance. 🧠💼",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ok5y1r/when_your_home_rig_runs_on_curiosity_but_your/",
-    "pubDate": "2025-10-30T17:26:15+00:00",
-    "description": "submitted by /u/cprima_ [link] [comments]",
-    "author": "/u/cprima_",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ok5y1r/when_your_home_rig_runs_on_curiosity_but_your/\"> <img alt=\"When your home rig runs on curiosity, but your work rig runs on compliance. 🧠💼\" src=\"https://preview.redd.it/wzrrqos2aayf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=3b9d824cccf906d44a08f76a6d040365ca451a3f\" title=\"When your home rig runs on curiosity, but your work rig runs on compliance. 🧠💼\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cprima_\"> /u/cprima_ </a> <br /> <span><a href=\"https://i.redd.it/wzrrqos2aayf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ok5y1r/when_your_home_rig_runs_on_curiosity_but_your/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/wzrrqos2aayf1.png?width=640&crop=smart&auto=webp&s=3b9d824cccf906d44a08f76a6d040365ca451a3f",
     "isShortVideo": 0
   }
 ]

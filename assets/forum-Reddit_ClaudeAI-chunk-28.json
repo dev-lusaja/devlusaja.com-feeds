@@ -1,5 +1,21 @@
 [
   {
+    "id": "8e9c2196-e9f4-535b-87f4-9381ea39258f",
+    "title": "Skills issue (haha) / bug?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oa5vxy/skills_issue_haha_bug/",
+    "pubDate": "2025-10-18T20:07:20+00:00",
+    "description": "Seems when using subagents and they try to load a skill with a SKILLS.md containing backticks, there's a bug in Claude's loader: ⎿ Error: Bash command failed for pattern \"!`; // Multi-line strings const html = `\": [stderr] (eval):3: permission denied: // (eval):4: command not found: const Relevant part of SKILL.md: ### 4. Template Literals ```javascript // Multi-line strings const html = ` <div> <h1>${title}</h1> <p>${content}</p> </div> `; submitted by /u/Firm_Meeting6350 [link] [comments]",
+    "author": "/u/Firm_Meeting6350",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Seems when using subagents and they try to load a skill with a <a href=\"http://SKILLS.md\">SKILLS.md</a> containing backticks, there's a bug in Claude's loader:</p> <pre><code>⎿ Error: Bash command failed for pattern &quot;!`; // Multi-line strings const html = `&quot;: [stderr] (eval):3: permission denied: // (eval):4: command not found: const </code></pre> <p>Relevant part of SKILL.md:</p> <h1>### 4. Template Literals</h1> <p>```javascript</p> <p>// Multi-line strings</p> <p>const html = `</p> <p>&lt;div&gt;</p> <p>&lt;h1&gt;${title}&lt;/h1&gt;</p> <p>&lt;p&gt;${content}&lt;/p&gt;</p> <p>&lt;/div&gt;</p> <p>`;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Firm_Meeting6350\"> /u/Firm_Meeting6350 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oa5vxy/skills_issue_haha_bug/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oa5vxy/skills_issue_haha_bug/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c0f12f58-a487-5fa5-bd01-844d4d1ea60e",
     "title": "Claude skill for context handoff/onboarding?",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1oa5rfw/claude_skill_for_context_handoffonboarding/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Alright I give up, I am getting too frustrated, I have to be vibing wrong, I know theres a ton of you here that have blogs and newsletters and such for the latest ai goodies. I need some of your articles for learning agents, mcp, I guess now claude skills, and claude plan mode.</p> <p>Im using vs code claude code and gpt codex. go ahead and leave your links...I will click.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fstr21\"> /u/Fstr21 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o9ddfq/i_give_up_i_am_now_admitting_i_need_help_vibing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o9ddfq/i_give_up_i_am_now_admitting_i_need_help_vibing/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0c64096b-fce2-5b0e-81f6-5d284dbbb97d",
-    "title": "Built a tool to auto-generate Claude skills from any documentation",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1o9c4qf/built_a_tool_to_autogenerate_claude_skills_from/",
-    "pubDate": "2025-10-17T20:23:07+00:00",
-    "description": "Made this because I wanted Claude to have skills for every framework I use, but creating them manually takes forever. Skill Seekers automatically: • Scrapes documentation websites • Organizes content intelligently • Enhances with AI (9/10 quality) • Packages for Claude upload Takes ~25 minutes vs hours of manual work. Open source & free! https://github.com/yusufkaraaslan/Skill_Seekers submitted by /u/Critical-Pea-8782 [link] [comments]",
-    "author": "/u/Critical-Pea-8782",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Made this because I wanted Claude to have skills for every framework I use, but creating them manually takes forever.</p> <p>Skill Seekers automatically:</p> <p>• Scrapes documentation websites</p> <p>• Organizes content intelligently</p> <p>• Enhances with AI (9/10 quality)</p> <p>• Packages for Claude upload</p> <p>Takes ~25 minutes vs hours of manual work. Open source &amp; free!</p> <p><a href=\"https://github.com/yusufkaraaslan/Skill_Seekers\">https://github.com/yusufkaraaslan/Skill_Seekers</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Critical-Pea-8782\"> /u/Critical-Pea-8782 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o9c4qf/built_a_tool_to_autogenerate_claude_skills_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1o9c4qf/built_a_tool_to_autogenerate_claude_skills_from/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

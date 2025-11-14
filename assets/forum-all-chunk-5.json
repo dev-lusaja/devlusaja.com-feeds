@@ -1,5 +1,21 @@
 [
   {
+    "id": "0ce35362-2554-567d-909b-54a04c4b90fc",
+    "title": "What's a surprisingly capable smaller model (<15B parameters) that you feel doesn't get enough attention?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ouy2a6/whats_a_surprisingly_capable_smaller_model_15b/",
+    "pubDate": "2025-11-12T06:40:48+00:00",
+    "description": "We all see the headlines for the massive new 100B+ models, but some of the most impressive work is happening at a smaller scale. What's a sub-15B model you've used recently that genuinely impressed you with its reasoning, coding, or creativity? Maybe it's a fine-tune of a known architecture or something entirely different. Let's share some hidden gems. https://preview.redd.it/2mnrk4jpur0g1.png?width=1536&format=png&auto=webp&s=317e3c1ca1664b07b4ada9fafb7a1cd2c0d7c389 submitted by /u/Street-Lie-2584 [link] [comments]",
+    "author": "/u/Street-Lie-2584",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouy2a6/whats_a_surprisingly_capable_smaller_model_15b/\"> <img alt=\"What's a surprisingly capable smaller model (&lt;15B parameters) that you feel doesn't get enough attention?\" src=\"https://b.thumbs.redditmedia.com/kLtGVKLIgLuZIGhmA34Ogjsd59ZIB8LW4CaY0UgxdcA.jpg\" title=\"What's a surprisingly capable smaller model (&lt;15B parameters) that you feel doesn't get enough attention?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>We all see the headlines for the massive new 100B+ models, but some of the most impressive work is happening at a smaller scale. What's a sub-15B model you've used recently that genuinely impressed you with its reasoning, coding, or creativity? Maybe it's a fine-tune of a known architecture or something entirely different. Let's share some hidden gems.</p> <p><a href=\"https://preview.redd.it/2mnrk4jpur0g1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=317e3c1ca1664b07b4ada9fafb7a1cd2c0d7c389\">https://preview.redd.it/2mnrk4jpur0g1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=317e3c1ca1664b07b4ada9fafb7a1cd2c0d7c389</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Street-Lie-2584\"> /u/Street-Lie-2584 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouy2a6/whats_a_surprisingly_capable_smaller_model_15b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ouy2a6/whats_a_surprisingly_capable_smaller_model_15b/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://b.thumbs.redditmedia.com/kLtGVKLIgLuZIGhmA34Ogjsd59ZIB8LW4CaY0UgxdcA.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "2b2a92df-acba-5bdd-8d47-698bad28dea2",
     "title": "Cursor just dropped a new coding model called Composer 1, and I had to test it with Sonnet",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ouxnxg/cursor_just_dropped_a_new_coding_model_called/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oukvzu/constant_chatloading_errors/\"> <img alt=\"Constant chat/loading errors\" src=\"https://preview.redd.it/11d8pzb7wo0g1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ab32ecbada9f043f680bf5f41b208c32c71f8449\" title=\"Constant chat/loading errors\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Not sure if there's anything going on but I didn't see anything on the status page or Reddit. Whenever I try using Claude both via the app or the website it fails to send messages or load entirely. It's been like this for 2 days straight, anyone else having these issues?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Paragon_Umbra\"> /u/Paragon_Umbra </a> <br /> <span><a href=\"https://i.redd.it/11d8pzb7wo0g1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oukvzu/constant_chatloading_errors/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/11d8pzb7wo0g1.jpeg?width=640&crop=smart&auto=webp&s=ab32ecbada9f043f680bf5f41b208c32c71f8449",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d3c999c9-fa76-546d-a78c-60752393b7cc",
-    "title": "Let me know if my idea is dumb",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oukqnr/let_me_know_if_my_idea_is_dumb/",
-    "pubDate": "2025-11-11T20:36:54+00:00",
-    "description": "Hello, so in the last few weeks (nights/weekends) I've built out this little project, but tbh I'm unsure if there is even an audience for it or if it's worth building out further. If you guys can just lmk if its a good idea or a bad one that would be helpful Here's the idea: model merging is typically a pretty locally done thing. There are maybe 1-2 solutions for diffusion model merging I found online, which are hosting a web version of the A1111 GUI. The only LLM related merging I could find was Arcee, who owns the open source repo mergekit. Arcee is pretty B2B and consulting focused, so I really couldn't find any good browser based solutions for LLM merging for the B2C audience. So, I built this little thing. It allows browser based merging for several popular merging techniques (DARE, TIES, SLERP, etc), for both LLMs and SD models (and really any general Pytorch model) https://www.frankenstein-ai.com tech stack I used is React TS frontend, Django backend, runpod serverless, mergekit for actual merging (complies with their usage policy), aws hosting, and huggingface for model storage. Forgive my crappy frontend skills, I mainly hacked it with Claude. I'm an AI dev by trade (Head of AI day job), but just thought this was a fun little build out. Not sure where I'm going to take it, but just wanted to see if it's something people find helpful. If you find any bugs or just generally think it sucks, feel free to let me know thanks for reading submitted by /u/redwat3r [link] [comments]",
-    "author": "/u/redwat3r",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, so in the last few weeks (nights/weekends) I've built out this little project, but tbh I'm unsure if there is even an audience for it or if it's worth building out further. </p> <p>If you guys can just lmk if its a good idea or a bad one that would be helpful</p> <p>Here's the idea: model merging is typically a pretty locally done thing. There are maybe 1-2 solutions for diffusion model merging I found online, which are hosting a web version of the A1111 GUI. </p> <p>The only LLM related merging I could find was Arcee, who owns the open source repo mergekit. Arcee is pretty B2B and consulting focused, so I really couldn't find any good browser based solutions for LLM merging for the B2C audience. </p> <p>So, I built this little thing. It allows browser based merging for several popular merging techniques (DARE, TIES, SLERP, etc), for both LLMs and SD models (and really any general Pytorch model)</p> <p><a href=\"https://www.frankenstein-ai.com\">https://www.frankenstein-ai.com</a> </p> <p>tech stack I used is React TS frontend, Django backend, runpod serverless, mergekit for actual merging (complies with their usage policy), aws hosting, and huggingface for model storage. </p> <p>Forgive my crappy frontend skills, I mainly hacked it with Claude. I'm an AI dev by trade (Head of AI day job), but just thought this was a fun little build out. Not sure where I'm going to take it, but just wanted to see if it's something people find helpful. </p> <p>If you find any bugs or just generally think it sucks, feel free to let me know</p> <p>thanks for reading</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/redwat3r\"> /u/redwat3r </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oukqnr/let_me_know_if_my_idea_is_dumb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oukqnr/let_me_know_if_my_idea_is_dumb/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

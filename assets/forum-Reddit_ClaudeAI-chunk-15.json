@@ -1,5 +1,21 @@
 [
   {
+    "id": "f629c5d4-ffc6-5846-a569-390a73eb5fb8",
+    "title": "What do you want from Claude Code?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ojbypg/what_do_you_want_from_claude_code/",
+    "pubDate": "2025-10-29T18:09:19+00:00",
+    "description": "We filtered for open feature requests in anthropics/claude-code and ranked demand using a popularity score: score = 2 * 👍 + 0.5 * comments + 1 * participants We then grouped requests into themes. Here are top-4: 1/ Lack of integrations with different IDEs 2/ Configuration MCP tools per-agent (isolation from a main agent) 3/ Long-run tasks: visibility, named/resumable sessions, quota-aware fallback 4/ Automation for durable operations / adding scheduled actions What is the major problem for you? submitted by /u/Fancy-Exit-6954 [link] [comments]",
+    "author": "/u/Fancy-Exit-6954",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We filtered for open feature requests in anthropics/claude-code and ranked demand using a popularity score:</p> <p>score = 2 * 👍 + 0.5 * comments + 1 * participants</p> <p>We then grouped requests into themes. Here are top-4:</p> <p>1/ Lack of integrations with different IDEs</p> <p>2/ Configuration MCP tools per-agent (isolation from a main agent)</p> <p>3/ Long-run tasks: visibility, named/resumable sessions, quota-aware fallback</p> <p>4/ Automation for durable operations / adding scheduled actions</p> <p>What is the major problem for you?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fancy-Exit-6954\"> /u/Fancy-Exit-6954 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ojbypg/what_do_you_want_from_claude_code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ojbypg/what_do_you_want_from_claude_code/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "19b2f7e9-335f-5132-81db-b402596c025e",
     "title": "Has anyone received an email like this?",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ojaheg/has_anyone_received_an_email_like_this/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I collected conversations and generated code from my time using Claude code, and performed an automated retrospective - what goes well, what could be better - and used AI to generate a prompt to help avoid this undesirable behavior. It doesn't look like much but in my experience has reduced the incidence of bad bug fixes by around 90%</p> <p>I add this to my Claude.md file and find it to be quite effective.</p> <h2>Bug Fixes vs. New Features</h2> <p>When fixing a bug in code you wrote: - Directly replace the buggy code with the correct implementation - Do NOT add backward compatibility layers or fallback logic for the broken version - Do NOT treat the fix as an alternative approach that needs to coexist with the original</p> <p>If you believe backward compatibility is genuinely needed, explicitly ask before implementing it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/9011442\"> /u/9011442 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oifn7d/helpful_claudemd_snippet_to_avoid_fallbacks_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oifn7d/helpful_claudemd_snippet_to_avoid_fallbacks_when/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "86ec3be4-a23b-53b9-96ab-c045d77dcf52",
-    "title": "If claude code is capable of compating the conversation and keep going, why doens't claude web/desktop do the same?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oif9mv/if_claude_code_is_capable_of_compating_the/",
-    "pubDate": "2025-10-28T17:12:14+00:00",
-    "description": "submitted by /u/cryptoviksant [link] [comments]",
-    "author": "/u/cryptoviksant",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cryptoviksant\"> /u/cryptoviksant </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oif9mv/if_claude_code_is_capable_of_compating_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oif9mv/if_claude_code_is_capable_of_compating_the/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

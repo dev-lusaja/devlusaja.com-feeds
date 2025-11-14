@@ -1,5 +1,21 @@
 [
   {
+    "id": "9b6d7ebb-d3d0-5b45-86c1-86b3d45237d4",
+    "title": "Claude has become irrationally disagreeable?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oapzcv/claude_has_become_irrationally_disagreeable/",
+    "pubDate": "2025-10-19T13:43:14+00:00",
+    "description": "Has anyone else noticed this? I primarily use Claude for analyzing ideas / as a reading companion / writing assistant, not coding. On the free plan, using Haiku 4.5. I appreciate pushback over sycophancy, but Claude's disagreeability is getting to the point of irrationality, where it insists on nitpicking something of contention to the extent that it's extremely difficult to move the conversation forward in terms of framework shifts, etc. In terms of personality, it feels more combative than helpful. It doesn't just point out blind spots in your reasoning, it fixates on them and refuses to let go of its disagreements. https://www.reddit.com/r/claudexplorers/comments/1o8f9pt/im_not_a_softie_but_haiku_45_is_an_asshole_that/ ^ This thread seems to indicate that this is an issue with Claude now defaulting to Haiku 4.5. I just ran the conversation that inspired this post through Sonnet 4.5 and the results were as I expected, though I wish Sonnet could be a bit more disagreeable like Haiku except without being an asshole! submitted by /u/gatelessgate [link] [comments]",
+    "author": "/u/gatelessgate",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone else noticed this? </p> <p>I primarily use Claude for analyzing ideas / as a reading companion / writing assistant, not coding. On the free plan, using Haiku 4.5.</p> <p>I appreciate pushback over sycophancy, but Claude's disagreeability is getting to the point of irrationality, where it insists on nitpicking something of contention to the extent that it's extremely difficult to move the conversation forward in terms of framework shifts, etc.</p> <p>In terms of personality, it feels more combative than helpful. It doesn't just point out blind spots in your reasoning, it fixates on them and refuses to let go of its disagreements.</p> <p><a href=\"https://www.reddit.com/r/claudexplorers/comments/1o8f9pt/im_not_a_softie_but_haiku_45_is_an_asshole_that/\">https://www.reddit.com/r/claudexplorers/comments/1o8f9pt/im_not_a_softie_but_haiku_45_is_an_asshole_that/</a></p> <p>^ This thread seems to indicate that this is an issue with Claude now defaulting to Haiku 4.5. I just ran the conversation that inspired this post through Sonnet 4.5 and the results were as I expected, though I wish Sonnet could be a bit more disagreeable like Haiku except without being an asshole!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gatelessgate\"> /u/gatelessgate </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oapzcv/claude_has_become_irrationally_disagreeable/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oapzcv/claude_has_become_irrationally_disagreeable/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c2cc5280-5aa6-58b1-b287-acefb1f8fcb1",
     "title": "Basic question about “skills”",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1oaptfh/basic_question_about_skills/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone. Is there any way to subscribe to Claude at a cheaper price, such as a student discount or annual plan? It seems there are just two prices and both are quite expensive. Thanks </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Soft_Schedule6341\"> /u/Soft_Schedule6341 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oa64eg/claude_max_subscription/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oa64eg/claude_max_subscription/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8e9c2196-e9f4-535b-87f4-9381ea39258f",
-    "title": "Skills issue (haha) / bug?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oa5vxy/skills_issue_haha_bug/",
-    "pubDate": "2025-10-18T20:07:20+00:00",
-    "description": "Seems when using subagents and they try to load a skill with a SKILLS.md containing backticks, there's a bug in Claude's loader: ⎿ Error: Bash command failed for pattern \"!`; // Multi-line strings const html = `\": [stderr] (eval):3: permission denied: // (eval):4: command not found: const Relevant part of SKILL.md: ### 4. Template Literals ```javascript // Multi-line strings const html = ` <div> <h1>${title}</h1> <p>${content}</p> </div> `; submitted by /u/Firm_Meeting6350 [link] [comments]",
-    "author": "/u/Firm_Meeting6350",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Seems when using subagents and they try to load a skill with a <a href=\"http://SKILLS.md\">SKILLS.md</a> containing backticks, there's a bug in Claude's loader:</p> <pre><code>⎿ Error: Bash command failed for pattern &quot;!`; // Multi-line strings const html = `&quot;: [stderr] (eval):3: permission denied: // (eval):4: command not found: const </code></pre> <p>Relevant part of SKILL.md:</p> <h1>### 4. Template Literals</h1> <p>```javascript</p> <p>// Multi-line strings</p> <p>const html = `</p> <p>&lt;div&gt;</p> <p>&lt;h1&gt;${title}&lt;/h1&gt;</p> <p>&lt;p&gt;${content}&lt;/p&gt;</p> <p>&lt;/div&gt;</p> <p>`;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Firm_Meeting6350\"> /u/Firm_Meeting6350 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oa5vxy/skills_issue_haha_bug/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oa5vxy/skills_issue_haha_bug/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

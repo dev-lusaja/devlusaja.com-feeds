@@ -1,5 +1,21 @@
 [
   {
+    "id": "68b95876-0235-520f-8cba-e678410897b7",
+    "title": "Text model that can produce nodes and edges in JSON",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1orp9o9/text_model_that_can_produce_nodes_and_edges_in/",
+    "pubDate": "2025-11-08T13:21:40+00:00",
+    "description": "I need to draw knowledge graphs and I’m using Gemini 2.5 Flash to give me the JSON that renders it. However, it is too slow. The output looks something like {“type”: “node”, “id”: 123}, {“type”: “edge”, “from_id”: 123, “to_id”: 456} What model could I look into? It would need to reason on the free text input that describes the entities and their relationships. A typical graph contains approx. 20 nodes and 30 edges. submitted by /u/BlueAdventurers [link] [comments]",
+    "author": "/u/BlueAdventurers",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I need to draw knowledge graphs and I’m using Gemini 2.5 Flash to give me the JSON that renders it. However, it is too slow.</p> <p>The output looks something like {“type”: “node”, “id”: 123}, {“type”: “edge”, “from_id”: 123, “to_id”: 456}</p> <p>What model could I look into? It would need to reason on the free text input that describes the entities and their relationships. </p> <p>A typical graph contains approx. 20 nodes and 30 edges.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlueAdventurers\"> /u/BlueAdventurers </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1orp9o9/text_model_that_can_produce_nodes_and_edges_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1orp9o9/text_model_that_can_produce_nodes_and_edges_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5d1647ca-d786-5ed2-b5e6-07e38ccf3cb4",
     "title": "Best way to serve NVIDIA ASR at scale ?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1orp997/best_way_to_serve_nvidia_asr_at_scale/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1orb1vt/strange_popup_errors_in_claude_code/\"> <img alt=\"Strange pop-up errors in Claude Code\" src=\"https://b.thumbs.redditmedia.com/nfG0R9QcZE2pobuj3vtKDSdeDP7MCwL7eDwNKBsLEVs.jpg\" title=\"Strange pop-up errors in Claude Code\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I'm using Claude Chat and Claude Code, both on a web browser. Claude Code is connected to git... </p> <p>When I go to check my usage in settings, I get a browser pop-up message that says: </p> <p>&quot;Missing Permissions: Please check with Anthropic support if you think this is an error&quot;</p> <p>In Claude Code, when I attempt to start a new session I get a similar pop-up message that says:</p> <p>{&quot;type&quot;:&quot;exceeded_limit&quot;,&quot;resetsAt&quot;:1762563600,&quot;remaining&quot;:null,&quot;perModelLimit&quot;:false,&quot;representativeClaim&quot;:null,&quot;coverageStatus&quot;:null,&quot;coverageResetsAt&quot;:null,&quot;coverageDisabledReason&quot;:null,&quot;windows&quot;:null,&quot;debug_req_est_usage&quot;:null,&quot;debug_req_actual_usage&quot;:null}</p> <p>I've never had this problem before and yes, I reached out to support, but I'm still waiting for a real person to respond. Usage shows that I've consumed 5% of my current session and 1% of my weekly limit.</p> <p>I have deleted my recent browser data/cookies, signed out, back in, restarted my computer with no luck. Any ideas?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jigglydiggley\"> /u/jigglydiggley </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1orb1vt\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1orb1vt/strange_popup_errors_in_claude_code/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/nfG0R9QcZE2pobuj3vtKDSdeDP7MCwL7eDwNKBsLEVs.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "92eda52c-21fd-5e33-99ce-f46db961d105",
-    "title": "Claude Code 2.0.36",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oraxj9/claude_code_2036/",
-    "pubDate": "2025-11-08T00:17:14+00:00",
-    "description": "This week we shipped Claude Code 2.0.36 with Claude Code on the Web enhancements, un-deprecated output styles based on community feedback, and improved command handling. We also extended free credits for Claude Code on the Web until November 18th and fixed several critical bugs around message queuing, MCP OAuth connections, and large file handling. Features: Claude Code on the Web now includes free credits until November 18th ($250 for Pro, $1000 for Max) Diffs with syntax highlighting now available in Claude Code on the Web Skills now work in Claude Code on the Web Un-deprecated output styles based on community feedback Added companyAnnouncements setting for displaying announcements on startup Increased usage of AskUserQuestion Tool outside of Plan Mode Improved fuzzy search results when searching commands Long running (5m) bash commands no longer cause Claude to stall on the web Bug fixes: Fixed queued messages being incorrectly executed as bash commands Fixed input being lost when typing while a queued message is processed Fixed claude mcp serve exposing tools with incompatible outputSchemas Fixed menu navigation getting stuck on items Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection Fixed memory crash when reading or writing large files (especially base64-encoded images) submitted by /u/ClaudeOfficial [link] [comments]",
-    "author": "/u/ClaudeOfficial",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oraxj9/claude_code_2036/\"> <img alt=\"Claude Code 2.0.36\" src=\"https://preview.redd.it/tm10jb1eexzf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ddd974551bcde6ddcf47017a7a8298224175f21e\" title=\"Claude Code 2.0.36\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This week we shipped Claude Code 2.0.36 with Claude Code on the Web enhancements, un-deprecated output styles based on community feedback, and improved command handling. We also extended free credits for Claude Code on the Web until November 18th and fixed several critical bugs around message queuing, MCP OAuth connections, and large file handling.</p> <p><strong>Features:</strong></p> <ul> <li>Claude Code on the Web now includes free credits until November 18th ($250 for Pro, $1000 for Max)</li> <li>Diffs with syntax highlighting now available in Claude Code on the Web</li> <li>Skills now work in Claude Code on the Web</li> <li>Un-deprecated output styles based on community feedback</li> <li>Added companyAnnouncements setting for displaying announcements on startup</li> <li>Increased usage of AskUserQuestion Tool outside of Plan Mode</li> <li>Improved fuzzy search results when searching commands</li> <li>Long running (5m) bash commands no longer cause Claude to stall on the web</li> </ul> <p><strong>Bug fixes:</strong></p> <ul> <li>Fixed queued messages being incorrectly executed as bash commands</li> <li>Fixed input being lost when typing while a queued message is processed</li> <li>Fixed claude mcp serve exposing tools with incompatible outputSchemas</li> <li>Fixed menu navigation getting stuck on items</li> <li>Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection</li> <li>Fixed memory crash when reading or writing large files (especially base64-encoded images)</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://i.redd.it/tm10jb1eexzf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oraxj9/claude_code_2036/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/tm10jb1eexzf1.png?width=640&crop=smart&auto=webp&s=ddd974551bcde6ddcf47017a7a8298224175f21e",
     "isShortVideo": 0
   }
 ]

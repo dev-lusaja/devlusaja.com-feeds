@@ -1,5 +1,21 @@
 [
   {
+    "id": "15abce0b-e392-58ee-b8ab-abd22de4814b",
+    "title": "Using Claude API for voice assistant - missing GPT-style memory",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ov7f1n/using_claude_api_for_voice_assistant_missing/",
+    "pubDate": "2025-11-12T14:59:56+00:00",
+    "description": "Built a voice assistant with Claude API. Model is great but there's a UX problem: ChatGPT app has memory - remembers preferences, projects, user context. Claude API? Every session starts from scratch. User: \"Im workin on a voice first AI project\" Next day: Assistant has no idea, asks again. Makes it feel less like an assistant, more like talking to someone with amnesia. I ended up building a memory layer for this (MindMirror - persistent memory via MCP). But curious how others are solving it? Building custom DBs? Using frameworks? Just accepting the limitation? Would love to hear what's working for Claude API projects. submitted by /u/artemgetman [link] [comments]",
+    "author": "/u/artemgetman",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Built a voice assistant with Claude API. Model is great but there's a UX problem:</p> <p>ChatGPT app has memory - remembers preferences, projects, user context.</p> <p>Claude API? Every session starts from scratch.</p> <p>User: &quot;Im workin on a voice first AI project&quot;</p> <p>Next day: Assistant has no idea, asks again.</p> <p>Makes it feel less like an assistant, more like talking to someone with amnesia.</p> <p>I ended up building a memory layer for this (MindMirror - persistent memory via MCP). But curious how others are solving it?</p> <p>Building custom DBs? Using frameworks? Just accepting the limitation?</p> <p>Would love to hear what's working for Claude API projects.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/artemgetman\"> /u/artemgetman </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ov7f1n/using_claude_api_for_voice_assistant_missing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ov7f1n/using_claude_api_for_voice_assistant_missing/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "babff393-1c0b-5698-b4a2-409e5b90a537",
     "title": "Web search exhausts token budget too fast for any real research",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ov6yh5/web_search_exhausts_token_budget_too_fast_for_any/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, fellow Clauders!</p> <hr /> <p><strong>TLDR</strong>: Refined a popular reference architecture that was recently shared to drastically boost relevant skill selection and replace suggestion patterns with injection patterns to eliminate any and all friction.</p> <p><strong><a href=\"https://github.com/jefflester/claude-skills-supercharged\">Repo is here</a>.</strong> </p> <hr /> <p>I've been working my ass off for the last few months on a project that has continuously grown in scale (it's an MCP server that exposes all traditional UI-driven debugging operations through an API, currently supporting Python, Java, and JavaScript/TypeScript).</p> <p>As the codebase expanded, it became increasingly difficult to work with efficiency: wasting my time, again and again, explaining concepts; relying on custom commands (that I had to remember to run) to avoid so much copy/paste; and so on.</p> <p>Then I saw <a href=\"https://www.reddit.com/u/JokeGold5455\">u/JokeGold5455</a>'s post: <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/\">Claude Code is a Beast – Tips from 6 Months of Hardcore Use</a>. It sounded amazing, so I spent a few days integrating it with my repository.</p> <p>I ran into some issues while working with the system, though. </p> <ul> <li>Skills were not reliably injected; rather, they were recommended.</li> <li>Skills were not reliably selected – intent patterns/keywords often would select skills that were not the best skill for the given prompt.</li> </ul> <p>So, I...</p> <ul> <li>Removed keyword/intent patterns, and replaced them with a Haiku prompt analyzer. This hook runs <em>before</em> the main agent even sees your prompt.</li> <li>Replaced suggestions with injections. Once a skill(s) are identified as critical via the Haiku prompt analyzer, the prompts are injected into the main agent thread. </li> </ul> <p>This means: highly accurate skill selection and a frictionless workflow for both myself and the agent. The system is absolutely amazing now – for me, at least.</p> <p><em>Note</em>: the one downside to this implementation is that it does have additional cost, albeit very cheap. I've sent a couple thousand prompts over the last 8 days, and my Haiku spend is up to about $1.20. For heavy users, I can't see monthly spend ever eclipsing like $8. </p> <p>If you have questions, let me know. I'd be happy to answer them!</p> <h2>Resources</h2> <ul> <li><a href=\"https://github.com/jefflester/claude-skills-supercharged\">My repo</a></li> <li><a href=\"https://github.com/diet103/claude-code-infrastructure-showcase\">Original reference architecture</a></li> <li><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/\">Original Reddit post</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lAmBenAffleck\"> /u/lAmBenAffleck </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oukg39/i_improved_the_recentlyshowcased_claude_skills/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oukg39/i_improved_the_recentlyshowcased_claude_skills/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "de42c81a-ba96-5bfd-b652-a3161aa3300f",
-    "title": "Is 20$ for api usage is enough in claude code ?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oukaqd/is_20_for_api_usage_is_enough_in_claude_code/",
-    "pubDate": "2025-11-11T20:19:32+00:00",
-    "description": "Hi im planning to use claude code in the cli for doing UI/UX swift development for ios apps and i was wondering if 20$ api limit is enough for doing this submitted by /u/Jaded_Judgment_6146 [link] [comments]",
-    "author": "/u/Jaded_Judgment_6146",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi im planning to use claude code in the cli for doing UI/UX swift development for ios apps and i was wondering if 20$ api limit is enough for doing this </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jaded_Judgment_6146\"> /u/Jaded_Judgment_6146 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oukaqd/is_20_for_api_usage_is_enough_in_claude_code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oukaqd/is_20_for_api_usage_is_enough_in_claude_code/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

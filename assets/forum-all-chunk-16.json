@@ -1,5 +1,21 @@
 [
   {
+    "id": "92eda52c-21fd-5e33-99ce-f46db961d105",
+    "title": "Claude Code 2.0.36",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oraxj9/claude_code_2036/",
+    "pubDate": "2025-11-08T00:17:14+00:00",
+    "description": "This week we shipped Claude Code 2.0.36 with Claude Code on the Web enhancements, un-deprecated output styles based on community feedback, and improved command handling. We also extended free credits for Claude Code on the Web until November 18th and fixed several critical bugs around message queuing, MCP OAuth connections, and large file handling. Features: Claude Code on the Web now includes free credits until November 18th ($250 for Pro, $1000 for Max) Diffs with syntax highlighting now available in Claude Code on the Web Skills now work in Claude Code on the Web Un-deprecated output styles based on community feedback Added companyAnnouncements setting for displaying announcements on startup Increased usage of AskUserQuestion Tool outside of Plan Mode Improved fuzzy search results when searching commands Long running (5m) bash commands no longer cause Claude to stall on the web Bug fixes: Fixed queued messages being incorrectly executed as bash commands Fixed input being lost when typing while a queued message is processed Fixed claude mcp serve exposing tools with incompatible outputSchemas Fixed menu navigation getting stuck on items Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection Fixed memory crash when reading or writing large files (especially base64-encoded images) submitted by /u/ClaudeOfficial [link] [comments]",
+    "author": "/u/ClaudeOfficial",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oraxj9/claude_code_2036/\"> <img alt=\"Claude Code 2.0.36\" src=\"https://preview.redd.it/tm10jb1eexzf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ddd974551bcde6ddcf47017a7a8298224175f21e\" title=\"Claude Code 2.0.36\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This week we shipped Claude Code 2.0.36 with Claude Code on the Web enhancements, un-deprecated output styles based on community feedback, and improved command handling. We also extended free credits for Claude Code on the Web until November 18th and fixed several critical bugs around message queuing, MCP OAuth connections, and large file handling.</p> <p><strong>Features:</strong></p> <ul> <li>Claude Code on the Web now includes free credits until November 18th ($250 for Pro, $1000 for Max)</li> <li>Diffs with syntax highlighting now available in Claude Code on the Web</li> <li>Skills now work in Claude Code on the Web</li> <li>Un-deprecated output styles based on community feedback</li> <li>Added companyAnnouncements setting for displaying announcements on startup</li> <li>Increased usage of AskUserQuestion Tool outside of Plan Mode</li> <li>Improved fuzzy search results when searching commands</li> <li>Long running (5m) bash commands no longer cause Claude to stall on the web</li> </ul> <p><strong>Bug fixes:</strong></p> <ul> <li>Fixed queued messages being incorrectly executed as bash commands</li> <li>Fixed input being lost when typing while a queued message is processed</li> <li>Fixed claude mcp serve exposing tools with incompatible outputSchemas</li> <li>Fixed menu navigation getting stuck on items</li> <li>Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection</li> <li>Fixed memory crash when reading or writing large files (especially base64-encoded images)</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://i.redd.it/tm10jb1eexzf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oraxj9/claude_code_2036/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/tm10jb1eexzf1.png?width=640&crop=smart&auto=webp&s=ddd974551bcde6ddcf47017a7a8298224175f21e",
+    "isShortVideo": 0
+  },
+  {
     "id": "98a10bee-74a9-5a7b-8cf3-471b1e5679da",
     "title": "How do you use claude in visual studio community 2022?",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1orapl2/how_do_you_use_claude_in_visual_studio_community/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oqyxcz/i_made_this_using_claude/\"> <img alt=\"I made this using Claude\" src=\"https://external-preview.redd.it/UJ4Cqr369LgrNQur0dgoKs4IFT8xBosK6MOyyaQeg60.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=2da56e78de9b20a82c869e2af1fe9d9310e2f756\" title=\"I made this using Claude\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>He helped me study android enough to make this happen.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Number4extraDip\"> /u/Number4extraDip </a> <br /> <span><a href=\"https://youtu.be/A6tNDN9ICWI?si=ejxagP4rz_LB0--X\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oqyxcz/i_made_this_using_claude/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/UJ4Cqr369LgrNQur0dgoKs4IFT8xBosK6MOyyaQeg60.jpeg?width=320&crop=smart&auto=webp&s=2da56e78de9b20a82c869e2af1fe9d9310e2f756",
-    "isShortVideo": 0
-  },
-  {
-    "id": "41cd0eea-7b1a-5c50-be67-64ceb9151fcd",
-    "title": "How practical is finetuning larger models with 4x 3090 setup?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oqyix9/how_practical_is_finetuning_larger_models_with_4x/",
-    "pubDate": "2025-11-07T16:11:13+00:00",
-    "description": "I am thinking of building 4x3090 setup cause other options with large VRAM are quite expensive and not worth the buck. For instance, pro 6000 has 96gigs but costs around 10,000. OTH, 3090's VRAM could be pooled together so 4x3090 would have same VRAM (a bit slower though) but significantly cheaper. Is it practical? submitted by /u/Specialist-Let9791 [link] [comments]",
-    "author": "/u/Specialist-Let9791",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am thinking of building 4x3090 setup cause other options with large VRAM are quite expensive and not worth the buck. For instance, pro 6000 has 96gigs but costs around 10,000. OTH, 3090's VRAM could be pooled together so 4x3090 would have same VRAM (a bit slower though) but significantly cheaper. </p> <p>Is it practical? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist-Let9791\"> /u/Specialist-Let9791 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqyix9/how_practical_is_finetuning_larger_models_with_4x/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1oqyix9/how_practical_is_finetuning_larger_models_with_4x/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

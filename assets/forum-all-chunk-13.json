@@ -1,5 +1,21 @@
 [
   {
+    "id": "3a38c603-6444-54ae-83d6-e0149f3fc0cd",
+    "title": "I am really in need for a controllable TTS.",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1osgtnq/i_am_really_in_need_for_a_controllable_tts/",
+    "pubDate": "2025-11-09T11:14:15+00:00",
+    "description": "I am looking for a TTS system, that I can at least direct *somewhat*. There are so many systems out there but none seems to offer basic control over how the text would be read. There are systems like VibeVoice that are able to guess the mood in a sentence and somewhat alter the way they talk however it should be *at least* possible to add pauses to the text. I really like Kokoro for the speech quality however it too can just read the text word by word. Making a paragraph somewhat introduces a little pause (more pause than after a fullstop), but I would like to direct it more. Adding several dots or other punctuation doesn't really introduce a pause and if you have more than 4 it creates weird sounds (t's h's or r's) into the output. Why can't I just put in [pause] or some other tags to direct the flow of the reading? Or like think of how Stable Diffusion you could increase the ((attention)) to (tags:1.3) And don't even start with emphasis and stress level of certain words or parts of a sentence. Yes CFG scales but the outcome is rather random and not reliable... submitted by /u/dreamyrhodes [link] [comments]",
+    "author": "/u/dreamyrhodes",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am looking for a TTS system, that I can at least direct *somewhat*. There are so many systems out there but none seems to offer basic control over how the text would be read. There are systems like VibeVoice that are able to guess the mood in a sentence and somewhat alter the way they talk however it should be *at least* possible to add pauses to the text.</p> <p>I really like Kokoro for the speech quality however it too can just read the text word by word. Making a paragraph somewhat introduces a little pause (more pause than after a fullstop), but I would like to direct it more. Adding several dots or other punctuation doesn't really introduce a pause and if you have more than 4 it creates weird sounds (t's h's or r's) into the output.</p> <p>Why can't I just put in [pause] or some other tags to direct the flow of the reading? Or like think of how Stable Diffusion you could increase the ((attention)) to (tags:1.3)</p> <p>And don't even start with emphasis and stress level of certain words or parts of a sentence. Yes CFG scales but the outcome is rather random and not reliable...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dreamyrhodes\"> /u/dreamyrhodes </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1osgtnq/i_am_really_in_need_for_a_controllable_tts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1osgtnq/i_am_really_in_need_for_a_controllable_tts/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c984967c-2db5-598e-9ce4-5c266db37315",
     "title": "Claude Code 2.0 Cheatsheet (PDF & PNG)",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1osgpit/claude_code_20_cheatsheet_pdf_png/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The price gap between Pro and Max is steep. There has to be a middle price point on the cards surely. My weekly limit on Pro tripped after barely 2.5 days</p> <p>I’ve seen a few posts about setting up 2 x Pro accounts. But there’s no detailed dive and what has has been posted, it looks like a right faff to set up and run. What am I missing?</p> <p>I use Claude extension in VS Code so everything is on my local machine or in a git repo. Are people running 2 pro accounts on Claude code on the browser and on VS Code? </p> <p>Can web browser Claude use local files in the same way as VS Code extension?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Swashbuckler_75\"> /u/Swashbuckler_75 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1os116q/2_x_pro_whats_you_set_up/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1os116q/2_x_pro_whats_you_set_up/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8c279f3e-c60c-53f6-a24b-5c77c033f665",
-    "title": "How to get web search without OpenWebUI?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1os0xwn/how_to_get_web_search_without_openwebui/",
-    "pubDate": "2025-11-08T21:23:36+00:00",
-    "description": "Hey, I'm fairly new to AI having tools, I usually just used the one openwebui provides but that's a hit or miss even on a good day so I want to be able to implement web search with my current llama.cpp or something similar to run quantized models. I tried implementing an MCP server with Jan which scrapes ddgs but I'm painfully new to all of this. Would really appreciate it if someone could help me out. Thanks! submitted by /u/StarWingOwl [link] [comments]",
-    "author": "/u/StarWingOwl",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey, I'm fairly new to AI having tools, I usually just used the one openwebui provides but that's a hit or miss even on a good day so I want to be able to implement web search with my current llama.cpp or something similar to run quantized models. I tried implementing an MCP server with Jan which scrapes ddgs but I'm painfully new to all of this. Would really appreciate it if someone could help me out. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StarWingOwl\"> /u/StarWingOwl </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1os0xwn/how_to_get_web_search_without_openwebui/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1os0xwn/how_to_get_web_search_without_openwebui/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

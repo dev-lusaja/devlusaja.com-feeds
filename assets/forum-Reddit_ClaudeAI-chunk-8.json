@@ -1,5 +1,21 @@
 [
   {
+    "id": "3fc2eb03-835e-5ab1-b119-34d654efece8",
+    "title": "Claude Code settings logic and docs are confusing",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1or22er/claude_code_settings_logic_and_docs_are_confusing/",
+    "pubDate": "2025-11-07T18:23:54+00:00",
+    "description": "This is NOT a complain, but more like a discussion of the Claude Code usage logic. As a full stack engineer, I do find Claude Code is very helpful and I've been using it for over 3 months. However, I'm getting started to get confused by the structure and logic of Claude Code settings for the tools it provides. For example, for hooks and agents, you have options to create them into any level (project or personal), but for MCP server, that's not the case anymore. I'm ok with using command line to add new MCP server, but then why they can only be added in the personal level (.claude.json in root) and have an array to indicate which repository can use it instead of keep the same pattern as hooks and agents? Then for skills, I love it and it is powerful, but how will the Claude Code sync up with the skills I uploaded or will it ever sync up? Also, what's the difference between .claude.json vs .claude/settings.json? What contents should they include? The above questions then lead to the docs of Claude Code. As an engineer, I read docs a lot, there are some awesome docs and very bad ones, but for Claude Code, it is different. You can sort of find everything you need from their docs, but the docs are not \"symmetric\". For agents, skills, hooks pages there is NO common format. For example, for the format of markdown files, there is NO common \"Format\" section in each page to really describe what should those markdown files look like. Overall, I just find myself using the tools with Claude Code \"blindly\", and there is no official reference that I can check easily. Is it just me? Is there any better way to really understand the logic behind of this? submitted by /u/NoEconomics1115 [link] [comments]",
+    "author": "/u/NoEconomics1115",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>This is NOT a complain, but more like a discussion of the Claude Code usage logic. </p> <p>As a full stack engineer, I do find Claude Code is very helpful and I've been using it for over 3 months. However, I'm getting started to get confused by the structure and logic of Claude Code settings for the tools it provides. </p> <p>For example, for hooks and agents, you have options to create them into any level (project or personal), but for MCP server, that's not the case anymore. I'm ok with using command line to add new MCP server, but then why they can only be added in the personal level (.claude.json in root) and have an array to indicate which repository can use it instead of keep the same pattern as hooks and agents? Then for skills, I love it and it is powerful, but how will the Claude Code sync up with the skills I uploaded or will it ever sync up?</p> <p>Also, what's the difference between .claude.json vs .claude/settings.json? What contents should they include? </p> <p>The above questions then lead to the docs of Claude Code. As an engineer, I read docs a lot, there are some awesome docs and very bad ones, but for Claude Code, it is different. You can sort of find everything you need from their docs, but the docs are not &quot;symmetric&quot;. For agents, skills, hooks pages there is NO common format. For example, for the format of markdown files, there is NO common &quot;Format&quot; section in each page to really describe what should those markdown files look like. </p> <p>Overall, I just find myself using the tools with Claude Code &quot;blindly&quot;, and there is no official reference that I can check easily.</p> <p>Is it just me? Is there any better way to really understand the logic behind of this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoEconomics1115\"> /u/NoEconomics1115 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1or22er/claude_code_settings_logic_and_docs_are_confusing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1or22er/claude_code_settings_logic_and_docs_are_confusing/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "23ef16b8-3cca-5151-8050-011e99821b9f",
     "title": "Claude code frozen in Windows but not in Wsl",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1oqzh4x/claude_code_frozen_in_windows_but_not_in_wsl/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oqfhzh/im_glad_someone_addressed_her_too_succinct_prompt/\"> <img alt=\"I’m glad someone addressed her “too succinct” prompt comment\" src=\"https://b.thumbs.redditmedia.com/mfa5rCk8rrBvReDvuYNzI9HIM4u2qGAX_yEpcczbLvg.jpg\" title=\"I’m glad someone addressed her “too succinct” prompt comment\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>It must be nice to have unlimited Claude usage. If I tried that in my Max 100 session it would exceed the max limit on the first submission and my usage would be over. 😅</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SuddenFrosting951\"> /u/SuddenFrosting951 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1oqfhzh\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oqfhzh/im_glad_someone_addressed_her_too_succinct_prompt/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/mfa5rCk8rrBvReDvuYNzI9HIM4u2qGAX_yEpcczbLvg.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "216751a4-2f1a-5913-b3c0-ab9dd966f733",
-    "title": "Claude helped me finish my book.",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oqfcv3/claude_helped_me_finish_my_book/",
-    "pubDate": "2025-11-07T00:03:23+00:00",
-    "description": "Chapter 12 talks about little bit about the process. submitted by /u/VectorEminent [link] [comments]",
-    "author": "/u/VectorEminent",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oqfcv3/claude_helped_me_finish_my_book/\"> <img alt=\"Claude helped me finish my book.\" src=\"https://external-preview.redd.it/4Y55QpCpbLy1dJdjtwk3WSaENOBK22AizVs8dftlcFI.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=61920fe160399eedc12ea40f9cf64e3b13bdee15\" title=\"Claude helped me finish my book.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Chapter 12 talks about little bit about the process. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VectorEminent\"> /u/VectorEminent </a> <br /> <span><a href=\"https://doctrineoflucifer.com/chapter-12-aicov/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oqfcv3/claude_helped_me_finish_my_book/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/4Y55QpCpbLy1dJdjtwk3WSaENOBK22AizVs8dftlcFI.jpeg?width=640&crop=smart&auto=webp&s=61920fe160399eedc12ea40f9cf64e3b13bdee15",
     "isShortVideo": 0
   }
 ]

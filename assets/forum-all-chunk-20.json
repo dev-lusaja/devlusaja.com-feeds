@@ -1,5 +1,21 @@
 [
   {
+    "id": "1c7dc05c-3359-565c-91f2-da454b381389",
+    "title": "My New ClaudeCode Plugin: HeadlessKnight, use AI as an MCP!",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1oq6nxr/my_new_claudecode_plugin_headlessknight_use_ai_as/",
+    "pubDate": "2025-11-06T18:23:57+00:00",
+    "description": "I've created a new CCP (ClaudeCode Plugin): HeadlessKnight, the Headless Horseman! Its core functionality is to wrap Claude Code, Codex, and the Gemini CLI as MCP services, enabling them to be controlled in a headless/non-interactive mode to complete tasks. (In fact, Claude Code and Codex can be further developed to support an interactive mode, which is a goal for the next version). You can launch these AI CLIs using three modes: command , skill , and mcp . Moreover, the skill mode specifies suitable task scenarios for the different models, making it convenient for Claude Code to invoke the appropriate one. It becomes incredibly powerful when used in conjunction with InfoCollector and ComplexMissionManager . Project URL: https://github.com/LostAbaddon/HeadlessKnight Marketplace URL: https://github.com/LostAbaddon/CCMarketplace submitted by /u/TartarusRiddle [link] [comments]",
+    "author": "/u/TartarusRiddle",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've created a new CCP (ClaudeCode Plugin): <strong>HeadlessKnight, the Headless Horseman!</strong></p> <p>Its core functionality is to wrap Claude Code, Codex, and the Gemini CLI as MCP services, enabling them to be controlled in a headless/non-interactive mode to complete tasks. (In fact, Claude Code and Codex can be further developed to support an interactive mode, which is a goal for the next version).</p> <p>You can launch these AI CLIs using three modes: <code>command</code>, <code>skill</code>, and <code>mcp</code>. Moreover, the <code>skill</code> mode specifies suitable task scenarios for the different models, making it convenient for Claude Code to invoke the appropriate one.</p> <p>It becomes incredibly powerful when used in conjunction with <a href=\"https://github.com/LostAbaddon/InfoCollector\">InfoCollector</a> and <a href=\"https://github.com/LostAbaddon/ComplexMissionManager\">ComplexMissionManager</a>.</p> <p><strong>Project URL:</strong> <a href=\"https://github.com/LostAbaddon/HeadlessKnight\">https://github.com/LostAbaddon/HeadlessKnight</a> <strong>Marketplace URL:</strong> <a href=\"https://github.com/LostAbaddon/CCMarketplace\">https://github.com/LostAbaddon/CCMarketplace</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TartarusRiddle\"> /u/TartarusRiddle </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oq6nxr/my_new_claudecode_plugin_headlessknight_use_ai_as/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1oq6nxr/my_new_claudecode_plugin_headlessknight_use_ai_as/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4ef0a6c5-0004-5337-855e-b73aed4962f5",
     "title": "Spent 3 hours debugging why API was slow, asked LLM and it found it in 30 seconds",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1oq66ul/spent_3_hours_debugging_why_api_was_slow_asked/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m extending my <em>ai-agents-from-scratch</em> project, the one that teaches AI agent fundamentals in plain JavaScript using local models via <code>node-llama-cpp,</code>with a new section focused on <strong>re-implementing core concepts from LangChain and LangGraph</strong> step by step.</p> <p>The goal is to get from understanding the fundamentals to build ai agents for production by understanding LangChain / LangGraph core principles.</p> <h1>What Exists So Far</h1> <p>The repo already has nine self-contained examples under <code>examples/</code>:</p> <pre><code>intro/ → basic LLM call simple-agent/ → tool-using agent react-agent/ → ReAct pattern memory-agent/ → persistent state </code></pre> <p>Everything runs locally - no API keys or external services.</p> <h1>What’s Coming Next</h1> <p>A new series of lessons where you implement the pieces that make frameworks like LangChain tick:</p> <p><strong>Foundations</strong></p> <ul> <li>The Runnable abstraction - why everything revolves around it</li> <li>Message types and structured conversation data</li> <li>LLM wrappers for <code>node-llama-cpp</code></li> <li>Context and configuration management</li> </ul> <p><strong>Composition and Agency</strong></p> <ul> <li>Prompts, parsers, and chains</li> <li>Memory and state</li> <li>Tool execution and agent loops</li> <li>Graphs, routing, and checkpointing</li> </ul> <p>Each lesson combines explanation, implementation, and small exercises that lead to a working system.<br /> You end up with your own mini-LangChain - and a full understanding of how modern agent frameworks are built.</p> <h1>Why I’m Doing This</h1> <p>Most tutorials show how to <em>use</em> frameworks, not how they work.<br /> You learn syntax but not architecture.<br /> This project bridges that gap: start from raw function calls, build abstractions, and then use real frameworks with clarity.</p> <h1>What I’d Like Feedback On</h1> <ul> <li>Would you find value in <em>building</em> a framework before using one?</li> <li>Is the progression (basics → build framework → use frameworks) logical?</li> <li>Would you actually code through the exercises or just read?</li> </ul> <p>The first lesson (Runnable) is available.<br /> I plan to release one new lesson per week.</p> <p>Repo: <a href=\"https://github.com/pguso/ai-agents-from-scratch\">https://github.com/pguso/ai-agents-from-scratch</a><br /> If this approach sounds useful, I’d appreciate feedback before I finalize the full series.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/purellmagents\"> /u/purellmagents </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opt2q9/building_langchain_langgraph_concepts_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opt2q9/building_langchain_langgraph_concepts_from/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bc25639b-79ae-5c91-9579-96bc414e11e1",
-    "title": "Most accurate STT (speech-to-text) for German",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1opsyus/most_accurate_stt_speechtotext_for_german/",
-    "pubDate": "2025-11-06T07:51:49+00:00",
-    "description": "Moin I’m looking for the best STT models for voice-AI applications in German. I’ve already tested most of the major providers. For example, Deepgram with keyword boosting performed noticeably worse in production than Azure STT without any keyword training. I’ve also tried many other models, but I might have missed something. I would appreciate it if you could share your experiences and model recommendations. submitted by /u/ZeroKelvinMood [link] [comments]",
-    "author": "/u/ZeroKelvinMood",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Moin</p> <p>I’m looking for the best STT models for voice-AI applications in German. I’ve already tested most of the major providers. For example, Deepgram with keyword boosting performed noticeably worse in production than Azure STT without any keyword training. I’ve also tried many other models, but I might have missed something. </p> <p>I would appreciate it if you could share your experiences and model recommendations.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZeroKelvinMood\"> /u/ZeroKelvinMood </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opsyus/most_accurate_stt_speechtotext_for_german/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1opsyus/most_accurate_stt_speechtotext_for_german/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
