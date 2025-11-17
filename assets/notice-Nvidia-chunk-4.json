@@ -78,21 +78,5 @@
     "content": "<img alt=\"Decorative image of dark blue background with points of light connected with lines.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2023/04/spark-rapids-ml-library-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"spark-rapids-ml-library-featured\" width=\"768\" />The 25.08 release of RAPIDS continues to push the boundaries toward making accelerated data science more accessible and scalable with the addition of several...<img alt=\"Decorative image of dark blue background with points of light connected with lines.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2023/04/spark-rapids-ml-library-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"spark-rapids-ml-library-featured\" width=\"768\" /><p>The 25.08 release of RAPIDS continues to push the boundaries toward making accelerated data science more accessible and scalable with the addition of several new features, including: Learn more about the new features below. The 25.08 release brings the addition of two new profiling options to cuml.accel. Similar to the profiler that was previously released for cudf.pandas…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-rapids-25-08-adds-new-profiler-for-cuml-updates-to-the-polars-gpu-engine-additional-algorithm-support-and-more/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2023/04/spark-rapids-ml-library-featured.png",
     "isShortVideo": 0
-  },
-  {
-    "id": "d202772b-ebc4-5e65-89f6-dad5c744fcce",
-    "title": "An Introduction to Speculative Decoding for Reducing Latency in AI Inference",
-    "link": "https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/",
-    "pubDate": "2025-09-17T18:09:12+00:00",
-    "description": "Generating text with large language models (LLMs) often involves running into a fundamental bottleneck. GPUs offer massive compute, yet much of that power sits...",
-    "author": "Jamie Li",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/inference-speculative-decoding-llama-eagle-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-speculative-decoding-llama-eagle\" width=\"768\" />Generating text with large language models (LLMs) often involves running into a fundamental bottleneck. GPUs offer massive compute, yet much of that power sits...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/inference-speculative-decoding-llama-eagle-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-speculative-decoding-llama-eagle\" width=\"768\" /><p>Generating text with large language models (LLMs) often involves running into a fundamental bottleneck. GPUs offer massive compute, yet much of that power sits idle because autoregressive generation is inherently sequential: each token requires a full forward pass, reloading weights, and synchronizing memory at every step. This combination of memory access and step-by-step dependency raises…</p>\n<p><a href=\"https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/inference-speculative-decoding-llama-eagle.jpg",
-    "isShortVideo": 0
   }
 ]
