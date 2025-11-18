@@ -1,6 +1,6 @@
 {
-  "totalItems": 17183,
-  "generatedAt": "2025-11-17T14:34:55.667838Z",
+  "totalItems": 17936,
+  "generatedAt": "2025-11-18T12:54:24.777289Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -184,38 +184,38 @@
     }
   ],
   "byType": {
-    "tiktok": {
-      "totalItems": 80,
-      "totalChunks": 3,
-      "itemsPerChunk": 30,
-      "chunkPrefix": "tiktok-all"
-    },
     "notice": {
-      "totalItems": 1461,
+      "totalItems": 1503,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
-    "educational": {
-      "totalItems": 49,
-      "totalChunks": 2,
+    "tiktok": {
+      "totalItems": 79,
+      "totalChunks": 3,
       "itemsPerChunk": 30,
-      "chunkPrefix": "educational-all"
+      "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 146,
+      "totalItems": 150,
       "totalChunks": 5,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
     },
+    "educational": {
+      "totalItems": 47,
+      "totalChunks": 2,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "educational-all"
+    },
     "forum": {
-      "totalItems": 2067,
+      "totalItems": 2125,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "pappers": {
-      "totalItems": 10302,
+      "totalItems": 10896,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
@@ -226,7 +226,7 @@
       {
         "category": "MachineLearningMastery",
         "title": "Machine Learning Mastery",
-        "count": 45,
+        "count": 43,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "educational-MachineLearningMastery"
@@ -244,7 +244,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 939,
+        "count": 961,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -252,17 +252,17 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 860,
+        "count": 880,
         "isPriority": true,
-        "totalChunks": 29,
+        "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 268,
+        "count": 284,
         "isPriority": true,
-        "totalChunks": 9,
+        "totalChunks": 10,
         "chunkPrefix": "forum-Reddit_MachineLearning"
       }
     ],
@@ -270,7 +270,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2807,
+        "count": 2864,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -286,7 +286,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 249,
+        "count": 256,
         "isPriority": true,
         "totalChunks": 9,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -294,10 +294,18 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 156,
+        "count": 161,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-El_Pais"
+      },
+      {
+        "category": "Towards",
+        "title": "Towards Data Science",
+        "count": 126,
+        "isPriority": true,
+        "totalChunks": 5,
+        "chunkPrefix": "notice-Towards"
       },
       {
         "category": "Nvidia",
@@ -308,49 +316,41 @@
         "chunkPrefix": "notice-Nvidia"
       },
       {
-        "category": "Towards",
-        "title": "Towards Data Science",
-        "count": 120,
-        "isPriority": true,
-        "totalChunks": 4,
-        "chunkPrefix": "notice-Towards"
-      },
-      {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 117,
+        "count": 121,
         "isPriority": true,
-        "totalChunks": 4,
+        "totalChunks": 5,
         "chunkPrefix": "notice-Xataka"
       },
       {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 87,
+        "count": 93,
         "isPriority": true,
-        "totalChunks": 3,
+        "totalChunks": 4,
         "chunkPrefix": "notice-Euronews"
-      },
-      {
-        "category": "OpenAI",
-        "title": "OpenAI",
-        "count": 82,
-        "isPriority": true,
-        "totalChunks": 3,
-        "chunkPrefix": "notice-OpenAI"
       },
       {
         "category": "ElComercio_PE",
         "title": "El Comercio",
-        "count": 80,
+        "count": 85,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-ElComercio_PE"
       },
       {
+        "category": "OpenAI",
+        "title": "OpenAI",
+        "count": 83,
+        "isPriority": true,
+        "totalChunks": 3,
+        "chunkPrefix": "notice-OpenAI"
+      },
+      {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 74,
+        "count": 77,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Wired_ES"
@@ -358,7 +358,7 @@
       {
         "category": "KDnuggets",
         "title": "KDnuggets",
-        "count": 62,
+        "count": 66,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-KDnuggets"
@@ -374,7 +374,7 @@
       {
         "category": "CNN_Espanol",
         "title": "CNN",
-        "count": 38,
+        "count": 37,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-CNN_Espanol"
@@ -382,7 +382,7 @@
       {
         "category": "anthropic",
         "title": "Anthropic",
-        "count": 32,
+        "count": 34,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-anthropic"
@@ -390,7 +390,7 @@
       {
         "category": "MIT_AI",
         "title": "MIT Tech Review AI",
-        "count": 27,
+        "count": 30,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-MIT_AI"
@@ -398,7 +398,7 @@
       {
         "category": "HuggingFace",
         "title": "HuggingFace",
-        "count": 23,
+        "count": 22,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-HuggingFace"
@@ -406,7 +406,7 @@
       {
         "category": "DeepMind",
         "title": "DeepMind",
-        "count": 9,
+        "count": 8,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-DeepMind"
@@ -416,7 +416,7 @@
       {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 5762,
+        "count": 6356,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_LG"
@@ -458,7 +458,7 @@
       {
         "category": "YouTube_DotCSV_Lab",
         "title": "DotCSV Lab",
-        "count": 7,
+        "count": 8,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_DotCSV_Lab"
@@ -474,7 +474,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 183,
+    "totalItems": 185,
     "totalChunks": 7,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
