@@ -1,6 +1,6 @@
 {
-  "totalItems": 17936,
-  "generatedAt": "2025-11-18T12:54:24.777289Z",
+  "totalItems": 17987,
+  "generatedAt": "2025-11-18T17:17:55.169753Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -184,21 +184,21 @@
     }
   ],
   "byType": {
-    "notice": {
-      "totalItems": 1503,
-      "totalChunks": 30,
-      "itemsPerChunk": 30,
-      "chunkPrefix": "notice-all"
-    },
     "tiktok": {
       "totalItems": 79,
       "totalChunks": 3,
       "itemsPerChunk": 30,
       "chunkPrefix": "tiktok-all"
     },
+    "notice": {
+      "totalItems": 1507,
+      "totalChunks": 30,
+      "itemsPerChunk": 30,
+      "chunkPrefix": "notice-all"
+    },
     "youtube": {
-      "totalItems": 150,
-      "totalChunks": 5,
+      "totalItems": 151,
+      "totalChunks": 6,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
     },
@@ -209,7 +209,7 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 2125,
+      "totalItems": 2145,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -244,7 +244,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 961,
+        "count": 969,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -252,7 +252,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 880,
+        "count": 889,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -260,7 +260,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 284,
+        "count": 287,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -270,7 +270,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2864,
+        "count": 2889,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -286,7 +286,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 256,
+        "count": 258,
         "isPriority": true,
         "totalChunks": 9,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -300,6 +300,14 @@
         "chunkPrefix": "notice-El_Pais"
       },
       {
+        "category": "Nvidia",
+        "title": "Nvidia",
+        "count": 126,
+        "isPriority": true,
+        "totalChunks": 5,
+        "chunkPrefix": "notice-Nvidia"
+      },
+      {
         "category": "Towards",
         "title": "Towards Data Science",
         "count": 126,
@@ -308,17 +316,9 @@
         "chunkPrefix": "notice-Towards"
       },
       {
-        "category": "Nvidia",
-        "title": "Nvidia",
-        "count": 125,
-        "isPriority": true,
-        "totalChunks": 5,
-        "chunkPrefix": "notice-Nvidia"
-      },
-      {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 121,
+        "count": 122,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-Xataka"
@@ -334,7 +334,7 @@
       {
         "category": "ElComercio_PE",
         "title": "El Comercio",
-        "count": 85,
+        "count": 87,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-ElComercio_PE"
@@ -350,7 +350,7 @@
       {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 77,
+        "count": 78,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Wired_ES"
@@ -366,7 +366,7 @@
       {
         "category": "AWS",
         "title": "AWS",
-        "count": 52,
+        "count": 50,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-AWS"
@@ -434,7 +434,7 @@
       {
         "category": "YouTube_XavierMitjana",
         "title": "Xavier Mitjana",
-        "count": 16,
+        "count": 17,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_XavierMitjana"
