@@ -1,5 +1,21 @@
 [
   {
+    "id": "459b013e-26a1-556b-967f-313550e38111",
+    "title": "Breaking Through Reinforcement Learning Training Limits with Scaling Rollouts in BroRL",
+    "link": "https://developer.nvidia.com/blog/breaking-through-rl-training-limits-with-scaling-rollouts-in-brorl/",
+    "pubDate": "2025-11-19T21:51:12+00:00",
+    "description": "When training large language models (LLMs) with reinforcement learning from verifiable rewards (RLVR), one of the most compelling questions is how to overcome...",
+    "author": "Jian Hu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/llm-training-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-training\" width=\"768\" />When training large language models (LLMs) with reinforcement learning from verifiable rewards (RLVR), one of the most compelling questions is how to overcome...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/llm-training-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-training\" width=\"768\" /><p>When training large language models (LLMs) with reinforcement learning from verifiable rewards (RLVR), one of the most compelling questions is how to overcome performance plateaus. The previous NVIDIA Research solution, Prolonged Reinforcement Learning (ProRL), showed that adding more reinforcement learning (RL) steps during prolonged training could expand the reasoning boundaries of LLMs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/breaking-through-rl-training-limits-with-scaling-rollouts-in-brorl/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e995a14d-323e-5bc6-bcd8-595a7fc53c34",
     "title": "Building Better Qubits with GPU-Accelerated Computing",
     "link": "https://developer.nvidia.com/blog/building-better-qubits-with-gpu-accelerated-computing/",
@@ -240,22 +256,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "eee8efda-c31b-5831-ae6f-e97cf8ba8875",
-    "title": "Streamline Complex AI Inference on Kubernetes with NVIDIA Grove",
-    "link": "https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/",
-    "pubDate": "2025-11-10T14:00:00+00:00",
-    "description": "Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...",
-    "author": "Sanjay Chatterjee",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" />Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" /><p>Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now consist of several distinct components—prefill, decode, vision encoders, key value (KV) routers, and more. In addition, entire agentic pipelines are emerging, where multiple such model instances collaborate to perform reasoning, retrieval…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
     "id": "3e1e51d7-7708-5f7e-96ad-2d5d15029c6a",
     "title": "Enabling Multi-Node NVLink on Kubernetes for NVIDIA GB200 NVL72 and Beyond",
     "link": "https://developer.nvidia.com/blog/enabling-multi-node-nvlink-on-kubernetes-for-gb200-and-beyond/",
@@ -268,6 +268,22 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/runai-tech-blog-compute-domains-1920x1080-4504000-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"runai-tech-blog-compute-domains-1920x1080-4504000\" width=\"768\" />The NVIDIA GB200 NVL72 pushes AI infrastructure to new limits, enabling breakthroughs in training large-language models and running scalable, low-latency...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/runai-tech-blog-compute-domains-1920x1080-4504000-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"runai-tech-blog-compute-domains-1920x1080-4504000\" width=\"768\" /><p>The NVIDIA GB200 NVL72 pushes AI infrastructure to new limits, enabling breakthroughs in training large-language models and running scalable, low-latency inference workloads. Increasingly, Kubernetes plays a central role for deploying and scaling these workloads efficiently whether on-premises or in the cloud. However, rapidly evolving AI workloads, infrastructure requirements…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enabling-multi-node-nvlink-on-kubernetes-for-gb200-and-beyond/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "eee8efda-c31b-5831-ae6f-e97cf8ba8875",
+    "title": "Streamline Complex AI Inference on Kubernetes with NVIDIA Grove",
+    "link": "https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/",
+    "pubDate": "2025-11-10T14:00:00+00:00",
+    "description": "Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...",
+    "author": "Sanjay Chatterjee",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" />Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" /><p>Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now consist of several distinct components—prefill, decode, vision encoders, key value (KV) routers, and more. In addition, entire agentic pipelines are emerging, where multiple such model instances collaborate to perform reasoning, retrieval…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   },
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/grace-hackathon-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"grace hackathon\" width=\"768\" />Join the Developer Kernel Hackathon, a four-part performance challenge hosted by NVIDIA in collaboration with GPU MODE and support from Dell and Sesterce. Push...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/grace-hackathon-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"grace hackathon\" width=\"768\" /><p>Join the Developer Kernel Hackathon, a four-part performance challenge hosted by NVIDIA in collaboration with GPU MODE and support from Dell and Sesterce. Push the limits of GPU performance and optimize low-level kernels for maximum efficiency on NVIDIA hardware. Compete for the chance to win the latest hardware for accelerated computing.</p>\n<p><a href=\"https://luma.com/9n27uem4\" rel=\"nofollow\" target=\"_blank\">Source</a></p>",
     "image": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2F2h%2F7236c1b7-05e8-4c8a-9bd2-58782f6efbb8.png&calendar_name=NVIDIA&color0=%23000000&color1=%23fefefe&color2=%2376b800&color3=%2300e0c6&host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2F4b%2Fe95df9bc-ad43-4a49-b013-f6dad2733389.png&host_name=Ayesha%20Asif&img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2F93%2F7037b982-766b-47db-820e-0441fee7096a.png&name=Blackwell%20NVFP4%20Kernel%20Hackathon",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e67ffa69-14e3-5680-9ff0-7b87cf13f7eb",
-    "title": "Advancing Explainable AI in Radiology Research with NVIDIA Clara Reason",
-    "link": "https://developer.nvidia.com/blog/advancing-explainable-ai-in-radiology-research-with-nvidia-clara-reason/",
-    "pubDate": "2025-11-03T18:02:51+00:00",
-    "description": "Medical AI has reached an inflection point. While vision-language models (VLMs) have shown promise in medical imaging, they have lacked the systematic,...",
-    "author": "Andriy Myronenko",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/clara-reason-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"clara-reason\" width=\"768\" />Medical AI has reached an inflection point. While vision-language models (VLMs) have shown promise in medical imaging, they have lacked the systematic,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/clara-reason-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"clara-reason\" width=\"768\" /><p>Medical AI has reached an inflection point. While vision-language models (VLMs) have shown promise in medical imaging, they have lacked the systematic, transparent reasoning that clinicians need to trust AI-assisted diagnoses. Changing this is NVIDIA Clara, a family of models, tools, and recipes that are built for accelerating scientific discovery, analyzing medical images…</p>\n<p><a href=\"https://developer.nvidia.com/blog/advancing-explainable-ai-in-radiology-research-with-nvidia-clara-reason/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/clara-reason.jpg",
     "isShortVideo": 0
   }
 ]
