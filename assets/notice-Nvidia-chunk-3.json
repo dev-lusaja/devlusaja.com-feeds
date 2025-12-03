@@ -1,5 +1,21 @@
 [
   {
+    "id": "950cbc2a-2fe7-52f9-be9e-29b22c6e6406",
+    "title": "Accelerate Qubit Research with NVIDIA cuQuantum Integrations in QuTiP and scQubits",
+    "link": "https://developer.nvidia.com/blog/accelerate-qubit-research-with-nvidia-cuquantum-integrations-in-qutip-and-scqubits/",
+    "pubDate": "2025-10-14T19:23:57+00:00",
+    "description": "NVIDIA cuQuantum is an SDK of libraries for accelerating quantum simulations at the circuit (digital) and device (analog) level. It is now integrated into...",
+    "author": "Tom Lubowe",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/quantum-computing-Qubit-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"quantum-computing-Qubit\" width=\"768\" />NVIDIA cuQuantum is an SDK of libraries for accelerating quantum simulations at the circuit (digital) and device (analog) level. It is now integrated into...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/quantum-computing-Qubit-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"quantum-computing-Qubit\" width=\"768\" /><p>NVIDIA cuQuantum is an SDK of libraries for accelerating quantum simulations at the circuit (digital) and device (analog) level. It is now integrated into Quantum Toolbox in Python (QuTiP) and Superconducting Qubits (scQubits), enabling end-to-end acceleration in workflows for designing and studying novel types of qubits. QuTiP is a widely used package for simulating the time evolution of…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-qubit-research-with-nvidia-cuquantum-integrations-in-qutip-and-scqubits/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/quantum-computing-Qubit.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "50651541-06aa-5eaf-86eb-a59db0dc2c5e",
     "title": "Understanding Memory Management on Hardware-Coherent Platforms",
     "link": "https://developer.nvidia.com/blog/understanding-memory-management-on-hardware-coherent-platforms/",
@@ -285,38 +301,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/ai-devnews-data-science-techblogs-graph-1480x830-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Accelerating Time Series Forecasting with RAPIDS cuML\" width=\"768\" />As workloads scale and demand for faster data processing grows, GPU-accelerated databases and query engines have been shown to deliver significant...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/ai-devnews-data-science-techblogs-graph-1480x830-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Accelerating Time Series Forecasting with RAPIDS cuML\" width=\"768\" /><p>As workloads scale and demand for faster data processing grows, GPU-accelerated databases and query engines have been shown to deliver significant price-performance gains compared to CPU-based systems. The high memory bandwidth and thread count of GPUs especially benefit compute-heavy workloads like multiple joins, complex aggregations, strings processing, and more. The growing availability of GPU…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-large-scale-data-analytics-with-gpu-native-velox-and-nvidia-cudf/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/ai-devnews-data-science-techblogs-graph-1480x830-1.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a5f0117f-3dfd-52b8-8be4-bc1bb6db9f8a",
-    "title": "Smarter Anomaly Detection in Semiconductor Manufacturing with NVIDIA NV-Tesseract and NVIDIA NIM",
-    "link": "https://developer.nvidia.com/blog/smarter-anomaly-detection-in-semiconductor-manufacturing-with-nvidia-nv-tesseract-and-nvidia-nim/",
-    "pubDate": "2025-10-03T15:29:00+00:00",
-    "description": "In an earlier blog post, we introduced NVIDIA NV-Tesseract, a family of models designed to tackle diverse time-series tasks—such as anomaly detection,...",
-    "author": "Aditi Gautam",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Semiconductor-Manufacturing-e1759339600266-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Semiconductor-Manufacturing\" width=\"768\" />In an earlier blog post, we introduced NVIDIA NV-Tesseract, a family of models designed to tackle diverse time-series tasks—such as anomaly detection,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Semiconductor-Manufacturing-e1759339600266-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Semiconductor-Manufacturing\" width=\"768\" /><p>In an earlier blog post, we introduced NVIDIA NV-Tesseract, a family of models designed to tackle diverse time-series tasks—such as anomaly detection, classification, and forecasting—within a single framework. This work laid the foundation for adapting a general-purpose backbone across industries where data is constantly evolving. In semiconductor manufacturing, the challenge is especially…</p>\n<p><a href=\"https://developer.nvidia.com/blog/smarter-anomaly-detection-in-semiconductor-manufacturing-with-nvidia-nv-tesseract-and-nvidia-nim/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Semiconductor-Manufacturing-e1759339600266.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ea73d0f0-9379-5277-9220-a8b2e0b431ec",
-    "title": "Enable Gang Scheduling and Workload Prioritization in Ray with NVIDIA KAI Scheduler",
-    "link": "https://developer.nvidia.com/blog/enable-gang-scheduling-and-workload-prioritization-in-ray-with-nvidia-kai-scheduler/",
-    "pubDate": "2025-10-03T14:22:41+00:00",
-    "description": "NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in...",
-    "author": "Ekin Karabulut",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"KAI-Scheduler\" width=\"768\" />NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"KAI-Scheduler\" width=\"768\" /><p>NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in NVIDIA Run:ai directly into your Ray clusters. This means you can now tap into gang scheduling, workload autoscaling, workload prioritization, hierarchical queues, and many more features in your Ray environment. Together…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enable-gang-scheduling-and-workload-prioritization-in-ray-with-nvidia-kai-scheduler/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler.jpg",
     "isShortVideo": 0
   }
 ]

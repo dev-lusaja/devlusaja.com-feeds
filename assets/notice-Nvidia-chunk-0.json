@@ -1,5 +1,21 @@
 [
   {
+    "id": "6a4bb25a-a498-5106-8f1b-dfb9a39c8da5",
+    "title": "How to Enhance 3D Gaussian Reconstruction Quality for Simulation",
+    "link": "https://developer.nvidia.com/blog/how-to-enhance-3d-gaussian-reconstruction-quality-for-simulation/",
+    "pubDate": "2025-12-03T17:30:00+00:00",
+    "description": "Building truly photorealistic 3D environments for simulation is challenging. Even with advanced neural reconstruction methods such as 3D Gaussian Splatting...",
+    "author": "Wonsik Han",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/hero-fixer.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hero-fixer\" width=\"600\" />Building truly photorealistic 3D environments for simulation is challenging. Even with advanced neural reconstruction methods such as 3D Gaussian Splatting...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/hero-fixer.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hero-fixer\" width=\"600\" /><p>Building truly photorealistic 3D environments for simulation is challenging. Even with advanced neural reconstruction methods such as 3D Gaussian Splatting (3DGS) and 3D Gaussian with Unscented Transform (3DGUT), rendered views can still contain artifacts such as blurriness, holes, or spurious geometry—especially from novel viewpoints. These artifacts significantly reduce visual quality and can…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-enhance-3d-gaussian-reconstruction-quality-for-simulation/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "41039070-b97c-5b7b-ae8b-e3f8241baf28",
     "title": "NVIDIA-Accelerated Mistral 3 Open Models Deliver Efficiency, Accuracy at Any Scale",
     "link": "https://developer.nvidia.com/blog/nvidia-accelerated-mistral-3-open-models-deliver-efficiency-accuracy-at-any-scale/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"An illustration of an AI agent.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ML-Agent-e1762537462429-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ML-Agent\" width=\"768\" />Data scientists spend a lot of time cleaning and preparing large, unstructured datasets before analysis can begin, often requiring strong programming and...<img alt=\"An illustration of an AI agent.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ML-Agent-e1762537462429-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ML-Agent\" width=\"768\" /><p>Data scientists spend a lot of time cleaning and preparing large, unstructured datasets before analysis can begin, often requiring strong programming and statistical expertise. Managing feature engineering, model tuning, and consistency across workflows is complex and error-prone. These challenges are amplified by the slow, sequential nature of CPU-based ML workflows…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-an-interactive-ai-agent-for-lightning-fast-machine-learning-tasks/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f632f797-ec3e-572c-8d65-cfd62b7df3b2",
-    "title": "Benchmarking LLMs on AI-Generated CUDA Code with ComputeEval 2025.2",
-    "link": "https://developer.nvidia.com/blog/benchmarking-llms-on-ai-generated-cuda-code-with-computeeval-2025-2/",
-    "pubDate": "2025-11-07T16:30:00+00:00",
-    "description": "Can AI coding assistants write efficient CUDA code? To help measure and improve their capabilities, we created ComputeEval, a robust, open source benchmark for...",
-    "author": "Daniel Rodriguez",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/04/blackwell-cuda-12-9-family-specific-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blackwell-cuda-12-9-family-specific-featured\" width=\"768\" />Can AI coding assistants write efficient CUDA code? To help measure and improve their capabilities, we created ComputeEval, a robust, open source benchmark for...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/04/blackwell-cuda-12-9-family-specific-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blackwell-cuda-12-9-family-specific-featured\" width=\"768\" /><p>Can AI coding assistants write efficient CUDA code? To help measure and improve their capabilities, we created ComputeEval, a robust, open source benchmark for evaluating AI models and agents on CUDA programming tasks. A few months ago, we announced the first release of ComputeEval and today, we’re introducing its first major expansion by adding more than 100 new CUDA challenges.</p>\n<p><a href=\"https://developer.nvidia.com/blog/benchmarking-llms-on-ai-generated-cuda-code-with-computeeval-2025-2/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
