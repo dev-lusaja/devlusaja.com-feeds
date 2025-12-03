@@ -1,5 +1,37 @@
 [
   {
+    "id": "50651541-06aa-5eaf-86eb-a59db0dc2c5e",
+    "title": "Understanding Memory Management on Hardware-Coherent Platforms",
+    "link": "https://developer.nvidia.com/blog/understanding-memory-management-on-hardware-coherent-platforms/",
+    "pubDate": "2025-10-14T16:00:00+00:00",
+    "description": "If you're an application developer or a cluster administrator, you’ve likely seen how non-uniform memory access (NUMA) can impact system performance. When an...",
+    "author": "Kumar Sankaran",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image1-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />If you're an application developer or a cluster administrator, you’ve likely seen how non-uniform memory access (NUMA) can impact system performance. When an...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image1-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>If you’re an application developer or a cluster administrator, you’ve likely seen how non-uniform memory access (NUMA) can impact system performance. When an application is not fully NUMA-aware, performance can be inconsistent and unpredictable. Because of these challenges, NVIDIA released the Coherent Driver-based Memory Management (CDMM) mode for the NVIDIA driver for platforms that are…</p>\n<p><a href=\"https://developer.nvidia.com/blog/understanding-memory-management-on-hardware-coherent-platforms/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/image1-1.jpg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "85cf688a-527f-5e5d-af11-c0944f7e67d6",
+    "title": "Improve Variant Calling Accuracy with NVIDIA Parabricks",
+    "link": "https://developer.nvidia.com/blog/improve-variant-calling-accuracy-with-nvidia-parabricks/",
+    "pubDate": "2025-10-14T13:00:00+00:00",
+    "description": "Built for data scientists and bioinformaticians, NVIDIA Parabricks is a scalable genomics software suite for secondary analysis. Providing GPU-accelerated...",
+    "author": "TJ Chen",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Up close graphic of two DNA strands.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/image5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Clara Parabricks 3.7\" width=\"768\" />Built for data scientists and bioinformaticians, NVIDIA Parabricks is a scalable genomics software suite for secondary analysis. Providing GPU-accelerated...<img alt=\"Up close graphic of two DNA strands.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/image5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Clara Parabricks 3.7\" width=\"768\" /><p>Built for data scientists and bioinformaticians, NVIDIA Parabricks is a scalable genomics software suite for secondary analysis. Providing GPU-accelerated versions of open-source tools for increased speed and accuracy, researchers can uncover biological insights faster. The latest release, Parabricks v4.6, offers improvements to multiple features, most notably support for Google’s DeepVariant…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improve-variant-calling-accuracy-with-nvidia-parabricks/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/image5.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "f858949c-8d70-5cec-b25a-371e857da6a3",
     "title": "Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation",
     "link": "https://blogs.nvidia.com/blog/oracle-nvidia-accelerate-sovereign-ai-abu-dhabi/",
@@ -285,22 +317,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"KAI-Scheduler\" width=\"768\" />NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"KAI-Scheduler\" width=\"768\" /><p>NVIDIA KAI Scheduler is now natively integrated with KubeRay, bringing the same scheduling engine that powers high‑demand and high-scale environments in NVIDIA Run:ai directly into your Ray clusters. This means you can now tap into gang scheduling, workload autoscaling, workload prioritization, hierarchical queues, and many more features in your Ray environment. Together…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enable-gang-scheduling-and-workload-prioritization-in-ray-with-nvidia-kai-scheduler/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/KAI-Scheduler.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "49a958a2-db7b-5659-a768-429aaa8fabe7",
-    "title": "Practical LLM Security Advice from the NVIDIA AI Red Team",
-    "link": "https://developer.nvidia.com/blog/practical-llm-security-advice-from-the-nvidia-ai-red-team/",
-    "pubDate": "2025-10-02T16:52:26+00:00",
-    "description": "Over the last several years, the NVIDIA AI Red Team (AIRT) has evaluated numerous and diverse AI-enabled systems for potential vulnerabilities and security...",
-    "author": "Rich Harang",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A cybersecurity image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Red-Team-LLM-Security-e1759353765401-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Data Driven Decision Making Big Data Internet of Things Analytics Data Management\" width=\"768\" />Over the last several years, the NVIDIA AI Red Team (AIRT) has evaluated numerous and diverse AI-enabled systems for potential vulnerabilities and security...<img alt=\"A cybersecurity image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Red-Team-LLM-Security-e1759353765401-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Data Driven Decision Making Big Data Internet of Things Analytics Data Management\" width=\"768\" /><p>Over the last several years, the NVIDIA AI Red Team (AIRT) has evaluated numerous and diverse AI-enabled systems for potential vulnerabilities and security weaknesses before they reach production. AIRT has identified several common vulnerabilities and potential security weaknesses that, if addressed during development, can significantly improve the security of LLM-based applications.</p>\n<p><a href=\"https://developer.nvidia.com/blog/practical-llm-security-advice-from-the-nvidia-ai-red-team/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Red-Team-LLM-Security-e1759353765401.jpg",
     "isShortVideo": 0
   }
 ]
