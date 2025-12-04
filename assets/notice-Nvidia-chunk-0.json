@@ -1,5 +1,21 @@
 [
   {
+    "id": "62abc7a7-b1d6-5d1d-8af2-aa442d67026b",
+    "title": "Optimize Data Center Efficiency for AI and HPC Workloads with Power Profiles",
+    "link": "https://developer.nvidia.com/blog/optimize-data-center-efficiency-for-ai-and-hpc-workloads-with-power-profiles/",
+    "pubDate": "2025-12-04T17:00:00+00:00",
+    "description": "Exponentially growing computational demand is driving power usage higher and pushing data centers to their limits. With facilities power constrained, extracting...",
+    "author": "Pratikkumar Patel",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/data-center-sustainability-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center-sustainability\" width=\"768\" />Exponentially growing computational demand is driving power usage higher and pushing data centers to their limits. With facilities power constrained, extracting...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/data-center-sustainability-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center-sustainability\" width=\"768\" /><p>Exponentially growing computational demand is driving power usage higher and pushing data centers to their limits. With facilities power constrained, extracting the most performance per provisioned watt of power is crucial to optimize throughput from a data center. To help users and system administrators extract the most performance out of power-limited data centers…</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimize-data-center-efficiency-for-ai-and-hpc-workloads-with-power-profiles/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6a4bb25a-a498-5106-8f1b-dfb9a39c8da5",
     "title": "How to Enhance 3D Gaussian Reconstruction Quality for Simulation",
     "link": "https://developer.nvidia.com/blog/how-to-enhance-3d-gaussian-reconstruction-quality-for-simulation/",
@@ -432,22 +448,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "eee8efda-c31b-5831-ae6f-e97cf8ba8875",
-    "title": "Streamline Complex AI Inference on Kubernetes with NVIDIA Grove",
-    "link": "https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/",
-    "pubDate": "2025-11-10T14:00:00+00:00",
-    "description": "Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...",
-    "author": "Sanjay Chatterjee",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" />Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" /><p>Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now consist of several distinct components—prefill, decode, vision encoders, key value (KV) routers, and more. In addition, entire agentic pipelines are emerging, where multiple such model instances collaborate to perform reasoning, retrieval…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
     "id": "3e1e51d7-7708-5f7e-96ad-2d5d15029c6a",
     "title": "Enabling Multi-Node NVLink on Kubernetes for NVIDIA GB200 NVL72 and Beyond",
     "link": "https://developer.nvidia.com/blog/enabling-multi-node-nvlink-on-kubernetes-for-gb200-and-beyond/",
@@ -464,18 +464,18 @@
     "isShortVideo": 0
   },
   {
-    "id": "f85d4ef9-1fc0-57ae-bb3b-d7e6f9af6b3c",
-    "title": "Building an Interactive AI Agent for Lightning-Fast Machine Learning Tasks",
-    "link": "https://developer.nvidia.com/blog/building-an-interactive-ai-agent-for-lightning-fast-machine-learning-tasks/",
-    "pubDate": "2025-11-07T17:44:52+00:00",
-    "description": "Data scientists spend a lot of time cleaning and preparing large, unstructured datasets before analysis can begin, often requiring strong programming and...",
-    "author": "Allison Ding",
+    "id": "eee8efda-c31b-5831-ae6f-e97cf8ba8875",
+    "title": "Streamline Complex AI Inference on Kubernetes with NVIDIA Grove",
+    "link": "https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/",
+    "pubDate": "2025-11-10T14:00:00+00:00",
+    "description": "Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...",
+    "author": "Sanjay Chatterjee",
     "sourceTitle": "Nvidia",
     "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
     "sourceCategory": "Nvidia",
     "sourceType": "notice",
     "sourceCountry": "",
-    "content": "<img alt=\"An illustration of an AI agent.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ML-Agent-e1762537462429-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ML-Agent\" width=\"768\" />Data scientists spend a lot of time cleaning and preparing large, unstructured datasets before analysis can begin, often requiring strong programming and...<img alt=\"An illustration of an AI agent.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ML-Agent-e1762537462429-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ML-Agent\" width=\"768\" /><p>Data scientists spend a lot of time cleaning and preparing large, unstructured datasets before analysis can begin, often requiring strong programming and statistical expertise. Managing feature engineering, model tuning, and consistency across workflows is complex and error-prone. These challenges are amplified by the slow, sequential nature of CPU-based ML workflows…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-an-interactive-ai-agent-for-lightning-fast-machine-learning-tasks/\" rel=\"nofollow\">Source</a></p>",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" />Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" /><p>Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now consist of several distinct components—prefill, decode, vision encoders, key value (KV) routers, and more. In addition, entire agentic pipelines are emerging, where multiple such model instances collaborate to perform reasoning, retrieval…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
