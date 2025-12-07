@@ -256,22 +256,6 @@
     "isShortVideo": 0
   },
   {
-    "id": "8806bd33-facc-55c6-823e-9f787c7fce3b",
-    "title": "Claude Code on the web",
-    "link": "https://www.anthropic.com/news/claude-code-on-the-web",
-    "pubDate": "2025-10-19T16:00:00+00:00",
-    "description": "Today, we're introducing Claude Code on the web, a new way to delegate coding tasks directly from your browser. Now in beta as a research preview, you can assign multiple coding tasks to Claude that run on Anthropic-managed cloud infrastructure, perfect for tackling bug backlogs, routine fixes, or parallel development work. Run coding tasks in parallel Claude Code on the web lets you kick off coding sessions without opening your terminal. Connect your GitHub repositories, describe what you need, and Claude handles the implementation. Each session runs in its own isolated environment with real-time progress tracking, and you can actively steer Claude to adjust course as it’s working through tasks. With Claude Code running in the cloud, you can now run multiple tasks in parallel across different repositories from a single interface and ship faster with automatic PR creation and clear change summaries. Flexible for every workflow The web interface complements your existing Claude Code workflow. Running tasks in the cloud is especially effective for: Answering questions about how projects work and how repositories are mapped Bugfixes and routine, well-defined tasks Backend changes, where Claude Code can use test-driven development to verify changes You can also use Claude Code on mobile. As part of this research preview, we’re making Claude Code available on our iOS app so developers can explore coding with Claude on the go. It’s an early preview, and we hope to quickly refine the mobile experience based on your feedback. Security-first cloud execution Every Claude Code task runs in an isolated sandbox environment with network and filesystem restrictions. Git interactions are handled through a secure proxy service that ensures Claude can only access authorized repositories—helping keep your code and credentials protected throughout the entire workflow. You can also add custom network configuration to choose what domains Claude Code can connect to from its sandbox. For example, you can allow Claude to download npm packages over the internet so that it can run tests and validate changes. Read our engineering blog and documentation for a deep dive on Claude Code’s sandboxing approach. Getting started Claude Code on the web is available now in research preview for Pro and Max users. Visit claude.com/code to connect your first repository and start delegating tasks. Cloud-based sessions share rate limits with all other Claude Code usage. Explore our documentation to learn more.",
-    "author": "Desconocido",
-    "sourceTitle": "Anthropic",
-    "sourceUrl": "http://rsshub:1200/anthropic/news",
-    "sourceCategory": "anthropic",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69093b56f1035860a3cfe774_og_claude-code-on-the-web.jpg",
-    "isShortVideo": 0
-  },
-  {
     "id": "9b1459a6-3ce2-5e2f-9946-16a85b9850c6",
     "title": "Claude for Life Sciences",
     "link": "https://www.anthropic.com/news/claude-for-life-sciences",
@@ -285,6 +269,22 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8806bd33-facc-55c6-823e-9f787c7fce3b",
+    "title": "Claude Code on the web",
+    "link": "https://www.anthropic.com/news/claude-code-on-the-web",
+    "pubDate": "2025-10-19T16:00:00+00:00",
+    "description": "Today, we're introducing Claude Code on the web, a new way to delegate coding tasks directly from your browser. Now in beta as a research preview, you can assign multiple coding tasks to Claude that run on Anthropic-managed cloud infrastructure, perfect for tackling bug backlogs, routine fixes, or parallel development work. Run coding tasks in parallel Claude Code on the web lets you kick off coding sessions without opening your terminal. Connect your GitHub repositories, describe what you need, and Claude handles the implementation. Each session runs in its own isolated environment with real-time progress tracking, and you can actively steer Claude to adjust course as it’s working through tasks. With Claude Code running in the cloud, you can now run multiple tasks in parallel across different repositories from a single interface and ship faster with automatic PR creation and clear change summaries. Flexible for every workflow The web interface complements your existing Claude Code workflow. Running tasks in the cloud is especially effective for: Answering questions about how projects work and how repositories are mapped Bugfixes and routine, well-defined tasks Backend changes, where Claude Code can use test-driven development to verify changes You can also use Claude Code on mobile. As part of this research preview, we’re making Claude Code available on our iOS app so developers can explore coding with Claude on the go. It’s an early preview, and we hope to quickly refine the mobile experience based on your feedback. Security-first cloud execution Every Claude Code task runs in an isolated sandbox environment with network and filesystem restrictions. Git interactions are handled through a secure proxy service that ensures Claude can only access authorized repositories—helping keep your code and credentials protected throughout the entire workflow. You can also add custom network configuration to choose what domains Claude Code can connect to from its sandbox. For example, you can allow Claude to download npm packages over the internet so that it can run tests and validate changes. Read our engineering blog and documentation for a deep dive on Claude Code’s sandboxing approach. Getting started Claude Code on the web is available now in research preview for Pro and Max users. Visit claude.com/code to connect your first repository and start delegating tasks. Cloud-based sessions share rate limits with all other Claude Code usage. Explore our documentation to learn more.",
+    "author": "Desconocido",
+    "sourceTitle": "Anthropic",
+    "sourceUrl": "http://rsshub:1200/anthropic/news",
+    "sourceCategory": "anthropic",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69093b56f1035860a3cfe774_og_claude-code-on-the-web.jpg",
     "isShortVideo": 0
   },
   {
@@ -365,38 +365,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69094f78bc3a0b167869e4b1_og_claude-code-plugins.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b231f354-d5f5-5320-b666-b08236ed9cc8",
-    "title": "Rahul Patil joins Anthropic as Chief Technology Officer",
-    "link": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
-    "pubDate": "2025-10-06T16:00:00+00:00",
-    "description": "We're excited to announce that Rahul Patil has joined Anthropic as our Chief Technology Officer. Rahul will oversee our engineering organization across product, compute, infrastructure, inference, data science, and security as we scale Claude to meet growing enterprise demand worldwide. Rahul brings over 20 years of experience building and maintaining industry-leading infrastructure for businesses. Most recently, he served as CTO of Stripe, where he guided the technical organization supporting millions of businesses processing more than trillion dollars annually. Prior to Stripe, Rahul held senior engineering leadership roles at AWS, Microsoft, and Oracle Cloud Infrastructure, developing deep expertise in building reliable, scalable mission-critical systems that businesses depend on. “I'm thrilled to join Anthropic at this pivotal moment in AI development,” said Rahul. “Anthropic’s brilliance in both research and products, and their conscientious approach to pushing the boundaries of what's possible feels like the most important work I could be doing right now—I personally can't think of a greater calling and responsibility.” “Building AI systems that people can trust has been central to our work as we've grown to serve over 300,000 business customers,” said Daniela Amodei, co-founder and President of Anthropic. “Rahul brings a proven track record in building and scaling robust infrastructure that businesses can depend on as we work to make Claude the leading intelligence platform for enterprises.” For developers building with Claude, Rahul's appointment signals our commitment to world-class infrastructure and reliability at scale. As part of these changes, Sam McCandlish, one of Anthropic's co-founders and previously CTO, has taken on a new role as Chief Architect. In this role, Sam will deepen his focus on large-scale model training, continuing to lead pretraining while expanding his scope to include research productivity and RL infrastructure.",
-    "author": "Desconocido",
-    "sourceTitle": "Anthropic",
-    "sourceUrl": "http://rsshub:1200/anthropic/news",
-    "sourceCategory": "anthropic",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5f3599e8-6605-56b0-a215-f20ef3ab55d7",
-    "title": "Expanding our global operations to India with our second Asia Pacific office",
-    "link": "https://www.anthropic.com/news/expanding-global-operations-to-india",
-    "pubDate": "2025-10-06T16:00:00+00:00",
-    "description": "Today we’re announcing that we’re expanding our global operations to India, with plans to open an office in Bengaluru in early 2026. Bengaluru will serve as our second office in Asia Pacific after Tokyo , which will open in the coming months. This expansion will help us serve India’s rapidly growing AI ecosystem and reflects the increasing international demand we’re seeing for Claude. Our CEO and co-founder Dario Amodei is visiting India this week to meet with public officials and enterprise partners as we deepen our commitment to the region. “India is compelling because of the scale of its technical talent and the commitment from the Indian government to ensure the benefits of artificial intelligence reach all areas of society, not just concentrated pockets,” said Dario. “There is deep alignment between the challenges India is tackling and our mission as a company, from deploying AI across diverse languages and contexts, to building frameworks for responsible governance. India's AI ecosystem will play a central role in how AI develops globally and democratically, and we’re looking forward to working with organizations in India to pave a path for how beneficial AI can be scaled in a way that serves everyone.” Our focus in India will be deploying AI for social impact in sectors like education, healthcare, and agriculture, as well as supporting key industries through strategic partnerships with Indian enterprises, nonprofits, and startups. The Bengaluru office will support India’s entrepreneurial ecosystem as it develops the next generation of dynamic companies. According to our recent Economic Index Report , India ranks second globally in consumer usage of Claude, behind only the US. And a disproportionately large amount of Claude usage in India is for technical and programming-related tasks, such as mobile UI development and web app debugging. Large Indian enterprises like CRED rely on Claude for their most critical coding work. And considering the rapid global adoption of Claude Code—with usage growing over 10x in just the first three months after its May launch—we believe Claude has the potential to dramatically accelerate growth among India's export-focused IT services industry. “Our expansion comes at a pivotal moment when Indian enterprises and startups are seeking AI models they can trust,” said Paul Smith, Anthropic’s Chief Commercial Officer. “They need systems that combine frontier performance with the safety and reliability required to support critical business operations at the massive scale that they operate. We see remarkable promise in India’s innovation ecosystem – the vibrant startup and developer communities alongside Indian enterprises are building solutions that impact millions of lives globally.” Our expansion into India also dovetails with our continuing investment in advancing Claude’s Indic language capabilities. Building robust support for the languages and contexts that matter most to users in India will be a cornerstone of our work in the region. Claude already provides support across major Indic languages, and will launch enhanced performance in Hindi and nearly a dozen additional languages, including Bengali, Marathi, Telugu, Tamil, Punjabi, Gujarati, Kannada, Malayalam, and Urdu. These extended capabilities will strengthen public sector adoption and enable broader access to AI across all of India. For information about career opportunities at our new Bengaluru office, visit anthropic.com/careers.",
-    "author": "Desconocido",
-    "sourceTitle": "Anthropic",
-    "sourceUrl": "http://rsshub:1200/anthropic/news",
-    "sourceCategory": "anthropic",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
     "isShortVideo": 0
   }
 ]
