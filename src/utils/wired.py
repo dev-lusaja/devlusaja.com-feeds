@@ -139,13 +139,12 @@ def extract_wired_article(article_element) -> Dict[str, Any]:
     else:
         entry['author'] = 'Wired ES'
 
-    # Extraer fecha
-    # TODO: traer la fecha real, se pondra por ahora la fecha de ejecución
-    entry['published'] = datetime.utcnow().isoformat() + '+00:00'
-
     # Generar ID único basado en el link
     if entry.get('link'):
         entry['id'] = entry['link']
+
+    # Extraer fecha
+    entry['published'] = get_feed_pub_date(entry['link'])
 
     # Extraer categoría/rubric
     rubric_elem = article_element.find('span', class_=lambda x: x and 'RubricName' in x)
@@ -197,6 +196,18 @@ def parse_spanish_date(date_str: str) -> str:
     # Si falla, retornar la fecha original
     return date_str
 
+
+def get_feed_pub_date(link) -> str:
+    """
+    Obtiene la fecha de publicación del feed.
+
+    Returns:
+        Fecha de publicación en formato ISO
+    """
+    response = requests.get(link)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    pub_date = soup.find('time')
+    return parse_spanish_date(pub_date.get_text(strip=True))
 
 def is_wired_feed(category: str = None) -> bool:
     """

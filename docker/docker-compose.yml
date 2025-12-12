@@ -1,91 +1,23 @@
 version: '3.9'
 
 services:
-  mysql:
-    image: mysql:8.0
-    container_name: feeds_mysql
-    restart: unless-stopped
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_password}
-      MYSQL_DATABASE: ${MYSQL_DATABASE:-feeds_db}
-      MYSQL_USER: ${MYSQL_USER:-feeds_user}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-feeds_password}
-    ports:
-      - "${MYSQL_PORT:-3306}:3306"
-    volumes:
-      - mysql_data:/var/lib/mysql
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-    networks:
-      - feeds_network
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$${MYSQL_ROOT_PASSWORD:-root_password}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-  
-  # Servicio RSSHub (instancia local)
-  rsshub:
-    image: diygod/rsshub:chromium-bundled
-    container_name: feeds_rsshub
-    restart: unless-stopped
-    ports:
-      - "1200:1200"
-    environment:
-      NODE_ENV: production
-      CACHE_TYPE: memory
-      # Configuración de TikTok
-      TIKTOK_SESSION_ID: ${TIKTOK_SESSION_ID:-}
-      TIKTOK_COOKIE: ${TIKTOK_COOKIE:-}
-      # Configuración de rate limiting
-      CACHE_EXPIRE: 600
-      # Configuración de seguridad
-      ACCESS_KEY: ${RSSHUB_ACCESS_KEY:-}
-      # Habilitar CORS
-      ALLOW_ORIGIN: '*'
-      # Logging
-      DEBUG_INFO: 'true'
-      # La imagen chromium-bundled incluye Chromium automáticamente
-      # No necesitamos configurar rutas manualmente
-    networks:
-      - feeds_network
-    # Aumentar memoria compartida para Chromium
-    shm_size: '2gb'
-    healthcheck:
-      test: ["CMD", "wget", "--spider", "-q", "http://localhost:1200/"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-
   feed_collector:
     build:
       context: ..
       dockerfile: docker/Dockerfile
     container_name: feed_collector
-    depends_on:
-      mysql:
-        condition: service_healthy
     volumes:
       - ../feeds_data:/app/feeds_data
-      - ../backups:/app/backups
       - ../assets:/app/assets
       - ../feeds_config.yaml:/app/feeds_config.yaml
       - ../.env:/app/.env
+      - ../data:/app/data
     environment:
       - TZ=America/Bogota
-      - USE_MYSQL=true
-      - DB_HOST=mysql
-      - DB_PORT=3306
-      - DB_NAME=${MYSQL_DATABASE:-feeds_db}
-      - DB_USER=${MYSQL_USER:-feeds_user}
-      - DB_PASSWORD=${MYSQL_PASSWORD:-feeds_password}
     command: sh -c "python src/feed_fetcher.py ${FORCE_ARG}"
     networks:
       - feeds_network
     restart: "no"
-
-volumes:
-  mysql_data:
-    driver: local
 
 networks:
   feeds_network:

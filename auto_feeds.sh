@@ -4,7 +4,7 @@
 # ===============================================
 # Este script automatiza todo el proceso de:
 # 1. Descarga de feeds RSS
-# 2. Almacenamiento en MySQL
+# 2. Almacenamiento en SQLite
 # 3. Generación de archivos JSON
 # 4. Commit y push a GitHub
 # 5. Despliegue en Netlify (automático)
@@ -186,21 +186,7 @@ main() {
         log_success "Docker está corriendo"
     fi
 
-    # Paso 1: Iniciar MySQL
-    log "Iniciando MySQL..."
-    docker compose -f docker/docker-compose.yml up -d mysql >> "$LOG_FILE" 2>&1
-
-    if [ $? -ne 0 ]; then
-        log_error "Error al iniciar MySQL"
-        send_notification "Error al iniciar MySQL" "error"
-        exit 1
-    fi
-
-    log "Esperando a que MySQL esté listo..."
-    sleep 10
-    log_success "MySQL iniciado"
-
-    # Paso 2: Iniciar RSSHub
+    # Paso 1: Iniciar RSSHub (SQLite no requiere Docker)
     log "Iniciando RSSHub..."
     docker compose -f docker/docker-compose.yml up -d rsshub >> "$LOG_FILE" 2>&1
 
@@ -214,7 +200,7 @@ main() {
     sleep 10
     log_success "RSSHub iniciado"
 
-    # Paso 3: Construir imagen del feed collector
+    # Paso 2: Construir imagen del feed collector
     log "Construyendo imagen del feed collector..."
     docker compose -f docker/docker-compose.yml build feed_collector >> "$LOG_FILE" 2>&1
 
@@ -226,7 +212,7 @@ main() {
 
     log_success "Imagen construida correctamente"
 
-    # Paso 4: Ejecutar recolector de feeds
+    # Paso 3: Ejecutar recolector de feeds
     log "Ejecutando recolector de feeds..."
 
     local force_arg=""
@@ -235,7 +221,7 @@ main() {
         log "Modo FORCE activado - descargando datos del día nuevamente"
     fi
 
-    FORCE_ARG="$force_arg" docker compose -f docker/docker-compose.yml up feed_collector >> "$LOG_FILE" 2>&1
+    FORCE_ARG="$force_arg" caffeinate -s docker compose -f docker/docker-compose.yml up feed_collector >> "$LOG_FILE" 2>&1
 
     local exit_code=$?
 
@@ -249,6 +235,7 @@ main() {
     fi
 
     log_success "Recolector de feeds ejecutado correctamente"
+    log "Base de datos SQLite: data/feeds.db"
 
     # Paso 5: Verificar si hay cambios en Git
     if ! is_git_repo; then

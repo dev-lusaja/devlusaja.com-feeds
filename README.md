@@ -82,14 +82,6 @@ El sistema ejecutará automáticamente:
 ### Variables de Entorno (.env)
 
 ```bash
-# MySQL
-USE_MYSQL=true
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=feeds_db
-DB_USER=feeds_user
-DB_PASSWORD=feeds_password
-
 # RSSHub
 RSSHUB_HOST=localhost
 RSSHUB_PORT=1200
@@ -159,18 +151,6 @@ docker compose -f docker/docker-compose.yml logs -f
 
 # Detener servicios
 docker compose -f docker/docker-compose.yml down
-```
-
-### Base de Datos
-
-```bash
-# Ver cantidad de feeds
-docker exec feeds_mysql mysql -u feeds_user -pfeeds_password \
-  -e "SELECT COUNT(*) FROM feeds_db.feeds;"
-
-# Ver feeds por tipo
-docker exec feeds_mysql mysql -u feeds_user -pfeeds_password \
-  -e "SELECT sourceType, COUNT(*) FROM feeds_db.feeds GROUP BY sourceType;"
 ```
 
 ## 🎯 Flujo de Trabajo
