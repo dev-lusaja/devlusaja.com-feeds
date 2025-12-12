@@ -171,20 +171,17 @@ def get_feeds_without_images(
         params = []
 
         if source_type:
-            query += " AND sourceType = %s"
-            params.append(source_type)
+            query += f" AND sourceType = '{source_type}'"
 
         if category:
-            query += " AND sourceCategory = %s"
-            params.append(category)
+            query += f" AND sourceCategory = '{category}'"
 
         query += " ORDER BY pubDate DESC"
 
         if limit:
-            query += " LIMIT %s"
-            params.append(limit)
+            query += f" LIMIT {limit}"
 
-        cursor.execute(query, tuple(params))
+        cursor.execute(query)
         results = cursor.fetchall()
         return results
 
@@ -229,14 +226,20 @@ def process_feeds_images(
     for feed in feeds:
         feed_id = feed['id']
         feed_link = feed['link']
-        feed_title = feed.get('title', 'Sin título')
-        feed_source_type = feed.get('sourceType')
-        feed_category = feed.get('sourceCategory')
+        feed_title = feed['title']
+        feed_source_type = feed['sourceType']
+        feed_category = feed['sourceCategory']
 
         stats['processed'] += 1
         
         # Lógica especial: Saltar GoogleNews notices
-        if feed_source_type == 'notice' and feed_category == 'GoogleNews':
+        if feed_source_type == 'notice' and (
+            feed_category == 'GoogleNews' or
+            feed_category == 'TechCrunch_AI' or
+            feed_category == 'Towards' or
+            feed_category == 'MIT_AI' or
+            feed_category == 'DeepMind'            
+        ):
             continue
 
         log(f"\n🔍 [{stats['processed']}/{len(feeds)}] Procesando: {feed_title[:60]}...")
