@@ -66,20 +66,20 @@ def generate_shorts_chunks(db: DatabaseConnection, output_dir: str = "assets", i
             shorts_data = []
             for short in shorts:
                 short_item = {
-                    "id": short.get('id', ''),
-                    "title": short.get('title', ''),
-                    "link": short.get('link', ''),
-                    "pubDate": short.get('pubDate', ''),
-                    "description": short.get('description', ''),
-                    "author": short.get('author', 'Desconocido'),
-                    "sourceTitle": short.get('sourceTitle', ''),
-                    "sourceUrl": short.get('sourceUrl', ''),
-                    "sourceCategory": short.get('sourceCategory', ''),
-                    "sourceType": short.get('sourceType', ''),
-                    "sourceCountry": short.get('sourceCountry', ''),
-                    "content": short.get('content', ''),
-                    "image": short.get('image', ''),
-                    "isShortVideo": short.get('isShortVideo', 1)
+                    "id": short['id'],
+                    "title": short['title'],
+                    "link": short['link'],
+                    "pubDate": short['pubDate'],
+                    "description": short['description'],
+                    "author": short['author'],
+                    "sourceTitle": short['sourceTitle'],
+                    "sourceUrl": short['sourceUrl'],
+                    "sourceCategory": short['sourceCategory'],
+                    "sourceType": short['sourceType'],
+                    "sourceCountry": short['sourceCountry'],
+                    "content": short['content'],
+                    "image": short['image'],
+                    "isShortVideo": short['isShortVideo']
                 }
                 shorts_data.append(short_item)
 

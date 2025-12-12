@@ -84,20 +84,20 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                     feeds_data = []
                     for feed in feeds:
                         feed_item = {
-                            "id": feed.get('id', ''),
-                            "title": feed.get('title', ''),
-                            "link": feed.get('link', ''),
-                            "pubDate": feed.get('pubDate', ''),
-                            "description": feed.get('description', ''),
-                            "author": feed.get('author', 'Desconocido'),
-                            "sourceTitle": feed.get('sourceTitle', ''),
-                            "sourceUrl": feed.get('sourceUrl', ''),
-                            "sourceCategory": feed.get('sourceCategory', ''),
-                            "sourceType": feed.get('sourceType', ''),
-                            "sourceCountry": feed.get('sourceCountry', ''),
-                            "content": feed.get('content', ''),
-                            "image": feed.get('image', ''),
-                            "isShortVideo": feed.get('isShortVideo', 0)
+                            "id": feed['id'],
+                            "title": feed['title'],
+                            "link": feed['link'],
+                            "pubDate": feed['pubDate'],
+                            "description": feed['description'],
+                            "author": feed['author'],
+                            "sourceTitle": feed['sourceTitle'],
+                            "sourceUrl": feed['sourceUrl'],
+                            "sourceCategory": feed['sourceCategory'],
+                            "sourceType": feed['sourceType'],
+                            "sourceCountry": feed['sourceCountry'],
+                            "content": feed['content'],
+                            "image": feed['image'],
+                            "isShortVideo": feed['isShortVideo']
                         }
                         feeds_data.append(feed_item)
 

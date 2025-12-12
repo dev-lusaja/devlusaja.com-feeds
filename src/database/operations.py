@@ -1,8 +1,8 @@
 import pandas as pd
+import sqlite3
 from typing import Dict, Any, List, Optional
 from datetime import datetime, date
 from pathlib import Path
-from mysql.connector import Error
 from database.connection import DatabaseConnection
 from config.loader import load_exclusions_config
 from utils.logger import log
@@ -22,60 +22,69 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
         return False
 
     try:
+        # Crear tabla feeds
         create_table_query = """
         CREATE TABLE IF NOT EXISTS feeds (
-            id VARCHAR(36) PRIMARY KEY,
+            id TEXT PRIMARY KEY,
             title TEXT,
-            link VARCHAR(2048),
-            pubDate VARCHAR(255),
+            link TEXT,
+            pubDate TEXT,
             pubDate_parsed DATETIME GENERATED ALWAYS AS (
-                STR_TO_DATE(SUBSTRING(pubDate, 1, 19), '%Y-%m-%dT%H:%i:%s')
+                datetime(substr(pubDate, 1, 19))
             ) STORED,
             description TEXT,
-            author LONGTEXT,
-            sourceTitle VARCHAR(255),
+            author TEXT,
+            sourceTitle TEXT,
             sourceUrl TEXT,
-            sourceCategory VARCHAR(255),
-            sourceType VARCHAR(50),
-            sourceCountry VARCHAR(100),
-            content LONGTEXT,
+            sourceCategory TEXT,
+            sourceType TEXT,
+            sourceCountry TEXT DEFAULT '',
+            content TEXT,
             image TEXT,
-            isShortVideo TINYINT(1) DEFAULT 0,
-            raw_data LONGTEXT,
+            isShortVideo INTEGER DEFAULT 0,
+            raw_data TEXT,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-            INDEX idx_source_category (sourceCategory),
-            INDEX idx_source_type (sourceType),
-            INDEX idx_source_country (sourceCountry),
-            INDEX idx_pub_date (pubDate),
-            INDEX idx_pubDate_parsed (pubDate_parsed),
-            INDEX idx_sourceType_pubDate (sourceType, pubDate_parsed),
-            INDEX idx_created_at (created_at),
-            UNIQUE INDEX idx_unique_link (link(767))
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
         """
         cursor.execute(create_table_query)
+        
+        # Crear índices para feeds
+        indices = [
+            "CREATE INDEX IF NOT EXISTS idx_source_category ON feeds(sourceCategory)",
+            "CREATE INDEX IF NOT EXISTS idx_source_type ON feeds(sourceType)",
+            "CREATE INDEX IF NOT EXISTS idx_source_country ON feeds(sourceCountry)",
+            "CREATE INDEX IF NOT EXISTS idx_pub_date ON feeds(pubDate)",
+            "CREATE INDEX IF NOT EXISTS idx_pubDate_parsed ON feeds(pubDate_parsed)",
+            "CREATE INDEX IF NOT EXISTS idx_sourceType_pubDate ON feeds(sourceType, pubDate_parsed)",
+            "CREATE INDEX IF NOT EXISTS idx_created_at ON feeds(created_at)",
+            "CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_link ON feeds(link)"
+        ]
+        
+        for index_sql in indices:
+            cursor.execute(index_sql)
+        
         db.commit()
         log("✅ Tabla 'feeds' verificada/creada exitosamente")
 
         # Crear tabla de ejecuciones
         create_executions_table_query = """
         CREATE TABLE IF NOT EXISTS executions (
-            id INT AUTO_INCREMENT PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             execution_date DATE NOT NULL UNIQUE,
             execution_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            feeds_processed INT DEFAULT 0,
-            feeds_inserted INT DEFAULT 0,
-            status VARCHAR(50) DEFAULT 'completed',
-            INDEX idx_execution_date (execution_date)
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            feeds_processed INTEGER DEFAULT 0,
+            feeds_inserted INTEGER DEFAULT 0,
+            status TEXT DEFAULT 'completed'
+        )
         """
         cursor.execute(create_executions_table_query)
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_execution_date ON executions(execution_date)")
         db.commit()
         log("✅ Tabla 'executions' verificada/creada exitosamente")
 
         return True
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al crear tablas: {e}")
         db.rollback()
         return False
@@ -98,11 +107,11 @@ def feed_exists(db: DatabaseConnection, feed_link: str) -> bool:
         return False
 
     try:
-        query = "SELECT COUNT(*) as count FROM feeds WHERE link = %s"
+        query = "SELECT COUNT(*) as count FROM feeds WHERE link = ?"
         cursor.execute(query, (feed_link,))
         result = cursor.fetchone()
         return result['count'] > 0 if result else False
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al verificar existencia de feed con link {feed_link[:100]}...: {e}")
         return False
     finally:
@@ -125,22 +134,24 @@ def insert_feed(db: DatabaseConnection, feed_data: Dict[str, Any]) -> bool:
         return False
 
     try:
-        # INSERT IGNORE: ignora el insert si el índice único de 'link' falla
+        # INSERT OR IGNORE: ignora el insert si el índice único de 'link' falla
         insert_query = """
-        INSERT IGNORE INTO feeds (
+        INSERT OR IGNORE INTO feeds (
             id, title, link, pubDate, description, author,
             sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
             content, image, isShortVideo, raw_data
-        ) VALUES (
-            %(id)s, %(title)s, %(link)s, %(pubDate)s, %(description)s, %(author)s,
-            %(sourceTitle)s, %(sourceUrl)s, %(sourceCategory)s, %(sourceType)s, %(sourceCountry)s,
-            %(content)s, %(image)s, %(isShortVideo)s, %(raw_data)s
-        )
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """
-        cursor.execute(insert_query, feed_data)
+        cursor.execute(insert_query, (
+            feed_data['id'], feed_data['title'], feed_data['link'], feed_data['pubDate'],
+            feed_data['description'], feed_data['author'], feed_data['sourceTitle'],
+            feed_data['sourceUrl'], feed_data['sourceCategory'], feed_data['sourceType'],
+            feed_data['sourceCountry'], feed_data['content'], feed_data['image'],
+            feed_data['isShortVideo'], feed_data['raw_data']
+        ))
         db.commit()
         return True
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al insertar feed {feed_data.get('id', 'unknown')}: {e}")
         db.rollback()
         return False
@@ -165,7 +176,7 @@ def insert_feeds_from_dataframe(db: DatabaseConnection, df: pd.DataFrame) -> Dic
         log("⚠️ DataFrame vacío, no hay feeds para insertar")
         return stats
 
-    log(f"📊 Procesando {len(df)} feeds para inserción en MySQL...")
+    log(f"📊 Procesando {len(df)} feeds para inserción en SQLite...")
 
     for index, row in df.iterrows():
         feed_link = row['link'] if pd.notna(row['link']) else ''
@@ -222,14 +233,14 @@ def get_feeds_by_category(db: DatabaseConnection, category: str, limit: int = 10
     try:
         query = """
         SELECT * FROM feeds
-        WHERE sourceCategory = %s
+        WHERE sourceCategory = ?
         ORDER BY created_at DESC
-        LIMIT %s
+        LIMIT ?
         """
         cursor.execute(query, (category, limit))
         results = cursor.fetchall()
         return results
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al obtener feeds de categoría {category}: {e}")
         return []
     finally:
@@ -254,7 +265,7 @@ def get_feed_count(db: DatabaseConnection) -> int:
         cursor.execute(query)
         result = cursor.fetchone()
         return result['count'] if result else 0
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al contar feeds: {e}")
         return 0
     finally:
@@ -276,11 +287,11 @@ def was_executed_today(db: DatabaseConnection) -> bool:
 
     try:
         today = date.today()
-        query = "SELECT COUNT(*) as count FROM executions WHERE execution_date = %s"
+        query = "SELECT COUNT(*) as count FROM executions WHERE execution_date = ?"
         cursor.execute(query, (today,))
         result = cursor.fetchone()
         return result['count'] > 0 if result else False
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al verificar ejecución del día: {e}")
         return False
     finally:
@@ -306,21 +317,21 @@ def register_execution(db: DatabaseConnection, feeds_processed: int, feeds_inser
     try:
         today = date.today()
 
-        # Intentar insertar o actualizar si ya existe
+        # Intentar insertar o actualizar si ya existe (UPSERT)
         query = """
         INSERT INTO executions (execution_date, feeds_processed, feeds_inserted, status)
-        VALUES (%s, %s, %s, %s)
-        ON DUPLICATE KEY UPDATE
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(execution_date) DO UPDATE SET
             execution_time = CURRENT_TIMESTAMP,
-            feeds_processed = %s,
-            feeds_inserted = %s,
-            status = %s
+            feeds_processed = excluded.feeds_processed,
+            feeds_inserted = excluded.feeds_inserted,
+            status = excluded.status
         """
-        cursor.execute(query, (today, feeds_processed, feeds_inserted, status, feeds_processed, feeds_inserted, status))
+        cursor.execute(query, (today, feeds_processed, feeds_inserted, status))
         db.commit()
         log(f"✅ Ejecución registrada: {feeds_processed} procesados, {feeds_inserted} insertados")
         return True
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al registrar ejecución: {e}")
         db.rollback()
         return False
@@ -358,7 +369,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" WHERE pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" WHERE pubDate_parsed >= datetime('now', '-{months_back} months')"
 
         # Obtener total de items
         total_query = f"SELECT COUNT(*) as count FROM feeds{date_filter}"
@@ -370,7 +381,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
 
         # Agregar filtro de fecha si aplica
         if months_back is not None:
-            where_conditions.append(f"pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)")
+            where_conditions.append(f"pubDate_parsed >= datetime('now', '-{months_back} months')")
 
         # Agregar exclusiones configuradas
         for source_type, excluded_categories in chunks_all_exclusions.items():
@@ -397,7 +408,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # porque estos se cuentan por separado en la sección "shorts"
         category_where_parts = []
         if months_back is not None:
-            category_where_parts.append(f"pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)")
+            category_where_parts.append(f"pubDate_parsed >= datetime('now', '-{months_back} months')")
         category_where_parts.append("NOT (sourceType IN ('youtube', 'tiktok') AND isShortVideo = 1)")
 
         category_where = "WHERE " + " AND ".join(category_where_parts)
@@ -464,7 +475,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # Obtener estadísticas de shorts (videos cortos) con filtro de fecha si aplica
         shorts_date_filter = ""
         if months_back is not None:
-            shorts_date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            shorts_date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
         shorts_query = f"SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1{shorts_date_filter}"
         cursor.execute(shorts_query)
@@ -497,7 +508,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
 
         return metadata
 
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al generar metadata: {e}")
         return {}
     finally:
@@ -522,7 +533,7 @@ def get_all_source_types(db: DatabaseConnection) -> List[str]:
         cursor.execute(query)
         results = cursor.fetchall()
         return [row['sourceType'] for row in results]
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al obtener tipos de fuentes: {e}")
         return []
     finally:
@@ -557,13 +568,13 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         # Determinar si aplicar filtro de categorías
         category_filter = ""
         if exclude_categories:
-            placeholders = ', '.join(['%s'] * len(exclude_categories))
+            placeholders = ', '.join(['?'] * len(exclude_categories))
             category_filter = f" AND sourceCategory NOT IN ({placeholders})"
 
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
         if limit:
             query = f"""
@@ -571,9 +582,9 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s{short_filter}{category_filter}{date_filter}
+            WHERE sourceType = ?{short_filter}{category_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
-            LIMIT %s OFFSET %s
+            LIMIT ? OFFSET ?
             """
             params = [source_type]
             if exclude_categories:
@@ -586,7 +597,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s{short_filter}{category_filter}{date_filter}
+            WHERE sourceType = ?{short_filter}{category_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
             """
             params = [source_type]
@@ -596,7 +607,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
 
         results = cursor.fetchall()
         return results
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al obtener feeds de tipo {source_type}: {e}")
         return []
     finally:
@@ -630,20 +641,20 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
         category_filter = ""
         params = [source_type]
         if exclude_categories:
-            placeholders = ', '.join(['%s'] * len(exclude_categories))
+            placeholders = ', '.join(['?'] * len(exclude_categories))
             category_filter = f" AND sourceCategory NOT IN ({placeholders})"
             params.extend(exclude_categories)
 
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
-        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s{short_filter}{category_filter}{date_filter}"
+        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = ?{short_filter}{category_filter}{date_filter}"
         cursor.execute(query, tuple(params))
         result = cursor.fetchone()
         return result['count'] if result else 0
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al contar feeds de tipo {source_type}: {e}")
         return 0
     finally:
@@ -668,7 +679,7 @@ def get_categories_by_source_type(db: DatabaseConnection, source_type: str) -> L
         query = """
         SELECT DISTINCT sourceCategory
         FROM feeds
-        WHERE sourceType = %s
+        WHERE sourceType = ?
         AND sourceCategory IS NOT NULL
         AND sourceCategory != ''
         ORDER BY sourceCategory
@@ -676,7 +687,7 @@ def get_categories_by_source_type(db: DatabaseConnection, source_type: str) -> L
         cursor.execute(query, (source_type,))
         results = cursor.fetchall()
         return [row['sourceCategory'] for row in results]
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al obtener categorías de tipo {source_type}: {e}")
         return []
     finally:
@@ -711,7 +722,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
         if limit:
             query = f"""
@@ -719,9 +730,9 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s AND sourceCategory = %s{short_filter}{date_filter}
+            WHERE sourceType = ? AND sourceCategory = ?{short_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
-            LIMIT %s OFFSET %s
+            LIMIT ? OFFSET ?
             """
             cursor.execute(query, (source_type, category, limit, offset))
         else:
@@ -730,14 +741,14 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
                    content, image, isShortVideo, created_at
             FROM feeds
-            WHERE sourceType = %s AND sourceCategory = %s{short_filter}{date_filter}
+            WHERE sourceType = ? AND sourceCategory = ?{short_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
             """
             cursor.execute(query, (source_type, category))
 
         results = cursor.fetchall()
         return results
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al obtener feeds de tipo {source_type} y categoría {category}: {e}")
         return []
     finally:
@@ -770,13 +781,13 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
-        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = %s AND sourceCategory = %s{short_filter}{date_filter}"
+        query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = ? AND sourceCategory = ?{short_filter}{date_filter}"
         cursor.execute(query, (source_type, category))
         result = cursor.fetchone()
         return result['count'] if result else 0
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al contar feeds de tipo {source_type} y categoría {category}: {e}")
         return 0
     finally:
@@ -799,11 +810,11 @@ def update_feed_image(db: DatabaseConnection, feed_id: str, image_url: str) -> b
         return False
 
     try:
-        query = "UPDATE feeds SET image = %s WHERE id = %s"
+        query = "UPDATE feeds SET image = ? WHERE id = ?"
         cursor.execute(query, (image_url, feed_id))
         db.commit()
         return True
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al actualizar imagen del feed {feed_id}: {e}")
         db.rollback()
         return False
@@ -829,13 +840,13 @@ def get_short_videos_count(db: DatabaseConnection, months_back: Optional[int] = 
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
         query = f"SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1{date_filter}"
         cursor.execute(query)
         result = cursor.fetchone()
         return result['count'] if result else 0
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al contar videos cortos: {e}")
         return 0
     finally:
@@ -862,7 +873,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0,
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND pubDate_parsed >= DATE_SUB(NOW(), INTERVAL {months_back} MONTH)"
+            date_filter = f" AND pubDate_parsed >= datetime('now', '-{months_back} months')"
 
         if limit:
             query = f"""
@@ -872,7 +883,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0,
             FROM feeds
             WHERE isShortVideo = 1{date_filter}
             ORDER BY pubDate_parsed DESC
-            LIMIT %s OFFSET %s
+            LIMIT ? OFFSET ?
             """
             cursor.execute(query, (limit, offset))
         else:
@@ -888,7 +899,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0,
 
         results = cursor.fetchall()
         return results
-    except Error as e:
+    except sqlite3.Error as e:
         log(f"❌ Error al obtener videos cortos: {e}")
         return []
     finally:

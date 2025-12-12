@@ -27,10 +27,7 @@ show_menu() {
     echo -e "  ${GREEN}2)${NC} 🔄 Recolectar feeds (forzar descarga del día)"
     echo -e "  ${GREEN}3)${NC} 🖼️  Post-procesar imágenes (todas las categorías notice)"
     echo -e "  ${GREEN}4)${NC} 🖼️  Post-procesar imágenes (personalizado)"
-    echo -e "  ${GREEN}5)${NC} 🔄 Regenerar todos los assets JSON desde BD"
-    echo -e "  ${GREEN}6)${NC} 🗄️  Iniciar solo MySQL"
-    echo -e "  ${GREEN}7)${NC} 🛑 Detener MySQL"
-    echo -e "  ${GREEN}8)${NC} 📊 Ver logs de MySQL"
+    echo -e "  ${GREEN}5)${NC} 🔄 Regenerar todos los assets JSON desde BD SQLite"
     echo -e "  ${GREEN}0)${NC} ❌ Salir"
     echo ""
 }
@@ -106,29 +103,7 @@ check_env() {
     fi
 }
 
-# Iniciar MySQL
-start_mysql() {
-    echo -e "${GREEN}🐳 Iniciando MySQL...${NC}"
-    docker compose -f docker/docker-compose.yml up -d mysql
-    echo -e "${GREEN}⏳ Esperando a que MySQL esté listo...${NC}"
-    sleep 10
-    echo -e "${GREEN}✅ MySQL iniciado${NC}"
-}
-
-# Detener MySQL
-stop_mysql() {
-    echo -e "${YELLOW}🛑 Deteniendo MySQL...${NC}"
-    docker compose -f docker/docker-compose.yml down
-    echo -e "${GREEN}✅ MySQL detenido${NC}"
-}
-
-# Ver logs de MySQL
-show_mysql_logs() {
-    echo -e "${GREEN}📊 Mostrando logs de MySQL (Ctrl+C para salir)...${NC}"
-    docker compose -f docker/docker-compose.yml logs -f mysql
-}
-
-# Iniciar RSSHub
+# Iniciar RSSHub (solo si es necesario)
 start_rsshub() {
     echo -e "${GREEN}🐳 Iniciando RSSHub...${NC}"
     docker compose -f docker/docker-compose.yml up -d rsshub
@@ -142,8 +117,8 @@ run_feeds() {
     local force_arg="$1"
 
     check_env
-    start_mysql
-    start_rsshub
+    # Solo necesitamos RSSHub, SQLite no requiere Docker
+    #start_rsshub
 
     echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
     docker compose -f docker/docker-compose.yml build feed_collector
@@ -156,6 +131,7 @@ run_feeds() {
 
     echo -e "${GREEN}✅ Proceso completado. Los feeds están en ./feeds_data${NC}"
     echo -e "${GREEN}📋 Metadata generado en ./assets/metadata.json${NC}"
+    echo -e "${CYAN}💾 Base de datos SQLite: ./data/feeds.db${NC}"
 }
 
 # Post-procesar imágenes
@@ -166,12 +142,6 @@ postprocess_images() {
     local limit="$4"
 
     check_env
-
-    # Verificar si MySQL está corriendo
-    if ! docker ps | grep -q feeds_mysql; then
-        echo -e "${YELLOW}⚠️  MySQL no está corriendo. Iniciándolo...${NC}"
-        start_mysql
-    fi
 
     echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
     docker compose -f docker/docker-compose.yml build feed_collector
@@ -218,24 +188,19 @@ custom_postprocess_menu() {
     fi
 }
 
-# Regenerar todos los assets JSON desde la BD
+# Regenerar todos los assets JSON desde la BD SQLite
 regenerate_assets() {
     check_env
-
-    # Verificar si MySQL está corriendo
-    if ! docker ps | grep -q feeds_mysql; then
-        echo -e "${YELLOW}⚠️  MySQL no está corriendo. Iniciándolo...${NC}"
-        start_mysql
-    fi
 
     echo -e "${GREEN}📦 Construyendo imagen del feed collector...${NC}"
     docker compose -f docker/docker-compose.yml build feed_collector
 
-    echo -e "${GREEN}🔄 Regenerando todos los assets JSON desde la base de datos...${NC}\n"
+    echo -e "${GREEN}🔄 Regenerando todos los assets JSON desde SQLite...${NC}\n"
 
     docker compose -f docker/docker-compose.yml run --rm feed_collector python src/regenerate_assets.py
 
     echo -e "${GREEN}✅ Regeneración completada${NC}"
+    echo -e "${CYAN}💾 Base de datos SQLite: ./data/feeds.db${NC}"
 }
 
 # Loop principal
@@ -287,17 +252,8 @@ main() {
                 custom_postprocess_menu
                 ;;
             5)
-                echo -e "${CYAN}🔄 Regenerando assets JSON desde BD...${NC}\n"
+                echo -e "${CYAN}🔄 Regenerando assets JSON desde SQLite...${NC}\n"
                 regenerate_assets
-                ;;
-            6)
-                start_mysql
-                ;;
-            7)
-                stop_mysql
-                ;;
-            8)
-                show_mysql_logs
                 ;;
             0)
                 echo -e "${CYAN}👋 ¡Hasta luego!${NC}"
