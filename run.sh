@@ -10,6 +10,8 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 CYAN='\033[0;36m'
 NC='\033[0m' # Sin color
+GIT_AUTO_PUSH="${GIT_AUTO_PUSH:-true}"
+GIT_COMMIT_MESSAGE="${GIT_COMMIT_MESSAGE:-update feeds}"
 
 # Banner
 print_banner() {
@@ -25,9 +27,10 @@ show_menu() {
     echo -e "${BLUE}Selecciona una opción:${NC}\n"
     echo -e "  ${GREEN}1)${NC} 📥 Recolectar feeds (normal)"
     echo -e "  ${GREEN}2)${NC} 🔄 Recolectar feeds (forzar descarga del día)"
-    echo -e "  ${GREEN}3)${NC} 🖼️  Post-procesar imágenes (todas las categorías notice)"
-    echo -e "  ${GREEN}4)${NC} 🖼️  Post-procesar imágenes (personalizado)"
-    echo -e "  ${GREEN}5)${NC} 🔄 Regenerar todos los assets JSON desde BD SQLite"
+    echo -e "  ${GREEN}3)${NC} 🔄 Publicacion automatica de feeds del día"
+    echo -e "  ${GREEN}4)${NC} 🖼️ Post-procesar imágenes (todas las categorías notice)"
+    echo -e "  ${GREEN}5)${NC} 🖼️ Post-procesar imágenes (personalizado)"
+    echo -e "  ${GREEN}6)${NC} 🔄 Regenerar todos los assets JSON desde BD SQLite"
     echo -e "  ${GREEN}0)${NC} ❌ Salir"
     echo ""
 }
@@ -116,6 +119,10 @@ start_rsshub() {
 run_feeds() {
     local force_arg="$1"
 
+    # Para que el proceso no sea pausado por la macbook
+    caffeinate -s -i $$ & 
+    CAFFEINATE_PID=$!
+
     check_env
     # Solo necesitamos RSSHub, SQLite no requiere Docker
     #start_rsshub
@@ -132,6 +139,8 @@ run_feeds() {
     echo -e "${GREEN}✅ Proceso completado. Los feeds están en ./feeds_data${NC}"
     echo -e "${GREEN}📋 Metadata generado en ./assets/metadata.json${NC}"
     echo -e "${CYAN}💾 Base de datos SQLite: ./data/feeds.db${NC}"
+
+    kill $CAFFEINATE_PID
 }
 
 # Post-procesar imágenes
@@ -203,6 +212,75 @@ regenerate_assets() {
     echo -e "${CYAN}💾 Base de datos SQLite: ./data/feeds.db${NC}"
 }
 
+is_git_repo() {
+    git rev-parse --is-inside-work-tree > /dev/null 2>&1
+}
+
+has_changes() {
+    git diff --quiet assets/ 2>/dev/null
+    if [ $? -eq 1 ]; then
+        return 0  # Hay cambios
+    else
+        return 1  # No hay cambios
+    fi
+}
+
+auto_feeds() {
+    echo -e "${YELLOW} Ejecutando proceso automatico de publicacion de feeds"
+    run_feeds "--force"
+
+    # Verificar si hay cambios en Git
+    if ! is_git_repo; then
+        echo -e "${RED}❌ No estamos en un repositorio Git"
+        exit 1
+    fi
+
+    echo -e "${YELLOW} Verificando cambios en Git..."
+
+    if has_changes; then
+        echo -e "Se detectaron cambios en assets/"
+        echo -e "${YELLOW} Añadiendo archivos al stage..."
+        git add assets/
+
+        if [ $? -ne 0 ]; then
+            echo -e "${RED}❌ Error al hacer git add"
+            exit 1
+        fi
+
+        echo -e "${GREEN}✅ Archivos añadidos al stage"
+        echo -e "${YELLOW} Creando commit..."
+
+        local commit_message="$GIT_COMMIT_MESSAGE - $(date +'%Y-%m-%d %H:%M:%S')"
+        git commit -m "$commit_message"
+
+        if [ $? -ne 0 ]; then
+            echo -e "${RED}❌ Error al crear commit"
+            exit 1
+        fi
+
+        echo -e "${GREEN}✅ Commit creado: $commit_message"
+
+        # Paso 8: Git push (si está habilitado)
+        if [ "$GIT_AUTO_PUSH" = "true" ]; then
+            echo -e "${YELLOW} Haciendo push a GitHub..."
+            git push origin main
+
+            if [ $? -ne 0 ]; then
+                echo -e "${RED}❌ Error al hacer push a GitHub"
+                exit 1
+            fi
+
+            echo -e "${GREEN}✅ Push completado exitosamente"
+            echo -e "${GREEN}✅ Netlify desplegará automáticamente los cambios"
+        else
+            echo -e "${GREEN}✅ Push automático deshabilitado (GIT_AUTO_PUSH=false)"
+            echo -e "${GREEN}✅ Ejecuta 'git push' manualmente para publicar los cambios"
+        fi
+    else
+        echo -e "${GREEN}✅ No se detectaron cambios en assets/ - No hay nada que commitear"
+    fi
+}
+
 # Loop principal
 main() {
 
@@ -239,7 +317,7 @@ main() {
                 ;;
             3)
                 echo -e "${YELLOW}🔄 Publicacion automatica de feeds del día...${NC}\n"
-                run_feeds "--force"
+                auto_feeds
                 ;;
             4)
                 echo -e "${GREEN}🖼️  Post-procesando todas las categorías notice...${NC}\n"
