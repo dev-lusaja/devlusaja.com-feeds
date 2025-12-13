@@ -210,15 +210,8 @@ main() {
 
     if ! check_docker; then
         echo -e "${RED}✗ Docker no está corriendo${NC}"
-        echo -e "${YELLOW}¿Deseas iniciar Docker? (s/n)${NC}"
-        read -r response
-        if [[ "$response" =~ ^[Ss]$ ]]; then
-            if ! start_docker; then
-                echo -e "${RED}No se pudo iniciar Docker. Saliendo...${NC}"
-                exit 1
-            fi
-        else
-            echo -e "${RED}Docker es necesario para continuar. Saliendo...${NC}"
+        if ! start_docker; then
+            echo -e "${RED}No se pudo iniciar Docker. Saliendo...${NC}"
             exit 1
         fi
     else
@@ -245,13 +238,17 @@ main() {
                 run_feeds "--force"
                 ;;
             3)
+                echo -e "${YELLOW}🔄 Publicacion automatica de feeds del día...${NC}\n"
+                run_feeds "--force"
+                ;;
+            4)
                 echo -e "${GREEN}🖼️  Post-procesando todas las categorías notice...${NC}\n"
                 postprocess_images "notice" "" "true" ""
                 ;;
-            4)
+            5)
                 custom_postprocess_menu
                 ;;
-            5)
+            6)
                 echo -e "${CYAN}🔄 Regenerando assets JSON desde SQLite...${NC}\n"
                 regenerate_assets
                 ;;
