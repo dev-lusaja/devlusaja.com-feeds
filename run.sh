@@ -22,6 +22,42 @@ print_banner() {
     echo -e "${NC}"
 }
 
+# Descargar BD desde Drive
+download_db() {
+    echo -e "${YELLOW}⬇️ Descargando feeds.db desde Google Drive...${NC}"
+    if rclone copy gdrive:feeds_backup/feeds.db ./data/; then
+        echo -e "${GREEN}✅ Base de datos descargada y actualizada localmente.${NC}"
+    else
+        echo -e "${RED}❌ Error al descargar. Verifica tu configuración de rclone.${NC}"
+    fi
+}
+
+# Subir BD a Drive
+upload_db() {
+    echo -e "${YELLOW}⬆️ Subiendo feeds.db a Google Drive...${NC}"
+    if rclone copy ./data/feeds.db gdrive:feeds_backup/; then
+        echo -e "${GREEN}✅ Base de datos subida correctamente a Drive.${NC}"
+    else
+        echo -e "${RED}❌ Error al subir. Verifica tu configuración de rclone.${NC}"
+    fi
+}
+
+# Menú de Sincronización
+sync_menu() {
+    echo -e "${BLUE}Sincronización con Google Drive:${NC}\n"
+    echo -e "  ${GREEN}1)${NC} ⬇️ Descargar BD (Drive -> Local)"
+    echo -e "  ${GREEN}2)${NC} ⬆️ Subir BD (Local -> Drive)"
+    echo -e "  ${GREEN}0)${NC} 🔙 Volver"
+    echo ""
+    read -p "Opción: " sync_opt
+    case $sync_opt in
+        1) download_db ;;
+        2) upload_db ;;
+        0) return ;;
+        *) echo -e "${RED}Opción inválida${NC}" ;;
+    esac
+}
+
 # Mostrar menú
 show_menu() {
     echo -e "${BLUE}Selecciona una opción:${NC}\n"
@@ -31,6 +67,7 @@ show_menu() {
     echo -e "  ${GREEN}4)${NC} 🖼️ Post-procesar imágenes (todas las categorías notice)"
     echo -e "  ${GREEN}5)${NC} 🖼️ Post-procesar imágenes (personalizado)"
     echo -e "  ${GREEN}6)${NC} 🔄 Regenerar todos los assets JSON desde BD SQLite"
+    echo -e "  ${GREEN}7)${NC} ☁️ Sincronizar BD con Google Drive"
     echo -e "  ${GREEN}0)${NC} ❌ Salir"
     echo ""
 }
@@ -340,6 +377,9 @@ main() {
             6)
                 echo -e "${CYAN}🔄 Regenerando assets JSON desde SQLite...${NC}\n"
                 regenerate_assets
+                ;;
+            7)
+                sync_menu
                 ;;
             0)
                 echo -e "${CYAN}👋 ¡Hasta luego!${NC}"
