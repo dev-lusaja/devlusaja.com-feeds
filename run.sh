@@ -280,6 +280,20 @@ auto_feeds() {
 
 # Loop principal
 main() {
+    # Si se pasa el argumento --auto, ejecutar modo automático
+    if [ "$1" == "--auto" ]; then
+        echo -e "${YELLOW}🤖 Modo automático iniciado...${NC}"
+        
+        # En CI/CD (GitHub Actions), Docker ya suele estar listo.
+        # Intentamos check_docker, si falla intentamos iniciarlo, pero no es bloqueante si ya estamos en un entorno con Docker.
+        if ! check_docker; then
+            echo -e "${YELLOW}Docker no detectado, intentando iniciar...${NC}"
+            start_docker
+        fi
+
+        auto_feeds
+        exit $?
+    fi
 
     echo -e "${YELLOW}Verificando Docker...${NC}"
 
@@ -341,5 +355,5 @@ main() {
     done
 }
 
-# Ejecutar menú principal
-main
+# Ejecutar menú principal pasando argumentos
+main "$@"
