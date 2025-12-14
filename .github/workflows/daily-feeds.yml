@@ -1,0 +1,52 @@
+name: Daily Feeds Update
+
+on:
+  schedule:
+    # Ejecutar a las 8:00, 14:00 y 20:00 UTC
+    - cron: '0 8,14,20 * * *'
+  workflow_dispatch: # Permite ejecución manual
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permiso necesario para hacer push
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Git User
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+
+    - name: Setup Rclone
+      uses: animated-digital/action-rclone@v1
+      with:
+        rclone_config: ${{ secrets.RCLONE_CONFIG }}
+
+    - name: Create Data Directory
+      run: mkdir -p data
+
+    - name: Restore feeds.db from Drive
+      run: |
+        # Intenta descargar la base de datos. Si no existe (primera vez), no falla.
+        # Asume que el remote en rclone se llama 'gdrive' y la carpeta 'feeds_backup'
+        rclone copy gdrive:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
+
+    - name: Check DB
+      run: ls -l data/
+
+    - name: Run Feed Collector
+      env:
+        GIT_AUTO_PUSH: "true"
+        GIT_COMMIT_MESSAGE: "chore: auto update feeds [skip ci]"
+      run: |
+        chmod +x run.sh
+        ./run.sh --auto
+
+    - name: Backup feeds.db to Drive
+      if: always() # Ejecutar incluso si el script falla, para guardar progreso parcial si lo hubo
+      run: |
+        rclone copy ./data/feeds.db gdrive:feeds_backup/
