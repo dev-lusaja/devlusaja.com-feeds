@@ -119,10 +119,6 @@ start_rsshub() {
 run_feeds() {
     local force_arg="$1"
 
-    # Para que el proceso no sea pausado por la macbook
-    caffeinate -s -i $$ & 
-    CAFFEINATE_PID=$!
-
     check_env
     # Solo necesitamos RSSHub, SQLite no requiere Docker
     #start_rsshub
@@ -131,7 +127,10 @@ run_feeds() {
     docker compose -f docker/docker-compose.yml build feed_collector
 
     echo -e "${GREEN}🚀 Ejecutando el recolector de feeds...${NC}"
-    FORCE_ARG="$force_arg" docker compose -f docker/docker-compose.yml up feed_collector
+    
+    FORCE_ARG="$force_arg" \
+    caffeinate -s -i -d -t 2100 \
+    docker compose -f docker/docker-compose.yml up --abort-on-container-exit --remove-orphans feed_collector
 
     echo -e "${GREEN}🧹 Limpiando contenedor del feed collector...${NC}"
     docker compose -f docker/docker-compose.yml rm -f feed_collector
@@ -139,8 +138,6 @@ run_feeds() {
     echo -e "${GREEN}✅ Proceso completado. Los feeds están en ./feeds_data${NC}"
     echo -e "${GREEN}📋 Metadata generado en ./assets/metadata.json${NC}"
     echo -e "${CYAN}💾 Base de datos SQLite: ./data/feeds.db${NC}"
-
-    kill $CAFFEINATE_PID
 }
 
 # Post-procesar imágenes
