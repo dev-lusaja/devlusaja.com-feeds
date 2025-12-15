@@ -1,6 +1,6 @@
 {
-  "totalItems": 24880,
-  "generatedAt": "2025-12-15T18:19:30.340883Z",
+  "totalItems": 24908,
+  "generatedAt": "2025-12-15T18:45:42.370298Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -180,7 +180,7 @@
   ],
   "byType": {
     "educational": {
-      "totalItems": 51,
+      "totalItems": 49,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "educational-all"
@@ -204,7 +204,7 @@
       "chunkPrefix": "pappers-all"
     },
     "tiktok": {
-      "totalItems": 47,
+      "totalItems": 41,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "tiktok-all"
@@ -221,7 +221,7 @@
       {
         "category": "MachineLearningMastery",
         "title": "Machine Learning Mastery",
-        "count": 47,
+        "count": 45,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "educational-MachineLearningMastery"
@@ -265,7 +265,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 3749,
+        "count": 3780,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -329,7 +329,7 @@
       {
         "category": "Nvidia",
         "title": "Nvidia",
-        "count": 125,
+        "count": 130,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-Nvidia"
@@ -411,7 +411,7 @@
       {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 8417,
+        "count": 8370,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_LG"
@@ -419,7 +419,7 @@
       {
         "category": "arXiv_AI",
         "title": "arXiv cs.AI",
-        "count": 6849,
+        "count": 6896,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_AI"
@@ -461,8 +461,8 @@
     ]
   },
   "shorts": {
-    "totalItems": 186,
-    "totalChunks": 7,
+    "totalItems": 180,
+    "totalChunks": 6,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
   }
