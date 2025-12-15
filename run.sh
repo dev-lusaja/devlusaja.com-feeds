@@ -25,7 +25,7 @@ print_banner() {
 # Descargar BD desde Drive
 download_db() {
     echo -e "${YELLOW}⬇️ Descargando feeds.db desde Google Drive...${NC}"
-    if rclone copy gdrive:feeds_ia/feeds.db ./data/; then
+    if rclone copy feeds_ia:feeds_ia/feeds.db ./data/; then
         echo -e "${GREEN}✅ Base de datos descargada y actualizada localmente.${NC}"
     else
         echo -e "${RED}❌ Error al descargar. Verifica tu configuración de rclone.${NC}"
@@ -35,7 +35,7 @@ download_db() {
 # Subir BD a Drive
 upload_db() {
     echo -e "${YELLOW}⬆️ Subiendo feeds.db a Google Drive...${NC}"
-    if rclone copy ./data/feeds.db gdrive:feeds_ia/; then
+    if rclone copy ./data/feeds.db feeds_ia:feeds_ia/; then
         echo -e "${GREEN}✅ Base de datos subida correctamente a Drive.${NC}"
     else
         echo -e "${RED}❌ Error al subir. Verifica tu configuración de rclone.${NC}"
@@ -165,8 +165,6 @@ run_feeds() {
 
     echo -e "${GREEN}🚀 Ejecutando el recolector de feeds...${NC}"
     
-    FORCE_ARG="$force_arg" \
-    caffeinate -s -i -d -t 2100 \
     docker compose -f docker/docker-compose.yml up --abort-on-container-exit --remove-orphans feed_collector
 
     echo -e "${GREEN}🧹 Limpiando contenedor del feed collector...${NC}"
