@@ -21,18 +21,21 @@ jobs:
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
 
-    - name: Setup Rclone
-      uses: rclone/rclone-action@v1
-      with:
-        rclone_config: ${{ secrets.RCLONE_CONFIG }}
+    - name: Install rclone
+      run: |
+        curl https://rclone.org/install.sh | sudo bash
+
+    - name: Configure rclone
+      run: |
+        mkdir -p ~/.config/rclone
+        echo "${{ secrets.RCLONE_CONFIG }}" > ~/.config/rclone/rclone.conf
+        chmod 600 ~/.config/rclone/rclone.conf
 
     - name: Create Data Directory
       run: mkdir -p data
 
     - name: Restore feeds.db from Drive
       run: |
-        # Intenta descargar la base de datos. Si no existe (primera vez), no falla.
-        # Asume que el remote en rclone se llama 'gdrive' y la carpeta 'feeds_backup'
         rclone copy gdrive:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
 
     - name: Check DB
