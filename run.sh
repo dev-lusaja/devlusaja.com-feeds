@@ -165,6 +165,7 @@ run_feeds() {
 
     echo -e "${GREEN}🚀 Ejecutando el recolector de feeds...${NC}"
     
+    FORCE_ARG="$force_arg" \
     docker compose -f docker/docker-compose.yml up --abort-on-container-exit --remove-orphans feed_collector
 
     echo -e "${GREEN}🧹 Limpiando contenedor del feed collector...${NC}"
