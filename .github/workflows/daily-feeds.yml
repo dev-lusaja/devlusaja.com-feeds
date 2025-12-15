@@ -36,7 +36,7 @@ jobs:
 
     - name: Restore feeds.db from Drive
       run: |
-        rclone copy gdrive:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
+        rclone copy gdrive:feeds_ia/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
 
     - name: Check DB
       run: ls -l data/
@@ -52,4 +52,4 @@ jobs:
     - name: Backup feeds.db to Drive
       if: always() # Ejecutar incluso si el script falla, para guardar progreso parcial si lo hubo
       run: |
-        rclone copy ./data/feeds.db gdrive:feeds_backup/
+        rclone copy ./data/feeds.db gdrive:feeds_ia/
