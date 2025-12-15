@@ -25,7 +25,7 @@ print_banner() {
 # Descargar BD desde Drive
 download_db() {
     echo -e "${YELLOW}⬇️ Descargando feeds.db desde Google Drive...${NC}"
-    if rclone copy feeds_ia:feeds_ia/feeds.db ./data/; then
+    if rclone copy feeds_ia:feeds_backup/feeds.db ./data/; then
         echo -e "${GREEN}✅ Base de datos descargada y actualizada localmente.${NC}"
     else
         echo -e "${RED}❌ Error al descargar. Verifica tu configuración de rclone.${NC}"
@@ -35,7 +35,7 @@ download_db() {
 # Subir BD a Drive
 upload_db() {
     echo -e "${YELLOW}⬆️ Subiendo feeds.db a Google Drive...${NC}"
-    if rclone copy ./data/feeds.db feeds_ia:feeds_ia/; then
+    if rclone copy ./data/feeds.db feeds_ia:feeds_backup/; then
         echo -e "${GREEN}✅ Base de datos subida correctamente a Drive.${NC}"
     else
         echo -e "${RED}❌ Error al subir. Verifica tu configuración de rclone.${NC}"
