@@ -22,7 +22,7 @@ jobs:
         git config --global user.email "action@github.com"
 
     - name: Setup Rclone
-      uses: animated-digital/action-rclone@v1
+      uses: rclone/rclone-action@v1
       with:
         rclone_config: ${{ secrets.RCLONE_CONFIG }}
 
