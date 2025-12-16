@@ -38,13 +38,17 @@ jobs:
       run: |
         rclone copy feeds_ia:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
 
+    - name: Verify Docker Compose
+      run: |
+        docker compose version
+
     - name: Check DB
       run: ls -l data/
 
     - name: Run Feed Collector
       env:
         GIT_AUTO_PUSH: "true"
-        GIT_COMMIT_MESSAGE: "chore: auto update feeds [skip ci]"
+        GIT_COMMIT_MESSAGE: "chore: auto update feeds"
       run: |
         chmod +x run.sh
         ./run.sh --auto
