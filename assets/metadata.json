@@ -1,6 +1,6 @@
 {
-  "totalItems": 25486,
-  "generatedAt": "2025-12-17T09:26:19.225366Z",
+  "totalItems": 25435,
+  "generatedAt": "2025-12-17T15:28:13.034183Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -180,19 +180,19 @@
   ],
   "byType": {
     "educational": {
-      "totalItems": 50,
+      "totalItems": 48,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 3037,
+      "totalItems": 3019,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 2183,
+      "totalItems": 2179,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -210,7 +210,7 @@
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 205,
+      "totalItems": 206,
       "totalChunks": 7,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -221,7 +221,7 @@
       {
         "category": "MachineLearningMastery",
         "title": "Machine Learning Mastery",
-        "count": 47,
+        "count": 45,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "educational-MachineLearningMastery"
@@ -239,7 +239,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 1346,
+        "count": 1337,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -247,7 +247,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 1264,
+        "count": 1256,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -255,7 +255,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 427,
+        "count": 426,
         "isPriority": true,
         "totalChunks": 15,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -265,7 +265,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 3832,
+        "count": 3798,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -273,7 +273,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 404,
+        "count": 400,
         "isPriority": true,
         "totalChunks": 14,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -289,7 +289,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 293,
+        "count": 291,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-El_Pais"
@@ -313,7 +313,7 @@
       {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 154,
+        "count": 155,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-Euronews"
@@ -321,15 +321,15 @@
       {
         "category": "ElComercio_PE",
         "title": "El Comercio",
-        "count": 149,
+        "count": 151,
         "isPriority": true,
-        "totalChunks": 5,
+        "totalChunks": 6,
         "chunkPrefix": "notice-ElComercio_PE"
       },
       {
         "category": "Nvidia",
         "title": "Nvidia",
-        "count": 134,
+        "count": 139,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-Nvidia"
@@ -337,9 +337,9 @@
       {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 119,
+        "count": 122,
         "isPriority": true,
-        "totalChunks": 4,
+        "totalChunks": 5,
         "chunkPrefix": "notice-Wired_ES"
       },
       {
@@ -361,10 +361,18 @@
       {
         "category": "AWS",
         "title": "AWS",
-        "count": 72,
+        "count": 68,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-AWS"
+      },
+      {
+        "category": "DeepMind",
+        "title": "DeepMind",
+        "count": 48,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "notice-DeepMind"
       },
       {
         "category": "HuggingFace",
@@ -373,14 +381,6 @@
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-HuggingFace"
-      },
-      {
-        "category": "DeepMind",
-        "title": "DeepMind",
-        "count": 47,
-        "isPriority": true,
-        "totalChunks": 2,
-        "chunkPrefix": "notice-DeepMind"
       },
       {
         "category": "MIT_AI",
@@ -461,7 +461,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 276,
+    "totalItems": 277,
     "totalChunks": 10,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
