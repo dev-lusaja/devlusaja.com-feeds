@@ -110,37 +110,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all</p> <p>I have a dilemma I really need help with. My old macbook pro died and I need a new one ASAP, but could probably hold off for a few weeks/months for the macbook pro 5 pro/max. I reserved the Nvidia DGX months ago, and I have the opportunity to buy it, but the last date I can buy it is tomorrow. I can also buy GCP credits.</p> <p>Next year my research projects will mainly be inference of open source and closed source LLMs, with a few projects where I develop some multimodal models (likely small language models, unsure of how many parameters).</p> <p>What do you think would be best for my goals?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pretend_Voice_3140\"> /u/Pretend_Voice_3140 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o96m84/d_gcp_credits_vs_mac_book_pro_5_vs_nvidia_dgx/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o96m84/d_gcp_credits_vs_mac_book_pro_5_vs_nvidia_dgx/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "1686b1bd-bbfd-513c-8ee1-dd201ca0c62d",
-    "title": "[D] Review 0 paper in ICLR 2026?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1o9207g/d_review_0_paper_in_iclr_2026/",
-    "pubDate": "2025-10-17T13:56:15+00:00",
-    "description": "I haven't received any review assignments for ICLR yet, is that normal? I'm concerned that my paper might be desk rejected due to some kind of error. submitted by /u/No_Round8810 [link] [comments]",
-    "author": "/u/No_Round8810",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I haven't received any review assignments for ICLR yet, is that normal? I'm concerned that my paper might be desk rejected due to some kind of error.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Round8810\"> /u/No_Round8810 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o9207g/d_review_0_paper_in_iclr_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o9207g/d_review_0_paper_in_iclr_2026/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f36130df-5976-577a-a6a3-7fed9128d969",
-    "title": "[P] Control your house heating system with RL",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/",
-    "pubDate": "2025-10-17T11:58:13+00:00",
-    "description": "Hi guys, I just released the source code of my most recent project: a DQN network controlling the radiator power of a house to maintain a perfect temperature when occupants are home while saving energy. I created a custom gymnasium environment for this project that relies on thermal transfer equation, so that it recreates exactly the behavior of a real house. The action space is discrete number between 0 and max_power. The state space given is : - Temperature in the inside, - Temperature of the outside, - Radiator state, - Occupant presence, - Time of day. I am really open to suggestion and feedback, don't hesitate to contribute to this project ! https://github.com/mp-mech-ai/radiator-rl EDIT: I am aware that for this linear behavior a statistical model would be sufficient, however I see this project as a template for more general physical behavior that could include high non-linearity or randomness. submitted by /u/poppyshit [link] [comments]",
-    "author": "/u/poppyshit",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys,</p> <p>I just released the source code of my most recent project: a DQN network controlling the radiator power of a house to maintain a perfect temperature when occupants are home while saving energy.</p> <p>I created a custom gymnasium environment for this project that relies on thermal transfer equation, so that it recreates exactly the behavior of a real house.</p> <p>The action space is discrete number between 0 and max_power.</p> <p>The state space given is :</p> <p>- Temperature in the inside,</p> <p>- Temperature of the outside,</p> <p>- Radiator state,</p> <p>- Occupant presence,</p> <p>- Time of day.</p> <p>I am really open to suggestion and feedback, don't hesitate to contribute to this project !</p> <p><a href=\"https://github.com/mp-mech-ai/radiator-rl\">https://github.com/mp-mech-ai/radiator-rl</a></p> <p>EDIT: I am aware that for this linear behavior a statistical model would be sufficient, however I see this project as a template for more general physical behavior that could include high non-linearity or randomness.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/poppyshit\"> /u/poppyshit </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
