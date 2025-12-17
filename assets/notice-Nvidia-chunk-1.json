@@ -1,5 +1,37 @@
 [
   {
+    "id": "36d0c7d2-1c5f-5d2b-90cb-01d71a817c8f",
+    "title": "Optimizing Inference for Long Context and Large Batch Sizes with NVFP4 KV Cache",
+    "link": "https://developer.nvidia.com/blog/optimizing-inference-for-long-context-and-large-batch-sizes-with-nvfp4-kv-cache/",
+    "pubDate": "2025-12-08T17:00:00+00:00",
+    "description": "Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory...",
+    "author": "Eduardo Alvarez",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory footprint and compute cost—directly improving throughput, latency, and achievable context length. This blog introduces NVFP4 KV cache quantization, a new KV format that enables significant performance gains on NVIDIA Blackwell GPUs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimizing-inference-for-long-context-and-large-batch-sizes-with-nvfp4-kv-cache/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "fdcb40d6-adc7-5177-bdb5-8cf442effc6a",
+    "title": "NVIDIA Kaggle Grandmasters Win Artificial General Intelligence Competition",
+    "link": "https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/",
+    "pubDate": "2025-12-05T18:00:00+00:00",
+    "description": "NVIDIA researchers on Friday won a key Kaggle competition many in the field treat as a real-time pulse check on humanity’s progress toward artificial general...",
+    "author": "Moon Chung",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Untitled-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Untitled\" width=\"768\" />NVIDIA researchers on Friday won a key Kaggle competition many in the field treat as a real-time pulse check on humanity’s progress toward artificial general...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Untitled-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Untitled\" width=\"768\" /><p>NVIDIA researchers on Friday won a key Kaggle competition many in the field treat as a real-time pulse check on humanity’s progress toward artificial general intelligence (AGI). Ivan Sorokin and Jean-Francois Puget, two members of the Kaggle Grandmasters of NVIDIA (KGMoN), came in first on the Kaggle ARC Prize 2025 public leaderboard with a 27.64% score by building a solution evaluated on…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Untitled.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "8200fd50-0a5c-5ffc-a3ee-df77929c26b0",
     "title": "NVIDIA Grace CPU Delivers High Bandwidth and Efficiency for Modern Data Centers",
     "link": "https://developer.nvidia.com/blog/nvidia-grace-cpu-delivers-high-bandwidth-and-efficiency-for-modern-data-centers/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<div id=\"bsf_rt_marker\"></div>",
     "image": "https://blogs.nvidia.com/wp-content/uploads/2025/11/gordon-bell-featured-1280x680-1.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "459b013e-26a1-556b-967f-313550e38111",
-    "title": "Breaking Through Reinforcement Learning Training Limits with Scaling Rollouts in BroRL",
-    "link": "https://developer.nvidia.com/blog/breaking-through-rl-training-limits-with-scaling-rollouts-in-brorl/",
-    "pubDate": "2025-11-19T21:51:12+00:00",
-    "description": "When training large language models (LLMs) with reinforcement learning from verifiable rewards (RLVR), one of the most compelling questions is how to overcome...",
-    "author": "Jian Hu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/llm-training-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-training\" width=\"768\" />When training large language models (LLMs) with reinforcement learning from verifiable rewards (RLVR), one of the most compelling questions is how to overcome...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/llm-training-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-training\" width=\"768\" /><p>When training large language models (LLMs) with reinforcement learning from verifiable rewards (RLVR), one of the most compelling questions is how to overcome performance plateaus. The previous NVIDIA Research solution, Prolonged Reinforcement Learning (ProRL), showed that adding more reinforcement learning (RL) steps during prolonged training could expand the reasoning boundaries of LLMs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/breaking-through-rl-training-limits-with-scaling-rollouts-in-brorl/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/llm-training.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e995a14d-323e-5bc6-bcd8-595a7fc53c34",
-    "title": "Building Better Qubits with GPU-Accelerated Computing",
-    "link": "https://developer.nvidia.com/blog/building-better-qubits-with-gpu-accelerated-computing/",
-    "pubDate": "2025-11-19T17:00:00+00:00",
-    "description": "Quantum computing promises to revolutionize science and industry, from drug discovery to materials science. But building a useful, large-scale quantum computer...",
-    "author": "Zhi (Jackie) Yao",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image8-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image8\" width=\"768\" />Quantum computing promises to revolutionize science and industry, from drug discovery to materials science. But building a useful, large-scale quantum computer...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image8-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image8\" width=\"768\" /><p>Quantum computing promises to revolutionize science and industry, from drug discovery to materials science. But building a useful, large-scale quantum computer is a significant engineering challenge, particularly when it comes to designing qubits that are less susceptible to noise. In traditional chip design, the modern semiconductor industry relies on Electronic Design Automation (EDA)…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-better-qubits-with-gpu-accelerated-computing/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image8.jpg",
     "isShortVideo": 0
   }
 ]
