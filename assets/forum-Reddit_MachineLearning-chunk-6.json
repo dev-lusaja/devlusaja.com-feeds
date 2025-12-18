@@ -1,5 +1,21 @@
 [
   {
+    "id": "3d9b2b9a-166e-55c7-9514-1d8e4473c00a",
+    "title": "[D] Human Annotations Needed?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p1eqmn/d_human_annotations_needed/",
+    "pubDate": "2025-11-19T17:58:58+00:00",
+    "description": "Does anyone still really look towards third parties (human) to label their data, specifically low level tasks. Such as assigning a piece of text to a class, or tagging an image with a class, or simple binary annotation? Are these data problems still in need of vast amounts of training data or validation that, where humans are assigned to classify things? Or are only edge cases and complex 3D computer vision problems in need of humans? submitted by /u/Other-Cap-5383 [link] [comments]",
+    "author": "/u/Other-Cap-5383",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone still really look towards third parties (human) to label their data, specifically low level tasks. Such as assigning a piece of text to a class, or tagging an image with a class, or simple binary annotation?</p> <p>Are these data problems still in need of vast amounts of training data or validation that, where humans are assigned to classify things? Or are only edge cases and complex 3D computer vision problems in need of humans?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Other-Cap-5383\"> /u/Other-Cap-5383 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1eqmn/d_human_annotations_needed/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1eqmn/d_human_annotations_needed/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a3a0c203-d71b-5a11-a7d8-35591a2c7e47",
     "title": "[R] Segment Anything Model 3 (SAM 3) is released",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p1cfvx/r_segment_anything_model_3_sam_3_is_released/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>[D] I’ve been building a small tool for detecting drift in computer vision pipelines, and I’m trying to understand if this solves a real problem or if I’m just scratching my own itch.</p> <p>The idea is simple: extract embeddings from a reference dataset, save the stats, then compare new images against that distribution to get a drift score. Everything gets saved as artifacts (json, npz, plots, images). A tiny MLflow style UI lets you browse runs locally (free) or online (paid)</p> <p>Basically: embeddings &gt; drift score &gt; lightweight dashboard.</p> <p>So:</p> <p>Do teams actually want something this minimal? How are you monitoring drift in CV today? Is this the kind of tool that would be worth paying for, or only useful as opensource?</p> <p>I’m trying to gauge whether this has real demand before polishing it further. Any feedback is welcome</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ga_0512\"> /u/Ga_0512 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozneev/d_drift_detector_for_computer_vision_is_it_really/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozneev/d_drift_detector_for_computer_vision_is_it_really/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a979fc26-897d-5639-ba0f-bc769cf5d5d7",
-    "title": "[P] vespa llm product search",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozlkf9/p_vespa_llm_product_search/",
-    "pubDate": "2025-11-17T16:56:44+00:00",
-    "description": "Hi! I’m building my first Vespa app for ecommerce swedish language product search. I index title(product name) and other attributes with BM25 and add an embedding (of just product name and description) field using a local Alibaba-GTE-base ONNX model + tokenizer via hugging-face-embedder . At query time I do a nearestNeighbor(embedding, q) + userQuery(@q) and rank with a fusion profile using reciprocal_rank_fusion(closeness(embedding), bm25sum) . I do get relevant products (e.g. for “spetslinne” in swedish), but also many clearly irrelevant ones that have nothing in common like puzzles for underware search. Could someone help me understand what I might be doing wrong / missing in my schema, ANN settings, or ranking setup to make the results more precise? I am clueless at this point what I should do to improve my search relevance, here is my notebook https://github.com/maria-lagerholm/itcm_recommendation_engine/blob/main/notebooks/search_engine/hybrid_vespa_gte.ipynb submitted by /u/Apprehensive_View366 [link] [comments]",
-    "author": "/u/Apprehensive_View366",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! </p> <p>I’m building my first Vespa app for ecommerce swedish language product search. I index <code>title(product name)</code> and other attributes with BM25 and add an <code>embedding (of just product name and description)</code> field using a local <strong>Alibaba-GTE-base</strong> ONNX model + tokenizer via <code>hugging-face-embedder</code>.</p> <p>At query time I do a <code>nearestNeighbor(embedding, q)</code> + <code>userQuery(@q)</code> and rank with a <code>fusion</code> profile using <code>reciprocal_rank_fusion(closeness(embedding), bm25sum)</code>. I do get relevant products (e.g. for “spetslinne” in swedish), but also many clearly irrelevant ones that have nothing in common like puzzles for underware search.</p> <p>Could someone help me understand what I might be doing wrong / missing in my schema, ANN settings, or ranking setup to make the results more precise? I am clueless at this point what I should do to improve my search relevance, here is my notebook <a href=\"https://github.com/maria-lagerholm/itcm_recommendation_engine/blob/main/notebooks/search_engine/hybrid_vespa_gte.ipynb\">https://github.com/maria-lagerholm/itcm_recommendation_engine/blob/main/notebooks/search_engine/hybrid_vespa_gte.ipynb</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apprehensive_View366\"> /u/Apprehensive_View366 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozlkf9/p_vespa_llm_product_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozlkf9/p_vespa_llm_product_search/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

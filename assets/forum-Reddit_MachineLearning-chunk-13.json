@@ -1,5 +1,21 @@
 [
   {
+    "id": "22253782-f049-5203-ad75-e2f4a08f6cd1",
+    "title": "[D] Is anyone familiar with IEEE AAIML",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ogd1vh/d_is_anyone_familiar_with_ieee_aaiml/",
+    "pubDate": "2025-10-26T05:59:51+00:00",
+    "description": "Has anyone heard about this conference: https://www.aaiml.net ? I found it on IEEE, but I cannot find anything on this conference. Any information regarding this conference, e.g., ranking/level, acceptance rate, is appreciated, thank you! submitted by /u/mitchrob1234 [link] [comments]",
+    "author": "/u/mitchrob1234",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone heard about this conference: <a href=\"https://www.aaiml.net\">https://www.aaiml.net</a> ? I found it on IEEE, but I cannot find anything on this conference. Any information regarding this conference, e.g., ranking/level, acceptance rate, is appreciated, thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitchrob1234\"> /u/mitchrob1234 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogd1vh/d_is_anyone_familiar_with_ieee_aaiml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogd1vh/d_is_anyone_familiar_with_ieee_aaiml/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "385b3799-95e6-532c-8f2d-d23a1e07f11f",
     "title": "[D] Which packages for object detection research",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1og4s1d/d_which_packages_for_object_detection_research/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We present rBridge, a method that enables small proxy models (≤1B parameters) to effectively predict large-model reasoning performance, addressing the emergence problem in reasoning capabilities.</p> <p><strong>Paper:</strong> <a href=\"https://www.arxiv.org/abs/2509.21013\">https://www.arxiv.org/abs/2509.21013</a></p> <p><strong>Abstract/TL;DR:</strong> Given the prohibitive cost of pre-training large language models, leveraging smaller proxy models to optimize datasets before scaling up is essential. However, reasoning capabilities exhibit emergent behavior only at larger scales (typically &gt;7B parameters), making traditional proxy approaches ineffective. rBridge solves this by aligning evaluation with both (1) the pre-training objective and (2) the target task through weighted negative log-likelihood using frontier model reasoning traces.</p> <p><strong>Key Contributions:</strong></p> <ol> <li><strong>Theoretical insight:</strong> We identify that proxy evaluation schemes must align with both pre-training objectives and target tasks for effective reasoning prediction</li> <li><strong>Novel method:</strong> rBridge weights NLL by task-alignment using frontier model confidence scores, handling tokenizer mismatches at letter-level</li> <li><strong>Empirical validation:</strong> <ul> <li>100.2× compute reduction for dataset ranking (80.8% decision accuracy across 25 datasets)</li> <li>Strong proxy-target correlations: R² = 0.826-0.874 across 6 benchmarks (GSM8K, MATH500, ARC-C, MMLU Pro, CQA, HumanEval)</li> <li>Zero-shot transfer of fitted functions across pre-training datasets</li> </ul></li> </ol> <p><strong>Experimental Setup:</strong></p> <ul> <li>Proxy scales: 100M to 1B</li> <li>Target scales: 7B to 32B</li> <li>Training corpus: 250B to 3.75T tokens</li> <li>Evaluation: 5-fold cross-validation</li> </ul> <p><strong>Practical Impact:</strong> This enables compute-constrained researchers to explore pre-training design choices at dramatically reduced costs. A single 7B training run can exceed $50K; our method reduces exploration costs by 100×+ while maintaining predictive accuracy.</p> <p>Code will be released soon.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jshin49\"> /u/jshin49 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od0fw8/r_rbridge_predicting_llm_reasoning_performance/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od0fw8/r_rbridge_predicting_llm_reasoning_performance/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "124ed935-44cb-529f-a56a-300a3d3bb8b6",
-    "title": "[D] Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ocyruz/d_selfalignment_for_factuality_mitigating/",
-    "pubDate": "2025-10-22T04:29:03+00:00",
-    "description": "https://arxiv.org/abs/2402.09267 Very interesting paper I found about how to make LLMS keep themselves in check when it comes to factuality and how to mitigate and reduce hallucinations without the need of human intervention. I think this framework could contribute and give LLMs huge benefits, especially in fields where high factuality confidence and low (or ideally none) hallucinations are needed. Summary: In this work, we explore Self-Alignment for Factuality, where we leverage the self-evaluation capability of an LLM to provide training signals that steer the model towards factuality. submitted by /u/SmthngGreater [link] [comments]",
-    "author": "/u/SmthngGreater",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://arxiv.org/abs/2402.09267\">https://arxiv.org/abs/2402.09267</a></p> <p>Very interesting paper I found about how to make LLMS keep themselves in check when it comes to factuality and how to mitigate and reduce hallucinations without the need of human intervention.</p> <p>I think this framework could contribute and give LLMs huge benefits, especially in fields where high factuality confidence and low (or ideally none) hallucinations are needed.</p> <p>Summary: In this work, we explore Self-Alignment for Factuality, where we leverage the self-evaluation capability of an LLM to provide training signals that steer the model towards factuality. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SmthngGreater\"> /u/SmthngGreater </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ocyruz/d_selfalignment_for_factuality_mitigating/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ocyruz/d_selfalignment_for_factuality_mitigating/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
