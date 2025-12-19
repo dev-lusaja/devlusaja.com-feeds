@@ -1,5 +1,21 @@
 [
   {
+    "id": "ec4e7099-dedb-5e2e-b8c8-5c0669209a9e",
+    "title": "[D] Areas in current research which use Probabilistic Graphical Models",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pccp8k/d_areas_in_current_research_which_use/",
+    "pubDate": "2025-12-02T16:19:42+00:00",
+    "description": "I am in the midst of studying PGMs. The examples given in the course are illustrative and usually quite simple. But I am wondering what the connection is between PGMs and modern ML methods. submitted by /u/smexy32123 [link] [comments]",
+    "author": "/u/smexy32123",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am in the midst of studying PGMs. The examples given in the course are illustrative and usually quite simple. But I am wondering what the connection is between PGMs and modern ML methods.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/smexy32123\"> /u/smexy32123 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pccp8k/d_areas_in_current_research_which_use/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pccp8k/d_areas_in_current_research_which_use/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c9e339a4-862c-5c33-ac2a-8e7a45aeb0a3",
     "title": "[R] Repositories & datasets for finetuning small-scale LLMs (pre-trained on OpenWebText)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pcco1w/r_repositories_datasets_for_finetuning_smallscale/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I wanted to share a personal experience that might resonate with some of you.</p> <p>Before I studied formal image segmentation or object detection, I just tried thinking through neural networks on my own.</p> <p>I designed tiny networks for:</p> <p>Simple object classification</p> <p>Bounding box regression</p> <p>Segmentation</p> <p>I was asking myself: “If I wanted this to work, how would I structure it?”</p> <p>Doing this made me understand the “why” behind layers, pooling, softmax, and regression outputs. By the time I read the papers, everything clicked.</p> <p>It felt like learning a game by playing it on paper first, rather than reading the rulebook.</p> <p>Has anyone else tried designing networks before formally learning about the techniques. Did it help your intuition too?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huge-Leek844\"> /u/Huge-Leek844 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p99wbn/d_designing_neural_network_before_reading/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p99wbn/d_designing_neural_network_before_reading/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8aaa6100-5c55-5107-a966-ebc60174ef4c",
-    "title": "[D] Possible solutions after the ICLR 2026 identity-leak incident",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p95g7t/d_possible_solutions_after_the_iclr_2026/",
-    "pubDate": "2025-11-28T20:37:35+00:00",
-    "description": "The OpenReview identity leak has created a difficult situation not only for authors, but also for reviewers, and ACs. The rollback decision with freezing reviews to their pre-discussion state, preventing score updates, and reassigning new ACs seems to be disliked across the whole comminity. Many reviewers were planning to evaluate rebuttals toward the end of the discussion period, and many authors used the long rebuttal window to run new experiments and revise manuscripts. Those efforts will now have no effect on reviewer scores, even when the revisions fully address the reviewers’ original concerns. Across Twitter/X, many ACs have expressed concern that they cannot meaningfully evaluate hundreds of papers under these constraints. Some openly said they may have to rely on automated summaries or models rather than full manual reading. I don't agree with such a compromise therefore i would like to hear about possible solutions. The ones that resonated with me are the following: • Allow authors to withdraw their papers without the usual public disclosure of the submission. Since the review process has deviated substantially from the agreement authors accepted at submission time, withdrawal without public trace may be a fair option. Another idea (which I personally find reasonable but unlikely) is: • Temporarily enlist active authors to review one paper each (similar to AAAI’s second-phase reviewing). With thousands of authors, the load would be small per person. This could restore some form of updated evaluation that accounts for rebuttals and revised experiments, and would avoid leaving decisions solely to new ACs working under severe time pressure. I’d like to hear what others think. Which options do you see as realistic or fair in this situation? submitted by /u/Available_Net_6429 [link] [comments]",
-    "author": "/u/Available_Net_6429",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>The OpenReview identity leak has created a difficult situation not only for authors, but also for reviewers, and ACs. The rollback decision with freezing reviews to their pre-discussion state, preventing score updates, and reassigning new ACs seems to be disliked across the whole comminity. Many reviewers were planning to evaluate rebuttals toward the end of the discussion period, and many authors used the long rebuttal window to run new experiments and revise manuscripts. Those efforts will now have no effect on reviewer scores, even when the revisions fully address the reviewers’ original concerns.</p> <p>Across Twitter/X, many ACs have expressed concern that they cannot meaningfully evaluate hundreds of papers under these constraints. Some openly said they may have to rely on automated summaries or models rather than full manual reading.</p> <p>I don't agree with such a compromise therefore i would like to hear about possible solutions. </p> <p>The ones that resonated with me are the following:</p> <p><strong>• Allow authors to withdraw their papers without the usual public disclosure of the submission.</strong><br /> Since the review process has deviated substantially from the agreement authors accepted at submission time, withdrawal without public trace may be a fair option.</p> <p>Another idea (which I personally find reasonable but unlikely) is:</p> <p><strong>• Temporarily enlist active authors to review one paper each (similar to AAAI’s second-phase reviewing).</strong><br /> With thousands of authors, the load would be small per person. This could restore some form of updated evaluation that accounts for rebuttals and revised experiments, and would avoid leaving decisions solely to new ACs working under severe time pressure.</p> <p>I’d like to hear what others think. </p> <p>Which options do you see as realistic or fair in this situation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Available_Net_6429\"> /u/Available_Net_6429 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p95g7t/d_possible_solutions_after_the_iclr_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p95g7t/d_possible_solutions_after_the_iclr_2026/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

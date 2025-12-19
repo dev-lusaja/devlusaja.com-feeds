@@ -1,5 +1,21 @@
 [
   {
+    "id": "a68c06c9-3d33-584b-8a08-f9053efadb1f",
+    "title": "[P] Looking for Insight: How to Identify Clients With No Intention to Pay (Fraudulent Credit Behavior)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ow9qxj/p_looking_for_insight_how_to_identify_clients/",
+    "pubDate": "2025-11-13T19:02:03+00:00",
+    "description": "Hi everyone, I’m working on a problem involving fraudulent credit usage—specifically clients who take credit but never intend to pay. I want to create a model or analytical approach that helps detect these clients early based on historical behavior. Right now the dataset I have is separated into three buckets: 1. Fraudulent transactions for clients (confirmed fraud / bad debt) 2. Good transactions from fraudulent clients (they behaved normally at some point) 3. Good transactions from all other clients There are also two major categories of “bad” clients: • Unreceivables (clients who used credit but later refused or were unable to pay) • Fraud in origin (clients who never intended to pay from the start) I’m trying to figure out the best way to structure the data and features to predict “payment intention.” Some of the questions I’m unsure about: ● Should I be comparing a client’s good transactions vs fraudulent transactions to detect early warning patterns? ● How should I incorporate the “good transactions from all the clients” dataset? ● Are there specific behavioral features that typically reveal clients who take credit with no intention of paying? ● Should “unreceivables” and “fraud in origin” be modeled together or separately since their behaviors differ? Ultimately, I’m looking for guidance on: • What the ideal dataset should look like for this type of fraud / risk scoring • What types of features most help detect “intent not to pay” • Whether this is best treated as a classification problem, anomaly detection, or a hybrid approach • How to evaluate the model given the heavy class imbalance Any insight—whether conceptual, modeling strategies, or real-world experience—would be extremely helpful. Thanks! submitted by /u/xilerooo [link] [comments]",
+    "author": "/u/xilerooo",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I’m working on a problem involving fraudulent credit usage—specifically clients who take credit but never intend to pay. I want to create a model or analytical approach that helps detect these clients early based on historical behavior.</p> <p>Right now the dataset I have is separated into three buckets: 1. Fraudulent transactions for clients (confirmed fraud / bad debt) 2. Good transactions from fraudulent clients (they behaved normally at some point) 3. Good transactions from all other clients</p> <p>There are also two major categories of “bad” clients: • Unreceivables (clients who used credit but later refused or were unable to pay) • Fraud in origin (clients who never intended to pay from the start)</p> <p>I’m trying to figure out the best way to structure the data and features to predict “payment intention.” Some of the questions I’m unsure about:</p> <p>● Should I be comparing a client’s good transactions vs fraudulent transactions to detect early warning patterns?</p> <p>● How should I incorporate the “good transactions from all the clients” dataset?</p> <p>● Are there specific behavioral features that typically reveal clients who take credit with no intention of paying?</p> <p>● Should “unreceivables” and “fraud in origin” be modeled together or separately since their behaviors differ?</p> <p>Ultimately, I’m looking for guidance on: • What the ideal dataset should look like for this type of fraud / risk scoring • What types of features most help detect “intent not to pay” • Whether this is best treated as a classification problem, anomaly detection, or a hybrid approach • How to evaluate the model given the heavy class imbalance</p> <p>Any insight—whether conceptual, modeling strategies, or real-world experience—would be extremely helpful.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xilerooo\"> /u/xilerooo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ow9qxj/p_looking_for_insight_how_to_identify_clients/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ow9qxj/p_looking_for_insight_how_to_identify_clients/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c34ddd30-318c-52f9-928a-be3f6b1be6d6",
     "title": "[D] Question about self-referential novelty gating",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ow8587/d_question_about_selfreferential_novelty_gating/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>the most open release of a diffusion-based large language model to date —</p> <p>including pretraining, evaluation, inference, and checkpoints.</p> <p>code: <a href=\"https://github.com/pengzhangzhi/Open-dLLM\">https://github.com/pengzhangzhi/Open-dLLM</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pengzhangzhi\"> /u/pengzhangzhi </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otpj7v/r_opendllm_open_diffusion_large_language_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otpj7v/r_opendllm_open_diffusion_large_language_models/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "929623a2-c7d4-501c-a60f-39418235d6fc",
-    "title": "[D] ICLR 2026 Paper Reviews Discussion",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1otlqqv/d_iclr_2026_paper_reviews_discussion/",
-    "pubDate": "2025-11-10T18:30:19+00:00",
-    "description": "ICLR 2026 reviews go live on OpenReview tomorrow! Thought l'd open a thread for any feedback, issues, or celebrations around the reviews. Use this thread for feedback, issues, and wins. Review noise happens scores ≠ impact. Share your experience and let’s support each other. submitted by /u/Technical_Proof6082 [link] [comments]",
-    "author": "/u/Technical_Proof6082",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>ICLR 2026 reviews go live on OpenReview tomorrow! Thought l'd open a thread for any feedback, issues, or celebrations around the reviews.</p> <p>Use this thread for feedback, issues, and wins. Review noise happens scores ≠ impact. Share your experience and let’s support each other.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Technical_Proof6082\"> /u/Technical_Proof6082 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otlqqv/d_iclr_2026_paper_reviews_discussion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otlqqv/d_iclr_2026_paper_reviews_discussion/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

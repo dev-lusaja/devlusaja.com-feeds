@@ -1,5 +1,21 @@
 [
   {
+    "id": "f932d280-4913-5ff9-a115-1370a16c0097",
+    "title": "[P] Built a GPU time-sharing tool for research labs (feedback welcome)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/",
+    "pubDate": "2025-10-26T18:04:41+00:00",
+    "description": "Built a side project to solve GPU sharing conflicts in the lab: Chronos The problem : 1 GPU, 5 grad students, constant resource conflicts. The solution : Time-based partitioning with auto-expiration. from chronos import Partitioner with Partitioner().create(device=0, memory=0.5, duration=3600) as p: train_model() # Guaranteed 50% GPU for 1 hour, auto-cleanup - Works on any GPU (NVIDIA, AMD, Intel, Apple Silicon) - < 1% overhead - Cross-platform - Apache 2.0 licensed Performance: 3.2ms partition creation, stable in 24h stress tests. Built this weekends because existing solutions . Would love feedback if you try it! Install : pip install chronos-gpu Repo : github.com/oabraham1/chronos submitted by /u/not-your-typical-cs [link] [comments]",
+    "author": "/u/not-your-typical-cs",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Built a side project to solve GPU sharing conflicts in the lab: <strong>Chronos</strong></p> <p><strong>The problem</strong>: 1 GPU, 5 grad students, constant resource conflicts.</p> <p><strong>The solution</strong>: Time-based partitioning with auto-expiration.</p> <pre><code>from chronos import Partitioner with Partitioner().create(device=0, memory=0.5, duration=3600) as p: train_model() # Guaranteed 50% GPU for 1 hour, auto-cleanup </code></pre> <p>- Works on any GPU (NVIDIA, AMD, Intel, Apple Silicon)</p> <p>- &lt; 1% overhead</p> <p>- Cross-platform</p> <p>- Apache 2.0 licensed</p> <p><strong>Performance:</strong> 3.2ms partition creation, stable in 24h stress tests.</p> <p>Built this weekends because existing solutions . Would love feedback if you try it!</p> <p><strong>Install</strong>: pip install chronos-gpu</p> <p><strong>Repo</strong>: <a href=\"http://github.com/oabraham1/chronos\">github.com/oabraham1/chronos</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/not-your-typical-cs\"> /u/not-your-typical-cs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ebd49b4f-921d-5497-93f9-da110e3cd6bf",
     "title": "[P] SDLArch-RL is now compatible with libretro Software Render cores!!!",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ogr8h2/p_sdlarchrl_is_now_compatible_with_libretro/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The web wasn't built for AI agents. It was built for humans with eyes, mice, and 25 years of muscle memory navigating dropdown menus. </p> <p>Most AI companies are solving this with browser automation, playwright scripts, Selenium wrappers, headless Chrome instances that click, scroll, and scrape like a human would.</p> <p>It's a workaround and it's temporary.</p> <p>These systems are slow, fragile, and expensive. They burn compute mimicking human behavior that AI doesn't need. They break when websites update. They get blocked by bot detection. They're architectural debt pretending to be infrastructure etc.</p> <p>The real solution is to build web access designed for how AI actually works instead of teaching AI to use human interfaces. </p> <p>A few companies are taking this seriously. Exa or Linkup are rebuilding search from the ground up for semantic / vector-based retrieval Linkup provides structured, AI-native access to web data. Jina AI is building reader APIs for clean content extraction. Shopify in a way tried to address this by exposing its APIs for some partners (e.g., Perplexity)</p> <p>The web needs an API layer, not better puppeteering.</p> <p>As AI agents become the primary consumers of web content, infrastructure built on human-imitation patterns will collapse under its own complexity…</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Marionberry_5366\"> /u/No_Marionberry_5366 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "49b22f54-af45-58ba-841e-677f9e10d39b",
-    "title": "[R] How do AI / robotics teams source real-world driving or sensor data?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1od7rop/r_how_do_ai_robotics_teams_source_realworld/",
-    "pubDate": "2025-10-22T13:06:55+00:00",
-    "description": "I’m doing some research into how perception and robotics teams collect and use real-world driving or mobility data for training models. If you’ve worked with visual or sensor datasets, I’d love to learn: Where do you usually get your data? What kinds of data are hardest to find? Are there any legal or quality headaches you constantly run into? How much custom collection or cleaning do you end up doing yourselves? Not promoting anything — just trying to understand current gaps in this space. Appreciate any insights submitted by /u/Warm_Sail_7908 [link] [comments]",
-    "author": "/u/Warm_Sail_7908",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m doing some research into how perception and robotics teams collect and use real-world driving or mobility data for training models.</p> <p>If you’ve worked with visual or sensor datasets, I’d love to learn:</p> <ul> <li>Where do you usually get your data?</li> <li>What kinds of data are hardest to find?</li> <li>Are there any legal or quality headaches you constantly run into?</li> <li>How much custom collection or cleaning do you end up doing yourselves?</li> </ul> <p>Not promoting anything — just trying to understand current gaps in this space.<br /> Appreciate any insights </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Warm_Sail_7908\"> /u/Warm_Sail_7908 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od7rop/r_how_do_ai_robotics_teams_source_realworld/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1od7rop/r_how_do_ai_robotics_teams_source_realworld/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

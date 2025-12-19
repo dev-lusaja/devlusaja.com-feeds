@@ -1,5 +1,21 @@
 [
   {
+    "id": "bb0f06f8-4930-52b5-9add-30c7427367a8",
+    "title": "[R] Machine Learning Model Algorithm for Sign language",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pepjtf/r_machine_learning_model_algorithm_for_sign/",
+    "pubDate": "2025-12-05T08:08:23+00:00",
+    "description": "So i am thinking about a mobile app where users can signs in the camera and it will be translated to the corresponding word that they are currently signing. And i have tried to use Bi-LSTM model for this for an example model, and currently i have 150 words/class and there are a lot of words where the sign is confusing a word for another word. I am a new in machine learning and I would like to ask you guys what other algorithm of machine learning would be the best for this project. I have also trued using CNN-LSTM but i am having a hard time to make a model that works because its hard preprocessing a whole video of my datasets. Do you guys any have more ideas what algorithms i can use, currently in my model i am using bi-lstm with mediapipe pose + handlandmarks to try to recognize the signs but the problem is when i integrate this to a mobile app the landmarks of mediapipe are not reliable leading to inaccurate translation of signs so if you could also suggest some algorithm where there is a chance to not use landmarks since in integration to monile mediapipe landmarks is really not reliable to be dependent on for my model. Thanks so much and hoping for your kind insights submitted by /u/Commercial-Ad-5957 [link] [comments]",
+    "author": "/u/Commercial-Ad-5957",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>So i am thinking about a mobile app where users can signs in the camera and it will be translated to the corresponding word that they are currently signing. And i have tried to use Bi-LSTM model for this for an example model, and currently i have 150 words/class and there are a lot of words where the sign is confusing a word for another word. I am a new in machine learning and I would like to ask you guys what other algorithm of machine learning would be the best for this project. I have also trued using CNN-LSTM but i am having a hard time to make a model that works because its hard preprocessing a whole video of my datasets. Do you guys any have more ideas what algorithms i can use, currently in my model i am using bi-lstm with mediapipe pose + handlandmarks to try to recognize the signs but the problem is when i integrate this to a mobile app the landmarks of mediapipe are not reliable leading to inaccurate translation of signs so if you could also suggest some algorithm where there is a chance to not use landmarks since in integration to monile mediapipe landmarks is really not reliable to be dependent on for my model. Thanks so much and hoping for your kind insights</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Commercial-Ad-5957\"> /u/Commercial-Ad-5957 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pepjtf/r_machine_learning_model_algorithm_for_sign/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pepjtf/r_machine_learning_model_algorithm_for_sign/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ac1e4fd3-33a2-5903-90c0-c704e4070312",
     "title": "[D] Common reasons ACL submissions are rejected",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1peml7p/d_common_reasons_acl_submissions_are_rejected/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Infrastructure Feedback: Is 'Stateful' Agent Sandboxing a Must-Have or Nice-to-Have?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SchemeVivid4175\"> /u/SchemeVivid4175 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcdl9z/p_stateful_agents/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcdl9z/p_stateful_agents/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ec4e7099-dedb-5e2e-b8c8-5c0669209a9e",
-    "title": "[D] Areas in current research which use Probabilistic Graphical Models",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pccp8k/d_areas_in_current_research_which_use/",
-    "pubDate": "2025-12-02T16:19:42+00:00",
-    "description": "I am in the midst of studying PGMs. The examples given in the course are illustrative and usually quite simple. But I am wondering what the connection is between PGMs and modern ML methods. submitted by /u/smexy32123 [link] [comments]",
-    "author": "/u/smexy32123",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am in the midst of studying PGMs. The examples given in the course are illustrative and usually quite simple. But I am wondering what the connection is between PGMs and modern ML methods.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/smexy32123\"> /u/smexy32123 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pccp8k/d_areas_in_current_research_which_use/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pccp8k/d_areas_in_current_research_which_use/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
