@@ -1,5 +1,21 @@
 [
   {
+    "id": "583a35ae-bbe1-5e66-a31e-d352062ba2f4",
+    "title": "Enhancing Communication Observability of AI Workloads with NCCL Inspector",
+    "link": "https://developer.nvidia.com/blog/enhancing-communication-observability-of-ai-workloads-with-nccl-inspector/",
+    "pubDate": "2025-12-10T21:45:34+00:00",
+    "description": "When using the NVIDIA Collective Communication Library (NCCL) to run a deep learning training or inference workload that uses collective operations (such as...",
+    "author": "Sirshak Das",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/computing-performance-analysis-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"computing-performance-analysis\" width=\"768\" />When using the NVIDIA Collective Communication Library (NCCL) to run a deep learning training or inference workload that uses collective operations (such as...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/computing-performance-analysis-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"computing-performance-analysis\" width=\"768\" /><p>When using the NVIDIA Collective Communication Library (NCCL) to run a deep learning training or inference workload that uses collective operations (such as AllReduce, AllGather, and ReduceScatter), it can be challenging to determine how NCCL is performing during the actual workload run. This post introduces the NCCL Inspector Profiler Plugin, which addresses this problem. It offers a way for…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enhancing-communication-observability-of-ai-workloads-with-nccl-inspector/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/computing-performance-analysis.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "03d896ab-6618-58f0-81b7-5e3b8c5a8925",
     "title": "How NVIDIA H100 GPUs on CoreWeave’s AI Cloud Platform Delivered a Record-Breaking Graph500 Run",
     "link": "https://blogs.nvidia.com/blog/h100-coreweave-graph500/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<div id=\"bsf_rt_marker\"></div>",
     "image": "https://blogs.nvidia.com/wp-content/uploads/2025/11/ai-day-seoul-featured-1280x680-1.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1653f0c9-efe0-57cf-9c65-96b923f9999a",
-    "title": "Making GPU Clusters More Efficient with NVIDIA Data Center Monitoring Tools",
-    "link": "https://developer.nvidia.com/blog/making-gpu-clusters-more-efficient-with-nvidia-data-center-monitoring/",
-    "pubDate": "2025-11-25T21:00:00+00:00",
-    "description": "High-performance computing (HPC) customers continue to scale rapidly, with generative AI, large language models (LLMs), computer vision, and other uses leading...",
-    "author": "Sachin Lakharia",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image3-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" />High-performance computing (HPC) customers continue to scale rapidly, with generative AI, large language models (LLMs), computer vision, and other uses leading...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image3-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" /><p>High-performance computing (HPC) customers continue to scale rapidly, with generative AI, large language models (LLMs), computer vision, and other uses leading to tremendous growth in GPU resource needs. As a result, GPU efficiency is an ever-growing focus of infrastructure optimization. With enormous GPU fleet sizes, even small inefficiencies translate into significant cluster bottlenecks…</p>\n<p><a href=\"https://developer.nvidia.com/blog/making-gpu-clusters-more-efficient-with-nvidia-data-center-monitoring/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image3.jpg",
     "isShortVideo": 0
   }
 ]
