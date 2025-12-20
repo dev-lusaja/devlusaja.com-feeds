@@ -1,5 +1,21 @@
 [
   {
+    "id": "281c1c57-2b4d-5eb4-b7b5-fc38552d1610",
+    "title": "[P] DeepClause - A Neurosymbolic AI System",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p095xc/p_deepclause_a_neurosymbolic_ai_system/",
+    "pubDate": "2025-11-18T11:09:00+00:00",
+    "description": "Hi, finally decided to publish the project I’ve been working on for the past year or so. Sharing it here to collect comments and feedback, especially from those involved in research at the intersection of LLM, logic programming, neurosymbolic methods etc. This is my project: http://github.com/deepclause/deepclause-desktop DeepClause is a neurosymbolic AI system and Agent framework that attempts to bridge the gap between symbolic reasoning and neural language models. Unlike pure LLM-based agents that often struggle with complex logic, multi-step reasoning, and deterministic behavior, DeepClause uses DML (DeepClause Meta Language) - a Prolog-based DSL - to encode agent behaviors as executable logic programs. The goal of this project is to allow users to build \"accountable agents.\" These are systems that are not only contextually aware (LLMs) and goal-oriented (Agents), but also logically sound (Prolog), introspectively explainable, and operationally safe. Would love to hear some feedback and comments. The project, as well as the DML language and underlying interpreter are still in active development, so suggestions are very welcome. submitted by /u/anderl3k [link] [comments]",
+    "author": "/u/anderl3k",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, finally decided to publish the project I’ve been working on for the past year or so. Sharing it here to collect comments and feedback, especially from those involved in research at the intersection of LLM, logic programming, neurosymbolic methods etc.</p> <p>This is my project:</p> <p><a href=\"http://github.com/deepclause/deepclause-desktop\">http://github.com/deepclause/deepclause-desktop</a></p> <p>DeepClause is a neurosymbolic AI system and Agent framework that attempts to bridge the gap between symbolic reasoning and neural language models. Unlike pure LLM-based agents that often struggle with complex logic, multi-step reasoning, and deterministic behavior, DeepClause uses DML (DeepClause Meta Language) - a Prolog-based DSL - to encode agent behaviors as executable logic programs.</p> <p>The goal of this project is to allow users to build &quot;accountable agents.&quot; These are systems that are not only contextually aware (LLMs) and goal-oriented (Agents), but also logically sound (Prolog), introspectively explainable, and operationally safe.</p> <p>Would love to hear some feedback and comments. The project, as well as the DML language and underlying interpreter are still in active development, so suggestions are very welcome. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/anderl3k\"> /u/anderl3k </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p095xc/p_deepclause_a_neurosymbolic_ai_system/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p095xc/p_deepclause_a_neurosymbolic_ai_system/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "34714929-9f5c-5726-bdad-21a1783bd711",
     "title": "[P] How can your AI skills help solve one of the world’s biggest challenges — access to clean water?💧",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p07a42/p_how_can_your_ai_skills_help_solve_one_of_the/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Here is a list of ~1,100 NeurIPS 2025 accepted papers that have associated public code, data, or a demo link available. The links are directly extracted from their paper submissions. This is approximately 22% of the 5,000+ accepted papers.</p> <ul> <li>The List: <a href=\"https://www.paperdigest.org/2025/11/neurips-2025-papers-with-code-data/\">https://www.paperdigest.org/2025/11/neurips-2025-papers-with-code-data/</a></li> <li>The 'code' link in the last column takes you directly to the code base (GitHub, official site, etc.). Some code repositories may not be made fully public until the conference officially begins.</li> <li>Reminder: NeurIPS 2025 will be in San Diego, starting December 2nd 2025.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KindlyExplanation647\"> /u/KindlyExplanation647 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oxt01e/r_1100_neurips_2025_papers_with_public_code_or/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oxt01e/r_1100_neurips_2025_papers_with_public_code_or/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "95d076ce-a8da-5bcd-808a-f37160c33645",
-    "title": "[D] Linear Regression From Scratch: Derivation, Intuition, and Python Implementation",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oxqhrh/d_linear_regression_from_scratch_derivation/",
-    "pubDate": "2025-11-15T12:28:11+00:00",
-    "description": "I wrote a clear educational breakdown of Linear Regression starting from the basic idea, deriving the slope and intercept from the MSE loss function, and implementing the entire model from scratch in Python without using scikit-learn. Summary of what it covers: How MSE is formed from point-to-line errors Why partial derivatives are used to minimize the loss Derivation of: b=ỹ-mx m = E(x-X)(y-y) / E(x-x)² Full Python implementation using NumPy Visualization of the best-fit line Comparison with sklearn's LinearRegression Full article link: Linear Regression From Scratch: Derivation, Intuition, and Complete Python Implementation https://medium.com/@vk133162/linear-regression-from-scratch-derivation-intuition-and-complete-python-implementation-730569ccf003 submitted by /u/vicky_kr_ [link] [comments]",
-    "author": "/u/vicky_kr_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I wrote a clear educational breakdown of Linear Regression starting from the basic idea, deriving the slope and intercept from the MSE loss function, and implementing the entire model from scratch in Python without using scikit-learn.</p> <p>Summary of what it covers:</p> <p>How MSE is formed from point-to-line errors</p> <p>Why partial derivatives are used to minimize the loss</p> <p>Derivation of:</p> <p>b=ỹ-mx</p> <p>m = E(x-X)(y-y) / E(x-x)²</p> <p>Full Python implementation using NumPy</p> <p>Visualization of the best-fit line</p> <p>Comparison with sklearn's LinearRegression</p> <p>Full article link: Linear Regression From Scratch: Derivation, Intuition, and Complete Python Implementation <a href=\"https://medium.com/@vk133162/linear-regression-from-scratch-derivation-intuition-and-complete-python-implementation-730569ccf003\">https://medium.com/@vk133162/linear-regression-from-scratch-derivation-intuition-and-complete-python-implementation-730569ccf003</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vicky_kr_\"> /u/vicky_kr_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oxqhrh/d_linear_regression_from_scratch_derivation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oxqhrh/d_linear_regression_from_scratch_derivation/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

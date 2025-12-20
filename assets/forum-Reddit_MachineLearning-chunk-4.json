@@ -1,5 +1,21 @@
 [
   {
+    "id": "260dbdd2-9cbb-53de-970f-4ae9cc79ddc8",
+    "title": "[P] Open-Source NeurIPS 2025 Co-Pilot for Personalized Schedules and Paper Exploration",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pcvr47/p_opensource_neurips_2025_copilot_for/",
+    "pubDate": "2025-12-03T05:24:11+00:00",
+    "description": "Hi everyone! We found it quite tedious to find all relevant posters and build our own schedules for visiting ML conferences like NeurIPS. That’s why we have built AgenticNAV as a one-stop-shop that helps you create personalized schedules and explore papers in more detail. It’s an academic open-source initiative by researchers from the University of Exeter and the Technical University of Munich that we host on HuggingFace spaces: https://huggingface.co/spaces/CORE-AIx/AgenticNav Free to use for everyone. No login needed, no intent to commercialize, whatsoever. You can even configure it to work with your favorite LLM, inference provider, and customize the behavior to your needs. By default, it runs GPT-OSS 120B on Ollama Cloud. If you believe in sovereign AI and local deployments, the entire source code is available on GitHub: https://github.com/core-aix/agentic-nav . It’s ready to be deployed locally. This is a prototype. We appreciate all feedback, comments, and also tool/skill contributions via PRs as we plan to develop the tool further for future conferences! submitted by /u/Nervous_Sea7831 [link] [comments]",
+    "author": "/u/Nervous_Sea7831",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! </p> <p>We found it quite tedious to find all relevant posters and build our own schedules for visiting ML conferences like NeurIPS. That’s why we have built AgenticNAV as a one-stop-shop that helps you create personalized schedules and explore papers in more detail. </p> <p>It’s an academic open-source initiative by researchers from the University of Exeter and the Technical University of Munich that we host on HuggingFace spaces: <a href=\"https://huggingface.co/spaces/CORE-AIx/AgenticNav\">https://huggingface.co/spaces/CORE-AIx/AgenticNav</a></p> <p>Free to use for everyone. No login needed, no intent to commercialize, whatsoever. You can even configure it to work with your favorite LLM, inference provider, and customize the behavior to your needs. By default, it runs GPT-OSS 120B on Ollama Cloud. </p> <p>If you believe in sovereign AI and local deployments, the entire source code is available on GitHub: <a href=\"https://github.com/core-aix/agentic-nav\">https://github.com/core-aix/agentic-nav</a>. It’s ready to be deployed locally. </p> <p>This is a prototype. We appreciate all feedback, comments, and also tool/skill contributions via PRs as we plan to develop the tool further for future conferences! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nervous_Sea7831\"> /u/Nervous_Sea7831 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcvr47/p_opensource_neurips_2025_copilot_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcvr47/p_opensource_neurips_2025_copilot_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b571be61-8fc5-5669-a0f1-b740e4130bf1",
     "title": "[D] Curious how teams handle ingestion variability?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pcppxv/d_curious_how_teams_handle_ingestion_variability/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pai2r5/p_i_trained_an_ai_to_beat_donkey_kongs_most/\"> <img alt=\"[P] I Trained an AI to Beat Donkey Kong's Most IMPOSSIBLE Level (5000000+ At...\" src=\"https://external-preview.redd.it/kc4gSqFAgE2hvoKqFtTW53wZdP1UT-xEiEuZ_3ZqREY.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=f8ca7e03592fcec9b4a1e817931c1a68c905a9e5\" title=\"[P] I Trained an AI to Beat Donkey Kong's Most IMPOSSIBLE Level (5000000+ At...\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>The env: <a href=\"https://github.com/paulo101977/sdlarch-rl\">https://github.com/paulo101977/sdlarch-rl</a><br /> The trainning code: <a href=\"https://github.com/paulo101977/DonkeyKongCountry-Stable-and-Go-Station-Reinforcement-Learning\">https://github.com/paulo101977/DonkeyKongCountry-Stable-and-Go-Station-Reinforcement-Learning</a></p> <p>The Process:<br /> I had to manually break down the level into 4 save states (curriculum learning style) because throwing the AI into the full nightmare would've been like teaching someone to drive by starting with the Indy 500. Each section taught the AI crucial survival skills - from basic barrel mechanics to advanced enemy pattern recognition.<br /> With the new Donkey Kong Bananza bringing back all those nostalgic feels, I thought it was perfect timing to revisit this classic nightmare and see if modern AI could finally put this level in its place.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgeOfEmpires4AOE4\"> /u/AgeOfEmpires4AOE4 </a> <br /> <span><a href=\"https://youtube.com/watch?v=yyXiclTFBp8&amp;si=SFWEoEF2EgK7AL1m\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pai2r5/p_i_trained_an_ai_to_beat_donkey_kongs_most/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/kc4gSqFAgE2hvoKqFtTW53wZdP1UT-xEiEuZ_3ZqREY.jpeg?width=320&crop=smart&auto=webp&s=f8ca7e03592fcec9b4a1e817931c1a68c905a9e5",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5033085f-ee68-51af-9bac-b09190b22cfe",
-    "title": "[D] Neurips 2025 Ticket shows Early Career but I'm unable to see Mid/Late Career options?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1paedoy/d_neurips_2025_ticket_shows_early_career_but_im/",
-    "pubDate": "2025-11-30T09:41:26+00:00",
-    "description": "Neurips 2025 Ticket shows Early Career but I'm unable to see Mid/Late Career options? submitted by /u/Snoo71505 [link] [comments]",
-    "author": "/u/Snoo71505",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Neurips 2025 Ticket shows Early Career but I'm unable to see Mid/Late Career options?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Snoo71505\"> /u/Snoo71505 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1paedoy/d_neurips_2025_ticket_shows_early_career_but_im/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1paedoy/d_neurips_2025_ticket_shows_early_career_but_im/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

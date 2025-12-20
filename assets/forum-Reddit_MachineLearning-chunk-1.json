@@ -1,5 +1,21 @@
 [
   {
+    "id": "f3040949-f535-5648-87af-c91c023d84fc",
+    "title": "Denoising Language Models for Speech Recognition",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1po43p3/denoising_language_models_for_speech_recognition/",
+    "pubDate": "2025-12-16T15:00:54+00:00",
+    "description": "We studied denoising language models (error correction models) as an alternative to standard language models. Denoising LMs use an encoder-decoder architecture, and are trained to reconstruct the original text from a corrupted version of it. We test them for speech recognition, and specifically train them on errors made by a standard speech recognition system. We use the data-constrained setting where we have limited paired data (speech + transcript) and large amounts of unpaired text data. Paper: https://arxiv.org/abs/2512.13576 Clear improvements over a very competitive baseline with standard language models. State-of-the-art results on LibriSpeech under the data-constrained setting. Scaling laws: Similar behavior as for diffusion LMs : For data-constrained setting, the amount of compute matters: With less compute, standard LMs are better, but at some point, denoising LMs become better (see Figure 2). Decoding speed with denoising LM is faster than with standard LM. Very comprehensive study. Reproducing same findings on the Loquacious dataset . Public recipes. And much more in the paper. submitted by /u/albertzeyer [link] [comments]",
+    "author": "/u/albertzeyer",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We studied <em>denoising language models</em> (error correction models) as an alternative to standard language models.</p> <p>Denoising LMs use an encoder-decoder architecture, and are trained to reconstruct the original text from a corrupted version of it. We test them for speech recognition, and specifically train them on errors made by a standard speech recognition system. We use the <em>data-constrained setting</em> where we have limited paired data (speech + transcript) and large amounts of unpaired text data.</p> <p>Paper: <a href=\"https://arxiv.org/abs/2512.13576\">https://arxiv.org/abs/2512.13576</a></p> <ul> <li><p>Clear improvements over a very competitive baseline with standard language models.</p></li> <li><p>State-of-the-art results on LibriSpeech under the data-constrained setting.</p></li> <li><p>Scaling laws: Similar behavior as for <em>diffusion LMs</em>: For data-constrained setting, the amount of compute matters: With less compute, standard LMs are better, but at some point, denoising LMs become better (see Figure 2).</p></li> <li><p>Decoding speed with denoising LM is faster than with standard LM.</p></li> <li><p>Very comprehensive study.</p></li> <li><p>Reproducing same findings on the <a href=\"https://huggingface.co/datasets/speechbrain/LoquaciousSet\">Loquacious dataset</a>.</p></li> <li><p>Public recipes.</p></li> </ul> <p>And much more in the paper.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/albertzeyer\"> /u/albertzeyer </a> <br /> <span><a href=\"https://arxiv.org/abs/2512.13576\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1po43p3/denoising_language_models_for_speech_recognition/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e173870f-a37a-57e6-9945-008758b55ff3",
     "title": "[P] Cyreal - Yet Another Jax Dataloader",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1po2yut/p_cyreal_yet_another_jax_dataloader/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>i stumbled on a paper about a model called chronos-1 that’s trained purely on debugging workflows ... no autocomplete, no codegen, just stack traces, logs, test failures, and bug patches. they claim 80.33% on SWE-bench Lite. (for reference: gpt-4 gets 13.8%, claude 14.2%). it also does graph-guided repo traversal, uses persistent memory of prior bugs, and runs an internal fix → test → refine loop. they're calling it the first LLM made only for debugging. not public yet, but the paper is out: <a href=\"https://arxiv.org/abs/2507.12482\">https://arxiv.org/abs/2507.12482</a> they’re pushing the idea that debugging is a different task from generation ... more causal, historical, iterative. curious: has anyone here looked into it deeper? what’s your take on AGR + persistent memory as the core innovation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DingoOk9171\"> /u/DingoOk9171 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjxs4c/r_debuggingonly_llm_chronos1_paper_claims_45x/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjxs4c/r_debuggingonly_llm_chronos1_paper_claims_45x/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "54408dab-c7d0-5f01-8a66-3a2bd1cadafa",
-    "title": "[D] A simple metrics map for evaluating outputs, do you have more recommendations",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pjewi4/d_a_simple_metrics_map_for_evaluating_outputs_do/",
-    "pubDate": "2025-12-10T21:19:37+00:00",
-    "description": "I have been experimenting with ways to structure evaluation for both RAG and multi step agent workflows. A simple observation is that most failure modes fall into three measurable categories. Groundedness: Checks whether the answer stays within the retrieved or provided context Structure: Checks whether the output follows the expected format and schema Correctness: Checks whether the predicted answer aligns with the expected output These three metrics are independent but together they capture a wide range of errors. They make evaluation more interpretable because each error category reflects a specific type of failure. In particular, structure often fails more frequently than correctness and can distort evaluation if not handled separately. I am interested in what the research community here considers the most informative metrics. Do you track groundedness explicitly? Do you separate structure from correctness? Are there metrics you found to be unhelpful in practice? submitted by /u/coolandy00 [link] [comments]",
-    "author": "/u/coolandy00",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been experimenting with ways to structure evaluation for both RAG and multi step agent workflows.<br /> A simple observation is that most failure modes fall into three measurable categories.</p> <ul> <li>Groundedness: Checks whether the answer stays within the retrieved or provided context</li> <li>Structure: Checks whether the output follows the expected format and schema</li> <li>Correctness: Checks whether the predicted answer aligns with the expected output</li> </ul> <p>These three metrics are independent but together they capture a wide range of errors.<br /> They make evaluation more interpretable because each error category reflects a specific type of failure.<br /> In particular, structure often fails more frequently than correctness and can distort evaluation if not handled separately.</p> <p>I am interested in what the research community here considers the most informative metrics.<br /> Do you track groundedness explicitly?<br /> Do you separate structure from correctness?<br /> Are there metrics you found to be unhelpful in practice?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjewi4/d_a_simple_metrics_map_for_evaluating_outputs_do/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjewi4/d_a_simple_metrics_map_for_evaluating_outputs_do/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

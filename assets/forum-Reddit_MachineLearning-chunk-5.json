@@ -1,5 +1,21 @@
 [
   {
+    "id": "5033085f-ee68-51af-9bac-b09190b22cfe",
+    "title": "[D] Neurips 2025 Ticket shows Early Career but I'm unable to see Mid/Late Career options?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1paedoy/d_neurips_2025_ticket_shows_early_career_but_im/",
+    "pubDate": "2025-11-30T09:41:26+00:00",
+    "description": "Neurips 2025 Ticket shows Early Career but I'm unable to see Mid/Late Career options? submitted by /u/Snoo71505 [link] [comments]",
+    "author": "/u/Snoo71505",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Neurips 2025 Ticket shows Early Career but I'm unable to see Mid/Late Career options?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Snoo71505\"> /u/Snoo71505 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1paedoy/d_neurips_2025_ticket_shows_early_career_but_im/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1paedoy/d_neurips_2025_ticket_shows_early_career_but_im/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "165d6126-391c-527d-bd68-9c648e7e6868",
     "title": "[P][Help] How do I turn my news articles into “chains” and decide where a new article should go? (ML guidance needed!)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1padvha/phelp_how_do_i_turn_my_news_articles_into_chains/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, I want to use datalab-to/Chandra through vLLM just to process documents internally at my company. We’re not offering any external product. Our revenue is over $2M so the OpenRAIL-M license might consider this commercial use. I don’t need the $5,000 commercial license, just internal inference. Has anyone done something similar? Is this generally allowed or would it be a license violation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bakaino_gai\"> /u/bakaino_gai </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p7usvd/d_openrailm_license_for_chandra_ocr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p7usvd/d_openrailm_license_for_chandra_ocr/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c884800c-b219-508c-86eb-ee2a67af9588",
-    "title": "[D] Inverse hyperbolic sine as an activation function and its anti-derivative as a loss function",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p7pmq8/d_inverse_hyperbolic_sine_as_an_activation/",
-    "pubDate": "2025-11-27T01:35:57+00:00",
-    "description": "ln(x + sqrt(x2 +1)) strikes me as a pretty good non-linearity activation. Unbounded, odd-function, logarithmic growth in output, gradients look like sigmoid/tanh gradients but larger with slower decay. At least good for continuous numerical target regression problems with z score scaled data that is. Like wise its anti-derivative (x*asinh -sqrt(x2 +1) +c) with a well chosen c = 1 looks like is has good potential as a loss function. It sort of looks like a logarithmic scale larger penalty for larger error (rather than quadratic penalty in MSE or constant in MAE), with gradients that seems good for all the same reasons asinh looks like a good activation. It reminds me of log-cosh but with asinh gradients rather than tanh. On a very specific regression style project I’ve been working on using asinh activation beat relu-celu-sigmoid-tanh activations under completely same conditions in cross validation by the WMAPE (w=ytrue) metric. No changes in loss (MSE) or any optimizer/architecture tuning. It was the lowest score I had seen so far. Further, I then wrote up the antiderivative c=1 as loss and got a lower WMAPE as well (better than all activations mentioned under MSE-MAE-logcosh). After more tuning its gotten the best metric score in cross validation so far (~20ish % reduction in metric compared to others). Does anyone have experience with or know of any research on this topic? It’s incredibly interesting (to me at least) but I’ve found very few papers that mention it as an activation and no mention of its integral as a loss. Finally if you want to tune the non-linearity, you can take asinh to be a special case of ln(ax+asqrt(x2 + 1/a2) with asinh being a=1 and tune using any a>0. Don’t think this works as well in the loss because the true antiderivative here pivots the loss curve very weirdly for various a values. But maybe could be neat to (carefully) manually overwrite the gradient values of the loss to dampen/enlarge. submitted by /u/SuperNotice3939 [link] [comments]",
-    "author": "/u/SuperNotice3939",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>ln(x + sqrt(x2 +1)) strikes me as a pretty good non-linearity activation. Unbounded, odd-function, logarithmic growth in output, gradients look like sigmoid/tanh gradients but larger with slower decay. At least good for continuous numerical target regression problems with z score scaled data that is.</p> <p>Like wise its anti-derivative (x*asinh -sqrt(x2 +1) +c) with a well chosen c = 1 looks like is has good potential as a loss function. It sort of looks like a logarithmic scale larger penalty for larger error (rather than quadratic penalty in MSE or constant in MAE), with gradients that seems good for all the same reasons asinh looks like a good activation. It reminds me of log-cosh but with asinh gradients rather than tanh.</p> <p>On a very specific regression style project I’ve been working on using asinh activation beat relu-celu-sigmoid-tanh activations under completely same conditions in cross validation by the WMAPE (w=ytrue) metric. No changes in loss (MSE) or any optimizer/architecture tuning. It was the lowest score I had seen so far. Further, I then wrote up the antiderivative c=1 as loss and got a lower WMAPE as well (better than all activations mentioned under MSE-MAE-logcosh). After more tuning its gotten the best metric score in cross validation so far (~20ish % reduction in metric compared to others).</p> <p>Does anyone have experience with or know of any research on this topic? It’s incredibly interesting (to me at least) but I’ve found very few papers that mention it as an activation and no mention of its integral as a loss.</p> <p>Finally if you want to tune the non-linearity, you can take asinh to be a special case of ln(ax+asqrt(x2 + 1/a2) with asinh being a=1 and tune using any a&gt;0. Don’t think this works as well in the loss because the true antiderivative here pivots the loss curve very weirdly for various a values. But maybe could be neat to (carefully) manually overwrite the gradient values of the loss to dampen/enlarge.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SuperNotice3939\"> /u/SuperNotice3939 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p7pmq8/d_inverse_hyperbolic_sine_as_an_activation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p7pmq8/d_inverse_hyperbolic_sine_as_an_activation/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

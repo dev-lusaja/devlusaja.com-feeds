@@ -1,5 +1,21 @@
 [
   {
+    "id": "a960220e-15a2-59f4-b23f-a9be850e3ee7",
+    "title": "[D] Do people who excel in Machine Learning usually come from a Software Engineering background?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ohdpnf/d_do_people_who_excel_in_machine_learning_usually/",
+    "pubDate": "2025-10-27T12:58:37+00:00",
+    "description": "I'd love to hear opinions from professionals submitted by /u/onseo11 [link] [comments]",
+    "author": "/u/onseo11",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'd love to hear opinions from professionals </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/onseo11\"> /u/onseo11 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohdpnf/d_do_people_who_excel_in_machine_learning_usually/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohdpnf/d_do_people_who_excel_in_machine_learning_usually/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6963a908-eec4-582f-814e-53664963f404",
     "title": "[D] Most people don’t get stuck in ML because of math; it’s mindset.",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ohc53y/d_most_people_dont_get_stuck_in_ml_because_of/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>The paper highlights</strong> its &quot;Contexts Optical Compression&quot; module, which compresses visual tokens between the vision encoder and the MoE language decoder. They show impressive results, like 97% OCR precision even with &lt;10x compression (original vision tokens vs. compressed ones) and ~60% at 20x. </p> <p><strong>My take [D]:</strong> The compression of visual tokens in the latent space is not a new thing it is was done in the VLMs previously. I guess back than the compression was not the main focus, in this paper the focus was on 10x compression. And this gave the AI community idea to compress the input context of LLMs by representing it in image and compressing the image in latent space which could be much more dense as compared to text where the structure is constraint by tokens as the lowest compressed form.</p> <p>But can't we just compress the text tokens by training an autoencoder and using the encoder to generate the latent space lower dimensional embeddings.</p> <p><strong>Would love to hear what others think</strong></p> <p><strong>Paper link:</strong> <a href=\"https://www.arxiv.org/pdf/2510.18234\"><strong>https://www.arxiv.org/pdf/2510.18234</strong></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Toppnotche\"> /u/Toppnotche </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oedumd/deepseek_ocr_high_compression_focus_but_is_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oedumd/deepseek_ocr_high_compression_focus_but_is_the/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d4c1a525-9506-5006-82b7-9ed906716051",
-    "title": "[R] Continuous latent interpolation breaks geometric constraints in 3D generation",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oe6ywk/r_continuous_latent_interpolation_breaks/",
-    "pubDate": "2025-10-23T15:52:55+00:00",
-    "description": "Working with text-to-3D models and hitting a fundamental issue that's confusing me. Interpolating between different objects in latent space produces geometrically impossible results. Take \"wooden chair\" to \"metal beam\". The interpolated mesh has vertices that simultaneously satisfy chair curvature constraints and beam linearity constraints. Mathematically the topology is sound but physically it's nonsense. This suggests something wrong with how these models represent 3D space. We're applying continuous diffusion processes designed for pixel grids to discrete geometric structures with hard constraints. Is this because 3D training data lacks intermediate geometric forms? Or is forcing geometric objects through continuous latent mappings fundamentally flawed? The chair-to-beam path should arguably have zero probability mass in real space. Testing with batch generations of 50+ models consistently reproduces this. Same interpolation paths yield same impossible geometry patterns. This feels like the 3D equivalent of the \"half-dog half-cat\" problem in normalizing flows but I can't find papers addressing it directly. submitted by /u/Jealous-Leek-5428 [link] [comments]",
-    "author": "/u/Jealous-Leek-5428",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Working with text-to-3D models and hitting a fundamental issue that's confusing me. Interpolating between different objects in latent space produces geometrically impossible results.</p> <p>Take &quot;wooden chair&quot; to &quot;metal beam&quot;. The interpolated mesh has vertices that simultaneously satisfy chair curvature constraints and beam linearity constraints. Mathematically the topology is sound but physically it's nonsense.</p> <p>This suggests something wrong with how these models represent 3D space. We're applying continuous diffusion processes designed for pixel grids to discrete geometric structures with hard constraints.</p> <p>Is this because 3D training data lacks intermediate geometric forms? Or is forcing geometric objects through continuous latent mappings fundamentally flawed? The chair-to-beam path should arguably have zero probability mass in real space.</p> <p>Testing with batch generations of 50+ models consistently reproduces this. Same interpolation paths yield same impossible geometry patterns.</p> <p>This feels like the 3D equivalent of the &quot;half-dog half-cat&quot; problem in normalizing flows but I can't find papers addressing it directly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jealous-Leek-5428\"> /u/Jealous-Leek-5428 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oe6ywk/r_continuous_latent_interpolation_breaks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oe6ywk/r_continuous_latent_interpolation_breaks/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
