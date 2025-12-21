@@ -1,5 +1,37 @@
 [
   {
+    "id": "cb77d2ce-716b-5f98-b1c0-c4828235215b",
+    "title": "[R] Confidential compute benchmark - TEE overhead for transformers consistently under 10%",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oizuch/r_confidential_compute_benchmark_tee_overhead_for/",
+    "pubDate": "2025-10-29T09:24:32+00:00",
+    "description": "Just published our benchmarking results comparing standard GPU inference vs TEE-secured inference for various transformer architectures. Key findings across 1000+ inference runs: BERT-base: 6.2% overhead GPT-2: 7.8% overhead T5-large: 9.1% overhead RoBERTa: 5.9% overhead Tested on both Intel TDX and AMD SEV. The performance gap is way smaller than I expected based on older SGX benchmarks from 2018-2020. Memory constraints are still the main limitation for very large models but for anything under 10B parameters it's totally viable for production use. Full paper will be on arXiv next week but wanted to share preliminary results with the community. Happy to answer questions about methodology or specific test cases. submitted by /u/Fluid-Living-9174 [link] [comments]",
+    "author": "/u/Fluid-Living-9174",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Just published our benchmarking results comparing standard GPU inference vs TEE-secured inference for various transformer architectures.</p> <p>Key findings across 1000+ inference runs:</p> <ul> <li>BERT-base: 6.2% overhead</li> <li>GPT-2: 7.8% overhead</li> <li>T5-large: 9.1% overhead</li> <li>RoBERTa: 5.9% overhead</li> </ul> <p>Tested on both Intel TDX and AMD SEV. The performance gap is way smaller than I expected based on older SGX benchmarks from 2018-2020.</p> <p>Memory constraints are still the main limitation for very large models but for anything under 10B parameters it's totally viable for production use.</p> <p>Full paper will be on arXiv next week but wanted to share preliminary results with the community. Happy to answer questions about methodology or specific test cases.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fluid-Living-9174\"> /u/Fluid-Living-9174 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oizuch/r_confidential_compute_benchmark_tee_overhead_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oizuch/r_confidential_compute_benchmark_tee_overhead_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b5d505df-e436-5f6e-b369-41839b54b8ed",
+    "title": "[D] What kind of live metrics would actually help you while training ML models?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/",
+    "pubDate": "2025-10-29T06:47:07+00:00",
+    "description": "What kind of live metrics would actually help you while training ML models? I have been exploring real-time observability for ML training, things like seeing GPU memory, timing, and layer activity live instead of waiting for a job to fail or finish. I built a small open-source experiment, TraceML, that currently runs on single-GPU PyTorch training and shows live memory + step timing. I would love input from people who train models regularly, does having live metrics actually help you debug or optimize? What kind of signals would you want to see next? • Multi-GPU utilization / imbalance • Data-loader or transfer bottlenecks • Gradient instability • Throughput (tokens/sec, batches/sec) • Cost or energy estimates Curious what would make something like this genuinely useful ? Repo: https://github.com/traceopt-ai/traceml submitted by /u/traceml-ai [link] [comments]",
+    "author": "/u/traceml-ai",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What kind of live metrics would actually help you while training ML models?</p> <p>I have been exploring real-time observability for ML training, things like seeing GPU memory, timing, and layer activity live instead of waiting for a job to fail or finish.</p> <p>I built a small open-source experiment, TraceML, that currently runs on single-GPU PyTorch training and shows live memory + step timing.</p> <p>I would love input from people who train models regularly, does having live metrics actually help you debug or optimize?</p> <p>What kind of signals would you want to see next? • Multi-GPU utilization / imbalance • Data-loader or transfer bottlenecks • Gradient instability • Throughput (tokens/sec, batches/sec) • Cost or energy estimates</p> <p>Curious what would make something like this genuinely useful ? </p> <p>Repo: <a href=\"https://github.com/traceopt-ai/traceml\">https://github.com/traceopt-ai/traceml</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/traceml-ai\"> /u/traceml-ai </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f8b9b16f-3c0a-5154-96a3-606348b149c8",
     "title": "[P] Jira training dataset to predict development times — where to start?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oiskv0/p_jira_training_dataset_to_predict_development/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1of6sln/d_implementing_the_fourier_transform_numerically/\"> <img alt=\"[D] Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide\" src=\"https://b.thumbs.redditmedia.com/g_78ke3nDyr1lxW9JDM23CJEeZquV1SAmp1Fl8CoiDc.jpg\" title=\"[D] Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/p96qp76h04xf1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=36b8446ab96530b7380348f87a3d69d9aea5c2fe\">Image by author.</a></p> <p>I’m pleased to announce that I just published my new article on Medium:<br /> <a href=\"https://medium.com/@jumbongjunior/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide-06d2f100d7da?source=friends_link&amp;sk=e7eebb092e1b4db7bc02f9b84fa09eee\">Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide.</a></p> <p>In this tutorial, we explore two approaches to computing the Fourier transform: the <strong>Left Riemann Sum method</strong> and the <strong>Fast Fourier Transform (FFT)</strong> algorithm.</p> <p>If you have some basic knowledge of integration theory, you should find the article easy to follow.</p> <p>I’d really appreciate your feedback on the <strong>writing style</strong> and the <strong>clarity of the explanations</strong>.<br /> Please also let me know if the <strong>title and subtitle</strong> accurately reflect the content.</p> <p>Finally, I’d love to hear your thoughts on whether the article's structure (headings, flow, and organization) makes it easy to read and understand.</p> <p>Thank you in advance for your feedback; it will help me improve the next version of the tutorial!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/North-Kangaroo-4639\"> /u/North-Kangaroo-4639 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of6sln/d_implementing_the_fourier_transform_numerically/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of6sln/d_implementing_the_fourier_transform_numerically/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/g_78ke3nDyr1lxW9JDM23CJEeZquV1SAmp1Fl8CoiDc.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c504ed90-bcf6-55ee-b6b3-fcb0d67d25df",
-    "title": "[R] Neurips Camera Ready",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1of5n4k/r_neurips_camera_ready/",
-    "pubDate": "2025-10-24T18:34:25+00:00",
-    "description": "We can still update the camera ready version for neurips with edit button. Does anyone know when it will actually be closed? submitted by /u/matcha-coconut [link] [comments]",
-    "author": "/u/matcha-coconut",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We can still update the camera ready version for neurips with edit button. Does anyone know when it will actually be closed?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/matcha-coconut\"> /u/matcha-coconut </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of5n4k/r_neurips_camera_ready/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of5n4k/r_neurips_camera_ready/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fed94aa8-fedc-51d8-b5b0-0edfb39bfc0a",
-    "title": "[D] How to host my fine-tuned Helsinki Transformer locally for API access?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1of1b15/d_how_to_host_my_finetuned_helsinki_transformer/",
-    "pubDate": "2025-10-24T15:48:09+00:00",
-    "description": "Hi, I fine-tuned a Helsinki Transformer for translation tasks and it runs fine locally. A friend made a Flutter app that needs to call it via API, but Hugging Face endpoints are too costly. I’ve never hosted a model before what’s the easiest way to host it so that the app can access it? Any simple setup or guide would help! submitted by /u/IronGhost_7 [link] [comments]",
-    "author": "/u/IronGhost_7",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I fine-tuned a Helsinki Transformer for translation tasks and it runs fine locally.<br /> A friend made a Flutter app that needs to call it via API, but Hugging Face endpoints are too costly.<br /> I’ve never hosted a model before what’s the easiest way to host it so that the app can access it?<br /> Any simple setup or guide would help!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IronGhost_7\"> /u/IronGhost_7 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of1b15/d_how_to_host_my_finetuned_helsinki_transformer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1of1b15/d_how_to_host_my_finetuned_helsinki_transformer/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
