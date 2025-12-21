@@ -1,5 +1,21 @@
 [
   {
+    "id": "323f53c6-b7f1-58c2-9826-e0ca4939195d",
+    "title": "In Praise Of Useless Robots",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oih4yq/in_praise_of_useless_robots/",
+    "pubDate": "2025-10-28T18:21:27+00:00",
+    "description": "submitted by /u/bethany_mcguire [link] [comments]",
+    "author": "/u/bethany_mcguire",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1oih4yq/in_praise_of_useless_robots/\"> <img alt=\"In Praise Of Useless Robots\" src=\"https://external-preview.redd.it/v9PrjfscBinl7T1Hq-rYcGtEx-S-oFhT36qiKu66pEQ.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6979428451e3f91820baae12c3401d43aadd8d02\" title=\"In Praise Of Useless Robots\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bethany_mcguire\"> /u/bethany_mcguire </a> <br /> <span><a href=\"https://thereader.mitpress.mit.edu/in-praise-of-useless-robots/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oih4yq/in_praise_of_useless_robots/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/v9PrjfscBinl7T1Hq-rYcGtEx-S-oFhT36qiKu66pEQ.jpeg?width=640&crop=smart&auto=webp&s=6979428451e3f91820baae12c3401d43aadd8d02",
+    "isShortVideo": 0
+  },
+  {
     "id": "ab7c412f-0293-5f81-9354-4b652f437362",
     "title": "[R] Review of a ML application to Parkinson's disease diagnosis paper",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oi3cc5/r_review_of_a_ml_application_to_parkinsons/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m excited to share a project I’ve been working on over the past few months!</p> <p>It’s a mobile app that turns any text into high-quality audio. Whether it’s a webpage, a Substack or Medium article, a PDF, or just copied text—it converts it into clear, natural-sounding speech. You can listen to it like a podcast or audiobook, even with the app running in the background.</p> <p>The app is privacy-friendly and doesn’t request any permissions by default. It only asks for access if you choose to share files from your device for audio conversion.</p> <p>You can also take or upload a photo of any text, and the app will extract and read it aloud.</p> <p>Thanks for your support, I’d love to hear what you think!</p> <p><a href=\"https://apps.apple.com/us/app/frateca-text-to-speech-audio/id6741859465\">Free iPhone app</a>,</p> <p><a href=\"https://play.google.com/store/apps/details?id=ai.texttospeech.app\">Free Android app on Google Play</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OneMoreSuperUser\"> /u/OneMoreSuperUser </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oez1oi/p_i_built_an_app_that_converts_any_text_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oez1oi/p_i_built_an_app_that_converts_any_text_into/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1d15ed85-9614-5238-a273-35ac860ae1b7",
-    "title": "[D] How was Multi-head Latent Attention not a thing before DeepSeek-V2 came up with it?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oetrex/d_how_was_multihead_latent_attention_not_a_thing/",
-    "pubDate": "2025-10-24T10:06:43+00:00",
-    "description": "Multi-head Latent Attention (MLA) was introduced by DeepSeek-V2 in 2024. The idea is to project keys and values into a latent space and perform attention there, which drastically reduces complexity. What I don't understand: how did no one propose this earlier? It feels like a pretty natural next step, especially given the trends we’ve seen over the past few years. For instance, the shift from diffusion in pixel space to latent diffusion (e.g. Stable Diffusion) followed that same principle: operate in a learned latent representation (e.g. through some modern VAE variation) for efficiency. And even in the attention world, Perceiver ( https://arxiv.org/abs/2103.03206 ) in 2021 already explored projecting queries into a latent space to reduce complexity. MLA feels like a very small step from that idea, yet it didn't appear until 2024. Of course, I know this is a bit of a naive take since in ML research we all know how this goes: in practice, good ideas often don't work out out of the box without \"tricks\" or nuances. Maybe (probably) someone did try something like MLA years ago, but it just didn't deliver without the right tricks or architecture choices. So I'm wondering: is that what happened here? Did people experiment with latent attention before but fail to make it practical, until DeepSeek figured out the right recipe? Or did we really just overlook latent attention all this time, even with hints like Perceiver already out there as far back as 2021? edit: I'm not claiming it's trivial or that I could've invented it. I'm just curious about why an idea that seems like a natural extension of previous work (like Perceiver or latent diffusion) didn't appear until now. Personal challenges on \"why didn't I do it if it's so easy\" kinda miss the point. Let's keep the focus to the research discussion :) submitted by /u/howtorewriteaname [link] [comments]",
-    "author": "/u/howtorewriteaname",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Multi-head Latent Attention (MLA) was introduced by DeepSeek-V2 in 2024. The idea is to project keys and values into a latent space and perform attention there, which drastically reduces complexity.</p> <p>What I don't understand: how did no one propose this earlier? It feels like a pretty natural next step, especially given the trends we’ve seen over the past few years.</p> <p>For instance, the shift from diffusion in pixel space to latent diffusion (e.g. Stable Diffusion) followed that same principle: operate in a learned latent representation (e.g. through some modern VAE variation) for efficiency. And even in the attention world, Perceiver (<a href=\"https://arxiv.org/abs/2103.03206\">https://arxiv.org/abs/2103.03206</a>) in 2021 already explored projecting queries into a latent space to reduce complexity. MLA feels like a very small step from that idea, yet it didn't appear until 2024.</p> <p>Of course, I know this is a bit of a naive take since in ML research we all know how this goes: in practice, good ideas often don't work out out of the box without &quot;tricks&quot; or nuances. Maybe (probably) someone did try something like MLA years ago, but it just didn't deliver without the right tricks or architecture choices.</p> <p>So I'm wondering: is that what happened here? Did people experiment with latent attention before but fail to make it practical, until DeepSeek figured out the right recipe? Or did we really just overlook latent attention all this time, even with hints like Perceiver already out there as far back as 2021?</p> <p>edit: I'm not claiming it's trivial or that I could've invented it. I'm just curious about why an idea that seems like a natural extension of previous work (like Perceiver or latent diffusion) didn't appear until now. Personal challenges on &quot;why didn't I do it if it's so easy&quot; kinda miss the point. Let's keep the focus to the research discussion :) </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/howtorewriteaname\"> /u/howtorewriteaname </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oetrex/d_how_was_multihead_latent_attention_not_a_thing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oetrex/d_how_was_multihead_latent_attention_not_a_thing/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

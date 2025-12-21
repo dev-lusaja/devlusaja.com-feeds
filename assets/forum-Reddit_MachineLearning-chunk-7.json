@@ -1,5 +1,21 @@
 [
   {
+    "id": "bc49c7b4-f313-51c4-80f4-b0de11935605",
+    "title": "[D] Spiking LR during pretraining",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p0sdo2/d_spiking_lr_during_pretraining/",
+    "pubDate": "2025-11-19T00:03:22+00:00",
+    "description": "I am pretraining a 1.5b LLM on 30b tokens. I am about 7b tokens in, and the train loss is still about 3.2. I am using the Muon optimizer, and my learning rate is about 0.008, which I am now realizing might be causing me to plateau early. Is it advisable to spike LR to 0.012? Also, would I need to scale my AdamW LR(currently about 0.006) proportionally to my Muon LR? My batch size is 32k tokens, and I am roughly at peak LR. I am observing drops of about 0.02 in train loss every 20k steps when I smooth my graph in Weights and Biases. My dataset is heavily filtered, comprising a lot of high-quality web text, code, and synthetic data. submitted by /u/New-Skin-5064 [link] [comments]",
+    "author": "/u/New-Skin-5064",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am pretraining a 1.5b LLM on 30b tokens. I am about 7b tokens in, and the train loss is still about 3.2. I am using the Muon optimizer, and my learning rate is about 0.008, which I am now realizing might be causing me to plateau early. Is it advisable to spike LR to 0.012? Also, would I need to scale my AdamW LR(currently about 0.006) proportionally to my Muon LR? My batch size is 32k tokens, and I am roughly at peak LR. I am observing drops of about 0.02 in train loss every 20k steps when I smooth my graph in Weights and Biases. My dataset is heavily filtered, comprising a lot of high-quality web text, code, and synthetic data.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/New-Skin-5064\"> /u/New-Skin-5064 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p0sdo2/d_spiking_lr_during_pretraining/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p0sdo2/d_spiking_lr_during_pretraining/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e1aad6b8-8f60-546f-9656-fad1adf66a93",
     "title": "[D] - For NeurIPS are spotlights just posters or is there a talk component, too?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p0p88f/d_for_neurips_are_spotlights_just_posters_or_is/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been seeing more talk about “open review” in academic publishing, and honestly I’m trying to wrap my head around what that really looks like in practice. Traditional peer review is known as slow, inconsistent, and sometimes opaque. But I wonder if the alternatives are actually better, or just different.</p> <p>For folks who’ve experienced both sides (as an author, reviewer, or editor):</p> <ul> <li>Have you seen any open review models that genuinely work?</li> <li>Are there practical ways to keep things fair and high-quality when reviews are public, or when anyone can weigh in?</li> <li>And, if you’ve tried different types (e.g., signed public reviews, post-publication comments, etc.), what actually made a difference, for better or worse?</li> </ul> <p>I keep reading about the benefits of transparency, but I’d love some real examples (good or bad) from people who’ve actually been experienced with it.</p> <p>Appreciate any stories, insights, or warnings.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThomasPhilli\"> /u/ThomasPhilli </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oyp77k/d_peer_review_vs_open_review/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oyp77k/d_peer_review_vs_open_review/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7235a83f-ad5f-539a-baa0-fba0813bc96d",
-    "title": "[D] ARR Oct 2025 Discussion (EACL 2026)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oyl7c9/d_arr_oct_2025_discussion_eacl_2026/",
-    "pubDate": "2025-11-16T13:03:26+00:00",
-    "description": "Discussion thread for the upcoming reviews from ARR Oct 2025 for EACL 2026 (and early submissions for ACL 2026). EACL 2026 deadlines: ARR submission deadline: 6 October 2025 Author response & reviewer discussion: 18 – 24 November 2025 EACL commitment deadline: 14 December 2025 Notification: 3 January 2026 submitted by /u/S4M22 [link] [comments]",
-    "author": "/u/S4M22",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Discussion thread for the upcoming reviews from <strong>ARR Oct 2025 for EACL 2026</strong> (and early submissions for ACL 2026).</p> <p><strong>EACL 2026 deadlines:</strong></p> <ul> <li>ARR submission deadline: <strong>6 October 2025</strong></li> <li>Author response &amp; reviewer discussion: <strong>18 – 24 November 2025</strong></li> <li>EACL commitment deadline: <strong>14 December 2025</strong></li> <li>Notification: <strong>3 January 2026</strong></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/S4M22\"> /u/S4M22 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oyl7c9/d_arr_oct_2025_discussion_eacl_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oyl7c9/d_arr_oct_2025_discussion_eacl_2026/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

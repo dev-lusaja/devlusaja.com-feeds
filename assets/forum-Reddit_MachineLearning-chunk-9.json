@@ -1,5 +1,21 @@
 [
   {
+    "id": "cdbe4a2a-f238-5c2f-ad7e-2528e19f18bb",
+    "title": "[R] How can I combine SAM, Yolo, DepthAny et. al. as features to improve a trainable vision model for action detection?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ov1318/r_how_can_i_combine_sam_yolo_depthany_et_al_as/",
+    "pubDate": "2025-11-12T09:52:33+00:00",
+    "description": "Hi all, I am relatively new at CV but a domain expert in ML and mostly do graph learning and NLP. I am unable to find intuition behind the idea in the title: does it actually make sense to leverage these vision \"foundation models\" as features to do something slightly adjacent. I want to do complex action detection and as a human all of these features do seem to help a priori. Does this translate to the ML domain? Thanks for the help! submitted by /u/quasiproductive [link] [comments]",
+    "author": "/u/quasiproductive",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>I am relatively new at CV but a domain expert in ML and mostly do graph learning and NLP.</p> <p>I am unable to find intuition behind the idea in the title: does it actually make sense to leverage these vision &quot;foundation models&quot; as features to do something slightly adjacent. I want to do complex action detection and as a human all of these features do seem to help a priori. Does this translate to the ML domain?</p> <p>Thanks for the help!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/quasiproductive\"> /u/quasiproductive </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov1318/r_how_can_i_combine_sam_yolo_depthany_et_al_as/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov1318/r_how_can_i_combine_sam_yolo_depthany_et_al_as/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a06274a8-ced3-5426-a37e-1a29ab5c5fa7",
     "title": "[P] NeuralFlight: I rebuilt my 7-year-old BCI drone project with modern ML - now featuring 73% cross-subject motor imagery accuracy",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Qubic researchers just released Neuraxon.</p> <p>Bio-inspired AI blueprint with trinary neurons (+1/0/-1) for brain-like computation. Aims to let AI evolve itself on decentralized Aigarth (Qubics Ai system).Currently training their own AI “Anna” using computational power from miners under this system.</p> <p>Open-source; can anyone confirm if it’s legit?</p> <p>• Code: github.com/DavidVivancos/Neuraxon</p> <p>• Demo: huggingface.co/spaces/DavidVivancos/Neuraxon</p> <p>• X post: x.com/VivancosDavid/status/1986370549556105336</p> <p>Could be worth discussing for its potential implications on neuromorphic computing and AGI paths.</p> <p>(Not affiliated with Qubic, just sharing something intriguing I found.)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Defiant-Industry-626\"> /u/Defiant-Industry-626 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osgc05/qubics_neuraxon_a_bioinspired_breakthrough_in_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osgc05/qubics_neuraxon_a_bioinspired_breakthrough_in_ai/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fbaf8dd5-7c8c-519b-b1c1-7ff295ecca27",
-    "title": "[D] Which programming languages have you used to ship ML/AI projects in the last 3 years?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1osfc6u/d_which_programming_languages_have_you_used_to/",
-    "pubDate": "2025-11-09T09:43:27+00:00",
-    "description": "People tend to exaggerate on LinkedIn, in CVs, and in Stack Overflow surveys about how many programming languages they actually work with. What I’m interested in is: which other languages are really used in professional settings? Let me start. In our unit, data scientists, machine learning engineers, and data engineers work exclusively with Python , while our front-end developers use JavaScript with React — and that’s it. I’ve experimented with a few other languages myself, but since our team is quite large (70+ people in total), the lowest common denominators are Python and JavaScript. That makes it practically impossible to introduce a new language without a very strong reason — and such a reason hasn’t appeared yet. Elsewhere in the company, the general tech stack is mostly Java-based , and new projects are written in Kotlin as far as I know. Data projects, however, are all written exclusively in Python. In my previous unit, we also had a few services written in Go , but I haven’t heard of any in-house Go usage since then. submitted by /u/DataPastor [link] [comments]",
-    "author": "/u/DataPastor",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>People tend to exaggerate</strong> on LinkedIn, in CVs, and in Stack Overflow surveys about how many programming languages they actually work with. What I’m interested in is: which other languages are <em>really</em> used in professional settings?</p> <p>Let me start.<br /> In our unit, data scientists, machine learning engineers, and data engineers work exclusively with <strong>Python</strong>, while our front-end developers use <strong>JavaScript</strong> with <strong>React</strong> — and that’s it.</p> <p>I’ve experimented with a few other languages myself, but since our team is quite large (70+ people in total), the lowest common denominators are Python and JavaScript. That makes it practically impossible to introduce a new language without a very strong reason — and such a reason hasn’t appeared yet.</p> <p>Elsewhere in the company, the general tech stack is mostly <strong>Java-based</strong>, and new projects are written in <strong>Kotlin</strong> as far as I know. Data projects, however, are all written exclusively in Python. In my previous unit, we also had a few services written in <strong>Go</strong>, but I haven’t heard of any in-house Go usage since then.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DataPastor\"> /u/DataPastor </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osfc6u/d_which_programming_languages_have_you_used_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osfc6u/d_which_programming_languages_have_you_used_to/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
