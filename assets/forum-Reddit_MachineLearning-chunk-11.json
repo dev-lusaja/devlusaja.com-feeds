@@ -1,5 +1,21 @@
 [
   {
+    "id": "90bf579a-a587-5ec9-90d2-61572f16682d",
+    "title": "[D] Returning large number of exact passages with LLM document retrieval?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oq9sqj/d_returning_large_number_of_exact_passages_with/",
+    "pubDate": "2025-11-06T20:22:01+00:00",
+    "description": "Hey all, I'm working on a project involving natural language search on large collections of unstructured cookbooks, with the goal of returning complete, unmodified recipes (not summaries). Example: User uploads 100 unstructured cookbooks (each containing many recipes), searches \"paella,\" and gets 40 exact recipes returned (unmodified from the source). RAG isn’t a particularly good fit for this problem since I don’t want to re-generate/summarize the output content, I want to return exact recipes (and potentially a large volume of them). To me, I see two potential approaches: Precise chunking at index time: find out a way to accurately chunk cookbooks based on exact recipe boundaries (start/ends), and then just perform IR instead of RAG. I've tested semantic clustering and other chunking techniques, but achieving precise recipe start/end detection seems to be quite error-prone. NER feels too granular since I'm not extracting entities, just boundaries but maybe I’m wrong here. Better retrieval with post-processing: perhaps keep simpler/dumber chunking techniques and then use some sort of re-ranker/LLM to take revelant chunks from the semantic search and then “find” the beginning of the recipe passage from there, and then we can just query the original text. Wondering if anyone faced a similar problem before and any resources/techniques that would be interesting to try here. Cheers! submitted by /u/SwimmingMeringue9415 [link] [comments]",
+    "author": "/u/SwimmingMeringue9415",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, I'm working on a project involving natural language search on large collections of unstructured cookbooks, with the goal of returning complete, unmodified recipes (not summaries).</p> <p>Example: User uploads 100 unstructured cookbooks (each containing many recipes), searches &quot;paella,&quot; and gets 40 exact recipes returned (unmodified from the source).</p> <p>RAG isn’t a particularly good fit for this problem since I don’t want to re-generate/summarize the output content, I want to return exact recipes (and potentially a large volume of them).</p> <p>To me, I see two potential approaches:</p> <ol> <li>Precise chunking at index time: find out a way to accurately chunk cookbooks based on exact recipe boundaries (start/ends), and then just perform IR instead of RAG. I've tested semantic clustering and other chunking techniques, but achieving precise recipe start/end detection seems to be quite error-prone. NER feels too granular since I'm not extracting entities, just boundaries but maybe I’m wrong here.</li> <li>Better retrieval with post-processing: perhaps keep simpler/dumber chunking techniques and then use some sort of re-ranker/LLM to take revelant chunks from the semantic search and then “find” the beginning of the recipe passage from there, and then we can just query the original text.</li> </ol> <p>Wondering if anyone faced a similar problem before and any resources/techniques that would be interesting to try here.</p> <p>Cheers!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SwimmingMeringue9415\"> /u/SwimmingMeringue9415 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oq9sqj/d_returning_large_number_of_exact_passages_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oq9sqj/d_returning_large_number_of_exact_passages_with/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8b88818f-ae2b-5b6d-9d7e-67297bfa2ecd",
     "title": "[R][N] TabPFN-2.5 is now available: Tabular foundation model for datasets up to 50k samples",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oq1gq1/rn_tabpfn25_is_now_available_tabular_foundation/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>This is the paper <a href=\"https://arxiv.org/pdf/2510.17558\">Free Transformers</a> by meta Which Introduce Free Transformers.<br /> So i am thinking what if we use used <strong>&quot;ACT&quot; like mechanism</strong> to act as a <strong>encoder on off switch</strong> so that if the given input is math or some related hard question so they can get a very meaningful &quot;Z&quot; latent var from that input to give a very correct ans and the encoder will off means &quot;Z&quot; will be sampled randomly for easy input. </p> <p>Pls share your thoughts on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeighborhoodSome1505\"> /u/NeighborhoodSome1505 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on3fna/r_adding_act_halting_to_the_free_transformers_by/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on3fna/r_adding_act_halting_to_the_free_transformers_by/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8004d968-155c-5607-81b9-844a1495964c",
-    "title": "[P] Explanation of Gated DeltaNet (Qwen3-Next and Kimi Linear)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1on116n/p_explanation_of_gated_deltanet_qwen3next_and/",
-    "pubDate": "2025-11-03T03:10:17+00:00",
-    "description": "submitted by /u/seraschka [link] [comments]",
-    "author": "/u/seraschka",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1on116n/p_explanation_of_gated_deltanet_qwen3next_and/\"> <img alt=\"[P] Explanation of Gated DeltaNet (Qwen3-Next and Kimi Linear)\" src=\"https://external-preview.redd.it/Gc3QZC3nivZ5lIMq7fbkcDwPh4e0M2Sf_st-qOuAal0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=52e3e9ab6990ac7877eb45e6976ed3a57686d5bd\" title=\"[P] Explanation of Gated DeltaNet (Qwen3-Next and Kimi Linear)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/seraschka\"> /u/seraschka </a> <br /> <span><a href=\"https://sebastianraschka.com/llms-from-scratch/ch04/08_deltanet/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1on116n/p_explanation_of_gated_deltanet_qwen3next_and/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/Gc3QZC3nivZ5lIMq7fbkcDwPh4e0M2Sf_st-qOuAal0.jpeg?width=640&crop=smart&auto=webp&s=52e3e9ab6990ac7877eb45e6976ed3a57686d5bd",
     "isShortVideo": 0
   }
 ]

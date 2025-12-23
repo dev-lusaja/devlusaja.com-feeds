@@ -1,5 +1,21 @@
 [
   {
+    "id": "c9e339a4-862c-5c33-ac2a-8e7a45aeb0a3",
+    "title": "[R] Repositories & datasets for finetuning small-scale LLMs (pre-trained on OpenWebText)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pcco1w/r_repositories_datasets_for_finetuning_smallscale/",
+    "pubDate": "2025-12-02T16:18:35+00:00",
+    "description": "Karpathy's \"nanoGPT\" is a repository for training GPT2-scale models on OpenWebText. https://github.com/karpathy/nanoGPT Which datasets can be used for finetuning these models for question-answering or instruction-following tasks? Are there alternative repositories which contain both pretraining and finetuning stages for GPT2-scale models? Thanks. submitted by /u/random_sydneysider [link] [comments]",
+    "author": "/u/random_sydneysider",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Karpathy's &quot;nanoGPT&quot; is a repository for training GPT2-scale models on OpenWebText. <a href=\"https://github.com/karpathy/nanoGPT\">https://github.com/karpathy/nanoGPT</a></p> <p>Which datasets can be used for finetuning these models for question-answering or instruction-following tasks? </p> <p>Are there alternative repositories which contain both pretraining and finetuning stages for GPT2-scale models? Thanks. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/random_sydneysider\"> /u/random_sydneysider </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcco1w/r_repositories_datasets_for_finetuning_smallscale/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcco1w/r_repositories_datasets_for_finetuning_smallscale/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "3ed04089-b0ea-56c1-bc21-931a2c72bbaa",
     "title": "[D] Published paper uses hardcoded seed and collapsed model to report fraudulent results",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pcaxi3/d_published_paper_uses_hardcoded_seed_and/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The OpenReview identity leak has created a difficult situation not only for authors, but also for reviewers, and ACs. The rollback decision with freezing reviews to their pre-discussion state, preventing score updates, and reassigning new ACs seems to be disliked across the whole comminity. Many reviewers were planning to evaluate rebuttals toward the end of the discussion period, and many authors used the long rebuttal window to run new experiments and revise manuscripts. Those efforts will now have no effect on reviewer scores, even when the revisions fully address the reviewers’ original concerns.</p> <p>Across Twitter/X, many ACs have expressed concern that they cannot meaningfully evaluate hundreds of papers under these constraints. Some openly said they may have to rely on automated summaries or models rather than full manual reading.</p> <p>I don't agree with such a compromise therefore i would like to hear about possible solutions. </p> <p>The ones that resonated with me are the following:</p> <p><strong>• Allow authors to withdraw their papers without the usual public disclosure of the submission.</strong><br /> Since the review process has deviated substantially from the agreement authors accepted at submission time, withdrawal without public trace may be a fair option.</p> <p>Another idea (which I personally find reasonable but unlikely) is:</p> <p><strong>• Temporarily enlist active authors to review one paper each (similar to AAAI’s second-phase reviewing).</strong><br /> With thousands of authors, the load would be small per person. This could restore some form of updated evaluation that accounts for rebuttals and revised experiments, and would avoid leaving decisions solely to new ACs working under severe time pressure.</p> <p>I’d like to hear what others think. </p> <p>Which options do you see as realistic or fair in this situation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Available_Net_6429\"> /u/Available_Net_6429 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p95g7t/d_possible_solutions_after_the_iclr_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p95g7t/d_possible_solutions_after_the_iclr_2026/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "09d862e9-f38e-5bf6-b06e-9eb410c3e78e",
-    "title": "[P] Learning without fine-tuning: Open-source framework takes browser automation from 30% → 100% success through in-context learning",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p904gu/p_learning_without_finetuning_opensource/",
-    "pubDate": "2025-11-28T17:06:29+00:00",
-    "description": "Posted here a month ago about my open-source implementation of Stanford's Agentic Context Engineering paper and got some concrete results + easier integrations now! How it works: The framework makes agents learn from their own execution feedback through in-context learning instead of fine-tuning. Agent runs task → reflects on what worked/failed → curates strategies into playbook → uses playbook on next run Browser automation benchmark (using browser-use): 30% → 100% success rate 82% fewer steps 65% decrease in token cost (including ACE overhead) Get Started: Wrap any existing agent in ~10 lines (LangChain, LiteLLM, or custom) Works with any model (local or API) GitHub: https://github.com/kayba-ai/agentic-context-engine Would love to hear if anyone plays with it Also, I'm actively improving based on feedback: ⭐ the repo to stay stay updated! submitted by /u/cheetguy [link] [comments]",
-    "author": "/u/cheetguy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Posted here a <a href=\"https://www.reddit.com/r/MachineLearning/comments/1o9yuxv/p_opensource_implementation_of_agentic_context/\">month ago</a> about my open-source implementation of Stanford's <a href=\"https://arxiv.org/abs/2510.04618\">Agentic Context Engineering paper</a> and got some concrete results + easier integrations now!</p> <p><strong>How it works:</strong> </p> <p>The framework makes agents learn from their own execution feedback through in-context learning instead of fine-tuning.</p> <p>Agent runs task → reflects on what worked/failed → curates strategies into playbook → uses playbook on next run </p> <p><strong>Browser automation benchmark (using browser-use):</strong></p> <ul> <li>30% → 100% success rate</li> <li>82% fewer steps</li> <li>65% decrease in token cost (including ACE overhead)</li> </ul> <p><strong>Get Started:</strong></p> <ul> <li>Wrap any existing agent in ~10 lines (LangChain, LiteLLM, or custom)</li> <li><p>Works with any model (local or API)</p></li> <li><p>GitHub: <a href=\"https://github.com/kayba-ai/agentic-context-engine\">https://github.com/kayba-ai/agentic-context-engine</a></p></li> </ul> <p>Would love to hear if anyone plays with it</p> <p>Also, I'm actively improving based on feedback: <a href=\"https://github.com/kayba-ai/agentic-context-engine\">⭐ the repo</a> to stay stay updated!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cheetguy\"> /u/cheetguy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p904gu/p_learning_without_finetuning_opensource/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p904gu/p_learning_without_finetuning_opensource/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

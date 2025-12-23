@@ -1,5 +1,21 @@
 [
   {
+    "id": "9658e664-888c-5383-bd44-dd0fe40c9901",
+    "title": "[D] Deep Learning/LLMs for Operations Research Problems in Production: Real-world Adoption?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ptrrj7/d_deep_learningllms_for_operations_research/",
+    "pubDate": "2025-12-23T11:35:52+00:00",
+    "description": "Hi everyone, I'm a data scientist working primarily at the intersection of ML and Operations Research. Recently, I've been seeing a growing number of papers exploring the use of deep learning and even LLMs to solve classical OR problems (TSP, VRP, job scheduling, etc.). My question: How much of this is actually being deployed in production at scale, particularly at companies dealing with real-time optimization problems? For context, I'm specifically curious about: Ride-sharing/delivery platforms (Uber, DoorDash, Lyft, etc.) - Are they using DL-based approaches for their matching/routing problems, or are they still primarily relying on traditional heuristics + exact solvers? Performance comparisons - In cases where DL methods have been deployed, do they actually outperform well-tuned classical heuristics (genetic algorithms, simulated annealing, or specialized algorithms for specific problem structures)? Hybrid approaches - Are companies finding success with hybrid methods that combine neural networks with traditional OR techniques? I'm seeing papers claiming impressive results on benchmark datasets, but I'm wondering: Do these translate to real-world scenarios with dynamic constraints, noisy data, and hard real-time requirements? What are the practical challenges in deployment (interpretability, reliability, latency, etc.)? Are we at a point where DL-based OR solvers are genuinely competitive, or is this still mostly academic exploration? Would love to hear from anyone with industry experience or insights into what's actually being used in production systems. Papers or blog posts describing real-world deployments would be especially appreciated! Thanks in advance! submitted by /u/Rich-Effect2152 [link] [comments]",
+    "author": "/u/Rich-Effect2152",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm a data scientist working primarily at the intersection of ML and Operations Research. Recently, I've been seeing a growing number of papers exploring the use of deep learning and even LLMs to solve classical OR problems (TSP, VRP, job scheduling, etc.).</p> <p>My question: How much of this is actually being deployed in production at scale, particularly at companies dealing with real-time optimization problems?</p> <p>For context, I'm specifically curious about:</p> <ol> <li>Ride-sharing/delivery platforms (Uber, DoorDash, Lyft, etc.) - Are they using DL-based approaches for their matching/routing problems, or are they still primarily relying on traditional heuristics + exact solvers?</li> <li>Performance comparisons - In cases where DL methods have been deployed, do they actually outperform well-tuned classical heuristics (genetic algorithms, simulated annealing, or specialized algorithms for specific problem structures)?</li> <li>Hybrid approaches - Are companies finding success with hybrid methods that combine neural networks with traditional OR techniques?</li> </ol> <p>I'm seeing papers claiming impressive results on benchmark datasets, but I'm wondering:</p> <ul> <li>Do these translate to real-world scenarios with dynamic constraints, noisy data, and hard real-time requirements?</li> <li>What are the practical challenges in deployment (interpretability, reliability, latency, etc.)?</li> <li>Are we at a point where DL-based OR solvers are genuinely competitive, or is this still mostly academic exploration?</li> </ul> <p>Would love to hear from anyone with industry experience or insights into what's actually being used in production systems. Papers or blog posts describing real-world deployments would be especially appreciated!</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rich-Effect2152\"> /u/Rich-Effect2152 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ptrrj7/d_deep_learningllms_for_operations_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ptrrj7/d_deep_learningllms_for_operations_research/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b15d5ad8-fff3-5c61-825d-65ae9ff40733",
     "title": "[R] Policy→Tests (P2T) bridging AI policy prose to executable rules",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ptnwp1/r_policytests_p2t_bridging_ai_policy_prose_to/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>How the Cryptographic Binding Works</strong></p> <p>The constitution is not just a document - it is mathematically fused to the model weights. </p> <p><strong>The Problem:</strong> How do you make an AI constitution enforceable? A text file can be ignored. Training can be fine-tuned away. You need the rules baked into the system's existence.</p> <p><strong>The Solution: Weight Permutation</strong></p> <ol> <li>Train the model normally, get weights W</li> <li>Hash the constitution text: H = SHA-256(Constitution)</li> <li>Use that hash as a seed to scramble the weights: W_stored = P(W, seed=H)</li> </ol> <p>The weights saved to disk are now cryptographically scrambled. They are useless noise without the constitution's hash.</p> <p><strong>At Runtime:</strong>To run inference, the system must:</p> <ol> <li>Load the constitution</li> <li>Hash it</li> <li>Use that hash to unscramble the weights</li> <li>Run the computation</li> </ol> <p>Output = MatMul(Input, Inverse(P)(W_stored, H))</p> <p><strong>What This Means:</strong></p> <ul> <li>Change one character in the constitution and the hash changes and the weights become garbage</li> <li>The model literally cannot function without the exact constitution it was bound to</li> <li>Tamper-evidence is built into the math, not policy</li> </ul> <p><strong>The VRAM Gap Solution:</strong></p> <p>We keep weights scrambled even in GPU memory. Unscrambling happens in L1 cache registers, nanoseconds before each matrix multiply, then immediately overwritten. The real weights exist for microseconds, never persisted.</p> <p><strong>TL;DR:</strong> The constitution is not a suggestion. It is a cryptographic key. No key, no model.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Empty-Poetry8197\"> /u/Empty-Poetry8197 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pqbdv4/dthe_silicon_accord_cryptographically_binding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pqbdv4/dthe_silicon_accord_cryptographically_binding/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5565e24f-00e5-5175-b3fc-e7f4ed3a9fa9",
-    "title": "[D] how can i find dozens of lines of ai generated code?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ppyvns/d_how_can_i_find_dozens_of_lines_of_ai_generated/",
-    "pubDate": "2025-12-18T18:54:21+00:00",
-    "description": "i need dozens of lines of ai generated code (preferably generated by a popular ai code editor) for a project, where can i find those? submitted by /u/mehmetflix_ [link] [comments]",
-    "author": "/u/mehmetflix_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>i need dozens of lines of ai generated code (preferably generated by a popular ai code editor) for a project, where can i find those?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mehmetflix_\"> /u/mehmetflix_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ppyvns/d_how_can_i_find_dozens_of_lines_of_ai_generated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ppyvns/d_how_can_i_find_dozens_of_lines_of_ai_generated/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
