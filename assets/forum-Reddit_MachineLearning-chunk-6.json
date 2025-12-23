@@ -1,5 +1,21 @@
 [
   {
+    "id": "634255d7-d654-58ac-8e88-3d80f8635e7d",
+    "title": "[R] I've been experimenting with GraphRAG pipelines (using Neo4j/LangChain) and I'm wondering how you all handle GDPR deletion requests?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p8zjqm/r_ive_been_experimenting_with_graphrag_pipelines/",
+    "pubDate": "2025-11-28T16:44:37+00:00",
+    "description": "It seems like just deleting the node isn't enough because the community summaries and pre-computed embeddings still retain the info. Has anyone seen good open-source tools for \"cleaning\" a Graph RAG index without rebuilding it from scratch? Or is full rebuilding the only way right now? submitted by /u/captainkink07 [link] [comments]",
+    "author": "/u/captainkink07",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>It seems like just deleting the node isn't enough because the community summaries and pre-computed embeddings still retain the info. Has anyone seen good open-source tools for &quot;cleaning&quot; a Graph RAG index without rebuilding it from scratch? Or is full rebuilding the only way right now?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/captainkink07\"> /u/captainkink07 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8zjqm/r_ive_been_experimenting_with_graphrag_pipelines/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8zjqm/r_ive_been_experimenting_with_graphrag_pipelines/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "348a894c-0fe8-5f01-a19e-4946ba3e3964",
     "title": "[D] openreview leak, what should conferences do?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p8x68n/d_openreview_leak_what_should_conferences_do/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm responding to ICLR reviews for the first time and I had a quick question on what the typical protocol for review responses are.</p> <p>I have not had the opportunity to run sufficient experiments to respond to reviewer comments. I know ICLR recommended responding within a week (i.e., by tomorrow). What should I do if I can't fully respond to reviewer requests?</p> <p>Should I:</p> <p>a) Respond to their comments, with results that I have done so far, and just say that I am continuing to work on the remaining experiments;</p> <p>b) Just wait till I've finished all experiments and then respond at once;</p> <p>c) Relatedly, should I respond to all reviewers are once, or if I have completed one review response, should I respond to that as soon as I can, and get to the others when I can?</p> <p>I get that this likely comes down to preference, but I'm curious if there are any typical norms or strong feelings on this.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/commentsaccount\"> /u/commentsaccount </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1mns5/d_typical_processes_for_iclr_review_responses/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1mns5/d_typical_processes_for_iclr_review_responses/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ffd9dbcb-ebaf-5052-b24b-e5db9165a6cc",
-    "title": "[R] MLOps survey -response greatly appreciated",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p1kiwf/r_mlops_survey_response_greatly_appreciated/",
-    "pubDate": "2025-11-19T21:31:35+00:00",
-    "description": "MLOps survey -response greatly appreciated Hi, I have a written MLOps survey that I need responses from for a paper I am writing. Please respond if you have experience with MLOps or machine learning! The main part is 5 written questions and I estimate it could take ~10-15 minutes. https://sdsu.co1.qualtrics.com/jfe/form/SV_6Kd4sLzUkvenfkW submitted by /u/Rothconversion123 [link] [comments]",
-    "author": "/u/Rothconversion123",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>MLOps survey -response greatly appreciated</p> <p>Hi, I have a written MLOps survey that I need responses from for a paper I am writing.</p> <p>Please respond if you have experience with MLOps or machine learning!</p> <p>The main part is 5 written questions and I estimate it could take ~10-15 minutes. <a href=\"https://sdsu.co1.qualtrics.com/jfe/form/SV_6Kd4sLzUkvenfkW\">https://sdsu.co1.qualtrics.com/jfe/form/SV_6Kd4sLzUkvenfkW</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rothconversion123\"> /u/Rothconversion123 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1kiwf/r_mlops_survey_response_greatly_appreciated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1kiwf/r_mlops_survey_response_greatly_appreciated/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

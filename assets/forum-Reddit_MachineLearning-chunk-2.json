@@ -1,5 +1,21 @@
 [
   {
+    "id": "d9c8fef0-f2b5-53cb-8730-60b3f7c8fd91",
+    "title": "[D] Question about cognition in AI systems",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pljfsj/d_question_about_cognition_in_ai_systems/",
+    "pubDate": "2025-12-13T11:39:39+00:00",
+    "description": "Discussion: Serious question: If an AI system shows strong reasoning, planning, and language ability, but has – no persistent identity across time, – no endogenous goals, and – no embodiment that binds meaning to consequence, in what sense is it cognitive rather than a highly capable proxy system? Not asking philosophically Asking architecturally submitted by /u/MelodicQuality_ [link] [comments]",
+    "author": "/u/MelodicQuality_",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Discussion: Serious question: If an AI system shows strong reasoning, planning, and language ability, but has – no persistent identity across time, – no endogenous goals, and – no embodiment that binds meaning to consequence,</p> <p>in what sense is it cognitive rather than a highly capable proxy system?</p> <p>Not asking philosophically Asking architecturally</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MelodicQuality_\"> /u/MelodicQuality_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pljfsj/d_question_about_cognition_in_ai_systems/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pljfsj/d_question_about_cognition_in_ai_systems/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6bfa64e4-b488-5a84-8753-163a37ce22a4",
     "title": "[P] AI Voice Cloning with Coqui XTTS-v2 on Google Colab (Free)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1plh4b3/p_ai_voice_cloning_with_coqui_xttsv2_on_google/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm building a module for an energy system planning tool and need to generate realistic future hourly wind/solar profiles based on about 10 years of historical data. The catch is that the model needs to be trained locally on the user's CPU at runtime, meaning the whole training and inference process has to finish in under 5 minutes. I want to move away from adding simple Gaussian noise because it messes up correlations, so I'm currently thinking of implementing a Conditional VAE trained on 24h sequences since it seems like the best balance between speed and stability. Does C-VAE make sense for this kind of &quot;on-the-fly&quot; constraint, or is there a better lightweight architecture I should look into?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Minute-Ad-5060\"> /u/Minute-Ad-5060 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pi7r17/d_best_lightweight_genai_for_synthetic_weather/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pi7r17/d_best_lightweight_genai_for_synthetic_weather/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7f7f795e-72b5-53ca-8ea1-8f876d6972b2",
-    "title": "[D] any labs/research groups/communities focusing on ML technologies for small enterprises?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/",
-    "pubDate": "2025-12-09T05:24:48+00:00",
-    "description": "I am looking for practical ML papers dedicated to integrate Ai novelties in small and medium corporations. submitted by /u/mbrtlchouia [link] [comments]",
-    "author": "/u/mbrtlchouia",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am looking for practical ML papers dedicated to integrate Ai novelties in small and medium corporations. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mbrtlchouia\"> /u/mbrtlchouia </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

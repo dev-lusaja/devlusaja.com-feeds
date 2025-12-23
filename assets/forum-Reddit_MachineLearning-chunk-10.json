@@ -1,5 +1,21 @@
 [
   {
+    "id": "161d79df-845a-5e50-abf8-8910ac2fc5a4",
+    "title": "[D] ML Pipelines completely in Notebooks within Databricks, thoughts?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1otcqo0/d_ml_pipelines_completely_in_notebooks_within/",
+    "pubDate": "2025-11-10T12:43:06+00:00",
+    "description": "I am an MLE part of a fresh new team in Data & AI innovations spinning up projects slowly. I always thought having notebooks in production is a bad thing and that I'd need to productionize the notebooks I'd receive from the DS. We are working with databricks and I am following some introductory courses and what I am seeing is that they work with a lot of notebooks. This might be because of the easy of use in tutorials and demos. But how do other professionals' experience translate when deploying models? Are they mostly notebooks based or are they re-written into python scripts? Any insights would be much appreciated since I need to setup the groundwork for our team and while we grow over the years I'd like to use scaleable solutions and a notebook, to me, just sounds a bit crude. But it seems databricks kind of embraces the notebook as a key part of the stack, even in prod. submitted by /u/Rajivrocks [link] [comments]",
+    "author": "/u/Rajivrocks",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am an MLE part of a fresh new team in Data &amp; AI innovations spinning up projects slowly.</p> <p>I always thought having notebooks in production is a bad thing and that I'd need to productionize the notebooks I'd receive from the DS. We are working with databricks and I am following some introductory courses and what I am seeing is that they work with a lot of notebooks. This might be because of the easy of use in tutorials and demos. But how do other professionals' experience translate when deploying models? Are they mostly notebooks based or are they re-written into python scripts?</p> <p>Any insights would be much appreciated since I need to setup the groundwork for our team and while we grow over the years I'd like to use scaleable solutions and a notebook, to me, just sounds a bit crude. But it seems databricks kind of embraces the notebook as a key part of the stack, even in prod.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rajivrocks\"> /u/Rajivrocks </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otcqo0/d_ml_pipelines_completely_in_notebooks_within/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otcqo0/d_ml_pipelines_completely_in_notebooks_within/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "948e707b-379e-52e4-b082-a32e6f2c48d3",
     "title": "[R] AlphaEvolve: Breaking 56 Years of Mathematical Stagnation",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1otaqfo/r_alphaevolve_breaking_56_years_of_mathematical/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, I'm working on a project involving natural language search on large collections of unstructured cookbooks, with the goal of returning complete, unmodified recipes (not summaries).</p> <p>Example: User uploads 100 unstructured cookbooks (each containing many recipes), searches &quot;paella,&quot; and gets 40 exact recipes returned (unmodified from the source).</p> <p>RAG isn’t a particularly good fit for this problem since I don’t want to re-generate/summarize the output content, I want to return exact recipes (and potentially a large volume of them).</p> <p>To me, I see two potential approaches:</p> <ol> <li>Precise chunking at index time: find out a way to accurately chunk cookbooks based on exact recipe boundaries (start/ends), and then just perform IR instead of RAG. I've tested semantic clustering and other chunking techniques, but achieving precise recipe start/end detection seems to be quite error-prone. NER feels too granular since I'm not extracting entities, just boundaries but maybe I’m wrong here.</li> <li>Better retrieval with post-processing: perhaps keep simpler/dumber chunking techniques and then use some sort of re-ranker/LLM to take revelant chunks from the semantic search and then “find” the beginning of the recipe passage from there, and then we can just query the original text.</li> </ol> <p>Wondering if anyone faced a similar problem before and any resources/techniques that would be interesting to try here.</p> <p>Cheers!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SwimmingMeringue9415\"> /u/SwimmingMeringue9415 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oq9sqj/d_returning_large_number_of_exact_passages_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oq9sqj/d_returning_large_number_of_exact_passages_with/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8b88818f-ae2b-5b6d-9d7e-67297bfa2ecd",
-    "title": "[R][N] TabPFN-2.5 is now available: Tabular foundation model for datasets up to 50k samples",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oq1gq1/rn_tabpfn25_is_now_available_tabular_foundation/",
-    "pubDate": "2025-11-06T15:11:22+00:00",
-    "description": "TabPFN-2.5, a pretrained transformer that delivers SOTA predictions on tabular data without hyperparameter tuning is now available. It builds on TabPFN v2 that was released in the Nature journal earlier this year. Key highlights: 5x scale increase: Now handles 50,000 samples × 2,000 features (up from 10,000 × 500 in v2) SOTA performance: Achieves state-of-the-art results across classification and regression Rebuilt API: New REST interface & Python SDK with dedicated fit & predict endpoints, making deployment and integration significantly more developer-friendly Want to try it out? TabPFN-2.5 is available via an API and via a package on Hugging Face . We welcome your feedback and discussion! You can also join the discord here . submitted by /u/rsesrsfh [link] [comments]",
-    "author": "/u/rsesrsfh",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>TabPFN-2.5, a pretrained transformer that delivers SOTA predictions on tabular data without hyperparameter tuning is now available. It builds on TabPFN v2 that was released in the <a href=\"https://www.nature.com/articles/s41586-024-08328-6\">Nature</a> journal earlier this year.</p> <p>Key highlights:</p> <ul> <li>5x scale increase: Now handles 50,000 samples × 2,000 features (up from 10,000 × 500 in v2)</li> <li>SOTA performance: Achieves state-of-the-art results across classification and regression</li> <li>Rebuilt API: New REST interface &amp; Python SDK with dedicated fit &amp; predict endpoints, making deployment and integration significantly more developer-friendly</li> </ul> <p>Want to try it out? TabPFN-2.5 is available via an <a href=\"https://docs.priorlabs.ai/api-reference/getting-started\">API</a> and via a package on <a href=\"https://huggingface.co/Prior-Labs\">Hugging Face</a>.</p> <p>We welcome your feedback and discussion! You can also join the discord <a href=\"https://discord.com/invite/VJRuU3bSxt\">here</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rsesrsfh\"> /u/rsesrsfh </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oq1gq1/rn_tabpfn25_is_now_available_tabular_foundation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oq1gq1/rn_tabpfn25_is_now_available_tabular_foundation/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
