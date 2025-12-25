@@ -1,5 +1,21 @@
 [
   {
+    "id": "8add71a5-2ae7-5eda-8dbe-e1b1aefb8563",
+    "title": "[R] Reproduced \"Scale-Agnostic KAG\" paper, found the PR formula is inverted compared to its source",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pk6844/r_reproduced_scaleagnostic_kag_paper_found_the_pr/",
+    "pubDate": "2025-12-11T19:16:00+00:00",
+    "description": "I attempted to reproduce \"Scale-Agnostic Kolmogorov-Arnold Geometry\" (Vanherreweghe et al., arXiv:2511.21626v2). **The problem:** The paper claims ~30% lower PR with augmentation. After 6 code iterations and full paper conformance (h=256, Cosine scheduler, 10k samples), I consistently got +29% — the opposite direction. **The discovery:** The paper cites Freedman & Mulligan (arXiv:2509.12326) for the Participation Ratio. - Freedman Eq. IV.5 (p.17): PR = ‖m‖₁ / ‖m‖₂ - Vanherreweghe Eq. 3 (p.4): PR = ‖m‖₂ / ‖m‖₁ The formula is inverted. **Results:** - L2/L1 (paper): +29.0% - L1/L2 (original): -22.5% ✅ The original formula reproduces the claimed effect. **Takeaway:** The paper's conclusions appear correct, but the formula as written gives opposite results. This is why reproduction matters. Full write-up with code: https://open.substack.com/pub/mehmetgoekce/p/i-tried-to-reproduce-an-ai-paper?r=241asc&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true Has anyone else encountered similar notation issues when reproducing papers? submitted by /u/m3m3o [link] [comments]",
+    "author": "/u/m3m3o",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I attempted to reproduce &quot;Scale-Agnostic Kolmogorov-Arnold Geometry&quot; (Vanherreweghe et al., arXiv:2511.21626v2).</p> <p>**The problem:**</p> <p>The paper claims ~30% lower PR with augmentation. After 6 code iterations and full paper conformance (h=256, Cosine scheduler, 10k samples), I consistently got +29% — the opposite direction.</p> <p>**The discovery:**</p> <p>The paper cites Freedman &amp; Mulligan (arXiv:2509.12326) for the Participation Ratio.</p> <p>- Freedman Eq. IV.5 (p.17): PR = ‖m‖₁ / ‖m‖₂</p> <p>- Vanherreweghe Eq. 3 (p.4): PR = ‖m‖₂ / ‖m‖₁</p> <p>The formula is inverted.</p> <p>**Results:**</p> <p>- L2/L1 (paper): +29.0%</p> <p>- L1/L2 (original): -22.5% ✅</p> <p>The original formula reproduces the claimed effect.</p> <p>**Takeaway:**</p> <p>The paper's conclusions appear correct, but the formula as written gives opposite results. This is why reproduction matters.</p> <p>Full write-up with code: <a href=\"https://open.substack.com/pub/mehmetgoekce/p/i-tried-to-reproduce-an-ai-paper?r=241asc&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true\">https://open.substack.com/pub/mehmetgoekce/p/i-tried-to-reproduce-an-ai-paper?r=241asc&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true</a></p> <p>Has anyone else encountered similar notation issues when reproducing papers? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/m3m3o\"> /u/m3m3o </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pk6844/r_reproduced_scaleagnostic_kag_paper_found_the_pr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pk6844/r_reproduced_scaleagnostic_kag_paper_found_the_pr/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "889763b4-b503-5d8c-88a8-4716446b6656",
     "title": "[D] ARR October 2026 Discussion",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pk4tjx/d_arr_october_2026_discussion/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>New 50 hallucinations in ICLR 2026 submissions were found after scanning only 300 submissions. Some of the papers are top-tier, likely oral (8+), and others have very high scores. The fabricated citations were missed by all 3-4+ reviewers.</p> <p><a href=\"https://gptzero.me/news/iclr-2026/\">https://gptzero.me/news/iclr-2026/</a></p> <p>Plase bring this to the attention of the program commitee of ICLR.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/anikpramanikcse\"> /u/anikpramanikcse </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pg1og8/d_top_iclr_2026_papers_found_with_fake_citations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pg1og8/d_top_iclr_2026_papers_found_with_fake_citations/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d8730cd1-d8bb-551f-a9cf-4b0a14dc2889",
-    "title": "[P] Bulk download NeurIPS 2025 papers (orals/spotlights/accepted) from OpenReview",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pg1gra/p_bulk_download_neurips_2025_papers/",
-    "pubDate": "2025-12-06T22:08:59+00:00",
-    "description": "Hi all, NeurIPS 2025 is running, which means the yearly ritual of trying to keep up with way too many PDFs. OpenReview Downloader GitHub: https://github.com/mireklzicar/openreview_downloader pip install openreview_downloader Usage: ordl oral --venue-id NeurIPS.cc/2025/Conference Output: downloads └── neurips2025 └── oral ├── 27970_Deep_Compositional_Phase_Diffusion.pdf ... └── 28928_Generalized_Linear_Mode_Connectivity.pdf Where it might be useful: To have everything locally for offline reading + search. To print or put it into your Kindle or tablet. To get a quick feel for how many orals/spotlights/accepted papers NeurIPS has this year. Maybe to dump drag it into Gemini or dump into single file and ask GPT questions about it. submitted by /u/Putrid_Construction3 [link] [comments]",
-    "author": "/u/Putrid_Construction3",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pg1gra/p_bulk_download_neurips_2025_papers/\"> <img alt=\"[P] Bulk download NeurIPS 2025 papers (orals/spotlights/accepted) from OpenReview\" src=\"https://external-preview.redd.it/pI4xlHY6rWZXhUhKPSpbn74blZRsxX-1YjC1krHqLIs.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4513bf7f969063cbfe1711a3781823083d19f323\" title=\"[P] Bulk download NeurIPS 2025 papers (orals/spotlights/accepted) from OpenReview\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>NeurIPS 2025 is running, which means the yearly ritual of trying to keep up with way too many PDFs.</p> <p>OpenReview Downloader</p> <p>GitHub: <a href=\"https://github.com/mireklzicar/openreview_downloader\">https://github.com/mireklzicar/openreview_downloader</a></p> <p><code>pip install openreview_downloader</code></p> <p>Usage:<br /> <code>ordl oral --venue-id</code> <a href=\"http://NeurIPS.cc/2025/Conference\"><code>NeurIPS.cc/2025/Conference</code></a></p> <p>Output:</p> <pre><code>downloads └── neurips2025 └── oral ├── 27970_Deep_Compositional_Phase_Diffusion.pdf ... └── 28928_Generalized_Linear_Mode_Connectivity.pdf </code></pre> <p>Where it might be useful:</p> <ul> <li>To have everything locally for offline reading + search.</li> <li>To print or put it into your Kindle or tablet.</li> <li>To get a quick feel for how many orals/spotlights/accepted papers NeurIPS has this year.</li> <li>Maybe to dump drag it into Gemini or dump into single file and ask GPT questions about it.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Putrid_Construction3\"> /u/Putrid_Construction3 </a> <br /> <span><a href=\"https://github.com/mireklzicar/openreview_downloader\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pg1gra/p_bulk_download_neurips_2025_papers/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/pI4xlHY6rWZXhUhKPSpbn74blZRsxX-1YjC1krHqLIs.png?width=640&crop=smart&auto=webp&s=4513bf7f969063cbfe1711a3781823083d19f323",
     "isShortVideo": 0
   }
 ]

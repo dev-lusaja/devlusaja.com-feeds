@@ -1,5 +1,21 @@
 [
   {
+    "id": "19549f04-a1c6-585b-ade9-43736c9d203e",
+    "title": "[D] Looking for feedback on a lightweight PyTorch profiler I am building (2-min survey)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1patj0o/d_looking_for_feedback_on_a_lightweight_pytorch/",
+    "pubDate": "2025-11-30T21:07:59+00:00",
+    "description": "Hi all, I have been building a small lightweight open-source tool called TraceML to debug PyTorch training runs live. It tracks things like: GPU/CPU usage, activation + gradient memory, slow dataloader steps, overall memory summary Before I add more features and finalize the dashboard, I want to understand what actually matters to people who train models regularly. If you train NLP / CV / LLM / RL / multimodal models, a quick response here would really help: 👉 Survey (2 mins): https://forms.gle/vaDQao8L81oAoAkv9 👉 GitHub: https://github.com/traceopt-ai/traceml I would really appreciate any input, even a few clicks helps me prioritize the roadmap. Thanks! submitted by /u/traceml-ai [link] [comments]",
+    "author": "/u/traceml-ai",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I have been building a small lightweight open-source tool called TraceML to debug PyTorch training runs live. It tracks things like:</p> <p>GPU/CPU usage, activation + gradient memory, slow dataloader steps, overall memory summary</p> <p>Before I add more features and finalize the dashboard, I want to understand what actually matters to people who train models regularly.</p> <p>If you train NLP / CV / LLM / RL / multimodal models, a quick response here would really help:</p> <p>👉 Survey (2 mins): <a href=\"https://forms.gle/vaDQao8L81oAoAkv9\">https://forms.gle/vaDQao8L81oAoAkv9</a> 👉 GitHub: <a href=\"https://github.com/traceopt-ai/traceml\">https://github.com/traceopt-ai/traceml</a></p> <p>I would really appreciate any input, even a few clicks helps me prioritize the roadmap.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/traceml-ai\"> /u/traceml-ai </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1patj0o/d_looking_for_feedback_on_a_lightweight_pytorch/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1patj0o/d_looking_for_feedback_on_a_lightweight_pytorch/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "941c3a67-1057-5098-9137-dc9694996a09",
     "title": "[P] Outcome-based learning vs vector search: 100% vs 3.3% accuracy on adversarial queries (p=0.001) - looking for feedback on approach",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pamsiu/p_outcomebased_learning_vs_vector_search_100_vs/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it just me or is it weird that the MICCAI has no exact dates and the call for papers is blank?</p> <p>Is it normal for MICCAI to be so late in releasing this info? I assume it will be safe to start writing using last year's templates and instructions, but it still feels weird.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/threeebo\"> /u/threeebo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p81mrw/d_miccai_2026_still_has_no_call_for_papers_with_3/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p81mrw/d_miccai_2026_still_has_no_call_for_papers_with_3/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "15237ed7-9bfb-575a-97c5-8db446bf41ae",
-    "title": "[R] Any VLMs that are fully reproducible with clear documentation on how to do so?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p813js/r_any_vlms_that_are_fully_reproducible_with_clear/",
-    "pubDate": "2025-11-27T12:33:06+00:00",
-    "description": "Hello everyone, I’m looking for a recent VLM with results that are truly reproducible, since I want to try out a few architecture ideas. But many papers claim reproducibility without giving clear instructions or complete setups, so spending hundreds of GPU hours without being sire to be able to reproduce the results seems kind of a big risk. For those working with VLMs: which recent models have you found to be genuinely reproducible end to end? Really appreciate any help here! submitted by /u/Training-Adeptness57 [link] [comments]",
-    "author": "/u/Training-Adeptness57",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone, I’m looking for a recent VLM with results that are truly reproducible, since I want to try out a few architecture ideas. But many papers claim reproducibility without giving clear instructions or complete setups, so spending hundreds of GPU hours without being sire to be able to reproduce the results seems kind of a big risk. For those working with VLMs: which recent models have you found to be genuinely reproducible end to end? Really appreciate any help here!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Training-Adeptness57\"> /u/Training-Adeptness57 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p813js/r_any_vlms_that_are_fully_reproducible_with_clear/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p813js/r_any_vlms_that_are_fully_reproducible_with_clear/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

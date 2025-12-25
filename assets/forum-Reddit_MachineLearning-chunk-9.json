@@ -1,5 +1,21 @@
 [
   {
+    "id": "ad2f8227-4e5b-5142-9ce2-dc5129329540",
+    "title": "[D] A Reviewer Posted 40 Weaknesses and 40 Questions",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oyce03/d_a_reviewer_posted_40_weaknesses_and_40_questions/",
+    "pubDate": "2025-11-16T04:28:07+00:00",
+    "description": "I deleted my previous post, as I was too emotional and included a wrong link. As pointed out by the public comment, \"Always the same score (4) and same confidence (5). Clearly not reasonable, at the very least.\" https://openreview.net/forum?id=kDhAiaGzrn https://openreview.net/forum?id=8qk6eUnvbH https://openreview.net/forum?id=GlXyFjUbfN submitted by /u/Dangerous-Hat1402 [link] [comments]",
+    "author": "/u/Dangerous-Hat1402",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I deleted my previous post, as I was too emotional and included a wrong link. As pointed out by the public comment, &quot;Always the same score (4) and same confidence (5). Clearly not reasonable, at the very least.&quot; </p> <ol> <li><p><a href=\"https://openreview.net/forum?id=kDhAiaGzrn\">https://openreview.net/forum?id=kDhAiaGzrn</a></p></li> <li><p><a href=\"https://openreview.net/forum?id=8qk6eUnvbH\">https://openreview.net/forum?id=8qk6eUnvbH</a></p></li> <li><p><a href=\"https://openreview.net/forum?id=GlXyFjUbfN\">https://openreview.net/forum?id=GlXyFjUbfN</a></p></li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dangerous-Hat1402\"> /u/Dangerous-Hat1402 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oyce03/d_a_reviewer_posted_40_weaknesses_and_40_questions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oyce03/d_a_reviewer_posted_40_weaknesses_and_40_questions/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1db28831-8999-5c2e-8205-ba17350b4c42",
     "title": "[D] Do researchers care about non-citation impact metrics? (GitHub, Twitter, HuggingFace, etc.)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oy1t6o/d_do_researchers_care_about_noncitation_impact/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/\"> <img alt=\"[P] NeuralFlight: I rebuilt my 7-year-old BCI drone project with modern ML - now featuring 73% cross-subject motor imagery accuracy\" src=\"https://b.thumbs.redditmedia.com/CBDR9aOGz4Vr6pO7ilUX1Wr7Nfhyy8X67cm3dhJl7_k.jpg\" title=\"[P] NeuralFlight: I rebuilt my 7-year-old BCI drone project with modern ML - now featuring 73% cross-subject motor imagery accuracy\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>In 2018, we built a brain-controlled system for flying machines using MATLAB, an $800 EEG headset, and a $300 drone. It worked, but nobody else could run it. The spaghetti code was one of my major motivations to refactor and re-structure the whole codebase.</p> <p>So I would like to introduce you to NeuralFlight, a re-structured project from our old work where you can control a virtual drone using:</p> <ul> <li><strong>Hand gestures</strong> (move your fist, drone follows, uses Mediapipe)</li> <li><strong>Head movements</strong> (hands-free control, uses Mediapipe) </li> <li><strong>Real EEG motor imagery</strong> (PyTorch, 73% cross-subject accuracy)</li> </ul> <p><strong>EEG Results</strong></p> <p>The motor imagery classifier achieves <strong>73% cross-subject accuracy</strong> on PhysioNet data:</p> <ul> <li><strong>17 EEG channels</strong> (FC3-FC4, C5-C6, CP3-CP4)</li> <li><strong>EEGNet with residual connections</strong> (~10K params)</li> <li><strong>Subject-level split</strong> (30 train, 10 validation)</li> <li><strong>Left/right hand imagination</strong> → drone strafes left/right</li> </ul> <p><strong>Demo</strong> </p> <p><a href=\"https://i.redd.it/7pjr5elhos0g1.gif\">Here is a simple GIF showing real-tme motor imagery classification and the response of the bot</a></p> <p><strong>Try It (GitHub</strong>: <a href=\"https://github.com/dronefreak/NeuralFlight\">NeuralFlight</a><strong>)</strong></p> <pre><code>git clone https://github.com/dronefreak/NeuralFlight cd NeuralFlight pip install -e . # Hand gesture demo neuralflight-hand # Train EEG model (takes ~15 min on RTX 4070 GPU) neuralflight-train # Motor imagery demo neuralflight-eeg </code></pre> <p><strong>Future Roadmap</strong></p> <ul> <li>Support for real drones (DJI Tello for example)</li> <li>4-class motor imagery (forward/back + left/right)</li> <li>Real-time EEG streaming (Muse, OpenBCI)</li> <li>Web dashboard</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Naive-Explanation940\"> /u/Naive-Explanation940 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/CBDR9aOGz4Vr6pO7ilUX1Wr7Nfhyy8X67cm3dhJl7_k.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a0863902-dc1c-5700-bd99-e3fd992b1e20",
-    "title": "[D] Best CV/AI journal to submit an extended CVPR paper",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ouvqbq/d_best_cvai_journal_to_submit_an_extended_cvpr/",
-    "pubDate": "2025-11-12T04:30:42+00:00",
-    "description": "In 2024, I had published a paper in CVPR conference and later extend the idea for possible publication in top journal like T-PAMI and TIP but unfortunately both rejected it. The reason of TPAMI is lack of experiments and some backbones issues and I have covered all things for TIP submission. But TIP rejected it saying you cannot extend conference paper which have 8 pages we only accept extended paper which was published in conference with 6 pages. What should I do? It already a year and I want to publish in good venue as I have to go to industry. submitted by /u/Alternative_Art2984 [link] [comments]",
-    "author": "/u/Alternative_Art2984",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>In 2024, I had published a paper in CVPR conference and later extend the idea for possible publication in top journal like T-PAMI and TIP but unfortunately both rejected it. The reason of TPAMI is lack of experiments and some backbones issues and I have covered all things for TIP submission. But TIP rejected it saying you cannot extend conference paper which have 8 pages we only accept extended paper which was published in conference with 6 pages.</p> <p>What should I do? It already a year and I want to publish in good venue as I have to go to industry.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ouvqbq/d_best_cvai_journal_to_submit_an_extended_cvpr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ouvqbq/d_best_cvai_journal_to_submit_an_extended_cvpr/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
