@@ -334,21 +334,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Wanted to know which software packages/frameworks you guys use for object detection research. I mainly experiment with transformers (dino, detr, etc) and use detrex and dectron2 which i absolutely despise. I am mainly looking for an alternative that would allow me to make architecture modification and changes to the data pipeline in a quicker less opinionated manner</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RaeudigerRaffi\"> /u/RaeudigerRaffi </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1og4s1d/d_which_packages_for_object_detection_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1og4s1d/d_which_packages_for_object_detection_research/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "09332fb0-dfd7-5614-b75f-eb864b8e24fb",
-    "title": "[D] Measuring how similar a vector's neighbourhood (of vectors) is",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/",
-    "pubDate": "2025-10-25T15:01:58+00:00",
-    "description": "Given a word embedding space, I would like to measure how 'substitutable' a word is. Put more formally, how many other embedding vectors are very close to the query word's vector? I'm not sure what the problem I'm describing is called. Maybe I need to measure how dense a query vector's surrounding volume is? Or maybe I just need the mean/median of all the distances from all the vectors to the query vector. Or maybe I need to sort the distances of all the vectors to the query vector and then measure at what point the distances tail off, similar to the elbow method when determining the optimal number of clusters. I'm also not sure this is exactly the same as clustering all the vectors first and then measuring how dense the query vector's cluster is, because the vector might be on the edge of its assigned cluster. submitted by /u/neuralbeans [link] [comments]",
-    "author": "/u/neuralbeans",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Given a word embedding space, I would like to measure how 'substitutable' a word is. Put more formally, how many other embedding vectors are very close to the query word's vector? I'm not sure what the problem I'm describing is called.</p> <p>Maybe I need to measure how dense a query vector's surrounding volume is? Or maybe I just need the mean/median of all the distances from all the vectors to the query vector. Or maybe I need to sort the distances of all the vectors to the query vector and then measure at what point the distances tail off, similar to the elbow method when determining the optimal number of clusters.</p> <p>I'm also not sure this is exactly the same as clustering all the vectors first and then measuring how dense the query vector's cluster is, because the vector might be on the edge of its assigned cluster.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neuralbeans\"> /u/neuralbeans </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
