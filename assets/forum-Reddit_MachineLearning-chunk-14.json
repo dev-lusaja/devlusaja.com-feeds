@@ -1,5 +1,21 @@
 [
   {
+    "id": "b5d505df-e436-5f6e-b369-41839b54b8ed",
+    "title": "[D] What kind of live metrics would actually help you while training ML models?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/",
+    "pubDate": "2025-10-29T06:47:07+00:00",
+    "description": "What kind of live metrics would actually help you while training ML models? I have been exploring real-time observability for ML training, things like seeing GPU memory, timing, and layer activity live instead of waiting for a job to fail or finish. I built a small open-source experiment, TraceML, that currently runs on single-GPU PyTorch training and shows live memory + step timing. I would love input from people who train models regularly, does having live metrics actually help you debug or optimize? What kind of signals would you want to see next? • Multi-GPU utilization / imbalance • Data-loader or transfer bottlenecks • Gradient instability • Throughput (tokens/sec, batches/sec) • Cost or energy estimates Curious what would make something like this genuinely useful ? Repo: https://github.com/traceopt-ai/traceml submitted by /u/traceml-ai [link] [comments]",
+    "author": "/u/traceml-ai",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What kind of live metrics would actually help you while training ML models?</p> <p>I have been exploring real-time observability for ML training, things like seeing GPU memory, timing, and layer activity live instead of waiting for a job to fail or finish.</p> <p>I built a small open-source experiment, TraceML, that currently runs on single-GPU PyTorch training and shows live memory + step timing.</p> <p>I would love input from people who train models regularly, does having live metrics actually help you debug or optimize?</p> <p>What kind of signals would you want to see next? • Multi-GPU utilization / imbalance • Data-loader or transfer bottlenecks • Gradient instability • Throughput (tokens/sec, batches/sec) • Cost or energy estimates</p> <p>Curious what would make something like this genuinely useful ? </p> <p>Repo: <a href=\"https://github.com/traceopt-ai/traceml\">https://github.com/traceopt-ai/traceml</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/traceml-ai\"> /u/traceml-ai </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f8b9b16f-3c0a-5154-96a3-606348b149c8",
     "title": "[P] Jira training dataset to predict development times — where to start?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oiskv0/p_jira_training_dataset_to_predict_development/",
@@ -332,38 +348,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been working on a project that turns the idea of FaceTiming an AI into reality. I used AI to generate a full body person and integrated it into my system which now supports real time video generation and natural communication. When I “FaceTime” my AI, it appears to be doing normal human activities like cooking or shopping… etc and responds in real time. If I ask what it’s making it brings the camera closer to show me, just like a real person would. It’s still in development but the foundation for real time interaction and environment simulation is already working</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Smooth_Resource1616\"> /u/Smooth_Resource1616 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogmqpr/p_i_built_an_ai_you_can_facetime_it_talks_moves/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogmqpr/p_i_built_an_ai_you_can_facetime_it_talks_moves/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ce0e4d56-4dfe-5a78-8bc7-f9bbb1f673b3",
-    "title": "[R] A geometric interpretation of the weight update in GPTQ quantization algorithm and a novel solution",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ogk2mr/r_a_geometric_interpretation_of_the_weight_update/",
-    "pubDate": "2025-10-26T13:02:55+00:00",
-    "description": "GPTQ is a simplified modification of the OBQ method where the weights in a matrix are quantized in each row independently one at a time from left to right. After step i of quantization, the remaining unquantized weights are modified like so: dW[i:] = H[i:,i] dW[i]/H[i,i] . This expression is derived by forming a Lagrangian and setting its gradient to 0. Another way to approach this problem is by using the Cholesky decomposition L of the Hessian H = L @ L.t() directly in the bilinear error term: df = 1/2 * dw^T H dw = 1/2 ||L^T dW||^2 . Thus minimizing the error term is equivalent to minimizing the squared norm of L^T dW . This squared norm can be converted into a form ||a + Mx||^2 where x is the vector of unquantized weights. This function is minimized when Mx equals the negative of projection of a in the column space of M . This provides a geometric interpretation of the weight update: the optimal update negates the projection of the error vector in the column space L . This approach also leads to a new closed form solution that is different from the one above. However it can be shown that both the forms are equivalent. Full details are available in this article . submitted by /u/nivter [link] [comments]",
-    "author": "/u/nivter",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>GPTQ is a simplified modification of the OBQ method where the weights in a matrix are quantized in each row independently one at a time from left to right. After step <code>i</code> of quantization, the remaining unquantized weights are modified like so: <code>dW[i:] = H[i:,i] dW[i]/H[i,i]</code>. This expression is derived by forming a Lagrangian and setting its gradient to 0.</p> <p>Another way to approach this problem is by using the Cholesky decomposition <code>L</code> of the Hessian <code>H = L @ L.t()</code> directly in the bilinear error term: <code>df = 1/2 * dw^T H dw = 1/2 ||L^T dW||^2</code>. Thus minimizing the error term is equivalent to minimizing the squared norm of <code>L^T dW</code>. This squared norm can be converted into a form <code>||a + Mx||^2</code> where <code>x</code> is the vector of unquantized weights. This function is minimized when <code>Mx</code> equals the negative of projection of <code>a</code> in the column space of <code>M</code>. </p> <p>This provides a geometric interpretation of the weight update: <strong>the optimal update negates the projection of the error vector in the column space <code>L</code></strong>. This approach also leads to a new closed form solution that is different from the one above. However it can be shown that both the forms are equivalent.</p> <p>Full details are available <a href=\"https://www.linearalgebraforprogrammers.com/blog/new_proof_gptq\">in this article</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nivter\"> /u/nivter </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogk2mr/r_a_geometric_interpretation_of_the_weight_update/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ogk2mr/r_a_geometric_interpretation_of_the_weight_update/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "637909e1-d96a-5f6a-b845-db0aceae642f",
-    "title": "[D] Building low cost GPU compute in Africa cheap power, solid latency to Brazil/Europe, possibly US for batching",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oggr5l/d_building_low_cost_gpu_compute_in_africa_cheap/",
-    "pubDate": "2025-10-26T09:57:53+00:00",
-    "description": "Hey everyone I’m exploring the idea of setting up a GPU cluster in Angola to provide affordable AI compute (A100s and 5090s). Power costs here are extremely low, and there’s direct Tier-3 connectivity to South America and Europe, mostly southern below 100 ms. Before going further, I wanted to gauge interest would researchers, indie AI teams, or small labs consider renting GPU time if prices were around 30–40 % lower than typical cloud platforms? For US users running batching, scraping, or other non real time workloads where latency isn’t critical but cost efficiency is. Still early stage, just trying to understand the demand and what kind of workloads people would actually use it for. Any feedback is a must, ty. submitted by /u/DjuricX [link] [comments]",
-    "author": "/u/DjuricX",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone</p> <p>I’m exploring the idea of setting up a GPU cluster in Angola to provide affordable AI compute (A100s and 5090s). Power costs here are extremely low, and there’s direct Tier-3 connectivity to South America and Europe, mostly southern below 100 ms.</p> <p>Before going further, I wanted to gauge interest would researchers, indie AI teams, or small labs consider renting GPU time if prices were around 30–40 % lower than typical cloud platforms?</p> <p>For US users running batching, scraping, or other non real time workloads where latency isn’t critical but cost efficiency is.</p> <p>Still early stage, just trying to understand the demand and what kind of workloads people would actually use it for. Any feedback is a must, ty.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DjuricX\"> /u/DjuricX </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oggr5l/d_building_low_cost_gpu_compute_in_africa_cheap/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oggr5l/d_building_low_cost_gpu_compute_in_africa_cheap/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

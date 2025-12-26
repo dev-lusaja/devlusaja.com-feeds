@@ -1,5 +1,21 @@
 [
   {
+    "id": "3ae1cbd4-c40c-5480-b3b0-9561aacd0f1c",
+    "title": "[D] Simple Questions Thread",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pbgjin/d_simple_questions_thread/",
+    "pubDate": "2025-12-01T16:00:54+00:00",
+    "description": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread! submitted by /u/AutoModerator [link] [comments]",
+    "author": "/u/AutoModerator",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>Thanks to everyone for answering questions in the previous thread!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pbgjin/d_simple_questions_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pbgjin/d_simple_questions_thread/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fd676ed3-fb08-589d-834d-09f622c7a5ad",
     "title": "[N] Initial Analysis of OpenReview API Security Incident",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pbdwp3/n_initial_analysis_of_openreview_api_security/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am working on JEPA 2 model and i have checked their github repo <a href=\"https://github.com/facebookresearch/vjepa2\">https://github.com/facebookresearch/vjepa2</a> but unable to find language alignment model.</p> <p>Are there any alternative available?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8iwz3/r_unable_to_find_jepa_2_language_alignment_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8iwz3/r_unable_to_find_jepa_2_language_alignment_model/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a4f33b6b-31e5-5750-851b-a56b3ffc004e",
-    "title": "Model can’t learn thin cosmic filaments from galaxy maps. Any advice? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p8anko/model_cant_learn_thin_cosmic_filaments_from/",
-    "pubDate": "2025-11-27T19:20:29+00:00",
-    "description": "Hello everyone, I’m working on a project where I try to predict cosmic filaments from galaxy distributions around clusters. Input: A 256×256 multi-channel image per cluster: raw galaxy points smoothed density gradient magnitude radial distance map Target: A 1-pixel-wide filament skeleton generated with a software called DisPerSE (topological filament finder). The dataset is ~1900 samples, consistent and clean. Masks align with density ridges. The problem No matter what I try, the model completely fails to learn the filament structure. All predictions collapse into fuzzy blobs or circular shapes around the cluster. Metrics stay extremely low: Dice 0.08-0.12 Dilated Dice 0.18-0.23 IoU ~0.00-0.06 What I’ve already tried U-Net model Dice / BCE / Tversky / Focal Tversky Multi-channel input (5 channels) Heavy augmentation Oversampling positives LR schedules & longer training Thick → thin mask variants Still no meaningful improvement, the model refuses to pick up thin filamentary structure. Are U-Nets fundamentally bad for super-thin, sparse topology ? Should I consider other models, or should I fine-tune a model trained on similar problems? Should I avoid 1-pixel skeletons and instead predict distance maps / thicker masks? Is my methodology simply wrong? Any tips from people who’ve done thin-structure segmentation (vessels, roads, nerves)? submitted by /u/Seifu25 [link] [comments]",
-    "author": "/u/Seifu25",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone,</p> <p>I’m working on a project where I try to <strong>predict cosmic filaments</strong> from <strong>galaxy distributions</strong> around clusters.</p> <p><strong>Input:</strong><br /> A 256×256 multi-channel image per cluster:</p> <ul> <li>raw galaxy points</li> <li>smoothed density</li> <li>gradient magnitude</li> <li>radial distance map</li> </ul> <p><strong>Target:</strong><br /> A <em>1-pixel-wide</em> filament skeleton generated with a software called <strong>DisPerSE</strong> (topological filament finder).</p> <p>The dataset is ~1900 samples, consistent and clean. Masks align with density ridges.</p> <h1>The problem</h1> <p>No matter what I try, the model completely fails to learn the filament structure.<br /> All predictions collapse into fuzzy blobs or circular shapes around the cluster.</p> <p><strong>Metrics stay extremely low:</strong></p> <ul> <li>Dice 0.08-0.12</li> <li>Dilated Dice 0.18-0.23</li> <li>IoU ~0.00-0.06</li> </ul> <h1>What I’ve already tried</h1> <ul> <li>U-Net model</li> <li>Dice / BCE / Tversky / Focal Tversky</li> <li>Multi-channel input (5 channels)</li> <li>Heavy augmentation</li> <li>Oversampling positives</li> <li>LR schedules &amp; longer training</li> <li>Thick → thin mask variants</li> </ul> <p>Still no meaningful improvement, the model refuses to pick up thin filamentary structure.</p> <p>Are U-Nets fundamentally bad for <strong>super-thin, sparse topology</strong>? Should I consider other models, or should I fine-tune a model trained on similar problems?</p> <p>Should I avoid 1-pixel skeletons and instead predict distance maps / thicker masks?</p> <p>Is my methodology simply wrong?</p> <p>Any tips from people who’ve done thin-structure segmentation (vessels, roads, nerves)?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Seifu25\"> /u/Seifu25 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8anko/model_cant_learn_thin_cosmic_filaments_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8anko/model_cant_learn_thin_cosmic_filaments_from/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

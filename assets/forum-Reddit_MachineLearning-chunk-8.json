@@ -1,5 +1,21 @@
 [
   {
+    "id": "0cbfe3bb-61ac-5a57-ad31-6373efa2f321",
+    "title": "Edge vs Cloud GPU Inference [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p11yk0/edge_vs_cloud_gpu_inference_d/",
+    "pubDate": "2025-11-19T08:18:54+00:00",
+    "description": "Hi, I have developed a few algorithms. They require heavier GPUs. The daily container cost is about $0.30 cents for an H200. Not a lot of inference needs to be made, but when it does, it requires beefier algorithms. So my options are either a $2500 edge GPU (and pay no container costs), or $9/mo in GPU rentals. It takes between 60 and 300ms for inference on cloud. If this was on edge it would probably be 10 to 50ms. I am just wondering if there are any reasons to do edge inference at the moment? My container seems to be working pretty good. The inference time is good for my use case. Are there any reasons I would use a $2500 gpu? Let's say my use case was wildlife detection, and my budget was $500 for a piece of hardware. Why would I choose an edge GPU over a cloud API call for this use case? I guess I am moreso asking if edge is more preferred than cloud for use cases other than self-driving or robotics, where <100ms is absolutely necessary. Regards submitted by /u/Apart_Situation972 [link] [comments]",
+    "author": "/u/Apart_Situation972",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>I have developed a few algorithms. They require heavier GPUs. The daily container cost is about $0.30 cents for an H200. Not a lot of inference needs to be made, but when it does, it requires beefier algorithms. So my options are either a $2500 edge GPU (and pay no container costs), or $9/mo in GPU rentals. It takes between 60 and 300ms for inference on cloud. If this was on edge it would probably be 10 to 50ms.</p> <p>I am just wondering if there are any reasons to do edge inference at the moment? My container seems to be working pretty good. The inference time is good for my use case.</p> <p>Are there any reasons I would use a $2500 gpu? Let's say my use case was wildlife detection, and my budget was $500 for a piece of hardware. Why would I choose an edge GPU over a cloud API call for this use case?</p> <p>I guess I am moreso asking if edge is more preferred than cloud for use cases other than self-driving or robotics, where &lt;100ms is absolutely necessary.</p> <p>Regards</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apart_Situation972\"> /u/Apart_Situation972 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p11yk0/edge_vs_cloud_gpu_inference_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p11yk0/edge_vs_cloud_gpu_inference_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "70e16c57-e9a2-54fa-b662-541cdd8fe3ff",
     "title": "[D] Exploring a High-Accountability Peer Collaboration Model for Intermediate ML Engineers/Researchers",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p0zzob/d_exploring_a_highaccountability_peer/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zvone187\"> /u/zvone187 </a> <br /> <span><a href=\"https://arxiv.org/abs/2510.19169\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozh7fs/openguardrails_opensource_ai_safety_and_guardrail/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b9c779aa-928e-5000-aba1-7f70011ba221",
-    "title": "[D] Do industry researchers log test set results when training production-level models?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oz3he6/d_do_industry_researchers_log_test_set_results/",
-    "pubDate": "2025-11-17T01:38:18+00:00",
-    "description": "Training production-level models can be very costly. As the title suggests, I am wondering if the models released by these big tech companies are trained to optimize for held-out test sets. Or maybe the models are trained with an RL feedback using the performance on test sets. submitted by /u/casualcreak [link] [comments]",
-    "author": "/u/casualcreak",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Training production-level models can be very costly. As the title suggests, I am wondering if the models released by these big tech companies are trained to optimize for held-out test sets. Or maybe the models are trained with an RL feedback using the performance on test sets.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/casualcreak\"> /u/casualcreak </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oz3he6/d_do_industry_researchers_log_test_set_results/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oz3he6/d_do_industry_researchers_log_test_set_results/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

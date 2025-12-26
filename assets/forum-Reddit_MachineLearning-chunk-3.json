@@ -1,5 +1,21 @@
 [
   {
+    "id": "bef26bba-1e71-5c2f-be67-13a319b3dfd3",
+    "title": "[D] What's the SOTA audio classification model/method?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pkmpl0/d_whats_the_sota_audio_classification_modelmethod/",
+    "pubDate": "2025-12-12T08:19:39+00:00",
+    "description": "I have bunch of unlabeled song stems that I'd like to tag with their proper instrument but so far CLAP is not that reliable. For the most part it gets the main instruments like vocals, guitar, drums correct but when falls apart when something more niche plays like whistling, flute, different keys, world instruments like accordion etc. I've also looked into Sononym but it's also not 100% reliable, or close to it Maybe the CLAP model I'm using is not the best? I have laion/clap-htsat-unfused submitted by /u/lucellent [link] [comments]",
+    "author": "/u/lucellent",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have bunch of unlabeled song stems that I'd like to tag with their proper instrument but so far CLAP is not that reliable. For the most part it gets the main instruments like vocals, guitar, drums correct but when falls apart when something more niche plays like whistling, flute, different keys, world instruments like accordion etc.</p> <p>I've also looked into Sononym but it's also not 100% reliable, or close to it</p> <p>Maybe the CLAP model I'm using is not the best? I have laion/clap-htsat-unfused</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lucellent\"> /u/lucellent </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pkmpl0/d_whats_the_sota_audio_classification_modelmethod/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pkmpl0/d_whats_the_sota_audio_classification_modelmethod/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c14bf3ac-4aeb-51ca-98ce-955c5be915b2",
     "title": "[P] I built an open plant species classification model trained on 2M+ iNaturalist images",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pklrqa/p_i_built_an_open_plant_species_classification/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>While looking at every step of a production RAG workflow, not the model, but the upstream mechanics we usually skip over.</p> <p>A consistent pattern emerged: Retrieval quality rarely degrades because the embedding model or similarity search changed. It degrades because the inputs feeding the index drift quietly over time.</p> <p>The workflow made the failure modes look obvious: • Ingestion variability (OCR quirks, HTML collapse, PDF exporter differences) • Boundary drift in chunking when document formatting shifts • Metadata inconsistencies that silently reshape retrieval neighborhoods • Partial re-embeddings mixing old and new distributions • Index rebuilds triggered by segmentation differences rather than actual content changes Once the upstream steps were made deterministic, canonical text snapshots, versioned chunkers, metadata validation, full-corpus re-embeddings after ingestion changes the retrieval, layer became predictable again.</p> <p>This aligned with what I’ve seen in other AI systems: instability often originates in preprocessing and data transformations, not in the model architecture.</p> <p>I’m curious how others think about RAG reliability from a systems perspective rather than a model-centric one.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pgp5ci/d_what_a_full_workflow_taught_me_about_where/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pgp5ci/d_what_a_full_workflow_taught_me_about_where/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6bbce801-36cd-52bb-961e-23d5ca55b955",
-    "title": "[P] Fully Determined Contingency Races as Proposed Benchmark",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pgiuyr/p_fully_determined_contingency_races_as_proposed/",
-    "pubDate": "2025-12-07T13:52:52+00:00",
-    "description": "Contingency Races is a planning benchmark because it creates a fully determined yet complex system that is unique every time. This forces models to actively simulate the mechanics rather than relying on memorization, ensuring they are truly reasoning. https://dormantone.github.io/priscillacontingencyrace/ submitted by /u/DepartureNo2452 [link] [comments]",
-    "author": "/u/DepartureNo2452",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pgiuyr/p_fully_determined_contingency_races_as_proposed/\"> <img alt=\"[P] Fully Determined Contingency Races as Proposed Benchmark\" src=\"https://preview.redd.it/yg26nw4kes5g1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6cb93a441b1ba6b577bdf5719e8f89a3d4230151\" title=\"[P] Fully Determined Contingency Races as Proposed Benchmark\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Contingency Races is a planning benchmark because it creates a fully determined yet complex system that is unique every time. This forces models to actively simulate the mechanics rather than relying on memorization, ensuring they are truly reasoning.</p> <p><a href=\"https://dormantone.github.io/priscillacontingencyrace/\">https://dormantone.github.io/priscillacontingencyrace/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DepartureNo2452\"> /u/DepartureNo2452 </a> <br /> <span><a href=\"https://i.redd.it/yg26nw4kes5g1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pgiuyr/p_fully_determined_contingency_races_as_proposed/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/yg26nw4kes5g1.png?width=640&crop=smart&auto=webp&s=6cb93a441b1ba6b577bdf5719e8f89a3d4230151",
     "isShortVideo": 0
   }
 ]
