@@ -94,53 +94,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>As you might know, the CVPR deadline is getting close, and I’m planning to submit there for the first time. I’d really appreciate any advice on how to approach the writing, what are the best styles, tones, or structures that make a strong impression?</p> <p>Also, if you have tips on how to present the “story” of the paper effectively, I’d love to hear them.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jackeswin\"> /u/jackeswin </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohq5f8/r_advice_for_firsttime_cvpr_submission/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohq5f8/r_advice_for_firsttime_cvpr_submission/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "5feb13bf-375f-52fa-8eb9-0ced1d5741f7",
-    "title": "[R] Help with Image Classification Experimentation (Skin Cancer Detection)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/",
-    "pubDate": "2025-10-27T20:17:36+00:00",
-    "description": "Hello i am a student currently working on my project skin cancer multiclass classification using clinical images(non-dermascopic) and have merged clinical images from 3 datasets(pad ufes,milk 10k,HIBA dataset) but the issue is that i am really stuck as i cant get the scores above 0.60 recall for some class and other is stuck at 0.30. i dont know if this is a cleaning issue or not choosing the optimum augmentation techniques and the model. It would bereally helpfull if i could get some help thankyou! submitted by /u/Intelligent_Bit2487 [link] [comments]",
-    "author": "/u/Intelligent_Bit2487",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello i am a student currently working on my project skin cancer multiclass classification using clinical images(non-dermascopic) and have merged clinical images from 3 datasets(pad ufes,milk 10k,HIBA dataset) but the issue is that i am really stuck as i cant get the scores above 0.60 recall for some class and other is stuck at 0.30. i dont know if this is a cleaning issue or not choosing the optimum augmentation techniques and the model. It would bereally helpfull if i could get some help thankyou!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Intelligent_Bit2487\"> /u/Intelligent_Bit2487 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a3e23d07-c70d-5dc7-bd4a-52e37454713f",
-    "title": "[P] Need ArXiv endorsement for my accepted ML paper",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/",
-    "pubDate": "2025-10-27T15:36:03+00:00",
-    "description": "Hi everyone, I recently had a paper accepted at a ML conference (can share details in DM). I’m trying to upload it to arXiv as a next step in conference publications but my account requires an endorsement in the corresponding CS category. I’ve reached out to people in my org without much luck so far. If anyone here is an arXiv endorser for a CS/ML category and is open to helping, I’d really appreciate it. Happy to share the abstract and author details privately. Thanks in advance! submitted by /u/Baby-Heisenberg [link] [comments]",
-    "author": "/u/Baby-Heisenberg",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/MachineLearning/?f=flair_name%3A%22Research%22\"></a>Hi everyone,</p> <p>I recently had a paper accepted at a ML conference (can share details in DM). I’m trying to upload it to arXiv as a next step in conference publications but my account requires an endorsement in the corresponding CS category.</p> <p>I’ve reached out to people in my org without much luck so far. If anyone here is an arXiv endorser for a CS/ML category and is open to helping, I’d really appreciate it.</p> <p>Happy to share the abstract and author details privately.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Baby-Heisenberg\"> /u/Baby-Heisenberg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohhoo6/p_need_arxiv_endorsement_for_my_accepted_ml_paper/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e948b531-95ba-5729-aad4-52d592dbc5eb",
-    "title": "[D] For those who’ve published on code reasoning — how did you handle dataset collection and validation?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ohge3t/d_for_those_whove_published_on_code_reasoning_how/",
-    "pubDate": "2025-10-27T14:47:49+00:00",
-    "description": "I’ve been diving into how people build datasets for code-related ML research — things like program synthesis, code reasoning, SWE-bench-style evaluation, or DPO/RLHF. From what I’ve seen, most projects still rely on scraping or synthetic generation, with a lot of manual cleanup and little reproducibility. Even published benchmarks vary wildly in annotation quality and documentation. So I’m curious: How are you collecting or validating your datasets for code-focused experiments? Are you using public data, synthetic generation, or human annotation pipelines? What’s been the hardest part — scale, quality, or reproducibility? I’ve been studying this problem closely and have been experimenting with a small side project to make dataset creation easier for researchers (happy to share more if anyone’s interested). Would love to hear what’s worked — or totally hasn’t — in your experience :) submitted by /u/pgreggio [link] [comments]",
-    "author": "/u/pgreggio",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been diving into how people build datasets for code-related ML research — things like program synthesis, code reasoning, SWE-bench-style evaluation, or DPO/RLHF.</p> <p>From what I’ve seen, <strong>most projects still rely on scraping or synthetic generation, with a lot of manual cleanup and little reproducibility.</strong></p> <p>Even published benchmarks vary wildly in annotation quality and documentation.</p> <p>So I’m curious:</p> <ol> <li>How are you collecting or validating your datasets for code-focused experiments?</li> <li>Are you using public data, synthetic generation, or human annotation pipelines?</li> <li>What’s been the hardest part — scale, quality, or reproducibility?</li> </ol> <p><strong>I’ve been studying this problem closely and have been experimenting with a small side project to make dataset creation easier for researchers (happy to share more if anyone’s interested).</strong></p> <p>Would love to hear what’s worked — or totally hasn’t — in your experience :) </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pgreggio\"> /u/pgreggio </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohge3t/d_for_those_whove_published_on_code_reasoning_how/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ohge3t/d_for_those_whove_published_on_code_reasoning_how/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
