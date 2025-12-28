@@ -1,6 +1,6 @@
 {
-  "totalItems": 22567,
-  "generatedAt": "2025-12-28T09:22:33.534902Z",
+  "totalItems": 22477,
+  "generatedAt": "2025-12-28T15:26:27.626265Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -180,19 +180,19 @@
   ],
   "byType": {
     "educational": {
-      "totalItems": 55,
+      "totalItems": 54,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 2984,
+      "totalItems": 2957,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 2048,
+      "totalItems": 2031,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -210,7 +210,7 @@
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 197,
+      "totalItems": 195,
       "totalChunks": 7,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -221,7 +221,7 @@
       {
         "category": "MachineLearningMastery",
         "title": "Machine Learning Mastery",
-        "count": 52,
+        "count": 51,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "educational-MachineLearningMastery"
@@ -239,7 +239,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 1297,
+        "count": 1284,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -247,7 +247,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 1249,
+        "count": 1237,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -255,7 +255,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 438,
+        "count": 436,
         "isPriority": true,
         "totalChunks": 15,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -265,7 +265,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 3251,
+        "count": 3232,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -273,7 +273,7 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 351,
+        "count": 348,
         "isPriority": true,
         "totalChunks": 12,
         "chunkPrefix": "notice-LaNacion_AR"
@@ -281,7 +281,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 348,
+        "count": 343,
         "isPriority": true,
         "totalChunks": 12,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -289,15 +289,15 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 301,
+        "count": 300,
         "isPriority": true,
-        "totalChunks": 11,
+        "totalChunks": 10,
         "chunkPrefix": "notice-El_Pais"
       },
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 216,
+        "count": 213,
         "isPriority": true,
         "totalChunks": 8,
         "chunkPrefix": "notice-Towards"
@@ -305,18 +305,10 @@
       {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 178,
+        "count": 179,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-Xataka"
-      },
-      {
-        "category": "Euronews",
-        "title": "Euronews",
-        "count": 153,
-        "isPriority": true,
-        "totalChunks": 6,
-        "chunkPrefix": "notice-Euronews"
       },
       {
         "category": "ElComercio_PE",
@@ -327,12 +319,12 @@
         "chunkPrefix": "notice-ElComercio_PE"
       },
       {
-        "category": "Nvidia",
-        "title": "Nvidia",
-        "count": 120,
+        "category": "Euronews",
+        "title": "Euronews",
+        "count": 151,
         "isPriority": true,
-        "totalChunks": 4,
-        "chunkPrefix": "notice-Nvidia"
+        "totalChunks": 6,
+        "chunkPrefix": "notice-Euronews"
       },
       {
         "category": "Wired_ES",
@@ -343,9 +335,17 @@
         "chunkPrefix": "notice-Wired_ES"
       },
       {
+        "category": "Nvidia",
+        "title": "Nvidia",
+        "count": 104,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-Nvidia"
+      },
+      {
         "category": "KDnuggets",
         "title": "KDnuggets",
-        "count": 101,
+        "count": 100,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-KDnuggets"
@@ -353,7 +353,7 @@
       {
         "category": "OpenAI",
         "title": "OpenAI",
-        "count": 87,
+        "count": 86,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-OpenAI"
@@ -361,7 +361,7 @@
       {
         "category": "AWS",
         "title": "AWS",
-        "count": 56,
+        "count": 54,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-AWS"
@@ -369,7 +369,7 @@
       {
         "category": "MIT_AI",
         "title": "MIT Tech Review AI",
-        "count": 42,
+        "count": 41,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-MIT_AI"
@@ -385,9 +385,9 @@
       {
         "category": "HuggingFace",
         "title": "HuggingFace",
-        "count": 36,
+        "count": 30,
         "isPriority": true,
-        "totalChunks": 2,
+        "totalChunks": 1,
         "chunkPrefix": "notice-HuggingFace"
       },
       {
@@ -401,7 +401,7 @@
       {
         "category": "anthropic",
         "title": "Anthropic",
-        "count": 12,
+        "count": 11,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-anthropic"
@@ -461,7 +461,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 290,
+    "totalItems": 288,
     "totalChunks": 10,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
