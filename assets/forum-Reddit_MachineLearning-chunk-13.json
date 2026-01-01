@@ -1,5 +1,21 @@
 [
   {
+    "id": "b3e90042-5155-588a-a6b8-09faf6a1850d",
+    "title": "[D] Is ST-MOE model Decoder only or Encoder-Decoder architecture?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/",
+    "pubDate": "2025-11-06T06:32:09+00:00",
+    "description": "Hey Folks, I'm reading https://arxiv.org/abs/2202.08906 paper and I'm not super clear whether the ST-MOE-32B is encoder-decoder model or decoder only model. Based on the token trace detailed for encoder and decoder experts separately in section 7, I believe it is encoder-decoder, but would like to confirm with someone who has worked on it. Please let me know if I misunderstood something here. Thanks submitted by /u/red_dhinesh_it [link] [comments]",
+    "author": "/u/red_dhinesh_it",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey Folks,</p> <p>I'm reading <a href=\"https://arxiv.org/abs/2202.08906\">https://arxiv.org/abs/2202.08906</a> paper and I'm not super clear whether the ST-MOE-32B is encoder-decoder model or decoder only model. Based on the token trace detailed for encoder and decoder experts separately in section 7, I believe it is encoder-decoder, but would like to confirm with someone who has worked on it. </p> <p>Please let me know if I misunderstood something here.</p> <p>Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/red_dhinesh_it\"> /u/red_dhinesh_it </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1f56a16b-cef5-55d6-b23e-aaa313ded0b6",
     "title": "[D] Favorite Deep Learning Textbook for teaching undergrads?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oprm3b/d_favorite_deep_learning_textbook_for_teaching/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/\"> <img alt=\"[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done\" src=\"https://b.thumbs.redditmedia.com/Vyox911OpvTKBD2aKDBpC16lbRzB7SVYd8ieshYEXrY.jpg\" title=\"[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey everyone! 👋</p> <p>I've been working on Hephaestus - an open-source framework that changes how we think about AI agent workflows.</p> <p><strong>The Problem:</strong> Most agentic frameworks make you define every step upfront. But complex tasks don't work like that - you discover what needs to be done as you go.</p> <p><strong>The Solution:</strong> Semi-structured workflows. You define <em>phases</em> - the logical steps needed to solve a problem (like &quot;Reconnaissance → Investigation → Validation&quot; for pentesting). Then agents dynamically create tasks across these phases based on what they discover.</p> <p>Agents share discoveries through RAG-powered memory and coordinate via a Kanban board. A Guardian agent continuously tracks each agent's behavior and trajectory, steering them in real-time to stay focused on their tasks and prevent drift.</p> <p>🔗 <strong>GitHub:</strong> <a href=\"https://github.com/Ido-Levi/Hephaestus\">https://github.com/Ido-Levi/Hephaestus</a> 📚 <strong>Docs:</strong> <a href=\"https://ido-levi.github.io/Hephaestus/\">https://ido-levi.github.io/Hephaestus/</a></p> <p><strong>Fair warning:</strong> This is a brand new framework I built alone, so expect rough edges and issues. The repo is a bit of a mess right now. If you find any problems, please report them - feedback is very welcome! And if you want to contribute, I'll be more than happy to review it!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Standard_Excuse7988\"> /u/Standard_Excuse7988 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1omluvq\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/Vyox911OpvTKBD2aKDBpC16lbRzB7SVYd8ieshYEXrY.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2973b239-0c2b-5c49-907e-ee0a044a16c5",
-    "title": "[R] TempoPFN: Synthetic Pretraining of Linear RNNs for Zero-Shot Timeseries Forecasting",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1omdrng/r_tempopfn_synthetic_pretraining_of_linear_rnns/",
-    "pubDate": "2025-11-02T10:17:51+00:00",
-    "description": "https://preview.redd.it/h8ax4n36ktyf1.png?width=1080&format=png&auto=webp&s=e1c08e0c0415264d29d72b495a725f857a5fb56e Authors: Vladyslav Moroshan, Julien Siems, Arber Zela, Timur Carstensen, Frank Hutter TempoPFN is a univariate time series foundation model based on linear RNNs that is pre-trained exclusively on synthetic data and achieves competitive zero-shot forecasting performance while maintaining efficient, fully parallelizable training and inference. The model uses a GatedDeltaProduct architecture with state-weaving and outperforms all existing synthetic-only approaches on the Gift-Eval benchmark, with open-sourced code and data pipeline for reproducibility Github: https://github.com/automl/TempoPFN Paper: https://arxiv.org/abs/2510.25502 submitted by /u/iltruma [link] [comments]",
-    "author": "/u/iltruma",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1omdrng/r_tempopfn_synthetic_pretraining_of_linear_rnns/\"> <img alt=\"[R] TempoPFN: Synthetic Pretraining of Linear RNNs for Zero-Shot Timeseries Forecasting\" src=\"https://b.thumbs.redditmedia.com/SJ67B9pPayVIqxEst0UxUm1hpEgGGVK-8aYfutcVGZc.jpg\" title=\"[R] TempoPFN: Synthetic Pretraining of Linear RNNs for Zero-Shot Timeseries Forecasting\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/h8ax4n36ktyf1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=e1c08e0c0415264d29d72b495a725f857a5fb56e\">https://preview.redd.it/h8ax4n36ktyf1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=e1c08e0c0415264d29d72b495a725f857a5fb56e</a></p> <p><em>Authors:</em> Vladyslav Moroshan, Julien Siems, Arber Zela, Timur Carstensen, Frank Hutter</p> <p>TempoPFN is a univariate time series foundation model based on linear RNNs that is pre-trained exclusively on synthetic data and achieves competitive zero-shot forecasting performance while maintaining efficient, fully parallelizable training and inference. The model uses a GatedDeltaProduct architecture with state-weaving and outperforms all existing synthetic-only approaches on the Gift-Eval benchmark, with open-sourced code and data pipeline for reproducibility </p> <p><em>Github:</em> <a href=\"https://github.com/automl/TempoPFN\">https://github.com/automl/TempoPFN</a></p> <p><em>Paper:</em> <a href=\"https://arxiv.org/abs/2510.25502\">https://arxiv.org/abs/2510.25502</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iltruma\"> /u/iltruma </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omdrng/r_tempopfn_synthetic_pretraining_of_linear_rnns/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omdrng/r_tempopfn_synthetic_pretraining_of_linear_rnns/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/SJ67B9pPayVIqxEst0UxUm1hpEgGGVK-8aYfutcVGZc.jpg",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "111a3c91-753b-51dc-a249-c72eda921a38",
+    "title": "[D] Feature Selection Techniques for Very Large Datasets",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pwo61s/d_feature_selection_techniques_for_very_large/",
+    "pubDate": "2025-12-27T04:02:19+00:00",
+    "description": "For those that have built models using data from a vendor like Axciom, what methods have you used for selecting features when there are hundreds to choose from? I currently use WoE and IV, which has been successful, but I’m eager to learn from others that may have been in a similar situation. submitted by /u/Babbage224 [link] [comments]",
+    "author": "/u/Babbage224",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>For those that have built models using data from a vendor like Axciom, what methods have you used for selecting features when there are hundreds to choose from? I currently use WoE and IV, which has been successful, but I’m eager to learn from others that may have been in a similar situation.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Babbage224\"> /u/Babbage224 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pwo61s/d_feature_selection_techniques_for_very_large/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pwo61s/d_feature_selection_techniques_for_very_large/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "543018fb-d0dc-5fea-82c7-1169f4c32401",
     "title": "[R] How to decide between which theoretical result to present?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pwi8s3/r_how_to_decide_between_which_theoretical_result/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello all,</p> <p>I am working a time series subsequence matching problem. I have lost of time series data, each ~1000x3 dimensions. I have 3-4 known patterns in those time series data, each is of ~300x3 dimension.</p> <p>I am now using some existing methods like stumpy, dtaidistance to find those patterns in the large dataset. However I don’t have ground truth. So I can’t perform quantitative evaluation.</p> <p>Any suggestions? I saw some unsupervised clustering metrics like silhouette score, Davis bouldin score. Not sure how much sense they make for my problem. I can do research to create my own evaluation metrics though but lack guidance. So any suggestions would be appreciated. I was thinking if I can use something like KL divergence or some distribution alignment if I manually label some samples and create a small test set?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zillur-av\"> /u/zillur-av </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pt8vg6/r_evaluation_metrics_for_unsupervised_subsequence/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pt8vg6/r_evaluation_metrics_for_unsupervised_subsequence/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9aeae8ad-2876-5855-b676-b9ac573a1534",
-    "title": "[R] Universal Reasoning Model",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pt7vk8/r_universal_reasoning_model/",
-    "pubDate": "2025-12-22T19:01:56+00:00",
-    "description": "paper: https://arxiv.org/abs/2512.14693 Sounds like a further improvement in the spirit of HRM & TRM models. 53.8% pass@1 on ARC-AGI 1 and 16.0% pass@1 on ARC-AGI 2 Decent comment via x: https://x.com/r0ck3t23/status/2002383378566303745 I continue to be fascinated by these architectures that: - Build in recurrence / inference scaling to transformers more natively. - Don't use full recurrent gradient traces, and succeed not just despite, but *because* of that. submitted by /u/marojejian [link] [comments]",
-    "author": "/u/marojejian",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>paper:</p> <p><a href=\"https://arxiv.org/abs/2512.14693\">https://arxiv.org/abs/2512.14693</a></p> <p>Sounds like a further improvement in the spirit of HRM &amp; TRM models. </p> <p>53.8% pass@1 on ARC-AGI 1 and 16.0% pass@1 on ARC-AGI 2</p> <p>Decent comment via x:</p> <p><a href=\"https://x.com/r0ck3t23/status/2002383378566303745\">https://x.com/r0ck3t23/status/2002383378566303745</a></p> <p>I continue to be fascinated by these architectures that: </p> <p>- Build in recurrence / inference scaling to transformers more natively.</p> <p>- Don't use full recurrent gradient traces, and succeed not just despite, but *because* of that.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/marojejian\"> /u/marojejian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pt7vk8/r_universal_reasoning_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pt7vk8/r_universal_reasoning_model/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
