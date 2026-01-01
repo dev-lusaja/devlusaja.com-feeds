@@ -1,5 +1,37 @@
 [
   {
+    "id": "02ea75e8-3cb9-5e23-a2e6-5cc21b1f2720",
+    "title": "[P] SDialog: Open-source toolkit for building, simulating, and evaluating LLM-based conversational agents",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1opzxoy/p_sdialog_opensource_toolkit_for_building/",
+    "pubDate": "2025-11-06T14:10:32+00:00",
+    "description": "Hi community! We started working on SDialog during the Johns Hopkins University JSALT 2025 workshop, and over time, we’ve refined it into a toolkit we believe is now mature enough for an initial public release. We hope SDialog is useful for the community and that the community can help us improve and expand it . SDialog is an MIT-licensed open-source toolkit for building, simulating, and evaluating LLM-based conversational agents end-to-end . You can define personas, orchestrators, and tools to create realistic multi-agent dialogs; evaluate them with classical metrics or LLM-as-judge; and inspect per-token activations for mechanistic interpretability and steering , enabling fine-grained analysis of model behavior. It aims to bridge agent construction → dialog generation → evaluation (and optionally) → interpretability in a single reproducible workflow. Repo: GitHub Docs: ReadTheDocs We welcome contributions, feedback, and discussions to make SDialog more powerful and versatile. If you find SDialog useful, supporting the project on GitHub helps us continue improving it and makes it more visible to the community. submitted by /u/sergbur [link] [comments]",
+    "author": "/u/sergbur",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi community! We started working on SDialog during the <strong>Johns Hopkins University</strong> JSALT 2025 workshop, and over time, we’ve refined it into a toolkit we believe is now mature enough for an initial public release. <strong>We hope SDialog is useful for the community and that the community can help us improve and expand it</strong>.</p> <p><strong>SDialog</strong> is an MIT-licensed open-source toolkit for <strong>building, simulating, and evaluating LLM-based conversational agents end-to-end</strong>. You can define personas, orchestrators, and tools to create realistic multi-agent dialogs; evaluate them with classical metrics or LLM-as-judge; and inspect per-token activations for <strong>mechanistic interpretability and steering</strong>, enabling fine-grained analysis of model behavior.</p> <p>It aims to bridge <em>agent construction → dialog generation → evaluation (and optionally) → interpretability</em> in a single reproducible workflow.</p> <ul> <li><strong>Repo:</strong> <strong><a href=\"https://github.com/idiap/sdialog\">GitHub</a></strong></li> <li><strong>Docs:</strong> <strong><a href=\"https://sdialog.readthedocs.io\">ReadTheDocs</a></strong></li> </ul> <p>We welcome contributions, feedback, and discussions to make SDialog more powerful and versatile. <strong>If you find SDialog useful, supporting the project on GitHub helps us continue improving it and makes it more visible to the community.</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sergbur\"> /u/sergbur </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1opzxoy/p_sdialog_opensource_toolkit_for_building/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1opzxoy/p_sdialog_opensource_toolkit_for_building/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "753c29de-c4ce-550a-ab5d-8ddee1ce843b",
+    "title": "[D] Kosmos achieves 79.4% accuracy in 12-hour autonomous research sessions, but verification remains the bottleneck",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1opy7b9/d_kosmos_achieves_794_accuracy_in_12hour/",
+    "pubDate": "2025-11-06T12:57:27+00:00",
+    "description": "I wrote a deep-dive on Kosmos after seeing lots of hype about \"autonomous scientific discovery.\" The honest assessment: it's research acceleration, not autonomy. • 79.4% accuracy (20.6% failure rate matters) • 42,000 lines of code through iterative refinement • Reviews 1,500 papers via semantic search • But verification is still fully human-bound https://rewire.it/blog/kosmos-12-hour-ai-research-session/ submitted by /u/Fair-Rain3366 [link] [comments]",
+    "author": "/u/Fair-Rain3366",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I wrote a deep-dive on Kosmos after seeing lots of hype about &quot;autonomous scientific discovery.&quot; The honest assessment: it's research acceleration, not autonomy.</p> <p>• 79.4% accuracy (20.6% failure rate matters)</p> <p>• 42,000 lines of code through iterative refinement</p> <p>• Reviews 1,500 papers via semantic search</p> <p>• But verification is still fully human-bound</p> <p><a href=\"https://rewire.it/blog/kosmos-12-hour-ai-research-session/\">https://rewire.it/blog/kosmos-12-hour-ai-research-session/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fair-Rain3366\"> /u/Fair-Rain3366 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1opy7b9/d_kosmos_achieves_794_accuracy_in_12hour/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1opy7b9/d_kosmos_achieves_794_accuracy_in_12hour/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b3e90042-5155-588a-a6b8-09faf6a1850d",
     "title": "[D] Is ST-MOE model Decoder only or Encoder-Decoder architecture?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>This is a question from reviewers, AC, or similar positions? Do you have any idea what is the target AAAI acceptance rate for this year (CV, ML, NLP) track?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/That_Wish2205\"> /u/That_Wish2205 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a2cdaa5d-4b93-5e08-9e08-ec7c2db0d115",
-    "title": "[D] AAAI 26 Decisions (Main Technical Track)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/",
-    "pubDate": "2025-11-02T18:42:01+00:00",
-    "description": "It seems the final decisions for the Social Impact and Alignment track will be released by November 3rd. Good luck to everyone! submitted by /u/Senior-Let-7576 [link] [comments]",
-    "author": "/u/Senior-Let-7576",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>It seems the final decisions for the Social Impact and Alignment track will be released by November 3rd.</p> <p>Good luck to everyone! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Senior-Let-7576\"> /u/Senior-Let-7576 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f319e658-0499-5e2e-8ca5-0d29c65bf851",
-    "title": "[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/",
-    "pubDate": "2025-11-02T16:32:00+00:00",
-    "description": "Hey everyone! 👋 I've been working on Hephaestus - an open-source framework that changes how we think about AI agent workflows. The Problem: Most agentic frameworks make you define every step upfront. But complex tasks don't work like that - you discover what needs to be done as you go. The Solution: Semi-structured workflows. You define phases - the logical steps needed to solve a problem (like \"Reconnaissance → Investigation → Validation\" for pentesting). Then agents dynamically create tasks across these phases based on what they discover. Agents share discoveries through RAG-powered memory and coordinate via a Kanban board. A Guardian agent continuously tracks each agent's behavior and trajectory, steering them in real-time to stay focused on their tasks and prevent drift. 🔗 GitHub: https://github.com/Ido-Levi/Hephaestus 📚 Docs: https://ido-levi.github.io/Hephaestus/ Fair warning: This is a brand new framework I built alone, so expect rough edges and issues. The repo is a bit of a mess right now. If you find any problems, please report them - feedback is very welcome! And if you want to contribute, I'll be more than happy to review it! submitted by /u/Standard_Excuse7988 [link] [comments]",
-    "author": "/u/Standard_Excuse7988",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/\"> <img alt=\"[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done\" src=\"https://b.thumbs.redditmedia.com/Vyox911OpvTKBD2aKDBpC16lbRzB7SVYd8ieshYEXrY.jpg\" title=\"[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey everyone! 👋</p> <p>I've been working on Hephaestus - an open-source framework that changes how we think about AI agent workflows.</p> <p><strong>The Problem:</strong> Most agentic frameworks make you define every step upfront. But complex tasks don't work like that - you discover what needs to be done as you go.</p> <p><strong>The Solution:</strong> Semi-structured workflows. You define <em>phases</em> - the logical steps needed to solve a problem (like &quot;Reconnaissance → Investigation → Validation&quot; for pentesting). Then agents dynamically create tasks across these phases based on what they discover.</p> <p>Agents share discoveries through RAG-powered memory and coordinate via a Kanban board. A Guardian agent continuously tracks each agent's behavior and trajectory, steering them in real-time to stay focused on their tasks and prevent drift.</p> <p>🔗 <strong>GitHub:</strong> <a href=\"https://github.com/Ido-Levi/Hephaestus\">https://github.com/Ido-Levi/Hephaestus</a> 📚 <strong>Docs:</strong> <a href=\"https://ido-levi.github.io/Hephaestus/\">https://ido-levi.github.io/Hephaestus/</a></p> <p><strong>Fair warning:</strong> This is a brand new framework I built alone, so expect rough edges and issues. The repo is a bit of a mess right now. If you find any problems, please report them - feedback is very welcome! And if you want to contribute, I'll be more than happy to review it!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Standard_Excuse7988\"> /u/Standard_Excuse7988 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1omluvq\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/Vyox911OpvTKBD2aKDBpC16lbRzB7SVYd8ieshYEXrY.jpg",
     "isShortVideo": 0
   }
 ]
