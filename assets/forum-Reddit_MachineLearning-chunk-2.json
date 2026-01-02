@@ -1,5 +1,21 @@
 [
   {
+    "id": "aa569853-3285-5aa2-a059-02bfe8967d7e",
+    "title": "[D] Feedback or Collaboration on Machine Learning Simulations?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pux34n/d_feedback_or_collaboration_on_machine_learning/",
+    "pubDate": "2025-12-24T20:53:10+00:00",
+    "description": "Hello, almost two hours ago, I experimented with a mathematical visualization video on AI fine tuning which is mentioned here: https://youtu.be/GuFqldwTAhU?si=ZoHqT5tSWvat_Cfe However, I'm unsure how's this simulation video & how should I move forward? submitted by /u/Repulsive_Extreme_47 [link] [comments]",
+    "author": "/u/Repulsive_Extreme_47",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, almost two hours ago, I experimented with a mathematical visualization video on AI fine tuning which is mentioned here: <a href=\"https://youtu.be/GuFqldwTAhU?si=ZoHqT5tSWvat_Cfe\">https://youtu.be/GuFqldwTAhU?si=ZoHqT5tSWvat_Cfe</a></p> <p>However, I'm unsure how's this simulation video &amp; how should I move forward?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Repulsive_Extreme_47\"> /u/Repulsive_Extreme_47 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pux34n/d_feedback_or_collaboration_on_machine_learning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pux34n/d_feedback_or_collaboration_on_machine_learning/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0c2d72e4-5dad-5c20-bdff-002bdf0c2f58",
     "title": "[D] Is Implementing Machine Learning Algorithms from Scratch Still Worth It for Newers?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1puu1an/d_is_implementing_machine_learning_algorithms/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1prjy85/p_benchmarking_semantic_vs_lexical_deduplication/\"> <img alt=\"[P] Benchmarking Semantic vs. Lexical Deduplication on the Banking77 Dataset. Result: 50.4% redundancy found using Vector Embeddings (all-MiniLM-L6-v2).\" src=\"https://preview.redd.it/gc5oll6pae8g1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1b593298e31c146c5dbd88d44192395b0653d4e6\" title=\"[P] Benchmarking Semantic vs. Lexical Deduplication on the Banking77 Dataset. Result: 50.4% redundancy found using Vector Embeddings (all-MiniLM-L6-v2).\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I recently ran an experiment to quantify &quot;semantic noise&quot; in real-world NLP datasets used for RAG.</p> <p>I took the <strong>Banking77 dataset</strong> (10,003 train rows) and compared standard deduplication methods against a vector-based approach running locally on CPU.</p> <p><strong>The Experiment:</strong></p> <ol> <li><strong>Lexical Dedup (Exact Match/Hash):</strong> Removed <strong>&lt;1%</strong> of rows. The dataset contains many variations of the same intent (e.g., <em>&quot;I lost my card&quot;</em> vs <em>&quot;Card lost, help&quot;</em>).</li> <li><strong>Semantic Dedup (My Implementation):</strong> Used <code>sentence-transformers</code> -&gt; Embeddings -&gt; FAISS L2 Search.</li> </ol> <p><strong>The Results:</strong> At a similarity threshold of <strong>0.90</strong>, the vector-based approach identified that <strong>50.4%</strong> of the dataset consisted of semantic duplicates.</p> <ul> <li><strong>Original:</strong> 10,003 rows.</li> <li><strong>Unique Intents Preserved:</strong> 4,957 rows.</li> <li><strong>False Positives:</strong> Manual inspection of the audit log showed high precision in grouping distinct phrasings of the same intent.</li> </ul> <p><strong>Implementation Details:</strong> To make this scalable for larger datasets without GPU clusters, I built a pipeline using <strong>Polars LazyFrame</strong> for streaming ingestion and quantized FAISS indices.</p> <p>I packaged this logic into an open-source CLI tool (<strong>EntropyGuard</strong>) for reproducible research.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/DamianSiuta/entropyguard\">https://github.com/DamianSiuta/entropyguard</a></p> <p><strong>Discussion:</strong> Has anyone benchmarked how such aggressive deduplication impacts RAG retrieval accuracy? My hypothesis is that clearing the context window of duplicates improves answer quality, but I'd love to see papers/data on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Low-Flow-6572\"> /u/Low-Flow-6572 </a> <br /> <span><a href=\"https://i.redd.it/gc5oll6pae8g1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1prjy85/p_benchmarking_semantic_vs_lexical_deduplication/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/gc5oll6pae8g1.png?width=640&crop=smart&auto=webp&s=1b593298e31c146c5dbd88d44192395b0653d4e6",
-    "isShortVideo": 0
-  },
-  {
-    "id": "663178ad-55b3-5cba-a30f-af977eb714ee",
-    "title": "[D] Why I Built KnowGraph: Static Knowledge Graphs for LLM-Centric Code Understanding",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1prif4y/d_why_i_built_knowgraph_static_knowledge_graphs/",
-    "pubDate": "2025-12-20T16:32:12+00:00",
-    "description": "Most modern LLM-based systems rely heavily on similarity search over embeddings. While effective, this approach often struggles with structural awareness and explainability when applied to large codebases. I built KnowGraph as an experiment in a different direction: deriving static, explicit knowledge graphs directly from repository artifacts (files, modules, symbols, documentation) and using them as a reasoning substrate for language models. Key ideas behind the project: - Repository-first modeling instead of chunk-first processing - Explicit graph edges for structure and dependency relationships - Deterministic, inspectable representations instead of opaque retrieval paths - Treating the LLM as a reasoning layer over structured data The project is intentionally research-oriented and still evolving. My goal is to explore when static knowledge representations provide advantages over purely embedding-driven pipelines, especially for code intelligence. GitHub: https://github.com/yunusgungor/knowgraph I’d appreciate feedback from researchers and practitioners working on knowledge graphs, code understanding, and LLM-based tooling. submitted by /u/codevoygee [link] [comments]",
-    "author": "/u/codevoygee",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most modern LLM-based systems rely heavily on similarity search over embeddings. While effective, this approach often struggles with structural awareness and explainability when applied to large codebases.</p> <p>I built KnowGraph as an experiment in a different direction: deriving static, explicit knowledge graphs directly from repository artifacts (files, modules, symbols, documentation) and using them as a reasoning substrate for language models.</p> <p>Key ideas behind the project: - Repository-first modeling instead of chunk-first processing - Explicit graph edges for structure and dependency relationships - Deterministic, inspectable representations instead of opaque retrieval paths - Treating the LLM as a reasoning layer over structured data</p> <p>The project is intentionally research-oriented and still evolving. My goal is to explore when static knowledge representations provide advantages over purely embedding-driven pipelines, especially for code intelligence.</p> <p>GitHub: <a href=\"https://github.com/yunusgungor/knowgraph\">https://github.com/yunusgungor/knowgraph</a></p> <p>I’d appreciate feedback from researchers and practitioners working on knowledge graphs, code understanding, and LLM-based tooling.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/codevoygee\"> /u/codevoygee </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1prif4y/d_why_i_built_knowgraph_static_knowledge_graphs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1prif4y/d_why_i_built_knowgraph_static_knowledge_graphs/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

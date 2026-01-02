@@ -1,5 +1,21 @@
 [
   {
+    "id": "255c6135-5427-5fa6-a789-235cc48b5065",
+    "title": "[P] Google AI Mode Scraper for dataset creation - No API, educational research tool",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pami1r/p_google_ai_mode_scraper_for_dataset_creation_no/",
+    "pubDate": "2025-11-30T16:30:41+00:00",
+    "description": "Hi r/MachineLearning , Built an educational tool for extracting Google AI Mode responses to create structured datasets for ML research. **Research Applications:** - Creating evaluation benchmarks for Q&A systems - Building comparative datasets across AI platforms - Gathering training examples for specific domains - Analyzing response patterns and formatting - Educational research on AI behavior **Technical Details:** - Pure Python (Selenium + BeautifulSoup) - No API required - direct web scraping - Structured JSON output for ML pipelines - Table extraction with markdown preservation - Batch processing capabilities - Headless operation with stealth features **Output Format:** ```json { \"question\": \"your query\", \"answer\": \"clean paragraph text\", \"tables\": [\"markdown tables\"], \"timestamp\": \"ISO format\" } ``` Perfect for building small-scale datasets for research without API costs. GitHub: https://github.com/Adwaith673/-Google-AI-Mode-Direct-Scraper **Important:** For educational and research purposes only. Not intended for large-scale commercial scraping. Please use responsibly and respect rate limits. Open to feedback from the ML community! submitted by /u/Cool-Statistician880 [link] [comments]",
+    "author": "/u/Cool-Statistician880",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"https://www.reddit.com/r/MachineLearning\">r/MachineLearning</a>, Built an educational tool for extracting Google AI Mode responses to create structured datasets for ML research. </p> <p>**Research Applications:** - Creating evaluation benchmarks for Q&amp;A systems - Building comparative datasets across AI platforms - Gathering training examples for specific domains - Analyzing response patterns and formatting - Educational research on AI behavior </p> <p>**Technical Details:** - Pure Python (Selenium + BeautifulSoup) - No API required - direct web scraping - Structured JSON output for ML pipelines - Table extraction with markdown preservation - Batch processing capabilities - Headless operation with stealth features </p> <p>**Output Format:** ```json { &quot;question&quot;: &quot;your query&quot;, &quot;answer&quot;: &quot;clean paragraph text&quot;, &quot;tables&quot;: [&quot;markdown tables&quot;], &quot;timestamp&quot;: &quot;ISO format&quot; } ``` Perfect for building small-scale datasets for research without API costs. </p> <p>GitHub: <a href=\"https://github.com/Adwaith673/-Google-AI-Mode-Direct-Scraper\">https://github.com/Adwaith673/-Google-AI-Mode-Direct-Scraper</a> </p> <p>**Important:** For educational and research purposes only. Not intended for large-scale commercial scraping. Please use responsibly and respect rate limits. Open to feedback from the ML community!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cool-Statistician880\"> /u/Cool-Statistician880 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pami1r/p_google_ai_mode_scraper_for_dataset_creation_no/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pami1r/p_google_ai_mode_scraper_for_dataset_creation_no/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a85805a7-374c-5a0b-a78d-3d7433adbfb9",
     "title": "[P] I Trained an AI to Beat Donkey Kong's Most IMPOSSIBLE Level (5000000+ At...",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pai2r5/p_i_trained_an_ai_to_beat_donkey_kongs_most/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I’m working on a point cloud completion project and want to eventually write a paper. I’m unsure how to start:</p> <p>Prototype-first: Try a rough solution to get hands-on experience and intuition about the data and challenges. Paper-first: Read relevant research, understand state-of-the-art methods, then design my approach. I feel that attempting something on my own might help me develop “sensitivity” to the problem, but I don’t want to waste time reinventing the wheel.</p> <p>Questions:</p> <p>For research-oriented projects, is it better to start with a rough prototype or study the literature first? How do you balance hands-on experimentation vs. reading papers when aiming to write a paper? Any tips for combining both approaches in point cloud completion? Thanks for any advice or personal experience!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huge-Leek844\"> /u/Huge-Leek844 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p80bo8/d_point_cloud_completion_prototype_first_or_read/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p80bo8/d_point_cloud_completion_prototype_first_or_read/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "92614049-3a8b-50dc-940b-df976c1ec9f1",
-    "title": "[D] How do you know if regression metrics like MSE/RMSE are “good” on their own?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p7v5y2/d_how_do_you_know_if_regression_metrics_like/",
-    "pubDate": "2025-11-27T06:31:09+00:00",
-    "description": "I understand that you can compare two regression models using metrics like MSE, RMSE, or MAE. But how do you know whether an absolute value of MSE/RMSE/MAE is “good”? For example, with RMSE = 30, how do I know if that is good or bad without comparing different models? Is there any rule of thumb or standard way to judge the quality of a regression metric by itself (besides R²)? submitted by /u/Feeling_Bad1309 [link] [comments]",
-    "author": "/u/Feeling_Bad1309",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I understand that you can compare two regression models using metrics like MSE, RMSE, or MAE. But how do you know whether an <em>absolute</em> value of MSE/RMSE/MAE is “good”?</p> <p>For example, with RMSE = 30, how do I know if that is good or bad without comparing different models? Is there any rule of thumb or standard way to judge the quality of a regression metric by itself (besides R²)?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Feeling_Bad1309\"> /u/Feeling_Bad1309 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p7v5y2/d_how_do_you_know_if_regression_metrics_like/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p7v5y2/d_how_do_you_know_if_regression_metrics_like/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

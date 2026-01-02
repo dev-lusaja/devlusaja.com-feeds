@@ -1,5 +1,21 @@
 [
   {
+    "id": "80c0d0b5-fc2a-5e3b-8cf6-bb091b83387d",
+    "title": "Recommended Venue for Applied ML Paper [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q25g6v/recommended_venue_for_applied_ml_paper_r/",
+    "pubDate": "2026-01-02T17:54:07+00:00",
+    "description": "Hi there, I have been recently working on a project involving human-like thinking in chess. While there are existing works such as Maia (NeurIPS 2024), I have been working on a model that naturally develops this kind of thinking. The core algorithm is just an extension of the existing models, with some novelty in how it is used (but the human-like thinking comes naturally), and the results are implicitly comparable or better than the baselines. I was wondering what could be a good potential venue to submit this work. I see a special track at IJCAI on Human Centered AI to be a potential venue, but given I plan to submit some other work (and the new policy requiring $100/paper for more than 1 paper), I was wondering what could be a potential venue. PS: Open for TMLR-type Journal Recommendations as well submitted by /u/Fantastic-Nerve-4056 [link] [comments]",
+    "author": "/u/Fantastic-Nerve-4056",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi there, I have been recently working on a project involving human-like thinking in chess. While there are existing works such as Maia (NeurIPS 2024), I have been working on a model that naturally develops this kind of thinking.</p> <p>The core algorithm is just an extension of the existing models, with some novelty in how it is used (but the human-like thinking comes naturally), and the results are implicitly comparable or better than the baselines.</p> <p>I was wondering what could be a good potential venue to submit this work. I see a special track at IJCAI on Human Centered AI to be a potential venue, but given I plan to submit some other work (and the new policy requiring $100/paper for more than 1 paper), I was wondering what could be a potential venue.</p> <p>PS: Open for TMLR-type Journal Recommendations as well</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fantastic-Nerve-4056\"> /u/Fantastic-Nerve-4056 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q25g6v/recommended_venue_for_applied_ml_paper_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q25g6v/recommended_venue_for_applied_ml_paper_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b96cceaf-2973-550b-95a9-61fe4f6176c3",
     "title": "[D] Is Artificial General Intelligence Just Hype?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q1xutl/d_is_artificial_general_intelligence_just_hype/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I read the different TPU papers and was pretty impressed with what Google has done with building the TPUs.</p> <p>I was surprised to also learn that Google uses a more advanced fabrication compared to Nvidia for their Blackwell.</p> <p>The end result would be a lot more efficient chip compared to Nvidia.</p> <p>But how much more efficient? Take Gemini for example and serving that model.</p> <p>If Google used Nvidia instead of their own chip how much more cost would there be?</p> <p>50% more? 100% more? Would love to hear some guesses on just how much more efficient the TPUs might be over the best from Nvidia?</p> <p>Also, I am curious what Nvidia could do to change the situation. It would seem to me that Nvidia would have to rearchitect their chips to use something more like Google is doing with the systolic architecture so you do not have to go back to memory as that is very expensive.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bartturner\"> /u/bartturner </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzg7ed/d_ironwolf_tpu_versus_blackwell_for_inference/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzg7ed/d_ironwolf_tpu_versus_blackwell_for_inference/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "64fdcbab-325e-5b6f-a8bf-a17ab0752f55",
-    "title": "[D] Bridging the Gap between Synthetic Media Generation and Forensic Detection: A Perspective from Industry",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pzffku/d_bridging_the_gap_between_synthetic_media/",
-    "pubDate": "2025-12-30T11:08:49+00:00",
-    "description": "As a team working on enterprise-scale media synthesis at Futurism AI, we’ve been tracking the delta between generative capabilities and forensic detection. Recent surveys (like the one on ScienceDirect) confirm a growing 'Generalization Gap.' While academic detectors work on benchmarks, they often fail in production environments against OOD (Out-of-Distribution) data. From our internal testing, we’ve identified three critical friction points: Architecture-Specific Artifacts: We’ve moved beyond simple GAN noise. High-fidelity Diffusion models produce far fewer 'checkerboard' artifacts, making frequency-domain detection increasingly unreliable. Multimodal Drift: The hardest part of 'Digital Human' consistency isn't the pixels; it's the phase alignment between audio phonemes and micro-expression transients. The Provenance Shift: We’re seeing a shift from 'Post-hoc Detection' (trying to catch fakes) toward 'Proactive Provenance' (C2PA/Watermarking). For those of you in research, do you think we will ever see a 'Universal Detector' that can generalize across different latent space architectures, or is the future of media purely a 'Proof of Origin' model (Hardware-level signing)? submitted by /u/Futurismtechnologies [link] [comments]",
-    "author": "/u/Futurismtechnologies",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As a team working on enterprise-scale media synthesis at Futurism AI, we’ve been tracking the delta between generative capabilities and forensic detection.</p> <p>Recent surveys (like the one on ScienceDirect) confirm a growing 'Generalization Gap.' While academic detectors work on benchmarks, they often fail in production environments against OOD (Out-of-Distribution) data.</p> <p>From our internal testing, we’ve identified three critical friction points:</p> <ol> <li>Architecture-Specific Artifacts: We’ve moved beyond simple GAN noise. High-fidelity Diffusion models produce far fewer 'checkerboard' artifacts, making frequency-domain detection increasingly unreliable.</li> <li>Multimodal Drift: The hardest part of 'Digital Human' consistency isn't the pixels; it's the phase alignment between audio phonemes and micro-expression transients.</li> <li>The Provenance Shift: We’re seeing a shift from 'Post-hoc Detection' (trying to catch fakes) toward 'Proactive Provenance' (C2PA/Watermarking).</li> </ol> <p>For those of you in research, do you think we will ever see a 'Universal Detector' that can generalize across different latent space architectures, or is the future of media purely a 'Proof of Origin' model (Hardware-level signing)?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Futurismtechnologies\"> /u/Futurismtechnologies </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzffku/d_bridging_the_gap_between_synthetic_media/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzffku/d_bridging_the_gap_between_synthetic_media/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

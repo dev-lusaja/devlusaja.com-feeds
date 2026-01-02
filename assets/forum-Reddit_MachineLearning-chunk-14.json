@@ -1,5 +1,21 @@
 [
   {
+    "id": "0087a092-09c5-5766-bc08-4ff361565710",
+    "title": "[D] PhD New Grad Role OA",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oogsl7/d_phd_new_grad_role_oa/",
+    "pubDate": "2025-11-04T19:30:19+00:00",
+    "description": "Hi everyone, I have an upcoming online assignment HackerRank for PhD Machine Learning New Grad role at Stripe. I haven’t found any info about ML roles and most of the info is about SWE roles. Do you think it will be similar to SWE assignments? or more focused on machine learning tasks such as model training on a dataset? Or more like a leetcode style? It says: 90-minute, assess your coding and machine learning skills. I was wondering if anybody has some insight or tips to share. Would truly appreciate that! submitted by /u/NeM000N [link] [comments]",
+    "author": "/u/NeM000N",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have an upcoming online assignment HackerRank for PhD Machine Learning New Grad role at Stripe. I haven’t found any info about ML roles and most of the info is about SWE roles.</p> <p>Do you think it will be similar to SWE assignments? or more focused on machine learning tasks such as model training on a dataset? Or more like a leetcode style?</p> <p>It says: 90-minute, assess your coding and machine learning skills.</p> <p>I was wondering if anybody has some insight or tips to share. Would truly appreciate that!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeM000N\"> /u/NeM000N </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oogsl7/d_phd_new_grad_role_oa/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oogsl7/d_phd_new_grad_role_oa/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1fff6eaa-154c-5289-9052-c8e78c2040c2",
     "title": "[D] Moral Uncertainty Around Emerging AI Introspection",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ooaj2e/d_moral_uncertainty_around_emerging_ai/",
@@ -221,38 +237,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>This is a question from reviewers, AC, or similar positions? Do you have any idea what is the target AAAI acceptance rate for this year (CV, ML, NLP) track?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/That_Wish2205\"> /u/That_Wish2205 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omv5d9/r_aaai_2026_target_acceptance_rate/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a2cdaa5d-4b93-5e08-9e08-ec7c2db0d115",
-    "title": "[D] AAAI 26 Decisions (Main Technical Track)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/",
-    "pubDate": "2025-11-02T18:42:01+00:00",
-    "description": "It seems the final decisions for the Social Impact and Alignment track will be released by November 3rd. Good luck to everyone! submitted by /u/Senior-Let-7576 [link] [comments]",
-    "author": "/u/Senior-Let-7576",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>It seems the final decisions for the Social Impact and Alignment track will be released by November 3rd.</p> <p>Good luck to everyone! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Senior-Let-7576\"> /u/Senior-Let-7576 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omp7j3/d_aaai_26_decisions_main_technical_track/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f319e658-0499-5e2e-8ca5-0d29c65bf851",
-    "title": "[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/",
-    "pubDate": "2025-11-02T16:32:00+00:00",
-    "description": "Hey everyone! 👋 I've been working on Hephaestus - an open-source framework that changes how we think about AI agent workflows. The Problem: Most agentic frameworks make you define every step upfront. But complex tasks don't work like that - you discover what needs to be done as you go. The Solution: Semi-structured workflows. You define phases - the logical steps needed to solve a problem (like \"Reconnaissance → Investigation → Validation\" for pentesting). Then agents dynamically create tasks across these phases based on what they discover. Agents share discoveries through RAG-powered memory and coordinate via a Kanban board. A Guardian agent continuously tracks each agent's behavior and trajectory, steering them in real-time to stay focused on their tasks and prevent drift. 🔗 GitHub: https://github.com/Ido-Levi/Hephaestus 📚 Docs: https://ido-levi.github.io/Hephaestus/ Fair warning: This is a brand new framework I built alone, so expect rough edges and issues. The repo is a bit of a mess right now. If you find any problems, please report them - feedback is very welcome! And if you want to contribute, I'll be more than happy to review it! submitted by /u/Standard_Excuse7988 [link] [comments]",
-    "author": "/u/Standard_Excuse7988",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/\"> <img alt=\"[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done\" src=\"https://b.thumbs.redditmedia.com/Vyox911OpvTKBD2aKDBpC16lbRzB7SVYd8ieshYEXrY.jpg\" title=\"[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey everyone! 👋</p> <p>I've been working on Hephaestus - an open-source framework that changes how we think about AI agent workflows.</p> <p><strong>The Problem:</strong> Most agentic frameworks make you define every step upfront. But complex tasks don't work like that - you discover what needs to be done as you go.</p> <p><strong>The Solution:</strong> Semi-structured workflows. You define <em>phases</em> - the logical steps needed to solve a problem (like &quot;Reconnaissance → Investigation → Validation&quot; for pentesting). Then agents dynamically create tasks across these phases based on what they discover.</p> <p>Agents share discoveries through RAG-powered memory and coordinate via a Kanban board. A Guardian agent continuously tracks each agent's behavior and trajectory, steering them in real-time to stay focused on their tasks and prevent drift.</p> <p>🔗 <strong>GitHub:</strong> <a href=\"https://github.com/Ido-Levi/Hephaestus\">https://github.com/Ido-Levi/Hephaestus</a> 📚 <strong>Docs:</strong> <a href=\"https://ido-levi.github.io/Hephaestus/\">https://ido-levi.github.io/Hephaestus/</a></p> <p><strong>Fair warning:</strong> This is a brand new framework I built alone, so expect rough edges and issues. The repo is a bit of a mess right now. If you find any problems, please report them - feedback is very welcome! And if you want to contribute, I'll be more than happy to review it!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Standard_Excuse7988\"> /u/Standard_Excuse7988 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1omluvq\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1omluvq/p_introducing_hephaestus_ai_workflows_that_build/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/Vyox911OpvTKBD2aKDBpC16lbRzB7SVYd8ieshYEXrY.jpg",
     "isShortVideo": 0
   }
 ]
