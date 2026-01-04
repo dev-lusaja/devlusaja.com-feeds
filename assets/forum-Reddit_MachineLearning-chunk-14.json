@@ -1,5 +1,37 @@
 [
   {
+    "id": "b3e90042-5155-588a-a6b8-09faf6a1850d",
+    "title": "[D] Is ST-MOE model Decoder only or Encoder-Decoder architecture?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/",
+    "pubDate": "2025-11-06T06:32:09+00:00",
+    "description": "Hey Folks, I'm reading https://arxiv.org/abs/2202.08906 paper and I'm not super clear whether the ST-MOE-32B is encoder-decoder model or decoder only model. Based on the token trace detailed for encoder and decoder experts separately in section 7, I believe it is encoder-decoder, but would like to confirm with someone who has worked on it. Please let me know if I misunderstood something here. Thanks submitted by /u/red_dhinesh_it [link] [comments]",
+    "author": "/u/red_dhinesh_it",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey Folks,</p> <p>I'm reading <a href=\"https://arxiv.org/abs/2202.08906\">https://arxiv.org/abs/2202.08906</a> paper and I'm not super clear whether the ST-MOE-32B is encoder-decoder model or decoder only model. Based on the token trace detailed for encoder and decoder experts separately in section 7, I believe it is encoder-decoder, but would like to confirm with someone who has worked on it. </p> <p>Please let me know if I misunderstood something here.</p> <p>Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/red_dhinesh_it\"> /u/red_dhinesh_it </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oproth/d_is_stmoe_model_decoder_only_or_encoderdecoder/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "1f56a16b-cef5-55d6-b23e-aaa313ded0b6",
+    "title": "[D] Favorite Deep Learning Textbook for teaching undergrads?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1oprm3b/d_favorite_deep_learning_textbook_for_teaching/",
+    "pubDate": "2025-11-06T06:27:42+00:00",
+    "description": "Hello. For the people here who have taught an undergraduate deep learning course, what's your favorite textbook that you have used and why? Leaning towards the Chris Murphy textbook just based on familiarity with Pattern Recognition and ML text but would love to hear what people have used before. submitted by /u/stabmasterarson213 [link] [comments]",
+    "author": "/u/stabmasterarson213",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello. For the people here who have taught an undergraduate deep learning course, what's your favorite textbook that you have used and why? Leaning towards the Chris Murphy textbook just based on familiarity with Pattern Recognition and ML text but would love to hear what people have used before.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/stabmasterarson213\"> /u/stabmasterarson213 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oprm3b/d_favorite_deep_learning_textbook_for_teaching/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oprm3b/d_favorite_deep_learning_textbook_for_teaching/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "234c4a7d-4757-5dbc-b6f2-0fa8acd9d19e",
     "title": "[P] Generating Knowledge Graphs From Unstructured Text Data",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1opohcg/p_generating_knowledge_graphs_from_unstructured/",
@@ -220,22 +252,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>So I came across a Starter Story video where two guys (plus a third person) claim they trained an AI text humanizer on 1.2 million samples across 50+ languages in 3 weeks. They're also claiming someone copied their entire business model (text-polish.com). That's suspicious.</p> <p>Training an AI model—even fine-tuning one—requires serious time. Data collection, cleaning, testing, deployment... and they did all that in 3 weeks? The only way that's realistic is if they didn't actually train anything from scratch.</p> <p>Here's the thing though—I tested their French output and it got flagged as 100% AI. That's the real giveaway. If they built sophisticated models for 50+ languages, why would French be that bad?</p> <p>Cross-lingual models are notoriously harder to get right than single-language ones. The fact that their non-English output is garbage suggests they didn't actually invest in real multilingual development. The &quot;1.2 million samples&quot; claim is probably just marketing noise.</p> <p>And if a competitor built the same thing quickly too, that actually proves the barrier to entry is low. It means whatever they're using is accessible and readily available. Truly proprietary tech wouldn't be that easy to replicate.</p> <p>What surprised me most: neither co-founder has an AI/ML background. Creating a sophisticated model from scratch without that expertise is... unlikely.</p> <p>I'm pretty sure they're using a readily available tool or API under the hood. Has anyone tried both products? What's your take on how they actually built this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Previous-Year-2139\"> /u/Previous-Year-2139 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ooa6xm/d_did_they_actually_build_naturalwritecom_or/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ooa6xm/d_did_they_actually_build_naturalwritecom_or/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8a8eb698-3208-580c-aacf-0431ca728b19",
-    "title": "[D] Best venue for low-resource benchmark paper?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oo3s87/d_best_venue_for_lowresource_benchmark_paper/",
-    "pubDate": "2025-11-04T10:17:59+00:00",
-    "description": "Hi everyone, I recently got my paper rejected from the AAAI Social Impact Track. It’s a multimodal benchmark paper for a single low-resource language. The reviews were borderline, and the main concerns were that (1) it’s not multilingual, and (2) it’s “just a benchmark” without an initial baseline method. Now we're considering where to resubmit. Since NLP venues tend to be more open to low-resource language work, I’m thinking about ACL or TACL, but I’m not sure which would be more suitable for this kind of paper. Since the bar for ACL main is very high, we’re mainly aiming for the Findings track. I’m also considering TACL, but I’m not very familiar with how selective/suitable it is. UPDATE: We’d also like to find a venue with an upcoming submission deadline that fits the current timeline (Nov 2025). Would appreciate any suggestions, especially other venues that might be a good fit for benchmark papers focused on low-resource languages. Thanks! submitted by /u/Substantial-Air-1285 [link] [comments]",
-    "author": "/u/Substantial-Air-1285",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I recently got my paper rejected from the AAAI Social Impact Track. It’s a multimodal benchmark paper for a single low-resource language. The reviews were borderline, and the main concerns were that (1) it’s not multilingual, and (2) it’s “just a benchmark” without an initial baseline method.</p> <p>Now we're considering where to resubmit. Since NLP venues tend to be more open to low-resource language work, <strong>I’m thinking about ACL or TACL, but I’m not sure which would be more suitable for this kind of paper.</strong> Since the bar for ACL main is very high, we’re mainly aiming for the Findings track. I’m also considering TACL, but I’m not very familiar with how selective/suitable it is.</p> <p>UPDATE: We’d also like to find a venue with an upcoming submission deadline that fits the current timeline (Nov 2025).</p> <p>Would appreciate any suggestions, especially <strong>other venues that might be a good fit</strong> for benchmark papers focused on low-resource languages.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Substantial-Air-1285\"> /u/Substantial-Air-1285 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oo3s87/d_best_venue_for_lowresource_benchmark_paper/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oo3s87/d_best_venue_for_lowresource_benchmark_paper/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
