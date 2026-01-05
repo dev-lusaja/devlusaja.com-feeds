@@ -1,5 +1,21 @@
 [
   {
+    "id": "34bacfe0-e8f8-5886-b8b1-31354e99ce91",
+    "title": "[D] Best lightweight GenAI for synthetic weather time-series (CPU training <5 min)?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pi7r17/d_best_lightweight_genai_for_synthetic_weather/",
+    "pubDate": "2025-12-09T13:43:26+00:00",
+    "description": "I'm building a module for an energy system planning tool and need to generate realistic future hourly wind/solar profiles based on about 10 years of historical data. The catch is that the model needs to be trained locally on the user's CPU at runtime, meaning the whole training and inference process has to finish in under 5 minutes. I want to move away from adding simple Gaussian noise because it messes up correlations, so I'm currently thinking of implementing a Conditional VAE trained on 24h sequences since it seems like the best balance between speed and stability. Does C-VAE make sense for this kind of \"on-the-fly\" constraint, or is there a better lightweight architecture I should look into? submitted by /u/Minute-Ad-5060 [link] [comments]",
+    "author": "/u/Minute-Ad-5060",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm building a module for an energy system planning tool and need to generate realistic future hourly wind/solar profiles based on about 10 years of historical data. The catch is that the model needs to be trained locally on the user's CPU at runtime, meaning the whole training and inference process has to finish in under 5 minutes. I want to move away from adding simple Gaussian noise because it messes up correlations, so I'm currently thinking of implementing a Conditional VAE trained on 24h sequences since it seems like the best balance between speed and stability. Does C-VAE make sense for this kind of &quot;on-the-fly&quot; constraint, or is there a better lightweight architecture I should look into?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Minute-Ad-5060\"> /u/Minute-Ad-5060 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pi7r17/d_best_lightweight_genai_for_synthetic_weather/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pi7r17/d_best_lightweight_genai_for_synthetic_weather/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7f7f795e-72b5-53ca-8ea1-8f876d6972b2",
     "title": "[D] any labs/research groups/communities focusing on ML technologies for small enterprises?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>So i am thinking about a mobile app where users can signs in the camera and it will be translated to the corresponding word that they are currently signing. And i have tried to use Bi-LSTM model for this for an example model, and currently i have 150 words/class and there are a lot of words where the sign is confusing a word for another word. I am a new in machine learning and I would like to ask you guys what other algorithm of machine learning would be the best for this project. I have also trued using CNN-LSTM but i am having a hard time to make a model that works because its hard preprocessing a whole video of my datasets. Do you guys any have more ideas what algorithms i can use, currently in my model i am using bi-lstm with mediapipe pose + handlandmarks to try to recognize the signs but the problem is when i integrate this to a mobile app the landmarks of mediapipe are not reliable leading to inaccurate translation of signs so if you could also suggest some algorithm where there is a chance to not use landmarks since in integration to monile mediapipe landmarks is really not reliable to be dependent on for my model. Thanks so much and hoping for your kind insights</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Commercial-Ad-5957\"> /u/Commercial-Ad-5957 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pepjtf/r_machine_learning_model_algorithm_for_sign/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pepjtf/r_machine_learning_model_algorithm_for_sign/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ac1e4fd3-33a2-5903-90c0-c704e4070312",
-    "title": "[D] Common reasons ACL submissions are rejected",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1peml7p/d_common_reasons_acl_submissions_are_rejected/",
-    "pubDate": "2025-12-05T05:10:42+00:00",
-    "description": "Obviously completely nuanced, circumstantial and an unproductive question. Nonetheless, I’m aiming for my first research artefact being a submission to ACL in Jan. I’d be curious to know if there are any common trip-ups that basically rule-out a paper. I.e is there a checklist of common things people do wrong that reviewers look at and are compelled to discard? Yes, I’ll chat to my PI about it. Yes, I’m interested in crowdsourced opinions also. Cheers submitted by /u/Distinct-Gas-1049 [link] [comments]",
-    "author": "/u/Distinct-Gas-1049",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Obviously completely nuanced, circumstantial and an unproductive question.</p> <p>Nonetheless, I’m aiming for my first research artefact being a submission to ACL in Jan. I’d be curious to know if there are any common trip-ups that basically rule-out a paper. I.e is there a checklist of common things people do wrong that reviewers look at and are compelled to discard?</p> <p>Yes, I’ll chat to my PI about it. Yes, I’m interested in crowdsourced opinions also.</p> <p>Cheers</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Distinct-Gas-1049\"> /u/Distinct-Gas-1049 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1peml7p/d_common_reasons_acl_submissions_are_rejected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1peml7p/d_common_reasons_acl_submissions_are_rejected/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
