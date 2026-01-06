@@ -1,5 +1,37 @@
 [
   {
+    "id": "cc23bd8d-1f61-571c-8ee7-7eab960e8278",
+    "title": "Gen AI Super-resolution Accelerates Weather Prediction with Scalable, Low-Compute Models",
+    "link": "https://developer.nvidia.com/blog/gen-ai-super-resolution-accelerates-weather-prediction-with-scalable-low-compute-models/",
+    "pubDate": "2025-11-10T19:29:53+00:00",
+    "description": "As AI weather and climate prediction models rapidly gain adoption, the NVIDIA Earth-2 platform provides libraries and tools for accelerating solutions using a...",
+    "author": "Alicia Sui",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Earth2-CorDiff.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Earth2-CorDiff\" width=\"600\" />As AI weather and climate prediction models rapidly gain adoption, the NVIDIA Earth-2 platform provides libraries and tools for accelerating solutions using a...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Earth2-CorDiff.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Earth2-CorDiff\" width=\"600\" /><p>As AI weather and climate prediction models rapidly gain adoption, the NVIDIA Earth-2 platform provides libraries and tools for accelerating solutions using a GPU-optimized software stack. Downscaling, which is the task of refining coarse-resolution (25km scale) weather data, enables national meteorological service (NMS) agencies to deliver high-resolution predictions for agriculture, energy…</p>\n<p><a href=\"https://developer.nvidia.com/blog/gen-ai-super-resolution-accelerates-weather-prediction-with-scalable-low-compute-models/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Earth2-CorDiff-500x282.gif",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8b104b6f-6425-5633-b565-64f6aed1ddbb",
+    "title": "How to Achieve 4x Faster Inference for Math Problem Solving",
+    "link": "https://developer.nvidia.com/blog/how-to-achieve-4x-faster-inference-for-math-problem-solving/",
+    "pubDate": "2025-11-10T16:44:30+00:00",
+    "description": "Large language models can solve challenging math problems. However, making them work efficiently at scale requires more than a strong checkpoint. You need the...",
+    "author": "Igor Gitman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative math image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Solving-Math\" width=\"768\" />Large language models can solve challenging math problems. However, making them work efficiently at scale requires more than a strong checkpoint. You need the...<img alt=\"Decorative math image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Solving-Math\" width=\"768\" /><p>Large language models can solve challenging math problems. However, making them work efficiently at scale requires more than a strong checkpoint. You need the right serving stack, quantization strategy, and decoding methods—often spread across different tools that don’t work together cleanly. Teams end up juggling containers, conversion scripts, and ad‑hoc glue code to compare BF16 vs FP8 or to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-achieve-4x-faster-inference-for-math-problem-solving/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-2048x1152.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "eee8efda-c31b-5831-ae6f-e97cf8ba8875",
     "title": "Streamline Complex AI Inference on Kubernetes with NVIDIA Grove",
     "link": "https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/",
@@ -77,22 +109,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/llm-visual-vector-search-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-visual-vector-search\" width=\"768\" />As companies collect more unstructured data and increasingly use large language models (LLMs), they need faster and more scalable systems. Advanced tools for...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/llm-visual-vector-search-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-visual-vector-search\" width=\"768\" /><p>As companies collect more unstructured data and increasingly use large language models (LLMs), they need faster and more scalable systems. Advanced tools for finding information, such as retrieval-augmented generation (RAG), can take hours or even days to process massive amounts of data—sometimes at the scale of terabytes or petabytes. Meanwhile, online search applications like ad…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enhancing-gpu-accelerated-vector-search-in-faiss-with-nvidia-cuvs/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/llm-visual-vector-search.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9d5b438e-7800-55a1-a24d-e791cdb3af25",
-    "title": "Accelerating Large-Scale Mixture-of-Experts Training in PyTorch",
-    "link": "https://developer.nvidia.com/blog/accelerating-large-scale-mixture-of-experts-training-in-pytorch/",
-    "pubDate": "2025-11-06T17:00:00+00:00",
-    "description": "Training massive mixture-of-experts (MoE) models has long been the domain of a few advanced users with deep infrastructure and distributed-systems expertise....",
-    "author": "Hemil Desai",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image2-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />Training massive mixture-of-experts (MoE) models has long been the domain of a few advanced users with deep infrastructure and distributed-systems expertise....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image2-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" /><p>Training massive mixture-of-experts (MoE) models has long been the domain of a few advanced users with deep infrastructure and distributed-systems expertise. For most developers, the challenge wasn’t building smarter models—it was scaling them efficiently across hundreds or even thousands of GPUs without breaking the bank. With NVIDIA NeMo Automodel, an open-source library within NVIDIA NeMo…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-large-scale-mixture-of-experts-training-in-pytorch/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/image2-1.jpg",
     "isShortVideo": 0
   }
 ]
