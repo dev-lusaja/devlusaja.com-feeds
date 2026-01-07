@@ -1,5 +1,21 @@
 [
   {
+    "id": "c46c0a00-0778-5802-836e-30942ae6a76f",
+    "title": "Redefining Secure AI Infrastructure with NVIDIA BlueField Astra for NVIDIA Vera Rubin NVL72",
+    "link": "https://developer.nvidia.com/blog/redefining-secure-ai-infrastructure-with-nvidia-bluefield-astra-for-nvidia-vera-rubin-nvl72/",
+    "pubDate": "2026-01-07T17:00:00+00:00",
+    "description": "Large-scale AI innovation is driving unprecedented demand for accelerated computing infrastructure. Training trillion-parameter foundation models, serving them...",
+    "author": "Erez Tweg",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/bluefield-4-astra-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"bluefield-4-astra\" width=\"768\" />Large-scale AI innovation is driving unprecedented demand for accelerated computing infrastructure. Training trillion-parameter foundation models, serving them...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/bluefield-4-astra-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"bluefield-4-astra\" width=\"768\" /><p>Large-scale AI innovation is driving unprecedented demand for accelerated computing infrastructure. Training trillion-parameter foundation models, serving them with disaggregated architectures, and processing inference workloads at massive throughput all push data center design to the limits. To keep up, service providers need infrastructure that not only scales but also delivers stronger security…</p>\n<p><a href=\"https://developer.nvidia.com/blog/redefining-secure-ai-infrastructure-with-nvidia-bluefield-astra-for-nvidia-vera-rubin-nvl72/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a457aa70-3504-54da-89d0-28a534681c5a",
     "title": "Introducing NVIDIA BlueField-4-Powered Inference Context Memory Storage Platform for the Next Frontier of AI",
     "link": "https://developer.nvidia.com/blog/introducing-nvidia-bluefield-4-powered-inference-context-memory-storage-platform-for-the-next-frontier-of-ai/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/connected-models-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"connected-models\" width=\"768\" />Today’s best AI agents rely on retrieval-augmented generation (RAG) to enable more accurate results. A RAG system facilitates the use of a knowledge base to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/connected-models-1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"connected-models\" width=\"768\" /><p>Today’s best AI agents rely on retrieval-augmented generation (RAG) to enable more accurate results. A RAG system facilitates the use of a knowledge base to augment context to large language models (LLMs). A typical design pattern includes a RAG server that accepts prompt queries, consults a vector database for nearest context vectors, and then redirects the query with the appended context to an…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enabling-horizontal-autoscaling-of-enterprise-rag-components-on-kubernetes/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "804bed58-2c78-5a11-8163-9f66c97f150b",
-    "title": "How to Scale Fast Fourier Transforms to Exascale on Modern NVIDIA GPU Architectures",
-    "link": "https://developer.nvidia.com/blog/how-to-scale-fast-fourier-transforms-to-exascale-on-modern-nvidia-gpu-architectures/",
-    "pubDate": "2025-12-12T18:00:00+00:00",
-    "description": "Fast Fourier Transforms (FFTs) are widely used across scientific computing, from molecular dynamics and signal processing to computational fluid dynamics (CFD),...",
-    "author": "Zan Xu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image4-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" />Fast Fourier Transforms (FFTs) are widely used across scientific computing, from molecular dynamics and signal processing to computational fluid dynamics (CFD),...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image4-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" /><p>Fast Fourier Transforms (FFTs) are widely used across scientific computing, from molecular dynamics and signal processing to computational fluid dynamics (CFD), wireless multimedia, and machine-learning applications. As computational problem sizes scale to increasingly large domains, researchers require the capability to distribute FFT computations across hundreds or thousands of GPUs spanning…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-scale-fast-fourier-transforms-to-exascale-on-modern-nvidia-gpu-architectures/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

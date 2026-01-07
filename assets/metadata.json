@@ -1,6 +1,6 @@
 {
   "totalItems": 20456,
-  "generatedAt": "2026-01-07T09:28:27.575292Z",
+  "generatedAt": "2026-01-07T15:30:04.806677Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -192,7 +192,7 @@
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1643,
+      "totalItems": 1627,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -204,13 +204,13 @@
       "chunkPrefix": "pappers-all"
     },
     "tiktok": {
-      "totalItems": 141,
+      "totalItems": 139,
       "totalChunks": 5,
       "itemsPerChunk": 30,
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 176,
+      "totalItems": 178,
       "totalChunks": 6,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -239,7 +239,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 1311,
+        "count": 1316,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -247,7 +247,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 1261,
+        "count": 1256,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -265,7 +265,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2758,
+        "count": 2773,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -273,7 +273,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 306,
+        "count": 310,
         "isPriority": true,
         "totalChunks": 11,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -281,7 +281,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 278,
+        "count": 277,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-El_Pais"
@@ -289,7 +289,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 211,
+        "count": 212,
         "isPriority": true,
         "totalChunks": 8,
         "chunkPrefix": "notice-Towards"
@@ -297,7 +297,7 @@
       {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 162,
+        "count": 161,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-Xataka"
@@ -305,7 +305,7 @@
       {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 134,
+        "count": 132,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-Euronews"
@@ -321,18 +321,10 @@
       {
         "category": "LaNacion_AR",
         "title": "La Nación",
-        "count": 127,
-        "isPriority": true,
-        "totalChunks": 5,
-        "chunkPrefix": "notice-LaNacion_AR"
-      },
-      {
-        "category": "Nvidia",
-        "title": "Nvidia",
-        "count": 96,
+        "count": 109,
         "isPriority": true,
         "totalChunks": 4,
-        "chunkPrefix": "notice-Nvidia"
+        "chunkPrefix": "notice-LaNacion_AR"
       },
       {
         "category": "KDnuggets",
@@ -343,9 +335,17 @@
         "chunkPrefix": "notice-KDnuggets"
       },
       {
+        "category": "Nvidia",
+        "title": "Nvidia",
+        "count": 95,
+        "isPriority": true,
+        "totalChunks": 4,
+        "chunkPrefix": "notice-Nvidia"
+      },
+      {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 81,
+        "count": 82,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Wired_ES"
@@ -353,7 +353,7 @@
       {
         "category": "OpenAI",
         "title": "OpenAI",
-        "count": 71,
+        "count": 73,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-OpenAI"

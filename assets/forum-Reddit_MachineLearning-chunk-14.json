@@ -1,5 +1,21 @@
 [
   {
+    "id": "5a81a5ee-70bd-566e-8797-6fc7cab569cd",
+    "title": "[R] For a change of topic an application of somewhat ancient Word Embeddings framework to Psychological Research / a way of discovering topics aligned with metadata",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1osngc1/r_for_a_change_of_topic_an_application_of/",
+    "pubDate": "2025-11-09T16:20:43+00:00",
+    "description": "New preprint \"Measuring Individual Differences in Meaning: The Supervised Semantic Differential\" https://doi.org/10.31234/osf.io/gvrsb_v1 Trigger warning - the preprint is written for psychologists so expect a difference in format to classical ML papers After multiple conferences (ISSID, PSPS, ML in PL), getting feedback, and figuring out how to present the results properly the preprint we've put together with my wonderful colleagues is finally out, and it introduces a method that squares semantic vector spaces with psychology-sized datasets. SSD makes it possible to statistically test and explain differences in meaning of concepts between people based on the texts they write. This method, inspired by deep psychological history (Osgood's work), and a somewhat stale but well validated ML language modeling method (Word Embeddings), will allow computational social scientists to extract data-driven theory-building conclusions from samples smaller than 100 texts. Comments appreciated. https://preview.redd.it/mjzt7belb90g1.png?width=1210&format=png&auto=webp&s=02b4338ab35e05e23e07bd169391ba63b9cb25cc submitted by /u/Hub_Pli [link] [comments]",
+    "author": "/u/Hub_Pli",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1osngc1/r_for_a_change_of_topic_an_application_of/\"> <img alt=\"[R] For a change of topic an application of somewhat ancient Word Embeddings framework to Psychological Research / a way of discovering topics aligned with metadata\" src=\"https://a.thumbs.redditmedia.com/Q2WvYenAsN40YyVE60hj3TEeNFPg6hP3t7BgZoL_SA0.jpg\" title=\"[R] For a change of topic an application of somewhat ancient Word Embeddings framework to Psychological Research / a way of discovering topics aligned with metadata\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>New preprint &quot;Measuring Individual Differences in Meaning: The Supervised Semantic Differential&quot; <a href=\"https://doi.org/10.31234/osf.io/gvrsb_v1\">https://doi.org/10.31234/osf.io/gvrsb_v1</a></p> <p>Trigger warning - the preprint is written for psychologists so expect a difference in format to classical ML papers</p> <p>After multiple conferences (ISSID, PSPS, ML in PL), getting feedback, and figuring out how to present the results properly the preprint we've put together with my wonderful colleagues is finally out, and it introduces a method that squares semantic vector spaces with psychology-sized datasets.</p> <p>SSD makes it possible to statistically test and explain differences in meaning of concepts between people based on the texts they write.</p> <p>This method, inspired by deep psychological history (Osgood's work), and a somewhat stale but well validated ML language modeling method (Word Embeddings), will allow computational social scientists to extract data-driven theory-building conclusions from samples smaller than 100 texts.</p> <p>Comments appreciated.</p> <p><a href=\"https://preview.redd.it/mjzt7belb90g1.png?width=1210&amp;format=png&amp;auto=webp&amp;s=02b4338ab35e05e23e07bd169391ba63b9cb25cc\">https://preview.redd.it/mjzt7belb90g1.png?width=1210&amp;format=png&amp;auto=webp&amp;s=02b4338ab35e05e23e07bd169391ba63b9cb25cc</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hub_Pli\"> /u/Hub_Pli </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osngc1/r_for_a_change_of_topic_an_application_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osngc1/r_for_a_change_of_topic_an_application_of/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://a.thumbs.redditmedia.com/Q2WvYenAsN40YyVE60hj3TEeNFPg6hP3t7BgZoL_SA0.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "5437ff06-3c46-5c9f-9d5d-ef02aa048f9f",
     "title": "[D] Random occasional spikes in validation loss",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1osmzy8/d_random_occasional_spikes_in_validation_loss/",
@@ -156,22 +172,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Imagine your ML development environment running inside a web platform where each tool such as Jupyter, VS Code, or a labeling app runs in its own container and opens directly in the web application. There are no virtual desktops or VDIs, no local setup, and no dependency conflicts. The underlying platform manages GPU scheduling, networking, and storage automatically.</p> <p>Each container would start in seconds on pooled GPU or CPU nodes, connect to centralized file or object storage for notebooks and datasets, and shut down cleanly when idle. Your code, libraries, and outputs would persist between sessions so that when you log back in, your workspace restores exactly where you left off without consuming any idle compute resources.</p> <p>The base infrastructure still includes the familiar layers of hypervisors, GPU drivers, and shared storage that most ML clusters rely on today, but users never need to interact with or maintain them. From a user’s point of view, it would feel like opening a new browser tab rather than provisioning a virtual machine.</p> <p>I am curious how this kind of setup would affect daily ML workflows:</p> <ul> <li>Would reproducibility improve if everyone launched from a common base image with standardized dependencies and datasets?</li> <li>Would faster startup times change how you manage costs by shutting down sessions more often?</li> <li>Where might friction appear first, such as in data access policies, custom CUDA stacks, or limited control over environments?</li> <li>Would you still prefer a dedicated VM or notebook instance for flexibility, or would this kind of browser-based environment be enough?</li> <li>How could this approach influence collaboration, environment drift, or scaling across teams?</li> </ul> <p>Not affiliated with any platform. Just exploring how a web platform that delivers ML tools as browser-based containers might change the balance between speed, reproducibility, and control.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Majestic_Tear2224\"> /u/Majestic_Tear2224 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1or7vzt/d_what_would_change_in_your_ml_workflow_if/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1or7vzt/d_what_would_change_in_your_ml_workflow_if/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9dc55737-c6a2-516d-b29a-f9bce7cc4daa",
-    "title": "[D] WACV decisions delayed… wont violate CVPR double submission policy…",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oqwx9i/d_wacv_decisions_delayed_wont_violate_cvpr_double/",
-    "pubDate": "2025-11-07T15:10:43+00:00",
-    "description": "Decisions still haven’t been released. CVPR allows dual WACV submissions. How is it different than just a dual submission moment after WACV round 1 reviews were in. This has to be one hell of a serious mishap. submitted by /u/casualcreak [link] [comments]",
-    "author": "/u/casualcreak",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Decisions still haven’t been released. CVPR allows dual WACV submissions. How is it different than just a dual submission moment after WACV round 1 reviews were in. This has to be one hell of a serious mishap.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/casualcreak\"> /u/casualcreak </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oqwx9i/d_wacv_decisions_delayed_wont_violate_cvpr_double/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oqwx9i/d_wacv_decisions_delayed_wont_violate_cvpr_double/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
