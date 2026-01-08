@@ -1,5 +1,21 @@
 [
   {
+    "id": "98461c04-92e6-5461-b6ae-221b308ba08e",
+    "title": "[D] TACL for first publication?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p8vedc/d_tacl_for_first_publication/",
+    "pubDate": "2025-11-28T13:54:16+00:00",
+    "description": "Hi, Do you recommend TACL for 1st publication? In this university, TACL is category B (there are category A, and C). My line of thinking: My supervisor wants it to be published in a journal. But, LLM is motstly conference-based. I want to go to a conference. I don't want to sit all day in front of my laptop experimenting, I want to visit other countries. I heard TACL paper can be on ACL conferences. I am an international student, in a non-immigrant country, so the chance is low. At least if I can present this in a conference, then I have a case for travel support as a start. My concern: The idea is somewhat novel, somewhat not novel. It extends previous work, incorporate others work, and an additional term (which is my idea), which makes the performance shot up for this specific task (i.e., other methods ignored this task, I called these methods as \"Toys methods\" because without this task, this research area's methods are not ready for production use) I heard TACL only accepts 100 papers. Meanwhile, I have a tight deadline, 2 additional papers within 6 months, so rebuttal should be minimal. Otherwise, I will not have a degree by the end of the year. submitted by /u/kidfromtheast [link] [comments]",
+    "author": "/u/kidfromtheast",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Do you recommend TACL for 1st publication? In this university, TACL is category B (there are category A, and C).</p> <p>My line of thinking:</p> <ol> <li><p>My supervisor wants it to be published in a journal. But, LLM is motstly conference-based.</p></li> <li><p>I want to go to a conference. I don't want to sit all day in front of my laptop experimenting, I want to visit other countries. I heard TACL paper can be on ACL conferences.</p></li> <li><p>I am an international student, in a non-immigrant country, so the chance is low. At least if I can present this in a conference, then I have a case for travel support as a start.</p></li> </ol> <p>My concern:</p> <ol> <li><p>The idea is somewhat novel, somewhat not novel. It extends previous work, incorporate others work, and an additional term (which is my idea), which makes the performance shot up for this specific task (i.e., other methods ignored this task, I called these methods as &quot;Toys methods&quot; because without this task, this research area's methods are not ready for production use)</p></li> <li><p>I heard TACL only accepts 100 papers. Meanwhile, I have a tight deadline, 2 additional papers within 6 months, so rebuttal should be minimal. Otherwise, I will not have a degree by the end of the year.</p></li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kidfromtheast\"> /u/kidfromtheast </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8vedc/d_tacl_for_first_publication/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p8vedc/d_tacl_for_first_publication/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "84a7be84-bca4-5360-96e6-922f64cb7648",
     "title": "[D] Question and Answer Position Detection",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p8sqd2/d_question_and_answer_position_detection/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone still really look towards third parties (human) to label their data, specifically low level tasks. Such as assigning a piece of text to a class, or tagging an image with a class, or simple binary annotation?</p> <p>Are these data problems still in need of vast amounts of training data or validation that, where humans are assigned to classify things? Or are only edge cases and complex 3D computer vision problems in need of humans?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Other-Cap-5383\"> /u/Other-Cap-5383 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1eqmn/d_human_annotations_needed/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1eqmn/d_human_annotations_needed/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a3a0c203-d71b-5a11-a7d8-35591a2c7e47",
-    "title": "[R] Segment Anything Model 3 (SAM 3) is released",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1p1cfvx/r_segment_anything_model_3_sam_3_is_released/",
-    "pubDate": "2025-11-19T16:34:46+00:00",
-    "description": "Abstract : We present Segment Anything Model (SAM) 3, a unified model that detects, segments, and tracks objects in images and videos based on concept prompts, which we define as either short noun phrases (e.g., “yellow school bus”), image exemplars, or a combination of both. Promptable Concept Segmentation (PCS) takes such prompts and returns segmentation masks and unique identities for all matching object instances. To advance PCS, we build a scalable data engine that produces a high-quality dataset with 4M unique concept labels, including hard negatives, across images and videos. Our model consists of an image-level detector and a memory-based video tracker that share a single backbone. Recognition and localization are decoupled with a presence head, which boosts detection accuracy. SAM 3 doubles the accuracy of existing systems in both image and video PCS, and improves previous SAM capabilities on visual segmentation tasks. We open source SAM 3 along with our new Segment Anything with Concepts (SA-Co) benchmark for promptable concept segmentation. Paper: https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/ Demo: https://aidemos.meta.com/segment-anything Code: https://github.com/facebookresearch/sam3 Website: https://ai.meta.com/sam3 submitted by /u/KateSaenko [link] [comments]",
-    "author": "/u/KateSaenko",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Abstract</strong>: <em>We present Segment Anything Model (SAM) 3, a unified model that detects, segments, and tracks objects in images and videos based on concept prompts, which we define as either short noun phrases (e.g., “yellow school bus”), image exemplars, or a combination of both. Promptable Concept Segmentation (PCS) takes such prompts and returns segmentation masks and unique identities for all matching object instances. To advance PCS, we build a scalable data engine that produces a high-quality dataset with 4M unique concept labels, including hard negatives, across images and videos. Our model consists of an image-level detector and a memory-based video tracker that share a single backbone. Recognition and localization are decoupled with a presence head, which boosts detection accuracy. SAM 3 doubles the accuracy of existing systems in both image and video PCS, and improves previous SAM capabilities on visual segmentation tasks. We open source SAM 3 along with our new Segment Anything with Concepts (SA-Co) benchmark for promptable concept segmentation.</em></p> <p>Paper: <a href=\"https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/\">https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/</a></p> <p>Demo: <a href=\"https://aidemos.meta.com/segment-anything\">https://aidemos.meta.com/segment-anything</a></p> <p>Code: <a href=\"https://github.com/facebookresearch/sam3\">https://github.com/facebookresearch/sam3</a></p> <p>Website: <a href=\"https://ai.meta.com/sam3\">https://ai.meta.com/sam3</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KateSaenko\"> /u/KateSaenko </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1cfvx/r_segment_anything_model_3_sam_3_is_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p1cfvx/r_segment_anything_model_3_sam_3_is_released/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
