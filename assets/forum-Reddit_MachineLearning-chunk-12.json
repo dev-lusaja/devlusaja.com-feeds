@@ -1,5 +1,37 @@
 [
   {
+    "id": "22ce52d7-4d8c-52e4-bb1a-6bed025b7b73",
+    "title": "[D] Drift detector for computer vision: is It really matters?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozneev/d_drift_detector_for_computer_vision_is_it_really/",
+    "pubDate": "2025-11-17T18:03:43+00:00",
+    "description": "[D] I’ve been building a small tool for detecting drift in computer vision pipelines, and I’m trying to understand if this solves a real problem or if I’m just scratching my own itch. The idea is simple: extract embeddings from a reference dataset, save the stats, then compare new images against that distribution to get a drift score. Everything gets saved as artifacts (json, npz, plots, images). A tiny MLflow style UI lets you browse runs locally (free) or online (paid) Basically: embeddings > drift score > lightweight dashboard. So: Do teams actually want something this minimal? How are you monitoring drift in CV today? Is this the kind of tool that would be worth paying for, or only useful as opensource? I’m trying to gauge whether this has real demand before polishing it further. Any feedback is welcome submitted by /u/Ga_0512 [link] [comments]",
+    "author": "/u/Ga_0512",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>[D] I’ve been building a small tool for detecting drift in computer vision pipelines, and I’m trying to understand if this solves a real problem or if I’m just scratching my own itch.</p> <p>The idea is simple: extract embeddings from a reference dataset, save the stats, then compare new images against that distribution to get a drift score. Everything gets saved as artifacts (json, npz, plots, images). A tiny MLflow style UI lets you browse runs locally (free) or online (paid)</p> <p>Basically: embeddings &gt; drift score &gt; lightweight dashboard.</p> <p>So:</p> <p>Do teams actually want something this minimal? How are you monitoring drift in CV today? Is this the kind of tool that would be worth paying for, or only useful as opensource?</p> <p>I’m trying to gauge whether this has real demand before polishing it further. Any feedback is welcome</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ga_0512\"> /u/Ga_0512 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozneev/d_drift_detector_for_computer_vision_is_it_really/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozneev/d_drift_detector_for_computer_vision_is_it_really/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "a979fc26-897d-5639-ba0f-bc769cf5d5d7",
+    "title": "[P] vespa llm product search",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozlkf9/p_vespa_llm_product_search/",
+    "pubDate": "2025-11-17T16:56:44+00:00",
+    "description": "Hi! I’m building my first Vespa app for ecommerce swedish language product search. I index title(product name) and other attributes with BM25 and add an embedding (of just product name and description) field using a local Alibaba-GTE-base ONNX model + tokenizer via hugging-face-embedder . At query time I do a nearestNeighbor(embedding, q) + userQuery(@q) and rank with a fusion profile using reciprocal_rank_fusion(closeness(embedding), bm25sum) . I do get relevant products (e.g. for “spetslinne” in swedish), but also many clearly irrelevant ones that have nothing in common like puzzles for underware search. Could someone help me understand what I might be doing wrong / missing in my schema, ANN settings, or ranking setup to make the results more precise? I am clueless at this point what I should do to improve my search relevance, here is my notebook https://github.com/maria-lagerholm/itcm_recommendation_engine/blob/main/notebooks/search_engine/hybrid_vespa_gte.ipynb submitted by /u/Apprehensive_View366 [link] [comments]",
+    "author": "/u/Apprehensive_View366",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! </p> <p>I’m building my first Vespa app for ecommerce swedish language product search. I index <code>title(product name)</code> and other attributes with BM25 and add an <code>embedding (of just product name and description)</code> field using a local <strong>Alibaba-GTE-base</strong> ONNX model + tokenizer via <code>hugging-face-embedder</code>.</p> <p>At query time I do a <code>nearestNeighbor(embedding, q)</code> + <code>userQuery(@q)</code> and rank with a <code>fusion</code> profile using <code>reciprocal_rank_fusion(closeness(embedding), bm25sum)</code>. I do get relevant products (e.g. for “spetslinne” in swedish), but also many clearly irrelevant ones that have nothing in common like puzzles for underware search.</p> <p>Could someone help me understand what I might be doing wrong / missing in my schema, ANN settings, or ranking setup to make the results more precise? I am clueless at this point what I should do to improve my search relevance, here is my notebook <a href=\"https://github.com/maria-lagerholm/itcm_recommendation_engine/blob/main/notebooks/search_engine/hybrid_vespa_gte.ipynb\">https://github.com/maria-lagerholm/itcm_recommendation_engine/blob/main/notebooks/search_engine/hybrid_vespa_gte.ipynb</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apprehensive_View366\"> /u/Apprehensive_View366 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozlkf9/p_vespa_llm_product_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozlkf9/p_vespa_llm_product_search/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f601e9c0-2cd5-5799-ab31-25eaa2a606be",
     "title": "[D] Comparing Giskard and Rhesis for LLM evaluation — looking for experiences",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ozkj1f/d_comparing_giskard_and_rhesis_for_llm_evaluation/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Does AGPL include trained weights, datasets, exported model artefacts and downstream applications that use the outputs of the program? I’m making an iOS map and looking to use Ultralytics YOLOv8 (under a AGPL-3.0 licence) to train a model for it, then convert that model into coreml to put into my app. Without an enterprise licence, would I be forced to open source my entire app?</p> <p>My situation is that I’m currently using Create ML and it’s not giving me the technical freedom and analytics that I was hoping to have. Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/weakgutteddog27\"> /u/weakgutteddog27 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovu5g9/p_what_does_agpl_30_actually_include/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovu5g9/p_what_does_agpl_30_actually_include/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7a94db6f-f89b-53d4-9c8e-3e2ff705e2b2",
-    "title": "[D] How to sound more like a Researcher",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ovtrn4/d_how_to_sound_more_like_a_researcher/",
-    "pubDate": "2025-11-13T06:18:42+00:00",
-    "description": "I have been working in Applied ML for the last 10 years but in the last 2 have had a much stronger research focus and have published a few papers. Through that I have a few people reach out for some frontier labs for some research positions (my 10 years have been in FAANG). This would be a career jump that I would love but I find in my interviews I sound too applied and not researchey enough. This makes me feel very unconfident in discussing what I have done. Applied interviews are more like exams and these are more like defending a thesis. Any suggestions for improvement? (I do stay up to date with current papers but honestly there are so many that I may not be in full depth about everything) submitted by /u/BrokenheartedDuck [link] [comments]",
-    "author": "/u/BrokenheartedDuck",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been working in Applied ML for the last 10 years but in the last 2 have had a much stronger research focus and have published a few papers. Through that I have a few people reach out for some frontier labs for some research positions (my 10 years have been in FAANG). This would be a career jump that I would love but I find in my interviews I sound too applied and not researchey enough. This makes me feel very unconfident in discussing what I have done. Applied interviews are more like exams and these are more like defending a thesis.</p> <p>Any suggestions for improvement? (I do stay up to date with current papers but honestly there are so many that I may not be in full depth about everything)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BrokenheartedDuck\"> /u/BrokenheartedDuck </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovtrn4/d_how_to_sound_more_like_a_researcher/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovtrn4/d_how_to_sound_more_like_a_researcher/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c897e5f8-ce26-5095-a219-c065ed2cca36",
-    "title": "[D] how to calculate aic/bic for Huber loss?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ovtq2a/d_how_to_calculate_aicbic_for_huber_loss/",
-    "pubDate": "2025-11-13T06:16:04+00:00",
-    "description": "Can't the negative log likelihood of aic/bic be replaced by the sum of Huber loss values and use this to calculate aic/bic? submitted by /u/PhotographOld9150 [link] [comments]",
-    "author": "/u/PhotographOld9150",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovtq2a/d_how_to_calculate_aicbic_for_huber_loss/\"> <img alt=\"[D] how to calculate aic/bic for Huber loss?\" src=\"https://b.thumbs.redditmedia.com/9kyMdjxxXuOFzM4PqL2COMWy3RT7qU5O6AoUBoKjf6A.jpg\" title=\"[D] how to calculate aic/bic for Huber loss?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Can't the negative log likelihood of aic/bic be replaced by the sum of Huber loss values and use this to calculate aic/bic?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PhotographOld9150\"> /u/PhotographOld9150 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1ovtq2a\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovtq2a/d_how_to_calculate_aicbic_for_huber_loss/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/9kyMdjxxXuOFzM4PqL2COMWy3RT7qU5O6AoUBoKjf6A.jpg",
     "isShortVideo": 0
   }
 ]
