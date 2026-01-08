@@ -1,5 +1,21 @@
 [
   {
+    "id": "8787c588-6d29-5dcc-a286-e2ff02df06ab",
+    "title": "Building Scalable and Fault-Tolerant NCCL Applications",
+    "link": "https://developer.nvidia.com/blog/building-scalable-and-fault-tolerant-nccl-applications/",
+    "pubDate": "2025-11-10T21:29:37+00:00",
+    "description": "The NVIDIA Collective Communications Library (NCCL) provides communication APIs for low-latency and high-bandwidth collectives, enabling AI workloads to scale...",
+    "author": "Luke Robison",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/neon-green-cube-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"neon-green-cube\" width=\"768\" />The NVIDIA Collective Communications Library (NCCL) provides communication APIs for low-latency and high-bandwidth collectives, enabling AI workloads to scale...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/neon-green-cube-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"neon-green-cube\" width=\"768\" /><p>The NVIDIA Collective Communications Library (NCCL) provides communication APIs for low-latency and high-bandwidth collectives, enabling AI workloads to scale from just a few GPUs on a single host to thousands of GPUs in a data center. This post discusses NCCL features that support run-time rescaling for cost optimization, as well as minimizing service downtime from faults by dynamically removing…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-scalable-and-fault-tolerant-nccl-applications/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/neon-green-cube.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "441a8722-b000-542e-9902-247f3d8f22f8",
     "title": "Training XGBoost Models with GPU-Accelerated Polars DataFrames",
     "link": "https://developer.nvidia.com/blog/training-xgboost-models-with-gpu-accelerated-polars-dataframes/",
