@@ -1,5 +1,21 @@
 [
   {
+    "id": "327baecb-9e4a-5534-8dca-23d06f6fb4ec",
+    "title": "[P] Eigenvalues as models - scaling, robustness and interpretability",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q11pom/p_eigenvalues_as_models_scaling_robustness_and/",
+    "pubDate": "2026-01-01T11:00:06+00:00",
+    "description": "I started exploring the idea of using matrix eigenvalues as the \"nonlinearity\" in models, and wrote a second post in the series where I explore the scaling, robustness and interpretability properties of this kind of models. It's not surprising, but matrix spectral norms play a key role in robustness and interpretability. I saw a lot of replies here for the previous post, so I hope you'll also enjoy the next post in this series: https://alexshtf.github.io/2026/01/01/Spectrum-Props.html submitted by /u/alexsht1 [link] [comments]",
+    "author": "/u/alexsht1",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I started exploring the idea of using matrix eigenvalues as the &quot;nonlinearity&quot; in models, and wrote a second post in the series where I explore the scaling, robustness and interpretability properties of this kind of models. It's not surprising, but matrix spectral norms play a key role in robustness and interpretability.</p> <p>I saw a lot of replies here for the previous post, so I hope you'll also enjoy the next post in this series:<br /> <a href=\"https://alexshtf.github.io/2026/01/01/Spectrum-Props.html\">https://alexshtf.github.io/2026/01/01/Spectrum-Props.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexsht1\"> /u/alexsht1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q11pom/p_eigenvalues_as_models_scaling_robustness_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q11pom/p_eigenvalues_as_models_scaling_robustness_and/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8ff3c349-f77e-5bb9-a55a-2b171f42616e",
     "title": "[R] New paper by DeepSeek: mHC: Manifold-Constrained Hyper-Connections",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q11e11/r_new_paper_by_deepseek_mhc_manifoldconstrained/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello All, so I have a simple workshop that needs me to create a baseline model using ONLY single layers of Conv2D, MaxPooling2D, Flatten and Dense Layers in order to classify 10 simple digits.</p> <p>However, the problem is that it’s straight up impossible to get good results ! I cant use any anti-overfitting techniques such as dropout or data augmentation, and I cant use multiple layers as well. What makes it even more difficult is that the dataset is too small with only 1.7k pics for training, 550 for validation and only 287 for testing. I’ve been trying non stop for 3 hours to play with the parameters or the learning rate but I just keep getting bad results. So is this straight up impossible with all these limitations or am i being overdramatic ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ManILoveBerserk\"> /u/ManILoveBerserk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1px7gci/p_is_this_straight_up_impossible/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1px7gci/p_is_this_straight_up_impossible/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8cd623ce-de85-580d-8a30-5635c002980c",
-    "title": "[D] Validating Validation Sets",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1px1kd6/d_validating_validation_sets/",
-    "pubDate": "2025-12-27T16:16:05+00:00",
-    "description": "Lets say you have a small sample size - how do you know your validation set is good? Is it going to flag overfitting? Is it too perfect? This exploratory, p-value-adjacent approach to validating the data universe (train and hold out split) resamples different holdout choices many times to create a histogram to shows where your split lies. https://github.com/DormantOne/holdout [It is just a toy case using MNIST, but the hope is the principle could be applied broadly if it stands up to rigorous review.] submitted by /u/DepartureNo2452 [link] [comments]",
-    "author": "/u/DepartureNo2452",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1px1kd6/d_validating_validation_sets/\"> <img alt=\"[D] Validating Validation Sets\" src=\"https://preview.redd.it/d4lxb3ujur9g1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b22780458f0d8dc96c3e2c1efb4a38595b3f6de4\" title=\"[D] Validating Validation Sets\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Lets say you have a small sample size - how do you know your validation set is good? Is it going to flag overfitting? Is it too perfect? This exploratory, p-value-adjacent approach to validating the data universe (train and hold out split) resamples different holdout choices many times to create a histogram to shows where your split lies.</p> <p><a href=\"https://github.com/DormantOne/holdout\">https://github.com/DormantOne/holdout</a></p> <p>[It is just a toy case using MNIST, but the hope is the principle could be applied broadly if it stands up to rigorous review.]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DepartureNo2452\"> /u/DepartureNo2452 </a> <br /> <span><a href=\"https://i.redd.it/d4lxb3ujur9g1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1px1kd6/d_validating_validation_sets/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/d4lxb3ujur9g1.png?width=640&crop=smart&auto=webp&s=b22780458f0d8dc96c3e2c1efb4a38595b3f6de4",
     "isShortVideo": 0
   }
 ]

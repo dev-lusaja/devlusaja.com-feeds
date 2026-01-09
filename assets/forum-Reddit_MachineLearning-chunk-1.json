@@ -1,5 +1,21 @@
 [
   {
+    "id": "fbfc6a41-2ac5-55c8-8e9e-207e370e7a85",
+    "title": "[D] Clean, self-contained PyTorch re-implementations of 50+ ML papers (GANs, diffusion, meta-learning, 3D)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q3uvha/d_clean_selfcontained_pytorch_reimplementations/",
+    "pubDate": "2026-01-04T16:53:10+00:00",
+    "description": "This repository collects clean, self-contained PyTorch reference implementations of over 50 machine learning papers, spanning GANs, VAEs, diffusion models, meta-learning, representation learning, and 3D reconstruction. The implementations aim to: Stay faithful to the original methods Minimize boilerplate while remaining readable Be easy to run and inspect as standalone files Reproduce key qualitative or quantitative results where feasible Repository (open-source): https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code Interested in hearing where clean, self-contained implementations are sufficient for understanding and reproducing results, and where additional engineering or scale becomes unavoidable. submitted by /u/papers-100-lines [link] [comments]",
+    "author": "/u/papers-100-lines",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>This repository collects <strong>clean, self-contained PyTorch reference implementations</strong> of over 50 machine learning papers, spanning GANs, VAEs, diffusion models, meta-learning, representation learning, and 3D reconstruction.</p> <p>The implementations aim to:</p> <ul> <li>Stay faithful to the original methods</li> <li>Minimize boilerplate while remaining readable</li> <li>Be easy to run and inspect as standalone files</li> <li>Reproduce key qualitative or quantitative results where feasible</li> </ul> <p>Repository (open-source):<br /> <a href=\"https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code\">https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code</a></p> <p>Interested in hearing where clean, self-contained implementations are sufficient for understanding and reproducing results, and where additional engineering or scale becomes unavoidable.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/papers-100-lines\"> /u/papers-100-lines </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q3uvha/d_clean_selfcontained_pytorch_reimplementations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q3uvha/d_clean_selfcontained_pytorch_reimplementations/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b29e8908-8265-5b39-806d-0ffe48c101e8",
     "title": "[D] My Machine learning research notes: 15 years of continuous writing and 8.8k GitHub stars!",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q3rxa3/d_my_machine_learning_research_notes_15_years_of/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I've been working on a library called <code>randomized-svd</code> to address a couple of pain points I found with standard implementations of SVD and PCA in Python.</p> <p><strong>The Main Features:</strong></p> <ol> <li><strong>Auto-Rank Selection:</strong> Instead of cross-validating <code>n_components</code>, I implemented the <strong>Gavish-Donoho hard thresholding</strong>. It analyzes the singular value spectrum and cuts off the noise tail automatically.</li> <li><strong>Virtual Centering:</strong> It allows performing PCA (which requires centering) on <strong>Sparse Matrices</strong> without densifying them. It computes (X−μ)v implicitly, saving huge amounts of RAM.</li> <li><strong>Sklearn API:</strong> It passes all <code>check_estimator</code> tests and works in Pipelines.</li> </ol> <p><strong>Why I made this:</strong> I wanted a way to denoise images and reduce features without running expensive GridSearches.</p> <p><strong>Example:</strong></p> <pre><code>from randomized_svd import RandomizedSVD # Finds the best rank automatically in one pass rsvd = RandomizedSVD(n_components=100, rank_selection='auto') X_reduced = rsvd.fit_transform(X) </code></pre> <p>I'd love some feedback on the implementation or suggestions for improvements!</p> <p>Repo: <a href=\"https://github.com/massimofedrigo/randomized-svd\">https://github.com/massimofedrigo/randomized-svd</a></p> <p>Docs: <a href=\"https://massimofedrigo.com/thesis_eng.pdf\">https://massimofedrigo.com/thesis_eng.pdf</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Single_Recover_8036\"> /u/Single_Recover_8036 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q16krb/p_i_built_a_dropin_scikitlearn_replacement_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q16krb/p_i_built_a_dropin_scikitlearn_replacement_for/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "327baecb-9e4a-5534-8dca-23d06f6fb4ec",
-    "title": "[P] Eigenvalues as models - scaling, robustness and interpretability",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q11pom/p_eigenvalues_as_models_scaling_robustness_and/",
-    "pubDate": "2026-01-01T11:00:06+00:00",
-    "description": "I started exploring the idea of using matrix eigenvalues as the \"nonlinearity\" in models, and wrote a second post in the series where I explore the scaling, robustness and interpretability properties of this kind of models. It's not surprising, but matrix spectral norms play a key role in robustness and interpretability. I saw a lot of replies here for the previous post, so I hope you'll also enjoy the next post in this series: https://alexshtf.github.io/2026/01/01/Spectrum-Props.html submitted by /u/alexsht1 [link] [comments]",
-    "author": "/u/alexsht1",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I started exploring the idea of using matrix eigenvalues as the &quot;nonlinearity&quot; in models, and wrote a second post in the series where I explore the scaling, robustness and interpretability properties of this kind of models. It's not surprising, but matrix spectral norms play a key role in robustness and interpretability.</p> <p>I saw a lot of replies here for the previous post, so I hope you'll also enjoy the next post in this series:<br /> <a href=\"https://alexshtf.github.io/2026/01/01/Spectrum-Props.html\">https://alexshtf.github.io/2026/01/01/Spectrum-Props.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexsht1\"> /u/alexsht1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q11pom/p_eigenvalues_as_models_scaling_robustness_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q11pom/p_eigenvalues_as_models_scaling_robustness_and/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

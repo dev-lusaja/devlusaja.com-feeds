@@ -1,5 +1,21 @@
 [
   {
+    "id": "948e707b-379e-52e4-b082-a32e6f2c48d3",
+    "title": "[R] AlphaEvolve: Breaking 56 Years of Mathematical Stagnation",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1otaqfo/r_alphaevolve_breaking_56_years_of_mathematical/",
+    "pubDate": "2025-11-10T10:53:58+00:00",
+    "description": "Google DeepMind's AlphaEvolve just broke a 56-year-old record in matrix multiplication (Strassen's 1969 algorithm: 49 multiplications → 48 multiplications for 4×4 matrices). • Uses LLMs as \"semantic mutators\" in an evolutionary loop • Tested on 67 diverse mathematical problems • Achieved 95% success rate (matched or beat state-of-the-art) • 20% improvement rate on genuinely hard problems The system that broke this record also: - Optimized Google's data center scheduling (7% fleet recovery) - Accelerated FlashAttention kernels (32.5% speedup → 23% faster LLM training) - Improved hardware circuit designs The breakthrough: weaponizing LLM hallucinations as creative mutations, then pruning failures with automated verification. The system discovers algorithms that improve its own training infrastructure—creating a self-accelerating feedback loop. This represents a paradigm shift: humans become problem architects, AI becomes the search engine. Technical deep-dive with implementation details in the full article. https://rewire.it/blog/alphaevolve-breaking-56-years-of-mathematical-stagnation/ submitted by /u/Fair-Rain3366 [link] [comments]",
+    "author": "/u/Fair-Rain3366",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Google DeepMind's AlphaEvolve just broke a 56-year-old record in matrix multiplication (Strassen's 1969 algorithm: 49 multiplications → 48 multiplications for 4×4 matrices).</strong> </p> <p> • Uses LLMs as &quot;semantic mutators&quot; in an evolutionary loop</p> <p> • Tested on 67 diverse mathematical problems</p> <p> • Achieved 95% success rate (matched or beat state-of-the-art)</p> <p> • 20% improvement rate on genuinely hard problems</p> <p>The system that broke this record also:</p> <p> - Optimized Google's data center scheduling (7% fleet recovery)</p> <p> - Accelerated FlashAttention kernels (32.5% speedup → 23% faster LLM training)</p> <p> - Improved hardware circuit designs</p> <p>The breakthrough: weaponizing LLM hallucinations as creative mutations, then pruning failures with automated verification. The system discovers algorithms that improve its own training infrastructure—creating a self-accelerating feedback loop.</p> <p>This represents a paradigm shift: humans become problem architects, AI becomes the search engine.</p> <p>Technical deep-dive with implementation details in the full article.</p> <p><a href=\"https://rewire.it/blog/alphaevolve-breaking-56-years-of-mathematical-stagnation/\">https://rewire.it/blog/alphaevolve-breaking-56-years-of-mathematical-stagnation/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fair-Rain3366\"> /u/Fair-Rain3366 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otaqfo/r_alphaevolve_breaking_56_years_of_mathematical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1otaqfo/r_alphaevolve_breaking_56_years_of_mathematical/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "54b42a8e-f060-5856-886e-9dc8477e8760",
     "title": "Unsure about submitting to TMLR[R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ot94tv/unsure_about_submitting_to_tmlrr/",
@@ -172,22 +188,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>People tend to exaggerate</strong> on LinkedIn, in CVs, and in Stack Overflow surveys about how many programming languages they actually work with. What I’m interested in is: which other languages are <em>really</em> used in professional settings?</p> <p>Let me start.<br /> In our unit, data scientists, machine learning engineers, and data engineers work exclusively with <strong>Python</strong>, while our front-end developers use <strong>JavaScript</strong> with <strong>React</strong> — and that’s it.</p> <p>I’ve experimented with a few other languages myself, but since our team is quite large (70+ people in total), the lowest common denominators are Python and JavaScript. That makes it practically impossible to introduce a new language without a very strong reason — and such a reason hasn’t appeared yet.</p> <p>Elsewhere in the company, the general tech stack is mostly <strong>Java-based</strong>, and new projects are written in <strong>Kotlin</strong> as far as I know. Data projects, however, are all written exclusively in Python. In my previous unit, we also had a few services written in <strong>Go</strong>, but I haven’t heard of any in-house Go usage since then.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DataPastor\"> /u/DataPastor </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osfc6u/d_which_programming_languages_have_you_used_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osfc6u/d_which_programming_languages_have_you_used_to/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "13bb7b77-4a2d-58e4-b2ec-6f985b2d16a1",
-    "title": "Academic Survey on NAS and RNN Models [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1osdt60/academic_survey_on_nas_and_rnn_models_r/",
-    "pubDate": "2025-11-09T08:07:26+00:00",
-    "description": "Hey everyone! A short academic survey has been prepared to gather insights from the community regarding Neural Architecture Search (NAS) and RNN-based models. It’s completely anonymous, takes only a few minutes to complete, and aims to contribute to ongoing research in this area. You can access the survey here: 👉 https://forms.gle/sfPxD8QfXnaAXknK6 Participation is entirely voluntary, and contributions from the community would be greatly appreciated to help strengthen the collective understanding of this topic. Thanks to everyone who takes a moment to check it out or share their insights! submitted by /u/PittuPirate [link] [comments]",
-    "author": "/u/PittuPirate",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone!</p> <p>A short academic survey has been prepared to gather insights from the community regarding Neural Architecture Search (NAS) and RNN-based models. It’s completely anonymous, takes only a few minutes to complete, and aims to contribute to ongoing research in this area.</p> <p>You can access the survey here:<br /> 👉 <a href=\"https://forms.gle/sfPxD8QfXnaAXknK6\">https://forms.gle/sfPxD8QfXnaAXknK6</a></p> <p>Participation is entirely voluntary, and contributions from the community would be greatly appreciated to help strengthen the collective understanding of this topic. Thanks to everyone who takes a moment to check it out or share their insights!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PittuPirate\"> /u/PittuPirate </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osdt60/academic_survey_on_nas_and_rnn_models_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1osdt60/academic_survey_on_nas_and_rnn_models_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

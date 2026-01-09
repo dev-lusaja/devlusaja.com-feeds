@@ -1,5 +1,21 @@
 [
   {
+    "id": "8cd623ce-de85-580d-8a30-5635c002980c",
+    "title": "[D] Validating Validation Sets",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1px1kd6/d_validating_validation_sets/",
+    "pubDate": "2025-12-27T16:16:05+00:00",
+    "description": "Lets say you have a small sample size - how do you know your validation set is good? Is it going to flag overfitting? Is it too perfect? This exploratory, p-value-adjacent approach to validating the data universe (train and hold out split) resamples different holdout choices many times to create a histogram to shows where your split lies. https://github.com/DormantOne/holdout [It is just a toy case using MNIST, but the hope is the principle could be applied broadly if it stands up to rigorous review.] submitted by /u/DepartureNo2452 [link] [comments]",
+    "author": "/u/DepartureNo2452",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1px1kd6/d_validating_validation_sets/\"> <img alt=\"[D] Validating Validation Sets\" src=\"https://preview.redd.it/d4lxb3ujur9g1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b22780458f0d8dc96c3e2c1efb4a38595b3f6de4\" title=\"[D] Validating Validation Sets\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Lets say you have a small sample size - how do you know your validation set is good? Is it going to flag overfitting? Is it too perfect? This exploratory, p-value-adjacent approach to validating the data universe (train and hold out split) resamples different holdout choices many times to create a histogram to shows where your split lies.</p> <p><a href=\"https://github.com/DormantOne/holdout\">https://github.com/DormantOne/holdout</a></p> <p>[It is just a toy case using MNIST, but the hope is the principle could be applied broadly if it stands up to rigorous review.]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DepartureNo2452\"> /u/DepartureNo2452 </a> <br /> <span><a href=\"https://i.redd.it/d4lxb3ujur9g1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1px1kd6/d_validating_validation_sets/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/d4lxb3ujur9g1.png?width=640&crop=smart&auto=webp&s=b22780458f0d8dc96c3e2c1efb4a38595b3f6de4",
+    "isShortVideo": 0
+  },
+  {
     "id": "762f0582-5a12-517b-8130-f1bb99ef5b4f",
     "title": "[D] r/MachineLearning - a year in review",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1px1agd/d_rmachinelearning_a_year_in_review/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi All, I am one of the authors of a recently accepted AAAI workshop paper on executable governance for AI, and it comes out of a very practical pain point we kept running into.</p> <p>A lot of governance guidance like the EU AI Act, NIST AI RMF, and enterprise standards is written as natural-language obligations. But enforcement and evaluation tools need explicit rules with scope, conditions, exceptions, and what evidence counts. Today that translation is mostly manual and it becomes a bottleneck.</p> <p>We already have useful pieces like runtime guardrails and eval harnesses, and policy engines like OPA/Rego, but they mostly assume the rules and tests already exist. What’s missing is the bridge from policy prose to a normalized, machine-readable rule set you can plug into those tools and keep updated as policies change.</p> <p>That’s what our framework does. Policy→Tests (P2T) is an extensible pipeline plus a compact JSON DSL that converts policy documents into normalized atomic rules with hazards, scope, conditions, exceptions, evidence signals, and provenance. We evaluate extraction quality against human baselines across multiple policy sources, and we run a small downstream case study where HIPAA-derived rules added as guardrails reduce violations on clean, obfuscated, and compositional prompts.</p> <p>Code: <a href=\"https://anonymous.4open.science/r/ExecutableGovernance-for-AI-DF49/\">https://anonymous.4open.science/r/ExecutableGovernance-for-AI-DF49/</a></p> <p>Paper link: <a href=\"https://arxiv.org/pdf/2512.04408\">https://arxiv.org/pdf/2512.04408</a></p> <p>Would love feedback on where this breaks in practice, especially exceptions, ambiguity, cross-references, and whether a rule corpus like this would fit into your eval or guardrail workflow.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apprehensive-Salt999\"> /u/Apprehensive-Salt999 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ptnwp1/r_policytests_p2t_bridging_ai_policy_prose_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ptnwp1/r_policytests_p2t_bridging_ai_policy_prose_to/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4b040963-b07f-5c21-9a07-2ae267ae28aa",
-    "title": "[D] Hosted and Open Weight Embeddings",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pt9w0w/d_hosted_and_open_weight_embeddings/",
-    "pubDate": "2025-12-22T20:22:02+00:00",
-    "description": "While I was looking for a hybrid solution to precompute embeddings for documents offline and then use a hosted online service for embedding queries, I realized that I don’t have that many options. In fact, the only open weight model I could find that has providers on OpenRouter was Qwen3-embeddings-4/8B (0.6B doesn’t have any providers on OpenRouter). Am I missing something? Running a GPU full time is an overkill in my case. submitted by /u/stat-insig-005 [link] [comments]",
-    "author": "/u/stat-insig-005",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>While I was looking for a hybrid solution to precompute embeddings for documents offline and then use a hosted online service for embedding queries, I realized that I don’t have that many options. In fact, the only open weight model I could find that has providers on OpenRouter was Qwen3-embeddings-4/8B (0.6B doesn’t have any providers on OpenRouter).</p> <p>Am I missing something? Running a GPU full time is an overkill in my case.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/stat-insig-005\"> /u/stat-insig-005 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pt9w0w/d_hosted_and_open_weight_embeddings/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pt9w0w/d_hosted_and_open_weight_embeddings/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

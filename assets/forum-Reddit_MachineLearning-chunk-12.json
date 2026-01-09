@@ -1,5 +1,21 @@
 [
   {
+    "id": "3085f22a-867e-5675-a702-f3c7b8ed8656",
+    "title": "[P] SumGPT to test robustness of the attention based modules",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozrqxe/p_sumgpt_to_test_robustness_of_the_attention/",
+    "pubDate": "2025-11-17T20:42:44+00:00",
+    "description": "Hello, sumgpt is decoder only gpt model inplemented from scratch that learns floating point summations like '2.4+1.3='. My aim was to test attention based modules for critical applications. You can easily create data, verify ground truths and monitor and detect hallucinations and errors, increase context length as you wish etc. Also it can be easily trained on desktop and results are actually interpretable (whether it learned the summation or not). https://github.com/unnamed-idea/sumgpt submitted by /u/Street_Excitement_14 [link] [comments]",
+    "author": "/u/Street_Excitement_14",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, sumgpt is decoder only gpt model inplemented from scratch that learns floating point summations like '2.4+1.3='.</p> <p>My aim was to test attention based modules for critical applications. You can easily create data, verify ground truths and monitor and detect hallucinations and errors, increase context length as you wish etc.</p> <p>Also it can be easily trained on desktop and results are actually interpretable (whether it learned the summation or not). </p> <p><a href=\"https://github.com/unnamed-idea/sumgpt\">https://github.com/unnamed-idea/sumgpt</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Street_Excitement_14\"> /u/Street_Excitement_14 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozrqxe/p_sumgpt_to_test_robustness_of_the_attention/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozrqxe/p_sumgpt_to_test_robustness_of_the_attention/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "22ce52d7-4d8c-52e4-bb1a-6bed025b7b73",
     "title": "[D] Drift detector for computer vision: is It really matters?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ozneev/d_drift_detector_for_computer_vision_is_it_really/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have m modalities with embeddings H_i. I learn edge weights Φ_ij(c, e_t) for all pairs (just a learned feedforward function based on two embeddings + context), then select Top-K edges by weight and discard the rest.</p> <p>My thought , Since Φ_ij is learned via gradient descent to maximize task performance, high-weight edges should indicate that modalities i and j are relevant together. So by selecting Top-K, I'm keeping the most useful pairs and discarding irrelevant ones.</p> <p>Problem: This feels circular.. “Φ is good because we trained it to be good.&quot; </p> <p>Is there a formal way to argue that Top-K selection preserves task-relevant information that doesn't just assume this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Efficient-Hovercraft\"> /u/Efficient-Hovercraft </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ow7g2u/r_is_topk_edge_selection_preserving_taskrelevant/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ow7g2u/r_is_topk_edge_selection_preserving_taskrelevant/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "edd8712c-3011-51b4-a1a0-f9b4892f41ba",
-    "title": "[P] What does AGPL 3.0 actually include?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ovu5g9/p_what_does_agpl_30_actually_include/",
-    "pubDate": "2025-11-13T06:41:58+00:00",
-    "description": "Does AGPL include trained weights, datasets, exported model artefacts and downstream applications that use the outputs of the program? I’m making an iOS map and looking to use Ultralytics YOLOv8 (under a AGPL-3.0 licence) to train a model for it, then convert that model into coreml to put into my app. Without an enterprise licence, would I be forced to open source my entire app? My situation is that I’m currently using Create ML and it’s not giving me the technical freedom and analytics that I was hoping to have. Thanks. submitted by /u/weakgutteddog27 [link] [comments]",
-    "author": "/u/weakgutteddog27",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does AGPL include trained weights, datasets, exported model artefacts and downstream applications that use the outputs of the program? I’m making an iOS map and looking to use Ultralytics YOLOv8 (under a AGPL-3.0 licence) to train a model for it, then convert that model into coreml to put into my app. Without an enterprise licence, would I be forced to open source my entire app?</p> <p>My situation is that I’m currently using Create ML and it’s not giving me the technical freedom and analytics that I was hoping to have. Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/weakgutteddog27\"> /u/weakgutteddog27 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovu5g9/p_what_does_agpl_30_actually_include/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovu5g9/p_what_does_agpl_30_actually_include/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
