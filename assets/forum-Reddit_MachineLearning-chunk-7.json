@@ -1,5 +1,21 @@
 [
   {
+    "id": "7f7f795e-72b5-53ca-8ea1-8f876d6972b2",
+    "title": "[D] any labs/research groups/communities focusing on ML technologies for small enterprises?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/",
+    "pubDate": "2025-12-09T05:24:48+00:00",
+    "description": "I am looking for practical ML papers dedicated to integrate Ai novelties in small and medium corporations. submitted by /u/mbrtlchouia [link] [comments]",
+    "author": "/u/mbrtlchouia",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am looking for practical ML papers dedicated to integrate Ai novelties in small and medium corporations. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mbrtlchouia\"> /u/mbrtlchouia </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1phzayw/d_any_labsresearch_groupscommunities_focusing_on/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "3190e856-8b52-5f6d-a536-b0cc1115de74",
     "title": "CVPR Submission id changed [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1phygsa/cvpr_submission_id_changed_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Obviously completely nuanced, circumstantial and an unproductive question.</p> <p>Nonetheless, I’m aiming for my first research artefact being a submission to ACL in Jan. I’d be curious to know if there are any common trip-ups that basically rule-out a paper. I.e is there a checklist of common things people do wrong that reviewers look at and are compelled to discard?</p> <p>Yes, I’ll chat to my PI about it. Yes, I’m interested in crowdsourced opinions also.</p> <p>Cheers</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Distinct-Gas-1049\"> /u/Distinct-Gas-1049 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1peml7p/d_common_reasons_acl_submissions_are_rejected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1peml7p/d_common_reasons_acl_submissions_are_rejected/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5b9a08f1-a00e-5af6-843f-a3e27422076d",
-    "title": "[D] We stress-tested the idea of “LLMs with thousands of tools.” The results challenge some assumptions.",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pei5vc/d_we_stresstested_the_idea_of_llms_with_thousands/",
-    "pubDate": "2025-12-05T01:34:10+00:00",
-    "description": "Anthropic released a new Tool Search feature intended to solve the “too many tools in context” problem by letting models discover tools just-in-time instead of loading thousands of definitions. We wanted to see how it behaves in a realistic agent environment, so we ran a small but systematic benchmark: Setup 4,027 tools 25 everyday tasks like “send an email,” “post to Slack,” “create a task,” “create an event,” etc. Prompts were intentionally simple and unambiguous. We only measured retrieval (not selection or parameter filling). Criterion: Does the expected tool appear in the top-K returned by Tool Search? What we observed Retrieval behavior wasn’t uniform: some categories (Google Workspace, GitHub, Salesforce) were consistently found. Others (Gmail send email, Slack send message, HubSpot create contact, ClickUp create task, YouTube search videos) frequently failed to appear. Failure modes were stable across Regex and BM25 search modes, suggesting underlying semantic ambiguity rather than random noise. Why this matters If tool-based agents are going to scale into thousands of actions/functions/skills, the reliability of the retrieval layer becomes the bottleneck — not the model’s reasoning. Happy to share raw logs, prompts, and the full breakdown — link in comments. submitted by /u/Ok-Classic6022 [link] [comments]",
-    "author": "/u/Ok-Classic6022",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Anthropic released a new <em>Tool Search</em> feature intended to solve the “too many tools in context” problem by letting models discover tools just-in-time instead of loading thousands of definitions.</p> <p>We wanted to see how it behaves in a realistic agent environment, so we ran a small but systematic benchmark:</p> <p><strong>Setup</strong></p> <ul> <li><strong>4,027 tools</strong> </li> <li><strong>25 everyday tasks</strong> like “send an email,” “post to Slack,” “create a task,” “create an event,” etc.</li> <li>Prompts were intentionally simple and unambiguous.</li> <li>We only measured <strong>retrieval</strong> (not selection or parameter filling).</li> <li>Criterion: <em>Does the expected tool appear in the top-K returned by Tool Search?</em></li> </ul> <p><strong>What we observed</strong></p> <ul> <li>Retrieval behavior wasn’t uniform: some categories (Google Workspace, GitHub, Salesforce) were consistently found.</li> <li>Others (Gmail send email, Slack send message, HubSpot create contact, ClickUp create task, YouTube search videos) frequently failed to appear.</li> <li>Failure modes were stable across Regex and BM25 search modes, suggesting underlying semantic ambiguity rather than random noise.</li> </ul> <p><strong>Why this matters</strong><br /> If tool-based agents are going to scale into thousands of actions/functions/skills, the reliability of the retrieval layer becomes the bottleneck — not the model’s reasoning.</p> <p>Happy to share raw logs, prompts, and the full breakdown — link in comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Classic6022\"> /u/Ok-Classic6022 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pei5vc/d_we_stresstested_the_idea_of_llms_with_thousands/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pei5vc/d_we_stresstested_the_idea_of_llms_with_thousands/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
