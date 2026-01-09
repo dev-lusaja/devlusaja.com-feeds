@@ -1,5 +1,37 @@
 [
   {
+    "id": "9cf3a779-e37a-50f4-b657-7339256d8309",
+    "title": "Reimagining LLM Memory: Using Context as Training Data Unlocks Models That Learn at Test-Time",
+    "link": "https://developer.nvidia.com/blog/reimagining-llm-memory-using-context-as-training-data-unlocks-models-that-learn-at-test-time/",
+    "pubDate": "2026-01-09T16:58:31+00:00",
+    "description": "We keep seeing LLMs with larger context windows in the news, along with promises that they can hold entire conversation histories, volumes of books, or multiple...",
+    "author": "Yu Sun",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/TTT-E2E-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Test-Time-Training\" width=\"768\" />We keep seeing LLMs with larger context windows in the news, along with promises that they can hold entire conversation histories, volumes of books, or multiple...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/TTT-E2E-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Test-Time-Training\" width=\"768\" /><p>We keep seeing LLMs with larger context windows in the news, along with promises that they can hold entire conversation histories, volumes of books, or multiple codebases in view at once. And yet, these models still repeat the same mistakes. We still have to copy and paste the earlier context back into the chat for LLMs to “get it”. A smart co-worker would pick up on these patterns, adapt…</p>\n<p><a href=\"https://developer.nvidia.com/blog/reimagining-llm-memory-using-context-as-training-data-unlocks-models-that-learn-at-test-time/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "3a32f3c1-e0b6-5e16-a4b7-27d935479da0",
+    "title": "Build an AI Catalog System That Delivers Localized, Interactive Product Experiences",
+    "link": "https://developer.nvidia.com/blog/build-an-ai-catalog-system-that-delivers-localized-interactive-product-experiences/",
+    "pubDate": "2026-01-09T14:00:00+00:00",
+    "description": "E-commerce catalogs often contain sparse product data, generic images, a basic title, and short description. This limits discoverability, engagement, and...",
+    "author": "Antonio Martinez",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/AI-Catalog-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Catalog\" width=\"768\" />E-commerce catalogs often contain sparse product data, generic images, a basic title, and short description. This limits discoverability, engagement, and...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/AI-Catalog-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Catalog\" width=\"768\" /><p>E-commerce catalogs often contain sparse product data, generic images, a basic title, and short description. This limits discoverability, engagement, and conversion. Manual enrichment doesn’t scale because it relies on catalog managers to manually write descriptions, apply tags, and categorize. The process is slow, inconsistent, and error-prone. This tutorial shows developers…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-an-ai-catalog-system-that-delivers-localized-interactive-product-experiences/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "df7b9116-50e3-55c6-b256-7ab1b101181f",
     "title": "Multi-Agent Warehouse AI Command Layer Enables Operational Excellence and Supply Chain Intelligence",
     "link": "https://developer.nvidia.com/blog/multi-agent-warehouse-ai-command-layer-enables-operational-excellence-and-supply-chain-intelligence/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/abstract-graphic-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"abstract-graphic\" width=\"768\" />Starting with the 25.10 release, pip-installable cuML wheels can now be downloaded directly from PyPI. No more complex installation steps or managing Conda...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/abstract-graphic-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"abstract-graphic\" width=\"768\" /><p></p>\n<p><a href=\"https://developer.nvidia.com/blog/reducing-cuda-binary-size-to-distribute-cuml-on-pypi/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8146404b-1670-54cb-9073-35c86e76810c",
-    "title": "NVIDIA CUDA-X Powers the New Sirius GPU Engine for DuckDB, Setting ClickBench Records",
-    "link": "https://developer.nvidia.com/blog/nvidia-gpu-accelerated-sirius-achieves-record-setting-clickbench-record/",
-    "pubDate": "2025-12-15T17:18:31+00:00",
-    "description": "NVIDIA is partnering with the University of Wisconsin-Madison to bring GPU-accelerated analytics to DuckDB through the open-source Sirius engine. DuckDB has...",
-    "author": "Xiangyao Yu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/ClickBench-Sirius-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ClickBench-Sirius\" width=\"768\" />NVIDIA is partnering with the University of Wisconsin-Madison to bring GPU-accelerated analytics to DuckDB through the open-source Sirius engine. DuckDB has...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/ClickBench-Sirius-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ClickBench-Sirius\" width=\"768\" /><p>NVIDIA is partnering with the University of Wisconsin-Madison to bring GPU-accelerated analytics to DuckDB through the open-source Sirius engine. DuckDB has seen rapid adoption among organizations such as DeepSeek, Microsoft, and Databricks due to its simplicity, speed, and versatility. As analytics workloads are highly amenable to massive parallelism, GPUs have emerged as the natural next…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-gpu-accelerated-sirius-achieves-record-setting-clickbench-record/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0613b708-c184-5fd6-890f-f3693f7cb1ab",
-    "title": "NVIDIA Acquires Open-Source Workload Management Provider SchedMD",
-    "link": "https://blogs.nvidia.com/blog/nvidia-acquires-schedmd/",
-    "pubDate": "2025-12-15T16:30:11+00:00",
-    "description": "NVIDIA today announced it has acquired SchedMD — the leading developer of Slurm, an open-source workload management system for high-performance computing (HPC) and AI — to help strengthen the open-source software ecosystem and drive AI innovation for researchers, developers and enterprises. NVIDIA will continue to develop and distribute Slurm as open-source, vendor-neutral software, making it Read Article",
-    "author": "NVIDIA Newsroom",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<div id=\"bsf_rt_marker\"></div><p>NVIDIA today announced it has acquired SchedMD — the leading developer of Slurm, an open-source workload management system for high-performance computing (HPC) and AI — to help strengthen the open-source software ecosystem and drive AI innovation for researchers, developers and enterprises.</p>\n<p>NVIDIA will continue to develop and distribute Slurm as open-source, vendor-neutral software, making it widely available to and supported by the broader HPC and AI community across diverse hardware and software environments.</p>\n<p>HPC and AI workloads involve complex computations running parallel tasks on clusters that require queuing, scheduling and allocating computational resources. As HPC and AI clusters get larger and more powerful, efficient resource utilization is critical.</p>\n<p>As the leading workload manager and job scheduler in scalability, throughput and complex policy management, Slurm is used in more than half of the top 10 and top 100 systems in the TOP500 list of supercomputers.</p>\n<p>Slurm, which is supported on the latest NVIDIA hardware, is also part of the critical infrastructure needed for generative AI, used by foundation model developers and AI builders to manage model training and inference needs.</p>\n<p>“We’re thrilled to join forces with NVIDIA, as this acquisition is the ultimate validation of Slurm’s critical role in the world’s most demanding HPC and AI environments,” said Danny Auble, CEO of SchedMD. “NVIDIA’s deep expertise and investment in accelerated computing will enhance the development of Slurm — which will continue to be open source — to meet the demands of the next generation of AI and supercomputing.”</p>\n<p>NVIDIA has been collaborating with SchedMD for over a decade and will continue investing in Slurm’s development to ensure it remains the leading open-source scheduler for HPC and AI.</p>\n<p>NVIDIA will accelerate SchedMD’s access to new systems — allowing users of NVIDIA’s accelerated computing platform to optimize workloads across their entire compute infrastructure — while also supporting a diverse hardware and software ecosystem, so customers can run heterogeneous clusters with the latest Slurm innovations.</p>\n<p>NVIDIA will continue to offer open-source software support, training and development for Slurm to SchedMD’s hundreds of customers, which include cloud providers, manufacturers, AI companies and research labs spanning industries such as autonomous driving, healthcare and life sciences, energy, financial services, manufacturing and government.</p>\n<p>Together with SchedMD, NVIDIA is bolstering the open-source software ecosystem to catalyze HPC and AI innovation across industries, at every scale.</p>",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2025/09/nvidiaheadquarters.jpg",
     "isShortVideo": 0
   }
 ]
