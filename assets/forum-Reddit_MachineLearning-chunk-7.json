@@ -1,5 +1,37 @@
 [
   {
+    "id": "04522381-fb58-547f-8664-db441d8656c5",
+    "title": "[D] A small observation on JSON eval failures in evaluation pipelines",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/",
+    "pubDate": "2025-12-09T22:44:21+00:00",
+    "description": "Across several workflows I have noticed that many evaluation failures have little to do with model capability and more to do with unstable JSON structure. Common patterns Fields appear or disappear across samples Output types shift between samples Nested objects change layout The scoring script either crashes or discards samples A strict validation flow reduces this instability Capture raw output Check JSON structure Validate schema Score only valid samples Aggregate results after that This simple sequence gives much more stable trend lines and reduces false regressions that come from formatting variation rather than real performance change. I am interested in how others approach this. Do you enforce strict schemas during evaluation? Do you use validators or custom checking logic? Does structured validation noticeably improve evaluation stability for you? submitted by /u/coolandy00 [link] [comments]",
+    "author": "/u/coolandy00",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Across several workflows I have noticed that many evaluation failures have little to do with model capability and more to do with unstable JSON structure. Common patterns Fields appear or disappear across samples Output types shift between samples Nested objects change layout The scoring script either crashes or discards samples A strict validation flow reduces this instability Capture raw output Check JSON structure Validate schema Score only valid samples Aggregate results after that This simple sequence gives much more stable trend lines and reduces false regressions that come from formatting variation rather than real performance change. I am interested in how others approach this. Do you enforce strict schemas during evaluation? Do you use validators or custom checking logic? Does structured validation noticeably improve evaluation stability for you?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "5db00e63-b373-5c0f-868e-fb1fbf3a93aa",
+    "title": "[P] Open-source forward-deployed research agent for discovering AI failures in production",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pic99a/p_opensource_forwarddeployed_research_agent_for/",
+    "pubDate": "2025-12-09T16:42:03+00:00",
+    "description": "I’m sharing an open-source project called Agent Tinman . It’s a forward-deployed research agent designed to live alongside real AI systems and continuously: generate hypotheses about where models may fail design and run experiments in LAB / SHADOW / PRODUCTION classify failures (reasoning, long-context, tools, feedback loops, deployment) propose and simulate interventions before deployment gate high-risk changes with optional human approval The goal is continuous, structured failure discovery under real traffic rather than only offline evals. It’s Apache 2.0, Python first, and designed to integrate as a sidecar via a pipeline adapter. I’d appreciate skeptical feedback from people running real systems: what’s missing, what’s overkill, and where this would break in practice. Repo: https://github.com/oliveskin/Agent-Tinman submitted by /u/what-is-in-it [link] [comments]",
+    "author": "/u/what-is-in-it",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m sharing an open-source project called <strong>Agent Tinman</strong>.<br /> It’s a forward-deployed research agent designed to live alongside real AI systems and continuously:</p> <ul> <li>generate hypotheses about where models may fail</li> <li>design and run experiments in LAB / SHADOW / PRODUCTION</li> <li>classify failures (reasoning, long-context, tools, feedback loops, deployment)</li> <li>propose and simulate interventions before deployment</li> <li>gate high-risk changes with optional human approval</li> </ul> <p>The goal is continuous, structured failure discovery under real traffic rather than only offline evals.</p> <p>It’s Apache 2.0, Python first, and designed to integrate as a sidecar via a pipeline adapter.</p> <p>I’d appreciate skeptical feedback from people running real systems: what’s missing, what’s overkill, and where this would break in practice.</p> <p>Repo:<br /> <a href=\"https://github.com/oliveskin/Agent-Tinman\">https://github.com/oliveskin/Agent-Tinman</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/what-is-in-it\"> /u/what-is-in-it </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pic99a/p_opensource_forwarddeployed_research_agent_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pic99a/p_opensource_forwarddeployed_research_agent_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9233f2dc-002a-54aa-b41b-34b384c7caba",
     "title": "[P] Chronos-1.5B: Quantum-Classical Hybrid LLM with Circuits Trained on IBM Quantum Hardware",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pib6iz/p_chronos15b_quantumclassical_hybrid_llm_with/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on multiview image generation for a specific kind of data and I was surprised I couldn’t find any flow models based pipelines that do that. How FLUX like models are adapted to generate multi images output? Is multiview generation only used as a 3D prior in the literature?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Comfortable_Cry8562\"> /u/Comfortable_Cry8562 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pesg7s/r_multiview_image_generation_using_flow_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pesg7s/r_multiview_image_generation_using_flow_models/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d146b99e-2c9e-51b4-8ae3-717ff03f0d89",
-    "title": "[D] Are there any emerging LLM related directions that do not require too expensive computing?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/",
-    "pubDate": "2025-12-05T10:32:25+00:00",
-    "description": "Hi all, as the title suggests, I've recently been researching LLM routing. What initially motivated me to enter this field was that I could only control a maximum of four 48GB A6000 GPUs, making fine-tuning/training LLMs impractical. As my research has progressed, I've found that the low-hanging fruit in this sub-area seems to have been picked, and I'm also considering other LLM-related sub-areas. Overall, I'm a freshman, so I would appreciate any insights you might offer, especially those emerging ones. Thanks in advance. submitted by /u/Chinese_Zahariel [link] [comments]",
-    "author": "/u/Chinese_Zahariel",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, as the title suggests, I've recently been researching LLM routing. What initially motivated me to enter this field was that I could only control a maximum of four 48GB A6000 GPUs, making fine-tuning/training LLMs impractical. As my research has progressed, I've found that the low-hanging fruit in this sub-area seems to have been picked, and I'm also considering other LLM-related sub-areas. Overall, I'm a freshman, so I would appreciate any insights you might offer, especially those emerging ones. Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Chinese_Zahariel\"> /u/Chinese_Zahariel </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e0b73130-74cb-5a6d-b60e-f9c8804ad524",
-    "title": "[P] Visualizing emergent structure in the Dragon Hatchling (BDH): a brain-inspired alternative to transformers",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1perpzl/p_visualizing_emergent_structure_in_the_dragon/",
-    "pubDate": "2025-12-05T10:29:25+00:00",
-    "description": "I implemented the BDH architecture (see paper ) for educational purposes and applied it to a pathfinding task. It's genuinely different from anything else I've read/built. The paper fascinated me for its synthesis of concepts from neuroscience, distributed computing, dynamical systems, and formal logic. And how the authors brought it all into a uniform architecture, and figured a GPU-friendly implementation. BDH models neuron-to-neuron interactions on sparse graphs. Two learned topologies act as fixed programs. But instead of a KV-cache, BDH maintains a form of working memory on the synapses between neurons (evolving via Hebbian learning), effectively rewriting its own circuits on the fly. I spent some time trying to visualize/animate BDH’s internal computation. It's striking how hub structure within the learned topologies emerges naturally from random initialization - no architectural constraint forces this. Activations stay extremely sparse (~3-5%) throughout, confirming the paper's observations but in a different task. Repo: https://github.com/krychu/bdh Board prediction + neuron dynamics: Left: path prediction layer by layer. Right: the hub subgraph that emerged from 8,000+ neurons Board attention + sparsity: Left: attention radiating from endpoints toward the emerging path. Right: y sparsity holds at ~3-5% submitted by /u/krychu [link] [comments]",
-    "author": "/u/krychu",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1perpzl/p_visualizing_emergent_structure_in_the_dragon/\"> <img alt=\"[P] Visualizing emergent structure in the Dragon Hatchling (BDH): a brain-inspired alternative to transformers\" src=\"https://external-preview.redd.it/5YiGfyqITQEhDDb4zgL76LOneevfPNc-8spE3jPWxUM.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=cb7541b8505dd56967db1619d068cab17a2a365a\" title=\"[P] Visualizing emergent structure in the Dragon Hatchling (BDH): a brain-inspired alternative to transformers\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I implemented the BDH architecture (see <a href=\"https://arxiv.org/abs/2509.26507\">paper</a>) for educational purposes and applied it to a pathfinding task. It's genuinely different from anything else I've read/built. The paper fascinated me for its synthesis of concepts from neuroscience, distributed computing, dynamical systems, and formal logic. And how the authors brought it all into a uniform architecture, and figured a GPU-friendly implementation.</p> <p>BDH models neuron-to-neuron interactions on sparse graphs. Two learned topologies act as fixed programs. But instead of a KV-cache, BDH maintains a form of working memory on the synapses between neurons (evolving via Hebbian learning), effectively rewriting its own circuits on the fly.</p> <p>I spent some time trying to visualize/animate BDH’s internal computation. It's striking how hub structure within the learned topologies emerges naturally from random initialization - no architectural constraint forces this. Activations stay extremely sparse (~3-5%) throughout, confirming the paper's observations but in a different task.</p> <p>Repo: <a href=\"https://github.com/krychu/bdh\">https://github.com/krychu/bdh</a></p> <p><strong>Board prediction + neuron dynamics:</strong></p> <p><a href=\"https://i.redd.it/7ccbrea34d5g1.gif\">Left: path prediction layer by layer. Right: the hub subgraph that emerged from 8,000+ neurons</a></p> <p><strong>Board attention + sparsity:</strong></p> <p><a href=\"https://i.redd.it/gf57zja44d5g1.gif\">Left: attention radiating from endpoints toward the emerging path. Right: y sparsity holds at ~3-5&#37;</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/krychu\"> /u/krychu </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perpzl/p_visualizing_emergent_structure_in_the_dragon/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perpzl/p_visualizing_emergent_structure_in_the_dragon/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/5YiGfyqITQEhDDb4zgL76LOneevfPNc-8spE3jPWxUM.png?width=640&crop=smart&auto=webp&s=cb7541b8505dd56967db1619d068cab17a2a365a",
     "isShortVideo": 0
   }
 ]
