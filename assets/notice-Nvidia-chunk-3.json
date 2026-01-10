@@ -142,37 +142,5 @@
     "content": "<img alt=\"Decorative math image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Solving-Math\" width=\"768\" />Large language models can solve challenging math problems. However, making them work efficiently at scale requires more than a strong checkpoint. You need the...<img alt=\"Decorative math image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Solving-Math\" width=\"768\" /><p>Large language models can solve challenging math problems. However, making them work efficiently at scale requires more than a strong checkpoint. You need the right serving stack, quantization strategy, and decoding methods—often spread across different tools that don’t work together cleanly. Teams end up juggling containers, conversion scripts, and ad‑hoc glue code to compare BF16 vs FP8 or to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-achieve-4x-faster-inference-for-math-problem-solving/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-2048x1152.jpg",
     "isShortVideo": 0
-  },
-  {
-    "id": "eee8efda-c31b-5831-ae6f-e97cf8ba8875",
-    "title": "Streamline Complex AI Inference on Kubernetes with NVIDIA Grove",
-    "link": "https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/",
-    "pubDate": "2025-11-10T14:00:00+00:00",
-    "description": "Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...",
-    "author": "Sanjay Chatterjee",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" />Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" /><p>Over the past few years, AI inference has evolved from single-model, single-pod deployments into complex, multicomponent systems. A model deployment may now consist of several distinct components—prefill, decode, vision encoders, key value (KV) routers, and more. In addition, entire agentic pipelines are emerging, where multiple such model instances collaborate to perform reasoning, retrieval…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamline-complex-ai-inference-on-kubernetes-with-nvidia-grove/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/data-center.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3e1e51d7-7708-5f7e-96ad-2d5d15029c6a",
-    "title": "Enabling Multi-Node NVLink on Kubernetes for NVIDIA GB200 NVL72 and Beyond",
-    "link": "https://developer.nvidia.com/blog/enabling-multi-node-nvlink-on-kubernetes-for-gb200-and-beyond/",
-    "pubDate": "2025-11-10T14:00:00+00:00",
-    "description": "The NVIDIA GB200 NVL72 pushes AI infrastructure to new limits, enabling breakthroughs in training large-language models and running scalable, low-latency...",
-    "author": "Kevin Klues",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/runai-tech-blog-compute-domains-1920x1080-4504000-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"runai-tech-blog-compute-domains-1920x1080-4504000\" width=\"768\" />The NVIDIA GB200 NVL72 pushes AI infrastructure to new limits, enabling breakthroughs in training large-language models and running scalable, low-latency...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/runai-tech-blog-compute-domains-1920x1080-4504000-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"runai-tech-blog-compute-domains-1920x1080-4504000\" width=\"768\" /><p>The NVIDIA GB200 NVL72 pushes AI infrastructure to new limits, enabling breakthroughs in training large-language models and running scalable, low-latency inference workloads. Increasingly, Kubernetes plays a central role for deploying and scaling these workloads efficiently whether on-premises or in the cloud. However, rapidly evolving AI workloads, infrastructure requirements…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enabling-multi-node-nvlink-on-kubernetes-for-gb200-and-beyond/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/runai-tech-blog-compute-domains-1920x1080-4504000.png",
-    "isShortVideo": 0
   }
 ]
