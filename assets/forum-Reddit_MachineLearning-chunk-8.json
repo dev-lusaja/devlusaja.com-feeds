@@ -1,5 +1,21 @@
 [
   {
+    "id": "100835d1-d890-5862-925f-9b24f3c31c4f",
+    "title": "[D] Has anyone here transitioned from Data Science to Research Engineering role?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pg9zj7/d_has_anyone_here_transitioned_from_data_science/",
+    "pubDate": "2025-12-07T05:04:47+00:00",
+    "description": "I’m really interested in moving into a Research Engineering (RE) role at a FAANG-type company. I’m currently a senior data scientist deploying AI agents at a Fortune 50, so my day-to-day looks closer to SWE/ML engineering than traditional DS. I’m trying to understand my skill gaps and the biggest one I see is large-scale distributed training. I’m doing a CS master’s now, and I will be joining a research lab that trains models at ~100 GPU scale to build that experience (and hopefully publication). The other gap I could imagine would be not having SWE officially in my resume. Has anyone here made the transition from DS to RE or is currently an RE? Would you be willing to share more about the journey? What gaps did you have to close? How were you received in interview process? Any tips for someone else on this journey? submitted by /u/Possible_Elephant211 [link] [comments]",
+    "author": "/u/Possible_Elephant211",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m really interested in moving into a Research Engineering (RE) role at a FAANG-type company. I’m currently a senior data scientist deploying AI agents at a Fortune 50, so my day-to-day looks closer to SWE/ML engineering than traditional DS. </p> <p>I’m trying to understand my skill gaps and the biggest one I see is large-scale distributed training. I’m doing a CS master’s now, and I will be joining a research lab that trains models at ~100 GPU scale to build that experience (and hopefully publication). The other gap I could imagine would be not having SWE officially in my resume.</p> <p>Has anyone here made the transition from DS to RE or is currently an RE? Would you be willing to share more about the journey? What gaps did you have to close? How were you received in interview process? Any tips for someone else on this journey?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Possible_Elephant211\"> /u/Possible_Elephant211 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pg9zj7/d_has_anyone_here_transitioned_from_data_science/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pg9zj7/d_has_anyone_here_transitioned_from_data_science/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5ae5344d-f1a9-53bf-92d1-b5bf34f652c1",
     "title": "[D] Chart Extraction using Multiple Lightweight Models",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pg1olx/d_chart_extraction_using_multiple_lightweight/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm a high schooler whos work has been accepted to the NeurIPS AI 4 Science workshop, and since it's my first time attending NeurIPS, I'm wondering what goes on there, like, what's the environment like(is it intense or more laid-back)? Also, what should I expect during the poster presentation period?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Awesome_Nerd10\"> /u/Awesome_Nerd10 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdlrt6/d_neurips_workshop_question/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdlrt6/d_neurips_workshop_question/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3154b2cb-104d-57d1-bd3d-41c48844e691",
-    "title": "[D] How Are You Stabilizing Chunking Across Corpora?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pdkdtg/d_how_are_you_stabilizing_chunking_across_corpora/",
-    "pubDate": "2025-12-03T23:41:09+00:00",
-    "description": "In a lot of applied RAG systems, retrieval quality drops long before model tuning matters, because chunking starts drifting upstream. Patterns I’ve seen repeatedly: segmentation instability, inconsistent overlaps, semantic fragmentation, and boundary shifts caused by extractor or format changes. The checks that surface issues quickly: structural boundary comparison overlap consistency validation adjacency semantic-distance monitoring And the fixes that help: structure-aware segmentation, pinned chunking configs, stable extraction layers, and version-controlled boundary maps. How are you enforcing segmentation stability across varied corpora? submitted by /u/coolandy00 [link] [comments]",
-    "author": "/u/coolandy00",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>In a lot of applied RAG systems, retrieval quality drops long before model tuning matters, because chunking starts drifting upstream.</p> <p>Patterns I’ve seen repeatedly: segmentation instability, inconsistent overlaps, semantic fragmentation, and boundary shifts caused by extractor or format changes.</p> <p>The checks that surface issues quickly:</p> <ul> <li>structural boundary comparison </li> <li>overlap consistency validation </li> <li>adjacency semantic-distance monitoring</li> </ul> <p>And the fixes that help: structure-aware segmentation, pinned chunking configs, stable extraction layers, and version-controlled boundary maps.</p> <p>How are you enforcing segmentation stability across varied corpora?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdkdtg/d_how_are_you_stabilizing_chunking_across_corpora/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdkdtg/d_how_are_you_stabilizing_chunking_across_corpora/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

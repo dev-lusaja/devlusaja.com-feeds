@@ -1,5 +1,21 @@
 [
   {
+    "id": "83580e95-0e88-5b91-be77-854f7b72845b",
+    "title": "[P]How to increase roc-auc? Classification problem statement description below",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q2s0ga/phow_to_increase_rocauc_classification_problem/",
+    "pubDate": "2026-01-03T11:06:05+00:00",
+    "description": "Hi, So im working at a wealth management company Aim - My task is to score the 'leads' as to what are the chances of them getting converted into clients. A lead is created when they check out website, or a relationship manager(RM) has spoken to them/like that. From here on the RM will pitch the things to the leads. We have client data, their aua, client_tier, their segment, and other lots of information. Like what product they incline towards..etc My method- Since we have to find a probablity score, we can use classification models We have data where leads have converted, not converted and we have open leads that we have to score. I have very less guidance in my company hence im writing here in hope of some direction I have managed to choose the columns that might be needed to decide if a lead will get converted or not. And I tried running : Logistic regression (lasso) - roc auc - 0.61 Random forest - roc auc - 0.70 Xgboost - roc auc - 0.73 I tired changing the hyperparameters of xgboost but the score is still similar not more than 0.74 How do I increase it to at least above 90? Like im not getting if this is a Data feature issue Model issue What should I look for now, like there were around 160 columns and i reduced to 30 features which might be useful ig? Now, while training - Rows - 89k. Columns - 30 I need direction on what should my next step be Im new in classical ml Any help would be appreciated Thanks! submitted by /u/Yaar-Bhak [link] [comments]",
+    "author": "/u/Yaar-Bhak",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>So im working at a wealth management company </p> <p>Aim - My task is to score the 'leads' as to what are the chances of them getting converted into clients.</p> <p>A lead is created when they check out website, or a relationship manager(RM) has spoken to them/like that. From here on the RM will pitch the things to the leads.</p> <p>We have client data, their aua, client_tier, their segment, and other lots of information. Like what product they incline towards..etc </p> <p>My method-</p> <p>Since we have to find a probablity score, we can use classification models </p> <p>We have data where leads have converted, not converted and we have open leads that we have to score. </p> <p>I have very less guidance in my company hence im writing here in hope of some direction </p> <p>I have managed to choose the columns that might be needed to decide if a lead will get converted or not. </p> <p>And I tried running : </p> <ol> <li>Logistic regression (lasso) - roc auc - 0.61 </li> <li>Random forest - roc auc - 0.70 </li> <li>Xgboost - roc auc - 0.73 </li> </ol> <p>I tired changing the hyperparameters of xgboost but the score is still similar not more than 0.74 </p> <p>How do I increase it to at least above 90? </p> <p>Like im not getting if this is a </p> <ol> <li>Data feature issue </li> <li>Model issue</li> <li>What should I look for now, like there were around 160 columns and i reduced to 30 features which might be useful ig? </li> </ol> <p>Now, while training - Rows - 89k. Columns - 30 </p> <ol> <li>I need direction on what should my next step be</li> </ol> <p>Im new in classical ml Any help would be appreciated </p> <p>Thanks! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Yaar-Bhak\"> /u/Yaar-Bhak </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q2s0ga/phow_to_increase_rocauc_classification_problem/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q2s0ga/phow_to_increase_rocauc_classification_problem/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2aeebfc5-bd1e-5ed6-8862-2156afd5fce6",
     "title": "[R] Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q2nq13/r_dynamic_large_concept_models_latent_reasoning/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Abstract:</strong> We have released the code and weights for <strong>TOPAS-DSPL</strong>, a neuro-symbolic baseline designed to test the efficacy of &quot;Bicameral&quot; latent spaces in small-scale reasoning models.</p> <p>By separating algorithmic planning (<strong>Logic Stream</strong>) from execution state (<strong>Canvas Stream</strong>) via Dynamic AdaLN conditioning, we observed a reduction in &quot;Compositional Drift&quot; compared to monolithic recursive models (e.g., TRM).</p> <p><strong>Experimental Results:</strong></p> <ul> <li><strong>Benchmark:</strong> ARC-AGI-2 Evaluation Set</li> <li><strong>Accuracy:</strong> 24% (Exact Match)</li> <li><strong>Baseline Comparison:</strong> ~3x improvement over standard Tiny Recursive Models (~8%).</li> <li><strong>Parameter Count:</strong> ~15M (Consumer hardware accessible)</li> </ul> <p><strong>Methodology:</strong> The architecture addresses the &quot;forgetting&quot; problem in recursive loops by functionally decoupling the rule generation from the state update. The Logic Stream acts as a controller, modulating the Canvas Stream's weights at each timestep. We utilized <strong>Test-Time Training (TTT)</strong> for instance-specific adaptation and <strong>MuonClip</strong> for optimization stability.</p> <p><strong>Reproduction:</strong> We have open-sourced the full training pipeline, data augmentation scripts, and evaluation harness to allow for independent verification of these results.</p> <p>We (Bitterbot AI) are very excited about this and I'll just say, one of the many reasons is because this is actually are least accurate and efficient model - this is the one we are comfortable open sourcing with the public. But we have already achieved MUCH more.</p> <p>I do not want this to be flagged for self promotion or spam so I will add a link to our repo (code) and paper below.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Doug_Bitterbot\"> /u/Doug_Bitterbot </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzsx3i/p_topasdspl_a_15m_param_dualstream_recursive/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzsx3i/p_topasdspl_a_15m_param_dualstream_recursive/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "51e52dcb-5204-55af-9fb1-7f8fd5db1434",
-    "title": "[P] The State Of LLMs 2025: Progress, Problems, and Predictions",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pzrfbf/p_the_state_of_llms_2025_progress_problems_and/",
-    "pubDate": "2025-12-30T19:33:26+00:00",
-    "description": "submitted by /u/seraschka [link] [comments]",
-    "author": "/u/seraschka",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzrfbf/p_the_state_of_llms_2025_progress_problems_and/\"> <img alt=\"[P] The State Of LLMs 2025: Progress, Problems, and Predictions\" src=\"https://external-preview.redd.it/ip3t1phQ469yOBa2kbOD__RHIhAqj8C7dU-KA_Pn0lI.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=859212246454f6bb28f9d882875d0a6ae9694d87\" title=\"[P] The State Of LLMs 2025: Progress, Problems, and Predictions\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/seraschka\"> /u/seraschka </a> <br /> <span><a href=\"https://magazine.sebastianraschka.com/p/state-of-llms-2025\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pzrfbf/p_the_state_of_llms_2025_progress_problems_and/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ip3t1phQ469yOBa2kbOD__RHIhAqj8C7dU-KA_Pn0lI.jpeg?width=640&crop=smart&auto=webp&s=859212246454f6bb28f9d882875d0a6ae9694d87",
     "isShortVideo": 0
   }
 ]
