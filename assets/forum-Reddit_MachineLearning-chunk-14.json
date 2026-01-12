@@ -1,5 +1,21 @@
 [
   {
+    "id": "b73a4af5-5399-5082-a2fe-10f08dfbcf2e",
+    "title": "[R] LeJEPA: New Yann Lecun paper",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ovm4fd/r_lejepa_new_yann_lecun_paper/",
+    "pubDate": "2025-11-13T00:07:56+00:00",
+    "description": "Abstract: Learning manipulable representations of the world and its dynamics is central to AI. Joint-Embedding Predictive Architectures (JEPAs) offer a promising blueprint, but lack of practical guidance and theory has led to ad - hoc R&D. We present a comprehensive theory of JEPAs and instantiate it in LeJEPA, a lean, scalable, and theoretically grounded training objective. First, we identify the isotropic Gaussian as the optimal distribution that JEPAs’ embeddings should follow to minimize downstream prediction risk. Second, we introduce a novel objective–Sketched Isotropic Gaussian Regularization (SIGReg)–to constrain embeddings to reach that ideal distribution. Combining the JEPA predictive loss with SIGReg yields LeJEPA with numerous theoretical and practical benefits: (i) single trade - off hyperparameter, (ii) linear time and memory complexity, (iii) stability across hyper-parameters, architectures (ResNets, ViTs, ConvNets) and domains, (iv) heuristics-free, e.g., no stop -gradient, no teacher–student, no hyper-parameter schedulers, and (v) distributed training-friendly implementation requiring only ≈50 lines of code. Our empirical validation covers 10+ datasets, 60+ architectures, all with varying scales and domains. As an example, using imagenet-1k for pretraining and linear evaluation with frozen backbone, LeJEPA reaches 79% with a ViT-H/14. We hope that the simplicity and theory-friendly ecosystem offered by LeJEPA will reestablish self-supervised pre-training as a core pillar of AI research submitted by /u/jacobgorm [link] [comments]",
+    "author": "/u/jacobgorm",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Abstract: Learning manipulable representations of the world and its dynamics is central to AI. Joint-Embedding Predictive Architectures (JEPAs) offer a promising blueprint, but lack of practical guidance and theory has led to ad - hoc R&amp;D. We present a comprehensive theory of JEPAs and instantiate it in LeJEPA, a lean, scalable, and theoretically grounded training objective. First, we identify the isotropic Gaussian as the optimal distribution that JEPAs’ embeddings should follow to minimize downstream prediction risk. Second, we introduce a novel objective–Sketched Isotropic Gaussian Regularization (SIGReg)–to constrain embeddings to reach that ideal distribution. Combining the JEPA predictive loss with SIGReg yields LeJEPA with numerous theoretical and practical benefits: (i) single trade - off hyperparameter, (ii) linear time and memory complexity, (iii) stability across hyper-parameters, architectures (ResNets, ViTs, ConvNets) and domains, (iv) heuristics-free, e.g., no stop -gradient, no teacher–student, no hyper-parameter schedulers, and (v) distributed training-friendly implementation requiring only ≈50 lines of code. Our empirical validation covers 10+ datasets, 60+ architectures, all with varying scales and domains. As an example, using imagenet-1k for pretraining and linear evaluation with frozen backbone, LeJEPA reaches 79% with a ViT-H/14. We hope that the simplicity and theory-friendly ecosystem offered by LeJEPA will reestablish self-supervised pre-training as a core pillar of AI research</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacobgorm\"> /u/jacobgorm </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovm4fd/r_lejepa_new_yann_lecun_paper/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovm4fd/r_lejepa_new_yann_lecun_paper/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "becdd011-3e70-5286-a81e-5fedcf2d1851",
     "title": "[R][P] CellARC: cellular automata based abstraction and reasoning benchmark (paper + dataset + leaderboard + baselines)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ovchkp/rp_cellarc_cellular_automata_based_abstraction/",
@@ -125,54 +141,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/\"> <img alt=\"[P] NeuralFlight: I rebuilt my 7-year-old BCI drone project with modern ML - now featuring 73% cross-subject motor imagery accuracy\" src=\"https://b.thumbs.redditmedia.com/CBDR9aOGz4Vr6pO7ilUX1Wr7Nfhyy8X67cm3dhJl7_k.jpg\" title=\"[P] NeuralFlight: I rebuilt my 7-year-old BCI drone project with modern ML - now featuring 73% cross-subject motor imagery accuracy\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>In 2018, we built a brain-controlled system for flying machines using MATLAB, an $800 EEG headset, and a $300 drone. It worked, but nobody else could run it. The spaghetti code was one of my major motivations to refactor and re-structure the whole codebase.</p> <p>So I would like to introduce you to NeuralFlight, a re-structured project from our old work where you can control a virtual drone using:</p> <ul> <li><strong>Hand gestures</strong> (move your fist, drone follows, uses Mediapipe)</li> <li><strong>Head movements</strong> (hands-free control, uses Mediapipe) </li> <li><strong>Real EEG motor imagery</strong> (PyTorch, 73% cross-subject accuracy)</li> </ul> <p><strong>EEG Results</strong></p> <p>The motor imagery classifier achieves <strong>73% cross-subject accuracy</strong> on PhysioNet data:</p> <ul> <li><strong>17 EEG channels</strong> (FC3-FC4, C5-C6, CP3-CP4)</li> <li><strong>EEGNet with residual connections</strong> (~10K params)</li> <li><strong>Subject-level split</strong> (30 train, 10 validation)</li> <li><strong>Left/right hand imagination</strong> → drone strafes left/right</li> </ul> <p><strong>Demo</strong> </p> <p><a href=\"https://i.redd.it/7pjr5elhos0g1.gif\">Here is a simple GIF showing real-tme motor imagery classification and the response of the bot</a></p> <p><strong>Try It (GitHub</strong>: <a href=\"https://github.com/dronefreak/NeuralFlight\">NeuralFlight</a><strong>)</strong></p> <pre><code>git clone https://github.com/dronefreak/NeuralFlight cd NeuralFlight pip install -e . # Hand gesture demo neuralflight-hand # Train EEG model (takes ~15 min on RTX 4070 GPU) neuralflight-train # Motor imagery demo neuralflight-eeg </code></pre> <p><strong>Future Roadmap</strong></p> <ul> <li>Support for real drones (DJI Tello for example)</li> <li>4-class motor imagery (forward/back + left/right)</li> <li>Real-time EEG streaming (Muse, OpenBCI)</li> <li>Web dashboard</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Naive-Explanation940\"> /u/Naive-Explanation940 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ov0rhr/p_neuralflight_i_rebuilt_my_7yearold_bci_drone/\">[comments]</a></span> </td></tr></table>",
     "image": "https://b.thumbs.redditmedia.com/CBDR9aOGz4Vr6pO7ilUX1Wr7Nfhyy8X67cm3dhJl7_k.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a0863902-dc1c-5700-bd99-e3fd992b1e20",
-    "title": "[D] Best CV/AI journal to submit an extended CVPR paper",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ouvqbq/d_best_cvai_journal_to_submit_an_extended_cvpr/",
-    "pubDate": "2025-11-12T04:30:42+00:00",
-    "description": "In 2024, I had published a paper in CVPR conference and later extend the idea for possible publication in top journal like T-PAMI and TIP but unfortunately both rejected it. The reason of TPAMI is lack of experiments and some backbones issues and I have covered all things for TIP submission. But TIP rejected it saying you cannot extend conference paper which have 8 pages we only accept extended paper which was published in conference with 6 pages. What should I do? It already a year and I want to publish in good venue as I have to go to industry. submitted by /u/Alternative_Art2984 [link] [comments]",
-    "author": "/u/Alternative_Art2984",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>In 2024, I had published a paper in CVPR conference and later extend the idea for possible publication in top journal like T-PAMI and TIP but unfortunately both rejected it. The reason of TPAMI is lack of experiments and some backbones issues and I have covered all things for TIP submission. But TIP rejected it saying you cannot extend conference paper which have 8 pages we only accept extended paper which was published in conference with 6 pages.</p> <p>What should I do? It already a year and I want to publish in good venue as I have to go to industry.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ouvqbq/d_best_cvai_journal_to_submit_an_extended_cvpr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ouvqbq/d_best_cvai_journal_to_submit_an_extended_cvpr/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "387c8c41-51a2-5ca0-a7dc-7d2f24b0f6c4",
-    "title": "[D] Safety of Imaged Editing Tools",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ouvdef/d_safety_of_imaged_editing_tools/",
-    "pubDate": "2025-11-12T04:12:01+00:00",
-    "description": "I've been thinking a lot lately about the safety measures that developers of image editing models should consider. The task of “editing” is inherently broad and defining what counts as an acceptable edit versus a harmful one has been on my mind for days. I'm trying to think of a formal definition for this kind of safety measures. Where should we draw the line between creativity and misuse? What principles or guardrails should guide developers as they design these systems? If you were a decision-maker at one of these companies, how would you define safety for image editing models? If you were a policy-maker, what factors would you consider when proposing regulations to ensure their responsible use? I’d love to hear different perspectives on this. submitted by /u/amroadel [link] [comments]",
-    "author": "/u/amroadel",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been thinking a lot lately about the safety measures that developers of image editing models should consider. The task of “editing” is inherently broad and defining what counts as an acceptable edit versus a harmful one has been on my mind for days. I'm trying to think of a formal definition for this kind of safety measures. </p> <p>Where should we draw the line between creativity and misuse? What principles or guardrails should guide developers as they design these systems?</p> <p>If you were a decision-maker at one of these companies, how would you define safety for image editing models? If you were a policy-maker, what factors would you consider when proposing regulations to ensure their responsible use?</p> <p>I’d love to hear different perspectives on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amroadel\"> /u/amroadel </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ouvdef/d_safety_of_imaged_editing_tools/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ouvdef/d_safety_of_imaged_editing_tools/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f041f7db-d7b5-5679-b97c-6760bad0a1f9",
-    "title": "[D] How should i handle extreme class imbalance in a classification?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1oulw5c/d_how_should_i_handle_extreme_class_imbalance_in/",
-    "pubDate": "2025-11-11T21:19:54+00:00",
-    "description": "Hey there, so i have been playing around and trying to replicate certain profitable HFT bots strategy for entry and exit, but there is always going to be huge imbalance, say 2500 positives in 600k data, i did try out weighting by ratio but is that the right approach? Is it a right approach to rather train on 10k positives and 10k negatives instead, maybe under sampling the negatives or adding more positives (of the same target wallet entry) from a different csv? What are your suggestions in such cases? Happy to learn, thanks. submitted by /u/tookietheroookie [link] [comments]",
-    "author": "/u/tookietheroookie",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey there, so i have been playing around and trying to replicate certain profitable HFT bots strategy for entry and exit, but there is always going to be huge imbalance, say 2500 positives in 600k data, i did try out weighting by ratio but is that the right approach? Is it a right approach to rather train on 10k positives and 10k negatives instead, maybe under sampling the negatives or adding more positives (of the same target wallet entry) from a different csv? What are your suggestions in such cases? Happy to learn, thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tookietheroookie\"> /u/tookietheroookie </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oulw5c/d_how_should_i_handle_extreme_class_imbalance_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1oulw5c/d_how_should_i_handle_extreme_class_imbalance_in/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

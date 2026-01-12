@@ -1,5 +1,21 @@
 [
   {
+    "id": "6c1d8d50-684c-553c-be1e-4849b8815d3f",
+    "title": "[D] Scale-out is the silent killer of LLM applications. Are we solving the wrong problem?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p18wg1/d_scaleout_is_the_silent_killer_of_llm/",
+    "pubDate": "2025-11-19T14:19:22+00:00",
+    "description": "Everyone's obsessed with cold starts. But cold starts are a one-time cost. The real architecture breaker is slow scale-out. When traffic spikes and you need to spin up a new replica of a 70B model, you're looking at 5-10 minutes of loading and warm-up. By the time your new node is ready, your users have already timed out. You're left with two terrible choices: · Over-provision and waste thousands on idle GPUs. · Under-provision and watch your service break under load. How are you all handling this? Is anyone actually solving the scale-out problem, or are you just accepting this as the cost of doing business? Very curious . submitted by /u/pmv143 [link] [comments]",
+    "author": "/u/pmv143",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Everyone's obsessed with cold starts. But cold starts are a one-time cost. The real architecture breaker is slow scale-out.</p> <p>When traffic spikes and you need to spin up a new replica of a 70B model, you're looking at 5-10 minutes of loading and warm-up. By the time your new node is ready, your users have already timed out.</p> <p>You're left with two terrible choices:</p> <p>· Over-provision and waste thousands on idle GPUs. · Under-provision and watch your service break under load.</p> <p>How are you all handling this? Is anyone actually solving the scale-out problem, or are you just accepting this as the cost of doing business? Very curious . </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmv143\"> /u/pmv143 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p18wg1/d_scaleout_is_the_silent_killer_of_llm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p18wg1/d_scaleout_is_the_silent_killer_of_llm/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0562aba2-8b80-51c3-ac9b-5b241bd48656",
     "title": "[D]After testing Veo vs Sora clips… I’m not sure which one “understands” video better",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p18r6y/dafter_testing_veo_vs_sora_clips_im_not_sure/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm evaluating different open-source tools for testing LLMs and RAG pipelines. I've come across Giskard and Rhesis, and they seem to take different architectural approaches. Here's what I understand so far, corrections welcome:</p> <p>Giskard • Built-in test suites and quality checks • Python-first with inspection UI • Strong focus on model testing and guardrails • Established ecosystem with documentation and examples</p> <p>Rhesis • Integrates multiple metric libraries (DeepEval, RAGAS, etc.) • Code-based test suites with versioning • Modular design use locally or with a collaboration backend • Newer, smaller community</p> <p>Different strengths for different needs:</p> <p>If you want opinionated, ready-to-use test suites → likely Giskard If you want to compose from existing metric libraries → likely Rhesis If you prioritize ecosystem maturity → Giskard If you want lightweight integration → Rhesis</p> <p>Has anyone here used one or both? I'm particularly curious about:</p> <p>Ease of customization Integration with existing workflows Quality of documentation and community support Any gotchas or limitations you hit</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IOnlyDrinkWater_22\"> /u/IOnlyDrinkWater_22 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozkj1f/d_comparing_giskard_and_rhesis_for_llm_evaluation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozkj1f/d_comparing_giskard_and_rhesis_for_llm_evaluation/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2c9985ae-9ee5-57a0-ae8d-0fdd31e75a88",
-    "title": "[D] Evaluating Locality Affinity (Co-occurrence) Models for Real-Estate Recommendations. What’s the Best Offline Strategy?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozkakv/d_evaluating_locality_affinity_cooccurrence/",
-    "pubDate": "2025-11-17T16:09:31+00:00",
-    "description": "I’m working on the recommendations system for a large real-estate platform. Specifically, I’m building locality–locality affinity using user behavior (common EOI (expression of interest in a property)) Basically an item-item similarity matrix but for geographical localities instead of products. I’m generating multiple affinity variants based on: * different time windows (30/90/180 days) * different data cleaning strategies * different matrix normalizations Now the question is: How do I know which locality affinity version is best? Correlation with distance alone won’t work, users often jump across localities because of price, builder, lifestyle clusters, etc. So correlating affinity with physical distance is not meaningful. But I need a robust offline evaluation framework before using this as a feature in my model. Any suggestions on how to go about it? Thanks in advance! submitted by /u/MiserableGrapefruit7 [link] [comments]",
-    "author": "/u/MiserableGrapefruit7",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on the recommendations system for a large real-estate platform. Specifically, I’m building locality–locality affinity using user behavior (common EOI (expression of interest in a property))</p> <p>Basically an item-item similarity matrix but for geographical localities instead of products.</p> <p>I’m generating multiple affinity variants based on: * different time windows (30/90/180 days) * different data cleaning strategies * different matrix normalizations</p> <p>Now the question is:</p> <p>How do I know which locality affinity version is best?</p> <p>Correlation with distance alone won’t work, users often jump across localities because of price, builder, lifestyle clusters, etc. So correlating affinity with physical distance is not meaningful.</p> <p>But I need a robust offline evaluation framework before using this as a feature in my model.</p> <p>Any suggestions on how to go about it? Thanks in advance! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MiserableGrapefruit7\"> /u/MiserableGrapefruit7 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozkakv/d_evaluating_locality_affinity_cooccurrence/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozkakv/d_evaluating_locality_affinity_cooccurrence/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "2c9985ae-9ee5-57a0-ae8d-0fdd31e75a88",
+    "title": "[D] Evaluating Locality Affinity (Co-occurrence) Models for Real-Estate Recommendations. What’s the Best Offline Strategy?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozkakv/d_evaluating_locality_affinity_cooccurrence/",
+    "pubDate": "2025-11-17T16:09:31+00:00",
+    "description": "I’m working on the recommendations system for a large real-estate platform. Specifically, I’m building locality–locality affinity using user behavior (common EOI (expression of interest in a property)) Basically an item-item similarity matrix but for geographical localities instead of products. I’m generating multiple affinity variants based on: * different time windows (30/90/180 days) * different data cleaning strategies * different matrix normalizations Now the question is: How do I know which locality affinity version is best? Correlation with distance alone won’t work, users often jump across localities because of price, builder, lifestyle clusters, etc. So correlating affinity with physical distance is not meaningful. But I need a robust offline evaluation framework before using this as a feature in my model. Any suggestions on how to go about it? Thanks in advance! submitted by /u/MiserableGrapefruit7 [link] [comments]",
+    "author": "/u/MiserableGrapefruit7",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on the recommendations system for a large real-estate platform. Specifically, I’m building locality–locality affinity using user behavior (common EOI (expression of interest in a property))</p> <p>Basically an item-item similarity matrix but for geographical localities instead of products.</p> <p>I’m generating multiple affinity variants based on: * different time windows (30/90/180 days) * different data cleaning strategies * different matrix normalizations</p> <p>Now the question is:</p> <p>How do I know which locality affinity version is best?</p> <p>Correlation with distance alone won’t work, users often jump across localities because of price, builder, lifestyle clusters, etc. So correlating affinity with physical distance is not meaningful.</p> <p>But I need a robust offline evaluation framework before using this as a feature in my model.</p> <p>Any suggestions on how to go about it? Thanks in advance! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MiserableGrapefruit7\"> /u/MiserableGrapefruit7 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozkakv/d_evaluating_locality_affinity_cooccurrence/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozkakv/d_evaluating_locality_affinity_cooccurrence/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "511cb1b5-a01c-5ba2-8a6d-c54ebb228ea4",
     "title": "[D] An alternative to Nested Cross Validation and independent test set doubts",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ozhv8q/d_an_alternative_to_nested_cross_validation_and/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Made my CVPR submission and got assigned almost a 30k submission number. Does this mean there are ~30k submissions to CVPR this year? That is more than double of last years...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdministrativeRub484\"> /u/AdministrativeRub484 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovqvdr/d_cvpr_submission_number_almost_at_30k/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovqvdr/d_cvpr_submission_number_almost_at_30k/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b73a4af5-5399-5082-a2fe-10f08dfbcf2e",
-    "title": "[R] LeJEPA: New Yann Lecun paper",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ovm4fd/r_lejepa_new_yann_lecun_paper/",
-    "pubDate": "2025-11-13T00:07:56+00:00",
-    "description": "Abstract: Learning manipulable representations of the world and its dynamics is central to AI. Joint-Embedding Predictive Architectures (JEPAs) offer a promising blueprint, but lack of practical guidance and theory has led to ad - hoc R&D. We present a comprehensive theory of JEPAs and instantiate it in LeJEPA, a lean, scalable, and theoretically grounded training objective. First, we identify the isotropic Gaussian as the optimal distribution that JEPAs’ embeddings should follow to minimize downstream prediction risk. Second, we introduce a novel objective–Sketched Isotropic Gaussian Regularization (SIGReg)–to constrain embeddings to reach that ideal distribution. Combining the JEPA predictive loss with SIGReg yields LeJEPA with numerous theoretical and practical benefits: (i) single trade - off hyperparameter, (ii) linear time and memory complexity, (iii) stability across hyper-parameters, architectures (ResNets, ViTs, ConvNets) and domains, (iv) heuristics-free, e.g., no stop -gradient, no teacher–student, no hyper-parameter schedulers, and (v) distributed training-friendly implementation requiring only ≈50 lines of code. Our empirical validation covers 10+ datasets, 60+ architectures, all with varying scales and domains. As an example, using imagenet-1k for pretraining and linear evaluation with frozen backbone, LeJEPA reaches 79% with a ViT-H/14. We hope that the simplicity and theory-friendly ecosystem offered by LeJEPA will reestablish self-supervised pre-training as a core pillar of AI research submitted by /u/jacobgorm [link] [comments]",
-    "author": "/u/jacobgorm",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Abstract: Learning manipulable representations of the world and its dynamics is central to AI. Joint-Embedding Predictive Architectures (JEPAs) offer a promising blueprint, but lack of practical guidance and theory has led to ad - hoc R&amp;D. We present a comprehensive theory of JEPAs and instantiate it in LeJEPA, a lean, scalable, and theoretically grounded training objective. First, we identify the isotropic Gaussian as the optimal distribution that JEPAs’ embeddings should follow to minimize downstream prediction risk. Second, we introduce a novel objective–Sketched Isotropic Gaussian Regularization (SIGReg)–to constrain embeddings to reach that ideal distribution. Combining the JEPA predictive loss with SIGReg yields LeJEPA with numerous theoretical and practical benefits: (i) single trade - off hyperparameter, (ii) linear time and memory complexity, (iii) stability across hyper-parameters, architectures (ResNets, ViTs, ConvNets) and domains, (iv) heuristics-free, e.g., no stop -gradient, no teacher–student, no hyper-parameter schedulers, and (v) distributed training-friendly implementation requiring only ≈50 lines of code. Our empirical validation covers 10+ datasets, 60+ architectures, all with varying scales and domains. As an example, using imagenet-1k for pretraining and linear evaluation with frozen backbone, LeJEPA reaches 79% with a ViT-H/14. We hope that the simplicity and theory-friendly ecosystem offered by LeJEPA will reestablish self-supervised pre-training as a core pillar of AI research</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacobgorm\"> /u/jacobgorm </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovm4fd/r_lejepa_new_yann_lecun_paper/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ovm4fd/r_lejepa_new_yann_lecun_paper/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
