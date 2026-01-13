@@ -1,5 +1,21 @@
 [
   {
+    "id": "d146b99e-2c9e-51b4-8ae3-717ff03f0d89",
+    "title": "[D] Are there any emerging LLM related directions that do not require too expensive computing?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/",
+    "pubDate": "2025-12-05T10:32:25+00:00",
+    "description": "Hi all, as the title suggests, I've recently been researching LLM routing. What initially motivated me to enter this field was that I could only control a maximum of four 48GB A6000 GPUs, making fine-tuning/training LLMs impractical. As my research has progressed, I've found that the low-hanging fruit in this sub-area seems to have been picked, and I'm also considering other LLM-related sub-areas. Overall, I'm a freshman, so I would appreciate any insights you might offer, especially those emerging ones. Thanks in advance. submitted by /u/Chinese_Zahariel [link] [comments]",
+    "author": "/u/Chinese_Zahariel",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, as the title suggests, I've recently been researching LLM routing. What initially motivated me to enter this field was that I could only control a maximum of four 48GB A6000 GPUs, making fine-tuning/training LLMs impractical. As my research has progressed, I've found that the low-hanging fruit in this sub-area seems to have been picked, and I'm also considering other LLM-related sub-areas. Overall, I'm a freshman, so I would appreciate any insights you might offer, especially those emerging ones. Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Chinese_Zahariel\"> /u/Chinese_Zahariel </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e0b73130-74cb-5a6d-b60e-f9c8804ad524",
     "title": "[P] Visualizing emergent structure in the Dragon Hatchling (BDH): a brain-inspired alternative to transformers",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1perpzl/p_visualizing_emergent_structure_in_the_dragon/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Looking to buy a NeurIPS 2025 San Diego in-person ticket if anyone can no longer attend. I’m already in San Diego. Happy to pay full price. Please DM me.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No-Dot7777\"> /u/No-Dot7777 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcek2a/looking_to_buy_a_neurips_2025_san_diego_inperson/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcek2a/looking_to_buy_a_neurips_2025_san_diego_inperson/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a49dfb79-9abe-5a72-bb9d-4508c19450a7",
-    "title": "Gated Attention, a bit of schmidhubering/sociology of science [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pcdq5r/gated_attention_a_bit_of_schmidhuberingsociology/",
-    "pubDate": "2025-12-02T16:57:21+00:00",
-    "description": "I am a bit perplexed by the relatively late excitement for Gated Attention, and it's late emergence. Specifically, I am concerned with the headwise gating, which is a dense [0,1] coefficient over each attention head before the output mixing. This concept is basically the same of MoH: Multi-Head Attention as Mixture-of-Head Attention by Peng Jin et al., ICML 2025 poster, which again is basically a simplification of the (difficult-to-justify overly complicated) Mixture of Attention Heads: Selecting Attention Heads Per Token by Xiaofeng Zhang et al. (2022). The MoE for FFNs is even older of course, and reasonably so as that's where most of the computation and thus the gain of sparsely activating experts come from. However, modularity and soft mixing are just concepts, even older than Transformers, so I don't understand why these concepts have been translated so lately from the FFN to the Attention block. Clearly in hindsight everything seems more of a low hanging fruit than it actually is. But maybe there is also too much focus on overly complicated incrementals rather than neat design principles? And please let's not \"bitter lesson\" this conversation. Thoughts? submitted by /u/Sad-Razzmatazz-5188 [link] [comments]",
-    "author": "/u/Sad-Razzmatazz-5188",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am a bit perplexed by the relatively late excitement for Gated Attention, and it's late emergence.</p> <p>Specifically, I am concerned with the headwise gating, which is a dense [0,1] coefficient over each attention head before the output mixing.</p> <p>This concept is basically the same of MoH: Multi-Head Attention as Mixture-of-Head Attention by Peng Jin et al., ICML 2025 poster, which again is basically a simplification of the (difficult-to-justify overly complicated) Mixture of Attention Heads: Selecting Attention Heads Per Token by Xiaofeng Zhang et al. (2022).</p> <p>The MoE for FFNs is even older of course, and reasonably so as that's where most of the computation and thus the gain of sparsely activating experts come from.</p> <p>However, modularity and soft mixing are just concepts, even older than Transformers, so I don't understand why these concepts have been translated so lately from the FFN to the Attention block. Clearly in hindsight everything seems more of a low hanging fruit than it actually is. But maybe there is also too much focus on overly complicated incrementals rather than neat design principles? And please let's not &quot;bitter lesson&quot; this conversation.</p> <p>Thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sad-Razzmatazz-5188\"> /u/Sad-Razzmatazz-5188 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcdq5r/gated_attention_a_bit_of_schmidhuberingsociology/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcdq5r/gated_attention_a_bit_of_schmidhuberingsociology/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

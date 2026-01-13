@@ -1,5 +1,21 @@
 [
   {
+    "id": "04522381-fb58-547f-8664-db441d8656c5",
+    "title": "[D] A small observation on JSON eval failures in evaluation pipelines",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/",
+    "pubDate": "2025-12-09T22:44:21+00:00",
+    "description": "Across several workflows I have noticed that many evaluation failures have little to do with model capability and more to do with unstable JSON structure. Common patterns Fields appear or disappear across samples Output types shift between samples Nested objects change layout The scoring script either crashes or discards samples A strict validation flow reduces this instability Capture raw output Check JSON structure Validate schema Score only valid samples Aggregate results after that This simple sequence gives much more stable trend lines and reduces false regressions that come from formatting variation rather than real performance change. I am interested in how others approach this. Do you enforce strict schemas during evaluation? Do you use validators or custom checking logic? Does structured validation noticeably improve evaluation stability for you? submitted by /u/coolandy00 [link] [comments]",
+    "author": "/u/coolandy00",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Across several workflows I have noticed that many evaluation failures have little to do with model capability and more to do with unstable JSON structure. Common patterns Fields appear or disappear across samples Output types shift between samples Nested objects change layout The scoring script either crashes or discards samples A strict validation flow reduces this instability Capture raw output Check JSON structure Validate schema Score only valid samples Aggregate results after that This simple sequence gives much more stable trend lines and reduces false regressions that come from formatting variation rather than real performance change. I am interested in how others approach this. Do you enforce strict schemas during evaluation? Do you use validators or custom checking logic? Does structured validation noticeably improve evaluation stability for you?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5db00e63-b373-5c0f-868e-fb1fbf3a93aa",
     "title": "[P] Open-source forward-deployed research agent for discovering AI failures in production",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pic99a/p_opensource_forwarddeployed_research_agent_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on multiview image generation for a specific kind of data and I was surprised I couldn’t find any flow models based pipelines that do that. How FLUX like models are adapted to generate multi images output? Is multiview generation only used as a 3D prior in the literature?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Comfortable_Cry8562\"> /u/Comfortable_Cry8562 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pesg7s/r_multiview_image_generation_using_flow_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pesg7s/r_multiview_image_generation_using_flow_models/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d146b99e-2c9e-51b4-8ae3-717ff03f0d89",
-    "title": "[D] Are there any emerging LLM related directions that do not require too expensive computing?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/",
-    "pubDate": "2025-12-05T10:32:25+00:00",
-    "description": "Hi all, as the title suggests, I've recently been researching LLM routing. What initially motivated me to enter this field was that I could only control a maximum of four 48GB A6000 GPUs, making fine-tuning/training LLMs impractical. As my research has progressed, I've found that the low-hanging fruit in this sub-area seems to have been picked, and I'm also considering other LLM-related sub-areas. Overall, I'm a freshman, so I would appreciate any insights you might offer, especially those emerging ones. Thanks in advance. submitted by /u/Chinese_Zahariel [link] [comments]",
-    "author": "/u/Chinese_Zahariel",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, as the title suggests, I've recently been researching LLM routing. What initially motivated me to enter this field was that I could only control a maximum of four 48GB A6000 GPUs, making fine-tuning/training LLMs impractical. As my research has progressed, I've found that the low-hanging fruit in this sub-area seems to have been picked, and I'm also considering other LLM-related sub-areas. Overall, I'm a freshman, so I would appreciate any insights you might offer, especially those emerging ones. Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Chinese_Zahariel\"> /u/Chinese_Zahariel </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1perrq2/d_are_there_any_emerging_llm_related_directions/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

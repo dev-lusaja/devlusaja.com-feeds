@@ -1,5 +1,21 @@
 [
   {
+    "id": "0b08bc1d-6d6b-5640-bd05-ea8d05a2d5a7",
+    "title": "[P] LiteEvo: A framework to lower the barrier for \"Self-Evolution\" research",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pql77m/p_liteevo_a_framework_to_lower_the_barrier_for/",
+    "pubDate": "2025-12-19T13:32:57+00:00",
+    "description": "I'm sharing LiteEvo, an open-source tool designed to make it easier for researchers and developers to experiment with Self-Evolution. What is Self-Evolution? In short, it's a technique where an agent improves its performance on a specific task by learning from its own past attempts. Instead of fine-tuning model weights (which is slow/expensive), the model reflects on its successes and failures to iteratively refine a \"Playbook\"—a structured set of strategies and heuristics that guide its future actions. The Problem: Even though the concept is promising, setting up the infrastructure to test self-evolution (managing feedback loops, batching attempts, and distilling insights) usually requires building a custom pipeline from scratch. How LiteEvo lowers the barrier: I built LiteEvo to turn this into a one-command process. It handles the scaffolding so you can focus on the results: The Loop: You provide a task and a success criterion. The model attempts the task, reflects on what worked and what didn't, and updates its strategy. Structured Learning: It distills learned insights into a \"Playbook.\" This allows you to inspect exactly how the model's reasoning evolved over iterations. Whether you are a researcher exploring self-improvement loops or an engineer trying to optimize a complex agentic workflow, LiteEvo makes the process reproducible and accessible without needing a cluster of GPUs for fine-tuning. I'm a solo dev and would love to hear your thoughts on this approach. If you've been curious about self-evolving agents but didn't want to deal with the plumbing, I hope this helps! Repo: https://github.com/wbopan/liteevo https://preview.redd.it/uf5lbbe5y58g1.png?width=1716&format=png&auto=webp&s=dc23cdb9a9d5e2a3e4aaa044e229d899119f20f2 submitted by /u/Imaginary_Music4768 [link] [comments]",
+    "author": "/u/Imaginary_Music4768",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pql77m/p_liteevo_a_framework_to_lower_the_barrier_for/\"> <img alt=\"[P] LiteEvo: A framework to lower the barrier for &quot;Self-Evolution&quot; research\" src=\"https://b.thumbs.redditmedia.com/ivQ2QNZuxu7UL2qhNdi5USvprAZkwUF6xLsQEXlJM_g.jpg\" title=\"[P] LiteEvo: A framework to lower the barrier for &quot;Self-Evolution&quot; research\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I'm sharing LiteEvo, an open-source tool designed to make it easier for researchers and developers to experiment with Self-Evolution.</p> <p><strong>What is Self-Evolution?</strong></p> <p>In short, it's a technique where an agent improves its performance on a specific task by learning from its own past attempts. Instead of fine-tuning model weights (which is slow/expensive), the model reflects on its successes and failures to iteratively refine a &quot;Playbook&quot;—a structured set of strategies and heuristics that guide its future actions.</p> <p><strong>The Problem:</strong></p> <p>Even though the concept is promising, setting up the infrastructure to test self-evolution (managing feedback loops, batching attempts, and distilling insights) usually requires building a custom pipeline from scratch.</p> <p><strong>How LiteEvo lowers the barrier:</strong></p> <p>I built LiteEvo to turn this into a one-command process. It handles the scaffolding so you can focus on the results:</p> <ul> <li><strong>The Loop:</strong> You provide a task and a success criterion. The model attempts the task, reflects on what worked and what didn't, and updates its strategy.</li> <li><strong>Structured Learning:</strong> It distills learned insights into a &quot;Playbook.&quot; This allows you to inspect exactly how the model's reasoning evolved over iterations.</li> </ul> <p>Whether you are a researcher exploring self-improvement loops or an engineer trying to optimize a complex agentic workflow, LiteEvo makes the process reproducible and accessible without needing a cluster of GPUs for fine-tuning.</p> <p>I'm a solo dev and would love to hear your thoughts on this approach. If you've been curious about self-evolving agents but didn't want to deal with the plumbing, I hope this helps!</p> <p><strong>Repo:</strong><br /> <a href=\"https://github.com/wbopan/liteevo\">https://github.com/wbopan/liteevo</a></p> <p><a href=\"https://preview.redd.it/uf5lbbe5y58g1.png?width=1716&amp;format=png&amp;auto=webp&amp;s=dc23cdb9a9d5e2a3e4aaa044e229d899119f20f2\">https://preview.redd.it/uf5lbbe5y58g1.png?width=1716&amp;format=png&amp;auto=webp&amp;s=dc23cdb9a9d5e2a3e4aaa044e229d899119f20f2</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Imaginary_Music4768\"> /u/Imaginary_Music4768 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pql77m/p_liteevo_a_framework_to_lower_the_barrier_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pql77m/p_liteevo_a_framework_to_lower_the_barrier_for/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://b.thumbs.redditmedia.com/ivQ2QNZuxu7UL2qhNdi5USvprAZkwUF6xLsQEXlJM_g.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "e0d2c533-6c24-5be6-be03-664e3b83d6a3",
     "title": "[R] EscapeBench: Towards Advancing Creative Intelligence Of Language Model Agents",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pqkagv/r_escapebench_towards_advancing_creative/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><blockquote> <p>One point I made that didn’t come across:</p> <ul> <li>Scaling the current thing will keep leading to improvements. In particular, it won’t stall.</li> <li>But something important will continue to be missing.</li> </ul> </blockquote> <p>What do you think that &quot;something important&quot; is, and more importantly, what will be the practical implications of it being missing?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pnm0r0/d_ilya_sutskevers_latest_tweet/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pnm0r0/d_ilya_sutskevers_latest_tweet/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "23b202d7-23fa-52cb-94e8-9ef7d489ee2d",
-    "title": "[D] Idea: add \"no AI slop\" as subreddit rule",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/",
-    "pubDate": "2025-12-15T18:09:35+00:00",
-    "description": "As per title. I know this is kind of covered by \"no spam\" rule, but maybe calling out AI-generated slop and \"novel idea\" posts should have its own explicit rule. Maybe it would make it easier for mods to check out reported posts, with a more specific reason like that. What do you think? submitted by /u/qalis [link] [comments]",
-    "author": "/u/qalis",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As per title. I know this is kind of covered by &quot;no spam&quot; rule, but maybe calling out AI-generated slop and &quot;novel idea&quot; posts should have its own explicit rule. Maybe it would make it easier for mods to check out reported posts, with a more specific reason like that. What do you think?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/qalis\"> /u/qalis </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
