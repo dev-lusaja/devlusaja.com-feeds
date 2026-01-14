@@ -1,5 +1,21 @@
 [
   {
+    "id": "219d67f3-6d06-5f28-8010-452a8df5e3a9",
+    "title": "Delivering Flexible Performance for Future-Ready Data Centers with NVIDIA MGX",
+    "link": "https://developer.nvidia.com/blog/delivering-flexible-performance-for-future-ready-data-centers-with-nvidia-mgx/",
+    "pubDate": "2025-12-15T18:25:18+00:00",
+    "description": "The AI boom reshaping the computing landscape is poised to scale even faster in 2026. As breakthroughs in model capability and computing power drive rapid...",
+    "author": "Anthony Larijani",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/nvidia-mgx-6u-with-liquid-cooled-gpus-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-mgx-6u-with-liquid-cooled-gpus.\" width=\"768\" />The AI boom reshaping the computing landscape is poised to scale even faster in 2026. As breakthroughs in model capability and computing power drive rapid...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/nvidia-mgx-6u-with-liquid-cooled-gpus-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-mgx-6u-with-liquid-cooled-gpus.\" width=\"768\" /><p>The AI boom reshaping the computing landscape is poised to scale even faster in 2026. As breakthroughs in model capability and computing power drive rapid growth, enterprise data centers are being pushed beyond the limits of conventional server and rack architectures. This is creating new pressures on power budgets, thermal envelopes, and facility space. NVIDIA MGX modular reference…</p>\n<p><a href=\"https://developer.nvidia.com/blog/delivering-flexible-performance-for-future-ready-data-centers-with-nvidia-mgx/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "359c5af1-3b7c-5858-8a1e-7453841ff9c2",
     "title": "Reducing CUDA Binary Size to Distribute cuML on PyPI",
     "link": "https://developer.nvidia.com/blog/reducing-cuda-binary-size-to-distribute-cuml-on-pypi/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"floating-cubes\" width=\"768\" />The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"floating-cubes\" width=\"768\" /><p>The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was invented. Writing GPU tile kernels enables you to write your algorithm at a higher level than a single-instruction multiple-thread (SIMT) model, while the compiler and runtime handle the partitioning of work onto threads under the covers.</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-gpu-programming-with-nvidia-cuda-tile-in-python/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1d227231-5fec-5ec9-a9fe-8119d49ed9f2",
-    "title": "Focus on Your Algorithm—NVIDIA CUDA Tile Handles the Hardware",
-    "link": "https://developer.nvidia.com/blog/focus-on-your-algorithm-nvidia-cuda-tile-handles-the-hardware/",
-    "pubDate": "2025-12-04T22:20:42+00:00",
-    "description": "With its largest advancement since the NVIDIA CUDA platform was invented in 2006, CUDA 13.1 is launching NVIDIA CUDA Tile. This exciting innovation introduces a...",
-    "author": "Jonathan Bentz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"CUDA Tile example.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/CUDA-Tile-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile\" width=\"768\" />With its largest advancement since the NVIDIA CUDA platform was invented in 2006, CUDA 13.1 is launching NVIDIA CUDA Tile. This exciting innovation introduces a...<img alt=\"CUDA Tile example.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/CUDA-Tile-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile\" width=\"768\" /><p>With its largest advancement since the NVIDIA CUDA platform was invented in 2006, CUDA 13.1 is launching NVIDIA CUDA Tile. This exciting innovation introduces a virtual instruction set for tile-based parallel programming, focusing on the ability to write algorithms at a higher level and abstract away the details of specialized hardware, such as tensor cores. CUDA exposes a single…</p>\n<p><a href=\"https://developer.nvidia.com/blog/focus-on-your-algorithm-nvidia-cuda-tile-handles-the-hardware/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/CUDA-Tile.jpg",
     "isShortVideo": 0
   }
 ]
