@@ -1,5 +1,21 @@
 [
   {
+    "id": "de286197-c0ce-53f5-bc33-5991a8aa8f46",
+    "title": "Boost GPU Memory Performance with No Code Changes Using NVIDIA CUDA MPS",
+    "link": "https://developer.nvidia.com/blog/boost-gpu-memory-performance-with-no-code-changes-using-nvidia-cuda-mps/",
+    "pubDate": "2025-12-16T17:00:00+00:00",
+    "description": "NVIDIA CUDA developers have access to a wide range of tools and libraries that simplify development and deployment, enabling users to focus on the “what”...",
+    "author": "Sherwin Nassernia",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-MPS-e1765825617242-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Close-up of NVIDIA processors on a server motherboard.\" width=\"768\" />NVIDIA CUDA developers have access to a wide range of tools and libraries that simplify development and deployment, enabling users to focus on the “what”...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-MPS-e1765825617242-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Close-up of NVIDIA processors on a server motherboard.\" width=\"768\" /><p>NVIDIA CUDA developers have access to a wide range of tools and libraries that simplify development and deployment, enabling users to focus on the “what” and the “how” of their applications. An example of this is Multi-Process Service (MPS), where users can get better GPU utilization by sharing GPU resources across processes. Importantly, this can be done transparently as applications don’t…</p>\n<p><a href=\"https://developer.nvidia.com/blog/boost-gpu-memory-performance-with-no-code-changes-using-nvidia-cuda-mps/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "219d67f3-6d06-5f28-8010-452a8df5e3a9",
     "title": "Delivering Flexible Performance for Future-Ready Data Centers with NVIDIA MGX",
     "link": "https://developer.nvidia.com/blog/delivering-flexible-performance-for-future-ready-data-centers-with-nvidia-mgx/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/CUDA-13.1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-13.1\" width=\"768\" />NVIDIA CUDA 13.1 introduces the largest and most comprehensive update to the CUDA platform since it was invented two decades ago.&nbsp; In this release,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/CUDA-13.1-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-13.1\" width=\"768\" /><p>NVIDIA CUDA 13.1 introduces the largest and most comprehensive update to the CUDA platform since it was invented two decades ago. In this release, you’ll find new features and updates for improving performance and driving accelerated computing, including: To help create software for current and future GPUs, NVIDIA CUDA 13.1 is launching CUDA Tile, which enables you to write…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-cuda-13-1-powers-next-gen-gpu-programming-with-nvidia-cuda-tile-and-performance-gains/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/CUDA-13.1.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "08ba708e-9c3e-59cf-9ab1-d6107c342d93",
-    "title": "Simplify GPU Programming with NVIDIA CUDA Tile in Python",
-    "link": "https://developer.nvidia.com/blog/simplify-gpu-programming-with-nvidia-cuda-tile-in-python/",
-    "pubDate": "2025-12-04T22:20:51+00:00",
-    "description": "The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was...",
-    "author": "Jonathan Bentz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"floating-cubes\" width=\"768\" />The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"floating-cubes\" width=\"768\" /><p>The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was invented. Writing GPU tile kernels enables you to write your algorithm at a higher level than a single-instruction multiple-thread (SIMT) model, while the compiler and runtime handle the partitioning of work onto threads under the covers.</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-gpu-programming-with-nvidia-cuda-tile-in-python/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes.png",
     "isShortVideo": 0
   }
 ]

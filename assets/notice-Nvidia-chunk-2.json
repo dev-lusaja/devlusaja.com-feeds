@@ -1,5 +1,21 @@
 [
   {
+    "id": "08ba708e-9c3e-59cf-9ab1-d6107c342d93",
+    "title": "Simplify GPU Programming with NVIDIA CUDA Tile in Python",
+    "link": "https://developer.nvidia.com/blog/simplify-gpu-programming-with-nvidia-cuda-tile-in-python/",
+    "pubDate": "2025-12-04T22:20:51+00:00",
+    "description": "The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was...",
+    "author": "Jonathan Bentz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"floating-cubes\" width=\"768\" />The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"floating-cubes\" width=\"768\" /><p>The release of NVIDIA CUDA 13.1 introduces tile-based programming for GPUs, making it one of the most fundamental additions to GPU programming since CUDA was invented. Writing GPU tile kernels enables you to write your algorithm at a higher level than a single-instruction multiple-thread (SIMT) model, while the compiler and runtime handle the partitioning of work onto threads under the covers.</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-gpu-programming-with-nvidia-cuda-tile-in-python/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "1d227231-5fec-5ec9-a9fe-8119d49ed9f2",
     "title": "Focus on Your Algorithm—NVIDIA CUDA Tile Handles the Hardware",
     "link": "https://developer.nvidia.com/blog/focus-on-your-algorithm-nvidia-cuda-tile-handles-the-hardware/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ALCHEMI-Molecules-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ALCHEMI-Molecules\" width=\"600\" />Almost all manufactured products are enabled by chemistry and materials science. However, new discoveries are costly and time-consuming and often hindered by...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ALCHEMI-Molecules-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ALCHEMI-Molecules\" width=\"600\" /><p>Almost all manufactured products are enabled by chemistry and materials science. However, new discoveries are costly and time-consuming and often hindered by trial-and-error approaches. Computational methods such as molecular dynamics with classical force fields traditionally struggle to predict chemical properties and stability accurately. NVIDIA ALCHEMI (AI Lab for Chemistry and Materials…</p>\n<p><a href=\"https://developer.nvidia.com/blog/faster-chemistry-and-materials-discovery-with-ai-powered-simulations-using-nvidia-alchemi/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/ALCHEMI-Molecules-1-500x282.gif",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d2871b8e-e1d0-5a9a-8aa9-30216b97b616",
-    "title": "NVIDIA NVQLink Architecture Integrates Accelerated Computing with Quantum Processors",
-    "link": "https://developer.nvidia.com/blog/nvidia-nvqlink-architecture-integrates-accelerated-computing-with-quantum-processors/",
-    "pubDate": "2025-11-17T22:31:00+00:00",
-    "description": "Quantum computing is entering an era where progress will be driven by the integration of accelerated computing with quantum processors. The hardware that...",
-    "author": "Shane Caldwell",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/nvqlink-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvqlink\" width=\"768\" />Quantum computing is entering an era where progress will be driven by the integration of accelerated computing with quantum processors. The hardware that...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/nvqlink-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvqlink\" width=\"768\" /><p>Quantum computing is entering an era where progress will be driven by the integration of accelerated computing with quantum processors. The hardware that controls and measures a quantum processing unit (QPU) faces demanding computational requirements—from real-time calibration to quantum error-correction (QEC) decoding. Useful quantum applications will require QEC and calibration at scales only…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-nvqlink-architecture-integrates-accelerated-computing-with-quantum-processors/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/nvqlink-1.jpg",
     "isShortVideo": 0
   }
 ]
