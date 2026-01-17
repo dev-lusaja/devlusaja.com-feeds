@@ -1,5 +1,21 @@
 [
   {
+    "id": "0e59626a-01a5-5aca-9066-4624f6ad3aea",
+    "title": "[D] Tiny Recursive Models (TRMs), Hierarchical Reasoning Models (HRMs) too",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pewrwt/d_tiny_recursive_models_trms_hierarchical/",
+    "pubDate": "2025-12-05T14:40:43+00:00",
+    "description": "I've seen a couple excited posts on HRMs but no post for TRMs specifically. The paper is Less is More from Samsung's Jolicoeur-Martineau, but it is more a personal project, seemingly. She noticed how the biological and mathematical assumptions of HRMs were brittle, while the deep supervision (i.e. outer recurrent evaluation of outputs, and backpropagation through this time) and the inner recurrent update of a latent vector before updating the output are useful. The network doing this recursion is a single, small Transformer (HRM uses one network for the inner and another network for the outer loop) or MLP-Mixer. The main point seems to be, rather simply, that recursion allows to do lots of computations with few parameters. Another point is that it makes sense to do lots of computations on latent vectors and subsiquently condition a separate output vector, somehow disentangling \"reasoning\" and \"answering\". The results on ARC-AGI 1, Sudoku-Extreme and Maze Hard are outstanding (sota defining too), with <10mln parameters order of magnitude. I basically think having access to dozens of GPU basically *prevents* one to come out with such elegant ideas, however brilliant the researcher may be. It is not even matter of new architectures, even though there is another couple lines of research for augmenting transformers with long, medium, short term memories etc. submitted by /u/Sad-Razzmatazz-5188 [link] [comments]",
+    "author": "/u/Sad-Razzmatazz-5188",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've seen a couple excited posts on HRMs but no post for TRMs specifically.</p> <p>The paper is <a href=\"https://arxiv.org/abs/2510.04871\">Less is More</a> from Samsung's Jolicoeur-Martineau, but it is more a personal project, seemingly.<br /> She noticed how the biological and mathematical assumptions of HRMs were brittle, while the deep supervision (i.e. outer recurrent evaluation of outputs, and backpropagation through this time) and the inner recurrent update of a latent vector before updating the output are useful.</p> <p>The network doing this recursion is a single, small Transformer (HRM uses one network for the inner and another network for the outer loop) or MLP-Mixer.</p> <p>The main point seems to be, rather simply, that recursion allows to do lots of computations with few parameters.<br /> Another point is that it makes sense to do lots of computations on latent vectors and subsiquently condition a separate output vector, somehow disentangling &quot;reasoning&quot; and &quot;answering&quot;.</p> <p>The results on ARC-AGI 1, Sudoku-Extreme and Maze Hard are outstanding (sota defining too), with &lt;10mln parameters order of magnitude.</p> <p>I basically think having access to dozens of GPU basically *prevents* one to come out with such elegant ideas, however brilliant the researcher may be.</p> <p>It is not even matter of new architectures, even though there is another couple lines of research for augmenting transformers with long, medium, short term memories etc.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sad-Razzmatazz-5188\"> /u/Sad-Razzmatazz-5188 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pewrwt/d_tiny_recursive_models_trms_hierarchical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pewrwt/d_tiny_recursive_models_trms_hierarchical/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c040dd7a-6eaa-5095-a6c3-8688fcaab33e",
     "title": "[D] From ICLR Workshop to full paper? Is this allowed?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pevvrb/d_from_iclr_workshop_to_full_paper_is_this_allowed/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>In a few real-world RAG workflows I’ve been looking at, the biggest source of quality drop wasn’t the embedding model. It was the ingestion step slowly going out of sync.</p> <p>I’ve seen PDFs extract differently depending on who exported them, headings getting lost, structure collapsing, OCR noise showing up, tables disappearing, and metadata no longer matching what the system expects.</p> <p>To catch this, I’ve been doing simple checks like diffing extractor output versions and watching for sudden token count changes. But drift still happens when documents come from all over: Word, Google Docs, Confluence, scans, etc.</p> <p>How do your teams keep ingestion consistent when the source formats are so mixed?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcppxv/d_curious_how_teams_handle_ingestion_variability/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcppxv/d_curious_how_teams_handle_ingestion_variability/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7d614c12-ee2e-5228-a83c-86be16465887",
-    "title": "[D] When are ICLR workshops released?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pcnz78/d_when_are_iclr_workshops_released/",
-    "pubDate": "2025-12-02T23:22:16+00:00",
-    "description": "Website says December 1st but the workshop page on openreview showes nothing. Are decisioins out? Or has there been a delay because of the leak etc? submitted by /u/didimoney [link] [comments]",
-    "author": "/u/didimoney",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Website says December 1st but the workshop page on openreview showes nothing. Are decisioins out? Or has there been a delay because of the leak etc?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/didimoney\"> /u/didimoney </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcnz78/d_when_are_iclr_workshops_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pcnz78/d_when_are_iclr_workshops_released/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

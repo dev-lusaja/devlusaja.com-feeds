@@ -1,5 +1,21 @@
 [
   {
+    "id": "a3f902b9-ecaa-5eec-b6b9-def7c3a0ebca",
+    "title": "[D] Is it worth the time to publish and prepare for (archival) ACL/EMNLP workshops?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1p06r3h/d_is_it_worth_the_time_to_publish_and_prepare_for/",
+    "pubDate": "2025-11-18T08:36:07+00:00",
+    "description": "Is it productive as a grad student (currently master's and applying for PhD) to spend time working on an archival workshop at venues like NAACL/ACL/EACL/EMNLP? I see opinions around that you shouldn't even consider workshops as papers will not be as highly regarded as main conference papers. Is there any advantage to attending and submitting to (archival) workshops? I see many relevant workshops to my work, and I am thinking whether it's a good idea to try submitting or if I'd better wait for better results and publish in the main conferences. submitted by /u/Old-Acanthisitta-574 [link] [comments]",
+    "author": "/u/Old-Acanthisitta-574",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it productive as a grad student (currently master's and applying for PhD) to spend time working on an archival workshop at venues like NAACL/ACL/EACL/EMNLP? I see opinions around that you shouldn't even consider workshops as papers will not be as highly regarded as main conference papers. Is there any advantage to attending and submitting to (archival) workshops? I see many relevant workshops to my work, and I am thinking whether it's a good idea to try submitting or if I'd better wait for better results and publish in the main conferences.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Old-Acanthisitta-574\"> /u/Old-Acanthisitta-574 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p06r3h/d_is_it_worth_the_time_to_publish_and_prepare_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1p06r3h/d_is_it_worth_the_time_to_publish_and_prepare_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1930001f-73d0-599f-914d-9c4ba085e631",
     "title": "[D] Upload paper arXiv after acceptance",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1p05h0k/d_upload_paper_arxiv_after_acceptance/",
@@ -252,38 +268,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a small tabular dataset with ~ 300 elements. I have to build a NN by doing 1) hyperparameter tuning, 2) features selection and 3) final evaluation. The purpose of this NN is to understand if we can achieve a good predictive power on this dataset.</p> <p>Classical spitting train-val-test (where train and validation are used during steps 1-2, which is the model selection phase) does not seem a good strategy since this dataset is very small. So I decided to go with cross-validation.</p> <p>In sklearn website <a href=\"https://scikit-learn.org/stable/modules/cross_validation.html\">https://scikit-learn.org/stable/modules/cross_validation.html</a> they say that we need to always mantain a independent test set for final evaluation, so one possible strategy is to use k-fold cross validation for model selection (steps 1-2) and use the independent test set for step 3. This approach is good but it reduces the already small train set (similar to what happens for nested cross validation).</p> <p>Recently I have read this paper <a href=\"https://pubs.rsna.org/doi/full/10.1148/ryai.220232\">https://pubs.rsna.org/doi/full/10.1148/ryai.220232</a> which proposed an alternative to the nested cross validation strategy: <strong>Select-Shuffle-Test</strong>.</p> <p><a href=\"https://preview.redd.it/w3d9ih6rst1g1.png?width=2075&amp;format=png&amp;auto=webp&amp;s=0bb83df4a33a8722e1df1ff40c266e0b68167a90\">https://preview.redd.it/w3d9ih6rst1g1.png?width=2075&amp;format=png&amp;auto=webp&amp;s=0bb83df4a33a8722e1df1ff40c266e0b68167a90</a></p> <p>As you can see, we do not have an held out test set, we simply shuffle the model selection to produce the new folds for the final evaluation. In this way, we are always working on the same amount of data (e.g. 80% training and 20% for validation or testing).</p> <p>What worries me here is that, if we are not using an independent test set, there could be a data leakage between model selection (hyperparameter tuning, etc.) and final evaluation.</p> <p>Do you think that this method can be a <strong>simplified</strong> but <strong>statistically valid</strong> version of the <strong>nested cross validation</strong> algorithm?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/madeInSwamp\"> /u/madeInSwamp </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozhv8q/d_an_alternative_to_nested_cross_validation_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozhv8q/d_an_alternative_to_nested_cross_validation_and/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5aee59ff-c403-5201-8fd7-bd4ed1f252e5",
-    "title": "[D] Seeking arXiv Endorsement for Individual-Scale AI Orchestration Research (cs.AI)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozheni/d_seeking_arxiv_endorsement_for_individualscale/",
-    "pubDate": "2025-11-17T14:16:15+00:00",
-    "description": "Hi r/machinelearning , I'm an independent researcher seeking an arXiv endorsement for a comprehensive paper on individual-scale AI orchestration methodology. Topic: \"AI Orchestration at the Individual Scale: Systematic Methodology and Verified Outcomes\" Summary: 16-month development of a systematic framework (I.S.A.O.) enabling individual researchers to achieve institutional-grade outcomes using consumer hardware and modest budgets. The methodology includes verified real-world results (professional certifications, federal agency interactions) and documented resilience during a nation-state cyberattack (Nov 11, 2025). Paper specs: - 120+ pages with comprehensive documentation - 8 organizational protocols, cross-platform validation - Related work integration underway (final audit phase) - Target submission: December 1, 2025 to cs.AI What I'm asking: - Endorsement for cs.AI category (not peer review) - Confirming topic appropriateness for arXiv Current version: https://zenodo.org/records/17536928 I understand this is a big ask, especially for independent researchers. If you're able to help or know someone who might, please DM me. Happy to provide additional context. Thanks for reading. submitted by /u/TrueLeoSnake2 [link] [comments]",
-    "author": "/u/TrueLeoSnake2",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"https://www.reddit.com/r/machinelearning\">r/machinelearning</a>,</p> <p>I'm an independent researcher seeking an arXiv endorsement for a comprehensive paper on individual-scale AI orchestration methodology.</p> <p><strong>Topic:</strong> &quot;AI Orchestration at the Individual Scale: Systematic Methodology and Verified Outcomes&quot;</p> <p><strong>Summary:</strong> 16-month development of a systematic framework (I.S.A.O.) enabling individual researchers to achieve institutional-grade outcomes using consumer hardware and modest budgets. The methodology includes verified real-world results (professional certifications, federal agency interactions) and documented resilience during a nation-state cyberattack (Nov 11, 2025).</p> <p><strong>Paper specs:</strong> - 120+ pages with comprehensive documentation - 8 organizational protocols, cross-platform validation - Related work integration underway (final audit phase) - Target submission: December 1, 2025 to cs.AI</p> <p><strong>What I'm asking:</strong> - Endorsement for cs.AI category (not peer review) - Confirming topic appropriateness for arXiv</p> <p>Current version: <a href=\"https://zenodo.org/records/17536928\">https://zenodo.org/records/17536928</a></p> <p>I understand this is a big ask, especially for independent researchers. If you're able to help or know someone who might, please DM me. Happy to provide additional context.</p> <p>Thanks for reading.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TrueLeoSnake2\"> /u/TrueLeoSnake2 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozheni/d_seeking_arxiv_endorsement_for_individualscale/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozheni/d_seeking_arxiv_endorsement_for_individualscale/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2899af13-3d38-5629-a297-2a1749b76f4c",
-    "title": "OpenGuardrails: open-source AI safety and guardrail platform released",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ozh7fs/openguardrails_opensource_ai_safety_and_guardrail/",
-    "pubDate": "2025-11-17T14:07:43+00:00",
-    "description": "submitted by /u/zvone187 [link] [comments]",
-    "author": "/u/zvone187",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zvone187\"> /u/zvone187 </a> <br /> <span><a href=\"https://arxiv.org/abs/2510.19169\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ozh7fs/openguardrails_opensource_ai_safety_and_guardrail/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

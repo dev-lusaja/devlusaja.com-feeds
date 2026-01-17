@@ -1,5 +1,21 @@
 [
   {
+    "id": "db2ab607-def9-5782-a47d-77f8d63dc714",
+    "title": "[D] Any success with literature review tools?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1punnfy/d_any_success_with_literature_review_tools/",
+    "pubDate": "2025-12-24T13:42:06+00:00",
+    "description": "I’m still doing it the old-fashioned way - going back and forth between google scholar, with some help from chatGPT to speed up things (like finding how relevant a paper is before investing more time in it). It feels a bit inefficient, I wonder if there's a better way. submitted by /u/Entrepreneur7962 [link] [comments]",
+    "author": "/u/Entrepreneur7962",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m still doing it the old-fashioned way - going back and forth between google scholar, with some help from chatGPT to speed up things (like finding how relevant a paper is before investing more time in it). </p> <p>It feels a bit inefficient, I wonder if there's a better way.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Entrepreneur7962\"> /u/Entrepreneur7962 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1punnfy/d_any_success_with_literature_review_tools/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1punnfy/d_any_success_with_literature_review_tools/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "86133268-a068-5370-b83a-12110c47b5c6",
     "title": "[D]2025 Year in Review: The old methods quietly solving problems the new ones can't",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pumssb/d2025_year_in_review_the_old_methods_quietly/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm currently testing out different feature selection methods for my sequential LSTM model. The problem is that I don't have enough features and looking for methods to generate synthetic features to augment the existing dataset.</p> <p>Right now I generated pure gaussian noise features with their mean and std similar to the output the model is trying to predict. However, for unknown reason not only did the model accuracy not drop but it has also improved.</p> <p>I was wondering if there is any other method I should try out to increase feature dimensionality but reduce model accuracy?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PositiveInformal9512\"> /u/PositiveInformal9512 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pqxzii/d_noise_features_augmentation_how_do_i_reduce/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pqxzii/d_noise_features_augmentation_how_do_i_reduce/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "985fa09a-991b-53d2-a3e1-b058d8995690",
-    "title": "[P] Text to Song search",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pqxg9m/p_text_to_song_search/",
-    "pubDate": "2025-12-19T21:52:27+00:00",
-    "description": "Hi everyone, On may I start my project that is creating Music Playlist automatically. I started with Musicnn model provided from Essentia-Tensorflow, with just cosine similarity between the embbeding themself I was able to obtain good result in song similarity: user select a song and ask for similar song to reproduce. Now I would like to take a next step with searching a song with Text. I tried CLAP with his pretrained model for music. I found nice for Genre and Instrument recognition but lacking on mood recognition. I mean, searching something like Sax Jax work nice, searching all the son with ukulele in your library seems already amazing for me. But having the possibility to add a mood is something that could really do the difference. Like Romantic Pop song, or happy, sad, energetic. Clap on mood something get something guess. Now I’m try also MUQ-MULAN, that I already integrated in a development version, but before having all my library analyzed it will take days. So here my question from whom have more experience than me: is there some model enough reliable to keep in consideration not only instruments or genre but also mood and maybe tempo based text query ? If someone is also interested to my project, AudioMuse-AI, it’s feee and open source and can be found here: https://github.com/NeptuneHub/AudioMuse-AI submitted by /u/Old_Rock_9457 [link] [comments]",
-    "author": "/u/Old_Rock_9457",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>On may I start my project that is creating Music Playlist automatically.</p> <p>I started with Musicnn model provided from Essentia-Tensorflow, with just cosine similarity between the embbeding themself I was able to obtain good result in song similarity: user select a song and ask for similar song to reproduce.</p> <p>Now I would like to take a next step with searching a song with Text.</p> <p>I tried CLAP with his pretrained model for music. I found nice for Genre and Instrument recognition but lacking on mood recognition.</p> <p>I mean, searching something like Sax Jax work nice, searching all the son with ukulele in your library seems already amazing for me. But having the possibility to add a mood is something that could really do the difference. Like Romantic Pop song, or happy, sad, energetic.</p> <p>Clap on mood something get something guess.</p> <p>Now I’m try also MUQ-MULAN, that I already integrated in a development version, but before having all my library analyzed it will take days.</p> <p>So here my question from whom have more experience than me: is there some model enough reliable to keep in consideration not only instruments or genre but also mood and maybe tempo based text query ?</p> <p>If someone is also interested to my project, AudioMuse-AI, it’s feee and open source and can be found here:</p> <p><a href=\"https://github.com/NeptuneHub/AudioMuse-AI\">https://github.com/NeptuneHub/AudioMuse-AI</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Old_Rock_9457\"> /u/Old_Rock_9457 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pqxg9m/p_text_to_song_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pqxg9m/p_text_to_song_search/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

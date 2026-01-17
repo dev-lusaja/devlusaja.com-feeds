@@ -1,5 +1,21 @@
 [
   {
+    "id": "098373dc-6557-588a-9a95-9d4496f3ba8b",
+    "title": "[P] Training GitHub Repository Embeddings using Stars",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q5iuiq/p_training_github_repository_embeddings_using/",
+    "pubDate": "2026-01-06T13:39:49+00:00",
+    "description": "People use GitHub Stars as bookmarks. This is an excellent signal for understanding which repositories are semantically similar. The Data: Processed ~1TB of raw data from GitHub Archive (BigQuery) to build an interest matrix of 4 million developers. The ML: Trained embeddings for 300k+ repositories using Metric Learning (EmbeddingBag + MultiSimilarityLoss). The Frontend: Built a client-only demo that runs vector search (KNN) directly in the browser via WASM, with no backend involved. The Result: The system finds non-obvious library alternatives and allows for semantic comparison of developer profiles. I hope that sources and raw dataset + trained embeddings can help you to build some interesting projects submitted by /u/___mlm___ [link] [comments]",
+    "author": "/u/___mlm___",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>People use GitHub Stars as bookmarks. This is an excellent signal for understanding which repositories are semantically similar.</p> <ul> <li>The Data: Processed ~1TB of raw data from GitHub Archive (BigQuery) to build an interest matrix of 4 million developers.</li> <li>The ML: Trained embeddings for 300k+ repositories using Metric Learning (EmbeddingBag + MultiSimilarityLoss).</li> <li>The Frontend: Built a <a href=\"https://puzer.github.io/github_recommender/\">client-only demo</a> that runs vector search (KNN) directly in the browser via WASM, with no backend involved.</li> </ul> <p>The Result: The system finds non-obvious library alternatives and allows for semantic comparison of developer profiles.</p> <p>I hope that <a href=\"https://github.com/Puzer/github-repo-embeddings?tab=readme-ov-file#training-github-repository-embeddings-using-stars\">sources</a> and <a href=\"https://colab.research.google.com/github/Puzer/github-repo-embeddings/blob/main/notebooks/inference.ipynb\">raw dataset + trained embeddings</a> can help you to build some interesting projects</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/___mlm___\"> /u/___mlm___ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5iuiq/p_training_github_repository_embeddings_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5iuiq/p_training_github_repository_embeddings_using/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1e75aff9-7c53-5aca-a57e-164be05f7ab5",
     "title": "[D] ACL desk reject",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Where might agentic AI go? To have some idea, it is good to understand the present state of the art, and our recently published survey paper on Agentic LLMs (JAIR) will give you perspectives on how agentic LLMs: i) reason, ii) act, iii) interact, and how these capabilities reinforce each other in a virtuous cycle. </p> <p>The paper comes with hundreds of references, so enough seeds and ideas to explore further. </p> <p>Where do you think agentic AI might go, and what areas deserve more research and exploration?</p> <p>Reference: Aske Plaat, Max van Duijn, Niki van Stein, Mike Preuss, Peter van der Putten, Kees Joost Batenburg. Agentic Large Language Models: a Survey. Journal of Artificial Intelligence Research, Vol. 84, article 29, Dec 30, 2025. <a href=\"https://www.jair.org/index.php/jair/article/view/18675\">https://www.jair.org/index.php/jair/article/view/18675</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pppeer\"> /u/pppeer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1xbw3/r_survey_paper_agentic_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1xbw3/r_survey_paper_agentic_llms/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1f3216a3-419f-5e45-807b-856396d487f3",
-    "title": "[D] Open sourced Loop Attention for Qwen3-0.6B: two-pass global + local attention with a learnable gate (code + weights + training script)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q1wyfi/d_open_sourced_loop_attention_for_qwen306b/",
-    "pubDate": "2026-01-02T12:05:37+00:00",
-    "description": "Recently I was curious about Loop Attention and what effect it would have on small language models. I finished a small architectural tweak specifically for Qwen's architecture and recently tried the full training for Qwen3-0.6B and wanted to share it openly. Instead of doing attention once, Loop Attention does a quick global attention pass, then a second pass that looks at a local sliding window, and a learnable gate blends the two. The gate starts off strongly biased toward the normal global behavior (so it doesn’t immediately go off the rails) and can learn when to lean more local. I didn’t want to just drop weights and disappear, so the repo includes the actual model/attention code (Transformers, trust_remote_code) / the training script I used and how I built the attention function from scratch. All artifacts are there from beginning of the repo and I hope I interest a few folks to mess with this and hopefully someone wants to collaborate on this! Initial experimental results of the current loop attention implementation (evaluation script can be found in the HF repo) / WikiText-2 eval. Model Validation Loss Perplexity Baseline Qwen3-0.6B 3.7274 41.57 Loop Attention Run 1 3.5549 35.01 Link is here: https://huggingface.co/coolpoodle/Qwen3-0.6B-Looped Cheers! Edit: fixing grammar. submitted by /u/Wittica [link] [comments]",
-    "author": "/u/Wittica",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently I was curious about Loop Attention and what effect it would have on small language models. I finished a small architectural tweak specifically for Qwen's architecture and recently tried the full training for Qwen3-0.6B and wanted to share it openly.</p> <p>Instead of doing attention once, Loop Attention does a quick global attention pass, then a second pass that looks at a local sliding window, and a learnable gate blends the two.</p> <p>The gate starts off strongly biased toward the normal global behavior (so it doesn’t immediately go off the rails) and can learn when to lean more local.</p> <p>I didn’t want to just drop weights and disappear, so the repo includes the actual model/attention code (Transformers, trust_remote_code) / the training script I used and how I built the attention function from scratch.</p> <p>All artifacts are there from beginning of the repo and I hope I interest a few folks to mess with this and hopefully someone wants to collaborate on this!</p> <p>Initial experimental results of the current loop attention implementation (evaluation script can be found in the HF repo) / WikiText-2 eval.</p> <table><thead> <tr> <th align=\"left\">Model</th> <th align=\"left\">Validation Loss</th> <th align=\"left\">Perplexity</th> </tr> </thead><tbody> <tr> <td align=\"left\">Baseline Qwen3-0.6B</td> <td align=\"left\">3.7274</td> <td align=\"left\">41.57</td> </tr> <tr> <td align=\"left\">Loop Attention Run 1</td> <td align=\"left\">3.5549</td> <td align=\"left\">35.01</td> </tr> </tbody></table> <p>Link is here: <a href=\"https://huggingface.co/coolpoodle/Qwen3-0.6B-Looped\">https://huggingface.co/coolpoodle/Qwen3-0.6B-Looped</a></p> <p>Cheers!</p> <p>Edit: fixing grammar.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wittica\"> /u/Wittica </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1wyfi/d_open_sourced_loop_attention_for_qwen306b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1wyfi/d_open_sourced_loop_attention_for_qwen306b/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
