@@ -1,5 +1,21 @@
 [
   {
+    "id": "e3e8f23c-5e1d-5681-9347-e93001b8a708",
+    "title": "[P] I created interactive labs designed to visualize the behaviour of various Machine Learning algorithms.",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q9ayxn/p_i_created_interactive_labs_designed_to/",
+    "pubDate": "2026-01-10T18:06:42+00:00",
+    "description": "Some time ago I shared a small gradient descent visualiser here and got really helpful feedback. I’ve since refined it quite a bit and also added reinforcement learning visualiser. I’ve now combined everything under a single project called “Descent Visualisers”. The idea is to build interactive labs that help build intuition for how learning actually happens. Currently it includes: - Gradient descent visualisation on 3D loss surfaces - A maze environment trained using tabular Q-learning - CartPole trained using DQL and PPO, with training visualised step by step This is still very early and very much a learning-focused project. I’d really love feedback on: - what’s useful / not useful - what other algorithms or visualisations would be valuable - how this could be improved for students or educators. If people find this useful, I’d love to keep building and expanding it together. submitted by /u/SnooCupcakes5746 [link] [comments]",
+    "author": "/u/SnooCupcakes5746",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1q9ayxn/p_i_created_interactive_labs_designed_to/\"> <img alt=\"[P] I created interactive labs designed to visualize the behaviour of various Machine Learning algorithms.\" src=\"https://b.thumbs.redditmedia.com/xYztGQCDTc04w3MWQJbJCHF1PTBTzSS2mAOtXYbBqhg.jpg\" title=\"[P] I created interactive labs designed to visualize the behaviour of various Machine Learning algorithms.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Some time ago I shared a small gradient descent visualiser here and got really helpful feedback. I’ve since refined it quite a bit and also added reinforcement learning visualiser. I’ve now combined everything under a single project called “Descent Visualisers”.</p> <p>The idea is to build interactive labs that help build intuition for how learning actually happens.</p> <p>Currently it includes:</p> <p>- Gradient descent visualisation on 3D loss surfaces</p> <p>- A maze environment trained using tabular Q-learning</p> <p>- CartPole trained using DQL and PPO, with training visualised step by step</p> <p>This is still very early and very much a learning-focused project.</p> <p>I’d really love feedback on: - what’s useful / not useful - what other algorithms or visualisations would be valuable - how this could be improved for students or educators.</p> <p>If people find this useful, I’d love to keep building and expanding it together.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SnooCupcakes5746\"> /u/SnooCupcakes5746 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1q9ayxn\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q9ayxn/p_i_created_interactive_labs_designed_to/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://b.thumbs.redditmedia.com/xYztGQCDTc04w3MWQJbJCHF1PTBTzSS2mAOtXYbBqhg.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "af18e7e5-c8b7-5ec6-a0cb-7b752ed1290f",
     "title": "[Discussion] The next big step is not scaling up or even improving LLMs",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q941sf/discussion_the_next_big_step_is_not_scaling_up_or/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>People use GitHub Stars as bookmarks. This is an excellent signal for understanding which repositories are semantically similar.</p> <ul> <li>The Data: Processed ~1TB of raw data from GitHub Archive (BigQuery) to build an interest matrix of 4 million developers.</li> <li>The ML: Trained embeddings for 300k+ repositories using Metric Learning (EmbeddingBag + MultiSimilarityLoss).</li> <li>The Frontend: Built a <a href=\"https://puzer.github.io/github_recommender/\">client-only demo</a> that runs vector search (KNN) directly in the browser via WASM, with no backend involved.</li> </ul> <p>The Result: The system finds non-obvious library alternatives and allows for semantic comparison of developer profiles.</p> <p>I hope that <a href=\"https://github.com/Puzer/github-repo-embeddings?tab=readme-ov-file#training-github-repository-embeddings-using-stars\">sources</a> and <a href=\"https://colab.research.google.com/github/Puzer/github-repo-embeddings/blob/main/notebooks/inference.ipynb\">raw dataset + trained embeddings</a> can help you to build some interesting projects</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/___mlm___\"> /u/___mlm___ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5iuiq/p_training_github_repository_embeddings_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5iuiq/p_training_github_repository_embeddings_using/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1e75aff9-7c53-5aca-a57e-164be05f7ab5",
-    "title": "[D] ACL desk reject",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/",
-    "pubDate": "2026-01-06T12:39:57+00:00",
-    "description": "Can anyone tell me, if are we risk of being desk rejected, if we move the Limitation to Appendix? I just thought it look cooler this way submitted by /u/_karma_collector [link] [comments]",
-    "author": "/u/_karma_collector",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Can anyone tell me, if are we risk of being desk rejected, if we move the Limitation to Appendix? I just thought it look cooler this way</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_karma_collector\"> /u/_karma_collector </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

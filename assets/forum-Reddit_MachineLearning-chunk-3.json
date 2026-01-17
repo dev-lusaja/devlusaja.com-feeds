@@ -1,5 +1,21 @@
 [
   {
+    "id": "1e75aff9-7c53-5aca-a57e-164be05f7ab5",
+    "title": "[D] ACL desk reject",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/",
+    "pubDate": "2026-01-06T12:39:57+00:00",
+    "description": "Can anyone tell me, if are we risk of being desk rejected, if we move the Limitation to Appendix? I just thought it look cooler this way submitted by /u/_karma_collector [link] [comments]",
+    "author": "/u/_karma_collector",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Can anyone tell me, if are we risk of being desk rejected, if we move the Limitation to Appendix? I just thought it look cooler this way</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_karma_collector\"> /u/_karma_collector </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5hhx9/d_acl_desk_reject/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "422346af-f824-5566-a2f2-f19df3c4177a",
     "title": "[D] LLMs for classification task",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q5e8k3/d_llms_for_classification_task/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently I was curious about Loop Attention and what effect it would have on small language models. I finished a small architectural tweak specifically for Qwen's architecture and recently tried the full training for Qwen3-0.6B and wanted to share it openly.</p> <p>Instead of doing attention once, Loop Attention does a quick global attention pass, then a second pass that looks at a local sliding window, and a learnable gate blends the two.</p> <p>The gate starts off strongly biased toward the normal global behavior (so it doesn’t immediately go off the rails) and can learn when to lean more local.</p> <p>I didn’t want to just drop weights and disappear, so the repo includes the actual model/attention code (Transformers, trust_remote_code) / the training script I used and how I built the attention function from scratch.</p> <p>All artifacts are there from beginning of the repo and I hope I interest a few folks to mess with this and hopefully someone wants to collaborate on this!</p> <p>Initial experimental results of the current loop attention implementation (evaluation script can be found in the HF repo) / WikiText-2 eval.</p> <table><thead> <tr> <th align=\"left\">Model</th> <th align=\"left\">Validation Loss</th> <th align=\"left\">Perplexity</th> </tr> </thead><tbody> <tr> <td align=\"left\">Baseline Qwen3-0.6B</td> <td align=\"left\">3.7274</td> <td align=\"left\">41.57</td> </tr> <tr> <td align=\"left\">Loop Attention Run 1</td> <td align=\"left\">3.5549</td> <td align=\"left\">35.01</td> </tr> </tbody></table> <p>Link is here: <a href=\"https://huggingface.co/coolpoodle/Qwen3-0.6B-Looped\">https://huggingface.co/coolpoodle/Qwen3-0.6B-Looped</a></p> <p>Cheers!</p> <p>Edit: fixing grammar.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wittica\"> /u/Wittica </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1wyfi/d_open_sourced_loop_attention_for_qwen306b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1wyfi/d_open_sourced_loop_attention_for_qwen306b/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a3a44a98-dfc4-5ead-8114-50b4b6bbc91c",
-    "title": "How Can I prune VLMs or LLMs? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q1u32q/how_can_i_prune_vlms_or_llms_d/",
-    "pubDate": "2026-01-02T09:15:18+00:00",
-    "description": "I know basics of pruning for deep learning models. However, I don't know how to do it for larger models. Sharing your knowledge and resources will guide me, thanks submitted by /u/MinimumArtichoke5679 [link] [comments]",
-    "author": "/u/MinimumArtichoke5679",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I know basics of pruning for deep learning models. However, I don't know how to do it for larger models. Sharing your knowledge and resources will guide me, thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MinimumArtichoke5679\"> /u/MinimumArtichoke5679 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1u32q/how_can_i_prune_vlms_or_llms_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1u32q/how_can_i_prune_vlms_or_llms_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

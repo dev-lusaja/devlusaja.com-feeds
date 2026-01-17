@@ -1,5 +1,21 @@
 [
   {
+    "id": "a3a44a98-dfc4-5ead-8114-50b4b6bbc91c",
+    "title": "How Can I prune VLMs or LLMs? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q1u32q/how_can_i_prune_vlms_or_llms_d/",
+    "pubDate": "2026-01-02T09:15:18+00:00",
+    "description": "I know basics of pruning for deep learning models. However, I don't know how to do it for larger models. Sharing your knowledge and resources will guide me, thanks submitted by /u/MinimumArtichoke5679 [link] [comments]",
+    "author": "/u/MinimumArtichoke5679",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I know basics of pruning for deep learning models. However, I don't know how to do it for larger models. Sharing your knowledge and resources will guide me, thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MinimumArtichoke5679\"> /u/MinimumArtichoke5679 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1u32q/how_can_i_prune_vlms_or_llms_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q1u32q/how_can_i_prune_vlms_or_llms_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "da7d60c2-3cb1-55db-beea-5ed136c60eb1",
     "title": "[P] LEMMA: A Rust-based Neural-Guided Theorem Prover with 220+ Mathematical Rules",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q1rr5r/p_lemma_a_rustbased_neuralguided_theorem_prover/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We are currently focused on building simulation engines for observing behavior in multi agent scenarios. And we are currently exploring adversarial concepts, strange thought experiments, and semi-large scale sociology sims. If this seems interesting, reach out or ask anything. I'll be in the thread + dms are open. We are looking for serious collaborators.</p> <p>For a bit of additional context, I am a big fan of amanda askell from anthropic (she has some very interesting views on the nature of these models).</p> <p>We are also studying biological systems/animal social structures, for the sake of designing useful swarms/multi agent frameworks.</p> <p>And we are extending some os mmorpg repos, for the sake of transforming them into sim engines (these are often designed for decent scale + include meaningful social integrations + deep progression mechanics + approachable combat systems for agents, etc).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cobalt1137\"> /u/cobalt1137 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pyx65m/r_if_you_are_interested_in_studying_modelagent/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pyx65m/r_if_you_are_interested_in_studying_modelagent/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "513c0281-12ed-5de8-9dab-004887556380",
-    "title": "[P] Fine-tuned 8B model for Quantum Cryptography",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pykrn2/p_finetuned_8b_model_for_quantum_cryptography/",
-    "pubDate": "2025-12-29T12:12:45+00:00",
-    "description": "https://preview.redd.it/l9mf2szxh3ag1.png?width=1948&format=png&auto=webp&s=aaadb8254f3a7e6d2df05a3b6d14c7210d0f1370 Experiment/Job ID/Result BB84 Basis d57r147p3tbc73aqi44g QBER 1.3% Bell/CHSH d57r0ubht8fs73a33s9g S = 2.475 5-Qubit GHZ d57qv1jht8fs73a33qig Fidelity 86.6% Sharing a domain-specific fine-tune for quantum cryptography (QKD protocols, QBER analysis, attack simulation). Setup: - Base: Nemotron-Cascade-8B-Thinking - LoRA r=64, 8,213 examples, 1.5 epochs - A100 80GB, ~1 hour, final loss: 0.226 Key aspect: Training data includes real IBM Quantum experiments (Heron r2/waiting for IBM Nighthawk): General benchmarks drop ~5% (expected), but domain accuracy 85-95% on QKD tasks where base model fails completely. Model: https://huggingface.co/squ11z1/Kairos Looking for feedback on evaluation approaches for this domain. submitted by /u/Disastrous_Bid5976 [link] [comments]",
-    "author": "/u/Disastrous_Bid5976",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pykrn2/p_finetuned_8b_model_for_quantum_cryptography/\"> <img alt=\"[P] Fine-tuned 8B model for Quantum Cryptography\" src=\"https://b.thumbs.redditmedia.com/Ag8ebQszzZuQjt8kx4bF3V7_JBnl81iFiZ_AVRDmfJg.jpg\" title=\"[P] Fine-tuned 8B model for Quantum Cryptography\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/l9mf2szxh3ag1.png?width=1948&amp;format=png&amp;auto=webp&amp;s=aaadb8254f3a7e6d2df05a3b6d14c7210d0f1370\">https://preview.redd.it/l9mf2szxh3ag1.png?width=1948&amp;format=png&amp;auto=webp&amp;s=aaadb8254f3a7e6d2df05a3b6d14c7210d0f1370</a></p> <p>Experiment/Job ID/Result</p> <table><thead> <tr> <th align=\"left\">BB84 Basis</th> <th align=\"left\">d57r147p3tbc73aqi44g</th> <th align=\"left\">QBER 1.3%</th> </tr> </thead><tbody> <tr> <td align=\"left\">Bell/CHSH</td> <td align=\"left\">d57r0ubht8fs73a33s9g</td> <td align=\"left\">S = 2.475</td> </tr> <tr> <td align=\"left\">5-Qubit GHZ</td> <td align=\"left\">d57qv1jht8fs73a33qig</td> <td align=\"left\">Fidelity 86.6%</td> </tr> </tbody></table> <p>Sharing a domain-specific fine-tune for quantum cryptography (QKD protocols, QBER analysis, attack simulation). </p> <p>Setup:<br /> - Base: Nemotron-Cascade-8B-Thinking<br /> - LoRA r=64, 8,213 examples, 1.5 epochs<br /> - A100 80GB, ~1 hour, final loss: 0.226 </p> <p>Key aspect: Training data includes real IBM Quantum experiments (Heron r2/waiting for IBM Nighthawk): </p> <p>General benchmarks drop ~5% (expected), but domain accuracy 85-95% on QKD tasks where base model fails completely. </p> <p>Model: <a href=\"https://huggingface.co/squ11z1/Kairos\">https://huggingface.co/squ11z1/Kairos</a> </p> <p>Looking for feedback on evaluation approaches for this domain.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Disastrous_Bid5976\"> /u/Disastrous_Bid5976 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pykrn2/p_finetuned_8b_model_for_quantum_cryptography/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pykrn2/p_finetuned_8b_model_for_quantum_cryptography/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://b.thumbs.redditmedia.com/Ag8ebQszzZuQjt8kx4bF3V7_JBnl81iFiZ_AVRDmfJg.jpg",
     "isShortVideo": 0
   }
 ]
