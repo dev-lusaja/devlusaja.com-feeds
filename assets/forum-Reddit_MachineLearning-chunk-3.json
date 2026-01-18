@@ -1,5 +1,21 @@
 [
   {
+    "id": "64a9152a-a382-5be4-b31b-8901c81f8939",
+    "title": "[D] ICLR new ACs — how’s it going?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q67hiq/d_iclr_new_acs_hows_it_going/",
+    "pubDate": "2026-01-07T05:58:53+00:00",
+    "description": "Anyone care to share their experiences? Is the task doable/too much effort? Are the reviews helpful without reliable scores? Whats become your process to make a decision? Just curious, any info appreciated submitted by /u/plantparent2021 [link] [comments]",
+    "author": "/u/plantparent2021",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Anyone care to share their experiences? Is the task doable/too much effort? Are the reviews helpful without reliable scores? Whats become your process to make a decision?</p> <p>Just curious, any info appreciated</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/plantparent2021\"> /u/plantparent2021 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q67hiq/d_iclr_new_acs_hows_it_going/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q67hiq/d_iclr_new_acs_hows_it_going/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "71218971-c9a7-5d01-8f79-18d8c49e96e7",
     "title": "[D] RTX 5090 / 50-series CuPy setup (Blackwell architecture, CUDA 13.1 required)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q61evy/d_rtx_5090_50series_cupy_setup_blackwell/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I'm currently an Applied Scientist II at Amazon working primarily with LLMs (in the speech domain, but open to other areas), and I'm considering applying to Google DeepMind for either Research Engineer or Research Scientist roles.</p> <p>For context on my background:</p> <ul> <li>AS II level at Amazon</li> <li>I do not have PhD, but 3+ years of experience</li> </ul> <p>I'd love to hear from anyone who has:</p> <ol> <li>Interviewed at DeepMind (especially for RE or RS roles) - what should I focus on preparing?</li> <li>Insight on RE vs RS roles - which might be a better fit given my background?</li> </ol> <p>Specific questions:</p> <ul> <li>How much does the interview focus on novel research ideas vs. implementation/systems knowledge?</li> <li>Are there particular areas in LLMs/deep learning I should deep-dive on?</li> <li>How important is having a strong publication record for RE or RS roles?</li> <li>Final and most important question, how do I even get the interview? </li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hmm-yes-sure\"> /u/hmm-yes-sure </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q2wiub/d_google_deepmind_research_engineerscientist/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q2wiub/d_google_deepmind_research_engineerscientist/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "83580e95-0e88-5b91-be77-854f7b72845b",
-    "title": "[P]How to increase roc-auc? Classification problem statement description below",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q2s0ga/phow_to_increase_rocauc_classification_problem/",
-    "pubDate": "2026-01-03T11:06:05+00:00",
-    "description": "Hi, So im working at a wealth management company Aim - My task is to score the 'leads' as to what are the chances of them getting converted into clients. A lead is created when they check out website, or a relationship manager(RM) has spoken to them/like that. From here on the RM will pitch the things to the leads. We have client data, their aua, client_tier, their segment, and other lots of information. Like what product they incline towards..etc My method- Since we have to find a probablity score, we can use classification models We have data where leads have converted, not converted and we have open leads that we have to score. I have very less guidance in my company hence im writing here in hope of some direction I have managed to choose the columns that might be needed to decide if a lead will get converted or not. And I tried running : Logistic regression (lasso) - roc auc - 0.61 Random forest - roc auc - 0.70 Xgboost - roc auc - 0.73 I tired changing the hyperparameters of xgboost but the score is still similar not more than 0.74 How do I increase it to at least above 90? Like im not getting if this is a Data feature issue Model issue What should I look for now, like there were around 160 columns and i reduced to 30 features which might be useful ig? Now, while training - Rows - 89k. Columns - 30 I need direction on what should my next step be Im new in classical ml Any help would be appreciated Thanks! submitted by /u/Yaar-Bhak [link] [comments]",
-    "author": "/u/Yaar-Bhak",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>So im working at a wealth management company </p> <p>Aim - My task is to score the 'leads' as to what are the chances of them getting converted into clients.</p> <p>A lead is created when they check out website, or a relationship manager(RM) has spoken to them/like that. From here on the RM will pitch the things to the leads.</p> <p>We have client data, their aua, client_tier, their segment, and other lots of information. Like what product they incline towards..etc </p> <p>My method-</p> <p>Since we have to find a probablity score, we can use classification models </p> <p>We have data where leads have converted, not converted and we have open leads that we have to score. </p> <p>I have very less guidance in my company hence im writing here in hope of some direction </p> <p>I have managed to choose the columns that might be needed to decide if a lead will get converted or not. </p> <p>And I tried running : </p> <ol> <li>Logistic regression (lasso) - roc auc - 0.61 </li> <li>Random forest - roc auc - 0.70 </li> <li>Xgboost - roc auc - 0.73 </li> </ol> <p>I tired changing the hyperparameters of xgboost but the score is still similar not more than 0.74 </p> <p>How do I increase it to at least above 90? </p> <p>Like im not getting if this is a </p> <ol> <li>Data feature issue </li> <li>Model issue</li> <li>What should I look for now, like there were around 160 columns and i reduced to 30 features which might be useful ig? </li> </ol> <p>Now, while training - Rows - 89k. Columns - 30 </p> <ol> <li>I need direction on what should my next step be</li> </ol> <p>Im new in classical ml Any help would be appreciated </p> <p>Thanks! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Yaar-Bhak\"> /u/Yaar-Bhak </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q2s0ga/phow_to_increase_rocauc_classification_problem/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q2s0ga/phow_to_increase_rocauc_classification_problem/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
