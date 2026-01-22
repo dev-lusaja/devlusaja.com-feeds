@@ -1,5 +1,21 @@
 [
   {
+    "id": "5458ea9e-599a-54f6-ac54-69fed2a59d41",
+    "title": "Streamlining CUB with a Single-Call API",
+    "link": "https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/",
+    "pubDate": "2026-01-21T21:28:00+00:00",
+    "description": "The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional \"two-phase\" API, which separates memory estimation...",
+    "author": "Giannis Gonidelis",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional \"two-phase\" API, which separates memory estimation...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional “two-phase” API, which separates memory estimation from allocation, can be cumbersome. While this programming model offers flexibility, it often results in repetitive boilerplate code. This post explains the shift from this API to the new CUB single-call API introduced in CUDA 13.1…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0bdf0eca-948b-5c69-a1ed-5b87711e6a5f",
     "title": "How to Train an AI Agent for Command-Line Tasks with Synthetic Data and Reinforcement Learning",
     "link": "https://developer.nvidia.com/blog/how-to-train-an-ai-agent-for-command-line-tasks-with-synthetic-data-and-reinforcement-learning/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Agentic-AI-Risks-e1761767452149-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"\" width=\"768\" />For machine learning engineers deploying LLMs at scale, the equation is familiar and unforgiving: as context length increases, attention computation costs...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Agentic-AI-Risks-e1761767452149-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"\" width=\"768\" /><p>For machine learning engineers deploying LLMs at scale, the equation is familiar and unforgiving: as context length increases, attention computation costs explode. Whether you’re dealing with retrieval-augmented generation (RAG) pipelines, agentic AI workflows, or long-form content generation, the complexity of attention remains a primary bottleneck. This post explains a technique known as…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-long-context-inference-with-skip-softmax-in-nvidia-tensorrt-llm/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6301031b-5776-5df9-b185-bda1b1c3877b",
-    "title": "Advanced Large-Scale Quantum Simulation Techniques in cuQuantum SDK v25.11",
-    "link": "https://developer.nvidia.com/blog/advanced-large-scale-quantum-simulation-techniques-in-cuquantum-sdk-v25-11/",
-    "pubDate": "2025-12-16T18:00:00+00:00",
-    "description": "Simulating large-scale quantum computers has become more difficult as the quality of quantum processing units (QPUs) improves. Validating the results is key to...",
-    "author": "Tom Lubowe",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/decision-tree-diagram-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decision-tree-diagram\" width=\"768\" />Simulating large-scale quantum computers has become more difficult as the quality of quantum processing units (QPUs) improves. Validating the results is key to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/decision-tree-diagram-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decision-tree-diagram\" width=\"768\" /><p>Simulating large-scale quantum computers has become more difficult as the quality of quantum processing units (QPUs) improves. Validating the results is key to ensure that after the devices scale beyond what is classically simulable, we can still trust the outputs. Similarly, when generating large-scale datasets for various AI models that aim to aid in the operation of quantum processors…</p>\n<p><a href=\"https://developer.nvidia.com/blog/advanced-large-scale-quantum-simulation-techniques-in-cuquantum-sdk-v25-11/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
