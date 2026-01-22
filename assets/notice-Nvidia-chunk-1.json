@@ -1,5 +1,21 @@
 [
   {
+    "id": "5cfd4505-c160-5eb9-abed-d0ca0e49d7d7",
+    "title": "Accelerating Long-Context Inference with Skip Softmax in NVIDIA TensorRT-LLM",
+    "link": "https://developer.nvidia.com/blog/accelerating-long-context-inference-with-skip-softmax-in-nvidia-tensorrt-llm/",
+    "pubDate": "2025-12-16T21:00:00+00:00",
+    "description": "For machine learning engineers deploying LLMs at scale, the equation is familiar and unforgiving: as context length increases, attention computation costs...",
+    "author": "Laikh Tewari",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Agentic-AI-Risks-e1761767452149-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"\" width=\"768\" />For machine learning engineers deploying LLMs at scale, the equation is familiar and unforgiving: as context length increases, attention computation costs...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/Agentic-AI-Risks-e1761767452149-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"\" width=\"768\" /><p>For machine learning engineers deploying LLMs at scale, the equation is familiar and unforgiving: as context length increases, attention computation costs explode. Whether you’re dealing with retrieval-augmented generation (RAG) pipelines, agentic AI workflows, or long-form content generation, the complexity of attention remains a primary bottleneck. This post explains a technique known as…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-long-context-inference-with-skip-softmax-in-nvidia-tensorrt-llm/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6301031b-5776-5df9-b185-bda1b1c3877b",
     "title": "Advanced Large-Scale Quantum Simulation Techniques in cuQuantum SDK v25.11",
     "link": "https://developer.nvidia.com/blog/advanced-large-scale-quantum-simulation-techniques-in-cuquantum-sdk-v25-11/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory footprint and compute cost—directly improving throughput, latency, and achievable context length. This blog introduces NVFP4 KV cache quantization, a new KV format that enables significant performance gains on NVIDIA Blackwell GPUs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimizing-inference-for-long-context-and-large-batch-sizes-with-nvfp4-kv-cache/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fdcb40d6-adc7-5177-bdb5-8cf442effc6a",
-    "title": "NVIDIA Kaggle Grandmasters Win Artificial General Intelligence Competition",
-    "link": "https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/",
-    "pubDate": "2025-12-05T18:00:00+00:00",
-    "description": "NVIDIA researchers on Friday won a key Kaggle competition many in the field treat as a real-time pulse check on humanity’s progress toward artificial general...",
-    "author": "Moon Chung",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Untitled-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Untitled\" width=\"768\" />NVIDIA researchers on Friday won a key Kaggle competition many in the field treat as a real-time pulse check on humanity’s progress toward artificial general...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Untitled-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Untitled\" width=\"768\" /><p>NVIDIA researchers on Friday won a key Kaggle competition many in the field treat as a real-time pulse check on humanity’s progress toward artificial general intelligence (AGI). Ivan Sorokin and Jean-Francois Puget, two members of the Kaggle Grandmasters of NVIDIA (KGMoN), came in first on the Kaggle ARC Prize 2025 public leaderboard with a 27.64% score by building a solution evaluated on…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Untitled.png",
     "isShortVideo": 0
   }
 ]
