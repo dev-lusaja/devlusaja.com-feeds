@@ -1,5 +1,21 @@
 [
   {
+    "id": "36d0c7d2-1c5f-5d2b-90cb-01d71a817c8f",
+    "title": "Optimizing Inference for Long Context and Large Batch Sizes with NVFP4 KV Cache",
+    "link": "https://developer.nvidia.com/blog/optimizing-inference-for-long-context-and-large-batch-sizes-with-nvfp4-kv-cache/",
+    "pubDate": "2025-12-08T17:00:00+00:00",
+    "description": "Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory...",
+    "author": "Eduardo Alvarez",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>Quantization is one of the strongest levers for large-scale inference. By reducing the precision of weights, activations, and KV cache, we can reduce the memory footprint and compute cost—directly improving throughput, latency, and achievable context length. This blog introduces NVFP4 KV cache quantization, a new KV format that enables significant performance gains on NVIDIA Blackwell GPUs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimizing-inference-for-long-context-and-large-batch-sizes-with-nvfp4-kv-cache/\" rel=\"nofollow\">Source</a></p>",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image1-2.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "fdcb40d6-adc7-5177-bdb5-8cf442effc6a",
     "title": "NVIDIA Kaggle Grandmasters Win Artificial General Intelligence Competition",
     "link": "https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/",
