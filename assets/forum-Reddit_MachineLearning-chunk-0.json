@@ -1,5 +1,21 @@
 [
   {
+    "id": "c82c608f-ac65-53a2-aa24-961bc5003751",
+    "title": "[D] ICLR 2026 decision mega thread",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qm32o6/d_iclr_2026_decision_mega_thread/",
+    "pubDate": "2026-01-24T23:52:12+00:00",
+    "description": "The review is out tomorrow (a few hours remaining following eastern time). I am creating this mega thread to talk about meta reviews and final decisions. After the Openreview fiasco, this will be interesting. Good luck everyone! submitted by /u/ayanD2 [link] [comments]",
+    "author": "/u/ayanD2",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>The review is out tomorrow (a few hours remaining following eastern time). I am creating this mega thread to talk about meta reviews and final decisions. </p> <p>After the Openreview fiasco, this will be interesting.</p> <p>Good luck everyone!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ayanD2\"> /u/ayanD2 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qm32o6/d_iclr_2026_decision_mega_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qm32o6/d_iclr_2026_decision_mega_thread/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "32ddf241-4e8e-53fb-bef5-890751f3b672",
     "title": "[D] Critical AI Safety Issue in Claude: \"Conversational Abandonment\" in Crisis Scenarios – Ignored Reports and What It Means for User Safety",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qlwuuu/d_critical_ai_safety_issue_in_claude/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been bashing away at this on and off for a year now, and I just seem to be chasing my tail. I am using TensorFlow to try to determine sea state from webcam stills, but I don't seem to be getting any closer to a useful model. Training accuracy for a few models is around 97% and I have tried to prevent overtraining - but to be honest, whatever I try doesn't make much difference. My predicted classification on unseen images is only slightly better than a guess, and dumb things seem to throw it. For example, one of the camera angles has a telegraph pole in shot... so when the models sees a telegraph pole, it just ignores everything else and classifies it based on that. &quot;Ohhh there's that pole again! Must be a 3m swell!&quot;. Another view has a fence, which also seems to determine how the image is classified over and above everything else.</p> <p>Are these things I can get the model to ignore, or are my expectations of what it can do just waaaaaaay too high?</p> <p>Edit: can't edit title typo. Don't judge me.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dug99\"> /u/dug99 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjqjf2/is_webcam_image_classification_afools_errand_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjqjf2/is_webcam_image_classification_afools_errand_n/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ea8e36e2-4eeb-5d3e-b2a9-9d1bb0289783",
-    "title": "[D] DFDC Dataset Access",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qjmv4n/d_dfdc_dataset_access/",
-    "pubDate": "2026-01-22T06:13:28+00:00",
-    "description": "Was working on a deepfake research paper and was trying to get access to DFDC dataset but for some reason the dfdc official website ain't working, is it because I didnt acquire access to it ??? Is there any other way I can get hands on the dataset??? submitted by /u/Ok_Concert6723 [link] [comments]",
-    "author": "/u/Ok_Concert6723",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Was working on a deepfake research paper and was trying to get access to DFDC dataset but for some reason the dfdc official website ain't working, is it because I didnt acquire access to it ??? Is there any other way I can get hands on the dataset???</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Concert6723\"> /u/Ok_Concert6723 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjmv4n/d_dfdc_dataset_access/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjmv4n/d_dfdc_dataset_access/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
