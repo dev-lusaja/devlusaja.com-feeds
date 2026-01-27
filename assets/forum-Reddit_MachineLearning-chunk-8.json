@@ -1,5 +1,21 @@
 [
   {
+    "id": "d43dfe1f-054b-55bf-ab77-1ab4d90d7e85",
+    "title": "[D] AI coding agents for DS/ML (notebooks) - what's your workflow?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q08hdo/d_ai_coding_agents_for_dsml_notebooks_whats_your/",
+    "pubDate": "2025-12-31T08:56:54+00:00",
+    "description": "For software engineering, Claude Code (or its competitors) and Cursor seem to be the go-to at the moment. What about notebook-based workflows common in DS and ML (like Jupyter)? Any experiences, tools, or resources to share? submitted by /u/wh1tewitch [link] [comments]",
+    "author": "/u/wh1tewitch",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>For software engineering, Claude Code (or its competitors) and Cursor seem to be the go-to at the moment. What about notebook-based workflows common in DS and ML (like Jupyter)? Any experiences, tools, or resources to share?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/wh1tewitch\"> /u/wh1tewitch </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q08hdo/d_ai_coding_agents_for_dsml_notebooks_whats_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q08hdo/d_ai_coding_agents_for_dsml_notebooks_whats_your/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "420bd887-b155-5eb5-a73c-43772ce3db05",
     "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q02m19/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I don't like the narrative that LLMs are inherently black boxes. Rather than accept that narrative, I've started building a toolkit to measure (and use) the actual geometry of what's happening with small language models <em>before</em> the token is emitted.</p> <p>What it does:</p> <ul> <li>Cross-architecture adapter transfer (Procrustes alignment).</li> <li>Jailbreak detection via Entropy Divergence (Delta H).</li> <li>Implements machine learning methods from 46+ recent papers (Gargiulo '25, Yadav '23).</li> </ul> <p>The Negative Result:</p> <p>I hypothesized Wierzbicka's &quot;Semantic Primes&quot; would show unique geometric invariance across models. I was wrong. The data suggests distinct concepts (including random controls) have CKA &gt; 0.94 across Qwen/Llama/Mistral. The convergence is universal, not linguistic.</p> <p>A note on usage: high-dimensional geometry can be counter-intuitive. The tools are documented and I've provided precise analogies to try to bridge the gap, but the outputs are raw metrics - think oscilloscope, not chatbot.</p> <p>It's all open source (AGPLv3). This is under active development with frequent commits to improve the tools. The merge pipeline (i.e., high-dimensional legos) is still very very experimental. Feel free to contribute, flag bugs or just roast the entire thing in the comments!</p> <p><a href=\"https://github.com/Ethyros-AI/ModelCypher\">https://github.com/Ethyros-AI/ModelCypher</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Vegetable-Second3998\"> /u/Vegetable-Second3998 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pwi8i6/modelcypher_a_toolkit_for_the_geometry_of_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pwi8i6/modelcypher_a_toolkit_for_the_geometry_of_llms/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a36e57e2-e718-5e9d-9adc-09b9fd33f3c6",
-    "title": "[P] Canvas Agent for Gemini - Organized Image Generation Interface",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pwhivc/p_canvas_agent_for_gemini_organized_image/",
-    "pubDate": "2025-12-26T22:53:05+00:00",
-    "description": "Canvas Agent makes Gemini image generation more organized. Infinite canvas, batch generation, reference existing images with mentions. Pure frontend app that stays local. Demo: https://canvas-agent-zeta.vercel.app/ Video walkthrough: https://www.youtube.com/watch?v=7IENe5x-cu0 submitted by /u/GGO_Sand_wich [link] [comments]",
-    "author": "/u/GGO_Sand_wich",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Canvas Agent makes Gemini image generation more organized. Infinite canvas, batch generation, reference existing images with mentions. Pure frontend app that stays local.</p> <p>Demo: <a href=\"https://canvas-agent-zeta.vercel.app/\">https://canvas-agent-zeta.vercel.app/</a></p> <p>Video walkthrough: <a href=\"https://www.youtube.com/watch?v=7IENe5x-cu0\">https://www.youtube.com/watch?v=7IENe5x-cu0</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GGO_Sand_wich\"> /u/GGO_Sand_wich </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pwhivc/p_canvas_agent_for_gemini_organized_image/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pwhivc/p_canvas_agent_for_gemini_organized_image/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

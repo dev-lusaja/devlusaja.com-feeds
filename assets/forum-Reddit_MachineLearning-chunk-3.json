@@ -1,5 +1,21 @@
 [
   {
+    "id": "d2ace833-dffe-59fa-979d-af8125031401",
+    "title": "[P] Advice for training a model with my pc",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qgt89b/p_advice_for_training_a_model_with_my_pc/",
+    "pubDate": "2026-01-19T03:34:31+00:00",
+    "description": "Ok guys i have been working in a proyect for educational proporses, for about a year, trying to learn how to train model and the result was terrible, i did learn like nothing, i saw some tutorials, but i just can't figure it out. What i have achieved, i made a small model with a dataset of 157k images, binary output (sigmoid), the accuracy was max 64%. The pc i used for that has this specs: Ryzen 7 5700x, 32gb ram ddr4, rx 6600, windows 11 pro, using tensor flow, for obvious reasons i trained the model with CPU., was training with all the things are needed data augmentation, early stopping, reducing the training rate, etc. I bought an rtx 5060 ti 16gb, to train this same model faster, but for my surprise tensorflow not longer support gpu natively on windows, and also has some kind of incompatibility with ada loveless architecture, so i used AI to port the code to pytorch, installed ubuntu in a ssd and pytorch for some reason was using just a small part of the power of the gpu, and was training with gpu but takes like 10 minutes per epoch slower that with cpu and tensorflow. Are people using RTX 5000 for training AI?, my model is small nothing big, i know don't need a high end pc for doing it, i though that just buying the gpu and installing tensorflow for cuda was going to work but no, is like there no support yet for my gpu, i would like to know if is even posible, and pytroch doesn't seem to be working better. Any advice for installation and setup of tensorflow to work with my gpu?, or pytorch or what ever i just want it to work. Sorry for my english is my second language, and thanks for reading. submitted by /u/tdk779 [link] [comments]",
+    "author": "/u/tdk779",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Ok guys i have been working in a proyect for educational proporses, for about a year, trying to learn how to train model and the result was terrible, i did learn like nothing, i saw some tutorials, but i just can't figure it out.</p> <p>What i have achieved, i made a small model with a dataset of 157k images, binary output (sigmoid), the accuracy was max 64%.</p> <p>The pc i used for that has this specs: Ryzen 7 5700x, 32gb ram ddr4, rx 6600, windows 11 pro, using tensor flow, for obvious reasons i trained the model with CPU., was training with all the things are needed data augmentation, early stopping, reducing the training rate, etc.</p> <p>I bought an rtx 5060 ti 16gb, to train this same model faster, but for my surprise tensorflow not longer support gpu natively on windows, and also has some kind of incompatibility with ada loveless architecture, so i used AI to port the code to pytorch, installed ubuntu in a ssd and pytorch for some reason was using just a small part of the power of the gpu, and was training with gpu but takes like 10 minutes per epoch slower that with cpu and tensorflow.</p> <p>Are people using RTX 5000 for training AI?, my model is small nothing big, i know don't need a high end pc for doing it, i though that just buying the gpu and installing tensorflow for cuda was going to work but no, is like there no support yet for my gpu, i would like to know if is even posible, and pytroch doesn't seem to be working better.</p> <p>Any advice for installation and setup of tensorflow to work with my gpu?, or pytorch or what ever i just want it to work.</p> <p>Sorry for my english is my second language, and thanks for reading.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tdk779\"> /u/tdk779 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qgt89b/p_advice_for_training_a_model_with_my_pc/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qgt89b/p_advice_for_training_a_model_with_my_pc/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "55ef9536-794e-5bda-8462-fff427db0d28",
     "title": "[D] I’m building an AI system that simulates and “repairs” city policies before they’re implemented. Looking for planner + founder feedback",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qgjzk4/d_im_building_an_ai_system_that_simulates_and/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am an open source contributor, working on load balancing for Bifrost (LLM gateway) and ran into some interesting challenges with Go implementation.</p> <p>Standard weighted round-robin works fine for static loads, but LLM providers behave weirdly. OpenAI might be fast at 9am, slow at 2pm. Azure rate limits kick in unexpectedly. One region degrades while others stay healthy.</p> <p>Built adaptive routing that adjusts weights based on live metrics - latency, error rates, throughput. Used EWMAs (exponentially weighted moving averages) to smooth out spikes without overreacting to noise.</p> <p>The Go part that was tricky: tracking per-provider metrics without locks becoming a bottleneck at high RPS. Ended up using atomic operations for counters and a separate goroutine that periodically reads metrics and recalculates weights. Keeps the hot path lock-free.</p> <p>Also had to handle provider health scoring. Not just &quot;up or down&quot; but scoring based on recent performance. A provider recovering from issues should gradually earn traffic back, not get slammed immediately.</p> <p>Connection pooling matters more than expected. Go's http.Transport reuses connections well, but tuning MaxIdleConnsPerHost made a noticeable difference under sustained load.</p> <p>Running this at 5K RPS with sub-microsecond overhead now. The concurrency primitives in Go made this way easier than Python would've been.</p> <p>Anyone else built adaptive routing in Go? What patterns worked for you?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dinkinflika0\"> /u/dinkinflika0 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qdsd84/p_adaptive_load_balancing_in_go_for_llm_traffic/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qdsd84/p_adaptive_load_balancing_in_go_for_llm_traffic/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e6b8cae5-7e67-5ace-98e9-e6a8cbfc81ad",
-    "title": "[R] statistical learning in machine learning vs cognitive sciences",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qdmdva/r_statistical_learning_in_machine_learning_vs/",
-    "pubDate": "2026-01-15T15:22:56+00:00",
-    "description": "Hi everyone! Please bear with me with this question 🫣 I’m looking for someone in research to pick their brain about the similarities and differences between statistical learning in cognitive science and in machine learning, so definition, conceptual differences/similarities, predictions, testing…. Hope it makes sense, I’m doing research in cognitive sciences and I’d love to learn more about this term’s use in ML for a review I’m working on :) thanks! submitted by /u/Ok_Fudge1993 [link] [comments]",
-    "author": "/u/Ok_Fudge1993",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! Please bear with me with this question 🫣</p> <p>I’m looking for someone in research to pick their brain about the similarities and differences between statistical learning in cognitive science and in machine learning, so definition, conceptual differences/similarities, predictions, testing…. Hope it makes sense, I’m doing research in cognitive sciences and I’d love to learn more about this term’s use in ML for a review I’m working on :) thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Fudge1993\"> /u/Ok_Fudge1993 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qdmdva/r_statistical_learning_in_machine_learning_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qdmdva/r_statistical_learning_in_machine_learning_vs/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

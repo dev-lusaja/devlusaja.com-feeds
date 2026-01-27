@@ -1,5 +1,21 @@
 [
   {
+    "id": "bc6a7758-e68c-5b0b-a307-e4bd189beb46",
+    "title": "[D] Limitations of advance reasoning. What is the strategy these days?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q3390s/d_limitations_of_advance_reasoning_what_is_the/",
+    "pubDate": "2026-01-03T19:13:32+00:00",
+    "description": "Is it adversarial interactions between LLMs (chaining etc.) for advance reasoning? Surely it'll converge to an undesirable minima. Using aggregated user feedback to reinforce models - doesn't it become impossible to produce anything specific? Are there any mathematical approaches that model COT? To understand where it leads. What constraint its satisfying. Motivation: I've found LLMs particularly poor at analogising. My first thought is to engineer prompts to get the desired outcome. Training Examples. However, that too seems inevitably limited by the underlying objective function used to build the LLMs in the first place. I'm not a mathematician nor a researcher. I want useful automation. submitted by /u/Disastrous_Bet7414 [link] [comments]",
+    "author": "/u/Disastrous_Bet7414",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it adversarial interactions between LLMs (chaining etc.) for advance reasoning? Surely it'll converge to an undesirable minima. Using aggregated user feedback to reinforce models - doesn't it become impossible to produce anything specific?</p> <p>Are there any mathematical approaches that model COT? To understand where it leads. What constraint its satisfying.</p> <p><strong>Motivation:</strong></p> <p>I've found LLMs particularly poor at analogising. My first thought is to engineer prompts to get the desired outcome. <em>Training Examples.</em></p> <p>However, that too seems inevitably limited by the underlying objective function used to build the LLMs in the first place.</p> <p>I'm not a mathematician nor a researcher. I want useful automation.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Disastrous_Bet7414\"> /u/Disastrous_Bet7414 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q3390s/d_limitations_of_advance_reasoning_what_is_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q3390s/d_limitations_of_advance_reasoning_what_is_the/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7d0fe3c9-096d-55cc-bf7d-e775d9f0ebf8",
     "title": "[D] Built a US Mortgage Underwriting OCR System With 96% Real-World Accuracy → Saved ~$2M Per Year",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q3004b/d_built_a_us_mortgage_underwriting_ocr_system/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,<br /> I’m looking for some honest input from people who have experience with AI or data licensing.</p> <p>My family owns a large multilingual dictionary dataset that has been manually built and curated over several decades. I’m currently trying to figure out whether data like this still has meaningful market value today (especially in the context of LLMs), and if so, where such data is typically sold or licensed.</p> <p>Rough overview of the dataset:</p> <ul> <li>around 5.85M dictionary entries in total</li> <li>language pairs: English–Czech (~3.23M) and German–Czech (~2.61M)</li> <li>each entry contains multiple structured fields (lemma, morphology, domain tags, usage notes, idioms, explanations, etc.)</li> <li>strong coverage of specialized areas like engineering, IT/electronics, medicine/chemistry, law/business, sciences, humanities, and military terminology</li> <li>entirely human-curated, consistent structure, no scraped or crowdsourced content</li> <li>full and clean ownership (single private company)</li> </ul> <p>What I’m trying to understand is whether datasets like this are realistically:</p> <ul> <li>licensed or sold to AI companies</li> <li>actually worth something non-trivial compared to large web-scale corpora</li> </ul> <p>I’d be especially interested in:</p> <ul> <li>rough price ranges people have seen for comparable datasets</li> <li>whether large AI labs buy this kind of data</li> <li>which channels tend to work in practice (direct outreach, marketplaces, brokers, something else)</li> </ul> <p>Any insight, experience, or pointers would be really appreciated.<br /> Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Soggy-Wait-8439\"> /u/Soggy-Wait-8439 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q09o0j/r_do_ai_companies_pay_for_large_proprietary/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q09o0j/r_do_ai_companies_pay_for_large_proprietary/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d43dfe1f-054b-55bf-ab77-1ab4d90d7e85",
-    "title": "[D] AI coding agents for DS/ML (notebooks) - what's your workflow?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q08hdo/d_ai_coding_agents_for_dsml_notebooks_whats_your/",
-    "pubDate": "2025-12-31T08:56:54+00:00",
-    "description": "For software engineering, Claude Code (or its competitors) and Cursor seem to be the go-to at the moment. What about notebook-based workflows common in DS and ML (like Jupyter)? Any experiences, tools, or resources to share? submitted by /u/wh1tewitch [link] [comments]",
-    "author": "/u/wh1tewitch",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>For software engineering, Claude Code (or its competitors) and Cursor seem to be the go-to at the moment. What about notebook-based workflows common in DS and ML (like Jupyter)? Any experiences, tools, or resources to share?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/wh1tewitch\"> /u/wh1tewitch </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q08hdo/d_ai_coding_agents_for_dsml_notebooks_whats_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q08hdo/d_ai_coding_agents_for_dsml_notebooks_whats_your/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

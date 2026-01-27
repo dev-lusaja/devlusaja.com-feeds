@@ -1,5 +1,21 @@
 [
   {
+    "id": "e6b8cae5-7e67-5ace-98e9-e6a8cbfc81ad",
+    "title": "[R] statistical learning in machine learning vs cognitive sciences",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qdmdva/r_statistical_learning_in_machine_learning_vs/",
+    "pubDate": "2026-01-15T15:22:56+00:00",
+    "description": "Hi everyone! Please bear with me with this question 🫣 I’m looking for someone in research to pick their brain about the similarities and differences between statistical learning in cognitive science and in machine learning, so definition, conceptual differences/similarities, predictions, testing…. Hope it makes sense, I’m doing research in cognitive sciences and I’d love to learn more about this term’s use in ML for a review I’m working on :) thanks! submitted by /u/Ok_Fudge1993 [link] [comments]",
+    "author": "/u/Ok_Fudge1993",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! Please bear with me with this question 🫣</p> <p>I’m looking for someone in research to pick their brain about the similarities and differences between statistical learning in cognitive science and in machine learning, so definition, conceptual differences/similarities, predictions, testing…. Hope it makes sense, I’m doing research in cognitive sciences and I’d love to learn more about this term’s use in ML for a review I’m working on :) thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Fudge1993\"> /u/Ok_Fudge1993 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qdmdva/r_statistical_learning_in_machine_learning_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qdmdva/r_statistical_learning_in_machine_learning_vs/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7cd5693c-0e03-57d2-8ec7-3a4a17ec2886",
     "title": "[D] New arXiv review: \"High-Performance Serverless\" is the future of AI Inference (and Static Clusters are dying)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qdmbk2/d_new_arxiv_review_highperformance_serverless_is/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Sakana AI introduced a new method called DroPE to extend the context length of pretrained LLMs without the massive compute costs usually associated with long-context fine-tuning.</p> <p>The core insight of this work challenges a fundamental assumption in Transformer architecture. They discovered that explicit positional embeddings like RoPE are critical for training convergence, but eventually become the primary bottleneck preventing models from generalizing to longer sequences.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AhmedMostafa16\"> /u/AhmedMostafa16 </a> <br /> <span><a href=\"https://arxiv.org/abs/2512.12167\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qamyre/r_extending_the_context_of_pretrained_llms_by/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ab551e13-823f-5bae-b892-c166b3c810c8",
-    "title": "[D] During long training sessions, how do you manage to get your code to work in the first couple of tries?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qa46hz/d_during_long_training_sessions_how_do_you_manage/",
-    "pubDate": "2026-01-11T16:47:58+00:00",
-    "description": "I've tried doing sanity checks and they work great for the most part, but what if there is just a part of the data, or an instance where the model fails? How do you watch out for something like that so that hours of GPU compute just don't go down the drain. I've also heard about saving weights/progress at certain checkpoints, but for other tasks such as model evals how would that work? submitted by /u/Specialist-Pool-6962 [link] [comments]",
-    "author": "/u/Specialist-Pool-6962",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've tried doing sanity checks and they work great for the most part, but what if there is just a part of the data, or an instance where the model fails? How do you watch out for something like that so that hours of GPU compute just don't go down the drain. I've also heard about saving weights/progress at certain checkpoints, but for other tasks such as model evals how would that work?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist-Pool-6962\"> /u/Specialist-Pool-6962 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa46hz/d_during_long_training_sessions_how_do_you_manage/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa46hz/d_during_long_training_sessions_how_do_you_manage/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

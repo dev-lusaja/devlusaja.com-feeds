@@ -1,5 +1,21 @@
 [
   {
+    "id": "aabb3b30-5977-5eaa-834e-134462c6289b",
+    "title": "[R] Is Nested Learning a new ML paradigm?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pdy1ut/r_is_nested_learning_a_new_ml_paradigm/",
+    "pubDate": "2025-12-04T11:51:12+00:00",
+    "description": "LLMs still don’t have a way of updating their long-term memory on the fly. Researchers at Google, inspired by the human brain, believe they have a solution to this. Their ‘Nested learning’ approach adds more intermediate layers of memory which update at different speeds (see diagram below of their HOPE architecture). Each of these intermediate layers is treated as a separate optimisation problem to create a hierarchy of nested learning processes. They believe this could help models continually learn on-the-fly. It’s far from certain this will work though. In the paper they prove the efficacy of the model on a small scale (~1.3b parameter model) but it would need to be proved on a much larger scale (Gemini 3 was 1 trillon parameters). The more serious problem is how the model actually works out what to keep in long-term memory. Do you think nested learning is actually going to be a big step towards AGI? https://preview.redd.it/1ern3ibbe65g1.png?width=3925&format=png&auto=webp&s=f6dbe3019b52800fab379cdcd5861d46aa45fbb8 submitted by /u/Odd_Manufacturer2215 [link] [comments]",
+    "author": "/u/Odd_Manufacturer2215",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdy1ut/r_is_nested_learning_a_new_ml_paradigm/\"> <img alt=\"[R] Is Nested Learning a new ML paradigm?\" src=\"https://b.thumbs.redditmedia.com/qGi5oEA9idQa3ydS8jCOwwra1roSUI3_D9zHrr32q_A.jpg\" title=\"[R] Is Nested Learning a new ML paradigm?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>LLMs still don’t have a way of updating their long-term memory on the fly. Researchers at Google, inspired by the human brain, believe they have a solution to this. Their <a href=\"https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/\">‘Nested learning’</a> approach adds more intermediate layers of memory which update at different speeds (see diagram below of their HOPE architecture). Each of these intermediate layers is treated as a separate optimisation problem to create a hierarchy of nested learning processes. They believe this could help models continually learn on-the-fly.</p> <p>It’s far from certain this will work though. In the paper they prove the efficacy of the model on a small scale (~1.3b parameter model) but it would need to be proved on a much larger scale (Gemini 3 was 1 trillon parameters). The more serious problem is how the model actually works out what to keep in long-term memory. </p> <p>Do you think nested learning is actually going to be a big step towards AGI?</p> <p><a href=\"https://preview.redd.it/1ern3ibbe65g1.png?width=3925&amp;format=png&amp;auto=webp&amp;s=f6dbe3019b52800fab379cdcd5861d46aa45fbb8\">https://preview.redd.it/1ern3ibbe65g1.png?width=3925&amp;format=png&amp;auto=webp&amp;s=f6dbe3019b52800fab379cdcd5861d46aa45fbb8</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Odd_Manufacturer2215\"> /u/Odd_Manufacturer2215 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdy1ut/r_is_nested_learning_a_new_ml_paradigm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pdy1ut/r_is_nested_learning_a_new_ml_paradigm/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://b.thumbs.redditmedia.com/qGi5oEA9idQa3ydS8jCOwwra1roSUI3_D9zHrr32q_A.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "d2da7bca-f3b3-547a-a403-e196169a5921",
     "title": "[D] What do I need to find a novel research topic and more?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pdx9jx/d_what_do_i_need_to_find_a_novel_research_topic/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>In many real-world RAG and agent systems I’ve reviewed, most of the engineering effort falls into repetitive, non-reasoning tasks. - Ingestion: heterogeneous formats, identical cleaning rules - Chunking: simple segmentation, high sensitivity to drift - Metadata alignment: structural changes require manual reconciliation - JSON validation: predictable schema corrections - Evaluation setup: reused baseline patterns - Tool contracts: consistent schema structures - Pipeline wiring: repeated node templates - Logging and fallback: boilerplate, not model development</p> <p>These steps are not where deep ML expertise is applied, yet they create most downstream instability. I’m interested in how others manage repetitive preprocessing and workflow glue in production AI systems.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pbza31/d_how_do_you_manage_glue_work_on_aiml_projects/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pbza31/d_how_do_you_manage_glue_work_on_aiml_projects/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "027513dc-d0f5-5dae-895e-028dead50ebd",
-    "title": "[D] Self-Promotion Thread",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pbxkt2/d_selfpromotion_thread/",
-    "pubDate": "2025-12-02T03:15:29+00:00",
-    "description": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads. submitted by /u/AutoModerator [link] [comments]",
-    "author": "/u/AutoModerator",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pbxkt2/d_selfpromotion_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pbxkt2/d_selfpromotion_thread/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

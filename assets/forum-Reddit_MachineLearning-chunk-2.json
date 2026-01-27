@@ -1,5 +1,21 @@
 [
   {
+    "id": "0eeaa814-bdfb-5bc9-a340-8134330a0f68",
+    "title": "[D] ICML Qualified Reviewers",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qj94co/d_icml_qualified_reviewers/",
+    "pubDate": "2026-01-21T20:23:56+00:00",
+    "description": "Hi, I have a question about what exactly is a qualified reviewer in ICML submissions. It says that a qualified reviewers should have two publications in conferences such as Neurips, ICML, ICLR, AAAI, and says that this list is not exhaustive. However, no author in my paper has two publications in tier 1 conferences. Does other venues should also be considered? Examples: FACCT, Neural Computing and Applications, IJCNN submitted by /u/Massive_Horror9038 [link] [comments]",
+    "author": "/u/Massive_Horror9038",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I have a question about what exactly is a qualified reviewer in ICML submissions. </p> <p>It says that a qualified reviewers should have two publications in conferences such as Neurips, ICML, ICLR, AAAI, and says that this list is not exhaustive.</p> <p>However, no author in my paper has two publications in tier 1 conferences. Does other venues should also be considered? </p> <p>Examples: FACCT, Neural Computing and Applications, IJCNN </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Massive_Horror9038\"> /u/Massive_Horror9038 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qj94co/d_icml_qualified_reviewers/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qj94co/d_icml_qualified_reviewers/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7dedbab2-305b-5706-8bf9-7864aa5b4291",
     "title": "Bayesian physics informed neural networks (PINNs) [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qj610w/bayesian_physics_informed_neural_networks_pinns_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all. I’m still new to the ML learning space and had a question around modeling for a dataset that is is approx 800 rows. I’m doing a classification model (tried log reg and xgboost for starters), and I think I have relevant features selected/engineered. Running in BQML (google cloud platform supported ml development space) and every time the model trains, it predicts everything under the same bucket. I understand this could be because I do not have a lot of data for my model to train on. Want to understand if there’s a way to train models on smaller datasets. Is there any other approach I can use? Specific models? Hyper parameters? Any other recommendations are appreciated. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ConsistentLynx2317\"> /u/ConsistentLynx2317 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qgtlc6/d_ml_classification_on_smaller_datasets_1k_rows/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qgtlc6/d_ml_classification_on_smaller_datasets_1k_rows/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d2ace833-dffe-59fa-979d-af8125031401",
-    "title": "[P] Advice for training a model with my pc",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qgt89b/p_advice_for_training_a_model_with_my_pc/",
-    "pubDate": "2026-01-19T03:34:31+00:00",
-    "description": "Ok guys i have been working in a proyect for educational proporses, for about a year, trying to learn how to train model and the result was terrible, i did learn like nothing, i saw some tutorials, but i just can't figure it out. What i have achieved, i made a small model with a dataset of 157k images, binary output (sigmoid), the accuracy was max 64%. The pc i used for that has this specs: Ryzen 7 5700x, 32gb ram ddr4, rx 6600, windows 11 pro, using tensor flow, for obvious reasons i trained the model with CPU., was training with all the things are needed data augmentation, early stopping, reducing the training rate, etc. I bought an rtx 5060 ti 16gb, to train this same model faster, but for my surprise tensorflow not longer support gpu natively on windows, and also has some kind of incompatibility with ada loveless architecture, so i used AI to port the code to pytorch, installed ubuntu in a ssd and pytorch for some reason was using just a small part of the power of the gpu, and was training with gpu but takes like 10 minutes per epoch slower that with cpu and tensorflow. Are people using RTX 5000 for training AI?, my model is small nothing big, i know don't need a high end pc for doing it, i though that just buying the gpu and installing tensorflow for cuda was going to work but no, is like there no support yet for my gpu, i would like to know if is even posible, and pytroch doesn't seem to be working better. Any advice for installation and setup of tensorflow to work with my gpu?, or pytorch or what ever i just want it to work. Sorry for my english is my second language, and thanks for reading. submitted by /u/tdk779 [link] [comments]",
-    "author": "/u/tdk779",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Ok guys i have been working in a proyect for educational proporses, for about a year, trying to learn how to train model and the result was terrible, i did learn like nothing, i saw some tutorials, but i just can't figure it out.</p> <p>What i have achieved, i made a small model with a dataset of 157k images, binary output (sigmoid), the accuracy was max 64%.</p> <p>The pc i used for that has this specs: Ryzen 7 5700x, 32gb ram ddr4, rx 6600, windows 11 pro, using tensor flow, for obvious reasons i trained the model with CPU., was training with all the things are needed data augmentation, early stopping, reducing the training rate, etc.</p> <p>I bought an rtx 5060 ti 16gb, to train this same model faster, but for my surprise tensorflow not longer support gpu natively on windows, and also has some kind of incompatibility with ada loveless architecture, so i used AI to port the code to pytorch, installed ubuntu in a ssd and pytorch for some reason was using just a small part of the power of the gpu, and was training with gpu but takes like 10 minutes per epoch slower that with cpu and tensorflow.</p> <p>Are people using RTX 5000 for training AI?, my model is small nothing big, i know don't need a high end pc for doing it, i though that just buying the gpu and installing tensorflow for cuda was going to work but no, is like there no support yet for my gpu, i would like to know if is even posible, and pytroch doesn't seem to be working better.</p> <p>Any advice for installation and setup of tensorflow to work with my gpu?, or pytorch or what ever i just want it to work.</p> <p>Sorry for my english is my second language, and thanks for reading.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tdk779\"> /u/tdk779 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qgt89b/p_advice_for_training_a_model_with_my_pc/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qgt89b/p_advice_for_training_a_model_with_my_pc/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
