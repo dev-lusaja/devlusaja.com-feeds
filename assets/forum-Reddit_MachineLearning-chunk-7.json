@@ -1,5 +1,21 @@
 [
   {
+    "id": "657605f3-97f5-56f2-8129-4404796c16c6",
+    "title": "[D] How to get research/ ML internships as a undergraduate researcher",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1q9r7br/d_how_to_get_research_ml_internships_as_a/",
+    "pubDate": "2026-01-11T05:38:54+00:00",
+    "description": "I want to find small / mid scale startups that offer roles for undergraduate researcher internships or otherwise. I am currently working in a research lab as an undergraduate research intern and have a paper under review at ACL 2026 . I also have 2 papers in the pipeline but this position is unpaid. and I want to pick a role as maybe ML researcher or ML intern at some startup as a side gig maybe move full focus if I like the research direction and pay. submitted by /u/Correct_Scene143 [link] [comments]",
+    "author": "/u/Correct_Scene143",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I want to find small / mid scale startups that offer roles for undergraduate researcher internships or otherwise. I am currently working in a research lab as an undergraduate research intern and have a paper under review at ACL 2026 . I also have 2 papers in the pipeline but this position is unpaid. and I want to pick a role as maybe ML researcher or ML intern at some startup as a side gig maybe move full focus if I like the research direction and pay.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Correct_Scene143\"> /u/Correct_Scene143 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q9r7br/d_how_to_get_research_ml_internships_as_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q9r7br/d_how_to_get_research_ml_internships_as_a/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b8cea847-c132-5c41-aa54-90970a1f8222",
     "title": "Horizon-as-a-feature forecasting [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1q9lsdf/horizonasafeature_forecasting_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Right now, operando characterisation at synchrotron beamlines is a bit of a spray and pray situation. We have faster detectors than ever, so we dump terabytes of data (TB/hour) onto the servers, but we still statistically miss the actually decisive events. If you're looking for something transient, like the split-second of dendrite nucleation that kills a battery, fixed-rate sampling is a massive information bottleneck. We’re basically filling up hard drives with dead data while missing the money shot.</p> <p>We’re proposing a shift to Heuristic search in the temporal domain. We’ve introduced a metric called ESME (Entropy-Scaled Measurement Efficiency) based on Shannon’s information theory.</p> <p>Instead of sampling at a constant frequency, we run a physics-based Digital Twin as a predictive surrogate. This AI Pilot calculates the expected informational value of every potential measurement in real-time. The hardware only triggers when the ESME score justifies the cost (beam damage, time, and data overhead). Essentially, while Active Learning tells you where to sample in a parameter space, this framework tells the hardware when to sample.</p> <p>Questions for the Community:</p> <ol> <li>Most AL research focuses on selecting the best what to label from a static pool. Has anyone here applied Information Theory gating to real-time hardware control in other domains (e.g., high-speed microscopy or robotics)?</li> <li>We’re using physics-informed twins for the predictive heuristic. At what point does a purely model-agnostic surrogate (like a GNN or Transformer) become robust enough for split-second triggering in your experience? Is the &quot;free lunch&quot; of physics worth the computational overhead for real-time inference?</li> <li>If we optimize purely for maximal entropy gain, do we risk an overfitting of the experimental design on rare failure events while losing the broader physical context of the steady state?</li> </ol> <p>Full Preprint on arXiv: <a href=\"http://arxiv.org/abs/2601.00851\">http://arxiv.org/abs/2601.00851</a></p> <p>(Disclosure: I’m the lead author on this study. We’re looking for feedback on whether this ESME approach could be scaled to other high-cost experimental environments, and are still working on it before submission.)</p> <p>P.S. If there are other researchers here using information-theoretic metrics for hardware gating (specifically in high-speed microscopy or SEM), I'd love to compare notes on ESME’s computational overhead.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NewSolution6455\"> /u/NewSolution6455 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5rmp3/r_beyond_active_learning_applying_shannon_entropy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5rmp3/r_beyond_active_learning_applying_shannon_entropy/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "13ce1c96-b456-5722-accb-83bad5924b34",
-    "title": "[D]NVIDIA Rubin proves that Inference is now a System Problem, not a Chip Problem.",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q5oa4v/dnvidia_rubin_proves_that_inference_is_now_a/",
-    "pubDate": "2026-01-06T17:04:56+00:00",
-    "description": "Everyone is focusing on the FLOPs, but looking at the Rubin specs released at CES, it’s clear the bottleneck has completely shifted. The Specs: • 1.6 TB/s scale-out bandwidth per GPU (ConnectX-9). • 72 GPUs operating as a single NVLink domain. • HBM Capacity is only up 1.5x, while Bandwidth is up 2.8x and Compute is up 5x. The Thesis: We have officially hit the point where the \"Chip\" is no longer the limiting factor. The limiting factor is feeding the chip. Jensen explicitly said: \"The future is orchestrating multiple great models at every step of the reasoning chain.\" If you look at the HBM-to-Compute ratio, it's clear we can't just \"load bigger models\" statically. We have to use that massive 1.6 TB/s bandwidth to stream and swap experts dynamically. We are moving from \"Static Inference\" (loading weights and waiting) to \"System Orchestration\" (managing state across 72 GPUs in real-time). If your software stack isn't built for orchestration, a Rubin Pod is just a very expensive space heater. submitted by /u/pmv143 [link] [comments]",
-    "author": "/u/pmv143",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Everyone is focusing on the FLOPs, but looking at the Rubin specs released at CES, it’s clear the bottleneck has completely shifted.</p> <p>The Specs:</p> <p>• 1.6 TB/s scale-out bandwidth per GPU (ConnectX-9).</p> <p>• 72 GPUs operating as a single NVLink domain.</p> <p>• HBM Capacity is only up 1.5x, while Bandwidth is up 2.8x and Compute is up 5x.</p> <p>The Thesis:</p> <p>We have officially hit the point where the &quot;Chip&quot; is no longer the limiting factor. The limiting factor is feeding the chip.</p> <p>Jensen explicitly said: &quot;The future is orchestrating multiple great models at every step of the reasoning chain.&quot;</p> <p>If you look at the HBM-to-Compute ratio, it's clear we can't just &quot;load bigger models&quot; statically. We have to use that massive 1.6 TB/s bandwidth to stream and swap experts dynamically.</p> <p>We are moving from &quot;Static Inference&quot; (loading weights and waiting) to &quot;System Orchestration&quot; (managing state across 72 GPUs in real-time).</p> <p>If your software stack isn't built for orchestration, a Rubin Pod is just a very expensive space heater.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmv143\"> /u/pmv143 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5oa4v/dnvidia_rubin_proves_that_inference_is_now_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q5oa4v/dnvidia_rubin_proves_that_inference_is_now_a/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
