@@ -1,5 +1,21 @@
 [
   {
+    "id": "d27c9b1f-759f-536f-9ee6-6e79fd2a4584",
+    "title": "Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel",
+    "link": "https://developer.nvidia.com/blog/optimizing-communication-for-mixture-of-experts-training-with-hybrid-expert-parallel/",
+    "pubDate": "2026-02-02T18:43:08+00:00",
+    "description": "In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all,...",
+    "author": "Fan Yu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" />In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" /><p>In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all, but due to its dynamics and sparseness (only topk experts per AI token instead of all experts), it’s challenging to implement and optimize. This post details an efficient MoE EP communication solution, Hybrid-EP, and its use in the…</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimizing-communication-for-mixture-of-experts-training-with-hybrid-expert-parallel/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9597558c-8696-5dbe-8686-e490709e4133",
     "title": "Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton",
     "link": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/humanoid-robots-opening-microwave-doors.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robots-opening-microwave-doors\" width=\"600\" />Generalist robot policies must operate across diverse tasks, embodiments, and environments, requiring scalable, repeatable simulation-based evaluation. Setting...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/humanoid-robots-opening-microwave-doors.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robots-opening-microwave-doors\" width=\"600\" /><p>Generalist robot policies must operate across diverse tasks, embodiments, and environments, requiring scalable, repeatable simulation-based evaluation. Setting up large-scale policy evaluations is tedious and manual. Without a systematic approach, developers need to build high-overhead custom infrastructure, yet task libraries remain limited in complexity and diversity.</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-generalist-robot-policy-evaluation-in-simulation-with-nvidia-isaac-lab-arena/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f40fca9e-8354-596a-90a7-bc0b597e793e",
-    "title": "Accelerate AI Inference for Edge and Robotics with NVIDIA Jetson T4000 and NVIDIA JetPack 7.1",
-    "link": "https://developer.nvidia.com/blog/accelerate-ai-inference-for-edge-and-robotics-with-nvidia-jetson-t4000-and-nvidia-jetpack-7-1/",
-    "pubDate": "2026-01-05T22:10:52+00:00",
-    "description": "NVIDIA is introducing the NVIDIA Jetson T4000, bringing high-performance AI and real-time reasoning to a wider range of robotics and edge AI applications....",
-    "author": "Shashank Maheshwari",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"NVIDIA Jetson T4000.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Jetson-T4000-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Jetson-T4000\" width=\"768\" />NVIDIA is introducing the NVIDIA Jetson T4000, bringing high-performance AI and real-time reasoning to a wider range of robotics and edge AI applications....<img alt=\"NVIDIA Jetson T4000.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Jetson-T4000-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Jetson-T4000\" width=\"768\" /><p>NVIDIA is introducing the NVIDIA Jetson T4000, bringing high-performance AI and real-time reasoning to a wider range of robotics and edge AI applications. Optimized for tighter power and thermal envelopes, T4000 delivers up to 1200 FP4 TFLOPs of AI compute and 64 GB of memory, providing an ideal balance of performance, efficiency, and scalability. With its energy-efficient design and production…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerate-ai-inference-for-edge-and-robotics-with-nvidia-jetson-t4000-and-nvidia-jetpack-7-1/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
