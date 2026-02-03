@@ -1,5 +1,21 @@
 [
   {
+    "id": "3b383949-236b-55c8-946d-039c50f845a0",
+    "title": "Accelerating Long-Context Model Training in JAX and XLA",
+    "link": "https://developer.nvidia.com/blog/accelerating-long-context-model-training-in-jax-and-xla/",
+    "pubDate": "2026-02-03T17:30:00+00:00",
+    "description": "Large language models (LLMs) are rapidly expanding their context windows, with recent models supporting sequences of 128K tokens, 256K tokens, and beyond....",
+    "author": "Sevin Fide Varoglu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/llm-cloud-icons-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-cloud-icons\" width=\"768\" />Large language models (LLMs) are rapidly expanding their context windows, with recent models supporting sequences of 128K tokens, 256K tokens, and beyond....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/llm-cloud-icons-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-cloud-icons\" width=\"768\" /><p>Large language models (LLMs) are rapidly expanding their context windows, with recent models supporting sequences of 128K tokens, 256K tokens, and beyond. However, training these models with extended context lengths presents significant computational and communication challenges. As context lengths grow, the memory and communication overhead of attention mechanisms scale quadratically…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-long-context-model-training-in-jax-and-xla/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d27c9b1f-759f-536f-9ee6-6e79fd2a4584",
     "title": "Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel",
     "link": "https://developer.nvidia.com/blog/optimizing-communication-for-mixture-of-experts-training-with-hybrid-expert-parallel/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/end-to-end-press-ces26-inside-vr-tech-blog-1920x1080-4671300_-r1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"end-to-end-press-ces26-inside-vr-tech-blog-1920x1080-4671300_-r1\" width=\"768\" />AI has entered an industrial phase. What began as systems performing discrete AI model training and human-facing inference has evolved into always-on AI...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/end-to-end-press-ces26-inside-vr-tech-blog-1920x1080-4671300_-r1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"end-to-end-press-ces26-inside-vr-tech-blog-1920x1080-4671300_-r1\" width=\"768\" /><p>AI has entered an industrial phase. What began as systems performing discrete AI model training and human-facing inference has evolved into always-on AI factories that continuously convert power, silicon, and data into intelligence at scale. These factories now underpin applications that generate business plans, analyze markets, conduct deep research, and reason across vast bodies of…</p>\n<p><a href=\"https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "de18df06-7f47-52a1-87a3-dd2730a57014",
-    "title": "Simplify Generalist Robot Policy Evaluation in Simulation with NVIDIA Isaac Lab-Arena",
-    "link": "https://developer.nvidia.com/blog/simplify-generalist-robot-policy-evaluation-in-simulation-with-nvidia-isaac-lab-arena/",
-    "pubDate": "2026-01-05T22:14:08+00:00",
-    "description": "Generalist robot policies must operate across diverse tasks, embodiments, and environments, requiring scalable, repeatable simulation-based evaluation. Setting...",
-    "author": "Sangeeta Subramanian",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/humanoid-robots-opening-microwave-doors.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robots-opening-microwave-doors\" width=\"600\" />Generalist robot policies must operate across diverse tasks, embodiments, and environments, requiring scalable, repeatable simulation-based evaluation. Setting...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/humanoid-robots-opening-microwave-doors.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robots-opening-microwave-doors\" width=\"600\" /><p>Generalist robot policies must operate across diverse tasks, embodiments, and environments, requiring scalable, repeatable simulation-based evaluation. Setting up large-scale policy evaluations is tedious and manual. Without a systematic approach, developers need to build high-overhead custom infrastructure, yet task libraries remain limited in complexity and diversity.</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-generalist-robot-policy-evaluation-in-simulation-with-nvidia-isaac-lab-arena/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
