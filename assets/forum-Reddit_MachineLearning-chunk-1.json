@@ -1,5 +1,37 @@
 [
   {
+    "id": "31c18549-f541-5050-9da2-7770aead508f",
+    "title": "[R] Shrinking a language detection model to under 10 KB",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qsedto/r_shrinking_a_language_detection_model_to_under/",
+    "pubDate": "2026-01-31T21:10:32+00:00",
+    "description": "submitted by /u/bubble_boi [link] [comments]",
+    "author": "/u/bubble_boi",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bubble_boi\"> /u/bubble_boi </a> <br /> <span><a href=\"https://itnext.io/shrinking-a-language-detection-model-to-under-10-kb-b729bc25fd28?sk=0272ee69728b2cb9cd29218b411995d7\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qsedto/r_shrinking_a_language_detection_model_to_under/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d2a9c72f-0f6b-5f57-99d5-af0d01ba6bfc",
+    "title": "[D] Free Tools Recommendations for Sematic Segmentation of Rice Fields?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qse5hu/d_free_tools_recommendations_for_sematic/",
+    "pubDate": "2026-01-31T21:01:31+00:00",
+    "description": "Hi guys, recently I got a project on using machine learning to recognize rice lodging in rice fields. So, my first steps are to try to label the images into rice fields and non-rice fields area so that later I could develop an algorithm to ignore the non-rice fields area and then recognize the rice lodging area. However, I am not sure which tool I should use. I have seen people recommend using GIMP, CVAT and labelme. But some of the tools recommend are paid tools and some of them just do image recognition and not sematic segmentation. I would like any recommendations on the tools available. p.s: I need to use sematic segmentation as I would like to calculate the area of the rice fields later on. So, I would like the ground truths to be rather accurate. submitted by /u/HIHLim [link] [comments]",
+    "author": "/u/HIHLim",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, recently I got a project on using machine learning to recognize rice lodging in rice fields. So, my first steps are to try to label the images into rice fields and non-rice fields area so that later I could develop an algorithm to ignore the non-rice fields area and then recognize the rice lodging area. However, I am not sure which tool I should use. I have seen people recommend using GIMP, CVAT and labelme. But some of the tools recommend are paid tools and some of them just do image recognition and not sematic segmentation. I would like any recommendations on the tools available.</p> <p>p.s: I need to use sematic segmentation as I would like to calculate the area of the rice fields later on. So, I would like the ground truths to be rather accurate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HIHLim\"> /u/HIHLim </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qse5hu/d_free_tools_recommendations_for_sematic/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qse5hu/d_free_tools_recommendations_for_sematic/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "705019af-1802-5db5-93bd-f39fe0f67128",
     "title": "[D] Recent Amazon L5 Applied Scientist coding questions",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qsciyf/d_recent_amazon_l5_applied_scientist_coding/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpc4ap/r_we_opensourced_fashn_vton_v15_a_pixelspace/\"> <img alt=\"[R] We open-sourced FASHN VTON v1.5: a pixel-space, maskless virtual try-on model trained from scratch (972M params, Apache-2.0)\" src=\"https://a.thumbs.redditmedia.com/IUIZdxsIDJeFoAMOM1w4qaoKPNR2-VivplTaYL8Wam0.jpg\" title=\"[R] We open-sourced FASHN VTON v1.5: a pixel-space, maskless virtual try-on model trained from scratch (972M params, Apache-2.0)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>We just open-sourced FASHN VTON v1.5, a virtual try-on model that generates photorealistic images of people wearing garments directly in pixel space. We trained this from scratch (not fine-tuned from an existing diffusion model), and have been running it as an API for the past year. Now we're releasing the weights and inference code.</p> <h1>Why we're releasing this</h1> <p>Most open-source VTON models are either research prototypes that require significant engineering to deploy, or they're locked behind restrictive licenses. As state-of-the-art capabilities consolidate into massive generalist models, we think there's value in releasing focused, efficient models that researchers and developers can actually own, study, and extend commercially.</p> <p>We also want to demonstrate that competitive results in this domain don't require massive compute budgets. Total training cost was in the $5-10k range on rented A100s.</p> <p>This follows our <a href=\"https://www.reddit.com/r/MachineLearning/comments/1qax221/p_opensourcing_a_human_parsing_model_trained_on/\">human parser release</a> from a couple weeks ago.</p> <h1>Architecture</h1> <ul> <li><strong>Core:</strong> MMDiT (Multi-Modal Diffusion Transformer) with 972M parameters</li> <li><strong>Block structure:</strong> 4 patch-mixer + 8 double-stream + 16 single-stream transformer blocks</li> <li><strong>Sampling:</strong> Rectified Flow (linear interpolation between noise and data)</li> <li><strong>Conditioning:</strong> Person image, garment image, and category (tops/bottoms/one-piece)</li> </ul> <h1>Key differentiators</h1> <p><strong>Pixel-space operation:</strong> Unlike most diffusion models that work in VAE latent space, we operate directly on RGB pixels. This avoids lossy VAE encoding/decoding that can blur fine garment details like textures, patterns, and text.</p> <p><strong>Maskless inference:</strong> No segmentation mask is required on the target person. This improves body preservation (no mask leakage artifacts) and allows unconstrained garment volume. The model learns where clothing boundaries should be rather than being told.</p> <h1>Practical details</h1> <ul> <li><strong>Inference:</strong> ~5 seconds on H100, runs on consumer GPUs (RTX 30xx/40xx)</li> <li><strong>Memory:</strong> ~8GB VRAM minimum</li> <li><strong>License:</strong> Apache-2.0</li> </ul> <h1>Links</h1> <ul> <li><strong>GitHub:</strong> <a href=\"https://github.com/fashn-AI/fashn-vton-1.5\">fashn-AI/fashn-vton-1.5</a></li> <li><strong>HuggingFace:</strong> <a href=\"https://huggingface.co/fashn-ai/fashn-vton-1.5\">fashn-ai/fashn-vton-1.5</a></li> <li><strong>Project page:</strong> <a href=\"https://fashn.ai/research/vton-1-5\">fashn.ai/research/vton-1-5</a></li> </ul> <h1>Quick example</h1> <pre><code>from fashn_vton import TryOnPipeline from PIL import Image pipeline = TryOnPipeline(weights_dir=&quot;./weights&quot;) person = Image.open(&quot;person.jpg&quot;).convert(&quot;RGB&quot;) garment = Image.open(&quot;garment.jpg&quot;).convert(&quot;RGB&quot;) result = pipeline( person_image=person, garment_image=garment, category=&quot;tops&quot;, ) result.images[0].save(&quot;output.png&quot;) </code></pre> <h1>Coming soon</h1> <ul> <li><strong>HuggingFace Space:</strong> Online demo</li> <li><strong>Technical paper:</strong> Architecture decisions, training methodology, and design rationale</li> </ul> <p>Happy to answer questions about the architecture, training, or implementation.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JYP_Scouter\"> /u/JYP_Scouter </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1qpc4ap\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpc4ap/r_we_opensourced_fashn_vton_v15_a_pixelspace/\">[comments]</a></span> </td></tr></table>",
     "image": "https://a.thumbs.redditmedia.com/IUIZdxsIDJeFoAMOM1w4qaoKPNR2-VivplTaYL8Wam0.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "361f65fa-d985-5c57-83bb-6ae094b81043",
-    "title": "[D] Why isn't uncertainty estimation implemented in more models?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qpbrgp/d_why_isnt_uncertainty_estimation_implemented_in/",
-    "pubDate": "2026-01-28T13:45:56+00:00",
-    "description": "I have a feeling there must be an obvious answer here. I just came across gaussian process here: https://www.sciencedirect.com/science/article/pii/S2405471220303641 From my understanding, a model that provides a prediction with an uncertainty estimate (that is properly tuned/calibrated for OOD) is immensely useful for the enrichment of results via an acquisition function from screening (for example over the drug perturbation space in a given cell line). In that paper, they suggest a hybrid approach of GP + MLP. *what drawbacks would this have, other than a slightly higher MSE?* Although this is not what I'm going for, another application is continued learning: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00251-5 Their paper doesn't train a highly general drug-drug synergy model, but certianly shows that uncertainty works in practice. I've implemented (deep) ensemble learning before, but this seems more practical than having to train 5 identical models at different initialization parameters - although I may be wrong. Can someone with experience please explain the reason for there not being wisespread adoption? Most (biological) predictive studies don't even mention using it. submitted by /u/dp3471 [link] [comments]",
-    "author": "/u/dp3471",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a feeling there must be an obvious answer here. I just came across gaussian process here:</p> <p><a href=\"https://www.sciencedirect.com/science/article/pii/S2405471220303641\">https://www.sciencedirect.com/science/article/pii/S2405471220303641</a></p> <p>From my understanding, a model that provides a prediction with an uncertainty estimate (that is properly tuned/calibrated for OOD) is immensely useful for the enrichment of results via an acquisition function from screening (for example over the drug perturbation space in a given cell line). </p> <p>In that paper, they suggest a hybrid approach of GP + MLP. *what drawbacks would this have, other than a slightly higher MSE?* </p> <p>Although this is not what I'm going for, another application is continued learning:</p> <p><a href=\"https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00251-5\">https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00251-5</a></p> <p>Their paper doesn't train a highly general drug-drug synergy model, but certianly shows that uncertainty works in practice.</p> <p>I've implemented (deep) ensemble learning before, but this seems more practical than having to train 5 identical models at different initialization parameters - although I may be wrong.</p> <p>Can someone with experience please explain the reason for there not being wisespread adoption? Most (biological) predictive studies don't even mention using it. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dp3471\"> /u/dp3471 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpbrgp/d_why_isnt_uncertainty_estimation_implemented_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpbrgp/d_why_isnt_uncertainty_estimation_implemented_in/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "536e941c-e6d4-520d-a1df-dbcd0869421c",
-    "title": "[R] Is using rotatary embeddings for ViT becoming standard practice or does everyone still use sinusoidal/learnable embedding",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qpb9zz/r_is_using_rotatary_embeddings_for_vit_becoming/",
-    "pubDate": "2026-01-28T13:25:33+00:00",
-    "description": "I'm going through a few MAE papers which I'm trying to copy from about 2+ years ago and it seems that none of them use rotary embedding. They all use sinusoidal or learned. I'm not sure if this is a ViT quirk or if adoption just happened later. The only paper I see that talks about it is this paper which only has like 100 citations. [2403.13298] Rotary Position Embedding for Vision Transformer submitted by /u/Affectionate_Use9936 [link] [comments]",
-    "author": "/u/Affectionate_Use9936",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm going through a few MAE papers which I'm trying to copy from about 2+ years ago and it seems that none of them use rotary embedding. They all use sinusoidal or learned. I'm not sure if this is a ViT quirk or if adoption just happened later.</p> <p>The only paper I see that talks about it is this paper which only has like 100 citations.</p> <p><a href=\"https://arxiv.org/abs/2403.13298\">[2403.13298] Rotary Position Embedding for Vision Transformer</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Affectionate_Use9936\"> /u/Affectionate_Use9936 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpb9zz/r_is_using_rotatary_embeddings_for_vit_becoming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpb9zz/r_is_using_rotatary_embeddings_for_vit_becoming/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
