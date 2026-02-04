@@ -1,5 +1,37 @@
 [
   {
+    "id": "80b8fe5a-d208-5c14-8410-b0848594d22d",
+    "title": "¡El dolor de cabeza de muchos! - 𝗘𝗹 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼 𝗱𝗲 𝗿𝗲𝘁𝗿𝗼𝗽𝗿𝗼𝗽𝗮𝗴𝗮𝗰𝗶𝗼́𝗻 tiene como objetivo entregarnos el vector de gradientes que no es más que un vector que contiene la derivada parcial de la perdida re",
+    "link": "https://www.tiktok.com/@_ingeniia/photo/7573830259921931538",
+    "pubDate": "2025-12-16T08:33:32.437647+00:00",
+    "description": "¡El dolor de cabeza de muchos! - 𝗘𝗹 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼 𝗱𝗲 𝗿𝗲𝘁𝗿𝗼𝗽𝗿𝗼𝗽𝗮𝗴𝗮𝗰𝗶𝗼́𝗻 tiene como objetivo entregarnos el vector de gradientes que no es más que un vector que contiene la derivada parcial de la perdida respecto a cada uno de los parámetros de la red, este proceso lo dividiré en dos secciones: retropropagación en las capas densas y retropropagación en las capas convolucionales. - 𝗥𝗲𝘁𝗿𝗼𝗽𝗿𝗼𝗽𝗮𝗴𝗮𝗰𝗶𝗼́𝗻 𝗲𝗻 𝗰𝗮𝗽𝗮𝘀 𝗱𝗲𝗻𝘀𝗮: Empecemos encontrando el 𝗲𝗿𝗿𝗼𝗿 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗰𝗮𝗽𝗮, este se obtiene tomando el error y multiplicándolo por la transpuesta de la matriz de pesos, luego tomamos cada elemento y se multiplica por la derivada de la función de activación. - Luego para calcular el 𝗲𝗿𝗿𝗼𝗿 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗽𝗲𝘀𝗼, se toma el error de la capa y se realiza el producto externo con la activación de la capa anterior. - 𝗥𝗲𝘁𝗿𝗼𝗽𝗿𝗼𝗽𝗮𝗴𝗮𝗰𝗶𝗼́𝗻 𝗲𝗻 𝗰𝗮𝗽𝗮𝘀 𝗰𝗼𝗻𝘃𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗮𝗹𝗲𝘀: Empecemos 𝗰𝗮𝗹𝗰𝘂𝗹𝗮𝗻𝗱𝗼 𝗲𝗹 𝗲𝗿𝗿𝗼𝗿 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗳𝗶𝗹𝘁𝗿𝗼, aquí tomamos el mapa de características que la capa recibió en el forward pass y lo convolucionamos con el gradiente de la perdida que viene de la capa siguiente. - Luego tomamos de nuevo el gradiente de la perdida y lo convolucionamos con el kernel original rotado 180° para obtener 𝗲𝗹 𝗴𝗿𝗮𝗱𝗶𝗲𝗻𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗲𝗻𝘁𝗿𝗮𝗱𝗮. - Finalmente utilizamos el vector de gradientes para movilizarnos en sentido contrario con el optimizador. Este proceso se realiza una y otra vez mediante épocas de entrenamiento. creado por inGeniia con la música I Can Do Anything / Finale de Christopher Lennertz\n\nVistas: 980",
+    "author": "@_ingeniia",
+    "sourceTitle": "Ingeniia",
+    "sourceUrl": "https://www.tiktok.com/@_ingeniia",
+    "sourceCategory": "TikTok_Ingeniia",
+    "sourceType": "tiktok",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/cf97b84d6bda45408f3cea91788fafef~tplv-photomode-image.jpeg?dr=9616&x-expires=1766044800&x-signature=67FReyq8PowWydEUIg4mZ2HGecA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast5&ftpl=1",
+    "isShortVideo": 1
+  },
+  {
+    "id": "cf72486e-c074-5b04-9ea6-3b08039eefa2",
+    "title": "Capas de pooling en una red neuronal convolucional 🦾🧠",
+    "link": "https://www.tiktok.com/@_ingeniia/video/7574975423776394503",
+    "pubDate": "2025-12-16T08:33:32.411777+00:00",
+    "description": "Capas de pooling en una red neuronal convolucional 🦾🧠 creado por inGeniia con la música sonido original de inGeniia\n\nVistas: 1581",
+    "author": "@_ingeniia",
+    "sourceTitle": "Ingeniia",
+    "sourceUrl": "https://www.tiktok.com/@_ingeniia",
+    "sourceCategory": "TikTok_Ingeniia",
+    "sourceType": "tiktok",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oAWBfAgstgTfnIgIxfLeMKAmRcgkfYgzNtGti9~tplv-tiktokx-origin.image?dr=9636&x-expires=1766044800&x-signature=sFSggmj9S75LnzBBxtjfgBaPA%2BQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
+    "isShortVideo": 1
+  },
+  {
     "id": "dac24419-2a91-51e1-b3bf-3effc192ade8",
     "title": "Aprendizaje en Redes Neuronales Convolucionales 🧠📷",
     "link": "https://www.tiktok.com/@_ingeniia/video/7576440558101548296",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://i.ytimg.com/vi/8xC_9oQiofE/hqdefault.jpg",
-    "isShortVideo": 1
-  },
-  {
-    "id": "cd9cf94f-5615-5bf5-b359-f04bfe8aa3e3",
-    "title": "NUEVO PODCAST 🔥 Si no haces IA… estás fuera del mercado 🤖 | 🎙️ Joaquín Cuenca, CEO Freepik",
-    "link": "https://www.youtube.com/shorts/w3fIwFGAELo",
-    "pubDate": "2025-12-04T19:13:38+00:00",
-    "description": "",
-    "author": "Inteligencia Artificial",
-    "sourceTitle": "La Inteligencia Artificial",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg",
-    "sourceCategory": "YouTube_la_inteligencia_artificial",
-    "sourceType": "youtube",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.ytimg.com/vi/w3fIwFGAELo/hqdefault.jpg",
-    "isShortVideo": 1
-  },
-  {
-    "id": "757aabe3-80d3-5a36-b4fc-2bfadf2540db",
-    "title": "🤖 Sutskever comparte su visión sobre el progreso y los límites del escalado | 🤖 #ia #chatgpt #openai",
-    "link": "https://www.youtube.com/shorts/nDWUt99VpoI",
-    "pubDate": "2025-12-04T15:38:59+00:00",
-    "description": "",
-    "author": "Inteligencia Artificial",
-    "sourceTitle": "La Inteligencia Artificial",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg",
-    "sourceCategory": "YouTube_la_inteligencia_artificial",
-    "sourceType": "youtube",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.ytimg.com/vi/nDWUt99VpoI/hqdefault.jpg",
     "isShortVideo": 1
   }
 ]
