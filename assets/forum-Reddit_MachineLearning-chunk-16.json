@@ -1,5 +1,21 @@
 [
   {
+    "id": "23b202d7-23fa-52cb-94e8-9ef7d489ee2d",
+    "title": "[D] Idea: add \"no AI slop\" as subreddit rule",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/",
+    "pubDate": "2025-12-15T18:09:35+00:00",
+    "description": "As per title. I know this is kind of covered by \"no spam\" rule, but maybe calling out AI-generated slop and \"novel idea\" posts should have its own explicit rule. Maybe it would make it easier for mods to check out reported posts, with a more specific reason like that. What do you think? submitted by /u/qalis [link] [comments]",
+    "author": "/u/qalis",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>As per title. I know this is kind of covered by &quot;no spam&quot; rule, but maybe calling out AI-generated slop and &quot;novel idea&quot; posts should have its own explicit rule. Maybe it would make it easier for mods to check out reported posts, with a more specific reason like that. What do you think?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/qalis\"> /u/qalis </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "40642ff1-1a89-5e95-9789-72f952441f2c",
     "title": "[P] PapersWithCode’s alternative + better note organizer: Wizwand",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pnc441/p_paperswithcodes_alternative_better_note/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello!</p> <p>I'd like to share <a href=\"https://github.com/supertone-inc/supertonic\">Supertonic</a>, a lightweight on-device TTS built for extreme speed and easy deployment across a wide range of environments (mobile, web browsers, desktops, etc).</p> <p>It’s an open-weight model with 10 voice presets, and examples are available in 8+ programming languages (Python, C++, C#, Java, JavaScript, Rust, Go, and Swift).</p> <p>For quick integration in Python, you can install it via <code>pip install supertonic</code>:</p> <pre><code>from supertonic import TTS tts = TTS(auto_download=True) # Choose a voice style style = tts.get_voice_style(voice_name=&quot;M1&quot;) # Generate speech text = &quot;The train delay was announced at 4:45 PM on Wed, Apr 3, 2024 due to track maintenance.&quot; wav, duration = tts.synthesize(text, voice_style=style) # Save to file tts.save_audio(wav, &quot;output.wav&quot;) </code></pre> <p><a href=\"https://github.com/supertone-inc/supertonic\">GitHub Repository</a></p> <p><a href=\"https://huggingface.co/spaces/Supertone/supertonic#interactive-demo\">Web Demo</a></p> <p><a href=\"https://supertone-inc.github.io/supertonic-py/\">Python Docs</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ANLGBOY\"> /u/ANLGBOY </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pj11sm/p_supertonic_lightning_fast_ondevice_tts_66m/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pj11sm/p_supertonic_lightning_fast_ondevice_tts_66m/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "04522381-fb58-547f-8664-db441d8656c5",
-    "title": "[D] A small observation on JSON eval failures in evaluation pipelines",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/",
-    "pubDate": "2025-12-09T22:44:21+00:00",
-    "description": "Across several workflows I have noticed that many evaluation failures have little to do with model capability and more to do with unstable JSON structure. Common patterns Fields appear or disappear across samples Output types shift between samples Nested objects change layout The scoring script either crashes or discards samples A strict validation flow reduces this instability Capture raw output Check JSON structure Validate schema Score only valid samples Aggregate results after that This simple sequence gives much more stable trend lines and reduces false regressions that come from formatting variation rather than real performance change. I am interested in how others approach this. Do you enforce strict schemas during evaluation? Do you use validators or custom checking logic? Does structured validation noticeably improve evaluation stability for you? submitted by /u/coolandy00 [link] [comments]",
-    "author": "/u/coolandy00",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Across several workflows I have noticed that many evaluation failures have little to do with model capability and more to do with unstable JSON structure. Common patterns Fields appear or disappear across samples Output types shift between samples Nested objects change layout The scoring script either crashes or discards samples A strict validation flow reduces this instability Capture raw output Check JSON structure Validate schema Score only valid samples Aggregate results after that This simple sequence gives much more stable trend lines and reduces false regressions that come from formatting variation rather than real performance change. I am interested in how others approach this. Do you enforce strict schemas during evaluation? Do you use validators or custom checking logic? Does structured validation noticeably improve evaluation stability for you?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pilrc9/d_a_small_observation_on_json_eval_failures_in/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

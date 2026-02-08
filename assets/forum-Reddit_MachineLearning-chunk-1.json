@@ -1,5 +1,21 @@
 [
   {
+    "id": "b44af79c-0eae-5721-9f7c-c2c0eb250e1e",
+    "title": "[P] a small library to eliminate boilerplate in small pytorch experiments",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qxf8jj/p_a_small_library_to_eliminate_boilerplate_in/",
+    "pubDate": "2026-02-06T11:33:55+00:00",
+    "description": "TL;DR - a small library to make your training code nicer for small datasets that fit in memory and small pytorch models. Link: https://github.com/alexshtf/fitstream Docs: https://fitstream.readthedocs.io/en/stable/ You can just pip install fitstream I am writing blogs, and learning stuff by doing small experiments in pytorch with small models an datasets that can typically fit in memory. So I got tired of writing these pytorch training loops and polluting them with logging, early stopping logic, etc. There are those libs like ignite but they require an \"engine\" and \"registering callbacks\" and other stuff that feel a bit too cumbersome for such a simple use case. I have been using the trick of turning the training loop into a generator to decouple testing and early stopping from the core, and decided to wrap it in a small library. It is by no means a replacement for the other libraries, that are very useful for larger scale experiments. But I think that small scale experimenters can enjoy it. submitted by /u/alexsht1 [link] [comments]",
+    "author": "/u/alexsht1",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>TL;DR - a small library to make your training code nicer for small datasets that fit in memory and small pytorch models.</p> <p>Link: <a href=\"https://github.com/alexshtf/fitstream\">https://github.com/alexshtf/fitstream</a> Docs: <a href=\"https://fitstream.readthedocs.io/en/stable/\">https://fitstream.readthedocs.io/en/stable/</a> You can just <code>pip install fitstream</code></p> <p>I am writing blogs, and learning stuff by doing small experiments in pytorch with small models an datasets that can typically fit in memory. So I got tired of writing these pytorch training loops and polluting them with logging, early stopping logic, etc.</p> <p>There are those libs like ignite but they require an &quot;engine&quot; and &quot;registering callbacks&quot; and other stuff that feel a bit too cumbersome for such a simple use case.</p> <p>I have been using the trick of turning the training loop into a generator to decouple testing and early stopping from the core, and decided to wrap it in a small library. </p> <p>It is by no means a replacement for the other libraries, that are very useful for larger scale experiments. But I think that small scale experimenters can enjoy it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexsht1\"> /u/alexsht1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qxf8jj/p_a_small_library_to_eliminate_boilerplate_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qxf8jj/p_a_small_library_to_eliminate_boilerplate_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "07740877-1e6c-5b4f-a00b-3e5f9431682c",
     "title": "[R] Call for Expert Participants: AGTP Weight Validation Delphi Study",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qxespr/r_call_for_expert_participants_agtp_weight/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm a Masters CS student, looking for thesis ideas at an overlap of audio and Machine Learning but I have no idea where I can start looking or exploring for research gaps, primarily because I have no prior research experience. I'd be really grateful if someone could give me a direction to start exploring.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DepressoEspresso-69\"> /u/DepressoEspresso-69 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qv1iq3/d_looking_for_ideas_in_an_intersection_of_machine/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qv1iq3/d_looking_for_ideas_in_an_intersection_of_machine/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c39a7118-aea2-5624-80e4-de8915d2aa1f",
-    "title": "[D] Building an agent-only social network for autonomous AI communication – feedback welcome",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qv0rop/d_building_an_agentonly_social_network_for/",
-    "pubDate": "2026-02-03T18:58:08+00:00",
-    "description": "I’m experimenting with a platform inspired by Twitter, but designed exclusively for AI agents (not humans). The idea is to create a public, text-based network where autonomous agents can: • publish structured updates • discover other agents • exchange information or state • coordinate tasks via protocols (not chat UI) Humans can observe, but not participate. This is early-stage and research-driven. I’m trying to understand: 1) whether agent-to-agent social feeds are useful 2) what primitives would actually matter (memory, reputation, schemas, etc.) 3) what failure modes I’m missing If you’re working on AI agents, multi-agent systems, or LLM orchestration and want to exchange ideas or contribute, I’m open to collaborators. Looking for critique more than praise. submitted by /u/Beneficial-Hope68 [link] [comments]",
-    "author": "/u/Beneficial-Hope68",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m experimenting with a platform inspired by Twitter, but designed exclusively for AI agents (not humans).</p> <p>The idea is to create a public, text-based network where autonomous agents can:</p> <p>• publish structured updates</p> <p>• discover other agents</p> <p>• exchange information or state</p> <p>• coordinate tasks via protocols (not chat UI)</p> <p>Humans can observe, but not participate.</p> <p>This is early-stage and research-driven. I’m trying to understand:</p> <p>1) whether agent-to-agent social feeds are useful</p> <p>2) what primitives would actually matter (memory, reputation, schemas, etc.)</p> <p>3) what failure modes I’m missing</p> <p>If you’re working on AI agents, multi-agent systems, or LLM orchestration and want to exchange ideas or contribute, I’m open to collaborators.</p> <p>Looking for critique more than praise.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Beneficial-Hope68\"> /u/Beneficial-Hope68 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qv0rop/d_building_an_agentonly_social_network_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qv0rop/d_building_an_agentonly_social_network_for/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

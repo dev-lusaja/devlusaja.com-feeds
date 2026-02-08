@@ -1,5 +1,21 @@
 [
   {
+    "id": "8147e82a-6b12-56d9-9adc-1f72692a1b54",
+    "title": "[D] Machine learning inverview",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qp2exk/d_machine_learning_inverview/",
+    "pubDate": "2026-01-28T05:18:55+00:00",
+    "description": "I have a ML interview coming up and these are the types of asking. Technical / Role‑Specific Questions (20 minutes): We’ll cover topics such as ML modeling, MLOps (deployment), system design, algorithms, GenAI, infrastructure & tooling, and commonly used frameworks. Live Coding Interview (30 minutes): A Google Collab notebook will be shared at the start of the interview. You’ll be asked to share your screenwhile completing the exercises. Coding will focus on ML algorithms and implementations, transformer‑based GenAI concepts, debugging, and troubleshooting—not LeetCode‑style problems. Additional Note: You will have full access to the internet and LLMs during the interview. What do you guys think, I should focus on the live coding part knowing that I’ll have access to llms? I do have practical experience in deployment, works as a data scientist and finishing a masters in computer science in Georgia tech. submitted by /u/jfhurtado89 [link] [comments]",
+    "author": "/u/jfhurtado89",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a ML interview coming up and these are the types of asking.</p> <p>Technical / Role‑Specific Questions (20 minutes):</p> <p>We’ll cover topics such as ML modeling, MLOps (deployment), system design, algorithms, GenAI, infrastructure &amp; tooling, and commonly used frameworks.</p> <p>Live Coding Interview (30 minutes):</p> <p>A Google Collab notebook will be shared at the start of the interview. You’ll be asked to share your screenwhile completing the exercises.</p> <p>Coding will focus on ML algorithms and implementations, transformer‑based GenAI concepts, debugging, and troubleshooting—not LeetCode‑style problems.</p> <p>Additional Note:</p> <p>You will have full access to the internet and LLMs during the interview.</p> <p>What do you guys think, I should focus on the live coding part knowing that I’ll have access to llms?</p> <p>I do have practical experience in deployment, works as a data scientist and finishing a masters in computer science in Georgia tech.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jfhurtado89\"> /u/jfhurtado89 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qp2exk/d_machine_learning_inverview/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qp2exk/d_machine_learning_inverview/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "26beaf30-3514-5f36-bb85-fd0c27ef8917",
     "title": "[R] We're building a code intelligence platform that actually understands multi-repo enterprise codebases. Roast our approach.",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qoz4it/r_were_building_a_code_intelligence_platform_that/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>How did AI like Microsoft's Tay work? This was 2016, before LLMs. No powerful GPUs with HBM and Google's first TPU is cutting edge. Transformers didn't exist. It seems much better than other contemporary chatbots like SimSimi. It adapts to user engagement and user generated text very quickly, adjusting the text it generates which is grammatically coherent and apparently context appropriate and contains information unlike SimSimi. There is zero information on its inner workings. Could it just have been RL on an RNN trained on text and answer pairs? Maybe Markov chains too? How can an AI model like this learn continuously? Could it have used Long short-term memory? I am guessing it used word2vec to capture &quot;meaning&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RhubarbSimilar1683\"> /u/RhubarbSimilar1683 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qn34ea/d_how_did_microsofts_tay_work/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qn34ea/d_how_did_microsofts_tay_work/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5c86dc5e-7c02-5edd-8c60-9af249442f6b",
-    "title": "[P] SpeechLab: A fault-tolerant distributed training framework for Whisper using Ray Train & PyTorch DDP (94% scaling efficiency)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qn2xq6/p_speechlab_a_faulttolerant_distributed_training/",
-    "pubDate": "2026-01-26T02:07:28+00:00",
-    "description": "GitHub: https://github.com/Yash3561/speechlab Demo: https://vimeo.com/1156797116 Abstract: Training large ASR models on consumer hardware is painful due to data loading bottlenecks and lack of fault tolerance. I built SpeechLab to bridge the gap between \"script-kiddie\" training loops and production-grade infrastructure. Key Architecture Decisions: Orchestration: Used Ray Train instead of raw torch.distributed to handle worker failures programmatically. If a node dies, the Ray Actor pool respawns it from the last checkpoint automatically. Data Streaming: Implemented a streaming Ray Data pipeline with look-ahead prefetching. This decouples GPU compute from CPU audio preprocessing (Mel-spectrogram extraction), solving the GPU starvation issue common in ASR tasks. Observability: Built a custom WebSocket-based dashboard (Next.js/FastAPI) to visualize WER/CER in real-time, rather than waiting for TensorBoard logs to sync. Results: Achieved near-linear scaling (94% efficiency) on a 2-node cluster vs single-node baseline. I’m currently looking for feedback on the sharding strategy for datasets larger than 10TB. If anyone has experience optimizing Ray object store for audio, let me know! submitted by /u/New_Care3681 [link] [comments]",
-    "author": "/u/New_Care3681",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>GitHub: <a href=\"https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgithub.com%2FYash3561%2Fspeechlab\">https://github.com/Yash3561/speechlab</a><br /> Demo: <a href=\"https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fvimeo.com%2F1156797116\">https://vimeo.com/1156797116</a></p> <p><strong>Abstract:</strong><br /> Training large ASR models on consumer hardware is painful due to data loading bottlenecks and lack of fault tolerance. I built SpeechLab to bridge the gap between &quot;script-kiddie&quot; training loops and production-grade infrastructure.</p> <p><strong>Key Architecture Decisions:</strong></p> <ol> <li><strong>Orchestration:</strong> Used Ray Train instead of raw torch.distributed to handle worker failures programmatically. If a node dies, the Ray Actor pool respawns it from the last checkpoint automatically.</li> <li><strong>Data Streaming:</strong> Implemented a streaming Ray Data pipeline with look-ahead prefetching. This decouples GPU compute from CPU audio preprocessing (Mel-spectrogram extraction), solving the GPU starvation issue common in ASR tasks.</li> <li><strong>Observability:</strong> Built a custom WebSocket-based dashboard (Next.js/FastAPI) to visualize WER/CER in real-time, rather than waiting for TensorBoard logs to sync.</li> </ol> <p><strong>Results:</strong><br /> Achieved near-linear scaling (94% efficiency) on a 2-node cluster vs single-node baseline.</p> <p>I’m currently looking for feedback on the sharding strategy for datasets larger than 10TB. If anyone has experience optimizing Ray object store for audio, let me know!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/New_Care3681\"> /u/New_Care3681 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qn2xq6/p_speechlab_a_faulttolerant_distributed_training/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qn2xq6/p_speechlab_a_faulttolerant_distributed_training/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

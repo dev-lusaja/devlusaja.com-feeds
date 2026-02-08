@@ -1,5 +1,21 @@
 [
   {
+    "id": "319847db-8bfc-5f66-b879-11d11e592ddf",
+    "title": "[D] What does your daily work look like?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1qzflno/d_what_does_your_daily_work_look_like/",
+    "pubDate": "2026-02-08T17:51:39+00:00",
+    "description": "I am a Data Science and AI student and I’m wondering what do ML Engineers do on a daily basis and what tools they use? It all feels kind of messy, so if there’s somebody actually working as an MLE willing to spend a few minutes and explain I would be really grateful. submitted by /u/beriz0 [link] [comments]",
+    "author": "/u/beriz0",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am a Data Science and AI student and I’m wondering what do ML Engineers do on a daily basis and what tools they use? It all feels kind of messy, so if there’s somebody actually working as an MLE willing to spend a few minutes and explain I would be really grateful.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/beriz0\"> /u/beriz0 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qzflno/d_what_does_your_daily_work_look_like/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qzflno/d_what_does_your_daily_work_look_like/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8924b752-3974-54a6-af8d-df99a3f9099f",
     "title": "[P] [Torchvista] Interactive visualisation of PyTorch models from notebooks - updates",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1qz831h/p_torchvista_interactive_visualisation_of_pytorch/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Suppose you two models/approaches A and B that tries to solve target task. The goal is to provide a proof of concept for model A. Full scale training is very costly, so you think of overfitting these models first to see whether they can solve the problem or not. You then see that both models do, indeed, overfit, but in different timings. Can you draw conclusions about models A and B? Does training full scale is the ultimate answer for your comparison? Is it better to train on a small subset of example? What does it prove to us? Do you know of general recommendation regarding this? Some blog posts? Papers? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClueMediocre2286\"> /u/ClueMediocre2286 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qxgnkn/r_proof_of_concept_for_ml_based_approach/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qxgnkn/r_proof_of_concept_for_ml_based_approach/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b44af79c-0eae-5721-9f7c-c2c0eb250e1e",
-    "title": "[P] a small library to eliminate boilerplate in small pytorch experiments",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qxf8jj/p_a_small_library_to_eliminate_boilerplate_in/",
-    "pubDate": "2026-02-06T11:33:55+00:00",
-    "description": "TL;DR - a small library to make your training code nicer for small datasets that fit in memory and small pytorch models. Link: https://github.com/alexshtf/fitstream Docs: https://fitstream.readthedocs.io/en/stable/ You can just pip install fitstream I am writing blogs, and learning stuff by doing small experiments in pytorch with small models an datasets that can typically fit in memory. So I got tired of writing these pytorch training loops and polluting them with logging, early stopping logic, etc. There are those libs like ignite but they require an \"engine\" and \"registering callbacks\" and other stuff that feel a bit too cumbersome for such a simple use case. I have been using the trick of turning the training loop into a generator to decouple testing and early stopping from the core, and decided to wrap it in a small library. It is by no means a replacement for the other libraries, that are very useful for larger scale experiments. But I think that small scale experimenters can enjoy it. submitted by /u/alexsht1 [link] [comments]",
-    "author": "/u/alexsht1",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>TL;DR - a small library to make your training code nicer for small datasets that fit in memory and small pytorch models.</p> <p>Link: <a href=\"https://github.com/alexshtf/fitstream\">https://github.com/alexshtf/fitstream</a> Docs: <a href=\"https://fitstream.readthedocs.io/en/stable/\">https://fitstream.readthedocs.io/en/stable/</a> You can just <code>pip install fitstream</code></p> <p>I am writing blogs, and learning stuff by doing small experiments in pytorch with small models an datasets that can typically fit in memory. So I got tired of writing these pytorch training loops and polluting them with logging, early stopping logic, etc.</p> <p>There are those libs like ignite but they require an &quot;engine&quot; and &quot;registering callbacks&quot; and other stuff that feel a bit too cumbersome for such a simple use case.</p> <p>I have been using the trick of turning the training loop into a generator to decouple testing and early stopping from the core, and decided to wrap it in a small library. </p> <p>It is by no means a replacement for the other libraries, that are very useful for larger scale experiments. But I think that small scale experimenters can enjoy it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexsht1\"> /u/alexsht1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qxf8jj/p_a_small_library_to_eliminate_boilerplate_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qxf8jj/p_a_small_library_to_eliminate_boilerplate_in/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
