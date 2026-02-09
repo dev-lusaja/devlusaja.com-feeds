@@ -1,5 +1,21 @@
 [
   {
+    "id": "a9be3a6c-d6ce-5a24-957d-b8f2b23f3e0e",
+    "title": "Automating Inference Optimizations with NVIDIA TensorRT LLM AutoDeploy",
+    "link": "https://developer.nvidia.com/blog/automating-inference-optimizations-with-nvidia-tensorrt-llm-autodeploy/",
+    "pubDate": "2026-02-09T18:30:00+00:00",
+    "description": "NVIDIA TensorRT LLM enables developers to build high-performance inference engines for large language models (LLMs), but deploying a new architecture...",
+    "author": "​​Lucas Liebenwein",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/llm-optimize-deploy-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy\" width=\"768\" />NVIDIA TensorRT LLM enables developers to build high-performance inference engines for large language models (LLMs), but deploying a new architecture...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/llm-optimize-deploy-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy\" width=\"768\" /><p>NVIDIA TensorRT LLM enables developers to build high-performance inference engines for large language models (LLMs), but deploying a new architecture traditionally requires significant manual effort. To address this challenge, today we are announcing the availability of AutoDeploy as a beta feature in TensorRT LLM. AutoDeploy compiles off-the-shelf PyTorch models into inference-optimized…</p>\n<p><a href=\"https://developer.nvidia.com/blog/automating-inference-optimizations-with-nvidia-tensorrt-llm-autodeploy/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "383f4ae1-1959-51f3-991f-a3e37dad1800",
     "title": "3 Ways NVFP4 Accelerates AI Training and Inference",
     "link": "https://developer.nvidia.com/blog/3-ways-nvfp4-accelerates-ai-training-and-inference/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/gb200-nvl-rack-gtc24-press-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gb200-nvl-rack-gtc24-press-1920x1080\" width=\"768\" />As AI models continue to get smarter, people can rely on them for an expanding set of tasks. This leads users—from consumers to enterprises—to interact with...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/gb200-nvl-rack-gtc24-press-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gb200-nvl-rack-gtc24-press-1920x1080\" width=\"768\" /><p>As AI models continue to get smarter, people can rely on them for an expanding set of tasks. This leads users—from consumers to enterprises—to interact with AI more frequently, meaning that more tokens need to be generated. To serve these tokens at the lowest possible cost, AI platforms need to deliver the best possible token throughput per watt. Through extreme co-design across GPUs, CPUs…</p>\n<p><a href=\"https://developer.nvidia.com/blog/delivering-massive-performance-leaps-for-mixture-of-experts-inference-on-nvidia-blackwell/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c46c0a00-0778-5802-836e-30942ae6a76f",
-    "title": "Redefining Secure AI Infrastructure with NVIDIA BlueField Astra for NVIDIA Vera Rubin NVL72",
-    "link": "https://developer.nvidia.com/blog/redefining-secure-ai-infrastructure-with-nvidia-bluefield-astra-for-nvidia-vera-rubin-nvl72/",
-    "pubDate": "2026-01-07T17:00:00+00:00",
-    "description": "Large-scale AI innovation is driving unprecedented demand for accelerated computing infrastructure. Training trillion-parameter foundation models, serving them...",
-    "author": "Erez Tweg",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/bluefield-4-astra-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"bluefield-4-astra\" width=\"768\" />Large-scale AI innovation is driving unprecedented demand for accelerated computing infrastructure. Training trillion-parameter foundation models, serving them...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/bluefield-4-astra-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"bluefield-4-astra\" width=\"768\" /><p>Large-scale AI innovation is driving unprecedented demand for accelerated computing infrastructure. Training trillion-parameter foundation models, serving them with disaggregated architectures, and processing inference workloads at massive throughput all push data center design to the limits. To keep up, service providers need infrastructure that not only scales but also delivers stronger security…</p>\n<p><a href=\"https://developer.nvidia.com/blog/redefining-secure-ai-infrastructure-with-nvidia-bluefield-astra-for-nvidia-vera-rubin-nvl72/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

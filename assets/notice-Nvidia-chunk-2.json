@@ -1,5 +1,21 @@
 [
   {
+    "id": "804bed58-2c78-5a11-8163-9f66c97f150b",
+    "title": "How to Scale Fast Fourier Transforms to Exascale on Modern NVIDIA GPU Architectures",
+    "link": "https://developer.nvidia.com/blog/how-to-scale-fast-fourier-transforms-to-exascale-on-modern-nvidia-gpu-architectures/",
+    "pubDate": "2025-12-12T18:00:00+00:00",
+    "description": "Fast Fourier Transforms (FFTs) are widely used across scientific computing, from molecular dynamics and signal processing to computational fluid dynamics (CFD),...",
+    "author": "Zan Xu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image4-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" />Fast Fourier Transforms (FFTs) are widely used across scientific computing, from molecular dynamics and signal processing to computational fluid dynamics (CFD),...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/image4-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" /><p>Fast Fourier Transforms (FFTs) are widely used across scientific computing, from molecular dynamics and signal processing to computational fluid dynamics (CFD), wireless multimedia, and machine-learning applications. As computational problem sizes scale to increasingly large domains, researchers require the capability to distribute FFT computations across hundreds or thousands of GPUs spanning…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-scale-fast-fourier-transforms-to-exascale-on-modern-nvidia-gpu-architectures/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "602bd8cf-87c2-5622-9c65-346a3e732fe6",
     "title": "R²D²: Improving Robot Manipulation with Simulation and Language Models",
     "link": "https://developer.nvidia.com/blog/r2d2-improving-robot-manipulation-with-simulation-and-language-models/",
@@ -205,38 +221,6 @@
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-debug-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA debug\" width=\"768\" />CUDA C++ is standard C++ with extensions that enable functions to run on many parallel threads on a GPU. It has facilitated widespread adoption while allowing...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-debug-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA debug\" width=\"768\" /><p></p>\n<p><a href=\"https://developer.nvidia.com/blog/better-bug-detection-how-compile-time-instrumentation-for-compute-sanitizer-enhances-memory-safety/\" rel=\"nofollow\">Source</a></p>",
     "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-debug.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "451b06bf-8a28-5436-8416-523d505b8995",
-    "title": "Top 5 AI Model Optimization Techniques for Faster, Smarter Inference",
-    "link": "https://developer.nvidia.com/blog/top-5-ai-model-optimization-techniques-for-faster-smarter-inference/",
-    "pubDate": "2025-12-09T18:00:00+00:00",
-    "description": "As AI models get larger and architectures more complex, researchers and engineers are continuously finding new techniques to optimize the performance and...",
-    "author": "Eduardo Alvarez",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/data-center-with-icon-overlays-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center-with-icon-overlays\" width=\"768\" />As AI models get larger and architectures more complex, researchers and engineers are continuously finding new techniques to optimize the performance and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/data-center-with-icon-overlays-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center-with-icon-overlays\" width=\"768\" /><p>As AI models get larger and architectures more complex, researchers and engineers are continuously finding new techniques to optimize the performance and overall cost of bringing AI systems to production. Model optimization is a category of techniques focused on addressing inference service efficiency. These techniques represent the best “bang for buck” opportunities to optimize cost…</p>\n<p><a href=\"https://developer.nvidia.com/blog/top-5-ai-model-optimization-techniques-for-faster-smarter-inference/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/data-center-with-icon-overlays-1.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "45981921-3fbb-57a6-8812-31a6fdde842f",
-    "title": "Improve AI-Native 6G Design with the NVIDIA Aerial Omniverse Digital Twin",
-    "link": "https://developer.nvidia.com/blog/improve-ai-native-6g-design-with-the-nvidia-aerial-omniverse-digital-twin/",
-    "pubDate": "2025-12-09T17:00:00+00:00",
-    "description": "AI-native 6G networks will serve billions of intelligent devices, agents, and machines. As the industry moves into new spectrums like FR3 (7–24 GHz), radio...",
-    "author": "Tommaso Balercia",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Aerial-e1765242639397-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Aerial\" width=\"768\" />AI-native 6G networks will serve billions of intelligent devices, agents, and machines. As the industry moves into new spectrums like FR3 (7–24 GHz), radio...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Aerial-e1765242639397-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Aerial\" width=\"768\" /><p>AI-native 6G networks will serve billions of intelligent devices, agents, and machines. As the industry moves into new spectrums like FR3 (7–24 GHz), radio physics becomes far more sensitive, shifting the network from a static infrastructure to a dynamic, living system. This shift demands a fundamental change in how we design, build, and optimize 6G systems. Traditional “build and test”…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improve-ai-native-6g-design-with-the-nvidia-aerial-omniverse-digital-twin/\" rel=\"nofollow\">Source</a></p>",
-    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/Aerial-e1765242639397.jpg",
     "isShortVideo": 0
   }
 ]
