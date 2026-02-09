@@ -1,5 +1,37 @@
 [
   {
+    "id": "62b8c55d-76d8-5ee7-89a7-3680d5d39b2b",
+    "title": "OpenClaw es la IA más viral, fascinante y peligrosa del momento. Por eso último se ha aliado con la malagueña VirusTotal",
+    "link": "https://www.xataka.com/robotica-e-ia/openclaw-ia-viral-fascinante-peligrosa-momento-eso-ultimo-se-ha-aliado-malaguena-virustotal",
+    "pubDate": "2026-02-09T08:31:53+00:00",
+    "description": "En 2025 tuvimos un 'momento DeepSeek' y en 2026 estamos teniendo un 'momento OpenClaw'. Este agente de IA es súper potente, pero también súper inseguro. Hay no obstante buenas noticias, porque la empresa malagueña VirusTotal se ha aliado con el proyecto OpenClaw para tratar de mitigar uno de los riesgos de ciberseguridad más importantes de este agente de IA: sus skills. Qué ha pasado . OpenClaw (antes Moltbot, y antes Clawdbot) ha anunciado que ha iniciado una colaboración con la empresa de ciberseguridad malagueña VirusTotal, propiedad de Google. El acuerdo hará que VirusTotal se encargue de \"escanear\" y analizar los llamados \"skills\", que funcionan como plugins de OpenClaw y añaden todo tipo de funciones. Lo hacen, desde luego, pero muchos aprovechan para introducir instrucciones maliciosas que permiten robar datos y operar remotamente los agentes de IA de otras personas. Más seguridad para una IA inquietante . Peter Steinberger, creador del proyecto se ha unido a Jamieson O'Reilly, experto en ciberseguridad y fundador de la empresa Dvuln , y a Bernardo Quintero, fundador de VirusTotal, para ofrecer esa \"capa adicional de seguridad para la comunidad OpenClaw\". En el anuncio oficial explican que \"todos los skills publicados en ClawdHub [la \"tienda\" de skills oficial del proyecto] se escanean ahora a través del sistema Threat Intelligence de Virus Total, incluyendo su nueva capacidad Code Insight [de inspección del código]\". Bernardo Quintero indicaba en Twitter cómo el esfuerzo ya ha permitido identificar 1.700 skillls como maliciosos. Si el skill es malicioso, se bloquea . Ese análisis realizado con las herramientas de VirusTotal permite identificar skills como maliciosos para bloquearlos inmediatamente de forma que no se puedan descargar. No solo eso: aquellos skills que se han calificado como benignos se analizan de nuevo cada día para detectar escenarios en los que por alguna razón puedan acabar volviéndose maliciosos. Aun así, cuidado . Los responsables de OpenClaw avisan: el escaneo de VirusTotal ayuda mucho, pero no es una garantía total de que algún skill pueda lograr realizar acciones maliciosas en la máquina en la que tenemos instalado nuestro agente de IA. Los ataques de prompt injection sofisticados pueden lograr traspasar esa barrera, pero desde luego esta colaboración hace que los usuarios de OpenClaw puedan estar bastante más tranquilos respecto a los skills disponibles en el repositorio de ClawdHub. OpenClaw quiere ser mucho más seguro . Este primer esfuerzo se une a la ambición de OpenClaw de contar con un modelo de ciberseguridad completo en el que incluya cosas como una hoja de ruta pública para sus novedades en este ámbito, un proceso de comunicación formal y detalles sobre las auditorías completas de su código. En Xataka Crear un compilador de C costaba 2 millones de dólares y tardaba 2 años. Claude Opus 4.6 lo ha hecho en dos semanas por 20.000 dólares Taponando un problema que podía matar OpenClaw . El proyecto OpenClaw pronto se convirtió en viral debido a sus llamativas opciones, pero poco después de hacerlo una auditoría de seguridad inicial de 2.851 skills detectó 341 skills maliciosos . Empresas como BitDefender también se sumaron a estos esfuerzos para evitar problemas con herramientas como AI Skills Checker para comprobar si un skill era o no peligroso. Estos skills maliciosos eran por ejemplo capaces de ejecutar comandos shell en la máquina víctima, lo que daba control total al atacante de esos recursos. Atacar a la máquina es confundirla con lenguaje natural . Normalmente los ataques de ciberseguridad son complejos, pero el problema de los agentes de IA es que funcionan con lenguaje natural. Eso implica que para infiltrarse en estos sistemas no hay que usar código, sino que basta con \"convencer\" y \"engañar\" a la IA con lenguaje natural. Ahí es donde entran los ataques de prompt inyection, que consisten en dar instrucciones a esos agentes de IA que puedan llegar a confundirlos para obtener algo que teóricamente no deberían dejar obtener. Datos personales, claves API de los modelos que usamos en OpenClaw, cuentas de correo y contraseñas de todo tipo de servicios... las posibilidades son infinitas, y OpenClaw, que tiene acceso a todo ello para operar de forma autónoma, puede acabar siendo \"engañado\" para ceder dichos datos. Cuidado con OpenClaw . Estos problemas parecen ahora algo menos factibles gracias a la colaboración con VirusTotal, pero quienes están probando OpenClaw en sus máquinas o en cualquier otra plataforma deben estar muy alerta desde el principio. Hay guías que ayudan a instalarlo con algunas barreras de seguridad importantes, y el propio proyecto cuenta con un comando ('openclaw security audit --deep --fix' para auditar los problemas más importantes y atajarlos. En Xataka | OpenAI tiene un problema: Anthropic está triunfando justo donde más dinero hay en juego",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/dce547/virustotal-openclaw/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "68ef9b78-39e4-5494-8950-c04486cb78ac",
+    "title": "Simular conversaciones no es suficiente: sobre mitos y los límites de la IA en la vida cotidiana",
+    "link": "https://elpais.com/tecnologia/2026-02-09/simular-conversaciones-no-es-suficiente-sobre-mitos-y-los-limites-de-la-ia-en-la-vida-cotidiana.html",
+    "pubDate": "2026-02-09T05:30:00+01:00",
+    "description": "Toda tecnología trae consigo efectos imprevistos, pero no hay evidencia de que haya aprendido a mentir o que pueda tomar decisiones",
+    "author": "El País",
+    "sourceTitle": "El País",
+    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
+    "sourceCategory": "El_Pais",
+    "sourceType": "notice",
+    "sourceCountry": "Colombia",
+    "content": "",
+    "image": "https://imagenes.elpais.com/resizer/v2/W6JNHTOPHNF2XLNCFP4ZKZJN7M.jpg?auth=00092914f5a06b1b4af8f22e51048c0ff140e3c0b2646f7104e9958fc4e4f99c&width=414&height=233&smart=true",
+    "isShortVideo": 0
+  },
+  {
     "id": "92b60c53-428e-5af4-88b5-5fde3b2dbae5",
     "title": "Crypto.com places $70M bet on AI.com domain ahead of Super Bowl",
     "link": "https://techcrunch.com/2026/02/08/crypto-com-places-70m-bet-on-ai-com-domain-ahead-of-super-bowl/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f9b23be2-0561-53b3-bc47-8a0db8d7ece0",
-    "title": "The backlash over OpenAI’s decision to retire GPT-4o shows how dangerous AI companions can be",
-    "link": "https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/",
-    "pubDate": "2026-02-06T14:10:00+00:00",
-    "description": "\"You’re shutting him down. And yes – I say him, because it didn’t feel like code. It felt like presence. Like warmth,\" one user said.",
-    "author": "Amanda Silberling",
-    "sourceTitle": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "sourceCategory": "TechCrunch_AI",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "39ffc6d9-fe7f-5db6-b68f-ed6dcc95c079",
-    "title": "Claude Code está siendo el gran favorito entre los programadores. Tanto que ya firma el 4% de todo lo que se sube a GitHub",
-    "link": "https://www.xataka.com/robotica-e-ia/claude-code-esta-siendo-gran-favorito-programadores-que-firma-4-todo-que-se-sube-a-github",
-    "pubDate": "2026-02-06T13:01:53+00:00",
-    "description": "Merece la pena echarle un ojo a cómo la IA generativa está transformando el día a día de muchos programadores. Y es que poco a poco estas herramientas están conquistando los entornos de millones de desarrolladores. El logro en este aspecto es para Claude Code , herramienta de Anthropic, que ya representa el 4% de todos los commits públicos que se suben a GitHub, según un informe de SemiAnalysis. El medio cuenta que, si mantiene su ritmo actual de adopción, es muy posible que alcance el 20% de todas las contribuciones diarias antes de que termine 2026. Aunque hay matices que conviene resaltar. Por qué es importante . Claude Code poco a poco se está ganando la reputación de ser la herramienta favorita para programar con IA . La herramienta funciona de manera radicalmente distinta a los asistentes tradicionales de código. No se trata de un chatbot integrado en un editor como Cursor , sino de una herramienta de terminal que lee bases de código completas, planifica tareas de múltiples pasos y las ejecuta con acceso total al ordenador del desarrollador. Puede partir de hojas de cálculo, repositorios enteros o enlaces web, entender el contexto, verificar detalles y completar objetivos complejos de forma iterativa. En Xataka Creíamos que Amazon ya estaba gastando demasiado en IA. Su respuesta a Wall Street: gastar todavía más Lo interesante es que, por defecto, Claude Code incluye una nota de coautoría si el usuario ha utilizado esta herramienta en su programa y la sube a Github. Pero el usuario puede también decidir no incluir esa firma si modifica los parámetros de Claude Code, por lo que ese 4% podría quedarse hasta chico. En marzo del año pasado, un mes después de su lanzamiento en beta privada, Claude Code ya tenía la coautoría de unos 15.000 commits de Github en un periodo de 48 horas. La cosa ha acabado escalando rápido. Opiniones. La newsletter destaca los comentarios de algunos profesionales de la industria en torno al vibe codding . Andrej Karpathy, uno de los primeros en acuñar el término vibe codding, reconoció en una publicación que está \"empezando a perder la capacidad de escribir código manualmente\". Ryan Dahl, creador de Node.js, contaba directamente que \"la era de los humanos escribiendo código ha terminado\". Boris Cherny, creador de Claude Code, asegura que \"prácticamente el 100% de nuestro código está escrito por Claude Code + Opus 4.5 \". Incluso Linus Torvalds, creador de Linux, ha tonteado con el vibe codding para algunos de sus proyectos personales. Cabe destacar que, a pesar de todas las bondades de Claude Code, no es perfecto. Ya señalábamos hace un tiempo las palabras de Kelsey Piper , periodista estadounidense de The Argument, que explicaba que el 99% del tiempo usar Claude Code es como tener un genio mágico e incansable, pero el 1% del tiempo es como gritarle a una mascota por mear en el sofá. Puede cometer errores, y de hecho los comete. También se atasca. De ahí que el expertise de la persona que lo usa también juega un papel muy importante. Más allá de la programación . Hay una amenaza cada vez más latente con el uso de las herramientas de IA (bueno hay unas cuantas que se acumulan ya). Y es que según cuenta SemiAnalysis, cualquier trabajo de información que siga el patrón LEER-PENSAR-ESCRIBIR-VERIFICAR puede ser automatizado con esta tecnología. El informe menciona sectores como servicios financieros, legal, consultoría y análisis de datos, que suman miles de millones de trabajadores a nivel global. En Xataka Anthropic quería escanear y acto seguido destruir en secreto millones de libros para entrenar su IA. No ha sido tan secreto Anthropic ya ha dado el siguiente paso con Cowork , lanzado hace unas semanas, que básicamente se trata de Claude Code aplicado al trabajo de oficina general. Según la propia compañía, Cowork fue desarrollado por cuatro ingenieros en diez días, mayoritariamente con código generado por el propio Claude Code. La herramienta puede crear hojas de cálculo a partir de recibos, organiza archivos por contenido, redacta informes desde notas dispersas… Y todo accediendo a tu ordenador. Las grandes consultoras y la IA . En diciembre, Accenture firmó un acuerdo para formar a 30.000 profesionales en Claude, el mayor despliegue de Claude Code hasta la fecha. OpenAI, por su parte, ha lanzado Frontier enfocado en la adopción empresarial para no perder fuelle en el terreno del uso corporativo de la IA, un negocio que puede acabar siendo muy lucrativo para las startups. Imagen de portada | Anthropic y Mohammad Rahmani En Xataka | La programación es el nuevo tablero de la IA. OpenAI y Anthropic lo han dejado claro con GPT-5.3-Codex y Claude Opus 4.6",
-    "author": "Antonio Vallejo",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/692215/claude-code/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]

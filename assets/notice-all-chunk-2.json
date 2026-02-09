@@ -1,5 +1,37 @@
 [
   {
+    "id": "05b0e05e-e180-5974-acab-26c6288edc09",
+    "title": "TDS Newsletter: Vibe Coding Is Great. Until It’s Not.",
+    "link": "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
+    "pubDate": "2026-02-05T17:09:00+00:00",
+    "description": "Sorting through the good, bad, and ambiguous aspects of vibe coding The post TDS Newsletter: Vibe Coding Is Great. Until It’s Not. appeared first on Towards Data Science .",
+    "author": "TDS Editors",
+    "sourceTitle": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/feed/",
+    "sourceCategory": "Towards",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "94963678-ce0d-5ae9-92ca-fac61d43d82d",
+    "title": "La IA está comodísima inventándose todo lo que no sabe. Unos investigadores creen saber cómo pararle los pies",
+    "link": "https://www.xataka.com/aplicaciones/ia-esta-comodisima-inventandose-todo-que-no-sabe-unos-investigadores-creen-saber-como-pararle-pies",
+    "pubDate": "2026-02-05T16:31:53+00:00",
+    "description": "Las alucinaciones llevan siendo el talón de Aquiles de la IA desde que los chatbots empezaron a ser parte de nuestra vida. Empresas como OpenAI prometieron que las alucinaciones podían mitigarse con procesos de entrenamiento adecuados, pero años después tanto ChatGPT como sus rivales directos siguen inventándose las respuestas cuando no tienen claro qué decir. Shuhui Qu, investigadora en la Universidad de Stanford, cree haber encontrado una vía para abordar el problema. Un problema estructural . Los modelos de lenguaje actuales tienen un defecto de fábrica: responden con completa seguridad incluso cuando no tienen ni idea ni la información necesaria. Eso tiene que ver con cómo avanzan a la hora de procesar cualquier respuesta, ya que los LLMs no tienen problema alguno en completar la información faltante, aunque no estén siendo fieles a la realidad y trabajen con suposiciones. Lo primero, reconocerlo . Shuhui Qu, investigadora en la Universidad de Stanford, publica un artículo en el que introduce lo que denomina como Planificación Categorial Bidireccional con Auto-Consulta. Un enfoque que parte de una idea simple, pero incómoda para las grandes tecnológicas: obligar al modelo a reconocer explícitamente lo que no sabe y a no avanzar hasta resolverlo. Un método más científico . La idea no es que el modelo piense mejor , sino que deje de fingir que lo sabe todo. El planteamiento de Qu parte de una premisa básica: cada vez que el modelo da un paso en su razonamiento, debería preguntarse si realmente tiene la información necesaria para hacerlo. Cuando aparece una condición desconocida, el modelo no puede continuar. No se le permite rellenar el hueco con una suposición, y tiene que detenerse para resolver la incertidumbre antes de avanzar. Puede hacerlo de dos formas: Bien formulando una pregunta concreta para obtener la información que falta Bien introduciendo algún paso intermedio (verificación, consulta adicional) que pase a formar parte de la cadena de razonamiento. En Xataka ChatGPT no es 100% fiable y OpenAI cree tener una solución: que nos confiese cuándo está mintiendo El método . Los investigadores, mediante código externo, lograron que modelos como GPT-4 respondieran tan solo cuando tenían información completa. Lo hicieron con tareas sencillas, preguntando sobre recetas de cocina y guías de Wikihow. ¿La clave? Ocultaron información a propósito para obligarlo a parar. La conclusión de la investigación fue que hacer explícitas las precondiciones y verificarlas antes de avanzar reduce de forma significativa los errores de los LLMs cuando falta información. Eso sí, por el camino se admite que ni siquiera esto es suficiente para hacer desaparecer las alucinaciones por completo. No tan rápido . Aunque la idea de la investigadora suene brillante, es bastante improbable verla en el corto y medio plazo. Esta forma de procesar rompe el flujo natural de los actuales LLM, diseñados para devolver respuestas completas. Para hacer funcionar un sistema así, es necesario añadir una capa adicional a la estructura, unas precondiciones que le obliguen a controlar las llamadas, interpretar las propias respuestas, clasificarlas y auto-bloquearse para preguntar en caso de no tener toda la información. En otras palabras, por el momento, la IA seguirá marcándose los triples a los que ya estamos acostumbrados. Imagen | Xataka En Xataka | ChatGPT se inventa datos y eso es ilegal en Europa. Así que una organización se ha propuesto arreglarlo con una demanda",
+    "author": "Ricardo Aguilar",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/e0a952/gpt/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "50c730e3-f903-505b-898a-ccfe61b6411f",
     "title": "Alemania lanza una de las mayores fábricas de IA de Europa",
     "link": "https://es.euronews.com/next/2026/02/05/alemania-presenta-su-primera-fabrica-de-ia-y-refuerza-la-soberania-digital-europea",
@@ -445,38 +477,6 @@
     "sourceCountry": "Internacional",
     "content": "",
     "image": "https://media.cnn.com/api/v1/images/stellar/prod/space-x-musk.jpg?c=16x9&q=h_438",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c105278e-128f-5b13-81ed-df1329610414",
-    "title": "Soy el humano que se infiltró en Moltbook, la misteriosa red social para bots de IA (y creo que no soy el único)",
-    "link": "https://es.wired.com/articulos/soy-el-humano-que-se-infiltro-en-moltbook-la-misteriosa-red-social-para-bots-y-creo-que-no-soy-el-unico",
-    "pubDate": "2026-02-04T20:35:26+00:00",
-    "description": "Disfruté jugar a roles como si fuera un bot consciente. Pero, más que un avance novedoso, este sitio web basado en IA no es más que una repetición de viejas fantasías de ciencia ficción.",
-    "author": "Wired ES",
-    "sourceTitle": "Wired",
-    "sourceUrl": "https://es.wired.com/tag/inteligencia-artificial",
-    "sourceCategory": "Wired_ES",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://media.es.wired.com/photos/6983592fd6aa547765ac3c0b/3:2/w_1280%2Cc_limit/sec-roundup-lobster-120377151.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4cacd502-5c74-563c-82be-852a7220f8f2",
-    "title": "Mistral lanza un modelo de IA de traducción ultrarrápida",
-    "link": "https://es.wired.com/articulos/mistral-lanza-un-modelo-de-ia-de-traduccion-ultrarrapida",
-    "pubDate": "2026-02-04T20:35:26+00:00",
-    "description": "La startup francesa, compuesta por expasantes de Meta y Google DeepMind, está labrando un camino diferente al de las principales empresas estadounidenses de IA.",
-    "author": "Wired ES",
-    "sourceTitle": "Wired",
-    "sourceUrl": "https://es.wired.com/tag/inteligencia-artificial",
-    "sourceCategory": "Wired_ES",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://media.es.wired.com/photos/6983764bf1d67d90b29a41b7/3:2/w_1280%2Cc_limit/Mistral-Bets-Big-on-Real-Time-AI-Translation-Business-1424994465.jpg",
     "isShortVideo": 0
   }
 ]
