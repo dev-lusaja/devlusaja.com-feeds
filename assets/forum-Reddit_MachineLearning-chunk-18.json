@@ -1,5 +1,37 @@
 [
   {
+    "id": "8add71a5-2ae7-5eda-8dbe-e1b1aefb8563",
+    "title": "[R] Reproduced \"Scale-Agnostic KAG\" paper, found the PR formula is inverted compared to its source",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pk6844/r_reproduced_scaleagnostic_kag_paper_found_the_pr/",
+    "pubDate": "2025-12-11T19:16:00+00:00",
+    "description": "I attempted to reproduce \"Scale-Agnostic Kolmogorov-Arnold Geometry\" (Vanherreweghe et al., arXiv:2511.21626v2). **The problem:** The paper claims ~30% lower PR with augmentation. After 6 code iterations and full paper conformance (h=256, Cosine scheduler, 10k samples), I consistently got +29% — the opposite direction. **The discovery:** The paper cites Freedman & Mulligan (arXiv:2509.12326) for the Participation Ratio. - Freedman Eq. IV.5 (p.17): PR = ‖m‖₁ / ‖m‖₂ - Vanherreweghe Eq. 3 (p.4): PR = ‖m‖₂ / ‖m‖₁ The formula is inverted. **Results:** - L2/L1 (paper): +29.0% - L1/L2 (original): -22.5% ✅ The original formula reproduces the claimed effect. **Takeaway:** The paper's conclusions appear correct, but the formula as written gives opposite results. This is why reproduction matters. Full write-up with code: https://open.substack.com/pub/mehmetgoekce/p/i-tried-to-reproduce-an-ai-paper?r=241asc&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true Has anyone else encountered similar notation issues when reproducing papers? submitted by /u/m3m3o [link] [comments]",
+    "author": "/u/m3m3o",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I attempted to reproduce &quot;Scale-Agnostic Kolmogorov-Arnold Geometry&quot; (Vanherreweghe et al., arXiv:2511.21626v2).</p> <p>**The problem:**</p> <p>The paper claims ~30% lower PR with augmentation. After 6 code iterations and full paper conformance (h=256, Cosine scheduler, 10k samples), I consistently got +29% — the opposite direction.</p> <p>**The discovery:**</p> <p>The paper cites Freedman &amp; Mulligan (arXiv:2509.12326) for the Participation Ratio.</p> <p>- Freedman Eq. IV.5 (p.17): PR = ‖m‖₁ / ‖m‖₂</p> <p>- Vanherreweghe Eq. 3 (p.4): PR = ‖m‖₂ / ‖m‖₁</p> <p>The formula is inverted.</p> <p>**Results:**</p> <p>- L2/L1 (paper): +29.0%</p> <p>- L1/L2 (original): -22.5% ✅</p> <p>The original formula reproduces the claimed effect.</p> <p>**Takeaway:**</p> <p>The paper's conclusions appear correct, but the formula as written gives opposite results. This is why reproduction matters.</p> <p>Full write-up with code: <a href=\"https://open.substack.com/pub/mehmetgoekce/p/i-tried-to-reproduce-an-ai-paper?r=241asc&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true\">https://open.substack.com/pub/mehmetgoekce/p/i-tried-to-reproduce-an-ai-paper?r=241asc&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true</a></p> <p>Has anyone else encountered similar notation issues when reproducing papers? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/m3m3o\"> /u/m3m3o </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pk6844/r_reproduced_scaleagnostic_kag_paper_found_the_pr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pk6844/r_reproduced_scaleagnostic_kag_paper_found_the_pr/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "889763b4-b503-5d8c-88a8-4716446b6656",
+    "title": "[D] ARR October 2026 Discussion",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1pk4tjx/d_arr_october_2026_discussion/",
+    "pubDate": "2025-12-11T18:21:58+00:00",
+    "description": "I noticed my submission's meta-review has been posted already. It's my first time to submit to an *ACL venue. What is the distribution of meta-review ratings, usually? In case someone is collating these: my meta-review rating is 3.5 (with review scores of 3, 3.5, and 4). submitted by /u/tfburns [link] [comments]",
+    "author": "/u/tfburns",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I noticed my submission's meta-review has been posted already. It's my first time to submit to an *ACL venue. What is the distribution of meta-review ratings, usually?</p> <p>In case someone is collating these: my meta-review rating is 3.5 (with review scores of 3, 3.5, and 4).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tfburns\"> /u/tfburns </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pk4tjx/d_arr_october_2026_discussion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pk4tjx/d_arr_october_2026_discussion/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0bf9cdf9-53db-5cd3-9748-d8627920f474",
     "title": "[R] Found the same information-dynamics (entropy spike → ~99% retention → power-law decay) across neural nets, CAs, symbolic models, and quantum sims. Looking for explanations or ways to break it.",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1pk2iou/r_found_the_same_informationdynamics_entropy/",
@@ -28,22 +60,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>i stumbled on a paper about a model called chronos-1 that’s trained purely on debugging workflows ... no autocomplete, no codegen, just stack traces, logs, test failures, and bug patches. they claim 80.33% on SWE-bench Lite. (for reference: gpt-4 gets 13.8%, claude 14.2%). it also does graph-guided repo traversal, uses persistent memory of prior bugs, and runs an internal fix → test → refine loop. they're calling it the first LLM made only for debugging. not public yet, but the paper is out: <a href=\"https://arxiv.org/abs/2507.12482\">https://arxiv.org/abs/2507.12482</a> they’re pushing the idea that debugging is a different task from generation ... more causal, historical, iterative. curious: has anyone here looked into it deeper? what’s your take on AGR + persistent memory as the core innovation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DingoOk9171\"> /u/DingoOk9171 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjxs4c/r_debuggingonly_llm_chronos1_paper_claims_45x/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjxs4c/r_debuggingonly_llm_chronos1_paper_claims_45x/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "54408dab-c7d0-5f01-8a66-3a2bd1cadafa",
-    "title": "[D] A simple metrics map for evaluating outputs, do you have more recommendations",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1pjewi4/d_a_simple_metrics_map_for_evaluating_outputs_do/",
-    "pubDate": "2025-12-10T21:19:37+00:00",
-    "description": "I have been experimenting with ways to structure evaluation for both RAG and multi step agent workflows. A simple observation is that most failure modes fall into three measurable categories. Groundedness: Checks whether the answer stays within the retrieved or provided context Structure: Checks whether the output follows the expected format and schema Correctness: Checks whether the predicted answer aligns with the expected output These three metrics are independent but together they capture a wide range of errors. They make evaluation more interpretable because each error category reflects a specific type of failure. In particular, structure often fails more frequently than correctness and can distort evaluation if not handled separately. I am interested in what the research community here considers the most informative metrics. Do you track groundedness explicitly? Do you separate structure from correctness? Are there metrics you found to be unhelpful in practice? submitted by /u/coolandy00 [link] [comments]",
-    "author": "/u/coolandy00",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been experimenting with ways to structure evaluation for both RAG and multi step agent workflows.<br /> A simple observation is that most failure modes fall into three measurable categories.</p> <ul> <li>Groundedness: Checks whether the answer stays within the retrieved or provided context</li> <li>Structure: Checks whether the output follows the expected format and schema</li> <li>Correctness: Checks whether the predicted answer aligns with the expected output</li> </ul> <p>These three metrics are independent but together they capture a wide range of errors.<br /> They make evaluation more interpretable because each error category reflects a specific type of failure.<br /> In particular, structure often fails more frequently than correctness and can distort evaluation if not handled separately.</p> <p>I am interested in what the research community here considers the most informative metrics.<br /> Do you track groundedness explicitly?<br /> Do you separate structure from correctness?<br /> Are there metrics you found to be unhelpful in practice?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolandy00\"> /u/coolandy00 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjewi4/d_a_simple_metrics_map_for_evaluating_outputs_do/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1pjewi4/d_a_simple_metrics_map_for_evaluating_outputs_do/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
