@@ -1,5 +1,21 @@
 [
   {
+    "id": "0cc1af7a-df3c-5eb8-8830-d776e1c61942",
+    "title": "Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization",
+    "link": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/",
+    "pubDate": "2026-02-19T17:30:00+00:00",
+    "description": "NVIDIA flagship data center GPUs in the NVIDIA Ampere, NVIDIA Hopper, and NVIDIA Blackwell families all feature non-uniform memory access (NUMA) behaviors, but...",
+    "author": "Mukul Joshi",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/multicolored-bulging-cube-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"multicolored-bulging-cube\" width=\"768\" />NVIDIA flagship data center GPUs in the NVIDIA Ampere, NVIDIA Hopper, and NVIDIA Blackwell families all feature non-uniform memory access (NUMA) behaviors, but...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/multicolored-bulging-cube-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"multicolored-bulging-cube\" width=\"768\" /><p>NVIDIA flagship data center GPUs in the NVIDIA Ampere, NVIDIA Hopper, and NVIDIA Blackwell families all feature non-uniform memory access (NUMA) behaviors, but expose a single memory space. Most programs therefore do not have an issue with memory non-uniformity. However, as bandwidth increases in newer generation GPUs, there are significant performance and power gains to be had when taking into…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "53ea9efa-70ac-5dab-900a-73eb254b07cc",
     "title": "Unlock Massive Token Throughput with GPU Fractioning in NVIDIA Run:ai",
     "link": "https://developer.nvidia.com/blog/unlock-massive-token-throughput-with-gpu-fractioning-in-nvidia-runai/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/image1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />NVIDIA DLSS 4 with Multi Frame Generation has become the fastest-adopted NVIDIA gaming technology ever. Over 250 games and apps use it to make real-time path...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/image1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>NVIDIA DLSS 4 with Multi Frame Generation has become the fastest-adopted NVIDIA gaming technology ever. Over 250 games and apps use it to make real-time path tracing possible—and upcoming titles for 2026, including PRAGMATA and Resident Evil Requiem, also plan to incorporate the software. At CES 2026, the technology became even more powerful. NVIDIA introduced DLSS 4.5…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-dlss-4-5-delivers-super-resolution-upgrades-and-new-dynamic-multi-frame-generation/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "748892ba-3a14-5591-a454-ddca4e8bff3d",
-    "title": "Learn How NVIDIA cuOpt Accelerates Mixed Integer Optimization using Primal Heuristics",
-    "link": "https://developer.nvidia.com/blog/learn-how-nvidia-cuopt-accelerates-mixed-integer-optimization-using-primal-heuristics/",
-    "pubDate": "2026-01-13T20:32:44+00:00",
-    "description": "NVIDIA cuOpt is a GPU-accelerated optimization engine designed to deliver fast, high-quality solutions for large, complex decision-making problems. Mixed...",
-    "author": "Piotr Sielski",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Mixed-Integer-Programming-e1768336336809-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Mixed-Integer-Programming\" width=\"768\" />NVIDIA cuOpt is a GPU-accelerated optimization engine designed to deliver fast, high-quality solutions for large, complex decision-making problems. Mixed...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Mixed-Integer-Programming-e1768336336809-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Mixed-Integer-Programming\" width=\"768\" /><p>NVIDIA cuOpt is a GPU-accelerated optimization engine designed to deliver fast, high-quality solutions for large, complex decision-making problems. Mixed integer programming (MIP) is a technique for solving problems. It can be modeled by a set of linear constraints, with some of the variables able to assume only integer values. The types of problems that can be modeled as MIP are numerous and…</p>\n<p><a href=\"https://developer.nvidia.com/blog/learn-how-nvidia-cuopt-accelerates-mixed-integer-optimization-using-primal-heuristics/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
