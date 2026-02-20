@@ -222,21 +222,5 @@
     "content": "",
     "image": "https://machinelearningmastery.com/wp-content/uploads/2025/12/hongbin-xIEKIFJzJf0-unsplash-scaled.jpg",
     "isShortVideo": 0
-  },
-  {
-    "id": "f1715b51-5600-5fe6-be56-73f533d9446a",
-    "title": "Rotary Position Embeddings for Long Context Length",
-    "link": "https://machinelearningmastery.com/rotary-position-embeddings-for-long-context-length/",
-    "pubDate": "2025-12-20T15:51:36+00:00",
-    "description": "This article is divided into two parts; they are: • Simple RoPE • RoPE for Long Context Length Compared to the sinusoidal position embeddings in the original Transformer paper, RoPE mutates the input tensor using a rotation matrix: $$ \\begin{aligned} X_{n,i} &= X_{n,i} \\cos(n\\theta_i) - X_{n,\\frac{d}{2}+i} \\sin(n\\theta_i) \\\\ X_{n,\\frac{d}{2}+i} &= X_{n,i} \\sin(n\\theta_i) + X_{n,\\frac{d}{2}+i} \\cos(n\\theta_i) \\end{aligned} $$ where $X_{n,i}$ is the $i$-th element of the vector at the $n$-th position of the sequence of tensor $X$.",
-    "author": "Adrian Tam",
-    "sourceTitle": "Machine Learning Mastery",
-    "sourceUrl": "https://machinelearningmastery.com/blog/feed/",
-    "sourceCategory": "MachineLearningMastery",
-    "sourceType": "educational",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://machinelearningmastery.com/wp-content/uploads/2025/12/nastya-dulhiier-3Ze88tZX-p0-unsplash-scaled.jpg",
-    "isShortVideo": 0
   }
 ]
