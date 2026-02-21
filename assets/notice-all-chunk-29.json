@@ -1,5 +1,37 @@
 [
   {
+    "id": "7f1031fa-cbe3-5710-9beb-fc1e2e1fab00",
+    "title": "La lectura, un antídoto contra la IA",
+    "link": "https://elpais.com/opinion/2026-01-23/la-lectura-un-antidoto-contra-la-ia.html",
+    "pubDate": "2026-01-23T13:40:43+01:00",
+    "description": "Para preservar una sociedad libre y democrática, tenemos que mostrar nuestros libros con orgullo",
+    "author": "El País",
+    "sourceTitle": "El País",
+    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
+    "sourceCategory": "El_Pais",
+    "sourceType": "notice",
+    "sourceCountry": "Colombia",
+    "content": "",
+    "image": "https://imagenes.elpais.com/resizer/v2/J3K623LT75G2LOHOBGTV4OHEGI.png?auth=91560ad0acf56f8535d1bcd9ee85beb3871e2f66e9f4dcea5daf07ed80ba1d4b&width=414&height=233&focal=498%2C327",
+    "isShortVideo": 0
+  },
+  {
+    "id": "0849011f-fae4-592f-9b0e-cfbe49a093bf",
+    "title": "El vibe coding quiere ayudar al Open Source. Pero los desarrolladores no quieren chapuzas hechas con IA",
+    "link": "https://www.xataka.com/robotica-e-ia/vibe-coding-quiere-ayudar-al-open-source-desarrolladores-no-quieren-chapuzas-hechas-ia",
+    "pubDate": "2026-01-23T13:31:27+00:00",
+    "description": "Si te gusta el software Open Source, el vibe coding te da ahora una oportunidad fantástica: la de coger ese código y modificarlo a tu gusto con ayuda del vibe coding y de los agentes de IA que programan. Que me lo digan a mí . Puede que tengas buenas ideas y que la IA las resuelva con nuevo código generado con estas herramientas, pero hay un problema: la calidad de ese código puede no ser adecuada . Qué ha pasado . Steve Ruiz ( @steveruizok ) es el creador y responsable de TLDraw , una simpática aplicación Open Source que permite convertir tu navegador en un lienzo para que dibujes lo que quieras fácilmente sobre él. El 15 de enero Steve publicó un mensaje en X en el que avisó de algo muy llamativo: dejaría de aceptar contribuciones de código ( pull requests, PRs ) en el repositorio de GitHub de TLDraw. No necesitamos código de baja calidad . \"Debido a la afluencia de pull requests de baja calidad, pronto cerraremos esas solicitudes a contribuidores externos\", decía el responsable de un proyecto en un post adicional en el blog oficial del proyecto. El mensaje era claro: aunque la intención de la gente es seguramente buena a la hora de intentar aportar sus ideas a un proyecto existente, este desarrollador pronto se dio cuenta de que el código que aportaban los programadores noveles, fans del vibe coding, era de baja calidad. ¿Solución? Prohibir esas contribuciones hechas con IA. El código generado por IA puede servir . En ese artículo indicaba que esto no era una medida contra el vibe coding, sino contra el código (cualquier código, humano o IA) de mala calidad. Ruiz explicaba cómo: \"Ya aceptamos código escrito con IA. Yo escribo código con herramientas de IA. Espero que mi equipo use esas herramientas de IA también. Si conoces la base del código del proyecto y sabes lo que haces, escribir un código genial nunca ha sido más fácil gracias a estas herramientas\". AI Slop, pero de código . Aunque solemos hablar de \" bazofia creada por IA \" (AI Slop) en referencia a textos, imágenes, música y vídeos de baja calidad, el término también se puede aplicar al código. Ruiz explicaba cómo en septiembre comenzó a detectar muchas peticiones de contribuciones de código que parecían correctas pero que tras un análisis más profundo aunque funcionaban podían introducir potencialmente problemas futuros y complejidad al proyecto. En Xataka He vivido el \"milagro\" del vibe coding: así es como he programado una app de Android TV sin tener ni idea de programar Corrijo aquí, corrijo allá . Además, muchos de los contribuyentes tenían perfiles en los que se veía cómo saltaban de proyecto Open Source en proyecto Open Source para luego desaparecer. Contribuían sin más y sin seguir las políticas o requisitos del proyecto y pasaban a otro. Esto es una plaga . En los debates que esta decisión generó en Hacker News y X Ruiz se encontró con una sorpresa: la gente no solo no protestó, sino que valoró positivamente la medida. Comentaba cómo \"esta parece ser la experiencia estándar para todos los mantenedores de repositorios públicos ahora mismo\". Citaba el ejemplo de Excalidraw , otro proyecto similar que \"recibió más del doble de PRs en el cuarto trimestre de 2025 que en el tercero\" en su repositorio . Más y más vetos a código IA de baja calidad . Otros proyectos están pasando por esa misma fase. Ghostty , un emulador de terminal para macOS y Linux, publicó recientemente su \" política de IA \" en el repositorio de GitHub público del sitio con avisos importantes. Por ejemplo, que \"Las PRs creadas por IA deben haber sido verificadas al completo con un uso humano\", y además que \"todo uso de la IA en cualquier manera o modo debe ser revelado\". Eso es trampa . Curl, una utilidad muy popular para usuarios de la línea de comandos, había anunciado la apertura de un programa de recompensas para detectar fallos y vulnerabilidades en su código. ¿Qué ha hecho mucha gente? Usar IA para encontrarlos y llevarse el dinero. Los responsables del programa han anunciado que lo cerrarán este mes ante la avalancha de informes de vulnerabilidades de baja calidad claramente generados por IA. Ya lo dijo Linus . Linus Torvalds, creador del kernel Linux, admitió usar herramientas de vibe coding para algún pequeño proyecto personal . Aun reconociendo que estas herramientas pueden ser estupendas, avisaba del peligro de todo ese código generado por IA: \"La IA será una herramienta, y hará que la gente sea más productiva. Creo que el vibe coding es genial para lograr que la gente comience a programar. Creo que [el código que genere] va a ser algo horrible de mantener... así que no creo que los programadores desaparezcan. Aún querrás tener a gente que sepa cómo mantener el resultado\". El código IA funciona, pero no suele ser \"de calidad\" . La comunidad de desarrolladores lleva tiempo avisando y experimentando esto mismo . Aunque las herramientas de IA pueden ayudar a programar y resolver muchas tareas rutinarias, el código generado debe ser revisado por un programador humano para evitar problemas futuros. Es razonable pensar que ese código será cada vez mejor y de mayor calidad, pero hoy por hoy en muchos casos la situación es clara: puede que funcione, sí, pero eso no es suficiente para muchos proyectos en producción, sobre todo cuando son utilizados por miles (no digamos millones) de personas. En Xataka | Bill Gates y Linus Torvalds llevaban 30 años siendo rivales. Lo gracioso es que acaban de conocerse y se han hecho un selfie",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/3e2031/claude/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "4fdd48d7-81fe-54f2-acb1-e4898c1762df",
     "title": "Why the Sophistication of Your Prompt Correlates Almost Perfectly with the Sophistication of the Response, as Research by Anthropic Found",
     "link": "https://towardsdatascience.com/the-sophistication-of-your-prompt-correlates-almost-perfectly-with-the-sophistication-of-the-response-anthropic-study-found/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "501a0dd5-1f4a-5bc4-88a7-3f2d9d369dbe",
-    "title": "Google now offers free SAT practice exams, powered by Gemini",
-    "link": "https://techcrunch.com/2026/01/22/google-now-offers-free-sat-practice-exams-powered-by-gemini/",
-    "pubDate": "2026-01-22T18:27:36+00:00",
-    "description": "Students can prompt Gemini by typing \"I want to take a practice SAT test,” and the AI will provide them with a free practice exam. Gemini then analyzes the results, highlighting strengths and identifying areas that need further review. It also offers detailed explanations for any incorrect answers.",
-    "author": "Lauren Forristal",
-    "sourceTitle": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "sourceCategory": "TechCrunch_AI",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "62d26898-b0dc-58c9-9fb6-6ab55da307bf",
-    "title": "Apple lleva años resistiéndose a convertir Siri en un chatbot. Hasta que se ha rendido a la evidencia",
-    "link": "https://www.xataka.com/aplicaciones/apple-lleva-anos-resistiendose-a-convertir-siri-chatbot-que-se-ha-rendido-a-evidencia",
-    "pubDate": "2026-01-22T18:01:27+00:00",
-    "description": "2026 será el año de Siri, pero no por un giro interno de Apple ni por la madurez de Apple Intelligence. Lo será porque el pacto con Google permitirá a Apple utilizar tecnología de Gemini como base de su asistente . Los detalles acerca de qué hará Apple con su asistente no han tardado en salir a la luz y, tenemos buenas noticias: llegarán en la próxima versión de iOS. La nueva Siri . Apple lleva anunciando las bondades de la nueva Siri desde antes de tener preparadas sus novedades . Con el anuncio de Apple Intelligence nos puso sobre la mesa una Siri completamente integrada en el sistema, capaz de funcionar como un asistente completo y funcionando mayoritariamente en local. ¿La realidad? Todo sigue prácticamente igual que antes y, cuando Siri no sabe responder a algo, acaba abriendo ChatGPT . Qué va a cambiar . Explican en Bloomberg que Apple, a partir de iOS 27 , se rendirá al modelo de chatbot que tan bien le ha funcionado a empresas como OpenAI y Google. El modelo de mero asistente ha caducado, y Siri pasará a ser un chatbot al servicio de cualquiera de nuestras peticiones. Este nuevo chatbot estará integrado en todas las apps de Apple (esperándose una API abierta a desarrolladores para integrarlo en sus apps), permitiéndonos por ejemplo encontrar fotos específicas en la app Fotos , funcionar como asistente de programación en Xcode , etc. Qué no va a cambiar . La única certeza con el nuevo modelo de chatbot es que Apple seguirá manteniendo su obsesión con la privacidad y con mantener como propio su ecosistema de IA, aunque esté basado en Gemini. La intención de Apple es integrar esta experiencia en iPhone , iPad , Mac y Apple Watch , manteniendo la activación mediante el comando de Voz \"Siri\" o la pulsación sostenida del botón de encendido en el iPhone. La diferencia . A día de hoy, Siri es un asistente, un sistema de órdenes. Le dices algo Siri clasifica la intención (poner una alarma, llamar a X persona, mandar un mensaje) Ejecuta la orden Pasar al modelo de chatbot se traduce en contar con un modelo generativo capaz de interpretar lenguaje natural, mantener conversaciones y una interacción más \"humana\" con el teléfono. Es lo que llevan sus rivales haciendo desde hace unos años. Adaptándose a lo inevitable . Que Siri evolucione en 2026 es la prueba de que el modelo de asistente clásico está agotado. Apple tendrá que adoptar el modelo chatbot como una transición inevitable, liderada anteriormente por OpenAI y en la que ahora Gemini parece estar a la cabeza. No acaba aquí la cosa . El destino de la nueva Siri no son solo los actuales dispositivos de Apple. Como cuenta mi compañero Javier Pastor, la compañía prevé lanzar un dispositivo sin pantalla , su primer wearable centrado en IA. Según la información filtrada, tendrá un formato similar al de los AirTags, sistema de micrófonos y lanzamiento previsto para 2027. Nuevo asistente, nuevos dispositivos, y alianza con Google. La nueva etapa de la inteligencia artificial para Apple por fin está al llegar. La pregunta es si lograrán ofrecer algo nuevo. Imagen | Xataka En Xataka | Oye Siri: 134 comandos de voz para exprimir al máximo el asistente de Apple",
-    "author": "Ricardo Aguilar",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/666ae1/siri/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]
