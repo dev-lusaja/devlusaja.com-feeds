@@ -1,5 +1,21 @@
 [
   {
+    "id": "072a509b-3e4e-5cc5-8aa6-7fe365b02723",
+    "title": "Cómo crear un excel con inteligencia artificial donde sumar los gastos de tus tickets digitales de compra",
+    "link": "https://www.xataka.com/basics/como-crear-excel-inteligencia-artificial-donde-sumar-gatos-tus-tickets-digitales-compra",
+    "pubDate": "2026-02-22T13:00:51+00:00",
+    "description": "Vamos a explicarte cómo crear una hoja de cálculo con tus gastos usando inteligencia artificial. Concretamente, lo que vamos a hacer es meter todos tus tickets de compra en una carpeta, y hacer que la IA los lea, extraiga los totales, los anote en la hoja de cálculos y luego sume el total. Parece algo complejo, pero es más fácil de lo que parece. Para nuestro ejemplo vamos a utilizar los tickets en PDF que te envían al correo cuando configuras el ticket digital de Mercadona , aunque también puedes usar fotografías de tickets. Para la hoja de cálculos vamos a utilizar LibreOffice, por ser una alternativa a Office gratis y de código abierto. Para realizar las acciones utilizaremos Claude Cowork , el asistente de IA de Claude que puede hacer acciones en tu ordenador. La parte negativa es que para usar esta herramienta hay que tener una cuenta de pago en este chat de inteligencia artificial, pero la parte positiva es lo mucho que luego podrás hacer con él. Hay herramientas de workflows que te permiten automatizar esto y hacerlo online, pero vamos a empezar explicándote este método más sencillo por ser todo local, dentro de tu ordenador, y compartiendo menos datos con terceros. Primero haz los preparativos Es importante ser ordenados a la hora de llevar a cabo esta tarea. Por eso, lo que vamos a hacer va a ser ir al explorador de archivos de nuestro ordenador y crear una  carpeta. En mi caso la he llamado Tickets. Dentro, crearemos una subcarpeta donde meter los tickets digitales a la que llamaremos \"PDFs de tickets\", y luego el archivo de la hoja de cálculos al que llamaremos \"Total compras\". También vamos a crear la estructura básica de la hoja de cálculos , para que así luego tengamos más fácil describirle a la IA lo que queremos. En esta hoja yo he incluido la fecha, el total del ticket, y luego una columna para añadir el enlace al archivo PDF de cada uno. Aquí, esto vas a poder personalizarlo como necesites. Ahora, simplemente ve metiendo los tickets en PDF dentro de la carpeta que hemos creado para almacenar los tickets. Esto lo puedes ir haciendo a mano con los que tengas, y luego ir actualizándola con los que te van llegando posteriormente, porque también te diremos cómo pedirle a la IA que lo actualice todo. Esta técnica tiene muchas variantes. Por ejemplo, añadiendo una columna específica en la hoja de cálculos también puedes añadir el nombre del supermercado para así gestionar los gastos de varios de ellos, o hacer una hoja diferente para cada uno dentro del mismo archivo. Puedes hacer las cosas tan complejas como quieras. En Xataka Qué es Claude Code y qué puede hacer esta herramienta para programar con inteligencia artificial desde la terminal de tu ordenador Ahora pídele a la IA que haga el trabajo por ti Ahora toca ponerse manos a la obra. Vamos a abrir la aplicación de Claude en el ordenador y elegir la opción de Cowork . Aquí, lo primero será pulsar en la opción de Trabajar en una carpeta . Cuando lo hagas, tendrás que elegir la carpeta donde has incluido la subcarpeta con los PDF y donde has creado el archivo de hoja de cálculos. Así la IA trabajará solo dentro de este espacio sin tocar el resto de archivos del ordenador. Una vez hayas hecho esto, toca escribir un prompt pidiéndole lo que quieres que haga , que en este caso es pedirle que lea los PDFs con los tickets, extraiga la información y la meta en el sitio que tú quieras dentro de tu hoja de cálculos. Yo he utilizado este prompt, donde preciso también las columnas donde va cada contenido: Quiero que analices el contenido de todos los PDFs que hay en la carpeta \"PDFs de tickets\". Se trata de tickets de compra. En todos ellos, quiero que extraigas tanto la fecha del ticket como el total que has gastado y los pongas en las columnas \"Fecha\" y \"Total (€)\" del archivo \"Total compras.ods\". Dentro de este archivo, también quiero que en la columna de Enlace a PDF crees un enlace que, al pulsarlo, abra el archivo PDF al que pertenece. Este prompt lo puedes modificar dependiendo de cómo sea tu hoja de cálculos , pero siempre especificando en qué columna va cada cosa, o en qué página de la hoja de cálculos en el caso de que hayas creado una para cada supermercado. Puedes incluso hacer una hoja para los totales, y en definitiva, pedirle que use cualquiera de las funciones de Excel o el programa que vayas a utilizar. Ahora, tienes que esperar unos minutos a que Claude procese tu petición y termine la tarea. Cuando lo hagas, ya podrás entrar en el archivo que creaste antes, y verás que lo ha actualizado. Puedes hacer cambios en el archivo para el tamaño de letra o lo que quieras, y Claude luego lo tendrá en cuenta. También puedes decirle a la IA si ha hecho algo mal, como no meter los enlaces, para que lo corrija y lo añada. Ahora, puedes pedirle que haga trabajos extra como añadir una columna abajo con el total. Y luego, cuando metas más archivos podrás pedirle actualice el archivo revisando los nuevos PDFs que has metido y añadiendo a la lista los que falten. En Xataka Workflow o flujo de trabajo: qué son, qué tipos hay y cómo funcionan los automatizados con o sin inteligencia artificial Y ya está. Con todo esto ya tendrás una hoja de cálculos que puedes ir actualizando cada vez que vayas metiendo más tickets. También podrás pedirle que lo haga leyendo el contenido de fotos, y otros tickets que también tengas en PDF. En Xataka Basics | Claude: 23 funciones y algún truco para exprimir al máximo esta inteligencia artificial",
+    "author": "Yúbal Fernández",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/71ffba/tickets-ia/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "5a938d16-48f3-5b45-bb7c-dc9aa06fed77",
     "title": "Paren de contratar a humanos",
     "link": "https://elpais.com/economia/2026-02-22/paren-de-contratar-a-humanos.html",
@@ -461,22 +477,6 @@
     "sourceCountry": "Internacional",
     "content": "",
     "image": "https://media.es.wired.com/photos/69986fa22bb71d307ac3f3a0/3:2/w_1280%2Cc_limit/NSFW%2520doppelgangers%2520copy.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2c7c4c66-fd1c-5663-91d8-eb3390eac5e6",
-    "title": "Esta app de IA que te regaña cuando te distraes es tan útil como preocupante",
-    "link": "https://es.wired.com/articulos/esta-app-de-ia-que-te-regana-cuando-te-distraes-es-tan-util-como-preocupante",
-    "pubDate": "2026-02-20T20:32:46+00:00",
-    "description": "Fomi te observa mientras trabajas y te regaña cuando tu atención se desvía. Es útil, pero hay que tener en cuenta cuestiones de privacidad.",
-    "author": "Wired ES",
-    "sourceTitle": "Wired",
-    "sourceUrl": "https://es.wired.com/tag/inteligencia-artificial",
-    "sourceCategory": "Wired_ES",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://media.es.wired.com/photos/69988dceeab4b6740b9c5c9d/3:2/w_1280%2Cc_limit/gear-ai-motivator-654455754.jpg",
     "isShortVideo": 0
   }
 ]
