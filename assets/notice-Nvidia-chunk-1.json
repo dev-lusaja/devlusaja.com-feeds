@@ -1,5 +1,37 @@
 [
   {
+    "id": "5458ea9e-599a-54f6-ac54-69fed2a59d41",
+    "title": "Streamlining CUB with a Single-Call API",
+    "link": "https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/",
+    "pubDate": "2026-01-21T21:28:00+00:00",
+    "description": "The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional \"two-phase\" API, which separates memory estimation...",
+    "author": "Giannis Gonidelis",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional \"two-phase\" API, which separates memory estimation...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional “two-phase” API, which separates memory estimation from allocation, can be cumbersome. While this programming model offers flexibility, it often results in repetitive boilerplate code. This post explains the shift from this API to the new CUB single-call API introduced in CUDA 13.1…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "0bdf0eca-948b-5c69-a1ed-5b87711e6a5f",
+    "title": "How to Train an AI Agent for Command-Line Tasks with Synthetic Data and Reinforcement Learning",
+    "link": "https://developer.nvidia.com/blog/how-to-train-an-ai-agent-for-command-line-tasks-with-synthetic-data-and-reinforcement-learning/",
+    "pubDate": "2026-01-15T16:00:00+00:00",
+    "description": "What if your computer-use agent could learn a new Command Line Interface (CLI)—and operate it safely without ever writing files or free-typing shell commands?...",
+    "author": "Chris Alexiuk",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Copy-of-llm-press-bash-tech-blog-gtc25-dc-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Copy of llm-press-bash-tech-blog-gtc25-dc-1920x1080\" width=\"768\" />What if your computer-use agent could learn a new Command Line Interface (CLI)—and operate it safely without ever writing files or free-typing shell commands?...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Copy-of-llm-press-bash-tech-blog-gtc25-dc-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Copy of llm-press-bash-tech-blog-gtc25-dc-1920x1080\" width=\"768\" /><p>What if your computer-use agent could learn a new Command Line Interface (CLI)—and operate it safely without ever writing files or free-typing shell commands? In Part 1 of our series on building a computer use agent, we built a custom Bash computer-use agent using NVIDIA Nemotron in just one hour. In this sequel, we’ll take it further by teaching the same reasoning model with no prior…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-train-an-ai-agent-for-command-line-tasks-with-synthetic-data-and-reinforcement-learning/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a68d41a0-1ead-543f-a450-ff5ebc7a3034",
     "title": "How to Write High-Performance Matrix Multiply in NVIDIA CUDA Tile",
     "link": "https://developer.nvidia.com/blog/how-to-write-high-performance-matrix-multiply-in-nvidia-cuda-tile/",
