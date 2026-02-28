@@ -1,5 +1,21 @@
 [
   {
+    "id": "d995079e-157e-579f-9500-0d70b8019b3d",
+    "title": "Grok atraviesa su momento más delicado por desnudar a mujeres sin permiso. Y justo ahora Musk lo quiere meter en sus Tesla",
+    "link": "https://www.xataka.com/movilidad/gemini-siri-estaban-monopolizando-coches-modernos-asi-que-musk-ha-traido-grok-a-tesla-europeos",
+    "pubDate": "2026-02-17T09:15:00+00:00",
+    "description": "Tesla está empezando a desplegar Grok en Europa de forma gratuita. Los eléctricos de la compañía de Elon Musk llevan apostando desde el inicio por software propio, sin dejar apenas margen a terceros. Sin rastro de Android Auto , CarPlay , o los asistentes más conocidos, Grok llega como ese \"copiloto\" inteligente a bordo del Tesla. El problema es que... sigue siendo muy Musk . La llegada . Grok llega como actualización gratuita en los Tesla europeos. Podremos escoger su voz y su personalidad, como en la aplicación para smartphone. Para iniciarlo, no tendremos más que activarlo desde el propio lanzador de aplicaciones o pulsar el botón de voz del volante. Si hemos iniciado sesión en Grok, a partir de ese momento, pasará a ser el asistente de voz por defecto del dispositivo. Qué puede hacer . La lista de posibilidades de Grok es amplia, desde guiarnos hasta un destino a localizar un supercargador cercano o, simplemente, mantener un diálogo informal con nosotros y recomendarnos opciones del manual digital de nuestro Tesla. Además de esto, cuenta con funciones bastante curiosas. Puede ser nuestro profesor de idiomas Tiene modos especiales para niños, como \"Hora del cuento\" y juegos de preguntas y respuestas Cuenta con un modo para adultos (+18), polemista, \"sexy\", \"extravagante\". \"\" En qué Teslas estará disponible . Actualmente, esta es la lista de coches de Tesla compatibles con Grok. Tesla Model S Tesla Model 3 Tesla Model X Tesla Model Y Tesla Cybertruck El requisito es que nuestro coche cuente con procesador AMD, que el software esté actualizado a la versión 2025.26 o posterior, y que tengamos conexión WiFi o el pack de conectividad premium. Para saber si tu Tesla cuenta con procesador AMD, debes irte a 'Controles' > 'Software' > 'Información adicional del vehículo'. Cuidado . Grok, a pesar de su potencial como modelo de IA , está envuelto en recientes polémicas. La app se ha convertido en un foco de uso indebido, un pozo infinito de contenido relacionado con el desnudo de mujeres . Países como Francia e India ya lo han denunciado , y el Gobierno de España ha pedido a la fiscalía que investigue a X por la posible difusión de pornografía infantil a través de la app. En este contexto, quizás cabe debatir si traer Grok con un \"modo para adultos\" a los vehículos de Tesla es lo más adecuado. En Xataka | Elon Musk pensaba que Tesla viviría al margen de la política. Alemania le ha demostrado por las malas que estaba equivocado",
+    "author": "Ricardo Aguilar",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/55d200/tesla/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "7f12b4d4-1046-56b8-b1d9-c5aea549953d",
     "title": "Western Digital ha vendido toda su capacidad de discos duros para 2026: la IA está devorando el almacenamiento físico",
     "link": "https://www.xataka.com/empresas-y-economia/western-digital-ha-vendido-toda-su-capacidad-discos-duros-para-2026-ia-esta-devorando-almacenamiento-fisico",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://i.blogs.es/effc80/anthropic-y-la-poesia/1024_2000.jpeg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f7146c36-13d5-5af2-bacf-e032b4cb3d3b",
-    "title": "Cómo desinstalar OpenClaw (antes Moltbot o Clawdbot) de forma segura en tu ordenador paso a paso",
-    "link": "https://www.xataka.com/basics/como-desinstalar-openclaw-antes-moltbot-clawdbot-forma-segura-tu-ordenador-paso-a-paso",
-    "pubDate": "2026-02-11T10:29:24+00:00",
-    "description": "Vamos a decirte cómo borrar de forma segura OpenClaw , antes conocido como Moltbot o Clawdbot. Este es un agente de IA , que puede controlar tu ordenador íntegramente, y al que luego puedes controlar por apps como WhatsApp o Telegram. Pero existen bastantes peligros de OpenClaw , por lo que así como te enseñamos cómo instalarlo si quieres curiosear, ahora te diremos cómo desinstalarlo. Igual que con la instalación, la desinstalación requiere una serie de comandos en la terminal de tu ordenador, ya sea PowerShell en Windows o la terminal de macOS y GNU/Linux. 1. Usa el comando oficial de desinstalación El primer paso es abrir el terminal de tu ordenador y pegar el siguiente comando *. Cuando lo hagas, borrará la base de datos local, el espacio de trabajo y los archivos de instalación. openclaw uninstall --all --yes En el comando, tienes que usar el nombre con el que instalases el agente , que puede ser openclaw, clawdbot o moltbot. En las primeras semanas de esta IA, el nombre ha cambiado varias veces. Es posible que al terminar te aparezca un mensaje diciéndote que CLI está todavía instalado. Esto es normal, y es algo que solucionaremos en el tercer paso. 2. Limpieza manual Si usas Windows , pulsa Win + R y escribe services.msc . Dentro de la pantalla donde vas busca el servicio ClawdBot, MoltBot u OpenClaw, haz clic derecho y elige la opción de detenerlo. Ahora, tienes que abrir el explorador de archivos y eliminar estas carpetas si existen . La carpeta que debería aparecer dependerá del nombre con el que instalases la herramienta. C:\\Users\\<NombreUsuario>\\.clawdbot C:\\Users\\<NombreUsuario>\\.molbot C:\\Users\\<NombreUsuario>\\.openclaw Si usas macOS , entra en el terminal y escribe uno de los siguientes comandos, dependiendo del nombre con el que los instalases. rm -rf ~/.clawdbot rm -rf ~/.moltbot rm -rf ~/.openclaw Luego, tienes que escribir uno de estos comandos para evitar que Clawdbot se inicie cada vez que enciendas el ordenador. rm -rf ~/Library/LaunchAgents/com.clawdbot rm -rf ~/Library/LaunchAgents/com.moltbot rm -rf ~/Library/LaunchAgents/com.openclaw 3. Elimina la herramienta CLI Ya has eliminado tus datos, pero la herramienta y sus comandos todavía existen en tu terminal, ya que los has instalado por NPM o HomeBrew. Entonces, ahora tendrás que desinstalarlo. Si has instalado la herramienta por NPM , que es lo más común, utiliza uno de estos comandos, dependiendo de con el nombre que instalases la herramienta: npm uninstall -g clawdbot npm uninstall -g openclaw npm uninstall -g moltbot Si eres usuario de Mac , es posible que lo hayas instalado por Homebrew. En este caso, si los comandos de arriba no te funcionan puedes probar con estos: brew uninstall clawdbot brew uninstall openclaw brew uninstall moltbot Si ninguno de los comandos de arriba te funciona , existe otro método más manual si no recuerdas cómo se instalaron. Son estos comandos: sudo rm -f /usr/local/bin/clawdbot sudo rm -f /usr/local/bin/openclaw sudo rm -f /opt/homebrew/bin/clawdbot En Xataka Cómo instalar OpenClaw (antes Moltbot o Clawdbot) y configurarlo de la manera más sencilla posible 4. Limpieza adicional de seguridad Vale, ya hemos eliminado el agente de nuestro ordenador, pero todavía sigue teniendo accesos a elementos como tu correo electrónico, tu calendario o tus cuentas en la nube en el caso de que se lo dieras al instalarlo. Ahora tocará hacer limpieza de estos permisos. Para hacer esto, tienes que revisar las claves API que hayas recopilado , como la de GitHub, Google Cloud, AWS, etcétera. Revisa y revoca o regenera cualquier API que le dieras al bot. También tienes que desconectar aplicaciones donde lo hayas vinculado, como tus cuentas de  Google o de Microsoft, para revocarle el acceso a OpenClaw. Por último, cierra sesión de la herramienta web del agente para asegurarte de que has dejado de usarlo por completo. 5. Una última comprobación Una vez hayas hecho todo esto, reinicia el ordenador y abre el terminal para escribir el siguiente código: clawdbot --version Si el mensaje de respuesta es que no ha encontrado el comando o no lo reconoce, es porque ya está, habrás terminado con la desinstalación. En Xataka Basics | Los mejores prompts para ahorrar horas de trabajo y hacer tus tareas con ChatGPT, Gemini, Copilot u otra inteligencia artificial",
-    "author": "Yúbal Fernández",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/08331c/desinstalar-agente/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]
