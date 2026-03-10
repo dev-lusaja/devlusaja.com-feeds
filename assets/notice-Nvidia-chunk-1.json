@@ -1,5 +1,37 @@
 [
   {
+    "id": "3b383949-236b-55c8-946d-039c50f845a0",
+    "title": "Accelerating Long-Context Model Training in JAX and XLA",
+    "link": "https://developer.nvidia.com/blog/accelerating-long-context-model-training-in-jax-and-xla/",
+    "pubDate": "2026-02-03T17:30:00+00:00",
+    "description": "Large language models (LLMs) are rapidly expanding their context windows, with recent models supporting sequences of 128K tokens, 256K tokens, and beyond....",
+    "author": "Sevin Fide Varoglu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/llm-cloud-icons-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-cloud-icons\" width=\"768\" />Large language models (LLMs) are rapidly expanding their context windows, with recent models supporting sequences of 128K tokens, 256K tokens, and beyond....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/llm-cloud-icons-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-cloud-icons\" width=\"768\" /><p>Large language models (LLMs) are rapidly expanding their context windows, with recent models supporting sequences of 128K tokens, 256K tokens, and beyond. However, training these models with extended context lengths presents significant computational and communication challenges. As context lengths grow, the memory and communication overhead of attention mechanisms scale quadratically…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-long-context-model-training-in-jax-and-xla/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d27c9b1f-759f-536f-9ee6-6e79fd2a4584",
+    "title": "Optimizing Communication for Mixture-of-Experts Training with Hybrid Expert Parallel",
+    "link": "https://developer.nvidia.com/blog/optimizing-communication-for-mixture-of-experts-training-with-hybrid-expert-parallel/",
+    "pubDate": "2026-02-02T18:43:08+00:00",
+    "description": "In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all,...",
+    "author": "Fan Yu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" />In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" /><p>In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all, but due to its dynamics and sparseness (only topk experts per AI token instead of all experts), it’s challenging to implement and optimize. This post details an efficient MoE EP communication solution, Hybrid-EP, and its use in the…</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimizing-communication-for-mixture-of-experts-training-with-hybrid-expert-parallel/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9597558c-8696-5dbe-8686-e490709e4133",
     "title": "Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton",
     "link": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/",
