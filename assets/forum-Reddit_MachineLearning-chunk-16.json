@@ -142,53 +142,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>When building RAG pipelines and agent systems, I kept running into the same issue:<br /> most web crawlers return raw HTML or noisy text that still requires significant post-processing before it’s usable for embeddings.</p> <p>I’ve been experimenting with a crawler design that focuses specifically on <strong>AI ingestion</strong>, not generic scraping. The key design choices are:</p> <ul> <li>isolating main content on docs-heavy sites (removing nav, footers, TOCs)</li> <li>converting pages into <strong>structure-preserving markdown</strong></li> <li>chunking by <strong>document hierarchy (headings)</strong> instead of fixed token windows</li> <li>generating <strong>stable content hashes</strong> to support incremental updates</li> <li>emitting an <strong>internal link graph</strong> alongside the content</li> </ul> <p>The goal is to reduce downstream cleanup in RAG pipelines and make website ingestion more deterministic.</p> <p>I’m curious how others here are handling:</p> <ul> <li>content deduplication across large docs sites</li> <li>chunking strategies that preserve semantic boundaries</li> <li>change detection for continuously updated documentation</li> </ul> <p>Happy to share implementation details or benchmarks if useful — mostly looking for critique or alternative approaches from people working on similar systems.</p> <p>- <a href=\"https://apify.com/devwithbobby/docs-markdown-rag-ready-crawler\">https://apify.com/devwithbobby/docs-markdown-rag-ready-crawler</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rgztmalv\"> /u/rgztmalv </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa20k5/d_designing_a_crawler_that_produces_ready/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa20k5/d_designing_a_crawler_that_produces_ready/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "224b3aef-13db-550c-98b6-ef73377e3ce7",
-    "title": "[R] Updated my machine learning note: with DeepSeek's new mHC",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qa0taf/r_updated_my_machine_learning_note_with_deepseeks/",
-    "pubDate": "2026-01-11T14:34:11+00:00",
-    "description": "Please find it in my notes repository: https://github.com/roboticcam/machine-learning-notes It's under the section: \"Transformer with PyTorch\" submitted by /u/Delicious_Screen_789 [link] [comments]",
-    "author": "/u/Delicious_Screen_789",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Please find it in my notes repository: <a href=\"https://github.com/roboticcam/machine-learning-notes\">https://github.com/roboticcam/machine-learning-notes</a></p> <p>It's under the section: &quot;Transformer with PyTorch&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Delicious_Screen_789\"> /u/Delicious_Screen_789 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa0taf/r_updated_my_machine_learning_note_with_deepseeks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa0taf/r_updated_my_machine_learning_note_with_deepseeks/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f5f45643-b788-5b62-a66c-0e0982a23202",
-    "title": "[R] Why doubly stochastic matrix idea (using Sinkhorn-Knopp algorithm) only made popular in the DeepSeek's mHC paper, but not in earlier RNN papers?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qa0n65/r_why_doubly_stochastic_matrix_idea_using/",
-    "pubDate": "2026-01-11T14:26:51+00:00",
-    "description": "After DeepSeek’s mHC paper, the Sinkhorn–Knopp algorithm has attracted a lot of attention because it turns $$\\mathcal{H}^{\\mathrm{res}}_{l}$$ at each layer into a doubly stochastic matrix. As a result, the layerwise product remains doubly stochastic, and since the L_2 (spectral) norm of a doubly stochastic matrix is 1, this helps prevent vanishing or exploding gradients. This makes me wonder why such an apparently straightforward idea wasn’t discussed more during the era of recurrent neural networks, where training dynamics also involve products of many matrices. submitted by /u/Delicious_Screen_789 [link] [comments]",
-    "author": "/u/Delicious_Screen_789",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>After DeepSeek’s mHC paper, the Sinkhorn–Knopp algorithm has attracted a lot of attention because it turns $$\\mathcal{H}^{\\mathrm{res}}_{l}$$ at each layer into a <strong>doubly stochastic</strong> matrix. As a result, the layerwise product remains doubly stochastic, and since the L_2 (spectral) norm of a doubly stochastic matrix is 1, this helps prevent vanishing or exploding gradients.</p> <p>This makes me wonder why such an apparently straightforward idea wasn’t discussed more during the era of recurrent neural networks, where training dynamics also involve products of many matrices.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Delicious_Screen_789\"> /u/Delicious_Screen_789 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa0n65/r_why_doubly_stochastic_matrix_idea_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qa0n65/r_why_doubly_stochastic_matrix_idea_using/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fd248408-22fd-5ba2-9d39-3d1a29f079f5",
-    "title": "[D] What is the intuition behind Bag Of Word methods in time series classification ?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1q9y5b8/d_what_is_the_intuition_behind_bag_of_word/",
-    "pubDate": "2026-01-11T12:27:25+00:00",
-    "description": "I can't comprehend why transforming a time series to strings is something desirable, is it merely an adaptation to time series classification models or does it have some theoretical basis ? submitted by /u/al3arabcoreleone [link] [comments]",
-    "author": "/u/al3arabcoreleone",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I can't comprehend why transforming a time series to strings is something desirable, is it merely an adaptation to time series classification models or does it have some theoretical basis ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/al3arabcoreleone\"> /u/al3arabcoreleone </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q9y5b8/d_what_is_the_intuition_behind_bag_of_word/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1q9y5b8/d_what_is_the_intuition_behind_bag_of_word/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
