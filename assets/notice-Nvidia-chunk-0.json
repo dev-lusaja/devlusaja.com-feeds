@@ -1,5 +1,21 @@
 [
   {
+    "id": "ec3f471d-7640-539b-924d-1cb3cc8fa798",
+    "title": "Introducing Nemotron 3 Super: An Open Hybrid Mamba-Transformer MoE for Agentic Reasoning",
+    "link": "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/",
+    "pubDate": "2026-03-11T16:00:00+00:00",
+    "description": "Agentic AI systems need models with the specialized depth to solve dense technical problems autonomously. They must excel at reasoning, coding, and long-context...",
+    "author": "Chris Alexiuk",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-genai-social-nemotron-3-4643900-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Copy of genai-social-nemotron-3-4643900-1920x1080\" width=\"768\" />Agentic AI systems need models with the specialized depth to solve dense technical problems autonomously. They must excel at reasoning, coding, and long-context...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-genai-social-nemotron-3-4643900-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Copy of genai-social-nemotron-3-4643900-1920x1080\" width=\"768\" /><p>Agentic AI systems need models with the specialized depth to solve dense technical problems autonomously. They must excel at reasoning, coding, and long-context analysis, while remaining efficient enough to run continuously at scale. Multi-agent systems generate up to 15x the tokens of standard chats, re-sending history, tool outputs, and reasoning steps at every turn. Over long tasks…</p>\n<p><a href=\"https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c8546fc6-1f4e-5ae2-837c-cd0ebc7fa0f4",
     "title": "Reliable AI Coding for Unreal Engine: Improving Accuracy and Reducing Token Costs",
     "link": "https://developer.nvidia.com/blog/reliable-ai-coding-for-unreal-engine-improving-accuracy-and-reducing-token-costs/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/vlm-retrieval-system-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"vlm-retrieval-system\" width=\"768\" />Kimi K2.5 is the newest open vision language model (VLM) from the Kimi family of models. Kimi K2.5 is a general-purpose multimodal model that excels in current...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/vlm-retrieval-system-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"vlm-retrieval-system\" width=\"768\" /><p>Kimi K2.5 is the newest open vision language model (VLM) from the Kimi family of models. Kimi K2.5 is a general-purpose multimodal model that excels in current high-demand tasks such as agentic AI workflows, chat, reasoning, coding, mathematics, and more. The model was trained using the open source Megatron‑LM framework. Megatron-LM provides accelerated computing for scalability and GPU…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-with-kimi-k2-5-multimodal-vlm-using-nvidia-gpu-accelerated-endpoints/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "afc740a0-e396-5ed8-ad37-0a39778b85d9",
-    "title": "How to Build a Document Processing Pipeline for RAG with Nemotron",
-    "link": "https://developer.nvidia.com/blog/how-to-build-a-document-processing-pipeline-for-rag-with-nemotron/",
-    "pubDate": "2026-02-04T16:00:00+00:00",
-    "description": "What if your AI agent could instantly parse complex PDFs, extract nested tables, and \"see\" data within charts as easily as reading a text file? With NVIDIA...",
-    "author": "Moon Chung",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />What if your AI agent could instantly parse complex PDFs, extract nested tables, and \"see\" data within charts as easily as reading a text file? With NVIDIA...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>What if your AI agent could instantly parse complex PDFs, extract nested tables, and “see” data within charts as easily as reading a text file? With NVIDIA Nemotron RAG, you can build a high-throughput intelligent document processing pipeline that handles massive document workloads with precision and accuracy. This post walks you through the core components of a multimodal retrieval pipeline…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-build-a-document-processing-pipeline-for-rag-with-nemotron/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
