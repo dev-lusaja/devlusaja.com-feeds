@@ -1,5 +1,21 @@
 [
   {
+    "id": "04fb274c-686a-563a-a80b-ce2c46c20a10",
+    "title": "Using NVFP4 Low-Precision Model Training for Higher Throughput Without Losing Accuracy",
+    "link": "https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/",
+    "pubDate": "2026-02-23T18:00:00+00:00",
+    "description": "As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as...",
+    "author": "Aditya Vavre",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/gpus-model-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gpus-model\" width=\"600\" />As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/gpus-model-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gpus-model\" width=\"600\" /><p>As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as training throughput expectations, memory limits, and rising costs are becoming the primary barriers to scaling transformer models. Using lower-precision training can address these challenges. By reducing the numeric precision used during…</p>\n<p><a href=\"https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0cc1af7a-df3c-5eb8-8830-d776e1c61942",
     "title": "Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization",
     "link": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/",
