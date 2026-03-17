@@ -222,53 +222,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Full transparency upfront: I’m not an ML researcher. I’m a solutions architect who works with voice AI integrations. After a 13-hour coding marathon today, my brain started making weird connections and I asked Claude to help me write this up properly because I don’t have the background to formalize it myself.</p> <p>I’m posting this because: (a) I genuinely want to know if this is interesting or stupid, (b) I don’t need credit for anything, and (c) if there’s signal here, someone smarter than me should do something with it.</p> <p>The shower thought:</p> <p>Physical substrate filtration (like building a road bed or water filtration) layers materials by particle size: fine sand → coarse sand → gravel → crushed stone. Each layer handles what it can and passes the rest up. Order matters. The system is subtractive.</p> <p>Attention in transformers seems to have emergent granularity—early layers handle local patterns, later layers handle global dependencies. But this is learned, not constrained.</p> <p>The question:</p> <p>What if you explicitly constrained attention heads to specific receptive field sizes, like physical filter substrates?</p> <p>Something like:</p> <pre><code>∙ Heads 1-4: only attend within 16 tokens (fine) ∙ Heads 5-8: attend within 64 tokens (medium) ∙ Heads 9-12: global attention (coarse) </code></pre> <p>Why this might not be stupid:</p> <pre><code>∙ Longformer/BigBird already do binary local/global splits ∙ WaveNet uses dilated convolutions with exponential receptive fields ∙ Probing studies show heads naturally specialize by granularity anyway ∙ Could reduce compute (fine heads don’t need O(n²)) ∙ Adds interpretability (you know what each head is doing) </code></pre> <p>Why this might be stupid (more likely):</p> <pre><code>∙ Maybe the flexibility of unconstrained heads is the whole point ∙ Maybe this has been tried and doesn’t work ∙ I literally don’t know what I don’t know </code></pre> <p>Bonus weird idea:</p> <p>What if attention was explicitly subtractive like physical filtration? Fine-grained heads “handle” local patterns and remove them from the residual stream, so coarse heads only see what’s ambiguous. No idea if gradient flow would survive this.</p> <p>What I’m asking:</p> <pre><code>1. Is this a known research direction I just haven’t found? 2. Is the analogy fundamentally broken somewhere? 3. Is this interesting enough that someone should actually test it? 4. Please destroy this if it deserves destruction—I’d rather know </code></pre> <p>Thanks for reading my 1am brain dump. For Clyde Tombaugh.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notruescotchman\"> /u/notruescotchman </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfwm1g/d_shower_thought_after_13hr_coding_session_could/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfwm1g/d_shower_thought_after_13hr_coding_session_could/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "c2159585-a04a-5973-a9bb-45c67fb576e6",
-    "title": "[D] My papers are being targeted by a rival group. Can I block them?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qfk79d/d_my_papers_are_being_targeted_by_a_rival_group/",
-    "pubDate": "2026-01-17T18:05:11+00:00",
-    "description": "I’ve noticed a pattern with my recent AI conference submissions: I keep getting hit with strongly negative reviews. I'm fairly certain these reviewers belong to a specific group with research that heavily overlaps with mine. Is there any way to exclude a specific university on OpenReview? submitted by /u/Dangerous-Hat1402 [link] [comments]",
-    "author": "/u/Dangerous-Hat1402",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve noticed a pattern with my recent AI conference submissions: I keep getting hit with strongly negative reviews. I'm fairly certain these reviewers belong to a specific group with research that heavily overlaps with mine.</p> <p>Is there any way to exclude a specific university on OpenReview?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dangerous-Hat1402\"> /u/Dangerous-Hat1402 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfk79d/d_my_papers_are_being_targeted_by_a_rival_group/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfk79d/d_my_papers_are_being_targeted_by_a_rival_group/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "aae6e6c6-9949-548e-ad7a-3d66c38b4862",
-    "title": "[D] Evaluating long-context consistency reasoning in LLMs using full-length narrative evidence",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qfj8qk/d_evaluating_longcontext_consistency_reasoning_in/",
-    "pubDate": "2026-01-17T17:29:01+00:00",
-    "description": "I worked on a long-context reasoning system built and evaluated at IIT Kharagpur as part of the Kharagpur Data Science Hackathon (KDSH 2026). The goal was to evaluate whether large language models can determine causal and logical consistency between a proposed character backstory and an entire novel (~100k words), rather than relying on local plausibility. System details: - Long-document ingestion and evidence aggregation using Pathway - Local LLM inference using Ollama (Llama 2.5, 7B parameters) - Fully local, no paid APIs - Focus on constraint tracking and evidence-based decisions submitted by /u/vicky_kr_ [link] [comments]",
-    "author": "/u/vicky_kr_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I worked on a long-context reasoning system built and evaluated at IIT Kharagpur as part of the Kharagpur Data Science Hackathon (KDSH 2026).</p> <p>The goal was to evaluate whether large language models can determine causal and logical consistency between a proposed character backstory and an entire novel (~100k words), rather than relying on local plausibility.</p> <p>System details:</p> <p>- Long-document ingestion and evidence aggregation using Pathway</p> <p>- Local LLM inference using Ollama (Llama 2.5, 7B parameters)</p> <p>- Fully local, no paid APIs</p> <p>- Focus on constraint tracking and evidence-based decisions</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vicky_kr_\"> /u/vicky_kr_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfj8qk/d_evaluating_longcontext_consistency_reasoning_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfj8qk/d_evaluating_longcontext_consistency_reasoning_in/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "092f1fa9-30bf-52f4-8c4c-5f08eebcb884",
-    "title": "[D]It feels like LLM inference is missing its AWS Lambda moment.",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qfgqvy/dit_feels_like_llm_inference_is_missing_its_aws/",
-    "pubDate": "2026-01-17T15:54:37+00:00",
-    "description": "If we actually wanted “model = function” to work, a few things seem fundamentally required: •. Fast scale from zero without keeping GPUs alive just to hold state • Execution state reuse so models don’t need full re-init and KV rebuild on every scale event • Clear separation between orchestration and runtime, like Lambda vs the underlying compute • Predictable latency even under spiky, bursty traffic • Cost model that doesn’t assume always-on GPUs Today, most inference setups still treat models as long-lived services, which makes scale-to-zero and elasticity awkward. What’s the real hard blocker to a true Lambda-style abstraction for models? Cold starts, KV cache, GPU memory semantics, scheduling, or something else? submitted by /u/pmv143 [link] [comments]",
-    "author": "/u/pmv143",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>If we actually wanted “model = function” to work, a few things seem fundamentally required:</p> <pre><code>•. Fast scale from zero without keeping GPUs alive just to hold state • Execution state reuse so models don’t need full re-init and KV rebuild on every scale event • Clear separation between orchestration and runtime, like Lambda vs the underlying compute • Predictable latency even under spiky, bursty traffic • Cost model that doesn’t assume always-on GPUs </code></pre> <p>Today, most inference setups still treat models as long-lived services, which makes scale-to-zero and elasticity awkward.</p> <p>What’s the real hard blocker to a true Lambda-style abstraction for models? Cold starts, KV cache, GPU memory semantics, scheduling, or something else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmv143\"> /u/pmv143 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfgqvy/dit_feels_like_llm_inference_is_missing_its_aws/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qfgqvy/dit_feels_like_llm_inference_is_missing_its_aws/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
