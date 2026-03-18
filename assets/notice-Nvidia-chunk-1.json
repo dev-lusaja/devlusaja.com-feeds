@@ -1,5 +1,21 @@
 [
   {
+    "id": "8a35c59d-2f69-56a1-beb2-4023306da062",
+    "title": "Maximizing GPU Utilization with NVIDIA Run:ai and NVIDIA NIM",
+    "link": "https://developer.nvidia.com/blog/maximizing-gpu-utilization-with-nvidia-runai-and-nvidia-nim/",
+    "pubDate": "2026-02-27T17:00:00+00:00",
+    "description": "Organizations deploying LLMs are challenged by inference workloads with different resource requirements. A small embedding model might use only a few gigabytes...",
+    "author": "Shwetha Krishnamurthy",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/genai-visual-mixture-of-experts-3105423-e1772062206929-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-visual-mixture-of-experts-3105423\" width=\"768\" />Organizations deploying LLMs are challenged by inference workloads with different resource requirements. A small embedding model might use only a few gigabytes...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/genai-visual-mixture-of-experts-3105423-e1772062206929-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-visual-mixture-of-experts-3105423\" width=\"768\" /><p>Organizations deploying LLMs are challenged by inference workloads with different resource requirements. A small embedding model might use only a few gigabytes of GPU memory, while a 70B+ parameter LLM could require multiple GPUs. This diversity often leads to low average GPU utilization, high compute costs, and unpredictable latency. The problem isn’t just about packing more workloads onto…</p>\n<p><a href=\"https://developer.nvidia.com/blog/maximizing-gpu-utilization-with-nvidia-runai-and-nvidia-nim/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "00ce68af-706b-54fa-b915-61eead7e344d",
     "title": "Making Softmax More Efficient with NVIDIA Blackwell Ultra",
     "link": "https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/",
