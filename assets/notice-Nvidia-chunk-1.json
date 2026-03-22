@@ -462,21 +462,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/nvidia-gb300-nvl72-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-gb300-nvl72\" width=\"768\" />In 2025, NVIDIA partnered with Black Forest Labs (BFL) to optimize the FLUX.1 text-to-image model series, unlocking FP4 image generation performance on NVIDIA...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/nvidia-gb300-nvl72-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-gb300-nvl72\" width=\"768\" /><p>In 2025, NVIDIA partnered with Black Forest Labs (BFL) to optimize the FLUX.1 text-to-image model series, unlocking FP4 image generation performance on NVIDIA Blackwell GeForce RTX 50 Series GPUs. As a natural extension of the latent diffusion model, FLUX.1 Kontext [dev] proved that in-context learning is a feasible technique for visual-generation models, not just large language models (LLMs).</p>\n<p><a href=\"https://developer.nvidia.com/blog/scaling-nvfp4-inference-for-flux-2-on-nvidia-blackwell-data-center-gpus/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "5458ea9e-599a-54f6-ac54-69fed2a59d41",
-    "title": "Streamlining CUB with a Single-Call API",
-    "link": "https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/",
-    "pubDate": "2026-01-21T21:28:00+00:00",
-    "description": "The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional \"two-phase\" API, which separates memory estimation...",
-    "author": "Giannis Gonidelis",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional \"two-phase\" API, which separates memory estimation...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>The C++ template library CUB is a go-to for high-performance GPU primitive algorithms, but its traditional “two-phase” API, which separates memory estimation from allocation, can be cumbersome. While this programming model offers flexibility, it often results in repetitive boilerplate code. This post explains the shift from this API to the new CUB single-call API introduced in CUDA 13.1…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]

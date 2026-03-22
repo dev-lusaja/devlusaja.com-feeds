@@ -190,37 +190,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been bashing away at this on and off for a year now, and I just seem to be chasing my tail. I am using TensorFlow to try to determine sea state from webcam stills, but I don't seem to be getting any closer to a useful model. Training accuracy for a few models is around 97% and I have tried to prevent overtraining - but to be honest, whatever I try doesn't make much difference. My predicted classification on unseen images is only slightly better than a guess, and dumb things seem to throw it. For example, one of the camera angles has a telegraph pole in shot... so when the models sees a telegraph pole, it just ignores everything else and classifies it based on that. &quot;Ohhh there's that pole again! Must be a 3m swell!&quot;. Another view has a fence, which also seems to determine how the image is classified over and above everything else.</p> <p>Are these things I can get the model to ignore, or are my expectations of what it can do just waaaaaaay too high?</p> <p>Edit: can't edit title typo. Don't judge me.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dug99\"> /u/dug99 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjqjf2/is_webcam_image_classification_afools_errand_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjqjf2/is_webcam_image_classification_afools_errand_n/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "ea8e36e2-4eeb-5d3e-b2a9-9d1bb0289783",
-    "title": "[D] DFDC Dataset Access",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qjmv4n/d_dfdc_dataset_access/",
-    "pubDate": "2026-01-22T06:13:28+00:00",
-    "description": "Was working on a deepfake research paper and was trying to get access to DFDC dataset but for some reason the dfdc official website ain't working, is it because I didnt acquire access to it ??? Is there any other way I can get hands on the dataset??? submitted by /u/Ok_Concert6723 [link] [comments]",
-    "author": "/u/Ok_Concert6723",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Was working on a deepfake research paper and was trying to get access to DFDC dataset but for some reason the dfdc official website ain't working, is it because I didnt acquire access to it ??? Is there any other way I can get hands on the dataset???</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Concert6723\"> /u/Ok_Concert6723 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjmv4n/d_dfdc_dataset_access/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjmv4n/d_dfdc_dataset_access/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a579b721-6e85-5aaa-86f4-e6cb7bc42189",
-    "title": "[D] Which data design patterns have held up for you in production?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qjmqy8/d_which_data_design_patterns_have_held_up_for_you/",
-    "pubDate": "2026-01-22T06:07:01+00:00",
-    "description": "I came across this article on data design patterns and found it grounded in real system behavior rather than tools. It walks through patterns that show up when supporting ML and AI workloads at scale. After reading this , I was curious to hear from others here: which patterns you rely on most, which ones failed under scale and patterns you think are overused. I am keen on hearing more about failures and lessons learned than success stories from people who have been there and done that. submitted by /u/Aggravating_Map_2493 [link] [comments]",
-    "author": "/u/Aggravating_Map_2493",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I came across this article on <a href=\"https://medium.com/aws-in-plain-english/data-engineering-design-patterns-you-must-learn-in-2026-c25b7bd0b9a7\">data design patterns </a>and found it grounded in real system behavior rather than tools. It walks through patterns that show up when supporting ML and AI workloads at scale. After reading this , I was curious to hear from others here: which patterns you rely on most, which ones failed under scale and patterns you think are overused. I am keen on hearing more about failures and lessons learned than success stories from people who have been there and done that.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aggravating_Map_2493\"> /u/Aggravating_Map_2493 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjmqy8/d_which_data_design_patterns_have_held_up_for_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qjmqy8/d_which_data_design_patterns_have_held_up_for_you/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
