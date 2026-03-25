@@ -446,21 +446,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm porting DeepDanbooru v3 (Janouch port) to PyTorch. After mapping 209 layers from Safetensors, the model outputs exactly 0.5 for all tags. I've tracked it back to the Batch Normalization layers. It seems like the 'running_var' values are causing a collapse. Is this a known issue when converting Keras/TensorFlow weights to PyTorch for ResNet architectures? Should I manually initialize the BN stats?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RevolutionaryAge70\"> /u/RevolutionaryAge70 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qmftku/d_deepdanbooru_v3_pytorch_port_constant_05_or_0/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qmftku/d_deepdanbooru_v3_pytorch_port_constant_05_or_0/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "c82c608f-ac65-53a2-aa24-961bc5003751",
-    "title": "[D] ICLR 2026 decision mega thread",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qm32o6/d_iclr_2026_decision_mega_thread/",
-    "pubDate": "2026-01-24T23:52:12+00:00",
-    "description": "The review is out tomorrow (a few hours remaining following eastern time). I am creating this mega thread to talk about meta reviews and final decisions. After the Openreview fiasco, this will be interesting. Good luck everyone! submitted by /u/ayanD2 [link] [comments]",
-    "author": "/u/ayanD2",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>The review is out tomorrow (a few hours remaining following eastern time). I am creating this mega thread to talk about meta reviews and final decisions. </p> <p>After the Openreview fiasco, this will be interesting.</p> <p>Good luck everyone!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ayanD2\"> /u/ayanD2 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qm32o6/d_iclr_2026_decision_mega_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qm32o6/d_iclr_2026_decision_mega_thread/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
