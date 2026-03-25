@@ -1,5 +1,37 @@
 [
   {
+    "id": "27989b01-28a3-51bc-99ad-a8840bb37629",
+    "title": "Speeding Up Variable-Length Training with Dynamic Context Parallelism and NVIDIA Megatron Core",
+    "link": "https://developer.nvidia.com/blog/speeding-up-variable-length-training-with-dynamic-context-parallelism-and-nvidia-megatron-core/",
+    "pubDate": "2026-01-28T16:28:06+00:00",
+    "description": "This post introduces Dynamic Context Parallelism (Dynamic-CP), a scheduling approach in NVIDIA Megatron Core used for LLM post-training or DiT pre-training. It...",
+    "author": "Kunlun Li",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"A decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Dynamic-Context-Parallelism-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Dynamic-Context-Parallelism\" width=\"600\" />This post introduces Dynamic Context Parallelism (Dynamic-CP), a scheduling approach in NVIDIA Megatron Core used for LLM post-training or DiT pre-training. It...<img alt=\"A decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Dynamic-Context-Parallelism-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Dynamic-Context-Parallelism\" width=\"600\" /><p>This post introduces Dynamic Context Parallelism (Dynamic-CP), a scheduling approach in NVIDIA Megatron Core used for LLM post-training or DiT pre-training. It dynamically selects the CP size per microbatch to efficiently handle variable-length sequences, achieving up to 1.48x speedup on real-world datasets. In large-scale model training, an often-overlooked bottleneck arises from the…</p>\n<p><a href=\"https://developer.nvidia.com/blog/speeding-up-variable-length-training-with-dynamic-context-parallelism-and-nvidia-megatron-core/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "7331cc34-44df-5db6-85ab-c35ff1587805",
+    "title": "Updating Classifier Evasion for Vision Language Models",
+    "link": "https://developer.nvidia.com/blog/updating-classifier-evasion-for-vision-language-models/",
+    "pubDate": "2026-01-28T16:19:12+00:00",
+    "description": "Advances in AI architectures have unlocked multimodal functionality, enabling transformer models to process multiple forms of data in the same context. For...",
+    "author": "Joseph Lucas",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Cars with bounding boxes driving over a bridge in a city.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Cybersecuirty-LLMs-e1769616726424-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cybersecuirty-LLMs\" width=\"768\" />Advances in AI architectures have unlocked multimodal functionality, enabling transformer models to process multiple forms of data in the same context. For...<img alt=\"Cars with bounding boxes driving over a bridge in a city.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"433\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/Cybersecuirty-LLMs-e1769616726424-768x433.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cybersecuirty-LLMs\" width=\"768\" /><p>Advances in AI architectures have unlocked multimodal functionality, enabling transformer models to process multiple forms of data in the same context. For instance, vision language models (VLMs) can generate output from combined image and text input, enabling developers to build systems that interpret graphs, process camera feeds, or operate with traditionally human interfaces like desktop…</p>\n<p><a href=\"https://developer.nvidia.com/blog/updating-classifier-evasion-for-vision-language-models/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1b1776f3-722f-566f-b52e-31b7ea179bec",
     "title": "Accelerating Diffusion Models with an Open, Plug-and-Play Offering",
     "link": "https://developer.nvidia.com/blog/accelerating-diffusion-models-with-an-open-plug-and-play-offering/",
