@@ -1,6 +1,6 @@
 {
-  "totalItems": 27760,
-  "generatedAt": "2026-03-26T04:03:28.814623Z",
+  "totalItems": 27754,
+  "generatedAt": "2026-03-26T10:09:50.247023Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -186,7 +186,7 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 2643,
+      "totalItems": 2642,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
@@ -210,7 +210,7 @@
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 252,
+      "totalItems": 248,
       "totalChunks": 9,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -239,7 +239,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 1127,
+        "count": 1128,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -247,7 +247,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 1057,
+        "count": 1058,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -255,7 +255,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 459,
+        "count": 456,
         "isPriority": true,
         "totalChunks": 16,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -273,7 +273,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 533,
+        "count": 535,
         "isPriority": true,
         "totalChunks": 18,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -289,7 +289,7 @@
       {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 275,
+        "count": 274,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-Xataka"
@@ -297,7 +297,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 179,
+        "count": 178,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-Towards"
@@ -305,15 +305,15 @@
       {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 151,
+        "count": 150,
         "isPriority": true,
-        "totalChunks": 6,
+        "totalChunks": 5,
         "chunkPrefix": "notice-Euronews"
       },
       {
         "category": "ElComercio_PE",
         "title": "El Comercio",
-        "count": 143,
+        "count": 142,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-ElComercio_PE"
@@ -345,18 +345,10 @@
       {
         "category": "Nvidia",
         "title": "Nvidia",
-        "count": 65,
+        "count": 64,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Nvidia"
-      },
-      {
-        "category": "HuggingFace",
-        "title": "HuggingFace",
-        "count": 47,
-        "isPriority": true,
-        "totalChunks": 2,
-        "chunkPrefix": "notice-HuggingFace"
       },
       {
         "category": "MIT_AI",
@@ -367,17 +359,25 @@
         "chunkPrefix": "notice-MIT_AI"
       },
       {
+        "category": "HuggingFace",
+        "title": "HuggingFace",
+        "count": 46,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "notice-HuggingFace"
+      },
+      {
         "category": "CNN_Espanol",
         "title": "CNN",
-        "count": 30,
+        "count": 32,
         "isPriority": true,
-        "totalChunks": 1,
+        "totalChunks": 2,
         "chunkPrefix": "notice-CNN_Espanol"
       },
       {
         "category": "DeepMind",
         "title": "DeepMind",
-        "count": 11,
+        "count": 12,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-DeepMind"
@@ -445,7 +445,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 279,
+    "totalItems": 275,
     "totalChunks": 10,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
