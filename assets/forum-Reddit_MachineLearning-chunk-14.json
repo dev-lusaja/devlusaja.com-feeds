@@ -318,37 +318,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been assigned to vet potential AI agents for our ops team. I'm trying to move away from &quot;vibes-based&quot; evaluation (chatting with the bot manually) to something data-driven.</p> <p>I’m looking at frameworks like Terminal Bench or Harbor.</p> <p>My issue: They seem great for measuring <em>performance</em> (speed, code execution), but my stakeholders care about <em>business logic</em> and <em>safety</em> (e.g., &quot;Will it promise a refund it shouldn't?&quot;).</p> <p>Has anyone here:</p> <ol> <li>Actually used these benchmarks to decide on a purchase?</li> <li>Found that these technical scores correlate with real-world quality?</li> <li>Or do you end up hiring a specialized agency to do a &quot;Red Team&quot; audit for specific business cases?</li> </ol> <p>I need something that produces a report I can show to a non-technical VP. Right now, raw benchmark scores just confuse them.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/External_Spite_699\"> /u/External_Spite_699 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpom60/d_evaluating_ai_agents_for_enterprise_use_are/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpom60/d_evaluating_ai_agents_for_enterprise_use_are/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "8fd5fb78-d5c7-5f5b-ad5f-7d9768e7aba8",
-    "title": "[P] LAD-A2A: How AI agents find each other on local networks",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qpmxvk/p_lada2a_how_ai_agents_find_each_other_on_local/",
-    "pubDate": "2026-01-28T20:26:42+00:00",
-    "description": "AI agents are getting really good at doing things, but they're completely blind to their physical surroundings. If you walk into a hotel and you have an AI assistant (like the Chatgpt mobile app), it has no idea there may be a concierge agent on the network that could help you book a spa, check breakfast times, or request late checkout. Same thing at offices, hospitals, cruise ships. The agents are there, but there's no way to discover them. A2A (Google's agent-to-agent protocol) handles how agents talk to each other. MCP handles how agents use tools. But neither answers a basic question: how do you find agents in the first place? So I built LAD-A2A, a simple discovery protocol. When you connect to a Wi-Fi, your agent can automatically find what's available using mDNS (like how AirDrop finds nearby devices) or a standard HTTP endpoint. The spec is intentionally minimal. I didn't want to reinvent A2A or create another complex standard. LAD-A2A just handles discovery, then hands off to A2A for actual communication. Open source, Apache 2.0. Includes a working Python implementation you can run to see it in action. Curious what people think! submitted by /u/franzvill [link] [comments]",
-    "author": "/u/franzvill",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>AI agents are getting really good at doing things, but they're completely blind to their physical surroundings.</p> <p>If you walk into a hotel and you have an AI assistant (like the Chatgpt mobile app), it has no idea there may be a concierge agent on the network that could help you book a spa, check breakfast times, or request late checkout. Same thing at offices, hospitals, cruise ships. The agents are there, but there's no way to discover them.</p> <p>A2A (Google's agent-to-agent protocol) handles how agents talk to each other. MCP handles how agents use tools. But neither answers a basic question: how do you find agents in the first place?</p> <p>So I built LAD-A2A, a simple discovery protocol. When you connect to a Wi-Fi, your agent can automatically find what's available using mDNS (like how AirDrop finds nearby devices) or a standard HTTP endpoint. </p> <p>The spec is intentionally minimal. I didn't want to reinvent A2A or create another complex standard. LAD-A2A just handles discovery, then hands off to A2A for actual communication.</p> <p>Open source, Apache 2.0. Includes a working Python implementation you can run to see it in action.</p> <p>Curious what people think!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/franzvill\"> /u/franzvill </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpmxvk/p_lada2a_how_ai_agents_find_each_other_on_local/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpmxvk/p_lada2a_how_ai_agents_find_each_other_on_local/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "03f42fad-3c17-595d-a3e9-bd57e14c9430",
-    "title": "[R] Promising writing improvements in CVPR rebuttal.",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qpe5vq/r_promising_writing_improvements_in_cvpr_rebuttal/",
-    "pubDate": "2026-01-28T15:19:07+00:00",
-    "description": "Hello, One of the reviewers of my CVPR paper put as a major concern the structure of a part of my paper. I don’t see how I can answer this. Should I just promise that this will be fixed upon acceptance? Thanks! submitted by /u/Training-Adeptness57 [link] [comments]",
-    "author": "/u/Training-Adeptness57",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>One of the reviewers of my CVPR paper put as a major concern the structure of a part of my paper. I don’t see how I can answer this. Should I just promise that this will be fixed upon acceptance?</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Training-Adeptness57\"> /u/Training-Adeptness57 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpe5vq/r_promising_writing_improvements_in_cvpr_rebuttal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpe5vq/r_promising_writing_improvements_in_cvpr_rebuttal/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
