@@ -270,53 +270,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>ICML 2026 will follow a two-policy framework for the use of large language models (LLMs) in reviewing, based on the following two policies:</p> <ul> <li><strong>Policy A (Conservative)</strong>: Use of LLMs for reviewing is <strong>strictly prohibited</strong>.</li> <li><strong>Policy B (Permissive):</strong> <strong><em>Allowed:</em></strong> Use of LLMs to help understand the paper and related works, and polish reviews. Submissions can be fed to privacy-compliant* LLMs. <strong><em>Not allowed:</em></strong> Ask LLMs about strengths/weaknesses, ask to suggest key points for the review, suggest an outline for the review, or write the full review.</li> </ul> <p>Which policy types did everyone go with? Could selecting a particular policy type negatively impact the final score?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Internet-196\"> /u/Ok-Internet-196 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qq3rzb/d_icml_submission_policy_type/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qq3rzb/d_icml_submission_policy_type/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "a9eaf89c-f7bd-50a8-bfed-fc75f6ba3f94",
-    "title": "[D] Lessons learned when trying to rely on G-CTR-style guarantees in practice",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qq0xcl/d_lessons_learned_when_trying_to_rely_on/",
-    "pubDate": "2026-01-29T06:23:56+00:00",
-    "description": "Following up on earlier discussions around AI evals and static guarantees. In some recent work, we looked at G-CTR-style approaches and tried to understand where they actually help in practice — and where they quietly fail. A few takeaways that surprised us: - static guarantees can look strong while missing adaptive failure modes - benchmark performance ≠ deployment confidence - some failure cases only show up when you stop optimizing the metric itself Paper for context: https://arxiv.org/abs/2601.05887 Curious how others here are thinking about evals that don’t collapse once systems are exposed to non-iid or adversarial conditions. submitted by /u/Obvious-Language4462 [link] [comments]",
-    "author": "/u/Obvious-Language4462",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Following up on earlier discussions around AI evals and static guarantees.</p> <p>In some recent work, we looked at G-CTR-style approaches and tried to understand where they actually help in practice — and where they quietly fail.</p> <p>A few takeaways that surprised us:</p> <p>- static guarantees can look strong while missing adaptive failure modes</p> <p>- benchmark performance ≠ deployment confidence</p> <p>- some failure cases only show up when you stop optimizing the metric itself</p> <p>Paper for context: <a href=\"https://arxiv.org/abs/2601.05887\">https://arxiv.org/abs/2601.05887</a></p> <p>Curious how others here are thinking about evals that don’t collapse once systems are exposed to non-iid or adversarial conditions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Obvious-Language4462\"> /u/Obvious-Language4462 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qq0xcl/d_lessons_learned_when_trying_to_rely_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qq0xcl/d_lessons_learned_when_trying_to_rely_on/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0fdf96b0-7630-5ec5-a2a8-056dbd9d7176",
-    "title": "[p] Kaggleingest -- ingest dataset schema and notebooks about a competition for LLMs",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qq0sly/p_kaggleingest_ingest_dataset_schema_and/",
-    "pubDate": "2026-01-29T06:16:48+00:00",
-    "description": "you can try it on kaggleingest[dot]com this project is made as a side project, I got inspired by gitingest[dot]com. submitted by /u/Low-Mastodon-4291 [link] [comments]",
-    "author": "/u/Low-Mastodon-4291",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>you can try it on kaggleingest[dot]com<br /> this project is made as a side project, I got inspired by gitingest[dot]com.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Low-Mastodon-4291\"> /u/Low-Mastodon-4291 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qq0sly/p_kaggleingest_ingest_dataset_schema_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qq0sly/p_kaggleingest_ingest_dataset_schema_and/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b20d35c9-19f2-5179-8396-4c80fa5d3092",
-    "title": "[D] Evaluating AI Agents for enterprise use: Are standardized benchmarks (Terminal, Harbor, etc.) actually useful for non-tech stakeholders?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qpom60/d_evaluating_ai_agents_for_enterprise_use_are/",
-    "pubDate": "2026-01-28T21:29:02+00:00",
-    "description": "I've been assigned to vet potential AI agents for our ops team. I'm trying to move away from \"vibes-based\" evaluation (chatting with the bot manually) to something data-driven. I’m looking at frameworks like Terminal Bench or Harbor. My issue: They seem great for measuring performance (speed, code execution), but my stakeholders care about business logic and safety (e.g., \"Will it promise a refund it shouldn't?\"). Has anyone here: Actually used these benchmarks to decide on a purchase? Found that these technical scores correlate with real-world quality? Or do you end up hiring a specialized agency to do a \"Red Team\" audit for specific business cases? I need something that produces a report I can show to a non-technical VP. Right now, raw benchmark scores just confuse them. submitted by /u/External_Spite_699 [link] [comments]",
-    "author": "/u/External_Spite_699",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been assigned to vet potential AI agents for our ops team. I'm trying to move away from &quot;vibes-based&quot; evaluation (chatting with the bot manually) to something data-driven.</p> <p>I’m looking at frameworks like Terminal Bench or Harbor.</p> <p>My issue: They seem great for measuring <em>performance</em> (speed, code execution), but my stakeholders care about <em>business logic</em> and <em>safety</em> (e.g., &quot;Will it promise a refund it shouldn't?&quot;).</p> <p>Has anyone here:</p> <ol> <li>Actually used these benchmarks to decide on a purchase?</li> <li>Found that these technical scores correlate with real-world quality?</li> <li>Or do you end up hiring a specialized agency to do a &quot;Red Team&quot; audit for specific business cases?</li> </ol> <p>I need something that produces a report I can show to a non-technical VP. Right now, raw benchmark scores just confuse them.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/External_Spite_699\"> /u/External_Spite_699 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpom60/d_evaluating_ai_agents_for_enterprise_use_are/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qpom60/d_evaluating_ai_agents_for_enterprise_use_are/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
