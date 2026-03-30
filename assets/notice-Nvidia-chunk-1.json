@@ -414,53 +414,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" />In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" /><p>In LLM training, Expert Parallel (EP) communication for hyperscale mixture-of-experts (MoE) models is challenging. EP communication is essentially all-to-all, but due to its dynamics and sparseness (only topk experts per AI token instead of all experts), it’s challenging to implement and optimize. This post details an efficient MoE EP communication solution, Hybrid-EP, and its use in the…</p>\n<p><a href=\"https://developer.nvidia.com/blog/optimizing-communication-for-mixture-of-experts-training-with-hybrid-expert-parallel/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "9597558c-8696-5dbe-8686-e490709e4133",
-    "title": "Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton",
-    "link": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/",
-    "pubDate": "2026-01-30T20:01:47+00:00",
-    "description": "NVIDIA CUDA Tile is a GPU-based programming model that targets portability for NVIDIA Tensor Cores, unlocking peak GPU performance. One of the great things...",
-    "author": "Jie Xin",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/abstract-image-green-square-overlay-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"abstract-image-green-square-overlay\" width=\"768\" />NVIDIA CUDA Tile is a GPU-based programming model that targets portability for NVIDIA Tensor Cores, unlocking peak GPU performance. One of the great things...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/abstract-image-green-square-overlay-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"abstract-image-green-square-overlay\" width=\"768\" /><p>NVIDIA CUDA Tile is a GPU-based programming model that targets portability for NVIDIA Tensor Cores, unlocking peak GPU performance. One of the great things about CUDA Tile is that you can build your own DSL on top of it. This post shares the work NVIDIA is doing to integrate CUDA Tile as a backend for OpenAI Triton, an open source Python DSL designed to write DL kernels for GPUs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6b685695-3f99-5e11-b877-160f55c82dbb",
-    "title": "Establishing a Scalable Sparse Ecosystem with the Universal Sparse Tensor",
-    "link": "https://developer.nvidia.com/blog/establishing-a-scalable-sparse-ecosystem-with-the-universal-sparse-tensor/",
-    "pubDate": "2026-01-30T18:00:00+00:00",
-    "description": "Sparse tensors are vectors, matrices, and higher-dimensional generalizations with many zeros. They are crucial in various fields such as scientific computing,...",
-    "author": "Aart J.C. Bik",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/wave-0s-1s-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"wave-0s-1s\" width=\"768\" />Sparse tensors are vectors, matrices, and higher-dimensional generalizations with many zeros. They are crucial in various fields such as scientific computing,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/wave-0s-1s-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"wave-0s-1s\" width=\"768\" /><p>Sparse tensors are vectors, matrices, and higher-dimensional generalizations with many zeros. They are crucial in various fields such as scientific computing, signal processing, and deep learning due to their efficiency in storage, computation, and power. Despite their benefits, handling sparse tensors manually or through existing libraries is often cumbersome, error-prone, nonportable…</p>\n<p><a href=\"https://developer.nvidia.com/blog/establishing-a-scalable-sparse-ecosystem-with-the-universal-sparse-tensor/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c556388f-2cc0-5784-943b-ddcb1076070c",
-    "title": "Practical Security Guidance for Sandboxing Agentic Workflows and Managing Execution Risk",
-    "link": "https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk/",
-    "pubDate": "2026-01-30T16:13:00+00:00",
-    "description": "AI coding agents enable developers to work faster by streamlining tasks and driving automated, test-driven development. However, they also introduce a...",
-    "author": "Rich Harang",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/security-techblog-press-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"security-techblog-press-1920x1080\" width=\"768\" />AI coding agents enable developers to work faster by streamlining tasks and driving automated, test-driven development. However, they also introduce a...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/security-techblog-press-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"security-techblog-press-1920x1080\" width=\"768\" /><p>AI coding agents enable developers to work faster by streamlining tasks and driving automated, test-driven development. However, they also introduce a significant, often overlooked, attack surface by running tools from the command line with the same permissions and entitlements as the user, making them computer use agents, with all the risks those entail. The primary threat to these tools is…</p>\n<p><a href=\"https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
