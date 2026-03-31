@@ -446,37 +446,5 @@
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1qs3pcm/p_offline_llms_at_edge_automating_family_memories/\"> <img alt=\"[P] Offline LLMs at edge - Automating Family Memories\" src=\"https://external-preview.redd.it/u4SbbEIuNeaSSZT2_0143l3E3Wk2DzkQtiT2_iZdKJ4.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=a97d83511444d5a9e00eba6d3188f7b08ac6959f\" title=\"[P] Offline LLMs at edge - Automating Family Memories\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Over winter break I built a prototype which is effectively a device (currently Raspberry Pi) which listens and detects &quot;meaningful moments&quot; for a given household or family. I have two young kids so it's somewhat tailored for that environment.</p> <p>What I have so far works, and catches 80% of the 1k &quot;moments&quot; I manually labeled and deemed as worth preserving. And I'm confident I could make it better, however there is a wall of optimization problems ahead of me. Here's a brief summary of the system:</p> <p><strong>1)</strong> Microphone -&gt;</p> <p><strong>2)</strong> Rolling audio buffer in memory -&gt;</p> <p><strong>3)</strong> Transcribe (using Whisper - good, but expensive) -&gt;</p> <p><strong>4)</strong> Quantized local LLM (think Mistral, etc.) judges the output of Whisper. Includes transcript but also semantic details about conversations, including tone, turn taking, energy, pauses, etc. -&gt;</p> <p><strong>5)</strong> Output structured JSON binned to days/weeks, viewable in a web app, includes a player for listening to the recorded moments</p> <p>I'm currently doing a lot of heavy lifting with external compute off-board from the Raspberry Pi. I want everything to be onboard, no external connections/compute required. This quickly becomes a very heavy optimization problem, to be able to achieve all of this with <strong>completely offline edge compute</strong>, while retaining quality.</p> <p>Naturally you can use more distilled models, but there's an obvious tradeoff in quality the more you do that. Also, I'm not aware of many edge accelerators which are purpose built for LLMs, I saw Raspberry Pi just announced a <a href=\"https://www.raspberrypi.com/news/introducing-the-raspberry-pi-ai-hat-plus-2-generative-ai-on-raspberry-pi-5/\">hat/accelerator</a>.. I'm curious to experiment with that possibly.</p> <p>I'm also curious to explore options such as <strong>TinyML</strong>. TinyML opens the door to truly edge compute, but LLMs at edge? <strong>I'm trying to learn up</strong> on what the latest and greatest successes in this space have been.</p> <p>I would be interested to hear from anyone else who is experienced in doing anything with generative tech, offline, at edge. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GoochCommander\"> /u/GoochCommander </a> <br /> <span><a href=\"https://youtu.be/JSdS_NTRqnM?si=K8oapPrlf0gYt_tr\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qs3pcm/p_offline_llms_at_edge_automating_family_memories/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/u4SbbEIuNeaSSZT2_0143l3E3Wk2DzkQtiT2_iZdKJ4.jpeg?width=320&crop=smart&auto=webp&s=a97d83511444d5a9e00eba6d3188f7b08ac6959f",
     "isShortVideo": 0
-  },
-  {
-    "id": "e12c0a33-8c78-5d7b-b9b6-689b750829fa",
-    "title": "TTS a d voice cloning [P] [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qru7df/tts_a_d_voice_cloning_p_r/",
-    "pubDate": "2026-01-31T05:52:55+00:00",
-    "description": "i am currently working on TTS and voice cloning project. I tried many approaches and finally choose open source chatterbox model by ressemble ai; i am currently process to write the architecture myself and use pre trained weights. Also am planning to train it further to add my native language. Also am planing to write paper on this project so i need someone who can help me in architecture rewrite and research please. submitted by /u/Neat_Initiative953 [link] [comments]",
-    "author": "/u/Neat_Initiative953",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>i am currently working on TTS and voice cloning project. I tried many approaches and finally choose open source chatterbox model by ressemble ai; i am currently process to write the architecture myself and use pre trained weights. Also am planning to train it further to add my native language. Also am planing to write paper on this project so i need someone who can help me in architecture rewrite and research please. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Neat_Initiative953\"> /u/Neat_Initiative953 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qru7df/tts_a_d_voice_cloning_p_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qru7df/tts_a_d_voice_cloning_p_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "29edac39-8c9c-5663-ae6a-392fc09b71bd",
-    "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-    "pubDate": "2026-01-31T03:30:32+00:00",
-    "description": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for] ​ Please remember that this community is geared towards those with experience. submitted by /u/AutoModerator [link] [comments]",
-    "author": "/u/AutoModerator",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for]</p> </blockquote> <p>&#x200b;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
