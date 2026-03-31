@@ -1,5 +1,37 @@
 [
   {
+    "id": "e2ab538b-2722-599a-ac05-74d21430a2e0",
+    "title": "Enhancing Distributed Inference Performance with the NVIDIA Inference Transfer Library",
+    "link": "https://developer.nvidia.com/blog/enhancing-distributed-inference-performance-with-the-nvidia-inference-transfer-library/",
+    "pubDate": "2026-03-09T17:00:00+00:00",
+    "description": "Deploying large language models (LLMs) requires large-scale distributed inference, which spreads model computation and request handling across many GPUs and...",
+    "author": "Seonghee Lee",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/ai-data-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-data\" width=\"768\" />Deploying large language models (LLMs) requires large-scale distributed inference, which spreads model computation and request handling across many GPUs and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/ai-data-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-data\" width=\"768\" /><p>Deploying large language models (LLMs) requires large-scale distributed inference, which spreads model computation and request handling across many GPUs and nodes to scale to more users while reducing latency. Distributed inference frameworks use techniques such as disaggregated serving, KV cache loading, and wide expert parallelism. In disaggregated serving environments…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enhancing-distributed-inference-performance-with-the-nvidia-inference-transfer-library/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "72682320-c428-563d-b212-1deb32ccc394",
+    "title": "Removing the Guesswork from Disaggregated Serving",
+    "link": "https://developer.nvidia.com/blog/removing-the-guesswork-from-disaggregated-serving/",
+    "pubDate": "2026-03-09T16:00:00+00:00",
+    "description": "Deploying and optimizing large language models (LLMs) for high-performance, cost-effective serving can be an overwhelming engineering problem. The ideal...",
+    "author": "Tianhao Xu",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/genai-mixture-of-experts-blog-3105601-1920x1080-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-mixture-of-experts-blog-3105601-1920x1080\" width=\"768\" />Deploying and optimizing large language models (LLMs) for high-performance, cost-effective serving can be an overwhelming engineering problem. The ideal...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/genai-mixture-of-experts-blog-3105601-1920x1080-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-mixture-of-experts-blog-3105601-1920x1080\" width=\"768\" /><p>Deploying and optimizing large language models (LLMs) for high-performance, cost-effective serving can be an overwhelming engineering problem. The ideal configuration for any given workload (such as hardware, parallelism, and prefill/decode split) resides in a massive, multi-dimensional search space that is impossible to explore manually or through exhaustive testing. AIConfigurator…</p>\n<p><a href=\"https://developer.nvidia.com/blog/removing-the-guesswork-from-disaggregated-serving/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ebf85d95-7496-5eae-b7bc-b7f1738ddc70",
     "title": "NVIDIA Blackwell Sets STAC-AI Record for LLM Inference in Finance",
     "link": "https://developer.nvidia.com/blog/nvidia-blackwell-sets-stac-ai-record-for-llm-inference-in-finance/",
