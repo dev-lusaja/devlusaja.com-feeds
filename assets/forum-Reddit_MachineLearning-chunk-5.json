@@ -1,5 +1,21 @@
 [
   {
+    "id": "f5c02f2d-b924-56f2-87dc-6863f68ce517",
+    "title": "[D] Ijcai 2026 reviews",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/",
+    "pubDate": "2026-03-05T10:18:31+00:00",
+    "description": "[D] Did anyone received their ijcai 2026 reviews and what are expectations by all ? I am also new to chairing tool if anyone has used it can tell me also how to check reviews on that or it will pop up as entering to its page submitted by /u/adi_gawd [link] [comments]",
+    "author": "/u/adi_gawd",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>[D] Did anyone received their ijcai 2026 reviews and what are expectations by all ? </p> <p>I am also new to chairing tool if anyone has used it can tell me also how to check reviews on that or it will pop up as entering to its page </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/adi_gawd\"> /u/adi_gawd </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d1c61102-db5a-53c3-bc69-f221746ed50e",
     "title": "[D] Impact of EU AI Act on your work?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rldp59/d_impact_of_eu_ai_act_on_your_work/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/\"> <img alt=\"[R] Benchmarked 94 LLM endpoints for jan 2026. open source is now within 5 quality points of proprietary\" src=\"https://preview.redd.it/k7z58sla4fmg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=dd90d1166347ac079c9a1fcbe0bd1aa29be81b8f\" title=\"[R] Benchmarked 94 LLM endpoints for jan 2026. open source is now within 5 quality points of proprietary\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>been doing a deep dive on model selection for production inference and pulled togethar some numbers from whatllm.org's january 2026 report... thought it was worth sharing because the trajectory is moving faster than i expected</p> <p>quick context on the scoring,, they use a quality index (QI) derived from artificial analysis benchmarks, normalized 0-100. covers AIME 2025, LiveCodeBench, GPQA Diamond, MMLU-Pro and τ²-Bench across agentic tasks</p> <p><strong>where things stand right now:</strong></p> <p>open source top 5:</p> <ul> <li>GLM-4.7 ~ 68 QI / 96% τ²-Bench / 89% LiveCodeBench</li> <li>Kimi K2 Thinking ~ 67 QI / 95% AIME / 256K context</li> <li>MiMo-V2-Flash ~ 66 QI / 96% AIME (best math in open weights)</li> <li>DeepSeek V3.2 ~ 66 QI / $0.30/M via deepinfra</li> <li>MiniMax-M2.1 ~ 64 QI / 88% MMLU-Pro</li> </ul> <p>proprietary top 5:</p> <ul> <li>Gemini 3 Pro Preview ~ 73 QI / 91% GPQA Diamond / 1M context</li> <li>GPT-5.2 ~ 73 QI / 99% AIME</li> <li>Gemini 3 Flash ~ 71 QI / 97% AIME / 1M context</li> <li>Claude Opus 4.5 ~ 70 QI / 90% τ²-Bench</li> <li>GPT-5.1 ~ 70 QI / balanced across all benchmarks</li> </ul> <p>numbers are in the image above,, but the τ²-Bench flip is the one worth paying attention to</p> <p>where proprietary still holds,, GPQA Diamond (+5 pts), deep reasoning chains, and anything needing 1M+ context (Gemini). GPT-5.2's 99% AIME is still untouched on the open source side</p> <p><strong>cost picture is where it gets interesting:</strong></p> <p>open source via inference providers:</p> <ul> <li>Qwen3 235B via Fireworks ~ $0.10/M</li> <li>MiMo-V2-Flash via Xiaomi ~ $0.15/M</li> <li>GLM-4.7 via Z AI ~ $0.18/M</li> <li>DeepSeek V3.2 via deepinfra ~ $0.30/M</li> <li>Kimi K2 via Moonshot ~ $0.60/M</li> </ul> <p>proprietary:</p> <ul> <li>Gemini 3 Flash ~ $0.40/M</li> <li>GPT-5.1 ~ $3.50/M</li> <li>Gemini 3 Pro ~ $4.50/M</li> <li>GPT-5.2 ~ $5.00/M</li> <li>Claude Opus 4.5 ~ $30.00/M</li> </ul> <p>cost delta at roughly comparable quality... DeepSeek V3.2 at $0.30/M vs GPT-5.1 at $3.50/M for a 4 point QI differnce (66 vs 70). thats an 85% cost reduction for most use cases where reasoning ceiling isnt the bottleneck</p> <p>the gap was 12 points in early 2025... its 5 now. and on agentic tasks specifically open source is already ahead. be curious what people are seeing in production,, does the benchmark gap actualy translate to noticable output quality differences at that range or is it mostly neglijable for real workloads?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ashersullivan\"> /u/ashersullivan </a> <br /> <span><a href=\"https://i.redd.it/k7z58sla4fmg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/k7z58sla4fmg1.png?width=640&crop=smart&auto=webp&s=dd90d1166347ac079c9a1fcbe0bd1aa29be81b8f",
-    "isShortVideo": 0
-  },
-  {
-    "id": "47b593ad-735e-503e-858d-67f43407a211",
-    "title": "[R] Tiny transformers (<100 params) can add two 10-digit numbers to 100% accuracy",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/",
-    "pubDate": "2026-02-28T17:15:05+00:00",
-    "description": "Really interesting project. Crazy you can get such good performance. A key component is that they are digit tokens. Floating math will be way tricker. submitted by /u/LetsTacoooo [link] [comments]",
-    "author": "/u/LetsTacoooo",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/\"> <img alt=\"[R] Tiny transformers (&lt;100 params) can add two 10-digit numbers to 100% accuracy\" src=\"https://external-preview.redd.it/1BS1qsBBGaHBC3k_LH8kbvv273r9Z2KmBbnWD9Z76FU.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e7a7b3a2fa48c609a15696873151a038b3944576\" title=\"[R] Tiny transformers (&lt;100 params) can add two 10-digit numbers to 100% accuracy\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Really interesting project. Crazy you can get such good performance. A key component is that they are digit tokens. Floating math will be way tricker. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LetsTacoooo\"> /u/LetsTacoooo </a> <br /> <span><a href=\"https://github.com/anadim/AdderBoard\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/1BS1qsBBGaHBC3k_LH8kbvv273r9Z2KmBbnWD9Z76FU.png?width=640&crop=smart&auto=webp&s=e7a7b3a2fa48c609a15696873151a038b3944576",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "46f82332-e806-5963-91f9-3e5f42aea5bd",
+    "title": "[D] Conformal Prediction vs naive thresholding to represent uncertainty",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1r37m2f/d_conformal_prediction_vs_naive_thresholding_to/",
+    "pubDate": "2026-02-12T22:29:39+00:00",
+    "description": "So I recently found out about conformal prediction (cp). I’m still trying to understand it and implications of it for tasks like classification/anomaly detection. Say we have a knn based anomaly detector trained on non anomalous samples. I’m wondering how using something rigorous like cp compares to simply thresholding the trained model’s output distance/score using two thresholds t1, t2 such that score > t1 = anomaly, score < t2 = normal, t1<= score<= t2 : uncertain. The thresholds can be set based on domain knowledge or precision recall curves or some other heuristic. Am I comparing apples to oranges here? Is the thresholding not capturing model uncertainty? submitted by /u/HistoricalMistake681 [link] [comments]",
+    "author": "/u/HistoricalMistake681",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>So I recently found out about conformal prediction (cp). I’m still trying to understand it and implications of it for tasks like classification/anomaly detection. Say we have a knn based anomaly detector trained on non anomalous samples. I’m wondering how using something rigorous like cp compares to simply thresholding the trained model’s output distance/score using two thresholds t1, t2 such that score &gt; t1 = anomaly, score &lt; t2 = normal, t1&lt;= score&lt;= t2 : uncertain. The thresholds can be set based on domain knowledge or precision recall curves or some other heuristic. Am I comparing apples to oranges here? Is the thresholding not capturing model uncertainty?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HistoricalMistake681\"> /u/HistoricalMistake681 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r37m2f/d_conformal_prediction_vs_naive_thresholding_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r37m2f/d_conformal_prediction_vs_naive_thresholding_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "446716f2-e810-5641-b970-a6c648e9a4fb",
     "title": "[D] We scanned 18,000 exposed OpenClaw instances and found 15% of community skills contain malicious instructions",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1r30nzv/d_we_scanned_18000_exposed_openclaw_instances_and/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi folks,</p> <p>I’m a 4th-year PhD student at USC (graduating next year) with 5+ first-author publications at top-tier venues like ICLR and ACL. This year I applied to both Research Intern/Student Researcher roles and SWE PhD internships.</p> <p>For the research intern positions, I didn’t get any interview calls, which was honestly pretty discouraging since my dream job after graduation is to become a Research Scientist at Google. On the other hand, I did get interviews for SWE intern roles, including teams working on Gemini (which seem research-adjacent but more product-oriented).</p> <p>I’d really appreciate hearing about others’ experiences and perspectives. A few specific questions:</p> <ul> <li>What are the main differences between SWE PhD internships vs. Research internships?</li> <li>How different are the full-time paths (SWE vs. Research Scientist)? How easy is it to move between them?</li> <li>Do some SWE roles also allow for meaningful research and publishing, or is that rare?</li> <li>If I do a SWE internship now, would it still be realistic to target a Research Scientist role at Google after graduation?</li> <li>How competitive are research intern / student researcher positions in these days?</li> <li>What kind of profiles typically get interviews (publications, referrals, specific research areas, etc.)?</li> </ul> <p>For this summer, one alternative I’m considering is a research-oriented internship at a bank where there’s a possibility of publishing. I’m trying to understand how that would compare to a SWE internship in terms of positioning for research-focused full-time roles later.</p> <p>Long-term, I’d like to keep the door open to return to academia, so maintaining a research and publication track is important to me.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Prize_Hospital6525\"> /u/Prize_Hospital6525 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0vpwv/d_research_intern_and_swe_intern_phd_positions_at/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0vpwv/d_research_intern_and_swe_intern_phd_positions_at/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "be1dad08-9efd-5e3d-9c84-c430f508f536",
-    "title": "[D] Questions on the original VQ-VAE",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r0vmzl/d_questions_on_the_original_vqvae/",
-    "pubDate": "2026-02-10T08:48:05+00:00",
-    "description": "I have a couple questions on the VQ-VAE paper. I am having an unusually hard time bridging the gist of the paper with a deeper understanding, and I now find it badly written in this regard (just using words where notation would help). The authors in section 4.2 describe the latent space of the codebook as a 32x32 grid of categorical variables, and then evaluate the compression of the ImageNet sample as 128x128x3x8 / 32x32x9, but I have no idea what the 8 is supposed to be (batch size of the Figure 2?), what the 9 is supposed to be (???), and then I think the feature size of the codebook (512) should be accounted for. Then, I do not really get how the generation process is performed: they train another CNN to predict the code index from the feature map (?), thus approximating the discretization process, and then sample autoregressively with the decoder. I would like to ensure which feature map tensor is going into the CNN, what do they mean by spatial mask, how/whether do they generate a grid of labels, and how do they actually decode autoregressively. Thanks for the help submitted by /u/Sad-Razzmatazz-5188 [link] [comments]",
-    "author": "/u/Sad-Razzmatazz-5188",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a couple questions on the VQ-VAE paper. </p> <p>I am having an unusually hard time bridging the gist of the paper with a deeper understanding, and I now find it badly written in this regard (just using words where notation would help). </p> <p>The authors in section 4.2 describe the latent space of the codebook as a 32x32 grid of categorical variables, and then evaluate the compression of the ImageNet sample as 128x128x3x8 / 32x32x9, but I have no idea what the 8 is supposed to be (batch size of the Figure 2?), what the 9 is supposed to be (???), and then I think the feature size of the codebook (512) should be accounted for. </p> <p>Then, I do not really get how the generation process is performed: they train another CNN to predict the code index from the feature map (?), thus approximating the discretization process, and then sample autoregressively with the decoder. I would like to ensure which feature map tensor is going into the CNN, what do they mean by spatial mask, how/whether do they generate a grid of labels, and how do they actually decode autoregressively.</p> <p>Thanks for the help</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sad-Razzmatazz-5188\"> /u/Sad-Razzmatazz-5188 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0vmzl/d_questions_on_the_original_vqvae/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0vmzl/d_questions_on_the_original_vqvae/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

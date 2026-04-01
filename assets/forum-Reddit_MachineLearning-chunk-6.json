@@ -1,5 +1,21 @@
 [
   {
+    "id": "47b593ad-735e-503e-858d-67f43407a211",
+    "title": "[R] Tiny transformers (<100 params) can add two 10-digit numbers to 100% accuracy",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/",
+    "pubDate": "2026-02-28T17:15:05+00:00",
+    "description": "Really interesting project. Crazy you can get such good performance. A key component is that they are digit tokens. Floating math will be way tricker. submitted by /u/LetsTacoooo [link] [comments]",
+    "author": "/u/LetsTacoooo",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/\"> <img alt=\"[R] Tiny transformers (&lt;100 params) can add two 10-digit numbers to 100% accuracy\" src=\"https://external-preview.redd.it/1BS1qsBBGaHBC3k_LH8kbvv273r9Z2KmBbnWD9Z76FU.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e7a7b3a2fa48c609a15696873151a038b3944576\" title=\"[R] Tiny transformers (&lt;100 params) can add two 10-digit numbers to 100% accuracy\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Really interesting project. Crazy you can get such good performance. A key component is that they are digit tokens. Floating math will be way tricker. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LetsTacoooo\"> /u/LetsTacoooo </a> <br /> <span><a href=\"https://github.com/anadim/AdderBoard\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/1BS1qsBBGaHBC3k_LH8kbvv273r9Z2KmBbnWD9Z76FU.png?width=640&crop=smart&auto=webp&s=e7a7b3a2fa48c609a15696873151a038b3944576",
+    "isShortVideo": 0
+  },
+  {
     "id": "0c436b69-0fe0-57c3-a73a-97298a900da6",
     "title": "[R] Prompt Repetition Shows Null Result on Agentic Engineering Tasks (n=20, blind scored)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rd3g2t/r_prompt_repetition_shows_null_result_on_agentic/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>About me: I am an AOSP Engineer and I extensively work with Android internal systems, I switched to iOS, because its closed source, and since AOSP is open-source it always bugs me to check source code.</p> <p>One of the best things I like about iOS is the appleIntelligence, and I wonder why there is no solution regarding the same for Android, I am aware about app-side aspects, and I beleive that with correct permissions something similar is possible on Android as-well.</p> <p>But I want to ask some opinions regarding the same for things needed in ML aspects</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/danascape\"> /u/danascape </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rb1hki/p_designing_an_ondevice_contextual_intelligence/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rb1hki/p_designing_an_ondevice_contextual_intelligence/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "44c12419-b830-5b5e-9815-7b5139a651e3",
-    "title": "[D] I’m building a synthetic data engine for Hinglish (Hindi+English) LLMs — but I’m stuck at a 0.69 quality score. Thoughts?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rb0ft4/d_im_building_a_synthetic_data_engine_for/",
-    "pubDate": "2026-02-21T19:41:13+00:00",
-    "description": "Hey We speak of the “Data Wall,” but for Indian languages, it’s a data abyss. Hinglish corpora are small, toxic-scraped, or lose the Indian flavor after translation. I’m working on a pipeline for the generation of privacy-preserving synthetic Hinglish conversational data. Pipeline: -Seed: 35k real Hinglish conversations (quality: 98.67) -Architecture: GaussianCopula + custom speaker oversampling Goal: scale minority dialects while maintaining code-mix patterns Reality check (10k rows): Privacy: AUC 0.95 (membership inference) Quality: 0.6897 (target ≥ 0.75) Word counts are consistent, but the pattern falls apart after oversampling the minority speakers Questions For 7B-14B models, is ~0.69 similarity sufficient if domain logic is sound? Are statistical synthesizers adequate for Hinglish conversation data, or does an LLM-in-the-loop method only work? Would startups be interested in data certificates (quality, privacy, diversity), or just pure volume? Building this under Forge to minimize dependence on Western-centric corpora. Frankly, is it worth improving, or is statistical synthesis a dead end for conversational LLM data? submitted by /u/Big_Airline7132 [link] [comments]",
-    "author": "/u/Big_Airline7132",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey </p> <p>We speak of the “Data Wall,” but for Indian languages, it’s a data abyss. Hinglish corpora are small, toxic-scraped, or lose the Indian flavor after translation.</p> <p>I’m working on a pipeline for the generation of privacy-preserving synthetic Hinglish conversational data.</p> <p>Pipeline:</p> <p>-Seed: 35k real Hinglish conversations (quality: 98.67) -Architecture: GaussianCopula + custom speaker oversampling</p> <p>Goal: scale minority dialects while maintaining code-mix patterns</p> <p>Reality check (10k rows):</p> <p>Privacy: AUC 0.95 (membership inference)</p> <p>Quality: 0.6897 (target ≥ 0.75)</p> <p>Word counts are consistent, but the pattern falls apart after oversampling the minority speakers</p> <p>Questions</p> <ol> <li><p>For 7B-14B models, is ~0.69 similarity sufficient if domain logic is sound?</p></li> <li><p>Are statistical synthesizers adequate for Hinglish conversation data, or does an LLM-in-the-loop method only work?</p></li> <li><p>Would startups be interested in data certificates (quality, privacy, diversity), or just pure volume?</p></li> </ol> <p>Building this under Forge to minimize dependence on Western-centric corpora.</p> <p>Frankly, is it worth improving, or is statistical synthesis a dead end for conversational LLM data?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Big_Airline7132\"> /u/Big_Airline7132 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rb0ft4/d_im_building_a_synthetic_data_engine_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rb0ft4/d_im_building_a_synthetic_data_engine_for/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

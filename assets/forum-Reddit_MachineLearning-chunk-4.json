@@ -1,5 +1,21 @@
 [
   {
+    "id": "6abded13-f601-5a0b-9b79-3a7bb3946ffe",
+    "title": "[D] Looking for arXiv endorsement (cs.LG) - PDE-based world model paper",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rx5i61/d_looking_for_arxiv_endorsement_cslg_pdebased/",
+    "pubDate": "2026-03-18T14:31:43+00:00",
+    "description": "Hi everyone, I'm a researcher looking for an arXiv endorsement for cs.LG to submit my first paper. I've been working for about a year on FluidWorld, a world model where the prediction engine is a reaction-difffusion PDE instead of attention. The Laplacian diffusion handles spatial propagation, learned reaction terms do the nonlinear mixing, and the PDE integration itself produces the prediction. No attention, no KV-cache, O(N) complexity, 867K parameters total. I ran a parameter matched comparison (PDE vs Transformer vs ConvLSTM, all at ~800K params, same encoder/decoder/losses/data on UCF-101) and the interesting finding is that while single-step metrics are nearly identical, the PDE holds together much better on multi-step rollouts -- the diffusion acts as a natural spatial regularizer that prevents error accumulation. Paper: https://github.com/infinition/FluidWorld/blob/main/paper/Fluidworld.pdf Endorsement code: 6AB9UP https://arxiv.org/auth/endorse?x=6AB9UP If anyone is working on world model, video prediction, neural PDEs, or efficient architectures could endorse me, that would be really appreciated. Happy to answer any questions about the work. Thanks! submitted by /u/Bright_Warning_8406 [link] [comments]",
+    "author": "/u/Bright_Warning_8406",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm a researcher looking for an arXiv endorsement for cs.LG to submit my first paper. I've been working for about a year on FluidWorld, a world model where the prediction engine is a reaction-difffusion PDE instead of attention. The Laplacian diffusion handles spatial propagation, learned reaction terms do the nonlinear mixing, and the PDE integration itself produces the prediction.</p> <p>No attention, no KV-cache, O(N) complexity, 867K parameters total. I ran a parameter matched comparison (PDE vs Transformer vs ConvLSTM, all at ~800K params, same encoder/decoder/losses/data on UCF-101) and the interesting finding is that while single-step metrics are nearly identical, the PDE holds together much better on multi-step rollouts -- the diffusion acts as a natural spatial regularizer that prevents error accumulation.</p> <p>Paper: <a href=\"https://github.com/infinition/FluidWorld/blob/main/paper/Fluidworld.pdf\">https://github.com/infinition/FluidWorld/blob/main/paper/Fluidworld.pdf</a></p> <p>Endorsement code: 6AB9UP<br /> <a href=\"https://arxiv.org/auth/endorse?x=6AB9UP\">https://arxiv.org/auth/endorse?x=6AB9UP</a></p> <p>If anyone is working on world model, video prediction, neural PDEs, or efficient architectures could endorse me, that would be really appreciated. Happy to answer any questions about the work. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bright_Warning_8406\"> /u/Bright_Warning_8406 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx5i61/d_looking_for_arxiv_endorsement_cslg_pdebased/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx5i61/d_looking_for_arxiv_endorsement_cslg_pdebased/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "90fada0a-690f-5f7c-bf8a-abe9dd62e9aa",
     "title": "[P] ColQwen3.5-v3 release + Case study",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rx5avj/p_colqwen35v3_release_case_study/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>First time submitting to ECCV here. No other team member has done it before.</p> <p>I’m not really sure if inclusion of keywords is necessary or not in the submission, can someone help me here please?</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Training-Adeptness57\"> /u/Training-Adeptness57 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rlfhqw/r_are_keywords_necessary_for_eccv_submission/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rlfhqw/r_are_keywords_necessary_for_eccv_submission/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f5c02f2d-b924-56f2-87dc-6863f68ce517",
-    "title": "[D] Ijcai 2026 reviews",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/",
-    "pubDate": "2026-03-05T10:18:31+00:00",
-    "description": "[D] Did anyone received their ijcai 2026 reviews and what are expectations by all ? I am also new to chairing tool if anyone has used it can tell me also how to check reviews on that or it will pop up as entering to its page submitted by /u/adi_gawd [link] [comments]",
-    "author": "/u/adi_gawd",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>[D] Did anyone received their ijcai 2026 reviews and what are expectations by all ? </p> <p>I am also new to chairing tool if anyone has used it can tell me also how to check reviews on that or it will pop up as entering to its page </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/adi_gawd\"> /u/adi_gawd </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

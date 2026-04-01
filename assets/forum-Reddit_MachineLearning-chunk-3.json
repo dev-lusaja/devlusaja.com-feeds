@@ -1,5 +1,21 @@
 [
   {
+    "id": "3040254e-741b-5e41-a0d8-efd666faa3c2",
+    "title": "Performance Prediction of Antenna Control Servo System based on LSTM Network [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rzlq06/performance_prediction_of_antenna_control_servo/",
+    "pubDate": "2026-03-21T07:54:55+00:00",
+    "description": "https://ieeexplore.ieee.org/abstract/document/10668250 Wrote a paper on how to improve performance of servo system (rotating antenna system for satellite tracking) using LSTM. inviting suggestions.! submitted by /u/divyang_space [link] [comments]",
+    "author": "/u/divyang_space",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://ieeexplore.ieee.org/abstract/document/10668250\">https://ieeexplore.ieee.org/abstract/document/10668250</a> Wrote a paper on how to improve performance of servo system (rotating antenna system for satellite tracking) using LSTM. inviting suggestions.!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/divyang_space\"> /u/divyang_space </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzlq06/performance_prediction_of_antenna_control_servo/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzlq06/performance_prediction_of_antenna_control_servo/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ad200c39-11ca-5f48-8ded-2acc9c6a5aee",
     "title": "[D] How do you add theoretical justification to an AI/ML paper?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rzkuxd/d_how_do_you_add_theoretical_justification_to_an/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>We recently released AIBuildAI, an agentic system that automatically builds AI models.<br /> GitHub: <a href=\"https://github.com/aibuildai/AI-Build-AI\">https://github.com/aibuildai/AI-Build-AI</a> </p> <p>On OpenAI’s MLE-Bench benchmark, AIBuildAI ranked #1: <a href=\"https://github.com/openai/mle-bench\">https://github.com/openai/mle-bench</a> </p> <p>The system runs an agent loop that automatically:<br /> • analyzes the task<br /> • designs models<br /> • writes code to implement them<br /> • trains the models<br /> • tunes hyperparameters<br /> • evaluates model performance<br /> • iteratively improves the models</p> <p>The goal is to reduce the amount of manual work required to build AI models and automate much of the model development process.</p> <p>Happy to answer questions and would love to hear feedback from the community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pengtaoxie\"> /u/pengtaoxie </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx7uz5/p_aibuildai_an_ai_agent_that_automatically_builds/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx7uz5/p_aibuildai_an_ai_agent_that_automatically_builds/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6abded13-f601-5a0b-9b79-3a7bb3946ffe",
-    "title": "[D] Looking for arXiv endorsement (cs.LG) - PDE-based world model paper",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rx5i61/d_looking_for_arxiv_endorsement_cslg_pdebased/",
-    "pubDate": "2026-03-18T14:31:43+00:00",
-    "description": "Hi everyone, I'm a researcher looking for an arXiv endorsement for cs.LG to submit my first paper. I've been working for about a year on FluidWorld, a world model where the prediction engine is a reaction-difffusion PDE instead of attention. The Laplacian diffusion handles spatial propagation, learned reaction terms do the nonlinear mixing, and the PDE integration itself produces the prediction. No attention, no KV-cache, O(N) complexity, 867K parameters total. I ran a parameter matched comparison (PDE vs Transformer vs ConvLSTM, all at ~800K params, same encoder/decoder/losses/data on UCF-101) and the interesting finding is that while single-step metrics are nearly identical, the PDE holds together much better on multi-step rollouts -- the diffusion acts as a natural spatial regularizer that prevents error accumulation. Paper: https://github.com/infinition/FluidWorld/blob/main/paper/Fluidworld.pdf Endorsement code: 6AB9UP https://arxiv.org/auth/endorse?x=6AB9UP If anyone is working on world model, video prediction, neural PDEs, or efficient architectures could endorse me, that would be really appreciated. Happy to answer any questions about the work. Thanks! submitted by /u/Bright_Warning_8406 [link] [comments]",
-    "author": "/u/Bright_Warning_8406",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm a researcher looking for an arXiv endorsement for cs.LG to submit my first paper. I've been working for about a year on FluidWorld, a world model where the prediction engine is a reaction-difffusion PDE instead of attention. The Laplacian diffusion handles spatial propagation, learned reaction terms do the nonlinear mixing, and the PDE integration itself produces the prediction.</p> <p>No attention, no KV-cache, O(N) complexity, 867K parameters total. I ran a parameter matched comparison (PDE vs Transformer vs ConvLSTM, all at ~800K params, same encoder/decoder/losses/data on UCF-101) and the interesting finding is that while single-step metrics are nearly identical, the PDE holds together much better on multi-step rollouts -- the diffusion acts as a natural spatial regularizer that prevents error accumulation.</p> <p>Paper: <a href=\"https://github.com/infinition/FluidWorld/blob/main/paper/Fluidworld.pdf\">https://github.com/infinition/FluidWorld/blob/main/paper/Fluidworld.pdf</a></p> <p>Endorsement code: 6AB9UP<br /> <a href=\"https://arxiv.org/auth/endorse?x=6AB9UP\">https://arxiv.org/auth/endorse?x=6AB9UP</a></p> <p>If anyone is working on world model, video prediction, neural PDEs, or efficient architectures could endorse me, that would be really appreciated. Happy to answer any questions about the work. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bright_Warning_8406\"> /u/Bright_Warning_8406 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx5i61/d_looking_for_arxiv_endorsement_cslg_pdebased/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx5i61/d_looking_for_arxiv_endorsement_cslg_pdebased/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "44c12419-b830-5b5e-9815-7b5139a651e3",
+    "title": "[D] I’m building a synthetic data engine for Hinglish (Hindi+English) LLMs — but I’m stuck at a 0.69 quality score. Thoughts?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rb0ft4/d_im_building_a_synthetic_data_engine_for/",
+    "pubDate": "2026-02-21T19:41:13+00:00",
+    "description": "Hey We speak of the “Data Wall,” but for Indian languages, it’s a data abyss. Hinglish corpora are small, toxic-scraped, or lose the Indian flavor after translation. I’m working on a pipeline for the generation of privacy-preserving synthetic Hinglish conversational data. Pipeline: -Seed: 35k real Hinglish conversations (quality: 98.67) -Architecture: GaussianCopula + custom speaker oversampling Goal: scale minority dialects while maintaining code-mix patterns Reality check (10k rows): Privacy: AUC 0.95 (membership inference) Quality: 0.6897 (target ≥ 0.75) Word counts are consistent, but the pattern falls apart after oversampling the minority speakers Questions For 7B-14B models, is ~0.69 similarity sufficient if domain logic is sound? Are statistical synthesizers adequate for Hinglish conversation data, or does an LLM-in-the-loop method only work? Would startups be interested in data certificates (quality, privacy, diversity), or just pure volume? Building this under Forge to minimize dependence on Western-centric corpora. Frankly, is it worth improving, or is statistical synthesis a dead end for conversational LLM data? submitted by /u/Big_Airline7132 [link] [comments]",
+    "author": "/u/Big_Airline7132",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey </p> <p>We speak of the “Data Wall,” but for Indian languages, it’s a data abyss. Hinglish corpora are small, toxic-scraped, or lose the Indian flavor after translation.</p> <p>I’m working on a pipeline for the generation of privacy-preserving synthetic Hinglish conversational data.</p> <p>Pipeline:</p> <p>-Seed: 35k real Hinglish conversations (quality: 98.67) -Architecture: GaussianCopula + custom speaker oversampling</p> <p>Goal: scale minority dialects while maintaining code-mix patterns</p> <p>Reality check (10k rows):</p> <p>Privacy: AUC 0.95 (membership inference)</p> <p>Quality: 0.6897 (target ≥ 0.75)</p> <p>Word counts are consistent, but the pattern falls apart after oversampling the minority speakers</p> <p>Questions</p> <ol> <li><p>For 7B-14B models, is ~0.69 similarity sufficient if domain logic is sound?</p></li> <li><p>Are statistical synthesizers adequate for Hinglish conversation data, or does an LLM-in-the-loop method only work?</p></li> <li><p>Would startups be interested in data certificates (quality, privacy, diversity), or just pure volume?</p></li> </ol> <p>Building this under Forge to minimize dependence on Western-centric corpora.</p> <p>Frankly, is it worth improving, or is statistical synthesis a dead end for conversational LLM data?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Big_Airline7132\"> /u/Big_Airline7132 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rb0ft4/d_im_building_a_synthetic_data_engine_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rb0ft4/d_im_building_a_synthetic_data_engine_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e6d458ee-8135-5449-85ff-7acc38a70b27",
     "title": "[D] CVPR Findings Track",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rb04nn/d_cvpr_findings_track/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I run some experiments on various ML libraries at work, and benchmark some algorithms they package. I would like to try out some library that does hyperparameters optimization (i.e search), and I stumbled upon those 4 candidates:</p> <ul> <li><p><code>hyperopts</code></p></li> <li><p><code>Optuna</code></p></li> <li><p><code>sklearn.GridSearchCV</code> and another object <code>sklearn.RandomizedSearchCV</code></p></li> </ul> <p>Thus, I am asking the community whether you have used those, and if so, which one did you end up choosing?</p> <p>I have some criteria</p> <ul> <li><p>Ecosystem-agnostic: I don't want to be tied to an specific ecosystem (e.g PyTorch, Tensorflow, JAX), as the librairies I try out are various</p></li> <li><p>Performance overhead: I am not necessarily looking for the most optimized library, rather a convenient and feature-full one.</p></li> <li><p>Stability: I'd prefer to avoid a library that may be discontinued in the future.</p></li> </ul> <p>Thanks for reading</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ttghtg\"> /u/Ttghtg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r8v4fn/d_which_hyperparameters_search_library_to_use/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r8v4fn/d_which_hyperparameters_search_library_to_use/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "dd58930e-656a-518d-a5ba-3df0843516b0",
-    "title": "[D] 1T performance from a 397B model. How?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r8txnn/d_1t_performance_from_a_397b_model_how/",
-    "pubDate": "2026-02-19T08:35:52+00:00",
-    "description": "Is this pure architecture (Qwen3- Next), or are we seeing the results of massively improved synthetic data distillation? submitted by /u/Altruistic-Rock-6797 [link] [comments]",
-    "author": "/u/Altruistic-Rock-6797",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is this pure architecture (Qwen3- Next), or are we seeing the results of massively improved synthetic data distillation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Altruistic-Rock-6797\"> /u/Altruistic-Rock-6797 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r8txnn/d_1t_performance_from_a_397b_model_how/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r8txnn/d_1t_performance_from_a_397b_model_how/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

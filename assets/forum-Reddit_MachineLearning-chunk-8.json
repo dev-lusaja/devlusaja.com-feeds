@@ -1,5 +1,21 @@
 [
   {
+    "id": "dd58930e-656a-518d-a5ba-3df0843516b0",
+    "title": "[D] 1T performance from a 397B model. How?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1r8txnn/d_1t_performance_from_a_397b_model_how/",
+    "pubDate": "2026-02-19T08:35:52+00:00",
+    "description": "Is this pure architecture (Qwen3- Next), or are we seeing the results of massively improved synthetic data distillation? submitted by /u/Altruistic-Rock-6797 [link] [comments]",
+    "author": "/u/Altruistic-Rock-6797",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is this pure architecture (Qwen3- Next), or are we seeing the results of massively improved synthetic data distillation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Altruistic-Rock-6797\"> /u/Altruistic-Rock-6797 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r8txnn/d_1t_performance_from_a_397b_model_how/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r8txnn/d_1t_performance_from_a_397b_model_how/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4ab440e0-213d-5e91-9cb4-47aa5016b5b8",
     "title": "[D] Native Vision-Language vs Modular: The Qwen Approach.",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1r8ttvl/d_native_visionlanguage_vs_modular_the_qwen/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I just want to ask PhDs in AI on this sub, how much does your supervisor support your phd ?</p> <p>In term of research output, how much help do you get from your supervisor? Only ambigious direction (e.g. Active Learning/RL for architecture X)? Or more details idea, like the research gap itself? If you meet a certain problem (e.g. cannot solve X because too hard to solve), do they give you any help, like potential solution direction to try, or just tell you &quot;please do something about it&quot;? How often do their suggestion actually help you?</p> <p>If they don't help much, do they ask their post doc or other student to collaborate/help you solve the problem?</p> <p>Do they have KPI for you? (E.g. number of finished work per year?) </p> <p>In term of networking/connection, how much do he/she help you? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_karma_collector\"> /u/_karma_collector </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r6dzz7/d_supervisor_support/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r6dzz7/d_supervisor_support/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2a94d101-1c88-5cce-a69b-271dc5338281",
-    "title": "[P] eqx-learn: Classical machine learning using JAX and Equinox",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r63hz2/p_eqxlearn_classical_machine_learning_using_jax/",
-    "pubDate": "2026-02-16T07:45:43+00:00",
-    "description": "Hello everyone! I am writing here to share a library I am currently developing for research use that filled a niche for me in the Equinox/JAX eco-system: eqx-learn . I am using Equinox as the foundation for my radio-frequency modelling library ParamRF , and I have absolutely loved the mixed OO/functional style. However, for my research, I require classical ML models (specifically PCA and Gaussian Process Regression), but could not find an Equinox-native library in the ecosystem that was as straight-forward and consistent as scikit-learn. eqx-learn aims to address this, with a JAX-based take on the scikit-learn API. All models in the library are ultimately Equinox Module's, and can be fit using the library's free \"fit\" function. The design is such that models simply \"advertise\" their capabilities by implementing specific methods (e.g. solve(X, y), condition(X, y), loss(), and the \"fit\" function then fits/trains the model accordingly. I believe that this de-coupling of capabilities vs fitting algorithm fits the JAX style better, and also has lots of potential. At the moment, eqx-learn addresses all my research needs, but I thought it may be useful to share the library online to advertise that it exists, and mention that I am happy to accept PRs for additional models and fitting algorithms! Although there are no docs, there are short examples in the repo :). Happy coding! Cheers, Gary submitted by /u/gvcallen [link] [comments]",
-    "author": "/u/gvcallen",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone!</p> <p>I am writing here to share a library I am currently developing for research use that filled a niche for me in the Equinox/JAX eco-system: <a href=\"https://github.com/eqx-learn/eqx-learn\">eqx-learn</a>.</p> <p>I am using Equinox as the foundation for my radio-frequency modelling library <a href=\"https://github.com/paramrf/paramrf\">ParamRF</a>, and I have absolutely loved the mixed OO/functional style. However, for my research, I require classical ML models (specifically PCA and Gaussian Process Regression), but could not find an Equinox-native library in the ecosystem that was as straight-forward and consistent as scikit-learn.</p> <p>eqx-learn aims to address this, with a JAX-based take on the scikit-learn API. All models in the library are ultimately Equinox Module's, and can be fit using the library's free &quot;fit&quot; function. The design is such that models simply &quot;advertise&quot; their capabilities by implementing specific methods (e.g. solve(X, y), condition(X, y), loss(), and the &quot;fit&quot; function then fits/trains the model accordingly. I believe that this de-coupling of capabilities vs fitting algorithm fits the JAX style better, and also has lots of potential.</p> <p>At the moment, eqx-learn addresses all my research needs, but I thought it may be useful to share the library online to advertise that it exists, and mention that I am happy to accept PRs for additional models and fitting algorithms!</p> <p>Although there are no docs, there are short examples in the repo :).</p> <p>Happy coding!</p> <p>Cheers, Gary</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gvcallen\"> /u/gvcallen </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r63hz2/p_eqxlearn_classical_machine_learning_using_jax/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r63hz2/p_eqxlearn_classical_machine_learning_using_jax/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

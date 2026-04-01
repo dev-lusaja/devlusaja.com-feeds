@@ -1,5 +1,21 @@
 [
   {
+    "id": "4196fa22-bc1d-5cff-a627-753fe94da615",
+    "title": "[R] Causal self-attention as a probabilistic model over embeddings",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s248e0/r_causal_selfattention_as_a_probabilistic_model/",
+    "pubDate": "2026-03-24T04:37:53+00:00",
+    "description": "We’ve been working on a probabilistic interpretation of causal self-attention where token embeddings are treated as latent variables. In that view, the attention map induces a change-of-variables term, which leads to a barrier / degeneracy boundary in embedding space. The resulting picture is: a stability-margin interpretation of causal attention “support tokens,” i.e. the positions closest to the degeneracy boundary a simple MAP-style training penalty: standard cross-entropy plus a smooth log-barrier term Empirically, this improves robustness to input perturbations and makes the learned geometry more margin-concentrated, without much loss in clean accuracy at modest regularization strengths. Curious whether this framing feels natural to people, or whether it reads more like a <insert-your-favorite-regularizer-here> than a genuinely probabilistic view. submitted by /u/Old-Letterhead-1945 [link] [comments]",
+    "author": "/u/Old-Letterhead-1945",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We’ve been working on a probabilistic interpretation of causal self-attention where token embeddings are treated as latent variables. In that view, the attention map induces a change-of-variables term, which leads to a barrier / degeneracy boundary in embedding space.</p> <p>The resulting picture is:</p> <ul> <li>a stability-margin interpretation of causal attention</li> <li>“support tokens,” i.e. the positions closest to the degeneracy boundary</li> <li>a simple MAP-style training penalty: standard cross-entropy plus a smooth log-barrier term</li> </ul> <p>Empirically, this improves robustness to input perturbations and makes the learned geometry more margin-concentrated, without much loss in clean accuracy at modest regularization strengths.</p> <p>Curious whether this framing feels natural to people, or whether it reads more like a &lt;insert-your-favorite-regularizer-here&gt; than a genuinely probabilistic view.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Old-Letterhead-1945\"> /u/Old-Letterhead-1945 </a> <br /> <span><a href=\"https://arxiv.org/abs/2602.22271\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s248e0/r_causal_selfattention_as_a_probabilistic_model/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e49a7318-b6a6-55b2-8678-8e570c6941c4",
     "title": "[D] Decoding backchannel info: Is a PI being \"aggressive in research\" a massive red flag? (C1 vs Siemens AI Lab)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s20svb/d_decoding_backchannel_info_is_a_pi_being/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello!</p> <p>My friend and I developed 3 models for predicting a win in a Tetr.io match based on playstyle and gameplay. We used this dataset: <a href=\"https://www.kaggle.com/datasets/n3koasakura/tetr-io-top-players-replays\">https://www.kaggle.com/datasets/n3koasakura/tetr-io-top-players-replays</a>, and we had 7 million rows to work with.</p> <p>Some interesting findings for someone who is about only a month into playing Tetr.io (i copypasted from my notebook):</p> <p>• ⁠The amount of garbage received in a match is the most dominant contributor to losing. Receiving a large amount of garbage tends to lead to losses. This suggests that the model is very sensitive to a player's inability to clear garbage. If a player fails to clear garbage despite a high attack_per_piece, then they are likely to lose.</p> <p>• ⁠High attack moves, such as t-spins and back-to-back moves turn out to be negative contributors. This does not mean that such moves are considered negative, but rather that prioritizing flashy setups can be very risky for a player. It may remove their defensive timing and leave them open to incoming_garbage.</p> <p>I wonder how much of our findings are actually true or are just base knowledge for any Tetr.io player.</p> <p>You guys can also check it out here: <a href=\"https://github.com/Solenad/tetrio-win-prediction\">https://github.com/Solenad/tetrio-win-prediction</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/solenad\"> /u/solenad </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzmh1a/r_predicting_tetris_wins/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzmh1a/r_predicting_tetris_wins/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3040254e-741b-5e41-a0d8-efd666faa3c2",
-    "title": "Performance Prediction of Antenna Control Servo System based on LSTM Network [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rzlq06/performance_prediction_of_antenna_control_servo/",
-    "pubDate": "2026-03-21T07:54:55+00:00",
-    "description": "https://ieeexplore.ieee.org/abstract/document/10668250 Wrote a paper on how to improve performance of servo system (rotating antenna system for satellite tracking) using LSTM. inviting suggestions.! submitted by /u/divyang_space [link] [comments]",
-    "author": "/u/divyang_space",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://ieeexplore.ieee.org/abstract/document/10668250\">https://ieeexplore.ieee.org/abstract/document/10668250</a> Wrote a paper on how to improve performance of servo system (rotating antenna system for satellite tracking) using LSTM. inviting suggestions.!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/divyang_space\"> /u/divyang_space </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzlq06/performance_prediction_of_antenna_control_servo/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzlq06/performance_prediction_of_antenna_control_servo/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
