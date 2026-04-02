@@ -1,5 +1,37 @@
 [
   {
+    "id": "c9a96998-0421-50ee-9b2c-02348ea5f660",
+    "title": "Where OpenAI’s technology could show up in Iran",
+    "link": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+    "pubDate": "2026-03-16T17:06:21+00:00",
+    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It’s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still pressing questions about what exactly OpenAI’s…",
+    "author": "James O'Donnell",
+    "sourceTitle": "MIT Tech Review AI",
+    "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "sourceCategory": "MIT_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<p><br /><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\"><em>sign up here</em></a><em>.</em></p>\n\n\n\n<p>It&#8217;s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still pressing questions about what exactly OpenAI’s <a href=\"https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/\">agreement</a> allows for; Sam Altman said the military can’t use his company’s technology to build autonomous weapons, but the agreement really just demands that the military follow its own (quite permissive) <a href=\"https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf\">guidelines</a> about such weapons. OpenAI’s other main claim, that the agreement will prevent use of its technology for domestic surveillance, appears equally <a href=\"https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/\">dubious</a>.</p>\n\n\n\n<p>It’s unclear what OpenAI’s motivations are. It’s not the first tech giant to embrace military contracts it had once vowed never to enter into, but the speed of the pivot was notable. Perhaps it’s just about money; OpenAI is spending lots on AI training and is on the hunt for more revenue (from sources including <a href=\"https://openai.com/index/our-approach-to-advertising-and-expanding-access/\">ads</a>). Or perhaps Altman truly believes the ideological framing he often invokes: that liberal democracies (and their militaries) must have access to the most powerful AI to compete with China.</p>\n\n\n\n<p>The more consequential question is what happens next. OpenAI has decided it is comfortable operating right in the messy heart of combat, just as the US escalates its strikes against Iran (with AI <a href=\"https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/\">playing a larger role</a> in that than ever before). So where exactly could OpenAI’s tech show up in this fight? And which applications will its customers (and employees) tolerate?</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Targets and strikes</strong></h3>\n\n\n\n<p>Though its Pentagon agreement is in place, it’s unclear when OpenAI’s technology will be ready for classified environments, since it must be integrated with other tools the military uses (Elon Musk’s xAI, which recently struck its own deal with the Pentagon, is expected to go through the same process with its AI model Grok). But there’s pressure to do this quickly because of controversy around the technology in use to date: After Anthropic refused to allow its AI to be used for “any lawful use,” President Trump ordered the military to stop using it, and Anthropic was designated a supply chain risk by the Pentagon. (Anthropic is fighting the designation in court.)</p>\n\n\n\n<p>If the Iran conflict is still underway by the time OpenAI’s tech is in the system, what could it be used for? A recent <a href=\"https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/\">conversation</a> I had with a defense official suggests it might look something like this: A human analyst could put a list of potential targets into the AI model and ask it to analyze the information and prioritize which to strike first. The model could account for logistics information, like where particular planes or supplies are located. It could analyze lots of different inputs in the form of text, image, and video.&nbsp;</p>\n\n\n\n<p>A human would then be responsible for manually checking these outputs, the official said. But that raises an obvious question: If a person is truly double-checking AI’s outputs, how is it speeding up targeting and strike decisions?</p>\n\n\n\n<p>For years the military has been using another AI system, called Maven, which can handle things like automatically analyzing drone footage to identify possible targets. It’s likely that OpenAI’s models, like Anthropic’s Claude, will offer a conversational interface on top of that, allowing users to ask for interpretations of intelligence and recommendations for which targets to strike first.&nbsp;</p>\n\n\n\n<p>It’s hard to overstate how new this is: AI has long done analysis for the military, drawing insights out of oceans of data. But using generative AI’s advice about which actions to take in the field is being tested in earnest for the first time in Iran.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Drone defense</strong></h3>\n\n\n\n<p>At the end of 2024, OpenAI announced a <a href=\"https://www.technologyreview.com/2024/12/04/1107897/openais-new-defense-contract-completes-its-military-pivot/\">partnership</a> with Anduril, which makes both drones and counter-drone technologies for the military. The agreement said OpenAI would work with Anduril to do time-sensitive analysis of drones attacking US forces and help take them down. An OpenAI spokesperson told me at the time that this didn’t violate the company’s policies, which prohibited “systems designed to harm others,” because the technology was being used to target drones and not people.&nbsp;</p>\n\n\n\n<p>Anduril provides a suite of counter-drone technologies to military bases around the world (though the company declined to tell me whether its systems are deployed near Iran). Neither company has provided updates on how the project has developed since it was announced. However, Anduril has long trained its own AI models to analyze camera footage and sensor data to identify threats; what it focuses less on are conversational AI systems that allow soldiers to query those systems directly or receive guidance in natural language—an area where OpenAI’s models may fit.</p>\n\n\n\n<p>The stakes are high. Six US service members were killed in Kuwait on March 1 following an Iranian drone attack that was not intercepted by US air defenses.&nbsp;</p>\n\n\n\n\n\n<p>Anduril’s interface, called Lattice, is where soldiers can control everything from drone defenses to missiles and autonomous submarines. And the company is winning massive contracts—<a href=\"https://www.bloomberg.com/news/articles/2026-03-14/us-army-awards-anduril-contract-worth-as-much-as-20-billion\">$20 billion from the US Army just last week</a>—to connect its systems with legacy military equipment and layer AI on them. If OpenAI’s models prove useful to Anduril, Lattice is designed to incorporate them quickly across this broader warfare stack.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Back-office AI</strong></h3>\n\n\n\n<p>In December, Defense Secretary Pete Hegseth started encouraging millions of people in more administrative roles in the military—contracts, logistics, purchasing—to use a new AI tool. Called GenAI.mil, it provided a way for personnel to securely access commercial AI models and use them for the same sorts of things as anyone in the business world.&nbsp;</p>\n\n\n\n<p>Google Gemini was one of the first to be available. In January, the Pentagon announced that xAI’s Grok was going to be added to the GenAI.mil platform as well, despite incidents in which the model had spread antisemitic content and created nonconsensual deepfakes. OpenAI followed in February, with the company announcing that its models would be used for drafting policy documents and contracts and assisting with administrative support of missions.</p>\n\n\n\n<p>Anyone using ChatGPT for unclassified tasks on this platform is unlikely to have much sway over sensitive decisions in Iran, but the prospect of OpenAI deploying on the platform is important in another way. It serves the all-in attitude toward AI that Hegseth has been pushing relentlessly across the Pentagon (even if many <a href=\"https://defensescoop.com/2025/12/18/genai-mil-users-have-mixed-reactions-and-many-questions/\">early users</a> aren’t entirely sure what they’re supposed to use it for). The message is that AI is transforming every aspect of how the US fights, from targeting decisions down to paperwork. And OpenAI is increasingly winning a piece of it all.</p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "3c4e0e9c-5fc5-5208-b72d-c6d668de85f2",
+    "title": "5 Critical Shifts D&A Leaders Must Make to Drive Analytics and AI Success",
+    "link": "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
+    "pubDate": "2026-03-16T17:00:51+00:00",
+    "description": "Access the complimentary Gartner insights now and discover how to make the shifts that matter most for analytics and AI success.",
+    "author": "KDnuggets",
+    "sourceTitle": "KDnuggets",
+    "sourceUrl": "https://www.kdnuggets.com/feed",
+    "sourceCategory": "KDnuggets",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://www.kdnuggets.com/wp-content/uploads/BI24-KD-Nuggets-March-B-600x400-px-Max-Quality.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "4d1849ca-6d01-5f4b-8046-ff87dd09a7c0",
     "title": "AWS Weekly Roundup: Amazon S3 turns 20, Amazon Route 53 Global Resolver general availability, and more (March 16, 2026)",
     "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-s3-turns-20-amazon-route-53-global-resolver-general-availability-and-more-march-16-2026/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "492e63c7-e2b2-5275-be0c-a013f6a33c51",
-    "title": "Una herramienta de IA que detecta el riesgo de violencia machista",
-    "link": "https://es.euronews.com/next/2026/03/15/esta-herramienta-de-ia-detecta-riesgo-de-violencia-de-genero-anos-antes-de-que-se-pida-ayu",
-    "pubDate": "2026-03-15T09:00:47+01:00",
-    "description": "El nuevo sistema de inteligencia artificial identifica patrones de traumatismos físicos asociados a malos tratos y permite a los sanitarios intervenir antes.",
-    "author": "Euronews ES",
-    "sourceTitle": "Euronews",
-    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
-    "sourceCategory": "Euronews",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://images.euronews.com/articles/stories/09/68/50/50/320x180_cmsv2_9fc5a998-ec85-5c4f-b50b-0d7a7c9aef0f-9685050.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7fba0065-bf16-5a81-9a46-c38f8033be09",
-    "title": "Jonathan Brill, ‘futurólogo’ de Amazon: “La IA hará el 80% de nuestro trabajo en los próximos años”",
-    "link": "https://elpais.com/economia/2026-03-15/jonathan-brill-futurologo-de-amazon-la-ia-hara-el-80-de-nuestro-trabajo-en-los-proximos-anos.html",
-    "pubDate": "2026-03-15T05:45:01+01:00",
-    "description": "Brill, que ha asesorado a grandes multinacionales y al Departamento de Estado de EE UU, defiende que esta tecnología “hará que cualquier trabajador sea 30 veces más listo que Einstein”",
-    "author": "Rodrigo Cardona",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/NJHXZZUNM5B5HAKRIGXB3M5RTA.jpg?auth=f59d1e9e091dbe3c1c81a605119683f7a6d08d72434f3d0684fe83889255de24&width=414&height=233&smart=true",
     "isShortVideo": 0
   }
 ]
