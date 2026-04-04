@@ -1,5 +1,37 @@
 [
   {
+    "id": "86811c27-6d45-5594-98d6-c96c772973d2",
+    "title": "Building a strong data infrastructure for AI agent success",
+    "link": "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+    "pubDate": "2026-03-10T14:00:00+00:00",
+    "description": "In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of companies were experimenting with AI agents, while 88% were using AI in at least one business function, up from 78% in 2024, according…",
+    "author": "MIT Technology Review Insights",
+    "sourceTitle": "MIT Tech Review AI",
+    "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "sourceCategory": "MIT_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<p>In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of companies were experimenting with AI agents, while 88% were using AI in at least one business function, up from 78% in 2024, <a href=\"https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai\">according to McKinsey&#8217;s annual AI report</a>. Yet, while early pilots often succeed, only one in 10 companies actually scaled their AI agents.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img alt=\"\" class=\"wp-image-1134097\" height=\"836\" src=\"https://wp.technologyreview.com/wp-content/uploads/2026/03/SAP-article-iStock-933220212.jpg\" width=\"1254\" /></figure>\n\n\n\n<p>One major issue: AI agents are only as effective as the data foundation supporting them. Experts argue that most companies are seeing delays in implementing AI, not because of shortcomings in the models, but because they lack data architectures that deliver business context to be reliably used by humans and agents.</p>\n\n\n\n<p>Companies need to be ready with the right data architecture, and the next few months — years, at most — will be critical, says Irfan Khan, president and chief product officer of SAP Data &amp; Analytics.</p>\n\n\n\n<p>&#8220;The only prediction anybody can reliably make is that we don&#8217;t know what&#8217;s going to happen in the years, months — or even weeks —&nbsp;ahead with AI,&#8221; he says. &#8220;To be able to get quick wins right now, you need to adopt an AI mindset and &#8230; ground your AI models with reliable data.&#8221;<a></a></p>\n\n\n\n<p>While data has always been important for business, it will be even more so in the age of AI. The capabilities of agentic AI will be set more by the soundness of enterprise data architecture and governance, and less by the evolution of the models. To scale the technology, businesses need to adopt a modern data infrastructure that delivers context along with the data.</p>\n\n\n\n<h3 class=\"wp-block-heading\">More business context, not necessarily more data</h3>\n\n\n\n<p>Traditional views often conflate structured data with high value, and unstructured data with less value. However, AI complicates that distinction. High-value data for agents is defined less by format and more by business context. Data for critical business functions — such as supply-chain operations and financial planning — is context dependent. While fine-grained, high-volume data, such as IoT, logs, and telemetry, can yield value, but only when delivered with business context.</p>\n\n\n\n<p>For that reason, the real risk for agentic AI is not lack of data, but lack of grounding, says Khan.</p>\n\n\n\n<p>“Anything that is business contextual will, by definition, give you greater value and greater levels of reliability of the business outcome,” he says. &#8220;It’s not as simple as saying high-value data is structured data and low-value data is where you have lots of repetition — both can have huge value in the right hands, and that’s what’s different about AI.&#8221;</p>\n\n\n\n<p>Context can be derived through integration with software, on-site analysis and enrichment, or through the governance pipeline. Data lacking those qualities will likely be untrusted — one reason why two-thirds of business leaders do not fully trust their data, <a href=\"https://www.ideainstitute.ai/wp-content/uploads/2026/01/IDEA-Research-Brief-RB3-121725-1.pdf\">according to the Institute for Data and Enterprise AI (IDEA)</a>. The resulting &#8220;trust debt&#8221; has held back businesses in their quest for AI readiness. Overcoming that lack of trust requires shared definitions, semantic consistency, and reliable operational context to align data with business meaning.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Data sprawl demands a semantic, business-aware layer</h3>\n\n\n\n<p>Over the past decade, the most important shift in enterprise data architecture has been the separation of compute and storage, cloud-scale flexibility, says Khan. Yet, that separation and move to cloud also created sprawl, with data housed in multiple clouds, data lakes, warehouses, and a multitude of SaaS applications.</p>\n\n\n\n<p>As companies move to AI, that sprawl does not go away. In fact, the problem is growing with more than two-thirds of companies citing data siloes as a top challenge in adopting AI, with more than half of enterprises <a href=\"https://www.dataversity.net/articles/data-strategy-trends-in-2025-from-silos-to-unified-enterprise-value/\">struggling with 1,000 data sources or more</a>. While the last era was about laying the foundation on which to build software-as-a-service — separating compute and storage and building lakes — the next era is about delivering the right data to autonomous AI agents tasked with various business functions.</p>\n\n\n\n<p>“Probably the biggest innovation that occurred in data management was the separation of compute and store,&#8221; Khan says. &#8220;But what’s really making a distinction now is the way that we harmonize the data and harvest the value of the data across multiple sources of content.”</p>\n\n\n\n<p>To do that requires a semantic or knowledge layer that supports multiple platforms, encodes business rules and relationships, provides a business-contextual and governed view of data, and allows humans and agents to access the data in the appropriate ways. But legacy data architectures cannot power the autonomous AI systems of the future, consultancy Deloitte <a href=\"https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html\">stated in its State of AI in the Enterprise report</a>. Only four in 10 companies believe their data management process is ready for AI, and that&#8217;s down from 43% the previous year, suggesting that as companies explore AI deployment, they are realizing their infrastructure&#8217;s shortcomings.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Agentic AI does not replace SaaS</h3>\n\n\n\n<p>Some investors and technologists speculate that AI agents will make SaaS applications obsolete. Khan strongly disagrees. Over the past 15 years, value has steadily moved up the stack, from on-premises infrastructure to infrastructure as a service (IaaS) to platform as a service (PaaS) to SaaS. Agentic AI is simply the next layer. Agentic AI will have its own layer to access the data and interact with the business logic. The value rises up the stack, but nothing below disappears, he says.</p>\n\n\n\n<p>&#8220;SaaS doesn’t go away,&#8221; he says. &#8220;It just means SaaS and these agents will cooperate with one another. Companies are not going to throw away their entire general ledger and replace it with an agent. What’s the agent going to do? It doesn’t know anything without business context and business processing.”</p>\n\n\n\n<p>In this emerging model, the software stack is being reshaped so that applications and data provide governed context within which AI can act effectively. SaaS applications remain the systems of record, while the semantic layer becomes the business-context source of truth. AI agents become a new engagement layer, orchestrating across systems, and both humans and agents become &#8220;first-class citizens&#8221; in how they access business logic, he says.</p>\n\n\n\n<p>Critically, agents cannot directly connect to every operational system. “If we’re saying agents are going to take over the world … you can’t have an agent talking to every operational backend system,” Khan warns. “It just doesn’t work that way.”</p>\n\n\n\n<p>This further elevates the importance of a semantic or business-fabric layer.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Where to start</h3>\n\n\n\n<p>Most enterprises need to begin where their data already lives — in platforms like Snowflake, Databricks, Google BigQuery, or an existing SAP environment. Khan says that’s normal, but warns against rebuilding old patterns of vendor lock-in.</p>\n\n\n\n<p>He suggests that companies prioritize the data that matters most by focusing on preserving and providing business context to operational and application data. Companies should also invest early in governance and semantics by defining shared policies, access rules, and semantic models before scaling pilots. Finally, businesses should prioritize openness and fabric-style interoperability rather than forcing all data into one stack.</p>\n\n\n\n<p>Khan cautions against aiming for full automation too early. “There is a new brave opportunity to really engage in the agentic and AI world,” Khan says, &#8220;Fully automating [critical business processes] is maybe a stretch, because there’s going to be a lot of extra oversight necessary.&#8221; Early wins will likely come from less-critical processes and from agents that work off fresh, stateful data rather than stale dashboards, he adds. As AI begins to deliver value and adoption increases, leaders must decide how to reinvest those gains to drive top-line efficiency or enter new markets.</p>\n\n\n\n<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>\n\n\n\n<p></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "3c2f5c6d-7c82-54c1-af27-ecfa909281d3",
+    "title": "YouTube expands AI deepfake detection to politicians, government officials, and journalists",
+    "link": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
+    "pubDate": "2026-03-10T14:00:00+00:00",
+    "description": "YouTube's AI deepfake detection tool is becoming available to politicians, journalists, and officials, letting them flag unauthorized likenesses for removal.",
+    "author": "Sarah Perez",
+    "sourceTitle": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "sourceCategory": "TechCrunch_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "aed3dc5a-b8c2-5dc9-ac70-1c08f87361c3",
     "title": "YouTube expands AI deepfake detection for politicians, government officials, and journalists",
     "link": "https://techcrunch.com/2026/03/10/youtube-ai-deepfake-detection-politicians-government-officials-journalists/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "833c0d1b-d7f0-5f4f-9117-4890dfc2282f",
-    "title": "Anthropic demanda al Gobierno de Estados Unidos por vetarla para contratos de defensa",
-    "link": "https://elpais.com/internacional/2026-03-09/anthropic-demanda-al-gobierno-de-estados-unidos-por-vetarla-para-contratos-de-defensa.html",
-    "pubDate": "2026-03-09T18:45:30+01:00",
-    "description": "El Pentágono ha catalogado a la compañía tecnológica como “un riesgo para la cadena de suministro”, una medida extraordinaria que puede arruinar su negocio",
-    "author": "Jesús Sérvulo González",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/ZWEH2VS7XVLKJIHNYOZACTRJVM.jpg?auth=acf445b45ab3a68cb92406d285d55b1c808c806e8285576475a0db5856669381&width=414&height=233&focal=2762%2C1226",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6bb02235-e1b7-536d-9e7a-275676191302",
-    "title": "OpenAI vuelve a salir de compras y se hace con la ‘start-up’ de seguridad de IA Promptfoo",
-    "link": "https://elpais.com/economia/2026-03-09/openai-vuelve-a-salir-de-compras-y-se-hace-con-la-start-up-de-seguridad-de-ia-promptfoo.html",
-    "pubDate": "2026-03-09T18:39:13+01:00",
-    "description": "La adquisición llega poco después de cerrar su ronda de 110.000 millones de dólares",
-    "author": "Santiago Millán",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/IFFQ7DZKRZPBNGL7YSRDVNGR3I.jpg?auth=b42c7179cb7a30280f170b1a93d024affea55976484fa16a3ff7802f816746a8&width=414&height=311&smart=true",
     "isShortVideo": 0
   }
 ]

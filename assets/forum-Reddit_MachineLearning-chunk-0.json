@@ -1,5 +1,21 @@
 [
   {
+    "id": "48b46b6e-ca99-5b7c-8e8e-c925e42ca434",
+    "title": "[D] KDD Review Discussion",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/",
+    "pubDate": "2026-04-04T19:27:24+00:00",
+    "description": "KDD 2026 (Feb Cycle) reviews will release today (4-April AoE), This thread is open to discuss about reviews and importantly celebrate successful reviews. Let us all remember that review system is noisy and we all suffer from it and this doesn't define our research impact. Let's all prioritise reviews which enhance our papers. Feel free to discuss your experiences submitted by /u/BomsDrag [link] [comments]",
+    "author": "/u/BomsDrag",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>KDD 2026 (Feb Cycle) reviews will release today (4-April AoE), This thread is open to discuss about reviews and importantly celebrate successful reviews.</p> <p>Let us all remember that review system is noisy and we all suffer from it and this doesn't define our research impact. Let's all prioritise reviews which enhance our papers. Feel free to discuss your experiences</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BomsDrag\"> /u/BomsDrag </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a56f53ee-ddee-574f-bcc5-1f404961ac85",
     "title": "[D] ICML Reviewer Acknowledgement",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1scaajx/d_icml_reviewer_acknowledgement/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Let's be honest, at some stage of the review process. A lot of us have gotten bored and tried to Google the papers we are reviewing. And sometimes those papers might have already been uploaded onto arXiv with the identity of the authors. Which we then tried to look them up.</p> <p>As a first-time reviewer, I noticed the top 2 papers in my batch happened to be the only papers in my batch that is on arXiv. I am trying to work out if revealing the author's identity had influenced my decision. Or it's just a coincidence.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/d_edge_sword\"> /u/d_edge_sword </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s9iacl/d_does_seeing_the_identify_of_authors_influence/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s9iacl/d_does_seeing_the_identify_of_authors_influence/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cdabf81d-084c-50b5-b440-5ff4d3f72401",
-    "title": "[P] I built a simple gpu-aware single-node job scheduler for researchers / students",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s9h9gr/p_i_built_a_simple_gpuaware_singlenode_job/",
-    "pubDate": "2026-04-01T11:00:02+00:00",
-    "description": "(reposting in my main account because anonymous account cannot post here.) Hi everyone! I’m a research engineer from a small lab in Asia, and I wanted to share a small project I’ve been using daily for the past few months. During paper prep and model development, I often end up running dozens (sometimes hundreds) of experiments. I found myself constantly checking whether GPUs were free, and even waking up at random hours just to launch the next job so my server wouldn’t sit idle. I got tired of that pretty quickly (and honestly, I was too lazy to keep writing one-off scripts for each setup), so I built a simple scheduling tool for myself. It’s basically a lightweight scheduling engine for researchers: Uses conda environments by default Open a web UI, paste your command (same as terminal), choose how many GPUs you want, and hit submit Supports batch queueing, so you can stack experiments and forget about them Has live monitoring + built-in logging (view in browser or download) Nothing fancy, just something that made my life way easier. Figured it might help others here too. If you run a lot of experiments, I’d love for you to give it a try (and any feedback would be super helpful). Github Link: https://github.com/gjamesgoenawan/ant-scheduler submitted by /u/Zerokidcraft [link] [comments]",
-    "author": "/u/Zerokidcraft",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1s9h9gr/p_i_built_a_simple_gpuaware_singlenode_job/\"> <img alt=\"[P] I built a simple gpu-aware single-node job scheduler for researchers / students\" src=\"https://preview.redd.it/8pwc9dkn8ksg1.png?width=140&amp;height=82&amp;auto=webp&amp;s=c12564a62c1fd00646df23d9a8a1bd2522c151fa\" title=\"[P] I built a simple gpu-aware single-node job scheduler for researchers / students\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>(reposting in my main account because anonymous account cannot post here.)</p> <p>Hi everyone!</p> <p>I’m a research engineer from a small lab in Asia, and I wanted to share a small project I’ve been using daily for the past few months.</p> <p>During paper prep and model development, I often end up running dozens (sometimes hundreds) of experiments. I found myself constantly checking whether GPUs were free, and even waking up at random hours just to launch the next job so my server wouldn’t sit idle. I got tired of that pretty quickly (and honestly, I was too lazy to keep writing one-off scripts for each setup), so I built a simple scheduling tool for myself.</p> <p>It’s basically a lightweight scheduling engine for researchers:</p> <ul> <li>Uses conda environments by default</li> <li>Open a web UI, paste your command (same as terminal), choose how many GPUs you want, and hit submit</li> <li>Supports batch queueing, so you can stack experiments and forget about them</li> <li>Has live monitoring + built-in logging (view in browser or download)</li> </ul> <p>Nothing fancy, just something that made my life way easier. Figured it might help others here too.</p> <p>If you run a lot of experiments, I’d love for you to give it a try (and any feedback would be super helpful).</p> <p>Github Link: <a href=\"https://github.com/gjamesgoenawan/ant-scheduler\">https://github.com/gjamesgoenawan/ant-scheduler</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zerokidcraft\"> /u/Zerokidcraft </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1s9h9gr\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s9h9gr/p_i_built_a_simple_gpuaware_singlenode_job/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/8pwc9dkn8ksg1.png?width=140&height=82&auto=webp&s=c12564a62c1fd00646df23d9a8a1bd2522c151fa",
     "isShortVideo": 0
   }
 ]

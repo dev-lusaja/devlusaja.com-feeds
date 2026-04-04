@@ -1,5 +1,21 @@
 [
   {
+    "id": "55fc40c0-fe04-573b-b767-6a3cf603d68a",
+    "title": "[P] ML training cluster for university students",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1r388tr/p_ml_training_cluster_for_university_students/",
+    "pubDate": "2026-02-12T22:55:04+00:00",
+    "description": "Hi! I'm an exec at a University AI research club. We are trying to build a gpu cluster for our student body so they can have reliable access to compute, but we aren't sure where to start. Our goal is to have a cluster that can be improved later on - i.e. expand it with more GPUs. We also want something that is cost effective and easy to set up. The cluster will be used for training ML models. For example, a M4 Ultra Studio cluster with RDMA interconnect is interesting to us since it's easier to use since it's already a computer and because we wouldn't have to build everything. However, it is quite expensive and we are not sure if RDMA interconnect is supported by pytorch - even if it is, it still slower than NVelink There are also a lot of older GPUs being sold in our area, but we are not sure if they will be fast enough or Pytorch compatible, so would you recommend going with the older ones? We think we can also get sponsorship up to around 15-30k Cad if we have a decent plan. In that case, what sort of a set up would you recommend? Also why are 5070s cheaper than 3090s on marketplace. Also would you recommend a 4x Mac Ultra/Max Studio like in this video https://www.youtube.com/watch?v=A0onppIyHEg&t=260s or a single h100 set up? Also ideally, instead of it being ran over the cloud, students would bring their projects and run locally on the device. submitted by /u/guywiththemonocle [link] [comments]",
+    "author": "/u/guywiththemonocle",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! I'm an exec at a University AI research club. We are trying to build a gpu cluster for our student body so they can have reliable access to compute, but we aren't sure where to start.</p> <p>Our goal is to have a cluster that can be improved later on - i.e. expand it with more GPUs. We also want something that is cost effective and easy to set up. The cluster will be used for training ML models. For example, a M4 Ultra Studio cluster with RDMA interconnect is interesting to us since it's easier to use since it's already a computer and because we wouldn't have to build everything. However, it is quite expensive and we are not sure if RDMA interconnect is supported by pytorch - even if it is, it still slower than NVelink</p> <p>There are also a lot of older GPUs being sold in our area, but we are not sure if they will be fast enough or Pytorch compatible, so would you recommend going with the older ones? We think we can also get sponsorship up to around 15-30k Cad if we have a decent plan. In that case, what sort of a set up would you recommend? Also why are 5070s cheaper than 3090s on marketplace. Also would you recommend a 4x Mac Ultra/Max Studio like in this video <a href=\"https://www.youtube.com/watch?v=A0onppIyHEg&amp;t=260s\">https://www.youtube.com/watch?v=A0onppIyHEg&amp;t=260s</a><br /> or a single h100 set up?</p> <p>Also ideally, instead of it being ran over the cloud, students would bring their projects and run locally on the device.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/guywiththemonocle\"> /u/guywiththemonocle </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r388tr/p_ml_training_cluster_for_university_students/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r388tr/p_ml_training_cluster_for_university_students/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "06f5cbf1-d4df-5a5f-9ce8-b6a5b62d44a6",
     "title": "The Evolution of Categorization During the era of AI Programming [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1r383nr/the_evolution_of_categorization_during_the_era_of/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://foundationagents.org/papers/\">https://foundationagents.org/papers/</a></p> <p>Is this even credible?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Anujp05\"> /u/Anujp05 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0xfvh/d_these_papers_have_been_accepted_by_iclr_neurips/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0xfvh/d_these_papers_have_been_accepted_by_iclr_neurips/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ab43c887-47b5-563a-acc6-4be0b7af23b6",
-    "title": "[R] On Randomness in Agentic Evals",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r0wpn8/r_on_randomness_in_agentic_evals/",
-    "pubDate": "2026-02-10T09:56:36+00:00",
-    "description": "We just published a paper quantifying a problem the AI community has been quietly ignoring: single-run benchmark evaluations are far noisier than most people realize. And the decisions they inform — which model to deploy, which research direction to fund, which tool to ship — may not be supported by the evidence. We found that SWE-Bench-Verified scores can vary by 2.2 to 6.0 percentage points, making small improvements hard to distinguish from noise. Read more at: https://arxiv.org/abs/2602.07150 submitted by /u/PT_ANDRE_PT [link] [comments]",
-    "author": "/u/PT_ANDRE_PT",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We just published a paper quantifying a problem the AI community has been quietly ignoring: single-run benchmark evaluations are far noisier than most people realize. And the decisions they inform — which model to deploy, which research direction to fund, which tool to ship — may not be supported by the evidence.</p> <p>We found that SWE-Bench-Verified scores can vary by 2.2 to 6.0 percentage points, making small improvements hard to distinguish from noise.</p> <p>Read more at: <a href=\"https://arxiv.org/abs/2602.07150\">https://arxiv.org/abs/2602.07150</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PT_ANDRE_PT\"> /u/PT_ANDRE_PT </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0wpn8/r_on_randomness_in_agentic_evals/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r0wpn8/r_on_randomness_in_agentic_evals/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

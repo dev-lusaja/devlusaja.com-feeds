@@ -1,5 +1,21 @@
 [
   {
+    "id": "808dc818-2064-59e2-84b5-9e8cdfc27c6f",
+    "title": "Built a website for easily searching and discussing arXiv papers [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rzon32/built_a_website_for_easily_searching_and/",
+    "pubDate": "2026-03-21T11:01:18+00:00",
+    "description": "Hi all! I've been working on this side project to help users easily search, read and discuss papers: https://discuria.org It's heavily focused on AI/ML papers from arXiv, but also covers biology, physics, economics and more through Semantic Scholar and other databases. You can search any topic or category, open up a paper, and leave annotations directly on the paper or comments to discuss with others, or use the AI assistant for questions without having to go to other websites. It also has a read aloud function so you can follow along as it reads. Feel free to try it out and give me any suggestions on improvements! All features are free. submitted by /u/foxy2sexy4u [link] [comments]",
+    "author": "/u/foxy2sexy4u",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzon32/built_a_website_for_easily_searching_and/\"> <img alt=\"Built a website for easily searching and discussing arXiv papers [P]\" src=\"https://preview.redd.it/m5p4jzxzqdqg1.png?width=140&amp;height=75&amp;auto=webp&amp;s=14ef20ce3108e663f96b721be923f7b24c57fc0c\" title=\"Built a website for easily searching and discussing arXiv papers [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi all!</p> <p>I've been working on this side project to help users easily search, read and discuss papers: <a href=\"https://discuria.org\">https://discuria.org</a></p> <p>It's heavily focused on AI/ML papers from arXiv, but also covers biology, physics, economics and more through Semantic Scholar and other databases. You can search any topic or category, open up a paper, and leave annotations directly on the paper or comments to discuss with others, or use the AI assistant for questions without having to go to other websites. It also has a read aloud function so you can follow along as it reads.</p> <p>Feel free to try it out and give me any suggestions on improvements! All features are free.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/foxy2sexy4u\"> /u/foxy2sexy4u </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1rzon32\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzon32/built_a_website_for_easily_searching_and/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/m5p4jzxzqdqg1.png?width=140&height=75&auto=webp&s=14ef20ce3108e663f96b721be923f7b24c57fc0c",
+    "isShortVideo": 0
+  },
+  {
     "id": "3eda2168-e56a-57a6-afed-b9579489670d",
     "title": "[R] Predicting Tetris wins",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rzmh1a/r_predicting_tetris_wins/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>A lot of us know that a model is “learning” when the loss goes down, and that the loss is computed from the prediction and the target. The less obvious part is what a deep learning library is actually doing internally to turn that loss into parameter updates that improve the model. I wrote a short post [0] breaking that down: how the forward pass builds a computation graph, how <code>loss.backward()</code> applies the chain rule across it, and how the resulting gradients become parameter updates via <code>optimizer.step()</code>. I used a from-scratch numpy library I built [1] as a concrete reference point, but the main goal is to build intuition for what happens under the hood.</p> <p>[0]: <a href=\"https://www.henrypan.com/blog/2026-03-14-how-deep-learning-library-enables-learning/\">https://www.henrypan.com/blog/2026-03-14-how-deep-learning-library-enables-learning/</a><br /> [1]: <a href=\"https://github.com/workofart/ml-by-hand\">https://github.com/workofart/ml-by-hand</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Megadragon9\"> /u/Megadragon9 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx9h33/p_how_a_deep_learning_library_enables_a_model_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx9h33/p_how_a_deep_learning_library_enables_a_model_to/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4a5a07ca-2b7a-50e7-9d42-95e512916581",
-    "title": "[D] Why Self-Driving AI Is So Hard",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rx8prg/d_why_selfdriving_ai_is_so_hard/",
-    "pubDate": "2026-03-18T16:32:11+00:00",
-    "description": "Most AI systems don’t fail when things are normal; they fail in rare, unpredictable situations. One idea stuck with me from my recent podcast conversation: building AI for the real world is less about making models smarter and more about making systems reliable when things go wrong. What’s interesting is that a lot of the engineering effort goes into handling edge cases, the scenarios that rarely happen, but matter the most when they do. It changes how you think about AI entirely. It’s not just a model problem; it’s a systems problem. Curious how others here think about this: Are we focusing too much on model performance and not enough on real-world reliability? submitted by /u/vitlyoshin [link] [comments]",
-    "author": "/u/vitlyoshin",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most AI systems don’t fail when things are normal; they fail in rare, unpredictable situations.</p> <p>One idea stuck with me from my recent podcast conversation: building AI for the real world is less about making models smarter and more about making systems reliable when things go wrong.</p> <p>What’s interesting is that a lot of the engineering effort goes into handling edge cases, the scenarios that rarely happen, but matter the most when they do. It changes how you think about AI entirely. It’s not just a model problem; it’s a systems problem.</p> <p>Curious how others here think about this: </p> <p>Are we focusing too much on model performance and not enough on real-world reliability?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vitlyoshin\"> /u/vitlyoshin </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx8prg/d_why_selfdriving_ai_is_so_hard/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rx8prg/d_why_selfdriving_ai_is_so_hard/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

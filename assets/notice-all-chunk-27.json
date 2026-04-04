@@ -1,5 +1,37 @@
 [
   {
+    "id": "7cf40c00-15a1-5385-9441-43eeecccc779",
+    "title": "La IA y un futuro de (des)igualdad de género",
+    "link": "https://elpais.com/opinion/2026-03-07/la-ia-y-un-futuro-de-desigualdad-de-genero.html",
+    "pubDate": "2026-03-07T05:30:01+01:00",
+    "description": "La nueva tecnología aprende y se alimenta de océanos de datos provenientes de una sociedad que ha sido y sigue siendo asimétrica en la forma de tratar a hombres y mujeres",
+    "author": "El País",
+    "sourceTitle": "El País",
+    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
+    "sourceCategory": "El_Pais",
+    "sourceType": "notice",
+    "sourceCountry": "Colombia",
+    "content": "",
+    "image": "https://imagenes.elpais.com/resizer/v2/XZ6FWWXATZBELFB66HT64W2WIA.jpg?auth=81bb46db6e23c8c193354429948c70406ee188c21e6929a770a18856ddd68eb0&width=414&height=311&focal=2128%2C1374",
+    "isShortVideo": 0
+  },
+  {
+    "id": "f97ffc9a-f810-5d77-8a60-54aac5296919",
+    "title": "La IA ya está aprendiendo a encontrar fallos en el software: Claude acaba de demostrarlo con Firefox",
+    "link": "https://www.xataka.com/seguridad/ia-esta-aprendiendo-a-encontrar-fallos-software-claude-acaba-demostrarlo-firefox",
+    "pubDate": "2026-03-06T23:02:19+00:00",
+    "description": "Durante años, encontrar vulnerabilidades graves en software complejo ha sido una tarea reservada a investigadores especializados que dedican semanas o meses a examinar millones de líneas de código. Ese escenario empieza a cambiar. Los modelos de inteligencia artificial ya no se limitan a generar código o ayudar a depurarlo, también están empezando a detectar fallos de seguridad por sí mismos. Un ejemplo reciente lo ha mostrado Anthropic con Claude Opus 4.6 , su modelo más avanzado, al ponerlo a prueba con Firefox. El experimento resulta especialmente llamativo porque Firefox, gestionado por Mozilla y utilizado por cientos de millones de personas, es uno de los proyectos de código abierto más auditados del ecosistema web. Analizar el código del navegador Firefox . Durante dos semanas de pruebas, el sistema identificó 22 vulnerabilidades diferentes, de acuerdo con la información publicada por ambas organizaciones. Mozilla evaluó 14 de ellas como fallos de alta gravedad, lo que significa que podrían haber servido como base para ataques si alguien hubiera desarrollado el código de explotación adecuado. Según los responsables del proyecto, la mayor parte de estos problemas ya se han solucionado en Firefox 148, la versión publicada en febrero, mientras que el resto se corregirá en próximas versiones. Dentro del experimento. El trabajo de Claude no consistió en una simple búsqueda automática de errores. Según detalla Anthropic, el equipo primero utilizó el modelo para intentar reproducir vulnerabilidades históricas registradas en Firefox, una forma de comprobar si era capaz de reconocer patrones de fallos reales. Después pasaron a la parte más interesante del experimento: pedirle que analizara la versión actual del navegador para localizar problemas que aún no habían sido reportados. El proceso comenzó en el motor JavaScript y luego se amplió a otras áreas del código. En total, el análisis abarcó miles de archivos del proyecto, incluidos varios miles de archivos C++, generando una larga lista de hallazgos que posteriormente fueron revisados por los investigadores. Un dato llamativo . Claude encontró en dos semanas más fallos de alta gravedad de los que el navegador suele recibir en unos dos meses a través de sus canales habituales de investigación. Durante el proceso, el equipo de Anthropic envió 112 informes únicos al sistema de seguimiento de errores del proyecto, aunque no todos correspondían a vulnerabilidades confirmadas. Parte del trabajo de Mozilla consistió precisamente en revisar, depurar y clasificar esos hallazgos antes de determinar cuáles tenían implicaciones reales de seguridad. La experiencia terminó convirtiéndose en una colaboración directa entre ambas organizaciones para revisar los resultados y priorizar las correcciones. En Xataka Las redes Wi-Fi para invitados parecían un refugio seguro para conectarse. AirSnitch acaba de demostrar que son un coladero La otra mitad del problema. El equipo de Anthropic también quiso comprobar hasta qué punto el modelo podía ir más allá de la detección de errores y convertir esos fallos en ataques reales. Para ello, le pidieron que desarrollara exploits capaces de aprovechar las vulnerabilidades descubiertas. El experimento incluyó cientos de ejecuciones con distintos enfoques y supuso un gasto aproximado de 4.000 dólares en créditos de API. Aun así, el resultado mostró una clara diferencia entre ambas capacidades: Claude solo consiguió generar dos exploits funcionales en un entorno de pruebas simplificado, sin algunas de las defensas presentes en un navegador real. Más allá del caso concreto de Firefox, el experimento refleja un cambio que empieza a preocupar y a interesar al mismo tiempo a la comunidad de seguridad. Las herramientas basadas en inteligencia artificial están mejorando rápidamente en la detección de vulnerabilidades en software complejo, algo que podría ayudar a los desarrolladores a corregir fallos con mayor rapidez. Imágenes | Anthropic | Rubaitul Azad En Xataka | Se suponía que los iPhone eran los móviles más seguros del mundo. Se suponía",
+    "author": "Javier Marquez",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/86ce83/firefox-anthropic-portada/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "56a27987-a794-5f5e-8efd-ffc7fbcfb005",
     "title": "El uso de IA en ataques a Irán preocupa por posibles errores en la selección de objetivos",
     "link": "https://elcomercio.pe/tecnologia/actualidad/el-uso-de-ia-en-ataques-a-iran-preocupa-por-posibles-errores-en-la-seleccion-de-objetivos-estados-unidos-inteligencia-artificial-israel-noticia/",
@@ -445,38 +477,6 @@
     "sourceCountry": "Internacional",
     "content": "",
     "image": "https://images.euronews.com/articles/stories/09/67/60/70/320x180_cmsv2_7b2f3213-f963-58d8-91b8-c867bb9ef731-9676070.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d8edbf79-88e0-5001-b38e-be8642a2619f",
-    "title": "EE.UU. señala a Anthropic como riesgo tras disputa militar por la IA",
-    "link": "https://es.euronews.com/next/2026/03/06/ee-uu-anthropic-riesgo-cadena-suministro-uso-militar-ia",
-    "pubDate": "2026-03-06T11:05:35+01:00",
-    "description": "La inédita ofensiva del Gobierno de Trump contra Anthropic por las garantías de seguridad de la IA obliga a los contratistas públicos a replantearse el uso del chatbot Claude.",
-    "author": "Euronews ES",
-    "sourceTitle": "Euronews",
-    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
-    "sourceCategory": "Euronews",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://images.euronews.com/articles/stories/09/67/59/60/320x180_cmsv2_a2dd095c-7ec0-563b-b021-3889306e6331-9675960.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "11704f14-6bfd-584b-b8d8-3bc821363705",
-    "title": "Oracle planea miles de despidos por la crisis de liquidez derivada de su agresiva inversión en IA",
-    "link": "https://elpais.com/economia/2026-03-06/oracle-planea-miles-de-despidos-por-la-crisis-de-liquidez-derivada-de-su-agresiva-inversion-en-ia.html",
-    "pubDate": "2026-03-06T08:56:27+01:00",
-    "description": "La compañía ha sufrido un fuerte castigo en Bolsa por las dudas sobre su capacidad para afrontar sus planes",
-    "author": "Santiago Millán",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/62PG7HZQZFP6TFNSK4N4CDJIPQ.jpg?auth=cd3d419918e021d86aae1aeb5ab3bea6e7751e882bf726a2e4ee6c25ae0a8406&width=414&height=233&smart=true",
     "isShortVideo": 0
   }
 ]

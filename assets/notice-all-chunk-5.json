@@ -1,5 +1,37 @@
 [
   {
+    "id": "f3a43824-ff00-5354-90fa-be31dff2195a",
+    "title": "Debería ser imposible que un iPhone 17 Pro ejecutara un gigantesco modelo de IA de 400B. Debería",
+    "link": "https://www.xataka.com/robotica-e-ia/deberia-ser-imposible-que-iphone-17-pro-ejecutara-gigantesco-modelo-ia-400b-deberia",
+    "pubDate": "2026-03-28T15:01:32+00:00",
+    "description": "El iPhone 17 Pro tiene 12 GB de memoria unificada. Es una cifra muy decente para un móvil, pero en teoría absolutamente insuficiente para correr grandes modelos de IA de forma local. Y ahí está la sorpresa: en que un nuevo proyecto ha hecho que este móvil pueda ejecutar en local un modelo de 400.000 millones de parámetros  (400B). Y eso abre las puertas a un horizonte prometedor. Modelo de IA gigante, memoria enana . Un desarrollador llamado Daniel Woods (@dandeveloper) ha creado gracias a la IA un nuevo motor de inferencia llamado Flash-MoE cuyo código ha sido publicado como Open Source en GitHub acompañado de un estudio sobre su comportamiento. Woods logró correr en local el modelo Qwen 3.5 397B (la versión completa, sin destilación ni cuantización) en su MacBook Pro con 48 GB de RAM. Descargó el modelo (209 GB en disco) y desarrolló ese motor de inferencia para lograr así algo que parecía casi imposible. Otros desarolladores han ido incluso más allá y han logrado ejecutar modelos como DeepSeek-V3 (671B) o incluso Kimi K2.5 (¡¡1.026B!!) en sus MacBook. La velocidad es lenta, sin duda, pero funcionar, funcionan. Es alucinante. El iPhone 17 Pro es capaz de ejecutar un modelo 400B . Otro desarrollador llamado Anemll quiso ir un poco más allá y tratar de ejecutar ese modelo de casi 400.000 millones de parámetros en su iPhone 17 Pro con 12 GB de memoria RAM... y lo logró. Es cierto que el modelo va lentísimo en las respuestas (0,6 tokens por segundo, muy poco usable), pero lograr algo así abre las puertas a un futuro en el que la memoria de vídeo o unificada ya no sea tan crítica para lograr utilizar modelos de IA enormes en local. Hace unas horas dobló la velocidad a 1,1 tokens por segundo reduciendo el número de expertos a cuatro (pérdida de calidad del 2,5% en las respuestas). Sigue sin ser usable del todo, pero la demostración técnica es evidente. Otro usuario ha preferido usar un modelo algo más pequeño (Qwen 3.5 35B) pero aun así enorme para el iPhone, y ya ha logrado que corra en local a unos más que aceptables 13,1 tokens por segundo . Por qué importa . Los modelos de IA que usamos en la nube (ChatGPT, Gemini, Claude) son gigantescos y corren en centros de datos con miles de chips y cantidades enormes de memoria y almacenamiento. Son los más potentes porque corren en las máquinas más potentes. Aunque es posible usar modelos de IA en local, los modelos que podemos correr son mucho más pequeños y eso hace que sea difícil que se comporten igual de bien tanto en calidad de las respuestas como en su velocidad o precisión. Este método abre la puerta a un futuro en el que incluso en máquinas \"modestas\" sea posible correr modelos de IA gigantes que den mejores respuestas y nos permitan evitar usar modelos en la nube. Apple ya avisó . Hace tres años un grupo de investigadores de Apple publicaron el estudio ' LLM in a flash ' que precisamente apuntaba a eso: para ejecutar modelos de IA en local sería posible no solo aprovechar la memoria unificada de los Mac, sino también sus unidades de almacenamiento. La velocidad sería lenta, sí, pero esto abriría la puesta a correr en local modelos gigantescos en máquinas con cantidades de memoria unificada mucho menores. Woods usó Claude Code con Claude Opus 4.6 y aplicó la nueva metodología \" autoresearch \" de Andrej Karpathy para lograr implementar Flash-MoE a partir de esa investigación. El resultado es realmente prometedor. La memoria de vídeo lo era todo . En mi Mac mini M4, por ejemplo, tengo 16 GB de memoria unificada. Eso hace que con herramientas como Ollama pueda instalar y ejecutar en local modelos como Qwen 3.5 4B con cierta fluidez, pero modelos 7B u otros como gpt-oss 20B irían mucho más lentos en las respuestas (o directamente se atascarían). La memoria de vídeo (o unificada en los dispositivos de Apple) es el parámetro más importante a la hora de correr modelos locales, tanto por cantidad como por ancho de banda. Si quieres usarlos de forma fluida, es el factor limitante. Es posible usar la memoria RAM \"normal\", pero las velocidades al usarla se reducen de forma tan drástica que a menudo es mejor ni usar esa opción. Si tienes un SSD rápido, tienes un tesoro . Ahora el factor limitante es nuestra unidad SSD, ya que el modelo la usa como si fuera una especie de sustituta de la memoria de vídeo. Y cuanto más rápida sea la unidad SSD de nuestro equipo, mejor. Aquí hay buenas noticias, porque en los últimos tiempos estamos viendo cómo las unidades PCIe 5.0 logran unos 15 GB/s sin demasiados problemas, y esa velocidad ya da bastante margen de maniobra para utilizar en local modelos de IA mucho más grandes de los que podíamos utilizar antes. Un futuro prometedor para la IA local (y más privado) . Este descubrimiento es realmente llamativo para todos los que quieren usar la IA en local, porque permite usar modelos enormes sin tener que hacer una inversión enorme en tarjetas gráficas de última generación o por ejemplo en algún Mac con un montón de memoria unificada: un Mac Studio M3 Ultra con 512 GB de memoria por ejemplo supera los 10.000 euros. Con este nuevo método podríamos optar por una máquina mucho más económica y que con tener una buena unidad SSD nos permitiera usar modelos gigantes de forma bastante decente. No tan rápida como esas otras opciones, claro, pero aun así, muy decente. Es un paso adelante notable para disfrutar de las ventajas de correr modelos de IA locales, incluida la mayor de toda ellas: la privacidad. Con este tipo de ejecución local, nuestras conversaciones y todo lo que le contamos al chatbot se queda en nuestra máquina, no acaba en los servidores de empresas como Google, OpenAI, Meta o Anthropic. En Xataka | Jensen Huang cree que hemos alcanzado el \"que viene el lobo de la IA\". Es perfecta para alimentar a un Tamagotchi",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/55e002/iphone/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "03f45285-722c-5422-8a08-8bd5afad39a4",
+    "title": "From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk Analysis",
+    "link": "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
+    "pubDate": "2026-03-28T14:30:00+00:00",
+    "description": "Integrating CMIP6 projections, ERA5 reanalysis, and impact models into a lightweight, interpretable workflow The post From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk Analysis appeared first on Towards Data Science .",
+    "author": "Aakash Goswami",
+    "sourceTitle": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/feed/",
+    "sourceCategory": "Towards",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7e70bae4-6a6d-593e-8eca-5c30e7b60ad2",
     "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
     "link": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
@@ -445,38 +477,6 @@
     "sourceCountry": "Colombia",
     "content": "",
     "image": "https://imagenes.elpais.com/resizer/v2/UVP4S74ZZNCLHBIUDKLHNCW4JI.jpeg?auth=e8773854fbee324ae8c5ca70fe43d6815a3a0a93a23af35dad733e0e123ccc74&width=414&height=311&smart=true",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bcc89c29-505e-519f-949e-76b70b81c441",
-    "title": "How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations",
-    "link": "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
-    "pubDate": "2026-03-27T10:48:00+00:00",
-    "description": "A warehouse picking operation is the process of collecting items from storage locations to fulfil customer orders. It is one of the most labour-intensive activities in logistics, accounting for up to 55% of total warehouse operating costs. For each order, an operator receives a list of items to collect from their storage locations. They walk to […] The post How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations appeared first on Towards Data Science .",
-    "author": "Samir Saci",
-    "sourceTitle": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/feed/",
-    "sourceCategory": "Towards",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "885375aa-96a8-525f-b89b-cf9cbff26025",
-    "title": "Una juez frena el intento de Trump de vetar a la IA de Anthropic",
-    "link": "https://es.euronews.com/next/2026/03/27/jueza-rechaza-que-el-gobierno-de-trump-tache-a-anthropic-de-amenaza-para-la-seguridad-naci",
-    "pubDate": "2026-03-27T09:11:59+01:00",
-    "description": "Una juez federal concede una medida cautelar a Anthropic contra la orden del Gobierno de Donald Trump que la calificaba de \"riesgo para la seguridad nacional\". El fallo considera que la medida parece una represalia contra la libertad de expresión tras negarse la empresa al uso militar de su IA.",
-    "author": "Euronews ES",
-    "sourceTitle": "Euronews",
-    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
-    "sourceCategory": "Euronews",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://images.euronews.com/articles/stories/09/61/97/19/320x180_cmsv2_5102d9af-1dda-5ac7-81fb-0ac4ff1ec57c-9619719.jpg",
     "isShortVideo": 0
   }
 ]

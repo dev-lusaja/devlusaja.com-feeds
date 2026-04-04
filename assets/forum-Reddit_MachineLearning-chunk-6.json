@@ -1,5 +1,21 @@
 [
   {
+    "id": "d9bebd95-b96f-5105-be92-7d3bb5f921f6",
+    "title": "[P] I got tired of PyTorch Geometric OOMing my laptop, so I wrote a C++ zero-copy graph engine to bypass RAM entirely.",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ru7bnz/p_i_got_tired_of_pytorch_geometric_ooming_my/",
+    "pubDate": "2026-03-15T06:59:00+00:00",
+    "description": "If you train Graph Neural Networks on large datasets (like Papers100M), you already know the pain: trying to load the edge list and feature matrix usually results in an instant 24GB+ OOM allocation crash before the GPU even gets to do any work. I just open-sourced GraphZero v0.2 , a custom C++ data engine I built to fix this by bypassing system RAM entirely. How it works: Standard libraries try to load everything into memory. GraphZero instead compiles your raw CSVs into two highly optimized binary formats ( .gl for topology, .gd for features). It then uses POSIX mmap to memory-map the massive files directly from the SSD. Using nanobind , the C++ engine hands the raw memory pointers directly to PyTorch as zero-copy NumPy arrays. During a training loop (like GraphSAGE), PyTorch thinks it has a 50GB tensor sitting in RAM. When it indexes a batch of target nodes, it triggers an OS Page Fault. The operating system automatically fetches only the required 4KB blocks from the NVMe drive. To keep the pipeline saturated, the C++ engine uses OpenMP to multi-thread the neighbor sampling ( batch_random_fanout ), releasing the Python GIL to fully parallelize disk I/O, CPU sampling, and GPU math. The Result: You can train on a 50GB dataset while Python allocates literally 0 bytes of RAM for the dataset itself. I built this to force myself to learn low-level systems engineering and memory management. The repo has a plug-and-play GraphSAGE training script with a synthetic dataset generator so you can test the zero-copy mounting locally. I'd love for this community to tear it apart and give me some harsh feedback on the Python API design or performance! GitHub : repo submitted by /u/Important-Trash-4868 [link] [comments]",
+    "author": "/u/Important-Trash-4868",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>If you train Graph Neural Networks on large datasets (like Papers100M), you already know the pain: trying to load the edge list and feature matrix usually results in an instant 24GB+ OOM allocation crash before the GPU even gets to do any work.</p> <p>I just open-sourced <strong>GraphZero v0.2</strong>, a custom C++ data engine I built to fix this by bypassing system RAM entirely.</p> <p><strong>How it works:</strong> Standard libraries try to load everything into memory. GraphZero instead compiles your raw CSVs into two highly optimized binary formats (<code>.gl</code> for topology, <code>.gd</code> for features).</p> <p>It then uses POSIX <code>mmap</code> to memory-map the massive files directly from the SSD. Using <code>nanobind</code>, the C++ engine hands the raw memory pointers directly to PyTorch as zero-copy NumPy arrays.</p> <p>During a training loop (like GraphSAGE), PyTorch thinks it has a 50GB tensor sitting in RAM. When it indexes a batch of target nodes, it triggers an OS Page Fault. The operating system automatically fetches <em>only</em> the required 4KB blocks from the NVMe drive.</p> <p>To keep the pipeline saturated, the C++ engine uses OpenMP to multi-thread the neighbor sampling (<code>batch_random_fanout</code>), releasing the Python GIL to fully parallelize disk I/O, CPU sampling, and GPU math.</p> <p><strong>The Result:</strong> You can train on a 50GB dataset while Python allocates literally 0 bytes of RAM for the dataset itself.</p> <p>I built this to force myself to learn low-level systems engineering and memory management. The repo has a plug-and-play GraphSAGE training script with a synthetic dataset generator so you can test the zero-copy mounting locally.</p> <p>I'd love for this community to tear it apart and give me some harsh feedback on the Python API design or performance!</p> <p><strong>GitHub</strong>: <a href=\"https://github.com/KrishSingaria/graphzero\">repo</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Important-Trash-4868\"> /u/Important-Trash-4868 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ru7bnz/p_i_got_tired_of_pytorch_geometric_ooming_my/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ru7bnz/p_i_got_tired_of_pytorch_geometric_ooming_my/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f7839865-180c-54a9-a6b2-d06d473e437e",
     "title": "[R] Are keywords necessary for ECCV submission?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rlfhqw/r_are_keywords_necessary_for_eccv_submission/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>Thanks to everyone for answering questions in the previous thread!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ri0vz3/d_simple_questions_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ri0vz3/d_simple_questions_thread/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "56fcaf31-50c0-5369-a5fa-e778511516c8",
-    "title": "[P] Building A Tensor micrograd",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rhyjp1/p_building_a_tensor_micrograd/",
-    "pubDate": "2026-03-01T14:25:02+00:00",
-    "description": "Hi! We're all aware of Andrej Karpathy's micrograd package and his amazing lecture on it. When I saw it a while ago, I was curious how one can develop it into a more standard vectorized package rather than one built on invididual Python floats. If we just want to wrap our tensors over NumPy for vectorization, there's a couple nuances we need to handle. In this blog post , I talk about how to calculate gradients for our NumPy tensors and handle NumPy's broadcasting in the backward pass. This allows us to build an autodiff and neural network library analogous to micrograd, but now with tensors, pushing it one step further toward standard vectorized packages like PyTorch. We build a CNN for MNIST classification and achieve a score over 0.97+. The code is at https://github.com/gumran/mgp . I hope you find it useful. Feedback welcome! submitted by /u/bjjonin [link] [comments]",
-    "author": "/u/bjjonin",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! We're all aware of Andrej Karpathy's micrograd package and his amazing lecture on it. When I saw it a while ago, I was curious how one can develop it into a more standard vectorized package rather than one built on invididual Python floats. </p> <p>If we just want to wrap our tensors over NumPy for vectorization, there's a couple nuances we need to handle. In <a href=\"https://gumran.github.io/mgp.html\">this blog post</a>, I talk about how to calculate gradients for our NumPy tensors and handle NumPy's broadcasting in the backward pass. This allows us to build an autodiff and neural network library analogous to micrograd, but now with tensors, pushing it one step further toward standard vectorized packages like PyTorch. We build a CNN for MNIST classification and achieve a score over 0.97+.</p> <p>The code is at <a href=\"https://github.com/gumran/mgp\">https://github.com/gumran/mgp</a> .</p> <p>I hope you find it useful. Feedback welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bjjonin\"> /u/bjjonin </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rhyjp1/p_building_a_tensor_micrograd/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rhyjp1/p_building_a_tensor_micrograd/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

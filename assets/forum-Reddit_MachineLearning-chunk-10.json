@@ -1,5 +1,21 @@
 [
   {
+    "id": "9536b203-9545-5d00-8864-84a06eeb2dc2",
+    "title": "[R] LETS Forecast: Learning Embedology for Time Series Forecasting",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1r6g4n7/r_lets_forecast_learning_embedology_for_time/",
+    "pubDate": "2026-02-16T17:36:11+00:00",
+    "description": "This paper applies takens theorem combined with Empirical Dynamical Modeling to Time Series Forecasting. submitted by /u/Whatever_635 [link] [comments]",
+    "author": "/u/Whatever_635",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>This <a href=\"https://arxiv.org/pdf/2506.06454\">paper</a> applies takens theorem combined with Empirical Dynamical Modeling to Time Series Forecasting.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Whatever_635\"> /u/Whatever_635 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r6g4n7/r_lets_forecast_learning_embedology_for_time/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r6g4n7/r_lets_forecast_learning_embedology_for_time/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cf69c125-1b81-5c53-8ef2-b3b3fa7ba1a2",
     "title": "[D] Supervisor support",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1r6dzz7/d_supervisor_support/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm currently making a baseline autoencoder for this super freaking huge hyperspectral image dataset I have. It's a really big pain to work with and to get decent results, and I had to basically pull all stops including using ResNeXt2, channel-by-channel processing and grouping, etc.</p> <p>I'm considering replacing all the residual connections with MHc. But I don't have any experience with it, so I don't really know how hard this will be to implement and if it can give any actual good benefits. I just wanted to check if anyone's worked on MHC already and if there's anything I should watch out for if I want to try implementing it.</p> <p>For context, I'm doing an autoencoder for 50x512x1024 fp32 &quot;images&quot; (scientific data). With my current setup, my A100 is only able to handle batch sizes of 2 at a time.</p> <p>Actually, I haven't really found any good literature on how to do hyperspectral image autoencoder which is why I started making up all this. If anyone has suggestions for any specific architecture I should go for, I'm really happy to try it out.</p> <p>I'm specifically staying away from anything transformer for now since I'm trying to make this the baseline.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Affectionate_Use9936\"> /u/Affectionate_Use9936 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r3gqng/r_has_anyone_experimented_with_mhc_on_traditional/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r3gqng/r_has_anyone_experimented_with_mhc_on_traditional/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "55fc40c0-fe04-573b-b767-6a3cf603d68a",
-    "title": "[P] ML training cluster for university students",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r388tr/p_ml_training_cluster_for_university_students/",
-    "pubDate": "2026-02-12T22:55:04+00:00",
-    "description": "Hi! I'm an exec at a University AI research club. We are trying to build a gpu cluster for our student body so they can have reliable access to compute, but we aren't sure where to start. Our goal is to have a cluster that can be improved later on - i.e. expand it with more GPUs. We also want something that is cost effective and easy to set up. The cluster will be used for training ML models. For example, a M4 Ultra Studio cluster with RDMA interconnect is interesting to us since it's easier to use since it's already a computer and because we wouldn't have to build everything. However, it is quite expensive and we are not sure if RDMA interconnect is supported by pytorch - even if it is, it still slower than NVelink There are also a lot of older GPUs being sold in our area, but we are not sure if they will be fast enough or Pytorch compatible, so would you recommend going with the older ones? We think we can also get sponsorship up to around 15-30k Cad if we have a decent plan. In that case, what sort of a set up would you recommend? Also why are 5070s cheaper than 3090s on marketplace. Also would you recommend a 4x Mac Ultra/Max Studio like in this video https://www.youtube.com/watch?v=A0onppIyHEg&t=260s or a single h100 set up? Also ideally, instead of it being ran over the cloud, students would bring their projects and run locally on the device. submitted by /u/guywiththemonocle [link] [comments]",
-    "author": "/u/guywiththemonocle",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! I'm an exec at a University AI research club. We are trying to build a gpu cluster for our student body so they can have reliable access to compute, but we aren't sure where to start.</p> <p>Our goal is to have a cluster that can be improved later on - i.e. expand it with more GPUs. We also want something that is cost effective and easy to set up. The cluster will be used for training ML models. For example, a M4 Ultra Studio cluster with RDMA interconnect is interesting to us since it's easier to use since it's already a computer and because we wouldn't have to build everything. However, it is quite expensive and we are not sure if RDMA interconnect is supported by pytorch - even if it is, it still slower than NVelink</p> <p>There are also a lot of older GPUs being sold in our area, but we are not sure if they will be fast enough or Pytorch compatible, so would you recommend going with the older ones? We think we can also get sponsorship up to around 15-30k Cad if we have a decent plan. In that case, what sort of a set up would you recommend? Also why are 5070s cheaper than 3090s on marketplace. Also would you recommend a 4x Mac Ultra/Max Studio like in this video <a href=\"https://www.youtube.com/watch?v=A0onppIyHEg&amp;t=260s\">https://www.youtube.com/watch?v=A0onppIyHEg&amp;t=260s</a><br /> or a single h100 set up?</p> <p>Also ideally, instead of it being ran over the cloud, students would bring their projects and run locally on the device.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/guywiththemonocle\"> /u/guywiththemonocle </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r388tr/p_ml_training_cluster_for_university_students/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r388tr/p_ml_training_cluster_for_university_students/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
