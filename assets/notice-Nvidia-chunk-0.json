@@ -1,5 +1,21 @@
 [
   {
+    "id": "3a88b23a-6cbf-5040-a02c-eab67c7f71b9",
+    "title": "Running AI Workloads on Rack-Scale Supercomputers: From Hardware to Topology-Aware Scheduling",
+    "link": "https://developer.nvidia.com/blog/running-ai-workloads-on-rack-scale-supercomputers-from-hardware-to-topology-aware-scheduling/",
+    "pubDate": "2026-04-07T18:51:01+00:00",
+    "description": "The NVIDIA GB200 NVL72 and NVIDIA GB300 NVL72 systems, featuring NVIDIA Blackwell architecture, are rack-scale supercomputers. They’re designed with 18...",
+    "author": "Ryan Prout",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" />The NVIDIA GB200 NVL72 and NVIDIA GB300 NVL72 systems, featuring NVIDIA Blackwell architecture, are rack-scale supercomputers. They’re designed with 18...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" /><p>The NVIDIA GB200 NVL72 and NVIDIA GB300 NVL72 systems, featuring NVIDIA Blackwell architecture, are rack-scale supercomputers. They’re designed with 18 tightly coupled compute trays, massive GPU fabrics, and high-bandwidth networking packaged as a unit. For AI architects and HPC platform operators, the challenge isn’t just racking and stacking hardware—it’s turning infrastructure into safe…</p>\n<p><a href=\"https://developer.nvidia.com/blog/running-ai-workloads-on-rack-scale-supercomputers-from-hardware-to-topology-aware-scheduling/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "56892c15-28ff-549b-ae23-e0f6249fd390",
     "title": "Accelerating Vision AI Pipelines with Batch Mode VC-6 and NVIDIA Nsight",
     "link": "https://developer.nvidia.com/blog/accelerating-vision-ai-pipelines-with-batch-mode-vc-6-and-nvidia-nsight/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"A GIF showing robotics.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/Cosmos-Data-Reasoning.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-Data-Reasoning\" width=\"600\" />The next generation of AI-driven robots like humanoids and autonomous vehicles depends on high-fidelity, physics-aware training data. Without diverse and...<img alt=\"A GIF showing robotics.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/Cosmos-Data-Reasoning.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-Data-Reasoning\" width=\"600\" /><p>The next generation of AI-driven robots like humanoids and autonomous vehicles depends on high-fidelity, physics-aware training data. Without diverse and representative datasets, these systems don’t get proper training and face testing risks due to poor generalization, limited exposure to real-world variations, and unpredictable behavior in edge cases. Collecting massive real-world datasets for…</p>\n<p><a href=\"https://developer.nvidia.com/blog/scale-synthetic-data-and-physical-ai-reasoning-with-nvidia-cosmos-world-foundation-models/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a1d7dd0d-0955-5d70-92f1-3141f53ff486",
-    "title": "Build Accelerated, Differentiable Computational Physics Code for AI with NVIDIA Warp",
-    "link": "https://developer.nvidia.com/blog/build-accelerated-differentiable-computational-physics-code-for-ai-with-nvidia-warp/",
-    "pubDate": "2026-03-12T17:30:00+00:00",
-    "description": "Computer-Aided Engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across...",
-    "author": "Sheel Nidhan",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/decaying-turbulence-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decaying-turbulence\" width=\"768\" />Computer-Aided Engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/decaying-turbulence-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decaying-turbulence\" width=\"768\" /><p>Computer-Aided Engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across geometries and operating conditions. Unlike LLMs, these models depend on large volumes of high-fidelity, physics-compliant data. Recent scaling-law work on computational fluid dynamics (CFD) surrogates indicates that simulation-generated…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-accelerated-differentiable-computational-physics-code-for-ai-with-nvidia-warp/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
