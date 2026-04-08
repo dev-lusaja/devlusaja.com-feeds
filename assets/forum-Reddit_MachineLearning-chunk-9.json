@@ -1,5 +1,21 @@
 [
   {
+    "id": "1a78a98c-9919-56ca-b54b-c1c738af0fa4",
+    "title": "[P] Ai Learns to play Street Fighter 6",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rbz028/p_ai_learns_to_play_street_fighter_6/",
+    "pubDate": "2026-02-22T21:58:24+00:00",
+    "description": "In this video, I walk through my entire process of teaching an artificial intelligence to play fighting games by watching my gameplay. Using Stable Baselines 3 and imitation learning, I recorded myself playing as Ryu against Ken at difficulty level 5, then trained a neural network for 22 epochs to copy my playstyle. This is a friendly explanation of machine learning in gaming, but I also dive into the technical details for AI enthusiasts. Whether you're curious about AI, love Street Fighter, or want to learn about Behavior Cloning, this video breaks it all down. submitted by /u/AgeOfEmpires4AOE4 [link] [comments]",
+    "author": "/u/AgeOfEmpires4AOE4",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1rbz028/p_ai_learns_to_play_street_fighter_6/\"> <img alt=\"[P] Ai Learns to play Street Fighter 6\" src=\"https://external-preview.redd.it/WTcEuZRuz2kqy606lOJD6v40n755v6F9uDRYgP-bGIM.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=2314ef33e4d34a8988b36fdb9f102317fecfe1b3\" title=\"[P] Ai Learns to play Street Fighter 6\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>In this video, I walk through my entire process of teaching an artificial intelligence to play fighting games by watching my gameplay. Using Stable Baselines 3 and imitation learning, I recorded myself playing as Ryu against Ken at difficulty level 5, then trained a neural network for 22 epochs to copy my playstyle.</p> <p>This is a friendly explanation of machine learning in gaming, but I also dive into the technical details for AI enthusiasts. Whether you're curious about AI, love Street Fighter, or want to learn about Behavior Cloning, this video breaks it all down.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgeOfEmpires4AOE4\"> /u/AgeOfEmpires4AOE4 </a> <br /> <span><a href=\"https://youtube.com/watch?v=M8RBGLduO8U&amp;si=W1e4TYUilJ83w2fY\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rbz028/p_ai_learns_to_play_street_fighter_6/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/WTcEuZRuz2kqy606lOJD6v40n755v6F9uDRYgP-bGIM.jpeg?width=320&crop=smart&auto=webp&s=2314ef33e4d34a8988b36fdb9f102317fecfe1b3",
+    "isShortVideo": 0
+  },
+  {
     "id": "d40e061d-0433-5fc1-b47b-14d2cfd59833",
     "title": "[R] Multi-Modal Reasoning with <8GB (Cosmos-Reason2 on Jetson Orin Nano Super)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rbyinx/r_multimodal_reasoning_with_8gb_cosmosreason2_on/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>We have been working on a project called Sentinel. It is a fast LLM gateway written in Rust that gives you a single OpenAI compatible endpoint while routing to multiple providers under the hood.</p> <p>The idea came from dealing with multiple LLM APIs in production and getting tired of managing retries, failover logic, cost tracking, caching, and privacy concerns in every app. We wanted something lightweight, local first, and simple to drop in and most of all open-source.</p> <p>Right now it supports OpenAI and Anthropic with automatic failover. It includes:</p> <ul> <li>OpenAI compatible API so you can just change the base URL</li> <li>Built in retries with exponential backoff</li> <li>Exact match caching with DashMap</li> <li>Automatic PII redaction before requests leave your network</li> <li>SQLite audit logging</li> <li>Cost tracking per request</li> <li>Small dashboard for observability</li> </ul> <p>Please go to <a href=\"https://github.com/fbk2111/Sentinel\">https://github.com/fbk2111/Sentinel</a></p> <p>THIS IS NOT AN AD<br /> This is supposed to be an open source and community driven. We would really appreciate:</p> <ul> <li>Honest feedback on architecture</li> <li>Bug reports</li> <li>Ideas for features</li> <li>Contributors who want to help improve it</li> <li>Critical takes on what is over engineered or missing</li> </ul> <p>If you are running LLMs in production or just experimenting, we would love to hear how you would use something like this or why you would not</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SchemeVivid4175\"> /u/SchemeVivid4175 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9mbtc/p_open_source_llm_gateway_in_rust_looking_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9mbtc/p_open_source_llm_gateway_in_rust_looking_for/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "76b2e8e5-2f75-5bce-9c4c-e594b026c15d",
-    "title": "[P] Icd disease coding model",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r9jtzl/p_icd_disease_coding_model/",
-    "pubDate": "2026-02-20T02:59:02+00:00",
-    "description": "Hello everyone, I am trying to find a data set with medical notes from doctors specifically oncology notes. Is there a way to find this kind of data online I am trying to find this data set to create a model which can predict what will be the ICD code of the disease based on the Notes. Thank u in advance 🫰🏼 submitted by /u/Alternative-One8660 [link] [comments]",
-    "author": "/u/Alternative-One8660",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone, I am trying to find a data set with medical notes from doctors specifically oncology notes. Is there a way to find this kind of data online I am trying to find this data set to create a model which can predict what will be the ICD code of the disease based on the Notes. Thank u in advance 🫰🏼</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative-One8660\"> /u/Alternative-One8660 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9jtzl/p_icd_disease_coding_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9jtzl/p_icd_disease_coding_model/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

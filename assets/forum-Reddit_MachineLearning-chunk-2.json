@@ -1,5 +1,21 @@
 [
   {
+    "id": "bddf70f1-2b52-538b-a993-b7cfd5acb0c2",
+    "title": "[D] Physicist-turned-ML-engineer looking to get into ML research. What's worth working on and where can I contribute most?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sayptq/d_physicistturnedmlengineer_looking_to_get_into/",
+    "pubDate": "2026-04-03T00:31:45+00:00",
+    "description": "After years of focus on building products, I'm carving out time to do independent research again and trying to find the right direction. I have stayed reasonably up-to-date regarding major developments of the past years (reading books, papers, etc) ... but I definitely don't have a full understanding of today's research landscape. Could really use the help of you experts :-) A bit more about myself: PhD in string theory/theoretical physics (Oxford), then quant finance, then built and sold an ML startup to a large company where I now manage the engineering team. Skills/knowledge I bring which don't come as standard with Physics: Differential Geometry & Topology (numerical solution of) Partial Differential Equations (numerical solution of) Stochastic Differential Equations Quantum Field Theory / Statistical Field Theory tons of Engineering/Programming experience (in prod envs) Especially curious to hear from anyone who made a similar transition already! submitted by /u/BalcksChaos [link] [comments]",
+    "author": "/u/BalcksChaos",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>After years of focus on building products, I'm carving out time to do independent research again and trying to find the right direction. I have stayed reasonably up-to-date regarding major developments of the past years (reading books, papers, etc) ... but I definitely don't have a full understanding of today's research landscape. Could really use the help of you experts :-)</p> <p>A bit more about myself: PhD in string theory/theoretical physics (Oxford), then quant finance, then built and sold an ML startup to a large company where I now manage the engineering team.<br /> Skills/knowledge I bring which don't come as standard with Physics:</p> <ul> <li>Differential Geometry &amp; Topology</li> <li>(numerical solution of) Partial Differential Equations</li> <li>(numerical solution of) Stochastic Differential Equations</li> <li>Quantum Field Theory / Statistical Field Theory</li> <li>tons of Engineering/Programming experience (in prod envs)</li> </ul> <p>Especially curious to hear from anyone who made a similar transition already!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BalcksChaos\"> /u/BalcksChaos </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sayptq/d_physicistturnedmlengineer_looking_to_get_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sayptq/d_physicistturnedmlengineer_looking_to_get_into/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "113fc949-5ad3-5214-83f0-527008627a1b",
     "title": "[R] Is autoresearch really better than classic hyperparameter tuning?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1satj6r/r_is_autoresearch_really_better_than_classic/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I've been accepted into the MSCS program at UdeM for this coming fall. I applied to the MILA supervisor matching process, but didn't get any responses.</p> <p>I wanted to know if anyone here has been in a similar situation, joined UdeM without MILA affiliation, and managed to get taken on by a core MILA professor during or after their first semester.</p> <p>I understand this isn't the standard path, and the matching window has already passed for this cycle. But I'm trying to figure out whether this is genuinely feasible or whether I should be recalibrating my expectations entirely, or if there is any other path I am overlooking.</p> <p>If you've done it or know someone who has ... what actually made the difference? Was it coming in with existing work, excelling in classes, TAing for the right professor, something else entirely?</p> <p>Not looking for reassurance. Just want to know if there's a real precedent here and what the realistic picture looks like.</p> <p>Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Actual_banana_2002\"> /u/Actual_banana_2002 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bd0ed80e-dc23-56da-8fa5-6e92ef2de477",
-    "title": "[P] fastrad: GPU-native radiomics library — 25× faster than PyRadiomics, 100% IBSI-compliant, all 8 feature classes",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/",
-    "pubDate": "2026-03-30T20:43:38+00:00",
-    "description": "PyRadiomics is the de facto standard for radiomic feature extraction, but it's CPU-only and takes ~3 seconds per scan. At scale, that's a bottleneck. I built fastrad — a PyTorch-native library that implements all 8 IBSI feature classes (first-order, shape 2D/3D, GLCM, GLRLM, GLSZM, GLDM, NGTDM) as native tensor operations. Everything runs on torch.Tensor with transparent device routing (auto/cuda/cpu). Key numbers on an RTX 4070 Ti vs PyRadiomics: • End-to-end: 0.116s vs 2.90s → 25× speedup • Per-class gains range from 12.9× (GLRLM) to 49.3× (first-order) • Single-thread CPU: 2.63× faster than PyRadiomics 32-thread on x86, 3.56× on Apple Silicon • Peak VRAM: 654 MB Correctness: validated against the IBSI Phase 1 digital phantom (105 features, max deviation ≤ 10⁻¹³%) and against PyRadiomics on a TCIA NSCLC CT — all 105 features agree to within 10⁻¹¹. Happy to answer questions on the implementation — the GLCM and GLSZM kernels were the trickiest to get numerically identical to PyRadiomics. Pre-print: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486 Github repo: https://github.com/helloerikaaa/fastrad submitted by /u/helloerikaaa [link] [comments]",
-    "author": "/u/helloerikaaa",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>PyRadiomics is the de facto standard for radiomic feature extraction, but it's CPU-only and takes ~3 seconds per scan. At scale, that's a bottleneck.</p> <p>I built fastrad — a PyTorch-native library that implements all 8 IBSI feature classes (first-order, shape 2D/3D, GLCM, GLRLM, GLSZM, GLDM, NGTDM) as native tensor operations. Everything runs on torch.Tensor with transparent device routing (auto/cuda/cpu).</p> <p>Key numbers on an RTX 4070 Ti vs PyRadiomics:</p> <p>• End-to-end: 0.116s vs 2.90s → 25× speedup</p> <p>• Per-class gains range from 12.9× (GLRLM) to 49.3× (first-order)</p> <p>• Single-thread CPU: 2.63× faster than PyRadiomics 32-thread on x86, 3.56× on Apple Silicon</p> <p>• Peak VRAM: 654 MB</p> <p>Correctness: validated against the IBSI Phase 1 digital phantom (105 features, max deviation ≤ 10⁻¹³%) and against PyRadiomics on a TCIA NSCLC CT — all 105 features agree to within 10⁻¹¹.</p> <p>Happy to answer questions on the implementation — the GLCM and GLSZM kernels were the trickiest to get numerically identical to PyRadiomics.</p> <p>Pre-print: <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486\">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486</a></p> <p>Github repo: <a href=\"https://github.com/helloerikaaa/fastrad\">https://github.com/helloerikaaa/fastrad</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/helloerikaaa\"> /u/helloerikaaa </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
