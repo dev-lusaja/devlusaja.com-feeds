@@ -1,5 +1,21 @@
 [
   {
+    "id": "19f6cb4b-05c9-5a6c-bb8b-247dd18f5224",
+    "title": "Newton Adds Contact-Rich Manipulation and Locomotion Capabilities for Industrial Robotics",
+    "link": "https://developer.nvidia.com/blog/newton-adds-contact-rich-manipulation-and-locomotion-capabilities-for-industrial-robotics/",
+    "pubDate": "2026-03-16T20:28:50+00:00",
+    "description": "Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation,...",
+    "author": "Philipp Reist",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"A Gif showing robot movements.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Newton-Tasks.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Newton-Tasks\" width=\"600\" />Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation,...<img alt=\"A Gif showing robot movements.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Newton-Tasks.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Newton-Tasks\" width=\"600\" /><p>Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation, simulators must handle complex dynamics such as contact forces and deformable objects. While most engines trade off speed for realism, Newton—a GPU-accelerated, open source simulator—is designed to do both. Newton 1.0 GA…</p>\n<p><a href=\"https://developer.nvidia.com/blog/newton-adds-contact-rich-manipulation-and-locomotion-capabilities-for-industrial-robotics/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1adb33c6-67bc-5729-b4fe-1848cb764e8e",
     "title": "Run Autonomous, Self-Evolving Agents More Safely with NVIDIA OpenShell",
     "link": "https://developer.nvidia.com/blog/run-autonomous-self-evolving-agents-more-safely-with-nvidia-openshell/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/cuda-compute-gpu-mode-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cuda compute gpu mode\" width=\"768\" />Python dominates machine learning for its ergonomics, but writing truly fast GPU code has historically meant dropping into C++ to write custom kernels and to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/cuda-compute-gpu-mode-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cuda compute gpu mode\" width=\"768\" /><p>Python dominates machine learning for its ergonomics, but writing truly fast GPU code has historically meant dropping into C++ to write custom kernels and to maintain bindings back to Python. For most Python developers and researchers, this is a significant barrier to entry. Frameworks like PyTorch address this by implementing kernels in CUDA C++—either handwritten or by leveraging libraries…</p>\n<p><a href=\"https://developer.nvidia.com/blog/topping-the-gpu-mode-kernel-leaderboard-with-nvidia-cuda-compute/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "44e15a80-1b09-570e-9149-616fa1099b77",
-    "title": "How NVIDIA Extreme Hardware-Software Co-Design Delivered a Large Inference Boost for Sarvam AI’s Sovereign Models",
-    "link": "https://developer.nvidia.com/blog/how-nvidia-extreme-hardware-software-co-design-delivered-a-large-inference-boost-for-sarvam-ais-sovereign-models/",
-    "pubDate": "2026-02-18T16:00:00+00:00",
-    "description": "As global AI adoption accelerates, developers face a growing challenge: delivering large language model (LLM) performance that meets real-world latency and cost...",
-    "author": "Utkarsh Uppal",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/ov-dgx-cloud-ari-blog-1920x1080-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ov-dgx-cloud-ari-blog-1920x1080\" width=\"768\" />As global AI adoption accelerates, developers face a growing challenge: delivering large language model (LLM) performance that meets real-world latency and cost...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/ov-dgx-cloud-ari-blog-1920x1080-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ov-dgx-cloud-ari-blog-1920x1080\" width=\"768\" /><p>As global AI adoption accelerates, developers face a growing challenge: delivering large language model (LLM) performance that meets real-world latency and cost requirements. Running models with tens of billions of parameters in production, especially for conversational or voice-based AI agents, demands high throughput, low latency, and predictable service-level performance.</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-nvidia-extreme-hardware-software-co-design-delivered-a-large-inference-boost-for-sarvam-ais-sovereign-models/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "aaef5e81-2adb-5809-bdf8-020886496ffe",
+    "title": "NVIDIA Ising Introduces AI-Powered Workflows to Build Fault-Tolerant Quantum Systems",
+    "link": "https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/",
+    "pubDate": "2026-04-14T14:15:56+00:00",
+    "description": "NVIDIA Ising is the world's first family of open AI models for building quantum processors, launching with two model domains: Ising Calibration and Ising...",
+    "author": "Tom Lubowe",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Ising-Quantum-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Ising-Quantum\" width=\"768\" />NVIDIA Ising is the world's first family of open AI models for building quantum processors, launching with two model domains: Ising Calibration and Ising...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Ising-Quantum-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Ising-Quantum\" width=\"768\" /><p>NVIDIA Ising is the world’s first family of open AI models for building quantum processors, launching with two model domains: Ising Calibration and Ising Decoding. Both target the fundamental challenge in quantum computing—qubits are inherently noisy. The best quantum processors make an error roughly once in every thousand operations. To become useful accelerators for scientific and…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cf8b95a4-f8a2-5172-ae97-1505596ebce0",
     "title": "MiniMax M2.7 Advances Scalable Agentic Workflows on NVIDIA Platforms for Complex AI Applications",
     "link": "https://developer.nvidia.com/blog/minimax-m2-7-advances-scalable-agentic-workflows-on-nvidia-platforms-for-complex-ai-applications/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/inference-press-dynamo-gtc26-4960950-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-press-dynamo-gtc26-4960950-1920x1080\" width=\"768\" />Reasoning models are growing rapidly in size and are increasingly being integrated into agentic AI workflows that interact with other models and external tools....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/inference-press-dynamo-gtc26-4960950-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-press-dynamo-gtc26-4960950-1920x1080\" width=\"768\" /><p>Reasoning models are growing rapidly in size and are increasingly being integrated into agentic AI workflows that interact with other models and external tools. Deploying these models and workflows in production environments requires distributing them across multiple GPU nodes, which demands careful orchestration and coordination across GPUs. NVIDIA Dynamo 1.0—available now—addresses these…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-dynamo-1-production-ready/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "19f6cb4b-05c9-5a6c-bb8b-247dd18f5224",
-    "title": "Newton Adds Contact-Rich Manipulation and Locomotion Capabilities for Industrial Robotics",
-    "link": "https://developer.nvidia.com/blog/newton-adds-contact-rich-manipulation-and-locomotion-capabilities-for-industrial-robotics/",
-    "pubDate": "2026-03-16T20:28:50+00:00",
-    "description": "Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation,...",
-    "author": "Philipp Reist",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A Gif showing robot movements.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Newton-Tasks.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Newton-Tasks\" width=\"600\" />Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation,...<img alt=\"A Gif showing robot movements.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Newton-Tasks.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Newton-Tasks\" width=\"600\" /><p>Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation, simulators must handle complex dynamics such as contact forces and deformable objects. While most engines trade off speed for realism, Newton—a GPU-accelerated, open source simulator—is designed to do both. Newton 1.0 GA…</p>\n<p><a href=\"https://developer.nvidia.com/blog/newton-adds-contact-rich-manipulation-and-locomotion-capabilities-for-industrial-robotics/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
