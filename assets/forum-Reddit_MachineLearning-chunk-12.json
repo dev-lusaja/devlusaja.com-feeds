@@ -222,21 +222,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m a researcher currently trying to replicate published results, and I’m running into reproducibility issues more often than I expected. I’m trying to calibrate whether this is “normal” or a sign I’m missing something fundamental. I have been careful about all the parameter as stated in papers. Despite that, I’m still seeing noticeable deviations from reported numbers—sometimes small but consistent gaps, sometimes larger swings across runs.</p> <p>For example, I was trying to replicate <em>“Machine Theory of Mind”</em> (ICML 2018), and I keep hitting discrepancies that I can’t fully understand. My labmates also tried to replicate the paper they were not able to replicate results even closely.</p> <p>What are the papers <strong>you tried but couldn’t replicate</strong> no matter what you did?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ArtVoyager77\"> /u/ArtVoyager77 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r7jbw6/d_how_often_do_you_run_into_reproducibility/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r7jbw6/d_how_often_do_you_run_into_reproducibility/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "83e2abb8-cf6f-528e-9834-910153a9d0fd",
-    "title": "[P] I trained an XGBoost model with DuckLake and ADBC",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r7gu62/p_i_trained_an_xgboost_model_with_ducklake_and/",
-    "pubDate": "2026-02-17T19:56:24+00:00",
-    "description": "I've been spending time with Apache ADBC (Arrow Database Connectivity) and DuckLake (lakehouse architecture using DuckDB) to read columnar data. I realized XGBoost took Arrow tables as a data input and I was able to pass arrow tables with little memory overhead to train. I also wanted to try to not use scikit-learn so I built a train and test split function with PyArrow instead. ADBC also allows you to stream larger than memory data and train a model in the right circumstances. submitted by /u/empty_cities [link] [comments]",
-    "author": "/u/empty_cities",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been spending time with Apache ADBC (Arrow Database Connectivity) and DuckLake (lakehouse architecture using DuckDB) to read columnar data. I realized XGBoost took Arrow tables as a data input and I was able to pass arrow tables with little memory overhead to train. I also wanted to try to not use scikit-learn so I built a train and test split function with PyArrow instead. ADBC also allows you to stream larger than memory data and train a model in the right circumstances.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/empty_cities\"> /u/empty_cities </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r7gu62/p_i_trained_an_xgboost_model_with_ducklake_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r7gu62/p_i_trained_an_xgboost_model_with_ducklake_and/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]

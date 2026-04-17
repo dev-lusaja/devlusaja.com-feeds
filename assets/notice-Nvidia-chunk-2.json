@@ -1,5 +1,37 @@
 [
   {
+    "id": "00ce68af-706b-54fa-b915-61eead7e344d",
+    "title": "Making Softmax More Efficient with NVIDIA Blackwell Ultra",
+    "link": "https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/",
+    "pubDate": "2026-02-25T17:00:00+00:00",
+    "description": "LLM context lengths are exploding, and architectures are moving toward complex attention schemes like Multi-Head Latent Attention (MLA) and Grouped Query...",
+    "author": "Jamie Li",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image2-4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />LLM context lengths are exploding, and architectures are moving toward complex attention schemes like Multi-Head Latent Attention (MLA) and Grouped Query...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image2-4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" /><p>LLM context lengths are exploding, and architectures are moving toward complex attention schemes like Multi-Head Latent Attention (MLA) and Grouped Query Attention (GQA). As a result, AI ”speed of thought” is increasingly governed not by the massive throughput of matrix multiplications, but by the transcendental math of the softmax function. Transcendentals refer to functions that cannot be…</p>\n<p><a href=\"https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "04fb274c-686a-563a-a80b-ce2c46c20a10",
+    "title": "Using NVFP4 Low-Precision Model Training for Higher Throughput Without Losing Accuracy",
+    "link": "https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/",
+    "pubDate": "2026-02-23T18:00:00+00:00",
+    "description": "As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as...",
+    "author": "Aditya Vavre",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/gpus-model-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gpus-model\" width=\"600\" />As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/gpus-model-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gpus-model\" width=\"600\" /><p>As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as training throughput expectations, memory limits, and rising costs are becoming the primary barriers to scaling transformer models. Using lower-precision training can address these challenges. By reducing the numeric precision used during…</p>\n<p><a href=\"https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/\" rel=\"nofollow\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0cc1af7a-df3c-5eb8-8830-d776e1c61942",
     "title": "Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization",
     "link": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/",
@@ -60,22 +92,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/ov-dgx-cloud-ari-blog-1920x1080-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ov-dgx-cloud-ari-blog-1920x1080\" width=\"768\" />As global AI adoption accelerates, developers face a growing challenge: delivering large language model (LLM) performance that meets real-world latency and cost...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/ov-dgx-cloud-ari-blog-1920x1080-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ov-dgx-cloud-ari-blog-1920x1080\" width=\"768\" /><p>As global AI adoption accelerates, developers face a growing challenge: delivering large language model (LLM) performance that meets real-world latency and cost requirements. Running models with tens of billions of parameters in production, especially for conversational or voice-based AI agents, demands high throughput, low latency, and predictable service-level performance.</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-nvidia-extreme-hardware-software-co-design-delivered-a-large-inference-boost-for-sarvam-ais-sovereign-models/\" rel=\"nofollow\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f47482a6-127e-502d-b3d1-4b894e37366d",
-    "title": "Build AI-Ready Knowledge Systems Using 5 Essential Multimodal RAG Capabilities",
-    "link": "https://developer.nvidia.com/blog/build-ai-ready-knowledge-systems-using-5-essential-multimodal-rag-capabilities/",
-    "pubDate": "2026-02-17T18:00:00+00:00",
-    "description": "Enterprise data is inherently complex: real-world documents are multimodal, spanning text, tables, charts and graphs, images, diagrams, scanned pages, forms,...",
-    "author": "Shruthii Sathyanarayanan",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/retrieval-augmented-generation-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"retrieval-augmented-generation\" width=\"768\" />Enterprise data is inherently complex: real-world documents are multimodal, spanning text, tables, charts and graphs, images, diagrams, scanned pages, forms,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/retrieval-augmented-generation-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"retrieval-augmented-generation\" width=\"768\" /><p>Enterprise data is inherently complex: real-world documents are multimodal, spanning text, tables, charts and graphs, images, diagrams, scanned pages, forms, and embedded metadata. Financial reports carry critical insights in tables, engineering manuals rely on diagrams, and legal documents often include annotated or scanned content. Retrieval-augmented generation (RAG) was created to ground…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-ai-ready-knowledge-systems-using-5-essential-multimodal-rag-capabilities/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
