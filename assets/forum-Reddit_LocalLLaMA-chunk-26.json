@@ -30,37 +30,5 @@
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r85z1t/even_with_opus_46_and_massive_context_windows/\"> <img alt=\"Even with Opus 4.6 and massive context windows, this is still the only thing that saves my production pipelines\" src=\"https://preview.redd.it/esofp8nbu9kg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=3395f6dda8e8eaa898f976c6258bdb37d5c27231\" title=\"Even with Opus 4.6 and massive context windows, this is still the only thing that saves my production pipelines\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>We all got excited when the new reasoning models dropped. Better at following instructions, longer context, fewer hallucinations. Great.</p> <p>Still seeing agentic workflows fail at basic deterministic logic because teams treat the LLM as a CPU instead of what it is — a reasoning engine.</p> <p>After the bug I shared on Monday (RAG pipeline recommending a candidate based on a three-year-old resume), I made my team go back to basics. Wrote a checklist I’ve been calling the Delegation Filter.</p> <p>The first question does most of the heavy lifting:</p> <p>“Is the outcome deterministic?”</p> <p>If yes — don’t use an LLM. I don’t care if it’s GPT-5 or Opus 4.6. Write a SQL query. Deterministic code is free and correct every time. Probabilistic models are expensive and correct most of the time. For tasks where “most of the time” isn’t good enough, that gap will bite you.</p> <p>Am I the only one who feels like we’re forgetting how to write regular code because the models got too good?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tdeliev\"> /u/tdeliev </a> <br /> <span><a href=\"https://i.redd.it/esofp8nbu9kg1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r85z1t/even_with_opus_46_and_massive_context_windows/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/esofp8nbu9kg1.jpeg?width=640&crop=smart&auto=webp&s=3395f6dda8e8eaa898f976c6258bdb37d5c27231",
     "isShortVideo": 0
-  },
-  {
-    "id": "01f24f98-ee95-5770-b525-8fe44861236f",
-    "title": "PSA: DDR5 RDIMM price passed the point were 3090 are less expensive per gb..",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1r83irw/psa_ddr5_rdimm_price_passed_the_point_were_3090/",
-    "pubDate": "2026-02-18T13:51:04+00:00",
-    "description": "Hello all, Just wanted to note that RDIMM prices are so wild.. Stacking rdimms starts to be as expensive as stacking 3090s.. But RDIMM don't come with compute included.. What a crazy time, shall we stack rdimms or 3090, what's your take on that? submitted by /u/No_Afternoon_4260 [link] [comments]",
-    "author": "/u/No_Afternoon_4260",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello all,</p> <p>Just wanted to note that RDIMM prices are so wild.. Stacking rdimms starts to be as expensive as stacking 3090s.. But RDIMM don't come with compute included..</p> <p>What a crazy time, shall we stack rdimms or 3090, what's your take on that?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Afternoon_4260\"> /u/No_Afternoon_4260 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r83irw/psa_ddr5_rdimm_price_passed_the_point_were_3090/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r83irw/psa_ddr5_rdimm_price_passed_the_point_were_3090/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e640f3ca-231d-5370-9041-12905336d84e",
-    "title": "Qwen 3.5 MXFP4 quants are coming - confirmed by Junyang Lin",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1r8157s/qwen_35_mxfp4_quants_are_coming_confirmed_by/",
-    "pubDate": "2026-02-18T12:01:58+00:00",
-    "description": "Most here are aware that OpenAI did something very well with their GPT-Oss release - they trained their model in 4 bit and delivered native mxfp4 quants which means a lot higher quality than the typical Unsloth and Bartowski quants of bf16 models. Google did it too with Gemma 3 QAT which was very well received by the community. Super excited for it, this is definately the right direction to take! https://x.com/JustinLin610/status/2024002713579651245 submitted by /u/dampflokfreund [link] [comments]",
-    "author": "/u/dampflokfreund",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most here are aware that OpenAI did something very well with their GPT-Oss release - they trained their model in 4 bit and delivered native mxfp4 quants which means a lot higher quality than the typical Unsloth and Bartowski quants of bf16 models. Google did it too with Gemma 3 QAT which was very well received by the community. Super excited for it, this is definately the right direction to take!</p> <p><a href=\"https://x.com/JustinLin610/status/2024002713579651245\">https://x.com/JustinLin610/status/2024002713579651245</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dampflokfreund\"> /u/dampflokfreund </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r8157s/qwen_35_mxfp4_quants_are_coming_confirmed_by/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r8157s/qwen_35_mxfp4_quants_are_coming_confirmed_by/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
