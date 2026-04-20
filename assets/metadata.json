@@ -1,6 +1,6 @@
 {
-  "totalItems": 23359,
-  "generatedAt": "2026-04-19T15:43:53.631718Z",
+  "totalItems": 23289,
+  "generatedAt": "2026-04-20T05:04:56.352773Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -186,19 +186,19 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 1810,
+      "totalItems": 1778,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1713,
+      "totalItems": 1712,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
     "pappers": {
-      "totalItems": 16500,
+      "totalItems": 16481,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
@@ -210,7 +210,7 @@
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 215,
+      "totalItems": 217,
       "totalChunks": 8,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -231,15 +231,15 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 753,
+        "count": 738,
         "isPriority": true,
-        "totalChunks": 26,
+        "totalChunks": 25,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 711,
+        "count": 697,
         "isPriority": true,
         "totalChunks": 24,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -247,7 +247,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 346,
+        "count": 343,
         "isPriority": true,
         "totalChunks": 12,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -257,7 +257,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2772,
+        "count": 2754,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -265,7 +265,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 468,
+        "count": 465,
         "isPriority": true,
         "totalChunks": 16,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -273,7 +273,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 278,
+        "count": 279,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-El_Pais"
@@ -343,20 +343,20 @@
         "chunkPrefix": "notice-Nvidia"
       },
       {
-        "category": "HuggingFace",
-        "title": "HuggingFace",
+        "category": "MIT_AI",
+        "title": "MIT Tech Review AI",
         "count": 44,
         "isPriority": true,
         "totalChunks": 2,
-        "chunkPrefix": "notice-HuggingFace"
+        "chunkPrefix": "notice-MIT_AI"
       },
       {
-        "category": "MIT_AI",
-        "title": "MIT Tech Review AI",
-        "count": 43,
+        "category": "HuggingFace",
+        "title": "HuggingFace",
+        "count": 42,
         "isPriority": true,
         "totalChunks": 2,
-        "chunkPrefix": "notice-MIT_AI"
+        "chunkPrefix": "notice-HuggingFace"
       },
       {
         "category": "CNN_Espanol",
@@ -387,7 +387,7 @@
       {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 8322,
+        "count": 8304,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_LG"
@@ -395,7 +395,7 @@
       {
         "category": "arXiv_AI",
         "title": "arXiv cs.AI",
-        "count": 8178,
+        "count": 8177,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_AI"
@@ -405,7 +405,7 @@
       {
         "category": "YouTube_XavierMitjana",
         "title": "Xavier Mitjana",
-        "count": 20,
+        "count": 21,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_XavierMitjana"
@@ -421,7 +421,7 @@
       {
         "category": "YouTube_CodificandoBits",
         "title": "Codificando Bits",
-        "count": 6,
+        "count": 7,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "youtube-YouTube_CodificandoBits"
