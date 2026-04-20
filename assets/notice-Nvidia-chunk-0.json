@@ -1,5 +1,21 @@
 [
   {
+    "id": "1373ac02-feae-51a2-a563-b6d28fe22a27",
+    "title": "Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments",
+    "link": "https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/",
+    "pubDate": "2026-04-20T17:00:00+00:00",
+    "description": "AI tools are significantly accelerating software development and changing how developers work with code. These tools serve as real-time copilots, automating...",
+    "author": "Daniel Teixeira",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" />AI tools are significantly accelerating software development and changing how developers work with code. These tools serve as real-time copilots, automating...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" /><p>AI tools are significantly accelerating software development and changing how developers work with code. These tools serve as real-time copilots, automating repetitive tasks, executing tasks, writing documentation, and more. OpenAI Codex, for example, is a coding agent designed to assist developers through tasks like code generation, debugging, and automated pull request (PR) creation.</p>\n<p><a href=\"https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "55f2edc3-d7c4-5d8d-96a0-0cbba6328639",
     "title": "Full-Stack Optimizations for Agentic Inference with NVIDIA Dynamo",
     "link": "https://developer.nvidia.com/blog/full-stack-optimizations-for-agentic-inference-with-nvidia-dynamo/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/02/cybersecurity-ai-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cybersecurity-ai-featured\" width=\"768\" />AI is moving from experimentation to production. However, most data enterprises need exists outside the public cloud. This includes sensitive information like...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/02/cybersecurity-ai-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cybersecurity-ai-featured\" width=\"768\" /><p>AI is moving from experimentation to production. However, most data enterprises need exists outside the public cloud. This includes sensitive information like patient records, market research, and legacy systems containing enterprise knowledge. There’s also a risk of using private data with AI models, and adoption is often slowed or blocked by privacy and trust concerns.</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-a-zero-trust-architecture-for-confidential-ai-factories/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b0299f29-1805-56d7-b325-c0df010c8988",
-    "title": "Deploying Disaggregated LLM Inference Workloads on Kubernetes",
-    "link": "https://developer.nvidia.com/blog/deploying-disaggregated-llm-inference-workloads-on-kubernetes/",
-    "pubDate": "2026-03-23T07:01:00+00:00",
-    "description": "As large language model (LLM) inference workloads grow in complexity, a single monolithic serving process starts to hit its limits. Prefill and decode stages...",
-    "author": "Anish Maddipoti",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/image3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" />As large language model (LLM) inference workloads grow in complexity, a single monolithic serving process starts to hit its limits. Prefill and decode stages...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/image3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" /><p>As large language model (LLM) inference workloads grow in complexity, a single monolithic serving process starts to hit its limits. Prefill and decode stages have fundamentally different compute profiles, yet traditional deployments force them onto the same hardware, leaving GPUs underutilized and scaling inflexible. Disaggregated serving addresses this by splitting the inference pipeline…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploying-disaggregated-llm-inference-workloads-on-kubernetes/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
