@@ -174,37 +174,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Submitted my first paper to ACL ARR Jan cycle, and after addressing reviewer concerns got reviews: <strong>4.5 (conf 5), 3.5 (conf 3), 3 (conf 3)</strong> </p> <p>Now I guess I will just have to wait for meta-reviews to come out on March 10. </p> <p>Should I commit with these scores for ACL 2026? (Main would be great, but I'll take findings too)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ApartmentAlarmed3848\"> /u/ApartmentAlarmed3848 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ra5uf7/d_acl_arr_jan_2026_metareviews/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ra5uf7/d_acl_arr_jan_2026_metareviews/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "71fd7896-814e-5f75-a03d-3dfeb440b365",
-    "title": "[R] Can Vision-Language Models See Squares? Text-Recognition Mediates Spatial Reasoning Across Three Model Families",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r9ved9/r_can_visionlanguage_models_see_squares/",
-    "pubDate": "2026-02-20T13:30:21+00:00",
-    "description": "Paper: https://arxiv.org/abs/2602.15950 TL;DR: Vision-Language Models achieve ~84% F1 reading binary grids rendered as text characters (. and #) but collapse to 29-39% F1 when the exact same grids are rendered as filled squares, despite both being images through the same visual encoder. The 34-54 point F1 gap replicates across Claude Opus, ChatGPT 5.2, and Gemini 3 Thinking. Hi everyone, I ran a simple experiment: generate fifteen 15×15 binary grids at varying density, render each as both text symbols and filled squares, and ask frontier VLMs to transcribe them. The text symbols are images, not tokenized text; they go through the same visual encoder as the squares. Yet the performance gap is massive. What's interesting is that each model fails differently on the squares condition. Claude systematically under-counts filled cells, ChatGPT massively over-counts, and Gemini tiles identical L-shaped templates regardless of input. But all three share the same underlying deficit: severely degraded spatial localization without textual anchors. Gemini showed a surprising result: it actually had the strongest visual pathway at low density (68% F1 on sparse grids vs 30% for Claude), but collapsed completely above 32% density with structured hallucinations. This aligns with Google's heavier investment in visual AI. There seems to be a tradeoff between visual-pathway capacity and text-pathway robustness across model families. The implication is that current VLMs have a strong implicit OCR pipeline but lack an equivalent mechanism for non-textual spatial features. This matters for any application where users upload charts, spreadsheets, diagrams, or any structural-based content. I'm curious what this community thinks: could introducing discrete visual tokens, a \"visual alphabet\" for common spatial patterns, bridge the gap cheaply, rather than trying to improve visual encoders? submitted by /u/Friendly-Card-9676 [link] [comments]",
-    "author": "/u/Friendly-Card-9676",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Paper:</strong> <a href=\"https://arxiv.org/abs/2602.15950\">https://arxiv.org/abs/2602.15950</a></p> <p><strong>TL;DR:</strong> Vision-Language Models achieve ~84% F1 reading binary grids rendered as text characters (. and #) but collapse to 29-39% F1 when the exact same grids are rendered as filled squares, despite both being images through the same visual encoder. The 34-54 point F1 gap replicates across Claude Opus, ChatGPT 5.2, and Gemini 3 Thinking.</p> <p>Hi everyone,</p> <p>I ran a simple experiment: generate fifteen 15×15 binary grids at varying density, render each as both text symbols and filled squares, and ask frontier VLMs to transcribe them. The text symbols are images, not tokenized text; they go through the same visual encoder as the squares. Yet the performance gap is massive.</p> <p>What's interesting is that each model fails differently on the squares condition. Claude systematically under-counts filled cells, ChatGPT massively over-counts, and Gemini tiles identical L-shaped templates regardless of input. But all three share the same underlying deficit: severely degraded spatial localization without textual anchors.</p> <p>Gemini showed a surprising result: it actually had the strongest visual pathway at low density (68% F1 on sparse grids vs 30% for Claude), but collapsed completely above 32% density with structured hallucinations. This aligns with Google's heavier investment in visual AI. There seems to be a tradeoff between visual-pathway capacity and text-pathway robustness across model families.</p> <p>The implication is that current VLMs have a strong implicit OCR pipeline but lack an equivalent mechanism for non-textual spatial features. This matters for any application where users upload charts, spreadsheets, diagrams, or any structural-based content.</p> <p>I'm curious what this community thinks: could introducing discrete visual tokens, a &quot;visual alphabet&quot; for common spatial patterns, bridge the gap cheaply, rather than trying to improve visual encoders?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Friendly-Card-9676\"> /u/Friendly-Card-9676 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9ved9/r_can_visionlanguage_models_see_squares/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9ved9/r_can_visionlanguage_models_see_squares/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1794e0ed-d52b-5f7c-a771-15746d46c211",
-    "title": "[D] FAccT 2026 Paper Reviews (Conference on Fairness, Accountability, and Transparency)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1r9trcd/d_facct_2026_paper_reviews_conference_on_fairness/",
-    "pubDate": "2026-02-20T12:13:19+00:00",
-    "description": "FAccT 2026 Reviews are supposed to be released within next 24 hours. Creating a discussion thread to discuss among ourselves, thanks! submitted by /u/anms_pro [link] [comments]",
-    "author": "/u/anms_pro",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>FAccT 2026 Reviews are supposed to be released within next 24 hours. Creating a discussion thread to discuss among ourselves, thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/anms_pro\"> /u/anms_pro </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9trcd/d_facct_2026_paper_reviews_conference_on_fairness/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1r9trcd/d_facct_2026_paper_reviews_conference_on_fairness/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]

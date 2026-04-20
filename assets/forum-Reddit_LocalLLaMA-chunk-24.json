@@ -238,53 +238,5 @@
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9y6s8/transcriptionsuite_a_fully_local_private_open/\"> <img alt=\"TranscriptionSuite - A fully local, private &amp; open source audio transcription for Linux, Windows &amp; macOS\" src=\"https://external-preview.redd.it/ZjVodnR2dGoyb2tnMfrHn1-Z1IlbM1M-CdvVLf1S0fx3BvVT39BjZwD6xxr6.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8c01a41fb0c91487d97d9e6bbd7ba58c3750d09f\" title=\"TranscriptionSuite - A fully local, private &amp; open source audio transcription for Linux, Windows &amp; macOS\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi! This is a short presentation for my hobby project, <a href=\"https://github.com/homelab-00/TranscriptionSuite\">TranscriptionSuite</a>.</p> <p><strong>TL;DR</strong> A fully local &amp; private Speech-To-Text app for Linux, Windows &amp; macOS. Python backend + Electron frontend, utilizing faster-whisper and CUDA acceleration.</p> <p>If you're interested in the boring dev stuff, go to the bottom section.</p> <hr /> <p>I'm releasing a major UI upgrade today. Enjoy!</p> <p>Short sales pitch:</p> <ul> <li><strong>100% Local</strong>: <em>Everything</em> runs on your own computer, the app doesn't need internet beyond the initial setup</li> <li><strong>Truly Multilingual</strong>: Supports <a href=\"https://github.com/openai/whisper/blob/main/whisper/tokenizer.py\">90+ languages</a></li> <li><strong>Fully featured GUI</strong>: Electron desktop app for Linux, Windows, and macOS</li> <li><strong>GPU + CPU Mode</strong>: NVIDIA CUDA acceleration (recommended), or CPU-only mode for any platform including macOS</li> <li><strong>Longform Transcription</strong>: Record as long as you want and have it transcribed in seconds</li> <li><strong>Live Mode</strong>: Real-time sentence-by-sentence transcription for continuous dictation workflows</li> <li><strong>Speaker Diarization</strong>: PyAnnote-based speaker identification</li> <li><strong>Static File Transcription</strong>: Transcribe existing audio/video files with multi-file import queue, retry, and progress tracking</li> <li><strong>Remote Access</strong>: Securely access your desktop at home running the model from anywhere (utilizing Tailscale)</li> <li><strong>Audio Notebook</strong>: An Audio Notebook mode, with a calendar-based view, full-text search, and LM Studio integration (chat about your notes with the AI)</li> <li><strong>System Tray Control</strong>: Quickly start/stop a recording, plus a lot of other controls, available via the system tray.</li> </ul> <p>📌<em>Half an hour of audio transcribed in under a minute (RTX 3060)!</em></p> <hr /> <p>The seed of the project was my desire to quickly and reliably interface with AI chatbots using my voice. That was about a year ago. Though less prevalent back then, still plenty of AI services like GhatGPT offered voice transcription. However the issue is that, like every other AI-infused company, they <em>always</em> do it shittily. Yes is works fine for 30s recordings, but what if I want to ramble on for 10 minutes? The AI is smart enough to decipher what I mean and I can speak to it like a smarter rubber ducky, helping me work through the problem.</p> <p>Well, from my testing back then speak more than 5 minutes and they all start to crap out. And you feel doubly stupid because not only did you not get your transcription but you also wasted 10 minutes talking to the wall.</p> <p>Moreover, there's the privacy issue. They already collect a ton of text data, giving them my voice feels like too much.</p> <p>So I first looking at any existing solutions, but couldn't find any decent option that could run locally. Then I came across <a href=\"https://github.com/KoljaB/RealtimeSTT\">RealtimeSTT</a>, an extremely impressive and efficient Python project that offered real-time transcription. It's more of a library or framework with only sample implementations.</p> <p>So I started building around that package, stripping it down to its barest of bones in order to understand how it works so that I could modify it. This whole project grew out of that idea.</p> <p>I built this project to satisfy my needs. I thought about releasing it only when it was decent enough where someone who doesn't know anything about it can just download a thing and run it. That's why I chose to Dockerize the server portion of the code.</p> <p>The project was originally written in pure Python. Essentially it's a fancy wrapper around <code>faster-whisper</code>. At some point I implemented a <em>server-client</em> architecture and added a notebook mode (think of it like calendar for your audio notes).</p> <p>And recently I decided to upgrade the frontend UI from Python to React + Typescript. Built all in Google AI Studio - App Builder mode for free believe it or not. No need to shell out the big bucks for Lovable, daddy Google's got you covered.</p> <hr /> <p>Don't hesitate to contact me here or open an issue on GitHub for any technical issues or other ideas!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TwilightEncoder\"> /u/TwilightEncoder </a> <br /> <span><a href=\"https://v.redd.it/gxbrs1rj2okg1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9y6s8/transcriptionsuite_a_fully_local_private_open/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/ZjVodnR2dGoyb2tnMfrHn1-Z1IlbM1M-CdvVLf1S0fx3BvVT39BjZwD6xxr6.png?width=640&crop=smart&auto=webp&s=8c01a41fb0c91487d97d9e6bbd7ba58c3750d09f",
     "isShortVideo": 0
-  },
-  {
-    "id": "ddb23304-2a7f-516e-993c-7e59051b1ad5",
-    "title": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1r9wvg4/ggml_and_llamacpp_join_hf_to_ensure_the_longterm/",
-    "pubDate": "2026-02-20T14:31:22+00:00",
-    "description": "article by Georgi Gerganov, Xuan-Son Nguyen, Aleksander Grygier, Lysandre, Victor Mustar, Julien Chaumond submitted by /u/jacek2023 [link] [comments]",
-    "author": "/u/jacek2023",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9wvg4/ggml_and_llamacpp_join_hf_to_ensure_the_longterm/\"> <img alt=\"GGML and llama.cpp join HF to ensure the long-term progress of Local AI\" src=\"https://external-preview.redd.it/tLGg2WMvFn2R5w7Nf2m6oJPphAYJILLSWaWPLPoW8i4.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e6bb0cd5000a00c0e28c8ae17203068e5acfb352\" title=\"GGML and llama.cpp join HF to ensure the long-term progress of Local AI\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>article by Georgi Gerganov, Xuan-Son Nguyen, Aleksander Grygier, Lysandre, Victor Mustar, Julien Chaumond</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://huggingface.co/blog/ggml-joins-hf\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9wvg4/ggml_and_llamacpp_join_hf_to_ensure_the_longterm/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/tLGg2WMvFn2R5w7Nf2m6oJPphAYJILLSWaWPLPoW8i4.png?width=640&crop=smart&auto=webp&s=e6bb0cd5000a00c0e28c8ae17203068e5acfb352",
-    "isShortVideo": 0
-  },
-  {
-    "id": "71ebdf15-2294-5d3f-9090-d406e92d8007",
-    "title": "GGML.AI has got acquired by Huggingface",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1r9vywq/ggmlai_has_got_acquired_by_huggingface/",
-    "pubDate": "2026-02-20T13:54:26+00:00",
-    "description": "submitted by /u/Time_Reaper [link] [comments]",
-    "author": "/u/Time_Reaper",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9vywq/ggmlai_has_got_acquired_by_huggingface/\"> <img alt=\"GGML.AI has got acquired by Huggingface\" src=\"https://external-preview.redd.it/l687iazpdDZhrDlIbQBxf8OTcfiJg6WGdsBpv03NqVo.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a9e45ab199a5cdbdf8c5eb1968743c094b946e98\" title=\"GGML.AI has got acquired by Huggingface\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Time_Reaper\"> /u/Time_Reaper </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/discussions/19759\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9vywq/ggmlai_has_got_acquired_by_huggingface/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/l687iazpdDZhrDlIbQBxf8OTcfiJg6WGdsBpv03NqVo.png?width=640&crop=smart&auto=webp&s=a9e45ab199a5cdbdf8c5eb1968743c094b946e98",
-    "isShortVideo": 0
-  },
-  {
-    "id": "eba6844a-1a76-5012-a6e9-ff25b29ad0dc",
-    "title": "Deepseek and Gemma ??",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1r9uuc6/deepseek_and_gemma/",
-    "pubDate": "2026-02-20T13:05:36+00:00",
-    "description": "submitted by /u/ZeusZCC [link] [comments]",
-    "author": "/u/ZeusZCC",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9uuc6/deepseek_and_gemma/\"> <img alt=\"Deepseek and Gemma ??\" src=\"https://preview.redd.it/84ph0pirenkg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d2b363b1900aae44bcfc12c0eeb9d8e2caa7d08\" title=\"Deepseek and Gemma ??\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZeusZCC\"> /u/ZeusZCC </a> <br /> <span><a href=\"https://i.redd.it/84ph0pirenkg1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1r9uuc6/deepseek_and_gemma/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/84ph0pirenkg1.jpeg?width=640&crop=smart&auto=webp&s=8d2b363b1900aae44bcfc12c0eeb9d8e2caa7d08",
-    "isShortVideo": 0
   }
 ]
