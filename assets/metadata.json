@@ -1,6 +1,6 @@
 {
-  "totalItems": 23716,
-  "generatedAt": "2026-04-21T04:33:42.255180Z",
+  "totalItems": 23736,
+  "generatedAt": "2026-04-21T10:19:30.685795Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -186,13 +186,13 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 1732,
+      "totalItems": 1720,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1706,
+      "totalItems": 1713,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -210,7 +210,7 @@
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 216,
+      "totalItems": 220,
       "totalChunks": 8,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -231,15 +231,15 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 721,
+        "count": 716,
         "isPriority": true,
-        "totalChunks": 25,
+        "totalChunks": 24,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 677,
+        "count": 672,
         "isPriority": true,
         "totalChunks": 23,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -247,7 +247,7 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 334,
+        "count": 332,
         "isPriority": true,
         "totalChunks": 12,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -257,7 +257,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2771,
+        "count": 2789,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -265,7 +265,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 458,
+        "count": 459,
         "isPriority": true,
         "totalChunks": 16,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -273,7 +273,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 277,
+        "count": 278,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-El_Pais"
@@ -289,7 +289,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 196,
+        "count": 198,
         "isPriority": true,
         "totalChunks": 7,
         "chunkPrefix": "notice-Towards"
@@ -297,7 +297,7 @@
       {
         "category": "ElComercio_PE",
         "title": "El Comercio",
-        "count": 126,
+        "count": 127,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-ElComercio_PE"
@@ -313,7 +313,7 @@
       {
         "category": "KDnuggets",
         "title": "KDnuggets",
-        "count": 102,
+        "count": 104,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-KDnuggets"
@@ -321,7 +321,7 @@
       {
         "category": "OpenAI",
         "title": "OpenAI",
-        "count": 89,
+        "count": 90,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-OpenAI"
@@ -343,20 +343,20 @@
         "chunkPrefix": "notice-Nvidia"
       },
       {
+        "category": "HuggingFace",
+        "title": "HuggingFace",
+        "count": 45,
+        "isPriority": true,
+        "totalChunks": 2,
+        "chunkPrefix": "notice-HuggingFace"
+      },
+      {
         "category": "MIT_AI",
         "title": "MIT Tech Review AI",
         "count": 44,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-MIT_AI"
-      },
-      {
-        "category": "HuggingFace",
-        "title": "HuggingFace",
-        "count": 43,
-        "isPriority": true,
-        "totalChunks": 2,
-        "chunkPrefix": "notice-HuggingFace"
       },
       {
         "category": "CNN_Espanol",
@@ -445,7 +445,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 272,
+    "totalItems": 276,
     "totalChunks": 10,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
