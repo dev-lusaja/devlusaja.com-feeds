@@ -1,5 +1,21 @@
 [
   {
+    "id": "163b4c6b-de3f-5b86-9c0f-13104714b547",
+    "title": "Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python",
+    "link": "https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/",
+    "pubDate": "2026-04-22T23:50:10+00:00",
+    "description": "In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater...",
+    "author": "Aart J.C. Bik",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Sparse-Deep-Learning\" width=\"768\" />In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Sparse-Deep-Learning\" width=\"768\" /><p>In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater flexibility and performance. We’re excited to announce the integration of the UST into nvmath-python v0.9.0 to accelerate sparse scientific and deep learning applications. This post provides a walkthrough of key UST features…</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cd4022bd-41e9-5793-9ccb-1da4a5056ee4",
     "title": "Scaling the AI-Ready Data Center with NVIDIA RTX PRO 4500 Blackwell Server Edition and NVIDIA vGPU 20",
     "link": "https://developer.nvidia.com/blog/scaling-the-ai-ready-data-center-with-nvidia-rtx-pro-4500-blackwell-server-edition-and-nvidia-vgpu-20/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Feature1_new.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Feature1_new\" width=\"600\" />In the current state of automotive radar, machine learning engineers can't work with camera-equivalent raw RGB images. Instead, they work with the output of...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Feature1_new.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Feature1_new\" width=\"600\" /><p>In the current state of automotive radar, machine learning engineers can’t work with camera-equivalent raw RGB images. Instead, they work with the output of radar constant false alarm rate (CFAR), which is similar to computer vision (CV) edge detections. The communications and compute architectures haven’t kept pace with trends in AI and the needs of Level 4 autonomy, despite radar being a staple…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-centralized-radar-processing-on-nvidia-drive-enables-safer-smarter-level-4-autonomy/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f7153f7a-091d-5910-9a9a-82813dc7dde4",
-    "title": "Designing Protein Binders Using the Generative Model Proteina-Complexa",
-    "link": "https://developer.nvidia.com/blog/designing-protein-binders-using-the-generative-model-proteina-complexa/",
-    "pubDate": "2026-03-25T13:00:00+00:00",
-    "description": "Developing new protein-based therapies and catalysts involves the challenging task of designing protein binders, or proteins that bind to a target protein or...",
-    "author": "Kyle Gion",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/protein-complexa-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-complexa\" width=\"768\" />Developing new protein-based therapies and catalysts involves the challenging task of designing protein binders, or proteins that bind to a target protein or...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/protein-complexa-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"protein-complexa\" width=\"768\" /><p>Developing new protein-based therapies and catalysts involves the challenging task of designing protein binders, or proteins that bind to a target protein or small molecule. The search space for possible amino acid sequence permutations and resulting 3D protein structures for a designed binder is vast, and achieving strong, specific binding requires careful optimization of the interactions between…</p>\n<p><a href=\"https://developer.nvidia.com/blog/designing-protein-binders-using-the-generative-model-proteina-complexa/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
