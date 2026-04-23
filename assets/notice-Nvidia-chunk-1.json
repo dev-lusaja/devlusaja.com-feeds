@@ -1,5 +1,21 @@
 [
   {
+    "id": "74caa8f9-9f69-5d1a-bc01-ab3597cc4862",
+    "title": "How Centralized Radar Processing on NVIDIA DRIVE Enables Safer, Smarter Level 4 Autonomy",
+    "link": "https://developer.nvidia.com/blog/how-centralized-radar-processing-on-nvidia-drive-enables-safer-smarter-level-4-autonomy/",
+    "pubDate": "2026-03-25T16:00:00+00:00",
+    "description": "In the current state of automotive radar, machine learning engineers can't work with camera-equivalent raw RGB images. Instead, they work with the output of...",
+    "author": "Lachlan Dowling",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Feature1_new.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Feature1_new\" width=\"600\" />In the current state of automotive radar, machine learning engineers can't work with camera-equivalent raw RGB images. Instead, they work with the output of...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Feature1_new.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Feature1_new\" width=\"600\" /><p>In the current state of automotive radar, machine learning engineers can’t work with camera-equivalent raw RGB images. Instead, they work with the output of radar constant false alarm rate (CFAR), which is similar to computer vision (CV) edge detections. The communications and compute architectures haven’t kept pace with trends in AI and the needs of Level 4 autonomy, despite radar being a staple…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-centralized-radar-processing-on-nvidia-drive-enables-safer-smarter-level-4-autonomy/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f7153f7a-091d-5910-9a9a-82813dc7dde4",
     "title": "Designing Protein Binders Using the Generative Model Proteina-Complexa",
     "link": "https://developer.nvidia.com/blog/designing-protein-binders-using-the-generative-model-proteina-complexa/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/fsi-kv-trading-in-office-1-4350800-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"fsi-kv-trading-in-office-1-4350800\" width=\"768\" />Large language models (LLMs) are revolutionizing the financial trading landscape by enabling sophisticated analysis of vast amounts of unstructured data to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/fsi-kv-trading-in-office-1-4350800-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"fsi-kv-trading-in-office-1-4350800\" width=\"768\" /><p>Large language models (LLMs) are revolutionizing the financial trading landscape by enabling sophisticated analysis of vast amounts of unstructured data to generate actionable trading insights. These advanced AI systems can process financial news, social media sentiment, earnings reports, and market data to predict stock price movements and automate investment strategies with unprecedented…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-blackwell-sets-stac-ai-record-for-llm-inference-in-finance/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0f207fb7-b8f4-58cd-9834-968e933ef853",
-    "title": "Controlling Floating-Point Determinism in NVIDIA CCCL",
-    "link": "https://developer.nvidia.com/blog/controlling-floating-point-determinism-in-nvidia-cccl/",
-    "pubDate": "2026-03-05T17:00:00+00:00",
-    "description": "A computation is considered deterministic if multiple runs with the same input data produce the same bitwise result. While this may seem like a simple property...",
-    "author": "Nader Al Awar",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Floating-Point-CUB-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Floating-Point-CUB\" width=\"768\" />A computation is considered deterministic if multiple runs with the same input data produce the same bitwise result. While this may seem like a simple property...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Floating-Point-CUB-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Floating-Point-CUB\" width=\"768\" /><p></p>\n<p><a href=\"https://developer.nvidia.com/blog/controlling-floating-point-determinism-in-nvidia-cccl/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

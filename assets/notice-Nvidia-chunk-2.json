@@ -1,5 +1,21 @@
 [
   {
+    "id": "0f207fb7-b8f4-58cd-9834-968e933ef853",
+    "title": "Controlling Floating-Point Determinism in NVIDIA CCCL",
+    "link": "https://developer.nvidia.com/blog/controlling-floating-point-determinism-in-nvidia-cccl/",
+    "pubDate": "2026-03-05T17:00:00+00:00",
+    "description": "A computation is considered deterministic if multiple runs with the same input data produce the same bitwise result. While this may seem like a simple property...",
+    "author": "Nader Al Awar",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Floating-Point-CUB-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Floating-Point-CUB\" width=\"768\" />A computation is considered deterministic if multiple runs with the same input data produce the same bitwise result. While this may seem like a simple property...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Floating-Point-CUB-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Floating-Point-CUB\" width=\"768\" /><p></p>\n<p><a href=\"https://developer.nvidia.com/blog/controlling-floating-point-determinism-in-nvidia-cccl/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "54de90ec-85cf-5538-9c60-11f270356d7f",
     "title": "Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile",
     "link": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/",
@@ -124,22 +140,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image2-4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />LLM context lengths are exploding, and architectures are moving toward complex attention schemes like Multi-Head Latent Attention (MLA) and Grouped Query...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image2-4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" /><p>LLM context lengths are exploding, and architectures are moving toward complex attention schemes like Multi-Head Latent Attention (MLA) and Grouped Query Attention (GQA). As a result, AI ”speed of thought” is increasingly governed not by the massive throughput of matrix multiplications, but by the transcendental math of the softmax function. Transcendentals refer to functions that cannot be…</p>\n<p><a href=\"https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "04fb274c-686a-563a-a80b-ce2c46c20a10",
-    "title": "Using NVFP4 Low-Precision Model Training for Higher Throughput Without Losing Accuracy",
-    "link": "https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/",
-    "pubDate": "2026-02-23T18:00:00+00:00",
-    "description": "As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as...",
-    "author": "Aditya Vavre",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/gpus-model-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gpus-model\" width=\"600\" />As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/gpus-model-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"gpus-model\" width=\"600\" /><p>As the sizes of AI models and datasets continue to increase, relying only on higher-precision BF16 training is no longer sufficient. Key challenges such as training throughput expectations, memory limits, and rising costs are becoming the primary barriers to scaling transformer models. Using lower-precision training can address these challenges. By reducing the numeric precision used during…</p>\n<p><a href=\"https://developer.nvidia.com/blog/using-nvfp4-low-precision-model-training-for-higher-throughput-without-losing-accuracy/\" rel=\"nofollow\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
