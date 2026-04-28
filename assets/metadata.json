@@ -1,6 +1,6 @@
 {
-  "totalItems": 23484,
-  "generatedAt": "2026-04-28T11:17:15.757106Z",
+  "totalItems": 23530,
+  "generatedAt": "2026-04-28T16:14:20.447603Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -180,19 +180,19 @@
   ],
   "byType": {
     "educational": {
-      "totalItems": 32,
+      "totalItems": 35,
       "totalChunks": 2,
       "itemsPerChunk": 30,
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 1605,
+      "totalItems": 1627,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1704,
+      "totalItems": 1710,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
@@ -210,7 +210,7 @@
       "chunkPrefix": "tiktok-all"
     },
     "youtube": {
-      "totalItems": 225,
+      "totalItems": 226,
       "totalChunks": 8,
       "itemsPerChunk": 30,
       "chunkPrefix": "youtube-all"
@@ -221,7 +221,7 @@
       {
         "category": "MachineLearningMastery",
         "title": "Machine Learning Mastery",
-        "count": 32,
+        "count": 35,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "educational-MachineLearningMastery"
@@ -231,7 +231,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 661,
+        "count": 672,
         "isPriority": true,
         "totalChunks": 23,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -239,15 +239,15 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 622,
+        "count": 631,
         "isPriority": true,
-        "totalChunks": 21,
+        "totalChunks": 22,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
       },
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 322,
+        "count": 324,
         "isPriority": true,
         "totalChunks": 11,
         "chunkPrefix": "forum-Reddit_MachineLearning"
@@ -257,7 +257,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2795,
+        "count": 2805,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -273,7 +273,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 268,
+        "count": 267,
         "isPriority": true,
         "totalChunks": 9,
         "chunkPrefix": "notice-El_Pais"
@@ -289,7 +289,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 200,
+        "count": 201,
         "isPriority": true,
         "totalChunks": 7,
         "chunkPrefix": "notice-Towards"
@@ -305,7 +305,7 @@
       {
         "category": "ElComercio_PE",
         "title": "El Comercio",
-        "count": 124,
+        "count": 128,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-ElComercio_PE"
@@ -321,7 +321,7 @@
       {
         "category": "OpenAI",
         "title": "OpenAI",
-        "count": 99,
+        "count": 100,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-OpenAI"
@@ -329,7 +329,7 @@
       {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 81,
+        "count": 82,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Wired_ES"
@@ -337,7 +337,7 @@
       {
         "category": "Nvidia",
         "title": "Nvidia",
-        "count": 68,
+        "count": 71,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Nvidia"
@@ -367,20 +367,20 @@
         "chunkPrefix": "notice-CNN_Espanol"
       },
       {
+        "category": "AWS",
+        "title": "AWS",
+        "count": 12,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "notice-AWS"
+      },
+      {
         "category": "DeepMind",
         "title": "DeepMind",
         "count": 12,
         "isPriority": true,
         "totalChunks": 1,
         "chunkPrefix": "notice-DeepMind"
-      },
-      {
-        "category": "AWS",
-        "title": "AWS",
-        "count": 11,
-        "isPriority": true,
-        "totalChunks": 1,
-        "chunkPrefix": "notice-AWS"
       }
     ],
     "pappers": [
@@ -445,7 +445,7 @@
     ]
   },
   "shorts": {
-    "totalItems": 254,
+    "totalItems": 255,
     "totalChunks": 9,
     "itemsPerChunk": 30,
     "chunkPrefix": "shorts-all"
