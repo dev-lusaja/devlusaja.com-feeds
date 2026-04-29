@@ -1,5 +1,21 @@
 [
   {
+    "id": "93656be6-4d20-5436-a9d8-ee68fa29b9b9",
+    "title": "[P] Best approach for online crowd density prediction from noisy video counts? (no training data)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/",
+    "pubDate": "2026-03-25T05:52:42+00:00",
+    "description": "I have per-frame head counts from P2PNet running on crowd video clips. Counts are stable but noisy (±10%). I need to predict density 5-10 frames ahead per zone, and estimate time-to-critical-threshold. Currently using EMA-smoothed Gaussian-weighted linear extrapolation. MAE ~20 on 55 frames. Direction accuracy 49% (basically coin flip on reversals). No historical training data available. Must run online/real-time on CPU. What would you try? Kalman filter? Double exponential smoothing? Something else? submitted by /u/WitnessWonderful8270 [link] [comments]",
+    "author": "/u/WitnessWonderful8270",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have per-frame head counts from P2PNet running on crowd video clips. Counts are stable but noisy (±10%). I need to predict density 5-10 frames ahead per zone, and estimate time-to-critical-threshold.</p> <p>Currently using EMA-smoothed Gaussian-weighted linear extrapolation. MAE ~20 on 55 frames. Direction accuracy 49% (basically coin flip on reversals).</p> <p>No historical training data available. Must run online/real-time on CPU.</p> <p>What would you try? Kalman filter? Double exponential smoothing? Something else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WitnessWonderful8270\"> /u/WitnessWonderful8270 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5207e734-70f6-5339-8094-cfba3a2e2d6f",
     "title": "[R] KALAVAI: Predicting When Independent Specialist Fusion Works (gain = 0.82 × divergence − 2.72, R² = 0.856, tested 410M–6.9B)",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s2yr9b/r_kalavai_predicting_when_independent_specialist/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I built Autochess NN, a browser-playable neural chess engine that started as a personal experiment in understanding AlphaZero-style systems by actually building one end to end.</p> <p>This project was unapologetically vibecoded - but not in the “thin wrapper around an API” sense. I used AI heavily as a research/coding assistant in a Karpathy-inspired autoresearch workflow: read papers, inspect ideas, prototype, ablate, optimize, repeat. The interesting part for me was seeing how far that loop could go on home hardware (just ordinary gaming RTX 4090).</p> <p>Current public V3:</p> <ul> <li>residual CNN + transformer</li> <li>learned thought tokens</li> <li>~16M parameters</li> <li>19-plane 8x8 input</li> <li>4672-move policy head + value head</li> <li>trained on 100M+ positions</li> <li>pipeline: 2200+ Lichess supervised pretraining -&gt; Syzygy endgame fine-tuning -&gt; self-play RL with search distillation</li> <li>CPU inference + shallow 1-ply lookahead / quiescence (below 2ms)</li> </ul> <p>I also wrapped it in a browser app so the model is inspectable, not just benchmarked: play vs AI, board editor, PGN import/replay, puzzles, and move analysis showing top-move probabilities and how the “thinking” step shifts them.</p> <p>What surprised me is that, after a lot of optimization, this may have ended up being unusually compute-efficient for its strength - possibly one of the more efficient hobbyist neural chess engines above 2500 Elo. I’m saying that as a hypothesis to pressure-test, not as a marketing claim, and I’d genuinely welcome criticism on evaluation methodology.</p> <p>I’m now working on V4 with a different architecture:</p> <ul> <li>CNN + Transformer + Thought Tokens + DAB (Dynamic Attention Bias) @ 50M parameters</li> </ul> <p>For V5, I want to test something more speculative that I’m calling Temporal Look-Ahead: the network internally represents future moves and propagates that information backward through attention to inform the current decision.</p> <p>Demo: <a href=\"https://games.jesion.pl\">https://games.jesion.pl</a></p> <p>Project details: <a href=\"https://games.jesion.pl/about\">https://games.jesion.pl/about</a></p> <p><em>Price:</em> free browser demo. Nickname/email are only needed if you want to appear on the public leaderboard.</p> <ol> <li>The feedback I’d value most:</li> <li>Best ablation setup for thought tokens / DAB</li> <li>Better methodology for measuring Elo-vs-compute efficiency on home hardware</li> <li>Whether the Temporal Look-Ahead framing sounds genuinely useful or just fancy rebranding of something already known</li> <li>Ideas for stronger evaluation against classical engines without overclaiming</li> </ol> <p>Cheers, Adam</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adam_Jesion\"> /u/Adam_Jesion </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzrs17/p_vibecoded_on_a_home_pc_building_a_2700_elo/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzrs17/p_vibecoded_on_a_home_pc_building_a_2700_elo/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d7e222ba-93dd-5db5-b405-ae9aa478676a",
-    "title": "What measure do I use to compare nested models and non nested models in high dimensional survival analysis [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1rzpyjc/what_measure_do_i_use_to_compare_nested_models/",
-    "pubDate": "2026-03-21T12:15:05+00:00",
-    "description": "So, Im a bachelor student and for my thesis I would be comparing multiple high dimensional survival models for the same. My professor asked me what measure would I use for accuracy of nested models and in non nested models. Im unable to find any answer on the internet, Please tell me the accurate measure to evaluate the same. Thank you submitted by /u/baelorthebest [link] [comments]",
-    "author": "/u/baelorthebest",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1><a href=\"https://www.reddit.com/r/MachineLearning/?f=flair_name%3A%22Project%22\"></a></h1> <p>So, Im a bachelor student and for my thesis I would be comparing multiple high dimensional survival models for the same.</p> <p>My professor asked me what measure would I use for accuracy of nested models and in non nested models. Im unable to find any answer on the internet, Please tell me the accurate measure to evaluate the same. Thank you</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/baelorthebest\"> /u/baelorthebest </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzpyjc/what_measure_do_i_use_to_compare_nested_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rzpyjc/what_measure_do_i_use_to_compare_nested_models/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
