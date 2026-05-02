@@ -1,5 +1,21 @@
 [
   {
+    "id": "54fa95dc-d7de-5940-8d8b-2286ea2f3716",
+    "title": "What do reviewers actually mean when they say the paper sound more like a technical report? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/",
+    "pubDate": "2026-04-27T16:34:37+00:00",
+    "description": "Hello, I recently got my paper rejected from a workshop (big womp :'( ) . Both reviewers said the paper sounds more like a technical report than a research paper. I followed the usual computer vision format for papers so I'm a bit confused by what that might actually mean. I would therefore like to hear the community's opinion on what faux pas make a paper read as technical report. Thank you submitted by /u/obliviousphoenix2003 [link] [comments]",
+    "author": "/u/obliviousphoenix2003",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, </p> <p>I recently got my paper rejected from a workshop (big womp :'( ) . </p> <p>Both reviewers said the paper sounds more like a technical report than a research paper.<br /> I followed the usual computer vision format for papers so I'm a bit confused by what that might actually mean.</p> <p>I would therefore like to hear the community's opinion on what faux pas make a paper read as technical report.</p> <p>Thank you </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/obliviousphoenix2003\"> /u/obliviousphoenix2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bf71f58e-ee82-5217-b47a-559b04ada8b9",
     "title": "CVPR Workshop Decisions [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Asking from a technical standpoint because I feel like the term is doing a lot of work in coverage of this space right now. Genuine real-time video inference, where a model is generating or transforming frames continuously in response to a live input stream, is a fundamentally different problem from fast video generation. Different architecture, different latency constraints, different everything.</p> <p>But in most coverage and most vendor positioning they get lumped together under &quot;live&quot; or &quot;real-time&quot; and I'm not sure the field has converged on a shared definition.</p> <p>Is there a cleaner way to think about the taxonomy here? And which orgs do people think are actually doing the harder version of the problem?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tall_Bumblebee1341\"> /u/Tall_Bumblebee1341 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4119bf80-a737-58f1-b893-11e3c30b9576",
-    "title": "FlashAttention (FA1–FA4) in PyTorch - educational implementations focused on algorithmic differences [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
-    "pubDate": "2026-04-11T15:33:13+00:00",
-    "description": "I recently updated my FlashAttention-PyTorch repo so it now includes educational implementations of FA1, FA2, FA3, and FA4 in plain PyTorch. The main goal is to make the progression across versions easier to understand from code. This is not meant to be an optimized kernel repo, and it is not a hardware-faithful recreation of the official implementations. The point is to expose the algorithmic ideas and design changes without immediately going deep into CUDA/Hopper/Blackwell-specific details. Roughly, the repo now shows: FA1: tiled online softmax baseline FA2: split-Q / query-tile ownership, deferred normalization FA3: explicit staged pipeline with ping-pong tile buffers, plus a simplified educational FP8 forward path FA4: explicit scheduler with main / softmax / correction phases, and conditional/selective rescaling So the same exact attention math is preserved, but the orchestration changes version by version. I wrote it for people who want to understand: \"What actually changed from FA1 → FA2 → FA3 → FA4?\"\" without having to start from highly optimized CUDA kernels. Repo: https://github.com/shreyansh26/FlashAttention-PyTorch Would be interested in feedback on whether the code makes the version-to-version differences intuitive. submitted by /u/shreyansh26 [link] [comments]",
-    "author": "/u/shreyansh26",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently updated my FlashAttention-PyTorch repo so it now includes educational implementations of FA1, FA2, FA3, and FA4 in plain PyTorch.</p> <p>The main goal is to make the progression across versions easier to understand from code.</p> <p>This is not meant to be an optimized kernel repo, and it is not a hardware-faithful recreation of the official implementations. The point is to expose the algorithmic ideas and design changes without immediately going deep into CUDA/Hopper/Blackwell-specific details.</p> <p>Roughly, the repo now shows:</p> <ul> <li>FA1: tiled online softmax baseline</li> <li>FA2: split-Q / query-tile ownership, deferred normalization</li> <li>FA3: explicit staged pipeline with ping-pong tile buffers, plus a simplified educational FP8 forward path</li> <li>FA4: explicit scheduler with main / softmax / correction phases, and conditional/selective rescaling</li> </ul> <p>So the same exact attention math is preserved, but the orchestration changes version by version.</p> <p>I wrote it for people who want to understand:</p> <p>&quot;What actually changed from FA1 → FA2 → FA3 → FA4?&quot;&quot;</p> <p>without having to start from highly optimized CUDA kernels.</p> <p>Repo: <a href=\"https://github.com/shreyansh26/FlashAttention-PyTorch\">https://github.com/shreyansh26/FlashAttention-PyTorch</a></p> <p>Would be interested in feedback on whether the code makes the version-to-version differences intuitive.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/shreyansh26\"> /u/shreyansh26 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

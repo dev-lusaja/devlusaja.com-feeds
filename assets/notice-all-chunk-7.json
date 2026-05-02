@@ -1,5 +1,37 @@
 [
   {
+    "id": "5ff38336-e87f-5c76-8ab3-8a609620b386",
+    "title": "Por qué Elon Musk y Sam Altman van a juicio por OpenAI",
+    "link": "https://es.euronews.com/next/2026/04/27/por-que-elon-musk-y-sam-altman-se-enfrentan-en-un-juicio-por-openai",
+    "pubDate": "2026-04-27T14:37:16+02:00",
+    "description": "El lunes arranca la batalla legal que enfrenta a Elon Musk con Sam Altman y Microsoft. El dueño de Tesla acusa a la matriz de ChatGPT de traicionar su misión original sin ánimo de lucro, mientras la firma asegura que el magnate solo busca controlar la tecnología de IA.",
+    "author": "Euronews ES",
+    "sourceTitle": "Euronews",
+    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
+    "sourceCategory": "Euronews",
+    "sourceType": "notice",
+    "sourceCountry": "Internacional",
+    "content": "",
+    "image": "https://images.euronews.com/articles/stories/09/73/74/58/320x180_cmsv2_36372842-6123-5f3e-a679-e0dcecb96669-9737458.jpg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "88254f1c-6bdf-5a44-9707-635a3d129075",
+    "title": "Un joven ha resuelto en 80 minutos y con ChatGPT un problema matemático que resistió 60 años. Eso es lo menos interesante de la historia",
+    "link": "https://www.xataka.com/robotica-e-ia/joven-ha-resuelto-80-minutos-chatgpt-problema-matematico-que-resistio-60-anos-eso-interesante-historia",
+    "pubDate": "2026-04-27T14:01:53+00:00",
+    "description": "Tiene 23 años, se llama Liam Price y no tiene formación matemática avanzada. Aun así hace unos días abrió la web de problemas de Erdös , cogió uno al azar y lo pegó en ChatGPT. No sabía la historia del problema ni quién lo había intentado antes. Lo que recibió de vuelta parecía una solución correcta, y tras consultarlo con un amigo que estaba estudiando matemáticas, ambos se dieron cuenta de que podían tener entre manos algo especial. Pocas horas después Terence Tao, uno de los matemáticos más reconocidos del mundo, confirmaba que el problema #1196 de Erdös, una conjetura sobre conjuntos primitivos de números enteros que llevaba sin resolvese desde 1966, tenía solución. La había encontrado GPT-5.4 Pro en apenas 80 minutos. Así no . Este problema analizaba una cuestión sobre el comportamiento de una suma matemática en particular sobre conjuntos primitivos, esto es, conjuntos de números enteros donde ninguno divide a otro, cuando esos números se hacen muy grandes. Jared Lichtman, matemático de Stanford, había dedicado años al problema y había hecho progresos parciales, pero tanto él como los que lo habían intentado anteriormente partían de un mismo punto de partida que parecía el camino adecuado. En Xataka El mejor matemático del mundo está resolviendo uno de los problemas más complejos de la historia con un aliado: la IA Una idea novedosa . GPT-5.4 utilizó otro punto de partida. Se quedó en el terreno airmético y usó una función especial llamada función de von Mangoldt , una herramienta clásica de la teoría de números conocida por sus conexiones con los números primos y la función zeta de Riemann . Nadie había pensado en esa aproximación al problema, y como explicaba Lichtman al hablar de la solución del modelo de OpenAI, \"El LLM tomó una ruta completamente diferente\". El logro es real, pero con matices . Litchman elogió la solución propuesta por GPT-5.4, pero hay un detalle que se ha omitido en muchos comentarios sobre este suceso: la salida en bruto de ChatGPT era, en palabras de este matemático, \"bastante pobre\". Esa salida hizo necesaria que varios expertos la interpretaran, la detallaran y extrajeran de ella la idea que subyacía y permitía solucionar la conjetura. Price no sabía que tenía la solución hasta que su amigo la leyó, y él no estuvo seguro hasta que Tao lo confirmó. El repositorio oficial de contribuciones de IA a los problemas de Erdös , mantenido por el propio Tao en GitHub, clasifica el resultado como una solución generada en colaboración humano-IA, no como una solución desarrollada únicamente por la IA. La distinción es importante. Un escándalo previo . Hace unas semanas Sebastien Bubeck, investigador de OpenAI, publicó en X que GPT-5 había \"resuelto\" varios problemas de Erdös. Esa publicación superó las 100.000 visualizaciones, pero la comunidad matemática y también la que rodea a la industria de la IA criticó esa afirmación. Demis Hassabis, CEO de DeepMind, calificó esa afirmación de \"vergonzosa\". Lo que había pasado en realidad es que el modelo había encontrado en la web soluciones a problemas ya resueltos . Bubeck acabó borrando el tuit original y trató de dar marcha atrás, pero todo eso hizo dudar de la validez de la aplicación de la IA a resolver problemas matemáticos. La IA y la tasa de éxito matemática . Terence Tao y Nat Sothanaphan mantienen en GitHub el citado registro de todas las contribuciones de la IA en problemas de Erdös. Cada una de las entradas de esa lista o tabla está clasificada con un semáforo: verde para la solución completa, amarillo para progreso parcial y rojo para fracaso. En la categoría de soluciones completamente generadas por IA sin literatura previa conocida hay tres semáforos verdes, catorce amarillos y ocho rojos. Sin embargo el propio repositorio añade un comentario singular: quienes intentan usar la IA para resolver estos problemas y fracasan no suelen informar de ello, así que es probable que la IA haya sido aplicada \"en silencio\" a un gran número de estos problemas sin éxito, y esos intentos no aparecen en ninguna tabla. Hay aquí un sesgo claro porque solo los éxitos generan titulares. Intentando medir lo que importa . En febrero de 2026, once matemáticos crearon la iniciativa \" First Proof \". En ella incluyeron diez problemas matemáticos que surgieron de forma natural en sus proyectos de investigación. Para cada uno incluyeron respuestas cifradas subidas a un sitio de verificación, y le dieron a los sistemas de IA una semana para intentar resolver esos problemas que jamás habían aparecido en ningún conjunto de datos de entrenamiento. Los resultados preliminares indican que hoy por hoy los modelos de IA  no pueden superar esa barrera de forma autónoma, y lo que ocurre es que sigue habiendo límites a lo que la IA realmente puede aportar en matemáticas. Pero entonces, ¿hay revolución o no? Terence Tao ofreció una explicación clara sobre por qué GPT-5.4 había tenido éxito donde otros habían fracasado durante 60 años. Lo que había ocurrido fue lo que el calificó como un bloqueo colectivo de la comunidad matemática, porque todos partieron del mismo origen porque era \"el natural\", el que la tradición marcaba. La IA no sabía que esa era la forma \"correcta\" de empezar, y esa ignorancia resultó ser una ventaja. No es que la IA fuera más inteligente, es que no tuvo prejuicios sobre cómo abordar el problema. Ahora queda por ver si esa forma novedosa de intentar solucionar problemas de formas poco ortodoxas funciona. Eso confirmará si lo ocurrido con el problema número 1196 de Erdös fue un caso aislado o si un chico de 23 años ha logrado darle una vuelta a nuestra visión de cómo afrontar problemas matemáticos. Imagen | Universal Pictures En Xataka | Hay una forma matemáticamente perfecta de cortar un sándiwch de jamón y queso y lleva siendo discutida desde 1938",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/028888/mind/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "79880806-42ce-5231-94bd-17ac448da68f",
     "title": "How Spreadsheets Quietly Cost Supply Chains Millions",
     "link": "https://towardsdatascience.com/how-spreadsheets-quietly-cost-supply-chains-millions/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8e567ea9-b86d-5c1e-8616-62b36f51c952",
-    "title": "El mundo del libro a la sombra de la IA: \"La máquina no es el autor\"",
-    "link": "https://es.euronews.com/my-europe/2026/04/25/libros-en-la-era-de-la-inteligencia-artificial-quien-es-el-autor",
-    "pubDate": "2026-04-25T12:40:45+02:00",
-    "description": "En la era de la inteligencia artificial, la cuestión de quién es el autor y si el libro sobrevive adquiere un nuevo significado. Marek Oleksyn, de SKS, explica a 'Euronews' cómo el Derecho intenta seguir el ritmo de la tecnología y dónde está hoy la línea de protección de los autores.",
-    "author": "Euronews ES",
-    "sourceTitle": "Euronews",
-    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
-    "sourceCategory": "Euronews",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://images.euronews.com/articles/stories/09/73/45/99/320x180_cmsv2_06b8ebb1-c6dc-5626-af63-4f87f67e1448-9734599.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e41af8e2-cf84-5ade-b373-6df1bd72b9ca",
-    "title": "¿Puede Europa conservar sus campeones industriales en la era de la IA?",
-    "link": "https://es.euronews.com/next/2026/04/25/puede-europa-conservar-a-sus-campeones-industriales-en-la-era-de-la-ia",
-    "pubDate": "2026-04-25T07:00:54+02:00",
-    "description": "Siemens advirtió de que la normativa de la UE empuja a los grandes industriales hacia EEUU y China. Con el efecto Trump y sus rebajas fiscales, Europa se juega su modelo en las normas de datos y en los chips, entre rapidez y soberanía.",
-    "author": "Euronews ES",
-    "sourceTitle": "Euronews",
-    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
-    "sourceCategory": "Euronews",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://images.euronews.com/articles/stories/09/73/50/09/320x180_cmsv2_bb74e0b6-c802-510f-ad05-573b51a6a4b4-9735009.jpg",
     "isShortVideo": 0
   }
 ]

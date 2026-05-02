@@ -1,5 +1,21 @@
 [
   {
+    "id": "980af255-675d-5526-a968-58eb0e8e723d",
+    "title": "[D] Is LeCun’s $1B seed round the signal that autoregressive LLMs have actually hit a wall for formal reasoning?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/",
+    "pubDate": "2026-03-25T18:32:19+00:00",
+    "description": "I’m still trying to wrap my head around the Bloomberg news from a couple of weeks ago. A $1 billion seed round is wild enough, but the actual technical bet they are making is what's really keeping me up. LeCun has been loudly arguing for years that next-token predictors are fundamentally incapable of actual planning. Now, his new shop, Logical Intelligence , is attempting to completely bypass Transformers to generate mathematically verified code using Energy-Based Models. They are essentially treating logical constraints as an energy minimization problem rather than a probabilistic guessing game. It sounds beautiful in theory for AppSec and critical infrastructure where you absolutely cannot afford a hallucinated library. But practically? We all know how notoriously painful EBMs are to train and stabilize. Mapping continuous energy landscapes to discrete, rigid outputs like code sounds incredibly computationally expensive at inference time. Are we finally seeing a genuine paradigm shift away from LLMs for rigorous, high-stakes tasks, or is this just a billion-dollar physics experiment that will eventually get beaten by a brute-forced GPT-5 wrapped in a good symbolic solver? Curious to hear from anyone who has actually tried forcing EBMs into discrete generation tasks lately. submitted by /u/Fun-Information78 [link] [comments]",
+    "author": "/u/Fun-Information78",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m still trying to wrap my head around the <a href=\"https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding\">Bloomberg news</a> from a couple of weeks ago. A $1 billion seed round is wild enough, but the actual technical bet they are making is what's really keeping me up. </p> <p>LeCun has been loudly arguing for years that next-token predictors are fundamentally incapable of actual planning. Now, his new shop, <a href=\"https://logicalintelligence.com/\">Logical Intelligence</a>, is attempting to completely bypass Transformers to generate mathematically verified code using Energy-Based Models. They are essentially treating logical constraints as an energy minimization problem rather than a probabilistic guessing game. </p> <p>It sounds beautiful in theory for AppSec and critical infrastructure where you absolutely cannot afford a hallucinated library. But practically? We all know how notoriously painful EBMs are to train and stabilize. Mapping continuous energy landscapes to discrete, rigid outputs like code sounds incredibly computationally expensive at inference time. </p> <p>Are we finally seeing a genuine paradigm shift away from LLMs for rigorous, high-stakes tasks, or is this just a billion-dollar physics experiment that will eventually get beaten by a brute-forced GPT-5 wrapped in a good symbolic solver? Curious to hear from anyone who has actually tried forcing EBMs into discrete generation tasks lately.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fun-Information78\"> /u/Fun-Information78 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ad93a9ce-d5a9-563b-bcf2-f73e683f7186",
     "title": "[D] Any other PhD students feel underprepared and that the bar is too low?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am looking for someone who is interested in python, i wlill be starting python from scratch and gonna go till advanced. Then will be moving on to DSA with python in leetcode. then move on to numpy, matplotlib, tensorflow, keras and many more. Basically everything need for AlML, let's build some cool ass ai models, agents and ml, dl and nlp projects aswell</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StrangeCommunity7193\"> /u/StrangeCommunity7193 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0kxox/d_i_am_looking_for_a_study_partner/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0kxox/d_i_am_looking_for_a_study_partner/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ef7164e3-bf35-5b82-9c6b-2979e192d8f7",
-    "title": "[D] Accepted ICCV25 workshop paper somehow never made it into proceedings",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s0ibro/d_accepted_iccv25_workshop_paper_somehow_never/",
-    "pubDate": "2026-03-22T10:35:02+00:00",
-    "description": "A paper from our group was accepted to an ICCV25 workshop. Copyright transfer was completed, registration was completed, and the paper was presented at the workshop. In 2026 March (by random chance) we found out that it never appeared in the proceedings. We asked the ICCV workshop group about it, and they simply stated that the paper had been removed because it was “not registered.” But it was registered, and we have documentation for that. No explanation was given beyond that. We still do not know what happened or whether anything can still be done. Has anyone dealt with something like this before? Who actually has the authority to resolve it, the workshop organizers, the main conference, CVF, IEEE/CPS or someone else? And is there any formal way to escalate it? submitted by /u/roadunderconst [link] [comments]",
-    "author": "/u/roadunderconst",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>A paper from our group was accepted to an ICCV25 workshop. Copyright transfer was completed, registration was completed, and the paper was presented at the workshop. In 2026 March (by random chance) we found out that it never appeared in the proceedings. We asked the ICCV workshop group about it, and they simply stated that the paper had been removed because it was “not registered.” But it was registered, and we have documentation for that. No explanation was given beyond that. We still do not know what happened or whether anything can still be done. </p> <p>Has anyone dealt with something like this before? Who actually has the authority to resolve it, the workshop organizers, the main conference, CVF, IEEE/CPS or someone else? And is there any formal way to escalate it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/roadunderconst\"> /u/roadunderconst </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0ibro/d_accepted_iccv25_workshop_paper_somehow_never/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0ibro/d_accepted_iccv25_workshop_paper_somehow_never/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
