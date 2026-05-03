@@ -190,37 +190,5 @@
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" />In this post, we dive into one of the most critical workloads in modern AI: Flash Attention, where you’ll learn: How to implement Flash Attention using NVIDIA...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" /><p>In this post, we dive into one of the most critical workloads in modern AI: Flash Attention, where you’ll learn: Environment requirements: See the quickstart doc for more information on installing cuTile Python. The attention mechanism is the computational heart of transformer models. Given a sequence of tokens, attention enables each token to “look at” every other…</p>\n<p><a href=\"https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "671312e6-d3a7-5af4-a113-569f0fa6dc7c",
-    "title": "How to Minimize Game Runtime Inference Costs with Coding Agents",
-    "link": "https://developer.nvidia.com/blog/how-to-minimize-game-runtime-inference-costs-with-coding-agents/",
-    "pubDate": "2026-03-03T19:49:57+00:00",
-    "description": "NVIDIA ACE is a suite of technologies for building AI agents for gaming. ACE provides ready-to-integrate cloud and on-device AI models for every part of in-game...",
-    "author": "Brandon Rowlett",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative-image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Inference-Game-Agents-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Inference-Game-Agents\" width=\"768\" />NVIDIA ACE is a suite of technologies for building AI agents for gaming. ACE provides ready-to-integrate cloud and on-device AI models for every part of in-game...<img alt=\"Decorative-image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Inference-Game-Agents-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Inference-Game-Agents\" width=\"768\" /><p>NVIDIA ACE is a suite of technologies for building AI agents for gaming. ACE provides ready-to-integrate cloud and on-device AI models for every part of in-game characters, from speech to intelligence to animation. To run these models alongside the game engine efficiently, the NVIDIA In-Game Inferencing (NVIGI) SDK includes a set of performant libraries that developers can integrate into C++…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-minimize-game-runtime-inference-costs-with-coding-agents/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "de1ddc6f-8dab-5497-a543-2707eb81449c",
-    "title": "cuTile.jl Brings NVIDIA CUDA Tile-Based Programming to Julia",
-    "link": "https://developer.nvidia.com/blog/cutile-jl-brings-nvidia-cuda-tile-based-programming-to-julia/",
-    "pubDate": "2026-03-03T19:48:16+00:00",
-    "description": "NVIDIA CUDA Tile is one of the most significant additions to NVIDIA CUDA programming and unlocks automatic access to tensor cores and other specialized...",
-    "author": "Tim Besard",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"JuliaHub logo.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/JuliaHub-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"JuliaHub\" width=\"768\" />NVIDIA CUDA Tile is one of the most significant additions to NVIDIA CUDA programming and unlocks automatic access to tensor cores and other specialized...<img alt=\"JuliaHub logo.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/JuliaHub-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"JuliaHub\" width=\"768\" /><p>NVIDIA CUDA Tile is one of the most significant additions to NVIDIA CUDA programming and unlocks automatic access to tensor cores and other specialized hardware. Earlier this year, NVIDIA released cuTile for Python, giving Python developers a natural way to write high-performance GPU kernels. Now, the same programming model is available in Julia through cuTile.jl. In this blog post…</p>\n<p><a href=\"https://developer.nvidia.com/blog/cutile-jl-brings-nvidia-cuda-tile-based-programming-to-julia/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
