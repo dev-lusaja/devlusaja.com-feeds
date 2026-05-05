@@ -1,6 +1,6 @@
 {
-  "totalItems": 23495,
-  "generatedAt": "2026-05-04T16:15:07.828051Z",
+  "totalItems": 23568,
+  "generatedAt": "2026-05-05T05:10:03.709012Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -186,19 +186,19 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 2006,
+      "totalItems": 2014,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1785,
+      "totalItems": 1777,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
     "pappers": {
-      "totalItems": 16254,
+      "totalItems": 16341,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
@@ -231,7 +231,7 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 836,
+        "count": 840,
         "isPriority": true,
         "totalChunks": 28,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
@@ -239,7 +239,7 @@
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 796,
+        "count": 800,
         "isPriority": true,
         "totalChunks": 27,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -257,7 +257,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2870,
+        "count": 2863,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -265,7 +265,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 466,
+        "count": 465,
         "isPriority": true,
         "totalChunks": 16,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -273,7 +273,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 285,
+        "count": 279,
         "isPriority": true,
         "totalChunks": 10,
         "chunkPrefix": "notice-El_Pais"
@@ -281,7 +281,7 @@
       {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 254,
+        "count": 256,
         "isPriority": true,
         "totalChunks": 9,
         "chunkPrefix": "notice-Xataka"
@@ -289,7 +289,7 @@
       {
         "category": "Towards",
         "title": "Towards Data Science",
-        "count": 208,
+        "count": 207,
         "isPriority": true,
         "totalChunks": 7,
         "chunkPrefix": "notice-Towards"
@@ -321,7 +321,7 @@
       {
         "category": "OpenAI",
         "title": "OpenAI",
-        "count": 101,
+        "count": 95,
         "isPriority": true,
         "totalChunks": 4,
         "chunkPrefix": "notice-OpenAI"
@@ -329,7 +329,7 @@
       {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 83,
+        "count": 82,
         "isPriority": true,
         "totalChunks": 3,
         "chunkPrefix": "notice-Wired_ES"
@@ -353,7 +353,7 @@
       {
         "category": "HuggingFace",
         "title": "HuggingFace",
-        "count": 51,
+        "count": 50,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-HuggingFace"
@@ -361,7 +361,7 @@
       {
         "category": "CNN_Espanol",
         "title": "CNN",
-        "count": 34,
+        "count": 33,
         "isPriority": true,
         "totalChunks": 2,
         "chunkPrefix": "notice-CNN_Espanol"
@@ -385,20 +385,20 @@
     ],
     "pappers": [
       {
-        "category": "arXiv_AI",
-        "title": "arXiv cs.AI",
-        "count": 8146,
-        "isPriority": true,
-        "totalChunks": 30,
-        "chunkPrefix": "pappers-arXiv_AI"
-      },
-      {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 8108,
+        "count": 8284,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_LG"
+      },
+      {
+        "category": "arXiv_AI",
+        "title": "arXiv cs.AI",
+        "count": 8057,
+        "isPriority": true,
+        "totalChunks": 30,
+        "chunkPrefix": "pappers-arXiv_AI"
       }
     ],
     "youtube": [
