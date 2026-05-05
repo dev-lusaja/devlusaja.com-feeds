@@ -1,5 +1,21 @@
 [
   {
+    "id": "441cc137-0306-5f3c-b755-68a9410f7ba4",
+    "title": "How to Build In-Vehicle AI Agents with NVIDIA: From Cloud to Car",
+    "link": "https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/",
+    "pubDate": "2026-05-05T16:00:00+00:00",
+    "description": "The automotive cockpit is undergoing a fundamental shift from rule-based interfaces to agentic, multimodal AI systems capable of reasoning, planning, and...",
+    "author": "Felix Friedmann",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"FeatureImage\" width=\"768\" />The automotive cockpit is undergoing a fundamental shift from rule-based interfaces to agentic, multimodal AI systems capable of reasoning, planning, and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"FeatureImage\" width=\"768\" /><p>The automotive cockpit is undergoing a fundamental shift from rule-based interfaces to agentic, multimodal AI systems capable of reasoning, planning, and acting. In most vehicles on the road today, in-vehicle assistants still rely on fixed command-response patterns: interpret a phrase, trigger an action, reset. While effective for well-defined tasks, this approach doesn’t scale to modern…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "092d23d0-9fbe-5e1c-ba36-d21e6bad1fac",
     "title": "Building for the Rising Complexity of Agentic Systems with Extreme Co-Design",
     "link": "https://developer.nvidia.com/blog/building-for-the-rising-complexity-of-agentic-systems-with-extreme-co-design/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Checkpoint-Costs-e1775685819565-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Checkpoint-Costs\" width=\"768\" />Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Checkpoint-Costs-e1775685819565-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Checkpoint-Costs\" width=\"768\" /><p>Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume after interruptions. At scale, these checkpoints become massive (782 GB for a 70B model) and frequent (every 15-30 minutes), generating one of the largest line items in a training budget. Most AI teams chase GPU utilization…</p>\n<p><a href=\"https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "315dce23-2c8e-52d2-ba1d-45174be37231",
-    "title": "How to Accelerate Protein Structure Prediction at Proteome-Scale",
-    "link": "https://developer.nvidia.com/blog/how-to-accelerate-protein-structure-prediction-at-proteome-scale/",
-    "pubDate": "2026-04-09T15:00:00+00:00",
-    "description": "Proteins rarely function in isolation as individual monomers. Most biological processes are governed by proteins interacting with other proteins, forming...",
-    "author": "Christian Dallago",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/image1-5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />Proteins rarely function in isolation as individual monomers. Most biological processes are governed by proteins interacting with other proteins, forming...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/image1-5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>Proteins rarely function in isolation as individual monomers. Most biological processes are governed by proteins interacting with other proteins, forming protein complexes whose structures are described in the hierarchy of protein structure as the quaternary representation. This represents one level of complexity up from tertiary representations, the 3D structure of monomers…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-accelerate-protein-structure-prediction-at-proteome-scale/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
