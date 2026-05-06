@@ -1,5 +1,21 @@
 [
   {
+    "id": "07da806d-0076-5298-9542-93045fbadfd7",
+    "title": "[R] Pesquisa acadêmica sobre trabalho com microtarefas de machine learning para IA",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s8xnpq/r_pesquisa_acadêmica_sobre_trabalho_com/",
+    "pubDate": "2026-03-31T19:36:33+00:00",
+    "description": "Oi pessoal! Minha pesquisa de mestrado busca entender o cotidiano dos brasileiros que trabalham com microtarefas online (tipo Appen, Clickworker, UHRS, Remotasks, TELUS AI, etc.). Busco voluntários que possam falar um pouco dessa experiência de trabalho, de forma anônima. Se você trabalha com isso, poderia responder aqui, mandar mensagem ou disponibilizar seu contato nesse formulário para que os pesquisadores entrem em contato com você? https://forms.gle/FgHtosM6LQswQmRn6 E se puder compartilhar com quem você conhece que realiza atividades de microtarefas/microtrabalho/treinamento para IA, ajuda muito! submitted by /u/strangerinthealpes [link] [comments]",
+    "author": "/u/strangerinthealpes",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Oi pessoal! Minha pesquisa de mestrado busca entender o cotidiano dos brasileiros que trabalham com microtarefas online (tipo Appen, Clickworker, UHRS, Remotasks, TELUS AI, etc.).</p> <p>Busco voluntários que possam falar um pouco dessa experiência de trabalho, de forma anônima.</p> <p>Se você trabalha com isso, poderia responder aqui, mandar mensagem ou disponibilizar seu contato nesse formulário para que os pesquisadores entrem em contato com você?</p> <p><a href=\"https://forms.gle/FgHtosM6LQswQmRn6\">https://forms.gle/FgHtosM6LQswQmRn6</a> </p> <p>E se puder compartilhar com quem você conhece que realiza atividades de microtarefas/microtrabalho/treinamento para IA, ajuda muito!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/strangerinthealpes\"> /u/strangerinthealpes </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s8xnpq/r_pesquisa_acadêmica_sobre_trabalho_com/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s8xnpq/r_pesquisa_acadêmica_sobre_trabalho_com/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8c622ba3-ebb0-50a4-9458-72a7a448536c",
     "title": "[R] Gram Newton-Schulz: A Fast, Hardware-Aware Newton-Schulz Algorithm for Muon",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s8xknk/r_gram_newtonschulz_a_fast_hardwareaware/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello!</p> <p>Recently I did a project where I initially had around 30 target classes. But at inference, the model had to be able to handle a lot more classes than these 30 targets i had in my training data. Therefore, I couldn’t just make a ”normal” classifier that predicts one of the 30 target classes.</p> <p>I instead went with a metric learning approach where i adapted different flavors of arcface/cosface etc. to create an embedding space that tried to maximize inter cosine distance, and minimize intra cosine distance.</p> <p>At inference, I then set a similarity threshold and clustered objects accordingly. The idea was of course that the objects that formed cluster belonged to the same target class.</p> <p>It worked surprisingly well on classes the model had never seen before during training.</p> <p>Now to my question: What is this kind of ML called? Its not really OOD detection since im clustering everything and not really classifying stuff as ”unknown”</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ralfcat\"> /u/ralfcat </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s503nd/d_looking_for_definition_of_openworld_ish/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s503nd/d_looking_for_definition_of_openworld_ish/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "71e15a8f-89e7-528c-afde-3991addeaafa",
-    "title": "[D] On conferences and page limitations",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s4yyyi/d_on_conferences_and_page_limitations/",
-    "pubDate": "2026-03-27T09:09:35+00:00",
-    "description": "What is your opinion on long appendices in conference papers? I am observing that appendix lengths in conference papers (ICML, NeurIPS, etc.) are getting longer and longer, and in some fields they are now basically the standard and a central part of the paper. From my point of view, this is becoming a bit problematic. I have many times been asked to add more experiments which, in order to be included, require several extra pages beyond the main 8–10 pages. This effectively makes the appendix a mandatory part of the paper. Isn't the whole concept of page limits in conference papers that the main pages should stand on their own, and the appendix should only contain secondary material that is not really necessary for understanding the core contribution? If the standard becomes, for example, testing on 100 datasets or including massive experimental sections that cannot possibly fit into the main paper, then the appendix stops being supplementary and becomes essential. I believe that the natural place for a 25 pages long paper is a journal, not a conference with a 9-page limit. I am curious how others see this. Is this just the new normal now? submitted by /u/kostaspap90 [link] [comments]",
-    "author": "/u/kostaspap90",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>What is your opinion on long appendices in conference papers?</p> <p>I am observing that appendix lengths in conference papers (ICML, NeurIPS, etc.) are getting longer and longer, and in some fields they are now basically the standard and a central part of the paper. From my point of view, this is becoming a bit problematic. I have many times been asked to add more experiments which, in order to be included, require several extra pages beyond the main 8–10 pages. This effectively makes the appendix a mandatory part of the paper.</p> <p>Isn't the whole concept of page limits in conference papers that the main pages should stand on their own, and the appendix should only contain secondary material that is not really necessary for understanding the core contribution?</p> <p>If the standard becomes, for example, testing on 100 datasets or including massive experimental sections that cannot possibly fit into the main paper, then the appendix stops being supplementary and becomes essential.</p> <p>I believe that the natural place for a 25 pages long paper is a journal, not a conference with a 9-page limit.</p> <p>I am curious how others see this. Is this just the new normal now?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kostaspap90\"> /u/kostaspap90 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s4yyyi/d_on_conferences_and_page_limitations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s4yyyi/d_on_conferences_and_page_limitations/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

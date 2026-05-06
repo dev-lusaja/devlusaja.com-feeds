@@ -1,5 +1,21 @@
 [
   {
+    "id": "7e51c6c0-911f-553b-a398-fd7eb7f4247c",
+    "title": "Anyone have an S3-compatible store that actually saturates H100s without the AWS egress tax? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sgn6vu/anyone_have_an_s3compatible_store_that_actually/",
+    "pubDate": "2026-04-09T11:41:12+00:00",
+    "description": "We’re training on a cluster in Lambda Labs, but our main dataset ( over 40TB) is sitting in AWS S3. The egress fees are high, so we tried to do it off Cloudflare R2. The problem is R2’s TTFB is all over the place, and our data loader is constantly waiting on I/O. Then the GPUs are unused for 20% of the epoch. Is there a zero-egress alternative that actually has the throughput/latency for high-speed streaming? Or are we stuck building a custom NVMe cache layer? submitted by /u/regentwells [link] [comments]",
+    "author": "/u/regentwells",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We’re training on a cluster in Lambda Labs, but our main dataset ( over 40TB) is sitting in AWS S3. The egress fees are high, so we tried to do it off Cloudflare R2. The problem is R2’s TTFB is all over the place, and our data loader is constantly waiting on I/O. Then the GPUs are unused for 20% of the epoch.</p> <p>Is there a zero-egress alternative that actually has the throughput/latency for high-speed streaming? Or are we stuck building a custom NVMe cache layer?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/regentwells\"> /u/regentwells </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgn6vu/anyone_have_an_s3compatible_store_that_actually/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgn6vu/anyone_have_an_s3compatible_store_that_actually/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4616b72e-387e-573f-8bb8-ac2d5a158923",
     "title": "[R] Forced Depth Consideration Reduces Type II Errors in LLM Self-Classification: Evidence from an Exploration Prompting Ablation Study - (200 trap prompts, 4 models, 8 Step-0 variants) [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sgn5i9/r_forced_depth_consideration_reduces_type_ii/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Looking for fellow researchers who are planning to attend ICPR conference. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Warm_Effect2848\"> /u/Warm_Effect2848 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sehlqp/d_attending_icpr_conference/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sehlqp/d_attending_icpr_conference/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a7d6a9ee-6c49-549f-9a82-b2de76ccf5c4",
-    "title": "[R] 94.42% on BANKING77 Official Test Split with Lightweight Embedding + Example Reranking (strict full-train protocol)",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/",
-    "pubDate": "2026-04-06T23:40:30+00:00",
-    "description": "BANKING77 (77 fine-grained banking intents) is a well-established but increasingly saturated intent classification benchmark. did this while using a lightweight embedding-based classifier + example reranking approach (no LLMs involved), I obtained 94.42% accuracy on the official PolyAI test split. Strict Full train protocol was used: Hyperparameter tuning / recipe selection performed via 5-fold stratified CV on the official training set only, final model retrained on 100% of the official training data (recipe frozen) and single evaluation on the held-out official PolyAI test split Here are the results: Accuracy: 94.42%, Macro-F1: 0.9441, Model size: ~68 MiB (FP32), Inference: ~225 ms per query This represents +0.59pp over the commonly cited 93.83% baseline and places the result in clear 2nd place on the public leaderboard (0.52pp behind the current SOTA of 94.94%), unless there is a new one that I am not finding. https://preview.redd.it/utnom6v0pntg1.png?width=1082&format=png&auto=webp&s=6ae505e9131b8d62ca6b293fe14e6a74b557d926 submitted by /u/califalcon [link] [comments]",
-    "author": "/u/califalcon",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/\"> <img alt=\"[R] 94.42% on BANKING77 Official Test Split with Lightweight Embedding + Example Reranking (strict full-train protocol)\" src=\"https://preview.redd.it/utnom6v0pntg1.png?width=140&amp;height=69&amp;auto=webp&amp;s=fdabd521f5022c120c6e9bac6ce9e035f33d9dbb\" title=\"[R] 94.42% on BANKING77 Official Test Split with Lightweight Embedding + Example Reranking (strict full-train protocol)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>BANKING77 (77 fine-grained banking intents) is a well-established but increasingly saturated intent classification benchmark.</p> <p>did this while using a lightweight embedding-based classifier + example reranking approach (no LLMs involved), I obtained <strong>94.42% accuracy</strong> on the official PolyAI test split.</p> <p>Strict Full train protocol was used: Hyperparameter tuning / recipe selection performed via 5-fold stratified CV on the official training set only, final model retrained on 100% of the official training data (recipe frozen) and single evaluation on the held-out official PolyAI test split</p> <p>Here are the results: Accuracy: <strong>94.42%,</strong> Macro-F1: 0.9441, Model size: ~68 MiB (FP32), Inference: ~225 ms per query</p> <p>This represents +0.59pp over the commonly cited 93.83% baseline and places the result in clear 2nd place on the public leaderboard (0.52pp behind the current SOTA of 94.94%), unless there is a new one that I am not finding.</p> <p><a href=\"https://preview.redd.it/utnom6v0pntg1.png?width=1082&amp;format=png&amp;auto=webp&amp;s=6ae505e9131b8d62ca6b293fe14e6a74b557d926\">https://preview.redd.it/utnom6v0pntg1.png?width=1082&amp;format=png&amp;auto=webp&amp;s=6ae505e9131b8d62ca6b293fe14e6a74b557d926</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/califalcon\"> /u/califalcon </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/utnom6v0pntg1.png?width=140&height=69&auto=webp&s=fdabd521f5022c120c6e9bac6ce9e035f33d9dbb",
     "isShortVideo": 0
   }
 ]

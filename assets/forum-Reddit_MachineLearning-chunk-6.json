@@ -1,5 +1,21 @@
 [
   {
+    "id": "a7d6a9ee-6c49-549f-9a82-b2de76ccf5c4",
+    "title": "[R] 94.42% on BANKING77 Official Test Split with Lightweight Embedding + Example Reranking (strict full-train protocol)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/",
+    "pubDate": "2026-04-06T23:40:30+00:00",
+    "description": "BANKING77 (77 fine-grained banking intents) is a well-established but increasingly saturated intent classification benchmark. did this while using a lightweight embedding-based classifier + example reranking approach (no LLMs involved), I obtained 94.42% accuracy on the official PolyAI test split. Strict Full train protocol was used: Hyperparameter tuning / recipe selection performed via 5-fold stratified CV on the official training set only, final model retrained on 100% of the official training data (recipe frozen) and single evaluation on the held-out official PolyAI test split Here are the results: Accuracy: 94.42%, Macro-F1: 0.9441, Model size: ~68 MiB (FP32), Inference: ~225 ms per query This represents +0.59pp over the commonly cited 93.83% baseline and places the result in clear 2nd place on the public leaderboard (0.52pp behind the current SOTA of 94.94%), unless there is a new one that I am not finding. https://preview.redd.it/utnom6v0pntg1.png?width=1082&format=png&auto=webp&s=6ae505e9131b8d62ca6b293fe14e6a74b557d926 submitted by /u/califalcon [link] [comments]",
+    "author": "/u/califalcon",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/\"> <img alt=\"[R] 94.42% on BANKING77 Official Test Split with Lightweight Embedding + Example Reranking (strict full-train protocol)\" src=\"https://preview.redd.it/utnom6v0pntg1.png?width=140&amp;height=69&amp;auto=webp&amp;s=fdabd521f5022c120c6e9bac6ce9e035f33d9dbb\" title=\"[R] 94.42% on BANKING77 Official Test Split with Lightweight Embedding + Example Reranking (strict full-train protocol)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>BANKING77 (77 fine-grained banking intents) is a well-established but increasingly saturated intent classification benchmark.</p> <p>did this while using a lightweight embedding-based classifier + example reranking approach (no LLMs involved), I obtained <strong>94.42% accuracy</strong> on the official PolyAI test split.</p> <p>Strict Full train protocol was used: Hyperparameter tuning / recipe selection performed via 5-fold stratified CV on the official training set only, final model retrained on 100% of the official training data (recipe frozen) and single evaluation on the held-out official PolyAI test split</p> <p>Here are the results: Accuracy: <strong>94.42%,</strong> Macro-F1: 0.9441, Model size: ~68 MiB (FP32), Inference: ~225 ms per query</p> <p>This represents +0.59pp over the commonly cited 93.83% baseline and places the result in clear 2nd place on the public leaderboard (0.52pp behind the current SOTA of 94.94%), unless there is a new one that I am not finding.</p> <p><a href=\"https://preview.redd.it/utnom6v0pntg1.png?width=1082&amp;format=png&amp;auto=webp&amp;s=6ae505e9131b8d62ca6b293fe14e6a74b557d926\">https://preview.redd.it/utnom6v0pntg1.png?width=1082&amp;format=png&amp;auto=webp&amp;s=6ae505e9131b8d62ca6b293fe14e6a74b557d926</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/califalcon\"> /u/califalcon </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sefidi/r_9442_on_banking77_official_test_split_with/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/utnom6v0pntg1.png?width=140&height=69&auto=webp&s=fdabd521f5022c120c6e9bac6ce9e035f33d9dbb",
+    "isShortVideo": 0
+  },
+  {
     "id": "072ee4a4-5afd-5bbc-b14e-88e290f8e2a2",
     "title": "[D] How's MLX and jax/ pytorch on MacBooks these days?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1seexk0/d_hows_mlx_and_jax_pytorch_on_macbooks_these_days/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I’m working on a school project and I’m currently testing OCR tools for forms.</p> <p>The documents are mostly structured or semi-structured forms, similar to application/registration forms with labeled fields and sections. My idea is that an admin uploads a template of the document first, then a user uploads a completed form, and the system extracts the data from it. After extraction, the user reviews the result, checks if the fields are correct, and edits anything that was read incorrectly.</p> <p>So I’m looking for an OCR/document understanding tool that can work well for template-based extraction, but also has some flexibility in case document layouts change later on.</p> <p>Right now I’m trying <strong>Google Document AI</strong>, and I’m planning to test <strong>PaddleOCR</strong> next. I wanted to ask what OCR tools you’d recommend for this kind of use case.</p> <p>I’m mainly looking for something that:</p> <ul> <li>works well on scanned forms</li> <li>can map extracted text to the correct fields</li> <li>is still manageable if templates/layouts change</li> <li>is practical for a student research project</li> </ul> <p>If you’ve used <strong>Document AI, PaddleOCR, Tesseract, AWS Textract, Azure AI Document Intelligence</strong>, or anything similar for forms, I’d really appreciate your thoughts.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sudden_Breakfast_358\"> /u/Sudden_Breakfast_358 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sc5o71/best_ocr_for_templatebased_form_extraction_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sc5o71/best_ocr_for_templatebased_form_extraction_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e4d1c24e-35b8-5c86-8213-6a972032ded0",
-    "title": "[D] Those of you with 10+ years in ML — what is the public completely wrong about?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/",
-    "pubDate": "2026-04-04T04:43:55+00:00",
-    "description": "For those of you who've been in ML/AI research or applied ML for 10+ years — what's the gap between what the public thinks AI is doing vs. what's actually happening at the frontier? What are we collectively underestimating or overestimating? submitted by /u/PhattRatt [link] [comments]",
-    "author": "/u/PhattRatt",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>For those of you who've been in ML/AI research or applied ML for 10+ years — what's the gap between what the public thinks AI is doing vs. what's actually happening at the frontier? What are we collectively underestimating or overestimating?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PhattRatt\"> /u/PhattRatt </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

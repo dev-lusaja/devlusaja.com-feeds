@@ -1,5 +1,21 @@
 [
   {
+    "id": "fa4d199a-09be-5cb5-ae4e-41c31e6207df",
+    "title": "Serious Study Partner for Deep Learning Mathematics (Beyond the Basics) [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t3a1mo/serious_study_partner_for_deep_learning/",
+    "pubDate": "2026-05-04T06:52:45+00:00",
+    "description": "Hi everyone, I am looking for a study partner to dive deep into the mathematical foundations of Deep Learning . I have a solid grasp of the core concepts (architectures, backpropagation, etc.), but I want to bridge the gap by mastering the rigorous math behind them (Matrix Calculus, Probability Theory, Optimization, etc.). Who I’m looking for: Someone who already understands most Deep Learning concepts and has at least a foundational level of the associated math. A serious learner who wants to go through textbooks (like Goodfellow’s Deep Learning or Mathematics for Machine Learning ) or research papers. My Goal: I want to discuss and \"stress-test\" my understanding by speaking through complex problems. I’m happy to exchange ideas and while I’m looking to solidify the math, I can contribute by \"brainstorming unique solutions for paper ideas\" or \"PyTorch implementation\". Format: Weekly or bi-weekly syncs (Discord/Zoom) to discuss specific chapters or concepts. Solving/deriving formulas together. If you’re interested in a serious, high-level collaboration to master the \"why\" behind the \"how,\" please drop a comment or DM me! submitted by /u/WideImagination7595 [link] [comments]",
+    "author": "/u/WideImagination7595",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I am looking for a study partner to dive deep into the <strong>mathematical foundations of Deep Learning</strong>. I have a solid grasp of the core concepts (architectures, backpropagation, etc.), but I want to bridge the gap by mastering the rigorous math behind them (Matrix Calculus, Probability Theory, Optimization, etc.).</p> <p><strong>Who I’m looking for:</strong></p> <ul> <li>Someone who already understands most Deep Learning concepts and has at least a foundational level of the associated math.</li> <li>A serious learner who wants to go through textbooks (like Goodfellow’s <em>Deep Learning</em> or <em>Mathematics for Machine Learning</em>) or research papers.</li> </ul> <p><strong>My Goal:</strong><br /> I want to discuss and &quot;stress-test&quot; my understanding by speaking through complex problems. I’m happy to exchange ideas and while I’m looking to solidify the math, I can contribute by &quot;brainstorming unique solutions for paper ideas&quot; or &quot;PyTorch implementation&quot;.</p> <p><strong>Format:</strong></p> <ul> <li>Weekly or bi-weekly syncs (Discord/Zoom) to discuss specific chapters or concepts.</li> <li>Solving/deriving formulas together.</li> </ul> <p>If you’re interested in a serious, high-level collaboration to master the &quot;why&quot; behind the &quot;how,&quot; please drop a comment or DM me!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WideImagination7595\"> /u/WideImagination7595 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3a1mo/serious_study_partner_for_deep_learning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3a1mo/serious_study_partner_for_deep_learning/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f6d3d6d1-e37b-5548-9309-478e51c38129",
     "title": "Are modern ML PhDs becoming too incremental, or is this just what research looks like now? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t311vb/are_modern_ml_phds_becoming_too_incremental_or_is/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>ECCV reviews should be out by 2nd May. Since no exact time was specified this year, they’ll likely be released sometime within the next 48 hours.</p> <p>Hopefully, the reviews go well for everyone. We can use this thread to discuss them, as I haven’t seen one started yet.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NGK12\"> /u/NGK12 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0rtx3/eccv_2026_review_discussion_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0rtx3/eccv_2026_review_discussion_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2fa340fa-a028-515f-b62a-2453fa259a16",
-    "title": "What benchmark would you build for “reply quality” in SDR generation? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t0ov2h/what_benchmark_would_you_build_for_reply_quality/",
-    "pubDate": "2026-05-01T09:51:12+00:00",
-    "description": "Working on evaluating some AI-generated outbound (SDR-style emails along with follow-ups), and I’m running into a weird problem. Everyone talks about better personalisation or higher reply rates, but when you actually try to benchmark quality it gets messy fast. A few things we’ve looked at: a)reply rate (obvious, but noisy with a delayed signal) b)positive vs negative replies (hard to label cleanly at scale) c)factual accuracy about the prospect/company d)how much editing a human has to do before sending e)whether the message sounds human enough to not trigger spam radar The issue for me at least, none of these fully capture “this is a good outbound message”. You can optimise for reply rate and end up with clickbaity nonsense. You can optimise for accuracy and get something technically correct but completely dead. Right now the most practical metric internally is probably the time to approve/send after human review process, but that feels like a proxy, not the thing itself. If you had to build a proper benchmark here, what would you optimise for? This seems like one of those problems where everyone says the metric isn''t important, but it seems like the core element. single metric or composite? offline eval vs live campaign data? submitted by /u/Critical_Builder_902 [link] [comments]",
-    "author": "/u/Critical_Builder_902",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Working on evaluating some AI-generated outbound (SDR-style emails along with follow-ups), and I’m running into a weird problem. Everyone talks about better personalisation or higher reply rates, but when you actually try to benchmark quality it gets messy fast. </p> <p>A few things we’ve looked at: </p> <p>a)reply rate (obvious, but noisy with a delayed signal)</p> <p>b)positive vs negative replies (hard to label cleanly at scale) </p> <p>c)factual accuracy about the prospect/company </p> <p>d)how much editing a human has to do before sending </p> <p>e)whether the message sounds human enough to not trigger spam radar </p> <p>The issue for me at least, none of these fully capture “this is a good outbound message”. You can optimise for reply rate and end up with clickbaity nonsense. You can optimise for accuracy and get something technically correct but completely dead. Right now the most practical metric internally is probably the time to approve/send after human review process, but that feels like a proxy, not the thing itself. If you had to build a proper benchmark here, what would you optimise for? This seems like one of those problems where everyone says the metric isn''t important, but it seems like the core element.</p> <ul> <li>single metric or composite?</li> <li>offline eval vs live campaign data?</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Critical_Builder_902\"> /u/Critical_Builder_902 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0ov2h/what_benchmark_would_you_build_for_reply_quality/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0ov2h/what_benchmark_would_you_build_for_reply_quality/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
