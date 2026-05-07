@@ -1,5 +1,21 @@
 [
   {
+    "id": "340779d6-9435-56ad-84f5-b302d4ca0fef",
+    "title": "Running Large-Scale GPU Workloads on Kubernetes with Slurm",
+    "link": "https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/",
+    "pubDate": "2026-04-09T17:00:00+00:00",
+    "description": "Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...",
+    "author": "Anton Polyakov",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/compute-stack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"compute-stack\" width=\"768\" />Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/compute-stack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"compute-stack\" width=\"768\" /><p>Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations running large-scale AI training have years of investment in Slurm job scripts, fair-share policies, and accounting workflows. The challenge is getting Slurm scheduling capabilities onto Kubernetes—the standard platform for managing GPU…</p>\n<p><a href=\"https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "46f7837d-9704-5930-ab76-3d065fd588d9",
     "title": "Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP",
     "link": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/agentic-ai-enterprise-agents-gtc26-press-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-enterprise-agents-gtc26-press-1920x1080\" width=\"768\" />AI has evolved from assistants following your directions to agents that act independently. Called claws, these agents can take a goal, figure out how to achieve...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/agentic-ai-enterprise-agents-gtc26-press-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-enterprise-agents-gtc26-press-1920x1080\" width=\"768\" /><p>AI has evolved from assistants following your directions to agents that act independently. Called claws, these agents can take a goal, figure out how to achieve it, and execute indefinitely—while leaving you out of the loop. The more capable claws become, the harder they are to trust. And their self-evolving autonomy changes everything about the environment in which they operate.</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-autonomous-self-evolving-agents-more-safely-with-nvidia-openshell/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e47f0b63-bf34-50f3-aa85-f3684f768c1f",
-    "title": "Design, Simulate, and Scale AI Factory Infrastructure with NVIDIA DSX Air",
-    "link": "https://developer.nvidia.com/blog/design-simulate-and-scale-ai-factory-infrastructure-with-nvidia-dsx-air/",
-    "pubDate": "2026-03-16T20:01:33+00:00",
-    "description": "Building AI factories is complex and requires efficient integration across compute, networking, security, and storage systems. To achieve rapid Time to AI and...",
-    "author": "Ranga Maddipudi",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Image of NVIDIA DSX Air being used on a laptop.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/DSX-Air-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"DSX-Air\" width=\"768\" />Building AI factories is complex and requires efficient integration across compute, networking, security, and storage systems. To achieve rapid Time to AI and...<img alt=\"Image of NVIDIA DSX Air being used on a laptop.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/DSX-Air-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"DSX-Air\" width=\"768\" /><p>Building AI factories is complex and requires efficient integration across compute, networking, security, and storage systems. To achieve rapid Time to AI and strong ROI, the new NVIDIA DSX Air is enabling organizations to simulate their entire AI factory infrastructure in the cloud—covering compute, networking, storage, and security. Being able to design, test, and optimize systems before…</p>\n<p><a href=\"https://developer.nvidia.com/blog/design-simulate-and-scale-ai-factory-infrastructure-with-nvidia-dsx-air/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

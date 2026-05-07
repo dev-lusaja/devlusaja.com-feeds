@@ -1,5 +1,21 @@
 [
   {
+    "id": "015587ac-802f-539a-9b45-df64e3cb47ec",
+    "title": "Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling",
+    "link": "https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/",
+    "pubDate": "2026-05-07T21:03:15+00:00",
+    "description": "NVIDIA GB200 NVL72 introduces a fundamentally new way to build GPU clusters by extending NVIDIA NVLink coherence across an entire rack. This design enables...",
+    "author": "Felix Abecassis",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-gb200-nvl72\" width=\"768\" />NVIDIA GB200 NVL72 introduces a fundamentally new way to build GPU clusters by extending NVIDIA NVLink coherence across an entire rack. This design enables...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-gb200-nvl72\" width=\"768\" /><p>NVIDIA GB200 NVL72 introduces a fundamentally new way to build GPU clusters by extending NVIDIA NVLink coherence across an entire rack. This design enables exascale performance, but it also changes the assumptions that many scheduling systems were built on. As a result, “rack-scale locality” becomes a hard constraint. When workloads cross domain boundaries, performance drops sharply…</p>\n<p><a href=\"https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0fe19a7c-200f-5ec0-926c-bb014ed391d4",
     "title": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
     "link": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative object.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/MM-Release-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MM-Release\" width=\"768\" />The release of&nbsp;MiniMax M2.7&nbsp;adds enhancements to the popular&nbsp;MiniMax&nbsp;M2.5 model,&nbsp;built for agentic harnesses,...<img alt=\"Decorative object.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/MM-Release-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MM-Release\" width=\"768\" /><p>The release of MiniMax M2.7 adds enhancements to the popular MiniMax M2.5 model, built for agentic harnesses, and other complex use cases in fields such as reasoning, ML research workflows, software, engineering, and office work. The open weights release of MiniMax M2.7 is now available through NVIDIA and across the open source inference ecosystem. The MiniMax M2 series is a sparse mixture-of…</p>\n<p><a href=\"https://developer.nvidia.com/blog/minimax-m2-7-advances-scalable-agentic-workflows-on-nvidia-platforms-for-complex-ai-applications/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "340779d6-9435-56ad-84f5-b302d4ca0fef",
-    "title": "Running Large-Scale GPU Workloads on Kubernetes with Slurm",
-    "link": "https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/",
-    "pubDate": "2026-04-09T17:00:00+00:00",
-    "description": "Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...",
-    "author": "Anton Polyakov",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/compute-stack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"compute-stack\" width=\"768\" />Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/compute-stack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"compute-stack\" width=\"768\" /><p>Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations running large-scale AI training have years of investment in Slurm job scripts, fair-share policies, and accounting workflows. The challenge is getting Slurm scheduling capabilities onto Kubernetes—the standard platform for managing GPU…</p>\n<p><a href=\"https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
