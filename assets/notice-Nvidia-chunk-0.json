@@ -1,5 +1,21 @@
 [
   {
+    "id": "0fe19a7c-200f-5ec0-926c-bb014ed391d4",
+    "title": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
+    "link": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
+    "pubDate": "2026-05-07T16:02:58+00:00",
+    "description": "Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down,...",
+    "author": "Ava Arnaz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring\" width=\"768\" />Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring\" width=\"768\" /><p>Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down, it becomes challenging to determine why and what to do next. A problem can span computation, communication, a specific rank, or underlying hardware. NVIDIA NCCL Inspector accelerates triaging by providing a lightweight and continuous…</p>\n<p><a href=\"https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "441cc137-0306-5f3c-b755-68a9410f7ba4",
     "title": "How to Build In-Vehicle AI Agents with NVIDIA: From Cloud to Car",
     "link": "https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/compute-stack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"compute-stack\" width=\"768\" />Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/compute-stack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"compute-stack\" width=\"768\" /><p>Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations running large-scale AI training have years of investment in Slurm job scripts, fair-share policies, and accounting workflows. The challenge is getting Slurm scheduling capabilities onto Kubernetes—the standard platform for managing GPU…</p>\n<p><a href=\"https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "46f7837d-9704-5930-ab76-3d065fd588d9",
-    "title": "Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP",
-    "link": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/",
-    "pubDate": "2026-04-09T16:48:38+00:00",
-    "description": "Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume...",
-    "author": "Wenqi Glantz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Checkpoint-Costs-e1775685819565-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Checkpoint-Costs\" width=\"768\" />Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Checkpoint-Costs-e1775685819565-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Checkpoint-Costs\" width=\"768\" /><p>Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume after interruptions. At scale, these checkpoints become massive (782 GB for a 70B model) and frequent (every 15-30 minutes), generating one of the largest line items in a training budget. Most AI teams chase GPU utilization…</p>\n<p><a href=\"https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
