@@ -1,5 +1,37 @@
 [
   {
+    "id": "bb1b1157-5b0f-5276-878a-0ee941e56622",
+    "title": "How NVIDIA Dynamo 1.0 Powers Multi-Node Inference at Production Scale",
+    "link": "https://developer.nvidia.com/blog/nvidia-dynamo-1-production-ready/",
+    "pubDate": "2026-03-16T20:30:00+00:00",
+    "description": "Reasoning models are growing rapidly in size and are increasingly being integrated into agentic AI workflows that interact with other models and external tools....",
+    "author": "Amr Elmeleegy",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/inference-press-dynamo-gtc26-4960950-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-press-dynamo-gtc26-4960950-1920x1080\" width=\"768\" />Reasoning models are growing rapidly in size and are increasingly being integrated into agentic AI workflows that interact with other models and external tools....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/inference-press-dynamo-gtc26-4960950-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"inference-press-dynamo-gtc26-4960950-1920x1080\" width=\"768\" /><p>Reasoning models are growing rapidly in size and are increasingly being integrated into agentic AI workflows that interact with other models and external tools. Deploying these models and workflows in production environments requires distributing them across multiple GPU nodes, which demands careful orchestration and coordination across GPUs. NVIDIA Dynamo 1.0—available now—addresses these…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-dynamo-1-production-ready/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "19f6cb4b-05c9-5a6c-bb8b-247dd18f5224",
+    "title": "Newton Adds Contact-Rich Manipulation and Locomotion Capabilities for Industrial Robotics",
+    "link": "https://developer.nvidia.com/blog/newton-adds-contact-rich-manipulation-and-locomotion-capabilities-for-industrial-robotics/",
+    "pubDate": "2026-03-16T20:28:50+00:00",
+    "description": "Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation,...",
+    "author": "Philipp Reist",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"A Gif showing robot movements.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Newton-Tasks.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Newton-Tasks\" width=\"600\" />Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation,...<img alt=\"A Gif showing robot movements.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Newton-Tasks.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Newton-Tasks\" width=\"600\" /><p>Physics forms the foundation of robotic simulation, enabling realistic modeling of motion and interaction. For tasks like locomotion and manipulation, simulators must handle complex dynamics such as contact forces and deformable objects. While most engines trade off speed for realism, Newton—a GPU-accelerated, open source simulator—is designed to do both. Newton 1.0 GA…</p>\n<p><a href=\"https://developer.nvidia.com/blog/newton-adds-contact-rich-manipulation-and-locomotion-capabilities-for-industrial-robotics/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1adb33c6-67bc-5729-b4fe-1848cb764e8e",
     "title": "Run Autonomous, Self-Evolving Agents More Safely with NVIDIA OpenShell",
     "link": "https://developer.nvidia.com/blog/run-autonomous-self-evolving-agents-more-safely-with-nvidia-openshell/",

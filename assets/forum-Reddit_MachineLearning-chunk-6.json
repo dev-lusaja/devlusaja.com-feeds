@@ -1,5 +1,21 @@
 [
   {
+    "id": "f6a808e0-6e5a-5c14-a521-e12aa02891eb",
+    "title": "Studying Sutton and Barto's RL book and its connections to RL for LLMs (e.g., tool use, math reasoning, agents, and so on)? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sgknct/studying_sutton_and_bartos_rl_book_and_its/",
+    "pubDate": "2026-04-09T09:21:23+00:00",
+    "description": "Hi everyone, I graduated from a Master in Math program last summer. In recent months, I have been trying to understand more about ML/DL and LLMs, so I have been reading books and sometimes papers on LLMs and their reasoning capacities (I'm especially interested in AI for Math ). When I read about RL on Wikipedia, I also found that it's also really interesting as well, so I wanted to learn more about RL and its connections to LLMs. Since the canonical book on RL is \" Sutton and Barto \", which was published in 2020 before LLMs getting really popular, therefore it does not mention things like PPO, GRPO, and so on. I asked LLMs to select relevant chapters from the RL book so that I could study more focuses, and they select Chapters 1 (Intro), 3 (Finite MDP), 6 (TD Learning), and then 9 (On-policy prediction with approx), 10 (on-policy ...), 11 (on-policy control with approx), 13 (Policy gradient methods). So I have the following questions that I was wonering if you could help me with: What do you think of its selections and do you have better recommendations? Do you think it's good first steps to understand the landscape before reading and experimenting with modern RL-for-LLM papers? Or I should just go with the Alberta's online RL course? Joseph Suarez wrote \" An Ultra Opinionated Guide to Reinforcement Learning \" but I think it's mostly about non-LLM RL? Thank you a lot for your time! submitted by /u/hedgehog0 [link] [comments]",
+    "author": "/u/hedgehog0",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I graduated from a Master in Math program last summer. In recent months, I have been trying to understand more about ML/DL and LLMs, so I have been reading books and sometimes papers on LLMs and their reasoning capacities (I'm especially interested in <strong>AI for Math</strong>). When I read about RL on Wikipedia, I also found that it's also really interesting as well, so I wanted to learn more about RL and its connections to LLMs.</p> <p>Since the canonical book on RL is &quot;<a href=\"http://incompleteideas.net/book/the-book-2nd.html\">Sutton and Barto</a>&quot;, which was published in 2020 before LLMs getting really popular, therefore it does not mention things like PPO, GRPO, and so on. I asked LLMs to select relevant chapters from the RL book so that I could study more focuses, and they select <strong>Chapters 1 (Intro), 3 (Finite MDP), 6 (TD Learning), and then 9 (On-policy prediction with approx), 10 (on-policy ...), 11 (on-policy control with approx), 13 (Policy gradient methods).</strong></p> <p>So I have the following questions that I was wonering if you could help me with:</p> <p><em>What do you think of its selections and do you have better recommendations? Do you think it's good first steps to understand the landscape before reading and experimenting with modern RL-for-LLM papers? Or I should just go with the Alberta's online RL course? Joseph Suarez wrote &quot;<a href=\"https://x.com/jsuarez/status/1943692998975402064\">An Ultra Opinionated Guide to Reinforcement Learning</a>&quot; but I think it's mostly about non-LLM RL?</em></p> <p>Thank you a lot for your time!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hedgehog0\"> /u/hedgehog0 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgknct/studying_sutton_and_bartos_rl_book_and_its/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgknct/studying_sutton_and_bartos_rl_book_and_its/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "aa66afd9-2426-53e4-87ba-ff40641dd643",
     "title": "[R] The ECIH: Model Modeling Agentic Identity as an Emergent Relational State [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sgk8ni/r_the_ecih_model_modeling_agentic_identity_as_an/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>i'm doing research on some trending fields in AI, currently working on small language models and would love to meet people who are working in similar domains and are looking to write/publish papers! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StoicWithSyrup\"> /u/StoicWithSyrup </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1secv6c/d_ai_research_on_small_language_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1secv6c/d_ai_research_on_small_language_models/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "acf70dce-3ac2-5ff7-862b-d300dfe930ce",
-    "title": "Built a Hybrid NAS tool for RNN architectures (HyNAS-R) – Looking for feedback for my final year evaluation [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sebmo8/built_a_hybrid_nas_tool_for_rnn_architectures/",
-    "pubDate": "2026-04-06T21:07:09+00:00",
-    "description": "Hi everyone, I'm currently in the evaluation phase of my Final Year Project and am looking for feedback on the system I've built. It's called HyNAS-R, a Neural Architecture Search tool designed to automatically find the best RNN architectures for NLP tasks by combining a zero-cost proxy with metaheuristic optimization. I have recorded a video explaining the core algorithm and the technology stack behind the system, specifically how it uses an Improved Grey Wolf Optimizer and a Hidden Covariance proxy to search through thousands of architectures without expensive training runs. Video Explanation: https://youtu.be/mh5kOF84vHY If anyone is willing to watch the breakdown and share their thoughts, I would greatly appreciate it. Your insights will be directly used for my final university evaluation. Live demo link is inside the form for anyone interested. Feedback Form: https://forms.gle/keLrigwSXBb74od7A Thank you in advance for your time and feedback! submitted by /u/PittuPirate [link] [comments]",
-    "author": "/u/PittuPirate",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm currently in the evaluation phase of my Final Year Project and am looking for feedback on the system I've built. It's called HyNAS-R, a Neural Architecture Search tool designed to automatically find the best RNN architectures for NLP tasks by combining a zero-cost proxy with metaheuristic optimization.</p> <p>I have recorded a video explaining the core algorithm and the technology stack behind the system, specifically how it uses an Improved Grey Wolf Optimizer and a Hidden Covariance proxy to search through thousands of architectures without expensive training runs.</p> <p>Video Explanation: <a href=\"https://youtu.be/mh5kOF84vHY\">https://youtu.be/mh5kOF84vHY</a> </p> <p>If anyone is willing to watch the breakdown and share their thoughts, I would greatly appreciate it. Your insights will be directly used for my final university evaluation. Live demo link is inside the form for anyone interested.</p> <p>Feedback Form: <a href=\"https://forms.gle/keLrigwSXBb74od7A\">https://forms.gle/keLrigwSXBb74od7A</a> </p> <p>Thank you in advance for your time and feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PittuPirate\"> /u/PittuPirate </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sebmo8/built_a_hybrid_nas_tool_for_rnn_architectures/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sebmo8/built_a_hybrid_nas_tool_for_rnn_architectures/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
