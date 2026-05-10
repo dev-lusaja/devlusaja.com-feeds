@@ -1,5 +1,37 @@
 [
   {
+    "id": "ca2db2be-d353-52f7-b0c3-f6ebf3363fdd",
+    "title": "[D] Lossless tokenizers lose nothing and add nothing — trivial observation or worth formalizing?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rv7e1e/d_lossless_tokenizers_lose_nothing_and_add/",
+    "pubDate": "2026-03-16T11:56:24+00:00",
+    "description": "I wrote up a short information-theoretic argument for why lossless tokenization neither restricts the expressiveness of language models nor introduces unavoidable redundancy. The key ideas: Any target distribution over strings can be exactly induced by a distribution over token sequences (via the canonical construction) The canonical distribution achieves H(Q) = H(P) — no extra entropy from tokenization In practice, models do leak ~0.5–2% probability onto non-canonical tokenizations (Chirkova et al., 2023), and deliberately introducing this noise via BPE-Dropout can actually help generalization https://douglasswng.github.io/why-tokens-enough/ I'm curious whether people find this kind of formalization useful or if it's \"obviously true\" and not worth writing down. The practical punchline — that the theoretically optimal thing (concentrate on canonical tokenizations) isn't always best in practice (BPE-Dropout helps) — was the part I found most interesting. submitted by /u/36845277 [link] [comments]",
+    "author": "/u/36845277",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I wrote up a short information-theoretic argument for why lossless tokenization neither restricts the expressiveness of language models nor introduces unavoidable redundancy. The key ideas:</p> <ul> <li>Any target distribution over strings can be exactly induced by a distribution over token sequences (via the canonical construction)</li> <li>The canonical distribution achieves H(Q) = H(P) — no extra entropy from tokenization</li> <li>In practice, models do leak ~0.5–2% probability onto non-canonical tokenizations (Chirkova et al., 2023), and deliberately introducing this noise via BPE-Dropout can actually help generalization</li> </ul> <p><a href=\"https://douglasswng.github.io/why-tokens-enough/\">https://douglasswng.github.io/why-tokens-enough/</a></p> <p>I'm curious whether people find this kind of formalization useful or if it's &quot;obviously true&quot; and not worth writing down. The practical punchline — that the theoretically optimal thing (concentrate on canonical tokenizations) isn't always best in practice (BPE-Dropout helps) — was the part I found most interesting.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/36845277\"> /u/36845277 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rv7e1e/d_lossless_tokenizers_lose_nothing_and_add/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rv7e1e/d_lossless_tokenizers_lose_nothing_and_add/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "3112ac4d-226a-5ae3-ae28-ca176905cdca",
+    "title": "[D] how to parallelize optimal parameter search for DL NNs on multiple datasets?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rv45pi/d_how_to_parallelize_optimal_parameter_search_for/",
+    "pubDate": "2026-03-16T08:49:36+00:00",
+    "description": "suppose i have 5 and 6 datasets, 11 in total. then i have a collection of 5 different deep learning networks, each having their own set of free non-DL parameters, ranging from none to 3-4. imagine i have a list of educated guesses for each parameter (5-6 values) and i wanna try all their combinations for each DL method on each dataset. i’m okay with leaving it computing overnight. how would you approach this problem? is there a way to compute these non-sequentially/in parallel with a single GPU? * each run has 2 phases: learning and predicting, and there’s the model checkpoint artifact that’s passed between them. i guess these have to now be assigned special suffixes so they don’t get overwritten. * the main issue is a single GPU. i don’t think there’s a way to “split” the GPU as you can do with CPU that has logical cores. i’ve completed this task for non-DL/NN methods where each of 11 datasets occupied 1 core. seems like the GPU will become a bottleneck. * should i also try to sweep the DL parameters like epochs, tolerance, etc? does anyone have any advice on how to do this efficiently? submitted by /u/Mampacuk [link] [comments]",
+    "author": "/u/Mampacuk",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>suppose i have 5 and 6 datasets, 11 in total.</p> <p>then i have a collection of 5 different deep learning networks, each having their own set of free non-DL parameters, ranging from none to 3-4.</p> <p>imagine i have a list of educated guesses for each parameter (5-6 values) and i wanna try all their combinations for each DL method on each dataset. i’m okay with leaving it computing overnight. how would you approach this problem? is there a way to compute these non-sequentially/in parallel with a single GPU?</p> <p>* each run has 2 phases: learning and predicting, and there’s the model checkpoint artifact that’s passed between them. i guess these have to now be assigned special suffixes so they don’t get overwritten.</p> <p>* the main issue is a single GPU. i don’t think there’s a way to “split” the GPU as you can do with CPU that has logical cores. i’ve completed this task for non-DL/NN methods where each of 11 datasets occupied 1 core. seems like the GPU will become a bottleneck.</p> <p>* should i also try to sweep the DL parameters like epochs, tolerance, etc?</p> <p>does anyone have any advice on how to do this efficiently?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mampacuk\"> /u/Mampacuk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rv45pi/d_how_to_parallelize_optimal_parameter_search_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rv45pi/d_how_to_parallelize_optimal_parameter_search_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4f06d5b9-f733-554a-ae75-5cf1f5b016f0",
     "title": "[P] Using residual ML correction on top of a deterministic physics simulator for F1 strategy prediction",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ruxn9t/p_using_residual_ml_correction_on_top_of_a/",
