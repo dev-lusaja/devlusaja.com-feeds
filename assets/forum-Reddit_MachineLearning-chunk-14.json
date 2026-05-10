@@ -1,5 +1,37 @@
 [
   {
+    "id": "1b55933e-c0ec-5252-9b2a-055c64673363",
+    "title": "[R] What kind on video benchmark is missing VLMs?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rvxztn/r_what_kind_on_video_benchmark_is_missing_vlms/",
+    "pubDate": "2026-03-17T05:33:59+00:00",
+    "description": "I am just curious searching out lots of benchmarks to evaluate VLMs for videos for instance VideoMME, MLVU, MVBench,LVBench and many more I am still fingering out what is missing in terms of benchmarking VLMs? like what kind of dataset i can create to make it more physical and open world submitted by /u/Alternative_Art2984 [link] [comments]",
+    "author": "/u/Alternative_Art2984",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am just curious searching out lots of benchmarks to evaluate VLMs for videos for instance VideoMME, MLVU, MVBench,LVBench and many more </p> <p>I am still fingering out what is missing in terms of benchmarking VLMs? like what kind of dataset i can create to make it more physical and open world</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rvxztn/r_what_kind_on_video_benchmark_is_missing_vlms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rvxztn/r_what_kind_on_video_benchmark_is_missing_vlms/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "6bbc3c00-a35b-5adb-82aa-ead743f7cb16",
+    "title": "[R] Genomic Large Language Models",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/",
+    "pubDate": "2026-03-17T02:20:44+00:00",
+    "description": "Can a DNA language model find what sequence alignment can't? I've been exploring Evo2, Arc Institute's genomic foundation model trained on 9.3 trillion nucleotides, to see if its learned representations capture biological relationships beyond raw sequence similarity. The setup: extract embeddings from Evo2's intermediate layers for 512bp windows across 25 human genes, then compare what the model thinks is similar against what BLAST (the standard sequence alignment tool) finds. Most strong matches were driven by common repeat elements (especially Alu). But after stricter filtering, a clean pair remained: A section of the VIM (vimentin, chr10) gene and a section of the DES(desmin, chr2) gene showed very high similarity (cosine = 0.948), even though they have no detectable sequence match. Both regions are active promoters in muscle and connective tissue cells, share key regulatory proteins, and come from two related genes that are often expressed together. This suggests Evo2 is starting to learn to recognize patterns of gene regulation — not just the DNA letters themselves — even when the sequences look completely different. That said, this kind of meaningful signal is still hard to find. It only appears after heavy filtering, and many other matches remain noisy. Overall, Evo2 appears to capture some real biological information beyond sequence alignment, but making it practically useful will take more work. Would be curious to hear thoughts from others in genomics and AI. https://preview.redd.it/ya4k6xwhmipg1.png?width=2496&format=png&auto=webp&s=8e7b4c0bd8c9540b39678a9adb5ab6e0a500eac6 submitted by /u/Clear-Dimension-6890 [link] [comments]",
+    "author": "/u/Clear-Dimension-6890",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/\"> <img alt=\"[R] Genomic Large Language Models\" src=\"https://preview.redd.it/ya4k6xwhmipg1.png?width=140&amp;height=59&amp;auto=webp&amp;s=d3af77529fb2785c9eb49c58ed77b92a91e0f290\" title=\"[R] Genomic Large Language Models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Can a DNA language model find what sequence alignment can't?</p> <p>I've been exploring Evo2, Arc Institute's genomic foundation model trained on 9.3 trillion nucleotides, to see if its learned representations capture biological relationships beyond raw sequence similarity.</p> <p>The setup: extract embeddings from Evo2's intermediate layers for 512bp windows across 25 human genes, then compare what the model thinks is similar against what BLAST (the standard sequence alignment tool) finds.</p> <p>Most strong matches were driven by common repeat elements (especially Alu). But after stricter filtering, a clean pair remained:</p> <p>A section of the VIM (vimentin, chr10) gene and a section of the DES(desmin, chr2) gene showed very high similarity (cosine = 0.948), even though they have no detectable sequence match. Both regions are active promoters in muscle and connective tissue cells, share key regulatory proteins, and come from two related genes that are often expressed together.</p> <p>This suggests Evo2 is starting to learn to recognize patterns of gene regulation — not just the DNA letters themselves — even when the sequences look completely different.</p> <p>That said, this kind of meaningful signal is still hard to find. It only appears after heavy filtering, and many other matches remain noisy.</p> <p>Overall, Evo2 appears to capture some real biological information beyond sequence alignment, but making it practically useful will take more work.</p> <p>Would be curious to hear thoughts from others in genomics and AI.</p> <p><a href=\"https://preview.redd.it/ya4k6xwhmipg1.png?width=2496&amp;format=png&amp;auto=webp&amp;s=8e7b4c0bd8c9540b39678a9adb5ab6e0a500eac6\">https://preview.redd.it/ya4k6xwhmipg1.png?width=2496&amp;format=png&amp;auto=webp&amp;s=8e7b4c0bd8c9540b39678a9adb5ab6e0a500eac6</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Clear-Dimension-6890\"> /u/Clear-Dimension-6890 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/ya4k6xwhmipg1.png?width=140&height=59&auto=webp&s=d3af77529fb2785c9eb49c58ed77b92a91e0f290",
+    "isShortVideo": 0
+  },
+  {
     "id": "ca2db2be-d353-52f7-b0c3-f6ebf3363fdd",
     "title": "[D] Lossless tokenizers lose nothing and add nothing — trivial observation or worth formalizing?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1rv7e1e/d_lossless_tokenizers_lose_nothing_and_add/",
