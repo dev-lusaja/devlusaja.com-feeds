@@ -1,5 +1,21 @@
 [
   {
+    "id": "744146ec-50dd-5f4c-b5fd-7ffbcd94e179",
+    "title": "[R] Joint Embedding Variational Bayes (TMLR ’26)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/",
+    "pubDate": "2026-04-30T15:00:11+00:00",
+    "description": "Disclosure: first author. The paper was just published in TMLR, and I figured it might be of interest to some people here. It is fairly dense mathematically, but straightforward conceptually: to add operational variational semantics to joint-embedding architectures for non-contrastive representation learning, we make three coupled choices: Factorize embedding likelihood: the likelihood is split into directional and radial terms, so angular alignment and representation norm are modelled separately. The radial/norm term does not drive accuracy on its own, but the factorization avoids the norm-direction coupling that otherwise produces pathological solutions. Anchor posterior/likelihood uncertainty: the posterior variance is tied to the likelihood scale, so uncertainty directly governs both inference and the embedding likelihood. Use heavy-tailed likelihood: the likelihood uses a Student-t form rather than Gaussian. This matters empirically, since as the likelihood approaches the Gaussian limit, training becomes unstable and the model fails catastrophically. These allow the model to learn anisotropic / feature-wise uncertainty, which is evaluated in a downstream OOD detection experiments, including against VI-SimSiam . arXiv | OpenReview | Code submitted by /u/ISwallow5Gum [link] [comments]",
+    "author": "/u/ISwallow5Gum",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Disclosure: first author.</p> <p>The paper was just published in TMLR, and I figured it might be of interest to some people here. It is fairly dense mathematically, but straightforward conceptually: to add operational variational semantics to joint-embedding architectures for non-contrastive representation learning, we make three coupled choices:</p> <ul> <li><strong>Factorize embedding likelihood:</strong> the likelihood is split into directional and radial terms, so angular alignment and representation norm are modelled separately. The radial/norm term does not drive accuracy on its own, but the factorization avoids the norm-direction coupling that otherwise produces pathological solutions.</li> <li><strong>Anchor posterior/likelihood uncertainty:</strong> the posterior variance is tied to the likelihood scale, so uncertainty directly governs both inference and the embedding likelihood.</li> <li><strong>Use heavy-tailed likelihood:</strong> the likelihood uses a Student-t form rather than Gaussian. This matters empirically, since as the likelihood approaches the Gaussian limit, training becomes unstable and the model fails catastrophically.</li> </ul> <p>These allow the model to learn anisotropic / feature-wise uncertainty, which is evaluated in a downstream OOD detection experiments, including against <a href=\"https://arxiv.org/abs/2203.11437\">VI-SimSiam</a>.</p> <p><a href=\"https://arxiv.org/abs/2602.05639\">arXiv</a> | <a href=\"https://openreview.net/pdf?id=4cbPJ5jLtr\">OpenReview</a> | <a href=\"https://github.com/aoji/vje\">Code</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ISwallow5Gum\"> /u/ISwallow5Gum </a> <br /> <span><a href=\"https://arxiv.org/abs/2602.05639\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5335121d-bb62-5bcd-adb1-0af74ba933c9",
     "title": "suggestions regarding mlops [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1szy1f9/suggestions_regarding_mlops_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, </p> <p>I recently got my paper rejected from a workshop (big womp :'( ) . </p> <p>Both reviewers said the paper sounds more like a technical report than a research paper.<br /> I followed the usual computer vision format for papers so I'm a bit confused by what that might actually mean.</p> <p>I would therefore like to hear the community's opinion on what faux pas make a paper read as technical report.</p> <p>Thank you </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/obliviousphoenix2003\"> /u/obliviousphoenix2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bf71f58e-ee82-5217-b47a-559b04ada8b9",
-    "title": "CVPR Workshop Decisions [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/",
-    "pubDate": "2026-04-27T15:22:10+00:00",
-    "description": "Is it crazy if decisions aren't out yet for some CVPR workshops or is it normal? I don't want to annoy the organizers if it's the norm, but we're about 5 weeks out and I need to get travel approved, etc., if papers are accepted. submitted by /u/thats_quick_maffs [link] [comments]",
-    "author": "/u/thats_quick_maffs",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it crazy if decisions aren't out yet for some CVPR workshops or is it normal? </p> <p>I don't want to annoy the organizers if it's the norm, but we're about 5 weeks out and I need to get travel approved, etc., if papers are accepted.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thats_quick_maffs\"> /u/thats_quick_maffs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

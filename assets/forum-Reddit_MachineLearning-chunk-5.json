@@ -1,5 +1,21 @@
 [
   {
+    "id": "bf71f58e-ee82-5217-b47a-559b04ada8b9",
+    "title": "CVPR Workshop Decisions [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/",
+    "pubDate": "2026-04-27T15:22:10+00:00",
+    "description": "Is it crazy if decisions aren't out yet for some CVPR workshops or is it normal? I don't want to annoy the organizers if it's the norm, but we're about 5 weeks out and I need to get travel approved, etc., if papers are accepted. submitted by /u/thats_quick_maffs [link] [comments]",
+    "author": "/u/thats_quick_maffs",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it crazy if decisions aren't out yet for some CVPR workshops or is it normal? </p> <p>I don't want to annoy the organizers if it's the norm, but we're about 5 weeks out and I need to get travel approved, etc., if papers are accepted.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thats_quick_maffs\"> /u/thats_quick_maffs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2ee6d2b5-06f1-5405-9d55-0856cd133928",
     "title": "How do you test AI agents in production? The unpredictability is overwhelming.[D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sx3p40/how_do_you_test_ai_agents_in_production_the/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently updated my FlashAttention-PyTorch repo so it now includes educational implementations of FA1, FA2, FA3, and FA4 in plain PyTorch.</p> <p>The main goal is to make the progression across versions easier to understand from code.</p> <p>This is not meant to be an optimized kernel repo, and it is not a hardware-faithful recreation of the official implementations. The point is to expose the algorithmic ideas and design changes without immediately going deep into CUDA/Hopper/Blackwell-specific details.</p> <p>Roughly, the repo now shows:</p> <ul> <li>FA1: tiled online softmax baseline</li> <li>FA2: split-Q / query-tile ownership, deferred normalization</li> <li>FA3: explicit staged pipeline with ping-pong tile buffers, plus a simplified educational FP8 forward path</li> <li>FA4: explicit scheduler with main / softmax / correction phases, and conditional/selective rescaling</li> </ul> <p>So the same exact attention math is preserved, but the orchestration changes version by version.</p> <p>I wrote it for people who want to understand:</p> <p>&quot;What actually changed from FA1 → FA2 → FA3 → FA4?&quot;&quot;</p> <p>without having to start from highly optimized CUDA kernels.</p> <p>Repo: <a href=\"https://github.com/shreyansh26/FlashAttention-PyTorch\">https://github.com/shreyansh26/FlashAttention-PyTorch</a></p> <p>Would be interested in feedback on whether the code makes the version-to-version differences intuitive.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/shreyansh26\"> /u/shreyansh26 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3b325771-c04a-5aee-bbde-7b1ffbfdc8e0",
-    "title": "PhD or Masters for Computational Cognitive Science [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sil6fo/phd_or_masters_for_computational_cognitive/",
-    "pubDate": "2026-04-11T14:53:18+00:00",
-    "description": "First in US. How does the Masters differ from PhD? The field is niche so not many universities offer a masters in the first place but for the ones who are part of one, what is it like? The ones who are doing PhD what kind of research is projected to blow up or become the trend 2 years from now. How does the funding look like, the administration cuts, in general. Around the globe. Same questions. More personally, what drew you all to this field? Which field did you find most surprising that was also inter-lapping with CCS? Thank You. Source: Starry-eyed undergrad discovering Tenenbaum’s papers. submitted by /u/Friendly_Schedule_36 [link] [comments]",
-    "author": "/u/Friendly_Schedule_36",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>First in US.</p> <p>How does the Masters differ from PhD? The field is niche so not many universities offer a masters in the first place but for the ones who are part of one, what is it like?</p> <p>The ones who are doing PhD what kind of research is projected to blow up or become the trend 2 years from now. How does the funding look like, the administration cuts, in general.</p> <p>Around the globe.</p> <p>Same questions.</p> <p>More personally, what drew you all to this field? Which field did you find most surprising that was also inter-lapping with CCS?</p> <p>Thank You.</p> <p>Source: Starry-eyed undergrad discovering Tenenbaum’s papers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Friendly_Schedule_36\"> /u/Friendly_Schedule_36 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sil6fo/phd_or_masters_for_computational_cognitive/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sil6fo/phd_or_masters_for_computational_cognitive/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

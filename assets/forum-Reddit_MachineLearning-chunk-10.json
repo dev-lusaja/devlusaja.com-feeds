@@ -1,5 +1,21 @@
 [
   {
+    "id": "c29483a9-58b4-5b4a-b17d-ce196b39dd6b",
+    "title": "[P] Unix philosophy for ML pipelines: modular, swappable stages with typed contracts",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/",
+    "pubDate": "2026-03-30T16:15:51+00:00",
+    "description": "We built an open-source prototype that applies Unix philosophy to retrieval pipelines. Each stage (PII redaction, chunking, dedup, embeddings, eval) is its own plugin with a typed contract, like pipes between Unix tools. The motivation: we swapped a chunker and retrieval got worse, but could not isolate whether it was the chunking or something breaking downstream. With each stage independently swappable, you change one option, re-run eval, and compare precision/recall directly. ```python Feature(\"docs__pii_redacted__chunked__deduped__embedded__evaluated\", options={ \"redaction_method\": \"presidio\", \"chunking_method\": \"sentence\", \"embedding_method\": \"tfidf\", }) ``` Each `__` is a stage boundary. Swap any piece, the rest stays the same. Still a prototype, not production. Looking for feedback on whether the design assumptions hold up. Repo: [https://github.com/mloda-ai/rag_integration](https://github.com/mloda-ai/rag_integration) submitted by /u/coldoven [link] [comments]",
+    "author": "/u/coldoven",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>We built an open-source prototype that applies Unix philosophy to retrieval pipelines. Each stage (PII redaction, chunking, dedup, embeddings, eval) is its own plugin with a typed contract, like pipes between Unix tools. The motivation: we swapped a chunker and retrieval got worse, but could not isolate whether it was the chunking or something breaking downstream. With each stage independently swappable, you change one option, re-run eval, and compare precision/recall directly. ```python Feature(&quot;docs__pii_redacted__chunked__deduped__embedded__evaluated&quot;, options={ &quot;redaction_method&quot;: &quot;presidio&quot;, &quot;chunking_method&quot;: &quot;sentence&quot;, &quot;embedding_method&quot;: &quot;tfidf&quot;, }) ``` Each `__` is a stage boundary. Swap any piece, the rest stays the same. Still a prototype, not production. Looking for feedback on whether the design assumptions hold up. Repo: [https://github.com/mloda-ai/rag_integration](https://github.com/mloda-ai/rag_integration) </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coldoven\"> /u/coldoven </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "285912b8-8a1b-50fe-822b-5773e4bdd048",
     "title": "[R] looking for academic collaborators",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s7tdze/r_looking_for_academic_collaborators/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m still trying to wrap my head around the <a href=\"https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding\">Bloomberg news</a> from a couple of weeks ago. A $1 billion seed round is wild enough, but the actual technical bet they are making is what's really keeping me up. </p> <p>LeCun has been loudly arguing for years that next-token predictors are fundamentally incapable of actual planning. Now, his new shop, <a href=\"https://logicalintelligence.com/\">Logical Intelligence</a>, is attempting to completely bypass Transformers to generate mathematically verified code using Energy-Based Models. They are essentially treating logical constraints as an energy minimization problem rather than a probabilistic guessing game. </p> <p>It sounds beautiful in theory for AppSec and critical infrastructure where you absolutely cannot afford a hallucinated library. But practically? We all know how notoriously painful EBMs are to train and stabilize. Mapping continuous energy landscapes to discrete, rigid outputs like code sounds incredibly computationally expensive at inference time. </p> <p>Are we finally seeing a genuine paradigm shift away from LLMs for rigorous, high-stakes tasks, or is this just a billion-dollar physics experiment that will eventually get beaten by a brute-forced GPT-5 wrapped in a good symbolic solver? Curious to hear from anyone who has actually tried forcing EBMs into discrete generation tasks lately.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fun-Information78\"> /u/Fun-Information78 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ad93a9ce-d5a9-563b-bcf2-f73e683f7186",
-    "title": "[D] Any other PhD students feel underprepared and that the bar is too low?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/",
-    "pubDate": "2026-03-25T13:13:18+00:00",
-    "description": "Hello! I started my PhD a year and a half ago, and I feel like when I did everyone was kind of dismissive of how much/little theoretical knowledge I have or am missing. Now that I’ve been here a year I can say with confidence that I didn’t have enough theory, and am constantly scrambling to acquire it. This isn’t like an imposter syndrome rant, I think that this is quite common in ML academia, I just don’t know what to do with that reality, and wonder what folks on here think. Like why is it that despite citing the universal approximation theorem, and spending all our time working on applying it, so few of us can actually follow its proof? submitted by /u/Scrungo__Beepis [link] [comments]",
-    "author": "/u/Scrungo__Beepis",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello! I started my PhD a year and a half ago, and I feel like when I did everyone was kind of dismissive of how much/little theoretical knowledge I have or am missing.</p> <p>Now that I’ve been here a year I can say with confidence that I didn’t have enough theory, and am constantly scrambling to acquire it.</p> <p>This isn’t like an imposter syndrome rant, I think that this is quite common in ML academia, I just don’t know what to do with that reality, and wonder what folks on here think.</p> <p>Like why is it that despite citing the universal approximation theorem, and spending all our time working on applying it, so few of us can actually follow its proof?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Scrungo__Beepis\"> /u/Scrungo__Beepis </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
