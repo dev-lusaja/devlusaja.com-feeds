@@ -1,5 +1,21 @@
 [
   {
+    "id": "d87dd9dc-5f62-5c28-b84d-123279fdce8e",
+    "title": "What is an average publication outcome for an ML PhD? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml/",
+    "pubDate": "2026-05-09T17:44:32+00:00",
+    "description": "I know publication count is not everything, and quality, contribution, advisor/lab culture, subfield, and luck all matter a lot. But to make the comparison easier, I’m curious about the publication-count side specifically. For an ML PhD, what would you consider an average publication outcome by graduation? For example, would something like 3–5 first-author papers at A/top-tier venues * be considered roughly average, or would that already be above average in ML? By A*/top-tier, I’m thinking of venues such as NeurIPS, ICML, ICLR, CVPR, ACL, EMNLP, etc., depending on the subfield. Important : Again, I know paper count is a crude metric. I’m just trying to get a rough sense of what people in the field see as average, strong, or unusually strong. submitted by /u/Hope999991 [link] [comments]",
+    "author": "/u/Hope999991",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I know publication count is not everything, and quality, contribution, advisor/lab culture, subfield, and luck all matter a lot. But to make the comparison easier, I’m curious about the publication-count side specifically.<br /> For an ML PhD, what would you consider an average publication outcome by graduation?</p> <p>For example, would something like <em>3–5 first-author papers at A/top-tier venues</em>* be considered roughly average, or would that already be above average in ML?</p> <p>By A*/top-tier, I’m thinking of venues such as NeurIPS, ICML, ICLR, CVPR, ACL, EMNLP, etc., depending on the subfield.</p> <p><strong>Important</strong>:<br /> Again, I know paper count is a crude metric. I’m just trying to get a rough sense of what people in the field see as average, strong, or unusually strong.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9f2b3a29-8d97-5285-9513-4dad45acdb4c",
     "title": "EEML 2026 summer school [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t87t6r/eeml_2026_summer_school_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! I am trying to sanity-check an assumption for diffusion video generation reproducibility.</p> <p>Suppose I run the same video diffusion model on two different GPU architectures, with:</p> <ul> <li>identical model weights and implementation (same attention backend, etc)</li> <li>identical prompt and parameters (same number of denoising steps, etc)</li> <li>deterministic sampler (no extra noise is injected during inference)</li> <li><strong>the exact same starting noise latent</strong></li> </ul> <p>Could I expect more or less the same generated video? </p> <p>I understand that there's no way to guarantee bitwise-identical outputs due to floating-point math differences, but could it realistically make the generated videos so different that it'd be immediately noticeable to a human eye? Or would one normally expect only tiny pixel-level/minor perceptual differences?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hellosandrik\"> /u/hellosandrik </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t69dvx/how_much_can_a_video_generated_by_the_same/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t69dvx/how_much_can_a_video_generated_by_the_same/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "dce63a8b-31d3-5134-a561-d0b5e1d7d4fa",
-    "title": "MICCAI 2026 Decisions [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/",
-    "pubDate": "2026-05-07T11:38:13+00:00",
-    "description": "Thread to consolidate discussion/sharing for early accept/rebuttal/rejection for MICCAI 2026! submitted by /u/kw_96 [link] [comments]",
-    "author": "/u/kw_96",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Thread to consolidate discussion/sharing for early accept/rebuttal/rejection for MICCAI 2026!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kw_96\"> /u/kw_96 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "7a030763-a7d6-5c30-a7b5-0a6a428e251b",
+    "title": "Inside NVIDIA Groq 3 LPX: The Low-Latency Inference Accelerator for the NVIDIA Vera Rubin Platform",
+    "link": "https://developer.nvidia.com/blog/inside-nvidia-groq-3-lpx-the-low-latency-inference-accelerator-for-the-nvidia-vera-rubin-platform/",
+    "pubDate": "2026-03-16T20:32:26+00:00",
+    "description": "NVIDIA Groq 3 LPX is a new rack-scale inference accelerator for the NVIDIA Vera Rubin platform, designed for the low-latency and large-context demands of...",
+    "author": "Kyle Aubrey",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Render of LPX rack.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/LPX-Rack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"LPX-Rack\" width=\"768\" />NVIDIA Groq 3 LPX is a new rack-scale inference accelerator for the NVIDIA Vera Rubin platform, designed for the low-latency and large-context demands of...<img alt=\"Render of LPX rack.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/LPX-Rack-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"LPX-Rack\" width=\"768\" /><p>NVIDIA Groq 3 LPX is a new rack-scale inference accelerator for the NVIDIA Vera Rubin platform, designed for the low-latency and large-context demands of agentic systems. Co-designed with the NVIDIA Vera Rubin NVL72, LPX equips the AI factory with an engine optimized for fast, predictable token generation, while Vera Rubin NVL72 remains the flexible, general-purpose workhorse for training and…</p>\n<p><a href=\"https://developer.nvidia.com/blog/inside-nvidia-groq-3-lpx-the-low-latency-inference-accelerator-for-the-nvidia-vera-rubin-platform/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5bbca904-bbf4-53c7-8fc7-aa6db2963a8f",
     "title": "Scaling Autonomous AI Agents and Workloads with NVIDIA DGX Spark",
     "link": "https://developer.nvidia.com/blog/scaling-autonomous-ai-agents-and-workloads-with-nvidia-dgx-spark/",
@@ -124,22 +140,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"A GIF showing robotics.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/Cosmos-Data-Reasoning.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-Data-Reasoning\" width=\"600\" />The next generation of AI-driven robots like humanoids and autonomous vehicles depends on high-fidelity, physics-aware training data. Without diverse and...<img alt=\"A GIF showing robotics.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/Cosmos-Data-Reasoning.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-Data-Reasoning\" width=\"600\" /><p>The next generation of AI-driven robots like humanoids and autonomous vehicles depends on high-fidelity, physics-aware training data. Without diverse and representative datasets, these systems don’t get proper training and face testing risks due to poor generalization, limited exposure to real-world variations, and unpredictable behavior in edge cases. Collecting massive real-world datasets for…</p>\n<p><a href=\"https://developer.nvidia.com/blog/scale-synthetic-data-and-physical-ai-reasoning-with-nvidia-cosmos-world-foundation-models/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a1d7dd0d-0955-5d70-92f1-3141f53ff486",
-    "title": "Build Accelerated, Differentiable Computational Physics Code for AI with NVIDIA Warp",
-    "link": "https://developer.nvidia.com/blog/build-accelerated-differentiable-computational-physics-code-for-ai-with-nvidia-warp/",
-    "pubDate": "2026-03-12T17:30:00+00:00",
-    "description": "Computer-Aided Engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across...",
-    "author": "Sheel Nidhan",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/decaying-turbulence-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decaying-turbulence\" width=\"768\" />Computer-Aided Engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/decaying-turbulence-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decaying-turbulence\" width=\"768\" /><p>Computer-Aided Engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across geometries and operating conditions. Unlike LLMs, these models depend on large volumes of high-fidelity, physics-compliant data. Recent scaling-law work on computational fluid dynamics (CFD) surrogates indicates that simulation-generated…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-accelerated-differentiable-computational-physics-code-for-ai-with-nvidia-warp/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

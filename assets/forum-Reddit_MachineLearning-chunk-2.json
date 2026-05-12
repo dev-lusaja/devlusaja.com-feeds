@@ -1,5 +1,21 @@
 [
   {
+    "id": "dce63a8b-31d3-5134-a561-d0b5e1d7d4fa",
+    "title": "MICCAI 2026 Decisions [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/",
+    "pubDate": "2026-05-07T11:38:13+00:00",
+    "description": "Thread to consolidate discussion/sharing for early accept/rebuttal/rejection for MICCAI 2026! submitted by /u/kw_96 [link] [comments]",
+    "author": "/u/kw_96",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Thread to consolidate discussion/sharing for early accept/rebuttal/rejection for MICCAI 2026!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kw_96\"> /u/kw_96 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "314a64ca-32f7-5e23-93d6-87a794cfbfd1",
     "title": "META Superintelligence Lab Presents: ProgramBench: Can SOTA AI Recreate Real Executable Programs(ffmpeg, SQLite, ripgrep) From Scratch Without The Internet?",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I fine-tuned Qwen2.5-1.5B for multi-class CEFR English proficiency classification using QLoRA (4-bit NF4).</p> <p>The goal was to classify English text into one of the 6 CEFR levels (A1 → C2), which can be useful for:</p> <ul> <li>adaptive language learning systems,</li> <li>placement testing,</li> <li>readability estimation,</li> <li>educational NLP applications.</li> </ul> <h1>Dataset</h1> <p>The dataset contains 1,785 English texts balanced across:</p> <ul> <li>6 CEFR levels,</li> <li>10 domains/topics.</li> </ul> <p>The samples were synthetically generated using:</p> <ul> <li>Groq API</li> <li>Llama-3.3-70B</li> </ul> <p>Generation constraints were designed to preserve:</p> <ul> <li>vocabulary complexity,</li> <li>grammatical progression,</li> <li>sentence structure variation,</li> <li>CEFR-specific linguistic patterns.</li> </ul> <h1>Training Setup</h1> <p>Base model:</p> <ul> <li>Qwen2.5-1.5B</li> </ul> <p>Fine-tuning method:</p> <ul> <li>QLoRA</li> <li>4-bit NF4 quantization</li> <li>LoRA adapters</li> </ul> <p>Only ~0.28% of model parameters were trained.</p> <h1>Results</h1> <p>Held-out test set:</p> <ul> <li>179 samples</li> </ul> <p>Metrics:</p> <ul> <li>Accuracy: 84.9%</li> <li>Macro F1: 84.9%</li> </ul> <p>Per-level recall:</p> <table><thead> <tr> <th align=\"left\">Level</th> <th align=\"left\">Recall</th> </tr> </thead><tbody> <tr> <td align=\"left\">A1</td> <td align=\"left\">96.6%</td> </tr> <tr> <td align=\"left\">A2</td> <td align=\"left\">90.0%</td> </tr> <tr> <td align=\"left\">B1</td> <td align=\"left\">90.0%</td> </tr> <tr> <td align=\"left\">B2</td> <td align=\"left\">86.7%</td> </tr> <tr> <td align=\"left\">C1</td> <td align=\"left\">86.7%</td> </tr> <tr> <td align=\"left\">C2</td> <td align=\"left\">60.0%</td> </tr> </tbody></table> <p>Most errors come from C1/C2 confusion, which is expected due to the subtle linguistic boundary between those levels.</p> <h1>Deployment</h1> <p>I also built:</p> <ul> <li>a FastAPI inference API,</li> <li>Docker deployment setup.</li> </ul> <h1>Example Usage</h1> <pre><code>from transformers import AutoModelForSequenceClassification, AutoTokenizer import torch model = AutoModelForSequenceClassification.from_pretrained( &quot;yanou16/cefr-english-classifier&quot; ) tokenizer = AutoTokenizer.from_pretrained( &quot;yanou16/cefr-english-classifier&quot; ) text = &quot;Artificial intelligence is transforming many industries.&quot; inputs = tokenizer(text, return_tensors=&quot;pt&quot;) with torch.no_grad(): outputs = model(**inputs) pred = outputs.logits.argmax(dim=-1).item() print(pred) </code></pre> <p>Feedback is welcome, especially regarding:</p> <ul> <li>evaluation methodology,</li> <li>synthetic data quality,</li> <li>improving C2 classification performance,</li> <li>better benchmarking approaches.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Professional-Pie6704\"> /u/Professional-Pie6704 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3ogbw/p_qlora_finetuning_of_qwen2515b_for_cefr_english/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3ogbw/p_qlora_finetuning_of_qwen2515b_for_cefr_english/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ecbb40f5-74e8-57ba-a122-9db3510054f6",
-    "title": "What is the point of memory if the agent can ignore it?[D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t3ls2a/what_is_the_point_of_memory_if_the_agent_can/",
-    "pubDate": "2026-05-04T15:54:53+00:00",
-    "description": "Most agent systems treat memory as advisory. The agent reads past context, but nothing forces it to follow it. So memory becomes a suggestion, not a constraint. I’ve been thinking about the opposite direction: what if memory was enforced at the system level? Not “the agent remembers X” but “the system rejects actions that contradict X” For example: memory says: user preference = vegetarian agent suggests: order chicken In most systems → allowed In this model → rejected So memory stops being context and becomes part of system state. Curious how people think about this: Should memory influence behavior, or constrain it? submitted by /u/Bhumi1979 [link] [comments]",
-    "author": "/u/Bhumi1979",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most agent systems treat memory as advisory.</p> <p>The agent reads past context, but nothing forces it to follow it.</p> <p>So memory becomes a suggestion, not a constraint.</p> <p>I’ve been thinking about the opposite direction:</p> <p>what if memory was enforced at the system level?</p> <p>Not “the agent remembers X”</p> <p>but “the system rejects actions that contradict X”</p> <p>For example:</p> <p>memory says: user preference = vegetarian </p> <p>agent suggests: order chicken </p> <p>In most systems → allowed </p> <p>In this model → rejected</p> <p>So memory stops being context and becomes part of system state.</p> <p>Curious how people think about this:</p> <p>Should memory influence behavior, or constrain it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bhumi1979\"> /u/Bhumi1979 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3ls2a/what_is_the_point_of_memory_if_the_agent_can/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3ls2a/what_is_the_point_of_memory_if_the_agent_can/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
