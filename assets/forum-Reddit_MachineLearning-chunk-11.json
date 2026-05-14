@@ -1,5 +1,21 @@
 [
   {
+    "id": "20d3c6cc-da78-5dc7-94e2-7eaa91dc2638",
+    "title": "[D] Does ML have a \"bible\"/reference textbook at the Intermediate/Advanced level?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s8s03t/d_does_ml_have_a_biblereference_textbook_at_the/",
+    "pubDate": "2026-03-31T16:17:15+00:00",
+    "description": "Hello, everyone! This is my first time posting here and I apologise if the question is, perhaps, a bit too basic for this sub-reddit. A bit of an introduction: I am a 23 years old Master's Student enrolled in an Artificial Intelligence programme at a University (which one is irrelevant). Next year I shall have to work on my thesis and the topics that are currently being floated around by my to-be supervisor are: handwriting recognition, historical document analysis, document binarisation, layout analysis, and transcription etc. I am looking for a book that I can use as a reference throughout my thesis and that I can use in conjunction with research papers and other resources: something like Classical Electrodynamics by John David Jackson for Electromagnetism (if anyone here has a background in Physics) or what Deep Learning by Aaron Couville, Ian Goodfellow, and Yoshua Bengio once was (perhaps still is, I don't know). My professor, for his courses, typically recommends the following: - Pattern classification (2nd edition) by Richard O. Duda, Peter E. Hart, David G. Stork (2001), Wiley, New York, ISBN 0-471-05669-3 . - Statistical Pattern Recognition (3rd edition, 2011) by A R Webb, Keith D Copsey, Wiley, New York, ISBN 9781-11995296-1. - Pattern Recognition and Machine Learning (2006) by Christopher M. Bishop, Springer, ISBN 0-387-31073-8 . - Pattern Recognition (4th edition, 2009) by Sergios Theodoridis, Konstantinos Koutroumbas, Elsevier, ISBN 978-1-59749-272-0 . Would you guys recommend me any of these 4 or perhaps another one that is more state-of-the-art? Thank you all for the consideration and for the responses in advance! :) submitted by /u/Fit_Program1891 [link] [comments]",
+    "author": "/u/Fit_Program1891",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, everyone! This is my first time posting here and I apologise if the question is, perhaps, a bit too basic for this sub-reddit. A bit of an introduction: I am a 23 years old Master's Student enrolled in an Artificial Intelligence programme at a University (which one is irrelevant). Next year I shall have to work on my thesis and the topics that are currently being floated around by my to-be supervisor are: handwriting recognition, historical document analysis, document binarisation, layout analysis, and transcription etc.</p> <p>I am looking for a book that I can use as a reference throughout my thesis and that I can use in conjunction with research papers and other resources: something like Classical Electrodynamics by John David Jackson for Electromagnetism (if anyone here has a background in Physics) or what Deep Learning by Aaron Couville, Ian Goodfellow, and Yoshua Bengio once was (perhaps still is, I don't know).</p> <p>My professor, for his courses, typically recommends the following:<br /> <strong>- Pattern classification</strong> (2nd edition) by Richard O. Duda, Peter E. Hart, David G. Stork (2001), Wiley, New York, <em>ISBN 0-471-05669-3</em>.<br /> <strong>- Statistical Pattern Recognition</strong> (3rd edition, 2011) by A R Webb, Keith D Copsey, Wiley, New York, <em>ISBN 9781-11995296-1.</em><br /> <strong>- Pattern Recognition and Machine Learning</strong> (2006) by Christopher M. Bishop, Springer, <em>ISBN 0-387-31073-8</em>.<br /> <strong>- Pattern Recognition</strong> (4th edition, 2009) by Sergios Theodoridis, Konstantinos Koutroumbas, Elsevier, <em>ISBN 978-1-59749-272-0</em>.</p> <p>Would you guys recommend me any of these 4 or perhaps another one that is more state-of-the-art?</p> <p>Thank you all for the consideration and for the responses in advance! :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fit_Program1891\"> /u/Fit_Program1891 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s8s03t/d_does_ml_have_a_biblereference_textbook_at_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s8s03t/d_does_ml_have_a_biblereference_textbook_at_the/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "680d7ee7-7eab-51a3-95a8-2918136c8ba8",
     "title": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score higher, while Policy A shows higher confidence",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi!</p> <p>I am currently working on a project that is basically an e-commerce clickstream data. We take in data, find the intent of the user(XGboost) and price sensitivity(Xgboost), segregate the user in different segments based on their purchasing intent or their research or price behaviour(Xgboost), recommend the benefit like discount or free shipping(Linucp or Thompson sampling), etc.</p> <p>My question is this - when the data comes in daily to train our models, is it better to retrain the models from scratch or train our models on initial data and keep on fine-tuning everyday when the new data comes in for that day?</p> <p>Retraining won't be on the whole data. I will take 100% samples from last 30 days, 50% from last 30 to 90, 10% from 90 to 180 days so to avoid the accumulation of training data and keeping the latest trends.</p> <p>Also, is there any resource where I can learn this better?</p> <p>Thank you for all the help.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bluem00n1o1\"> /u/Bluem00n1o1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s4uzmy/retraining_vs_finetuning_or_transfer_learning_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s4uzmy/retraining_vs_finetuning_or_transfer_learning_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "46ff4088-9f13-5a99-9067-ec21045fc2b7",
-    "title": "[R] Interested in recent research into recall vs recognition in LLMs",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s4o5vu/r_interested_in_recent_research_into_recall_vs/",
-    "pubDate": "2026-03-26T23:53:35+00:00",
-    "description": "I've casually seen LLMs correctly verify exact quotations that they either couldn't or wouldn't quote directly for me. I'm aware that they're trained to avoid quoting potentially copywritten content, and the implications of that, but it made me wonder a few things: Can LLMs verify knowledge more (or less) accurately than they can recall knowledge? 1b. Can LLMs verify more (or less) knowledge accurately than they can recall accurately? What research exists into LLM accuracy in recalling facts vs verifying facts? submitted by /u/Acoustic-Blacksmith [link] [comments]",
-    "author": "/u/Acoustic-Blacksmith",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've casually seen LLMs correctly verify exact quotations that they either couldn't or wouldn't quote directly for me. I'm aware that they're trained to avoid quoting potentially copywritten content, and the implications of that, but it made me wonder a few things: </p> <ol> <li>Can LLMs verify knowledge more (or less) accurately than they can recall knowledge?<br /> 1b. Can LLMs verify more (or less) knowledge accurately than they can recall accurately?<br /></li> <li> What research exists into LLM accuracy in recalling facts vs verifying facts?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Acoustic-Blacksmith\"> /u/Acoustic-Blacksmith </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s4o5vu/r_interested_in_recent_research_into_recall_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s4o5vu/r_interested_in_recent_research_into_recall_vs/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

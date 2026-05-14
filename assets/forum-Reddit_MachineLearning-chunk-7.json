@@ -1,5 +1,21 @@
 [
   {
+    "id": "4b937c03-5b4d-5a81-9d26-7b5a7b84e8b5",
+    "title": "So Confused about Polarizing ICML Reviews [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sjkfil/so_confused_about_polarizing_icml_reviews_d/",
+    "pubDate": "2026-04-12T17:16:13+00:00",
+    "description": "Hi, rebuttals recently finished, and I wanted to share my paper's scores to ask for thoughts on this, and whether this situation is borderline and dependent on the AC. My paper started out as 5 (4), 4 (4), 4 (3), 2 (4). After the rebuttals, I ended up at 5 (4), 5 (4), 5 (3), 2 (5). This makes the average 4.25, with a confidence average of 4. The two 4 reviewers both increased their ratings to 5 and wrote nice Final Justifications (one said they were confident the final version would be a strong submission, the other said all their concerns were resolved). However, the 2 reviewer hated the paper from the start. While some critiques were valid, others were asking for a different paper. I still responded cleanly to them, and their response was even more aggressive. I responded once again, and as expected, they did not change their score and just increased the confidence. They also dropped originality to 1 (all other fields were at 2). Every other reviewer gave us a 4 for originality!! This is my first time submitting to ICML, so I'm wondering how cases like this play out - is one confident negative reviewer enough to sink the ship? Or is it largely a coin flip? Any thoughts on this would be appreciated! submitted by /u/Actual_Creme9905 [link] [comments]",
+    "author": "/u/Actual_Creme9905",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, rebuttals recently finished, and I wanted to share my paper's scores to ask for thoughts on this, and whether this situation is borderline and dependent on the AC.</p> <p>My paper started out as 5 (4), 4 (4), 4 (3), 2 (4). After the rebuttals, I ended up at 5 (4), 5 (4), 5 (3), 2 (5). This makes the average 4.25, with a confidence average of 4.</p> <p>The two 4 reviewers both increased their ratings to 5 and wrote nice Final Justifications (one said they were confident the final version would be a strong submission, the other said all their concerns were resolved). However, the 2 reviewer hated the paper from the start.</p> <p>While some critiques were valid, others were asking for a different paper. I still responded cleanly to them, and their response was even more aggressive. I responded once again, and as expected, they did not change their score and just increased the confidence. They also dropped originality to 1 (all other fields were at 2). Every other reviewer gave us a 4 for originality!!</p> <p>This is my first time submitting to ICML, so I'm wondering how cases like this play out - is one confident negative reviewer enough to sink the ship? Or is it largely a coin flip? Any thoughts on this would be appreciated!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Actual_Creme9905\"> /u/Actual_Creme9905 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sjkfil/so_confused_about_polarizing_icml_reviews_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sjkfil/so_confused_about_polarizing_icml_reviews_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8e867b0c-c201-59bc-92b0-f756320936bc",
     "title": "Educational PyTorch repo for distributed training from scratch: DP, FSDP, TP, FSDP+TP, and PP [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sjglrn/educational_pytorch_repo_for_distributed_training/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>Just wanted to share my Python project <a href=\"https://github.com/gvcallen/parax\">Parax</a> - an add-on on top of the <a href=\"https://github.com/patrick-kidger/equinox\">Equinox</a> library catering for parameter-first modeling in JAX.</p> <p>For our scientific applications, we found that we often needed to attach metadata to our parameter objects, such as marking them as fixed or attached a prior probability distribution. Further, we often needed to manipulate these parameters in very deep hierarchies, which sometimes can be unintuitive using <code>eqx.tree_at</code>.</p> <p>We therefore developed Parax, which provides<code>parax.Parameter</code> and <code>parax.Module</code> (that both inherit from <code>eqx.Module)</code> as well as a few helper utilities. These provide a more object-orientated model inspection and manipulation approach, while still following Equinox's immutable principles.</p> <p>There is some <a href=\"https://gvcallen.github.io/parax/\">documentation</a> along with a few examples. Perhaps the package is of use to someone else out there! :)</p> <p>Cheers,<br /> Gary</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gvcallen\"> /u/gvcallen </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgm0ne/parax_parametric_modeling_in_jax_equinox_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgm0ne/parax_parametric_modeling_in_jax_equinox_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a03bf70c-aa4b-50c3-89a9-d0c782b83f40",
-    "title": "Is the ICML 2026 final justification period still open? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sglrvn/is_the_icml_2026_final_justification_period_still/",
-    "pubDate": "2026-04-09T10:27:27+00:00",
-    "description": "Can ICML reviewers still post their final justification until the end of the AC–reviewer discussion period? submitted by /u/No_Fig_3372 [link] [comments]",
-    "author": "/u/No_Fig_3372",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Can ICML reviewers still post their final justification until the end of the AC–reviewer discussion period?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Fig_3372\"> /u/No_Fig_3372 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sglrvn/is_the_icml_2026_final_justification_period_still/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sglrvn/is_the_icml_2026_final_justification_period_still/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
