@@ -1,5 +1,21 @@
 [
   {
+    "id": "878be5c8-3484-5559-aa0e-e8cb44239e10",
+    "title": "LLMs learn backwards, and the scaling hypothesis is bounded. [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sj888x/llms_learn_backwards_and_the_scaling_hypothesis/",
+    "pubDate": "2026-04-12T07:51:03+00:00",
+    "description": "submitted by /u/preyneyv [link] [comments]",
+    "author": "/u/preyneyv",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/preyneyv\"> /u/preyneyv </a> <br /> <span><a href=\"https://pleasedontcite.me/learning-backwards/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sj888x/llms_learn_backwards_and_the_scaling_hypothesis/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7fddf4e6-5823-5a91-8f4b-ad3ea51bdfb2",
     "title": "Ijcai 2026 rebuttal doubt [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sj7irs/ijcai_2026_rebuttal_doubt_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We just shipped an autotune CLI for <a href=\"https://github.com/ahb-sjsu/turboquant-pro\">turboquant-pro</a> — it connects to your PostgreSQL database, samples embeddings, sweeps 12 compression configurations, and tells you exactly which one to use.</p> <p><code>bash turboquant-pro autotune \\ --source &quot;dbname=mydb user=me&quot; \\ --table chunks --column embedding \\ --min-recall 0.95 </code></p> <p><strong>10 seconds later:</strong></p> <p>``` Evaluating 12 configurations...</p> <h2> Config Ratio Cosine Recall Var% Time</h2> <pre><code> PCA-128 + TQ2 113.8x 0.9237 78.7% 79.9% 2.2s PCA-128 + TQ3 78.8x 0.9390 84.0% 79.9% 0.6s PCA-256 + TQ3 41.0x 0.9700 92.0% 92.3% 0.7s PCA-384 + TQ3 27.7x 0.9823 93.7% 97.3% 0.7s PCA-384 + TQ4 20.9x 0.9906 96.0% 97.3% 0.6s PCA-512 + TQ4 15.8x 0.9949 96.3% 99.0% 0.6s </code></pre> <p>Recommendation (min recall &gt;= 95%): PCA-384 + TQ4: 20.9x compression Cosine similarity: 0.9906 Recall@10: 96.0% Storage: 758 MB -&gt; 36 MB (saves 722 MB) ```</p> <h2>What it does</h2> <p>The problem: you have a pgvector database with millions of embeddings. You want to compress them. But which configuration? PCA to how many dims? 2-bit, 3-bit, or 4-bit quantization? The quality/compression tradeoff depends on <em>your specific data</em>.</p> <p>Autotune answers this in ~10 seconds:</p> <ol> <li>Samples N embeddings from your table (default 5K, we used 2K here)</li> <li>Tries all 12 combinations of PCA dims (128, 256, 384, 512) x bit widths (2, 3, 4)</li> <li>Measures cosine similarity preservation and recall@10 for each</li> <li>Identifies the Pareto-optimal frontier</li> <li>Recommends the highest compression that meets your recall threshold</li> <li>Prints copy-paste code</li> </ol> <h2>Real results on 194K production embeddings</h2> <p>We ran this on a production RAG system (194K BGE-M3 1024-dim embeddings from 33 code repos):</p> <p><strong>If you need 95%+ recall:</strong> PCA-384 + TQ4 gives you 20.9x compression at 0.991 cosine and 96.0% recall. Your 758 MB shrinks to 36 MB.</p> <p><strong>If you can tolerate 84% recall:</strong> PCA-128 + TQ3 gives you 78.8x compression at 0.939 cosine. 758 MB becomes 10 MB. That's your entire corpus fitting in L3 cache.</p> <p><strong>If you want maximum compression:</strong> PCA-128 + TQ2 hits 113.8x — nearly two orders of magnitude. Cosine still at 0.924.</p> <p>The whole sweep took 10.8 seconds on CPU. No GPU needed.</p> <h2>How it works under the hood</h2> <p><a href=\"https://github.com/ahb-sjsu/turboquant-pro\">PCA-Matryoshka</a> (our IEEE TAI submission) is a training-free technique: fit PCA once on a sample, rotate all vectors so truncation works, then quantize to 2-4 bits via TurboQuant scalar quantization. The &quot;autotune&quot; part is just sweeping the configuration space and measuring quality on your actual data.</p> <p>The key insight from our 15-method benchmark: PCA-Matryoshka + TurboQuant strictly dominates both binary quantization and product quantization across the practical compression range. Autotune finds exactly where on that frontier your data lives.</p> <h2>Install &amp; use</h2> <p>```bash pip install turboquant-pro[pgvector]</p> <p>turboquant-pro autotune \\ --source &quot;dbname=mydb user=me&quot; \\ --table my_embeddings \\ --column embedding_vector \\ --min-recall 0.95 \\ --output results.json ```</p> <p>Options: <code>--sample-size</code>, <code>--pca-dims</code>, <code>--bits</code>, <code>--queries</code>, <code>--top-k</code>. Full results saved as JSON for programmatic use.</p> <p>```python</p> <h1>After autotune recommends PCA-384 + TQ4:</h1> <p>from turboquant_pro import PCAMatryoshka, PCAMatryoshkaPipeline, TurboQuantPGVector</p> <p>pca = PCAMatryoshka(input_dim=1024, output_dim=384) pca.fit(sample_embeddings) tq = TurboQuantPGVector(dim=384, bits=4) pipeline = PCAMatryoshkaPipeline(pca, tq)</p> <p>compressed = pipeline.compress(embedding) # 4096 bytes -&gt; 195 bytes ```</p> <hr /> <p><strong>GitHub:</strong> <a href=\"https://github.com/ahb-sjsu/turboquant-pro\">https://github.com/ahb-sjsu/turboquant-pro</a> <strong>PyPI:</strong> <code>pip install turboquant-pro</code> <strong>Paper:</strong> IEEE TAI submission (PCA-Matryoshka: 15-method compression benchmark) <strong>License</strong> MIT</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ahbond\"> /u/ahbond </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgh53u/p_turboquantpro_autotune_one_command_finds_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgh53u/p_turboquantpro_autotune_one_command_finds_the/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ee175c19-f3a2-55cc-9cd0-30b246b3c7d0",
-    "title": "Looking for help with IEEE PDF eXpress [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sg9bww/looking_for_help_with_ieee_pdf_express_d/",
-    "pubDate": "2026-04-08T23:39:40+00:00",
-    "description": "I was trying to validate a manuscript for Camera ready submission for CVPR, one step among the many includes a validation of the manuscript using IEEE's PDF eXpress, even though my manuscript follows all official formatting rules, I keep facing this error while trying to validate : Failures: Failure (Corrupt PDF: Parser error) occurred during Gather filters information Did anyone face this before, will be glad to hear from you! submitted by /u/OkPack4897 [link] [comments]",
-    "author": "/u/OkPack4897",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I was trying to validate a manuscript for Camera ready submission for CVPR, one step among the many includes a validation of the manuscript using IEEE's PDF eXpress, even though my manuscript follows all official formatting rules, I keep facing this error while trying to validate : </p> <p>Failures: Failure (Corrupt PDF: Parser error) occurred during Gather filters information </p> <p>Did anyone face this before, will be glad to hear from you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OkPack4897\"> /u/OkPack4897 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sg9bww/looking_for_help_with_ieee_pdf_express_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sg9bww/looking_for_help_with_ieee_pdf_express_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

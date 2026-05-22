@@ -1,5 +1,21 @@
 [
   {
+    "id": "9dce1e01-45c6-53af-b79d-b6558c347a11",
+    "title": "[P] Easily provide Wandb logs as context to agents for analysis and planning.",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1se1rmd/p_easily_provide_wandb_logs_as_context_to_agents/",
+    "pubDate": "2026-04-06T15:16:50+00:00",
+    "description": "It is frustrating to use the Wandb CLI and MCP tools with my agents. For one, the MCP tool basically floods the context window and frequently errors out :/ So I built a cli tool that: imports my wandb projects; uses algorithms from AlphaEvolve to index and structure my runs; is easy to use for agents; provides greater context of past experiments; does not flood the context window; and easily tune exploration-exploitation while planning Would love any feedback and critique from the community :) Repo: https://github.com/mylucaai/cadenza Along with the cli tool, the repo also contains a python SDK which allows integrating this into other custom agents. submitted by /u/hgarud [link] [comments]",
+    "author": "/u/hgarud",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>It is frustrating to use the Wandb CLI and MCP tools with my agents. For one, the MCP tool basically floods the context window and frequently errors out :/</p> <p>So I built a cli tool that:</p> <ul> <li>imports my wandb projects;</li> <li>uses algorithms from <a href=\"https://arxiv.org/abs/2506.13131\">AlphaEvolve</a> to index and structure my runs;</li> <li>is easy to use for agents;</li> <li>provides greater context of past experiments;</li> <li>does not flood the context window; and</li> <li>easily tune exploration-exploitation while planning</li> </ul> <p>Would love any feedback and critique from the community :)</p> <p>Repo: <a href=\"https://github.com/mylucaai/cadenza\">https://github.com/mylucaai/cadenza</a></p> <p>Along with the cli tool, the repo also contains a python SDK which allows integrating this into other custom agents.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hgarud\"> /u/hgarud </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1se1rmd/p_easily_provide_wandb_logs_as_context_to_agents/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1se1rmd/p_easily_provide_wandb_logs_as_context_to_agents/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "553d6620-a700-50f8-873a-ec70252e67ea",
     "title": "[P] All GANs No Brakes: Exploring the architecture and intuition behind GANs",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sdv0eb/p_all_gans_no_brakes_exploring_the_architecture/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Did anyone receive any communication from CVPR for waiving registration fees for students, some travel grant notification?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Healthy_Horse_2183\"> /u/Healthy_Horse_2183 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sbknlv/d_cvpr_2026_travel_grantregistration_waiver/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sbknlv/d_cvpr_2026_travel_grantregistration_waiver/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0ded2ae8-5abe-58f8-99c0-a8580ef11e85",
-    "title": "[D] When to transition from simple heuristics to ML models (e.g., DensityFunction)?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sbkh9l/d_when_to_transition_from_simple_heuristics_to_ml/",
-    "pubDate": "2026-04-03T17:46:30+00:00",
-    "description": "Two questions: What are the recommendations around when to transition from a simple heuristic baseline to machine learning ML models for data? For example, say I have a search that returns output for how many authentications are “just right” so I can flag activity that spikes above/below normal. When would I consider transitioning that from a baseline search to a search that applies an ML model like DensityFunction? Any recommendations around books that address/tackle this subject? Thx submitted by /u/DerRoteBaron1 [link] [comments]",
-    "author": "/u/DerRoteBaron1",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Two questions:</p> <ol> <li>What are the recommendations around when to transition from a simple heuristic baseline to machine learning ML models for data? <ul> <li>For example, say I have a search that returns output for how many authentications are “just right” so I can flag activity that spikes above/below normal. When would I consider transitioning that from a baseline search to a search that applies an ML model like DensityFunction?</li> </ul></li> <li>Any recommendations around books that address/tackle this subject?</li> </ol> <p>Thx</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DerRoteBaron1\"> /u/DerRoteBaron1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sbkh9l/d_when_to_transition_from_simple_heuristics_to_ml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sbkh9l/d_when_to_transition_from_simple_heuristics_to_ml/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

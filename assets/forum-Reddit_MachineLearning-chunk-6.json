@@ -1,5 +1,21 @@
 [
   {
+    "id": "ef60b05d-1b09-5741-b825-78b679e2c067",
+    "title": "Radar Engineer to Autonomy/AI [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/",
+    "pubDate": "2026-05-05T18:49:28+00:00",
+    "description": "Hi all, I’ve spent the last 3 years working on Radar Perception for a legacy automotive project in Germany. My background is an MSc in Robotics & AI. Currently, I spend my time analyzing point clouds and SNR distributions to debug failures. It’s mathematically complex, but I’m not implementing any models or designing systems. I feel like I'm becoming a \"PowerPoint Engineer\" who knows a lot about noise but isn't building the future of autonomy. I want to move into Applied ML/Autonomy, but I’m worried my 3 years of \"analysis\" don't count as \"development experience.\" Does it make sense to build a portfolio of ML/Robotics projects applied to Radars to prove I can actually code, or will recruiters only care about my work? Is this a good path for applied ML or i am kidding my self? submitted by /u/Huge-Leek844 [link] [comments]",
+    "author": "/u/Huge-Leek844",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I’ve spent the last 3 years working on Radar Perception for a legacy automotive project in Germany. My background is an MSc in Robotics &amp; AI. Currently, I spend my time analyzing point clouds and SNR distributions to debug failures. It’s mathematically complex, but I’m not implementing any models or designing systems. I feel like I'm becoming a &quot;PowerPoint Engineer&quot; who knows a lot about noise but isn't building the future of autonomy. I want to move into Applied ML/Autonomy, but I’m worried my 3 years of &quot;analysis&quot; don't count as &quot;development experience.&quot; Does it make sense to build a portfolio of ML/Robotics projects applied to Radars to prove I can actually code, or will recruiters only care about my work? Is this a good path for applied ML or i am kidding my self?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huge-Leek844\"> /u/Huge-Leek844 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fc77e668-985a-5e87-844e-f196ea83b13a",
     "title": "Production AI very different from the demos [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t4mzm3/production_ai_very_different_from_the_demos_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We present a genetic algorithm framework for automatically discovering deep learning optimization algorithms. </p> <p>Our approach encodes optimizers as genomes that specify combinations of primitive update terms (gradient, momentum, RMS normalization, Adam-style adaptive terms, and sign-based updates) along with hyperparameters and scheduling options. </p> <p>Through evolutionary search over 50 generations with a population of 50 individuals, evaluated across multiple vision tasks, we discover an evolved optimizer that outperforms Adam by 2.6% in aggregate fitness and achieves a 7.7% relative improvement on CIFAR-10. </p> <p>The evolved optimizer combines sign-based gradient terms with adaptive moment estimation, uses lower momentum coefficients than Adam ( =0.86, =0.94), and notably disables bias correction while enabling learning rate warmup and cosine decay. </p> <p>Our results demonstrate that evolutionary search can discover competitive optimization algorithms and reveal design principles that differ from hand-crafted optimizers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EducationalCicada\"> /u/EducationalCicada </a> <br /> <span><a href=\"https://arxiv.org/abs/2512.11853\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2jt4m/evolving_deep_learning_optimizers_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d5433533-570c-5b05-a4c3-e15711fb7151",
-    "title": "Should I follow-up with the editor for a TMLR paper awaiting final decision? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t2i1pu/should_i_followup_with_the_editor_for_a_tmlr/",
-    "pubDate": "2026-05-03T10:42:33+00:00",
-    "description": "Hi there, I have a (long) paper that's been under review at TMLR for a while (submitted in October). After the reviews came in (mostly positive), we addressed the reviewers concerns, wrote rebuttals, and had a notification from the system according to which the final recommendations from the reviewers would be given in late March at the latest. We are now in May and are still waiting to hear anything back from either reviewers or the editor. I get that two months is not such a huge amount of time in the peer-review world, but for TMLR which is supposed to have a fast-paced process, I'm starting to worry. Time is also a bit sensitive as I am on the job market and having this paper accepted would surely help. Under these circumstances, would it be appropriate to send a gentle reminder to the Action Editor to follow-up on the paper's status, or would it be seen as too pushy? If I follow up, should I send him an email or do it through openreview (like writing an official comment visible to the action editor only)? And would it be appropriate to mention that this is \"time-sensitive\" for me? It's my first time handling this kind of situation and don't want to make a faux-pas, so I'm asking for advice here from more experienced people. Thanks in advance submitted by /u/KiddWantidd [link] [comments]",
-    "author": "/u/KiddWantidd",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi there, </p> <p>I have a (long) paper that's been under review at TMLR for a while (submitted in October). After the reviews came in (mostly positive), we addressed the reviewers concerns, wrote rebuttals, and had a notification from the system according to which the final recommendations from the reviewers would be given in late March at the latest. We are now in May and are still waiting to hear anything back from either reviewers or the editor. I get that two months is not such a huge amount of time in the peer-review world, but for TMLR which is supposed to have a fast-paced process, I'm starting to worry. Time is also a bit sensitive as I am on the job market and having this paper accepted would surely help. </p> <p>Under these circumstances, would it be appropriate to send a gentle reminder to the Action Editor to follow-up on the paper's status, or would it be seen as too pushy? If I follow up, should I send him an email or do it through openreview (like writing an official comment visible to the action editor only)? And would it be appropriate to mention that this is &quot;time-sensitive&quot; for me? It's my first time handling this kind of situation and don't want to make a faux-pas, so I'm asking for advice here from more experienced people. </p> <p>Thanks in advance</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KiddWantidd\"> /u/KiddWantidd </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2i1pu/should_i_followup_with_the_editor_for_a_tmlr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2i1pu/should_i_followup_with_the_editor_for_a_tmlr/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "c3a9093c-cf39-5315-adc9-1bb4a4e1d54a",
+    "title": "[D] Training a classifier entirely in SQL (no iterative optimization)",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1s0y1n2/d_training_a_classifier_entirely_in_sql_no/",
+    "pubDate": "2026-03-22T21:35:13+00:00",
+    "description": "I implemented SEFR, which is a lightweight linear classifier, entirely in SQL (in Google BigQuery), and benchmarked it against Logistic Regression. On a 55k fraud detection dataset, SEFR achieves AUC 0.954 vs. 0.986 of Logistic Regression, but SEFR is ~18× faster due to its fully parallelizable formulation (it has no iterative optimization). submitted by /u/CriticalofReviewer2 [link] [comments]",
+    "author": "/u/CriticalofReviewer2",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I implemented SEFR, which is a lightweight linear classifier, entirely in SQL (in Google BigQuery), and benchmarked it against Logistic Regression.</p> <p>On a 55k fraud detection dataset, SEFR achieves AUC 0.954 vs. 0.986 of Logistic Regression, but SEFR is ~18× faster due to its fully parallelizable formulation (it has no iterative optimization).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CriticalofReviewer2\"> /u/CriticalofReviewer2 </a> <br /> <span><a href=\"https://medium.com/@hamid9999/end-to-end-machine-learning-in-bigquery-using-only-sql-2d59e4e04430\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0y1n2/d_training_a_classifier_entirely_in_sql_no/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fcb82673-6a6a-5d93-9aba-2057497e3052",
     "title": "[R] Designing AI Chip Software and Hardware",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1s0y008/r_designing_ai_chip_software_and_hardware/",
@@ -13,38 +29,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0y008/r_designing_ai_chip_software_and_hardware/\"> <img alt=\"[R] Designing AI Chip Software and Hardware\" src=\"https://external-preview.redd.it/xsGciKHQ0vtQ9puYu8PX9xKM_1BsKKW1bfoZAS1me8k.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6efb148062d666b80a9d5a6974aa6cdc60ff8746\" title=\"[R] Designing AI Chip Software and Hardware\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This is a detailed document on how to design an AI chip, both software and hardware.</p> <p>I used to work at Google on TPUs and at Nvidia on GPUs, so I have some idea about this, though the design I suggest is not the same as TPUs or GPUs.</p> <p>I also included many anecdotes from my career in Silicon Valley.</p> <p><strong>Background</strong> This doc came to be because I was considering making an AI hw startup and this was to be my plan. I decided against it for personal reasons. So if you're running an AI hardware company, here's what a competitor that you now won't have would have planned to do. Usually such plans would be all hush-hush, but since I never started the company, you can get to know about it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PerfectFeature9287\"> /u/PerfectFeature9287 </a> <br /> <span><a href=\"https://docs.google.com/document/d/1dZ3vF8GE8_gx6tl52sOaUVEPq0ybmai1xvu3uk89_is/edit?usp=sharing\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0y008/r_designing_ai_chip_software_and_hardware/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/xsGciKHQ0vtQ9puYu8PX9xKM_1BsKKW1bfoZAS1me8k.png?width=640&crop=smart&auto=webp&s=6efb148062d666b80a9d5a6974aa6cdc60ff8746",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fa9b8698-7c35-5dcb-adab-2e98b9802978",
-    "title": "Arc Institute introduces BioReason-Pro, targeting the vast majority of proteins lacking experimental annotations",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s0uxom/arc_institute_introduces_bioreasonpro_targeting/",
-    "pubDate": "2026-03-22T19:33:17+00:00",
-    "description": "submitted by /u/NoParsleyForYou [link] [comments]",
-    "author": "/u/NoParsleyForYou",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0uxom/arc_institute_introduces_bioreasonpro_targeting/\"> <img alt=\"Arc Institute introduces BioReason-Pro, targeting the vast majority of proteins lacking experimental annotations\" src=\"https://external-preview.redd.it/AUqyZkkUgvLab8a2uYpwA6tfvhAH76ByVxr7mcCygfg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=566c059d56afcea9b45fe081af69cff9c184186c\" title=\"Arc Institute introduces BioReason-Pro, targeting the vast majority of proteins lacking experimental annotations\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoParsleyForYou\"> /u/NoParsleyForYou </a> <br /> <span><a href=\"https://arcinstitute.org/news/bioreason-pro\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0uxom/arc_institute_introduces_bioreasonpro_targeting/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/AUqyZkkUgvLab8a2uYpwA6tfvhAH76ByVxr7mcCygfg.png?width=640&crop=smart&auto=webp&s=566c059d56afcea9b45fe081af69cff9c184186c",
-    "isShortVideo": 0
-  },
-  {
-    "id": "81fb5b70-1fc5-5873-b74c-114c4c91811c",
-    "title": "[N] MIT Flow Matching and Diffusion Lecture 2026",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1s0qi41/n_mit_flow_matching_and_diffusion_lecture_2026/",
-    "pubDate": "2026-03-22T16:44:13+00:00",
-    "description": "Peter Holderrieth and Ezra Erives just released their new MIT 2026 course on flow matching and diffusion models! It introduces the full stack of modern AI image, video, protein generators - theory & practice. It includes: Lecture Videos: Introducing theory & step-by-step derivations. Lecture Notes: Mathematically self-contained. Coding: Hands-on exercises for every component. They improved upon last years' iteration and added new topics: Latent spaces, diffusion transformers, building language models with discrete diffusion models. Everything is available here: https://diffusion.csail.mit.edu Original tweet by @peholderrieth: https://x.com/peholderrieth/status/2034274122763542953 Lecture notes: https://arxiv.org/abs/2506.02070 Additional resources: Flow Matching Guide and Code by Yaron Lipman, Marton Havasi, Peter Holderrieth, et al. https://arxiv.org/pdf/2412.06264 Reference implementation by Meta https://github.com/facebookresearch/flow_matching submitted by /u/Benlus [link] [comments]",
-    "author": "/u/Benlus",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Peter Holderrieth and Ezra Erives just released their new MIT 2026 course on flow matching and diffusion models! It introduces the full stack of modern AI image, video, protein generators - theory &amp; practice. It includes:</p> <ul> <li>Lecture Videos: Introducing theory &amp; step-by-step derivations.</li> <li>Lecture Notes: Mathematically self-contained.<br /></li> <li>Coding: Hands-on exercises for every component.<br /></li> </ul> <p>They improved upon last years' iteration and added new topics:<br /> Latent spaces, diffusion transformers, building language models with discrete diffusion models. </p> <p>Everything is available here: <a href=\"https://diffusion.csail.mit.edu\">https://diffusion.csail.mit.edu</a></p> <p>Original tweet by @peholderrieth: <a href=\"https://x.com/peholderrieth/status/2034274122763542953\">https://x.com/peholderrieth/status/2034274122763542953</a><br /> Lecture notes: <a href=\"https://arxiv.org/abs/2506.02070\">https://arxiv.org/abs/2506.02070</a> </p> <p>Additional resources: </p> <ul> <li>Flow Matching Guide and Code by Yaron Lipman, Marton Havasi, Peter Holderrieth, et al. <a href=\"https://arxiv.org/pdf/2412.06264\">https://arxiv.org/pdf/2412.06264</a><br /></li> <li>Reference implementation by Meta <a href=\"https://github.com/facebookresearch/flow_matching\">https://github.com/facebookresearch/flow_matching</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Benlus\"> /u/Benlus </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0qi41/n_mit_flow_matching_and_diffusion_lecture_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s0qi41/n_mit_flow_matching_and_diffusion_lecture_2026/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "2115fa4a-e3a8-557c-8ac7-02a1b8289fb8",
+    "title": "Where are small Models like Qwen3 0.6B and Qwen3.5 0.8B used ? Huggingface shows 2.88 million downloads this month.[D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ta9w3j/where_are_small_models_like_qwen3_06b_and_qwen35/",
+    "pubDate": "2026-05-11T17:19:05+00:00",
+    "description": "I can see 2.88 million downloads per month for small Qwen3.5 model. I tried using earlier model 0.6B in a deep resarch workflow and it was very difficult to get something done with this model . Firstly they have a very surface level understanding of concepts. Poor Semantic understand means they can get confused about the topic or the task. Json outputs are often broken . Adding a layer of checks on top took much of my time while working with these models. Slow resposne. This one depends on a lot of factors and can actullay be improved , still slow response is a buzz kill most of the time I am very curious how is the community using these models. submitted by /u/adssidhu86 [link] [comments]",
+    "author": "/u/adssidhu86",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/learnmachinelearning/?f=flair_name%3A%22Discussion%22\"></a></p> <p>I can see 2.88 million downloads per month for small Qwen3.5 model. I tried using earlier model 0.6B in a deep resarch workflow and it was very difficult to get something done with this model .</p> <ul> <li>Firstly they have a very surface level understanding of concepts. Poor Semantic understand means they can get confused about the topic or the task.</li> <li>Json outputs are often broken . Adding a layer of checks on top took much of my time while working with these models.</li> <li>Slow resposne. This one depends on a lot of factors and can actullay be improved , still slow response is a buzz kill most of the time</li> </ul> <p>I am very curious how is the community using these models.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/adssidhu86\"> /u/adssidhu86 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ta9w3j/where_are_small_models_like_qwen3_06b_and_qwen35/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ta9w3j/where_are_small_models_like_qwen3_06b_and_qwen35/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ecc839da-bf9f-514b-8de8-ed23b7afc1bc",
     "title": "I tested reasoning models on the problems where surface-level thinking fails — AIME, proof sketches, and \"why does this code have a subtle off-by-one\", [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ta7uf0/i_tested_reasoning_models_on_the_problems_where/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently, I’ve become fascinated by Continual Learning, especially the idea of AI systems that can continuously adapt and improve from experience rather than staying static after training.</p> <p>I’m a student just starting my journey in CL research and would love to connect with people exploring similar ideas. Whether you’re a student, researcher, or just curious about the field, feel free to DM me.</p> <p>Would also love paper recommendations and interesting research directions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Evening-Living-9822\"> /u/Evening-Living-9822 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t72u1r/people_interested_in_continual_learning_researchr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t72u1r/people_interested_in_continual_learning_researchr/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6f53f5f2-0901-5348-985a-bfbf52338b7a",
-    "title": "What should a PyTorch training end-of-run performance summary show? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/",
-    "pubDate": "2026-05-08T08:36:15+00:00",
-    "description": "For most slow PyTorch runs the first question isn't show me every trace event, it is just: where do I even start? - where did step time go? - was the run input-bound, compute-bound, or wait-heavy? - were ranks imbalanced? - was memory stable or creeping up? I haven been thinking about what a compact end-of-run summary would look like: lightweight enough to run on every job, not just dedicated profiling runs. Here's one example of what that output could look like: https://preview.redd.it/2q71s9ltkvzg1.png?width=533&format=png&auto=webp&s=cde99ed3224d723bb6dba200b326da826ba4f587 Curious how others are solving this today. What would make something like this useful? What is missing? submitted by /u/traceml-ai [link] [comments]",
-    "author": "/u/traceml-ai",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/\"> <img alt=\"What should a PyTorch training end-of-run performance summary show? [D]\" src=\"https://preview.redd.it/2q71s9ltkvzg1.png?width=140&amp;height=123&amp;auto=webp&amp;s=77945925d0fb80c62d90ad917fad64c3af772f43\" title=\"What should a PyTorch training end-of-run performance summary show? [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>For most slow PyTorch runs the first question isn't <em>show me every trace event,</em> it is just: where do I even start?</p> <p>- where did step time go?<br /> - was the run input-bound, compute-bound, or wait-heavy?<br /> - were ranks imbalanced?<br /> - was memory stable or creeping up?</p> <p>I haven been thinking about what a compact end-of-run summary would look like: lightweight enough to run on every job, not just dedicated profiling runs.</p> <p>Here's one example of what that output could look like:</p> <p><a href=\"https://preview.redd.it/2q71s9ltkvzg1.png?width=533&amp;format=png&amp;auto=webp&amp;s=cde99ed3224d723bb6dba200b326da826ba4f587\">https://preview.redd.it/2q71s9ltkvzg1.png?width=533&amp;format=png&amp;auto=webp&amp;s=cde99ed3224d723bb6dba200b326da826ba4f587</a></p> <p>Curious how others are solving this today. What would make something like this useful? What is missing?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/traceml-ai\"> /u/traceml-ai </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/2q71s9ltkvzg1.png?width=140&height=123&auto=webp&s=77945925d0fb80c62d90ad917fad64c3af772f43",
     "isShortVideo": 0
   }
 ]

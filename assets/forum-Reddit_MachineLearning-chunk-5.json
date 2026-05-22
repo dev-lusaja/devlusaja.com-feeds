@@ -1,5 +1,21 @@
 [
   {
+    "id": "6f53f5f2-0901-5348-985a-bfbf52338b7a",
+    "title": "What should a PyTorch training end-of-run performance summary show? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/",
+    "pubDate": "2026-05-08T08:36:15+00:00",
+    "description": "For most slow PyTorch runs the first question isn't show me every trace event, it is just: where do I even start? - where did step time go? - was the run input-bound, compute-bound, or wait-heavy? - were ranks imbalanced? - was memory stable or creeping up? I haven been thinking about what a compact end-of-run summary would look like: lightweight enough to run on every job, not just dedicated profiling runs. Here's one example of what that output could look like: https://preview.redd.it/2q71s9ltkvzg1.png?width=533&format=png&auto=webp&s=cde99ed3224d723bb6dba200b326da826ba4f587 Curious how others are solving this today. What would make something like this useful? What is missing? submitted by /u/traceml-ai [link] [comments]",
+    "author": "/u/traceml-ai",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/\"> <img alt=\"What should a PyTorch training end-of-run performance summary show? [D]\" src=\"https://preview.redd.it/2q71s9ltkvzg1.png?width=140&amp;height=123&amp;auto=webp&amp;s=77945925d0fb80c62d90ad917fad64c3af772f43\" title=\"What should a PyTorch training end-of-run performance summary show? [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>For most slow PyTorch runs the first question isn't <em>show me every trace event,</em> it is just: where do I even start?</p> <p>- where did step time go?<br /> - was the run input-bound, compute-bound, or wait-heavy?<br /> - were ranks imbalanced?<br /> - was memory stable or creeping up?</p> <p>I haven been thinking about what a compact end-of-run summary would look like: lightweight enough to run on every job, not just dedicated profiling runs.</p> <p>Here's one example of what that output could look like:</p> <p><a href=\"https://preview.redd.it/2q71s9ltkvzg1.png?width=533&amp;format=png&amp;auto=webp&amp;s=cde99ed3224d723bb6dba200b326da826ba4f587\">https://preview.redd.it/2q71s9ltkvzg1.png?width=533&amp;format=png&amp;auto=webp&amp;s=cde99ed3224d723bb6dba200b326da826ba4f587</a></p> <p>Curious how others are solving this today. What would make something like this useful? What is missing?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/traceml-ai\"> /u/traceml-ai </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t71y36/what_should_a_pytorch_training_endofrun/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/2q71s9ltkvzg1.png?width=140&height=123&auto=webp&s=77945925d0fb80c62d90ad917fad64c3af772f43",
+    "isShortVideo": 0
+  },
+  {
     "id": "93f4983b-4398-5eec-9701-86556e658ded",
     "title": "Disillusionment with mechanistic interpretability research [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t6zdj6/disillusionment_with_mechanistic_interpretability/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys, </p> <p>Just saw that NeurIPS this year might be exceeding 40k, what submission number did you get? The max I know of was 29k, that was 24 hours ago</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StriderKing27\"> /u/StriderKing27 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4oykt/neurips_submission_number_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4oykt/neurips_submission_number_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ef60b05d-1b09-5741-b825-78b679e2c067",
-    "title": "Radar Engineer to Autonomy/AI [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/",
-    "pubDate": "2026-05-05T18:49:28+00:00",
-    "description": "Hi all, I’ve spent the last 3 years working on Radar Perception for a legacy automotive project in Germany. My background is an MSc in Robotics & AI. Currently, I spend my time analyzing point clouds and SNR distributions to debug failures. It’s mathematically complex, but I’m not implementing any models or designing systems. I feel like I'm becoming a \"PowerPoint Engineer\" who knows a lot about noise but isn't building the future of autonomy. I want to move into Applied ML/Autonomy, but I’m worried my 3 years of \"analysis\" don't count as \"development experience.\" Does it make sense to build a portfolio of ML/Robotics projects applied to Radars to prove I can actually code, or will recruiters only care about my work? Is this a good path for applied ML or i am kidding my self? submitted by /u/Huge-Leek844 [link] [comments]",
-    "author": "/u/Huge-Leek844",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I’ve spent the last 3 years working on Radar Perception for a legacy automotive project in Germany. My background is an MSc in Robotics &amp; AI. Currently, I spend my time analyzing point clouds and SNR distributions to debug failures. It’s mathematically complex, but I’m not implementing any models or designing systems. I feel like I'm becoming a &quot;PowerPoint Engineer&quot; who knows a lot about noise but isn't building the future of autonomy. I want to move into Applied ML/Autonomy, but I’m worried my 3 years of &quot;analysis&quot; don't count as &quot;development experience.&quot; Does it make sense to build a portfolio of ML/Robotics projects applied to Radars to prove I can actually code, or will recruiters only care about my work? Is this a good path for applied ML or i am kidding my self?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huge-Leek844\"> /u/Huge-Leek844 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
