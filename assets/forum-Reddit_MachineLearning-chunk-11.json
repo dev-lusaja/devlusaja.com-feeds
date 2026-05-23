@@ -1,5 +1,21 @@
 [
   {
+    "id": "411b9db9-5de8-57bf-b6da-e081eca449ae",
+    "title": "AI Systems Performance Engineering by Chris Fregly - is it worth it? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/",
+    "pubDate": "2026-04-09T12:35:30+00:00",
+    "description": "I found this book \"AI Systems Performance Engineering\" by Chris Fregly [1]. There is another book \"Machine Learning Systems\" by harvard [2]. Which book is the best of option to learn about optimizing/high performance ML / Deep Learning? [1] - https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/ [2] - https://mlsysbook.ai/book/contents/core/efficient_ai/efficient_ai.html submitted by /u/rlopes404 [link] [comments]",
+    "author": "/u/rlopes404",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I found this book &quot;AI Systems Performance Engineering&quot; by Chris Fregly [1]. </p> <p>There is another book &quot;Machine Learning Systems&quot; by harvard [2].</p> <p>Which book is the best of option to learn about optimizing/high performance ML / Deep Learning?</p> <p>[1] - <a href=\"https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/\">https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/</a></p> <p>[2] - <a href=\"https://mlsysbook.ai/book/contents/core/efficient_ai/efficient_ai.html\">https://mlsysbook.ai/book/contents/core/efficient_ai/efficient_ai.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rlopes404\"> /u/rlopes404 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7e51c6c0-911f-553b-a398-fd7eb7f4247c",
     "title": "Anyone have an S3-compatible store that actually saturates H100s without the AWS egress tax? [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sgn6vu/anyone_have_an_s3compatible_store_that_actually/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>TL;DR:</strong> We extended the Acemoglu-Restrepo task displacement framework to handle agentic AI -- the kind of systems that complete entire workflows end-to-end, not just single tasks -- and applied it to 236 occupations across 5 US tech metros (SF Bay, Seattle, Austin, Boston, NYC).</p> <p><strong>Paper:</strong> <a href=\"https://arxiv.org/abs/2604.00186\">https://arxiv.org/abs/2604.00186</a></p> <p><strong>Motivation:</strong> Existing AI exposure measures (Frey-Osborne, Felten et al.'s AIOE, Eloundou et al.'s GPT exposure) implicitly assume tasks are independent and that occupations survive as coordination shells once their components are automated one by one. That works for narrow AI. It breaks down for agentic systems that chain tool calls, maintain state across steps, and self-correct. We added a workflow-coverage term to the standard task displacement framework that penalizes tasks requiring human coordination, regulatory accountability, or exception handling beyond agentic AI's current operational envelope.</p> <p><strong>Key findings:</strong></p> <ol> <li>Software engineers rank LOWER than credit analysts, judges, and regulatory affairs officers. The cognitive, high-credential roles previously considered automation-proof are most exposed when you account for end-to-end workflow coverage.</li> <li>There is a measurable 2-3 year adoption lag between metros. Same occupations, same exposure profiles, different timelines. Seattle in 2027 looks like NYC in 2029.</li> <li>We identified 17 emerging job categories with real hiring traction (~1,500 &quot;AI Reviewer&quot; listings on Indeed). None require coding.</li> <li>In the SF Bay Area, 93% of information-work occupations cross our moderate-displacement threshold by 2030, but no occupation reaches the high-risk threshold even by 2030. The framework predicts widespread moderate exposure, not catastrophic displacement of any single role.</li> </ol> <p><strong>Validation:</strong></p> <ul> <li>The framework correlates with the AIOE index at Spearman rho = 0.84 across 193 matched occupations and with Eloundou et al.'s GPT exposure at rho = 0.72, so the signal isn't a calibration artifact.</li> <li>We stress-test across a 6x range in the S-curve adoption parameter (k = 0.40 to k = 1.20). The qualitative regional ordering survives all 9 scenario-year combinations.</li> <li>We get a null result on 2023-24 OEWS validation (rho = -0.04), which we report transparently. We make a falsifiable prediction (rho &lt; -0.15 when May 2025 OEWS releases) and commit to reporting the result regardless of direction.</li> </ul> <p><strong>Limitations:</strong></p> <ul> <li>The keyword-based COV rubric is the part of the framework I am least confident in. A semantic extension pilot suggests our scores are an upper bound and underestimate displacement risk by 15-25% for occupations with high interpersonal overhead.</li> <li>Calibration of the S-curve growth parameter has a 6x discrepancy between our calibrated value and what you get from fitting Indeed job-posting data. We address this with a three-scenario sensitivity analysis (Table in the paper).</li> <li>The analysis is scoped to 5 US metros. An international extension using OECD PIAAC and Eurostat data is in development.</li> </ul> <p>Happy to answer questions on methodology, data sources, or limitations. Pushback welcome -- especially on the COV rubric and the S-curve calibration choices.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LengthinessAny3851\"> /u/LengthinessAny3851 </a> <br /> <span><a href=\"https://arxiv.org/abs/2604.00186\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1selu8x/r_agentic_ai_and_occupational_displacement_a/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9b13fbdd-08ac-5334-b005-b95cc9461401",
-    "title": "[D] Attending ICPR conference",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sehlqp/d_attending_icpr_conference/",
-    "pubDate": "2026-04-07T01:09:57+00:00",
-    "description": "Looking for fellow researchers who are planning to attend ICPR conference. submitted by /u/Warm_Effect2848 [link] [comments]",
-    "author": "/u/Warm_Effect2848",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Looking for fellow researchers who are planning to attend ICPR conference. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Warm_Effect2848\"> /u/Warm_Effect2848 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sehlqp/d_attending_icpr_conference/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sehlqp/d_attending_icpr_conference/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

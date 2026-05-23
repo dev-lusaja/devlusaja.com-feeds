@@ -1,5 +1,21 @@
 [
   {
+    "id": "ad4490bd-4368-52d8-a722-14ce6e13aefe",
+    "title": "Any tool to get accepted conference papers sorted by citation count? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tiqlsu/any_tool_to_get_accepted_conference_papers_sorted/",
+    "pubDate": "2026-05-20T16:19:54+00:00",
+    "description": "Ie given a conference (say with openreview data) eg “NeurIPS, 2025”, return the accepted papers based on number of citations according to standard paper search engine (eg google scholar) Seems to be a surprisingly difficult thing to find online. submitted by /u/baghalipolo [link] [comments]",
+    "author": "/u/baghalipolo",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Ie given a conference (say with openreview data) eg “NeurIPS, 2025”, return the accepted papers based on number of citations according to standard paper search engine (eg google scholar)</p> <p>Seems to be a surprisingly difficult thing to find online. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/baghalipolo\"> /u/baghalipolo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tiqlsu/any_tool_to_get_accepted_conference_papers_sorted/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tiqlsu/any_tool_to_get_accepted_conference_papers_sorted/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ab92bf4c-d7a8-5d68-bc5a-19d270885841",
     "title": "NOML-NOML: hierarchical TD3 + anchor policy for flight control [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tikbux/nomlnoml_hierarchical_td3_anchor_policy_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>They said </p> <p>We aim to inform you by May 18th if a place becomes available</p> <p>Does that mean no reply if not accepted? I so wish I could be there</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Active-Tip3130\"> /u/Active-Tip3130 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgop0r/will_wait_listed_ones_be_mailed_regardless_eeml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgop0r/will_wait_listed_ones_be_mailed_regardless_eeml/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9105643a-e446-5c4b-8f17-227b258e7c1c",
-    "title": "Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves performance [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/",
-    "pubDate": "2026-05-18T13:44:05+00:00",
-    "description": "World models learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCun's group at NYU, achieves stable end-to-end JEPA training by enforcing an isotropic Gaussian prior over the full latent space. The flaw: real environment dynamics live on low-dimensional manifolds, so a global high-dimensional Gaussian is an overly rigid prior — mismatched to the task geometry. LeWM itself struggles most on low-intrinsic-dimension tasks like Two-Room. Our fix (Sub-JEPA): apply the Gaussian regularization inside multiple frozen random orthogonal subspaces instead. This relaxes the global constraint while keeping the anti-collapse benefit. No new hyperparameters, same two-term objective. Sub-JEPA consistently outperforms LeWM across all four benchmarks, with up to +10.7 pp on Two-Room. We also observe straighter latent trajectories and better physical state decodability as emergent benefits. ![]( https://kaizhao.net/images/projects/sub-jepa/overview.png ) ![]( https://kaizhao.net/images/projects/sub-jepa/cube.gif ) 🌐 Project: https://kaizhao.net/sub-jepa 💻 Code: https://github.com/intcomp/sub-jepa 📄 Paper: https://arxiv.org/pdf/2605.09241 submitted by /u/kai-zhao [link] [comments]",
-    "author": "/u/kai-zhao",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>World models</strong> learn compact latent representations for planning without pixel reconstruction. LeWorldModel (LeWM), from LeCun's group at NYU, achieves stable end-to-end JEPA training by enforcing an isotropic Gaussian prior over the full latent space.</p> <p><strong>The flaw:</strong> real environment dynamics live on low-dimensional manifolds, so a global high-dimensional Gaussian is an overly rigid prior — mismatched to the task geometry. LeWM itself struggles most on low-intrinsic-dimension tasks like Two-Room.</p> <p><strong>Our fix (Sub-JEPA):</strong> apply the Gaussian regularization inside multiple frozen random orthogonal subspaces instead. This relaxes the global constraint while keeping the anti-collapse benefit. No new hyperparameters, same two-term objective.</p> <p>Sub-JEPA consistently outperforms LeWM across all four benchmarks, with up to +10.7 pp on Two-Room. We also observe straighter latent trajectories and better physical state decodability as emergent benefits.</p> <p>![](<a href=\"https://kaizhao.net/images/projects/sub-jepa/overview.png\">https://kaizhao.net/images/projects/sub-jepa/overview.png</a>)</p> <p>![](<a href=\"https://kaizhao.net/images/projects/sub-jepa/cube.gif\">https://kaizhao.net/images/projects/sub-jepa/cube.gif</a>)</p> <p>🌐 Project: <a href=\"https://kaizhao.net/sub-jepa\">https://kaizhao.net/sub-jepa</a></p> <p>💻 Code: <a href=\"https://github.com/intcomp/sub-jepa\">https://github.com/intcomp/sub-jepa</a></p> <p>📄 Paper: <a href=\"https://arxiv.org/pdf/2605.09241\">https://arxiv.org/pdf/2605.09241</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kai-zhao\"> /u/kai-zhao </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

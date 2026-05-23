@@ -1,5 +1,21 @@
 [
   {
+    "id": "b0e7fc28-0c40-5da8-b6f2-9fae170e2cea",
+    "title": "Introducing AutoMuon, a one line drop in for AdamW [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/",
+    "pubDate": "2026-04-26T03:23:46+00:00",
+    "description": "Hey everyone, I've been working on a small Python package called AutoMuon that makes the Muon optimizer usable as a drop-in replacement for AdamW in arbitrary PyTorch training pipelines. The core idea is relatively simple: Muon works primarily on 2D weight matrices (linear projections, conv layers) on hidden states, but you still need AdamW for embeddings, norms, and biases, etc. AutoMuon scans your model at init, figures out the right optimizer for each parameter automatically. I am open to PRs, especially for expanding the module-type exclusion list if you hit edge cases in your architecture. Would love to know if anyone tries it on something other than transformers or CNNs and what they find. I feel that it would likely struggle with fully custom architectures, like flash-linear-attention for instance, so that would require some user tuning. I am planning to add more tests for time series forecasting, genomics, language modeling, etc. I want to see how generalizable Muon really is! https://github.com/SkyeGunasekaran/automuon pip install git+ https://github.com/SkyeGunasekaran/automuon.git submitted by /u/Skye7821 [link] [comments]",
+    "author": "/u/Skye7821",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, I've been working on a small Python package called AutoMuon that makes the Muon optimizer usable as a drop-in replacement for AdamW in arbitrary PyTorch training pipelines.</p> <p>The core idea is relatively simple: Muon works primarily on 2D weight matrices (linear projections, conv layers) on hidden states, but you still need AdamW for embeddings, norms, and biases, etc. AutoMuon scans your model at init, figures out the right optimizer for each parameter automatically.</p> <p>I am open to PRs, especially for expanding the module-type exclusion list if you hit edge cases in your architecture. Would love to know if anyone tries it on something other than transformers or CNNs and what they find. I feel that it would likely struggle with fully custom architectures, like flash-linear-attention for instance, so that would require some user tuning.</p> <p>I am planning to add more tests for time series forecasting, genomics, language modeling, etc. I want to see how generalizable Muon really is!</p> <p><a href=\"https://github.com/SkyeGunasekaran/automuon\">https://github.com/SkyeGunasekaran/automuon</a></p> <p>pip install git+<a href=\"https://github.com/SkyeGunasekaran/automuon.git\">https://github.com/SkyeGunasekaran/automuon.git</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Skye7821\"> /u/Skye7821 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6a10cfac-0365-5a8f-81b3-f8779be88a13",
     "title": "Frameworks For Supporting LLM/Agentic Benchmarking [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sjnha5/frameworks_for_supporting_llmagentic_benchmarking/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Most embedding models are not Matryoshka-trained, so naive dimension truncation tends to destroy them.</p> <p>I tested a simple alternative: fit PCA once on a sample of embeddings, rotate vectors into the PCA basis, and then truncate. The idea is that PCA concentrates signal into leading components, so truncation stops being arbitrary.</p> <p>On a 10K-vector BGE-M3 sample (1024d), I got:</p> <ul> <li>512d: naive truncation 0.707 cosine, PCA-first 0.996</li> <li>384d: naive 0.609, PCA-first 0.990</li> <li>256d: naive 0.467, PCA-first 0.974</li> <li>128d: naive 0.333, PCA-first 0.933</li> </ul> <p>I also compared this against other compression approaches on a larger multilingual corpus. A few representative points:</p> <ul> <li>scalar int8: 4x compression, 0.9999 cosine, 97.2% Recall@10</li> <li>3-bit quantization: 10.6x, 0.978 cosine, 83.8% Recall@10</li> <li>PCA-384 + 3-bit quantization: 27.7x, 0.979 cosine, 76.4% Recall@10</li> <li>binary quantization: 32x, 0.758 cosine, 66.6% Recall@10</li> <li>PQ (M=16, K=256): 256x, 0.810 cosine, 41.4% Recall@10</li> </ul> <p>The practical takeaway seems to be:</p> <ul> <li>for non-Matryoshka models, naive truncation is usually not usable</li> <li>a one-time PCA fit can make truncation viable</li> <li>PCA + low-bit quantization fills a useful middle ground between scalar quantization and more aggressive binary/PQ approaches</li> </ul> <p>One important limitation: cosine similarity degrades more slowly than <a href=\"mailto:Recall@10\">Recall@10</a>. In my runs, 27x compression still looked strong on cosine but recall dropped meaningfully. If recall is the priority, a less aggressive setting looked better.</p> <p>I’m mainly posting this for feedback on the method and evaluation, especially from people who’ve worked on embedding compression or ANN systems.</p> <p>Questions I’d love input on:</p> <ol> <li>Is PCA the right baseline here, or is there a stronger linear baseline I should be comparing against?</li> <li>For retrieval, which metric would you treat as most decision-relevant here: cosine reconstruction, Recall@10, or something else?</li> <li>Have others seen similar behavior on non-Matryoshka embedding models?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ahbond\"> /u/ahbond </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgt7ol/p_pca_before_truncation_makes_nonmatryoshka/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgt7ol/p_pca_before_truncation_makes_nonmatryoshka/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "411b9db9-5de8-57bf-b6da-e081eca449ae",
-    "title": "AI Systems Performance Engineering by Chris Fregly - is it worth it? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/",
-    "pubDate": "2026-04-09T12:35:30+00:00",
-    "description": "I found this book \"AI Systems Performance Engineering\" by Chris Fregly [1]. There is another book \"Machine Learning Systems\" by harvard [2]. Which book is the best of option to learn about optimizing/high performance ML / Deep Learning? [1] - https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/ [2] - https://mlsysbook.ai/book/contents/core/efficient_ai/efficient_ai.html submitted by /u/rlopes404 [link] [comments]",
-    "author": "/u/rlopes404",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I found this book &quot;AI Systems Performance Engineering&quot; by Chris Fregly [1]. </p> <p>There is another book &quot;Machine Learning Systems&quot; by harvard [2].</p> <p>Which book is the best of option to learn about optimizing/high performance ML / Deep Learning?</p> <p>[1] - <a href=\"https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/\">https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/</a></p> <p>[2] - <a href=\"https://mlsysbook.ai/book/contents/core/efficient_ai/efficient_ai.html\">https://mlsysbook.ai/book/contents/core/efficient_ai/efficient_ai.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rlopes404\"> /u/rlopes404 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
