@@ -14,21 +14,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/robotic-assembly-line-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotic-assembly-line\" width=\"768\" />Delivering high-fidelity VR and AR experiences to enterprise users has typically required native application development, custom device management, and complex...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/robotic-assembly-line-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotic-assembly-line\" width=\"768\" /><p>Delivering high-fidelity VR and AR experiences to enterprise users has typically required native application development, custom device management, and complex deployment pipelines. Now, with the new JavaScript SDK NVIDIA CloudXR.js, developers can stream GPU-rendered immersive content directly to a standard web browser—no app store, no installs, no device-specific builds. NVIDIA CloudXR.</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-and-stream-browser-based-xr-experiences-with-nvidia-cloudxr-js/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "609a721e-e400-5979-a288-a0256bf86658",
-    "title": "Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads",
-    "link": "https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/",
-    "pubDate": "2026-03-25T16:35:43+00:00",
-    "description": "In production Kubernetes environments, the difference between model requirements and GPU size creates inefficiencies. Lightweight automatic speech recognition...",
-    "author": "Sagar Desai",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-MPS-e1765825617242-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Close-up of NVIDIA processors on a server motherboard.\" width=\"768\" />In production Kubernetes environments, the difference between model requirements and GPU size creates inefficiencies. Lightweight automatic speech recognition...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-MPS-e1765825617242-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Close-up of NVIDIA processors on a server motherboard.\" width=\"768\" /><p>In production Kubernetes environments, the difference between model requirements and GPU size creates inefficiencies. Lightweight automatic speech recognition (ASR) or text-to-speech (TTS) models may require only 10 GB of VRAM, yet occupy an entire GPU in standard Kubernetes deployments. Because the scheduler maps a model to one or more GPUs and can’t easily share across GPUs across models…</p>\n<p><a href=\"https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
