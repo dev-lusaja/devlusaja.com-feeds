@@ -1,5 +1,37 @@
 [
   {
+    "id": "5b54c0a6-7fe4-5422-b18d-8e8c6bd72883",
+    "title": "Backprop-free Pong: PC + distributional Hebbian plasticity vs. PPO: 57% vs. 59%, ~1500 lines from scratch [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/",
+    "pubDate": "2026-05-19T16:09:54+00:00",
+    "description": "Wanted to see how close a fully bio-plausible agent could get to PPO on Pong. Setup Custom Pong environment (pygame, no gym) PPO baseline: paper-faithful, from scratch Hebbian agent: PPO policy replaced with Hebbian value estimation engineered features → 61% BioAgent: Predictive Coding for feature learning + distributional Hebbian plasticity for value (Dabney et al. 2020) → 57% Zero backprop anywhere in the pipeline. Key observations The 2% gap is real but small. The bottleneck wasn't the lack of backprop because it was catastrophic forgetting under non-stationary opponent dynamics during self-play. Distributional value encoding (à la Dabney) helped stability vs. a scalar Hebbian baseline, but not enough to match PPO under self-play. Self-play exposed the plasticity–stability dilemma hard: Hebbian rules that adapt fast forget fast. This is the real wall for bio-plausible RL in non-stationary settings. Not claiming novelty in the architecture as this is a from-scratch exploration of whether bio-plausible rules can handle a real RL task. Short answer: yes, mostly, with one clear failure mode. Code: github.com/nilsleut/Biologically-Plausible-RL-Plays-Pong Happy to answer questions about the PC implementation, the Hebbian value estimator, or the self-play setup. submitted by /u/ConfusionSpiritual19 [link] [comments]",
+    "author": "/u/ConfusionSpiritual19",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Wanted to see how close a fully bio-plausible agent could get to PPO on Pong.</p> <p><strong>Setup</strong></p> <ul> <li>Custom Pong environment (pygame, no gym)</li> <li>PPO baseline: paper-faithful, from scratch</li> <li>Hebbian agent: PPO policy replaced with Hebbian value estimation <ul> <li>engineered features → 61%</li> </ul></li> <li>BioAgent: Predictive Coding for feature learning + distributional Hebbian plasticity for value (Dabney et al. 2020) → 57% Zero backprop anywhere in the pipeline.</li> </ul> <p><strong>Key observations</strong></p> <ol> <li>The 2% gap is real but small. The bottleneck wasn't the lack of backprop because it was catastrophic forgetting under non-stationary opponent dynamics during self-play.</li> <li>Distributional value encoding (à la Dabney) helped stability vs. a scalar Hebbian baseline, but not enough to match PPO under self-play.</li> <li>Self-play exposed the plasticity–stability dilemma hard: Hebbian rules that adapt fast forget fast. This is the real wall for bio-plausible RL in non-stationary settings.</li> </ol> <p>Not claiming novelty in the architecture as this is a from-scratch exploration of whether bio-plausible rules can handle a real RL task. Short answer: yes, mostly, with one clear failure mode.</p> <p>Code: <a href=\"http://github.com/nilsleut/Biologically-Plausible-RL-Plays-Pong\">github.com/nilsleut/Biologically-Plausible-RL-Plays-Pong</a></p> <p>Happy to answer questions about the PC implementation, the Hebbian value estimator, or the self-play setup.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ConfusionSpiritual19\"> /u/ConfusionSpiritual19 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "f014813d-3d0c-54c2-b7ac-73220e5f79de",
+    "title": "What do you think about Tabular Foundation Models [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
+    "pubDate": "2026-05-19T14:20:20+00:00",
+    "description": "I've seen TabPFN-3's recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance that those models achieve is really amazing. What makes me a little suspicious about them? They can analyze small datasets only, so a few MB of data, and you need to have a large GPU machine and download a few GB of model to predict on a few MB of data. That doesn't sound rational ... I really miss the old school approach of running a single decision tree or a linear model on the data. What do you think about it? Do you think feature engineering + classic ML can achieve performance comparable to that of foundation models? Maybe with better explainability? submitted by /u/pplonski [link] [comments]",
+    "author": "/u/pplonski",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've seen TabPFN-3's recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance that those models achieve is really amazing. What makes me a little suspicious about them? They can analyze small datasets only, so a few MB of data, and you need to have a large GPU machine and download a few GB of model to predict on a few MB of data. That doesn't sound rational ... I really miss the old school approach of running a single decision tree or a linear model on the data.</p> <p>What do you think about it? Do you think feature engineering + classic ML can achieve performance comparable to that of foundation models? Maybe with better explainability?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pplonski\"> /u/pplonski </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d70fb92f-f632-5629-b3b4-303eaeeedabb",
     "title": "All fundamental knowledge in ML Course by Andrew NG that I noted and create into a repo github [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tho7b2/all_fundamental_knowledge_in_ml_course_by_andrew/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfpvod/recent_developments_in_llm_architectures_kv/\"> <img alt=\"Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention [P]\" src=\"https://external-preview.redd.it/3uqj0ajRBVkyrwbp33jfW4ch4z-dzwPoBcFOStkO5FE.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7ea24b021e496957dd14e253fa3a020d1ed33a9a\" title=\"Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention [P]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/seraschka\"> /u/seraschka </a> <br /> <span><a href=\"https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfpvod/recent_developments_in_llm_architectures_kv/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/3uqj0ajRBVkyrwbp33jfW4ch4z-dzwPoBcFOStkO5FE.jpeg?width=640&crop=smart&auto=webp&s=7ea24b021e496957dd14e253fa3a020d1ed33a9a",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f76fd4fb-b1a5-5cb1-b07b-ae577bccb40e",
-    "title": "Help in ML algos [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tfpuo1/help_in_ml_algos_d/",
-    "pubDate": "2026-05-17T13:39:56+00:00",
-    "description": "So see, I’ve learned ML algorithms theoretically, but practically I have little to no experience. So can you guys suggest some resources through which I can understand which algorithms work well on which kinds of datasets? How is everything done step by step? submitted by /u/NoAnybody8034 [link] [comments]",
-    "author": "/u/NoAnybody8034",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>So see, I’ve learned ML algorithms theoretically, but practically I have little to no experience. So can you guys suggest some resources through which I can understand which algorithms work well on which kinds of datasets? How is everything done step by step?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoAnybody8034\"> /u/NoAnybody8034 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfpuo1/help_in_ml_algos_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfpuo1/help_in_ml_algos_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5042b338-f91d-5a23-9cc5-b2a02adf7b1c",
-    "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-    "pubDate": "2026-05-17T11:26:46+00:00",
-    "description": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automatically safer. They have their own issues. But the DeepSeek thing is specifically a shared infrastructure problem, and its worth thinking about whether the tools you use share that architecture. submitted by /u/Ill_Awareness6706 [link] [comments]",
-    "author": "/u/Ill_Awareness6706",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security.</p> <p>The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context.</p> <p>Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place.</p> <p>Not saying local or isolated tools are automatically safer. They have their own issues. But the DeepSeek thing is specifically a shared infrastructure problem, and its worth thinking about whether the tools you use share that architecture.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ill_Awareness6706\"> /u/Ill_Awareness6706 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

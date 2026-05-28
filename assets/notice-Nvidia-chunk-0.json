@@ -1,5 +1,21 @@
 [
   {
+    "id": "f664a40e-5cba-5257-ad86-e96d91983987",
+    "title": "NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes",
+    "link": "https://developer.nvidia.com/blog/nvidia-dynamo-snapshot-fast-startup-for-inference-workloads-on-kubernetes/",
+    "pubDate": "2026-05-27T23:09:52+00:00",
+    "description": "The cold-start problem In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However,...",
+    "author": "Schwinn Saereesitthipitak",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-Dynamo-Snapshot-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA Dynamo Snapshot\" width=\"768\" />The cold-start problem In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-Dynamo-Snapshot-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA Dynamo Snapshot\" width=\"768\" /><p>In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However, cold-starting inference workloads on Kubernetes can take several minutes. During that time, GPUs are allocated but idle, generating no tokens and serving no requests. This delay increases the risk of service level agreement (SLA) violations during traffic spikes…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-dynamo-snapshot-fast-startup-for-inference-workloads-on-kubernetes/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "635a4156-ad92-5fa4-a86b-9fa376811e74",
     "title": "What’s New for Game Developers in NVIDIA RTX: DLSS 4.5 for UE5 and Multilingual AI Characters",
     "link": "https://developer.nvidia.com/blog/whats-new-for-game-developers-in-nvidia-rtx-dlss-4-5-for-ue5-and-multilingual-ai-characters/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/TensorRT-RTX-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"TensorRT-RTX\" width=\"768\" />Neural network techniques are increasingly used in computer graphics to boost image quality, improve performance, and streamline content creation. Approaches...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/TensorRT-RTX-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"TensorRT-RTX\" width=\"768\" /><p>Neural network techniques are increasingly used in computer graphics to boost image quality, improve performance, and streamline content creation. Approaches like super resolution, denoising, and neural rendering help real-time engines work more efficiently, offering new creative possibilities while keeping performance in mind. Unreal Engine 5 (UE5) has taken several steps in this direction…</p>\n<p><a href=\"https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a47c1672-b3ce-5ba0-adc9-c082ac1b3eb3",
-    "title": "How to Build, Run, and Scale High-Quality Creator Workflows in ComfyUI",
-    "link": "https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/",
-    "pubDate": "2026-04-30T16:16:04+00:00",
-    "description": "Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks...",
-    "author": "Joel Pennington",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/workstation-tech-blog-600x338-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"workstation-tech-blog-600x338\" width=\"600\" />Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/workstation-tech-blog-600x338-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"workstation-tech-blog-600x338\" width=\"600\" /><p>Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks that once took hours of manual effort into automated, repeatable pipelines. ComfyUI is an open-source, node-based creative tool that runs locally on NVIDIA RTX GPUs. It connects image generation, video synthesis, and language models into…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
