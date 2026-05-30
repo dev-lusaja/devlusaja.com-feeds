@@ -1,5 +1,21 @@
 [
   {
+    "id": "29b6b6e8-fa0a-554a-b8f6-5fb88cc65514",
+    "title": "TritonSigmoid: A fast, padding-aware sigmoid attention kernel for GPUs [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t4kalf/tritonsigmoid_a_fast_paddingaware_sigmoid/",
+    "pubDate": "2026-05-05T16:21:12+00:00",
+    "description": "We are open-sourcing TritonSigmoid — a fast, padding-aware sigmoid attention kernel for GPUs. We built this for single-cell foundation models, where every cell is represented as a sequence of genes. A single gene can be regulated by multiple transcription factors at once. Softmax forces them to compete for attention, but sigmoid lets the model attend strongly to many genes (tokens) simultaneously. Because cells express anywhere from 200 to 16,000+ genes (tokens), the kernel handles variable-length padding natively so you're not wasting compute on empty positions. What we found during our experiments: • Hardware: Up to 515 TFLOPS on H100 (vs. FlashAttention-2 at 361, FlashSigmoid at 440) • Accuracy: Lower validation loss than softmax attention across 6 held-out datasets • Representation: 25% better cell-type separation • Stability: Stable training where softmax catastrophically diverges We would welcome any discussion or feedback. Links to our work: Paper: https://arxiv.org/abs/2604.27124 Code: https://github.com/MSDLLCpapers/triton-sigmoid submitted by /u/vjysd [link] [comments]",
+    "author": "/u/vjysd",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We are open-sourcing TritonSigmoid — a fast, padding-aware sigmoid attention kernel for GPUs.</p> <p>We built this for single-cell foundation models, where every cell is represented as a sequence of genes. A single gene can be regulated by multiple transcription factors at once. Softmax forces them to compete for attention, but sigmoid lets the model attend strongly to many genes (tokens) simultaneously. Because cells express anywhere from 200 to 16,000+ genes (tokens), the kernel handles variable-length padding natively so you're not wasting compute on empty positions.</p> <p><strong>What we found during our experiments:</strong><br /> • Hardware: Up to 515 TFLOPS on H100 (vs. FlashAttention-2 at 361, FlashSigmoid at 440)<br /> • Accuracy: Lower validation loss than softmax attention across 6 held-out datasets<br /> • Representation: 25% better cell-type separation<br /> • Stability: Stable training where softmax catastrophically diverges</p> <p>We would welcome any discussion or feedback.</p> <p><strong>Links to our work:</strong><br /> Paper: <a href=\"https://arxiv.org/abs/2604.27124\">https://arxiv.org/abs/2604.27124</a><br /> Code: <a href=\"https://github.com/MSDLLCpapers/triton-sigmoid\">https://github.com/MSDLLCpapers/triton-sigmoid</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vjysd\"> /u/vjysd </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4kalf/tritonsigmoid_a_fast_paddingaware_sigmoid/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4kalf/tritonsigmoid_a_fast_paddingaware_sigmoid/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "51860226-0393-5bf9-b183-d7b4ec0df9f5",
     "title": "Looking for help working on my custom AI models from those experienced with ML, more details in main post if interested! One is a completely novel model architecture! [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t4huw1/looking_for_help_working_on_my_custom_ai_models/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Do you discount papers with independent researcher affiliation? I am between jobs and have completed a side research project not affiliated with my new upcoming role or my previous role so I cannot list either affiliation.</p> <p>Will listing independent researcher (solo author) with Gmail domain for the preprint discount the paper’s credibility? For context, I have published at A* venues and have prior solo author papers as well.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pure-Ad9079\"> /u/Pure-Ad9079 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2h3y2/thoughts_on_independent_researcher_affiliation_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2h3y2/thoughts_on_independent_researcher_affiliation_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8dabb11a-cdd5-5a3b-9200-b086a514bb67",
-    "title": "Have teams evaluated and rejected Flyte, Prefect, or Temporal? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t2d0a3/have_teams_evaluated_and_rejected_flyte_prefect/",
-    "pubDate": "2026-05-03T05:53:18+00:00",
-    "description": "Did anyone actually trial Flyte, Prefect, or Temporal properly before walking away, or was it more of a ‘looked at the docs and noped out’ situation? Specifically curious what the breaking point was — setup complexity, ongoing maintenance, or something else entirely? submitted by /u/krishnatamakuwala [link] [comments]",
-    "author": "/u/krishnatamakuwala",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Did anyone actually trial Flyte, Prefect, or Temporal properly before walking away, or was it more of a ‘looked at the docs and noped out’ situation? Specifically curious what the breaking point was — setup complexity, ongoing maintenance, or something else entirely?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/krishnatamakuwala\"> /u/krishnatamakuwala </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2d0a3/have_teams_evaluated_and_rejected_flyte_prefect/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2d0a3/have_teams_evaluated_and_rejected_flyte_prefect/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
