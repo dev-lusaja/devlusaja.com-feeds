@@ -1,5 +1,21 @@
 [
   {
+    "id": "810f182a-3a07-5b43-926e-397ea8618c36",
+    "title": "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
+    "link": "https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/",
+    "pubDate": "2026-05-08T15:59:16+00:00",
+    "description": "An agentic exchange must preserve a structured interaction: assistant turns interleave reasoning with one or more tool calls, and subsequent user turns return...",
+    "author": "Matej Kosec",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" />An agentic exchange must preserve a structured interaction: assistant turns interleave reasoning with one or more tool calls, and subsequent user turns return...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" /><p>An agentic exchange must preserve a structured interaction: assistant turns interleave reasoning with one or more tool calls, and subsequent user turns return the corresponding tool results to the model context. Reasoning replay is model- and turn-dependent: some reasoning should be retained, while some should be dropped. The inference engine is responsible for supporting this more expressive…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5a81aacf-98f4-523f-a942-262843dccb99",
     "title": "Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer",
     "link": "https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/image1-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />When you’re writing CUDA applications, one of the most important things you need to focus on to write great code is data transfer performance. This applies to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/image1-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>When you’re writing CUDA applications, one of the most important things you need to focus on to write great code is data transfer performance. This applies to both single-GPU and multi-GPU systems alike. One of the tools you can use to understand the memory characteristics of your GPU system is NVIDIA NVbandwidth. In this blog post, we’ll explore what NVbandwidth is, how it works…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "aaef5e81-2adb-5809-bdf8-020886496ffe",
-    "title": "NVIDIA Ising Introduces AI-Powered Workflows to Build Fault-Tolerant Quantum Systems",
-    "link": "https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/",
-    "pubDate": "2026-04-14T14:15:56+00:00",
-    "description": "NVIDIA Ising is the world's first family of open AI models for building quantum processors, launching with two model domains: Ising Calibration and Ising...",
-    "author": "Tom Lubowe",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Ising-Quantum-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Ising-Quantum\" width=\"768\" />NVIDIA Ising is the world's first family of open AI models for building quantum processors, launching with two model domains: Ising Calibration and Ising...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Ising-Quantum-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Ising-Quantum\" width=\"768\" /><p>NVIDIA Ising is the world’s first family of open AI models for building quantum processors, launching with two model domains: Ising Calibration and Ising Decoding. Both target the fundamental challenge in quantum computing—qubits are inherently noisy. The best quantum processors make an error roughly once in every thousand operations. To become useful accelerators for scientific and…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

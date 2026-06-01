@@ -1,5 +1,21 @@
 [
   {
+    "id": "1213bf09-1597-5058-aa3c-f136aa6006fd",
+    "title": "MLRC 2026 is open for submissions - an official track at NeurIPS 2026 [N]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1th31er/mlrc_2026_is_open_for_submissions_an_official/",
+    "pubDate": "2026-05-18T22:07:17+00:00",
+    "description": "The annual Machine Learning Reproducibility Challenge (MLRC) 2026 is now open for submissions. This year, it is held as an official track at NeurIPS 2026 - submissions, once accepted through TMLR, will be eligible to be presented at the conference in Sydney, Australia this December. More details in their CFP: Blog: https://blog.neurips.cc/2026/05/04/mlrc-2026-reproducibility-as-an-official-track-at-neurips/ CFP: https://neurips.cc/Conferences/2026/CallForReproducibility Website: https://reproml.org/ submitted by /u/ndpian [link] [comments]",
+    "author": "/u/ndpian",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>The annual Machine Learning Reproducibility Challenge (MLRC) 2026 is now open for submissions. This year, it is held as an official track at NeurIPS 2026 - submissions, once accepted through TMLR, will be eligible to be presented at the conference in Sydney, Australia this December. More details in their CFP: </p> <ul> <li>Blog: <a href=\"https://blog.neurips.cc/2026/05/04/mlrc-2026-reproducibility-as-an-official-track-at-neurips/\">https://blog.neurips.cc/2026/05/04/mlrc-2026-reproducibility-as-an-official-track-at-neurips/</a></li> <li>CFP: <a href=\"https://neurips.cc/Conferences/2026/CallForReproducibility\">https://neurips.cc/Conferences/2026/CallForReproducibility</a> </li> <li>Website: <a href=\"https://reproml.org/\">https://reproml.org/</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ndpian\"> /u/ndpian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1th31er/mlrc_2026_is_open_for_submissions_an_official/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1th31er/mlrc_2026_is_open_for_submissions_an_official/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bdf3ad64-3941-55e8-a66e-505a399e8ab0",
     "title": "THIS IS VERY ANNOYING. Why are my agents misbehaving? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1th00i4/this_is_very_annoying_why_are_my_agents/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Results for the research track have been released. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ATadDisappointed\"> /u/ATadDisappointed </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "41276102-8be8-525d-8e77-0e6099e70fd7",
-    "title": "ROCm with PyTorch and PyTorch Lightning seems to still suck for research [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tedjwo/rocm_with_pytorch_and_pytorch_lightning_seems_to/",
-    "pubDate": "2026-05-16T00:01:38+00:00",
-    "description": "So I asked about people's experiences with ROCm in a post a few weeks or so ago https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/ I actually went and procured a RX 7900XTX reference version to give it a try My discovery is that it kind of still sucks I have a small codebase for training flow matching models (SANA Architecture), which runs fine on my RTX3090s. But the moment I ported it across to ROCm it was NaNs absolutely everywhere. Forward passes were absolutely fine, but the moment you called backwards() all bets were off. The code was kept identical, apart from altering the pip environment to point to torch2.12 with ROCm7.2 instead of CUDA Trying everything from switching between bf16, fp32, to tweaking various environment variables yielded nothing. Unless there's some trick I'm missing, I get the feeling that ROCm is still seriously behind. I tried running the nanoGPT training script, which ran perfectly My intuition is that the ROCm people have probably tested their stack on established well known codebases. But, it's still remarkably fragile on even slightly uncommon code. submitted by /u/QuantumQuokka [link] [comments]",
-    "author": "/u/QuantumQuokka",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>So I asked about people's experiences with ROCm in a post a few weeks or so ago</p> <p><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/\">https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/</a></p> <p>I actually went and procured a RX 7900XTX reference version to give it a try</p> <p>My discovery is that it kind of still sucks</p> <p>I have a small codebase for training flow matching models (SANA Architecture), which runs fine on my RTX3090s. But the moment I ported it across to ROCm it was NaNs absolutely everywhere. Forward passes were absolutely fine, but the moment you called backwards() all bets were off. The code was kept identical, apart from altering the pip environment to point to torch2.12 with ROCm7.2 instead of CUDA</p> <p>Trying everything from switching between bf16, fp32, to tweaking various environment variables yielded nothing.</p> <p>Unless there's some trick I'm missing, I get the feeling that ROCm is still seriously behind.</p> <p>I tried running the nanoGPT training script, which ran perfectly</p> <p>My intuition is that the ROCm people have probably tested their stack on established well known codebases. But, it's still remarkably fragile on even slightly uncommon code.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/QuantumQuokka\"> /u/QuantumQuokka </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tedjwo/rocm_with_pytorch_and_pytorch_lightning_seems_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tedjwo/rocm_with_pytorch_and_pytorch_lightning_seems_to/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
