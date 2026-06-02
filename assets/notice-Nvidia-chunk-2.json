@@ -1,5 +1,21 @@
 [
   {
+    "id": "8f69c2f2-2cc0-5005-aa4e-b91bfc6cf830",
+    "title": "Building Custom Atomistic Simulation Workflows for Chemistry and Materials Science with NVIDIA ALCHEMI Toolkit",
+    "link": "https://developer.nvidia.com/blog/building-custom-atomistic-simulation-workflows-for-chemistry-and-materials-science-with-nvidia-alchemi-toolkit/",
+    "pubDate": "2026-04-14T16:30:00+00:00",
+    "description": "For decades, computational chemistry has faced a tug-of-war between accuracy and speed. Ab initio methods like density functional theory (DFT) provide high...",
+    "author": "Erica Tsai",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/materials-science-chemistry-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"materials-science-chemistry\" width=\"768\" />For decades, computational chemistry has faced a tug-of-war between accuracy and speed. Ab initio methods like density functional theory (DFT) provide high...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/materials-science-chemistry-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"materials-science-chemistry\" width=\"768\" /><p>For decades, computational chemistry has faced a tug-of-war between accuracy and speed. Ab initio methods like density functional theory (DFT) provide high fidelity but are computationally expensive, limiting researchers to systems of a few hundred atoms. Conversely, classical force fields are fast but often lack the chemical accuracy required for complex bond-breaking or transition-state analysis.</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-custom-atomistic-simulation-workflows-for-chemistry-and-materials-science-with-nvidia-alchemi-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4c2a8ec8-dc74-51cc-990c-41cc9a6c1944",
     "title": "NVIDIA NVbandwidth: Your Essential Tool for Measuring GPU Interconnect and Memory Performance",
     "link": "https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/",
@@ -140,38 +156,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/blue-square-field-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blue-square-field\" width=\"768\" />In vision AI systems, model throughput continues to improve. The surrounding pipeline stages must keep pace, including decode, preprocessing, and GPU...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/blue-square-field-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blue-square-field\" width=\"768\" /><p>In vision AI systems, model throughput continues to improve. The surrounding pipeline stages must keep pace, including decode, preprocessing, and GPU scheduling. In the previous post, Build High-Performance Vision AI Pipelines with NVIDIA CUDA-Accelerated VC-6, this was described as the data-to-tensor gap—a performance mismatch between AI pipeline stages. The SMPTE VC-6 (ST 2117-1) codec…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-vision-ai-pipelines-with-batch-mode-vc-6-and-nvidia-nsight/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "56f93586-f076-5bbe-80d6-ad9c34d758fb",
-    "title": "Bringing AI Closer to the Edge and On-Device with Gemma 4",
-    "link": "https://developer.nvidia.com/blog/bringing-ai-closer-to-the-edge-and-on-device-with-gemma-4/",
-    "pubDate": "2026-04-02T16:27:46+00:00",
-    "description": "The Gemmaverse expands with the launch of the latest Gemma 4 multimodal and multilingual models, designed to scale across the full spectrum of deployments, from...",
-    "author": "Anu Srivastava",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Gemma-4-TechBlog-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Gemma 4 TechBlog featured\" width=\"768\" />The Gemmaverse expands with the launch of the latest Gemma 4 multimodal and multilingual models, designed to scale across the full spectrum of deployments, from...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Gemma-4-TechBlog-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Gemma 4 TechBlog featured\" width=\"768\" /><p>The Gemmaverse expands with the launch of the latest Gemma 4 multimodal and multilingual models, designed to scale across the full spectrum of deployments, from NVIDIA Blackwell in the data center to Jetson at the edge. These models are suited to meet the growing demand for local deployment for AI development and prototyping, secure on-prem requirements, cost efficiency, and latency-sensitive use…</p>\n<p><a href=\"https://developer.nvidia.com/blog/bringing-ai-closer-to-the-edge-and-on-device-with-gemma-4/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ad6faa71-3941-54f5-9600-476cd9aac24d",
-    "title": "Achieving Single-Digit Microsecond Latency Inference for Capital Markets",
-    "link": "https://developer.nvidia.com/blog/achieving-single-digit-microsecond-latency-inference-for-capital-markets/",
-    "pubDate": "2026-04-02T16:00:00+00:00",
-    "description": "In algorithmic trading, reducing response times to market events is crucial. To keep pace with high-speed electronic markets, latency-sensitive firms often use...",
-    "author": "Nikolay Markovskiy",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/finance-trading-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"finance-trading\" width=\"768\" />In algorithmic trading, reducing response times to market events is crucial. To keep pace with high-speed electronic markets, latency-sensitive firms often use...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/finance-trading-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"finance-trading\" width=\"768\" /><p>In algorithmic trading, reducing response times to market events is crucial. To keep pace with high-speed electronic markets, latency-sensitive firms often use specialized hardware like FPGAs and ASICs. Yet, as markets grow more efficient, traders increasingly depend on advanced models such as deep neural networks to enhance profitability. Because implementing these complex models on low-level…</p>\n<p><a href=\"https://developer.nvidia.com/blog/achieving-single-digit-microsecond-latency-inference-for-capital-markets/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
