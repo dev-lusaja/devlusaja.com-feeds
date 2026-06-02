@@ -1,5 +1,21 @@
 [
   {
+    "id": "978a395e-052b-5847-b9db-cc89a78affef",
+    "title": "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
+    "link": "https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/",
+    "pubDate": "2026-05-08T17:13:33+00:00",
+    "description": "Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...",
+    "author": "Joseph Lucas",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits , , , or a shell pipeline is producing an executable action that can read files, mutate a workspace, open network connections, and chain tools together. For the NVIDIA AI Red Team, this makes command generation a useful research target. If smaller language models can be guided…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "810f182a-3a07-5b43-926e-397ea8618c36",
     "title": "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
     "link": "https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/materials-science-chemistry-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"materials-science-chemistry\" width=\"768\" />For decades, computational chemistry has faced a tug-of-war between accuracy and speed. Ab initio methods like density functional theory (DFT) provide high...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/materials-science-chemistry-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"materials-science-chemistry\" width=\"768\" /><p>For decades, computational chemistry has faced a tug-of-war between accuracy and speed. Ab initio methods like density functional theory (DFT) provide high fidelity but are computationally expensive, limiting researchers to systems of a few hundred atoms. Conversely, classical force fields are fast but often lack the chemical accuracy required for complex bond-breaking or transition-state analysis.</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-custom-atomistic-simulation-workflows-for-chemistry-and-materials-science-with-nvidia-alchemi-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4c2a8ec8-dc74-51cc-990c-41cc9a6c1944",
-    "title": "NVIDIA NVbandwidth: Your Essential Tool for Measuring GPU Interconnect and Memory Performance",
-    "link": "https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/",
-    "pubDate": "2026-04-14T16:00:00+00:00",
-    "description": "When you’re writing CUDA applications, one of the most important things you need to focus on to write great code is data transfer performance. This applies to...",
-    "author": "Eva Sitaridi",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/image1-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />When you’re writing CUDA applications, one of the most important things you need to focus on to write great code is data transfer performance. This applies to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/image1-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>When you’re writing CUDA applications, one of the most important things you need to focus on to write great code is data transfer performance. This applies to both single-GPU and multi-GPU systems alike. One of the tools you can use to understand the memory characteristics of your GPU system is NVIDIA NVbandwidth. In this blog post, we’ll explore what NVbandwidth is, how it works…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
