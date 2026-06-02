@@ -1,5 +1,21 @@
 [
   {
+    "id": "e9f9d7f4-363e-5219-8f25-430cc51f853b",
+    "title": "How to Build Vision AI Pipelines Using DeepStream Coding Agents",
+    "link": "https://developer.nvidia.com/blog/how-to-build-vision-ai-pipelines-using-deepstream-coding-agents/",
+    "pubDate": "2026-04-16T15:00:00+00:00",
+    "description": "Developing real-time vision AI applications presents a significant challenge for developers, often demanding intricate data pipelines, countless lines of code,...",
+    "author": "Debraj Sinha",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080\" width=\"768\" />Developing real-time vision AI applications presents a significant challenge for developers, often demanding intricate data pipelines, countless lines of code,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080\" width=\"768\" /><p>Developing real-time vision AI applications presents a significant challenge for developers, often demanding intricate data pipelines, countless lines of code, and lengthy development cycles. NVIDIA DeepStream 9 removes these development barriers using coding agents, such as Claude Code or Cursor, to help you easily create deployable, optimized code that brings your vision AI applications to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-build-vision-ai-pipelines-using-deepstream-coding-agents/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8f69c2f2-2cc0-5005-aa4e-b91bfc6cf830",
     "title": "Building Custom Atomistic Simulation Workflows for Chemistry and Materials Science with NVIDIA ALCHEMI Toolkit",
     "link": "https://developer.nvidia.com/blog/building-custom-atomistic-simulation-workflows-for-chemistry-and-materials-science-with-nvidia-alchemi-toolkit/",
@@ -140,22 +156,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" />The NVIDIA GB200 NVL72 and NVIDIA GB300 NVL72 systems, featuring NVIDIA Blackwell architecture, are rack-scale supercomputers. They’re designed with 18...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" /><p>The NVIDIA GB200 NVL72 and NVIDIA GB300 NVL72 systems, featuring NVIDIA Blackwell architecture, are rack-scale supercomputers. They’re designed with 18 tightly coupled compute trays, massive GPU fabrics, and high-bandwidth networking packaged as a unit. For AI architects and HPC platform operators, the challenge isn’t just racking and stacking hardware—it’s turning infrastructure into safe…</p>\n<p><a href=\"https://developer.nvidia.com/blog/running-ai-workloads-on-rack-scale-supercomputers-from-hardware-to-topology-aware-scheduling/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "56892c15-28ff-549b-ae23-e0f6249fd390",
-    "title": "Accelerating Vision AI Pipelines with Batch Mode VC-6 and NVIDIA Nsight",
-    "link": "https://developer.nvidia.com/blog/accelerating-vision-ai-pipelines-with-batch-mode-vc-6-and-nvidia-nsight/",
-    "pubDate": "2026-04-02T20:00:00+00:00",
-    "description": "In vision AI systems, model throughput continues to improve. The surrounding pipeline stages must keep pace, including decode, preprocessing, and GPU...",
-    "author": "Andreas Kieslinger",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/blue-square-field-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blue-square-field\" width=\"768\" />In vision AI systems, model throughput continues to improve. The surrounding pipeline stages must keep pace, including decode, preprocessing, and GPU...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/blue-square-field-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blue-square-field\" width=\"768\" /><p>In vision AI systems, model throughput continues to improve. The surrounding pipeline stages must keep pace, including decode, preprocessing, and GPU scheduling. In the previous post, Build High-Performance Vision AI Pipelines with NVIDIA CUDA-Accelerated VC-6, this was described as the data-to-tensor gap—a performance mismatch between AI pipeline stages. The SMPTE VC-6 (ST 2117-1) codec…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-vision-ai-pipelines-with-batch-mode-vc-6-and-nvidia-nsight/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
