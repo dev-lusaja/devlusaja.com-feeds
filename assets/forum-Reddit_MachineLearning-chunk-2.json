@@ -1,5 +1,21 @@
 [
   {
+    "id": "99fc0222-89e4-5a88-96e1-48e0dcf774c7",
+    "title": "\"Unified Neural Scaling Laws\" paper release [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tpfqv6/unified_neural_scaling_laws_paper_release_r/",
+    "pubDate": "2026-05-27T19:21:42+00:00",
+    "description": ". https://x.com/ethanCaballero/status/2059686905105563907 . submitted by /u/Glittering_Author_81 [link] [comments]",
+    "author": "/u/Glittering_Author_81",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>. <a href=\"https://x.com/ethanCaballero/status/2059686905105563907\">https://x.com/ethanCaballero/status/2059686905105563907</a> .</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Glittering_Author_81\"> /u/Glittering_Author_81 </a> <br /> <span><a href=\"https://x.com/ethanCaballero/status/2059686905105563907\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpfqv6/unified_neural_scaling_laws_paper_release_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1e0b57c4-fe81-5763-9584-84abf038c0c4",
     "title": "[R] What 1000+ Harness Experiments Taught Me About Self-Improving Agents [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tpbp7m/r_what_1000_harness_experiments_taught_me_about/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>🌟 Announcing the 2nd Workshop on Efficient Reasoning (ER) at @colm2026 — Oct 9!</p> <p>📣 We welcome submissions! Submit your work here: <a href=\"https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/Efficient_Reasoning\">https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/Efficient_Reasoning</a><br /> 🗓️ Deadline: July 12, 2026 (AoE)<br /> 🔗 Website: <a href=\"https://wdlctc.github.io/efficient-reasoning-2026/\">https://wdlctc.github.io/efficient-reasoning-2026/</a></p> <p>💬 Topics include (but aren't limited to):<br /> 🔹 Multimodal, spatial &amp; embodied reasoning under efficiency constraints<br /> 🔹 Curating high-quality reasoning datasets under resource constraints<br /> 🔹 Algorithmic innovations for efficient training &amp; RL fine-tuning<br /> 🔹 Fast inference: pruning, compression, progressive generation, KV-cache tricks<br /> 🔹 Benchmarks &amp; theory on time-/space-complexity and faithfulness<br /> 🔹 Systems to deploy long-CoT or on-device reasoning in the wild<br /> 🔹 Safety &amp; robustness of efficient reasoning pipelines<br /> 🔹 Real-time applications in healthcare, robotics, autonomy, and more</p> <p>🤝 We invite perspectives from ML, systems, natural &amp; social sciences, and industry practitioners to rethink reasoning under tight compute, memory, latency, and cost budgets.</p> <p>Hope to see you there! 🚀</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mediocre-Ad5059\"> /u/Mediocre-Ad5059 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tncfx9/call_for_papers_workshop_on_efficient_reasoning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tncfx9/call_for_papers_workshop_on_efficient_reasoning/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bb208a60-765c-509b-8c58-282c712cc060",
-    "title": "Best architecture for seamless Bilingual TTS? (Azure / English + Korean) [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tncdcz/best_architecture_for_seamless_bilingual_tts/",
-    "pubDate": "2026-05-25T15:23:16+00:00",
-    "description": "Hi guys, when building a language learning app (React Native/Expo frontend, Python backend) and I’ve hit a frustrating wall with Text-to-Speech. I need the app to read sentences that mix English instructions and Korean examples (e.g., \"To say hello, we use the phrase 안녕하세요.\"). Since native pronunciation is critical for a learning app, I'm struggling to find a solution that sounds natural. I'm currently using Azure Cognitive Services, and I'm stuck between two bad options: Approach 1: The Multilingual Voice (en-US-AvaMultilingualNeural) The Good: Seamless reading, zero pauses mid-sentence. The Bad: Because it's an English-first model, the Korean comes out with a slight, robotic/Americanized accent. It doesn't sound like a true native speaker, which defeats the purpose of teaching pronunciation. And also there is some scratching and lack of smoothness when it is reading korean words. Approach 2: SSML Voice Switching (Ava for EN, SunHi for KO) The Good: Perfect English, perfect native Korean. The Bad: Switching <voice> tags mid-sentence causes Azure to pause for a fraction of a second while it unloads/loads the neural models. It completely ruins the natural flow of the audio, making it sound very disjointed. My Questions: Is there an SSML trick in Azure to pre-load voices or eliminate that micro-pause when switching voices? How do the big apps handle this? Because if I use two models for korean and english they will sound different when reading. Should I migrate away from standard Azure Speech and use the Azure OpenAI voices (alloy, nova) instead? Are they truly seamless for bilingual text? Any advice on the best tech stack or architecture for this would be massively appreciated! submitted by /u/Lumpy-Simple9185 [link] [comments]",
-    "author": "/u/Lumpy-Simple9185",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, when building a language learning app (React Native/Expo frontend, Python backend) and I’ve hit a frustrating wall with Text-to-Speech. I need the app to read sentences that mix English instructions and Korean examples (e.g., &quot;To say hello, we use the phrase 안녕하세요.&quot;).</p> <p>Since native pronunciation is critical for a learning app, I'm struggling to find a solution that sounds natural. I'm currently using Azure Cognitive Services, and I'm stuck between two bad options:</p> <p>Approach 1: The Multilingual Voice (en-US-AvaMultilingualNeural)</p> <p>The Good: Seamless reading, zero pauses mid-sentence.</p> <p>The Bad: Because it's an English-first model, the Korean comes out with a slight, robotic/Americanized accent. It doesn't sound like a true native speaker, which defeats the purpose of teaching pronunciation. And also there is some scratching and lack of smoothness when it is reading korean words.</p> <p>Approach 2: SSML Voice Switching (Ava for EN, SunHi for KO)</p> <p>The Good: Perfect English, perfect native Korean.</p> <p>The Bad: Switching &lt;voice&gt; tags mid-sentence causes Azure to pause for a fraction of a second while it unloads/loads the neural models. It completely ruins the natural flow of the audio, making it sound very disjointed.</p> <p>My Questions:</p> <p>Is there an SSML trick in Azure to pre-load voices or eliminate that micro-pause when switching voices?</p> <p>How do the big apps handle this? Because if I use two models for korean and english they will sound different when reading.</p> <p>Should I migrate away from standard Azure Speech and use the Azure OpenAI voices (alloy, nova) instead? Are they truly seamless for bilingual text?</p> <p>Any advice on the best tech stack or architecture for this would be massively appreciated!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lumpy-Simple9185\"> /u/Lumpy-Simple9185 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tncdcz/best_architecture_for_seamless_bilingual_tts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tncdcz/best_architecture_for_seamless_bilingual_tts/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
