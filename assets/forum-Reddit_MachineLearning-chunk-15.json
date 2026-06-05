@@ -1,5 +1,21 @@
 [
   {
+    "id": "a8eb20a1-dc41-5869-a191-2939d3c69a1d",
+    "title": "Is \"live AI video generation\" a meaningful technical category or just a marketing term? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/",
+    "pubDate": "2026-04-11T18:13:20+00:00",
+    "description": "Asking from a technical standpoint because I feel like the term is doing a lot of work in coverage of this space right now. Genuine real-time video inference, where a model is generating or transforming frames continuously in response to a live input stream, is a fundamentally different problem from fast video generation. Different architecture, different latency constraints, different everything. But in most coverage and most vendor positioning they get lumped together under \"live\" or \"real-time\" and I'm not sure the field has converged on a shared definition. Is there a cleaner way to think about the taxonomy here? And which orgs do people think are actually doing the harder version of the problem? submitted by /u/Tall_Bumblebee1341 [link] [comments]",
+    "author": "/u/Tall_Bumblebee1341",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Asking from a technical standpoint because I feel like the term is doing a lot of work in coverage of this space right now. Genuine real-time video inference, where a model is generating or transforming frames continuously in response to a live input stream, is a fundamentally different problem from fast video generation. Different architecture, different latency constraints, different everything.</p> <p>But in most coverage and most vendor positioning they get lumped together under &quot;live&quot; or &quot;real-time&quot; and I'm not sure the field has converged on a shared definition.</p> <p>Is there a cleaner way to think about the taxonomy here? And which orgs do people think are actually doing the harder version of the problem?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tall_Bumblebee1341\"> /u/Tall_Bumblebee1341 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4119bf80-a737-58f1-b893-11e3c30b9576",
     "title": "FlashAttention (FA1–FA4) in PyTorch - educational implementations focused on algorithmic differences [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Notebook on GitHub: <a href=\"https://github.com/Buzzpy/Python-Machine-Learning-Models/blob/main/Frankenstein/train-frankenstein.ipynb\">https://github.com/Buzzpy/Python-Machine-Learning-Models/blob/main/Frankenstein/train-frankenstein.ipynb</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gamedev-exe\"> /u/gamedev-exe </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sfuwqh/p_building_a_llm_from_scratch_with_mary_shelleys/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sfuwqh/p_building_a_llm_from_scratch_with_mary_shelleys/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e6383923-ad3a-5f7e-9c7c-a9ab8a128d34",
-    "title": "[D] How are reviewers able to get away without providing acknowledgement in ICML 2026?",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sftb6h/d_how_are_reviewers_able_to_get_away_without/",
-    "pubDate": "2026-04-08T13:45:56+00:00",
-    "description": "Today officially marks the end of the author-reviewer discussion period. The acknowledgement deadline has already passed by over 3 days and our submission still hasn't got 1/3 acknowledgement. One of the other acknowledgements picked the option A (fully resolved) for all the weaknesses they pointed out and just commented \"I intend to keep the score unchanged\". What's happening here? We were sitting at 3/3/3 and after the rebuttal, one of the reviewers flipped to a score of 4 with confidence 5. We dropped an AC confidential message after the acknowledgement deadline but did not receive any response. I believe this has lead to a disadvantage for us since that reviewer may only interact during the AC-reviewer discussion and there wont be any input from us to influence the decision at all. With a 4/3/3 in this specific scenario where one reviewer accepted we resolved all their concerns but did not bump the score and the other did not acknowledge the rebuttal, did our chances get worse than before? submitted by /u/ChaosAdm [link] [comments]",
-    "author": "/u/ChaosAdm",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Today officially marks the end of the author-reviewer discussion period. The acknowledgement deadline has already passed by over 3 days and our submission still hasn't got 1/3 acknowledgement. One of the other acknowledgements picked the option A (fully resolved) for all the weaknesses they pointed out and just commented &quot;I intend to keep the score unchanged&quot;. What's happening here?</p> <p>We were sitting at 3/3/3 and after the rebuttal, one of the reviewers flipped to a score of 4 with confidence 5.</p> <p>We dropped an AC confidential message after the acknowledgement deadline but did not receive any response. I believe this has lead to a disadvantage for us since that reviewer may only interact during the AC-reviewer discussion and there wont be any input from us to influence the decision at all.</p> <p>With a 4/3/3 in this specific scenario where one reviewer accepted we resolved all their concerns but did not bump the score and the other did not acknowledge the rebuttal, did our chances get worse than before?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ChaosAdm\"> /u/ChaosAdm </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sftb6h/d_how_are_reviewers_able_to_get_away_without/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sftb6h/d_how_are_reviewers_able_to_get_away_without/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

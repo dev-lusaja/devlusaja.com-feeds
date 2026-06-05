@@ -1,5 +1,21 @@
 [
   {
+    "id": "e0fdf82f-103c-5fcc-b6b0-19ce8493dade",
+    "title": "Anyone from India attending EEML ? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1texuxb/anyone_from_india_attending_eeml_d/",
+    "pubDate": "2026-05-16T16:08:35+00:00",
+    "description": "I got accepted into EEML and I’m a little confused about travel and stay. Has anyone else from India been accepted? Let’s connect! submitted by /u/Suhan_XD [link] [comments]",
+    "author": "/u/Suhan_XD",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I got accepted into EEML and I’m a little confused about travel and stay.</p> <p>Has anyone else from India been accepted? Let’s connect!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Suhan_XD\"> /u/Suhan_XD </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1texuxb/anyone_from_india_attending_eeml_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1texuxb/anyone_from_india_attending_eeml_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "37be5073-6b8e-5fc6-a4cb-69192995b312",
     "title": "Made and Published a Paper Comparing Analysis of CNN and Vision Transformer Architectures for Brain Tumor Detection [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am working on a benchmark and need to manage several interlocking components: datasets and metadata, diverse ML tasks (varying inputs and outputs), and baseline experiments covering models, training, and evaluations. Any pointers to projects that handle these through clean/minimal data structures like Dataclasses or Pydantic. Specifically, I want to see how others manage:</p> <ol> <li><strong>Dataset Information:</strong> Representing dataset cards, metadata, and split definitions as first-class objects.</li> <li><strong>Task Schemas:</strong> Defining ML tasks with specific input and output types to ensure consistency across different models.</li> <li><strong>Experiment Composition:</strong> Structures that link a model and training configuration to a specific evaluation and prediction set.</li> </ol> <p>If you have seen repositories that maintain these abstractions with minimal boilerplate and high type safety, please share them. I am interested in internal code organization rather than external tools like W&amp;B or MLflow. Definitely aware of cookie-cutter data-science, looking for for datastructures.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LetsTacoooo\"> /u/LetsTacoooo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc24to/best_examples_of_ml_projects_with_good/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc24to/best_examples_of_ml_projects_with_good/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "107ebccc-af77-59e8-8e73-074456df95d5",
-    "title": "Human-level performance via ML was *not* proven impossible with complexity theory [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tc1xr3/humanlevel_performance_via_ml_was_not_proven/",
-    "pubDate": "2026-05-13T14:50:40+00:00",
-    "description": "Van Rooij, Guest, Adolfi, Kolokolova, and Rich claimed to have proven that AGI via ML is impossible in Computational Brain & Behavior in 2024. The basic idea was to try to reduce a known NP-hard problem to the problem of learning a human-level classifier from data. The purported result, called \"Ingenia Theorem\" by the authors, made some noise on the internet, including here. My paper showing that the proof is irreparably broken is now also out in CBB (ungated preprint here ). The basic issue is that \"human-level classifier\" is not mathematically defined, which the authors solve by ... never defining it. They have a construct that corresponds to \"distribution of human situation-behaviour tuples\" when they introduce the problem, but the construct then gets swapped out for \"for all polytime-sampleable distributions\" when it comes time to doing the formal proof. This means that the paper, if you find-and-replace human situation-behavior tuples for ImageNet inputs/labels, also proves that learning to classify ImageNet is intractable. Blogpost discussion similar attempts from Penrose to Chomsky here . submitted by /u/mike_uoftdcs [link] [comments]",
-    "author": "/u/mike_uoftdcs",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Van Rooij, Guest, Adolfi, Kolokolova, and Rich <a href=\"https://link.springer.com/article/10.1007/s42113-024-00217-5\">claimed to have proven that AGI via ML is impossible</a> in <em>Computational Brain &amp; Behavior</em> in 2024. The basic idea was to try to reduce a known NP-hard problem to the problem of learning a human-level classifier from data. The purported result, called &quot;Ingenia Theorem&quot; by the authors, made some noise on the internet, including here.</p> <p>My paper showing that the proof is irreparably broken is now <a href=\"https://link.springer.com/article/10.1007/s42113-026-00284-w\">also out in CBB</a> (ungated preprint <a href=\"https://arxiv.org/abs/2411.06498\">here</a>).</p> <p>The basic issue is that &quot;human-level classifier&quot; is not mathematically defined, which the authors solve by ... never defining it. They have a construct that corresponds to &quot;distribution of human situation-behaviour tuples&quot; when they introduce the problem, but the construct then gets swapped out for &quot;for all polytime-sampleable distributions&quot; when it comes time to doing the formal proof. This means that the paper, if you find-and-replace human situation-behavior tuples for ImageNet inputs/labels, also proves that learning to classify ImageNet is intractable.</p> <p>Blogpost discussion similar attempts from Penrose to Chomsky <a href=\"https://mikeguerzhoy.substack.com/p/barriers-to-complexity-theoretic\">here</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mike_uoftdcs\"> /u/mike_uoftdcs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc1xr3/humanlevel_performance_via_ml_was_not_proven/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc1xr3/humanlevel_performance_via_ml_was_not_proven/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

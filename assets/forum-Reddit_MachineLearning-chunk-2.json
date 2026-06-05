@@ -1,5 +1,21 @@
 [
   {
+    "id": "397bb411-c7af-52c7-9d31-5a71449ec609",
+    "title": "Query about non-archival workshop at CVPR-2026 [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1trwork/query_about_nonarchival_workshop_at_cvpr2026_r/",
+    "pubDate": "2026-05-30T10:52:37+00:00",
+    "description": "My paper was recently accepted to a workshop at CVPR-2026 as non-archival acceptance. Is it mandatory for me to register to the conference as I won't be able to attend(visa issues), but my friend will be there in the conference and can present on my behalf. I have few questions regarding my situation: Do I need to finish author registration for a non-archival workshop? Is it mandatory for me to have a poster in the conference venue? Will my paper get removed from the workshop website(where they list out the accepted papers) in case I don't register or not attend offline? Quick replies are appreciated as the deadline is pretty close. Thanks 🙏 submitted by /u/Sky6574 [link] [comments]",
+    "author": "/u/Sky6574",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>My paper was recently accepted to a workshop at CVPR-2026 as non-archival acceptance. Is it mandatory for me to register to the conference as I won't be able to attend(visa issues), but my friend will be there in the conference and can present on my behalf.</p> <p>I have few questions regarding my situation:</p> <ol> <li>Do I need to finish author registration for a non-archival workshop?</li> <li>Is it mandatory for me to have a poster in the conference venue?</li> <li>Will my paper get removed from the workshop website(where they list out the accepted papers) in case I don't register or not attend offline?</li> </ol> <p>Quick replies are appreciated as the deadline is pretty close. Thanks 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sky6574\"> /u/Sky6574 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1trwork/query_about_nonarchival_workshop_at_cvpr2026_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1trwork/query_about_nonarchival_workshop_at_cvpr2026_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bf3d669a-f29e-5fa6-8314-f505c8f36d86",
     "title": "Why do the output layer weights become word vectors in Word2Vec? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Last month NVIDIA released <a href=\"https://research.nvidia.com/benchmarks/sol-execbench\">SOL-ExecBench</a>, a new benchmark of 235 production CUDA kernels lifted from DeepSeek, Qwen, Gemma, and Kimi. We took several top-ranked AI-generated submissions and tried using them in production workloads. Many of them broke, sometimes in surprising ways.</p> <p>One of those kernels is the fused embedding-gradient + RMSNorm backward pass, which runs at the end of every transformer training step. We took the fastest submission on the benchmark for it, and dropped it into the training loop of a small transformer. The kernel had passed the benchmark's verifier with room to spare. But in our training run, the loss diverged and never recovered.</p> <p>We started debugging. Replace the dataset distribution with uniformly sampled tokens, the divergence vanishes. Swap SGD for AdamW, also vanishes.</p> <p>This is the worst kind of bug for research. Symptoms and masks both look exactly like &quot;the idea didn't work&quot;. It's the type of bug that can make researchers spend a long time debugging without knowing what's at fault: the dataset? the research idea? the architecture? or the implementation itself?</p> <p>Turns out, the actual bug is that the embedding-gradient half of the kernel accumulates in bf16 instead of fp32. Embedding backward sums many small gradient contributions into each token's row of the embedding matrix. With uniform random tokens the contributions spread evenly and bf16 precision is enough. In real text, a handful of token IDs end up with thousands of contributions: the small ones round to zero against the growing accumulator, and the high-frequency rows drift. AdamW's per-parameter normalization absorbs the resulting multiplicative bias, so under AdamW the same drift is invisible in the loss.</p> <p>The other broken submissions had different bug shapes (all interesting). More examples in <a href=\"https://www.doubleai.com/research/warpspeed-approaches-speed-of-light-on-blackwell\">our blogpost</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/laginimaineb\"> /u/laginimaineb </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5270f2af-3d4e-5022-9fa1-d853614d6086",
-    "title": "Best Text to Text Translation Model? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tp92yj/best_text_to_text_translation_model_d/",
-    "pubDate": "2026-05-27T15:32:27+00:00",
-    "description": "I'm working on a project that translates any language into English. So far, I've tried NMT models like NLLB, MADLAD, and SeamlessM4T v2. The main issue is that they struggle with proper nouns such as: - names - places - dates - organizations I also tried LLMs like Gemma 4, Qwen 3 4B, and Aya Tiny Global, but the issue still persists. The LLMs sometimes partially translate or modify entity names as well. I even tried NER masking / placeholder replacement before translation, but multilingual NER itself becomes a bottleneck. Most NER models only work reliably for a limited set of languages, while my dataset contains 100+ languages, including many low-resource ones. How do production systems usually handle this problem? Are there better multilingual translation models, multilingual NER approaches, or decoding techniques for preserving entities properly? Requirements: - Support for 100+ languages - Runs locally on an RTX GPU - Model size under 7B - English is always the target language. submitted by /u/Illustrious_Age_2792 [link] [comments]",
-    "author": "/u/Illustrious_Age_2792",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm working on a project that translates any language into English.</p> <p>So far, I've tried NMT models like NLLB, MADLAD, and SeamlessM4T v2.</p> <p>The main issue is that they struggle with proper nouns such as:</p> <p>- names</p> <p>- places</p> <p>- dates</p> <p>- organizations</p> <p>I also tried LLMs like Gemma 4, Qwen 3 4B, and Aya Tiny Global, but the issue still persists. The LLMs sometimes partially translate or modify entity names as well.</p> <p>I even tried NER masking / placeholder replacement before translation, but multilingual NER itself becomes a bottleneck. Most NER models only work reliably for a limited set of languages, while my dataset contains 100+ languages, including many low-resource ones.</p> <p>How do production systems usually handle this problem? Are there better multilingual translation models, multilingual NER approaches, or decoding techniques for preserving entities properly?</p> <p>Requirements:</p> <p>- Support for 100+ languages</p> <p>- Runs locally on an RTX GPU</p> <p>- Model size under 7B</p> <p>- English is always the target language.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Illustrious_Age_2792\"> /u/Illustrious_Age_2792 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tp92yj/best_text_to_text_translation_model_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tp92yj/best_text_to_text_translation_model_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

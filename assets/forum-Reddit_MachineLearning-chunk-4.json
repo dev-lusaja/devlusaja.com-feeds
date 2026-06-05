@@ -1,5 +1,21 @@
 [
   {
+    "id": "accb15fe-dced-54a5-884f-92bf44f50e73",
+    "title": "If you use NVIDIA Isaac Sim for reinforcement learning, do you use Isaac Lab with it? Just want to get a sense of what the status quo is. [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tn1rtk/if_you_use_nvidia_isaac_sim_for_reinforcement/",
+    "pubDate": "2026-05-25T07:26:30+00:00",
+    "description": "The reason for this query is that I am in the process of shifting to Isaac Sim / Isaac Lab since that is what seems to be in use nowadays. However, Isaac Lab is proving to be somewhat difficult to handle. While it handles the logging, and the creation of multi-actor systems for algorithms like PPO beautifully (with, say, hundreds of actors), its documentation leaves much to be desired. I am also concerned about the ease of setting up new robotic environments, actions, rewards, policies and possibly even custom algorithms. So, what is it that you do at your lab? In my mind there's a trade-off. On the one hand, I use the Isaac Lab scaffolding but run into its idiosyncracies very frequently until I document everything I need. Or, I interface directly with Isaac Sim, but then I need to write my own handlers for interfacing Isaac Sim with the RL agent. submitted by /u/StayingUp4AFeeling [link] [comments]",
+    "author": "/u/StayingUp4AFeeling",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>The reason for this query is that I am in the process of shifting to Isaac Sim / Isaac Lab since that is what seems to be in use nowadays. However, Isaac Lab is proving to be somewhat difficult to handle.</p> <p>While it handles the logging, and the creation of multi-actor systems for algorithms like PPO beautifully (with, say, hundreds of actors), its documentation leaves much to be desired. I am also concerned about the ease of setting up new robotic environments, actions, rewards, policies and possibly even custom algorithms.</p> <p>So, what is it that <em>you</em> do at your lab?</p> <p>In my mind there's a trade-off. On the one hand, I use the Isaac Lab scaffolding but run into its idiosyncracies very frequently until I document everything I need. Or, I interface directly with Isaac Sim, but then I need to write my own handlers for interfacing Isaac Sim with the RL agent.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StayingUp4AFeeling\"> /u/StayingUp4AFeeling </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tn1rtk/if_you_use_nvidia_isaac_sim_for_reinforcement/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tn1rtk/if_you_use_nvidia_isaac_sim_for_reinforcement/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6b298fe9-747b-5267-b8a3-b4aaa582fad6",
     "title": "Please help with tensor dock [d]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tmt47h/please_help_with_tensor_dock_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Most liveness detection systems in production today were built around a threat model where the attacker is submitting a static image or a basic replay video. The generation quality of current synthetic media is categorically different from what those training datasets captured.</p> <p>The question I keep coming back to is whether a model trained on historical deepfake samples can generalise to generation techniques that did not exist when the training data was assembled. And if the answer is no, what does the update cycle look like for vendors claiming deepfake detection as a core capability.</p> <p>I asked two identity verification vendors this directly and got answers that sounded confident without addressing the temporal gap between training data and current generation quality.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unique_Buy_3905\"> /u/Unique_Buy_3905 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "47a0098b-69d4-55f2-8d12-72b7b4a55477",
-    "title": "using .npy dataset with 3D models [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tjqdhf/using_npy_dataset_with_3d_models_r/",
-    "pubDate": "2026-05-21T16:48:59+00:00",
-    "description": "Hello guys , i am trying to work on ADNI dataset to get 90% accuracy , but it keeps getting stuck at 55%. any tip to improve results ? submitted by /u/LahmeriMohamed [link] [comments]",
-    "author": "/u/LahmeriMohamed",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello guys , i am trying to work on ADNI dataset to get 90% accuracy , but it keeps getting stuck at 55%. any tip to improve results ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LahmeriMohamed\"> /u/LahmeriMohamed </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjqdhf/using_npy_dataset_with_3d_models_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjqdhf/using_npy_dataset_with_3d_models_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
