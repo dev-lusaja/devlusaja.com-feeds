@@ -1,5 +1,37 @@
 [
   {
+    "id": "fa72d4da-f61a-51a6-aabc-3828b1c6a039",
+    "title": "Using FC26 to simulate the world cup ? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tybqrx/using_fc26_to_simulate_the_world_cup_d/",
+    "pubDate": "2026-06-06T08:34:37+00:00",
+    "description": "maybe this should be asked in the Fc26 game subreddit but not sure. Anyway I just saw a video of someone predicting the winner of the world cup using the simulate match feature in the game but he only did it once. Would running this feature 100-1000 times give a significant result ? or is that feature only based on luck ? submitted by /u/Stillane [link] [comments]",
+    "author": "/u/Stillane",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>maybe this should be asked in the Fc26 game subreddit but not sure. Anyway I just saw a video of someone predicting the winner of the world cup using the simulate match feature in the game but he only did it once. Would running this feature 100-1000 times give a significant result ? or is that feature only based on luck ? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Stillane\"> /u/Stillane </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tybqrx/using_fc26_to_simulate_the_world_cup_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tybqrx/using_fc26_to_simulate_the_world_cup_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "e969ab5c-7f5e-5d77-8ae3-e4904e9a58f6",
+    "title": "Building a Custom Drones MuJoCo Environment [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/",
+    "pubDate": "2026-06-06T03:24:43+00:00",
+    "description": "Hi all, Lately I have been working on creating a package for Multi Agent RL based drone environments with different objectives, all bundled into a single GitHub repository: https://github.com/tau-intelligence/MuJoCo-drones-gym I am currently trying to organize things for RL community people, with a couple more tools coming soon. But right now, I want to make it useful for the community and hence would love some feedback from different people, about how I could improve it, incorporate more things into it or fix some broken implementation. Also everyone is welcome to raise issues on the repo. Thank you for the support. PS: I have some research publications at RL and ML venues regarding work on RL, though I still want to consider myself as a student of the field and hence would love your help here. submitted by /u/MT1699 [link] [comments]",
+    "author": "/u/MT1699",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, Lately I have been working on creating a package for Multi Agent RL based drone environments with different objectives, all bundled into a single GitHub repository: <a href=\"https://github.com/tau-intelligence/MuJoCo-drones-gym\">https://github.com/tau-intelligence/MuJoCo-drones-gym</a></p> <p>I am currently trying to organize things for RL community people, with a couple more tools coming soon. But right now, I want to make it useful for the community and hence would love some feedback from different people, about how I could improve it, incorporate more things into it or fix some broken implementation. Also everyone is welcome to raise issues on the repo.</p> <p>Thank you for the support.</p> <p>PS: I have some research publications at RL and ML venues regarding work on RL, though I still want to consider myself as a student of the field and hence would love your help here.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MT1699\"> /u/MT1699 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "956544a1-7a30-5329-ac2e-0707e5f21e5c",
     "title": "TinyTPU: SystemVerilog systolic array compiled to WASM, running live in browser - RTL golden-verified against numpy [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/\"> <img alt=\"MiniMax dropped a new attention architecture. [N]\" src=\"https://preview.redd.it/gvokff4l0z4h1.png?width=140&amp;height=80&amp;auto=webp&amp;s=80f1c2fd94bf5a34696b868003146205b01a0316\" title=\"MiniMax dropped a new attention architecture. [N]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>It contains something interesting about context windows.</p> <p>They’re natively scaling to 1M tokens with <strong>MiniMax Sparse Attention (MSA)</strong>, bypassing standard quadratic complexity by completely restructuring the memory access patterns at the operator level.</p> <p>Instead of relying on typical sparse approximations that degrade recall, MSA utilizes a clean &quot;<em>KV outer gather Q</em>&quot; approach.</p> <p>By treating KV blocks as the outer loop to aggregate hit queries, hardware memory reads remain strictly contiguous, and each block is fetched exactly once.</p> <p>The low-level performance gains are interesting:</p> <p>→ 4× faster execution speed compared to Flash-Sparse-Attention.</p> <p>→ Per-token compute drops to 1/20th of their previous-generation models at full 1M context depth.</p> <p>→ 9× speedup in prefilling and a 15× speedup in decoding phases.</p> <p>Also, it claims to be the first open-weight model with all three: frontier coding, 1M context, and native multimodality.</p> <p>Some good optimization of hardware-level data transport and memory layouts to support sustained, long-horizon agent execution.</p> <p>Thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/superintelligence03\"> /u/superintelligence03 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/gvokff4l0z4h1.png?width=140&height=80&auto=webp&s=80f1c2fd94bf5a34696b868003146205b01a0316",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b5b892ac-6123-589d-b264-752ddc45f566",
-    "title": "Thoughts on Logical Intelligence’s Kona [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tuyqpv/thoughts_on_logical_intelligences_kona_d/",
-    "pubDate": "2026-06-02T17:56:00+00:00",
-    "description": "Sometime late last year a company called Logical Intelligence developed an EBM called Kona. What do people make of the company’s claims that they have a close to functioning EBM. And if true, what impact would this have on existing AI? submitted by /u/Treey1234 [link] [comments]",
-    "author": "/u/Treey1234",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Sometime late last year a company called Logical Intelligence developed an EBM called Kona. What do people make of the company’s claims that they have a close to functioning EBM. And if true, what impact would this have on existing AI? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Treey1234\"> /u/Treey1234 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tuyqpv/thoughts_on_logical_intelligences_kona_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tuyqpv/thoughts_on_logical_intelligences_kona_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f365b443-aef5-5a7c-afc5-8cc237b0e87a",
-    "title": "MTPAMI Survey Paper Length for submission time? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1turyvl/mtpami_survey_paper_length_for_submission_time_d/",
-    "pubDate": "2026-06-02T14:04:54+00:00",
-    "description": "My paper is around 33 pages including but tpami guideline said it should be 20 pages Does anyone know which is correct? Its mistake it’s TPAMI submitted by /u/Alternative_Art2984 [link] [comments]",
-    "author": "/u/Alternative_Art2984",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>My paper is around 33 pages including but tpami guideline said it should be 20 pages</p> <p>Does anyone know which is correct?</p> <p>Its mistake it’s TPAMI</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1turyvl/mtpami_survey_paper_length_for_submission_time_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1turyvl/mtpami_survey_paper_length_for_submission_time_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
