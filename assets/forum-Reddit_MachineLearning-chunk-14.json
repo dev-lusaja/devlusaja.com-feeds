@@ -1,5 +1,37 @@
 [
   {
+    "id": "bef81500-7df1-5fcd-9974-7625a6670510",
+    "title": "Visualizing Loss Landscapes of Neural Networks [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/",
+    "pubDate": "2026-04-28T17:04:39+00:00",
+    "description": "Hey r/MachineLearning , Visualizing the loss landscape of a neural network is notoriously tricky since we can't naturally comprehend million-dimensional spaces. We often rely on basic 2D contour analogies, which don't always capture the true geometry of the space or the sharpness of local minima. I built an interactive browser experiment https://www.hackerstreak.com/articles/visualize-loss-landscape/ to help build better intuitions for this. It maps how different optimizers navigate these spaces and lets you actually visualize the terrain. To generate the 3D surface plots, I used the methodology from Li et al. (NeurIPS 2018) . This is entirely a client-side web tool. You can adjust architectures (ranging from simple 1-layer MLPs up to ResNet-8 and LeNet-5), swap between synthetic or real image datasets, and render the resulting landscape. A known limitation of these dimensionality reductions is that 2D/3D projections can sometimes create geometric surfaces that don't exist in the true high-dimensional space. I'd love to hear from anyone who studies optimization theory and how much stock do you actually put into these visual analysis when analysing model generalization or debugging. submitted by /u/Hackerstreak [link] [comments]",
+    "author": "/u/Hackerstreak",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/\"> <img alt=\"Visualizing Loss Landscapes of Neural Networks [P]\" src=\"https://preview.redd.it/qrcfyilwpyxg1.gif?frame=1&amp;width=140&amp;height=78&amp;auto=webp&amp;s=187ed911ce97040c1a948a5aaed52ddb0a86f161\" title=\"Visualizing Loss Landscapes of Neural Networks [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"https://www.reddit.com/r/MachineLearning\">r/MachineLearning</a>,</p> <p>Visualizing the loss landscape of a neural network is notoriously tricky since we can't naturally comprehend million-dimensional spaces. We often rely on basic 2D contour analogies, which don't always capture the true geometry of the space or the sharpness of local minima.</p> <p>I built an interactive browser experiment <a href=\"https://www.hackerstreak.com/articles/visualize-loss-landscape/\">https://www.hackerstreak.com/articles/visualize-loss-landscape/</a> to help build better intuitions for this. It maps how different optimizers navigate these spaces and lets you actually visualize the terrain.</p> <p>To generate the 3D surface plots, I used the methodology from <em>Li et al. (NeurIPS 2018)</em>. This is entirely a client-side web tool. You can adjust architectures (ranging from simple 1-layer MLPs up to ResNet-8 and LeNet-5), swap between synthetic or real image datasets, and render the resulting landscape. </p> <p>A known limitation of these dimensionality reductions is that 2D/3D projections can sometimes create geometric surfaces that don't exist in the true high-dimensional space. I'd love to hear from anyone who studies optimization theory and how much stock do you actually put into these visual analysis when analysing model generalization or debugging.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hackerstreak\"> /u/Hackerstreak </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1sy7f5r\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/qrcfyilwpyxg1.gif?frame=1&width=140&height=78&auto=webp&s=187ed911ce97040c1a948a5aaed52ddb0a86f161",
+    "isShortVideo": 0
+  },
+  {
+    "id": "855b30e7-bda6-5631-ac29-5b40c6602930",
+    "title": "ACL ARR March 2026 Cycle [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sy3xuz/acl_arr_march_2026_cycle_d/",
+    "pubDate": "2026-04-28T15:01:42+00:00",
+    "description": "Starting a thread to discuss the ARR reviews for this cycle, as they will be released today. submitted by /u/Pure-Ad9079 [link] [comments]",
+    "author": "/u/Pure-Ad9079",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Starting a thread to discuss the ARR reviews for this cycle, as they will be released today. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pure-Ad9079\"> /u/Pure-Ad9079 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy3xuz/acl_arr_march_2026_cycle_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy3xuz/acl_arr_march_2026_cycle_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "af9a07cc-ee42-5b35-8f6e-29df1422fbb0",
     "title": "The loss curve said tie. The judges said otherwise. Seeking replication for an early LLM training result [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1sy3fi1/the_loss_curve_said_tie_the_judges_said_otherwise/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1sjg4ph/training_an_ai_to_play_resident_evil_requiem/\"> <img alt=\"Training an AI to play Resident Evil Requiem using Behavior Cloning + HG-DAgge [P]\" src=\"https://external-preview.redd.it/noWmQ9-3r-JtsFMmjT3hF1M_H3SrjiBqHxoaSpDykgs.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=dc5e4bca3bed0b9704897094fd1b26ff8bdf684c\" title=\"Training an AI to play Resident Evil Requiem using Behavior Cloning + HG-DAgge [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Code of Project: <a href=\"https://github.com/paulo101977/notebooks-rl/tree/main/re_requiem\">https://github.com/paulo101977/notebooks-rl/tree/main/re_requiem</a> </p> <p>I’ve been working on training an agent to play a segment of <em>Resident Evil Requiem</em>, focusing on a fast-paced, semi-linear escape sequence with enemies and time pressure.</p> <p>Instead of going fully reinforcement learning from scratch, I used a hybrid approach:</p> <ul> <li><strong>Behavior Cloning (BC)</strong> for initial policy learning from human demonstrations</li> <li><strong>HG-DAgger</strong> to iteratively improve performance and reduce compounding errors</li> </ul> <p>The environment is based on gameplay capture, where I map controller inputs into a discretized action space. Observations are extracted directly from frames (with some preprocessing), and the agent learns to mimic and then refine behavior over time.</p> <p>One of the main challenges was the instability early on — especially when the agent deviates slightly from the demonstrated trajectories (classic BC issue). HG-DAgger helped a lot by correcting those off-distribution states.</p> <p>Another tricky part was synchronizing actions with what’s actually happening on screen, since even small timing mismatches can completely break learning in this kind of game.</p> <p>After training, the agent is able to:</p> <ul> <li>Navigate the sequence consistently</li> <li>React to enemies in real time</li> <li>Recover from small deviations (to some extent)</li> </ul> <p>I’m still experimenting with improving robustness and generalization (right now it’s quite specialized to this segment).</p> <p>Happy to share more details (training setup, preprocessing, action space, etc.) if anyone’s interested.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgeOfEmpires4AOE4\"> /u/AgeOfEmpires4AOE4 </a> <br /> <span><a href=\"https://youtu.be/b3tCWlyWyg8?si=BFX3e41jsBsA7_Dd\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sjg4ph/training_an_ai_to_play_resident_evil_requiem/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/noWmQ9-3r-JtsFMmjT3hF1M_H3SrjiBqHxoaSpDykgs.jpeg?width=320&crop=smart&auto=webp&s=dc5e4bca3bed0b9704897094fd1b26ff8bdf684c",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f1e3f4aa-8d87-52f7-81b9-1126e15b8de3",
-    "title": "Gary Marcus on the Claude Code leak [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/",
-    "pubDate": "2026-04-12T10:34:37+00:00",
-    "description": "Gary Marcus just tweeted: ... the way Anthropic built that kernel is straight out of classical symbolic AI. For example, it is in large part a big IF-THEN conditional, with 486 branch points and 12 levels of nesting — all inside a deterministic, symbolic loop that the real godfathers of AI, people like John McCarthy and Marvin Minsky and Herb Simon, would have instantly recognized I've read my share of classical AI books, but I cannot say that 486 branch points and 12 levels of nesting make me think of any classical AI algorithm. (They make me think of a giant ball of mud that grew more \"special cases\" over time). Anyways, what is he talking about? submitted by /u/we_are_mammals [link] [comments]",
-    "author": "/u/we_are_mammals",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Gary Marcus just tweeted:</p> <blockquote> <p>... the way Anthropic built that kernel is straight out of classical symbolic AI. For example, it is in large part a big IF-THEN conditional, with 486 branch points and 12 levels of nesting — all inside a deterministic, symbolic loop that the real godfathers of AI, people like John McCarthy and Marvin Minsky and Herb Simon, would have instantly recognized</p> </blockquote> <p>I've read my share of classical AI books, but I cannot say that 486 branch points and 12 levels of nesting make me think of any classical AI algorithm. (They make me think of a giant ball of mud that grew more &quot;special cases&quot; over time). Anyways, what is he talking about? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "39785c6b-08e6-5099-946d-47749693d9e6",
-    "title": "ArcFace embeddings quantized to 16-bit pgvector HALFVEC ? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sj960m/arcface_embeddings_quantized_to_16bit_pgvector/",
-    "pubDate": "2026-04-12T08:45:37+00:00",
-    "description": "512-dim face embeddings as 32-bit floats are 2048 bytes, plus a 4-8 byte header, putting them just a hair over over PostgreSQL's TOAST threshold (2040 bytes), meaning by default postgresql always dumps them into a TOAST table instead of keeping them in line (result: double the I/O because it has to look up a data pointer and do another read). Obviously HNSW bypasses this issue entirely, but I'm wondering if 32-bit precision for ArcFace embeddings even makes a difference? The loss functions these models are trained with tend to push same-identity faces and different-identity faces pretty far apart in space. So should be fine to quantize these to 16 bits, if my math maths, that's not going to make a difference in real world situations (if you translate it to a normalize 0.0 - 100.0 \"face similarity\" we're talking something differences somewhere around the third decimal place so 0.001 or so). A HALFVEC would be 1/2 the storage and would also be half the I/O ops because they'd get stored inline rather than spilled out to TOAST, and get picked up in the same page read. Does this sound right? Is this a pretty standard way to quantize ArcFace embeddings or am I missing something? submitted by /u/dangerousdotnet [link] [comments]",
-    "author": "/u/dangerousdotnet",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>512-dim face embeddings as 32-bit floats are 2048 bytes, plus a 4-8 byte header, putting them just a hair over over PostgreSQL's TOAST threshold (2040 bytes), meaning by default postgresql always dumps them into a TOAST table instead of keeping them in line (result: double the I/O because it has to look up a data pointer and do another read). </p> <p>Obviously HNSW bypasses this issue entirely, but I'm wondering if 32-bit precision for ArcFace embeddings even makes a difference? The loss functions these models are trained with tend to push same-identity faces and different-identity faces pretty far apart in space. So should be fine to quantize these to 16 bits, if my math maths, that's not going to make a difference in real world situations (if you translate it to a normalize 0.0 - 100.0 &quot;face similarity&quot; we're talking something differences somewhere around the third decimal place so 0.001 or so). </p> <p>A HALFVEC would be 1/2 the storage and would also be half the I/O ops because they'd get stored inline rather than spilled out to TOAST, and get picked up in the same page read. </p> <p>Does this sound right? Is this a pretty standard way to quantize ArcFace embeddings or am I missing something?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dangerousdotnet\"> /u/dangerousdotnet </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sj960m/arcface_embeddings_quantized_to_16bit_pgvector/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sj960m/arcface_embeddings_quantized_to_16bit_pgvector/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
