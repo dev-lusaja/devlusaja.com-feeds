@@ -1,5 +1,21 @@
 [
   {
+    "id": "6591524f-9750-53df-a5c2-c9c3a114d3dc",
+    "title": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/",
+    "pubDate": "2026-06-10T14:14:39+00:00",
+    "description": "Seems like they have engineered some specific limitations that are widely cited as follows: In light of the ability of recent models to accelerate their own development, we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but enforcing this restriction through our safeguards avoids accelerating the actors most willing to violate these terms. Unlike our interventions for cybersecurity, biology and chemistry, and distillation attempts, these safeguards will not be visible to the user. Fable 5 will not fall back to a different model. Instead, the safeguards will limit effectiveness through methods such as prompt modification, steering vectors, or parameter-efficient fine-tuning (PEFT). These interventions will not affect the vast majority of coding work. We estimate they will impact ~0.03% of traffic, concentrated in fewer than 0.1% of organizations https://news.ycombinator.com/item?id=48464732 Other comments note how even using the word 'nuclear' in the context of scientific research elicits refusal behavior by the model: https://news.ycombinator.com/item?id=48473302 This makes it seem quite plausible that the model could subtly sabotage any machine learning work (even as false positive). Some suggest this has been happening behind the scenes for a while already, but can anyone confirm that? submitted by /u/AccomplishedCat4770 [link] [comments]",
+    "author": "/u/AccomplishedCat4770",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Seems like they have engineered some specific limitations that are widely cited as follows:</p> <blockquote> <p>In light of the ability of recent models to accelerate their own development, we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but enforcing this restriction through our safeguards avoids accelerating the actors most willing to violate these terms.</p> <p>Unlike our interventions for cybersecurity, biology and chemistry, and distillation attempts, these safeguards will not be visible to the user. Fable 5 will not fall back to a different model. Instead, the safeguards will limit effectiveness through methods such as prompt modification, steering vectors, or parameter-efficient fine-tuning (PEFT). These interventions will not affect the vast majority of coding work. We estimate they will impact ~0.03% of traffic, concentrated in fewer than 0.1% of organizations <a href=\"https://news.ycombinator.com/item?id=48464732\">https://news.ycombinator.com/item?id=48464732</a></p> </blockquote> <p>Other comments note how even using the word 'nuclear' in the context of scientific research elicits refusal behavior by the model: <a href=\"https://news.ycombinator.com/item?id=48473302\">https://news.ycombinator.com/item?id=48473302</a></p> <p>This makes it seem quite plausible that the model could subtly sabotage any machine learning work (even as false positive). Some suggest this has been happening behind the scenes for a while already, but can anyone confirm that?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AccomplishedCat4770\"> /u/AccomplishedCat4770 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c8a7e3bc-3b40-5224-bd00-ca84f222b6d5",
     "title": "Should I Commit and Publish the Results? [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u1y94p/should_i_commit_and_publish_the_results_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>maybe this should be asked in the Fc26 game subreddit but not sure. Anyway I just saw a video of someone predicting the winner of the world cup using the simulate match feature in the game but he only did it once. Would running this feature 100-1000 times give a significant result ? or is that feature only based on luck ? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Stillane\"> /u/Stillane </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tybqrx/using_fc26_to_simulate_the_world_cup_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tybqrx/using_fc26_to_simulate_the_world_cup_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e969ab5c-7f5e-5d77-8ae3-e4904e9a58f6",
-    "title": "Building a Custom Drones MuJoCo Environment [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/",
-    "pubDate": "2026-06-06T03:24:43+00:00",
-    "description": "Hi all, Lately I have been working on creating a package for Multi Agent RL based drone environments with different objectives, all bundled into a single GitHub repository: https://github.com/tau-intelligence/MuJoCo-drones-gym I am currently trying to organize things for RL community people, with a couple more tools coming soon. But right now, I want to make it useful for the community and hence would love some feedback from different people, about how I could improve it, incorporate more things into it or fix some broken implementation. Also everyone is welcome to raise issues on the repo. Thank you for the support. PS: I have some research publications at RL and ML venues regarding work on RL, though I still want to consider myself as a student of the field and hence would love your help here. submitted by /u/MT1699 [link] [comments]",
-    "author": "/u/MT1699",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, Lately I have been working on creating a package for Multi Agent RL based drone environments with different objectives, all bundled into a single GitHub repository: <a href=\"https://github.com/tau-intelligence/MuJoCo-drones-gym\">https://github.com/tau-intelligence/MuJoCo-drones-gym</a></p> <p>I am currently trying to organize things for RL community people, with a couple more tools coming soon. But right now, I want to make it useful for the community and hence would love some feedback from different people, about how I could improve it, incorporate more things into it or fix some broken implementation. Also everyone is welcome to raise issues on the repo.</p> <p>Thank you for the support.</p> <p>PS: I have some research publications at RL and ML venues regarding work on RL, though I still want to consider myself as a student of the field and hence would love your help here.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MT1699\"> /u/MT1699 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

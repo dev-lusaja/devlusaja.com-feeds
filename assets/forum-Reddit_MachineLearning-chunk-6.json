@@ -1,5 +1,21 @@
 [
   {
+    "id": "d8d51319-7cce-5ae5-abb3-c67afc594968",
+    "title": "Can liveness detection models generalise to synthetic media generation techniques they were never trained on? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/",
+    "pubDate": "2026-05-21T19:24:45+00:00",
+    "description": "Most liveness detection systems in production today were built around a threat model where the attacker is submitting a static image or a basic replay video. The generation quality of current synthetic media is categorically different from what those training datasets captured. The question I keep coming back to is whether a model trained on historical deepfake samples can generalise to generation techniques that did not exist when the training data was assembled. And if the answer is no, what does the update cycle look like for vendors claiming deepfake detection as a core capability. I asked two identity verification vendors this directly and got answers that sounded confident without addressing the temporal gap between training data and current generation quality. submitted by /u/Unique_Buy_3905 [link] [comments]",
+    "author": "/u/Unique_Buy_3905",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most liveness detection systems in production today were built around a threat model where the attacker is submitting a static image or a basic replay video. The generation quality of current synthetic media is categorically different from what those training datasets captured.</p> <p>The question I keep coming back to is whether a model trained on historical deepfake samples can generalise to generation techniques that did not exist when the training data was assembled. And if the answer is no, what does the update cycle look like for vendors claiming deepfake detection as a core capability.</p> <p>I asked two identity verification vendors this directly and got answers that sounded confident without addressing the temporal gap between training data and current generation quality.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unique_Buy_3905\"> /u/Unique_Buy_3905 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "47a0098b-69d4-55f2-8d12-72b7b4a55477",
     "title": "using .npy dataset with 3D models [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tjqdhf/using_npy_dataset_with_3d_models_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am learning Physics informed neural network (PINN). I am playing with simple 1rst/2nd 1D ODEs and I am calculating the loss functions by adding the initial condition loss and Physics loss (e.g. Total loss = lambda1 (L1) * Physics_loss (PL) + lambda2 (L2) * IC_loss (IL)). Regardless of the magnitude of the loss and lambda values, the total loss is a single numeric a value. How does the neural network model predicts if I impose higher weights (lambda) for one of the losses. For instance,</p> <p>lets say, PL = 5, IC_Loss = 3, L1 = 0.6 ,L2 = 1, then total loss = 6. However, this values 6 can be achieved through several other combinations. For instance, L1 = 1 and L2 = 0.33 would result in a similar value. Given this, how the model actually learns which losses are given more weightage, which are not, and uses this information to correct its predictions? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cae_shot\"> /u/cae_shot </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thitoz/how_does_loss_functions_work_in_pinn_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thitoz/how_does_loss_functions_work_in_pinn_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "468c484a-5f09-51d0-9b12-5edbe3f8c29a",
-    "title": "A Simple Solution to Improve Broken Peer Review System at AI Conferences [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1the441/a_simple_solution_to_improve_broken_peer_review/",
-    "pubDate": "2026-05-19T06:12:02+00:00",
-    "description": "An issue with the peer review system is reciprocal reviewing, which incentivizes reviewers to unfairly reject good papers to increase their own papers' chances of acceptance. My proposed solution is that the conference should divide the authors/papers into 2 halves (A and B). If you are an author in half A, then you will only be a reviewer in half B. All papers by the same author, their coauthors, and coauthors of coauthors should be in the same half. Each AC/SAC can only serve in one half and acceptance decisions for the two halves would be independent. So reciprocal reviewers will not have incentive to reject good papers to serve themselves. Furthermore, the discussion period for the two halves should not be concurrent. This way the reciprocal reviewer will have sufficient time to discuss author rebuttals as they will not have to deal with their own papers concurrently. Maybe the first 2 weeks can be the discussion period for half A, and the next two weeks for half B. I don't think conference organizers have thought of this solution, because if they have, there is no excuse for not trying to implement it because it does not hurt the conference's self-interest in any way. Does anyone think this will work? If so, I hope someone of more power than me might ask the conferences to implement it. submitted by /u/isentropiccombustor [link] [comments]",
-    "author": "/u/isentropiccombustor",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>An issue with the peer review system is reciprocal reviewing, which incentivizes reviewers to unfairly reject good papers to increase their own papers' chances of acceptance.</p> <p>My proposed solution is that the conference should divide the authors/papers into 2 halves (A and B). If you are an author in half A, then you will only be a reviewer in half B. All papers by the same author, their coauthors, and coauthors of coauthors should be in the same half.</p> <p>Each AC/SAC can only serve in one half and acceptance decisions for the two halves would be independent. So reciprocal reviewers will not have incentive to reject good papers to serve themselves.</p> <p>Furthermore, the discussion period for the two halves should not be concurrent. This way the reciprocal reviewer will have sufficient time to discuss author rebuttals as they will not have to deal with their own papers concurrently. Maybe the first 2 weeks can be the discussion period for half A, and the next two weeks for half B.</p> <p>I don't think conference organizers have thought of this solution, because if they have, there is no excuse for not trying to implement it because it does not hurt the conference's self-interest in any way.</p> <p>Does anyone think this will work? If so, I hope someone of more power than me might ask the conferences to implement it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/isentropiccombustor\"> /u/isentropiccombustor </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1the441/a_simple_solution_to_improve_broken_peer_review/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1the441/a_simple_solution_to_improve_broken_peer_review/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

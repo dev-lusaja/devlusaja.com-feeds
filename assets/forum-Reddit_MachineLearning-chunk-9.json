@@ -1,5 +1,21 @@
 [
   {
+    "id": "02be90f3-7d55-567b-b9ea-1fdf36cc00d0",
+    "title": "Best examples of ML projects with good dataset/task code abstractions? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tc24to/best_examples_of_ml_projects_with_good/",
+    "pubDate": "2026-05-13T14:57:56+00:00",
+    "description": "I am working on a benchmark and need to manage several interlocking components: datasets and metadata, diverse ML tasks (varying inputs and outputs), and baseline experiments covering models, training, and evaluations. Any pointers to projects that handle these through clean/minimal data structures like Dataclasses or Pydantic. Specifically, I want to see how others manage: Dataset Information: Representing dataset cards, metadata, and split definitions as first-class objects. Task Schemas: Defining ML tasks with specific input and output types to ensure consistency across different models. Experiment Composition: Structures that link a model and training configuration to a specific evaluation and prediction set. If you have seen repositories that maintain these abstractions with minimal boilerplate and high type safety, please share them. I am interested in internal code organization rather than external tools like W&B or MLflow. Definitely aware of cookie-cutter data-science, looking for for datastructures. submitted by /u/LetsTacoooo [link] [comments]",
+    "author": "/u/LetsTacoooo",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am working on a benchmark and need to manage several interlocking components: datasets and metadata, diverse ML tasks (varying inputs and outputs), and baseline experiments covering models, training, and evaluations. Any pointers to projects that handle these through clean/minimal data structures like Dataclasses or Pydantic. Specifically, I want to see how others manage:</p> <ol> <li><strong>Dataset Information:</strong> Representing dataset cards, metadata, and split definitions as first-class objects.</li> <li><strong>Task Schemas:</strong> Defining ML tasks with specific input and output types to ensure consistency across different models.</li> <li><strong>Experiment Composition:</strong> Structures that link a model and training configuration to a specific evaluation and prediction set.</li> </ol> <p>If you have seen repositories that maintain these abstractions with minimal boilerplate and high type safety, please share them. I am interested in internal code organization rather than external tools like W&amp;B or MLflow. Definitely aware of cookie-cutter data-science, looking for for datastructures.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LetsTacoooo\"> /u/LetsTacoooo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc24to/best_examples_of_ml_projects_with_good/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc24to/best_examples_of_ml_projects_with_good/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "107ebccc-af77-59e8-8e73-074456df95d5",
     "title": "Human-level performance via ML was *not* proven impossible with complexity theory [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tc1xr3/humanlevel_performance_via_ml_was_not_proven/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Around a decade a go I was tinkering a lot with CNNs for real time event detection. I enjoyed that a lot and always wanted to get back into machine learning, but never really got to it.</p> <p>I was wondering if you can recommend open source projects related to CNNs, or AI applications for image / video in general that I could contribute to, to get back into that? Currently, with the AI hype, it feels like you either just apply AI, or work for a big AI lab. Feels like there isn't anything in the middle anymore. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alldeltav\"> /u/alldeltav </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ta1sjz/open_source_projects_related_to_cnns_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ta1sjz/open_source_projects_related_to_cnns_to/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "61507a96-b2b2-5f14-8f7b-d324e49ee017",
-    "title": "Is reproducing or implementing a paper considered research? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t9zre0/is_reproducing_or_implementing_a_paper_considered/",
-    "pubDate": "2026-05-11T10:55:06+00:00",
-    "description": "I completed my bachelors recently and I plan to applying to a masters program either this cycle or the next. Unfortunately, I did not publish any papers or do any research during my undergrad. Right now I’m in a research internship which is coming to and soon and it’s unlikely that I’ll get to publish a paper. I would like to know if reproducing results from a known paper for validation or extension or a comparative analysis counts as credible research. It’s the only thing I could find to do independently. submitted by /u/UmbraShield [link] [comments]",
-    "author": "/u/UmbraShield",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I completed my bachelors recently and I plan to applying to a masters program either this cycle or the next. Unfortunately, I did not publish any papers or do any research during my undergrad. Right now I’m in a research internship which is coming to and soon and it’s unlikely that I’ll get to publish a paper. I would like to know if reproducing results from a known paper for validation or extension or a comparative analysis counts as credible research. It’s the only thing I could find to do independently.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UmbraShield\"> /u/UmbraShield </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t9zre0/is_reproducing_or_implementing_a_paper_considered/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t9zre0/is_reproducing_or_implementing_a_paper_considered/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

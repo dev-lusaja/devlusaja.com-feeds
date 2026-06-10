@@ -1,5 +1,21 @@
 [
   {
+    "id": "eef0c0f7-3dd1-5d87-a6e7-b5b8e5cc03e4",
+    "title": "Struggling to reproduce paper results before improving them — stuck below reported accuracy [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/",
+    "pubDate": "2026-05-05T12:09:38+00:00",
+    "description": "I’m a PhD student working in AI/computer vision, and I’ve hit a frustrating wall with a project. My supervisor asked me to improve the accuracy of a published paper. My first step has been to faithfully reproduce their results before trying any modifications. The issue is I can’t even match their reported baseline. The paper reports ~77% accuracy, but after multiple runs and careful tuning, I’m consistently getting around 73%. I’ve double-checked what I can: implementation details, preprocessing, hyperparameters (as much as they’re described), and even small things like random seeds and evaluation protocols. I also reached out to the paper’s author to clarify parts of the paper not mentioned but haven’t received a response. At this point, I’m unsure how to proceed. It’s hard to justify “improvements” when my baseline is already below theirs. Has anyone here dealt with this kind of reproducibility gap? How did you handle it especially when key details might be missing or authors are unresponsive? Any practical advice would be really appreciated. submitted by /u/Plane_Stick8394 [link] [comments]",
+    "author": "/u/Plane_Stick8394",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m a PhD student working in AI/computer vision, and I’ve hit a frustrating wall with a project.</p> <p>My supervisor asked me to improve the accuracy of a published paper. My first step has been to faithfully reproduce their results before trying any modifications. The issue is I can’t even match their reported baseline. The paper reports ~77% accuracy, but after multiple runs and careful tuning, I’m consistently getting around 73%.</p> <p>I’ve double-checked what I can: implementation details, preprocessing, hyperparameters (as much as they’re described), and even small things like random seeds and evaluation protocols. I also reached out to the paper’s author to clarify parts of the paper not mentioned but haven’t received a response.</p> <p>At this point, I’m unsure how to proceed. It’s hard to justify “improvements” when my baseline is already below theirs.</p> <p>Has anyone here dealt with this kind of reproducibility gap? How did you handle it especially when key details might be missing or authors are unresponsive? Any practical advice would be really appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Plane_Stick8394\"> /u/Plane_Stick8394 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8a644486-e0b3-51c6-a7d8-2a8978cb27c2",
     "title": "Visual graph classification for blockchain security: Experiences fine-tuning Qwen2-VL on AMD MI300X [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t4dcej/visual_graph_classification_for_blockchain/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>from transformers import pipeline , DistilBertTokenizer , DistilBertModel model = DistilBertModel . from_pretrained ('distilbert-base-cased-distilled-squad') # Load a model that is already trained on Question Answering extractor = pipeline (&quot;question-answering&quot;) def get_emotion_cause (text, emotion): question = f&quot;Show the reason why the text convey {emotion} symptoms?&quot; # The model extracts the 'cause' span from the text result = extractor(question = question, context = text) return result ['answer'] # Example: text = &quot;I am so anxious because my final exam is tomorrow and I haven't studied.&quot; print ( get_emotion_cause (text, &quot;anxiety&quot;)) </code></pre> <p>Recently I am exploring ready to go model that help me do question answering without any training data and I came across this pipeline pre-trained model that is capable of doing question answering on the spot. I research about its document and followed the instruction and that leads to my code above however pipeline has moved away from &quot;question-answering&quot; feature.</p> <p>And it shows the list of feature: &quot;Unknown task question-answering, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection']</p> <p>Can anyone recommend me what to do about it like do I use another &quot;question-answering&quot; feature that is available. Or can anyone recommend me other modules who can do the same job.</p> <p>P.s. Document-question answering and it requires image in the document, and I only work with text</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mountain_Turnip_6403\"> /u/Mountain_Turnip_6403 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2cvdc/question_regarding_transformers_pipeline_module_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2cvdc/question_regarding_transformers_pipeline_module_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6a69ae17-ebf6-5856-bb05-f815083637c2",
-    "title": "Anyone submit ML articles to ACM journals (eg. TOPML or TIST)? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t28twe/anyone_submit_ml_articles_to_acm_journals_eg/",
-    "pubDate": "2026-05-03T02:18:27+00:00",
-    "description": "Have any of you submitted ML articles to ACM journals (eg. TOPML or TIST)? How long did the process take, and were the reviews high-quality? How does it compare to other journals (eg. TMLR) in terms of difficulty? Thanks. submitted by /u/random_sydneysider [link] [comments]",
-    "author": "/u/random_sydneysider",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Have any of you submitted ML articles to ACM journals (eg. TOPML or TIST)? How long did the process take, and were the reviews high-quality? How does it compare to other journals (eg. TMLR) in terms of difficulty? Thanks. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/random_sydneysider\"> /u/random_sydneysider </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t28twe/anyone_submit_ml_articles_to_acm_journals_eg/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t28twe/anyone_submit_ml_articles_to_acm_journals_eg/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "90343a02-f87f-57e2-9a79-5831e24113d3",
+    "title": "Call for Papers - Workshop on Unlearning and Model Editing U&ME at ECCV 2026 [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tn68gp/call_for_papers_workshop_on_unlearning_and_model/",
+    "pubDate": "2026-05-25T11:22:43+00:00",
+    "description": "I have been seeing a lot of really interesting work lately around unlearning, model editing, controllability, safety, etc. Feels like this space is moving very fast right now, and there are still so many open questions. This year I’m helping organize the U&ME workshop at ECCV 2026, and honestly I’d really love to see submissions from people in the community — especially students and researchers who are exploring new ideas, even if the work is still evolving. A lot of the best workshop conversations come from unfinished ideas, weird observations, failed directions that taught something useful, or work that doesn’t neatly fit into a main conference paper. So if you’ve been working on anything around: Unlearning Model Stitching and Editing Model Merging and \"MoErging\" (Mixture of Experts Merging) Model compression Efficient domain adaptation Multi-domain/cross-domain U&ME Online/lifelong learning, unlearning, and model editing Responsible U&ME (e.g., robustness, ethics and fairness, resource efficiency, privacy, and regulatory compliance) Applications in computer vision please consider submitting :) Would be really nice to bring together people thinking deeply about these problems at ECCV 2026. submitted by /u/Mushroom-Severe [link] [comments]",
+    "author": "/u/Mushroom-Severe",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been seeing a lot of really interesting work lately around unlearning, model editing, controllability, safety, etc. Feels like this space is moving very fast right now, and there are still so many open questions.</p> <p>This year I’m helping organize the U&amp;ME workshop at ECCV 2026, and honestly I’d really love to see submissions from people in the community — especially students and researchers who are exploring new ideas, even if the work is still evolving.</p> <p>A lot of the best workshop conversations come from unfinished ideas, weird observations, failed directions that taught something useful, or work that doesn’t neatly fit into a main conference paper.</p> <p>So if you’ve been working on anything around:</p> <ul> <li>Unlearning</li> <li>Model Stitching and Editing</li> <li>Model Merging and &quot;MoErging&quot; (Mixture of Experts Merging)</li> <li>Model compression</li> <li>Efficient domain adaptation </li> <li>Multi-domain/cross-domain U&amp;ME</li> <li>Online/lifelong learning, unlearning, and model editing</li> <li>Responsible U&amp;ME (e.g., robustness, ethics and fairness, resource efficiency, privacy, and regulatory compliance) </li> <li>Applications in computer vision </li> </ul> <p>please consider submitting :)</p> <p>Would be really nice to bring together people thinking deeply about these problems at ECCV 2026.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mushroom-Severe\"> /u/Mushroom-Severe </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tn68gp/call_for_papers_workshop_on_unlearning_and_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tn68gp/call_for_papers_workshop_on_unlearning_and_model/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "accb15fe-dced-54a5-884f-92bf44f50e73",
     "title": "If you use NVIDIA Isaac Sim for reinforcement learning, do you use Isaac Lab with it? Just want to get a sense of what the status quo is. [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tn1rtk/if_you_use_nvidia_isaac_sim_for_reinforcement/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm currently doing a research internship and my supervisor is constantly pushing me to have a novel idea, I've read about 15-20 papers about VLA and I think that most of the things are saturated, I thought about an equivariant VLA based on equivariant CNN which was published in 2016 and successfully implemented that, and then I found that someone published that too, do you guys have any advice on what I should do next,? Any suggestions are welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Mixture5766\"> /u/No_Mixture5766 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tk37uo/novel_problems_in_vla_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tk37uo/novel_problems_in_vla_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d8d51319-7cce-5ae5-abb3-c67afc594968",
-    "title": "Can liveness detection models generalise to synthetic media generation techniques they were never trained on? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/",
-    "pubDate": "2026-05-21T19:24:45+00:00",
-    "description": "Most liveness detection systems in production today were built around a threat model where the attacker is submitting a static image or a basic replay video. The generation quality of current synthetic media is categorically different from what those training datasets captured. The question I keep coming back to is whether a model trained on historical deepfake samples can generalise to generation techniques that did not exist when the training data was assembled. And if the answer is no, what does the update cycle look like for vendors claiming deepfake detection as a core capability. I asked two identity verification vendors this directly and got answers that sounded confident without addressing the temporal gap between training data and current generation quality. submitted by /u/Unique_Buy_3905 [link] [comments]",
-    "author": "/u/Unique_Buy_3905",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most liveness detection systems in production today were built around a threat model where the attacker is submitting a static image or a basic replay video. The generation quality of current synthetic media is categorically different from what those training datasets captured.</p> <p>The question I keep coming back to is whether a model trained on historical deepfake samples can generalise to generation techniques that did not exist when the training data was assembled. And if the answer is no, what does the update cycle look like for vendors claiming deepfake detection as a core capability.</p> <p>I asked two identity verification vendors this directly and got answers that sounded confident without addressing the temporal gap between training data and current generation quality.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unique_Buy_3905\"> /u/Unique_Buy_3905 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
