@@ -1,5 +1,21 @@
 [
   {
+    "id": "b737a158-00af-5f80-8255-1a6d583cd33a",
+    "title": "Unlock Exascale Performance on NVIDIA GB200 NVL72 with Slurm Topology-Aware Job Scheduling",
+    "link": "https://developer.nvidia.com/blog/unlock-exascale-performance-on-nvidia-gb200-nvl72-with-slurm-topology-aware-job-scheduling/",
+    "pubDate": "2026-05-21T17:32:56+00:00",
+    "description": "As AI models grow in scale and complexity, realizing the full performance of modern accelerated infrastructure depends as much on how workloads are placed as on...",
+    "author": "Sachin Lakharia",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" />As AI models grow in scale and complexity, realizing the full performance of modern accelerated infrastructure depends as much on how workloads are placed as on...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" /><p>As AI models grow in scale and complexity, realizing the full performance of modern accelerated infrastructure depends as much on how workloads are placed as on the hardware itself. NVIDIA GB200 NVL72 delivers exascale compute in a single rack, unlocking real-time trillion-parameter models. Yet capturing that performance in a shared cluster requires schedulers that understand the system…</p>\n<p><a href=\"https://developer.nvidia.com/blog/unlock-exascale-performance-on-nvidia-gb200-nvl72-with-slurm-topology-aware-job-scheduling/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2da5ba97-e936-5e46-83dc-fd2afc299e32",
     "title": "Building Token‑Metered AI Services on Telco AI Factories",
     "link": "https://developer.nvidia.com/blog/building-token-metered-ai-services-on-telco-ai-factories/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" />In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" /><p>In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground competition. Success in modern machine learning competitions is increasingly defined by how quickly you can generate, test, and iterate on ideas. LLM agents, combined with GPU acceleration, dramatically compress this loop. Historically…</p>\n<p><a href=\"https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "163b4c6b-de3f-5b86-9c0f-13104714b547",
-    "title": "Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python",
-    "link": "https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/",
-    "pubDate": "2026-04-22T23:50:10+00:00",
-    "description": "In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater...",
-    "author": "Aart J.C. Bik",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Sparse-Deep-Learning\" width=\"768\" />In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Sparse-Deep-Learning\" width=\"768\" /><p>In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater flexibility and performance. We’re excited to announce the integration of the UST into nvmath-python v0.9.0 to accelerate sparse scientific and deep learning applications. This post provides a walkthrough of key UST features…</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

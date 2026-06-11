@@ -1,5 +1,37 @@
 [
   {
+    "id": "57a2e06b-4bbd-5a92-bdd5-018ef287d693",
+    "title": "Why does Claude sound less AI than other AI?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuqo29/why_does_claude_sound_less_ai_than_other_ai/",
+    "pubDate": "2026-06-02T13:16:13+00:00",
+    "description": "Something about the way claude can write sounds more human. I think it's that it can telegraph a thought without completely leaking it as soon as it thinks it, like it has something in mind while it's beating around the bush but it's also not too verbose. It's efficient submitted by /u/2EXTRA4YOU [link] [comments]",
+    "author": "/u/2EXTRA4YOU",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Something about the way claude can write sounds more human. I think it's that it can telegraph a thought without completely leaking it as soon as it thinks it, like it has something in mind while it's beating around the bush but it's also not too verbose. It's efficient</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/2EXTRA4YOU\"> /u/2EXTRA4YOU </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuqo29/why_does_claude_sound_less_ai_than_other_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuqo29/why_does_claude_sound_less_ai_than_other_ai/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d9af4857-6fa1-5b20-9dd0-580597a18f1f",
+    "title": "Tiny LLM Benchmark: Jetson Orin Nano Super 8GB - Four Power Modes × Eight Models",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuq5j1/tiny_llm_benchmark_jetson_orin_nano_super_8gb/",
+    "pubDate": "2026-06-02T12:56:30+00:00",
+    "description": "Just released a deep benchmark of 8 tiny LLMs (135M → ~1B) on a $250 Jetson Orin Nano Super 8GB using llama.cpp CUDA - across all 4 power modes: 7W, 15W, 25W, and MAXN Hardware: NVIDIA Ampere GPU - 1024 CUDA cores, 32 Tensor cores 6× Arm Cortex-A78AE CPU @ 1.728 GHz 8 GB LPDDR5 @ 204.8 GB/s (unified CPU + GPU - no VRAM split) Active fan cooling - peak junction temp stayed ≤ 73 °C across every run Stack: JetPack R36.4.7 (Ubuntu 22.04), CUDA 12.6 llama.cpp CUDA backend, all layers on GPU (-ngl 99) Load: NVIDIA aiperf — 20 requests per combo, 12 prompt × gen combos per model Power measured via tegrastats VDD_CPU_GPU_CV rail at 500ms intervals Brief methodology: Sweep: prompt ∈ {128, 512, 1024, 2048} tokens × gen ∈ {64, 128, 256} tokens × 4 power modes = 384 benchmark cells per model, 8 models. Key metric: output tok/J = tokens generated per joule of compute energy Findings: Key finding: 25W is the Pareto-optimal mode for every model we have tested. 36–47% more tok/s than 15W 3–26% better output tok/J than 15W 8–35% better output tok/J than even MAXN (highest power mode) More clocks ≠ more efficiency. MAXN costs ~17% more power for marginal throughput gains. Sub-1B standouts at 25W (ctx=2048, gen=256): SmolLM2-135M - 165.1 tok/s, 22.6 output tok/J (best in suite), 101 MB, ~5.4W LFM2.5-350M - 115.1 tok/s in 219 MB. Matches SmolLM2-360M (369 MB) at less than half the size ~1B class at 25W (ctx=2048, gen=256): LFM2.5-1.2B: 54.1 tok/s, 5.26 output tok/J, 698 MB - fastest + best output tok/J in class Gemma3-1B: edges ahead on total tok/J (118.5 vs LFM's 116.2) - lower power draw (6.87W vs 8.46W) compensates for slower decode Llama3.2-1B: 47.0 tok/s, 4.67 output tok/J Full blog with all charts, heatmaps, latency tables, and raw HuggingFace datasets (384 cells × 4 modes) linked in the blog! Do check it out — and if you have a Jetson, what are you running on it? Would love to know! Blog submitted by /u/East-Muffin-6472 [link] [comments]",
+    "author": "/u/East-Muffin-6472",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuq5j1/tiny_llm_benchmark_jetson_orin_nano_super_8gb/\"> <img alt=\"Tiny LLM Benchmark: Jetson Orin Nano Super 8GB - Four Power Modes × Eight Models\" src=\"https://preview.redd.it/xy1e7dxe8v4h1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=9395700475efce350307bd2d6252a4dfee5e3516\" title=\"Tiny LLM Benchmark: Jetson Orin Nano Super 8GB - Four Power Modes × Eight Models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Just released a deep benchmark of 8 tiny LLMs (135M → ~1B) on a $250 Jetson Orin Nano Super 8GB using llama.cpp CUDA - across all 4 power modes: 7W, 15W, 25W, and MAXN</p> <p>Hardware:</p> <ul> <li>NVIDIA Ampere GPU - 1024 CUDA cores, 32 Tensor cores</li> <li>6× Arm Cortex-A78AE CPU @ 1.728 GHz</li> <li>8 GB LPDDR5 @ 204.8 GB/s (unified CPU + GPU - no VRAM split)</li> <li>Active fan cooling - peak junction temp stayed ≤ 73 °C across every run</li> </ul> <p>Stack:</p> <ul> <li>JetPack R36.4.7 (Ubuntu 22.04), CUDA 12.6</li> <li>llama.cpp CUDA backend, all layers on GPU (-ngl 99)</li> <li>Load: NVIDIA aiperf — 20 requests per combo, 12 prompt × gen combos per model</li> <li>Power measured via tegrastats VDD_CPU_GPU_CV rail at 500ms intervals</li> </ul> <p>Brief methodology:</p> <ul> <li>Sweep: prompt ∈ {128, 512, 1024, 2048} tokens × gen ∈ {64, 128, 256} tokens × 4 power modes = 384 benchmark cells per model, 8 models.</li> <li>Key metric: output tok/J = tokens generated per joule of compute energy</li> </ul> <p>Findings:</p> <ul> <li>Key finding: 25W is the Pareto-optimal mode for every model we have tested.</li> <li>36–47% more tok/s than 15W</li> <li>3–26% better output tok/J than 15W</li> <li>8–35% better output tok/J than even MAXN (highest power mode)</li> <li>More clocks ≠ more efficiency. MAXN costs ~17% more power for marginal throughput gains.</li> </ul> <p>Sub-1B standouts at 25W (ctx=2048, gen=256):</p> <ul> <li>SmolLM2-135M - 165.1 tok/s, 22.6 output tok/J (best in suite), 101 MB, ~5.4W</li> <li>LFM2.5-350M - 115.1 tok/s in 219 MB. Matches SmolLM2-360M (369 MB) at less than half the size</li> </ul> <p>~1B class at 25W (ctx=2048, gen=256):</p> <ul> <li>LFM2.5-1.2B: 54.1 tok/s, 5.26 output tok/J, 698 MB - fastest + best output tok/J in class</li> <li>Gemma3-1B: edges ahead on total tok/J (118.5 vs LFM's 116.2) - lower power draw (6.87W vs 8.46W) compensates for slower decode</li> <li>Llama3.2-1B: 47.0 tok/s, 4.67 output tok/J</li> </ul> <p>Full blog with all charts, heatmaps, latency tables, and raw HuggingFace datasets (384 cells × 4 modes) linked in the blog!</p> <p>Do check it out — and if you have a Jetson, what are you running on it? Would love to know!</p> <p><a href=\"https://www.smolhub.com/posts/jetson-nano-super-benchmark-non-reasoning/\">Blog</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/East-Muffin-6472\"> /u/East-Muffin-6472 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tuq5j1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuq5j1/tiny_llm_benchmark_jetson_orin_nano_super_8gb/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/xy1e7dxe8v4h1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=9395700475efce350307bd2d6252a4dfee5e3516",
+    "isShortVideo": 0
+  },
+  {
     "id": "5d8f3c20-861a-5c2d-b064-c512662fcfd5",
     "title": "Backpropagation destroys V1 brain alignment in one epoch, tracking RSA alignment to fMRI across training for BP, FA, predictive coding, and STDP [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuh5ko/moss_tts_15_8b_examples_it_is_the_currently_best/\"> <img alt=\"Moss tts 1.5 8b Examples. It is the currently best voice cloning model for English as of June 2026\" src=\"https://external-preview.redd.it/MHY3Y2w1aTF6czRoMcVMPutfbLyWwsixWAcfipvimLxV1hNcAEODokKslfhq.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=127e70a0cb5f85f80bd2f7c48e47b6d6119bb3ca\" title=\"Moss tts 1.5 8b Examples. It is the currently best voice cloning model for English as of June 2026\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Moss tts 1.5 8b is better than fish audio s2 pro and qwen 3 tts voice clone tts.</p> <p>You can easily get more better quality if you set up the duration of the voice in output you want and some temperature and other changes. This was just used on default setting. It can be improved more. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/9r4n4y\"> /u/9r4n4y </a> <br /> <span><a href=\"https://v.redd.it/ocul75i1zs4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuh5ko/moss_tts_15_8b_examples_it_is_the_currently_best/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/MHY3Y2w1aTF6czRoMcVMPutfbLyWwsixWAcfipvimLxV1hNcAEODokKslfhq.png?width=640&crop=smart&auto=webp&s=127e70a0cb5f85f80bd2f7c48e47b6d6119bb3ca",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0a9d0e78-f3d9-5d36-8188-047afe93494b",
-    "title": "wtff?!",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tug8df/wtff/",
-    "pubDate": "2026-06-02T04:27:48+00:00",
-    "description": "submitted by /u/loopsale [link] [comments]",
-    "author": "/u/loopsale",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tug8df/wtff/\"> <img alt=\"wtff?!\" src=\"https://preview.redd.it/yqen1ob2rs4h1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=0ce48ec2a0f8145b9779c9df145df1471aee138a\" title=\"wtff?!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/loopsale\"> /u/loopsale </a> <br /> <span><a href=\"https://i.redd.it/yqen1ob2rs4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tug8df/wtff/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/yqen1ob2rs4h1.jpeg?width=320&crop=smart&auto=webp&s=0ce48ec2a0f8145b9779c9df145df1471aee138a",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a4881c64-f798-5c84-9f40-3ad92151c4ed",
-    "title": "GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/",
-    "pubDate": "2026-06-02T03:35:37+00:00",
-    "description": "initial version of official Gemma skills from Google submitted by /u/jacek2023 [link] [comments]",
-    "author": "/u/jacek2023",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/\"> <img alt=\"GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions\" src=\"https://external-preview.redd.it/SaRd7BG_XaoCD1Mf_Qz94_qgT-YFqLDzUzqMBZg-nro.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4a1a6c3095dede925c5f49da91c15983b711f192\" title=\"GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>initial version of official Gemma skills from Google</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/google-gemma/gemma-skills\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/SaRd7BG_XaoCD1Mf_Qz94_qgT-YFqLDzUzqMBZg-nro.png?width=640&crop=smart&auto=webp&s=4a1a6c3095dede925c5f49da91c15983b711f192",
     "isShortVideo": 0
   }
 ]
