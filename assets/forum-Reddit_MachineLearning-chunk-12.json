@@ -1,5 +1,21 @@
 [
   {
+    "id": "90bea178-c6e8-512b-ac63-158303c97567",
+    "title": "Dataset of 150k+ stool images and not sure how to fully use it [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/",
+    "pubDate": "2026-05-07T01:13:15+00:00",
+    "description": "I have a dataset of around 150k stool images; growing at 300+ images per day, and I’m trying to better understand the “right” way to use it for training a computer vision model. Right now, our process is pretty manual. We initially trained on about 5k images that were individually verified by a human. For every image, we checked/corrected the Bristol type, consistency, color, mucus/blood indicators, etc. Then we trained the model on those verified annotations. As we continue training, we keep doing the same thing: manually reviewing and correcting images before feeding them back into the model. My question is basically: does this workflow make sense from an ML perspective? Is this how people normally approach building a solid vision dataset/model, especially in a domain where annotation quality matters a lot? Or is there a smarter/more scalable approach people usually move toward once they have a large dataset? I’m mainly trying to understand best practices around dataset quality, human verification, iterative training, and scaling annotation without introducing bad labels. submitted by /u/SamePersonality5183 [link] [comments]",
+    "author": "/u/SamePersonality5183",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a dataset of around 150k stool images; growing at 300+ images per day, and I’m trying to better understand the “right” way to use it for training a computer vision model.</p> <p>Right now, our process is pretty manual. We initially trained on about 5k images that were individually verified by a human. For every image, we checked/corrected the Bristol type, consistency, color, mucus/blood indicators, etc. Then we trained the model on those verified annotations.</p> <p>As we continue training, we keep doing the same thing: manually reviewing and correcting images before feeding them back into the model.</p> <p>My question is basically: does this workflow make sense from an ML perspective? Is this how people normally approach building a solid vision dataset/model, especially in a domain where annotation quality matters a lot? Or is there a smarter/more scalable approach people usually move toward once they have a large dataset?</p> <p>I’m mainly trying to understand best practices around dataset quality, human verification, iterative training, and scaling annotation without introducing bad labels.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SamePersonality5183\"> /u/SamePersonality5183 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "50b3248c-1499-5d8b-b83d-ccfda70bf484",
     "title": "Visual Perceptual to Conceptual First-Order Rule Learning Networks [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t5vnru/visual_perceptual_to_conceptual_firstorder_rule/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>Just sharing an update on my project <a href=\"https://github.com/gvcallen/parax\">Parax</a>, which caters for &quot;parametric modeling&quot; in JAX.</p> <p>Previously, Parax was more focused on scientific applications, however I've since generalized it to be a tool useful for any type of JAX work. It now has a strong focus on a clean, extandable API, as well as ensuring the library is entirely <strong>opt-in,</strong> as opposed to its previous versions which took a more framework-like approach.</p> <p>Some of Parax's features:</p> <ul> <li>Derived/constrained parameters with metadata</li> <li>Computed PyTrees and callable parameterizations</li> <li>Abstract interfaces for fixed, bounded, and probabilistic PyTrees and parameters</li> <li>Filtering and manipulation tools</li> <li>Built-in wrapper for SciPy bounded optimization</li> </ul> <p>The documentation is available <a href=\"https://gvcallen.github.io/parax/\">here</a> along with some basic examples. Perhaps the package is of use to someone out there!</p> <p>Cheers,<br /> Gary</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gvcallen\"> /u/gvcallen </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3jmdc/parax_v05_parametric_modeling_in_jax_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3jmdc/parax_v05_parametric_modeling_in_jax_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "44e00f05-8700-5acd-bcb0-6c58e6056ff1",
-    "title": "Why SSMs struggle in parameter-constrained training: empirical findings at 25M parameters [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/",
-    "pubDate": "2026-05-04T13:36:19+00:00",
-    "description": "After ~3 weeks of experimentation in OpenAI's Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to transformers in a time- and size-constrained regime (10 min training, 16MB artifact, 25M parameters) on 8xH100s: https://mradassaad.github.io/posts/why-ssms-struggle-in-parameter-golf/ Main findings: SSM in_proj weights compress up to 3.26x worse than attention QKV under LZMA, directly taxing the compressed parameter budget Architectural wins validated at SP4096 flipped sign at SP8192 — two configs that looked like clean wins reversed direction at the target vocabulary Also includes three kernel-level experiments on the Mamba-3 Triton kernels: a backward fusion attempt that was numerically exact but 16% slower due to SMEM pressure, a torch.compile quantizer bug that cost 5.5 mBPB, and a mixed-precision dynamics protection that recovered 0.8 mBPB at negligible size cost. submitted by /u/mradassaad [link] [comments]",
-    "author": "/u/mradassaad",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>After ~3 weeks of experimentation in OpenAI's Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to transformers in a time- and size-constrained regime (10 min training, 16MB artifact, 25M parameters) on 8xH100s: <a href=\"https://mradassaad.github.io/posts/why-ssms-struggle-in-parameter-golf/\">https://mradassaad.github.io/posts/why-ssms-struggle-in-parameter-golf/</a></p> <p>Main findings:</p> <ol> <li>SSM in_proj weights compress up to 3.26x worse than attention QKV under LZMA, directly taxing the compressed parameter budget</li> <li>Architectural wins validated at SP4096 flipped sign at SP8192 — two configs that looked like clean wins reversed direction at the target vocabulary</li> </ol> <p>Also includes three kernel-level experiments on the Mamba-3 Triton kernels: a backward fusion attempt that was numerically exact but 16% slower due to SMEM pressure, a torch.compile quantizer bug that cost 5.5 mBPB, and a mixed-precision dynamics protection that recovered 0.8 mBPB at negligible size cost.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mradassaad\"> /u/mradassaad </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

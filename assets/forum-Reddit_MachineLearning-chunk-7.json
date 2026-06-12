@@ -1,5 +1,21 @@
 [
   {
+    "id": "07a0cfd3-8a72-57d2-af44-83e234485d4d",
+    "title": "How competitive are PhD admissions currently [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tiw739/how_competitive_are_phd_admissions_currently_d/",
+    "pubDate": "2026-05-20T19:28:29+00:00",
+    "description": "Hi, how hard is it currently to get a PhD position in machine Learning? Like what are the requirements to get to a decent mid tier program (= they publish regularly at respected journals and their work gets read my some people)? How is it in different regions e.g US, Europe, etc.. I am about to finish my masters and am wondering if I need to sweep in an unpaid guided research project to extend my network. submitted by /u/strammerrammer [link] [comments]",
+    "author": "/u/strammerrammer",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, </p> <p>how hard is it currently to get a PhD position in machine Learning? Like what are the requirements to get to a decent mid tier program (= they publish regularly at respected journals and their work gets read my some people)? How is it in different regions e.g US, Europe, etc.. </p> <p>I am about to finish my masters and am wondering if I need to sweep in an unpaid guided research project to extend my network. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/strammerrammer\"> /u/strammerrammer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tiw739/how_competitive_are_phd_admissions_currently_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tiw739/how_competitive_are_phd_admissions_currently_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c8e7c13e-2dd2-5e72-888f-9ee325dae5e0",
     "title": "Should I accept a PhD offer in NeuroAI [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tiuqd3/should_i_accept_a_phd_offer_in_neuroai_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone!</p> <p>The decision notification deadline for the GlobalSouthML workshop was originally May 15th (and the site updated it to May 17th AoE), but my OpenReview dashboard still just says &quot;0 Official Reviews Submitted&quot;</p> <p>I know workshop timelines can be a bit chaotic and delays are normal, but since we are way past the 17th AoE now, I wanted to see if anyone else is still waiting. Has anyone gotten an accept/reject email yet?</p> <p>Appreciate any updates! Thanks!</p> <p>[Edit: received them a few minutes back]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Material_Dinner_1924\"> /u/Material_Dinner_1924 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgu8p5/has_anyone_received_decisions_for_the_icml_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgu8p5/has_anyone_received_decisions_for_the_icml_2026/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c866c1f4-6870-574a-af80-10fd4a3e3f68",
-    "title": "Witchcraft, fast local semantic search on top of SQLite [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/",
-    "pubDate": "2026-05-18T16:00:06+00:00",
-    "description": "Witchcraft ( https://github.com/dropbox/witchcraft ) , an open source project that I built at Dropbox, is a from-scratch re-implementation of Stanford's XTR-Warp semantic search engine ( https://github.com/jlscheerer/xtr-warp ) in safe rust, using a single-file SQLite database as backing storage, making it suitable for client-side deployment. It runs completely stand-alone on your device, needs no API keys, no vector database, no chunking strategy, no fancy re-rankers, and it is lightning fast (20ms p.95 end-to-end search latency on NFCorpus, at 33% NDCG@10, on an Apple Macbook Pro M2 Max, more than twice as fast as the original XTR-WARP on server-class hardware, at similar accuracy.) The project also includes Pickbrain , a CLI that indexes your Claude Code and OpenAI Codex session transcripts, memory files, and authored documents into a Witchcraft database for fast semantic search. Ever wondered \"what was that conversation where I fixed the auth middleware?\" — pickbrain finds it, and lets you resume the session directly. There is also a /pickbrain skill for both Claude and Codex, which equips those tools with global memory across all sessions. You can use pickbrain directly from the command line, e.g., to rediscover a previous agent session and directly resume it, or you can have your agent invoke it via the supplied skill, e.g.,. \"use /pickbrain to read up on our previous efforts on training with XTR token masking\", to easily populate a new session with previous context. submitted by /u/jacobgorm [link] [comments]",
-    "author": "/u/jacobgorm",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Witchcraft (<a href=\"https://github.com/dropbox/witchcraft\">https://github.com/dropbox/witchcraft</a>)</strong>, an open source project that I built at Dropbox, is a from-scratch re-implementation of Stanford's XTR-Warp semantic search engine ( <a href=\"https://github.com/jlscheerer/xtr-warp\">https://github.com/jlscheerer/xtr-warp</a> ) in safe rust, using a single-file SQLite database as backing storage, making it suitable for client-side deployment. It runs completely stand-alone on your device, needs no API keys, no vector database, no chunking strategy, no fancy re-rankers, and it is lightning fast (20ms p.95 end-to-end search latency on NFCorpus, at 33% NDCG@10, on an Apple Macbook Pro M2 Max, more than twice as fast as the original XTR-WARP on server-class hardware, at similar accuracy.)</p> <p>The project also includes <strong>Pickbrain</strong>, a CLI that indexes your Claude Code and OpenAI Codex session transcripts, memory files, and authored documents into a Witchcraft database for fast semantic search. Ever wondered &quot;what was that conversation where I fixed the auth middleware?&quot; — pickbrain finds it, and lets you resume the session directly. There is also a /pickbrain skill for both Claude and Codex, which equips those tools with global memory across all sessions. You can use pickbrain directly from the command line, e.g., to rediscover a previous agent session and directly resume it, or you can have your agent invoke it via the supplied skill, e.g.,. &quot;use /pickbrain to read up on our previous efforts on training with XTR token masking&quot;, to easily populate a new session with previous context.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacobgorm\"> /u/jacobgorm </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "44e00f05-8700-5acd-bcb0-6c58e6056ff1",
+    "title": "Why SSMs struggle in parameter-constrained training: empirical findings at 25M parameters [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/",
+    "pubDate": "2026-05-04T13:36:19+00:00",
+    "description": "After ~3 weeks of experimentation in OpenAI's Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to transformers in a time- and size-constrained regime (10 min training, 16MB artifact, 25M parameters) on 8xH100s: https://mradassaad.github.io/posts/why-ssms-struggle-in-parameter-golf/ Main findings: SSM in_proj weights compress up to 3.26x worse than attention QKV under LZMA, directly taxing the compressed parameter budget Architectural wins validated at SP4096 flipped sign at SP8192 — two configs that looked like clean wins reversed direction at the target vocabulary Also includes three kernel-level experiments on the Mamba-3 Triton kernels: a backward fusion attempt that was numerically exact but 16% slower due to SMEM pressure, a torch.compile quantizer bug that cost 5.5 mBPB, and a mixed-precision dynamics protection that recovered 0.8 mBPB at negligible size cost. submitted by /u/mradassaad [link] [comments]",
+    "author": "/u/mradassaad",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>After ~3 weeks of experimentation in OpenAI's Parameter Golf competition, I wrote up why SSMs are structurally disadvantaged relative to transformers in a time- and size-constrained regime (10 min training, 16MB artifact, 25M parameters) on 8xH100s: <a href=\"https://mradassaad.github.io/posts/why-ssms-struggle-in-parameter-golf/\">https://mradassaad.github.io/posts/why-ssms-struggle-in-parameter-golf/</a></p> <p>Main findings:</p> <ol> <li>SSM in_proj weights compress up to 3.26x worse than attention QKV under LZMA, directly taxing the compressed parameter budget</li> <li>Architectural wins validated at SP4096 flipped sign at SP8192 — two configs that looked like clean wins reversed direction at the target vocabulary</li> </ol> <p>Also includes three kernel-level experiments on the Mamba-3 Triton kernels: a backward fusion attempt that was numerically exact but 16% slower due to SMEM pressure, a torch.compile quantizer bug that cost 5.5 mBPB, and a mixed-precision dynamics protection that recovered 0.8 mBPB at negligible size cost.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mradassaad\"> /u/mradassaad </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a926db39-99f2-507e-92bd-b3b81067a325",
     "title": "AutoBe benchmark: structured harness narrows frontier-vs-local gap in backend generation [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t3hks9/autobe_benchmark_structured_harness_narrows/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0wprd/how_could_an_arc3_solution_be_a_threat_d/\"> <img alt=\"(How) could an ARC-3 solution be a threat? [D]\" src=\"https://preview.redd.it/a386xz3pojyg1.png?width=140&amp;height=57&amp;auto=webp&amp;s=423fb80b095e8a3341c2712fd6c855dc347e6bee\" title=\"(How) could an ARC-3 solution be a threat? [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>As many of you might be aware, the <a href=\"https://arcprize.org/arc-agi/3\">ARC-AGI-3</a> competition has just started ...</p> <p>(In case you're not familiar: it's a human/AI benchmark designed to see what AI still struggles with, that humans solve with ease - basically trying to push AI research to focus on new ideas that make AI think more human-like, assuming that that's what is required to solve such tasks, you could read more in their docs...)</p> <p>Seeing as the benchmark has so far only been solved at <strong>0.68%</strong>, I was wondering what a real solution would look like:</p> <p>If a system has to explore and collect data, infer rules and patterns, decide which are useful, and then establish a set of rules and apply them, it seems that it such a system/algorithm would do essentially what a successful <strong>scientist</strong> would do.</p> <p>Apart from it being quite <strong>unrealistic</strong> in very near future, I do think that such a model (that achieves ~100% on arc-3), if open sourced (which is a condition to win the competition), would hold great <strong>potential</strong> for dangerous application, such as the military (<strong>engineering weapons</strong>), <strong>cybersecurity</strong>, manipulation, etc...</p> <p><strong>Do you agree?</strong><br /> How do supposed an arc-3 solution (~100%) could be a threat, in the purely hypothetical scenario that were to get one this year?</p> <p><a href=\"https://preview.redd.it/a386xz3pojyg1.png?width=1842&amp;format=png&amp;auto=webp&amp;s=82f41df7570dd59701dcc62ddfe110cdfada240d\">https://preview.redd.it/a386xz3pojyg1.png?width=1842&amp;format=png&amp;auto=webp&amp;s=82f41df7570dd59701dcc62ddfe110cdfada240d</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specific_Bad8641\"> /u/Specific_Bad8641 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0wprd/how_could_an_arc3_solution_be_a_threat_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0wprd/how_could_an_arc3_solution_be_a_threat_d/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/a386xz3pojyg1.png?width=140&height=57&auto=webp&s=423fb80b095e8a3341c2712fd6c855dc347e6bee",
-    "isShortVideo": 0
-  },
-  {
-    "id": "46948552-6814-568b-89d4-b2165f7ae1af",
-    "title": "[D] Simple Questions Thread",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t0vvka/d_simple_questions_thread/",
-    "pubDate": "2026-05-01T15:00:28+00:00",
-    "description": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread! submitted by /u/AutoModerator [link] [comments]",
-    "author": "/u/AutoModerator",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>Thanks to everyone for answering questions in the previous thread!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0vvka/d_simple_questions_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0vvka/d_simple_questions_thread/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "5d8f3c20-861a-5c2d-b064-c512662fcfd5",
+    "title": "Backpropagation destroys V1 brain alignment in one epoch, tracking RSA alignment to fMRI across training for BP, FA, predictive coding, and STDP [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/",
+    "pubDate": "2026-06-02T12:43:47+00:00",
+    "description": "Third in a series of papers tracking learning rules vs. human fMRI (THINGS dataset, V1–IT, N=3 subjects). Previous finding: untrained CNNs match backprop at V1. This paper asks: when does training break that, and does the learning rule matter? Setup: RSA alignment measured at 8 checkpoints (epochs 0, 1, 2, 5, 10, 20, 30, 40), 5 seeds per rule, same architecture throughout. Main findings: BP drops 90% of V1 alignment after one epoch (r: 0.102 → 0.011, p = 0.031, consistent across all 5 seeds). FA drops 49%. PC and STDP drop only 25–31% and stabilise. By epoch 40: PC (r = 0.064) > STDP (0.059) >> BP (0.022) ≈ FA (0.019). Cohen's d > 5 for PC/STDP vs BP: extremely consistent across seeds. Opposing trend at LOC: BP shows a small increase in object-selective cortex alignment (+0.011) while local rules show nothing. Suggests a fundamental trade-off: global error signals build higher representations but destroy early ones. Degradation rate tracks error signal globality: exact gradients (BP) > random feedback (FA) > local prediction errors (PC, STDP). Limitations worth noting: 5 seeds caps permutation test resolution at p ≈ 0.031 Training on 32×32 CIFAR-10, evaluated on 224×224 THINGS, resolution/domain shift is a confound LOC increase not tested for significance, treated as suggestive Paper: arxiv.org/abs/2605.30556 Companion: arxiv.org/abs/2604.16875 Code: github.com/nilsleut Curious whether anyone has seen similar dynamics in larger architectures, the prediction would be that deeper models show the same pattern but more slowly. submitted by /u/ConfusionSpiritual19 [link] [comments]",
+    "author": "/u/ConfusionSpiritual19",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Third in a series of papers tracking learning rules vs. human fMRI (THINGS dataset, V1–IT, N=3 subjects).</p> <p>Previous finding: untrained CNNs match backprop at V1. This paper asks: when does training break that, and does the learning rule matter?</p> <p><strong>Setup:</strong> RSA alignment measured at 8 checkpoints (epochs 0, 1, 2, 5, 10, 20, 30, 40), 5 seeds per rule, same architecture throughout.</p> <p><strong>Main findings:</strong></p> <ol> <li>BP drops 90% of V1 alignment after one epoch (r: 0.102 → 0.011, p = 0.031, consistent across all 5 seeds). FA drops 49%. PC and STDP drop only 25–31% and stabilise.</li> <li>By epoch 40: PC (r = 0.064) &gt; STDP (0.059) &gt;&gt; BP (0.022) ≈ FA (0.019). Cohen's d &gt; 5 for PC/STDP vs BP: extremely consistent across seeds.</li> <li>Opposing trend at LOC: BP shows a small increase in object-selective cortex alignment (+0.011) while local rules show nothing. Suggests a fundamental trade-off: global error signals build higher representations but destroy early ones.</li> <li>Degradation rate tracks error signal globality: exact gradients (BP) &gt; random feedback (FA) &gt; local prediction errors (PC, STDP).</li> </ol> <p><strong>Limitations worth noting:</strong></p> <ul> <li>5 seeds caps permutation test resolution at p ≈ 0.031</li> <li>Training on 32×32 CIFAR-10, evaluated on 224×224 THINGS, resolution/domain shift is a confound</li> <li>LOC increase not tested for significance, treated as suggestive</li> </ul> <p>Paper: <a href=\"http://arxiv.org/abs/2605.30556\">arxiv.org/abs/2605.30556</a></p> <p>Companion: <a href=\"http://arxiv.org/abs/2604.16875\">arxiv.org/abs/2604.16875</a> </p> <p>Code: <a href=\"http://github.com/nilsleut\">github.com/nilsleut</a></p> <p>Curious whether anyone has seen similar dynamics in larger architectures, the prediction would be that deeper models show the same pattern but more slowly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ConfusionSpiritual19\"> /u/ConfusionSpiritual19 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1c7d09a5-548e-57b8-aa61-732b587224e2",
     "title": "My attempt at a 1 prompt Temu'd game. Temu version of Anno 1602.",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuopn2/my_attempt_at_a_1_prompt_temud_game_temu_version/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/\"> <img alt=\"GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions\" src=\"https://external-preview.redd.it/SaRd7BG_XaoCD1Mf_Qz94_qgT-YFqLDzUzqMBZg-nro.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4a1a6c3095dede925c5f49da91c15983b711f192\" title=\"GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>initial version of official Gemma skills from Google</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/google-gemma/gemma-skills\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/SaRd7BG_XaoCD1Mf_Qz94_qgT-YFqLDzUzqMBZg-nro.png?width=640&crop=smart&auto=webp&s=4a1a6c3095dede925c5f49da91c15983b711f192",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0e37e306-bb11-5568-80b0-1d87b2efdc27",
-    "title": "Llama.ccp",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuf3zh/llamaccp/",
-    "pubDate": "2026-06-02T03:33:44+00:00",
-    "description": "Someone should create llama.ccp (not .cpp) that support LLMs on Chinese-native hardware (like Huawei’s Ascend 950PR), they are advancing fast in the recent months. Just thought the name would be funny. submitted by /u/Pancake502 [link] [comments]",
-    "author": "/u/Pancake502",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Someone should create llama.ccp (not .cpp) that support LLMs on Chinese-native hardware (like Huawei’s Ascend 950PR), they are advancing fast in the recent months.</p> <p>Just thought the name would be funny.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pancake502\"> /u/Pancake502 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf3zh/llamaccp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf3zh/llamaccp/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

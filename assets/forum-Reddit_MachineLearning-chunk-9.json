@@ -1,5 +1,21 @@
 [
   {
+    "id": "4bd0d1d8-9a5c-5202-b591-f565c925172f",
+    "title": "Looking for a real world dataset (or website where i can find it) [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tdybl4/looking_for_a_real_world_dataset_or_website_where/",
+    "pubDate": "2026-05-15T14:39:35+00:00",
+    "description": "Hi guys, I’m gonna do a data analysis project based on data privacy, bias and data interpretability. For this reason our professor asked for a real world dataset in order to analyze a real case. Additionally I would prefer the least anonymity possible for that dataset in order to create some interesting technique over it (differential privacy, k-anonimity exc…) Do you have any advice where to find the dataset? (links or website names) Because I checked on Kaggle but I don’t know how to find if the dataset is real or not submitted by /u/novromeda [link] [comments]",
+    "author": "/u/novromeda",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, I’m gonna do a data analysis project based on data privacy, bias and data interpretability. For this reason our professor asked for a real world dataset in order to analyze a real case. Additionally I would prefer the least anonymity possible for that dataset in order to create some interesting technique over it (differential privacy, k-anonimity exc…)</p> <p>Do you have any advice where to find the dataset? (links or website names)<br /> Because I checked on Kaggle but I don’t know how to find if the dataset is real or not </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/novromeda\"> /u/novromeda </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdybl4/looking_for_a_real_world_dataset_or_website_where/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdybl4/looking_for_a_real_world_dataset_or_website_where/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5b52e85d-6b52-5130-bd90-ba3a6e0c3909",
     "title": "software trying to catch software is officially a dead en [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tdy8ix/software_trying_to_catch_software_is_officially_a/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I'm working on a problem of making computer understand emotions behind some piano piece and can't finish it without your help, so I hope that you can help me collect a dataset for my master thesis by sending the following survey to the people who listen and love piano music. </p> <p>I'll be enormously grateful if you could fill out the Google Forms with information:<br /> 1. Piano piece name<br /> 2. Different emotions that piece evokes when you listen to it</p> <p>Here is the link: <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScpBPfw78zSm6Bkh4EpXYFT0ecTy1Q4pCDho4cX-VkVD-bwbw/viewform?usp=sharing&amp;ouid=102143856788657410644\">https://docs.google.com/forms/d/e/1FAIpQLScpBPfw78zSm6Bkh4EpXYFT0ecTy1Q4pCDho4cX-VkVD-bwbw/viewform?usp=sharing&amp;ouid=102143856788657410644</a></p> <p>Thank you and if you fill it out, I hope you enjoy it! ❤️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/makibg96\"> /u/makibg96 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb6fux/collecting_piano_data_for_master_thesis_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb6fux/collecting_piano_data_for_master_thesis_in/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "049058b3-4aa5-5aeb-b5d5-1ff0adce8ef7",
-    "title": "Building contract-governed AI agent orchestration — looking for systems-minded ML engineers, fully remote [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tb59gj/building_contractgoverned_ai_agent_orchestration/",
-    "pubDate": "2026-05-12T15:37:36+00:00",
-    "description": "We're working on a problem that sits at the intersection of distributed systems and ML deployment: how do you get multiple AI agents — backed by different models, running across different machines — to coordinate work, verify each other's output, and produce results you can actually trust? OmniNode is our answer. The architecture is: - Contract-driven task delegation (structured specs, not prompt chains) - Multi-model routing — local inference (Qwen3-Coder-30B on RTX 5090, DeepSeek-R1 on M2 Ultra) alongside cloud models, routed by task characteristics - Deterministic execution with event sourcing (Kafka) and replayable state - Evidence-backed completion — work isn't \"done\" because an agent said so, it's done when durable verification passes The core insight we're building on: as agent autonomy increases, reproducibility and enforceable correctness matter more, not less. Prompts don't scale. Contracts do. Looking for engineers who think in systems, care about how things fail under real conditions, and are comfortable working across the ML/infrastructure boundary. Fully remote. DM me with something you've built or something interesting you've been experimenting with. submitted by /u/jonah_omninode [link] [comments]",
-    "author": "/u/jonah_omninode",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We're working on a problem that sits at the intersection of distributed systems and ML deployment: how do you get multiple AI agents — backed by different models, running across different machines — to coordinate work, verify each other's output, and produce results you can actually trust? </p> <p>OmniNode is our answer. The architecture is:</p> <p>- Contract-driven task delegation (structured specs, not prompt chains)</p> <p>- Multi-model routing — local inference (Qwen3-Coder-30B on RTX 5090, DeepSeek-R1 on M2 Ultra) alongside cloud models, routed by task characteristics</p> <p>- Deterministic execution with event sourcing (Kafka) and replayable state</p> <p>- Evidence-backed completion — work isn't &quot;done&quot; because an agent said so, it's done when durable verification passes</p> <p>The core insight we're building on: as agent autonomy increases, reproducibility and enforceable correctness matter more, not less. Prompts don't scale. Contracts do.</p> <p>Looking for engineers who think in systems, care about how things fail under real conditions, and are comfortable working across the ML/infrastructure boundary.</p> <p>Fully remote. DM me with something you've built or something interesting you've been experimenting with.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jonah_omninode\"> /u/jonah_omninode </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb59gj/building_contractgoverned_ai_agent_orchestration/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb59gj/building_contractgoverned_ai_agent_orchestration/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
