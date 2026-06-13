@@ -1,5 +1,21 @@
 [
   {
+    "id": "63bb5b18-272c-5c5b-9346-3ed9aedb4325",
+    "title": "qwen3.6-27b tools call loop",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2j1s1/qwen3627b_tools_call_loop/",
+    "pubDate": "2026-06-10T23:53:58+00:00",
+    "description": "Is anyone else having trouble with tool call loops in qwen3.6-27b? I've been messing with the temperature, top-k, etc. parameters for two days, but it doesn't solve the problem. It works up to a certain point, but sometimes it gets stuck in an infinite loop of repeated tool calls. submitted by /u/JumpyAbies [link] [comments]",
+    "author": "/u/JumpyAbies",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is anyone else having trouble with tool call loops in qwen3.6-27b? I've been messing with the temperature, top-k, etc. parameters for two days, but it doesn't solve the problem. It works up to a certain point, but sometimes it gets stuck in an infinite loop of repeated tool calls.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JumpyAbies\"> /u/JumpyAbies </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2j1s1/qwen3627b_tools_call_loop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2j1s1/qwen3627b_tools_call_loop/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0f92d82b-e9e1-526d-9739-ed16ab272928",
     "title": "Pyrecall open source tool for detecting catastrophic forgetting during LLM fine-tuning[P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Seems like they have engineered some specific limitations that are widely cited as follows:</p> <blockquote> <p>In light of the ability of recent models to accelerate their own development, we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but enforcing this restriction through our safeguards avoids accelerating the actors most willing to violate these terms.</p> <p>Unlike our interventions for cybersecurity, biology and chemistry, and distillation attempts, these safeguards will not be visible to the user. Fable 5 will not fall back to a different model. Instead, the safeguards will limit effectiveness through methods such as prompt modification, steering vectors, or parameter-efficient fine-tuning (PEFT). These interventions will not affect the vast majority of coding work. We estimate they will impact ~0.03% of traffic, concentrated in fewer than 0.1% of organizations <a href=\"https://news.ycombinator.com/item?id=48464732\">https://news.ycombinator.com/item?id=48464732</a></p> </blockquote> <p>Other comments note how even using the word 'nuclear' in the context of scientific research elicits refusal behavior by the model: <a href=\"https://news.ycombinator.com/item?id=48473302\">https://news.ycombinator.com/item?id=48473302</a></p> <p>This makes it seem quite plausible that the model could subtly sabotage any machine learning work (even as false positive). Some suggest this has been happening behind the scenes for a while already, but can anyone confirm that?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AccomplishedCat4770\"> /u/AccomplishedCat4770 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e46c4c28-7e2f-5be6-9774-9741e9256072",
-    "title": "I run the viberank (claude code / ai coding) leaderboard. Just crunched all 29k days of usage data and some of it surprised me",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u21l3l/i_run_the_viberank_claude_code_ai_coding/",
-    "pubDate": "2026-06-10T13:02:11+00:00",
-    "description": "I maintain viberank (the Claude Code leaderboard, some of you are on it). Finally sat down and analyzed the whole dataset properly - 800ish people, 29k days of usage, all measured locally by ccusage so it's actual log data and not vibes. Stuff I didn't expect: The cache read thing is insane. 94.8% of all tokens across the entire dataset are cache reads. For every token the model actually writes, it re-reads about 406 tokens of context. All those trillions of tokens people flex about are mostly Claude re-reading the same codebase over and over. Half the board is doing $1000+/month in API-equivalent usage. Most of these people are on the $100 or $200 Max plan. I knew the subscription was good value but seeing the actual multiple was something else. 11% of all days exceed $200 of usage. In a single day. The biggest day I found was $3,820. 90% of users run Opus. It's not a special occasion model anymore, it's just what people use. One guy has a 238 day streak. Not active days - consecutive days. Wrote it all up with charts here if you want the full thing: https://www.viberank.app/blog/state-of-ai-coding-2026 Obvious caveats: people who submit to a leaderboard skew heavy, and \"spend\" means API-equivalent value, not what anyone actually pays. Happy to answer questions about how the numbers were computed. submitted by /u/Turbulent-Sky5396 [link] [comments]",
-    "author": "/u/Turbulent-Sky5396",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I maintain viberank (the Claude Code leaderboard, some of you are on it). Finally sat down and analyzed the whole dataset properly - 800ish people, 29k days of usage, all measured locally by ccusage so it's actual log data and not vibes.</p> <p>Stuff I didn't expect:</p> <p>The cache read thing is insane. 94.8% of all tokens across the entire dataset are cache reads. For every token the model actually writes, it re-reads about 406 tokens of context. All those trillions of tokens people flex about are mostly Claude re-reading the same codebase over and over.</p> <p>Half the board is doing $1000+/month in API-equivalent usage. Most of these people are on the $100 or $200 Max plan. I knew the subscription was good value but seeing the actual multiple was something else.</p> <p>11% of all days exceed $200 of usage. In a single day. The biggest day I found was $3,820.</p> <p>90% of users run Opus. It's not a special occasion model anymore, it's just what people use.</p> <p>One guy has a 238 day streak. Not active days - consecutive days.</p> <p>Wrote it all up with charts here if you want the full thing: <a href=\"https://www.viberank.app/blog/state-of-ai-coding-2026\">https://www.viberank.app/blog/state-of-ai-coding-2026</a></p> <p>Obvious caveats: people who submit to a leaderboard skew heavy, and &quot;spend&quot; means API-equivalent value, not what anyone actually pays. Happy to answer questions about how the numbers were computed.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Turbulent-Sky5396\"> /u/Turbulent-Sky5396 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u21l3l/i_run_the_viberank_claude_code_ai_coding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u21l3l/i_run_the_viberank_claude_code_ai_coding/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

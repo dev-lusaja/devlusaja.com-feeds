@@ -1,5 +1,21 @@
 [
   {
+    "id": "fd75a9e1-ada4-5fdd-aa12-4d7b2bc72050",
+    "title": "Would you say capture-time semantic annotation for robot trajectories is a solved problem? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1txf4gg/would_you_say_capturetime_semantic_annotation_for/",
+    "pubDate": "2026-06-05T08:42:07+00:00",
+    "description": "It seems raw teleoperation data (RGB + joint states) structurally lacks affordance, contact intent, and embodiment-specific kinematic context. (information that can't be reliably recovered post-hoc once the demonstration is recorded) Most current approaches either filter/clean after collection, or rely on simulation to compensate. But neither seems to close the semantic gap for contact-rich tasks in unstructured environments. Is anyone working on supervision at acquisition time, enriching the stream as it's captured rather than labeling after the fact? And if not, is this a real bottleneck or am I overestimating the problem? submitted by /u/Several-Many9101 [link] [comments]",
+    "author": "/u/Several-Many9101",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>It seems raw teleoperation data (RGB + joint states) structurally lacks affordance, contact intent, and embodiment-specific kinematic context. (information that can't be reliably recovered post-hoc once the demonstration is recorded)</p> <p>Most current approaches either filter/clean after collection, or rely on simulation to compensate. But neither seems to close the semantic gap for contact-rich tasks in unstructured environments.</p> <p>Is anyone working on supervision at acquisition time, enriching the stream as it's captured rather than labeling after the fact? </p> <p>And if not, is this a real bottleneck or am I overestimating the problem?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Several-Many9101\"> /u/Several-Many9101 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txf4gg/would_you_say_capturetime_semantic_annotation_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txf4gg/would_you_say_capturetime_semantic_annotation_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cf38f9fa-7e28-5fff-8bdb-5fefc0cc1151",
     "title": "Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library? [d]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "379d7a89-0ffb-5050-ba13-d173ea02d26b",
-    "title": "ICML Conference Ticket (looking to purchase) [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tu935n/icml_conference_ticket_looking_to_purchase_d/",
-    "pubDate": "2026-06-01T23:08:41+00:00",
-    "description": "Hi everyone, I missed the ICML conference tickets because I was waiting for some travel funding confirmation and now they are sold out. Do you know any other ways I could still purchase one? There seems to be no waiting list… or if you know anyone who needs to cancel theirs, please let me know 🙏🏻 submitted by /u/TopPerformance1255 [link] [comments]",
-    "author": "/u/TopPerformance1255",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone, I missed the ICML conference tickets because I was waiting for some travel funding confirmation and now they are sold out. Do you know any other ways I could still purchase one? There seems to be no waiting list… or if you know anyone who needs to cancel theirs, please let me know 🙏🏻</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TopPerformance1255\"> /u/TopPerformance1255 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu935n/icml_conference_ticket_looking_to_purchase_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu935n/icml_conference_ticket_looking_to_purchase_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

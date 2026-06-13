@@ -1,5 +1,21 @@
 [
   {
+    "id": "45b3ca9d-00cb-59ab-86a7-6a1af4bdf82f",
+    "title": "Intel Arc Pro B70 llama.cpp benchmarks posted",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/",
+    "pubDate": "2026-06-02T06:28:22+00:00",
+    "description": "https://www.reddit.com/r/LocalLLM/comments/1tuf6l1/intel_arc_pro_b70_llamacpp_sycl_63_ts_on_qwen/ submitted by /u/jacek2023 [link] [comments]",
+    "author": "/u/jacek2023",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/\"> <img alt=\"Intel Arc Pro B70 llama.cpp benchmarks posted\" src=\"https://preview.redd.it/gs5nlgtoct4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=232e8b87de93a957a1da449246e192e71467b3f3\" title=\"Intel Arc Pro B70 llama.cpp benchmarks posted\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/LocalLLM/comments/1tuf6l1/intel_arc_pro_b70_llamacpp_sycl_63_ts_on_qwen/\">https://www.reddit.com/r/LocalLLM/comments/1tuf6l1/intel_arc_pro_b70_llamacpp_sycl_63_ts_on_qwen/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://i.redd.it/gs5nlgtoct4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/gs5nlgtoct4h1.png?width=640&crop=smart&auto=webp&s=232e8b87de93a957a1da449246e192e71467b3f3",
+    "isShortVideo": 0
+  },
+  {
     "id": "57feaff0-1f73-5b4e-ae25-1d9ff5206b98",
     "title": "nvidia-LocateAnything-3B detects sushi as sweet in the video demo",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tui1sl/nvidialocateanything3b_detects_sushi_as_sweet_in/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0jh9/i_think_they_reset_it_again/\"> <img alt=\"!!!I THINK THEY RESET IT AGAIN!!!\" src=\"https://preview.redd.it/6y0dtthqop4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a3d961d1cda43f7871b4566053b8c60147ff1549\" title=\"!!!I THINK THEY RESET IT AGAIN!!!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/imeowfortallwomen\"> /u/imeowfortallwomen </a> <br /> <span><a href=\"https://i.redd.it/6y0dtthqop4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0jh9/i_think_they_reset_it_again/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/6y0dtthqop4h1.png?width=640&crop=smart&auto=webp&s=a3d961d1cda43f7871b4566053b8c60147ff1549",
-    "isShortVideo": 0
-  },
-  {
-    "id": "344f2711-bd91-57df-a7ae-6eb903ae408c",
-    "title": "I had claude review my usage. Apparently $120K worth of tokens in 69 days",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tu0cq9/i_had_claude_review_my_usage_apparently_120k/",
-    "pubDate": "2026-06-01T18:02:20+00:00",
-    "description": "Simple prompt \"Can you analyze all the JSONL files in my claude folders and help me best utilize 4.8. do a deep analysis in how I use Claude and how I can improve\" You are one of the heaviest Claude Code users imaginable: ~140 sessions, 5,659 prompts, 153,810 tool-executing turns, ~164M output tokens in 69 days. That's ~27 tool steps per instruction — you delegate big autonomous chunks and let Claude run. If this volume were billed at standard Opus API rates it'd be $120K+ — on a Max plan, that number is your leverage, which is exactly why the inefficiencies below are worth fixing. Sessions are monolithic. ~1,000 assistant turns per session on average; your biggest single session hit 16,026 turns . Context filled and auto-compacted 107 times . Every turn re-reads ~400K cached tokens — your caching is essentially maxed at 99.9% hit rate (nothing to fix there), but the absolute context size per turn is the tax. Huge sessions = slower turns, more drift, and risk of losing state at each compaction. submitted by /u/03captain23 [link] [comments]",
-    "author": "/u/03captain23",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Simple prompt &quot;Can you analyze all the JSONL files in my claude folders and help me best utilize 4.8. do a deep analysis in how I use Claude and how I can improve&quot;</p> <p>You are one of the heaviest Claude Code users imaginable: <strong>~140 sessions, 5,659 prompts, 153,810 tool-executing turns, ~164M output tokens in 69 days.</strong> That's ~27 tool steps per instruction — you delegate big autonomous chunks and let Claude run. If this volume were billed at standard Opus API rates it'd be <strong>$120K+</strong> — on a Max plan, that number <em>is</em> your leverage, which is exactly why the inefficiencies below are worth fixing.</p> <p><strong>Sessions are monolithic.</strong> ~1,000 assistant turns per session on average; your biggest single session hit <strong>16,026 turns</strong>. Context filled and auto-compacted <strong>107 times</strong>. Every turn re-reads <strong>~400K cached tokens</strong> — your caching is essentially maxed at 99.9% hit rate (nothing to fix there), but the <em>absolute context size per turn</em> is the tax. Huge sessions = slower turns, more drift, and risk of losing state at each compaction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/03captain23\"> /u/03captain23 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0cq9/i_had_claude_review_my_usage_apparently_120k/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0cq9/i_had_claude_review_my_usage_apparently_120k/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

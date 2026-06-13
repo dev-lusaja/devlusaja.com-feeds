@@ -1,5 +1,21 @@
 [
   {
+    "id": "dfd94c73-eeab-588a-a6a8-7e826dc51632",
+    "title": "I made a plugin that turns your projects into clickable dock apps",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tsx85s/i_made_a_plugin_that_turns_your_projects_into/",
+    "pubDate": "2026-05-31T14:43:31+00:00",
+    "description": "GitHub: https://github.com/Christian-Katzmann/app-it I made a skill that turns any of your projects into a clickable dock app. Instead of running npm install, npm run build, npm run dev, opening localhost, remembering which repo needs which command, etc., you just click an icon and the app opens. It's called /app-it. I built it because I make a lot of small apps, tools, and weird AI-assisted experiments, and after a while, the friction of \"how do I run this one again?\" gets super annoying. /app-it makes each project feel like a real app on your machine. A bit of context: I've been building with agentic AI for a while now, mostly through Claude Code and Codex. I use a frankly unreasonable amount of tokens every day, and along the way I've stumbled upon a handful of small but powerful use-cases that I haven't really seen people share yet. So I'm turning them into skills/plugins and sharing them with you. The Mac version works pretty well, since I'm a Mac user. I've also tried to build the Windows version, but I'm flying blind there. If you're on Windows and want to beta-test it, I'd genuinely appreciate it. Open a PR with any fixes and you'll get full credit on the page, of course. I'll share more skills over the next few weeks. Some practical, some a bit unusual, hopefully a few you haven't seen before. My secret goal is to surprise you with the best ones, and I have a feeling the next one will raise some eyebrows. Enjoy, and take care. /Christian submitted by /u/Changed-username- [link] [comments]",
+    "author": "/u/Changed-username-",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsx85s/i_made_a_plugin_that_turns_your_projects_into/\"> <img alt=\"I made a plugin that turns your projects into clickable dock apps\" src=\"https://preview.redd.it/b2qyb5c0jh4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2d08914da24e6e43150c04dc501fbf73aad383de\" title=\"I made a plugin that turns your projects into clickable dock apps\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>GitHub: <a href=\"https://github.com/Christian-Katzmann/app-it\"><strong>https://github.com/Christian-Katzmann/app-it</strong></a> </p> <p>I made a skill that turns any of your projects into a clickable dock app.</p> <p>Instead of running npm install, npm run build, npm run dev, opening localhost, remembering which repo needs which command, etc., you just click an icon and the app opens.</p> <p>It's called <strong>/app-it.</strong></p> <p>I built it because I make a lot of small apps, tools, and weird AI-assisted experiments, and after a while, the friction of &quot;how do I run this one again?&quot; gets super annoying.</p> <p>/app-it makes each project feel like a real app on your machine.</p> <p>A bit of context: I've been building with agentic AI for a while now, mostly through Claude Code and Codex. I use a frankly unreasonable amount of tokens every day, and along the way I've stumbled upon a handful of small but powerful use-cases that I haven't really seen people share yet. So I'm turning them into skills/plugins and sharing them with you.</p> <p>The Mac version works pretty well, since I'm a Mac user.</p> <p>I've also tried to build the Windows version, but I'm flying blind there. If you're on Windows and want to beta-test it, I'd genuinely appreciate it. Open a PR with any fixes and you'll get full credit on the page, of course.</p> <p>I'll share more skills over the next few weeks. Some practical, some a bit unusual, hopefully a few you haven't seen before. </p> <p>My secret goal is to surprise you with the best ones, and I have a feeling the next one will raise some eyebrows.</p> <p>Enjoy, and take care.</p> <p>/Christian</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Changed-username-\"> /u/Changed-username- </a> <br /> <span><a href=\"https://i.redd.it/b2qyb5c0jh4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsx85s/i_made_a_plugin_that_turns_your_projects_into/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/b2qyb5c0jh4h1.png?width=640&crop=smart&auto=webp&s=2d08914da24e6e43150c04dc501fbf73aad383de",
+    "isShortVideo": 0
+  },
+  {
     "id": "94986128-91e1-58fd-898c-7a59ea15d7dd",
     "title": "Most noticeable change in Opus 4.8",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tsx3hg/most_noticeable_change_in_opus_48/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Before I build a project, I usually make a proposal, where:</p> <p>- The goals are defined.</p> <p>- The project is divided into phases.</p> <p>- Verifiers are defined for the end of each phase.</p> <p>- The requirements and initial ADRs are clearly stated.</p> <p>- The methodology to document and address bugs is defined</p> <p>- Etc.</p> <p>Before I give the proposal to Claude Code and start building, I always give the proposal to ChatGPT and Gemini, and they almost always find some potential for improvement.</p> <p>For me, it's very clear that reviewing a proposal by an LLM from a provider that is different from the LLM that created the proposal and/or will build the project is very beneficial. However, I don't know anyone else who does it.</p> <p>Am I the only one working like this or is it standard practice?</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdBest7581\"> /u/AdBest7581 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsp83h/using_multiple_llm_providers_to_refine_a_project/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsp83h/using_multiple_llm_providers_to_refine_a_project/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cfa9d72a-b48d-55d6-b899-9e157e8bb6e6",
-    "title": "Opus 4.8 on \"can Anthropic remain ethical?\"",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tsp6p0/opus_48_on_can_anthropic_remain_ethical/",
-    "pubDate": "2026-05-31T08:09:03+00:00",
-    "description": "I thought this was a sharp take - Opus 4.8 is surprisingly full of those under the hedging. submitted by /u/iveroi [link] [comments]",
-    "author": "/u/iveroi",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsp6p0/opus_48_on_can_anthropic_remain_ethical/\"> <img alt=\"Opus 4.8 on &quot;can Anthropic remain ethical?&quot;\" src=\"https://preview.redd.it/u45dqng0lf4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=aa9ef3d13a5c5c306aadd29dc070aad4d1927b5c\" title=\"Opus 4.8 on &quot;can Anthropic remain ethical?&quot;\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I thought this was a sharp take - Opus 4.8 is surprisingly full of those under the hedging. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iveroi\"> /u/iveroi </a> <br /> <span><a href=\"https://i.redd.it/u45dqng0lf4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsp6p0/opus_48_on_can_anthropic_remain_ethical/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/u45dqng0lf4h1.png?width=640&crop=smart&auto=webp&s=aa9ef3d13a5c5c306aadd29dc070aad4d1927b5c",
     "isShortVideo": 0
   }
 ]

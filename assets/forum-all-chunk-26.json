@@ -1,5 +1,21 @@
 [
   {
+    "id": "344f2711-bd91-57df-a7ae-6eb903ae408c",
+    "title": "I had claude review my usage. Apparently $120K worth of tokens in 69 days",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tu0cq9/i_had_claude_review_my_usage_apparently_120k/",
+    "pubDate": "2026-06-01T18:02:20+00:00",
+    "description": "Simple prompt \"Can you analyze all the JSONL files in my claude folders and help me best utilize 4.8. do a deep analysis in how I use Claude and how I can improve\" You are one of the heaviest Claude Code users imaginable: ~140 sessions, 5,659 prompts, 153,810 tool-executing turns, ~164M output tokens in 69 days. That's ~27 tool steps per instruction — you delegate big autonomous chunks and let Claude run. If this volume were billed at standard Opus API rates it'd be $120K+ — on a Max plan, that number is your leverage, which is exactly why the inefficiencies below are worth fixing. Sessions are monolithic. ~1,000 assistant turns per session on average; your biggest single session hit 16,026 turns . Context filled and auto-compacted 107 times . Every turn re-reads ~400K cached tokens — your caching is essentially maxed at 99.9% hit rate (nothing to fix there), but the absolute context size per turn is the tax. Huge sessions = slower turns, more drift, and risk of losing state at each compaction. submitted by /u/03captain23 [link] [comments]",
+    "author": "/u/03captain23",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Simple prompt &quot;Can you analyze all the JSONL files in my claude folders and help me best utilize 4.8. do a deep analysis in how I use Claude and how I can improve&quot;</p> <p>You are one of the heaviest Claude Code users imaginable: <strong>~140 sessions, 5,659 prompts, 153,810 tool-executing turns, ~164M output tokens in 69 days.</strong> That's ~27 tool steps per instruction — you delegate big autonomous chunks and let Claude run. If this volume were billed at standard Opus API rates it'd be <strong>$120K+</strong> — on a Max plan, that number <em>is</em> your leverage, which is exactly why the inefficiencies below are worth fixing.</p> <p><strong>Sessions are monolithic.</strong> ~1,000 assistant turns per session on average; your biggest single session hit <strong>16,026 turns</strong>. Context filled and auto-compacted <strong>107 times</strong>. Every turn re-reads <strong>~400K cached tokens</strong> — your caching is essentially maxed at 99.9% hit rate (nothing to fix there), but the <em>absolute context size per turn</em> is the tax. Huge sessions = slower turns, more drift, and risk of losing state at each compaction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/03captain23\"> /u/03captain23 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0cq9/i_had_claude_review_my_usage_apparently_120k/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0cq9/i_had_claude_review_my_usage_apparently_120k/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4d7ea951-99b2-5f29-b8af-9b713832dbb6",
     "title": "Limits reset again",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ttznix/limits_reset_again/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I don't know for the rest of you, but with my setup, as soon as i enable MTP, the PP performance and GPU usage drops significantly for some reason. It's not as much a memory issue for me as it is declining performance.</p> <p>My setup is: 2x Radeon VII 16gb on ROCm, 1x Rtx3080 8gb Max Q on vulkan. Running Qwen 3.6 27B with KV at Q8. The Radeon VIIs are on 4x PCIe Risers, so maybe it is a bus contention issue?</p> <p>That said, i also tried going full Vulkan, but that makes it worse by a long shot.</p> <p>Anyone here that could please explain why that is the case? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/milpster\"> /u/milpster </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttri4a/mtp_is_nice_and_all_but_what_about_pp_speeds/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttri4a/mtp_is_nice_and_all_but_what_about_pp_speeds/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "35be65ab-a99d-5e6e-9cd6-29a072e7aa4f",
-    "title": "Cheap V100 32gb",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttr60r/cheap_v100_32gb/",
-    "pubDate": "2026-06-01T12:47:35+00:00",
-    "description": "Mod remove if violation. But I thought some GPU poor folks would be interested V100 32GB $526 - $60 (SSUS60)*- $35 (PayPal) + $71 shipping YMMV *I might have used another for $75, not showing up on my list of coupons after use. Ordered one. Rolled the dice and hope it shows up in Nvidia-smi with 32gb https://s.click.aliexpress.com/e/_mKVTy6T submitted by /u/MachineZer0 [link] [comments]",
-    "author": "/u/MachineZer0",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttr60r/cheap_v100_32gb/\"> <img alt=\"Cheap V100 32gb\" src=\"https://preview.redd.it/6ltonnem3o4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=75e98e8b28bf072cef08c758c28259e7120fcd22\" title=\"Cheap V100 32gb\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Mod remove if violation. But I thought some GPU poor folks would be interested</p> <p>V100 32GB $526 - $60 (SSUS60)*- $35 (PayPal) + $71 shipping YMMV</p> <p>*I might have used another for $75, not showing up on my list of coupons after use.</p> <p>Ordered one. Rolled the dice and hope it shows up in Nvidia-smi with 32gb</p> <p><a href=\"https://s.click.aliexpress.com/e/_mKVTy6T\">https://s.click.aliexpress.com/e/_mKVTy6T</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MachineZer0\"> /u/MachineZer0 </a> <br /> <span><a href=\"https://i.redd.it/6ltonnem3o4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttr60r/cheap_v100_32gb/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/6ltonnem3o4h1.jpeg?width=640&crop=smart&auto=webp&s=75e98e8b28bf072cef08c758c28259e7120fcd22",
     "isShortVideo": 0
   }
 ]
