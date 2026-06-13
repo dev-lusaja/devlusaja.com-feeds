@@ -1,5 +1,21 @@
 [
   {
+    "id": "798e875d-3a53-5640-b313-ba501f081e1e",
+    "title": "Here are some tips on hitting nearly 200 tok/s for DeepSeek v4 Flash on Hopper",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0d8j4/here_are_some_tips_on_hitting_nearly_200_toks_for/",
+    "pubDate": "2026-06-08T16:40:46+00:00",
+    "description": "I needed a smarter model for my local Hermes Agent setup, so I moved to DeepSeek v4 Flash. First things first: Running 4 concurrent threads on vLLM, I can hit ~400 tok/s 400 x 60 x 60 x 24 x 30 is ~1B TOKENS per month!!! DSv4Flash cost $0.1966 per million tokens... shit... It costs me ~350 euro of electricity to generate ~200 euro of tokens. Yay! Anyway, to loose less money, I spent some time optimising DSv4Flash. By using these quants Canada-Quant , and patching the MTP code in vLLM, I hit 193 tok/s on a Hopper system. deets are in the blog post. submitted by /u/Reddactor [link] [comments]",
+    "author": "/u/Reddactor",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I needed a smarter model for my local Hermes Agent setup, so I moved to DeepSeek v4 Flash.</p> <p>First things first:</p> <ul> <li>Running 4 concurrent threads on vLLM, I can hit ~400 tok/s</li> <li>400 x 60 x 60 x 24 x 30 is <strong>~1B TOKENS per month!!!</strong></li> <li>DSv4Flash cost $0.1966 per million tokens... shit...</li> <li>It costs me ~350 euro of electricity to generate ~200 euro of tokens. Yay!</li> </ul> <p>Anyway, to loose less money, I spent some time optimising DSv4Flash. By using these <a href=\"https://huggingface.co/canada-quant/DeepSeek-V4-Flash-W4A16-FP8-MTP\">quants Canada-Quant</a>, and patching the MTP code in vLLM, I hit 193 tok/s on a Hopper system.</p> <p>deets are in the blog post.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Reddactor\"> /u/Reddactor </a> <br /> <span><a href=\"https://dnhkng.github.io/posts/gh200-benchmarking-part-2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0d8j4/here_are_some_tips_on_hitting_nearly_200_toks_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "123c6576-3a3a-51f2-a38e-6edd23e8c871",
     "title": "Université Paris Saclay or TU Delft for Applied Mathematics Masters [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u0czg9/université_paris_saclay_or_tu_delft_for_applied/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>A clinical AI model does not need to know who the patient is to reason clinically. </p> <p>It needs the symptoms, medications, lab results, diagnosis history, and treatment course. </p> <p>The problem is that in real medical records, those facts usually sit next to identifiers: names, record IDs, insurance numbers, addresses, phone numbers, admission dates, department names. </p> <p>So clinical de-identification has a double contract:<br /> 1. Do not let patient identifiers leak.<br /> 2. Do not destroy the clinical facts that still need to be used.<br /> That second part is easy to underestimate. </p> <p>If a model misses a date of birth, the privacy boundary fails. If it removes<br /> &quot;creatinine 86 µmol/L&quot; or &quot;metformin 500 mg,&quot; the downstream clinical record loses meaning. Both are failures, but they have different consequences. </p> <p>We built Meddies PII for this problem. It is an open research model and dataset for multilingual clinical de-identification. The dataset is synthetic and built with dynamic prompting, varying language, document type, document label, note length, text format, edge case, and identifier family across generations. </p> <p>The goal is not one pretty template. The goal is stable extraction behavior across the messy surfaces hospital data actually appears in: rushed notes, nursing forms, JSON/XML exports, multilingual text, administrative records, and chat-style prompts. </p> <p>Meddies PII is not a complete de-identification product. Hospitals still need policy, audit logs, local validation, human escalation paths, and deployment controls. </p> <p>But we think this is a useful starting point: open enough to inspect, careful enough to discuss honestly, and built from the reality that clinical AI needs more than benchmark performance to be deployable. </p> <p>Full post: <a href=\"https://meddies.ai/research/meddies-pii\">https://meddies.ai/research/meddies-pii</a></p> <p>Demo: <a href=\"https://huggingface.co/spaces/Meddies/meddies-pii-extractor\">https://huggingface.co/spaces/Meddies/meddies-pii-extractor</a></p> <p>Model: <a href=\"https://huggingface.co/Meddies/meddies-pii\">https://huggingface.co/Meddies/meddies-pii</a></p> <p>Dataset: <a href=\"https://huggingface.co/datasets/Meddies/meddies-pii\">https://huggingface.co/datasets/Meddies/meddies-pii</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheREXincoming\"> /u/TheREXincoming </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u04rnh/meddies_pii_an_open_multilingual_deidentification/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u04rnh/meddies_pii_an_open_multilingual_deidentification/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c15af18a-fb79-508e-8c31-ebbf747fe61c",
-    "title": "Windows keeps crashing on rtx 3090",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u04egz/windows_keeps_crashing_on_rtx_3090/",
-    "pubDate": "2026-06-08T10:50:15+00:00",
-    "description": "EDIT: SOLVED Just switched to studio drivers instead of game ready Recently bought used 3090. Under heavy stress tests and gaming it's fine. When I load any model, it's fine, but if I do something else, like using browser, in about 30 seconds Windows completely freezes for a few minutes, then comes back to life with an error in whatever engine model was running. This happens when gpu is at 100% load, amount of utilized vram doesn't matter. I can't even use ComfyUI interface on my pc because of it. I need to use the ui on my phone to avoid crashing. Before that, I had an RTX 3060 12Gb, and it didn't crash ever once under the exact same scenarios. I have intel i5-10400f, 64gb ddr4, rtx 3090, 850w power supply. Fresh Windows, up-to-date drivers, llama.cpp and ComfyUi. submitted by /u/Acrobatic_Donkey5089 [link] [comments]",
-    "author": "/u/Acrobatic_Donkey5089",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>EDIT: SOLVED Just switched to studio drivers instead of game ready</p> <p>Recently bought used 3090. Under heavy stress tests and gaming it's fine. When I load any model, it's fine, but if I do something else, like using browser, in about 30 seconds Windows completely freezes for a few minutes, then comes back to life with an error in whatever engine model was running. This happens when gpu is at 100% load, amount of utilized vram doesn't matter. I can't even use ComfyUI interface on my pc because of it. I need to use the ui on my phone to avoid crashing. </p> <p>Before that, I had an RTX 3060 12Gb, and it didn't crash ever once under the exact same scenarios.</p> <p>I have intel i5-10400f, 64gb ddr4, rtx 3090, 850w power supply.</p> <p>Fresh Windows, up-to-date drivers, llama.cpp and ComfyUi.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Acrobatic_Donkey5089\"> /u/Acrobatic_Donkey5089 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u04egz/windows_keeps_crashing_on_rtx_3090/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u04egz/windows_keeps_crashing_on_rtx_3090/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

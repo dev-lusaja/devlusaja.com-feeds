@@ -1,5 +1,21 @@
 [
   {
+    "id": "518e9e04-6e1d-5799-ac8a-4e20a06c6f9e",
+    "title": "POV: Every time you typo and Claude overthinks it",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz0djm/pov_every_time_you_typo_and_claude_overthinks_it/",
+    "pubDate": "2026-06-07T02:54:08+00:00",
+    "description": "Especially when you’re vibe coding and mistype something, or forget to include a requirement because you didn’t think of some edge case. Claude’s thinking mode just starts spiraling, burning tokens trying to untangle the confusion and arguing with itself through a chain of “Wait, but…” instead of simply asking whether the user forgot to include something. I even added skills telling it to ask me when requirements seem incomplete instead of making assumptions, but half the time it ignores them and goes right back to overthinking. On the plus side though, when the requirements are clear and not confusing, it writes really good code. submitted by /u/zaparine [link] [comments]",
+    "author": "/u/zaparine",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz0djm/pov_every_time_you_typo_and_claude_overthinks_it/\"> <img alt=\"POV: Every time you typo and Claude overthinks it\" src=\"https://preview.redd.it/inabe3k7zr5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=df9852f910b2be64621ff1e9f699e46253f70ae9\" title=\"POV: Every time you typo and Claude overthinks it\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Especially when you’re vibe coding and mistype something, or forget to include a requirement because you didn’t think of some edge case. Claude’s thinking mode just starts spiraling, burning tokens trying to untangle the confusion and arguing with itself through a chain of “Wait, but…” instead of simply asking whether the user forgot to include something. I even added skills telling it to ask me when requirements seem incomplete instead of making assumptions, but half the time it ignores them and goes right back to overthinking. On the plus side though, when the requirements are clear and not confusing, it writes really good code.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zaparine\"> /u/zaparine </a> <br /> <span><a href=\"https://i.redd.it/inabe3k7zr5h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz0djm/pov_every_time_you_typo_and_claude_overthinks_it/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/inabe3k7zr5h1.jpeg?width=640&crop=smart&auto=webp&s=df9852f910b2be64621ff1e9f699e46253f70ae9",
+    "isShortVideo": 0
+  },
+  {
     "id": "6580fb8b-9cd0-54ac-b478-db37b1fe4b55",
     "title": "This weekend project is taking forever!",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tyzppz/this_weekend_project_is_taking_forever/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>For the ones in legal tech it's worth knowing about <a href=\"https://github.com/ahmeabd/italia-corpus\">github.com/ahmeabd/italia-corpus</a>.</p> <p>I gave its link to Claude Code and with a git clone it had all the Italian legislation ready to use.</p> <p>It solves a problem that anyone who has tried working with legal texts knows all too well: the legislation is public, but the formats are terrible and usually require scraping and/or parsing. Here, a simple git clone is enough.</p> <p>What I find most interesting is this: every legislative update is stored as a commit. A git diff immediately shows exactly what has changed.</p> <p>It would be nice to have the same for other legislations.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Foreign_Lead_3582\"> /u/Foreign_Lead_3582 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tynip7/all_italian_legislation_free_on_github_in_markdown/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tynip7/all_italian_legislation_free_on_github_in_markdown/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d840bddb-8777-5e92-8739-91e7264202bf",
-    "title": "Gemma 4 QAT accuracy inconsistencies",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tynhd1/gemma_4_qat_accuracy_inconsistencies/",
-    "pubDate": "2026-06-06T17:33:50+00:00",
-    "description": "Table from https://unsloth.ai/docs/models/gemma-4/qat#qat-analysis I heard that MoE models are usually more susceptible to quantization error, but what happened with the 12B? I thought lower-parameter models usually quantized worse and yet, E2B/E4B are pretty much perfect while the 12B deviates from FP16 the most. Do we have an explanation for that, or did maybe something go wrong during quantization-aware training on Google's side with the 12B in particular? I'd also be interested in the exact methodology used here and comparisons to non-QAT variants if any of the authors of the post linked above are reading this (maybe non-QAT actually performs better here)! submitted by /u/ai_fonsi [link] [comments]",
-    "author": "/u/ai_fonsi",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tynhd1/gemma_4_qat_accuracy_inconsistencies/\"> <img alt=\"Gemma 4 QAT accuracy inconsistencies\" src=\"https://external-preview.redd.it/ksRJC2bKGwjrMfOqsioi-B4oIm5QWQUM7Vf03KwieGM.jpeg?width=140&amp;height=68&amp;auto=webp&amp;s=def2f1bf0c4cba5ecaa9a7d1eb5a46d22c9c9776\" title=\"Gemma 4 QAT accuracy inconsistencies\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/7ck4hkup5p5h1.png?width=1354&amp;format=png&amp;auto=webp&amp;s=c279d7cb9f2ace09518563d8cbf2903fc6516756\">Table from https://unsloth.ai/docs/models/gemma-4/qat#qat-analysis</a></p> <p>I heard that MoE models are usually more susceptible to quantization error, but what happened with the 12B? I thought lower-parameter models usually quantized worse and yet, E2B/E4B are pretty much perfect while the 12B deviates from FP16 the most. Do we have an explanation for that, or did maybe something go wrong during quantization-aware training on Google's side with the 12B in particular?</p> <p>I'd also be interested in the exact methodology used here and comparisons to non-QAT variants if any of the authors of the post linked above are reading this (maybe non-QAT actually performs better here)!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ai_fonsi\"> /u/ai_fonsi </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tynhd1/gemma_4_qat_accuracy_inconsistencies/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tynhd1/gemma_4_qat_accuracy_inconsistencies/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ksRJC2bKGwjrMfOqsioi-B4oIm5QWQUM7Vf03KwieGM.jpeg?width=140&height=68&auto=webp&s=def2f1bf0c4cba5ecaa9a7d1eb5a46d22c9c9776",
     "isShortVideo": 0
   }
 ]

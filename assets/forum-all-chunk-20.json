@@ -1,5 +1,21 @@
 [
   {
+    "id": "ca31a64b-3534-5f49-9f96-90b122b52c4d",
+    "title": "Best Visual Reasoning Model in 2026 (Including APIs) [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1twccr2/best_visual_reasoning_model_in_2026_including/",
+    "pubDate": "2026-06-04T03:52:46+00:00",
+    "description": "For example, suppose I have a one-hour video and I provide it to ChatGPT or another AI model. If I ask complex reasoning questions about the video, which models are best suited for long-horizon video understanding and reasoning? Which models can produce the most reliable answers in this scenario? submitted by /u/Alternative_Art2984 [link] [comments]",
+    "author": "/u/Alternative_Art2984",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>For example, suppose I have a one-hour video and I provide it to ChatGPT or another AI model. If I ask complex reasoning questions about the video, which models are best suited for long-horizon video understanding and reasoning? Which models can produce the most reliable answers in this scenario?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twccr2/best_visual_reasoning_model_in_2026_including/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twccr2/best_visual_reasoning_model_in_2026_including/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8c0f8474-9f06-5c6d-854a-d5f53d642eb3",
     "title": "The first Gemma 4 12B finetunes are ready",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twbi9y/the_first_gemma_4_12b_finetunes_are_ready/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvwjq8/qwen35_use_postnorm_hidden_state_for_mtp_by/\"> <img alt=\"qwen35: use post-norm hidden state for MTP by am17an · Pull Request #24025 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/HAive87NAEuwQwCirg71TQYfIDXKhYLhFmfwxN1jEA8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5d2c15229b8eab2036f1bad5e2e0c70188e36530\" title=\"qwen35: use post-norm hidden state for MTP by am17an · Pull Request #24025 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>faster MTP for Qwen </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/24025\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvwjq8/qwen35_use_postnorm_hidden_state_for_mtp_by/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/HAive87NAEuwQwCirg71TQYfIDXKhYLhFmfwxN1jEA8.png?width=640&crop=smart&auto=webp&s=5d2c15229b8eab2036f1bad5e2e0c70188e36530",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bfb80266-4034-5cca-af30-9b0574a0bcab",
-    "title": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
-    "pubDate": "2026-06-03T17:28:03+00:00",
-    "description": "I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding with the track leadership and reading their public blog post, I think the broader methodological issue is worth discussing here. The track used Pangram, a proprietary AI-text detector, as part of the desk-rejection process. I was told that the materials considered for desk rejection were: the detector output the authors’ AI-use attestation This creates a potential circularity problem. If a high detector score is used to judge the author’s attestation as inconsistent, and that inconsistency is then used to justify desk rejection, the detector is not just an aid. It becomes a decisive part of the adjudication process. The bigger issue is validation. The NeurIPS blog describes tests using Pangram audits, older ACM FAccT papers, synthetic AI-generated position papers, and manually edited samples. But the target population was NeurIPS 2026 Position Paper submissions, whose ground-truth authorship process is unknown. So the key question is: What is the false-positive rate of the final decision procedure on the actual target distribution? A false-positive rate measured on one distribution does not automatically transfer to another. If the actual submission pool produced a \"surprisingly high flagged rate\" (citation from NeurIPS blog post), that could indicate distribution shift / miscalibration. To sanity-check the detector’s behavior, I also ran Pangram on recent 2026 papers authored by NeurIPS Position Paper Track Chairs. Pangram returned scores including: 69% AI 45% AI 36% AI 24% AI I am not claiming those papers were AI-written. For me, Pangram’s outputs alone does not permit such a conclusion. And that is exactly the point. UPD: Here is NeurIPS original blogpost And here is the blogpost with the detailed critics submitted by /u/Asleep-Requirement13 [link] [comments]",
-    "author": "/u/Asleep-Requirement13",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding with the track leadership and reading their public blog post, I think the broader methodological issue is worth discussing here.</p> <p>The track used Pangram, a proprietary AI-text detector, as part of the desk-rejection process. I was told that the materials considered for desk rejection were:</p> <ul> <li>the detector output</li> <li>the authors’ AI-use attestation</li> </ul> <p>This creates a potential circularity problem. If a high detector score is used to judge the author’s attestation as inconsistent, and that inconsistency is then used to justify desk rejection, the detector is not just an aid. It becomes a decisive part of the adjudication process.</p> <p>The bigger issue is validation.</p> <p>The NeurIPS blog describes tests using Pangram audits, older ACM FAccT papers, synthetic AI-generated position papers, and manually edited samples. But the target population was NeurIPS 2026 Position Paper submissions, whose ground-truth authorship process is unknown.</p> <p>So the key question is:</p> <p><strong>What is the false-positive rate of the final decision procedure on the actual target distribution?</strong></p> <p>A false-positive rate measured on one distribution does not automatically transfer to another. If the actual submission pool produced a &quot;surprisingly high flagged rate&quot; (citation from NeurIPS blog post), that could indicate distribution shift / miscalibration.</p> <p>To sanity-check the detector’s behavior, I also ran Pangram on recent 2026 papers authored by NeurIPS Position Paper Track Chairs. Pangram returned scores including:</p> <ul> <li>69% AI</li> <li>45% AI</li> <li>36% AI</li> <li>24% AI</li> </ul> <p>I am <strong>not</strong> claiming those papers were AI-written. For me, Pangram’s outputs alone does not permit such a conclusion. And that is exactly the point.</p> <p>UPD:</p> <p>Here is <a href=\"https://blog.neurips.cc/2026/06/02/ai-generated-papers-in-the-neurips-2026-position-paper-track/\">NeurIPS original blogpost</a></p> <p>And here is the<a href=\"https://www.linkedin.com/pulse/we-shouldnt-desk-reject-papers-based-unvalidated-ai-sergey-berezin-orc6e/\"> blogpost with the detailed critics</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Asleep-Requirement13\"> /u/Asleep-Requirement13 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

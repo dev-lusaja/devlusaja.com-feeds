@@ -1,5 +1,21 @@
 [
   {
+    "id": "e8e5b1a2-aa65-570e-8f12-e11876d4bab7",
+    "title": "What's your experience with Gemma4 QAT?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzsdxm/whats_your_experience_with_gemma4_qat/",
+    "pubDate": "2026-06-08T00:11:55+00:00",
+    "description": "Hey everyone! Not a native speaker, so please correct my english where I make mistakes, (can only learn from it!). While it's been out only for just a while, I wanted to post about it because it's been such a joy. So, to say upfront: I use Qwen3.6 27B for programming, Gemma4 for basically everything else. So I can't say anything meaningful about programming. Previously I've used Gemma4-31B Q4_K_L (for long 128k Q8_0 context tasks) and Q6_K_L (for short 32k Q8_0 context tasks). For short context tasks, think quick translations, roleplaying, short but accurate OCR, etc. For long context think long-document parsing, websearch research, etc. With the QAT model, I've been able to use the same model for both tasks (nice!) and notice subtle quality improvements. With roleplay for example, it has much more varied word use, more context relevant remarks, understand corrolations better and able to use it, etc. Sadly I have no experience with the Q8_0 model, but from what I can tell it performs at least better than Q6_K_L from bartowski. It is however still severely hampered by cache quant, Q8_0 does show a noticable degration for me at 128K. Using MTP with Gemma 31B QAT has been amazing too! I get 50 t/s tg (opposed to 21 t/s) for 32k tokens wikipedia page summerization, ~36 t/s tg during roleplay (opposed to 20 t/s), and you likely can get higher numbers on linux (stuck with windows for now...). I had to dial it in though, 5 max drafts seemed to work well for me, but for my friends 4 or 6 worked better for them. Try 3-7 in 5 separate runs for the same task and see wich one runs best for you. So yeah, enough about my experiences! How was yours? Do you notice any improvement or degration when using the QAT models? And what is programming like on it? submitted by /u/Kahvana [link] [comments]",
+    "author": "/u/Kahvana",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone!</p> <p>Not a native speaker, so please correct my english where I make mistakes, (can only learn from it!).</p> <p>While it's been out only for just a while, I wanted to post about it because it's been such a joy.</p> <p>So, to say upfront: I use Qwen3.6 27B for programming, Gemma4 for basically everything else. So I can't say anything meaningful about programming.</p> <p>Previously I've used Gemma4-31B Q4_K_L (for long 128k Q8_0 context tasks) and Q6_K_L (for short 32k Q8_0 context tasks). For short context tasks, think quick translations, roleplaying, short but accurate OCR, etc. For long context think long-document parsing, websearch research, etc.</p> <p>With the QAT model, I've been able to use the same model for both tasks (nice!) and notice subtle quality improvements.</p> <p>With roleplay for example, it has much more varied word use, more context relevant remarks, understand corrolations better and able to use it, etc.</p> <p>Sadly I have no experience with the Q8_0 model, but from what I can tell it performs at least better than Q6_K_L from bartowski. It is however still severely hampered by cache quant, Q8_0 does show a noticable degration for me at 128K.</p> <p>Using MTP with Gemma 31B QAT has been amazing too! I get 50 t/s tg (opposed to 21 t/s) for 32k tokens wikipedia page summerization, ~36 t/s tg during roleplay (opposed to 20 t/s), and you likely can get higher numbers on linux (stuck with windows for now...).</p> <p>I had to dial it in though, 5 max drafts seemed to work well for me, but for my friends 4 or 6 worked better for them. Try 3-7 in 5 separate runs for the same task and see wich one runs best for you.</p> <p>So yeah, enough about my experiences! How was yours? Do you notice any improvement or degration when using the QAT models? And what is programming like on it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kahvana\"> /u/Kahvana </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzsdxm/whats_your_experience_with_gemma4_qat/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzsdxm/whats_your_experience_with_gemma4_qat/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "570b76dc-a89f-5b19-8d52-1391cd2ed6ed",
     "title": "club-3090 adds experimental FP8 support for Qwen3.6-27B!",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzpkmf/club3090_adds_experimental_fp8_support_for/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hate to ask a simple question, but I’ve looked around and I see plenty of smaller models that *can* tool call, but none of them seem to do so appropriately or agentically. <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1qyg10z/i_tested_11_small_llms_on_toolcalling_judgment_on/\">Referring to this.</a></p> <p>As a matter of fact I couldn’t seem to get any newer Qwen or Gemma models to tool call properly either, but to be fair I didn’t try very hard. OmniCoder seems to do it perfectly without prompting. Just wondering if there’s something smaller so I can hot load it quicker on my 12 GB RTX 3060.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gavff64\"> /u/gavff64 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzctnd/any_smaller_model_than_omnicoder_v2_9b_that_can/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzctnd/any_smaller_model_than_omnicoder_v2_9b_that_can/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "22f07494-8e9b-5963-a511-ab818040433c",
-    "title": "How are they getting worse with every release lol?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzbyz2/how_are_they_getting_worse_with_every_release_lol/",
-    "pubDate": "2026-06-07T13:19:57+00:00",
-    "description": "But it's somewhat impressive that they're totally mogging the arena leaderboard now with all top 6 places. submitted by /u/Terrible-Priority-21 [link] [comments]",
-    "author": "/u/Terrible-Priority-21",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzbyz2/how_are_they_getting_worse_with_every_release_lol/\"> <img alt=\"How are they getting worse with every release lol?\" src=\"https://preview.redd.it/6y4pfbuj2v5h1.png?width=140&amp;height=84&amp;auto=webp&amp;s=741ca9589e384f61c39efa9ce74ade09905902ec\" title=\"How are they getting worse with every release lol?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>But it's somewhat impressive that they're totally mogging the arena leaderboard now with all top 6 places.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Terrible-Priority-21\"> /u/Terrible-Priority-21 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tzbyz2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzbyz2/how_are_they_getting_worse_with_every_release_lol/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/6y4pfbuj2v5h1.png?width=140&height=84&auto=webp&s=741ca9589e384f61c39efa9ce74ade09905902ec",
     "isShortVideo": 0
   }
 ]

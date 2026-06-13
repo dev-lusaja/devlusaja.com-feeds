@@ -1,5 +1,21 @@
 [
   {
+    "id": "cf38f9fa-7e28-5fff-8bdb-5fefc0cc1151",
+    "title": "Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library? [d]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/",
+    "pubDate": "2026-06-05T05:52:32+00:00",
+    "description": "Hello everyone, Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library? I am working on a project idea related to library-specific code generation. The concrete case is a specific Python library used in a technical/scientific domain. The goal would be to improve and evaluate how well code-generation models can use this library correctly. I am trying to understand the legal / Terms of Service boundary around using OpenAI API outputs in two different scenarios: Scenario 1: Silver dataset for fine-tuning an OSS model Use the OpenAI API to generate programming tasks, reference solutions, and verification tests for the specific Python library. Then human-review, filter, and validate the generated examples. Then use this silver dataset to fine-tune an open-source code model, with the goal of improving its performance on this specific library. My question: would this violate OpenAI’s terms because the API outputs are being used to train/fine-tune another coding model, even if the scope is narrow and library-specific? Scenario 2: Benchmark only, not training Use the OpenAI API to generate programming tasks, reference solutions, and verification tests. Human-review and validate them. Then use the resulting dataset only as an evaluation benchmark to compare different models. The benchmark would not be used to fine-tune or train any model. My question: is this generally considered allowed under OpenAI’s terms, assuming the benchmark is properly reviewed and documented as AI-assisted? I understand that Reddit is not legal advice, and I would still contact OpenAI or legal counsel for a definitive answer. However, I thought new ideas could come up from people who have already faced similar situations in practice. submitted by /u/ororo88 [link] [comments]",
+    "author": "/u/ororo88",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone,</p> <p>Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library?</p> <p>I am working on a project idea related to library-specific code generation. The concrete case is a specific Python library used in a technical/scientific domain. The goal would be to improve and evaluate how well code-generation models can use this library correctly.</p> <p>I am trying to understand the legal / Terms of Service boundary around using OpenAI API outputs in two different scenarios:</p> <p>Scenario 1: Silver dataset for fine-tuning an OSS model</p> <p>Use the OpenAI API to generate programming tasks, reference solutions, and verification tests for the specific Python library.</p> <p>Then human-review, filter, and validate the generated examples. Then use this silver dataset to fine-tune an open-source code model, with the goal of improving its performance on this specific library.</p> <p>My question: would this violate OpenAI’s terms because the API outputs are being used to train/fine-tune another coding model, even if the scope is narrow and library-specific?</p> <p>Scenario 2: Benchmark only, not training</p> <p>Use the OpenAI API to generate programming tasks, reference solutions, and verification tests.</p> <p>Human-review and validate them. Then use the resulting dataset only as an evaluation benchmark to compare different models. The benchmark would not be used to fine-tune or train any model.</p> <p>My question: is this generally considered allowed under OpenAI’s terms, assuming the benchmark is properly reviewed and documented as AI-assisted?</p> <p>I understand that Reddit is not legal advice, and I would still contact OpenAI or legal counsel for a definitive answer. However, I thought new ideas could come up from people who have already faced similar situations in practice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ororo88\"> /u/ororo88 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "70e0ddf9-0f90-5197-a84b-9d6e43c29673",
     "title": "[R] Measuring the Symmetry--Data Exchange Rate",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tx32hg/r_measuring_the_symmetrydata_exchange_rate/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone, I missed the ICML conference tickets because I was waiting for some travel funding confirmation and now they are sold out. Do you know any other ways I could still purchase one? There seems to be no waiting list… or if you know anyone who needs to cancel theirs, please let me know 🙏🏻</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TopPerformance1255\"> /u/TopPerformance1255 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu935n/icml_conference_ticket_looking_to_purchase_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu935n/icml_conference_ticket_looking_to_purchase_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "948c9167-8489-58c2-b1f5-f638a4048094",
-    "title": "Feedback on my EU AI Act Risk Tier Assessor [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tu4rnt/feedback_on_my_eu_ai_act_risk_tier_assessor_p/",
-    "pubDate": "2026-06-01T20:29:43+00:00",
-    "description": "Hey everyone, hope this is ok to post here. I built a free EU AI Act risk assessment tool and would love some feedback from people who actually know this space. You fill out a 10-question form describing your AI system, it classifies your EU AI Act risk tier, and emails you a PDF report with your applicable Articles and priority actions. Takes about 2 minutes, no account required. https://assessment.aiella.com Eventually I want to build a monitoring SDK that works like a Python library and automatically documents compliance of the technically measurable requirements at inference time. Looking for design partners for that down the road. Genuine feedback welcome, especially from anyone who has been through a real EU AI Act compliance process. Happy to answer questions about the classification methodology or the AWS architecture behind it. submitted by /u/aiandi [link] [comments]",
-    "author": "/u/aiandi",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, hope this is ok to post here. I built a free EU AI Act risk assessment tool and would love some feedback from people who actually know this space.</p> <p>You fill out a 10-question form describing your AI system, it classifies your EU AI Act risk tier, and emails you a PDF report with your applicable Articles and priority actions. Takes about 2 minutes, no account required.</p> <p><a href=\"https://assessment.aiella.com\">https://assessment.aiella.com</a></p> <p>Eventually I want to build a monitoring SDK that works like a Python library and automatically documents compliance of the technically measurable requirements at inference time. Looking for design partners for that down the road.</p> <p>Genuine feedback welcome, especially from anyone who has been through a real EU AI Act compliance process. Happy to answer questions about the classification methodology or the AWS architecture behind it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aiandi\"> /u/aiandi </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu4rnt/feedback_on_my_eu_ai_act_risk_tier_assessor_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu4rnt/feedback_on_my_eu_ai_act_risk_tier_assessor_p/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

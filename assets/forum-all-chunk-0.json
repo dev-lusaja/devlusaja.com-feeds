@@ -1,5 +1,21 @@
 [
   {
+    "id": "ef0ea4bf-bdeb-5022-a6b5-f712d1df31c0",
+    "title": "Anomaly Detection vs Classification for Visually Similar Cancer vs Mimics? [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/",
+    "pubDate": "2026-06-13T11:18:43+00:00",
+    "description": "I'm working on a paper and would love some input on model choice. Suppose you're trying to detect a specific type of cancer, but the negative samples are visually and morphologically very similar (i.e., “mimics” of the cancer). In this setting, would it make more sense to approach the problem as: Anomaly detection (treating the cancer as the target distribution and everything else as out-of-distribution), or Supervised classification (explicitly learning to distinguish cancer vs. mimics)? submitted by /u/DryHat3296 [link] [comments]",
+    "author": "/u/DryHat3296",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm working on a paper and would love some input on model choice.</p> <p>Suppose you're trying to detect a specific type of cancer, but the negative samples are visually and morphologically very similar (i.e., “mimics” of the cancer). In this setting, would it make more sense to approach the problem as:</p> <ol> <li><strong>Anomaly detection</strong> (treating the cancer as the target distribution and everything else as out-of-distribution), or</li> <li><strong>Supervised classification</strong> (explicitly learning to distinguish cancer vs. mimics)?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DryHat3296\"> /u/DryHat3296 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7490f720-1aba-571a-ae3a-31a779855d21",
     "title": "Price is not cost: how we are using the wrong variable to measure the cost of LLMs [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u4mues/price_is_not_cost_how_we_are_using_the_wrong/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>And what are you using for kv cache and context? What kind of performance are you getting?<br /> What is your hardware? And what are you using your models for?</p> <p>I figure with how fast everything moves, its worth asking once in a while to congeal our experiences.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Inevitable_Mistake32\"> /u/Inevitable_Mistake32 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8df275c4-0732-5ffb-99a5-70e326ec35ae",
-    "title": "MiMoCode released as OSS",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u39vwn/mimocode_released_as_oss/",
-    "pubDate": "2026-06-11T20:05:28+00:00",
-    "description": "submitted by /u/muyuu [link] [comments]",
-    "author": "/u/muyuu",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/muyuu\"> /u/muyuu </a> <br /> <span><a href=\"https://mimo.xiaomi.com/mimocode\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u39vwn/mimocode_released_as_oss/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
