@@ -1,5 +1,21 @@
 [
   {
+    "id": "a434db09-0cae-52e6-920f-f6672ff7f75d",
+    "title": "I created an LLM post-training method called RPS. Preliminary results show that it improved Qwen3-8b's program synthesis reliability. [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/",
+    "pubDate": "2026-05-21T16:19:20+00:00",
+    "description": "RPS is inspired by neuroscience. As humans, we learn basic skills as kids with high neuro-plasticity. We then learn advanced skills as teens and adults with low neuro-plasticity. RPS trains a model in 2 stages. In stage 1, the model is trained on easy data with high learning rate. In stage 2, the model is trained on hard data with 10% the learning rate of stage 1. RPS is basically a combination of existing ideas: curriculum learning + learning rate decay. ARC-AGI 1 public eval scores: base model: Qwen3-8b RPS: 4% EPS (equal learning rate in both stages): 2.4% Program Synthesis Stats: Program executions without error: RPS: 1145/1200 EPS: 870/1200 https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html https://github.com/iamjasonfeng/RPS submitted by /u/iamjasonfeng [link] [comments]",
+    "author": "/u/iamjasonfeng",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>RPS is inspired by neuroscience. As humans, we learn basic skills as kids with high neuro-plasticity. We then learn advanced skills as teens and adults with low neuro-plasticity. RPS trains a model in 2 stages. In stage 1, the model is trained on easy data with high learning rate. In stage 2, the model is trained on hard data with 10% the learning rate of stage 1. RPS is basically a combination of existing ideas: curriculum learning + learning rate decay.</p> <p>ARC-AGI 1 public eval scores:</p> <p>base model: Qwen3-8b</p> <p>RPS: 4%</p> <p>EPS (equal learning rate in both stages): 2.4%</p> <p>Program Synthesis Stats:</p> <p>Program executions without error:</p> <p>RPS: 1145/1200</p> <p>EPS: 870/1200</p> <p><a href=\"https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html\">https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html</a></p> <p><a href=\"https://github.com/iamjasonfeng/RPS\">https://github.com/iamjasonfeng/RPS</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iamjasonfeng\"> /u/iamjasonfeng </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b0b05bff-e369-512a-a0d6-c2542f7d2023",
     "title": "Does this idea sound fun? [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tjoeom/does_this_idea_sound_fun_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’m an undergrad from India and I just found out I had two papers accepted at the ICML 2026 GlobalSouthML workshop! I am super excited since this is my first time getting accepted into a major conference venue, but I’m also kind of panicking right now because I absolutely cannot afford a trip to Seoul.</p> <p>Since I've never done this before, I’m hoping some experienced folks can help answer a few questions about how the post-acceptance process works:</p> <ol> <li><p>I saw that the main conference has a &quot;Virtual Pass.&quot; Is that enough to keep my papers in the workshop program? ICML rules make it sound like someone must be there in person. If neither me nor my co-authors can afford the flight to South Korea, will our accepted papers just get withdrawn?</p></li> <li><p>Does ICML or the GlobalSouthML workshop specifically offer financial aid for undergrads? Should I email the organizers about this before I attempt to register? I saw some mentions of ICML Financial Aid online, but it looked like it might only cover hotels and registration, not the flights.</p></li> <li><p>How does submitting the final version actually work? Do the organizers email a specific form, or do I just upload a new PDF revision directly to my OpenReview portal? Also, since GlobalSouthML is a non-archival workshop, what exactly am I submitting, just the updated PDF addressing the reviewers' comments?</p></li> </ol> <p>Any advice on how to navigate this would be hugely appreciated! Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Material_Dinner_1924\"> /u/Material_Dinner_1924 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thap7a/firsttime_icml_workshop_acceptance_globalsouthml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thap7a/firsttime_icml_workshop_acceptance_globalsouthml/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3d41d514-12f2-532b-95a8-d23b7dc1c993",
-    "title": "Need reliable source for 30+ years of S&P 500 historical data for LSTM/Transformer research [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1thak5g/need_reliable_source_for_30_years_of_sp_500/",
-    "pubDate": "2026-05-19T03:18:13+00:00",
-    "description": "Hi everyone, I'm starting a research project on financial time-series forecasting using LSTM and Transformer models for predicting S&P 500 market direction. Right now, I'm struggling with obtaining reliable long-term historical data. I tried Yahoo Finance, but downloads are inconsistent/failing for me, and most Kaggle datasets I found only contain around 5–10 years of data. I specifically need: Around 30 years of historical S&P 500 data Preferably daily OHLCV data Reliable and clean source suitable for ML research Ideally free or student-friendly I also want to understand what researchers typically use in academic work for financial forecasting: Yahoo Finance? Alpha Vantage? WRDS/CRSP? Polygon? Kaggle? Something else? Additionally: Is using only S&P 500 index data enough for a Master's level research project? Or should I include technical indicators, macroeconomic data, sentiment, or constituent stock data? Would appreciate guidance from people who've actually worked on financial ML projects. Thanks. submitted by /u/stickPotatoe [link] [comments]",
-    "author": "/u/stickPotatoe",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm starting a research project on financial time-series forecasting using LSTM and Transformer models for predicting S&amp;P 500 market direction.</p> <p>Right now, I'm struggling with obtaining reliable long-term historical data.</p> <p>I tried Yahoo Finance, but downloads are inconsistent/failing for me, and most Kaggle datasets I found only contain around 5–10 years of data.</p> <p>I specifically need:</p> <ul> <li>Around 30 years of historical S&amp;P 500 data</li> <li>Preferably daily OHLCV data</li> <li>Reliable and clean source suitable for ML research</li> <li>Ideally free or student-friendly</li> </ul> <p>I also want to understand what researchers typically use in academic work for financial forecasting:</p> <ul> <li>Yahoo Finance?</li> <li>Alpha Vantage?</li> <li>WRDS/CRSP?</li> <li>Polygon?</li> <li>Kaggle?</li> <li>Something else?</li> </ul> <p>Additionally:</p> <ul> <li>Is using only S&amp;P 500 index data enough for a Master's level research project?</li> <li>Or should I include technical indicators, macroeconomic data, sentiment, or constituent stock data?</li> </ul> <p>Would appreciate guidance from people who've actually worked on financial ML projects.</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/stickPotatoe\"> /u/stickPotatoe </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thak5g/need_reliable_source_for_30_years_of_sp_500/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thak5g/need_reliable_source_for_30_years_of_sp_500/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

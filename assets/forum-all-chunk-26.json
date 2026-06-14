@@ -1,5 +1,21 @@
 [
   {
+    "id": "92a67e30-290f-5a47-ac1e-07073bbcadf2",
+    "title": "Usage reset! Let's gooo!",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tu0xfp/usage_reset_lets_gooo/",
+    "pubDate": "2026-06-01T18:20:26+00:00",
+    "description": "My usage was at 95%, I was limping towards wed reset when suddenly my usage went to 0%. Let's gooo! Opus 4.8 cranked back up to full! submitted by /u/randoreddituser22 [link] [comments]",
+    "author": "/u/randoreddituser22",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0xfp/usage_reset_lets_gooo/\"> <img alt=\"Usage reset! Let's gooo!\" src=\"https://preview.redd.it/a6347j70rp4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=801e899bdefc8154ca3cde73b19ee9e1519b5833\" title=\"Usage reset! Let's gooo!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>My usage was at 95%, I was limping towards wed reset when suddenly my usage went to 0%. Let's gooo! Opus 4.8 cranked back up to full!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/randoreddituser22\"> /u/randoreddituser22 </a> <br /> <span><a href=\"https://i.redd.it/a6347j70rp4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0xfp/usage_reset_lets_gooo/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/a6347j70rp4h1.jpeg?width=640&crop=smart&auto=webp&s=801e899bdefc8154ca3cde73b19ee9e1519b5833",
+    "isShortVideo": 0
+  },
+  {
     "id": "b83d8f21-fb34-55bc-8835-f396b58afbec",
     "title": "RTX Spark will have up to 600GB/s of memory bandwidth.",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu0vkl/rtx_spark_will_have_up_to_600gbs_of_memory/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Coding focused small MoE from JetBrains. They claim coding performance around Qwen 3.5 9B for the reasoning model. Worse than Qwen 3.5 4B in in everything else.</p> <p>Models: <a href=\"https://huggingface.co/collections/JetBrains/mellum-2\">https://huggingface.co/collections/JetBrains/mellum-2</a></p> <p>Technical report: <a href=\"https://arxiv.org/abs/2605.31268\">https://arxiv.org/abs/2605.31268</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Middle_Bullfrog_6173\"> /u/Middle_Bullfrog_6173 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tts4f7/mellum_2_12b_a25b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tts4f7/mellum_2_12b_a25b/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "db17ca08-0655-5507-b040-7fe9d72d2f7c",
-    "title": "Claude's memory problem isn't a model problem",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ttrncg/claudes_memory_problem_isnt_a_model_problem/",
-    "pubDate": "2026-06-01T13:05:59+00:00",
-    "description": "Every morning for about 4 months, the first thing I did in Claude Code was paste the same paragraph letting him know what my structure was and to read the \"rules.md\" file Then I'd ask my actual question. I assumed this was just how it had to work. Longer context windows would fix it eventually (1M context is not enough now). I waited for that. Then I noticed something. Even WITH long context, Claude in a fresh session still asked things like \"what's your testing framework?\" which I'd told it 47 times across previous sessions. The problem wasn't context length. Each session is amnesiac by design. What I tried, in order: CLAUDE.md in the repo root. Free. Works. Biggest single improvement of anything I tried. Claude reads it on every new session. Mine has the stack, the prompt-style I want, the do-not-touch files. Took 30 minutes to write. Should have done it month 1. Inline /memory commands. Mid. Works for the current session, gone next morning. Useful when learning a one-off fact you want Claude to keep until conversation end. Not a real memory layer. A custom MCP server that injects a \"memory\" tool. Better. Claude could query \"what do I know about Sarah's database schema?\" mid-session. But I had to remember to teach it new facts manually. That defeated the point. Mem0 + Qdrant under an orchestrator. It watches the conversation, auto-extracts facts every 6 turns, surfaces them into the next session as \"previously, you established X about this codebase.\" This is what actually killed the re-explaining problem for me. The framework I should have started with: Claude's memory isn't a model problem. It's a workflow problem. Fix the workflow first. The free version (CLAUDE.md) gets you 60% of the way. For a single-developer codebase you probably don't need anything fancier than that. I open-sourced the rest of my setup as OpenYabby - Claude Code orchestrator with the Mem0 auto-extraction baked in (MIT, macOS, github.com/OpenYabby/OpenYabby). But honestly: write a CLAUDE.md first. See if you even need anything more. Most people don't. submitted by /u/Interesting-Sock3940 [link] [comments]",
-    "author": "/u/Interesting-Sock3940",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Every morning for about 4 months, the first thing I did in Claude Code was paste the same paragraph letting him know what my structure was and to read the &quot;rules.md&quot; file</p> <p>Then I'd ask my actual question.</p> <p>I assumed this was just how it had to work. Longer context windows would fix it eventually (1M context is not enough now). I waited for that.</p> <p>Then I noticed something. Even WITH long context, Claude in a fresh session still asked things like &quot;what's your testing framework?&quot; which I'd told it 47 times across previous sessions. The problem wasn't context length. Each session is amnesiac by design.</p> <p>What I tried, in order:</p> <ol> <li><p>CLAUDE.md in the repo root. Free. Works. Biggest single improvement of anything I tried. Claude reads it on every new session. Mine has the stack, the prompt-style I want, the do-not-touch files. Took 30 minutes to write. Should have done it month 1.</p></li> <li><p>Inline /memory commands. Mid. Works for the current session, gone next morning. Useful when learning a one-off fact you want Claude to keep until conversation end. Not a real memory layer.</p></li> <li><p>A custom MCP server that injects a &quot;memory&quot; tool. Better. Claude could query &quot;what do I know about Sarah's database schema?&quot; mid-session. But I had to remember to teach it new facts manually. That defeated the point.</p></li> <li><p>Mem0 + Qdrant under an orchestrator. It watches the conversation, auto-extracts facts every 6 turns, surfaces them into the next session as &quot;previously, you established X about this codebase.&quot; This is what actually killed the re-explaining problem for me.</p></li> </ol> <p>The framework I should have started with:</p> <p>Claude's memory isn't a model problem. It's a workflow problem. Fix the workflow first.</p> <p>The free version (CLAUDE.md) gets you 60% of the way. For a single-developer codebase you probably don't need anything fancier than that.</p> <p>I open-sourced the rest of my setup as OpenYabby - Claude Code orchestrator with the Mem0 auto-extraction baked in (MIT, macOS, github.com/OpenYabby/OpenYabby). </p> <p>But honestly: write a CLAUDE.md first. See if you even need anything more. Most people don't.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Interesting-Sock3940\"> /u/Interesting-Sock3940 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttrncg/claudes_memory_problem_isnt_a_model_problem/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttrncg/claudes_memory_problem_isnt_a_model_problem/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

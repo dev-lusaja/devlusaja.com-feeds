@@ -1,5 +1,21 @@
 [
   {
+    "id": "e77b7098-de44-5815-85b9-e36985c396a4",
+    "title": "SenseNova U1 dropped an infographic-specific finetune",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u25dkn/sensenova_u1_dropped_an_infographicspecific/",
+    "pubDate": "2026-06-10T15:25:34+00:00",
+    "description": "it's the same U1-8B-MoT base with an extended MT (multi-task) training phase focused on structured visual output. the benchmark jumps are significant: IGenBench I-ACC (infographic accuracy) : 4.2👉17.0 (4x) Chart Understanding: 51.3👉69.5Text Rendering: 39.8👉46.6Overall Aesthetic: 53.8👉53.3 Repo: https://github.com/OpenSenseNova/SenseNova-U1github (infographic model docs): https://github.com/OpenSenseNova/SenseNova-U1/blob/main/docs/u1\\_infographic\\_model.md submitted by /u/Matakotight [link] [comments]",
+    "author": "/u/Matakotight",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u25dkn/sensenova_u1_dropped_an_infographicspecific/\"> <img alt=\"SenseNova U1 dropped an infographic-specific finetune\" src=\"https://preview.redd.it/elpj7d804h6h1.jpg?width=140&amp;height=77&amp;auto=webp&amp;s=a9b467ba3d5617984033c5a516a325db3419a3ec\" title=\"SenseNova U1 dropped an infographic-specific finetune\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>it's the same U1-8B-MoT base with an extended MT (multi-task) training phase focused on structured visual output. the benchmark jumps are significant:<br /> IGenBench I-ACC (infographic accuracy) : 4.2👉17.0 (4x) Chart Understanding: 51.3👉69.5Text Rendering: 39.8👉46.6Overall Aesthetic: 53.8👉53.3<br /> Repo: <a href=\"https://github.com/OpenSenseNova/SenseNova-U1github\">https://github.com/OpenSenseNova/SenseNova-U1github</a> (infographic model docs): <a href=\"https://github.com/OpenSenseNova/SenseNova-U1/blob/main/docs/u1%5C_infographic%5C_model.md\">https://github.com/OpenSenseNova/SenseNova-U1/blob/main/docs/u1\\_infographic\\_model.md</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Matakotight\"> /u/Matakotight </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u25dkn\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u25dkn/sensenova_u1_dropped_an_infographicspecific/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/elpj7d804h6h1.jpg?width=140&height=77&auto=webp&s=a9b467ba3d5617984033c5a516a325db3419a3ec",
+    "isShortVideo": 0
+  },
+  {
     "id": "8868f0af-96f0-5362-996a-4f8e27caab19",
     "title": "Just pointing out the obvious...",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u24yhn/just_pointing_out_the_obvious/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1selr/claude_dropped_fable_5_and_the_api_pricing/\"> <img alt=\"Claude dropped Fable 5 and the API pricing genuinely shocked me\" src=\"https://preview.redd.it/lq1bkrhczd6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8da88f666780cc3e96a85d5d7f0cdf48b6b2fd9a\" title=\"Claude dropped Fable 5 and the API pricing genuinely shocked me\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>So Claude just dropped Fable 5 and I got curious, went to check the API pricing… and wow 😭</p> <p>$50/M feels <em>crazy</em> expensive depending on what you’re building. Maybe I’m just broke founder mode right now, but seeing that number actually made me pause for a second.</p> <p>For people building apps or agents, do you think pricing like this is justified because of performance, or are AI companies starting to price out indie devs?</p> <p>What’s your take?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AirPure9910\"> /u/AirPure9910 </a> <br /> <span><a href=\"https://i.redd.it/lq1bkrhczd6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1selr/claude_dropped_fable_5_and_the_api_pricing/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/lq1bkrhczd6h1.png?width=640&crop=smart&auto=webp&s=8da88f666780cc3e96a85d5d7f0cdf48b6b2fd9a",
-    "isShortVideo": 0
-  },
-  {
-    "id": "aa344cd9-8d81-5dea-837a-1d79cb2ba557",
-    "title": "Anthropic is intentionally nerfing Fable when asked to develop other LLMs",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/",
-    "pubDate": "2026-06-10T04:36:49+00:00",
-    "description": "Reason 458 why local LLMs are going to be a necessity submitted by /u/onil_gova [link] [comments]",
-    "author": "/u/onil_gova",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/\"> <img alt=\"Anthropic is intentionally nerfing Fable when asked to develop other LLMs\" src=\"https://preview.redd.it/h5ieomi9wd6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=dfecf649a610e921503b9fa72719ff4501e328b1\" title=\"Anthropic is intentionally nerfing Fable when asked to develop other LLMs\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Reason 458 why local LLMs are going to be a necessity</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/onil_gova\"> /u/onil_gova </a> <br /> <span><a href=\"https://i.redd.it/h5ieomi9wd6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/h5ieomi9wd6h1.jpeg?width=640&crop=smart&auto=webp&s=dfecf649a610e921503b9fa72719ff4501e328b1",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "1bb472e4-bbdb-5589-a4c0-eab5e246e82d",
+    "title": "MergeNB: An intuitive merge conflict resolver built for Jupyter notebooks in VS Code [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tmq1eb/mergenb_an_intuitive_merge_conflict_resolver/",
+    "pubDate": "2026-05-24T22:17:41+00:00",
+    "description": "I used to work heavily with Jupyter Notebooks + git + VS Code in a collaborative research setting and found nbdime to be somewhat buggy/a hassle to work with in general. So, in typical side project fashion ( relevant xkcd ) I've been working on MergeNB quite a bit over the last 6 months or so. It's (currently only) a VS Code extension with a web UI, and has a few cool improvements over other alternatives, which I outlined in the README/docs site. I'd be over the moon if this actually gets used by people, and would love a star if it's interesting. See https://github.com/Avni2000/MergeNB . I've also been working on a static documentation site here: https://avni2000.github.io/MergeNB/docs I'm planning on working on it a lot more over the summer and properly fleshing out a few of the ideas I had (including making it a git mergetool as well as a VS Code extension), so if you'd like to contribute, feel free to raise an issue or shoot me a message/email :) submitted by /u/EnderAvni [link] [comments]",
+    "author": "/u/EnderAvni",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I used to work heavily with Jupyter Notebooks + git + VS Code in a collaborative research setting and found nbdime to be somewhat buggy/a hassle to work with in general.</p> <p>So, in typical side project fashion (<a href=\"https://xkcd.com/1319/\">relevant xkcd</a>) I've been working on MergeNB quite a bit over the last 6 months or so. It's (currently only) a VS Code extension with a web UI, and has a few cool improvements over other alternatives, which I outlined in the README/docs site.</p> <p>I'd be over the moon if this actually gets used by people, and would love a star if it's interesting. See <a href=\"http://github.com/Avni2000/MergeNB\">https://github.com/Avni2000/MergeNB</a>.</p> <p>I've also been working on a static documentation site here: <a href=\"https://avni2000.github.io/MergeNB/docs\">https://avni2000.github.io/MergeNB/docs</a></p> <p>I'm planning on working on it a lot more over the summer and properly fleshing out a few of the ideas I had (including making it a git mergetool as well as a VS Code extension), so if you'd like to contribute, feel free to raise an issue or shoot me a message/email :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EnderAvni\"> /u/EnderAvni </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tmq1eb/mergenb_an_intuitive_merge_conflict_resolver/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tmq1eb/mergenb_an_intuitive_merge_conflict_resolver/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "10625a1e-c97b-5c70-b35d-8ece300b7524",
     "title": "How do ML practitioners select hyperparameters, architectures, etc for self-supervised representation learning when the loss is non-monotonic? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tmprdm/how_do_ml_practitioners_select_hyperparameters/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi did anyone apply it, or attended it previously?<br /> How was the experience?</p> <p>I got the acceptance but no scholarship, is it worth going self sponsored?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Icy-Solid-4159\"> /u/Icy-Solid-4159 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjqc55/lisbon_machine_learning_school_lxmls_2026_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjqc55/lisbon_machine_learning_school_lxmls_2026_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a434db09-0cae-52e6-920f-f6672ff7f75d",
-    "title": "I created an LLM post-training method called RPS. Preliminary results show that it improved Qwen3-8b's program synthesis reliability. [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/",
-    "pubDate": "2026-05-21T16:19:20+00:00",
-    "description": "RPS is inspired by neuroscience. As humans, we learn basic skills as kids with high neuro-plasticity. We then learn advanced skills as teens and adults with low neuro-plasticity. RPS trains a model in 2 stages. In stage 1, the model is trained on easy data with high learning rate. In stage 2, the model is trained on hard data with 10% the learning rate of stage 1. RPS is basically a combination of existing ideas: curriculum learning + learning rate decay. ARC-AGI 1 public eval scores: base model: Qwen3-8b RPS: 4% EPS (equal learning rate in both stages): 2.4% Program Synthesis Stats: Program executions without error: RPS: 1145/1200 EPS: 870/1200 https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html https://github.com/iamjasonfeng/RPS submitted by /u/iamjasonfeng [link] [comments]",
-    "author": "/u/iamjasonfeng",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>RPS is inspired by neuroscience. As humans, we learn basic skills as kids with high neuro-plasticity. We then learn advanced skills as teens and adults with low neuro-plasticity. RPS trains a model in 2 stages. In stage 1, the model is trained on easy data with high learning rate. In stage 2, the model is trained on hard data with 10% the learning rate of stage 1. RPS is basically a combination of existing ideas: curriculum learning + learning rate decay.</p> <p>ARC-AGI 1 public eval scores:</p> <p>base model: Qwen3-8b</p> <p>RPS: 4%</p> <p>EPS (equal learning rate in both stages): 2.4%</p> <p>Program Synthesis Stats:</p> <p>Program executions without error:</p> <p>RPS: 1145/1200</p> <p>EPS: 870/1200</p> <p><a href=\"https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html\">https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html</a></p> <p><a href=\"https://github.com/iamjasonfeng/RPS\">https://github.com/iamjasonfeng/RPS</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iamjasonfeng\"> /u/iamjasonfeng </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

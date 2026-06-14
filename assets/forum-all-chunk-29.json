@@ -1,5 +1,21 @@
 [
   {
+    "id": "edac8dcc-bc1a-5bb6-afba-60137ea3a4bc",
+    "title": "With All Due Respect, This Classifier Is Outrageous",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tsy973/with_all_due_respect_this_classifier_is_outrageous/",
+    "pubDate": "2026-05-31T15:22:24+00:00",
+    "description": "A simple remake request for NirSoft’s DriverView-style utility was blocked. With all due respect, Opus 4.8 feels hard to use for anything beyond websites, basic code, or games right now. I understand safety filters are necessary, but when normal defensive or system-utility coding gets blocked this aggressively, it makes the model much less useful for legitimate technical work. submitted by /u/Comprehensive-Bet-83 [link] [comments]",
+    "author": "/u/Comprehensive-Bet-83",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsy973/with_all_due_respect_this_classifier_is_outrageous/\"> <img alt=\"With All Due Respect, This Classifier Is Outrageous\" src=\"https://preview.redd.it/xuv7xd3pph4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ba99f6cece6b70255277ec6a04ec8f154e8279a9\" title=\"With All Due Respect, This Classifier Is Outrageous\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>A simple remake request for NirSoft’s DriverView-style utility was blocked. With all due respect, Opus 4.8 feels hard to use for anything beyond websites, basic code, or games right now.</p> <p>I understand safety filters are necessary, but when normal defensive or system-utility coding gets blocked this aggressively, it makes the model much less useful for legitimate technical work.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Comprehensive-Bet-83\"> /u/Comprehensive-Bet-83 </a> <br /> <span><a href=\"https://i.redd.it/xuv7xd3pph4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tsy973/with_all_due_respect_this_classifier_is_outrageous/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/xuv7xd3pph4h1.png?width=640&crop=smart&auto=webp&s=ba99f6cece6b70255277ec6a04ec8f154e8279a9",
+    "isShortVideo": 0
+  },
+  {
     "id": "4dd5bf7c-7f11-5e5b-af68-761af43ea40d",
     "title": "I built a tool to browse and plan CVPR workshop/tutorial days [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tsy7rz/i_built_a_tool_to_browse_and_plan_cvpr/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey! I'm a CS student and I got tired of not being able to compare MLX inference engines properly — every benchmark out there is either made by the engine's own developers, runs on an M3 Ultra nobody has, or just shows tok/s with zero context.</p> <p>So I built mlx-Chronos — a small open source CLI tool that runs a standardized benchmark protocol on your Mac and lets you submit your results to a shared community leaderboard.</p> <p>What it measures:</p> <ul> <li>Cold and cached TTFT (Time to First Token), with a proper methodology — unique prompts per trial, cache priming, no interleaved phases</li> <li>Throughput (tok/s), with mean/stddev/min/max across repeated trials</li> <li>Engine process RSS and system RAM peak, sampled continuously during inference</li> <li>Thermal state and hardware info</li> </ul> <p>Supported engines: oMLX, Rapid-MLX, mlx-lm, Ollama (MLX backend)</p> <p>The leaderboard is basically empty right now since I only have an M2 8GB. Would love results from M3 Max, M4, M4 Ultra, or anything with more RAM — that's where things get actually interesting.</p> <p>→ Leaderboard: <a href=\"https://igurss.github.io/mlx-chronos\">https://igurss.github.io/mlx-chronos</a> → GitHub: <a href=\"https://github.com/igurss/mlx-chronos\">https://github.com/igurss/mlx-chronos</a> → Install: <code>pip install mlx-chronos</code></p> <p>It's early, the methodology is documented (there's a <a href=\"http://methodology.md\"><code>methodology.md</code></a> if you want to pick it apart), and I'm 100% open to feedback, contributions, and getting told what I'm doing wrong. The goal is just to have one place where you can compare engines on your specific hardware instead of trusting someone else's numbers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/igor__004\"> /u/igor__004 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsphfn/i_built_mlxchronos_a_community_benchmark/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsphfn/i_built_mlxchronos_a_community_benchmark/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "02bc7ada-7d07-5222-83a9-8d83677341ef",
-    "title": "HTTP 413",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tspai9/http_413/",
-    "pubDate": "2026-05-31T08:15:04+00:00",
-    "description": "Anyone facing this \"new\" error when dealing with GitHub? I never had this error before, and now I see it in every single session. Once I pull a PR, then I get this error immediately afterwards. submitted by /u/Throwaway_SQ2 [link] [comments]",
-    "author": "/u/Throwaway_SQ2",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tspai9/http_413/\"> <img alt=\"HTTP 413\" src=\"https://preview.redd.it/pmqqlf53mf4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2baa44cbd851df2ce6352bfa2ffc3accd470ff8b\" title=\"HTTP 413\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anyone facing this &quot;new&quot; error when dealing with GitHub? I never had this error before, and now I see it in every single session.</p> <p>Once I pull a PR, then I get this error immediately afterwards.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Throwaway_SQ2\"> /u/Throwaway_SQ2 </a> <br /> <span><a href=\"https://i.redd.it/pmqqlf53mf4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tspai9/http_413/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/pmqqlf53mf4h1.jpeg?width=640&crop=smart&auto=webp&s=2baa44cbd851df2ce6352bfa2ffc3accd470ff8b",
     "isShortVideo": 0
   }
 ]

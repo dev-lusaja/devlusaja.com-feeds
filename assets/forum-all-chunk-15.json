@@ -1,5 +1,21 @@
 [
   {
+    "id": "886f6541-d6e0-55ac-99c9-2cb2f5803d20",
+    "title": "suddenly limits seemed to be increased a lot",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tyb6t2/suddenly_limits_seemed_to_be_increased_a_lot/",
+    "pubDate": "2026-06-06T08:01:28+00:00",
+    "description": "From not being able to use Claude at all, even on a $200 plan, to using Claude all day and never hitting the limit. Claude limits are at least quadrupled. submitted by /u/Feeling-Heron4277 [link] [comments]",
+    "author": "/u/Feeling-Heron4277",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>From not being able to use Claude at all, even on a $200 plan, to using Claude all day and never hitting the limit. Claude limits are at least quadrupled. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Feeling-Heron4277\"> /u/Feeling-Heron4277 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyb6t2/suddenly_limits_seemed_to_be_increased_a_lot/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyb6t2/suddenly_limits_seemed_to_be_increased_a_lot/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "25d14d5a-c692-54b8-99e9-5af4e270e791",
     "title": "DeepSeek V4 Flash is amazing! (WIP llama.cpp PR #24162)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyb3np/deepseek_v4_flash_is_amazing_wip_llamacpp_pr_24162/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>This is a PSA for people like me who tried it and hit the wall with tool calls failing left and right, so much so that harnesses like OpenCode just didn't work:</p> <p>There is a fix for that. You need to pass a better chat template file, <a href=\"https://gist.github.com/jscott3201/ad69c4ffbd79f18b11a0f6a94c94fadf\">which is available</a> (I did not write it). <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twmw4o/comment/oppmvdg/\">See also this comment.</a></p> <p>To actually use it with llama.cpp, <strong>first compile llama.cpp from source,</strong> then download the chat template file I linked above, then try this (8 bit quant in this case):</p> <pre><code>./build/bin/llama-server -hf unsloth/gemma-4-12b-it-GGUF:UD-Q8_K_XL --host 127.0.0.1 --port 8899 --jinja --chat-template-file ./custom-pub-chat-template-gemma4.jinja </code></pre> <p>I'm not saying the results are great, or good, or better or worse than Qwen 3 9B or any other model! But with this setting, the tool calling bugs go away and you can genuinely evaluate its capabilities in opencode.</p> <p>So, please do that before forming a judgement of the model's coding ability.</p> <p>But once you've done that, judge away 😀</p> <p>I'm posting because I see so many &quot;I can't code with Gemma 4 12B, tool calls never work&quot; comments that it's tough to cut through the noise when discussing the model.</p> <p>Thanks to <a href=\"https://www.reddit.com/u/HVACcontrolsGuru\">u/HVACcontrolsGuru</a> for bringing the solution to my attention. I hope I'm not stealing their thunder, just thought it was time to call more eyeballs to this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/boutell\"> /u/boutell </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txro73/psa_gemma_4_12b_is_not_completely_broken_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txro73/psa_gemma_4_12b_is_not_completely_broken_for/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6d3bfedc-c492-51f9-a37b-90c654b00ef3",
-    "title": "Make me Minecraft 26.1.3 WITHOUT mistakes",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1txqwzz/make_me_minecraft_2613_without_mistakes/",
-    "pubDate": "2026-06-05T17:05:16+00:00",
-    "description": "I have been trying this with many different games now, and this turned out surprisingly well. besides the fact that it would not start, after one more prompt (and 2k tokens for some reason) I had 9 blocks, and was able to place them/break them. by the way the second photo was just for humor. (and it only took 25 mins.) an example video is the 3rd thing. submitted by /u/idkwhatiamtyping [link] [comments]",
-    "author": "/u/idkwhatiamtyping",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txqwzz/make_me_minecraft_2613_without_mistakes/\"> <img alt=\"Make me Minecraft 26.1.3 WITHOUT mistakes\" src=\"https://preview.redd.it/mausp5u2xh5h1.png?width=140&amp;height=18&amp;auto=webp&amp;s=d81976ff80e996aa33d3af39738e6f9cc233f9c6\" title=\"Make me Minecraft 26.1.3 WITHOUT mistakes\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have been trying this with many different games now, and this turned out surprisingly well. besides the fact that it would not start, after one more prompt (and 2k tokens for some reason) I had 9 blocks, and was able to place them/break them. by the way the second photo was just for humor. (and it only took 25 mins.) an example video is the 3rd thing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/idkwhatiamtyping\"> /u/idkwhatiamtyping </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1txqwzz\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txqwzz/make_me_minecraft_2613_without_mistakes/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/mausp5u2xh5h1.png?width=140&height=18&auto=webp&s=d81976ff80e996aa33d3af39738e6f9cc233f9c6",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "09dcdd65-c612-5d3d-bb9a-c3ae4a9f151d",
+    "title": "Diffusion for generating/editing ASTs? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t6hv55/diffusion_for_generatingediting_asts_d/",
+    "pubDate": "2026-05-07T17:46:37+00:00",
+    "description": "I’m not a machine learning expert or anything, but I do enjoy learning about how it all works. I’ve noticed that one of the main limitations of LLMs for generating code is that their input and output space is the space of all tokens in the training data. This means that it is entirely possible, and likely, for an LLM to generate code that isn’t even syntactically correct. I’m thinking it would be possible to create some architecture, (diffusion could be a good paradigm) where an abstract syntax tree is generated or edited in a way which guarantees syntactic correctness at each iteration. Maybe then, a model meant to solve logical problems by generating a procedure could be effective with much less (or zero) training data. I think this could work with diffusion because I know that there is a limited number of ASTs for any given instruction set with a fixed number of nodes, the job of the algorithm is just to search that space for the best options, similar to how image gen models search their image spaces to match the given description. What do you all think? Also, forgive me if this is the wrong sub to put this in, I haven’t been very active on Reddit until recently. submitted by /u/coolness10101 [link] [comments]",
+    "author": "/u/coolness10101",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m not a machine learning expert or anything, but I do enjoy learning about how it all works. I’ve noticed that one of the main limitations of LLMs for generating code is that their input and output space is the space of all tokens in the training data. This means that it is entirely possible, and likely, for an LLM to generate code that isn’t even syntactically correct.</p> <p>I’m thinking it would be possible to create some architecture, (diffusion could be a good paradigm) where an abstract syntax tree is generated or edited in a way which guarantees syntactic correctness at each iteration. Maybe then, a model meant to solve logical problems by generating a procedure could be effective with much less (or zero) training data.</p> <p>I think this could work with diffusion because I know that there is a limited number of ASTs for any given instruction set with a fixed number of nodes, the job of the algorithm is just to search that space for the best options, similar to how image gen models search their image spaces to match the given description. What do you all think?</p> <p>Also, forgive me if this is the wrong sub to put this in, I haven’t been very active on Reddit until recently.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolness10101\"> /u/coolness10101 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t6hv55/diffusion_for_generatingediting_asts_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t6hv55/diffusion_for_generatingediting_asts_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ccf8901c-e194-515b-81f2-ed9526d68c13",
     "title": "Using Jensen-Shannon Divergence to detect narrative regime shifts in daily news corpora [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t6fk77/using_jensenshannon_divergence_to_detect/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>I have a question about openreview procedure as in the title. It’s my first time submitting to neurips so I’m unsure.</p> <p>Also for code URL submission can I do the same or should I put an URL in first? And side question, but does anyone know how neurips prevent people from pushing codes after paper deadline?</p> <p>Thank you in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Painter573\"> /u/Ok-Painter573 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t46wzz/neurips_openreview_can_i_upload_paper_pdf_after/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t46wzz/neurips_openreview_can_i_upload_paper_pdf_after/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "496f8968-d600-50ee-8bb5-24f71a1f4d35",
-    "title": "Fixing Unsupervised Hyperbolic Contrastive Loss [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t45ggk/fixing_unsupervised_hyperbolic_contrastive_loss_d/",
-    "pubDate": "2026-05-05T04:47:51+00:00",
-    "description": "Hello all, I am trying to implement Unsupervised Hyperbolic Contrastive Loss on the ImageNet-1k dataset. My results show that simple Euclidean unsupervised contrastive loss is much better than the hyperbolic version. Please help me understand the problem. I am using expmap() and projx() to ensure the embedding is on the Lorentzian manifold. Below is my code - def hb_contrastive_loss(z, z1, model, temp=0.07): z_to_neighbor = model.manifold.dist(z.unsqueeze(1), z1.unsqueeze(0)) labels = torch.arange(z.size(0), device=z.device) logits = -z_to_neighbor / temp loss = F.cross_entropy(logits, labels) return loss Current results for 1-NN accuracy: Hyperbolic = 57% Cosine = 64% More information (if relevant): Batch size = 2048 LR = 1e-4 submitted by /u/arjun_r_kaushik [link] [comments]",
-    "author": "/u/arjun_r_kaushik",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello all,</p> <p>I am trying to implement Unsupervised Hyperbolic Contrastive Loss on the ImageNet-1k dataset. My results show that simple Euclidean unsupervised contrastive loss is much better than the hyperbolic version. Please help me understand the problem. I am using expmap() and projx() to ensure the embedding is on the Lorentzian manifold. Below is my code -</p> <p><code>def hb_contrastive_loss(z, z1, model, temp=0.07):</code></p> <p><code>z_to_neighbor = model.manifold.dist(z.unsqueeze(1), z1.unsqueeze(0))</code></p> <p><code>labels = torch.arange(z.size(0), device=z.device)</code></p> <p><code>logits = -z_to_neighbor / temp</code></p> <p><code>loss = F.cross_entropy(logits, labels)</code></p> <p><code>return loss</code></p> <p>Current results for 1-NN accuracy:</p> <p>Hyperbolic = 57%<br /> Cosine = 64% </p> <p>More information (if relevant):<br /> Batch size = 2048<br /> LR = 1e-4</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/arjun_r_kaushik\"> /u/arjun_r_kaushik </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t45ggk/fixing_unsupervised_hyperbolic_contrastive_loss_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t45ggk/fixing_unsupervised_hyperbolic_contrastive_loss_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

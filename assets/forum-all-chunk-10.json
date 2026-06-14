@@ -1,5 +1,21 @@
 [
   {
+    "id": "cbbb6ec4-3e91-52a5-a5e4-e93f33eab12f",
+    "title": "Most reliable way to do PDF to JSON?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u067iz/most_reliable_way_to_do_pdf_to_json/",
+    "pubDate": "2026-06-08T12:17:01+00:00",
+    "description": "Hello everyone, I am currently stuck at automating a process where I need to parse medium-hard level documents with tables/ sometimes images, electronic PDF mostly. The documents range from 5 pages to 20 pages maximum, I currently am using PyMuPDF and its parse for llm library pymupdf4llm, then feed the extracted .txt to the LLM with a set of rules as system prompts. It gets the job done most of the times but here's where I struggle the most: I have a present .json format I need the output to be in, where one of the fields is date. Now, if the document, suppose comes with multiple dates, the document hallucinates and ends up writing nothing there. This is the same for some of the other fields as well. The process already takes about 5-7 mins if the document is 15+ pages long, reasoning is not really feasible over the extracted text using Pymupdf? Or is there a workaround where I can reduce the time overhead. I'd like to know what you people are using for your workflow as well, thanks! submitted by /u/CatSweaty4883 [link] [comments]",
+    "author": "/u/CatSweaty4883",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone, I am currently stuck at automating a process where I need to parse medium-hard level documents with tables/ sometimes images, electronic PDF mostly. The documents range from 5 pages to 20 pages maximum, I currently am using PyMuPDF and its parse for llm library pymupdf4llm, then feed the extracted .txt to the LLM with a set of rules as system prompts. It gets the job done most of the times but here's where I struggle the most:</p> <p>I have a present .json format I need the output to be in, where one of the fields is date. Now, if the document, suppose comes with multiple dates, the document hallucinates and ends up writing nothing there. This is the same for some of the other fields as well. </p> <p>The process already takes about 5-7 mins if the document is 15+ pages long, reasoning is not really feasible over the extracted text using Pymupdf? Or is there a workaround where I can reduce the time overhead.</p> <p>I'd like to know what you people are using for your workflow as well, thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CatSweaty4883\"> /u/CatSweaty4883 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u067iz/most_reliable_way_to_do_pdf_to_json/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u067iz/most_reliable_way_to_do_pdf_to_json/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f18bc16a-857e-5ae1-8457-97467a282890",
     "title": "[Benchmark] DFlash Speculative Decoding + KV Cache Compression on RTX 5090 — 3.26x Speedup",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u05t6u/benchmark_dflash_speculative_decoding_kv_cache/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzwrxs/claudes_new_usage_limits_are_insane/\"> <img alt=\"Claude's new usage limits are insane.\" src=\"https://preview.redd.it/6x64517caz5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=38a9a7a723935977e4349e54817075f5391af3bb\" title=\"Claude's new usage limits are insane.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>After my usage limits reset, I sent <em>one</em> prompt. Within 12 minutes, it ate 21% of my 5-hour limit. I am on the 5x ($100) plan, and before Opus 4.8, I can barely remember ever hitting my limits.</p> <p>I looked into the math behind it, and the token burn is absolutely absurd. If you have the 1M context window and UltraCode turned on, it spawns 10-15+ different agents simultaneously. Because each parallel sub-agent reads that massive 1M context window independently, you are effectively running a dozen heavy Opus calls at the exact same time.</p> <p>While that sounds like it would be incredibly efficient and powerful, it honestly wasn't. It felt like it spawned a ton of agents and just waited on them to respond simply because it <em>could</em>, not because the prompt actually needed that much parallel computing. i still waited a total of 20 minuets for this one prompt to complete, and the feature wasn't even properly working upon completion</p> <p>I understand the token math, but spinning up unnecessary agents just feels like Anthropic's attempt to get 5x users to burn through their limits and start paying more. Be careful combining Opus, 1M context, and UltraCode unless you want to nuke your limits in a single prompt. Has anyone actually seen the cost make it worth the time savings? it's possible i could just be failing to see the use case. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheTeddyFlame3\"> /u/TheTeddyFlame3 </a> <br /> <span><a href=\"https://i.redd.it/6x64517caz5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzwrxs/claudes_new_usage_limits_are_insane/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/6x64517caz5h1.png?width=640&crop=smart&auto=webp&s=38a9a7a723935977e4349e54817075f5391af3bb",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c1aad531-bf0a-5d7d-afbb-b099372081cf",
-    "title": "Gemma4_31b_fp8 keeping up with Sonnet_4.6_medium in my harness.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzw207/gemma4_31b_fp8_keeping_up_with_sonnet_46_medium/",
-    "pubDate": "2026-06-08T03:06:48+00:00",
-    "description": "https://preview.redd.it/9t0qvx6k5z5h1.png?width=1400&format=png&auto=webp&s=88dd83cdd6aa484dcf102bf078f7a80bebb4f7a2 Cypher queries for graph traversal (neo4j) Entity extraction from text chunks (web query, graph query, vectors) Agentic tool calling (Skills selection / successful running in Pi) Code writing (Python) Synthesis/summarization of multi-vector-retrieval Gemma/Qwen in FP8. This brought me joy submitted by /u/knob-0u812 [link] [comments]",
-    "author": "/u/knob-0u812",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzw207/gemma4_31b_fp8_keeping_up_with_sonnet_46_medium/\"> <img alt=\"Gemma4_31b_fp8 keeping up with Sonnet_4.6_medium in my harness.\" src=\"https://preview.redd.it/9t0qvx6k5z5h1.png?width=140&amp;height=38&amp;auto=webp&amp;s=ab8640cbb89c3430f45eb5a8455213e2b04b1f5f\" title=\"Gemma4_31b_fp8 keeping up with Sonnet_4.6_medium in my harness.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/9t0qvx6k5z5h1.png?width=1400&amp;format=png&amp;auto=webp&amp;s=88dd83cdd6aa484dcf102bf078f7a80bebb4f7a2\">https://preview.redd.it/9t0qvx6k5z5h1.png?width=1400&amp;format=png&amp;auto=webp&amp;s=88dd83cdd6aa484dcf102bf078f7a80bebb4f7a2</a></p> <ul> <li>Cypher queries for graph traversal (neo4j)</li> <li>Entity extraction from text chunks (web query, graph query, vectors)</li> <li>Agentic tool calling (Skills selection / successful running in Pi)</li> <li>Code writing (Python)</li> <li>Synthesis/summarization of multi-vector-retrieval</li> </ul> <p>Gemma/Qwen in FP8.</p> <p>This brought me joy</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/knob-0u812\"> /u/knob-0u812 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzw207/gemma4_31b_fp8_keeping_up_with_sonnet_46_medium/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzw207/gemma4_31b_fp8_keeping_up_with_sonnet_46_medium/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/9t0qvx6k5z5h1.png?width=140&height=38&auto=webp&s=ab8640cbb89c3430f45eb5a8455213e2b04b1f5f",
     "isShortVideo": 0
   }
 ]
