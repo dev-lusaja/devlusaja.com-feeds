@@ -1,5 +1,37 @@
 [
   {
+    "id": "0173637b-e152-5bc3-8b60-6c88b5e70f9e",
+    "title": "llama.cpp - Qwen3.6/3.5-MTP - Share your benchmarks t/s",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvzcow/llamacpp_qwen3635mtp_share_your_benchmarks_ts/",
+    "pubDate": "2026-06-03T19:07:40+00:00",
+    "description": "I think the dust has settled(95+%) for Qwen3.6/3.5-MTP. After the initial PR, so much optimizations & fixes. Even sometime ago today, there's a MTP related PR got merged & released( b9495 ). So try this latest version & share your benchmarks t/s*. Great work by u/am17an & other folks. * - Please share all stuff so it would be useful for others too. Also without particular missing details, benchmarks becomes inaccurate. Also I/We would like to have most optimized full command to get best t/s. To save your time, just copy your console output with full command(has all important details like model quant, context size, KVCache, fit/ncmoe, MTP, etc.,) & paste here. Sample is below(Not mine, pasting from random thread). llama-server \\ -m ../models/Qwen3.6-35B-A3B-MTP-UD-Q5_K_XL.gguf \\ --host 0.0.0.0 \\ --port 8080 \\ --ctx-size 150000 \\ --flash-attn on \\ -b 2048 \\ -ub 512 \\ --cache-type-k q8_0 \\ --cache-type-v q8_0 \\ --jinja \\ --threads 11 \\ --threads-batch 11 \\ -cram 12288 \\ --mlock \\ -fit on \\ --chat-template-kwargs '{\"preserve_thinking\": true}' \\ --spec-type mtp \\ --spec-draft-n-max 3 \\ --temp 0.6 \\ --top-p 0.95 \\ --top-k 20 \\ --min-p 0.0 \\ -np 1 \\ --presence-penalty 0.0 \\ --repeat-penalty 1.0 prompt eval time = 128889.09 ms / 26796 tokens (4.81 ms per token, 207.90 tokens per second) eval time = 10969.17 ms / 264 tokens (41.55 ms per token, 24.07 tokens per second) total time = 139858.26 ms / 27060 tokens draft acceptance rate = 0.52614 ( 161 accepted / 306 generated) statistics mtp: #calls(b,g,a) = 6 2811 2305, #gen drafts = 2811, #acc drafts = 2305, #gen tokens = 8433, #acc tokens = 5507, dur(b,g,a) = 0.020, 41478.073, 74.975 ms submitted by /u/pmttyji [link] [comments]",
+    "author": "/u/pmttyji",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I think the dust has settled(95+%) for Qwen3.6/3.5-MTP. After the initial PR, so much optimizations &amp; fixes. Even sometime ago today, there's a MTP related PR got merged &amp; released(<a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9495\">b9495</a>). So try this latest version &amp; share your benchmarks t/s*. Great work by <a href=\"https://www.reddit.com/u/am17an\">u/am17an</a> &amp; other folks.</p> <p>* - Please share all stuff so it would be useful for others too. Also without particular missing details, benchmarks becomes inaccurate. Also I/We would like to have most optimized full command to get best t/s.</p> <p>To save your time, just copy your console output with full command(has all important details like model quant, context size, KVCache, fit/ncmoe, MTP, etc.,) &amp; paste here. Sample is below(Not mine, pasting from random thread).</p> <pre><code>llama-server \\ -m ../models/Qwen3.6-35B-A3B-MTP-UD-Q5_K_XL.gguf \\ --host 0.0.0.0 \\ --port 8080 \\ --ctx-size 150000 \\ --flash-attn on \\ -b 2048 \\ -ub 512 \\ --cache-type-k q8_0 \\ --cache-type-v q8_0 \\ --jinja \\ --threads 11 \\ --threads-batch 11 \\ -cram 12288 \\ --mlock \\ -fit on \\ --chat-template-kwargs '{&quot;preserve_thinking&quot;: true}' \\ --spec-type mtp \\ --spec-draft-n-max 3 \\ --temp 0.6 \\ --top-p 0.95 \\ --top-k 20 \\ --min-p 0.0 \\ -np 1 \\ --presence-penalty 0.0 \\ --repeat-penalty 1.0 prompt eval time = 128889.09 ms / 26796 tokens (4.81 ms per token, 207.90 tokens per second) eval time = 10969.17 ms / 264 tokens (41.55 ms per token, 24.07 tokens per second) total time = 139858.26 ms / 27060 tokens draft acceptance rate = 0.52614 ( 161 accepted / 306 generated) statistics mtp: #calls(b,g,a) = 6 2811 2305, #gen drafts = 2811, #acc drafts = 2305, #gen tokens = 8433, #acc tokens = 5507, dur(b,g,a) = 0.020, 41478.073, 74.975 ms </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmttyji\"> /u/pmttyji </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvzcow/llamacpp_qwen3635mtp_share_your_benchmarks_ts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvzcow/llamacpp_qwen3635mtp_share_your_benchmarks_ts/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ff3641c6-db53-598e-8e8d-904a8906c29e",
+    "title": "How to use audio and vision modalities in llama.cpp?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvy9gb/how_to_use_audio_and_vision_modalities_in_llamacpp/",
+    "pubDate": "2026-06-03T18:30:16+00:00",
+    "description": "How to use audio and vision modalities in llama.cpp with Gemma4 12B it? I’m on release b9494, but when I run llama-cli it shows “modalities: text” only, and crashes if I try to add an image. submitted by /u/No-Leave-4512 [link] [comments]",
+    "author": "/u/No-Leave-4512",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>How to use audio and vision modalities in llama.cpp with Gemma4 12B it?</p> <p>I’m on release b9494, but when I run llama-cli it shows “modalities: text” only, and crashes if I try to add an image.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No-Leave-4512\"> /u/No-Leave-4512 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvy9gb/how_to_use_audio_and_vision_modalities_in_llamacpp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvy9gb/how_to_use_audio_and_vision_modalities_in_llamacpp/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "30385695-88a3-5bf4-8d26-1387a820d3e7",
     "title": "qwen35: use post-norm hidden state for MTP by am17an · Pull Request #24025 · ggml-org/llama.cpp",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvwjq8/qwen35_use_postnorm_hidden_state_for_mtp_by/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvnwtn/half_the_top_10_trending_github_repos_right_now/\"> <img alt=\"Half the top 10 trending GitHub repos right now are &quot;skills&quot; projects, not models\" src=\"https://preview.redd.it/25a2mfy9a25h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f2c7404cae33c20ff98462289b186d00eadcdc44\" title=\"Half the top 10 trending GitHub repos right now are &quot;skills&quot; projects, not models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Was looking at a GitHub trending tracker and the pattern was hard to miss: about half the top ten GitHub repos in AI/ML domain are &quot;skills&quot; projects rather than models or libraries.</p> <p>What's on there:</p> <ul> <li>affaan-m/everything-claude-code (skills + memory + security for coding agents)</li> <li>mattpocock/skills</li> <li>andrej-karpathy-skills, and oddly two separate ports of it are trending at the same time</li> </ul> <p>My read: the model layer is consolidating, a few labs ship the weights and the rest of us rent them, so the place where one person can still make a dent moved up to the harness, the skills/memory/instructions that make a generic model reliably do a specific job.</p> <p>Counterpoint I keep landing on: a lot of what we call a &quot;skill&quot; is really a prompt plus a workflow, and models keep absorbing yesterday's scaffolding into tomorrow's defaults. So some of this won't age well.</p> <p>Real structural shift toward a skills layer, or just the current meta that's easy to clone and star? Curious what people running agents locally find actually useful vs noise.</p> <p>Link to the GitHub tracker is in comments below 👇</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gvij\"> /u/gvij </a> <br /> <span><a href=\"https://i.redd.it/25a2mfy9a25h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvnwtn/half_the_top_10_trending_github_repos_right_now/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/25a2mfy9a25h1.png?width=640&crop=smart&auto=webp&s=f2c7404cae33c20ff98462289b186d00eadcdc44",
-    "isShortVideo": 0
-  },
-  {
-    "id": "53e7045b-9d6d-5d17-a392-e5f1b9160ae4",
-    "title": "Does anyone actually talk to Claude out loud when other people are around?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tvnlp0/does_anyone_actually_talk_to_claude_out_loud_when/",
-    "pubDate": "2026-06-03T12:17:39+00:00",
-    "description": "I've gone pretty voice-first with Claude for coding, writing, and just thinking out loud, and it's genuinely changed how I work. But I've noticed I completely stop the moment I'm not alone. In the office or a cafe I won't say a word to my laptop, even though typing feels painfully slow now. Is that just me? Do you use voice with Claude in public, or does it feel too awkward there too? I'm curious whether people have found a workaround or just treat voice as a home-only thing. (Disclosure: I'm tinkering with a hardware fix, so I'm trying to gauge whether this is widespread or my own hang-up.) submitted by /u/Far_Discussion_4362 [link] [comments]",
-    "author": "/u/Far_Discussion_4362",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've gone pretty voice-first with Claude for coding, writing, and just thinking out loud, and it's genuinely changed how I work. But I've noticed I completely stop the moment I'm not alone. In the office or a cafe I won't say a word to my laptop, even though typing feels painfully slow now.</p> <p>Is that just me? Do you use voice with Claude in public, or does it feel too awkward there too? I'm curious whether people have found a workaround or just treat voice as a home-only thing.</p> <p>(Disclosure: I'm tinkering with a hardware fix, so I'm trying to gauge whether this is widespread or my own hang-up.)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Far_Discussion_4362\"> /u/Far_Discussion_4362 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvnlp0/does_anyone_actually_talk_to_claude_out_loud_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvnlp0/does_anyone_actually_talk_to_claude_out_loud_when/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fce5df8c-dbcd-5456-80f0-155b619dc490",
-    "title": "TorchDAE: Implicit DAE Solvers with Index Reduction and Adjoint Sensitivity [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/",
-    "pubDate": "2026-06-03T11:57:55+00:00",
-    "description": "Hello everyone, I've been working on a PyTorch library for solving Differential Algebraic Equations (DAEs) that supports vectorized execution and GPU acceleration. The library implements several algorithms that are not currently available in the Python ecosystem, including Generalized-Alpha integration, Dummy Derivatives index reduction, and adjoint sensitivity methods for DAEs. My motivation was to enable differentiable DAE simulation workflows in PyTorch for applications such as system identification, scientific machine learning, and physics-informed modeling. I'd be very interested in feedback on the numerical methods, API design, and potential ML use cases. GitHub: https://github.com/yousef-rafat/torchdae submitted by /u/Otaku_7nfy [link] [comments]",
-    "author": "/u/Otaku_7nfy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone,</p> <p>I've been working on a PyTorch library for solving Differential Algebraic Equations (DAEs) that supports vectorized execution and GPU acceleration.</p> <p>The library implements several algorithms that are not currently available in the Python ecosystem, including Generalized-Alpha integration, Dummy Derivatives index reduction, and adjoint sensitivity methods for DAEs.</p> <p>My motivation was to enable differentiable DAE simulation workflows in PyTorch for applications such as system identification, scientific machine learning, and physics-informed modeling.</p> <p>I'd be very interested in feedback on the numerical methods, API design, and potential ML use cases.</p> <p>GitHub: <a href=\"https://github.com/yousef-rafat/torchdae\">https://github.com/yousef-rafat/torchdae</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Otaku_7nfy\"> /u/Otaku_7nfy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

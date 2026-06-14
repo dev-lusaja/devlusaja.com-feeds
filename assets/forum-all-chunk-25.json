@@ -1,5 +1,37 @@
 [
   {
+    "id": "7ee0e17c-a5ca-55d3-888d-ee08a45c0d03",
+    "title": "How to stay on top of new AI tools?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuio9k/how_to_stay_on_top_of_new_ai_tools/",
+    "pubDate": "2026-06-02T06:34:33+00:00",
+    "description": "AI has been moving super super fast (what's new) and my boss recently put out a new declaration to us at work. He says that AI use is now mandatory, and we should use it as much as possible in all our workflows. I'm a developer and I already make heavy use of claude code in my ide to do most or all planning and development tasks, 90+% of the work is offloaded to AI. But my boss wants us to take things even further. He wants us to stay on top of every major third party AI tool that releases, he says a new one comes out \"once a month\" and we need to stay on top of it if we want to keep up with competition. My take on this is, all those AI tools just use the same apis in the backend: gemini, claude, chatgpt, etc., and serve it with a different flavor of UX. I have the strong opinion that as long as i'm using the same apis, i feel like there's really little added value by restricting myself to these third party tools which might be more generalized than a purpose-built, specific in-house tool that fits our unique business needs. I talked about it with my boss, but he seemed to disagree, and thinks we should still be hard-rushing this, making sure we don't let any potential tool pass by our attention. He says that even if we dont end up using a tool, the concept behind it might be interesting to us to borrow ideas from. He's a smart and discerning man, and I trust him, but I don't really know if I fully agree with his idea here. AI already moves so fast and does so much without my help, I can barely conceive of a tool I could find or make that would somehow make my workflow even faster or more efficient without bogging me down with extra overhead or unnecessary extraneous features. It just seems so absurd. What are your guys' thoughts? submitted by /u/DynaBeast [link] [comments]",
+    "author": "/u/DynaBeast",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>AI has been moving super super fast (what's new) and my boss recently put out a new declaration to us at work. He says that AI use is now <em>mandatory,</em> and we should use it as much as possible in all our workflows. </p> <p>I'm a developer and I already make heavy use of claude code in my ide to do most or all planning and development tasks, 90+% of the work is offloaded to AI. But my boss wants us to take things even further. He wants us to stay on top of every major third party AI tool that releases, he says a new one comes out &quot;once a month&quot; and we need to stay on top of it if we want to keep up with competition.</p> <p>My take on this is, all those AI tools just use the same apis in the backend: gemini, claude, chatgpt, etc., and serve it with a different flavor of UX. I have the strong opinion that as long as i'm using the same apis, i feel like there's really little added value by restricting myself to these third party tools which might be more generalized than a purpose-built, specific in-house tool that fits our unique business needs. </p> <p>I talked about it with my boss, but he seemed to disagree, and thinks we should still be hard-rushing this, making sure we don't let any potential tool pass by our attention. He says that even if we dont end up using a tool, the concept behind it might be interesting to us to borrow ideas from.</p> <p>He's a smart and discerning man, and I trust him, but I don't really know if I fully agree with his idea here. AI already moves so fast and does so much without my help, I can barely conceive of a tool I could find or make that would somehow make my workflow even faster or more efficient without bogging me down with extra overhead or unnecessary extraneous features. It just seems so absurd.</p> <p>What are your guys' thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DynaBeast\"> /u/DynaBeast </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuio9k/how_to_stay_on_top_of_new_ai_tools/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuio9k/how_to_stay_on_top_of_new_ai_tools/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ad0b44c1-e61e-5ca5-af9b-dc47847dbfbc",
+    "title": "What's the status of non-CUDA inference?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuilwv/whats_the_status_of_noncuda_inference/",
+    "pubDate": "2026-06-02T06:30:56+00:00",
+    "description": "I got a reminder e-Mail from eBay about a MI50 I had put on my watch list after quite a while. Aside from needing to jerryrig a blower into the back and bootstrapping ROCm - how is it? In fact, what's inference for LLMs like for non-CUDA? I know that image-gen is veeeeery hit or miss (although ComfyUI tries their very best) and TTS is, for all I know, CUDA bound right now. STT - like whisper.cpp - runs well enough on CPUs so that's a non-issue imo. Just curious; trying to spec a build out of curiosity for my homelab. All my previous ones would've blown way past 4k€ - so I keep looking and waiting, trying to hit 2-3k at most. I mostly just want 2-3 parallel inferences on a decent (~30B) model - doubtful I'll ever get good enough hardware for parallel 100B inference. xD So yeah, what's the current situation in non-CUDA-land? Thanks! submitted by /u/IngwiePhoenix [link] [comments]",
+    "author": "/u/IngwiePhoenix",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I got a reminder e-Mail from eBay about a MI50 I had put on my watch list after quite a while. Aside from needing to jerryrig a blower into the back and bootstrapping ROCm - how is it?</p> <p>In fact, what's inference for LLMs like for non-CUDA? I know that image-gen is veeeeery hit or miss (although ComfyUI tries their very best) and TTS is, for all I know, CUDA bound right now. STT - like whisper.cpp - runs well enough on CPUs so that's a non-issue imo.</p> <p>Just curious; trying to spec a build out of curiosity for my homelab. All my previous ones would've blown way past 4k€ - so I keep looking and waiting, trying to hit 2-3k at most. I mostly just want 2-3 parallel inferences on a decent (~30B) model - doubtful I'll ever get good enough hardware for parallel 100B inference. xD</p> <p>So yeah, what's the current situation in non-CUDA-land? Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IngwiePhoenix\"> /u/IngwiePhoenix </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuilwv/whats_the_status_of_noncuda_inference/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuilwv/whats_the_status_of_noncuda_inference/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "45b3ca9d-00cb-59ab-86a7-6a1af4bdf82f",
     "title": "Intel Arc Pro B70 llama.cpp benchmarks posted",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0xfp/usage_reset_lets_gooo/\"> <img alt=\"Usage reset! Let's gooo!\" src=\"https://preview.redd.it/a6347j70rp4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=801e899bdefc8154ca3cde73b19ee9e1519b5833\" title=\"Usage reset! Let's gooo!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>My usage was at 95%, I was limping towards wed reset when suddenly my usage went to 0%. Let's gooo! Opus 4.8 cranked back up to full!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/randoreddituser22\"> /u/randoreddituser22 </a> <br /> <span><a href=\"https://i.redd.it/a6347j70rp4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0xfp/usage_reset_lets_gooo/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/a6347j70rp4h1.jpeg?width=640&crop=smart&auto=webp&s=801e899bdefc8154ca3cde73b19ee9e1519b5833",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b83d8f21-fb34-55bc-8835-f396b58afbec",
-    "title": "RTX Spark will have up to 600GB/s of memory bandwidth.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu0vkl/rtx_spark_will_have_up_to_600gbs_of_memory/",
-    "pubDate": "2026-06-01T18:18:46+00:00",
-    "description": "We just assumed that since it's a GB10 variant that it would have the same memory bandwidth as DGX Spark, 273GB/s. But it's reported that it will have double that, 600GB/s. \"The unified memory architecture brings up to 128GB of LPDDR5X RAM with a bandwidth of 600GB/s\" https://wccftech.com/nvidia-enters-pc-space-with-rtx-spark/ \"its memory bandwidth peaks at 600 GB/s\" https://www.notebookcheck.net/Nvidia-N1X-officially-confirmed-to-arrive-as-the-RTX-Spark.1312010.0.html submitted by /u/fallingdowndizzyvr [link] [comments]",
-    "author": "/u/fallingdowndizzyvr",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We just assumed that since it's a GB10 variant that it would have the same memory bandwidth as DGX Spark, 273GB/s. But it's reported that it will have double that, 600GB/s.</p> <p>&quot;The unified memory architecture brings up to 128GB of LPDDR5X RAM with a bandwidth of 600GB/s&quot;</p> <p><a href=\"https://wccftech.com/nvidia-enters-pc-space-with-rtx-spark/\">https://wccftech.com/nvidia-enters-pc-space-with-rtx-spark/</a></p> <p>&quot;its memory bandwidth peaks at 600 GB/s&quot;</p> <p><a href=\"https://www.notebookcheck.net/Nvidia-N1X-officially-confirmed-to-arrive-as-the-RTX-Spark.1312010.0.html\">https://www.notebookcheck.net/Nvidia-N1X-officially-confirmed-to-arrive-as-the-RTX-Spark.1312010.0.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fallingdowndizzyvr\"> /u/fallingdowndizzyvr </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu0vkl/rtx_spark_will_have_up_to_600gbs_of_memory/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu0vkl/rtx_spark_will_have_up_to_600gbs_of_memory/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1cd1922f-7ed8-504f-89d3-767e8f25bad2",
-    "title": "!!!I THINK THEY RESET IT AGAIN!!!",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tu0jh9/i_think_they_reset_it_again/",
-    "pubDate": "2026-06-01T18:08:07+00:00",
-    "description": "submitted by /u/imeowfortallwomen [link] [comments]",
-    "author": "/u/imeowfortallwomen",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0jh9/i_think_they_reset_it_again/\"> <img alt=\"!!!I THINK THEY RESET IT AGAIN!!!\" src=\"https://preview.redd.it/6y0dtthqop4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a3d961d1cda43f7871b4566053b8c60147ff1549\" title=\"!!!I THINK THEY RESET IT AGAIN!!!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/imeowfortallwomen\"> /u/imeowfortallwomen </a> <br /> <span><a href=\"https://i.redd.it/6y0dtthqop4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu0jh9/i_think_they_reset_it_again/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/6y0dtthqop4h1.png?width=640&crop=smart&auto=webp&s=a3d961d1cda43f7871b4566053b8c60147ff1549",
     "isShortVideo": 0
   }
 ]
