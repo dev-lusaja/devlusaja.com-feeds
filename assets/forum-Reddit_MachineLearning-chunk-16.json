@@ -1,5 +1,21 @@
 [
   {
+    "id": "0b2f27c5-1b52-5549-9d11-7f22e68a8cd0",
+    "title": "AI/ML Conferences [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/",
+    "pubDate": "2026-05-01T00:03:53+00:00",
+    "description": "As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026. Given the sheer number of papers submitted to A* AI/ML conferences, the current review system does not seem to work well. For example, in some cases, papers are rejected despite the authors addressing all reviewers’ concerns, leading to substantial increases in scores. What could be a better way forward to ensure a fair review process? submitted by /u/msgs008 [link] [comments]",
+    "author": "/u/msgs008",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026. Given the sheer number of papers submitted to A* AI/ML conferences, the current review system does not seem to work well. For example, in some cases, papers are rejected despite the authors addressing all reviewers’ concerns, leading to substantial increases in scores. What could be a better way forward to ensure a fair review process?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/msgs008\"> /u/msgs008 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f9cf7784-966c-5711-a2f6-3a7a78d36b9a",
     "title": "U-Net for Agricultural Field Segmentation [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t0bo1q/unet_for_agricultural_field_segmentation_p/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/\"> <img alt=\"Visualizing Loss Landscapes of Neural Networks [P]\" src=\"https://preview.redd.it/qrcfyilwpyxg1.gif?frame=1&amp;width=140&amp;height=78&amp;auto=webp&amp;s=187ed911ce97040c1a948a5aaed52ddb0a86f161\" title=\"Visualizing Loss Landscapes of Neural Networks [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"https://www.reddit.com/r/MachineLearning\">r/MachineLearning</a>,</p> <p>Visualizing the loss landscape of a neural network is notoriously tricky since we can't naturally comprehend million-dimensional spaces. We often rely on basic 2D contour analogies, which don't always capture the true geometry of the space or the sharpness of local minima.</p> <p>I built an interactive browser experiment <a href=\"https://www.hackerstreak.com/articles/visualize-loss-landscape/\">https://www.hackerstreak.com/articles/visualize-loss-landscape/</a> to help build better intuitions for this. It maps how different optimizers navigate these spaces and lets you actually visualize the terrain.</p> <p>To generate the 3D surface plots, I used the methodology from <em>Li et al. (NeurIPS 2018)</em>. This is entirely a client-side web tool. You can adjust architectures (ranging from simple 1-layer MLPs up to ResNet-8 and LeNet-5), swap between synthetic or real image datasets, and render the resulting landscape. </p> <p>A known limitation of these dimensionality reductions is that 2D/3D projections can sometimes create geometric surfaces that don't exist in the true high-dimensional space. I'd love to hear from anyone who studies optimization theory and how much stock do you actually put into these visual analysis when analysing model generalization or debugging.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hackerstreak\"> /u/Hackerstreak </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1sy7f5r\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/qrcfyilwpyxg1.gif?frame=1&width=140&height=78&auto=webp&s=187ed911ce97040c1a948a5aaed52ddb0a86f161",
-    "isShortVideo": 0
-  },
-  {
-    "id": "855b30e7-bda6-5631-ac29-5b40c6602930",
-    "title": "ACL ARR March 2026 Cycle [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sy3xuz/acl_arr_march_2026_cycle_d/",
-    "pubDate": "2026-04-28T15:01:42+00:00",
-    "description": "Starting a thread to discuss the ARR reviews for this cycle, as they will be released today. submitted by /u/Pure-Ad9079 [link] [comments]",
-    "author": "/u/Pure-Ad9079",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Starting a thread to discuss the ARR reviews for this cycle, as they will be released today. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pure-Ad9079\"> /u/Pure-Ad9079 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy3xuz/acl_arr_march_2026_cycle_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy3xuz/acl_arr_march_2026_cycle_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

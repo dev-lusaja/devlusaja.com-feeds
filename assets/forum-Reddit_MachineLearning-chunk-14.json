@@ -1,5 +1,21 @@
 [
   {
+    "id": "e2cbdc60-48f5-5c69-aba6-3760c1a2f978",
+    "title": "NeurIPS Submission Number [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t4oykt/neurips_submission_number_d/",
+    "pubDate": "2026-05-05T19:00:53+00:00",
+    "description": "Hey guys, Just saw that NeurIPS this year might be exceeding 40k, what submission number did you get? The max I know of was 29k, that was 24 hours ago submitted by /u/StriderKing27 [link] [comments]",
+    "author": "/u/StriderKing27",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys, </p> <p>Just saw that NeurIPS this year might be exceeding 40k, what submission number did you get? The max I know of was 29k, that was 24 hours ago</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StriderKing27\"> /u/StriderKing27 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4oykt/neurips_submission_number_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t4oykt/neurips_submission_number_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ef60b05d-1b09-5741-b825-78b679e2c067",
     "title": "Radar Engineer to Autonomy/AI [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t4ombd/radar_engineer_to_autonomyai_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Did everyone else’s reviews disappear on their submissions?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Language165\"> /u/No_Language165 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2p1w8/uai_reviews_disappeared_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2p1w8/uai_reviews_disappeared_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "84080bc6-130d-50ec-9958-5c43ea8c8b25",
-    "title": "Evolving Deep Learning Optimizers [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t2jt4m/evolving_deep_learning_optimizers_r/",
-    "pubDate": "2026-05-03T12:13:56+00:00",
-    "description": "We present a genetic algorithm framework for automatically discovering deep learning optimization algorithms. Our approach encodes optimizers as genomes that specify combinations of primitive update terms (gradient, momentum, RMS normalization, Adam-style adaptive terms, and sign-based updates) along with hyperparameters and scheduling options. Through evolutionary search over 50 generations with a population of 50 individuals, evaluated across multiple vision tasks, we discover an evolved optimizer that outperforms Adam by 2.6% in aggregate fitness and achieves a 7.7% relative improvement on CIFAR-10. The evolved optimizer combines sign-based gradient terms with adaptive moment estimation, uses lower momentum coefficients than Adam ( =0.86, =0.94), and notably disables bias correction while enabling learning rate warmup and cosine decay. Our results demonstrate that evolutionary search can discover competitive optimization algorithms and reveal design principles that differ from hand-crafted optimizers. submitted by /u/EducationalCicada [link] [comments]",
-    "author": "/u/EducationalCicada",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We present a genetic algorithm framework for automatically discovering deep learning optimization algorithms. </p> <p>Our approach encodes optimizers as genomes that specify combinations of primitive update terms (gradient, momentum, RMS normalization, Adam-style adaptive terms, and sign-based updates) along with hyperparameters and scheduling options. </p> <p>Through evolutionary search over 50 generations with a population of 50 individuals, evaluated across multiple vision tasks, we discover an evolved optimizer that outperforms Adam by 2.6% in aggregate fitness and achieves a 7.7% relative improvement on CIFAR-10. </p> <p>The evolved optimizer combines sign-based gradient terms with adaptive moment estimation, uses lower momentum coefficients than Adam ( =0.86, =0.94), and notably disables bias correction while enabling learning rate warmup and cosine decay. </p> <p>Our results demonstrate that evolutionary search can discover competitive optimization algorithms and reveal design principles that differ from hand-crafted optimizers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EducationalCicada\"> /u/EducationalCicada </a> <br /> <span><a href=\"https://arxiv.org/abs/2512.11853\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2jt4m/evolving_deep_learning_optimizers_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

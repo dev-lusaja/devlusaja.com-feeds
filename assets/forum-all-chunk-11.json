@@ -1,5 +1,21 @@
 [
   {
+    "id": "29af7e70-c1c1-5e69-8579-fe26c0e779b9",
+    "title": "Would GitHub libraries of reusable \"skills\" for AI coding tools actually be useful?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u08qiw/would_github_libraries_of_reusable_skills_for_ai/",
+    "pubDate": "2026-06-08T13:58:50+00:00",
+    "description": "Hey, I'm a backend developer working mostly with Laravel and PHP. I've been using AI coding tools (Claude Code, Cursor etc.) a lot lately, and I really like the concept of \"skills\" reusable, modular instruction sets that the AI can load on demand for specific tasks. I'm thinking about creating an open-source GitHub repo with a collection of well-documented skills specifically for Laravel/PHP development. Things like: Best practices for controllers, Eloquent, queues, testing (Pest/PHPUnit) Common refactoring patterns, architecture decisions (Ports & Adapters, etc.) Deployment, migrations, caching, security checklists Integration with Sail, Horizon, Pint, PHPStan and so on ........ The idea is that anyone could easily pick and install only the skills they need for their project, instead of one huge bloated context. What do you think? Would you actually use something like this? Does it solve a real pain point for you, or is it better to keep skills super personal/project-specific? I'm open to any feedback, ideas, suggestions, or criticism especially well-argued ones. Maybe you already saw similar repos, or have thoughts on structure, naming, installation method, what skills would be most valuable, etc. Would love to hear honest opinions from people who work with Laravel/PHP + AI tools daily. Thanks in advance! submitted by /u/Cold-Ease5189 [link] [comments]",
+    "author": "/u/Cold-Ease5189",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey, I'm a backend developer working mostly with Laravel and PHP. I've been using AI coding tools (Claude Code, Cursor etc.) a lot lately, and I really like the concept of <strong>&quot;skills&quot;</strong> reusable, modular instruction sets that the AI can load on demand for specific tasks.</p> <p>I'm thinking about creating an open-source GitHub repo with a collection of well-documented skills specifically for Laravel/PHP development. Things like:</p> <ul> <li>Best practices for controllers, Eloquent, queues, testing (Pest/PHPUnit)</li> <li>Common refactoring patterns, architecture decisions (Ports &amp; Adapters, etc.)</li> <li>Deployment, migrations, caching, security checklists</li> <li>Integration with Sail, Horizon, Pint, PHPStan and so on</li> <li>........</li> </ul> <p>The idea is that anyone could easily pick and install only the skills they need for their project, instead of one huge bloated context.</p> <p>What do you think? Would you actually use something like this? Does it solve a real pain point for you, or is it better to keep skills super personal/project-specific?</p> <p>I'm open to <strong>any</strong> feedback, ideas, suggestions, or criticism especially well-argued ones. Maybe you already saw similar repos, or have thoughts on structure, naming, installation method, what skills would be most valuable, etc.</p> <p>Would love to hear honest opinions from people who work with Laravel/PHP + AI tools daily.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cold-Ease5189\"> /u/Cold-Ease5189 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u08qiw/would_github_libraries_of_reusable_skills_for_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u08qiw/would_github_libraries_of_reusable_skills_for_ai/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "17c9c600-6eb7-5b16-86ec-27f2df8efad2",
     "title": "llama-launcher Release",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u08k0x/llamalauncher_release/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Not talking about 31b. </p> <p>In terms of creative tasks, writing, chatting, not necessarily coding but can still be included, </p> <p>Does Gemma 12b outperform in any way?</p> <p>Is the 12b closer to the 31b compared to the 26a4b?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adventurous-Gold6413\"> /u/Adventurous-Gold6413 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzzcja/thoughts_on_gemma4_12b_vs_26a4b_which_one_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzzcja/thoughts_on_gemma4_12b_vs_26a4b_which_one_is/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f51a3b94-0baf-5750-9095-184030313978",
-    "title": "I imagine Claude Max users have agents autonomously building in the background all day. Am I wrong?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzz9xy/i_imagine_claude_max_users_have_agents/",
-    "pubDate": "2026-06-08T05:54:51+00:00",
-    "description": "Genuinely want to understand what a high-investment Claude workflow looks like in practice for people using Claude Max, heavy Claude Code, Cowork, etc. My assumption => You're not really \"chatting\" with Claude anymore. You've got agents running locally, autonomously tackling tasks, writing code, integrating services, and you're basically the product manager reviewing PRs rather than the one typing. How close is that to your reality? What does low-friction continuous development actually look like for you? What broke before you figured it out? submitted by /u/Paramooretz15 [link] [comments]",
-    "author": "/u/Paramooretz15",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Genuinely want to understand what a high-investment Claude workflow looks like in practice for people using Claude Max, heavy Claude Code, Cowork, etc.</p> <p>My assumption =&gt;<br /> You're not really &quot;chatting&quot; with Claude anymore. You've got agents running locally, autonomously tackling tasks, writing code, integrating services, and you're basically the product manager reviewing PRs rather than the one typing.</p> <p>How close is that to your reality? What does low-friction continuous development actually look like for you? What broke before you figured it out?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Paramooretz15\"> /u/Paramooretz15 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzz9xy/i_imagine_claude_max_users_have_agents/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzz9xy/i_imagine_claude_max_users_have_agents/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

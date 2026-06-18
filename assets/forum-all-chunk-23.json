@@ -1,5 +1,21 @@
 [
   {
+    "id": "e961c439-9e40-533f-8453-122184c04aa9",
+    "title": "Anyone else spending more time fighting the model than doing the actual work?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/",
+    "pubDate": "2026-06-03T15:23:27+00:00",
+    "description": "I use Claude and ChatGPT daily, writing copy for clients, case studies, landing pages. I've noticed a pattern and it's driving me nuts. First 2-3 iterations the model holds the tone, remembers my requirements, output is fine. Somewhere around iteration five or six the drift kicks in: tone slides into generic, phrases I explicitly banned start showing up, structure falls apart. I point it out, the model apologizes, gives me a better version: two messages later it's the same thing again. So I end up with two options. Either I re-paste my requirements every 3-4 messages (which takes more time than just writing the thing myself). Or I grab the half-finished text and fix it by hand. I get that it's context window limitations and all that. But I'm curious, how do you actually deal with this in practice? submitted by /u/AlternativeSoft9777 [link] [comments]",
+    "author": "/u/AlternativeSoft9777",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I use Claude and ChatGPT daily, writing copy for clients, case studies, landing pages. I've noticed a pattern and it's driving me nuts.</p> <p>First 2-3 iterations the model holds the tone, remembers my requirements, output is fine. Somewhere around iteration five or six the drift kicks in: tone slides into generic, phrases I explicitly banned start showing up, structure falls apart. I point it out, the model apologizes, gives me a better version: two messages later it's the same thing again.</p> <p>So I end up with two options. Either I re-paste my requirements every 3-4 messages (which takes more time than just writing the thing myself). Or I grab the half-finished text and fix it by hand.</p> <p>I get that it's context window limitations and all that. But I'm curious, how do you actually deal with this in practice?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AlternativeSoft9777\"> /u/AlternativeSoft9777 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2251c008-fcce-517d-9d70-3cd8e4d0da3d",
     "title": "ui: Mermaid Diagrams in chat + interactive preview by allozaur · Pull Request #24032 · ggml-org/llama.cpp",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvs2vp/ui_mermaid_diagrams_in_chat_interactive_preview/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The mixed precision quant discussion here lately, MoE aware stuff that keeps shared experts and the edge layers at higher precision is great, but it's almost all measured against perplexity and general output quality. What I never see is structured output. Tool call JSON, function schemas, constrained formats. </p> <p>My intuition, and I'd like to be wrong, is that those degrade earlier than prose does. A model at Q4_K_M can still write a perfectly readable paragraph while quietly producing JSON that's a brace short or hallucinating a field name. Prose has a lot of valid continuations at each token. A schema has very few. So the same quant error that's invisible in text is fatal in a tool call.</p> <p>If that holds, then for agentic use the quant level you can actually get away with is lower than the perplexity charts suggest, and a lot of people are picking quants on the wrong metric. Has anyone benchmarked acceptance rate of valid tool calls across quant levels on one model? Not perplexity. Just did the JSON parse.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Substantial_Step_351\"> /u/Substantial_Step_351 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvb7lq/why_do_we_benchmark_quants_on_perplexity_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvb7lq/why_do_we_benchmark_quants_on_perplexity_and/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "badf0931-e616-5093-86fd-135485b4c182",
-    "title": "Anthropic adds 150 partners to 'Project Glasswing'",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tvat8v/anthropic_adds_150_partners_to_project_glasswing/",
-    "pubDate": "2026-06-03T01:35:08+00:00",
-    "description": "Anthropic announced Tuesday that 150 more organizations across over 15 countries will test its new Mythos AI model for security vulnerabilities, expanding an initiative dubbed Project Glasswing. The new partners come from industries that were previously under-represented, including power and healthcare, Anthropic said. The company also noted that over 10,000 high or critical security flaws have been exposed since an April rollout of initial testing that included 50 partners. The news comes a day after the Claude maker filed confidentially for an initial public offering. submitted by /u/LinkedInNews [link] [comments]",
-    "author": "/u/LinkedInNews",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvat8v/anthropic_adds_150_partners_to_project_glasswing/\"> <img alt=\"Anthropic adds 150 partners to 'Project Glasswing'\" src=\"https://external-preview.redd.it/llYXvtuIXT8Ybxmm4vsaiLCJRO0K8hElFgdtjc2Vsko.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a33d0fd90bad9135ce16fb58a23d4b2fec7756be\" title=\"Anthropic adds 150 partners to 'Project Glasswing'\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anthropic <a href=\"https://www.cnbc.com/2026/06/02/anthropic-mythos-ai-project-glasswing.html\">announced</a> Tuesday that 150 more organizations across over 15 countries will test its new Mythos AI model for security vulnerabilities, expanding an initiative dubbed Project Glasswing. </p> <p>The new partners come from industries that were previously under-represented, including power and healthcare, Anthropic said. </p> <p>The company also noted that over 10,000 high or critical security flaws have been exposed since an April rollout of initial testing that included 50 partners. </p> <p>The news comes a day after the Claude maker <a href=\"https://www.linkedin.com/news/story/anthropic-says-its-filed-confidentially-for-its-ipo-8167345/\">filed</a> confidentially for an initial public offering.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LinkedInNews\"> /u/LinkedInNews </a> <br /> <span><a href=\"https://www.linkedin.com/news/story/anthropic-adds-150-partners-to-project-glasswing-8902298/?utm_source=share&amp;utm_campaign=reddit&amp;utm_content=storyline&amp;utm_term=ClaudeAI\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvat8v/anthropic_adds_150_partners_to_project_glasswing/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/llYXvtuIXT8Ybxmm4vsaiLCJRO0K8hElFgdtjc2Vsko.jpeg?width=640&crop=smart&auto=webp&s=a33d0fd90bad9135ce16fb58a23d4b2fec7756be",
     "isShortVideo": 0
   }
 ]

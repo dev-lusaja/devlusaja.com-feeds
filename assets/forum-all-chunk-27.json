@@ -1,5 +1,21 @@
 [
   {
+    "id": "8fe3d4d6-a24a-5e6f-badf-6f0a23ee838c",
+    "title": "ICYM: llama.cpp b9455 --SM Tensor KV Cache Fix is MERGED",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/",
+    "pubDate": "2026-06-01T20:08:15+00:00",
+    "description": "Them boys can cook, one big fix after another! If you're running --sm tensor on multi-gpu this is the KV cache quantization fix https://github.com/ggml-org/llama.cpp/releases/tag/b9455 JohannesGaessler commented 5 days ago This PR implements support for the combination of -sm tensor and quantized KV cache. The reason why this doesn't work on master is that the flattening of tensors for the KV cache rotation leads to the loss of shape information which the meta backend cannot handle. There were previous PRs which resolved the issue by changing the shapes of the KV cache rotation but that is an undesirable solution because batched matrix multiplications may not be as well-supported in ggml backends as a single large matrix multiplication. Also it is generally better to extend the meta backend with capabilities to handle a compute graph than to require compute graphs to conform to the meta backend's requirments. The approach in this PR is to extend the specification ggml_backend_meta_split_state with a value that specifies how often a given segment repeats. When a tensor is flattened the meta backend uses segments to specify the data layout within the flattened dimension so that upon a further reshape the correct data layout can be restored. No changes to the llama.cpp compute graphs are required. submitted by /u/Bulky-Priority6824 [link] [comments]",
+    "author": "/u/Bulky-Priority6824",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Them boys can cook, one big fix after another!</p> <p>If you're running --sm tensor on multi-gpu this is the KV cache quantization fix</p> <p><a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9455\">https://github.com/ggml-org/llama.cpp/releases/tag/b9455</a></p> <blockquote> <p><a href=\"https://github.com/JohannesGaessler\"><strong>JohannesGaessler</strong></a>commented<a href=\"https://github.com/ggml-org/llama.cpp/pull/23792#issue-4535454876\">5 days ago</a></p> </blockquote> <p>This PR implements support for the combination of <code>-sm tensor</code> and quantized KV cache. The reason why this doesn't work on master is that the flattening of tensors for the KV cache rotation leads to the loss of shape information which the meta backend cannot handle. There were previous PRs which resolved the issue by changing the shapes of the KV cache rotation but that is an undesirable solution because batched matrix multiplications may not be as well-supported in ggml backends as a single large matrix multiplication. Also it is generally better to extend the meta backend with capabilities to handle a compute graph than to require compute graphs to conform to the meta backend's requirments.</p> <p>The approach in this PR is to extend the specification <code>ggml_backend_meta_split_state</code> with a value that specifies how often a given segment repeats. When a tensor is flattened the meta backend uses segments to specify the data layout within the flattened dimension so that upon a further reshape the correct data layout can be restored. No changes to the llama.cpp compute graphs are required.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bulky-Priority6824\"> /u/Bulky-Priority6824 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "eebacdbd-1952-577a-9afb-71f808f098e2",
     "title": "NVIDIA GB300 Grace Blackwell Ultra pricetags",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu2x22/nvidia_gb300_grace_blackwell_ultra_pricetags/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttugcs/i_made_an_app_to_generate_turing_patterns_with/\"> <img alt=\"I made an app to generate Turing Patterns with any picture\" src=\"https://preview.redd.it/uphb5zngoo4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c1c4975abd9b3ddc707ef38c0c0fbaf66a2dcc49\" title=\"I made an app to generate Turing Patterns with any picture\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://apps.apple.com/us/app/turing-patterns/id6754844448\">iPhone Download</a></p> <p>Turn your photos into living, breathing patterns inspired by nature’s hidden rules.</p> <p>This app uses Turing’s famous reaction-diffusion equations — the same math that shapes animal markings and chemical patterns — to transform portraits into evolving organic art.</p> <p>Take a photo or upload one you love.</p> <p>Adjust pattern flow, movement, and color.</p> <p>No two results are ever the same.</p> <p>Because nature never repeats herself — and neither do you.</p> <p>I used Claude to apply the reaction-diffusion algorithm to pictures. You can download the app for free on the App Store.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SoftSuccessful1414\"> /u/SoftSuccessful1414 </a> <br /> <span><a href=\"https://i.redd.it/uphb5zngoo4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttugcs/i_made_an_app_to_generate_turing_patterns_with/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/uphb5zngoo4h1.png?width=640&crop=smart&auto=webp&s=c1c4975abd9b3ddc707ef38c0c0fbaf66a2dcc49",
-    "isShortVideo": 0
-  },
-  {
-    "id": "06548403-07f0-5a65-8d52-0c1a2a3c615e",
-    "title": "i dedicate this meme to you r/LocalLLaMA",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttu64m/i_dedicate_this_meme_to_you_rlocalllama/",
-    "pubDate": "2026-06-01T14:36:12+00:00",
-    "description": "submitted by /u/LPFchan [link] [comments]",
-    "author": "/u/LPFchan",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttu64m/i_dedicate_this_meme_to_you_rlocalllama/\"> <img alt=\"i dedicate this meme to you r/LocalLLaMA\" src=\"https://external-preview.redd.it/MWoxcm4wN3FsbzRoMdpuLR9u3uoEosIXAUdYFC5C8nSfWtizVaBfV863bOhJ.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9c955ece1780705e7e5e58910bf20a80afdc55d1\" title=\"i dedicate this meme to you r/LocalLLaMA\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LPFchan\"> /u/LPFchan </a> <br /> <span><a href=\"https://v.redd.it/or6vjx6qlo4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttu64m/i_dedicate_this_meme_to_you_rlocalllama/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/MWoxcm4wN3FsbzRoMdpuLR9u3uoEosIXAUdYFC5C8nSfWtizVaBfV863bOhJ.png?width=640&crop=smart&auto=webp&s=9c955ece1780705e7e5e58910bf20a80afdc55d1",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "cda4a9f2-f3b5-546e-bc5f-e7736a6876af",
+    "title": "Recent CS graduate looking for GPU compute collaborators for LLM/VLM research [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6f5a3/recent_cs_graduate_looking_for_gpu_compute/",
+    "pubDate": "2026-06-15T12:26:38+00:00",
+    "description": "Hi everyone, I’m a recent CS graduate working mainly on NLP/LLMs and VLMs failures. I’m currently in a phase where I can dedicate a lot of focused time to research, but the main bottleneck holding me back is compute. I know “asking for GPUs” can sound vague or unserious, so I want to be transparent. I’m not looking for free compute to casually experiment or waste cycles. I have already been actively publishing and submitting research, including papers at EACL 2026, IJCNLP-AACL 2025, MICCAI 2026, an EMNLP 2025 workshop paper, and a recent ARR submission. I’m happy to share my Google Scholar/CV/papers privately with anyone interested. The ideas I’m currently working on are GPU-intensive, mostly around LLMs, NLP, and VLMs. I’ve discussed some of them with PhD friends/peers, and the feedback has been encouraging. The goal is to develop these ideas into strong, publishable work, ideally targeting top conferences such as *CL venues, CVPR, ICLR, and related ML/AI conferences. To run the experiments properly, I likely need more than a single consumer GPU. Ideally, I’m looking for access to something like a 4x or 8x GPU setup, L40S, A100, H100, H200, or similar. I understand that asking for H100/H200-class compute is a big ask, so I’m also open to scheduled access, partial access, university/lab cluster time, unused credits, or any practical arrangement. What I can offer: Serious research effort and consistent execution Weekly progress updates, logs, and experiment summaries Clear compute usage reports so the resources are not wasted Reproducible code, experiment tracking, and documentation Open discussion of ideas before running expensive experiments Proper acknowledgment of compute support Co-authorship To be very clear: this is purely for research work, no mining, no commercial misuse, no unrelated jobs. I’m comfortable discussing the project scope, risks, expected compute needs, and authorship/acknowledgment expectations before using anything. I know this is a long shot. Maybe nothing comes out of it. But I also know many early-career researchers face this same wall: you may have the time, motivation, and ideas, but not the infrastructure to test them properly. So I’m putting this out here in case someone has unused compute, lab access, cloud credits, or is interested in collaborating on publishable research. If this sounds relevant, please DM me or comment, and I’ll be happy to share more details about my background and the research directions. Thanks for reading. submitted by /u/Academic-Success9525 [link] [comments]",
+    "author": "/u/Academic-Success9525",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I’m a recent CS graduate working mainly on NLP/LLMs and VLMs failures. I’m currently in a phase where I can dedicate a lot of focused time to research, but the main bottleneck holding me back is compute.</p> <p>I know “asking for GPUs” can sound vague or unserious, so I want to be transparent. I’m not looking for free compute to casually experiment or waste cycles. I have already been actively publishing and submitting research, including papers at EACL 2026, IJCNLP-AACL 2025, MICCAI 2026, an EMNLP 2025 workshop paper, and a recent ARR submission. I’m happy to share my Google Scholar/CV/papers privately with anyone interested.</p> <p>The ideas I’m currently working on are GPU-intensive, mostly around LLMs, NLP, and VLMs. I’ve discussed some of them with PhD friends/peers, and the feedback has been encouraging. The goal is to develop these ideas into strong, publishable work, ideally targeting top conferences such as *CL venues, CVPR, ICLR, and related ML/AI conferences.</p> <p>To run the experiments properly, I likely need more than a single consumer GPU. Ideally, I’m looking for access to something like a 4x or 8x GPU setup, L40S, A100, H100, H200, or similar. I understand that asking for H100/H200-class compute is a big ask, so I’m also open to scheduled access, partial access, university/lab cluster time, unused credits, or any practical arrangement.</p> <p>What I can offer:</p> <ul> <li>Serious research effort and consistent execution</li> <li>Weekly progress updates, logs, and experiment summaries</li> <li>Clear compute usage reports so the resources are not wasted</li> <li>Reproducible code, experiment tracking, and documentation</li> <li>Open discussion of ideas before running expensive experiments</li> <li>Proper acknowledgment of compute support</li> <li>Co-authorship</li> </ul> <p>To be very clear: this is purely for research work, no mining, no commercial misuse, no unrelated jobs. I’m comfortable discussing the project scope, risks, expected compute needs, and authorship/acknowledgment expectations before using anything.</p> <p>I know this is a long shot. Maybe nothing comes out of it. But I also know many early-career researchers face this same wall: you may have the time, motivation, and ideas, but not the infrastructure to test them properly. So I’m putting this out here in case someone has unused compute, lab access, cloud credits, or is interested in collaborating on publishable research.</p> <p>If this sounds relevant, please DM me or comment, and I’ll be happy to share more details about my background and the research directions.</p> <p>Thanks for reading.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Academic-Success9525\"> /u/Academic-Success9525 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6f5a3/recent_cs_graduate_looking_for_gpu_compute/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6f5a3/recent_cs_graduate_looking_for_gpu_compute/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ecf75635-c760-5491-ba82-d3dcc440fb60",
     "title": "PrintGuard 2.0 — ShuffleNetV2 + few-shot prototypical network, TFLite via LiteRT, ≈5 MB, runs unmodified in the browser (Pyodide) and on CPython [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u6e9zc/printguard_20_shufflenetv2_fewshot_prototypical/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Seems likely M3 will need vllm updates and that these may to be need created for sm_120 as this repo only mentions sm_100 support. </p> <p><a href=\"https://github.com/MiniMax-AI/MSA\">https://github.com/MiniMax-AI/MSA</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NaiRogers\"> /u/NaiRogers </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3o46k/minimax_m3_sm_120/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3o46k/minimax_m3_sm_120/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1e7c2674-56f3-5202-9f00-6f86ba594262",
-    "title": "Why hasn't any mainstream game integrated LLMs into NPCs yet?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nn4j/why_hasnt_any_mainstream_game_integrated_llms/",
-    "pubDate": "2026-06-12T06:42:31+00:00",
-    "description": "tech demos exist but nothing's actually shipped in a real game. Is it a latency problem or are game studios just not interested~ submitted by /u/Enough-Astronaut9278 [link] [comments]",
-    "author": "/u/Enough-Astronaut9278",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>tech demos exist but nothing's actually shipped in a real game. Is it a latency problem or are game studios just not interested~</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Enough-Astronaut9278\"> /u/Enough-Astronaut9278 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3nn4j/why_hasnt_any_mainstream_game_integrated_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3nn4j/why_hasnt_any_mainstream_game_integrated_llms/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

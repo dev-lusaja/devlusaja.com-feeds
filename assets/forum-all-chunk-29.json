@@ -1,5 +1,21 @@
 [
   {
+    "id": "5a164273-67cd-55da-bf3f-888228350cf1",
+    "title": "next MiniMax will be released in ~10 Days",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/",
+    "pubDate": "2026-06-01T07:35:52+00:00",
+    "description": "https://x.com/MiniMax_AI/status/2061266317815296322 but will be probably too big for my setup submitted by /u/jacek2023 [link] [comments]",
+    "author": "/u/jacek2023",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/\"> <img alt=\"next MiniMax will be released in ~10 Days\" src=\"https://preview.redd.it/ri12y6oxjm4h1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=73eff9a638a79baa07b55a75b03a87cda4c93b6d\" title=\"next MiniMax will be released in ~10 Days\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://x.com/MiniMax_AI/status/2061266317815296322\">https://x.com/MiniMax_AI/status/2061266317815296322</a></p> <p>but will be probably too big for my setup</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://i.redd.it/ri12y6oxjm4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/ri12y6oxjm4h1.png?width=320&crop=smart&auto=webp&s=73eff9a638a79baa07b55a75b03a87cda4c93b6d",
+    "isShortVideo": 0
+  },
+  {
     "id": "786163c5-5b8a-53cd-8018-879740803598",
     "title": "Claude project has 50MD files and getting bloated",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ttjowg/claude_project_has_50md_files_and_getting_bloated/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tt4pag/llama_studio_v020/\"> <img alt=\"Llama Studio v0.2.0\" src=\"https://preview.redd.it/nbasscdzwi4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=bb1e756b21ae5bbb4df943d6de083c54859f2022\" title=\"Llama Studio v0.2.0\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have made an update to my llama-server WebUI based on some awesome feedback and interaction with the community.</p> <p>1) JSON model config replaced by per-model shell scripts. Run from CLI, paste from unsloth, email to your buddy or post to reddit: Using real shell scripts to store config is superior in every way. And if you don't care about the shell and just want clicky WebUI - All good, the full functionality of the WebUI remains perfectly as it has always been.</p> <p>2) Splitting across GPU. Done! If tensor-split is detected, you now get to choose which GPUs to split to, and it is retained in the shell script / config for future runs. </p> <p>3) Session store and autoload on start. Once you have your setup all nice and tuned, store it with the handy dandy button at the top of the page and optionally autoload your models on next startup. Great for headless servers like my own frankenserver frank.local. </p> <p>And if you are not familiar with the project, it is a simple webserver that manages llama-server instances through a WebUI. Free and open source, hacking encouraged!</p> <p><a href=\"https://github.com/m94301/llama-studio\">https://github.com/m94301/llama-studio</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/m94301\"> /u/m94301 </a> <br /> <span><a href=\"https://i.redd.it/nbasscdzwi4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tt4pag/llama_studio_v020/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/nbasscdzwi4h1.png?width=640&crop=smart&auto=webp&s=bb1e756b21ae5bbb4df943d6de083c54859f2022",
-    "isShortVideo": 0
-  },
-  {
-    "id": "76e565e5-04a3-5ac3-b6f6-a46445dea0f2",
-    "title": "Opus 4.x on high or xhigh effort seems to just step on itself. I found Claude in medium mode to be most effective",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tt3s9f/opus_4x_on_high_or_xhigh_effort_seems_to_just/",
-    "pubDate": "2026-05-31T18:48:04+00:00",
-    "description": "What do others think? Is it just me or does anything above high just feel like it's not making any real progress and burning tokens. Whereas medium mode seems to actually get things done at a moderate token burn rate? NOTE: my side projects are on the relatively simpler side submitted by /u/Master_Course_1879 [link] [comments]",
-    "author": "/u/Master_Course_1879",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tt3s9f/opus_4x_on_high_or_xhigh_effort_seems_to_just/\"> <img alt=\"Opus 4.x on high or xhigh effort seems to just step on itself. I found Claude in medium mode to be most effective\" src=\"https://preview.redd.it/jfrfduavqi4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=31c7d4bfaf79c7d2b2c3ac08c53c4482af66c19c\" title=\"Opus 4.x on high or xhigh effort seems to just step on itself. I found Claude in medium mode to be most effective\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>What do others think? Is it just me or does anything above high just feel like it's not making any real progress and burning tokens. Whereas medium mode seems to actually get things done at a moderate token burn rate?</p> <p>NOTE: my side projects are on the relatively simpler side</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Master_Course_1879\"> /u/Master_Course_1879 </a> <br /> <span><a href=\"https://i.redd.it/jfrfduavqi4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tt3s9f/opus_4x_on_high_or_xhigh_effort_seems_to_just/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/jfrfduavqi4h1.png?width=640&crop=smart&auto=webp&s=31c7d4bfaf79c7d2b2c3ac08c53c4482af66c19c",
     "isShortVideo": 0
   }
 ]

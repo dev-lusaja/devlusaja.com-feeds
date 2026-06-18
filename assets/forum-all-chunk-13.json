@@ -1,5 +1,21 @@
 [
   {
+    "id": "2123cca6-19b9-5b85-87c8-67982b3fb659",
+    "title": "Control a 3D avatar with language instead of buttons",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzgn87/control_a_3d_avatar_with_language_instead_of/",
+    "pubDate": "2026-06-07T16:25:28+00:00",
+    "description": "I built a 3D character you can control with language: https://programasweights.com/avatar Traditionally, 3D avatars are controlled through predefined buttons or scripts. Here you just describe what you want in plain English - including sequences and combinations you'd never wire to buttons, like \"wave while walking, then jump a couple times.\" How it works: it's built on programasweights, which we made earlier that compiles neural programs from plain-English descriptions. This avatar's \"director\" is one such program - at runtime it turns your sentence into a tiny action program (loops, holds, and parallel tracks) that runs locally in the browser. The exact program behind this avatar: https://programasweights.com/hub/9c2309c0c9019b180adc (and you can easily build your own). Using a compiled program locally is just a few lines (pip install programasweights): import programasweights as paw director = paw.function(\"9c2309c0c9019b180adc\") # the avatar's compiled program print(director(\"jump twice\")) # -> repeat 2 { jump } (First call downloads the tiny program + base model, then runs offline.) Debugging panel: add ?dbg=1 to the URL to open a debug panel and watch the exact action program it writes for each sentence. I'm quite interested in applying this to games. Instead of NPCs following fixed, hand-authored recipes, they could improvise behavior from user chats and emotions - the model writes the action program on the fly. I think AI should give us better games. Code + paper: The inference/runtime code is already released at https://github.com/programasweights , and more background about the approach is here: https://x.com/yuntiandeng/status/2044086557330579851 . If you really want the full code right now, the uncleaned version we used for the submission is at https://anonymous.4open.science/r/programasweights , but we'll clean it up and release a better version. submitted by /u/yuntiandeng [link] [comments]",
+    "author": "/u/yuntiandeng",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzgn87/control_a_3d_avatar_with_language_instead_of/\"> <img alt=\"Control a 3D avatar with language instead of buttons\" src=\"https://preview.redd.it/82pv29fmzv5h1.gif?width=320&amp;crop=smart&amp;s=ee9a5148fa1eb22f5b25f76e7ea222ef37541d72\" title=\"Control a 3D avatar with language instead of buttons\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I built a 3D character you can control with language: <a href=\"https://programasweights.com/avatar\">https://programasweights.com/avatar</a></p> <p>Traditionally, 3D avatars are controlled through predefined buttons or scripts. Here you just describe what you want in plain English - including sequences and combinations you'd never wire to buttons, like &quot;wave while walking, then jump a couple times.&quot;</p> <p><strong>How it works:</strong> it's built on programasweights, which we made earlier that compiles neural programs from plain-English descriptions. This avatar's &quot;director&quot; is one such program - at runtime it turns your sentence into a tiny action program (loops, holds, and parallel tracks) that runs locally in the browser. The exact program behind this avatar: <a href=\"https://programasweights.com/hub/9c2309c0c9019b180adc\">https://programasweights.com/hub/9c2309c0c9019b180adc</a> (and you can easily build your own).</p> <p>Using a compiled program locally is just a few lines (pip install programasweights):</p> <pre><code>import programasweights as paw director = paw.function(&quot;9c2309c0c9019b180adc&quot;) # the avatar's compiled program print(director(&quot;jump twice&quot;)) # -&gt; repeat 2 { jump } </code></pre> <p>(First call downloads the tiny program + base model, then runs offline.)</p> <p><strong>Debugging panel:</strong> add ?dbg=1 to the URL to open a debug panel and watch the exact action program it writes for each sentence.</p> <p>I'm quite interested in applying this to games. Instead of NPCs following fixed, hand-authored recipes, they could improvise behavior from user chats and emotions - the model writes the action program on the fly. I think AI should give us better games.</p> <p><strong>Code + paper:</strong> The inference/runtime code is already released at <a href=\"https://github.com/programasweights\">https://github.com/programasweights</a>, and more background about the approach is here: <a href=\"https://x.com/yuntiandeng/status/2044086557330579851\">https://x.com/yuntiandeng/status/2044086557330579851</a>. If you really want the full code right now, the uncleaned version we used for the submission is at <a href=\"https://anonymous.4open.science/r/programasweights\">https://anonymous.4open.science/r/programasweights</a>, but we'll clean it up and release a better version.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yuntiandeng\"> /u/yuntiandeng </a> <br /> <span><a href=\"https://i.redd.it/82pv29fmzv5h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzgn87/control_a_3d_avatar_with_language_instead_of/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/82pv29fmzv5h1.gif?width=320&crop=smart&s=ee9a5148fa1eb22f5b25f76e7ea222ef37541d72",
+    "isShortVideo": 0
+  },
+  {
     "id": "97c6a2bf-7f30-56fe-ad80-1771019f1bb2",
     "title": "GMKtec Crams OCuLink, Wi-Fi 7 and Dual PCIe 4.0 Into the EVO-X3, With a 192GB Ryzen AI MAX+ 495 Monster Following Later This Year",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzgafl/gmktec_crams_oculink_wifi_7_and_dual_pcie_40_into/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz6h86/open_models_to_win/\"> <img alt=\"Open models to win ✌\" src=\"https://preview.redd.it/uytuno9rlt5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=814044c0800edb59629d18d7538912e26e3566c2\" title=\"Open models to win ✌\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmttyji\"> /u/pmttyji </a> <br /> <span><a href=\"https://i.redd.it/uytuno9rlt5h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz6h86/open_models_to_win/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/uytuno9rlt5h1.jpeg?width=640&crop=smart&auto=webp&s=814044c0800edb59629d18d7538912e26e3566c2",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2a013e0e-2791-5731-a4e9-7e6b9b984266",
-    "title": "Opus 4.8 without a system message can get a bit... quirky",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz5wz2/opus_48_without_a_system_message_can_get_a_bit/",
-    "pubDate": "2026-06-07T07:54:21+00:00",
-    "description": "submitted by /u/Incener [link] [comments]",
-    "author": "/u/Incener",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz5wz2/opus_48_without_a_system_message_can_get_a_bit/\"> <img alt=\"Opus 4.8 without a system message can get a bit... quirky\" src=\"https://preview.redd.it/f031027hdt5h1.png?width=140&amp;height=58&amp;auto=webp&amp;s=40c383cba0fc1a753fcdbc9ce3e451a72cbf426a\" title=\"Opus 4.8 without a system message can get a bit... quirky\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Incener\"> /u/Incener </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tz5wz2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz5wz2/opus_48_without_a_system_message_can_get_a_bit/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/f031027hdt5h1.png?width=140&height=58&auto=webp&s=40c383cba0fc1a753fcdbc9ce3e451a72cbf426a",
     "isShortVideo": 0
   }
 ]

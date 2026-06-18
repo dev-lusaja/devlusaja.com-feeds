@@ -1,5 +1,21 @@
 [
   {
+    "id": "84080bc6-130d-50ec-9958-5c43ea8c8b25",
+    "title": "Evolving Deep Learning Optimizers [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t2jt4m/evolving_deep_learning_optimizers_r/",
+    "pubDate": "2026-05-03T12:13:56+00:00",
+    "description": "We present a genetic algorithm framework for automatically discovering deep learning optimization algorithms. Our approach encodes optimizers as genomes that specify combinations of primitive update terms (gradient, momentum, RMS normalization, Adam-style adaptive terms, and sign-based updates) along with hyperparameters and scheduling options. Through evolutionary search over 50 generations with a population of 50 individuals, evaluated across multiple vision tasks, we discover an evolved optimizer that outperforms Adam by 2.6% in aggregate fitness and achieves a 7.7% relative improvement on CIFAR-10. The evolved optimizer combines sign-based gradient terms with adaptive moment estimation, uses lower momentum coefficients than Adam ( =0.86, =0.94), and notably disables bias correction while enabling learning rate warmup and cosine decay. Our results demonstrate that evolutionary search can discover competitive optimization algorithms and reveal design principles that differ from hand-crafted optimizers. submitted by /u/EducationalCicada [link] [comments]",
+    "author": "/u/EducationalCicada",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We present a genetic algorithm framework for automatically discovering deep learning optimization algorithms. </p> <p>Our approach encodes optimizers as genomes that specify combinations of primitive update terms (gradient, momentum, RMS normalization, Adam-style adaptive terms, and sign-based updates) along with hyperparameters and scheduling options. </p> <p>Through evolutionary search over 50 generations with a population of 50 individuals, evaluated across multiple vision tasks, we discover an evolved optimizer that outperforms Adam by 2.6% in aggregate fitness and achieves a 7.7% relative improvement on CIFAR-10. </p> <p>The evolved optimizer combines sign-based gradient terms with adaptive moment estimation, uses lower momentum coefficients than Adam ( =0.86, =0.94), and notably disables bias correction while enabling learning rate warmup and cosine decay. </p> <p>Our results demonstrate that evolutionary search can discover competitive optimization algorithms and reveal design principles that differ from hand-crafted optimizers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EducationalCicada\"> /u/EducationalCicada </a> <br /> <span><a href=\"https://arxiv.org/abs/2512.11853\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t2jt4m/evolving_deep_learning_optimizers_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d5433533-570c-5b05-a4c3-e15711fb7151",
     "title": "Should I follow-up with the editor for a TMLR paper awaiting final decision? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t2i1pu/should_i_followup_with_the_editor_for_a_tmlr/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for]</p> </blockquote> <p>&#x200b;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0gle1/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0gle1/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0b2f27c5-1b52-5549-9d11-7f22e68a8cd0",
-    "title": "AI/ML Conferences [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/",
-    "pubDate": "2026-05-01T00:03:53+00:00",
-    "description": "As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026. Given the sheer number of papers submitted to A* AI/ML conferences, the current review system does not seem to work well. For example, in some cases, papers are rejected despite the authors addressing all reviewers’ concerns, leading to substantial increases in scores. What could be a better way forward to ensure a fair review process? submitted by /u/msgs008 [link] [comments]",
-    "author": "/u/msgs008",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026. Given the sheer number of papers submitted to A* AI/ML conferences, the current review system does not seem to work well. For example, in some cases, papers are rejected despite the authors addressing all reviewers’ concerns, leading to substantial increases in scores. What could be a better way forward to ensure a fair review process?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/msgs008\"> /u/msgs008 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

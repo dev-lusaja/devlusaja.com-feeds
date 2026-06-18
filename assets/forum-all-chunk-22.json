@@ -1,5 +1,21 @@
 [
   {
+    "id": "4d8c814d-d99f-54ce-ae38-746725aef55e",
+    "title": "Hcompany/Holo-3.1-0.8B · Hugging Face",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tw24d3/hcompanyholo3108b_hugging_face/",
+    "pubDate": "2026-06-03T20:45:07+00:00",
+    "description": "Anyone else try this model out submitted by /u/cantthinkofausrnme [link] [comments]",
+    "author": "/u/cantthinkofausrnme",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw24d3/hcompanyholo3108b_hugging_face/\"> <img alt=\"Hcompany/Holo-3.1-0.8B · Hugging Face\" src=\"https://external-preview.redd.it/zsSgiOnuApKmHaxYQJGYFAeW-rKXY5QkFjbS0wWVeZE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=506e60c5196d0e39fa09e67e387a26d3d4622c65\" title=\"Hcompany/Holo-3.1-0.8B · Hugging Face\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anyone else try this model out</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cantthinkofausrnme\"> /u/cantthinkofausrnme </a> <br /> <span><a href=\"https://huggingface.co/Hcompany/Holo-3.1-0.8B\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw24d3/hcompanyholo3108b_hugging_face/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/zsSgiOnuApKmHaxYQJGYFAeW-rKXY5QkFjbS0wWVeZE.png?width=640&crop=smart&auto=webp&s=506e60c5196d0e39fa09e67e387a26d3d4622c65",
+    "isShortVideo": 0
+  },
+  {
     "id": "5efbb6ad-a178-54bf-aaa0-2d2710786417",
     "title": "Has anyone heard back from citadel ICML travel grant ? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tw186e/has_anyone_heard_back_from_citadel_icml_travel/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been thinking about an alternative tokenization and representation scheme for language models and would be interested in hearing whether similar ideas have been explored before, as well as potential advantages or flaws.</p> <p>The core observation is that modern tokenizers (BPE, SentencePiece, etc.) primarily capture statistical structure in text. While this is highly effective, the resulting token assignments are not explicitly organized according to semantic relationships. Concepts that are semantically related may end up with completely unrelated token identifiers, and semantic structure is learned later through embeddings and training.</p> <p>The idea is to construct a tokenization scheme in which the symbolic representation itself carries semantic information.</p> <p>For example, instead of assigning arbitrary identifiers to concepts, we could learn a mapping from concepts to short character strings such that semantically similar concepts receive similar codes. A concept like “dog” might receive a code close to those assigned to “wolf” and “fox”, while more distant concepts such as “car” would receive codes that are farther away in the code space.</p> <p>One possible implementation would be:</p> <p>1) Build a semantic graph using resources such as WordNet, embedding similarity, or a combination of both.<br /> 2) Learn a compact symbolic encoding for concepts.<br /> 3) Optimize the encoding so that distances between codes correlate with semantic distances in the graph.<br /> 4) Train language models directly on these codes.</p> <p>An extension of the idea is to treat a standard keyboard layout as a fixed geometric space. The keyboard itself is not semantically meaningful, but it provides a globally agreed-upon metric structure. The learned encoding could exploit distances between characters and positions when constructing semantic codes.</p> <p>For example, if two concepts are semantically close, their symbolic representations would differ only slightly. Ambiguous concepts could potentially occupy positions that reflect their relationships to multiple semantic regions. Context would still determine the intended meaning, but the representation itself would encode semantic structure rather than relying entirely on downstream embedding learning.</p> <p>My intuition is that such a representation could act as an inductive bias, potentially improving:</p> <p>- Sample efficiency<br /> - Training efficiency<br /> - Interpretability<br /> - Cross-lingual concept sharing<br /> - Compression of semantic information</p> <p>However, it is also possible that sufficiently large models already learn these structures efficiently, making such an encoding unnecessary.</p> <p>I would be interested in feedback on several questions:</p> <p>1) Has similar work been explored in tokenization, representation learning, or NLP?<br /> 2) Are there theoretical reasons why such a representation should or should not help?<br /> 3) Would a semantically structured symbolic space provide a useful inductive bias for transformer-based models?<br /> 4) Are there related approaches involving semantic hashing, vector quantization, discrete latent spaces, graph embeddings, or other forms of structured tokenization that I should look into?</p> <p>I am particularly interested in understanding whether explicitly embedding semantic structure into the symbolic representation could provide measurable benefits over learning that structure entirely through embeddings and model training.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dense-Map-406\"> /u/Dense-Map-406 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvsrhi/a_semantic_tokenization_scheme_where_token/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvsrhi/a_semantic_tokenization_scheme_where_token/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e961c439-9e40-533f-8453-122184c04aa9",
-    "title": "Anyone else spending more time fighting the model than doing the actual work?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/",
-    "pubDate": "2026-06-03T15:23:27+00:00",
-    "description": "I use Claude and ChatGPT daily, writing copy for clients, case studies, landing pages. I've noticed a pattern and it's driving me nuts. First 2-3 iterations the model holds the tone, remembers my requirements, output is fine. Somewhere around iteration five or six the drift kicks in: tone slides into generic, phrases I explicitly banned start showing up, structure falls apart. I point it out, the model apologizes, gives me a better version: two messages later it's the same thing again. So I end up with two options. Either I re-paste my requirements every 3-4 messages (which takes more time than just writing the thing myself). Or I grab the half-finished text and fix it by hand. I get that it's context window limitations and all that. But I'm curious, how do you actually deal with this in practice? submitted by /u/AlternativeSoft9777 [link] [comments]",
-    "author": "/u/AlternativeSoft9777",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I use Claude and ChatGPT daily, writing copy for clients, case studies, landing pages. I've noticed a pattern and it's driving me nuts.</p> <p>First 2-3 iterations the model holds the tone, remembers my requirements, output is fine. Somewhere around iteration five or six the drift kicks in: tone slides into generic, phrases I explicitly banned start showing up, structure falls apart. I point it out, the model apologizes, gives me a better version: two messages later it's the same thing again.</p> <p>So I end up with two options. Either I re-paste my requirements every 3-4 messages (which takes more time than just writing the thing myself). Or I grab the half-finished text and fix it by hand.</p> <p>I get that it's context window limitations and all that. But I'm curious, how do you actually deal with this in practice?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AlternativeSoft9777\"> /u/AlternativeSoft9777 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "7c396f77-69fd-55a5-99f9-7ad63de862cc",
+    "title": "New Claude web memory options?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuln6s/new_claude_web_memory_options/",
+    "pubDate": "2026-06-02T09:22:15+00:00",
+    "description": "submitted by /u/BanitsaConnoisseur [link] [comments]",
+    "author": "/u/BanitsaConnoisseur",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuln6s/new_claude_web_memory_options/\"> <img alt=\"New Claude web memory options?\" src=\"https://preview.redd.it/5yifz0bw7u4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4c97b6e362052c7aaf73d85e5b1301df5f886ae1\" title=\"New Claude web memory options?\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BanitsaConnoisseur\"> /u/BanitsaConnoisseur </a> <br /> <span><a href=\"https://i.redd.it/5yifz0bw7u4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuln6s/new_claude_web_memory_options/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/5yifz0bw7u4h1.jpeg?width=640&crop=smart&auto=webp&s=4c97b6e362052c7aaf73d85e5b1301df5f886ae1",
+    "isShortVideo": 0
+  },
+  {
     "id": "93d0106a-ab74-5c1c-8120-7a830b89437e",
     "title": "LLM agents patch security bugs, pass all tests, but still leave the vulnerability open [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tukvjt/llm_agents_patch_security_bugs_pass_all_tests_but/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, hope this is ok to post here. I built a free EU AI Act risk assessment tool and would love some feedback from people who actually know this space.</p> <p>You fill out a 10-question form describing your AI system, it classifies your EU AI Act risk tier, and emails you a PDF report with your applicable Articles and priority actions. Takes about 2 minutes, no account required.</p> <p><a href=\"https://assessment.aiella.com\">https://assessment.aiella.com</a></p> <p>Eventually I want to build a monitoring SDK that works like a Python library and automatically documents compliance of the technically measurable requirements at inference time. Looking for design partners for that down the road.</p> <p>Genuine feedback welcome, especially from anyone who has been through a real EU AI Act compliance process. Happy to answer questions about the classification methodology or the AWS architecture behind it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aiandi\"> /u/aiandi </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu4rnt/feedback_on_my_eu_ai_act_risk_tier_assessor_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tu4rnt/feedback_on_my_eu_ai_act_risk_tier_assessor_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8fe3d4d6-a24a-5e6f-badf-6f0a23ee838c",
-    "title": "ICYM: llama.cpp b9455 --SM Tensor KV Cache Fix is MERGED",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/",
-    "pubDate": "2026-06-01T20:08:15+00:00",
-    "description": "Them boys can cook, one big fix after another! If you're running --sm tensor on multi-gpu this is the KV cache quantization fix https://github.com/ggml-org/llama.cpp/releases/tag/b9455 JohannesGaessler commented 5 days ago This PR implements support for the combination of -sm tensor and quantized KV cache. The reason why this doesn't work on master is that the flattening of tensors for the KV cache rotation leads to the loss of shape information which the meta backend cannot handle. There were previous PRs which resolved the issue by changing the shapes of the KV cache rotation but that is an undesirable solution because batched matrix multiplications may not be as well-supported in ggml backends as a single large matrix multiplication. Also it is generally better to extend the meta backend with capabilities to handle a compute graph than to require compute graphs to conform to the meta backend's requirments. The approach in this PR is to extend the specification ggml_backend_meta_split_state with a value that specifies how often a given segment repeats. When a tensor is flattened the meta backend uses segments to specify the data layout within the flattened dimension so that upon a further reshape the correct data layout can be restored. No changes to the llama.cpp compute graphs are required. submitted by /u/Bulky-Priority6824 [link] [comments]",
-    "author": "/u/Bulky-Priority6824",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Them boys can cook, one big fix after another!</p> <p>If you're running --sm tensor on multi-gpu this is the KV cache quantization fix</p> <p><a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9455\">https://github.com/ggml-org/llama.cpp/releases/tag/b9455</a></p> <blockquote> <p><a href=\"https://github.com/JohannesGaessler\"><strong>JohannesGaessler</strong></a>commented<a href=\"https://github.com/ggml-org/llama.cpp/pull/23792#issue-4535454876\">5 days ago</a></p> </blockquote> <p>This PR implements support for the combination of <code>-sm tensor</code> and quantized KV cache. The reason why this doesn't work on master is that the flattening of tensors for the KV cache rotation leads to the loss of shape information which the meta backend cannot handle. There were previous PRs which resolved the issue by changing the shapes of the KV cache rotation but that is an undesirable solution because batched matrix multiplications may not be as well-supported in ggml backends as a single large matrix multiplication. Also it is generally better to extend the meta backend with capabilities to handle a compute graph than to require compute graphs to conform to the meta backend's requirments.</p> <p>The approach in this PR is to extend the specification <code>ggml_backend_meta_split_state</code> with a value that specifies how often a given segment repeats. When a tensor is flattened the meta backend uses segments to specify the data layout within the flattened dimension so that upon a further reshape the correct data layout can be restored. No changes to the llama.cpp compute graphs are required.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bulky-Priority6824\"> /u/Bulky-Priority6824 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
