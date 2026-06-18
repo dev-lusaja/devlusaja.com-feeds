@@ -1,5 +1,37 @@
 [
   {
+    "id": "5efbb6ad-a178-54bf-aaa0-2d2710786417",
+    "title": "Has anyone heard back from citadel ICML travel grant ? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tw186e/has_anyone_heard_back_from_citadel_icml_travel/",
+    "pubDate": "2026-06-03T20:13:14+00:00",
+    "description": "It’s confusing because they said applicants will be notified on 3rd June but also said you’ll be notified 2-4 weeks after the deadline (29th may) submitted by /u/Smol_pp001 [link] [comments]",
+    "author": "/u/Smol_pp001",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>It’s confusing because they said applicants will be notified on 3rd June but also said you’ll be notified 2-4 weeks after the deadline (29th may)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Smol_pp001\"> /u/Smol_pp001 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tw186e/has_anyone_heard_back_from_citadel_icml_travel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tw186e/has_anyone_heard_back_from_citadel_icml_travel/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "bc62a2f1-7602-5f59-bf59-07141b967823",
+    "title": "gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/",
+    "pubDate": "2026-06-03T19:51:33+00:00",
+    "description": "I don't really understand the gemma hype. Qwen outperforms gemma gb for gb, and kv cache is lighter. Sure gemma-4-12b-it might be a slight better coder than Qwen3.5-9b, but you could also just use omnicoder-9b (Qwen3.5-9b finetune for coding). Note: Benchmark results come from the official huggingface model cards; formatted into a table with ChatGPT submitted by /u/fulgencio_batista [link] [comments]",
+    "author": "/u/fulgencio_batista",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/\"> <img alt=\"gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint\" src=\"https://preview.redd.it/20s4116kg45h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2867d6816b034030d17f946bb2e0d3c4478a3987\" title=\"gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I don't really understand the gemma hype. Qwen outperforms gemma gb for gb, and kv cache is lighter. Sure gemma-4-12b-it might be a slight better coder than Qwen3.5-9b, but you could also just use omnicoder-9b (Qwen3.5-9b finetune for coding).</p> <p>Note: Benchmark results come from the official huggingface model cards; formatted into a table with ChatGPT</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fulgencio_batista\"> /u/fulgencio_batista </a> <br /> <span><a href=\"https://i.redd.it/20s4116kg45h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/20s4116kg45h1.png?width=640&crop=smart&auto=webp&s=2867d6816b034030d17f946bb2e0d3c4478a3987",
+    "isShortVideo": 0
+  },
+  {
     "id": "22a1ee07-e83e-5219-aa70-fba4d4d634bf",
     "title": "First paper acceptance (ICML Workshop), should I attend? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tw0j33/first_paper_acceptance_icml_workshop_should_i/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I use Claude and ChatGPT daily, writing copy for clients, case studies, landing pages. I've noticed a pattern and it's driving me nuts.</p> <p>First 2-3 iterations the model holds the tone, remembers my requirements, output is fine. Somewhere around iteration five or six the drift kicks in: tone slides into generic, phrases I explicitly banned start showing up, structure falls apart. I point it out, the model apologizes, gives me a better version: two messages later it's the same thing again.</p> <p>So I end up with two options. Either I re-paste my requirements every 3-4 messages (which takes more time than just writing the thing myself). Or I grab the half-finished text and fix it by hand.</p> <p>I get that it's context window limitations and all that. But I'm curious, how do you actually deal with this in practice?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AlternativeSoft9777\"> /u/AlternativeSoft9777 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvsnbd/anyone_else_spending_more_time_fighting_the_model/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2251c008-fcce-517d-9d70-3cd8e4d0da3d",
-    "title": "ui: Mermaid Diagrams in chat + interactive preview by allozaur · Pull Request #24032 · ggml-org/llama.cpp",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvs2vp/ui_mermaid_diagrams_in_chat_interactive_preview/",
-    "pubDate": "2026-06-03T15:04:18+00:00",
-    "description": "now you can generate awesome diagrams (check the video) submitted by /u/jacek2023 [link] [comments]",
-    "author": "/u/jacek2023",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvs2vp/ui_mermaid_diagrams_in_chat_interactive_preview/\"> <img alt=\"ui: Mermaid Diagrams in chat + interactive preview by allozaur · Pull Request #24032 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/ZtafgIJhGrcn22uTlFaUCxZGVMIqCGJrxLg3Jdzy2tI.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ab47314a36a23e96b4690f2a97c6d546af9f13c5\" title=\"ui: Mermaid Diagrams in chat + interactive preview by allozaur · Pull Request #24032 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>now you can generate awesome diagrams (check the video)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/24032\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvs2vp/ui_mermaid_diagrams_in_chat_interactive_preview/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/ZtafgIJhGrcn22uTlFaUCxZGVMIqCGJrxLg3Jdzy2tI.png?width=640&crop=smart&auto=webp&s=ab47314a36a23e96b4690f2a97c6d546af9f13c5",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6f63ea47-5fd5-561e-a44a-d51be3a88405",
-    "title": "Be honest - when Claude writes a long plan or spec, do you actually read it? Or do you just say \"looks good\"?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tvs270/be_honest_when_claude_writes_a_long_plan_or_spec/",
-    "pubDate": "2026-06-03T15:03:37+00:00",
-    "description": "I know my options. Edit the file, change it in chat, have it rewritten. I'm just too lazy to read 400 lines every time, so I go \"looks good\" and let it rip. Anyone else, or just me? submitted by /u/SYSWAVE [link] [comments]",
-    "author": "/u/SYSWAVE",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvs270/be_honest_when_claude_writes_a_long_plan_or_spec/\"> <img alt=\"Be honest - when Claude writes a long plan or spec, do you actually read it? Or do you just say &quot;looks good&quot;?\" src=\"https://preview.redd.it/dyjs63b8z25h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d8b34f2a5f104312a5e6404abb38ef898da3b14e\" title=\"Be honest - when Claude writes a long plan or spec, do you actually read it? Or do you just say &quot;looks good&quot;?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I know my options. Edit the file, change it in chat, have it rewritten. I'm just too lazy to read 400 lines every time, so I go &quot;looks good&quot; and let it rip.</p> <p>Anyone else, or just me?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SYSWAVE\"> /u/SYSWAVE </a> <br /> <span><a href=\"https://i.redd.it/dyjs63b8z25h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvs270/be_honest_when_claude_writes_a_long_plan_or_spec/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/dyjs63b8z25h1.jpeg?width=640&crop=smart&auto=webp&s=d8b34f2a5f104312a5e6404abb38ef898da3b14e",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,37 @@
 [
   {
+    "id": "ea6ff31e-8347-563a-9c33-2315ad12588e",
+    "title": "How much of MLE-Bench's gains are the algorithm vs. better models + more search? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/",
+    "pubDate": "2026-06-01T14:34:16+00:00",
+    "description": "MLE-Bench scores have jumped from 30% to 80% over the last two years. But how much of that is real algorithmic progress vs. better base models + problem definition shifts + overfitting? Turns out: not much. Once you control for the same step budget and models, and then test on a different set of tasks, the two-year-old AIDE algorithm matches modern agent/evolutionary search systems. Figure from FML-Bench, a new automated ML research benchmark, which unifies the code editing agent, step definition, and val/test split, and tries to benchmark the algorithmic efficiency (search/memory) of the agents. paper link: https://arxiv.org/pdf/2605.17373 test improvement and pairwise win-rate submitted by /u/Educational_Strain_3 [link] [comments]",
+    "author": "/u/Educational_Strain_3",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/\"> <img alt=\"How much of MLE-Bench's gains are the algorithm vs. better models + more search? [R]\" src=\"https://preview.redd.it/j9ev4x8kmo4h1.png?width=140&amp;height=92&amp;auto=webp&amp;s=a81f90d131bd94a85cb68fe7b2579cf0981d9aa6\" title=\"How much of MLE-Bench's gains are the algorithm vs. better models + more search? [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>MLE-Bench scores have jumped from 30% to 80% over the last two years.<br /> But how much of that is real algorithmic progress vs. better base models + problem definition shifts + overfitting? </p> <p>Turns out: not much. Once you control for the same step budget and models, and then test on a different set of tasks, the two-year-old AIDE algorithm matches modern agent/evolutionary search systems. </p> <p>Figure from FML-Bench, a new automated ML research benchmark, which unifies the code editing agent, step definition, and val/test split, and tries to benchmark the algorithmic efficiency (search/memory) of the agents. </p> <p>paper link: <a href=\"https://t.co/8QllTan4cX\">https://arxiv.org/pdf/2605.17373</a></p> <p><a href=\"https://preview.redd.it/j9ev4x8kmo4h1.png?width=894&amp;format=png&amp;auto=webp&amp;s=d38392fdc4d14f371db23592d8ef45b34bc1e7a8\">test improvement and pairwise win-rate</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Educational_Strain_3\"> /u/Educational_Strain_3 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/j9ev4x8kmo4h1.png?width=140&height=92&auto=webp&s=a81f90d131bd94a85cb68fe7b2579cf0981d9aa6",
+    "isShortVideo": 0
+  },
+  {
+    "id": "36e4c142-533a-512c-999f-c89cf288d2cb",
+    "title": "For Ling-2.6-1T, what would make the size feel justified first: quality per token, local serving reality, or long context stability?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tttmob/for_ling261t_what_would_make_the_size_feel/",
+    "pubDate": "2026-06-01T14:17:56+00:00",
+    "description": "The first question I have about Ling-2.6-1T is not “is the model card impressive?” It is whether the boring trade-off makes sense. It is an open-sourced Ant/InclusionAI flagship with about 1T total params / 63B activated params, up to 1M native context, and 256K currently exposed through the official API. For a local-LLM crowd, I’d want one answer first: does the quality justify the active size, can the serving setup make sense, or does the long window stay stable enough deep into context? Which one would you need answered before caring about it? submitted by /u/Top_Training5738 [link] [comments]",
+    "author": "/u/Top_Training5738",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>The first question I have about Ling-2.6-1T is not “is the model card impressive?” It is whether the boring trade-off makes sense.</p> <p>It is an open-sourced Ant/InclusionAI flagship with about 1T total params / 63B activated params, up to 1M native context, and 256K currently exposed through the official API. For a local-LLM crowd, I’d want one answer first: does the quality justify the active size, can the serving setup make sense, or does the long window stay stable enough deep into context?</p> <p>Which one would you need answered before caring about it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Top_Training5738\"> /u/Top_Training5738 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tttmob/for_ling261t_what_would_make_the_size_feel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tttmob/for_ling261t_what_would_make_the_size_feel/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "55528501-762e-5205-b4c6-7609e0e89c33",
     "title": "mistral.rs v0.8.2: up to 2.8x faster CUDA inference than llama.cpp on GB10, B200, and H100",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tttevw/mistralrs_v082_up_to_28x_faster_cuda_inference/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/\"> <img alt=\"next MiniMax will be released in ~10 Days\" src=\"https://preview.redd.it/ri12y6oxjm4h1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=73eff9a638a79baa07b55a75b03a87cda4c93b6d\" title=\"next MiniMax will be released in ~10 Days\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://x.com/MiniMax_AI/status/2061266317815296322\">https://x.com/MiniMax_AI/status/2061266317815296322</a></p> <p>but will be probably too big for my setup</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://i.redd.it/ri12y6oxjm4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/ri12y6oxjm4h1.png?width=320&crop=smart&auto=webp&s=73eff9a638a79baa07b55a75b03a87cda4c93b6d",
-    "isShortVideo": 0
-  },
-  {
-    "id": "786163c5-5b8a-53cd-8018-879740803598",
-    "title": "Claude project has 50MD files and getting bloated",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ttjowg/claude_project_has_50md_files_and_getting_bloated/",
-    "pubDate": "2026-06-01T06:24:24+00:00",
-    "description": "Now everything feels so much slower. Even chats that aren’t in the project. How do I manage? submitted by /u/debbiediscovers [link] [comments]",
-    "author": "/u/debbiediscovers",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Now everything feels so much slower. Even chats that aren’t in the project. How do I manage? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/debbiediscovers\"> /u/debbiediscovers </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttjowg/claude_project_has_50md_files_and_getting_bloated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttjowg/claude_project_has_50md_files_and_getting_bloated/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4ad9e08b-1416-5fdf-b67c-853fba164e3e",
-    "title": "NVIDIA RTX Spark — Slim Laptops & Small Desktops",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttji8b/nvidia_rtx_spark_slim_laptops_small_desktops/",
-    "pubDate": "2026-06-01T06:14:08+00:00",
-    "description": "submitted by /u/zxyzyxz [link] [comments]",
-    "author": "/u/zxyzyxz",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttji8b/nvidia_rtx_spark_slim_laptops_small_desktops/\"> <img alt=\"NVIDIA RTX Spark — Slim Laptops &amp; Small Desktops\" src=\"https://external-preview.redd.it/0H5OoTB1nMULdN6FERJ7wuqK9b1oiLU4scYg2sAsjyI.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6c8337e96006178156f1500331dfa0c0f3d0e578\" title=\"NVIDIA RTX Spark — Slim Laptops &amp; Small Desktops\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zxyzyxz\"> /u/zxyzyxz </a> <br /> <span><a href=\"https://www.nvidia.com/en-us/products/rtx-spark/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttji8b/nvidia_rtx_spark_slim_laptops_small_desktops/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/0H5OoTB1nMULdN6FERJ7wuqK9b1oiLU4scYg2sAsjyI.jpeg?width=640&crop=smart&auto=webp&s=6c8337e96006178156f1500331dfa0c0f3d0e578",
     "isShortVideo": 0
   }
 ]
