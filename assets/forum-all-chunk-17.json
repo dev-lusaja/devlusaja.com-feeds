@@ -1,5 +1,37 @@
 [
   {
+    "id": "e77d9229-8d10-5298-918f-940bb6c391c6",
+    "title": "A quick Gemma4 31B comparison (Q4_k_M, QAT, heretic)",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ty84rj/a_quick_gemma4_31b_comparison_q4_k_m_qat_heretic/",
+    "pubDate": "2026-06-06T05:11:35+00:00",
+    "description": "No numbers. Not sure if anybody cares… I’ve run the UD version of Q4_k_m for a month. I talk to this model nicely, because it’s a functional nervous wreck. And initially I thought that might be an alignment thing, so I also have the heretic version when I need a breather from this hyper vigilant over achiever llm. Don’t get me wrong. It’s great ! Works well .. most of the time. It’s when the context gets long(in my case 20k!), chain of tools gets long , or it knows that it previous has made a mistake, it just falls apart. Whereas the heretic version. It doesn’t give a dime if it makes a mistake yet still makes plenty. Then I tried the QAT for a few hours. This one is a zen master. Handling 32k context with full reasoning is piece of cake. Does everything right. Doesn’t try too hard. The “nervous “ Gemma is probably a quant thing. Trying to achieve full precision being a Q4 is hard I guess. For longer context and maintaining precision QAT is looking pretty good. submitted by /u/Some-Cauliflower4902 [link] [comments]",
+    "author": "/u/Some-Cauliflower4902",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>No numbers. Not sure if anybody cares…</p> <p>I’ve run the UD version of Q4_k_m for a month. I talk to this model nicely, because it’s a functional nervous wreck. And initially I thought that might be an alignment thing, so I also have the heretic version when I need a breather from this hyper vigilant over achiever llm. </p> <p>Don’t get me wrong. It’s great ! Works well .. most of the time. It’s when the context gets long(in my case 20k!), chain of tools gets long , or it knows that it previous has made a mistake, it just falls apart.</p> <p>Whereas the heretic version. It doesn’t give a dime if it makes a mistake yet still makes plenty.</p> <p>Then I tried the QAT for a few hours. This one is a zen master. Handling 32k context with full reasoning is piece of cake. Does everything right. Doesn’t try too hard. </p> <p>The “nervous “ Gemma is probably a quant thing. Trying to achieve full precision being a Q4 is hard I guess. For longer context and maintaining precision QAT is looking pretty good. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Some-Cauliflower4902\"> /u/Some-Cauliflower4902 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ty84rj/a_quick_gemma4_31b_comparison_q4_k_m_qat_heretic/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ty84rj/a_quick_gemma4_31b_comparison_q4_k_m_qat_heretic/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "abcdfe99-88b6-50ad-a8b1-f60ff00b9077",
+    "title": "Github Copilot finally supporting custom endpoints",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ty68yx/github_copilot_finally_supporting_custom_endpoints/",
+    "pubDate": "2026-06-06T03:35:38+00:00",
+    "description": "https://preview.redd.it/082gnmin1l5h1.png?width=1740&format=png&auto=webp&s=2c89f6310c8c654611188183de07857d77cb2417 https://preview.redd.it/169tjrzn1l5h1.png?width=710&format=png&auto=webp&s=9a1fa656ea95037622b0d7ea2e16a23d2122442c I just noticed submitted by /u/Brilliant_Anxiety_36 [link] [comments]",
+    "author": "/u/Brilliant_Anxiety_36",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ty68yx/github_copilot_finally_supporting_custom_endpoints/\"> <img alt=\"Github Copilot finally supporting custom endpoints\" src=\"https://preview.redd.it/082gnmin1l5h1.png?width=140&amp;height=74&amp;auto=webp&amp;s=accf882c49f8a1efe68ee8fd1acee303d2478e6e\" title=\"Github Copilot finally supporting custom endpoints\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/082gnmin1l5h1.png?width=1740&amp;format=png&amp;auto=webp&amp;s=2c89f6310c8c654611188183de07857d77cb2417\">https://preview.redd.it/082gnmin1l5h1.png?width=1740&amp;format=png&amp;auto=webp&amp;s=2c89f6310c8c654611188183de07857d77cb2417</a></p> <p><a href=\"https://preview.redd.it/169tjrzn1l5h1.png?width=710&amp;format=png&amp;auto=webp&amp;s=9a1fa656ea95037622b0d7ea2e16a23d2122442c\">https://preview.redd.it/169tjrzn1l5h1.png?width=710&amp;format=png&amp;auto=webp&amp;s=9a1fa656ea95037622b0d7ea2e16a23d2122442c</a></p> <p>I just noticed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Brilliant_Anxiety_36\"> /u/Brilliant_Anxiety_36 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ty68yx/github_copilot_finally_supporting_custom_endpoints/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ty68yx/github_copilot_finally_supporting_custom_endpoints/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/082gnmin1l5h1.png?width=140&height=74&auto=webp&s=accf882c49f8a1efe68ee8fd1acee303d2478e6e",
+    "isShortVideo": 0
+  },
+  {
     "id": "e969ab5c-7f5e-5d77-8ae3-e4904e9a58f6",
     "title": "Building a Custom Drones MuJoCo Environment [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ty60zo/building_a_custom_drones_mujoco_environment_p/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpoe1/model_granite4_vision_by_gabelhart_pull_request/\"> <img alt=\"model: Granite4 Vision by gabe-l-hart · Pull Request #23545 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/eD24CAMM_OHwsTSw7jrYIThoaqhsWJtTHI5uQ0c8WBg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=77901fbba866ced5cfeff424d2244e21a9e33191\" title=\"model: Granite4 Vision by gabe-l-hart · Pull Request #23545 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>Model Summary:</strong> Granite Vision 4.1 4B is a vision-language model (VLM) that delivers frontier-level performance on structured document extraction tasks — chart extraction, table extraction, and semantic key-value pair extraction — in a compact 4B parameter footprint, providing a lightweight alternative to much larger frontier models for these tasks:</p> <ul> <li><strong>Chart extraction:</strong> Converting charts into structured, machine-readable formats (Chart2CSV, Chart2Summary, and Chart2Code)</li> <li><strong>Table extraction:</strong> Accurately extracting tables with complex layouts from document images to JSON, HTML, or OTSL</li> <li><strong>Semantic Key-Value Pair (KVP) extraction:</strong> Extracting values based on key names and descriptions across diverse document layouts</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/23545\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpoe1/model_granite4_vision_by_gabelhart_pull_request/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/eD24CAMM_OHwsTSw7jrYIThoaqhsWJtTHI5uQ0c8WBg.png?width=640&crop=smart&auto=webp&s=77901fbba866ced5cfeff424d2244e21a9e33191",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3b345fe9-32d1-5a52-9986-ede847a75237",
-    "title": "Gemma 4 QAT GGUFs from Unsloth",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txpheq/gemma_4_qat_ggufs_from_unsloth/",
-    "pubDate": "2026-06-05T16:14:03+00:00",
-    "description": "Their collection: https://huggingface.co/collections/unsloth/gemma-4-qat And their guide, always a very interesting read: https://unsloth.ai/docs/models/gemma-4/qat submitted by /u/newsletternew [link] [comments]",
-    "author": "/u/newsletternew",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Their collection: <a href=\"https://huggingface.co/collections/unsloth/gemma-4-qat\">https://huggingface.co/collections/unsloth/gemma-4-qat</a></p> <p>And their guide, always a very interesting read: <a href=\"https://unsloth.ai/docs/models/gemma-4/qat\">https://unsloth.ai/docs/models/gemma-4/qat</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/newsletternew\"> /u/newsletternew </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpheq/gemma_4_qat_ggufs_from_unsloth/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpheq/gemma_4_qat_ggufs_from_unsloth/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b97f1bfe-c966-5aef-8a20-93f0bb3e5579",
-    "title": "Gemma 4 with quantization-aware training",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txpeo0/gemma_4_with_quantizationaware_training/",
-    "pubDate": "2026-06-05T16:11:21+00:00",
-    "description": "Google's collections: https://huggingface.co/collections/google/gemma-4-qat-q4-0 https://huggingface.co/collections/google/gemma-4-qat-mobile And Unsloth's: https://huggingface.co/collections/unsloth/gemma-4-qat submitted by /u/rerri [link] [comments]",
-    "author": "/u/rerri",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpeo0/gemma_4_with_quantizationaware_training/\"> <img alt=\"Gemma 4 with quantization-aware training\" src=\"https://external-preview.redd.it/Kqa2WJRtSdbm_jz8LE3GDS5WzwWk70_7fBudWHrjqnI.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=09c2b823dd84dc8615ad8a34b147a6b75f0e3e81\" title=\"Gemma 4 with quantization-aware training\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Google's collections:</p> <p><a href=\"https://huggingface.co/collections/google/gemma-4-qat-q4-0\">https://huggingface.co/collections/google/gemma-4-qat-q4-0</a></p> <p><a href=\"https://huggingface.co/collections/google/gemma-4-qat-mobile\">https://huggingface.co/collections/google/gemma-4-qat-mobile</a></p> <p>And Unsloth's:</p> <p><a href=\"https://huggingface.co/collections/unsloth/gemma-4-qat\">https://huggingface.co/collections/unsloth/gemma-4-qat</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rerri\"> /u/rerri </a> <br /> <span><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpeo0/gemma_4_with_quantizationaware_training/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/Kqa2WJRtSdbm_jz8LE3GDS5WzwWk70_7fBudWHrjqnI.png?width=640&crop=smart&auto=webp&s=09c2b823dd84dc8615ad8a34b147a6b75f0e3e81",
     "isShortVideo": 0
   }
 ]
