@@ -1,5 +1,21 @@
 [
   {
+    "id": "41ee21fd-adb6-55a5-bae3-eeb11224863d",
+    "title": "Model recommendations for family photo classification / identification",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2v3ez/model_recommendations_for_family_photo/",
+    "pubDate": "2026-06-11T10:20:02+00:00",
+    "description": "I recently had a big family photo digitalization done for photos up to 130 years old. There are tons of people that I don't know or I don't recognize as young people in a soft lens. My thoughts were to use an agentic workflow with local models to determine the age of the photos and who is in the picture. Some of the photos have names on them and dates, but with over 9000 photographs I am overwhelmed. I am expecting a flow like this: ​ Auto color correction (need a model for this) Annotate photos for approximate year taken (Gemma) Collect faces with the approximate photo age (opencv) Run a faceid on all the faces to annotate who is in the picture. use the group of photos for the same person to fix the dates completely for all portraits to have the correct sequencing. Use the perfect dates and the general album folders created the digitilation company to properly annotate and date all non-portrait photos. Use this dataset to classify all the video and slides as well that aren't pre labeled. ​ While I have tools for most of it, I didn't know if I am over engineering it. Also, I am looking for the best local models for the color correction and face id. It will be running on my 6000pro. Is this already a solved problem and my googling has been sucking the past two weeks? submitted by /u/MerlinTrashMan [link] [comments]",
+    "author": "/u/MerlinTrashMan",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently had a big family photo digitalization done for photos up to 130 years old. There are tons of people that I don't know or I don't recognize as young people in a soft lens. My thoughts were to use an agentic workflow with local models to determine the age of the photos and who is in the picture. Some of the photos have names on them and dates, but with over 9000 photographs I am overwhelmed. I am expecting a flow like this:</p> <p>&#x200b;</p> <ol> <li><p>Auto color correction (need a model for this)</p></li> <li><p>Annotate photos for approximate year taken (Gemma)</p></li> <li><p>Collect faces with the approximate photo age (opencv)</p></li> <li><p>Run a faceid on all the faces to annotate who is in the picture.</p></li> <li><p>use the group of photos for the same person to fix the dates completely for all portraits to have the correct sequencing. </p></li> <li><p>Use the perfect dates and the general album folders created the digitilation company to properly annotate and date all non-portrait photos.</p></li> <li><p>Use this dataset to classify all the video and slides as well that aren't pre labeled.</p></li> </ol> <p>&#x200b;</p> <p>While I have tools for most of it, I didn't know if I am over engineering it. Also, I am looking for the best local models for the color correction and face id. It will be running on my 6000pro. Is this already a solved problem and my googling has been sucking the past two weeks?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MerlinTrashMan\"> /u/MerlinTrashMan </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2v3ez/model_recommendations_for_family_photo/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2v3ez/model_recommendations_for_family_photo/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bddde8fc-ea75-51dd-ad96-fbc4d6bad5bb",
     "title": "[P] Extreme Imbalance Data from 100K dataset only have 56 failure [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u2ut7s/p_extreme_imbalance_data_from_100k_dataset_only/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Surprised there's no real tooling for this given how much research exists on continual learning. </p> <p>Built pyrecall to fill the gap. Snapshots skill scores before/after fine-tuning, flags regressions, rolls back LoRA adapters by name. </p> <p>Fully local, no external APIs. v0.1.0, MIT, pip install pyrecall </p> <p>Curious if anyone has thoughts on the benchmark design that's the part I'm least confident about. </p> <p><a href=\"https://github.com/Arths17/Pyrecall\">https://github.com/Arths17/Pyrecall</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Level_Frosting_7950\"> /u/Level_Frosting_7950 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c3bedc40-f75b-5eb6-9a78-d69b45717530",
-    "title": "I think all you complainers are being ridiculous and unreasonable",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2fxzv/i_think_all_you_complainers_are_being_ridiculous/",
-    "pubDate": "2026-06-10T21:44:58+00:00",
-    "description": "Long time lurker in here but seriously it's the same thing every time when a new model gets released. It's either moaning about how it's bad or crying about how it's good but too expensive. I got in at Opus 4.6 and with every subsequent release I've been able to do great and productive things that I wouldn't have imagined being able to do before. I think a lot of us take for granted the ability to just think of an idea and actually make it come fruition. Somewhere along the line people started to act like they're owed something. You're paying for a sub, not buying shares in the company. If you're not happy with the model then cancel and move on. That's the biggest impact you can make. Seriously simple as that. But all these who pay for a sub and then act entitled to unlimited use, instant releases, and models that caters to exactly what they want are being unreasonable and unrealistic. No other product or service works like this. You don't just get to sign up for a gym and then tell em to rearrange all the weights and equipment for you. Pay for it and use it, or don't pay for it and leave. You all complain while the rest of us get shit done. submitted by /u/mitterb [link] [comments]",
-    "author": "/u/mitterb",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Long time lurker in here but seriously it's the same thing every time when a new model gets released. It's either moaning about how it's bad or crying about how it's good but too expensive. I got in at Opus 4.6 and with every subsequent release I've been able to do great and productive things that I wouldn't have imagined being able to do before. I think a lot of us take for granted the ability to just think of an idea and actually make it come fruition. Somewhere along the line people started to act like they're owed something. You're paying for a sub, not buying shares in the company. If you're not happy with the model then cancel and move on. That's the biggest impact you can make. Seriously simple as that. But all these who pay for a sub and then act entitled to unlimited use, instant releases, and models that caters to exactly what they want are being unreasonable and unrealistic. No other product or service works like this. You don't just get to sign up for a gym and then tell em to rearrange all the weights and equipment for you. Pay for it and use it, or don't pay for it and leave. You all complain while the rest of us get shit done. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitterb\"> /u/mitterb </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2fxzv/i_think_all_you_complainers_are_being_ridiculous/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2fxzv/i_think_all_you_complainers_are_being_ridiculous/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

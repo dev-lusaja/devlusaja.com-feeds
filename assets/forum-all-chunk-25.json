@@ -1,5 +1,21 @@
 [
   {
+    "id": "eede1da9-8b19-5ccf-8db9-2e8a681d1a4c",
+    "title": "Whoever fixed the Nixos flake build, Thank you!",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tv3vzf/whoever_fixed_the_nixos_flake_build_thank_you/",
+    "pubDate": "2026-06-02T20:55:29+00:00",
+    "description": "Thank you so much for your work. We love you! Also, PSA to the 5 people here who build llama.cpp on Nixos. Its working! submitted by /u/Xyklone [link] [comments]",
+    "author": "/u/Xyklone",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Thank you so much for your work. We love you!</p> <p>Also, PSA to the 5 people here who build llama.cpp on Nixos. Its working!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Xyklone\"> /u/Xyklone </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tv3vzf/whoever_fixed_the_nixos_flake_build_thank_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tv3vzf/whoever_fixed_the_nixos_flake_build_thank_you/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "22e83f95-d457-5eb7-9b10-70c3670717ac",
     "title": "In Q8_0 weight quantization, why can't we just skip blocks of 32 that have very large outliers?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tv3s4u/in_q8_0_weight_quantization_why_cant_we_just_skip/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1turt87/ui_add_thinking_mode_toggle_with_reasoning_effort/\"> <img alt=\"ui: Add Thinking mode toggle with reasoning effort levels + improvements for Chat Form Add Action UI by allozaur · Pull Request #23434 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/Cuipbi5VOPVtAsXfHBKYuyRR_g0KE4iIwfo0joyGA4Q.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0dee4e7ab2581c7c53e72daf99a10a768b201c90\" title=\"ui: Add Thinking mode toggle with reasoning effort levels + improvements for Chat Form Add Action UI by allozaur · Pull Request #23434 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>now you can enable/disable/limit thinking (check the video)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/23434\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1turt87/ui_add_thinking_mode_toggle_with_reasoning_effort/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/Cuipbi5VOPVtAsXfHBKYuyRR_g0KE4iIwfo0joyGA4Q.png?width=640&crop=smart&auto=webp&s=0dee4e7ab2581c7c53e72daf99a10a768b201c90",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a32f0ec8-27e6-53f7-9b1f-b05d5a173331",
-    "title": "What are you using to preprocess pdfs before feeding them to a local model?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuqsn4/what_are_you_using_to_preprocess_pdfs_before/",
-    "pubDate": "2026-06-02T13:21:06+00:00",
-    "description": "I have been running a local setup for document QA and the output quality varies a lot depending on what the pdf looks like when it hits the LLM. clean prose docs are fine but anything with tables or multi column layouts comes out garbled and the model just works with whatever broken input it got. (No complaints, no demands sort of thing) I had tried pymupdf and pdfplumber and both were decent for simple stuff tho. now stuck trying to figure out whether to go with docling or llamaparse for the messier docs, both keep coming up but i cant tell which actually makes sense for my setup or if theres something else people are using locally that holds up better. Whats your take on these guys?? Which one would be more practical submitted by /u/TangeloOk9486 [link] [comments]",
-    "author": "/u/TangeloOk9486",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been running a local setup for document QA and the output quality varies a lot depending on what the pdf looks like when it hits the LLM. clean prose docs are fine but anything with tables or multi column layouts comes out garbled and the model just works with whatever broken input it got. (No complaints, no demands sort of thing)</p> <p>I had tried pymupdf and pdfplumber and both were decent for simple stuff tho. now stuck trying to figure out whether to go with docling or llamaparse for the messier docs, both keep coming up but i cant tell which actually makes sense for my setup or if theres something else people are using locally that holds up better. Whats your take on these guys?? Which one would be more practical </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TangeloOk9486\"> /u/TangeloOk9486 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuqsn4/what_are_you_using_to_preprocess_pdfs_before/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuqsn4/what_are_you_using_to_preprocess_pdfs_before/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

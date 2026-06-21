@@ -1,5 +1,21 @@
 [
   {
+    "id": "1e20e133-db76-58a0-92bc-216391d97c39",
+    "title": "How do you experiment with a (very) large model architecture? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1t3savv/how_do_you_experiment_with_a_very_large_model/",
+    "pubDate": "2026-05-04T19:40:13+00:00",
+    "description": "Im trying to reproduce a paper (a very particular kind of diffusion model), and their training regime is incredibly compute heavy. In general, how are quick experiments performed to validate hypotheses when the models are large and compute is expensive? Some cursory browsing yields the following: 1) Using only 5-10% of the entire dataset. 2) Drastically reducing the batch size and compensating for it in the learning rate 3) Reducing the number of epochs/iterations. But I've had to infer these from resources online and what LLMs tell me. Is there anything in addition to/beyond/contradicting these? submitted by /u/Aathishs04 [link] [comments]",
+    "author": "/u/Aathishs04",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Im trying to reproduce a paper (a very particular kind of diffusion model), and their training regime is incredibly compute heavy.</p> <p>In general, how are quick experiments performed to validate hypotheses when the models are large and compute is expensive?</p> <p>Some cursory browsing yields the following: 1) Using only 5-10% of the entire dataset. 2) Drastically reducing the batch size and compensating for it in the learning rate 3) Reducing the number of epochs/iterations.</p> <p>But I've had to infer these from resources online and what LLMs tell me. Is there anything in addition to/beyond/contradicting these?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aathishs04\"> /u/Aathishs04 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3savv/how_do_you_experiment_with_a_very_large_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t3savv/how_do_you_experiment_with_a_very_large_model/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "3a416ee1-6b50-5901-bebb-db297091c89f",
     "title": "[P] QLoRA Fine-Tuning of Qwen2.5-1.5B for CEFR English Proficiency Classification (A1–C2) [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1t3ogbw/p_qlora_finetuning_of_qwen2515b_for_cefr_english/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>My UAI paper got </p> <p>Pre rebuttal:</p> <p>Scores/Confidence: 6/4, 6/4, 4/3, 3/3</p> <p>After rebuttal:</p> <p>Scores/Confidence: 6/4, 6/4, 5/3, 4/3</p> <p>Any chance here? Or I should go for NeurIPS?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Opening-Election1179\"> /u/Opening-Election1179 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t17kf3/uai_rebuttal_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t17kf3/uai_rebuttal_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8089f5aa-8b5f-5b4c-8cff-a9463b5dc79b",
-    "title": "ICML final decisions rant [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1t1393a/icml_final_decisions_rant_d/",
-    "pubDate": "2026-05-01T19:24:54+00:00",
-    "description": "So, ICML accepted ~6.5K of ~24K; obviously, it doesn't mean that all the rejected papers are \"bad,\" and these rejected papers would cascade to NeurIPS, blowing up NeurIPS' total submission count, and this cycle of massive-influx-small-acceptance would repeat on an endless loop. The reviews themselves can be frustratingly inadequate: - \"Only 200 benchmarks included; not included didn't-do-this-benchmark\" (exaggerated for dramatic effect, sadly not unrealistic) or - \"I don't think this paper, that works, is 'novel'\" [out of gut feeling?] or - ACs reiterating the exact same points in the initial reviews without reading the rebuttal discussions. (Or at least, it'd seem that way) On top of all this, (from Reddit threads,) it appears that reviewers raising their score need to perform additional tasks of justifying why they're raising their scores -- which seems like a negative reinforcement signal. Also, it's crazy how people can think of an idea, run all experiments, write a coherent acceptance-ready paper, all over the weekend!!! -- isn't the whole point of research is to sit and simmer with the problem? Not sure what the future of conference publishing/reviewing is... it just feels unproductive. Anyway, just wanted to rant before looping into NeurIPS deadline, for yet another possible rejection. Isn't the whole point of publishing to understand long-standing problems? -- rejection nowadays means nothing. [Neither does acceptance?] Have a good weekend, y'all. submitted by /u/CategoryNormal149 [link] [comments]",
-    "author": "/u/CategoryNormal149",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>So, ICML accepted ~6.5K of ~24K; obviously, it doesn't mean that all the rejected papers are &quot;bad,&quot; and these rejected papers would cascade to NeurIPS, blowing up NeurIPS' total submission count, and this cycle of massive-influx-small-acceptance would repeat on an endless loop.</p> <p>The reviews themselves can be frustratingly inadequate: - &quot;Only 200 benchmarks included; not included didn't-do-this-benchmark&quot; (exaggerated for dramatic effect, sadly not unrealistic) or - &quot;I don't think this paper, that works, is 'novel'&quot; [out of gut feeling?] or - ACs reiterating the exact same points in the initial reviews without reading the rebuttal discussions. (Or at least, it'd seem that way)</p> <p>On top of all this, (from Reddit threads,) it appears that reviewers raising their score need to perform additional tasks of justifying why they're raising their scores -- which seems like a negative reinforcement signal. </p> <p>Also, it's crazy how people can think of an idea, run all experiments, write a coherent acceptance-ready paper, all over the weekend!!! -- isn't the whole point of research is to sit and simmer with the problem?</p> <p>Not sure what the future of conference publishing/reviewing is... it just feels unproductive.</p> <hr /> <p>Anyway, just wanted to rant before looping into NeurIPS deadline, for yet another possible rejection. Isn't the whole point of publishing to understand long-standing problems? -- rejection nowadays means nothing. [Neither does acceptance?]</p> <p>Have a good weekend, y'all.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CategoryNormal149\"> /u/CategoryNormal149 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t1393a/icml_final_decisions_rant_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1t1393a/icml_final_decisions_rant_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
