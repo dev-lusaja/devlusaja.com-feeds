@@ -1,5 +1,21 @@
 [
   {
+    "id": "441cc137-0306-5f3c-b755-68a9410f7ba4",
+    "title": "How to Build In-Vehicle AI Agents with NVIDIA: From Cloud to Car",
+    "link": "https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/",
+    "pubDate": "2026-05-05T16:00:00+00:00",
+    "description": "The automotive cockpit is undergoing a fundamental shift from rule-based interfaces to agentic, multimodal AI systems capable of reasoning, planning, and...",
+    "author": "Felix Friedmann",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"FeatureImage\" width=\"768\" />The automotive cockpit is undergoing a fundamental shift from rule-based interfaces to agentic, multimodal AI systems capable of reasoning, planning, and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"FeatureImage\" width=\"768\" /><p>The automotive cockpit is undergoing a fundamental shift from rule-based interfaces to agentic, multimodal AI systems capable of reasoning, planning, and acting. In most vehicles on the road today, in-vehicle assistants still rely on fixed command-response patterns: interpret a phrase, trigger an action, reset. While effective for well-defined tasks, this approach doesn’t scale to modern…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "092d23d0-9fbe-5e1c-ba36-d21e6bad1fac",
     "title": "Building for the Rising Complexity of Agentic Systems with Extreme Co-Design",
     "link": "https://developer.nvidia.com/blog/building-for-the-rising-complexity-of-agentic-systems-with-extreme-co-design/",
@@ -204,22 +220,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" />In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" /><p>In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground competition. Success in modern machine learning competitions is increasingly defined by how quickly you can generate, test, and iterate on ideas. LLM agents, combined with GPU acceleration, dramatically compress this loop. Historically…</p>\n<p><a href=\"https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "163b4c6b-de3f-5b86-9c0f-13104714b547",
-    "title": "Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python",
-    "link": "https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/",
-    "pubDate": "2026-04-22T23:50:10+00:00",
-    "description": "In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater...",
-    "author": "Aart J.C. Bik",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Sparse-Deep-Learning\" width=\"768\" />In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Sparse-Deep-Learning\" width=\"768\" /><p>In a previous post, we introduced the Universal Sparse Tensor (UST), enabling developers to decouple a tensor’s sparsity from its memory layout for greater flexibility and performance. We’re excited to announce the integration of the UST into nvmath-python v0.9.0 to accelerate sparse scientific and deep learning applications. This post provides a walkthrough of key UST features…</p>\n<p><a href=\"https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
