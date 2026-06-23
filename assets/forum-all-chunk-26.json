@@ -1,5 +1,37 @@
 [
   {
+    "id": "9fa370a4-42d8-547b-b732-d9a1d65db875",
+    "title": "Why don't we still have any games with AI agents used as NPC characters?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuy151/why_dont_we_still_have_any_games_with_ai_agents/",
+    "pubDate": "2026-06-02T17:32:25+00:00",
+    "description": "Do you remember this NVIDIA AI-NPC presentation from 3 years ago? https://www.youtube.com/watch?v=5R8xZb6J3r0 Where all of that? Why do we even try getting agents to do all the work if they still cannot be reliably used as a characters in the video games? Isn't it should be the obvious first step in showing that AI agents actually work, considering a completely safe in-game environment. I am aware of many mods that tries to implement agents to already established titles such as Morrowind or Skyrim, but as I see it most of them were not successful. Yes, you can have the conversations with NPC and maybe trigger some predefined actions if you try hard enough, but these actions will not have in-game consequences and realistic emergent behavior is not happening breaking the immersion. But ok, let's say it's just moders who do not have the resources to build such a complex emergent ecosystem with glue and sticks. But we have multi-billion AAA gaming companies who are not even trying. Even though theoretically we have all the pieces in place, agentic open models such as Gemma 4 that could be run on modest hardware. I would be more than happy to see a Fallout-2-like 2D RPG where all the game-related computation is happening on CPU and GPU used only for NPC brains. This should already be fun as hell. There must be a market for it as well, considering the AI-hype train still going. I bet there are people who have been dreaming of games like this since the 80s. The other assumption is that people are already trying and it is not really working for one reason or another, then there is a huge question if the things we are building could even be called \"agents\" if they could not even perform a relatively simple role of NPC characters in the video game. submitted by /u/Another__one [link] [comments]",
+    "author": "/u/Another__one",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Do you remember this NVIDIA AI-NPC presentation from 3 years ago?<a href=\"https://www.youtube.com/watch?v=5R8xZb6J3r0\"> https://www.youtube.com/watch?v=5R8xZb6J3r0</a></p> <p>Where all of that? Why do we even try getting agents to do all the work if they still cannot be reliably used as a characters in the video games? Isn't it should be the obvious first step in showing that AI agents actually work, considering a completely safe in-game environment. I am aware of many mods that tries to implement agents to already established titles such as Morrowind or Skyrim, but as I see it most of them were not successful. Yes, you can have the conversations with NPC and maybe trigger some predefined actions if you try hard enough, but these actions will not have in-game consequences and realistic emergent behavior is not happening breaking the immersion. But ok, let's say it's just moders who do not have the resources to build such a complex emergent ecosystem with glue and sticks. But we have multi-billion AAA gaming companies who are not even trying. Even though theoretically we have all the pieces in place, agentic open models such as Gemma 4 that could be run on modest hardware. I would be more than happy to see a Fallout-2-like 2D RPG where all the game-related computation is happening on CPU and GPU used only for NPC brains. This should already be fun as hell. There must be a market for it as well, considering the AI-hype train still going. I bet there are people who have been dreaming of games like this since the 80s. The other assumption is that people are already trying and it is not really working for one reason or another, then there is a huge question if the things we are building could even be called &quot;agents&quot; if they could not even perform a relatively simple role of NPC characters in the video game.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Another__one\"> /u/Another__one </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuy151/why_dont_we_still_have_any_games_with_ai_agents/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuy151/why_dont_we_still_have_any_games_with_ai_agents/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "f7e371fc-c5c8-5128-9e6d-0f1bec8ac565",
+    "title": "i gave claude godotiq and let it build a whole 3d game by itself, no human touched it",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/",
+    "pubDate": "2026-06-02T17:32:24+00:00",
+    "description": "normally a coding agent is blind inside a game engine, it can't see the 3d scene so it just guesses and breaks things. godotiq is the mcp tool i make that fixes that, it gives claude real sight inside godot: place nodes in space, wire signals, run the game, read live state. so i handed it over and let claude build a game with zero help from me. what came out is marble gauntlet, a 3d marble platformer, two full levels with saws, spikes, a cannon that fires you across a chasm, gems and best times. physics, camera, menus, sound, hundreds of objects per level, all built by claude. no human placed a single node or wrote a line of gameplay code. play it → godotiq.com just a demo, left rough on purpose so you can see what it does unsupervised. with me actually working alongside it the thing would be a lot cleaner. and since it's my tool, free tier covers plenty but a full game like this needs pro, just being straight. submitted by /u/jf_nash [link] [comments]",
+    "author": "/u/jf_nash",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/\"> <img alt=\"i gave claude godotiq and let it build a whole 3d game by itself, no human touched it\" src=\"https://external-preview.redd.it/MTQ4emh6YWFudzRoMYM9czsAYQsVHR2J523JyemLzGjNoZINcuT9Zq3RIFx2.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d419bb0bb0bb9500b2ee07486ada1830e3853e7\" title=\"i gave claude godotiq and let it build a whole 3d game by itself, no human touched it\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>normally a coding agent is blind inside a game engine, it can't see the 3d scene so it just guesses and breaks things. godotiq is the mcp tool i make that fixes that, it gives claude real sight inside godot: place nodes in space, wire signals, run the game, read live state. so i handed it over and let claude build a game with zero help from me.</p> <p>what came out is marble gauntlet, a 3d marble platformer, two full levels with saws, spikes, a cannon that fires you across a chasm, gems and best times. physics, camera, menus, sound, hundreds of objects per level, all built by claude. no human placed a single node or wrote a line of gameplay code.</p> <p>play it → <a href=\"http://godotiq.com\">godotiq.com</a></p> <p>just a demo, left rough on purpose so you can see what it does unsupervised. with me actually working alongside it the thing would be a lot cleaner. and since it's my tool, free tier covers plenty but a full game like this needs pro, just being straight.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jf_nash\"> /u/jf_nash </a> <br /> <span><a href=\"https://v.redd.it/gdik9q8anw4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/MTQ4emh6YWFudzRoMYM9czsAYQsVHR2J523JyemLzGjNoZINcuT9Zq3RIFx2.png?width=640&crop=smart&auto=webp&s=8d419bb0bb0bb9500b2ee07486ada1830e3853e7",
+    "isShortVideo": 0
+  },
+  {
     "id": "deac800a-dbf1-5c78-acdb-e1fd39aa93da",
     "title": "I Put a Datacenter GPU in My Gaming PC for £200",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuxy5f/i_put_a_datacenter_gpu_in_my_gaming_pc_for_200/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum94w/dual_rtx_3090_build/\"> <img alt=\"Dual rtx 3090 build\" src=\"https://preview.redd.it/7tnzr8dxdu4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1a3298672d839ebdd0415550cd2cfd81e56c0d30\" title=\"Dual rtx 3090 build\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Joining this community sparked a new hobby and interest in software engineering that I had lost.</p> <p>So I made this dual rtx 3090 build mostly for inference , I know I won’t be replacing chatgpt anytime soon but what tool stack would help it be usable in a work environment ? Must MCP servers or custom tools/scripts ?</p> <p>Currently using VScode preview with qwen3.6 27b and an nginx server, Im mostly interested in agentic work with usable context or at least a better knowledge of code base ( RAG pipeline?) </p> <p>Been already such a helpful community , hopefully local llms continue to grow because I fear cloud will become unaffordable at a consumer level </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sufficient_Phone_242\"> /u/Sufficient_Phone_242 </a> <br /> <span><a href=\"https://i.redd.it/7tnzr8dxdu4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum94w/dual_rtx_3090_build/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/7tnzr8dxdu4h1.jpeg?width=640&crop=smart&auto=webp&s=1a3298672d839ebdd0415550cd2cfd81e56c0d30",
-    "isShortVideo": 0
-  },
-  {
-    "id": "68399747-0058-53d5-a4e1-6454e66d6fda",
-    "title": "Is mmproj MTP compatible with older non-MTP?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tum275/is_mmproj_mtp_compatible_with_older_nonmtp/",
-    "pubDate": "2026-06-02T09:45:30+00:00",
-    "description": "I have not used MTP yet, are mmproj files different and could be speed up? Are they compatible between models MTP vs. non-MTP? E.g. https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/blob/main/mmproj-BF16.gguf vs. https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf Differ by kv_count (and looks to me by nothing else in metadata, size is same), surprisingly older has 35 while \"MTP\" variant less : 33. submitted by /u/alex20_202020 [link] [comments]",
-    "author": "/u/alex20_202020",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have not used MTP yet, are <code>mmproj</code> files different and could be speed up? Are they compatible between models MTP vs. non-MTP?</p> <p>E.g. <a href=\"https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/blob/main/mmproj-BF16.gguf\">https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/blob/main/mmproj-BF16.gguf</a> vs. <a href=\"https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf\">https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf</a></p> <p>Differ by kv_count (and looks to me by nothing else in metadata, size is same), surprisingly older has 35 while &quot;MTP&quot; variant less : 33.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alex20_202020\"> /u/alex20_202020 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum275/is_mmproj_mtp_compatible_with_older_nonmtp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum275/is_mmproj_mtp_compatible_with_older_nonmtp/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "caed64d8-74c9-5561-b2f7-fd1a3e8e6c73",
-    "title": "Claude Status Update : Elevated errors on Opus 4.6 on 2026-06-02T09:33:06.000Z",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tulwwj/claude_status_update_elevated_errors_on_opus_46/",
-    "pubDate": "2026-06-02T09:37:05+00:00",
-    "description": "This is an automatic post triggered within 2 minutes of an official Claude system status update. Incident: Elevated errors on Opus 4.6 Check on progress and whether or not the incident has been resolved yet here : https://status.claude.com/incidents/zkr25thltwc9 Also check the Performance Megathread to see what others are reporting : https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/ submitted by /u/ClaudeAI-mod-bot [link] [comments]",
-    "author": "/u/ClaudeAI-mod-bot",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>This is an automatic post triggered within 2 minutes of an official Claude system status update. </p> <p>Incident: Elevated errors on Opus 4.6</p> <p>Check on progress and whether or not the incident has been resolved yet here : <a href=\"https://status.claude.com/incidents/zkr25thltwc9\">https://status.claude.com/incidents/zkr25thltwc9</a></p> <p>Also check the Performance Megathread to see what others are reporting : <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/\">https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeAI-mod-bot\"> /u/ClaudeAI-mod-bot </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tulwwj/claude_status_update_elevated_errors_on_opus_46/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tulwwj/claude_status_update_elevated_errors_on_opus_46/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
