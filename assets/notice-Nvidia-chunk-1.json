@@ -1,5 +1,21 @@
 [
   {
+    "id": "c7cd1096-c208-5cb6-846e-1588e6b55cab",
+    "title": "How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo",
+    "link": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo/",
+    "pubDate": "2026-06-01T04:49:15+00:00",
+    "description": "Developing autonomous vehicle (AV) policies requires bridging an important gap between training and deployment. Vision-language-action (VLA) models that can...",
+    "author": "Boris Ivanovic",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/auto-nvidia-alpamayo-1-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"auto-nvidia-alpamayo (1)\" width=\"600\" />Developing autonomous vehicle (AV) policies requires bridging an important gap between training and deployment. Vision-language-action (VLA) models that can...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/auto-nvidia-alpamayo-1-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"auto-nvidia-alpamayo (1)\" width=\"600\" /><p>Developing autonomous vehicle (AV) policies requires bridging an important gap between training and deployment. Vision-language-action (VLA) models that can reason over more complex driving scenes and produce richer intermediate reasoning are predominantly trained in open-loop, where model outputs are directly compared to ground-truth behaviors without considering their effect on the environment.</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "736007fc-e405-5336-934b-e8f389570b87",
     "title": "Develop Physical AI Reasoning, World, and Action Models with NVIDIA Cosmos 3",
     "link": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" />An agentic exchange must preserve a structured interaction: assistant turns interleave reasoning with one or more tool calls, and subsequent user turns return...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MoE nvidia technical blog\" width=\"768\" /><p>An agentic exchange must preserve a structured interaction: assistant turns interleave reasoning with one or more tool calls, and subsequent user turns return the corresponding tool results to the model context. Reasoning replay is model- and turn-dependent: some reasoning should be retained, while some should be dropped. The inference engine is responsible for supporting this more expressive…</p>\n<p><a href=\"https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5a81aacf-98f4-523f-a942-262843dccb99",
-    "title": "Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer",
-    "link": "https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/",
-    "pubDate": "2026-05-07T21:18:06+00:00",
-    "description": "Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...",
-    "author": "Ruixiang Wang",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cube-column\" width=\"768\" />Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cube-column\" width=\"768\" /><p>Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By lowering computational and memory requirements while preserving model quality, quantization helps AI models run more efficiently in resource-constrained environments. This post walks through how to use NVIDIA Model Optimizer to quantize a…</p>\n<p><a href=\"https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "5a81aacf-98f4-523f-a942-262843dccb99",
+    "title": "Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer",
+    "link": "https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/",
+    "pubDate": "2026-05-07T21:18:06+00:00",
+    "description": "Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...",
+    "author": "Ruixiang Wang",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cube-column\" width=\"768\" />Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cube-column\" width=\"768\" /><p>Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By lowering computational and memory requirements while preserving model quality, quantization helps AI models run more efficiently in resource-constrained environments. This post walks through how to use NVIDIA Model Optimizer to quantize a…</p>\n<p><a href=\"https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "015587ac-802f-539a-9b45-df64e3cb47ec",
     "title": "Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling",
     "link": "https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/",
@@ -236,22 +252,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Connected healthcare facilities graphic\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2023/06/connected-healthcare-facilities-graphic.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"connected-healthcare-facilities-graphic\" width=\"600\" />Federated learning (FL) is no longer a research curiosity—it’s a practical response to a hard constraint: the most valuable data is often the least movable....<img alt=\"Connected healthcare facilities graphic\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2023/06/connected-healthcare-facilities-graphic.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"connected-healthcare-facilities-graphic\" width=\"600\" /><p>Federated learning (FL) is no longer a research curiosity—it’s a practical response to a hard constraint: the most valuable data is often the least movable. Regulatory boundaries, data sovereignty rules, and organizational risk tolerance routinely prevent centralized aggregation. Meanwhile, sheer data gravity makes even permitted transfers slow, expensive, and fragile at scale.</p>\n<p><a href=\"https://developer.nvidia.com/blog/federated-learning-without-the-refactoring-overhead-using-nvidia-flare/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0b20030c-5a10-5f5f-a18e-3d510df0f6de",
-    "title": "Winning a Kaggle Competition with Generative AI–Assisted Coding",
-    "link": "https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/",
-    "pubDate": "2026-04-23T20:15:02+00:00",
-    "description": "In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground...",
-    "author": "Chris Deotte",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" />In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai\" width=\"768\" /><p>In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground competition. Success in modern machine learning competitions is increasingly defined by how quickly you can generate, test, and iterate on ideas. LLM agents, combined with GPU acceleration, dramatically compress this loop. Historically…</p>\n<p><a href=\"https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,37 @@
 [
   {
+    "id": "025b983a-c882-5751-9dec-5fc4c50cb86b",
+    "title": "llama: limit max outputs of `llama_context` by am17an · Pull Request #23861 · ggml-org/llama.cpp",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttvpmt/llama_limit_max_outputs_of_llama_context_by/",
+    "pubDate": "2026-06-01T15:29:02+00:00",
+    "description": "Overview continue #23764 , this PR only reserves logits space for n_seqs when possible. With -ub 2048 and MTP, this saves another 1.2GB of VRAM for me. I've tested llama-perplexity also and it seems to work fine. But maybe there is a better API, putting up as a draft for now According to me an API in llama-context is a good solution for this, by default it will reserve all tokens but specifically in server-context we can set it to 1 whenever possible. - u/am17an submitted by /u/pmttyji [link] [comments]",
+    "author": "/u/pmttyji",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttvpmt/llama_limit_max_outputs_of_llama_context_by/\"> <img alt=\"llama: limit max outputs of `llama_context` by am17an · Pull Request #23861 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/46O8N_DIDUDq7djcLyOSMUethH2dbXiiChGUhyhikDk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f91afa588fb8da9a7624cc1f2e934cd9140b7ba7\" title=\"llama: limit max outputs of `llama_context` by am17an · Pull Request #23861 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><h1>Overview</h1> <p>continue <a href=\"https://github.com/ggml-org/llama.cpp/pull/23764\">#23764</a>, this PR only reserves logits space for <code>n_seqs</code> when possible. With <code>-ub 2048</code> and MTP, <strong>this saves another 1.2GB of VRAM</strong> for me. I've tested <code>llama-perplexity</code> also and it seems to work fine. But maybe there is a better API, putting up as a draft for now According to me an API in llama-context is a good solution for this, by default it will reserve all tokens but specifically in server-context we can set it to 1 whenever possible.</p> <p>- <a href=\"https://www.reddit.com/u/am17an\">u/am17an</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmttyji\"> /u/pmttyji </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/23861\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttvpmt/llama_limit_max_outputs_of_llama_context_by/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/46O8N_DIDUDq7djcLyOSMUethH2dbXiiChGUhyhikDk.png?width=640&crop=smart&auto=webp&s=f91afa588fb8da9a7624cc1f2e934cd9140b7ba7",
+    "isShortVideo": 0
+  },
+  {
+    "id": "c0dde2f2-05ae-5ab7-b05b-5e05938a501b",
+    "title": "So qwen3.7-4b when?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttv40f/so_qwen374b_when/",
+    "pubDate": "2026-06-01T15:08:46+00:00",
+    "description": "when!!?? submitted by /u/ab2377 [link] [comments]",
+    "author": "/u/ab2377",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>when!!??</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ab2377\"> /u/ab2377 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttv40f/so_qwen374b_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttv40f/so_qwen374b_when/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9eeee8dd-a6f3-5420-b7aa-ca365a699b3e",
     "title": "[D] Simple Questions Thread",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ttuuwx/d_simple_questions_thread/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttlyt4/a_1b_humanizer_that_matches_human_writing_on_an/\"> <img alt=\"A 1B humanizer that matches human writing on an AI detector\" src=\"https://external-preview.redd.it/gpL51779Hkn--UGEYoqF85saoIEV_m5Fj_-dntUdDJw.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=86a4f4bb60435ce530842ce11ca67bc9ae7899bc\" title=\"A 1B humanizer that matches human writing on an AI detector\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/asankhs\"> /u/asankhs </a> <br /> <span><a href=\"https://mlx-optiq.com/blog/humanizer-stacked-lora\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttlyt4/a_1b_humanizer_that_matches_human_writing_on_an/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/gpL51779Hkn--UGEYoqF85saoIEV_m5Fj_-dntUdDJw.png?width=640&crop=smart&auto=webp&s=86a4f4bb60435ce530842ce11ca67bc9ae7899bc",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6104d367-88b1-50f5-84e2-65ce47d75389",
-    "title": "Just found a 1-click RCE in pewdiepie's Odysseus Chat",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttls1y/just_found_a_1click_rce_in_pewdiepies_odysseus/",
-    "pubDate": "2026-06-01T08:21:40+00:00",
-    "description": "PR being submitted to help the project as we speak. Sound on for extra lols. submitted by /u/theonejvo [link] [comments]",
-    "author": "/u/theonejvo",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttls1y/just_found_a_1click_rce_in_pewdiepies_odysseus/\"> <img alt=\"Just found a 1-click RCE in pewdiepie's Odysseus Chat\" src=\"https://external-preview.redd.it/em5zYXQ0dXhybTRoMXFi-05T0utzE1Hm3BauID2o6PzuhenIWuakkbTejy0-.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f06420500a8cfdbf026ecd8a5d1c5b826cc63bd5\" title=\"Just found a 1-click RCE in pewdiepie's Odysseus Chat\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>PR being submitted to help the project as we speak. Sound on for extra lols.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theonejvo\"> /u/theonejvo </a> <br /> <span><a href=\"https://v.redd.it/4vwv5ztxrm4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttls1y/just_found_a_1click_rce_in_pewdiepies_odysseus/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/em5zYXQ0dXhybTRoMXFi-05T0utzE1Hm3BauID2o6PzuhenIWuakkbTejy0-.png?width=640&crop=smart&auto=webp&s=f06420500a8cfdbf026ecd8a5d1c5b826cc63bd5",
-    "isShortVideo": 0
-  },
-  {
-    "id": "50b06260-2823-5d0e-93b2-9302b78d17ca",
-    "title": "How to build a shitty robot",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ttlqys/how_to_build_a_shitty_robot/",
-    "pubDate": "2026-06-01T08:20:03+00:00",
-    "description": "submitted by /u/badlogicgames [link] [comments]",
-    "author": "/u/badlogicgames",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttlqys/how_to_build_a_shitty_robot/\"> <img alt=\"How to build a shitty robot\" src=\"https://external-preview.redd.it/b-hFjQIBh2icHbz77JG0lJrT1eMke88DzWSOUpEgxnU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7e0eec4fe5c197a287021c14b2562d5663fd5309\" title=\"How to build a shitty robot\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/badlogicgames\"> /u/badlogicgames </a> <br /> <span><a href=\"https://mariozechner.at/posts/2026-05-30-shitty-robot/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttlqys/how_to_build_a_shitty_robot/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/b-hFjQIBh2icHbz77JG0lJrT1eMke88DzWSOUpEgxnU.jpeg?width=640&crop=smart&auto=webp&s=7e0eec4fe5c197a287021c14b2562d5663fd5309",
     "isShortVideo": 0
   }
 ]
