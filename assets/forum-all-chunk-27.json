@@ -1,5 +1,21 @@
 [
   {
+    "id": "3e132e9a-c9f5-577c-8e14-e5cc67b74c24",
+    "title": "Ignoring benchmarks, how do the newest local models (gemma 4 31B, 26BA4B, Qwen 3.6) “feel” to you? What do you think they compare to?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuoo81/ignoring_benchmarks_how_do_the_newest_local/",
+    "pubDate": "2026-06-02T11:55:00+00:00",
+    "description": "I use local ai mainly for creative writing, and benchmarks are a bit iffy on that I feel like. I’d like to compare Gemma mainly to Gemini as I like their writing the best, I do know that qwen 3.6 is amazing but mostly for coding and agentic work. I’d like to ask everyone how the new(er?) models feel to you personally rather than looking at benchmarks which they are likely optimised for. For me, I feel like Gemma 4 31B (even q4) still falls short of 2.5 pro, I’m most familiar with 2.5 pro since I used so much of it for free on ai studio when it was a preview. The style and prose are there but long context it still misremembers minor details. I think it’s actually better than gpt 4.5, but tha could be personal preference since, again, I do mostly only creative writing submitted by /u/opoot_ [link] [comments]",
+    "author": "/u/opoot_",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I use local ai mainly for creative writing, and benchmarks are a bit iffy on that I feel like. I’d like to compare Gemma mainly to Gemini as I like their writing the best, I do know that qwen 3.6 is amazing but mostly for coding and agentic work.</p> <p>I’d like to ask everyone how the new(er?) models feel to you personally rather than looking at benchmarks which they are likely optimised for.</p> <p>For me, I feel like Gemma 4 31B (even q4) still falls short of 2.5 pro, I’m most familiar with 2.5 pro since I used so much of it for free on ai studio when it was a preview.</p> <p>The style and prose are there but long context it still misremembers minor details.</p> <p>I think it’s actually better than gpt 4.5, but tha could be personal preference since, again, I do mostly only creative writing</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/opoot_\"> /u/opoot_ </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuoo81/ignoring_benchmarks_how_do_the_newest_local/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuoo81/ignoring_benchmarks_how_do_the_newest_local/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0a8e2c8e-abef-5e95-b25e-aeca50fba34b",
     "title": "Replaced Claude with local Qwen3.6-27B in my multi-agent orchestrator for 2 weeks",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tunmam/replaced_claude_with_local_qwen3627b_in_my/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tucsfe/i_had_opus_48_build_temu_league_of_legends_in/\"> <img alt=\"I had Opus 4.8 build Temu League of Legends in under a day - I call it LMAO\" src=\"https://external-preview.redd.it/dzFnaTF5Z3N4cjRoMSIQDFGPTMMgnwCgREN8IKN4o5X7v2PHNLpnJF3GUr6g.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5fa9ad370af4f7c28fa3a61b5e0a0c05029c897f\" title=\"I had Opus 4.8 build Temu League of Legends in under a day - I call it LMAO\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Fun weekend project just to test out 4.8 against a pretty vanilla setup.</p> <p>Started out with a simple prompt, &quot;build a temu league of legends, web-only with online, room-based multiplayer&quot;.</p> <p>It built it... fully functional in one shot! Then I went kinda ham and started iterating on every aspect little by little. I made it spin up subagents to each focus on designing a character. Spun up subagents to focus on designing abilities and their SFX/VFX. Did a few passes over the map, mobs, minions, etc.</p> <p>Then I put Ultracode Workflows to task and, across a handful of prompts, had it optimize performance, balance, and a variety of other things. Workflows is *insane* btw...</p> <p>I also used /goal pretty heavily as well. I'd sit and play and make note of like 10-15 tweaks, bug fixes, etc at a time and just let it go to town.</p> <p>4.8 is a one shot machine... 5.5 ain't doin this...</p> <p>Anyways, figured I'd share 😄 Happy to answer any questions in the comments.</p> <p>Try it out solo (with bots) or with friends! <a href=\"https://lmaomoba.com\">https://lmaomoba.com</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jonnygravity\"> /u/jonnygravity </a> <br /> <span><a href=\"https://v.redd.it/pufafxgsxr4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tucsfe/i_had_opus_48_build_temu_league_of_legends_in/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/dzFnaTF5Z3N4cjRoMSIQDFGPTMMgnwCgREN8IKN4o5X7v2PHNLpnJF3GUr6g.png?width=640&crop=smart&auto=webp&s=5fa9ad370af4f7c28fa3a61b5e0a0c05029c897f",
-    "isShortVideo": 0
-  },
-  {
-    "id": "41b70fd5-7fc7-5efc-b982-381fd863f635",
-    "title": "Man trains local model to detect and kill mosquitos with a laser",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/",
-    "pubDate": "2026-06-02T01:39:33+00:00",
-    "description": "Now this is local AI innovation we can all get behind. https://x.com/stevencheng/status/2059836738449854898 submitted by /u/No_Information9314 [link] [comments]",
-    "author": "/u/No_Information9314",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Now this is local AI innovation we can all get behind. </p> <p><a href=\"https://x.com/stevencheng/status/2059836738449854898\">https://x.com/stevencheng/status/2059836738449854898</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Information9314\"> /u/No_Information9314 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "5b3596bf-f62d-50c4-acb7-671ecbe832ff",
+    "title": "Social Simulation with LLMs - Fidelity in Applications (CFP @ COLM'26) [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tqhdoe/social_simulation_with_llms_fidelity_in/",
+    "pubDate": "2026-05-28T21:38:16+00:00",
+    "description": "🌟 Announcing the 2nd Workshop on Social Simulation with LLMs (Social Sim'26) @ COLM 📣 Welcoming Submissions! Submission here:. 🗓️ Deadline: June 23, 2026 (AoE) This year's theme is \"Fidelity in Applications”, moving beyond compelling demos toward evaluation, robustness, interpretability, and empirical grounding of LLM-based simulated societies. 💬 Topics include (but aren't limited to): 🔹 Simulation evaluation & fidelity 🔹 Validation against real-world social data 🔹 LLM-based agent modeling 🔹 Persona modeling 🔹 Cultural evolution 🔹 Information diffusion in simulated populations 🔹 Human–AI hybrid simulations 🔹 Simulation interpretability 🔹 Applications: governance, platform design, societal risk analysis 🔹 Ethical, societal & policy implications of large-scale simulated societies 🤝 We invite perspectives from ML, social science, psychology, and policy — anyone building, validating, or reasoning about LLM-driven simulated societies. Hope to see you in SF! 🌉 submitted by /u/RSTZZZ [link] [comments]",
+    "author": "/u/RSTZZZ",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>🌟 Announcing the 2nd Workshop on <strong>Social Simulation with LLMs (Social Sim'26)</strong> @ COLM </p> <p>📣 Welcoming Submissions! Submission here:.</p> <p>🗓️ Deadline: <strong>June 23, 2026 (AoE)</strong> </p> <p>This year's theme is <strong>&quot;Fidelity in Applications”,</strong> moving beyond compelling demos toward evaluation, robustness, interpretability, and empirical grounding of LLM-based simulated societies.</p> <p>💬 Topics include (but aren't limited to):<br /> 🔹 Simulation evaluation &amp; fidelity<br /> 🔹 Validation against real-world social data<br /> 🔹 LLM-based agent modeling<br /> 🔹 Persona modeling<br /> 🔹 Cultural evolution<br /> 🔹 Information diffusion in simulated populations<br /> 🔹 Human–AI hybrid simulations<br /> 🔹 Simulation interpretability<br /> 🔹 Applications: governance, platform design, societal risk analysis<br /> 🔹 Ethical, societal &amp; policy implications of large-scale simulated societies</p> <p>🤝 We invite perspectives from ML, social science, psychology, and policy — anyone building, validating, or reasoning about LLM-driven simulated societies.</p> <p>Hope to see you in SF! 🌉</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RSTZZZ\"> /u/RSTZZZ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tqhdoe/social_simulation_with_llms_fidelity_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tqhdoe/social_simulation_with_llms_fidelity_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8205619f-be02-551f-91f0-0489a4c86c0d",
     "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Essay argues that reasoning models cannot perform faithful inference because their reasoning trace and final answer come from the same operation. Engages with Lanham/Turpin/Mirzadeh in empirical critique, and with HRM, TRM, GRAM, AlphaProof, and Kona/Aleph as the contrasting architectural lineage.</p> <p>Curious what this subreddit makes of the constraint-vs-influence framing.</p> <p><a href=\"https://mauhaq.substack.com/p/verbosity-is-not-faithfulness\">https://mauhaq.substack.com/p/verbosity-is-not-faithfulness</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sensitive_Air_5745\"> /u/Sensitive_Air_5745 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1toahz3/verbosity_is_not_faithfulness_an_architectural/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1toahz3/verbosity_is_not_faithfulness_an_architectural/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "82617ea3-f8cd-5115-a7f3-33144b2377e5",
-    "title": "[P] Built a portable GPU ISA after reading too many architecture manuals [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/",
-    "pubDate": "2026-05-26T13:36:10+00:00",
-    "description": "I’ve been reading GPU architecture docs in my free time. NVIDIA PTX, AMD ISA reference guides, Intel Xe, reverse-engineered Apple GPU stuff. Over 5,000 pages across 16 microarchitectures. After a while you notice all four vendors are doing the same 11 things with different names. So I wrote a spec that covers all of them and built a toolchain around it. It’s called WAVE. You write a kernel once, it compiles to a portable binary, then thin backends translate it to Metal, PTX, HIP, or SYCL. Same binary verified on Apple M4 Pro, NVIDIA T4, and AMD MI300X. My co-author Onyinye built PyTorch integration and got identical training results across all backends. Please star on GitHub: https://github.com/Oabraham1/wave Preprint: https://arxiv.org/abs/2603.28793 Read full docs and how I built everything: https://wave.ojima.me pip install wave-gpu submitted by /u/not-your-typical-cs [link] [comments]",
-    "author": "/u/not-your-typical-cs",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been reading GPU architecture docs in my free time. NVIDIA PTX, AMD ISA reference guides, Intel Xe, reverse-engineered Apple GPU stuff. Over 5,000 pages across 16 microarchitectures.</p> <p>After a while you notice all four vendors are doing the same 11 things with different names. So I wrote a spec that covers all of them and built a toolchain around it. It’s called WAVE. You write a kernel once, it compiles to a portable binary, then thin backends translate it to Metal, PTX, HIP, or SYCL.</p> <p>Same binary verified on Apple M4 Pro, NVIDIA T4, and AMD MI300X. My co-author Onyinye built PyTorch integration and got identical training results across all backends.</p> <p>Please star on GitHub: <a href=\"https://github.com/Oabraham1/wave\">https://github.com/Oabraham1/wave</a><br /> Preprint: <a href=\"https://arxiv.org/abs/2603.28793\">https://arxiv.org/abs/2603.28793</a><br /> Read full docs and how I built everything: <a href=\"https://wave.ojima.me\">https://wave.ojima.me</a></p> <p>pip install wave-gpu</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/not-your-typical-cs\"> /u/not-your-typical-cs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "5ca3d522-5f10-57a9-a733-040de85c7032",
+    "title": "Context compiler",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz82oo/context_compiler/",
+    "pubDate": "2026-06-07T10:02:14+00:00",
+    "description": "Idk about you guys but I have about 100 projects each with its own tangled mass of AGENTS.md, CLAUDE.md, skills files and plain documents. I love plain documents, cause they’re simple, invoked manually, live in a normal folder, and are human first. Skills are more discoverable though which is sometimes essential. sometimes you also need specific local only context that doesn’t get committed. More and more I’m feeling that the context is the valuable artefact, and that it needs to be compiled. I’ve realised what I need is a context.yaml in the root of the project, which points at AGENTS.md blocks, local and remote, docs that need to be exposed as skills, etc. if you work with the team, you can gitignore the output files and everyone can work with the entry points and tools of their choice. any thoughts on this? I built a tool and wondering if it’s worth open sourcing. submitted by /u/HotBonus4491 [link] [comments]",
+    "author": "/u/HotBonus4491",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Idk about you guys but I have about 100 projects each with its own tangled mass of AGENTS.md, CLAUDE.md, skills files and plain documents.</p> <p>I love plain documents, cause they’re simple, invoked manually, live in a normal folder, and are human first. Skills are more discoverable though which is sometimes essential.</p> <p>sometimes you also need specific local only context that doesn’t get committed.</p> <p>More and more I’m feeling that the context is the valuable artefact, and that it needs to be compiled.</p> <p>I’ve realised what I need is a context.yaml in the root of the project, which points at AGENTS.md blocks, local and remote, docs that need to be exposed as skills, etc.</p> <p>if you work with the team, you can gitignore the output files and everyone can work with the entry points and tools of their choice.</p> <p>any thoughts on this? I built a tool and wondering if it’s worth open sourcing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HotBonus4491\"> /u/HotBonus4491 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz82oo/context_compiler/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz82oo/context_compiler/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cec7bc7d-8461-5761-8b86-d2a9bb97741a",
     "title": "Remote session",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz7vri/remote_session/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyumyj/a_colour_a_tool_that_names_colours/\"> <img alt=\"A Colour: a tool that names colours\" src=\"https://preview.redd.it/j87ntsijmq5h1.png?width=140&amp;height=64&amp;auto=webp&amp;s=aec48574e76a4aa5b88a514622c9b8abeeba0c9e\" title=\"A Colour: a tool that names colours\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have colour-blind people in my whānau and friend group. Colour is slippery: two people look at the same thing and name its shade differently. Both are right. For people with colour vision differences that's not just philosophy, it's daily friction.</p> <p>So I built A Colour. Point your phone, paste an image, or type a word; it gives you the closest colour names. Offline-first, no account, free.</p> <p>Claude helped across the whole build: matching algorithm, TypeScript, copy. But the word mode was the interesting part.</p> <p>Type a noun, get a colour. Four-layer pipeline: a baked distillation lookup (693 hand-curated entries, built with Claude), a TF-IDF + expander layer that handles Te Reo and literal colour names, and finally a fine-tuned sentence transformer running in the browser as the last resort. Two positive prompt templates per entry, MultipleNegativesRankingLoss with in-batch negatives.</p> <p>Fun footnote: Claude got a bit sassy when I asked it to help train a competing model. We got there.</p> <p>Give it a go at <a href=\"http://colours.preset.nz\">colours.preset.nz</a></p> <p>Source or it didn't happen: <a href=\"https://github.com/rhizomatic-preset/a-colour\">https://github.com/rhizomatic-preset/a-colour</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/countasone\"> /u/countasone </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tyumyj\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyumyj/a_colour_a_tool_that_names_colours/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/j87ntsijmq5h1.png?width=140&height=64&auto=webp&s=aec48574e76a4aa5b88a514622c9b8abeeba0c9e",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fb6ade24-9380-5445-8bef-c961b3e44751",
-    "title": "dvlt.cu: inference engine written from scratch in CUDA/C++ for NVIDIA's DVLT 3D transformer model",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyu79c/dvltcu_inference_engine_written_from_scratch_in/",
-    "pubDate": "2026-06-06T22:04:08+00:00",
-    "description": "Im into both HPC and 3D reconstruction, so I built this as a side project. dvlt.cu is a single 5MB binary: - No python, torch, TF, ONNX, llama.cpp, vLLM, or huggingface runtime - Nearly no dependencies: only cuBLASLt (shipped with libcuda ) + cuTLASS ( header only lib ) - mmap'd bf16 weights, one bulk GPU upload, static dims, one-shot arena, deterministic - Weights (117M Params) are NVIDIA's (non-commercial), fetched separately at setup. - Just download the weights, build, and try it now on your image set or video - Drag the output into a single file HTML viewer; point cloud + camera poses, no install feel free to check github if you want: https://github.com/yassa9/dvlt.cu submitted by /u/yassa9 [link] [comments]",
-    "author": "/u/yassa9",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyu79c/dvltcu_inference_engine_written_from_scratch_in/\"> <img alt=\"dvlt.cu: inference engine written from scratch in CUDA/C++ for NVIDIA's DVLT 3D transformer model\" src=\"https://external-preview.redd.it/djcxbXM4NjhqcTVoMe70lbXTEw25CMTsUJ_0ABS0uti-U4uMNMhNHpReohSK.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1bbf63ec5414d2b183d9c7433bbb1cc5fb2bf019\" title=\"dvlt.cu: inference engine written from scratch in CUDA/C++ for NVIDIA's DVLT 3D transformer model\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Im into both HPC and 3D reconstruction, so I built this as a side project.</p> <p><a href=\"http://dvlt.cu\"><code>dvlt.cu</code></a> <code>is a single 5MB binary:</code></p> <p>- No python, torch, TF, ONNX, llama.cpp, vLLM, or huggingface runtime</p> <p>- Nearly no dependencies: only cuBLASLt (shipped with libcuda ) + cuTLASS ( header only lib )</p> <p>- mmap'd bf16 weights, one bulk GPU upload, static dims, one-shot arena, deterministic</p> <p>- Weights (117M Params) are NVIDIA's (non-commercial), fetched separately at setup.</p> <p>- Just download the weights, build, and try it now on your image set or video</p> <p>- Drag the output into a single file HTML viewer; point cloud + camera poses, no install</p> <p>feel free to check github if you want:</p> <p><a href=\"https://github.com/yassa9/dvlt.cu\">https://github.com/yassa9/dvlt.cu</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yassa9\"> /u/yassa9 </a> <br /> <span><a href=\"https://v.redd.it/stq8j168jq5h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyu79c/dvltcu_inference_engine_written_from_scratch_in/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/djcxbXM4NjhqcTVoMe70lbXTEw25CMTsUJ_0ABS0uti-U4uMNMhNHpReohSK.png?width=640&crop=smart&auto=webp&s=1bbf63ec5414d2b183d9c7433bbb1cc5fb2bf019",
     "isShortVideo": 0
   }
 ]

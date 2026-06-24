@@ -1,5 +1,21 @@
 [
   {
+    "id": "b6961315-24f9-552c-9141-5728f6ba4b59",
+    "title": "Finetuning a Reasoning LLM with Supervised or Reinforcement Learning? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/",
+    "pubDate": "2026-06-01T16:23:24+00:00",
+    "description": "Hello, I have a task to fine-tune small LLMs on annotated conversational data. The dataset contains not only the final answers, but also reasoning traces and tool-calling decisions (i.e., when the model should think and when it should call a tool). I am wondering what the best training approach would be and why. My current dataset is stored in a chat format similar to this: ```text system user assistant_think assistant_tool assistant_answer user assistant_think assistant_tool assistant_answer ... ``` My current idea is to split each conversation into multiple training samples. For example, if a conversation contains two user turns, I would create two samples: Sample 1 text system user assistant_think assistant_tool assistant_answer Sample 2 ```text system user assistant_think assistant_tool assistant_answer user assistant_think assistant_tool assistant_answer ``` In other words, each sample contains all previous conversation history up to the assistant response being trained. For training, the loss would be computed only on the assistant-generated tokens: text assistant_think assistant_tool assistant_answer while the system and user messages would be masked out from the loss. Is this approach correct, or is there a better way to structure the training data for reasoning and tool-calling behavior? My second question is about reinforcement learning. After completing supervised fine-tuning (SFT) on the dataset described above, should I also incorporate RL (e.g., PPO, GRPO, DPO, or another approach) to further train the model on when a tool should or should not be called? If so: What advantages would RL provide over SFT alone for tool use and reasoning? How would you design the reward function? Under what circumstances is RL actually necessary, and when is SFT sufficient? I would appreciate any practical advice, papers, blog posts, or open-source examples related to training reasoning and tool-calling models. ``` submitted by /u/zdeneklapes [link] [comments]",
+    "author": "/u/zdeneklapes",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I have a task to fine-tune small LLMs on annotated conversational data. The dataset contains not only the final answers, but also reasoning traces and tool-calling decisions (i.e., when the model should think and when it should call a tool).</p> <p>I am wondering what the best training approach would be and why.</p> <p>My current dataset is stored in a chat format similar to this:</p> <p>```text system user assistant_think assistant_tool assistant_answer</p> <p>user assistant_think assistant_tool assistant_answer ... ```</p> <p>My current idea is to split each conversation into multiple training samples. For example, if a conversation contains two user turns, I would create two samples:</p> <h2>Sample 1</h2> <p><code>text system user assistant_think assistant_tool assistant_answer </code></p> <h2>Sample 2</h2> <p>```text system user assistant_think assistant_tool assistant_answer</p> <p>user assistant_think assistant_tool assistant_answer ```</p> <p>In other words, each sample contains all previous conversation history up to the assistant response being trained.</p> <p>For training, the loss would be computed only on the assistant-generated tokens:</p> <p><code>text assistant_think assistant_tool assistant_answer </code></p> <p>while the system and user messages would be masked out from the loss.</p> <p>Is this approach correct, or is there a better way to structure the training data for reasoning and tool-calling behavior?</p> <p>My second question is about reinforcement learning.</p> <p>After completing supervised fine-tuning (SFT) on the dataset described above, should I also incorporate RL (e.g., PPO, GRPO, DPO, or another approach) to further train the model on when a tool should or should not be called?</p> <p>If so:</p> <ul> <li>What advantages would RL provide over SFT alone for tool use and reasoning?</li> <li>How would you design the reward function?</li> <li>Under what circumstances is RL actually necessary, and when is SFT sufficient?</li> </ul> <p>I would appreciate any practical advice, papers, blog posts, or open-source examples related to training reasoning and tool-calling models. ```</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zdeneklapes\"> /u/zdeneklapes </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9769a85c-8f1e-5ec5-9b66-cb3d6b137578",
     "title": "Anthropic finally going public with IPO",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1ttx9ae/anthropic_finally_going_public_with_ipo/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttn15z/entire_world_we_need_more_gpus_meanwhile_jensen/\"> <img alt=\"Entire world: We need more GPUs. Meanwhile, Jensen Huang:\" src=\"https://external-preview.redd.it/Z2hjbjk0eGI0bjRoMcEWvdB-ujyoZV9m6a9dOnjD0aiZHmWc1hhipRIbVevA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9c84a88cbd9483eb8eec871c6d17b802f04023a6\" title=\"Entire world: We need more GPUs. Meanwhile, Jensen Huang:\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nunki08\"> /u/Nunki08 </a> <br /> <span><a href=\"https://v.redd.it/lnjsdxwb4n4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ttn15z/entire_world_we_need_more_gpus_meanwhile_jensen/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/Z2hjbjk0eGI0bjRoMcEWvdB-ujyoZV9m6a9dOnjD0aiZHmWc1hhipRIbVevA.png?width=640&crop=smart&auto=webp&s=9c84a88cbd9483eb8eec871c6d17b802f04023a6",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cecdc768-c95a-56bc-bba0-dfb19f79ed79",
-    "title": "Claude Status Update : Sonnet 4.5 elevated errors on 2026-06-01T09:17:26.000Z",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ttms99/claude_status_update_sonnet_45_elevated_errors_on/",
-    "pubDate": "2026-06-01T09:19:06+00:00",
-    "description": "This is an automatic post triggered within 2 minutes of an official Claude system status update. Incident: Sonnet 4.5 elevated errors Check on progress and whether or not the incident has been resolved yet here : https://status.claude.com/incidents/z4pz8z34hr4x Also check the Performance Megathread to see what others are reporting : https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/ submitted by /u/ClaudeAI-mod-bot [link] [comments]",
-    "author": "/u/ClaudeAI-mod-bot",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>This is an automatic post triggered within 2 minutes of an official Claude system status update. </p> <p>Incident: Sonnet 4.5 elevated errors</p> <p>Check on progress and whether or not the incident has been resolved yet here : <a href=\"https://status.claude.com/incidents/z4pz8z34hr4x\">https://status.claude.com/incidents/z4pz8z34hr4x</a></p> <p>Also check the Performance Megathread to see what others are reporting : <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/\">https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeAI-mod-bot\"> /u/ClaudeAI-mod-bot </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttms99/claude_status_update_sonnet_45_elevated_errors_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttms99/claude_status_update_sonnet_45_elevated_errors_on/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

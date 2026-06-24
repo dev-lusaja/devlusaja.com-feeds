@@ -1,5 +1,21 @@
 [
   {
+    "id": "86cdcaa2-4a4b-55ef-a8a1-5415499d0bfb",
+    "title": "What is Claude Fruitcake???",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1a7li/what_is_claude_fruitcake/",
+    "pubDate": "2026-06-09T16:34:52+00:00",
+    "description": "I know everyone online is talking about Fable being the neutered Mythos model that they're releasing soon... but what is fruitcake? Does anyone have any theories? I am both genuinely amused by the name and also genuinely interested in what it is. submitted by /u/Ok_July [link] [comments]",
+    "author": "/u/Ok_July",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1a7li/what_is_claude_fruitcake/\"> <img alt=\"What is Claude Fruitcake???\" src=\"https://preview.redd.it/mfq5s1qgba6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b583c2d8cd2e51baac08c17e46a981f4728a44f2\" title=\"What is Claude Fruitcake???\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I know everyone online is talking about Fable being the neutered Mythos model that they're releasing soon... but what is fruitcake? Does anyone have any theories?</p> <p>I am both genuinely amused by the name and also genuinely interested in what it is.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_July\"> /u/Ok_July </a> <br /> <span><a href=\"https://i.redd.it/mfq5s1qgba6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1a7li/what_is_claude_fruitcake/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/mfq5s1qgba6h1.jpeg?width=640&crop=smart&auto=webp&s=b583c2d8cd2e51baac08c17e46a981f4728a44f2",
+    "isShortVideo": 0
+  },
+  {
     "id": "adf72a9e-e731-5146-8ed9-940ee1f9c248",
     "title": "Our ICML paper on predictable hallucination (information-budget abstention gate), + ntkMirror: a training-free open-weight implementation we're releasing today",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>TinySearch v0.2.0 (first stable beta) is out.</p> <p>The first version used DuckDuckGo directly, which worked well enough to prove the idea, but yeah.. relying on one search source was way too fragile lol. DDG started throwing limits/CAPTCHAs more often in the last 2 weeks, I guess they realized how many of us where doing exactly this, and for an MCP tool that agents depend on, that’s not really good enough.</p> <p>So in v0.2.0, TinySearch now uses SearXNG as the default search backend.</p> <p>Repo:<br /> <a href=\"https://github.com/MarcellM01/TinySearch\">https://github.com/MarcellM01/TinySearch</a></p> <p>TinySearch is still the same basic idea:</p> <p>A small open-source MCP/FastAPI web-search tool that searches the web, crawls a few pages, chunks/retrieves/reranks the useful parts, and gives smaller local LLMs a compact source-grounded context blob capped at 8k tokens instead of dumping random full-page garbage into the prompt.</p> <p>What changed in v0.2.0:</p> <ul> <li>SearXNG is now the default search backend</li> <li>You can point TinySearch at your own SearXNG instance</li> <li>Search is more flexible and less dependent on one provider</li> <li>The output is still capped/optimized for LLM agents</li> <li>Still local-first, lightweight, and easy to run</li> </ul> <p>This is mostly aimed at people using smaller local models with Cline, Roo, OpenCode, MCP agents, or any setup where dumping 30k tokens of scraped nonsense into context is just not the move. Still takes about 10-15 seconds per call, SearXNG added a bit of overhead but I guess for the convenience its worth it.</p> <p>Not trying to replace proper search infra or anything. It’s just a small research layer for agents that need decent web context without needing a whole backend stack.</p> <p>I am using it mainly with qwen3.5-9B right now, and its working as expected on the daily, questions mainly about library versions, calling certain functions and some more obscure azure/gcp api stuff.</p> <p>Feedback/roasting welcome, especially if you’re using local models, MCP, Cline, Roo, OpenCode, or self-hosted search setups.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Scared-Tip7914\"> /u/Scared-Tip7914 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u106rc/still_a_very_lightweight_open_websearch_tool_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u106rc/still_a_very_lightweight_open_websearch_tool_for/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f68dcf8e-9dfb-591b-8ff4-b8476a924e47",
-    "title": "What is the prompt for Explanatory style?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u100fs/what_is_the_prompt_for_explanatory_style/",
-    "pubDate": "2026-06-09T09:24:10+00:00",
-    "description": "Now that Antropic has deleted most of the styles and transferred to Skills, not sure how to achieve the same effect with a Skill? I am thinking to create new project, store few chats there and apply custom intructions based on prompt for the Explanatory style, but not sure how the original was written? Can anybody help? I would appreciate. submitted by /u/K0singas [link] [comments]",
-    "author": "/u/K0singas",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Now that Antropic has deleted most of the styles and transferred to Skills, not sure how to achieve the same effect with a Skill?</p> <p>I am thinking to create new project, store few chats there and apply custom intructions based on prompt for the Explanatory style, but not sure how the original was written? </p> <p>Can anybody help? I would appreciate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/K0singas\"> /u/K0singas </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u100fs/what_is_the_prompt_for_explanatory_style/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u100fs/what_is_the_prompt_for_explanatory_style/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

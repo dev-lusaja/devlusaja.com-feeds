@@ -1,5 +1,21 @@
 [
   {
+    "id": "da2d0601-0044-5d9a-b741-c17af393f514",
+    "title": "Open image generation models are closer to closed-source quality than this sub thinks [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u0119r/open_image_generation_models_are_closer_to/",
+    "pubDate": "2026-06-08T07:35:53+00:00",
+    "description": "I run evaluations on generative image models as part of my workflow, mostly comparing coherence, prompt adherence, and compositional accuracy across different architectures. The consensus here seems to be that open models are still a generation behind closed APIs. Based on my recent benchmarks, that gap is way smaller than people assume. On compositional control specifically, the latest open checkpoints handle multi-object scenes with spatial relationships about as reliably as the paid endpoints I've tested. Not perfect, but close enough that the failure modes are comparable. The thing that surprised me was text rendering in images, which used to be a disaster on open models. Recent architectures actually get it right roughly 70-80% of the time on short strings. Generation speed is another misconception. People complain about inference time but I'm getting 2MP outputs in under two minutes on a single consumer GPU. Drop resolution and step count and you're at 30 seconds. Fine for iteration. The structured prompting argument also falls flat. Everyone acts like having explicit scene control is a downside when it's literally what production pipelines need. Unstructured text prompts are the hack, not the other way around. These models ship without community optimizations, no fine-tuning, no custom pipelines. The baseline is already competitive. submitted by /u/ProfessionalAnt7436 [link] [comments]",
+    "author": "/u/ProfessionalAnt7436",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I run evaluations on generative image models as part of my workflow, mostly comparing coherence, prompt adherence, and compositional accuracy across different architectures. The consensus here seems to be that open models are still a generation behind closed APIs. Based on my recent benchmarks, that gap is way smaller than people assume.</p> <p>On compositional control specifically, the latest open checkpoints handle multi-object scenes with spatial relationships about as reliably as the paid endpoints I've tested. Not perfect, but close enough that the failure modes are comparable. The thing that surprised me was text rendering in images, which used to be a disaster on open models. Recent architectures actually get it right roughly 70-80% of the time on short strings.</p> <p>Generation speed is another misconception. People complain about inference time but I'm getting 2MP outputs in under two minutes on a single consumer GPU. Drop resolution and step count and you're at 30 seconds. Fine for iteration.</p> <p>The structured prompting argument also falls flat. Everyone acts like having explicit scene control is a downside when it's literally what production pipelines need. Unstructured text prompts are the hack, not the other way around.</p> <p>These models ship without community optimizations, no fine-tuning, no custom pipelines. The baseline is already competitive.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ProfessionalAnt7436\"> /u/ProfessionalAnt7436 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u0119r/open_image_generation_models_are_closer_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u0119r/open_image_generation_models_are_closer_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8feaa810-4571-5b08-a6b5-df02977fdd11",
     "title": "I work at an industrial vacuum manufacturer — we connected our product catalog to Claude via MCP",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u00stn/i_work_at_an_industrial_vacuum_manufacturer_we/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>So far model releases that take advantage of Quantization a<br /> Aware Training (QAT) have been focused on 4-bit. </p> <p>I’m curious what could be accomplished with a larger MoE model around 120b up to 400b. Obviously the model could not approach 8/16 bit performance, but perhaps this could be a better alternative to training a ternary LLM (1.58 bit) from scratch. At these sizes you could fit the model into consumer computers running 64/128 gb RAM and perhaps it could out perform a model at about half the size (80b/235b) at 4-bit precision.</p> <p>I suspect the reason it wouldn’t be tried is tooling and coding might suffer too much. I’m thinking about it in the context of creative writing. In my experience 2-bit can still perform.</p> <p>What do you think?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/silenceimpaired\"> /u/silenceimpaired </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzlt37/2bit_qat_model_releases/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzlt37/2bit_qat_model_releases/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "73bab508-eec2-54ee-a74d-eb83f320bbba",
-    "title": "Do I gatekeep these skills or share with wider team?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzlq8w/do_i_gatekeep_these_skills_or_share_with_wider/",
-    "pubDate": "2026-06-07T19:35:26+00:00",
-    "description": "Hi Clauders, I recently wrote a skill on a whim at work. I'm based in the US, if that matters. I was frustrated at how many errors were slipping through in client deliverables as the content producers are too overworked to notice anything going wrong, while the reviewers just merely gloss over the deliverables and leave minimal feedback. I asked came up with a skill in Microsoft Copilot Cowork using Claude's models. It can now very thorough check through each 500 page deliverable (in tranches), and leave details feedback. This is a very significant efficiency and quality gain. Here comes the issue: I don't want senior management to be recklessly using it and become overambitious in assigning work to everyone under the guise of \"AI can speed it up a lot\" What would you do? submitted by /u/Natural-Round8762 [link] [comments]",
-    "author": "/u/Natural-Round8762",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi Clauders, </p> <p>I recently wrote a skill on a whim at work. I'm based in the US, if that matters. I was frustrated at how many errors were slipping through in client deliverables as the content producers are too overworked to notice anything going wrong, while the reviewers just merely gloss over the deliverables and leave minimal feedback. </p> <p>I asked came up with a skill in Microsoft Copilot Cowork using Claude's models. It can now very thorough check through each 500 page deliverable (in tranches), and leave details feedback. This is a very significant efficiency and quality gain. </p> <p>Here comes the issue: I don't want senior management to be recklessly using it and become overambitious in assigning work to everyone under the guise of &quot;AI can speed it up a lot&quot; </p> <p>What would you do? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Natural-Round8762\"> /u/Natural-Round8762 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzlq8w/do_i_gatekeep_these_skills_or_share_with_wider/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzlq8w/do_i_gatekeep_these_skills_or_share_with_wider/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

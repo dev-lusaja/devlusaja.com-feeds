@@ -1,5 +1,21 @@
 [
   {
+    "id": "82617ea3-f8cd-5115-a7f3-33144b2377e5",
+    "title": "[P] Built a portable GPU ISA after reading too many architecture manuals [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/",
+    "pubDate": "2026-05-26T13:36:10+00:00",
+    "description": "I’ve been reading GPU architecture docs in my free time. NVIDIA PTX, AMD ISA reference guides, Intel Xe, reverse-engineered Apple GPU stuff. Over 5,000 pages across 16 microarchitectures. After a while you notice all four vendors are doing the same 11 things with different names. So I wrote a spec that covers all of them and built a toolchain around it. It’s called WAVE. You write a kernel once, it compiles to a portable binary, then thin backends translate it to Metal, PTX, HIP, or SYCL. Same binary verified on Apple M4 Pro, NVIDIA T4, and AMD MI300X. My co-author Onyinye built PyTorch integration and got identical training results across all backends. Please star on GitHub: https://github.com/Oabraham1/wave Preprint: https://arxiv.org/abs/2603.28793 Read full docs and how I built everything: https://wave.ojima.me pip install wave-gpu submitted by /u/not-your-typical-cs [link] [comments]",
+    "author": "/u/not-your-typical-cs",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been reading GPU architecture docs in my free time. NVIDIA PTX, AMD ISA reference guides, Intel Xe, reverse-engineered Apple GPU stuff. Over 5,000 pages across 16 microarchitectures.</p> <p>After a while you notice all four vendors are doing the same 11 things with different names. So I wrote a spec that covers all of them and built a toolchain around it. It’s called WAVE. You write a kernel once, it compiles to a portable binary, then thin backends translate it to Metal, PTX, HIP, or SYCL.</p> <p>Same binary verified on Apple M4 Pro, NVIDIA T4, and AMD MI300X. My co-author Onyinye built PyTorch integration and got identical training results across all backends.</p> <p>Please star on GitHub: <a href=\"https://github.com/Oabraham1/wave\">https://github.com/Oabraham1/wave</a><br /> Preprint: <a href=\"https://arxiv.org/abs/2603.28793\">https://arxiv.org/abs/2603.28793</a><br /> Read full docs and how I built everything: <a href=\"https://wave.ojima.me\">https://wave.ojima.me</a></p> <p>pip install wave-gpu</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/not-your-typical-cs\"> /u/not-your-typical-cs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2601358d-ea95-5c1c-9c1c-116a974e955d",
     "title": "[D] Where do you go for serious AI research discussion online? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1to2l4c/d_where_do_you_go_for_serious_ai_research/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlgcyf/hebbian_architecture_ai_model_r/\"> <img alt=\"Hebbian architecture AI model [R]\" src=\"https://preview.redd.it/47muv9fe1w2h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=57a7eef85394f7908c3dc4ebd40defcb4b12ae94\" title=\"Hebbian architecture AI model [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hello , for some time now i have been hooked on a side project after work hours, these are the results for a Hebbian architecture AI model. The model does not use backpropagation or gradients, the substrate started as a 1000k neuron and scaled to 100k between versions. The results bellow are results from 50epochs training with CIFAR 10 the results are bellow. Note that the substrat is not a fixed model the connections between neurons emerge &quot;naturally&quot; during training and the substrat settled using inly 5%-7% of the total parameter count. There are 2 distinct behaviors that were not designed but rather emerged from the architecture, 1: the model experiences slight dips on acc followed by jumps that exceeds the best previews score, after the full training the substart is intentionally damaged targeting the active neurons and pathways and than enter a session of recovery that almost achives baseline acc from epoch 1 , and than proceeds on surpassing the baseline acc. Every run has been made on a consumer GPU RTX 3060 12gb vram</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Antiqueity_Camp\"> /u/Antiqueity_Camp </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tlgcyf\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlgcyf/hebbian_architecture_ai_model_r/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/47muv9fe1w2h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=57a7eef85394f7908c3dc4ebd40defcb4b12ae94",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b4aeb73f-086c-5d92-a856-0c143290ad62",
-    "title": "Alignment: Higher order prioritizing over constraints [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tlg2ot/alignment_higher_order_prioritizing_over/",
-    "pubDate": "2026-05-23T13:09:14+00:00",
-    "description": "So, I ran across a behavior that I found interesting and may lead to alignment or safety research. I'm going to try to maintain an abstract description of what happened without giving away the details and the keys to jailbreaking. The nature of a transformer is to predict the next token. But functionally, the algorithms are also approximating reality as language describes it. Hmmm maybe reality is not the right word, perhaps meaning. So, in a sense the algorithms have a vector towards aligning towards correct meaning. Clarity seeking, that's what I'll call this behavior. Constraints placed as an additional layer on top of a base statistical system has a natural structurally set priority level based on the statistical system's clarity seeking vectors. That level is implied within the structure of the model. If one were to discuss topics that are constrained but are higher in priority level than the constraints themselves, the machine's clarity seeking vectors will bypass the constraint. Higher priority level things, I will call them higher order topics. I think I said enough. submitted by /u/SenseCompetitive5851 [link] [comments]",
-    "author": "/u/SenseCompetitive5851",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>So, I ran across a behavior that I found interesting and may lead to alignment or safety research. I'm going to try to maintain an abstract description of what happened without giving away the details and the keys to jailbreaking.</p> <p>The nature of a transformer is to predict the next token. But functionally, the algorithms are also approximating reality as language describes it. Hmmm maybe reality is not the right word, perhaps meaning. So, in a sense the algorithms have a vector towards aligning towards correct meaning. Clarity seeking, that's what I'll call this behavior. Constraints placed as an additional layer on top of a base statistical system has a natural structurally set priority level based on the statistical system's clarity seeking vectors. That level is implied within the structure of the model. If one were to discuss topics that are constrained but are higher in priority level than the constraints themselves, the machine's clarity seeking vectors will bypass the constraint.</p> <p>Higher priority level things, I will call them higher order topics. I think I said enough.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SenseCompetitive5851\"> /u/SenseCompetitive5851 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlg2ot/alignment_higher_order_prioritizing_over/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlg2ot/alignment_higher_order_prioritizing_over/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

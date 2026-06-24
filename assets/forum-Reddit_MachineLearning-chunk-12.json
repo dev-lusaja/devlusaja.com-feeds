@@ -1,5 +1,21 @@
 [
   {
+    "id": "8a566d11-ced1-52fe-88a3-b72fe549c460",
+    "title": "It is the process of rapidly ever improving differentiation between noise and signal patterns and constant generalization of those that produces intelligence, not merely compression of data. [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tdsi8d/it_is_the_process_of_rapidly_ever_improving/",
+    "pubDate": "2026-05-15T10:41:36+00:00",
+    "description": "Until we can design a mathematical system with one unavoidable intrinsic goal that drives it with undeniable force and encode that to hardware, plug it into a simulator of raw data, and give it the initial faculties to form, store, manipulate and alter all patterns based on its own feedback with no restriction on developing new faculties; all this AI noise will only serve investors accumulating wealth. The currently required data sanitization and filtration, and the missing intrinsic unavoidable goal, kill the very base requirement for intelligence to emerge as we see and value it in humans. Of course if that happens, new questions arise: human safety from conflict with the system; not just the current concerns which are human misuse related; and what ideology to follow while deciding the goal. But those could be dealt with, given we have the base. For the present situation of things: the current increasing productivity automation is ofcourse undeniable. But that should not be a bad thing if we look towards the long horizon of things. People enjoy cooking, and if doing the dishes and the prep and the shopping were to be automated, it should only make things better. Ofcourse if we can figure out a way to tackle the unemployment and resource access problem and thus wealth concentration, for people that were too specialized for the old system of labour. Thoughts? submitted by /u/Briefin69 [link] [comments]",
+    "author": "/u/Briefin69",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Until we can design a mathematical system with one unavoidable intrinsic goal that drives it with undeniable force and encode that to hardware, plug it into a simulator of raw data, and give it the initial faculties to form, store, manipulate and alter all patterns based on its own feedback with no restriction on developing new faculties; all this AI noise will only serve investors accumulating wealth. </p> <p>The currently required data sanitization and filtration, and the missing intrinsic unavoidable goal, kill the very base requirement for intelligence to emerge as we see and value it in humans.</p> <p>Of course if that happens, new questions arise: human safety from conflict with the system; not just the current concerns which are human misuse related; and what ideology to follow while deciding the goal. But those could be dealt with, given we have the base.</p> <p>For the present situation of things: the current increasing productivity automation is ofcourse undeniable. But that should not be a bad thing if we look towards the long horizon of things. People enjoy cooking, and if doing the dishes and the prep and the shopping were to be automated, it should only make things better. Ofcourse if we can figure out a way to tackle the unemployment and resource access problem and thus wealth concentration, for people that were too specialized for the old system of labour.</p> <p>Thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Briefin69\"> /u/Briefin69 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdsi8d/it_is_the_process_of_rapidly_ever_improving/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdsi8d/it_is_the_process_of_rapidly_ever_improving/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "64536c8c-6429-56dd-a6ad-6579b13dfc02",
     "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature.</p> <p>Quick recap for anyone new to TabPFN: TabPFN predicts on tabular data in a single forward pass - no training, no hyperparameter search, no tuning. Built on TabPFN-2.5 (Nov 2025) and TabPFNv2 (Nature, Jan 2025), which together crossed 3M downloads and 200+ published applications.</p> <p>What's new:</p> <ul> <li>Scale: 1M rows on a single H100 (10x larger than 2.5).A reduced KV cache (~8GB per million rows per estimator) and row-chunked inference make this practical on a single GPU</li> <li>Speed: 10x-1000x faster inference than previous versions. 120x on SHAP via KV caching</li> <li>Thinking Mode (API only): test-time compute pushes predictions further via one-time extra fitting at inference. Beats every non-TabPFN method on TabArena by over 200 Elo, including 4-hour-tuned AutoGluon 1.5 extreme. Gap more than doubles to 420 Elo on the larger-data slice.</li> <li>Accuracy: it has a 93% win rate over classical ML on TabArena</li> <li>Many-class: native non-parametric retrieval decoder supporting up to 160 classes</li> <li>Calibrated quantile regression: bar-distribution regression head produces calibrated quantile predictions in a single forward pass</li> <li>Lifts adjacent tasks: time-series, interpretability, and new SOTA on relational benchmarks.</li> <li>3 deployment paths: API, enterprise licensing, and open-source weights (permissive for research and academic evaluation)</li> </ul> <p>You can try it <a href=\"https://docs.priorlabs.ai/quickstart\">here</a> or read the model report <a href=\"https://priorlabs.ai/technical-reports/tabpfn-3\">here</a>. Happy to answer questions in the comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rsesrsfh\"> /u/rsesrsfh </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "41ca17ee-5345-516a-90bc-188e81005c95",
-    "title": "I Found a Hidden Ratio in Transformers That Predicts Geometric Stability [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tb2na1/i_found_a_hidden_ratio_in_transformers_that/",
-    "pubDate": "2026-05-12T14:04:43+00:00",
-    "description": "I have analyzed some decoder transformer models using Lyapunov spectral analysis and found that the ratio of the MLP and attention spectral norms strongly indicates whether a model will eventually collapse to rank-1 or not by the final layers. I found that the spectral ratio is best kept around 0.5–2 for keeping the model stable till the final layers. Paper/Github repo: https://github.com/yousef-rafat/the-1-1-rule submitted by /u/Otaku_7nfy [link] [comments]",
-    "author": "/u/Otaku_7nfy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have analyzed some decoder transformer models using Lyapunov spectral analysis and found that the ratio of the MLP and attention spectral norms strongly indicates whether a model will eventually collapse to rank-1 or not by the final layers.</p> <p>I found that the spectral ratio is best kept around 0.5–2 for keeping the model stable till the final layers.</p> <p>Paper/Github repo: <a href=\"https://github.com/yousef-rafat/the-1-1-rule\">https://github.com/yousef-rafat/the-1-1-rule</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Otaku_7nfy\"> /u/Otaku_7nfy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb2na1/i_found_a_hidden_ratio_in_transformers_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb2na1/i_found_a_hidden_ratio_in_transformers_that/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
