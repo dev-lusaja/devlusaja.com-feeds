@@ -1,5 +1,21 @@
 [
   {
+    "id": "978a395e-052b-5847-b9db-cc89a78affef",
+    "title": "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
+    "link": "https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/",
+    "pubDate": "2026-05-08T17:13:33+00:00",
+    "description": "Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...",
+    "author": "Joseph Lucas",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits , , , or a shell pipeline is producing an executable action that can read files, mutate a workspace, open network connections, and chain tools together. For the NVIDIA AI Red Team, this makes command generation a useful research target. If smaller language models can be guided…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "810f182a-3a07-5b43-926e-397ea8618c36",
     "title": "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
     "link": "https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/",
