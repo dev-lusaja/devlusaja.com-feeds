@@ -1,5 +1,21 @@
 [
   {
+    "id": "cfcc779f-0267-5a33-ae40-6cf53011f058",
+    "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+    "link": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+    "pubDate": "2026-06-26T16:00:35+00:00",
+    "description": "As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Model-Optimizer-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Model-Optimizer\" width=\"768\" />As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Model-Optimizer-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Model-Optimizer\" width=\"768\" /><p>As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an optimization technique that compresses model weights into a smaller data format. One quantization format is NVFP4, an innovative 4-bit floating point introduced with NVIDIA Blackwell architecture. That’s the approach behind our new Nemotron 3…</p>\n<p><a href=\"https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5e2225dc-c080-5f72-a2cf-1df96fcb20e3",
     "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
     "link": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Illustration showing Nemtron 3 Ultra.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Nemotron-3-Ultra-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Nemotron-3-Ultra\" width=\"768\" />Single-turn chatbots are evolving into long-running agents that can reason, maintain context, use tools, and run efficiently across many turns to complete...<img alt=\"Illustration showing Nemtron 3 Ultra.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Nemotron-3-Ultra-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Nemotron-3-Ultra\" width=\"768\" /><p>Single-turn chatbots are evolving into long-running agents that can reason, maintain context, use tools, and run efficiently across many turns to complete complex workflows. However, these multi-agent workflows cause token counts to grow quickly. Agents plan, call tools, invoke sub-agents, receive information, and then pass history, outputs, and reasoning steps back into the model…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fad881d7-80f6-5ec7-9ef4-07c5b81f5fe9",
-    "title": "Build Personal AI Agents on Windows PCs with New Tools from Microsoft and NVIDIA",
-    "link": "https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia/",
-    "pubDate": "2026-06-02T19:00:00+00:00",
-    "description": "AI agents are changing how you interact with your PC. Creators, developers, and AI enthusiasts are already using these agents extensively to assist with...",
-    "author": "Annamalai Chockalingam",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-hardware-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-hardware\" width=\"768\" />AI agents are changing how you interact with your PC. Creators, developers, and AI enthusiasts are already using these agents extensively to assist with...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-hardware-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-hardware\" width=\"768\" /><p>AI agents are changing how you interact with your PC. Creators, developers, and AI enthusiasts are already using these agents extensively to assist with day-to-day tasks such as coding, video editing, and content management. NVIDIA and Microsoft are teaming up to enable the next generation of developers to build on-device agents on the Windows platform, with easier setup, native security…</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
