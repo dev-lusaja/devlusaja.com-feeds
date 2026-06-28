@@ -1,5 +1,21 @@
 [
   {
+    "id": "8517d2f6-4e6b-5dd3-b79f-d12dbcf3395b",
+    "title": "I fine-tuned an LLM to be C-3PO to test which training data format works best for persona injection [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/",
+    "pubDate": "2026-05-23T18:15:35+00:00",
+    "description": "Tested three formats: chat demos, first-person statements (\"I am C-3PO...\"), and synthetic Wikipedia-style docs. Same model, same LoRA config, 500 examples each. First-person statements won on generalization, which I didn't expect. The synthetic doc model was the weirdest result: it knew C-3PO was anxious but only expressed it 37% of the time. Knowing a trait vs feeling it are apparently different things in weight space. Code and GitHub repo link are included inside! submitted by /u/Georgiou1226 [link] [comments]",
+    "author": "/u/Georgiou1226",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/\"> <img alt=\"I fine-tuned an LLM to be C-3PO to test which training data format works best for persona injection [P]\" src=\"https://external-preview.redd.it/1C7DaY19KuG89mhvojvL6_8K06VFLwcmz6YoskyYn3o.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2086a42057db58a396c8024e3b169eddade458dd\" title=\"I fine-tuned an LLM to be C-3PO to test which training data format works best for persona injection [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Tested three formats: chat demos, first-person statements (&quot;I am C-3PO...&quot;), and synthetic Wikipedia-style docs. Same model, same LoRA config, 500 examples each.</p> <p>First-person statements won on generalization, which I didn't expect. The synthetic doc model was the weirdest result: it knew C-3PO was anxious but only expressed it 37% of the time. Knowing a trait vs feeling it are apparently different things in weight space. </p> <p><strong>Code and GitHub repo link are included inside!</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Georgiou1226\"> /u/Georgiou1226 </a> <br /> <span><a href=\"https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/1C7DaY19KuG89mhvojvL6_8K06VFLwcmz6YoskyYn3o.jpeg?width=640&crop=smart&auto=webp&s=2086a42057db58a396c8024e3b169eddade458dd",
+    "isShortVideo": 0
+  },
+  {
     "id": "a62ab61b-4392-5851-8b41-815c89fb134e",
     "title": "pipeline is really slow - consulting [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tlna8o/pipeline_is_really_slow_consulting_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>OpenAI posted a math result today claiming that one of its general-purpose reasoning models found a construction disproving the conjectured n^{1+O(1/log log n)} upper bound in Erdős’s planar unit-distance problem.</p> <p>Announcement:</p> <p><a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture/\">https://openai.com/index/model-disproves-discrete-geometry-conjecture/</a></p> <p>Proof PDF:</p> <p><a href=\"https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf\">https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf</a></p> <p>Abridged reasoning writeup:</p> <p><a href=\"https://cdn.openai.com/pdf/1625eff6-5ac1-40d8-b1db-5d5cf925de8b/unit-distance-cot.pdf\">https://cdn.openai.com/pdf/1625eff6-5ac1-40d8-b1db-5d5cf925de8b/unit-distance-cot.pdf</a></p> <p>The mathematical claim, as I understand it, is that there are finite planar point sets with more than n^{1+δ} unit distances for some fixed δ &gt; 0 and infinitely many n. That would rule out the expected near-linear upper bound, though it does not determine the true asymptotic growth rate.</p> <p>What seems especially relevant for this subreddit is the process claim: OpenAI says the solution was produced by a general-purpose reasoning model, then checked by an AI grading pipeline and reviewed/reworked by mathematicians. The proof PDF also includes the original prompt given to the model, but not the full experimental details: no model name, sampling setup, number of attempts, compute budget, hidden system prompt, or full grading pipeline.</p> <p>Curious how people here read this as an ML result. Is this best viewed as evidence of frontier models doing genuine autonomous research, or as a cherry-picked but still important sample from a large search process? What kind of disclosure would you want before treating this as a reproducible AI-for-math milestone?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NutInBobby\"> /u/NutInBobby </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tiy6s4/openai_claims_a_generalpurpose_reasoning_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tiy6s4/openai_claims_a_generalpurpose_reasoning_model/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e4cc8d91-469d-506d-a588-1e619e79a4d5",
-    "title": "LLMs and Emojis [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tixc8d/llms_and_emojis_d/",
-    "pubDate": "2026-05-20T20:08:08+00:00",
-    "description": "LLMs are trained on human data, so where does the tendency to add emojis come from? For example, when some models generate code explanations or even normal responses, they often add lots of emojis that people don’t really use that way in real life. My current guess (without having researched this yet) is that emojis might sometimes be added after the initial generation process, maybe during post-processing, alignment, or some “reasoning/thinking” stage, rather than being part of the raw generated response itself. Because intuitively, an emoji doesn’t really behave like a normal word/token inside a sentence or code block. submitted by /u/Zoldyck_J [link] [comments]",
-    "author": "/u/Zoldyck_J",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>LLMs are trained on human data, so where does the tendency to add emojis come from?</p> <p>For example, when some models generate code explanations or even normal responses, they often add lots of emojis that people don’t really use that way in real life.</p> <p>My current guess (without having researched this yet) is that emojis might sometimes be added after the initial generation process, maybe during post-processing, alignment, or some “reasoning/thinking” stage, rather than being part of the raw generated response itself.</p> <p>Because intuitively, an emoji doesn’t really behave like a normal word/token inside a sentence or code block.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zoldyck_J\"> /u/Zoldyck_J </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tixc8d/llms_and_emojis_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tixc8d/llms_and_emojis_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

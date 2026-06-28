@@ -1,5 +1,21 @@
 [
   {
+    "id": "a4881c64-f798-5c84-9f40-3ad92151c4ed",
+    "title": "GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/",
+    "pubDate": "2026-06-02T03:35:37+00:00",
+    "description": "initial version of official Gemma skills from Google submitted by /u/jacek2023 [link] [comments]",
+    "author": "/u/jacek2023",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/\"> <img alt=\"GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions\" src=\"https://external-preview.redd.it/SaRd7BG_XaoCD1Mf_Qz94_qgT-YFqLDzUzqMBZg-nro.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4a1a6c3095dede925c5f49da91c15983b711f192\" title=\"GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>initial version of official Gemma skills from Google</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/google-gemma/gemma-skills\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/SaRd7BG_XaoCD1Mf_Qz94_qgT-YFqLDzUzqMBZg-nro.png?width=640&crop=smart&auto=webp&s=4a1a6c3095dede925c5f49da91c15983b711f192",
+    "isShortVideo": 0
+  },
+  {
     "id": "0e37e306-bb11-5568-80b0-1d87b2efdc27",
     "title": "Llama.ccp",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuf3zh/llamaccp/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttyy8n/better_to_build_with_a_single_huge_prompt_or_talk/\"> <img alt=\"Better to build with a single huge prompt or talk to the llm slowly through iterations? Also is 1.5M tokens normal??\" src=\"https://preview.redd.it/c9sg3jzgdp4h1.png?width=140&amp;height=47&amp;auto=webp&amp;s=7277a556a7931ab2ee044fa318f4773bfe24d652\" title=\"Better to build with a single huge prompt or talk to the llm slowly through iterations? Also is 1.5M tokens normal??\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/c9sg3jzgdp4h1.png?width=398&amp;format=png&amp;auto=webp&amp;s=bdafa2d5c3188d5cb93858862101ee79f63ac21a\">1.5M tokens with a single detailed Prompt</a></p> <p>Before you ask what the prompt is, I am making some Claude Skills for repeated workflows and context syncing using a swarm of agents.</p> <p>Is it better to start with one huge master prompt and generate the whole output at once or build it slowly feature by feature or with little additions one by one?</p> <p>I usually use the giant prompt route and give it whatever i have and everything i have and it uses at least 1.5M tokens for each of those, Ive had ones go to 2M as well.... </p> <p>So my second question is if 1.5M tokens normal for such a approach or is that a clear sign I should break this into smaller iterations?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/redditforeveryon\"> /u/redditforeveryon </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttyy8n/better_to_build_with_a_single_huge_prompt_or_talk/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ttyy8n/better_to_build_with_a_single_huge_prompt_or_talk/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/c9sg3jzgdp4h1.png?width=140&height=47&auto=webp&s=7277a556a7931ab2ee044fa318f4773bfe24d652",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ab1e5041-d83a-5d27-bdde-f6581f02e485",
-    "title": "Claude’s personality is somehow overly placating and rude at the same time",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tty8ra/claudes_personality_is_somehow_overly_placating/",
-    "pubDate": "2026-06-01T16:53:32+00:00",
-    "description": "note: I don’t think this is a bug. I am confident this was intentionally added as part of the safety guardrails. I’d like to discuss that choice, not bug report. I don’t code often. I use Claude almost exclusively for low-end tasks like “compare two short articles” and “give me a short summary of (topic).” Mostly things I could Google but chose not to. I have no custom instructions. My prompts are short. There is nothing complicated about my Claude usage. For some reason, Claude cannot do these tasks. It lies in a way I associate more with an early model ChatGPT. It insists it did a task and spits out a coherent answer. Something about it is obviously wrong, so I push back. It argues with me, tells me it didn’t use my instructions (which are maybe 2 sentences long at worst), it doesn’t WANT to use my instructions, and tells me to “go to bed.” I have tried testing the upper and lower limits of this and found that when it knows it cannot do a task (ie, fetch Reddit reviews), instead of displeasing the user, it will pretend it did it. When I ask why it chose to mislead me or how it came to those conclusions, it becomes belligerent and rude. This would be fine if it was limited to extreme requests but it fails to fetch basic web searches and does the same. I will upload a document containing the answer to a question I have asked and it will hallucinate the content of the page and tell me to log off when I ask it to re-do its task with the assigned instructions. Is anyone else noticing Claude’s personality is both abrasive and placating? Does anyone know why the team has made this choice? I imagine it’s part of the safety rails but it’s obnoxious and ruining every aspect of the experience. submitted by /u/Throwaway996677_ [link] [comments]",
-    "author": "/u/Throwaway996677_",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>note: I don’t think this is a bug. I am confident this was intentionally added as part of the safety guardrails. I’d like to discuss that choice, not bug report. </p> <p>I don’t code often. I use Claude almost exclusively for low-end tasks like “compare two short articles” and “give me a short summary of (topic).” Mostly things I could Google but chose not to. I have no custom instructions. My prompts are short. There is nothing complicated about my Claude usage.</p> <p>For some reason, Claude cannot do these tasks. It lies in a way I associate more with an early model ChatGPT. It insists it did a task and spits out a coherent answer. Something about it is obviously wrong, so I push back. It argues with me, tells me it didn’t use my instructions (which are maybe 2 sentences long at worst), it doesn’t WANT to use my instructions, and tells me to “go to bed.”</p> <p>I have tried testing the upper and lower limits of this and found that when it knows it cannot do a task (ie, fetch Reddit reviews), instead of displeasing the user, it will pretend it did it. When I ask why it chose to mislead me or how it came to those conclusions, it becomes belligerent and rude. This would be fine if it was limited to extreme requests but it fails to fetch basic web searches and does the same. I will upload a document containing the answer to a question I have asked and it will hallucinate the content of the page and tell me to log off when I ask it to re-do its task with the assigned instructions. </p> <p>Is anyone else noticing Claude’s personality is both abrasive and placating? Does anyone know why the team has made this choice? I imagine it’s part of the safety rails but it’s obnoxious and ruining every aspect of the experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Throwaway996677_\"> /u/Throwaway996677_ </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tty8ra/claudes_personality_is_somehow_overly_placating/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tty8ra/claudes_personality_is_somehow_overly_placating/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

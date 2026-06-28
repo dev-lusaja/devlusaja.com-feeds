@@ -1,5 +1,21 @@
 [
   {
+    "id": "ed02ca93-b36e-5c02-9cfe-d68d8d8c8fd3",
+    "title": "Trouble exploring in ai/ml,idk where to being with [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tomqcs/trouble_exploring_in_aimlidk_where_to_being_with_d/",
+    "pubDate": "2026-05-26T22:38:07+00:00",
+    "description": "So as the title says Context:I am a sophomore in computer science Have prior knowledge in maths(especially the relevant topics in ml) Good enough with numpy,pandas I don't really know where to start Ok internet every second guy is trying to make me earn 100k/year in 3 months while I just want to explore it for rn I want to approach it as a project based learning experience so what should be the way to start? submitted by /u/knowbodyknows22 [link] [comments]",
+    "author": "/u/knowbodyknows22",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>So as the title says</p> <p>Context:I am a sophomore in computer science</p> <p>Have prior knowledge in maths(especially the relevant topics in ml)</p> <p>Good enough with numpy,pandas</p> <p>I don't really know where to start </p> <p>Ok internet every second guy is trying to make me earn 100k/year in 3 months while I just want to explore it for rn</p> <p>I want to approach it as a project based learning experience so what should be the way to start?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/knowbodyknows22\"> /u/knowbodyknows22 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tomqcs/trouble_exploring_in_aimlidk_where_to_being_with_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tomqcs/trouble_exploring_in_aimlidk_where_to_being_with_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c9cec25a-c25f-5945-9957-10cdb0a04c47",
     "title": "Augmented Equivariant Mesh Networks for Anatomical Mesh Segmentation (ICML 2026 Workshops) [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tobtmu/augmented_equivariant_mesh_networks_for/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tloksk/perpixel_boundingbox_regression_dbscan_for/\"> <img alt=\"Per-pixel bounding-box regression + DBSCAN for handwritten word detection - visual walkthrough of WordDetectorNet [P]\" src=\"https://preview.redd.it/qnfoh3sqjx2h1.png?width=140&amp;height=94&amp;auto=webp&amp;s=e72cb3f3e061a1362a9bd5111d9e919341d48acb\" title=\"Per-pixel bounding-box regression + DBSCAN for handwritten word detection - visual walkthrough of WordDetectorNet [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/qnfoh3sqjx2h1.png?width=1559&amp;format=png&amp;auto=webp&amp;s=7bd8a500ad2cbfe701e91d7c08dff609037d558a\">Overview of WordDetectorNN architecture.</a></p> <p>Sharing a visual breakdown of WordDetectorNet, Harald Scheidl's handwritten-word detection model. I think the design choice at its core is unusual enough to be worth a closer look - and I haven't seen it written up in detail anywhere else.</p> <p><strong>The mechanism:</strong> Instead of anchor-based detection + NMS, every pixel the network classifies as a &quot;word pixel&quot; also regresses 4 scalar distances (top/right/bottom/left) to the enclosing bounding box. Each word pixel therefore reconstructs one candidate box, producing thousands of overlapping candidates per word. These are then collapsed with DBSCAN using <code>distance = 1 − IoU</code> as the metric, taking the median box per cluster as the final detection.</p> <p><strong>Architecture:</strong> ResNet18 backbone (modified to 1-channel grayscale input, with intermediate features exposed after each residual block) → FPN-style decoder that upscales and concatenates features at all scales → head producing 6 output channels per pixel (2 segmentation logits + 4 distance values). Loss = cross-entropy + IoU, equally weighted. Trained on IAM with 448×448 inputs → 224×224 outputs.</p> <p><strong>What I find interesting about the design:</strong></p> <ol> <li>The per-pixel distance regression means there is nothing to tune like anchors or NMS thresholds.</li> <li>The <code>1 − IoU</code> distance for DBSCAN is conceptually clean: spatially-overlapping candidates cluster together by construction.</li> </ol> <p><strong>What I don't like about the design:</strong></p> <ol> <li>The pairwise IoU distance matrix is O(n²) in the number of candidate boxes, and this is genuinely the runtime bottleneck in practice (not the forward pass).</li> <li>The clustering step blocks end-to-end training — hyperparameters like DBSCAN's <code>eps</code> have to be set manually.</li> </ol> <p>Full visual write-up with figures (one per pipeline stage + an architecture diagram): <a href=\"https://lellep.xyz/blog/worddetectornet-visually-explained.html\">https://lellep.xyz/blog/worddetectornet-visually-explained.html</a></p> <p>Credit where credit is due: Original architecture by Harald Scheidl, see here <a href=\"https://github.com/githubharald/WordDetectorNN\">https://github.com/githubharald/WordDetectorNN</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/martin_lellep\"> /u/martin_lellep </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tloksk/perpixel_boundingbox_regression_dbscan_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tloksk/perpixel_boundingbox_regression_dbscan_for/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/qnfoh3sqjx2h1.png?width=140&height=94&auto=webp&s=e72cb3f3e061a1362a9bd5111d9e919341d48acb",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8517d2f6-4e6b-5dd3-b79f-d12dbcf3395b",
-    "title": "I fine-tuned an LLM to be C-3PO to test which training data format works best for persona injection [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/",
-    "pubDate": "2026-05-23T18:15:35+00:00",
-    "description": "Tested three formats: chat demos, first-person statements (\"I am C-3PO...\"), and synthetic Wikipedia-style docs. Same model, same LoRA config, 500 examples each. First-person statements won on generalization, which I didn't expect. The synthetic doc model was the weirdest result: it knew C-3PO was anxious but only expressed it 37% of the time. Knowing a trait vs feeling it are apparently different things in weight space. Code and GitHub repo link are included inside! submitted by /u/Georgiou1226 [link] [comments]",
-    "author": "/u/Georgiou1226",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/\"> <img alt=\"I fine-tuned an LLM to be C-3PO to test which training data format works best for persona injection [P]\" src=\"https://external-preview.redd.it/1C7DaY19KuG89mhvojvL6_8K06VFLwcmz6YoskyYn3o.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2086a42057db58a396c8024e3b169eddade458dd\" title=\"I fine-tuned an LLM to be C-3PO to test which training data format works best for persona injection [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Tested three formats: chat demos, first-person statements (&quot;I am C-3PO...&quot;), and synthetic Wikipedia-style docs. Same model, same LoRA config, 500 examples each.</p> <p>First-person statements won on generalization, which I didn't expect. The synthetic doc model was the weirdest result: it knew C-3PO was anxious but only expressed it 37% of the time. Knowing a trait vs feeling it are apparently different things in weight space. </p> <p><strong>Code and GitHub repo link are included inside!</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Georgiou1226\"> /u/Georgiou1226 </a> <br /> <span><a href=\"https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/1C7DaY19KuG89mhvojvL6_8K06VFLwcmz6YoskyYn3o.jpeg?width=640&crop=smart&auto=webp&s=2086a42057db58a396c8024e3b169eddade458dd",
     "isShortVideo": 0
   }
 ]

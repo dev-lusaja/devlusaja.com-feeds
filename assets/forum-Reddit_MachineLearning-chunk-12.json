@@ -1,5 +1,21 @@
 [
   {
+    "id": "cc4552fe-5181-5b33-ac4d-f4b4ff5f9ea4",
+    "title": "Has anyone received decisions for the ICML 2026 GlobalSouthML workshop yet? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tgu8p5/has_anyone_received_decisions_for_the_icml_2026/",
+    "pubDate": "2026-05-18T17:40:52+00:00",
+    "description": "Hey everyone! The decision notification deadline for the GlobalSouthML workshop was originally May 15th (and the site updated it to May 17th AoE), but my OpenReview dashboard still just says \"0 Official Reviews Submitted\" I know workshop timelines can be a bit chaotic and delays are normal, but since we are way past the 17th AoE now, I wanted to see if anyone else is still waiting. Has anyone gotten an accept/reject email yet? Appreciate any updates! Thanks! [Edit: received them a few minutes back] submitted by /u/Material_Dinner_1924 [link] [comments]",
+    "author": "/u/Material_Dinner_1924",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone!</p> <p>The decision notification deadline for the GlobalSouthML workshop was originally May 15th (and the site updated it to May 17th AoE), but my OpenReview dashboard still just says &quot;0 Official Reviews Submitted&quot;</p> <p>I know workshop timelines can be a bit chaotic and delays are normal, but since we are way past the 17th AoE now, I wanted to see if anyone else is still waiting. Has anyone gotten an accept/reject email yet?</p> <p>Appreciate any updates! Thanks!</p> <p>[Edit: received them a few minutes back]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Material_Dinner_1924\"> /u/Material_Dinner_1924 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgu8p5/has_anyone_received_decisions_for_the_icml_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgu8p5/has_anyone_received_decisions_for_the_icml_2026/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c866c1f4-6870-574a-af80-10fd4a3e3f68",
     "title": "Witchcraft, fast local semantic search on top of SQLite [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/\"> <img alt=\"Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion [R]\" src=\"https://preview.redd.it/5lsf6l5w4c1h1.gif?frame=1&amp;width=140&amp;height=72&amp;auto=webp&amp;s=023b02ee925924f982e6eea09bbeefbe039d00ab\" title=\"Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><ul> <li>Paper: <a href=\"https://arxiv.org/abs/2605.12825\">https://arxiv.org/abs/2605.12825</a></li> <li>Code: <a href=\"https://github.com/chiennv2000/orthrus\">https://github.com/chiennv2000/orthrus</a></li> <li>Disclosure: co-author.</li> </ul> <p>Idea: Inject a trainable diffusion attention module into each layer of a frozen AR Transformer. Both heads share one KV cache. Diffusion head projects K=32 tokens in parallel; AR head verifies in a second pass and accepts the longest matching prefix. Output distribution is provably identical to the base model.</p> <p>Results:</p> <ul> <li>Up to 7.8× TPF, ~6× wall-clock on MATH-500.</li> <li>16% of params trained, &lt;1B tokens, 24h on 8×H200.</li> <li>vs. diffusion LMs (Dream, Fast-dLLM-v2, SDAR, Mercury, Gemini Diffusion): they modify base weights and lose accuracy (Fast-dLLM-v2: -11 pts on MATH-500). Orthrus freezes the backbone; accuracy matches Qwen3-8B exactly.</li> <li>vs. Speculative Decoding (EAGLE-3, DFlash): No external drafter, no separate cache, and zero Time-To-First-Token (TTFT) penalty because we don't have to initialize and sync a separate drafter model. KV overhead is O(1) (~4.5 MiB flat). Acceptance length on MATH-500: 11.7 vs. 7.9 (DFlash) vs. 3.5 (EAGLE-3).</li> <li>Single-step denoising beats multi-step (6.35 vs. 3.53 TPF). KL distillation beats CE on acceptance rate.</li> </ul> <p>Limitations: strictly bounded by the frozen base model (inherits its biases, hallucinations, knowledge gaps); Qwen3-only evaluation; greedy + rejection sampling only.</p> <p><a href=\"https://i.redd.it/5lsf6l5w4c1h1.gif\">https://i.redd.it/5lsf6l5w4c1h1.gif</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Franck_Dernoncourt\"> /u/Franck_Dernoncourt </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/5lsf6l5w4c1h1.gif?frame=1&width=140&height=72&auto=webp&s=023b02ee925924f982e6eea09bbeefbe039d00ab",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d5313382-4d8f-5b5e-9d30-fbd66644b6fd",
-    "title": "PINN is predicting trivial solution for stiff ODE [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1te0tpg/pinn_is_predicting_trivial_solution_for_stiff_ode/",
-    "pubDate": "2026-05-15T16:07:55+00:00",
-    "description": "I am learning physics informed neural networks. Currently, I am solving a simple second ODE (damped harmonic oscillator). The equation is m*d2y/dt2 + mu*dy/dt + k*y = 0 (bcs: y(t=0) = 1, y'(t=0) = 0). I managed to draft a code. The code works for k values upto 50. However, when increased the value beyond 50, PINN is predicting trivial solution. I tried several things: reducing the learning rate, increasing the data points, reusing the weights trained using lower k values, and using a for loop to increase the k value in smaller steps (step size 20). However, none of them helped. Could you help me with this. Thanks in advance. submitted by /u/cae_shot [link] [comments]",
-    "author": "/u/cae_shot",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am learning physics informed neural networks. Currently, I am solving a simple second ODE (damped harmonic oscillator). The equation is m*d2y/dt2 + mu*dy/dt + k*y = 0 (bcs: y(t=0) = 1, y'(t=0) = 0). I managed to draft a code. The code works for k values upto 50. However, when increased the value beyond 50, PINN is predicting trivial solution. I tried several things: reducing the learning rate, increasing the data points, reusing the weights trained using lower k values, and using a for loop to increase the k value in smaller steps (step size 20). However, none of them helped. Could you help me with this. Thanks in advance. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cae_shot\"> /u/cae_shot </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1te0tpg/pinn_is_predicting_trivial_solution_for_stiff_ode/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1te0tpg/pinn_is_predicting_trivial_solution_for_stiff_ode/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
