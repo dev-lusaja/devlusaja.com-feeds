@@ -1,5 +1,37 @@
 [
   {
+    "id": "8453ac35-3417-569f-83e6-25c116824ada",
+    "title": "Stanford Paper review [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sz0yy8/stanford_paper_review_d/",
+    "pubDate": "2026-04-29T14:47:41+00:00",
+    "description": "Has anyone here used Stanford Paper Review before submitting a paper? I just tried it on mine and it gave some useful feedback, but I’m not fully convinced by all the suggestions it made. I’m having a hard time deciding how much of it to actually take seriously. What’s your experience with it? Do you find the feedback reliable? submitted by /u/Few-Annual-157 [link] [comments]",
+    "author": "/u/Few-Annual-157",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone here used Stanford Paper Review before submitting a paper?</p> <p>I just tried it on mine and it gave some useful feedback, but I’m not fully convinced by all the suggestions it made. I’m having a hard time deciding how much of it to actually take seriously.</p> <p>What’s your experience with it? Do you find the feedback reliable?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Few-Annual-157\"> /u/Few-Annual-157 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sz0yy8/stanford_paper_review_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sz0yy8/stanford_paper_review_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "fda22e0e-43ad-5c9f-a407-92b70e49f808",
+    "title": "AeroJAX: JAX-native CFD, differentiable end-to-end. ~560 FPS at 128x128 on CPU [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1sz046n/aerojax_jaxnative_cfd_differentiable_endtoend_560/",
+    "pubDate": "2026-04-29T14:15:57+00:00",
+    "description": "I have been building a JAX based CFD framework for differentiable Navier Stokes simulation inside ML loops such as inverse design and learned closures. The goal is to keep the full solver stack differentiable so it can sit inside optimisation and learning pipelines. Design choices: Fully JAX native with no external dependencies CPU first vectorized implementation End to end differentiability through velocity, pressure, and vorticity fields Navier Stokes (projection method) and LBM (D2Q9) support Brinkman style forcing with smooth masks for geometry handling Currently: 2D incompressible Navier Stokes solver using projection and pressure correction LBM solver integrated into the same framework Performance is CPU bound and grid dependent ~560 FPS at 128x128 ~300 FPS at 512x96 Differentiable flow fields throughout the pipeline Hooks for neural operators and learned corrections inside the solver loop Here is the true value: Inverse design where geometry maps to flow and gradients propagate back to geometry Learning turbulence or residual closures directly in the solver Using CFD as a differentiable data generator for ML systems Hybrid physics and learned models without breaking gradient flow Most CFD and ML pipelines still treat the solver as a black box, which makes gradient based design difficult or impossible. AeroJAX is an attempt to keep the physics structure intact while making the entire pipeline differentiable. submitted by /u/LackSome307 [link] [comments]",
+    "author": "/u/LackSome307",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been building a JAX based CFD framework for differentiable Navier Stokes simulation inside ML loops such as inverse design and learned closures.</p> <p>The goal is to keep the full solver stack differentiable so it can sit inside optimisation and learning pipelines.</p> <p>Design choices:</p> <ul> <li>Fully JAX native with no external dependencies</li> <li>CPU first vectorized implementation</li> <li>End to end differentiability through velocity, pressure, and vorticity fields</li> <li>Navier Stokes (projection method) and LBM (D2Q9) support</li> <li>Brinkman style forcing with smooth masks for geometry handling</li> </ul> <p>Currently:</p> <ul> <li>2D incompressible Navier Stokes solver using projection and pressure correction</li> <li>LBM solver integrated into the same framework</li> <li>Performance is CPU bound and grid dependent <ul> <li>~560 FPS at 128x128</li> <li>~300 FPS at 512x96</li> </ul></li> <li>Differentiable flow fields throughout the pipeline</li> <li>Hooks for neural operators and learned corrections inside the solver loop</li> </ul> <p>Here is the true value:</p> <ul> <li>Inverse design where geometry maps to flow and gradients propagate back to geometry</li> <li>Learning turbulence or residual closures directly in the solver</li> <li>Using CFD as a differentiable data generator for ML systems</li> <li>Hybrid physics and learned models without breaking gradient flow</li> </ul> <p>Most CFD and ML pipelines still treat the solver as a black box, which makes gradient based design difficult or impossible.</p> <p>AeroJAX is an attempt to keep the physics structure intact while making the entire pipeline differentiable.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LackSome307\"> /u/LackSome307 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sz046n/aerojax_jaxnative_cfd_differentiable_endtoend_560/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sz046n/aerojax_jaxnative_cfd_differentiable_endtoend_560/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "43f992e6-6b88-5b77-9c6b-cb3cd07a9338",
     "title": "Am I crazy to think that the UAI authors are confusing the discussion deadline with the rebuttal deadline ? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1syx7n6/am_i_crazy_to_think_that_the_uai_authors_are/",
@@ -236,22 +268,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I built a small pytorch sampler called <strong>dynabatch</strong> after facing this specific batching issue while fine tuning a NLLB-200 600M model. </p> <p>Training on RTX 5090, the largest fixed batch size I could use was 8, any bigger leads to OOM. While training and monitoring using <strong>nvidia-smi ,</strong> it looked like only a few batches were actually stressing the GPU. A lot of the time utilization was much lower. My guess was that fixed batch size was being dictated by the longests source/target examples, while the shorter examples probably had room for more samples per batch. </p> <p>So I tried to make the batch size change as the sequence lengths changed. The gist of the idea is:</p> <ul> <li>sort examples by token length, longest first</li> <li>treat the first batch as “this is the hardest batch that fits”</li> <li>for later, shorter batches, try larger candidate batch sizes</li> <li>use a small XGB regressor to predict memory pressure relative to that first batch</li> <li>pick the largest candidate that stays under a safety threshold</li> </ul> <p>This is mostly meant for encoder-decoder models, especially for MT where source length is often a useful proxy for target length. I would not use this as my first tool for decoder-only models. I think sequence packing is a better winner. </p> <p>In my training benchmark, this gave about <strong>3.3x</strong> throughput improvement over fixed batch training. The number is true to my setup, but I do not think it should be read as a general claim. On collab T4 generation benchmark, the gain was only around <strong>1.06x - 1.21x</strong></p> <p>The regressor is also empirical, it was trained from measured GPU memory usage, so it can be wrong sometimes, and might behave a little differently for some models/tokenizer. But I have added a fallback when it overestimates and throw OOM. (Also added the regressor training notebooks for anyone interested)</p> <p>So, honestly I think this is a very niche tool especially in the decoder-only era, but I hope this helps for people who are training/generating using encoder-decoder MT models. </p> <p>Repo: <a href=\"https://github.com/bendangnuksung/dynabatch\">https://github.com/bendangnuksung/dynabatch</a><br /> PyPI: <a href=\"https://pypi.org/project/dynabatch/\">https://pypi.org/project/dynabatch/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Leather_Loan5314\"> /u/Leather_Loan5314 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy01uz/dynamic_batching_for_encoderdecoder_mt_training/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sy01uz/dynamic_batching_for_encoderdecoder_mt_training/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6c7d2bb0-c849-55b7-8e6a-7697c00c7c6a",
-    "title": "How are you managing long-running preprocessing jobs at scale? Curious what's actually working [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1sxjs4e/how_are_you_managing_longrunning_preprocessing/",
-    "pubDate": "2026-04-27T23:03:40+00:00",
-    "description": "Did anyone actually trial these properly for Machine Learning Jobs before walking away, or was it more of a ‘looked at the docs and noped out’ situation? Specifically curious what the breaking point was — setup complexity, ongoing maintenance, or something else entirely. submitted by /u/krishnatamakuwala [link] [comments]",
-    "author": "/u/krishnatamakuwala",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Did anyone actually trial these properly for Machine Learning Jobs before walking away, or was it more of a ‘looked at the docs and noped out’ situation? Specifically curious what the breaking point was — setup complexity, ongoing maintenance, or something else entirely.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/krishnatamakuwala\"> /u/krishnatamakuwala </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sxjs4e/how_are_you_managing_longrunning_preprocessing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1sxjs4e/how_are_you_managing_longrunning_preprocessing/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
