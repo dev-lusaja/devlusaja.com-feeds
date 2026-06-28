@@ -1,5 +1,21 @@
 [
   {
+    "id": "873a4463-da12-56cc-b818-60e8a726d212",
+    "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/",
+    "pubDate": "2026-06-13T05:06:31+00:00",
+    "description": "Hi, About a year ago I shared my PaddleOCR implementation here. Since then I've made many improvements, and it now supports PP-OCR v3 through the latest v6 models. The official Paddle C++ runtime has a lot of dependencies and is very complex to deploy. To keep things simple I use ncnn for inference, it's much lighter (and faster in my task), makes deployment easy. Hope it's helpful to some of you, and feedback welcome! https://github.com/Avafly/PaddleOCR-ncnn-CPP submitted by /u/Knok0932 [link] [comments]",
+    "author": "/u/Knok0932",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>About a year ago I shared my PaddleOCR implementation here. Since then I've made many improvements, and it now supports PP-OCR v3 through the <strong>latest v6</strong> models.</p> <p>The official Paddle C++ runtime has a lot of dependencies and is very complex to deploy. To keep things simple I use ncnn for inference, it's much lighter (and faster in my task), makes deployment easy.</p> <p>Hope it's helpful to some of you, and feedback welcome!</p> <p><a href=\"https://github.com/Avafly/PaddleOCR-ncnn-CPP\">https://github.com/Avafly/PaddleOCR-ncnn-CPP</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Knok0932\"> /u/Knok0932 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "3ab75423-9cb7-5525-8cc2-b1e3819869c1",
     "title": "Derivative-Free Neural Network Optimization: MNIST Case [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u4fc16/derivativefree_neural_network_optimization_mnist/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u37q7u/having_some_fun_with_lmxomni52bhalo_in_open_webui/\"> <img alt=\"Having some fun with LMX-Omni-52B-Halo in Open WebUI\" src=\"https://preview.redd.it/e2s2xrdm8p6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b2ee0835b303914b950cdbd9297fa86ae2a22dbf\" title=\"Having some fun with LMX-Omni-52B-Halo in Open WebUI\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jfowers_amd\"> /u/jfowers_amd </a> <br /> <span><a href=\"https://i.redd.it/e2s2xrdm8p6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u37q7u/having_some_fun_with_lmxomni52bhalo_in_open_webui/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/e2s2xrdm8p6h1.png?width=640&crop=smart&auto=webp&s=b2ee0835b303914b950cdbd9297fa86ae2a22dbf",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b933c787-2c00-5708-9fc6-b8e04b3b0a37",
-    "title": "New models released: Nex-N2 Pro 397B and Nex-N2 Mini 35B",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u37ckw/new_models_released_nexn2_pro_397b_and_nexn2_mini/",
-    "pubDate": "2026-06-11T18:33:14+00:00",
-    "description": "They are FTs of Qwen3.5 and the benchmarks look pretty good https://huggingface.co/nex-agi/Nex-N2-mini https://huggingface.co/nex-agi/Nex-N2-Pro submitted by /u/1ncehost [link] [comments]",
-    "author": "/u/1ncehost",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u37ckw/new_models_released_nexn2_pro_397b_and_nexn2_mini/\"> <img alt=\"New models released: Nex-N2 Pro 397B and Nex-N2 Mini 35B\" src=\"https://preview.redd.it/cb53k5st5p6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=db8502e9a3a124659e29016c7a9bed2459f8ee62\" title=\"New models released: Nex-N2 Pro 397B and Nex-N2 Mini 35B\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>They are FTs of Qwen3.5 and the benchmarks look pretty good</p> <p><a href=\"https://huggingface.co/nex-agi/Nex-N2-mini\">https://huggingface.co/nex-agi/Nex-N2-mini</a></p> <p><a href=\"https://huggingface.co/nex-agi/Nex-N2-Pro\">https://huggingface.co/nex-agi/Nex-N2-Pro</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/1ncehost\"> /u/1ncehost </a> <br /> <span><a href=\"https://i.redd.it/cb53k5st5p6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u37ckw/new_models_released_nexn2_pro_397b_and_nexn2_mini/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/cb53k5st5p6h1.png?width=640&crop=smart&auto=webp&s=db8502e9a3a124659e29016c7a9bed2459f8ee62",
     "isShortVideo": 0
   }
 ]

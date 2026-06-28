@@ -1,5 +1,21 @@
 [
   {
+    "id": "75790665-2a10-5d9d-8b17-282cc078ce57",
+    "title": "Looking for a Quant Research / Development Partner for a Cross-Asset Regime Framework [d]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u82tlx/looking_for_a_quant_research_development_partner/",
+    "pubDate": "2026-06-17T06:57:00+00:00",
+    "description": "I'm working on a side project in systematic investing and market-state modeling. Over the last several months I've developed: An investment philosophy and alpha framework A quantitative model specification An engineering and implementation specification The project focuses on understanding market states, cross-asset relationships, risk, liquidity, volatility, and portfolio allocation. The goal is to build and test a robust systematic framework across global equities, bonds, commodities, and FX. A few things: I am not a professional quant. I do not come from a mathematics or computer science background. However, I've spent a significant amount of time researching and structuring the framework and can discuss the reasoning behind it in detail. I am not looking to hire someone. I am not offering freelance work. I'm looking for someone who finds the problem interesting and may be interested in building something together. Ideally: Quant researcher Quant developer ML engineer Systematic trader Statistical or data-science background At this stage I'm mainly looking for honest feedback, discussion, and potentially a technical collaborator if there is a strong fit. Happy to share more details privately. submitted by /u/Electrical_One_5837 [link] [comments]",
+    "author": "/u/Electrical_One_5837",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm working on a side project in systematic investing and market-state modeling.</p> <p>Over the last several months I've developed:</p> <ul> <li>An investment philosophy and alpha framework</li> <li>A quantitative model specification</li> <li>An engineering and implementation specification</li> </ul> <p>The project focuses on understanding market states, cross-asset relationships, risk, liquidity, volatility, and portfolio allocation.</p> <p>The goal is to build and test a robust systematic framework across global equities, bonds, commodities, and FX.</p> <p>A few things:</p> <ul> <li>I am not a professional quant.</li> <li>I do not come from a mathematics or computer science background.</li> <li>However, I've spent a significant amount of time researching and structuring the framework and can discuss the reasoning behind it in detail.</li> <li>I am not looking to hire someone.</li> <li>I am not offering freelance work.</li> <li>I'm looking for someone who finds the problem interesting and may be interested in building something together.</li> </ul> <p>Ideally:</p> <ul> <li>Quant researcher</li> <li>Quant developer</li> <li>ML engineer</li> <li>Systematic trader</li> <li>Statistical or data-science background</li> </ul> <p>At this stage I'm mainly looking for honest feedback, discussion, and potentially a technical collaborator if there is a strong fit.</p> <p>Happy to share more details privately.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_One_5837\"> /u/Electrical_One_5837 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u82tlx/looking_for_a_quant_research_development_partner/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u82tlx/looking_for_a_quant_research_development_partner/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0989bd44-1946-5a88-8028-c24f1e4a2094",
     "title": "Mel AI just shared a demo of video-native AI characters that can talk, react, and respond to camera context in real time [N]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u81afi/mel_ai_just_shared_a_demo_of_videonative_ai/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Just thought I'd highlight this issue to the ML community, since I recently had this problem arise and it might be useful for some.</p> <p>I had a coauthor who I knew was somewhat untrustworthy when it came to LLM use. This coauthor added some last-minute new references to the paper. The deadline was near, and I had a ton of other stuff to take care of. I asked them to ensure the references were correct. This coauthor confirmed that all references were correct. I trusted them. I submitted the paper.</p> <p>Turns out, I made a critical mistake in trusting them. All of these newly added references had hallucinations in them. The reviewer pointed out the hallucinated references and we withdrew the paper. Besides this reviewer, we had all accept scores: the scientific content of our paper was strong. Of course, this damages my reputation and the reputations of the rest of the coauthors.</p> <p>I was the first author and did &gt;90% of the work on this paper over 2.5 years. This coauthor did maybe 5% of the work. </p> <p>The takeaway is: check *all* references added to the paper, unless you are absolutely certain you can trust someone to not use LLMs. Hopefully this helps someone avoid this issue, because I worked tirelessly on this paper, in a very high pressure lab environment, and this whole situation has caused me a lot of grief.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/treeman0469\"> /u/treeman0469 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "873a4463-da12-56cc-b818-60e8a726d212",
-    "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/",
-    "pubDate": "2026-06-13T05:06:31+00:00",
-    "description": "Hi, About a year ago I shared my PaddleOCR implementation here. Since then I've made many improvements, and it now supports PP-OCR v3 through the latest v6 models. The official Paddle C++ runtime has a lot of dependencies and is very complex to deploy. To keep things simple I use ncnn for inference, it's much lighter (and faster in my task), makes deployment easy. Hope it's helpful to some of you, and feedback welcome! https://github.com/Avafly/PaddleOCR-ncnn-CPP submitted by /u/Knok0932 [link] [comments]",
-    "author": "/u/Knok0932",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>About a year ago I shared my PaddleOCR implementation here. Since then I've made many improvements, and it now supports PP-OCR v3 through the <strong>latest v6</strong> models.</p> <p>The official Paddle C++ runtime has a lot of dependencies and is very complex to deploy. To keep things simple I use ncnn for inference, it's much lighter (and faster in my task), makes deployment easy.</p> <p>Hope it's helpful to some of you, and feedback welcome!</p> <p><a href=\"https://github.com/Avafly/PaddleOCR-ncnn-CPP\">https://github.com/Avafly/PaddleOCR-ncnn-CPP</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Knok0932\"> /u/Knok0932 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
