@@ -1,5 +1,21 @@
 [
   {
+    "id": "0f92d82b-e9e1-526d-9739-ed16ab272928",
+    "title": "Pyrecall open source tool for detecting catastrophic forgetting during LLM fine-tuning[P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/",
+    "pubDate": "2026-06-10T22:49:52+00:00",
+    "description": "Surprised there's no real tooling for this given how much research exists on continual learning. Built pyrecall to fill the gap. Snapshots skill scores before/after fine-tuning, flags regressions, rolls back LoRA adapters by name. Fully local, no external APIs. v0.1.0, MIT, pip install pyrecall Curious if anyone has thoughts on the benchmark design that's the part I'm least confident about. https://github.com/Arths17/Pyrecall submitted by /u/Level_Frosting_7950 [link] [comments]",
+    "author": "/u/Level_Frosting_7950",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Surprised there's no real tooling for this given how much research exists on continual learning. </p> <p>Built pyrecall to fill the gap. Snapshots skill scores before/after fine-tuning, flags regressions, rolls back LoRA adapters by name. </p> <p>Fully local, no external APIs. v0.1.0, MIT, pip install pyrecall </p> <p>Curious if anyone has thoughts on the benchmark design that's the part I'm least confident about. </p> <p><a href=\"https://github.com/Arths17/Pyrecall\">https://github.com/Arths17/Pyrecall</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Level_Frosting_7950\"> /u/Level_Frosting_7950 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1a720ded-d614-591c-ac26-95cd2b3c36aa",
     "title": "Analysis of the results of the \"Transforming autoencoders\" architecture mentioned by Hilton, for my dissertation. [r]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u2fgx1/analysis_of_the_results_of_the_transforming/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>I have been working on this method based on a hunch along with many llm for quite some time. Though first it was being engineered by me but I was learning in supervised ml area but this hunch took to semi-supervised ml and that to too deep. I then became llm orchestrator of sort while 4 llm's tried to figure it out.</p> <p>I put up a live demo on Hugging Face Spaces where you can try it yourself — set the number of labels, click run, see the accuracy. No installation, no code required. Brief about method</p> <p>Optimus — Graph SSL under Extreme Label Scarcity</p> <blockquote> </blockquote> <p>Key Results (PathMNIST, N=2000, 9 classes)</p> <table><thead> <tr> <th align=\"left\">Labels Total</th> <th align=\"left\">Optimus</th> <th align=\"left\">GCN</th> </tr> </thead><tbody> <tr> <td align=\"left\"></td> <td align=\"left\" colspan=\"2\"></td> </tr> <tr> <td align=\"left\">9(1 per class)</td> <td align=\"left\">73.9</td> <td align=\"left\">60.6</td> </tr> <tr> <td align=\"left\">27(3 per class)</td> <td align=\"left\">77.3</td> <td align=\"left\">68.5</td> </tr> <tr> <td align=\"left\">45(5 per class)</td> <td align=\"left\">79.8</td> <td align=\"left\">77.1</td> </tr> </tbody></table> <p><a href=\"https://huggingface.co/spaces/Keshu007/optimus-graph-ssl\">https://huggingface.co/spaces/Keshu007/optimus-graph-ssl</a></p> <p>Edit : You can can even run the code on your own dataset</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Loner_Indian\"> /u/Loner_Indian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e19ecfa5-3af3-51dc-8b86-21a3e9266e07",
-    "title": "Does it make sense to use alternative quantizations of QAT models? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/",
-    "pubDate": "2026-06-06T18:02:28+00:00",
-    "description": "From TF's website: Quantization aware training emulates inference-time quantization, creating a model that downstream tools will use to produce actually quantized models. So is it designed to work with a very specific quantization method (for Gemma-4, presumably, Google's own)? Or would it make sense to use alternative quantization methods? According to the benchmarks unsloth released, its (alternative) quantizations of Gemma-4-QAT are closer to the QAT fine-tunes, but is this a good thing, or does it defeat the purpose of QAT? submitted by /u/we_are_mammals [link] [comments]",
-    "author": "/u/we_are_mammals",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>From TF's website:</p> <blockquote> <p>Quantization aware training emulates inference-time quantization, creating a model that downstream tools will use to produce actually quantized models.</p> </blockquote> <p>So is it designed to work with a very specific quantization method (for Gemma-4, presumably, Google's own)? Or would it make sense to use alternative quantization methods?</p> <p>According to the benchmarks <em>unsloth</em> released, its (alternative) quantizations of Gemma-4-QAT are closer to the QAT fine-tunes, but is this a good thing, or does it defeat the purpose of QAT?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

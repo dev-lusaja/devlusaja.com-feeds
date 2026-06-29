@@ -1,5 +1,21 @@
 [
   {
+    "id": "dc6b2c25-c68d-53ed-8288-78f21f39e0c9",
+    "title": "Why do frontier AI labs send so many people to conferences? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u67koz/why_do_frontier_ai_labs_send_so_many_people_to/",
+    "pubDate": "2026-06-15T05:33:35+00:00",
+    "description": "Recent years I see plenty of folks from OpenAI and Anthropic attending conferences like ICML/Neurips, yet obviously few are presenting. Are they mainly recruiting? Following emerging research? Curious if anyone with firsthand experience can shed some light on how attendance is justified internally and what the main objectives usually are. submitted by /u/snekslayer [link] [comments]",
+    "author": "/u/snekslayer",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Recent years I see plenty of folks from OpenAI and Anthropic attending conferences like ICML/Neurips, yet obviously few are presenting. Are they mainly recruiting? Following emerging research?</p> <p>Curious if anyone with firsthand experience can shed some light on how attendance is justified internally and what the main objectives usually are.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/snekslayer\"> /u/snekslayer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u67koz/why_do_frontier_ai_labs_send_so_many_people_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u67koz/why_do_frontier_ai_labs_send_so_many_people_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "28a38218-72ba-50dd-8f47-f64aa59daf90",
     "title": "How does the ML community view evolutionary algorithm research? Career implications of an EA PhD? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u66q3l/how_does_the_ml_community_view_evolutionary/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>What it is, in plain words. Your GPU keeps two float vectors for every token of your conversation. That’s the KV cache, and it’s why long contexts eat VRAM: Llama-3.1-8B needs about 0.12 MB per token, so 100k tokens costs 12 GB and a million tokens costs 122 GB. No consumer card holds that, so when it stops fitting, serving stacks quietly delete the oldest tokens. The model isn’t lying when it says “that wasn’t provided.” It really doesn’t have it anymore.<br /> InfiniteKV splits the memory in two, the way a computer does. The most recent 256 tokens stay exact in GPU memory, like hot RAM. Every older token is pressed into a 104-byte record that can live in ordinary RAM or in plain files on your hard disk. The records are searchable: for every new token the model generates, the cache pulls back the most relevant old tokens and the model attends over those plus the recent window. Nothing is ever deleted. At a million tokens that’s roughly 3 GB of records instead of 122 GB of float16, small enough for the machine you already own.<br /> The receipts. Everything below is verified, the code that produced it is in the repo, and every result ships as a JSON receipt with hashes and an environment fingerprint, so you can check nothing was edited after the fact. Run the same commands and compare.<br /> • Past the trained window. Mistral-7B (trained to 32,768) answered a buried passkey at token 76,747. Production-style sliding-window serving answered “not provided in the text.” SmolLM2 (trained to 8,192) answered at 12,048 while its unmodified self printed gibberish.<br /> • Not sitting in the recent window. The key was about 38,000 tokens outside it. Cut the cold retrieval and the same model on the same context starts making things up. Restore it and the key comes back. That ablation is a hard assert in the test suite.<br /> • Not secretly in VRAM. Archive mode keeps the cold records in memory-mapped files on disk. You can ls them: 640 MB of files on the drive, 11.5 MB of signatures in VRAM where float16 would have needed 461 MB.<br /> • Reasoning over retrieved memory. Algebra at temperature 0: x is defined 2,700 tokens before the question and the model computes 3x + 5 = 56 from the compressed cache, same as the unmodified model. The word problem is my favorite transcript: the figures (240 sacks a day, 16 per cart) sit 3,000 tokens back, and the model quotes both numbers word for word out of the compressed records, then divides: 15. Verbatim transcripts in the repo.<br /> • Output quality. Full-vocab KL divergence against the unmodified model: median around 0.002, and at 8k context the drift goes down, not up. Top-1 agreement about 0.95. Greedy decode matches token for token in the equivalence gate.<br /> • Weights untouched. SHA-256 over every tensor before enable and after disable. Byte-exact.<br /> Why only seven models. Short version: budget. My machine is a Dell Precision laptop with a 16 GB RTX 3080, so I certified everything that fits on it, and rented a RunPod box for the two big ones. Six certified plus the small one I use for the wall test. Instead of getting overwhelmed trying to cover every LLM out there, I’d rather give you solid proof on a few and a clear list of where it’s weak. Also, my own local LLM is running on this cache right now as my daily driver, and in a few weeks I’ll post the real-world benchmark that actually matters: weeks of normal use.<br /> One knob. top_k_cold sets how many cold records come back per generated token. It auto-tunes to the model (32 to 64, the settings all the published numbers were measured at). The cache compresses tokens, not facts, and one fact is about a dozen tokens, so the default basket holds a fact comfortably. If your documents are dense with facts, contracts, reference docs, code with many definitions, turn it up to 96 and the basket just gets bigger, for a modest speed cost.<br /> Try it in one click. There’s a Colab badge at the top of the repo. Free T4, about ten minutes: it buries a passkey and retrieves it, measures the KL divergence in front of you, verifies the weights byte for byte, answers from disk files past the trained window, and prints the memory bill. Everything else, including every transcript and benchmark command, is here: &lt;github.com/QLNI/InfiniteKV&gt;<br /> What it isn’t. It’s not perfect and it isn’t going to be perfect yet. I’m attaching something these models were never trained for. The reference implementation is plain PyTorch and slow; if you write a CUDA or C++ kernel for the Hamming scan, I’ll take that PR gladly. Sliding-window models get the hot tier only, and MLA models need an adapted method I haven’t built.<br /> And yes, I used Claude while building this. It’s a tool and it helped. I know how to write code and I’m not dependent on it. Either way, every number above comes from a test you can run yourself, which is the only part that should matter in my opinion.<br /> Fair warning: the repo is a bit poetic. Hope you don’t judge it on that. I just don’t like my repo looking boring to me, and I had some extra time, so I worked on it.<br /> Hope it helps someone. Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Final-Data-1410\"> /u/Final-Data-1410 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3nicr/open_sourcing_infinitekv_a_kv_cache_that_files/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3nicr/open_sourcing_infinitekv_a_kv_cache_that_files/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5dc8c1fd-1d07-52a8-89ab-74632ef13879",
-    "title": "LLM context compression at 16x beats KV cache",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3mxum/llm_context_compression_at_16x_beats_kv_cache/",
-    "pubDate": "2026-06-12T06:02:48+00:00",
-    "description": "submitted by /u/DeltaSqueezer [link] [comments]",
-    "author": "/u/DeltaSqueezer",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeltaSqueezer\"> /u/DeltaSqueezer </a> <br /> <span><a href=\"https://venturebeat.com/data/context-compression-finally-works-in-production-new-research-cuts-llm-input-16x-without-the-accuracy-hit\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3mxum/llm_context_compression_at_16x_beats_kv_cache/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

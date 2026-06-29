@@ -1,5 +1,21 @@
 [
   {
+    "id": "0e147773-ff46-58bb-8484-fcdad8b71d27",
+    "title": "Non-deterministic Vulnerability Detection Benchmark System [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/",
+    "pubDate": "2026-06-22T23:34:50+00:00",
+    "description": "I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to polish it up and show it off. I was hoping some more AI focused people could check it out, tell me if it's duplicate work, or if it is worth putting some time into and finishing. Also happy for some help too. The rundown of the code is that it is Juliet code that's been \"hidden\" to look somewhat like a real codebase, removing LLM's natural advantage when viewing known CWEs, while preserving the \"ground truth\" associated with Juliet. I also used an LLM to inject comments into the code in accurate, misleading, or neutral sentiments, allowing the user to examine how comments and plain English data can manipulate an LLMs ability to identify a CWE. There are a couple hundred CWEs, generally enough code to fill up the input context, the work that needs to be done is around presentation, actual benchmarking of publish LLMs, and possibly pruning of a couple CWEs that might occasionally get caught by certain LLMs as Juliet code still. Here's the project. Hopefully this doesn't break rule 6. I am not a regular here, just looking for advice. submitted by /u/Psychological_Meat_6 [link] [comments]",
+    "author": "/u/Psychological_Meat_6",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to polish it up and show it off.</p> <p>I was hoping some more AI focused people could check it out, tell me if it's duplicate work, or if it is worth putting some time into and finishing. Also happy for some help too. </p> <p>The rundown of the code is that it is Juliet code that's been &quot;hidden&quot; to look somewhat like a real codebase, removing LLM's natural advantage when viewing known CWEs, while preserving the &quot;ground truth&quot; associated with Juliet. I also used an LLM to inject comments into the code in accurate, misleading, or neutral sentiments, allowing the user to examine how comments and plain English data can manipulate an LLMs ability to identify a CWE. </p> <p>There are a couple hundred CWEs, generally enough code to fill up the input context, the work that needs to be done is around presentation, actual benchmarking of publish LLMs, and possibly pruning of a couple CWEs that might occasionally get caught by certain LLMs as Juliet code still.</p> <p><a href=\"https://github.com/galen-f/vulnerable-project\">Here's the project.</a> Hopefully this doesn't break rule 6. I am not a regular here, just looking for advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Psychological_Meat_6\"> /u/Psychological_Meat_6 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "55544605-8e92-5930-9c1d-332a02088d43",
     "title": "Syntactically robust NLI for semantics of imperfectly generated text? [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been thinking a lot about how poorly isolated benchmark metrics capture real conversational system quality once models are deployed into multi-turn environments. </p> <p>You can have strong STT scores, decent latency, high task completion rates, and still end up with conversations that humans perceive as frustrating or unnatural. In practice, many failures are emergent properties of the interaction itself rather than single model errors. </p> <p>Small timing mistakes accumulate. Repeated confirmations create friction. Slightly unnatural turn taking changes user behavior. None of these issues show up particularly well in traditional benchmarks. </p> <p>What surprised me is how much more useful voice debugging became compared to aggregate metrics once we started testing larger volumes of real interactions. </p> <p>I have been experimenting with automated conversation-level QA recently because manually reviewing long conversational traces became difficult to scale internally. A lot of our voice debugging efforts now focus on identifying recurring conversational patterns rather than individual model failures. </p> <p>Curious whether others working on conversational systems are also finding current evaluation approaches insufficient for production settings.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OwlZealousideal4779\"> /u/OwlZealousideal4779 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u99fe5/voice_debugging_at_the_conversation_level_seems/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u99fe5/voice_debugging_at_the_conversation_level_seems/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e61fa9a0-ccc1-592c-972a-32c2c3d4aa77",
-    "title": "Is ACL now irrelevant? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/",
-    "pubDate": "2026-06-18T11:52:27+00:00",
-    "description": "I just read in a comment of another Post that an ACL paper is considered a weak signal in the community apparently, and having an ACL first author paper is not a great plus for improving chances at finding a PhD position. Is this some kind of ragebait or is academia becoming more and more insane on a daily basis?? ​ ACL is an A+ venue. Sure, it's not as big as Nips, ICML, ICLR or CVPR, fair point, but it's not some regional B conference... ​ I know a lot of folks in \"classical\" CS have an issue with AI venues, as they are receiving more focus in recent years than ICSE or FSE, and hence all AI papers must be bad and very unscientific. submitted by /u/H4RZ3RK4S3 [link] [comments]",
-    "author": "/u/H4RZ3RK4S3",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I just read in a comment of another Post that an ACL paper is considered a weak signal in the community apparently, and having an ACL first author paper is not a great plus for improving chances at finding a PhD position. Is this some kind of ragebait or is academia becoming more and more insane on a daily basis??</p> <p>&#x200b;</p> <p>ACL is an A+ venue. Sure, it's not as big as Nips, ICML, ICLR or CVPR, fair point, but it's not some regional B conference...</p> <p>&#x200b;</p> <p>I know a lot of folks in &quot;classical&quot; CS have an issue with AI venues, as they are receiving more focus in recent years than ICSE or FSE, and hence all AI papers must be bad and very unscientific.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/H4RZ3RK4S3\"> /u/H4RZ3RK4S3 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

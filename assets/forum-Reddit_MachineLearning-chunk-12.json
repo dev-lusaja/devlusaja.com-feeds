@@ -1,5 +1,21 @@
 [
   {
+    "id": "f014813d-3d0c-54c2-b7ac-73220e5f79de",
+    "title": "What do you think about Tabular Foundation Models [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
+    "pubDate": "2026-05-19T14:20:20+00:00",
+    "description": "I've seen TabPFN-3's recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance that those models achieve is really amazing. What makes me a little suspicious about them? They can analyze small datasets only, so a few MB of data, and you need to have a large GPU machine and download a few GB of model to predict on a few MB of data. That doesn't sound rational ... I really miss the old school approach of running a single decision tree or a linear model on the data. What do you think about it? Do you think feature engineering + classic ML can achieve performance comparable to that of foundation models? Maybe with better explainability? submitted by /u/pplonski [link] [comments]",
+    "author": "/u/pplonski",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've seen TabPFN-3's recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance that those models achieve is really amazing. What makes me a little suspicious about them? They can analyze small datasets only, so a few MB of data, and you need to have a large GPU machine and download a few GB of model to predict on a few MB of data. That doesn't sound rational ... I really miss the old school approach of running a single decision tree or a linear model on the data.</p> <p>What do you think about it? Do you think feature engineering + classic ML can achieve performance comparable to that of foundation models? Maybe with better explainability?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pplonski\"> /u/pplonski </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d70fb92f-f632-5629-b3b4-303eaeeedabb",
     "title": "All fundamental knowledge in ML Course by Andrew NG that I noted and create into a repo github [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tho7b2/all_fundamental_knowledge_in_ml_course_by_andrew/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>So see, I’ve learned ML algorithms theoretically, but practically I have little to no experience. So can you guys suggest some resources through which I can understand which algorithms work well on which kinds of datasets? How is everything done step by step?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoAnybody8034\"> /u/NoAnybody8034 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfpuo1/help_in_ml_algos_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfpuo1/help_in_ml_algos_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5042b338-f91d-5a23-9cc5-b2a02adf7b1c",
-    "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-    "pubDate": "2026-05-17T11:26:46+00:00",
-    "description": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automatically safer. They have their own issues. But the DeepSeek thing is specifically a shared infrastructure problem, and its worth thinking about whether the tools you use share that architecture. submitted by /u/Ill_Awareness6706 [link] [comments]",
-    "author": "/u/Ill_Awareness6706",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security.</p> <p>The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context.</p> <p>Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place.</p> <p>Not saying local or isolated tools are automatically safer. They have their own issues. But the DeepSeek thing is specifically a shared infrastructure problem, and its worth thinking about whether the tools you use share that architecture.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ill_Awareness6706\"> /u/Ill_Awareness6706 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

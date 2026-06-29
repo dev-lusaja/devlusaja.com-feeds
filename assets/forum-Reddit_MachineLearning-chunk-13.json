@@ -1,5 +1,21 @@
 [
   {
+    "id": "5042b338-f91d-5a23-9cc5-b2a02adf7b1c",
+    "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+    "pubDate": "2026-05-17T11:26:46+00:00",
+    "description": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automatically safer. They have their own issues. But the DeepSeek thing is specifically a shared infrastructure problem, and its worth thinking about whether the tools you use share that architecture. submitted by /u/Ill_Awareness6706 [link] [comments]",
+    "author": "/u/Ill_Awareness6706",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security.</p> <p>The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context.</p> <p>Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place.</p> <p>Not saying local or isolated tools are automatically safer. They have their own issues. But the DeepSeek thing is specifically a shared infrastructure problem, and its worth thinking about whether the tools you use share that architecture.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ill_Awareness6706\"> /u/Ill_Awareness6706 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8be811b9-b41a-5576-afb8-76adbb266101",
     "title": "ML lead vs PM on eval-methodology layer independence. who's actually right here? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tfkgbx/ml_lead_vs_pm_on_evalmethodology_layer/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We've helped some folks with synthetic data for a number of different projects and some of them for &quot;document data&quot;. Like annotated PDFs, PNGs. Tax forms, health forms. Especially things with PII that are hard to get because of obvious privacy concerns. So, we came up with an engine to build a simulation and then extract the data from that simulation.</p> <p>We're trying to make sure our pipeline fits into a normal training pipeline, so I'm curious about your workflows or training pipelines. Today we output in formats consistent with FUNSD, BIO, YOLO (like v5 and higher), Donut, COCO, etc. Are we shooting for the right stuff, or are people training for something different that could use a different format or ontology or something?</p> <p>Other things we're trying to figure out are like is a PyPi SDK package useful, do people just use the API and not care, shut up and give me a zip file? :-)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bgeisel1\"> /u/bgeisel1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc92u9/what_kinds_of_models_are_people_training_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc92u9/what_kinds_of_models_are_people_training_with/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "afeeba37-9164-592f-ad07-69e51b5b13ea",
-    "title": "Have the \"on-hold\" durations been getting longer for arXiv submissions? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tc91ok/have_the_onhold_durations_been_getting_longer_for/",
-    "pubDate": "2026-05-13T18:51:42+00:00",
-    "description": "I have a paper that has been \"on-hold\" for about 2 weeks now. I understand that it might take a little longer now because of inundation of AI generated low-effort papers but my papers have gone from \"on-hold\" to \"submitted\" within a couple of days in the past. Wondering if anyone else is facing the same issue. submitted by /u/Megixist [link] [comments]",
-    "author": "/u/Megixist",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a paper that has been &quot;on-hold&quot; for about 2 weeks now. I understand that it might take a little longer now because of inundation of AI generated low-effort papers but my papers have gone from &quot;on-hold&quot; to &quot;submitted&quot; within a couple of days in the past. Wondering if anyone else is facing the same issue.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Megixist\"> /u/Megixist </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc91ok/have_the_onhold_durations_been_getting_longer_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tc91ok/have_the_onhold_durations_been_getting_longer_for/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
