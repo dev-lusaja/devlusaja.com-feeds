@@ -1,5 +1,21 @@
 [
   {
+    "id": "9255b2b0-b25d-5b80-a51f-818e07a294d5",
+    "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
+    "link": "https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/",
+    "pubDate": "2026-05-14T19:24:35+00:00",
+    "description": "Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations,...",
+    "author": "Graham Steele",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/nvidia-vera-rubin-pod-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-vera-rubin-pod\" width=\"768\" />Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/nvidia-vera-rubin-pod-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-vera-rubin-pod\" width=\"768\" /><p>Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations, and decisions that an AI agent produces while working through a task. These trajectories compound end-to-end latency across hundreds of inference requests per session. NVIDIA Vera Rubin NVL72 handles the bulk of that inference load as…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "85ab99e8-0175-5e39-8ced-b67ae3a2c74e",
     "title": "Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials",
     "link": "https://developer.nvidia.com/blog/accelerated-x-ray-analysis-for-nanoscale-imaging-xani-of-novel-materials/",
@@ -252,22 +268,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"A person working on code on their computer.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Automate-Agent-Workflow\" width=\"768\" />NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and...<img alt=\"A person working on code on their computer.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Automate-Agent-Workflow\" width=\"768\" /><p>NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and matrix multiply-accumulate—rather than manually coordinating threads, warps, and shared memory. cuTile.jl brings the same tile-based approach to the dynamic programming language Julia. Users can write custom GPU kernels without dropping…</p>\n<p><a href=\"https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "40d0729b-9da7-5590-b0b4-e3165d9428a8",
-    "title": "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
-    "link": "https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/",
-    "pubDate": "2026-04-29T16:41:57+00:00",
-    "description": "The next wave of enterprise productivity is being built on AI factories. As organizations deploy agentic AI systems capable of reasoning, automation, and...",
-    "author": "Shashank Sabhlok",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A person working on a data center rack.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Factory\" width=\"768\" />The next wave of enterprise productivity is being built on AI factories. As organizations deploy agentic AI systems capable of reasoning, automation, and...<img alt=\"A person working on a data center rack.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Factory\" width=\"768\" /><p>The next wave of enterprise productivity is being built on AI factories. As organizations deploy agentic AI systems capable of reasoning, automation, and real-time decision-making at scale, competitive advantage increasingly depends on the infrastructure that supports them. Success requires more than raw compute. It demands a scalable, predictable foundation that can orchestrate intelligent…</p>\n<p><a href=\"https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
