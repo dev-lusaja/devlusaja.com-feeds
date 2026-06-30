@@ -1,5 +1,21 @@
 [
   {
+    "id": "ec034407-ce9c-5573-be0f-afe495dc2923",
+    "title": "Open models to win ✌",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz6h86/open_models_to_win/",
+    "pubDate": "2026-06-07T08:27:51+00:00",
+    "description": "submitted by /u/pmttyji [link] [comments]",
+    "author": "/u/pmttyji",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz6h86/open_models_to_win/\"> <img alt=\"Open models to win ✌\" src=\"https://preview.redd.it/uytuno9rlt5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=814044c0800edb59629d18d7538912e26e3566c2\" title=\"Open models to win ✌\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmttyji\"> /u/pmttyji </a> <br /> <span><a href=\"https://i.redd.it/uytuno9rlt5h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz6h86/open_models_to_win/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/uytuno9rlt5h1.jpeg?width=640&crop=smart&auto=webp&s=814044c0800edb59629d18d7538912e26e3566c2",
+    "isShortVideo": 0
+  },
+  {
     "id": "2a013e0e-2791-5731-a4e9-7e6b9b984266",
     "title": "Opus 4.8 without a system message can get a bit... quirky",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz5wz2/opus_48_without_a_system_message_can_get_a_bit/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I kept running into the same friction with Claude Code: it'd generate something nice (an HTML mockup, a report, a plot, a one-pager) and then I'd have to manually save it, find somewhere to host it, and send a link. So I built <a href=\"http://pidgin.sh\">pidgin.sh</a>, a service plus an agent skill that lets Claude upload a file and hand back a public URL in one step.</p> <p><strong>What it does</strong></p> <ul> <li>You install the pidgin-share skill (npx skills add pidgin-sh/skills -g — works in Claude Code, Cursor, Codex, etc.).</li> <li>Ask Claude: &quot;share this file as a pidgin URL&quot;.</li> <li>It uploads via the API and prints back something like jane.pidgin.sh/abc123/report.html. Each user gets their own subdomain; URLs include a random privacy token so they're unlisted by default.</li> <li>Paid plans add a response channel: artifacts can collect replies (polls, approvals, design picks, RSVPs) and the agent waits for the results before continuing.</li> </ul> <p><strong>How Claude helped</strong></p> <p>I wrote the whole thing in Claude Code — the Cloudflare Workers backend (R2 + D1 + KV), the GitHub OAuth + Stripe billing wiring, the dashboard UI, the skill itself, the docs.</p> <p>Link: <a href=\"https://pidgin.sh\">https://pidgin.sh</a></p> <p>Skill repo: <a href=\"https://github.com/pidgin-sh/skills\">https://github.com/pidgin-sh/skills</a></p> <p>Happy to answer questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bradleyboy\"> /u/bradleyboy </a> <br /> <span><a href=\"https://pidgin.sh/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyqblc/built_with_claude_code_pidginsh_let_claude_share/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b954db35-e97d-5608-aeba-ab17b0311449",
-    "title": "Sources for ML news? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/",
-    "pubDate": "2026-06-06T19:19:43+00:00",
-    "description": "I need a break from social media and all the bots.. Aside from Arxiv are there any sources that do a good job of aggregating the good stuff and filtering out all the junk? submitted by /u/Tiny_Arugula_5648 [link] [comments]",
-    "author": "/u/Tiny_Arugula_5648",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I need a break from social media and all the bots.. Aside from Arxiv are there any sources that do a good job of aggregating the good stuff and filtering out all the junk? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tiny_Arugula_5648\"> /u/Tiny_Arugula_5648 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

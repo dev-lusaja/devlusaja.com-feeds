@@ -1,5 +1,21 @@
 [
   {
+    "id": "bfb80266-4034-5cca-af30-9b0574a0bcab",
+    "title": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
+    "pubDate": "2026-06-03T17:28:03+00:00",
+    "description": "I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding with the track leadership and reading their public blog post, I think the broader methodological issue is worth discussing here. The track used Pangram, a proprietary AI-text detector, as part of the desk-rejection process. I was told that the materials considered for desk rejection were: the detector output the authors’ AI-use attestation This creates a potential circularity problem. If a high detector score is used to judge the author’s attestation as inconsistent, and that inconsistency is then used to justify desk rejection, the detector is not just an aid. It becomes a decisive part of the adjudication process. The bigger issue is validation. The NeurIPS blog describes tests using Pangram audits, older ACM FAccT papers, synthetic AI-generated position papers, and manually edited samples. But the target population was NeurIPS 2026 Position Paper submissions, whose ground-truth authorship process is unknown. So the key question is: What is the false-positive rate of the final decision procedure on the actual target distribution? A false-positive rate measured on one distribution does not automatically transfer to another. If the actual submission pool produced a \"surprisingly high flagged rate\" (citation from NeurIPS blog post), that could indicate distribution shift / miscalibration. To sanity-check the detector’s behavior, I also ran Pangram on recent 2026 papers authored by NeurIPS Position Paper Track Chairs. Pangram returned scores including: 69% AI 45% AI 36% AI 24% AI I am not claiming those papers were AI-written. For me, Pangram’s outputs alone does not permit such a conclusion. And that is exactly the point. UPD: Here is NeurIPS original blogpost And here is the blogpost with the detailed critics submitted by /u/Asleep-Requirement13 [link] [comments]",
+    "author": "/u/Asleep-Requirement13",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding with the track leadership and reading their public blog post, I think the broader methodological issue is worth discussing here.</p> <p>The track used Pangram, a proprietary AI-text detector, as part of the desk-rejection process. I was told that the materials considered for desk rejection were:</p> <ul> <li>the detector output</li> <li>the authors’ AI-use attestation</li> </ul> <p>This creates a potential circularity problem. If a high detector score is used to judge the author’s attestation as inconsistent, and that inconsistency is then used to justify desk rejection, the detector is not just an aid. It becomes a decisive part of the adjudication process.</p> <p>The bigger issue is validation.</p> <p>The NeurIPS blog describes tests using Pangram audits, older ACM FAccT papers, synthetic AI-generated position papers, and manually edited samples. But the target population was NeurIPS 2026 Position Paper submissions, whose ground-truth authorship process is unknown.</p> <p>So the key question is:</p> <p><strong>What is the false-positive rate of the final decision procedure on the actual target distribution?</strong></p> <p>A false-positive rate measured on one distribution does not automatically transfer to another. If the actual submission pool produced a &quot;surprisingly high flagged rate&quot; (citation from NeurIPS blog post), that could indicate distribution shift / miscalibration.</p> <p>To sanity-check the detector’s behavior, I also ran Pangram on recent 2026 papers authored by NeurIPS Position Paper Track Chairs. Pangram returned scores including:</p> <ul> <li>69% AI</li> <li>45% AI</li> <li>36% AI</li> <li>24% AI</li> </ul> <p>I am <strong>not</strong> claiming those papers were AI-written. For me, Pangram’s outputs alone does not permit such a conclusion. And that is exactly the point.</p> <p>UPD:</p> <p>Here is <a href=\"https://blog.neurips.cc/2026/06/02/ai-generated-papers-in-the-neurips-2026-position-paper-track/\">NeurIPS original blogpost</a></p> <p>And here is the<a href=\"https://www.linkedin.com/pulse/we-shouldnt-desk-reject-papers-based-unvalidated-ai-sergey-berezin-orc6e/\"> blogpost with the detailed critics</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Asleep-Requirement13\"> /u/Asleep-Requirement13 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4596f683-4fc8-547b-95f0-bbf0fd77a6f4",
     "title": "Analysis of AlphaZero training data [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tvw6sc/analysis_of_alphazero_training_data_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuogs/built_an_ai_accelerator_and_opensourced_it_p/\"> <img alt=\"Built an AI Accelerator and opensourced it. [P]\" src=\"https://preview.redd.it/8i71trcl0h4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ed23f40c9a5852636de34942621d637e2a1a5fc7\" title=\"Built an AI Accelerator and opensourced it. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>There is a huge gap in open source AI accelerators, so I implemented <a href=\"https://github.com/AhmedZeer/atik\">mine</a>.</p> <p>Popular and well known ones are already legacy and doesn't support contemporary operations like Attention.</p> <p>Here is what makes mine special:</p> <ul> <li> <strong>Attention</strong> mechanism smelted directly into silicon</li> <li>Prototyped end-to-end on <strong>FPGA</strong> (AWS F2)</li> <li>Benchmarked against <strong>PyTorch</strong>-based workloads</li> <li>Built on the <strong>RocketChip</strong> architecture (RISC-V)</li> <li>Native <strong>BF16</strong> support</li> <li>Up to <strong>225×</strong> speedup on vanilla attention mechanism</li> <li>Up to <strong>96×</strong> speedup on TinyBERT</li> <li>Up to <strong>50×</strong> speedup on ViT Up to <strong>30×</strong> speedup on GPT-2 prefill</li> </ul> <p>I would really appreciate it if you check the <a href=\"https://github.com/AhmedZeer/atik\">repo</a> and give me feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Barrnie\"> /u/Barrnie </a> <br /> <span><a href=\"https://i.redd.it/8i71trcl0h4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuogs/built_an_ai_accelerator_and_opensourced_it_p/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/8i71trcl0h4h1.png?width=640&crop=smart&auto=webp&s=ed23f40c9a5852636de34942621d637e2a1a5fc7",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fe93c0ea-a4fc-5749-a813-0a6bbe1e8c2b",
-    "title": "When are ICML openreviews made public? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/",
-    "pubDate": "2026-05-31T12:52:47+00:00",
-    "description": "First time, so no idea. submitted by /u/camelCasedUser [link] [comments]",
-    "author": "/u/camelCasedUser",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>First time, so no idea.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/camelCasedUser\"> /u/camelCasedUser </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

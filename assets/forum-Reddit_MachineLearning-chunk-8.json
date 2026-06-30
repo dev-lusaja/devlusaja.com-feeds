@@ -1,5 +1,21 @@
 [
   {
+    "id": "fe93c0ea-a4fc-5749-a813-0a6bbe1e8c2b",
+    "title": "When are ICML openreviews made public? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/",
+    "pubDate": "2026-05-31T12:52:47+00:00",
+    "description": "First time, so no idea. submitted by /u/camelCasedUser [link] [comments]",
+    "author": "/u/camelCasedUser",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>First time, so no idea.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/camelCasedUser\"> /u/camelCasedUser </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "27f5529a-d994-5a94-94ac-0a886af2da54",
     "title": "How would you model this \"strand\" clustering problem? [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tst8w4/how_would_you_model_this_strand_clustering/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm hoping for some advice from any former PhD's outside of machine learning. If you made it into machine learning engineering and/or data science, what was the key for you? Any tips for this job market? It seems like non computer science PhD's are especially in trouble at the moment. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Fan_9587\"> /u/Electrical_Fan_9587 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpnuhi/stem_phds_transitioning_to_mledata_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpnuhi/stem_phds_transitioning_to_mledata_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "68b1c75e-15c6-539e-8eab-14db778479cd",
-    "title": "BEAM 100K memory benchmark: CSM vs Hindsight local artifact comparison [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tpjx2m/beam_100k_memory_benchmark_csm_vs_hindsight_local/",
-    "pubDate": "2026-05-27T21:53:42+00:00",
-    "description": "[R] BEAM 100K memory benchmark: CSM vs Hindsight local artifact comparison I’m looking for feedback on a local agent-memory benchmark comparison, especially from people who care about evaluation methodology. I built an open-source R&D memory system called Context Swarm Memory (CSM). It uses bounded read-only memory shards, query routing, probe/recall/synthesis, cited packets, and explicit Committer-gated writes. The current comparison is against the accepted local Hindsight artifact on BEAM 100K: CSM: 0.757573 AMB score, 342 / 400 correct Hindsight: 0.733658 AMB score, 326 / 400 correct CSM uses 38.2% fewer answer-visible context tokens CSM is slower: 29.23s average retrieval vs 6.38s I want to be precise about the claim: This is not an official leaderboard claim. It is not a BEAM 10M claim. It is a committed local accepted-artifact comparison at 100K, and the next step should be independent replication or official chart acceptance. Repo: https://github.com/muhamadjawdatsalemalakoum/context-swarm-memory Evidence and reproducibility notes: https://muhamadjawdatsalemalakoum.github.io/context-swarm-memory/ The main question: what would make this comparison scientifically stronger before it is presented as a serious agent-memory result? submitted by /u/keonakoum [link] [comments]",
-    "author": "/u/keonakoum",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>[R] </p> <p>BEAM 100K memory benchmark: CSM vs Hindsight local artifact comparison</p> <p>I’m looking for feedback on a local agent-memory benchmark comparison, especially from people who care about evaluation methodology.</p> <p>I built an open-source R&amp;D memory system called Context Swarm Memory (CSM). It uses bounded read-only memory shards, query routing, probe/recall/synthesis, cited packets, and explicit Committer-gated writes.</p> <p>The current comparison is against the accepted local Hindsight artifact on BEAM 100K:</p> <ul> <li>CSM: 0.757573 AMB score, 342 / 400 correct</li> <li>Hindsight: 0.733658 AMB score, 326 / 400 correct</li> <li>CSM uses 38.2% fewer answer-visible context tokens</li> <li>CSM is slower: 29.23s average retrieval vs 6.38s</li> </ul> <p>I want to be precise about the claim:</p> <p>This is not an official leaderboard claim. It is not a BEAM 10M claim. It is a committed local accepted-artifact comparison at 100K, and the next step should be independent replication or official chart acceptance.</p> <p>Repo:<br /> <a href=\"https://github.com/muhamadjawdatsalemalakoum/context-swarm-memory\">https://github.com/muhamadjawdatsalemalakoum/context-swarm-memory</a></p> <p>Evidence and reproducibility notes:<br /> <a href=\"https://muhamadjawdatsalemalakoum.github.io/context-swarm-memory/\">https://muhamadjawdatsalemalakoum.github.io/context-swarm-memory/</a></p> <p>The main question: what would make this comparison scientifically stronger before it is presented as a serious agent-memory result?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/keonakoum\"> /u/keonakoum </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpjx2m/beam_100k_memory_benchmark_csm_vs_hindsight_local/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tpjx2m/beam_100k_memory_benchmark_csm_vs_hindsight_local/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

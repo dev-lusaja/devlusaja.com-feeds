@@ -1,5 +1,21 @@
 [
   {
+    "id": "b954db35-e97d-5608-aeba-ab17b0311449",
+    "title": "Sources for ML news? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/",
+    "pubDate": "2026-06-06T19:19:43+00:00",
+    "description": "I need a break from social media and all the bots.. Aside from Arxiv are there any sources that do a good job of aggregating the good stuff and filtering out all the junk? submitted by /u/Tiny_Arugula_5648 [link] [comments]",
+    "author": "/u/Tiny_Arugula_5648",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I need a break from social media and all the bots.. Aside from Arxiv are there any sources that do a good job of aggregating the good stuff and filtering out all the junk? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tiny_Arugula_5648\"> /u/Tiny_Arugula_5648 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cb4dad8b-5f84-5a48-a9b4-0e5db474014a",
     "title": "AMD MI50 on Debian Testing is doing great and getting better.",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1typr7o/amd_mi50_on_debian_testing_is_doing_great_and/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I recall in earlier days, q4 was said to be optimal. </p> <p>That is to say, if you have a: </p> <p>small q8 model<br /> medium q4 model<br /> large q2 </p> <p>Assuming they use the same amount of GPU VRAM, medium q4 would be the best-performing model.</p> <p>I also know that Apple (crazy that I am citing Apple here, given how secretive they tend to be) was quite public about using q4 quant models for thier on device. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/takuonline\"> /u/takuonline </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyfnqi/has_there_been_any_recent_new_development_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyfnqi/has_there_been_any_recent_new_development_on/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "57ec1824-11ea-5712-b1a1-105133460173",
-    "title": "Big week for open AI, with 25+ notable open-weight drops across every modality (from Victor M on 𝕏)",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyd1zc/big_week_for_open_ai_with_25_notable_openweight/",
-    "pubDate": "2026-06-06T09:53:05+00:00",
-    "description": "🧠 LLMs → NVIDIA Nemotron 3 Ultra: 550B hybrid Mamba-MoE, only 55B active, 1M context, MMLU 89.1. NVFP4 variant claims ~5x throughput on Blackwell. First openly-weighted 550B hybrid Mamba-Transformer, closing the gap with frontier closed models. → Google Gemma 4 12B: fully open dense any-to-any (text/image/audio/video), 256k context, encoder-free, 140+ languages, AIME 2026 at 77.5. Shipped with a 23-checkpoint QAT wave (mobile ONNX + MLX). Most deployable model of the week. → StepFun Step-3.7-Flash: 198B sparse MoE VLM, ~11B active, SWE-Bench PRO 56.3. Apache 2.0. → Liquid AI LFM2.5-8B-A1B: edge MoE, just 1.5B active, 128k ctx, MATH500 88.8, MLX-ready. Best on-device option this week. → JetBrains Mellum2-12B-A2.5B-Thinking: their first open MoE, near-Qwen3-14B coding at 2.5B active. Apache 2.0. 🎨 Image gen (the surprise of the week) → Ideogram 4: their FIRST-EVER open weights. 9.3B flow-matching DiT trained from scratch. #2 overall behind GPT Image 2, top open-weight model on Design Arena + LMArena. Strongest open checkpoint for text-rich images, full stop. It has taste. Still can't believe this is open weights. 🔊 Audio & Speech (a breakout week for open TTS, 4 labs shipped) → Boson Higgs Audio v3 4B: 102 languages, 21 emotions, singing/whispering/shouting, sub-second TTFA. → RedNote dots.tts: the only fully continuous (no codec) open TTS pipeline, Apache 2.0. → Google Magenta RealTime 2: real-time music gen, <200ms latency, text+audio+MIDI. multimodalart ported it to PyTorch within hours with live ZeroGPU demos. → NVIDIA Nemotron-3.5 ASR: 600M streaming, 17x more concurrent streams vs Parakeet RNNT 1.1B. 👁️ Vision & VLMs → PaddleOCR-VL-1.6: SOTA document parsing at 1B params, Apache 2.0. → Baidu NAVA: 6.3B joint audio-video gen, best-in-class A/V sync, Apache 2.0. 🎬 Video, 3D & World Models → NVIDIA Cosmos3-Super: 64B omnimodal world model coupling action trajectories with video+audio gen, for Physical AI. → JD JoyAI-Echo: up to 5-min multi-shot text-to-video on LTX-2.3. → ByteDance Bernini-R + VAST TripoSplat (single-image-to-3D Gaussian splats, MIT). Victor M on 𝕏: https://x.com/victormustar/status/2063017894221591008 submitted by /u/Nunki08 [link] [comments]",
-    "author": "/u/Nunki08",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>🧠 LLMs</p> <p>→ NVIDIA Nemotron 3 Ultra: 550B hybrid Mamba-MoE, only 55B active, 1M context, MMLU 89.1. NVFP4 variant claims ~5x throughput on Blackwell. First openly-weighted 550B hybrid Mamba-Transformer, closing the gap with frontier closed models.</p> <p>→ Google Gemma 4 12B: fully open dense any-to-any (text/image/audio/video), 256k context, encoder-free, 140+ languages, AIME 2026 at 77.5. Shipped with a 23-checkpoint QAT wave (mobile ONNX + MLX). Most deployable model of the week.</p> <p>→ StepFun Step-3.7-Flash: 198B sparse MoE VLM, ~11B active, SWE-Bench PRO 56.3. Apache 2.0.</p> <p>→ Liquid AI LFM2.5-8B-A1B: edge MoE, just 1.5B active, 128k ctx, MATH500 88.8, MLX-ready. Best on-device option this week.</p> <p>→ JetBrains Mellum2-12B-A2.5B-Thinking: their first open MoE, near-Qwen3-14B coding at 2.5B active. Apache 2.0.</p> <p>🎨 Image gen (the surprise of the week)</p> <p>→ Ideogram 4: their FIRST-EVER open weights. 9.3B flow-matching DiT trained from scratch. #2 overall behind GPT Image 2, top open-weight model on Design Arena + LMArena. Strongest open checkpoint for text-rich images, full stop. It has taste. Still can't believe this is open weights.</p> <p>🔊 Audio &amp; Speech (a breakout week for open TTS, 4 labs shipped)</p> <p>→ Boson Higgs Audio v3 4B: 102 languages, 21 emotions, singing/whispering/shouting, sub-second TTFA.</p> <p>→ RedNote dots.tts: the only fully continuous (no codec) open TTS pipeline, Apache 2.0.</p> <p>→ Google Magenta RealTime 2: real-time music gen, &lt;200ms latency, text+audio+MIDI. multimodalart ported it to PyTorch within hours with live ZeroGPU demos.</p> <p>→ NVIDIA Nemotron-3.5 ASR: 600M streaming, 17x more concurrent streams vs Parakeet RNNT 1.1B.</p> <p>👁️ Vision &amp; VLMs</p> <p>→ PaddleOCR-VL-1.6: SOTA document parsing at 1B params, Apache 2.0.</p> <p>→ Baidu NAVA: 6.3B joint audio-video gen, best-in-class A/V sync, Apache 2.0.</p> <p>🎬 Video, 3D &amp; World Models</p> <p>→ NVIDIA Cosmos3-Super: 64B omnimodal world model coupling action trajectories with video+audio gen, for Physical AI.</p> <p>→ JD JoyAI-Echo: up to 5-min multi-shot text-to-video on LTX-2.3.</p> <p>→ ByteDance Bernini-R + VAST TripoSplat (single-image-to-3D Gaussian splats, MIT).</p> <p>Victor M on 𝕏: <a href=\"https://x.com/victormustar/status/2063017894221591008\">https://x.com/victormustar/status/2063017894221591008</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nunki08\"> /u/Nunki08 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyd1zc/big_week_for_open_ai_with_25_notable_openweight/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyd1zc/big_week_for_open_ai_with_25_notable_openweight/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

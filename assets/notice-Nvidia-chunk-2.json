@@ -1,5 +1,21 @@
 [
   {
+    "id": "17f2b612-0bf3-515e-a953-0e38800d5965",
+    "title": "Mastering Agentic Techniques: AI Agent Evaluation",
+    "link": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-evaluation/",
+    "pubDate": "2026-05-19T20:00:00+00:00",
+    "description": "Evaluating an AI model and evaluating an AI agent are related—but they answer fundamentally different questions. A model benchmark tests the capability of a...",
+    "author": "Edward Li",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/evaluate-agents.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"evaluate-agents\" width=\"600\" />Evaluating an AI model and evaluating an AI agent are related—but they answer fundamentally different questions. A model benchmark tests the capability of a...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/evaluate-agents.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"evaluate-agents\" width=\"600\" /><p>Evaluating an AI model and evaluating an AI agent are related—but they answer fundamentally different questions. A model benchmark tests the capability of a foundation model (how well it understands language, follows instructions, or solves problems on static tasks). An agent evaluation tests the behavior of a system operating end-to-end—planning, calling tools, handling uncertainty…</p>\n<p><a href=\"https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-evaluation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9255b2b0-b25d-5b80-a51f-818e07a294d5",
     "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
     "link": "https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/",
@@ -236,38 +252,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/TensorRT-RTX-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"TensorRT-RTX\" width=\"768\" />Neural network techniques are increasingly used in computer graphics to boost image quality, improve performance, and streamline content creation. Approaches...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/TensorRT-RTX-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"TensorRT-RTX\" width=\"768\" /><p>Neural network techniques are increasingly used in computer graphics to boost image quality, improve performance, and streamline content creation. Approaches like super resolution, denoising, and neural rendering help real-time engines work more efficiently, offering new creative possibilities while keeping performance in mind. Unreal Engine 5 (UE5) has taken several steps in this direction…</p>\n<p><a href=\"https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a47c1672-b3ce-5ba0-adc9-c082ac1b3eb3",
-    "title": "How to Build, Run, and Scale High-Quality Creator Workflows in ComfyUI",
-    "link": "https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/",
-    "pubDate": "2026-04-30T16:16:04+00:00",
-    "description": "Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks...",
-    "author": "Joel Pennington",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/workstation-tech-blog-600x338-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"workstation-tech-blog-600x338\" width=\"600\" />Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/workstation-tech-blog-600x338-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"workstation-tech-blog-600x338\" width=\"600\" /><p>Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks that once took hours of manual effort into automated, repeatable pipelines. ComfyUI is an open-source, node-based creative tool that runs locally on NVIDIA RTX GPUs. It connects image generation, video synthesis, and language models into…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2d1efefc-d16a-5d22-bf35-4c1e2da1912c",
-    "title": "Automating GPU Kernel Translation with AI Agents: cuTile Python to cuTile.jl",
-    "link": "https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/",
-    "pubDate": "2026-04-30T15:54:38+00:00",
-    "description": "NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and...",
-    "author": "Zhengyi Zhang",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A person working on code on their computer.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Automate-Agent-Workflow\" width=\"768\" />NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and...<img alt=\"A person working on code on their computer.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Automate-Agent-Workflow\" width=\"768\" /><p>NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and matrix multiply-accumulate—rather than manually coordinating threads, warps, and shared memory. cuTile.jl brings the same tile-based approach to the dynamic programming language Julia. Users can write custom GPU kernels without dropping…</p>\n<p><a href=\"https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

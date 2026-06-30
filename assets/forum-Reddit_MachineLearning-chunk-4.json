@@ -1,5 +1,21 @@
 [
   {
+    "id": "75ee54fe-2be4-5345-b659-127cf99ca33c",
+    "title": "Concept-Vector: A design framework for human-interpretable word embeddings [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/",
+    "pubDate": "2026-06-15T14:53:51+00:00",
+    "description": "This project distills a model's word embeddings into human-interpretable \"concept-vectors\", i.e. vectors in which each component tracks concerns like semantics, syntax, and even statistics potentially, while associating each component with a human readable and human definable label. These distilled vector components are then joined with undefined trainable components then passed to a model. Check the readme/repo and supporting docs for details. For transparency, this is a data design project. I have quite a bit of experience with data transformation and manipulation, but limited experience with NNs. I have not tested this on models, and I currently don't have the resources to build a comprehensive database to test it on models. I'm posting primarily for human feedback/criticism, and simply to share the idea since this is as far as I can currently take it. Edit: I forgot to actually add the repo! submitted by /u/true-human-exe [link] [comments]",
+    "author": "/u/true-human-exe",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>This project distills a model's word embeddings into human-interpretable &quot;concept-vectors&quot;, i.e. vectors in which each component tracks concerns like semantics, syntax, and even statistics potentially, while associating each component with a human readable and human definable label. These distilled vector components are then joined with undefined trainable components then passed to a model.</p> <p>Check the <a href=\"https://github.com/truehumanexe/concept_vector/tree/main\">readme/repo</a> and supporting docs for details.</p> <p>For transparency, this is a data design project. I have quite a bit of experience with data transformation and manipulation, but limited experience with NNs. I have not tested this on models, and I currently don't have the resources to build a comprehensive database to test it on models. I'm posting primarily for human feedback/criticism, and simply to share the idea since this is as far as I can currently take it.</p> <p>Edit:</p> <p>I forgot to actually add the repo!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/true-human-exe\"> /u/true-human-exe </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cda4a9f2-f3b5-546e-bc5f-e7736a6876af",
     "title": "Recent CS graduate looking for GPU compute collaborators for LLM/VLM research [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u6f5a3/recent_cs_graduate_looking_for_gpu_compute/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>link - <a href=\"https://arxiv.org/abs/2606.06158\">https://arxiv.org/abs/2606.06158</a> </p> <p>Abstract : Adaptive video tokenisation seeks to dynamically allocate token budgets based on the underlying visual complexity of a sequence. Current continuous-regime approaches achieve this via iterative binarised searches or trained neural regressors, while discrete methods often require a full-rate decoder pass to estimate information content. We demonstrate that such computational overheads are not strictly necessary. We show that the latent space of a frozen continuous video tokeniser inherently encodes temporal redundancy that can be exploited directly: spatial positions whose latent representations change minimally between consecutive frames carry near-zero additional information.<br /> We introduce a parameter-free adaptive token allocation mechanism that applies a fixed threshold to per-position temporal-L1 differences, identifying and dropping redundant latent positions. Consequently, the compression rate emerges naturally from the input content rather than being enforced top-down: static scenes get compressed aggressively, while highly dynamic sequences retain more tokens. To reconstruct the dropped positions, we propose the Latent Inpainting Transformer (LIT), a lightweight factorised spatial-temporal attention architecture. The resulting inference pipeline is highly efficient, requiring only a single encoder pass and one LIT forward pass, eliminating the need for auxiliary routing networks. Evaluations across TokenBench and DAVIS, which are the standard benchmarks used by recent tokenisers, indicate that our framework yields meaningful, content-driven token allocation while maintaining competitive reconstruction fidelity, and delivers a 31x inference-time speedup over the continuous adaptive baseline (ElasticTok-CV) and an 2x speedup over the discrete information-theoretic baseline (InfoTok)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chhaya_35\"> /u/chhaya_35 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "79ed079f-8e2f-5f4b-9cf5-2ca897b13912",
-    "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
-    "pubDate": "2026-06-11T08:51:10+00:00",
-    "description": "From Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.” Anthropic now says it’s changing course, and that Claude Fable 5’s safeguards for AI development will be visible to users. If the company suspects a user is trying to use Claude to build a highly capable AI it will alert them that it’s either refusing the request, or rerouting the user to a less capable model. Full article: https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/ submitted by /u/goldcakes [link] [comments]",
-    "author": "/u/goldcakes",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>From Wired:</p> <blockquote> <p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p> <p>Anthropic now says it’s changing course, and that Claude Fable 5’s safeguards for AI development will be visible to users. If the company suspects a user is trying to use Claude to build a highly capable AI it will alert them that it’s either refusing the request, or rerouting the user to a less capable model.</p> </blockquote> <p>Full article: <a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/goldcakes\"> /u/goldcakes </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

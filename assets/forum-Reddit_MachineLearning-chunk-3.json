@@ -1,5 +1,21 @@
 [
   {
+    "id": "92aa9a72-42ab-5578-aef1-60eb15c4475e",
+    "title": "How does torch.compile() achieve massive speedups despite highly optimized NumPy functions? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/",
+    "pubDate": "2026-06-19T13:47:49+00:00",
+    "description": "I was pondering on this question and decided to dive deep into torch.compile. It was a lot of fun learning about operator fusion as the central idea behind torch.compile. So I created a tiny version of torch.compile in 500 lines of python and a notebook showing how this works: https://github.com/purohit10saurabh/tinytorchcompile Let me know if you find this interesting! 🙂 submitted by /u/Other-Eye-8152 [link] [comments]",
+    "author": "/u/Other-Eye-8152",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I was pondering on this question and decided to dive deep into torch.compile. It was a lot of fun learning about operator fusion as the central idea behind torch.compile. So I created a tiny version of torch.compile in 500 lines of python and a notebook showing how this works: </p> <p><a href=\"https://github.com/purohit10saurabh/tinytorchcompile\">https://github.com/purohit10saurabh/tinytorchcompile</a></p> <p>Let me know if you find this interesting! 🙂</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Other-Eye-8152\"> /u/Other-Eye-8152 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6bc9e876-a877-5d82-838b-629fb0e27b11",
     "title": "Fearless Concurrency on the GPU: Safe GPU inference in Rust, competitive with vLLM/SGLang [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, today is the deadline for acceptance notification from NeurIPS about Competition (challenges). Has anyone hear back already? Do they send the rejection letter later?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LocksmithAlone242\"> /u/LocksmithAlone242 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "75ee54fe-2be4-5345-b659-127cf99ca33c",
-    "title": "Concept-Vector: A design framework for human-interpretable word embeddings [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/",
-    "pubDate": "2026-06-15T14:53:51+00:00",
-    "description": "This project distills a model's word embeddings into human-interpretable \"concept-vectors\", i.e. vectors in which each component tracks concerns like semantics, syntax, and even statistics potentially, while associating each component with a human readable and human definable label. These distilled vector components are then joined with undefined trainable components then passed to a model. Check the readme/repo and supporting docs for details. For transparency, this is a data design project. I have quite a bit of experience with data transformation and manipulation, but limited experience with NNs. I have not tested this on models, and I currently don't have the resources to build a comprehensive database to test it on models. I'm posting primarily for human feedback/criticism, and simply to share the idea since this is as far as I can currently take it. Edit: I forgot to actually add the repo! submitted by /u/true-human-exe [link] [comments]",
-    "author": "/u/true-human-exe",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>This project distills a model's word embeddings into human-interpretable &quot;concept-vectors&quot;, i.e. vectors in which each component tracks concerns like semantics, syntax, and even statistics potentially, while associating each component with a human readable and human definable label. These distilled vector components are then joined with undefined trainable components then passed to a model.</p> <p>Check the <a href=\"https://github.com/truehumanexe/concept_vector/tree/main\">readme/repo</a> and supporting docs for details.</p> <p>For transparency, this is a data design project. I have quite a bit of experience with data transformation and manipulation, but limited experience with NNs. I have not tested this on models, and I currently don't have the resources to build a comprehensive database to test it on models. I'm posting primarily for human feedback/criticism, and simply to share the idea since this is as far as I can currently take it.</p> <p>Edit:</p> <p>I forgot to actually add the repo!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/true-human-exe\"> /u/true-human-exe </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
