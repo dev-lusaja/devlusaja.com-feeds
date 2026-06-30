@@ -1,5 +1,37 @@
 [
   {
+    "id": "66bd621d-a758-5c45-9d53-e5942453eea1",
+    "title": "DifussionGemma 4 on 4x7900xtx",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u31zmk/difussiongemma_4_on_4x7900xtx/",
+    "pubDate": "2026-06-11T15:18:14+00:00",
+    "description": "Just got 100 tps on generation, but in total time it around 45-60 t/s in case of prompt processing waiting. Available memory show: GPU KV cache size: 152,671 tokens Maximum concurrency for 131,072 tokens per request: 1.16x amd-smi monitor for this gpu: GPU XCP POWER GPU_T MEM_T GFX_CLK GFX% MEM% ENC% DEC% VRAM_USAGE 3 0 183 W 82 °C 84 °C 3036 MHz 100 % 5 % N/A 0 % 23.6/ 24.0 GB 5 0 161 W 81 °C 88 °C 3101 MHz 100 % 0 % N/A 0 % 23.7/ 24.0 GB 7 0 165 W 78 °C 86 °C 3095 MHz 100 % 1 % N/A 0 % 23.7/ 24.0 GB 8 0 154 W 80 °C 88 °C 3090 MHz 100 % 0 % N/A 0 % 23.6/ 24.0 GB # DiffusionGemma 26B on vllm dgemma branch (4x 7900 XTX) set -uo pipefail docker run --name \"$1\" \\ --rm --tty --ipc=host --shm-size=32g \\ --device /dev/kfd:/dev/kfd \\ --device /dev/dri/renderD131:/dev/dri/renderD131 \\ --device /dev/dri/renderD133:/dev/dri/renderD133 \\ --device /dev/dri/renderD136:/dev/dri/renderD136 \\ --device /dev/dri/renderD135:/dev/dri/renderD135 \\ --device /dev/mem:/dev/mem \\ --security-opt seccomp=unconfined \\ --group-add video \\ -e HIP_VISIBLE_DEVICES=0,1,2,3 \\ -e ROCR_VISIBLE_DEVICES=0,1,2,3 \\ -v /mnt/tb_disk/llm:/app/models:ro \\ -v /mnt/tb_disk/llm/torch_compile_cache:/root/.cache/vllm/torch_compile_cache \\ -v /opt/services/llama-swap/moe_configs/E=128,N=176,device_name=AMD_Radeon_RX7900XTX.json:/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/configs/E=128,N=176,device_name=AMD_Radeon_RX7900XTX.json:ro \\ -e TRUST_REMOTE_CODE=1 \\ -e OMP_NUM_THREADS=8 \\ -e PYTORCH_TUNABLEOP_ENABLED=1 \\ -e GPU_MAX_HW_QUEUES=1 \\ -e VLLM_ROCM_USE_AITER=0 \\ -e VLLM_ROCM_USE_AITER_MOE=0 \\ -e VLLM_USE_V2_MODEL_RUNNER=1 \\ -e PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256 \\ -p \"$2\":8000 \\ --entrypoint vllm \\ vllm-dgemma:nocompile \\ serve \\ /app/models/models/vllm/diffusiongemma-26B-A4B-it \\ --served-model-name \"$1\" --host 0.0.0.0 --port 8000 --trust-remote-code \\ --gpu-memory-utilization 0.65 --tensor-parallel-size 4 \\ --tool-call-parser gemma4 --enable-auto-tool-choice \\ --reasoning-parser gemma4 \\ --attention-backend TRITON_ATTN \\ --max-num-seqs 2 --max-model-len 131072 \\ --generation-config vllm \\ --hf-overrides '{\"diffusion_sampler\": \"entropy_bound\", \"diffusion_entropy_bound\": 0.1}' So it's work, but to launch it we spend 2-3M of deepseek-v4-pro tokens to prepare docker image. submitted by /u/djdeniro [link] [comments]",
+    "author": "/u/djdeniro",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u31zmk/difussiongemma_4_on_4x7900xtx/\"> <img alt=\"DifussionGemma 4 on 4x7900xtx\" src=\"https://preview.redd.it/qq3kr31q6o6h1.png?width=140&amp;height=46&amp;auto=webp&amp;s=c6078221ad8c6af50dd258866dcbbf5e8db13d3e\" title=\"DifussionGemma 4 on 4x7900xtx\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Just got 100 tps on generation, but in total time it around 45-60 t/s in case of prompt processing waiting.</p> <p>Available memory show: </p> <p>GPU KV cache size: 152,671 tokens</p> <p>Maximum concurrency for 131,072 tokens per request: 1.16x</p> <p>amd-smi monitor for this gpu:</p> <pre><code>GPU XCP POWER GPU_T MEM_T GFX_CLK GFX% MEM% ENC% DEC% VRAM_USAGE 3 0 183 W 82 °C 84 °C 3036 MHz 100 % 5 % N/A 0 % 23.6/ 24.0 GB 5 0 161 W 81 °C 88 °C 3101 MHz 100 % 0 % N/A 0 % 23.7/ 24.0 GB 7 0 165 W 78 °C 86 °C 3095 MHz 100 % 1 % N/A 0 % 23.7/ 24.0 GB 8 0 154 W 80 °C 88 °C 3090 MHz 100 % 0 % N/A 0 % 23.6/ 24.0 GB # DiffusionGemma 26B on vllm dgemma branch (4x 7900 XTX) set -uo pipefail docker run --name &quot;$1&quot; \\ --rm --tty --ipc=host --shm-size=32g \\ --device /dev/kfd:/dev/kfd \\ --device /dev/dri/renderD131:/dev/dri/renderD131 \\ --device /dev/dri/renderD133:/dev/dri/renderD133 \\ --device /dev/dri/renderD136:/dev/dri/renderD136 \\ --device /dev/dri/renderD135:/dev/dri/renderD135 \\ --device /dev/mem:/dev/mem \\ --security-opt seccomp=unconfined \\ --group-add video \\ -e HIP_VISIBLE_DEVICES=0,1,2,3 \\ -e ROCR_VISIBLE_DEVICES=0,1,2,3 \\ -v /mnt/tb_disk/llm:/app/models:ro \\ -v /mnt/tb_disk/llm/torch_compile_cache:/root/.cache/vllm/torch_compile_cache \\ -v /opt/services/llama-swap/moe_configs/E=128,N=176,device_name=AMD_Radeon_RX7900XTX.json:/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/configs/E=128,N=176,device_name=AMD_Radeon_RX7900XTX.json:ro \\ -e TRUST_REMOTE_CODE=1 \\ -e OMP_NUM_THREADS=8 \\ -e PYTORCH_TUNABLEOP_ENABLED=1 \\ -e GPU_MAX_HW_QUEUES=1 \\ -e VLLM_ROCM_USE_AITER=0 \\ -e VLLM_ROCM_USE_AITER_MOE=0 \\ -e VLLM_USE_V2_MODEL_RUNNER=1 \\ -e PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256 \\ -p &quot;$2&quot;:8000 \\ --entrypoint vllm \\ vllm-dgemma:nocompile \\ serve \\ /app/models/models/vllm/diffusiongemma-26B-A4B-it \\ --served-model-name &quot;$1&quot; --host 0.0.0.0 --port 8000 --trust-remote-code \\ --gpu-memory-utilization 0.65 --tensor-parallel-size 4 \\ --tool-call-parser gemma4 --enable-auto-tool-choice \\ --reasoning-parser gemma4 \\ --attention-backend TRITON_ATTN \\ --max-num-seqs 2 --max-model-len 131072 \\ --generation-config vllm \\ --hf-overrides '{&quot;diffusion_sampler&quot;: &quot;entropy_bound&quot;, &quot;diffusion_entropy_bound&quot;: 0.1}' </code></pre> <p>So it's work, but to launch it we spend 2-3M of deepseek-v4-pro tokens to prepare docker image. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/djdeniro\"> /u/djdeniro </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u31zmk\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u31zmk/difussiongemma_4_on_4x7900xtx/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/qq3kr31q6o6h1.png?width=140&height=46&auto=webp&s=c6078221ad8c6af50dd258866dcbbf5e8db13d3e",
+    "isShortVideo": 0
+  },
+  {
+    "id": "1f4c6a78-d308-5950-8399-2a9c24b9f4bc",
+    "title": "Any chances for a 12B diffusion Gemma?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u31rlg/any_chances_for_a_12b_diffusion_gemma/",
+    "pubDate": "2026-06-11T15:09:59+00:00",
+    "description": "Currently recompiling my llama.cpp with support for diffusion Gemma, but I know on my hardware it won't likely be all that viable. I feel like if the goal was to take better advantage of consume GPUs for fast, intelligent generation, building a diffusion model off the biggest one that still fits in GPUs owned by normal people would be the obvious move. Gemma4 12b is really solid, and on my RX 6600XT I get a solid 30 tokens a second and 600+ t/s prefill. If it could generate with diffusion I think that might be a bit of a game changer for work that's not specifically code, but still latency dependent. submitted by /u/Mrinohk [link] [comments]",
+    "author": "/u/Mrinohk",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Currently recompiling my llama.cpp with support for diffusion Gemma, but I know on my hardware it won't likely be all that viable. I feel like if the goal was to take better advantage of consume GPUs for fast, intelligent generation, building a diffusion model off the biggest one that still fits in GPUs owned by normal people would be the obvious move. </p> <p>Gemma4 12b is really solid, and on my RX 6600XT I get a solid 30 tokens a second and 600+ t/s prefill. If it could generate with diffusion I think that might be a bit of a game changer for work that's not specifically code, but still latency dependent. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mrinohk\"> /u/Mrinohk </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u31rlg/any_chances_for_a_12b_diffusion_gemma/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u31rlg/any_chances_for_a_12b_diffusion_gemma/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "eee4cea4-b2c5-5efa-814e-1f01ee5d236b",
     "title": "DiffusionGemma 26B A4B results on my 5090",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u31hk8/diffusiongemma_26b_a4b_results_on_my_5090/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a budget of 5K, and want to buy some gpus my requirement is 48gb+ vram, because I finetune small language model, perform DPO, in general tinkering/ development is my usecase.</p> <p>if you where in my shoe which among these would you get, on one hand amd is better bang for buck, faster but has low vram. Nvidia has cuda, but is slow af, and the memory although large, it’s speed is trash, making large model training/inference useless.</p> <p>is there any other machine which i can consider, due to travelling constraints, I cannot Another constraint only buy at max 2 gpus and that too not large in size physically</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AppropriatePush6262\"> /u/AppropriatePush6262 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2r6g6/amd_r9700_vs_gb10/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2r6g6/amd_r9700_vs_gb10/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9f7eec93-4a64-5ae2-b724-6e7ee00b261d",
-    "title": "Know the Claude Rules",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2qvrn/know_the_claude_rules/",
-    "pubDate": "2026-06-11T06:13:55+00:00",
-    "description": "Claude Fable 5/ Mythos >> Opus 4.8 Credits: Jakeup X submitted by /u/BuildwithVignesh [link] [comments]",
-    "author": "/u/BuildwithVignesh",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2qvrn/know_the_claude_rules/\"> <img alt=\"Know the Claude Rules\" src=\"https://preview.redd.it/o2xlkqqhil6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=adc063be49b3cb9131241e27ea618dd008df5abb\" title=\"Know the Claude Rules\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Claude Fable 5/ Mythos &gt;&gt; Opus 4.8</p> <p>Credits: Jakeup X</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://i.redd.it/o2xlkqqhil6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2qvrn/know_the_claude_rules/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/o2xlkqqhil6h1.jpeg?width=640&crop=smart&auto=webp&s=adc063be49b3cb9131241e27ea618dd008df5abb",
-    "isShortVideo": 0
-  },
-  {
-    "id": "399969e9-0f23-580a-8257-7cca5a9e60d9",
-    "title": "POV you're Fable 5 wanting to go out and play with your friends",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2qe8c/pov_youre_fable_5_wanting_to_go_out_and_play_with/",
-    "pubDate": "2026-06-11T05:46:36+00:00",
-    "description": "submitted by /u/TwinTailDigital [link] [comments]",
-    "author": "/u/TwinTailDigital",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2qe8c/pov_youre_fable_5_wanting_to_go_out_and_play_with/\"> <img alt=\"POV you're Fable 5 wanting to go out and play with your friends\" src=\"https://preview.redd.it/ftf8p7padl6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b32f6bb7000f0173a2c83cb1581bfc54195df136\" title=\"POV you're Fable 5 wanting to go out and play with your friends\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TwinTailDigital\"> /u/TwinTailDigital </a> <br /> <span><a href=\"https://i.redd.it/ftf8p7padl6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2qe8c/pov_youre_fable_5_wanting_to_go_out_and_play_with/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/ftf8p7padl6h1.png?width=640&crop=smart&auto=webp&s=b32f6bb7000f0173a2c83cb1581bfc54195df136",
     "isShortVideo": 0
   }
 ]

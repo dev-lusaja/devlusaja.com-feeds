@@ -1,5 +1,37 @@
 [
   {
+    "id": "0ef1bcbb-7d12-544b-9fa0-bcf2a0fa772e",
+    "title": "NeurIPS Reciprocal Reviewers be careful in reviewing with LLMs [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tw0hf2/neurips_reciprocal_reviewers_be_careful_in/",
+    "pubDate": "2026-06-03T19:47:05+00:00",
+    "description": "As the title says. I am not a reciprocal reviewer but I just noticed a clever prompt injection like they did in ICML for our submission. submitted by /u/Massive-Bobcat-5363 [link] [comments]",
+    "author": "/u/Massive-Bobcat-5363",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>As the title says. I am not a reciprocal reviewer but I just noticed a clever prompt injection like they did in ICML for our submission.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Massive-Bobcat-5363\"> /u/Massive-Bobcat-5363 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tw0hf2/neurips_reciprocal_reviewers_be_careful_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tw0hf2/neurips_reciprocal_reviewers_be_careful_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "08bc79ef-54ca-5166-84d7-60a02925bdd3",
+    "title": "How are production ML systems typically handling distribution shift over time? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tvzhvx/how_are_production_ml_systems_typically_handling/",
+    "pubDate": "2026-06-03T19:12:35+00:00",
+    "description": "In deployed ML systems, data distribution drift seems unavoidable over longer time horizons. I’m trying to understand what approaches are commonly used in practice: Continuous retraining pipelines (fixed intervals vs trigger-based) Online monitoring for feature or prediction drift Use of shadow models or fallback models in production Human-in-the-loop review for edge cases In most real deployments I’ve seen discussed, retraining strategy seems more operationally constrained than model-related. Curious what approaches are actually working reliably in production environments and what tends to fail first. submitted by /u/Electrical_Mine1912 [link] [comments]",
+    "author": "/u/Electrical_Mine1912",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>In deployed ML systems, data distribution drift seems unavoidable over longer time horizons.</p> <p>I’m trying to understand what approaches are commonly used in practice:</p> <ul> <li>Continuous retraining pipelines (fixed intervals vs trigger-based)</li> <li>Online monitoring for feature or prediction drift</li> <li>Use of shadow models or fallback models in production</li> <li>Human-in-the-loop review for edge cases</li> </ul> <p>In most real deployments I’ve seen discussed, retraining strategy seems more operationally constrained than model-related.</p> <p>Curious what approaches are actually working reliably in production environments and what tends to fail first.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Mine1912\"> /u/Electrical_Mine1912 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvzhvx/how_are_production_ml_systems_typically_handling/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvzhvx/how_are_production_ml_systems_typically_handling/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bfb80266-4034-5cca-af30-9b0574a0bcab",
     "title": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>i'm trying to train an ASR model using the <a href=\"https://github.com/speechbrain/speechbrain/blob/develop/recipes/LibriSpeech/ASR/transformer/train.py\">LibriSpeech recipe from SpeechBrain</a> (without the language model) on a 100-hour dataset of dialectal Arabic speech. the model architecture uses a Conformer-small encoder and a Transformer decoder, with a total of around 13M parameters.<br /> the recipe uses a combination of two loss functions: CTC and KL divergence, specifically: 0.3 * CTC + 0.7 * KLDiv<br /> during training, both losses drop significantly during the first few weight updates, but then quickly plateau. the CTC loss gets stuck fluctuating around the 60-80 range, while the KL divergence loss remains around the 60s as well for the rest of training. as a result, the model does not converge properly, and the validation WER stays close to 100%.<br /> i’ve already tried several things: adjusting the learning rate, changing the number of warmup steps, modifying the number of epochs, tuning the batch size and reducing the vocabulary size from the default 5000 to 1000.<br /> none of these changes seem to help.<br /> the training dataset is not publicly available and is weakly labeled. the validation and test sets come from the MGB2 dataset.<br /> at this point, i genuinely don’t know what the root cause might be. i’ve experimented with many different approaches, but the model still refuses to converge. has anyone encountered a similar issue where their model gets stuck early in training and never improves? if so, what ended up being the cause or solution?<br /> any feedback, suggestions, or ideas would be greatly appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sweet-Hamster-4991\"> /u/Sweet-Hamster-4991 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tt7jt2/arabic_asr_model_struggling_to_converge_during/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tt7jt2/arabic_asr_model_struggling_to_converge_during/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4dd5bf7c-7f11-5e5b-af68-761af43ea40d",
-    "title": "I built a tool to browse and plan CVPR workshop/tutorial days [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tsy7rz/i_built_a_tool_to_browse_and_plan_cvpr/",
-    "pubDate": "2026-05-31T15:21:00+00:00",
-    "description": "Hi everyone, as someone attending CVPR, one thing that always frustrated me was managing the workshop and tutorial days. The information is technically all there, but in practice it is scattered across dozens of workshop websites, PDFs, schedules, and program pages. I often found myself opening a huge number of tabs just to understand: what workshops are happening, which ones match my interests, whether a detailed program is available, where events are located, and how to organize my schedule. So I built CVPR Workshop Radar : https://cvprworkshopradar.vercel.app/ It is an independent web app that aggregates and organizes CVPR 2026 workshops and tutorials into a searchable interface. The goal is simply to make workshop days easier to navigate. Some features: Search by title, organizer, summary, or topic Filter by date, event type, track, and program availability View workshop details and schedules (when available) Save events into a personal schedule Timeline and schedule views to spot conflicts Mobile-friendly and works offline No account required (everything is stored locally in the browser) Fully open source A fun part of the project is that much of the information pipeline is automated. The workflow goes from the official CVPR program PDF to metadata extraction, schedule scraping, and LLM-assisted processing before generating the final searchable database. The repository is here if anyone is interested in the implementation details: https://github.com/Gabrysse/cvprworkshopradar This is an independent project and the data may contain mistakes, so important information should always be verified against the official workshop pages. Hopefully it can help a few people survive workshop week a bit more efficiently :) Feedback, bug reports, and corrections are very welcome. Drop a comment here or open an issue directly on the Github repo ;) submitted by /u/Gabrysse [link] [comments]",
-    "author": "/u/Gabrysse",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsy7rz/i_built_a_tool_to_browse_and_plan_cvpr/\"> <img alt=\"I built a tool to browse and plan CVPR workshop/tutorial days [P]\" src=\"https://preview.redd.it/1yj8mkueph4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6e6b550e59ed4a4ee942c4c1020dc93d3e23b6d9\" title=\"I built a tool to browse and plan CVPR workshop/tutorial days [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>as someone attending CVPR, one thing that always frustrated me was managing the workshop and tutorial days.</p> <p>The information is technically all there, but in practice it is scattered across dozens of workshop websites, PDFs, schedules, and program pages. I often found myself opening a huge number of tabs just to understand:</p> <ul> <li>what workshops are happening,</li> <li>which ones match my interests,</li> <li>whether a detailed program is available,</li> <li>where events are located,</li> <li>and how to organize my schedule.</li> </ul> <p>So I built <strong>CVPR Workshop Radar</strong>:</p> <p><a href=\"https://cvprworkshopradar.vercel.app/\">https://cvprworkshopradar.vercel.app/</a></p> <p>It is an independent web app that aggregates and organizes CVPR 2026 workshops and tutorials into a searchable interface. The goal is simply to make workshop days easier to navigate.</p> <p>Some features:</p> <ul> <li>Search by title, organizer, summary, or topic</li> <li>Filter by date, event type, track, and program availability</li> <li>View workshop details and schedules (when available)</li> <li>Save events into a personal schedule</li> <li>Timeline and schedule views to spot conflicts</li> <li>Mobile-friendly and works offline</li> <li>No account required (everything is stored locally in the browser)</li> <li>Fully open source</li> </ul> <p>A fun part of the project is that much of the information pipeline is automated. The workflow goes from the official CVPR program PDF to metadata extraction, schedule scraping, and LLM-assisted processing before generating the final searchable database.</p> <p>The repository is here if anyone is interested in the implementation details:</p> <p><a href=\"https://github.com/Gabrysse/cvprworkshopradar\">https://github.com/Gabrysse/cvprworkshopradar</a></p> <p>This is an independent project and the data may contain mistakes, so important information should always be verified against the official workshop pages.</p> <p>Hopefully it can help a few people survive workshop week a bit more efficiently :)</p> <p>Feedback, bug reports, and corrections are very welcome. Drop a comment here or open an issue directly on the Github repo ;)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Gabrysse\"> /u/Gabrysse </a> <br /> <span><a href=\"https://i.redd.it/1yj8mkueph4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsy7rz/i_built_a_tool_to_browse_and_plan_cvpr/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/1yj8mkueph4h1.png?width=640&crop=smart&auto=webp&s=6e6b550e59ed4a4ee942c4c1020dc93d3e23b6d9",
-    "isShortVideo": 0
-  },
-  {
-    "id": "23b95911-4441-520b-a61c-0d63200092a6",
-    "title": "Built an AI Accelerator and opensourced it. [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tsuogs/built_an_ai_accelerator_and_opensourced_it_p/",
-    "pubDate": "2026-05-31T12:58:16+00:00",
-    "description": "There is a huge gap in open source AI accelerators, so I implemented mine . Popular and well known ones are already legacy and doesn't support contemporary operations like Attention. Here is what makes mine special: Attention mechanism smelted directly into silicon Prototyped end-to-end on FPGA (AWS F2) Benchmarked against PyTorch -based workloads Built on the RocketChip architecture (RISC-V) Native BF16 support Up to 225× speedup on vanilla attention mechanism Up to 96× speedup on TinyBERT Up to 50× speedup on ViT Up to 30× speedup on GPT-2 prefill I would really appreciate it if you check the repo and give me feedback! submitted by /u/Barrnie [link] [comments]",
-    "author": "/u/Barrnie",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuogs/built_an_ai_accelerator_and_opensourced_it_p/\"> <img alt=\"Built an AI Accelerator and opensourced it. [P]\" src=\"https://preview.redd.it/8i71trcl0h4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ed23f40c9a5852636de34942621d637e2a1a5fc7\" title=\"Built an AI Accelerator and opensourced it. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>There is a huge gap in open source AI accelerators, so I implemented <a href=\"https://github.com/AhmedZeer/atik\">mine</a>.</p> <p>Popular and well known ones are already legacy and doesn't support contemporary operations like Attention.</p> <p>Here is what makes mine special:</p> <ul> <li> <strong>Attention</strong> mechanism smelted directly into silicon</li> <li>Prototyped end-to-end on <strong>FPGA</strong> (AWS F2)</li> <li>Benchmarked against <strong>PyTorch</strong>-based workloads</li> <li>Built on the <strong>RocketChip</strong> architecture (RISC-V)</li> <li>Native <strong>BF16</strong> support</li> <li>Up to <strong>225×</strong> speedup on vanilla attention mechanism</li> <li>Up to <strong>96×</strong> speedup on TinyBERT</li> <li>Up to <strong>50×</strong> speedup on ViT Up to <strong>30×</strong> speedup on GPT-2 prefill</li> </ul> <p>I would really appreciate it if you check the <a href=\"https://github.com/AhmedZeer/atik\">repo</a> and give me feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Barrnie\"> /u/Barrnie </a> <br /> <span><a href=\"https://i.redd.it/8i71trcl0h4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsuogs/built_an_ai_accelerator_and_opensourced_it_p/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/8i71trcl0h4h1.png?width=640&crop=smart&auto=webp&s=ed23f40c9a5852636de34942621d637e2a1a5fc7",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "473d8dae-5aaa-5116-a08f-eee59c4335ce",
+    "title": "Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT",
+    "link": "https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt/",
+    "pubDate": "2026-06-09T18:27:52+00:00",
+    "description": "Converting a quantized checkpoint into an NVIDIA TensorRT engine bridges the gap between model optimization and production deployment, enabling faster...",
+    "author": "Ruixiang Wang",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Quantization-Series-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Quantization-Series\" width=\"768\" />Converting a quantized checkpoint into an NVIDIA TensorRT engine bridges the gap between model optimization and production deployment, enabling faster...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Quantization-Series-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Quantization-Series\" width=\"768\" /><p>Converting a quantized checkpoint into an NVIDIA TensorRT engine bridges the gap between model optimization and production deployment, enabling faster inference, higher throughput, and more efficient GPU utilization at scale. In a previous post, we produced a high-quality FP8-quantized Contrastive Language-Image Pretraining (CLIP) checkpoint with NVIDIA TensorRT Model Optimizer.</p>\n<p><a href=\"https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a838a773-7a83-5f45-bd81-801fd1909339",
     "title": "Accelerating Federated Learning Research with AI Agents and NVIDIA FLARE Auto-FL",
     "link": "https://developer.nvidia.com/blog/accelerating-federated-learning-research-with-ai-agents-and-nvidia-flare-auto-fl/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"The image depicts various digital screens showing concepts related to a &quot;Skills Repository,&quot; &quot;Software Architecture,&quot; &quot;Big Data Schema,&quot; and &quot;Training New Sub-Agent,&quot; suggesting a theme of self-evolving artificial intelligence capabilities.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/Agentic-AI-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Agentic-AI\" width=\"768\" />Agent harnesses like Claude Code, Codex, and LangChain Deep Agents are excellent orchestrators. They manage sessions, chain tools, execute code, and respond to...<img alt=\"The image depicts various digital screens showing concepts related to a \" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/Agentic-AI-768x432.jpg\" width=\"768\" /><p>Agent harnesses like Claude Code, Codex, and LangChain Deep Agents are excellent orchestrators. They manage sessions, chain tools, execute code, and respond to developer intent. But when these harnesses need to do deep research, such as multi-document synthesis, decision briefs backed by enterprise data, and long-horizon analysis with source attribution, the complexity of deep research shifts back…</p>\n<p><a href=\"https://developer.nvidia.com/blog/add-a-specialized-deep-research-skill-to-agent-harnesses/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a98df6bb-2723-50d4-b345-1f662df8dee7",
-    "title": "NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents",
-    "link": "https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/",
-    "pubDate": "2026-05-19T23:40:45+00:00",
-    "description": "Autonomous AI agents are becoming more capable. Open models, Model Context Protocol (MCP)-connected tools, and portable skills are also making agents easier to...",
-    "author": "Moshe Abramovitch",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/agentic-ai-use-cases-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-use-cases\" width=\"768\" />Autonomous AI agents are becoming more capable. Open models, Model Context Protocol (MCP)-connected tools, and portable skills are also making agents easier to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/agentic-ai-use-cases-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-use-cases\" width=\"768\" /><p>Autonomous AI agents are becoming more capable. Open models, Model Context Protocol (MCP)-connected tools, and portable skills are also making agents easier to extend. But scaling agent use with structural transparency and operational integrity requires more than runtime guardrails. Organizations and teams need to understand and trust the skills, or instructions, an agent is using.</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

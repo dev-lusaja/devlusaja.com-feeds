@@ -1,5 +1,37 @@
 [
   {
+    "id": "8c94c7e1-f49c-5e39-9027-80d6c77cadcf",
+    "title": "Could AI training be decentralized like Bitcoin mining? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/",
+    "pubDate": "2026-06-15T16:09:27+00:00",
+    "description": "I’ve been thinking about whether the same basic concept behind Bitcoin could be applied to AI training. In Bitcoin, miners perform proof-of-work and are rewarded for contributing computational resources to secure the network. The actual computation itself isn’t particularly useful outside of the network, but it creates a decentralized system. What if a similar incentive structure could be used for training large language models? Instead of miners solving hash puzzles, participants would contribute GPU resources toward training an open-source AI model. In return, they would receive tokens or rewards based on their contribution. Some questions that immediately come to mind: How could the network verify that a participant actually performed useful training work? How would you prevent people from submitting fake or harmful gradients? Could model improvements be measured objectively enough to determine rewards? Would this be more efficient than training models in centralized data centers? Could a decentralized network eventually compete with large AI companies? I know there are already decentralized AI and compute projects, but I’m specifically interested in whether a true “proof-of-training” mechanism could exist, where rewards are tied directly to improving a model rather than simply renting out compute. Curious to hear thoughts from people who understand distributed systems, machine learning, or crypto economics. Is this fundamentally impossible, or is there a viable architecture that could make it work? submitted by /u/notfinancialadvice0 [link] [comments]",
+    "author": "/u/notfinancialadvice0",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been thinking about whether the same basic concept behind Bitcoin could be applied to AI training.<br /> In Bitcoin, miners perform proof-of-work and are rewarded for contributing computational resources to secure the network. The actual computation itself isn’t particularly useful outside of the network, but it creates a decentralized system.<br /> What if a similar incentive structure could be used for training large language models?<br /> Instead of miners solving hash puzzles, participants would contribute GPU resources toward training an open-source AI model. In return, they would receive tokens or rewards based on their contribution.<br /> Some questions that immediately come to mind:</p> <ol> <li><p>How could the network verify that a participant actually performed useful training work?</p></li> <li><p>How would you prevent people from submitting fake or harmful gradients?</p></li> <li><p>Could model improvements be measured objectively enough to determine rewards?</p></li> <li><p>Would this be more efficient than training models in centralized data centers?</p></li> <li><p>Could a decentralized network eventually compete with large AI companies?</p></li> </ol> <p>I know there are already decentralized AI and compute projects, but I’m specifically interested in whether a true “proof-of-training” mechanism could exist, where rewards are tied directly to improving a model rather than simply renting out compute.<br /> Curious to hear thoughts from people who understand distributed systems, machine learning, or crypto economics. Is this fundamentally impossible, or is there a viable architecture that could make it work?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notfinancialadvice0\"> /u/notfinancialadvice0 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "66162ed3-1d2a-5503-af15-e4b344b795c2",
+    "title": "NeurIPS Competition decision notification [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/",
+    "pubDate": "2026-06-15T15:23:49+00:00",
+    "description": "Hi guys, today is the deadline for acceptance notification from NeurIPS about Competition (challenges). Has anyone hear back already? Do they send the rejection letter later? submitted by /u/LocksmithAlone242 [link] [comments]",
+    "author": "/u/LocksmithAlone242",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, today is the deadline for acceptance notification from NeurIPS about Competition (challenges). Has anyone hear back already? Do they send the rejection letter later?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LocksmithAlone242\"> /u/LocksmithAlone242 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "75ee54fe-2be4-5345-b659-127cf99ca33c",
     "title": "Concept-Vector: A design framework for human-interpretable word embeddings [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u6ivt0/conceptvector_a_design_framework_for/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3p2at/ppocrv6_is_officially_released/\"> <img alt=\"🚀PP-OCRv6 is officially released !\" src=\"https://preview.redd.it/o1e81oyh7t6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7ac6ef78b7de4aeab456eff19539e1ffa332a0d5\" title=\"🚀PP-OCRv6 is officially released !\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>🔥PaddleOCR’s new OCR model series scales from 1.5M to 34.5M parameters, bringing stronger accuracy, faster inference, and broader deployment options — from browsers and edge devices to servers.</p> <p>📊What’s new: 🔸Tiny / Small / Medium models: 1.5M, 7.7M, 34.5M params 🔸+4.9% detection accuracy and +5.1% recognition accuracy over PP-OCRv5 🔸Up to 5.2× faster CPU inference with OpenVINO 🔸50 languages in one unified model 🔸New scenarios: PCB, CAD drawings, digital tubes, dot-matrix text 🔸Apache 2.0 open source</p> <p>✨Lightweight OCR, built for the AI data era.</p> <p>🔗Try it: 🌐 <a href=\"https://paddleocr.com\">https://paddleocr.com</a></p> <p>💻 <a href=\"https://github.com/PaddlePaddle/P\">https://github.com/PaddlePaddle/P</a> addleOCR</p> <p>🤗<a href=\"https://huggingface.co/collections/Pa\">https://huggingface.co/collections/Pa</a> ddlePaddle/pp-ocrv6</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KokaOP\"> /u/KokaOP </a> <br /> <span><a href=\"https://i.redd.it/o1e81oyh7t6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3p2at/ppocrv6_is_officially_released/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/o1e81oyh7t6h1.jpeg?width=640&crop=smart&auto=webp&s=7ac6ef78b7de4aeab456eff19539e1ffa332a0d5",
-    "isShortVideo": 0
-  },
-  {
-    "id": "55ade4d0-4c2a-5343-a18c-0abba379d264",
-    "title": "EAGLE3 has landed in llama.cpp",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3on4u/eagle3_has_landed_in_llamacpp/",
-    "pubDate": "2026-06-12T07:40:50+00:00",
-    "description": "After half a year of development, EAGLE3 has been merged into llama.cpp. EAGLE3 is similar to MTP, but different: the helper model gets extra guidance from the main model instead of guessing completely on its own. submitted by /u/jacek2023 [link] [comments]",
-    "author": "/u/jacek2023",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3on4u/eagle3_has_landed_in_llamacpp/\"> <img alt=\"EAGLE3 has landed in llama.cpp\" src=\"https://external-preview.redd.it/zRu_wUfy9Cp3Pp1kRAc-36MR3EQOz-NzxEdhKIKhhV0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=419bf4a915957f4d01641017696b16c3434fff53\" title=\"EAGLE3 has landed in llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>After half a year of development, EAGLE3 has been merged into llama.cpp.</p> <p>EAGLE3 is similar to MTP, but different: the helper model gets extra guidance from the main model instead of guessing completely on its own.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/18039\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3on4u/eagle3_has_landed_in_llamacpp/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/zRu_wUfy9Cp3Pp1kRAc-36MR3EQOz-NzxEdhKIKhhV0.png?width=640&crop=smart&auto=webp&s=419bf4a915957f4d01641017696b16c3434fff53",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3c774dc8-f474-5db3-ace1-3a3184f4b2a4",
-    "title": "hubert.cpp, a C++ implementation of distilHuBERT [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/",
-    "pubDate": "2026-06-12T07:40:29+00:00",
-    "description": "I've written a C++ implementation of distilHuBERT. https://github.com/pfeatherstone/hubert.cpp It has no runtime dependencies, the weights are compiled into the library, it supports dynamic sizes, has performance on par with onnxruntime (in my tests) and can be easily integrated into any CMake project. Please let me know your thoughts. submitted by /u/Competitive_Act5981 [link] [comments]",
-    "author": "/u/Competitive_Act5981",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've written a C++ implementation of distilHuBERT.</p> <p><a href=\"https://github.com/pfeatherstone/hubert.cpp\">https://github.com/pfeatherstone/hubert.cpp</a></p> <p>It has no runtime dependencies, the weights are compiled into the library, it supports dynamic sizes, has performance on par with onnxruntime (in my tests) and can be easily integrated into any CMake project.</p> <p>Please let me know your thoughts.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Competitive_Act5981\"> /u/Competitive_Act5981 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

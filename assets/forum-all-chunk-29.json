@@ -1,5 +1,37 @@
 [
   {
+    "id": "66cb20eb-fd1b-5178-838c-215fe267a7d6",
+    "title": "Dual rtx 3090 build",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tum94w/dual_rtx_3090_build/",
+    "pubDate": "2026-06-02T09:56:08+00:00",
+    "description": "Joining this community sparked a new hobby and interest in software engineering that I had lost. So I made this dual rtx 3090 build mostly for inference , I know I won’t be replacing chatgpt anytime soon but what tool stack would help it be usable in a work environment ? Must MCP servers or custom tools/scripts ? Currently using VScode preview with qwen3.6 27b and an nginx server, Im mostly interested in agentic work with usable context or at least a better knowledge of code base ( RAG pipeline?) Been already such a helpful community , hopefully local llms continue to grow because I fear cloud will become unaffordable at a consumer level submitted by /u/Sufficient_Phone_242 [link] [comments]",
+    "author": "/u/Sufficient_Phone_242",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum94w/dual_rtx_3090_build/\"> <img alt=\"Dual rtx 3090 build\" src=\"https://preview.redd.it/7tnzr8dxdu4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1a3298672d839ebdd0415550cd2cfd81e56c0d30\" title=\"Dual rtx 3090 build\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Joining this community sparked a new hobby and interest in software engineering that I had lost.</p> <p>So I made this dual rtx 3090 build mostly for inference , I know I won’t be replacing chatgpt anytime soon but what tool stack would help it be usable in a work environment ? Must MCP servers or custom tools/scripts ?</p> <p>Currently using VScode preview with qwen3.6 27b and an nginx server, Im mostly interested in agentic work with usable context or at least a better knowledge of code base ( RAG pipeline?) </p> <p>Been already such a helpful community , hopefully local llms continue to grow because I fear cloud will become unaffordable at a consumer level </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sufficient_Phone_242\"> /u/Sufficient_Phone_242 </a> <br /> <span><a href=\"https://i.redd.it/7tnzr8dxdu4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum94w/dual_rtx_3090_build/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/7tnzr8dxdu4h1.jpeg?width=640&crop=smart&auto=webp&s=1a3298672d839ebdd0415550cd2cfd81e56c0d30",
+    "isShortVideo": 0
+  },
+  {
+    "id": "68399747-0058-53d5-a4e1-6454e66d6fda",
+    "title": "Is mmproj MTP compatible with older non-MTP?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tum275/is_mmproj_mtp_compatible_with_older_nonmtp/",
+    "pubDate": "2026-06-02T09:45:30+00:00",
+    "description": "I have not used MTP yet, are mmproj files different and could be speed up? Are they compatible between models MTP vs. non-MTP? E.g. https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/blob/main/mmproj-BF16.gguf vs. https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf Differ by kv_count (and looks to me by nothing else in metadata, size is same), surprisingly older has 35 while \"MTP\" variant less : 33. submitted by /u/alex20_202020 [link] [comments]",
+    "author": "/u/alex20_202020",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have not used MTP yet, are <code>mmproj</code> files different and could be speed up? Are they compatible between models MTP vs. non-MTP?</p> <p>E.g. <a href=\"https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/blob/main/mmproj-BF16.gguf\">https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/blob/main/mmproj-BF16.gguf</a> vs. <a href=\"https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf\">https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf</a></p> <p>Differ by kv_count (and looks to me by nothing else in metadata, size is same), surprisingly older has 35 while &quot;MTP&quot; variant less : 33.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alex20_202020\"> /u/alex20_202020 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum275/is_mmproj_mtp_compatible_with_older_nonmtp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tum275/is_mmproj_mtp_compatible_with_older_nonmtp/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "caed64d8-74c9-5561-b2f7-fd1a3e8e6c73",
     "title": "Claude Status Update : Elevated errors on Opus 4.6 on 2026-06-02T09:33:06.000Z",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tulwwj/claude_status_update_elevated_errors_on_opus_46/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu6ynx/did_anthropic_give_free_usage_today/\"> <img alt=\"Did Anthropic give free usage today?\" src=\"https://preview.redd.it/thq64pcarq4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=03c954f1a2965857cc2f7f1aff0fd3f0c3b6b59b\" title=\"Did Anthropic give free usage today?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I had already passed 60% of my weekly quota this morning, looking at my reset time of 3:00AM Saturday, but this afternoon it looks like it got reset. I just signed up for Claude Pro last week, does this always happen? I'm just happy, but curious if this is common.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Diligent-Lemon-1086\"> /u/Diligent-Lemon-1086 </a> <br /> <span><a href=\"https://i.redd.it/thq64pcarq4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tu6ynx/did_anthropic_give_free_usage_today/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/thq64pcarq4h1.png?width=640&crop=smart&auto=webp&s=03c954f1a2965857cc2f7f1aff0fd3f0c3b6b59b",
-    "isShortVideo": 0
-  },
-  {
-    "id": "af085550-5d6c-5e8e-8b06-e6657207c217",
-    "title": "RTX Spark does not have 600GB/s Bandwith",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu639j/rtx_spark_does_not_have_600gbs_bandwith/",
-    "pubDate": "2026-06-01T21:16:32+00:00",
-    "description": "Check the slides from Computex. Every outlet that reported 600GB/s is completely wrong. That is the NvLink speed like everyone here said. submitted by /u/rpiguy9907 [link] [comments]",
-    "author": "/u/rpiguy9907",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu639j/rtx_spark_does_not_have_600gbs_bandwith/\"> <img alt=\"RTX Spark does not have 600GB/s Bandwith\" src=\"https://preview.redd.it/lzttip99mq4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=95fee5f8e156efacf3df26a5c1f299e12ed92751\" title=\"RTX Spark does not have 600GB/s Bandwith\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Check the slides from Computex.</p> <p>Every outlet that reported 600GB/s is completely wrong. That is the NvLink speed like everyone here said.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rpiguy9907\"> /u/rpiguy9907 </a> <br /> <span><a href=\"https://i.redd.it/lzttip99mq4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu639j/rtx_spark_does_not_have_600gbs_bandwith/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/lzttip99mq4h1.png?width=640&crop=smart&auto=webp&s=95fee5f8e156efacf3df26a5c1f299e12ed92751",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6b328624-0c61-50a7-9ead-37bad47fe581",
-    "title": "Stepfun 3.7 Flash: Sonic-like platformer",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/",
-    "pubDate": "2026-06-01T21:15:25+00:00",
-    "description": "System Prompt: You are an expert software developer. Prompt: Task: make a Sonic The Hedgehog-like platform game Scaffold: none - just a single message in openwebui Model: Stepfun 3.7 Flash official Q4_K_S This was the first try don't think I've tried this prompt on other models before. Pretty impressed with the control feel and sense of speed. submitted by /u/-dysangel- [link] [comments]",
-    "author": "/u/-dysangel-",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/\"> <img alt=\"Stepfun 3.7 Flash: Sonic-like platformer\" src=\"https://preview.redd.it/e9p1d7aqkq4h1.gif?width=640&amp;crop=smart&amp;s=aaeac2703b284fdc7dff3f57c1c49cb2d53e1ba2\" title=\"Stepfun 3.7 Flash: Sonic-like platformer\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>System Prompt: <code>You are an expert software developer.</code></p> <p>Prompt: <code>Task: make a Sonic The Hedgehog-like platform game</code></p> <p>Scaffold: none - just a single message in openwebui</p> <p>Model: <a href=\"https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF\">Stepfun 3.7 Flash official Q4_K_S</a></p> <p>This was the first try don't think I've tried this prompt on other models before. Pretty impressed with the control feel and sense of speed.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/-dysangel-\"> /u/-dysangel- </a> <br /> <span><a href=\"https://i.redd.it/e9p1d7aqkq4h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/e9p1d7aqkq4h1.gif?width=640&crop=smart&s=aaeac2703b284fdc7dff3f57c1c49cb2d53e1ba2",
     "isShortVideo": 0
   }
 ]
