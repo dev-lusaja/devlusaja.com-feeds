@@ -1,5 +1,21 @@
 [
   {
+    "id": "b6b7da35-bbee-50cc-be22-556af52b19f8",
+    "title": "New Google Gemma 4 12B Claims Near-26B Performance - We Tested Both!",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tw4tmf/new_google_gemma_4_12b_claims_near26b_performance/",
+    "pubDate": "2026-06-03T22:25:56+00:00",
+    "description": "We ran both models locally on one RTX 4090 and gave each the same task: write a self-contained HTML5 canvas animation with real physics in one file without libraries. Three scenes - a Galton board, two blocks colliding off a wall, and a chaotic triple pendulum Outputs: Gemma 4 26B-A4B: 15 GB VRAM usage, 6.9k tokens, 138 tok/s Gemma 4 12B: 9 GB VRAM usage, 8.9k tokens, 80 tok/s Same Gemma 4 family, but the 26B-A4B won every scene and ran ~1.7x faster - on just 4B active params. The 12B stayed very close though, on almost half the VRAM - which makes it the ideal model for a 16 GB laptop. Open source local ai models app: atomic.chat (I’m founder, feel free to try and give any feedback) submitted by /u/gladkos [link] [comments]",
+    "author": "/u/gladkos",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw4tmf/new_google_gemma_4_12b_claims_near26b_performance/\"> <img alt=\"New Google Gemma 4 12B Claims Near-26B Performance - We Tested Both!\" src=\"https://external-preview.redd.it/eGYzMDQ2eDY2NTVoMb1yKaHy9XEjIZONRZPPLKHsqxFB6tN-hfh_b_Vxjrny.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1d557a6b90ec843a1411dc4830cd1e6cad39d808\" title=\"New Google Gemma 4 12B Claims Near-26B Performance - We Tested Both!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>We ran both models locally on one RTX 4090 and gave each the same task: write a self-contained HTML5 canvas animation with real physics in one file without libraries. Three scenes - a Galton board, two blocks colliding off a wall, and a chaotic triple pendulum</p> <p>Outputs:<br /> Gemma 4 26B-A4B: 15 GB VRAM usage, 6.9k tokens, 138 tok/s<br /> Gemma 4 12B: 9 GB VRAM usage, 8.9k tokens, 80 tok/s</p> <p>Same Gemma 4 family, but the 26B-A4B won every scene and ran ~1.7x faster - on just 4B active params. The 12B stayed very close though, on almost half the VRAM - which makes it the ideal model for a 16 GB laptop.</p> <p>Open source local ai models app: <a href=\"https://atomic.chat/\">atomic.chat</a> (I’m founder, feel free to try and give any feedback)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gladkos\"> /u/gladkos </a> <br /> <span><a href=\"https://v.redd.it/uv58jsw6655h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw4tmf/new_google_gemma_4_12b_claims_near26b_performance/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/eGYzMDQ2eDY2NTVoMb1yKaHy9XEjIZONRZPPLKHsqxFB6tN-hfh_b_Vxjrny.png?width=640&crop=smart&auto=webp&s=1d557a6b90ec843a1411dc4830cd1e6cad39d808",
+    "isShortVideo": 0
+  },
+  {
     "id": "236bdcfc-f458-5f41-bf1b-f2aa05c06eda",
     "title": "I built Composer: a real-time markdown editor where your Claude Code agent edits the doc alongside you",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tw49jb/i_built_composer_a_realtime_markdown_editor_where/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I want to set up a 100% offline RAG system using LM Studio and the entire <strong>Italian Wikipedia</strong> (text-only, no images). My goal is to index the database once so my local LLMs can query it for up-to-date factual knowledge without internet access.</p> <p>Here are my PC specs:</p> <ul> <li><strong>GPU:</strong> RTX 4070 super oc 12gb</li> <li><strong>RAM:</strong> 32gb ddr5</li> <li><strong>Storage:</strong> NVMe SSD samsung 870 evo 2tb</li> </ul> <p>I have two main questions for the community:</p> <ol> <li><strong>Data Source:</strong> What is currently the best, cleanest, and most updated source for the Italian Wikipedia dump in pure text format (like <code>.txt</code>, <code>.md</code>, or a clean <code>.jsonl</code>)? I know about Kiwix (.zim) and Hugging Face datasets, but I want to avoid formatting issues (wikitext/HTML tags) that could mess up the embeddings.</li> <li><strong>LM Studio Indexing:</strong> LM Studio's &quot;Local Docs&quot; feature works great for a few documents, but has anyone successfully indexed a large dump like the full Italian Wikipedia (around 5-7GB of raw text)? Will it crash or freeze during the vector database creation? If so, what is the best alternative pipeline to create the vector database offline?</li> </ol> <p>Any advice, scripts, or links to pre-cleaned updated Italian dumps would be highly appreciated.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tombino104\"> /u/tombino104 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuzax/best_way_to_index_full_italian_wikipedia_for_100/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuzax/best_way_to_index_full_italian_wikipedia_for_100/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7ee5e1d5-9524-5f7f-9a76-a81e26d4fff4",
-    "title": "Ideogram 4 is open source! (top ranked on DesignArena)",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/",
-    "pubDate": "2026-06-03T16:18:47+00:00",
-    "description": "submitted by /u/paf1138 [link] [comments]",
-    "author": "/u/paf1138",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/\"> <img alt=\"Ideogram 4 is open source! (top ranked on DesignArena)\" src=\"https://external-preview.redd.it/MmS5DUxZoPEVWGU88OyT8S516-lI8MW5HhFhgQ5yHMg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=df39a3f658b159caf7399ccea1dac9512381be7b\" title=\"Ideogram 4 is open source! (top ranked on DesignArena)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/paf1138\"> /u/paf1138 </a> <br /> <span><a href=\"https://huggingface.co/ideogram-ai/ideogram-4-fp8\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/MmS5DUxZoPEVWGU88OyT8S516-lI8MW5HhFhgQ5yHMg.png?width=640&crop=smart&auto=webp&s=df39a3f658b159caf7399ccea1dac9512381be7b",
     "isShortVideo": 0
   }
 ]

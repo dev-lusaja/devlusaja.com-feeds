@@ -1,5 +1,21 @@
 [
   {
+    "id": "e5c05f87-a443-5e24-8d5a-233946b55b4d",
+    "title": "Follow the Mean: Reference-Guided Flow Matching [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tdbxwg/follow_the_mean_referenceguided_flow_matching_r/",
+    "pubDate": "2026-05-14T21:30:01+00:00",
+    "description": "Follow the Mean: Reference-Guided Flow Matching: https://www.alphaxiv.org/abs/2605.10302 https://preview.redd.it/5pleq5b4861h1.png?width=1036&format=png&auto=webp&s=805940b079176b65c45bb10e5458ecce140b0044 submitted by /u/Professional-Ant-117 [link] [comments]",
+    "author": "/u/Professional-Ant-117",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdbxwg/follow_the_mean_referenceguided_flow_matching_r/\"> <img alt=\"Follow the Mean: Reference-Guided Flow Matching [R]\" src=\"https://preview.redd.it/5pleq5b4861h1.png?width=140&amp;height=91&amp;auto=webp&amp;s=5f80ce290c30e51700f9b9fd0f907ee56e9382b2\" title=\"Follow the Mean: Reference-Guided Flow Matching [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Follow the Mean: Reference-Guided Flow Matching: <a href=\"https://www.alphaxiv.org/abs/2605.10302\">https://www.alphaxiv.org/abs/2605.10302</a></p> <p><a href=\"https://preview.redd.it/5pleq5b4861h1.png?width=1036&amp;format=png&amp;auto=webp&amp;s=805940b079176b65c45bb10e5458ecce140b0044\">https://preview.redd.it/5pleq5b4861h1.png?width=1036&amp;format=png&amp;auto=webp&amp;s=805940b079176b65c45bb10e5458ecce140b0044</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Professional-Ant-117\"> /u/Professional-Ant-117 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdbxwg/follow_the_mean_referenceguided_flow_matching_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdbxwg/follow_the_mean_referenceguided_flow_matching_r/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/5pleq5b4861h1.png?width=140&height=91&auto=webp&s=5f80ce290c30e51700f9b9fd0f907ee56e9382b2",
+    "isShortVideo": 0
+  },
+  {
     "id": "91cda26d-968b-5343-81d5-3cd9f3e6cc9f",
     "title": "Is RL post-training in 'imagined environments' a path to continual learning? Trying to understand this deeper [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tda24m/is_rl_posttraining_in_imagined_environments_a/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone applying for a Korean visa for ICML been asked for the conference’s Business Registration Number? The ICML website explicitly states that it cannot provide the BRC so I wanted to ask how others handled this</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cardiologist7609\"> /u/No_Cardiologist7609 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1taz8mt/icml_visa_issues_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1taz8mt/icml_visa_issues_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4645f9d5-0145-5990-a3bc-a420b355755b",
-    "title": "Cache-testing software for LLM-provider-style tiered ephemeral caches? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tayaiw/cachetesting_software_for_llmproviderstyle_tiered/",
-    "pubDate": "2026-05-12T11:07:23+00:00",
-    "description": "I'm looking for a cache simulator / benchmark suite suited to the kind of tiered ephemeral cache that LLM providers use — e.g. Anthropic's 4-tier prompt cache, where context sits across several tiers with different residency windows, costs, and eviction rules. I've already tried libCacheSim . It's a solid piece of software for classical caches (LRU, FIFO, ARC, SIEVE, S3-FIFO, W-TinyLFU, Belady oracle, plugin API, trace replay), and I got a plugin + synthetic trace working against it. But it seems fundamentally aimed at single, flat caches: One cache, not a hierarchy of tiers with different costs No notion of partial / multi-tier residency of the same object Misses are uniform-cost — no way to express \"miss to L1 vs miss to L3 vs full recompute,\" which is the whole point in LLM prompt caching Trace model is atomic get/put, not edit streams where cached objects mutate in place No first-class support for token-weighted object sizes So it works as a baseline comparator, but it's not really the right shape for evaluating LLM-cache policies. Does anyone know of cache-testing software specifically targeting LLM-provider-style caches? Something that models multiple tiers with per-tier cost/residency, tokenised objects, and edit-driven workloads would be ideal. Academic code, research prototypes, internal tools that got open-sourced — all welcome. Even partial matches (e.g. KV-cache simulators for inference servers) would be useful pointers. submitted by /u/flatmax [link] [comments]",
-    "author": "/u/flatmax",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm looking for a cache simulator / benchmark suite suited to the kind of tiered ephemeral cache that LLM providers use — e.g. Anthropic's 4-tier prompt cache, where context sits across several tiers with different residency windows, costs, and eviction rules.</p> <p>I've already tried <strong>libCacheSim</strong>. It's a solid piece of software for classical caches (LRU, FIFO, ARC, SIEVE, S3-FIFO, W-TinyLFU, Belady oracle, plugin API, trace replay), and I got a plugin + synthetic trace working against it. But it seems fundamentally aimed at single, flat caches:</p> <ul> <li>One cache, not a hierarchy of tiers with different costs</li> <li>No notion of partial / multi-tier residency of the same object</li> <li>Misses are uniform-cost — no way to express &quot;miss to L1 vs miss to L3 vs full recompute,&quot; which is the whole point in LLM prompt caching</li> <li>Trace model is atomic get/put, not edit streams where cached objects mutate in place</li> <li>No first-class support for token-weighted object sizes</li> </ul> <p>So it works as a baseline comparator, but it's not really the right shape for evaluating LLM-cache policies.</p> <p><strong>Does anyone know of cache-testing software specifically targeting LLM-provider-style caches?</strong> Something that models multiple tiers with per-tier cost/residency, tokenised objects, and edit-driven workloads would be ideal. Academic code, research prototypes, internal tools that got open-sourced — all welcome. Even partial matches (e.g. KV-cache simulators for inference servers) would be useful pointers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/flatmax\"> /u/flatmax </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tayaiw/cachetesting_software_for_llmproviderstyle_tiered/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tayaiw/cachetesting_software_for_llmproviderstyle_tiered/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

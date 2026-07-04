@@ -1,5 +1,21 @@
 [
   {
+    "id": "ccd15389-33f6-5ca6-b989-8721a07a869f",
+    "title": "Super new but man, this is fun :)",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tvfsp4/super_new_but_man_this_is_fun/",
+    "pubDate": "2026-06-03T05:25:07+00:00",
+    "description": "I'm only tangentially technical (storage pre-sales that moved to sales 5 years ago) and thought I'd try Claude out. It's only been a week but so far I have: Created a webpage that compares two contract pdfs (or text), finds any discrepancies and then explains them in plain english and how important they are. Analysed photos of badly written post-notes with times and dates of time worked scribbled on them and put them in a spreadsheet (10 notes with about 10 \"shifts\" on each) - amazing Analysed a years worth of electricity and gas usage to see if the solar+battery system that's in a house we're looking at buying will cover it. Created a webpage that works out how long it'll be before all your kids move out of home (based on DoB and the age you want them to move out) with photos of each kid. I joked for years that I had this and now I do 😄 Anyway - for any other noobs out here - have a blast. The only limit is your imagination. And tokens 😉 edit: spelling submitted by /u/cosmonz [link] [comments]",
+    "author": "/u/cosmonz",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm only tangentially technical (storage pre-sales that moved to sales 5 years ago) and thought I'd try Claude out.</p> <p>It's only been a week but so far I have:</p> <ol> <li>Created a webpage that compares two contract pdfs (or text), finds any discrepancies and then explains them in plain english and how important they are.</li> <li>Analysed photos of badly written post-notes with times and dates of time worked scribbled on them and put them in a spreadsheet (10 notes with about 10 &quot;shifts&quot; on each) - amazing</li> <li>Analysed a years worth of electricity and gas usage to see if the solar+battery system that's in a house we're looking at buying will cover it.</li> <li>Created a webpage that works out how long it'll be before all your kids move out of home (based on DoB and the age you want them to move out) with photos of each kid. I joked for years that I had this and now I do 😄</li> </ol> <p>Anyway - for any other noobs out here - have a blast. The only limit is your imagination.</p> <p>And tokens 😉</p> <p>edit: spelling</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cosmonz\"> /u/cosmonz </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvfsp4/super_new_but_man_this_is_fun/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tvfsp4/super_new_but_man_this_is_fun/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "00773d52-3c5a-5ba0-9d32-d52c76f5e2de",
     "title": "Mellum & Granite Embedding models are ready on llama.cpp",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvfldm/mellum_granite_embedding_models_are_ready_on/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/\"> <img alt=\"I built a kanban that runs Claude on a cron\" src=\"https://external-preview.redd.it/TQV2jVll38WfRG6b72jGwRWGmKiE0jXThyeVdtlmCoE.png?width=140&amp;height=73&amp;auto=webp&amp;s=f01c96ce23d5692b6f9655c5e4efbbdcd90af10a\" title=\"I built a kanban that runs Claude on a cron\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://reddit.com/link/1tv0fl6/video/xcz1bbnx0x4h1/player\">https://reddit.com/link/1tv0fl6/video/xcz1bbnx0x4h1/player</a></p> <p>I've been using Claude Code on my laptop for months and it's great while I'm sitting in front of it. But I wanted something a little more autonomous</p> <p>So I built one. It's a kanban board where each ticket spawns a Claude Code session that:</p> <ol> <li><p>Clones the repo into an isolated environment</p></li> <li><p>Runs the Claude Agent SDK on the ticket body</p></li> <li><p>Commits + pushes via a GitHub App as a bot account (Vercel preview then builds, because the commits aren't from a personal account)</p></li> <li><p>Opens a PR</p></li> <li><p>Spawns a SECOND Claude session as the QA agent that drives the preview deploy via Browserbase + Playwright MCP</p></li> <li><p>If QA fails, the build agent gets the QA report and iterates up to 3 retries</p></li> </ol> <p>The thing I'm most proud of: the MCP integration. I'm in Claude Code and I just say &quot;make a notesasm ticket for the dark mode bug&quot; and it lands on the board with my git remote auto-attached. No tab-switching, no copy-paste. The MCP server runs in our cloud so there's nothing to npm-install.</p> <p>The board also handles recurring tickets. e.g. &quot;every weekday at 9am, read these GitHub issues and file a ticket for anything labeled P0.&quot;</p> <p>So when I wake up the board has stuff to review.</p> <p>I'm slowly expanding past just code and have added integrations that can help automate lots of other workflows (like emails, social media posts, outreach, etc)</p> <p>Open beta at <a href=\"http://notesasm.com\">notesasm.com</a> free to try - email me at [<a href=\"mailto:kavin@notesasm.com\">kavin@notesasm.com</a>](mailto:<a href=\"mailto:kavin@notesasm.com\">kavin@notesasm.com</a>) and I'll upgrade you to PRO for free.</p> <p>Trying to find Claude Code users who'd actually use this.</p> <p>Happy to answer technical questions, what would you want to know?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FormExtension7920\"> /u/FormExtension7920 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/TQV2jVll38WfRG6b72jGwRWGmKiE0jXThyeVdtlmCoE.png?width=140&height=73&auto=webp&s=f01c96ce23d5692b6f9655c5e4efbbdcd90af10a",
-    "isShortVideo": 0
-  },
-  {
-    "id": "76d8b333-07d1-540e-bbf3-775dac14b324",
-    "title": "5 Minutes left in the Current Claude Session",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/",
-    "pubDate": "2026-06-02T18:14:05+00:00",
-    "description": "i swear i spend the first 4 hours and 55 minutes focusing on token optimization. The last 5 minutes however are where I see how things look with Opus 4.8 with max thinking. submitted by /u/beed [link] [comments]",
-    "author": "/u/beed",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/\"> <img alt=\"5 Minutes left in the Current Claude Session\" src=\"https://preview.redd.it/ing1do1juw4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=109fcfe2ec03d2d74184304c83dcd2ba8d6ce297\" title=\"5 Minutes left in the Current Claude Session\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>i swear i spend the first 4 hours and 55 minutes focusing on token optimization. The last 5 minutes however are where I see how things look with Opus 4.8 with max thinking.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/beed\"> /u/beed </a> <br /> <span><a href=\"https://i.redd.it/ing1do1juw4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/ing1do1juw4h1.png?width=640&crop=smart&auto=webp&s=109fcfe2ec03d2d74184304c83dcd2ba8d6ce297",
     "isShortVideo": 0
   }
 ]

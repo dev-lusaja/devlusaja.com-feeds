@@ -1,5 +1,21 @@
 [
   {
+    "id": "10931c39-0ed3-587d-9771-74a929d6a97f",
+    "title": "Wall-OSS-0.5: 4B VLA with open training code and zero-shot real-robot evaluation[D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/",
+    "pubDate": "2026-05-28T16:37:41+00:00",
+    "description": "Wall-OSS-0.5 is a new 4B VLA release from X Square Robot, built on a 3B VLM backbone with action experts in a Mixture-of-Transformers layout. What caught my eye is that the report evaluates the pretrained checkpoint on real robots before task-specific fine tuning, instead of only reporting downstream fine-tuned performance. The reported numbers are: zero shot on a 17-task real-robot suite, 4 tasks above 80 task progress, including a held-out deformable task (Rope Tightening, 82). After fine tuning on a 15-task suite, they report 60.5 average task progress, +17.5pp over pi0.5, and +26pp on the 10-task manipulation subset. They also report +21.8pp on embodied grounding while general VL ability stays stable. The method bits I am trying to sanity check are the gradient bridge and the optimizer claim. They argue that discrete action-token CE is the dominant gradient into the VLM backbone, while flow matching's contribution to backbone updates collapses to roughly 5 percent within a few thousand steps. The Vision-Aligned RVQ tokenizer is supposed to make those action tokens semantically grounded instead of just numerical compression. For continuous actions, they still use flow matching, but supervise in recovered action space rather than velocity space. They also include DMuon, a distributed Muon optimizer, with a pretty aggressive overhead reduction claim. Code: https://github.com/X-Square-Robot/wall-x . Hugging Face org: https://huggingface.co/x-square-robot . Project page: https://x2robot.com/oss#resources . Paper: https://x2robot.com/api/files/file/wall_oss_05.pdf The questions I had after reading it: if you have run an analogous gradient-bridge ablation in another VLA, did action-token CE dominate in the same way? For people already using Muon, does the DMuon overhead claim sound plausible? And has anyone seen RVQ-with-vision-alignment clearly beat FAST-style tokenization outside this paper? If anyone is already trying to reproduce this on real hardware, drop notes. The third-party results will matter more than the release numbers. submitted by /u/Tall-Peak2618 [link] [comments]",
+    "author": "/u/Tall-Peak2618",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Wall-OSS-0.5 is a new 4B VLA release from X Square Robot, built on a 3B VLM backbone with action experts in a Mixture-of-Transformers layout. What caught my eye is that the report evaluates the pretrained checkpoint on real robots before task-specific fine tuning, instead of only reporting downstream fine-tuned performance.</p> <p>The reported numbers are: zero shot on a 17-task real-robot suite, 4 tasks above 80 task progress, including a held-out deformable task (Rope Tightening, 82). After fine tuning on a 15-task suite, they report 60.5 average task progress, +17.5pp over pi0.5, and +26pp on the 10-task manipulation subset. They also report +21.8pp on embodied grounding while general VL ability stays stable.</p> <p>The method bits I am trying to sanity check are the gradient bridge and the optimizer claim. They argue that discrete action-token CE is the dominant gradient into the VLM backbone, while flow matching's contribution to backbone updates collapses to roughly 5 percent within a few thousand steps. The Vision-Aligned RVQ tokenizer is supposed to make those action tokens semantically grounded instead of just numerical compression. For continuous actions, they still use flow matching, but supervise in recovered action space rather than velocity space. They also include DMuon, a distributed Muon optimizer, with a pretty aggressive overhead reduction claim.</p> <p>Code: <a href=\"https://github.com/X-Square-Robot/wall-x\">https://github.com/X-Square-Robot/wall-x</a>. Hugging Face org: <a href=\"https://huggingface.co/x-square-robot\">https://huggingface.co/x-square-robot</a>. Project page: <a href=\"https://x2robot.com/oss#resources\">https://x2robot.com/oss#resources</a>. Paper: <a href=\"https://x2robot.com/api/files/file/wall_oss_05.pdf\">https://x2robot.com/api/files/file/wall_oss_05.pdf</a></p> <p>The questions I had after reading it: if you have run an analogous gradient-bridge ablation in another VLA, did action-token CE dominate in the same way? For people already using Muon, does the DMuon overhead claim sound plausible? And has anyone seen RVQ-with-vision-alignment clearly beat FAST-style tokenization outside this paper?</p> <p>If anyone is already trying to reproduce this on real hardware, drop notes. The third-party results will matter more than the release numbers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tall-Peak2618\"> /u/Tall-Peak2618 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "62bd51de-1c6a-56e7-bf96-1de2140ddfd6",
     "title": "Kept context-switching between arxiv, OpenReview, GitHub, and HuggingFace for every paper, so I built this. Chrome extension + website with everything inline, plus citation graph + SPECTER2 neighbors. 3M papers, free, feedback welcome [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tq53il/kept_contextswitching_between_arxiv_openreview/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Looking for communities where people actually dig into ML/AI research, not hype, not &quot;look what I built with an LLM API,&quot; but discussions about papers, training dynamics, debugging real models, infra problems, that kind of thing.</p> <p>I'm specifically interested in places where you can post something like &quot;I'm seeing X behaviour in my SSL training, here's the loss curve, anyone seen this before?&quot; and get thoughtful replies instead of generic advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Possible-Active-1903\"> /u/Possible-Active-1903 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1to2l4c/d_where_do_you_go_for_serious_ai_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1to2l4c/d_where_do_you_go_for_serious_ai_research/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9b17b2af-a590-5f05-9484-cfaa3507e812",
-    "title": "Already 11 000 submissions for EMNLP? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tnwdss/already_11_000_submissions_for_emnlp_d/",
-    "pubDate": "2026-05-26T04:37:48+00:00",
-    "description": "Is this normal? I searched it up and last year it was only 8000. submitted by /u/NightCR_ [link] [comments]",
-    "author": "/u/NightCR_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is this normal? I searched it up and last year it was only 8000.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NightCR_\"> /u/NightCR_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnwdss/already_11_000_submissions_for_emnlp_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnwdss/already_11_000_submissions_for_emnlp_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

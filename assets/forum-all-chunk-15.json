@@ -1,5 +1,21 @@
 [
   {
+    "id": "1ac23157-bd9b-573e-8b45-8c0488bb914c",
+    "title": "Nex N2 has a funny \"few words do trick\" reasoning",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0bfoy/nex_n2_has_a_funny_few_words_do_trick_reasoning/",
+    "pubDate": "2026-06-08T15:36:59+00:00",
+    "description": "I've been playing with Nex N2 Pro (Qwen 3.5 397B finetune) locally today. I noticed straight away that it has a pattern of reasoning that is distinct and uses simple words like \"need\" and \"maybe\" a lot. Here's a sample of reasoning. We need answer user asks \"what is the theory of bicameral mind about?\" Need explain Julian Jaynes theory. Need concise but enough. Could mention from 1976 book, humans lacked introspective consciousness until ~3k years ago, brain interpreted auditory hallucinations as voices of gods/authorities, \"bicameral\" not split-brain but two-chambered mind: executive/command and obedient/following. Collapse due to social complexity, writing, disasters, migration; voices became internalized, consciousness emerged metaphorically via language. Not mainstream accepted, controversial, but influential. Need maybe define \"consciousness\" as subjective self-awareness. Let's craft. It's probably a way to use less tokens for answers. It makes parsing reasoning a bit harder for me since languistic difficulty jumps around a lot on complex topics. Have you seen this being ingrained in any other popular models? Do you think this kind of shortcut reasoning should be adopted widely? submitted by /u/FullOf_Bad_Ideas [link] [comments]",
+    "author": "/u/FullOf_Bad_Ideas",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been playing with Nex N2 Pro (Qwen 3.5 397B finetune) locally today.</p> <p>I noticed straight away that it has a pattern of reasoning that is distinct and uses simple words like &quot;need&quot; and &quot;maybe&quot; a lot.</p> <p>Here's a sample of reasoning.</p> <blockquote> <p>We need answer user asks &quot;what is the theory of bicameral mind about?&quot; Need explain Julian Jaynes theory. Need concise but enough. Could mention from 1976 book, humans lacked introspective consciousness until ~3k years ago, brain interpreted auditory hallucinations as voices of gods/authorities, &quot;bicameral&quot; not split-brain but two-chambered mind: executive/command and obedient/following. Collapse due to social complexity, writing, disasters, migration; voices became internalized, consciousness emerged metaphorically via language. Not mainstream accepted, controversial, but influential. Need maybe define &quot;consciousness&quot; as subjective self-awareness. Let's craft.</p> </blockquote> <p>It's probably a way to use less tokens for answers. It makes parsing reasoning a bit harder for me since languistic difficulty jumps around a lot on complex topics. Have you seen this being ingrained in any other popular models? Do you think this kind of shortcut reasoning should be adopted widely?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FullOf_Bad_Ideas\"> /u/FullOf_Bad_Ideas </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0bfoy/nex_n2_has_a_funny_few_words_do_trick_reasoning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0bfoy/nex_n2_has_a_funny_few_words_do_trick_reasoning/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "aca8e9a1-e8f3-5756-852c-36320d3fad6e",
     "title": "Luce Spark: a 35B MoE on a 16 GB GPU, without the offload tax",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0b3cu/luce_spark_a_35b_moe_on_a_16_gb_gpu_without_the/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I work at Depureco, an Italian industrial vacuum manufacturer, and recently we built a Remote MCP server for our product catalog and connected it to Claude.</p> <p>I’m sharing this because the result changed how I think about AI in safety-critical B2B environments.</p> <p>Before: the model only had general knowledge. It could generate plausible answers, but it lacked access to product-specific requirements, certifications, and engineering constraints.</p> <p>Now: instead of relying on assumptions, it retrieves structured catalog data and uses it to generate recommendations grounded in actual specifications.</p> <p>Some examples:</p> <p>• “Flour dust in a bakery, ATEX Zone 22, continuous use — what vacuum?”<br /> → Instead of suggesting “an explosion-proof vacuum”, Claude asks clarifying questions and recommends the correct certified solution.</p> <p>• “Titanium powder from our SLS 3D printer, ATEX Zone 22”<br /> → It distinguishes conductive Group IIIC dust and recommends an inert solution rather than standard ATEX.</p> <p>• “Compare PUMA 18S vs PUMA 18P for high-pressure applications”<br /> → It returns real configuration data and explains the tradeoff instead of generating generic comparisons.</p> <p>What struck me most isn’t that the answers became more detailed. It’s that the system became more humble.</p> <p>When AI can access domain-specific knowledge, it stops pretending to know and starts asking better questions.</p> <p>For manufacturing and industrial environments, I think that shift matters more than bigger models. Curious if others working in regulated, technical, or safety-critical domains are seeing the same pattern with MCP. </p> <p>Remote MCP over HTTP, no installation required.<br /> Endpoint: <a href=\"https://depureco.com/wp-json/depureco/v1/mcp\">https://depureco.com/wp-json/depureco/v1/mcp</a><br /> GitHub: <a href=\"https://github.com/depurecoindustrialvacuums-boop/industrial-vacuum-explorer-mcp\">https://github.com/depurecoindustrialvacuums-boop/industrial-vacuum-explorer-mcp</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Filippo-Depureco\"> /u/Filippo-Depureco </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u00stn/i_work_at_an_industrial_vacuum_manufacturer_we/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u00stn/i_work_at_an_industrial_vacuum_manufacturer_we/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c3544a22-113c-5151-a18f-c83bda6d0468",
-    "title": "What was your moment when you thought, \"OK, what the AI ​​is doing here is really insane\"",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u00oy1/what_was_your_moment_when_you_thought_ok_what_the/",
-    "pubDate": "2026-06-08T07:15:56+00:00",
-    "description": "That was when I managed to debug a Minecraft mod that I loved when I was younger with Claude Code submitted by /u/dyloum84 [link] [comments]",
-    "author": "/u/dyloum84",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>That was when I managed to debug a Minecraft mod that I loved when I was younger with Claude Code </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dyloum84\"> /u/dyloum84 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u00oy1/what_was_your_moment_when_you_thought_ok_what_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u00oy1/what_was_your_moment_when_you_thought_ok_what_the/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "76d8b333-07d1-540e-bbf3-775dac14b324",
+    "title": "5 Minutes left in the Current Claude Session",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/",
+    "pubDate": "2026-06-02T18:14:05+00:00",
+    "description": "i swear i spend the first 4 hours and 55 minutes focusing on token optimization. The last 5 minutes however are where I see how things look with Opus 4.8 with max thinking. submitted by /u/beed [link] [comments]",
+    "author": "/u/beed",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/\"> <img alt=\"5 Minutes left in the Current Claude Session\" src=\"https://preview.redd.it/ing1do1juw4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=109fcfe2ec03d2d74184304c83dcd2ba8d6ce297\" title=\"5 Minutes left in the Current Claude Session\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>i swear i spend the first 4 hours and 55 minutes focusing on token optimization. The last 5 minutes however are where I see how things look with Opus 4.8 with max thinking.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/beed\"> /u/beed </a> <br /> <span><a href=\"https://i.redd.it/ing1do1juw4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/ing1do1juw4h1.png?width=640&crop=smart&auto=webp&s=109fcfe2ec03d2d74184304c83dcd2ba8d6ce297",
+    "isShortVideo": 0
+  },
+  {
     "id": "d76abd5a-323e-5bee-bcd1-bafeda59f5b1",
     "title": "Would you consider getting an NVIDIA RTX Spark laptop?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tuz3vz/would_you_consider_getting_an_nvidia_rtx_spark/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>For two weeks I ran my multi-agent orchestrator entirely on Qwen3.6-27B via Ollama, on a single 3090. </p> <p>The goal: see if a local model could replace Claude as the reasoning layer for the lead/manager/sub-agent loop. Here's where it worked and where it broke.</p> <p>Setup:</p> <p>- RTX 3090, 24GB VRAM</p> <p>- Qwen3.6-27B at Q6_K (~22GB on-GPU), 32k effective context</p> <p>- Ollama as the inference engine</p> <p>- Multi-agent orchestrator with structured-JSON plans, plan-approval modal, auto-review pass after sub-agent completion</p> <p>- Tested across 47 multi-step coding workflows over two real repos</p> <p>What worked (the reasoning layer):</p> <p>- Plan generation. Qwen3.6 generated multi-step plans roughly as well as Claude on these tasks. Slightly more conservative (fewer unsolicited &quot;let me also refactor X&quot; steps), but coherent and schema-valid at ~95% after a few prompt tweaks. The remaining 5% were schema fixable with one re-prompt.</p> <p>- Memory extraction. Mem0-style fact extraction every 6 turns worked fine. Qwen pulled out the same kinds of facts Claude does (&quot;user prefers no comments unless they explain a 'why'&quot;) and stored them cleanly in Qdrant.</p> <p>- Auto-review of sub-agent output. A second Qwen instance reviewing the first one's code caught roughly 60% of the bugs Claude's review caught on the same set. Less savage. Still useful and free.</p> <p>Where it broke:</p> <p>- Tool-call reliability. Qwen3.6's JSON tool-call output had a ~12% format error rate across the 47 tasks. Claude was ~0.5% on the same workload. The errors weren't malformed JSON they were wrong field names, wrong types, hallucinated tool signatures. Outlines / strict-output mode reduced it but didn't kill it.</p> <p>- Long-context drift. Past ~14k tokens of accumulated session context, Qwen started misremembering decisions it had made earlier (&quot;you said use Postgres&quot; no, I said the opposite). Hard practical limit ~12k tokens, then aggressive summarize-and-reset.</p> <p>- Cascade-failure handling. When a sub-agent failed, Claude's planner usually noticed and re-planned. Qwen sometimes just generated downstream steps assuming the sub-agent had succeeded. Three cascading hallucinations in 47 runs. Not catastrophic with plan gating in place. Would be catastrophic without.</p> <p>The contrarian take: Qwen3.6-27B is a viable REASONING layer for local multi-agent systems today. It is NOT a viable execution layer. Run plans through it; gate every tool call.</p> <p>Practical implication: if you're building local-only agents, you need (1) structured-output enforcement at the tool-call boundary (outlines, lm-format-enforcer, or your inference engine's grammar mode), (2) plan-approval gating so the 12% format errors don't reach actual file writes, (3) re-plan-on-failure logic the model itself can't be trusted to do.</p> <p>The 12% tool-call gap is the metric to close. Once Qwen3.6 (or the next local model) hits ~2% on this, the case for cloud reasoning in agent loops gets weaker fast.</p> <p>Disclosure: the orchestrator I tested this on is OpenYabby (openyabby.com). I built it. Tested honestly because I genuinely wanted to know if I could stop paying Anthropic.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Interesting-Sock3940\"> /u/Interesting-Sock3940 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tunmam/replaced_claude_with_local_qwen3627b_in_my/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tunmam/replaced_claude_with_local_qwen3627b_in_my/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "24042d67-0e73-5804-a168-14765bded058",
-    "title": "Help starting with Pi locally (and Qwen)",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tunm2v/help_starting_with_pi_locally_and_qwen/",
-    "pubDate": "2026-06-02T11:05:24+00:00",
-    "description": "Do you have config recommandations ? Apparently you need to set up the following to have proper thinking in models.json : \"compat\": { \"supportsDeveloperRole\": false, \"supportsReasoningEffort\": true \"thinkingFormat\": \"qwen-chat-template\", \"supportsStrictMode\": false, \"maxTokensField\": \"max_tokens\" }, Is it still true ? https://github.com/earendil-works/pi/issues/2020 What do you use as extensions ? I designed a few ones for my current assistant (nanobot) - I checked pi-acp to use it with openacp and telegram, I'm going to look at websearch - memory ? - todo list ? - others ? submitted by /u/Nyghtbynger [link] [comments]",
-    "author": "/u/Nyghtbynger",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Do you have config recommandations ?</p> <p>Apparently you need to set up the following to have proper thinking in models.json : </p> <pre><code> &quot;compat&quot;: { &quot;supportsDeveloperRole&quot;: false, &quot;supportsReasoningEffort&quot;: true &quot;thinkingFormat&quot;: &quot;qwen-chat-template&quot;, &quot;supportsStrictMode&quot;: false, &quot;maxTokensField&quot;: &quot;max_tokens&quot; }, </code></pre> <p>Is it still true ? <a href=\"https://github.com/earendil-works/pi/issues/2020\">https://github.com/earendil-works/pi/issues/2020</a></p> <p>What do you use as extensions ? I designed a few ones for my current assistant (nanobot)</p> <p>- I checked pi-acp to use it with openacp and telegram, I'm going to look at websearch<br /> - memory ?<br /> - todo list ?<br /> - others ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nyghtbynger\"> /u/Nyghtbynger </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tunm2v/help_starting_with_pi_locally_and_qwen/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tunm2v/help_starting_with_pi_locally_and_qwen/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

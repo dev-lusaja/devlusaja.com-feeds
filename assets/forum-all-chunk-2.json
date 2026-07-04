@@ -1,5 +1,21 @@
 [
   {
+    "id": "7b216a02-b51d-59b9-ab64-323cd7ed7699",
+    "title": "Showcase: Building ML models that \"watch\" MMA fights and label events and positional changes making these moments all searchable on a timeline [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/",
+    "pubDate": "2026-06-27T08:01:25+00:00",
+    "description": "Hey all, a bit of background - I'm an ex Amateur MMA fighter and BJJ brown belt and am also in the AI/ML space ... weird combo but wanted to know if anyone else was at the intersection of ML/AI and MMA/BJJ. In short, I'm building AI models that \"watch\" fights and are able to detect positions and moments throughout the fights - things like standing vs clinching vs ground (with intention of becoming more granular in time) along with detecting knockdowns, takedowns, etc. There's a timeline at the bottom of each fight with markers for different moments so you can jump straight to them. Anyway this is where my worlds collide and was curious for thoughts for anyone who wants to check it out. If you do, it's at https://cagesight.ai . All feedback welcome. Thanks all. submitted by /u/UnholyCathedral [link] [comments]",
+    "author": "/u/UnholyCathedral",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, a bit of background - I'm an ex Amateur MMA fighter and BJJ brown belt and am also in the AI/ML space ... weird combo but wanted to know if anyone else was at the intersection of ML/AI and MMA/BJJ.</p> <p>In short, I'm building AI models that &quot;watch&quot; fights and are able to detect positions and moments throughout the fights - things like standing vs clinching vs ground (with intention of becoming more granular in time) along with detecting knockdowns, takedowns, etc. There's a timeline at the bottom of each fight with markers for different moments so you can jump straight to them.</p> <p>Anyway this is where my worlds collide and was curious for thoughts for anyone who wants to check it out. If you do, it's at <a href=\"https://cagesight.ai/\">https://cagesight.ai</a>.</p> <p>All feedback welcome.</p> <p>Thanks all.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnholyCathedral\"> /u/UnholyCathedral </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "db8ab550-726b-5d2b-9857-2a9df4335597",
     "title": "Kicking off GPU Mode [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue9yui/neurips_pdf_prompt_injection_to_detect_llm_use_in/\"> <img alt=\"NeurIPS PDF prompt injection to detect LLM use in reviews [D]\" src=\"https://preview.redd.it/v2zz4nrjk79h1.png?width=140&amp;height=91&amp;auto=webp&amp;s=497f6ddd712f5de97124ee16974557803b89d802\" title=\"NeurIPS PDF prompt injection to detect LLM use in reviews [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/v2zz4nrjk79h1.png?width=1340&amp;format=png&amp;auto=webp&amp;s=73da5f80ca4b191d72794fbb0b1bf86d08477dc1\">https://preview.redd.it/v2zz4nrjk79h1.png?width=1340&amp;format=png&amp;auto=webp&amp;s=73da5f80ca4b191d72794fbb0b1bf86d08477dc1</a></p> <p>We all know ICML used prompt injection to flag reviewers breaking Policy A, and NeurIPS has apparently adopted the same trick. With the review deadline coming up, I'm sure it's tempting for people to use LLMs to save time.</p> <p>I know posting about this might be controversial, but I want to give everyone a heads-up while there's still time to fix things—rather than risking a DR and a voided review. Please let this be a friendly reminder that, out of respect for other people's hard work, we need to read and write these reviews ourselves.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/elsaismygf\"> /u/elsaismygf </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue9yui/neurips_pdf_prompt_injection_to_detect_llm_use_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue9yui/neurips_pdf_prompt_injection_to_detect_llm_use_in/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/v2zz4nrjk79h1.png?width=140&height=91&auto=webp&s=497f6ddd712f5de97124ee16974557803b89d802",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2b4af32c-58d4-5449-ac53-4847235f9a90",
-    "title": "Could it be that there aren’t really any medical LLM APIs available right now? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/",
-    "pubDate": "2026-06-24T08:59:50+00:00",
-    "description": "As part of my ablations, I want to generate text with a medical-oriented LLM, and I was surprised to find no exposed APIs for this kind of model. I found models like MedGemma and BioMistral on Hugging Face, but they don’t seem to offer public APIs, and I really don’t want to host anything myself. Is that actually the case? submitted by /u/Entrepreneur7962 [link] [comments]",
-    "author": "/u/Entrepreneur7962",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As part of my ablations, I want to generate text with a medical-oriented LLM, and I was surprised to find no exposed APIs for this kind of model.<br /> I found models like MedGemma and BioMistral on Hugging Face, but they don’t seem to offer public APIs, and I really don’t want to host anything myself.</p> <p>Is that actually the case?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Entrepreneur7962\"> /u/Entrepreneur7962 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
