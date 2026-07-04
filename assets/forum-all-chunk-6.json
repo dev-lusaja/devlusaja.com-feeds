@@ -1,5 +1,21 @@
 [
   {
+    "id": "6d4e2ec9-6d70-51b2-b822-7d4ad1ada848",
+    "title": "Has anyone noticed that the behavior of the Kimi model has changed?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3pz4k/has_anyone_noticed_that_the_behavior_of_the_kimi/",
+    "pubDate": "2026-06-12T09:00:59+00:00",
+    "description": "I have been using Kimi K2.6 in Kimi Code for a while. Although it can complete most tasks, it often requires a long time to think and try. Today the model's CoT has become very short and concise, and it feels much improved on coding tasks compared to before I heard that GLM 5.2 is also about to be released. I hope Chinese models can continue to be open-sourced to compete with Fable 5 submitted by /u/InternationalAsk1490 [link] [comments]",
+    "author": "/u/InternationalAsk1490",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been using Kimi K2.6 in Kimi Code for a while. Although it can complete most tasks, it often requires a long time to think and try. Today the model's CoT has become very short and concise, and it feels much improved on coding tasks compared to before</p> <p>I heard that GLM 5.2 is also about to be released. I hope Chinese models can continue to be open-sourced to compete with Fable 5</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/InternationalAsk1490\"> /u/InternationalAsk1490 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3pz4k/has_anyone_noticed_that_the_behavior_of_the_kimi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3pz4k/has_anyone_noticed_that_the_behavior_of_the_kimi/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1c831906-da61-5920-8355-2ae2a41993cd",
     "title": "Spent the weekend on the Apodex 4b, plus a quick look at the 35b mini",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3pdvp/spent_the_weekend_on_the_apodex_4b_plus_a_quick/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u33erf/i_built_a_graphmemory_layer_on_top_of_turbovec/\"> <img alt=\"I built a graph-memory layer on top of turbovec for local/constrained RAG — looking for feedback\" src=\"https://preview.redd.it/z90bfj2ugo6h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=53eae55d7fd61aa9453dafcde14aa7b35d045491\" title=\"I built a graph-memory layer on top of turbovec for local/constrained RAG — looking for feedback\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Disclosure: I built this.</p> <p>I like turbovec for compact local vector search, but in real RAG apps my bottleneck was often outside the vector index: tenant filters, source/time/tag constraints, graph neighborhoods, BM25 candidates, rerank, and explainability.</p> <p>So I built turbo-graph, a fork that keeps the turbovec/TurboQuant core and adds GraphMemoryIndex for constrained RAG.</p> <p>Not claiming this replaces vector DBs or turbovec. It’s an Alpha experiment for local/private RAG routes where constraints are the product.</p> <p><a href=\"https://github.com/bigmacfive/turbo-graph/\">https://github.com/bigmacfive/turbo-graph/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Special_Permit_5546\"> /u/Special_Permit_5546 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u33erf\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u33erf/i_built_a_graphmemory_layer_on_top_of_turbovec/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/z90bfj2ugo6h1.jpg?width=140&height=105&auto=webp&s=53eae55d7fd61aa9453dafcde14aa7b35d045491",
-    "isShortVideo": 0
-  },
-  {
-    "id": "447991a5-6513-5481-b057-b40d750ab522",
-    "title": "8 things about using Claude for writing that took me embarrassingly long to learn",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u32hll/8_things_about_using_claude_for_writing_that_took/",
-    "pubDate": "2026-06-11T15:36:29+00:00",
-    "description": "Most writing tips for this thing are surface level. Here's the stuff I actually use daily after about a year, mostly non-code work. It rewrites better than it writes. Give it your ugly draft and say \"tighten this\", dont ask it to start from nothing. The blank page is where it goes generic. \"Make it sound less AI\" does nothing. \"Cut any sentence that sounds like writing, use shorter words, leave one rough edge\" does a lot. Tell it who's reading, not who it is. \"Explain this to a skeptical CFO\" beats \"you are an expert.\" The audience does the work. It agrees with you if you let it. I stopped asking \"is this good\" and started asking \"what's the strongest case this is wrong.\" Night and day. Give it a reason to be short, not a word count. \"this goes in a text\" gets brevity that \"under 50 words\" never does. Paste the doc, dont describe it. It reads files. I wasted months pasting walls of text when uploading worked better. Ask for the version it avoided. \"what's the riskier take you didnt write\" surfaces the better answer maybe a third of the time. The first reply is the start, not the answer. The good stuff is turn 2 or 3 after you push back. People who judge it on one paste are reviewing a first draft. none of these are clever, they just took too long to become automatic. what crossed over from \"trick I read\" to \"thing I do without thinking\" for you? drop yours below submitted by /u/Several_Function_129 [link] [comments]",
-    "author": "/u/Several_Function_129",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most writing tips for this thing are surface level. Here's the stuff I actually use daily after about a year, mostly non-code work.</p> <p>It rewrites better than it writes. Give it your ugly draft and say &quot;tighten this&quot;, dont ask it to start from nothing. The blank page is where it goes generic.</p> <p>&quot;Make it sound less AI&quot; does nothing. &quot;Cut any sentence that sounds like writing, use shorter words, leave one rough edge&quot; does a lot.</p> <p>Tell it who's reading, not who it is. &quot;Explain this to a skeptical CFO&quot; beats &quot;you are an expert.&quot; The audience does the work.</p> <p>It agrees with you if you let it. I stopped asking &quot;is this good&quot; and started asking &quot;what's the strongest case this is wrong.&quot; Night and day.</p> <p>Give it a reason to be short, not a word count. &quot;this goes in a text&quot; gets brevity that &quot;under 50 words&quot; never does.</p> <p>Paste the doc, dont describe it. It reads files. I wasted months pasting walls of text when uploading worked better.</p> <p>Ask for the version it avoided. &quot;what's the riskier take you didnt write&quot; surfaces the better answer maybe a third of the time.</p> <p>The first reply is the start, not the answer. The good stuff is turn 2 or 3 after you push back. People who judge it on one paste are reviewing a first draft.</p> <p>none of these are clever, they just took too long to become automatic. what crossed over from &quot;trick I read&quot; to &quot;thing I do without thinking&quot; for you? drop yours below</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Several_Function_129\"> /u/Several_Function_129 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u32hll/8_things_about_using_claude_for_writing_that_took/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u32hll/8_things_about_using_claude_for_writing_that_took/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

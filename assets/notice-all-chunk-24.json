@@ -1,5 +1,37 @@
 [
   {
+    "id": "9c67c864-a18b-5dea-a8ed-237bc6e3f943",
+    "title": "Claude Fable 5 es el modelo de IA público más potente de la historia. También el más caro, exclusivo y frustrante",
+    "link": "https://www.xataka.com/robotica-e-ia/claude-fable-5-modelo-ia-publico-potente-historia-tambien-caro-exclusivo-frustrante",
+    "pubDate": "2026-06-10T07:51:00+00:00",
+    "description": "Cuando Anthropic presentó Claude Mythos Preview hace dos meses, lo hizo con un mensaje singular: es tan potente que no vas a poder usarlo. Eso, por supuesto, provocó que todo el mundo quisiera tener acceso a él. Pues bien: Anthropic acaba de presentar Claude Fable 5 y Claude Mythos 5 , sus nuevos modelos de IA directamente derivados de aquel. Hay buenas noticias, pero también malas noticias. Como Mythos, pero capados por precaución . Anthropic ya avisó de que Claude Mythos Preview era una espectacular herramienta para encontrar vulnerabilidades de seguridad. Eso lo hacía especialmente jugoso para cibercriminales, así que la compañía decidió que solo unas pocas entidades de confianza (bajo su Project Glasswing) tendrían acceso al modelo. Ese aprendizaje se ha aplicado ahora, porque en este anuncio tenemos dos versiones distintas (y capadas) del modelo: Claude Fable 5 : un modelo con todas las capacidades de Mythos Preview, pero con notables medidas de seguridad que evitan que se pueda usar para propósitos malévolos. En cuanto el modelo detecta que estamos preguntando algo \"peligroso\", esquiva la pregunta y hasta fuerza el uso de un modelo inferior, Claude Opus 4.8. Ejemplos claros: preguntas sobre ciberseguridad o el desarrollo de armas biológicas, por ejemplo. Claude Mythos 5 : esta versión está algo menos capada que Fable 5 en materia de ciberseguridad, pero solo estará disponible para \"un pequeño grupo de ciberdefensores y proveedores de infraestructura\". Es el heredero natural de Mythos Preview, y según sus creadores es aún mejor que la versión original. Claude Fable 5 / Mythos 5 sencillamente arrasa en los benchmarks más exigentes del planeta. Jamás ha habido modelos más potentes . Las pruebas internas de Anthropic demuestran que estamos ante los modelos de IA más potentes de la historia. En todos los benchmarks —incluido el nuevo FrontierCode de programación, mucho más exigente que SWE Bench Pro— las puntuaciones de Claude Fable 5 y de Mythos 5 son sencillamente espectaculares, muy por encima de las de sus rivales. El salto desde Claude Opus 4.8 es realmente sorprendente, pero es que deja muy atrás a GPT-5.5 y a Gemini 3.1 Pro (no comparan con el reciente 3.5 Flash). Esto es un puñetazo en la mesa brutal de Anthropic, y veremos cómo responden tanto OpenAI como Google. Claude Fable 5 es alucinante . Ethan Mollick, conocido divulgador de IA, ha tenido acceso a Fable 5 desde hace unos días y está asombrado con la experiencia . Con este modelo ha logrado completar proyectos como este del mapa isocrónico que jamás habían resuelto modelos anteriores, y lo ha hecho casi \"a la primera\". En uno de los casos Fable 5 trabajó durante 9 horas y media seguidas para dar como resultado un código llamado Concord de análisis de datos. Sus conclusiones son contundentes: El año pasado [al trabajar con GPT-5 Pro] lo llamé «trabajar con un mago»: recitas el hechizo y algo sucede. Con Fable, el hechizo se ha vuelto tan poderoso que ya no estoy seguro de ser yo el mago. Me siento más como un mecenas. Describo lo que quiero, lo pago y evalúo el resultado. La conjuración tiene lugar en algún lugar que no puedo ver, en cientos de pequeñas decisiones sobre las que nunca tengo voz ni voto. El trabajo ha pasado de ser un proceso a ser un resultado. Ya no dirijo; encargo. En Xataka Anthropic dice que Claude Mythos es demasiado potente para hacerlo público. La pregunta es si esto no es más que un \"que viene el lobo\" La crítica es unánime . Andrej Karpathy, que recientemente fichó por Anthropic, comentaba en X cómo este es un salto cualitativo que para él es de la misma relevancia que el que Claude 4.5 supuso en noviembre. Aquel modelo inició el adelantamiento a OpenAI: este la pone aún a mayor distancia (al menos, de momento). Otros tuiteros , empleados o no de Anthropic, dejan claro que este es un salto importante en las capacidades de los modelos de IA. Apenas han pasado unas horas desde el lanzamiento, pero todo apunta a que efectivamente estamos ante un salto de calidad notable. Consume tokens como si no hubiera mañana . Pero frente a esa fascinación, las críticas. Los debates en Reddit revelan cómo los usuarios que han comenzado a usarlo han detectado rápidamente los problemas asociados a este lanzamiento. El primero de ellos: Claude Fable 5 quema tokens como si no hubiera mañana. Su consumo es enorme, y las cuotas de las cuentas Pro e incluso Max se agotan en minutos si hacemos un uso intensivo del modelo. Si ya nos parecía que agotábamos los límites de las cuentas gratuitas o de pago rápido, con Claude Fable 5 esa sensación se agrava: Fable 5 es fantástico, pero apenas podemos usarlo seguido con los planes Pro o Max porque rápidamente aparecen esos temidos mensajes de esperar X horas para poder seguir usándolo. Extremadamente cauteloso . Anthropic se ha puesto muy seria a la hora de evitar malos usos de Fable 5, y en cuanto detecta cualquier cosa sospechosa \"frena\" y \"rebaja\" el modelo para que en ese momento el que se active sea Claude Opus 4.8 (que no es en absoluto malo). El problema es que los usuarios están detectando que el modelo toma como peligrosos prompts totalmente inofensivos. Aunque en Anthropic indican que esas medidas de seguridad se activan en menos del 5% de las sesiones, lo que están detectando los usuarios es que se activan mucho más. Fable 5 se puede volver tonto . No solo eso: el propio diseño de Fable 5 hace que si se encuentra con un prompt que detecta como peligroso, el modelo trate de esquivar la respuesta y automáticamente reduce sus capacidades ('nerfing') sin que te enteres. Se vuelve algo más tonto a propósito, por decirlo de algún modo. Como la propia Anthropic explica en la tarjeta del sistema , Hemos implementado nuevas medidas que limitan la eficacia de Claude en solicitudes relacionadas con el desarrollo de modelos de lenguaje de gran escala (LLM) de vanguardia (por ejemplo, en la creación de procesos de preentrenamiento, infraestructura de entrenamiento distribuido o diseño de aceleradores de aprendizaje automático). El uso de Claude para desarrollar modelos competidores ya incumple nuestras Condiciones de servicio, pero aplicar esta restricción a través de nuestras medidas de seguridad evita dar ventaja a aquellos usuarios más dispuestos a incumplir dichas condiciones. A diferencia de nuestras intervenciones en materia de ciberseguridad, biología y química, y los intentos de destilación, estas medidas de seguridad no serán visibles para el usuario. Fable 5 no recurrirá a un modelo diferente. En su lugar, las medidas de seguridad limitarán la eficacia mediante métodos como la modificación de las indicaciones, los vectores de orientación o el ajuste fino eficiente en parámetros (PEFT). Pronto dejarás de poder probarlo . Anthropic prevé una demanda excepcional para Fable 5, así que ya ha tomado medidas. Fable 5 está incluido para ser usado tanto en la versión gratuita de Claude como en los planes Pro y Max en los que obviamente las cuotas de uso son mayores. Sin embargo, solo podrá probarse en dichos planes de suscripción hasta el 22 de junio. A partir del 23 de junio, si quieres usar Fable 5 solo podrás hacerlo mediante el pago por uso, usando la API de Anthropic. El coste aquí se puede disparar: 10 dólares por millón de tokens de entrada y 50 dólares por millón de tokens de salida, lo que teniendo en cuenta cómo quema tokens, puede resultar extremadamente caro para proyectos complejos. Los usuarios de Reddit comparan esto con la forma en la que se comercializan las drogas : te dejan probarlo \"gratis\" para que compruebes lo maravilloso que es, pero solo para que luego pagues (mucho) por usarlo. Privacidad en problemas . Hay otro problema con Fable 5. En Anthropic vuelven a usar el argumento de lo potente que es y explican que \"Requeriremos la retención durante 30 días de todo el tráfico en los modelos de clase Mythos\". Aquí quieren asegurarse de que quienes lo usan lo están usando de forma adecuada, y garantizan que esos datos no se usarán para entrenar nuevos modelos. Además incluirán protecciones que permitirán vigilar si sus empleados acceden a esos datos y para qué. \"Los datos nos ayudarán a defendernos contra ataques novedosos y complejos, así como a identificar y reducir falsos positivos\". La mejor IA del mundo saldrá cada vez más cara . En los últimos meses hemos visto cómo Anthropic ha dejado clara su estrategia para crecer en ingresos: los modelos \"baratos\" han dejado de actualizarse (Sonnet, Haiku) y los modelos que sacan son cada vez más capaces, sí, pero también más exclusivos y caros. En Anthropic quieren atrapar a usuarios y empresas para que su modelo se vuelva absolutamente imprescindible y no puedan evitar pagar por él. De momento la táctica funciona, pero la rápida evolución del mercado puede cambiar las cosas: aquí los próximos movimientos de empresas como OpenAI o Google pueden cambiar las cosas, pero de momento una costa está clara. Anthropic va ganando. En Xataka | Anthropic está en el momento más importante de su historia y tiene una advertencia: hay que levantar el acelerador de la IA",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/109d2b/anthropic-claude-fable-5/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b4b893a4-82c3-5fc8-b89e-5b743133d753",
+    "title": "Meta signs first AI data center deal in India with Reliance",
+    "link": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+    "pubDate": "2026-06-10T07:05:26+00:00",
+    "description": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+    "author": "Jagmeet Singh",
+    "sourceTitle": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "sourceCategory": "TechCrunch_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8ace93c7-daba-53a1-ad73-d201a487543c",
     "title": "Taiwán alerta a Europa sobre China: \"No seremos los únicos afectados\"",
     "link": "https://es.euronews.com/next/2026/06/10/exclusiva-el-vicecanciller-taiwanes-advierte-a-europa-si-china-ataca-taiwan-tambien-sufrir",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Best-Free-Image-Generators-on-Hugging-Face-Right-Now.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4fe4a7a9-3276-5b20-a9a8-ef6cc7d1b21e",
-    "title": "Sandstone raises $30M to bring AI to in-house legal teams",
-    "link": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
-    "pubDate": "2026-06-09T13:47:25+00:00",
-    "description": "Sandstone's Series A was led by Lightspeed Partners, with participation from Sequoia.",
-    "author": "Russell Brandom",
-    "sourceTitle": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "sourceCategory": "TechCrunch_AI",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "de480b8a-2d8f-52be-8e5c-537793f2568a",
-    "title": "Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines",
-    "link": "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
-    "pubDate": "2026-06-09T13:30:00+00:00",
-    "description": "Stop re-computing the same context. Learn how to build a C++ runtime with copy-on-fork KV snapshots to eliminate redundant LLM prefills in multi-agent pipelines. The post Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines appeared first on Towards Data Science .",
-    "author": "Anubhab Banerjee",
-    "sourceTitle": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/feed/",
-    "sourceCategory": "Towards",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
     "isShortVideo": 0
   }
 ]

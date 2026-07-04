@@ -1,5 +1,21 @@
 [
   {
+    "id": "cfb85d90-415e-5098-a563-281215912ccd",
+    "title": "How do ML researchers actually use AI tools to improve their writing? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/",
+    "pubDate": "2026-06-04T17:02:53+00:00",
+    "description": "As an ML researcher, how do you use AI tools in your daily work? Do you mostly use them to clean up grammar and wording, or also to rewrite, structure, or draft technical text? submitted by /u/Hope999991 [link] [comments]",
+    "author": "/u/Hope999991",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>As an ML researcher, how do you use AI tools in your daily work? Do you mostly use them to clean up grammar and wording, or also to rewrite, structure, or draft technical text?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "752b9ca7-c8bc-5c71-9489-679b5992ba11",
     "title": "Nemotron 3 Ultra. 550 billion parameters, 55B active. 1 million context",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twtlhe/nemotron_3_ultra_550_billion_parameters_55b/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twla1k/nvidianvidianemotron3ultra550ba55bbf16_hugging/\"> <img alt=\"nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16 · Hugging Face\" src=\"https://external-preview.redd.it/SYWPdNi10HCp2771NvLU21deO0yBffz9XcMeE5wwULI.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=7068a6ad1cc3dea7798d39c4945e707e2ae2c688\" title=\"nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16 · Hugging Face\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><h1>Model Summary</h1> <table><thead> <tr> <th align=\"left\"><strong>Total Parameters</strong></th> <th align=\"left\">550B (55B active)</th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Architecture</strong></td> <td align=\"left\">LatentMoE - Mamba-2 + MoE + Attention hybrid with Multi-Token Prediction (MTP)</td> </tr> <tr> <td align=\"left\"><strong>Context Length</strong></td> <td align=\"left\">Up to 1M tokens</td> </tr> <tr> <td align=\"left\"><strong>Minimum GPU Requirement</strong></td> <td align=\"left\">8x GB200/B200/GB300/B300, 16x H100, 8x H200</td> </tr> <tr> <td align=\"left\"><strong>Supported Languages</strong></td> <td align=\"left\">English, French, Spanish, Italian, German, Japanese, Korean, Hindi, Korean, Brazilian Portuguese, and Chinese</td> </tr> <tr> <td align=\"left\"><strong>Best For</strong></td> <td align=\"left\">Frontier reasoning, complex agentic workflows, long-context analysis, tool use, multilingual reasoning, high-stakes RAG</td> </tr> <tr> <td align=\"left\"><strong>Reasoning Mode</strong></td> <td align=\"left\">Configurable on/off via chat template (<code>enable_thinking=True/False</code>)</td> </tr> <tr> <td align=\"left\"><strong>License</strong></td> <td align=\"left\"><a href=\"https://raw.githubusercontent.com/OpenMDW/OpenMDW/refs/heads/main/1.1/LICENSE.OpenMDW-1.1\">OpenMDW License Agreement, version 1.1</a></td> </tr> <tr> <td align=\"left\"><strong>Release Date</strong></td> <td align=\"left\">June 4, 2026</td> </tr> </tbody></table> <h1>What is Nemotron?</h1> <p>NVIDIA Nemotron™ is a family of open models with open weights, training data, and recipes, delivering leading efficiency and accuracy for building specialized AI agents.</p> <h1>Description</h1> <p><strong>Nemotron-3-Ultra-550B-A55B-BF16</strong> is a frontier-scale large language model (LLM) trained by NVIDIA, designed to deliver strong agentic, reasoning, and conversational capabilities. It is optimized for the most demanding workloads, including complex multi-step agents, long-context analysis, and high-accuracy reasoning over code, math, and science. Like other models in the family, it responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model's reasoning capabilities can be configured through a flag in the chat template.</p> <p>The model employs a hybrid <strong>Latent Mixture-of-Experts (LatentMoE)</strong> architecture, utilizing interleaved Mamba-2 and MoE layers, along with select Attention layers. Like the Super model, the Ultra model incorporates <strong>Multi-Token Prediction (MTP)</strong> layers for faster text generation and improved quality, and it is trained using an <strong>NVFP4</strong> pre-training recipe to maximize compute efficiency. The model has <strong>55B active parameters</strong> and <strong>550B parameters in total</strong>.</p> <p>The supported languages include: English, French, Spanish, Italian, German, Japanese, Korean, Hindi, Korean, Brazilian Portuguese, and Chinese.</p> <p>This model is ready for commercial and non-commercial use.</p> <p><strong>Too big to run locally on my setup, 8xH200 anyone?</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twla1k/nvidianvidianemotron3ultra550ba55bbf16_hugging/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/SYWPdNi10HCp2771NvLU21deO0yBffz9XcMeE5wwULI.png?width=640&crop=smart&auto=webp&s=7068a6ad1cc3dea7798d39c4945e707e2ae2c688",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b62135bc-115d-55c5-a801-0c2bd33720ce",
-    "title": "ICML financial aid [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1twkrbi/icml_financial_aid_d/",
-    "pubDate": "2026-06-04T11:24:03+00:00",
-    "description": "Hello I am curious about the election criteria for ICML financial aid. If anyone have been granted financial aid would you mind sharing your profile. Somehow being a black woman ( 2 underrepresented groups) with one paper accepted at the main conference and two papers accepted at different workshops is not enough to get financial aid. Are they solely for oral papers perhaps ? Last year a colleague (white man) with one spotlight paper did not get it neither. Maybe you need to belong to all minority groups ( half black half Latina Native American woman lgbtq+ and so on so far and what have you) with at least 3 oral papers 💀💀 to get any sort of help? The selection process and criteria should have more transparency cause chances are people in those committees are just giving the money to their own student and postdocs. submitted by /u/DazzlingPin3965 [link] [comments]",
-    "author": "/u/DazzlingPin3965",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello<br /> I am curious about the election criteria for ICML financial aid. </p> <p>If anyone have been granted financial aid would you mind sharing your profile.<br /> Somehow being a black woman ( 2 underrepresented groups) with one paper accepted at the main conference and two papers accepted at different workshops is not enough to get financial aid.<br /> Are they solely for oral papers perhaps ?<br /> Last year a colleague (white man) with one spotlight paper did not get it neither.<br /> Maybe you need to belong to all minority groups ( half black half Latina Native American woman lgbtq+ and so on so far and what have you) with at least 3 oral papers 💀💀 to get any sort of help? </p> <p>The selection process and criteria should have more transparency cause chances are people in those committees are just giving the money to their own student and postdocs. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DazzlingPin3965\"> /u/DazzlingPin3965 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twkrbi/icml_financial_aid_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twkrbi/icml_financial_aid_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

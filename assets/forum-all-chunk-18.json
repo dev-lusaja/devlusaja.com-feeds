@@ -1,5 +1,21 @@
 [
   {
+    "id": "44b7d94c-52d0-54a5-8098-02f9749c1576",
+    "title": "I built a Factorio-inspired ASCII factory game with Claude Cowork — free to play in browser",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz7qut/i_built_a_factorioinspired_ascii_factory_game/",
+    "pubDate": "2026-06-07T09:43:21+00:00",
+    "description": "Been experimenting with AI for a few months for mundane tasks for me ( augmented search engine and comparisons betweens items mostly basic stuff ) and 2 weeks ago I decided to try something \"serious\" with Claude Cowork . First I asked Claude about Factorio and of course it knew about It. After asking Claude about it's take on a playable demo it gave me the starting point about what would become IronVault.And we went along from here. The project: build a full factory automation game from scratch, with me as designer/director and Claude handling all the code. The result is IRONVAULT — an ASCII factory game inspired by Factorio and Dwarf Fortress. **What Claude helped build:** - A full game loop: miners → belts → furnaces → assemblers → science packs - Procedural map generation with shareable seeds - A roguelite decree system (random goals + constraints each run) - Water/steam/electricity chain: pump → boiler → steam engine → power cells on belts - Save/load, zoom/pan, speed controls, CRT aesthetic, ambient music **What I contributed:** - Game design and all creative decisions - Playtesting every feature - Directing Claude through each session (what to build, how it should feel, what's broken) **The workflow that surprised me:** The file is now ~138KB of vanilla HTML/JS — one file, zero dependencies. When it got too big for normal editing, we switched to Python str.replace() patches verified with node --check. Editing a game through conversation is genuinely different from writing code yourself. Free to try in browser: https://kazuyette.itch.io/ironvault Happy to answer questions about the Cowork workflow or the architecture. submitted by /u/kazuyette [link] [comments]",
+    "author": "/u/kazuyette",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Been experimenting with AI for a few months for mundane tasks for me ( augmented search engine and comparisons betweens items mostly basic stuff ) and 2 weeks ago I decided to try something &quot;serious&quot; with Claude Cowork . </p> <p>First I asked Claude about Factorio and of course it knew about It. After asking Claude about it's take on a playable demo it gave me the starting point about what would become IronVault.And we went along from here. </p> <p>The project: build a full factory automation game from scratch, with me as designer/director and Claude handling all the code.</p> <p>The result is IRONVAULT — an ASCII factory game inspired by Factorio and Dwarf Fortress.</p> <p>**What Claude helped build:**</p> <p>- A full game loop: miners → belts → furnaces → assemblers → science packs</p> <p>- Procedural map generation with shareable seeds</p> <p>- A roguelite decree system (random goals + constraints each run)</p> <p>- Water/steam/electricity chain: pump → boiler → steam engine → power cells on belts</p> <p>- Save/load, zoom/pan, speed controls, CRT aesthetic, ambient music</p> <p>**What I contributed:**</p> <p>- Game design and all creative decisions</p> <p>- Playtesting every feature</p> <p>- Directing Claude through each session (what to build, how it should feel, what's broken)</p> <p>**The workflow that surprised me:**</p> <p>The file is now ~138KB of vanilla HTML/JS — one file, zero dependencies. When it got too big for normal editing, we switched to Python str.replace() patches verified with node --check. Editing a game through conversation is genuinely different from writing code yourself.</p> <p>Free to try in browser: <a href=\"https://kazuyette.itch.io/ironvault\">https://kazuyette.itch.io/ironvault</a></p> <p>Happy to answer questions about the Cowork workflow or the architecture.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kazuyette\"> /u/kazuyette </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz7qut/i_built_a_factorioinspired_ascii_factory_game/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz7qut/i_built_a_factorioinspired_ascii_factory_game/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "64752f98-481b-545d-ab31-6a4f64ab8ad3",
     "title": "Gemma 4 31B QAT GGUF loads with MTP branch, but outputs repeated <unused49> - any working recipe?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theonejvo\"> /u/theonejvo </a> <br /> <span><a href=\"https://v.redd.it/z4k5twjx2q5h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tys1wj/another_1click_admin_account_takeover_in/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "277199c9-f7a2-543b-a250-b4ad49f9eea5",
-    "title": "can you save a temporary/incognito chat by adding it to a project?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tyrwnd/can_you_save_a_temporaryincognito_chat_by_adding/",
-    "pubDate": "2026-06-06T20:26:49+00:00",
-    "description": "had a temporary chat that I retroactively want to save, and I added it to a project. You can access the chat through the project on any device so it seems to work, just dont know if it might get deleted at some point submitted by /u/im_vary_dum [link] [comments]",
-    "author": "/u/im_vary_dum",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>had a temporary chat that I retroactively want to save, and I added it to a project. You can access the chat through the project on any device so it seems to work, just dont know if it might get deleted at some point</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/im_vary_dum\"> /u/im_vary_dum </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyrwnd/can_you_save_a_temporaryincognito_chat_by_adding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyrwnd/can_you_save_a_temporaryincognito_chat_by_adding/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
