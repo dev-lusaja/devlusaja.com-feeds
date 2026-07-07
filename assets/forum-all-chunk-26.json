@@ -1,5 +1,37 @@
 [
   {
+    "id": "f28bd172-3abd-59c8-a533-ff0aed28f461",
+    "title": "How Do You Handle Ablation Studies When the Original Model Is Already Trained?[R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/",
+    "pubDate": "2026-06-04T11:07:27+00:00",
+    "description": "I'm running into an issue with an ablation study for a paper I'm preparing. I trained a model. The model achieved my best result, and I saved the trained checkpoint ( .pth file). Now my supervisor wants me to perform an ablation study by removing components and how it impacts the accuracy. My concern is that if I retrain from scratch, the accuracies will not exactly match the original run due to randomness, different seeds, etc. is there any way i can do the ablation study without retraining? I'd appreciate hearing how others have handled this situation in publications or thesis work. please help me out submitted by /u/Plane_Stick8394 [link] [comments]",
+    "author": "/u/Plane_Stick8394",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm running into an issue with an ablation study for a paper I'm preparing. I trained a model. The model achieved my best result, and I saved the trained checkpoint (<code>.pth</code> file). Now my supervisor wants me to perform an ablation study by removing components and how it impacts the accuracy. My concern is that if I retrain from scratch, the accuracies will not exactly match the original run due to randomness, different seeds, etc. is there any way i can do the ablation study without retraining? I'd appreciate hearing how others have handled this situation in publications or thesis work. please help me out</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Plane_Stick8394\"> /u/Plane_Stick8394 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "94191376-99ed-5af5-b4bc-62fda6c84ae9",
+    "title": "nex-agi/Nex-N2-mini • Huggingface",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twjvep/nexaginexn2mini_huggingface/",
+    "pubDate": "2026-06-04T10:39:22+00:00",
+    "description": "https://huggingface.co/nex-agi/Nex-N2-mini submitted by /u/External_Mood4719 [link] [comments]",
+    "author": "/u/External_Mood4719",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://huggingface.co/nex-agi/Nex-N2-mini\">https://huggingface.co/nex-agi/Nex-N2-mini</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/External_Mood4719\"> /u/External_Mood4719 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twjvep/nexaginexn2mini_huggingface/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twjvep/nexaginexn2mini_huggingface/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2ff1effe-4d55-57a4-915a-8f6c8fc0bcd6",
     "title": "TOP way to start with Claude",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1twj5tr/top_way_to_start_with_claude/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello! I was wondering if anyone has any advice for me about this weird issue I keep running into. </p> <p>I work full-time in research and the bulk of my research deals with a topic (MAiD) that keeps triggering the safety protocols since the latest update.</p> <p>I have tried adding a skill and leaving a note in memories but I'm kind of at a loss! Claude is very concerned about my mental health pretty much every time I go to work on something as simple as helping with library search strategies.</p> <p>Like, I get that I'm a PhD student finishing my dissertation, and probably seem like a disaster, but I'm a pretty happy person considering! </p> <p>Is there any other way to get Claude to chill on this topic? (that really shouldn't be part of their safety protocols to begin with, but I digress).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AnaisNinTwin\"> /u/AnaisNinTwin </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tw402l/safety_protocols_with_48/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tw402l/safety_protocols_with_48/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6c07a06e-023e-5b8b-b62d-36dc87c80128",
-    "title": "Inference optimization for MiniMax Sparse Attention",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tw3hhj/inference_optimization_for_minimax_sparse/",
-    "pubDate": "2026-06-03T21:35:13+00:00",
-    "description": "submitted by /u/incarnadine72 [link] [comments]",
-    "author": "/u/incarnadine72",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw3hhj/inference_optimization_for_minimax_sparse/\"> <img alt=\"Inference optimization for MiniMax Sparse Attention\" src=\"https://external-preview.redd.it/nqixr6_8xKb8PDs_XEDdZ6xPkCKuRsEQX5B4Y55Kf_U.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b7e902fe41cec61dcf70f67cf0d730341d2c99c8\" title=\"Inference optimization for MiniMax Sparse Attention\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/incarnadine72\"> /u/incarnadine72 </a> <br /> <span><a href=\"https://www.together.ai/blog/serving-minimax-m3-for-efficient-inference-unlocking-1m-token-context-and-multimodality-without-regrets\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tw3hhj/inference_optimization_for_minimax_sparse/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/nqixr6_8xKb8PDs_XEDdZ6xPkCKuRsEQX5B4Y55Kf_U.png?width=640&crop=smart&auto=webp&s=b7e902fe41cec61dcf70f67cf0d730341d2c99c8",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d850b352-196f-5d98-ae4e-9442add798e1",
-    "title": "Japanese government and banks granted access to Claude Mythos",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tw38qv/japanese_government_and_banks_granted_access_to/",
-    "pubDate": "2026-06-03T21:26:05+00:00",
-    "description": "submitted by /u/Agitated_Egg_4 [link] [comments]",
-    "author": "/u/Agitated_Egg_4",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tw38qv/japanese_government_and_banks_granted_access_to/\"> <img alt=\"Japanese government and banks granted access to Claude Mythos\" src=\"https://external-preview.redd.it/0Reajy8lFdalneZ6fTzd3Dh4MeNJZsR-BrKA0LUyUkA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=230991678ea31c6334111723008edf5570ac6e4a\" title=\"Japanese government and banks granted access to Claude Mythos\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Agitated_Egg_4\"> /u/Agitated_Egg_4 </a> <br /> <span><a href=\"https://www.japantimes.co.jp/business/2026/06/03/tech/japan-anthropic-mythos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tw38qv/japanese_government_and_banks_granted_access_to/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/0Reajy8lFdalneZ6fTzd3Dh4MeNJZsR-BrKA0LUyUkA.jpeg?width=640&crop=smart&auto=webp&s=230991678ea31c6334111723008edf5570ac6e4a",
     "isShortVideo": 0
   }
 ]
