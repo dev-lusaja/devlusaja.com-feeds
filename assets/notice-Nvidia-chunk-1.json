@@ -1,5 +1,21 @@
 [
   {
+    "id": "3eda1236-c176-53c2-bac2-1b29ed4734ef",
+    "title": "Run DiffusionGemma on NVIDIA for Developer-Ready, High-Throughput Text Generation",
+    "link": "https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/",
+    "pubDate": "2026-06-10T16:16:30+00:00",
+    "description": "Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...",
+    "author": "Anu Srivastava",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" />Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" /><p>Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This limits responsiveness, increases serving costs, and makes fluid, interactive experiences difficult to achieve. DiffusionGemma, created by Google DeepMind and optimized to run efficiently across NVIDIA platforms, introduces a new approach to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "868f23fe-63cd-5137-9bb0-865010e8ab0b",
     "title": "Designing Production-Ready Battery Energy Storage Systems for AI Factories",
     "link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" />As AI models grow in scale and complexity, realizing the full performance of modern accelerated infrastructure depends as much on how workloads are placed as on...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/gtc25-tech-blog-dgx-gb300-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dgx-gb300\" width=\"768\" /><p>As AI models grow in scale and complexity, realizing the full performance of modern accelerated infrastructure depends as much on how workloads are placed as on the hardware itself. NVIDIA GB200 NVL72 delivers exascale compute in a single rack, unlocking real-time trillion-parameter models. Yet capturing that performance in a shared cluster requires schedulers that understand the system…</p>\n<p><a href=\"https://developer.nvidia.com/blog/unlock-exascale-performance-on-nvidia-gb200-nvl72-with-slurm-topology-aware-job-scheduling/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2da5ba97-e936-5e46-83dc-fd2afc299e32",
-    "title": "Building Token‑Metered AI Services on Telco AI Factories",
-    "link": "https://developer.nvidia.com/blog/building-token-metered-ai-services-on-telco-ai-factories/",
-    "pubDate": "2026-05-21T15:30:00+00:00",
-    "description": "Telcos around the world are building sovereign AI factories based on the NVIDIA Cloud Partner (NCP) reference architecture, giving governments, enterprises, and...",
-    "author": "Waleed Badr",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/llm-blog-data-curator-2847806-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-blog-data-curator-2847806-1920x1080\" width=\"768\" />Telcos around the world are building sovereign AI factories based on the NVIDIA Cloud Partner (NCP) reference architecture, giving governments, enterprises, and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/llm-blog-data-curator-2847806-1920x1080-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-blog-data-curator-2847806-1920x1080\" width=\"768\" /><p>Telcos around the world are building sovereign AI factories based on the NVIDIA Cloud Partner (NCP) reference architecture, giving governments, enterprises, and startups access to in‑country AI infrastructure with the right controls, trust, and performance. But infrastructure alone doesn’t get you to high-margin, production-ready enterprise AI services. Model sizes and reasoning workloads…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-token-metered-ai-services-on-telco-ai-factories/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
