@@ -1,5 +1,21 @@
 [
   {
+    "id": "dfd9c201-e3a6-5ef7-9817-4e6d23d7b01c",
+    "title": "Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72",
+    "link": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/",
+    "pubDate": "2026-07-08T16:05:25+00:00",
+    "description": "Presto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />Presto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>Presto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance for analytical query workloads and provides low latency for users and agents. GPU-accelerated Presto brings low latency to your analytical workloads, keeping you and your agents unblocked and iterating as fast as possible.</p>\n<p><a href=\"https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cc54e6fe-38b9-5082-9d88-b7ba5a018f2e",
     "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
     "link": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-7-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the MLCommons consortium....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-7-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the MLCommons consortium. NVIDIA achieved the fastest time to train at scale, and also delivered the highest performance when normalized on a per-accelerator basis on every benchmark. It was also the only platform to submit on every test.</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5c0c7e71-ce7b-5c28-bc88-c2fd007d62ae",
-    "title": "Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes",
-    "link": "https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes/",
-    "pubDate": "2026-06-15T18:07:31+00:00",
-    "description": "Foundation models are reshaping computational biology. Pretrained on massive corpora of protein or genomic sequences, models such as ESM2 (a protein language...",
-    "author": "Bruno Alvisio",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/biology-foundation-model-training-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"biology-foundation-model-training\" width=\"768\" />Foundation models are reshaping computational biology. Pretrained on massive corpora of protein or genomic sequences, models such as ESM2 (a protein language...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/biology-foundation-model-training-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"biology-foundation-model-training\" width=\"768\" /><p>Foundation models are reshaping computational biology. Pretrained on massive corpora of protein or genomic sequences, models such as ESM2 (a protein language model) and Evo 2 (a DNA language model) capture statistical regularities of biological sequences. These transfer well to a wide range of downstream tasks, including structure prediction, variant effect, and functional annotation.</p>\n<p><a href=\"https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

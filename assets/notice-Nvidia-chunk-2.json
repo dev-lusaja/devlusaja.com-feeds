@@ -1,5 +1,21 @@
 [
   {
+    "id": "8faf76dc-57e4-530a-a6e5-bac90720839c",
+    "title": "Extract More Kernel Performance with NVIDIA CompileIQ Auto-Tuning",
+    "link": "https://developer.nvidia.com/blog/extract-more-kernel-performance-with-nvidia-compileiq-auto-tuning/",
+    "pubDate": "2026-05-26T21:39:05+00:00",
+    "description": "NVIDIA CompileIQ tackles one of the hardest problems in performance engineering: finding the compiler options that unlock the best performance for a specific...",
+    "author": "Aditya Srikanth",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image-10-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image\" width=\"768\" />NVIDIA CompileIQ tackles one of the hardest problems in performance engineering: finding the compiler options that unlock the best performance for a specific...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image-10-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image\" width=\"768\" /><p>NVIDIA CompileIQ tackles one of the hardest problems in performance engineering: finding the compiler options that unlock the best performance for a specific workload. Consider a team that has spent weeks optimizing an LLM inference pipeline on GPUs, tuning batch sizes, quantizing to FP8, adopting flash attention, fusing every kernel they can. The profiler says there’s nothing left to squeeze.</p>\n<p><a href=\"https://developer.nvidia.com/blog/extract-more-kernel-performance-with-nvidia-compileiq-auto-tuning/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1a29d757-ef83-51e1-aec6-8778984a7b51",
     "title": "Run Key Genomics and Protein Folding Workloads Faster with NVIDIA RTX PRO 4500 Blackwell",
     "link": "https://developer.nvidia.com/blog/run-key-genomics-and-protein-folding-workloads-faster-with-nvidia-rtx-pro-4500-blackwell/",
@@ -236,22 +252,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/data-center-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center (2)\" width=\"768\" />The compute capability of large GPU fleets presents unprecedented opportunities to innovate and provide value to customers in record time. Yet these...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/data-center-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center (2)\" width=\"768\" /><p>The compute capability of large GPU fleets presents unprecedented opportunities to innovate and provide value to customers in record time. Yet these advancements come with a variety of challenges. At scale, teams are juggling heterogeneous hardware, fast‑moving software stacks, tight power envelopes, and spiky, multitenant workloads. A single hotspot, misconfigured driver, or subtle hardware fault…</p>\n<p><a href=\"https://developer.nvidia.com/blog/introducing-nvidia-fleet-intelligence-for-real-time-gpu-fleet-visibility-and-optimization/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "978a395e-052b-5847-b9db-cc89a78affef",
-    "title": "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
-    "link": "https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/",
-    "pubDate": "2026-05-08T17:13:33+00:00",
-    "description": "Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...",
-    "author": "Joseph Lucas",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" /><p>Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits , , , or a shell pipeline is producing an executable action that can read files, mutate a workspace, open network connections, and chain tools together. For the NVIDIA AI Red Team, this makes command generation a useful research target. If smaller language models can be guided…</p>\n<p><a href=\"https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
