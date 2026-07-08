@@ -1,5 +1,37 @@
 [
   {
+    "id": "9a4c4533-9626-5e9a-9c0c-570c99de0d97",
+    "title": "I Built a Physical Claude Code Usage Monitor",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1x6u0/i_built_a_physical_claude_code_usage_monitor/",
+    "pubDate": "2026-06-10T09:26:04+00:00",
+    "description": "I built Claudial, a physical Claude Code usage monitor for the M5Stack Dial v1.1 (ESP32-S3). A local Go daemon reads Anthropic rate-limit headers and sends small JSON payloads to the Dial over BLE. The display shows 5-hour usage, weekly usage, reset countdowns, and warning alerts as limits are approached. The rotary encoder adjusts warning thresholds directly on the device, touch switches between session/week settings, and configuration is stored locally on the device. I kept authentication on the PC side, so the ESP32 stores no Claude credentials. The firmware is built with NimBLE-Arduino and LVGL 9. The stand is based on a 3D-printable model from MakerWorld: https://makerworld.com/models/763395-m5stack-dial-rotary-knob-stand#profileId-782177 GitHub: https://github.com/Moge800/Claudial submitted by /u/MogeLavi [link] [comments]",
+    "author": "/u/MogeLavi",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1x6u0/i_built_a_physical_claude_code_usage_monitor/\"> <img alt=\"I Built a Physical Claude Code Usage Monitor\" src=\"https://preview.redd.it/vi8x9c4mbf6h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7aa3563cea995d9a4953fcd1b0d3c9b70d018a86\" title=\"I Built a Physical Claude Code Usage Monitor\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I built Claudial, a physical Claude Code usage monitor for the M5Stack Dial v1.1 (ESP32-S3).</p> <p>A local Go daemon reads Anthropic rate-limit headers and sends small JSON payloads to the Dial over BLE. The display shows 5-hour usage, weekly usage, reset countdowns, and warning alerts as limits are approached.</p> <p>The rotary encoder adjusts warning thresholds directly on the device, touch switches between session/week settings, and configuration is stored locally on the device.</p> <p>I kept authentication on the PC side, so the ESP32 stores no Claude credentials.</p> <p>The firmware is built with NimBLE-Arduino and LVGL 9.</p> <p>The stand is based on a 3D-printable model from MakerWorld:</p> <p><a href=\"https://makerworld.com/models/763395-m5stack-dial-rotary-knob-stand#profileId-782177\">https://makerworld.com/models/763395-m5stack-dial-rotary-knob-stand#profileId-782177</a></p> <p>GitHub:</p> <p><a href=\"https://github.com/Moge800/Claudial\">https://github.com/Moge800/Claudial</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MogeLavi\"> /u/MogeLavi </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u1x6u0\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1x6u0/i_built_a_physical_claude_code_usage_monitor/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/vi8x9c4mbf6h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=7aa3563cea995d9a4953fcd1b0d3c9b70d018a86",
+    "isShortVideo": 0
+  },
+  {
+    "id": "5288e0c7-c2fd-55a0-ba21-dfc7c6690702",
+    "title": "Local LLms releases",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1x2b4/local_llms_releases/",
+    "pubDate": "2026-06-10T09:18:35+00:00",
+    "description": "Here are some graphs for the Local LLMs releases, it's strange except for the last month, i thought that this year was very heavy in terms of release, but is seems that the peak was last year. Maybe the hype about the quality improvement this year made it seems that it was richer than last year. submitted by /u/crowtain [link] [comments]",
+    "author": "/u/crowtain",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1x2b4/local_llms_releases/\"> <img alt=\"Local LLms releases\" src=\"https://preview.redd.it/edjcxe6t9f6h1.png?width=140&amp;height=99&amp;auto=webp&amp;s=01adb5c4121626b6dbfa974872fe7e6afc9ede8f\" title=\"Local LLms releases\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Here are some graphs for the Local LLMs releases, it's strange except for the last month, i thought that this year was very heavy in terms of release, but is seems that the peak was last year. Maybe the hype about the quality improvement this year made it seems that it was richer than last year.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/crowtain\"> /u/crowtain </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u1x2b4\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1x2b4/local_llms_releases/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/edjcxe6t9f6h1.png?width=140&height=99&auto=webp&s=01adb5c4121626b6dbfa974872fe7e6afc9ede8f",
+    "isShortVideo": 0
+  },
+  {
     "id": "82a5f315-4249-59f2-bdf1-8eb5d0a97542",
     "title": "Introducing Papers Without Code [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u1wq0a/introducing_papers_without_code_p/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Weekly just got reset max 20x</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ntev3nclosebaby\"> /u/Ntev3nclosebaby </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1iwab/usage_resets/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1iwab/usage_resets/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "979f379f-d0d4-5c58-b8cb-2e0ef2b18f9d",
-    "title": "iOS 27 Siri is using WaveRNN and FastSpeech2 [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/",
-    "pubDate": "2026-06-09T21:04:16+00:00",
-    "description": "Found from iOS Simulator's files. Both of them are in espresso format There's also another compiled CoreML for concert ranking and based on the content inside of it looks like to be a simple logistic regression. See https://www.reddit.com/r/jailbreak/comments/1u1e1b4/access_to_simulators_root_files/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button Edit: Its the Siri's TTS submitted by /u/Actual_L0Ki [link] [comments]",
-    "author": "/u/Actual_L0Ki",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Found from iOS Simulator's files. Both of them are in espresso format</p> <p>There's also another compiled CoreML for concert ranking and based on the content inside of it looks like to be a simple logistic regression. See <a href=\"https://www.reddit.com/r/jailbreak/comments/1u1e1b4/access_to_simulators_root_files/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button\">https://www.reddit.com/r/jailbreak/comments/1u1e1b4/access_to_simulators_root_files/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button</a></p> <p>Edit:</p> <p>Its the Siri's TTS</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Actual_L0Ki\"> /u/Actual_L0Ki </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3b5509dd-c096-598c-8013-1a00e4dcd06f",
-    "title": "Announcing Claude Fable 5 Build Day - June 13 in San Francisco",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1hfl1/announcing_claude_fable_5_build_day_june_13_in/",
-    "pubDate": "2026-06-09T20:50:43+00:00",
-    "description": "Claude Fable 5 is here, and the best way to see what it can do is to build with it. If you’re in San Francisco, join us on June 13 for Fable 5 Build Day. Bring a problem you care about, build a working solution, and ship it with Claude Code. $150K in credits will be awarded. Spots are limited. Apply now: https://cerebralvalley.ai/e/claude-startups-build-day submitted by /u/ClaudeOfficial [link] [comments]",
-    "author": "/u/ClaudeOfficial",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1hfl1/announcing_claude_fable_5_build_day_june_13_in/\"> <img alt=\"Announcing Claude Fable 5 Build Day - June 13 in San Francisco\" src=\"https://external-preview.redd.it/Y2V1MGRiOWxrYjZoMcOSHv3UPCiSeKfqHe16Wzk_hK6Sbnbl1E9LYayzfr6j.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8c3d757c26d5e1e3aa4df4cdb7e7434509e559a2\" title=\"Announcing Claude Fable 5 Build Day - June 13 in San Francisco\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Claude Fable 5 is here, and the best way to see what it can do is to build with it.</p> <p>If you’re in San Francisco, join us on June 13 for Fable 5 Build Day. Bring a problem you care about, build a working solution, and ship it with Claude Code. $150K in credits will be awarded.</p> <p>Spots are limited. Apply now: <a href=\"https://cerebralvalley.ai/e/claude-startups-build-day\">https://cerebralvalley.ai/e/claude-startups-build-day</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://v.redd.it/nq5q8y4lkb6h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1hfl1/announcing_claude_fable_5_build_day_june_13_in/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/Y2V1MGRiOWxrYjZoMcOSHv3UPCiSeKfqHe16Wzk_hK6Sbnbl1E9LYayzfr6j.png?width=640&crop=smart&auto=webp&s=8c3d757c26d5e1e3aa4df4cdb7e7434509e559a2",
     "isShortVideo": 0
   }
 ]
