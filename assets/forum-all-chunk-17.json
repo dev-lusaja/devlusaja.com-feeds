@@ -1,5 +1,21 @@
 [
   {
+    "id": "c15af18a-fb79-508e-8c31-ebbf747fe61c",
+    "title": "Windows keeps crashing on rtx 3090",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u04egz/windows_keeps_crashing_on_rtx_3090/",
+    "pubDate": "2026-06-08T10:50:15+00:00",
+    "description": "EDIT: SOLVED Just switched to studio drivers instead of game ready Recently bought used 3090. Under heavy stress tests and gaming it's fine. When I load any model, it's fine, but if I do something else, like using browser, in about 30 seconds Windows completely freezes for a few minutes, then comes back to life with an error in whatever engine model was running. This happens when gpu is at 100% load, amount of utilized vram doesn't matter. I can't even use ComfyUI interface on my pc because of it. I need to use the ui on my phone to avoid crashing. Before that, I had an RTX 3060 12Gb, and it didn't crash ever once under the exact same scenarios. I have intel i5-10400f, 64gb ddr4, rtx 3090, 850w power supply. Fresh Windows, up-to-date drivers, llama.cpp and ComfyUi. submitted by /u/Acrobatic_Donkey5089 [link] [comments]",
+    "author": "/u/Acrobatic_Donkey5089",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>EDIT: SOLVED Just switched to studio drivers instead of game ready</p> <p>Recently bought used 3090. Under heavy stress tests and gaming it's fine. When I load any model, it's fine, but if I do something else, like using browser, in about 30 seconds Windows completely freezes for a few minutes, then comes back to life with an error in whatever engine model was running. This happens when gpu is at 100% load, amount of utilized vram doesn't matter. I can't even use ComfyUI interface on my pc because of it. I need to use the ui on my phone to avoid crashing. </p> <p>Before that, I had an RTX 3060 12Gb, and it didn't crash ever once under the exact same scenarios.</p> <p>I have intel i5-10400f, 64gb ddr4, rtx 3090, 850w power supply.</p> <p>Fresh Windows, up-to-date drivers, llama.cpp and ComfyUi.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Acrobatic_Donkey5089\"> /u/Acrobatic_Donkey5089 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u04egz/windows_keeps_crashing_on_rtx_3090/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u04egz/windows_keeps_crashing_on_rtx_3090/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ea04f031-622e-5a56-bfee-ece0552f5ef3",
     "title": "Making a non-Garmin sensor look native to a Garmin watch, with Claude",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u03zn3/making_a_nongarmin_sensor_look_native_to_a_garmin/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m guessing everyone would be F </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TeaSipper007\"> /u/TeaSipper007 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzua1h/with_the_amount_of_people_using_claude_for_work/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzua1h/with_the_amount_of_people_using_claude_for_work/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e8e5b1a2-aa65-570e-8f12-e11876d4bab7",
-    "title": "What's your experience with Gemma4 QAT?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzsdxm/whats_your_experience_with_gemma4_qat/",
-    "pubDate": "2026-06-08T00:11:55+00:00",
-    "description": "Hey everyone! Not a native speaker, so please correct my english where I make mistakes, (can only learn from it!). While it's been out only for just a while, I wanted to post about it because it's been such a joy. So, to say upfront: I use Qwen3.6 27B for programming, Gemma4 for basically everything else. So I can't say anything meaningful about programming. Previously I've used Gemma4-31B Q4_K_L (for long 128k Q8_0 context tasks) and Q6_K_L (for short 32k Q8_0 context tasks). For short context tasks, think quick translations, roleplaying, short but accurate OCR, etc. For long context think long-document parsing, websearch research, etc. With the QAT model, I've been able to use the same model for both tasks (nice!) and notice subtle quality improvements. With roleplay for example, it has much more varied word use, more context relevant remarks, understand corrolations better and able to use it, etc. Sadly I have no experience with the Q8_0 model, but from what I can tell it performs at least better than Q6_K_L from bartowski. It is however still severely hampered by cache quant, Q8_0 does show a noticable degration for me at 128K. Using MTP with Gemma 31B QAT has been amazing too! I get 50 t/s tg (opposed to 21 t/s) for 32k tokens wikipedia page summerization, ~36 t/s tg during roleplay (opposed to 20 t/s), and you likely can get higher numbers on linux (stuck with windows for now...). I had to dial it in though, 5 max drafts seemed to work well for me, but for my friends 4 or 6 worked better for them. Try 3-7 in 5 separate runs for the same task and see wich one runs best for you. So yeah, enough about my experiences! How was yours? Do you notice any improvement or degration when using the QAT models? And what is programming like on it? submitted by /u/Kahvana [link] [comments]",
-    "author": "/u/Kahvana",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone!</p> <p>Not a native speaker, so please correct my english where I make mistakes, (can only learn from it!).</p> <p>While it's been out only for just a while, I wanted to post about it because it's been such a joy.</p> <p>So, to say upfront: I use Qwen3.6 27B for programming, Gemma4 for basically everything else. So I can't say anything meaningful about programming.</p> <p>Previously I've used Gemma4-31B Q4_K_L (for long 128k Q8_0 context tasks) and Q6_K_L (for short 32k Q8_0 context tasks). For short context tasks, think quick translations, roleplaying, short but accurate OCR, etc. For long context think long-document parsing, websearch research, etc.</p> <p>With the QAT model, I've been able to use the same model for both tasks (nice!) and notice subtle quality improvements.</p> <p>With roleplay for example, it has much more varied word use, more context relevant remarks, understand corrolations better and able to use it, etc.</p> <p>Sadly I have no experience with the Q8_0 model, but from what I can tell it performs at least better than Q6_K_L from bartowski. It is however still severely hampered by cache quant, Q8_0 does show a noticable degration for me at 128K.</p> <p>Using MTP with Gemma 31B QAT has been amazing too! I get 50 t/s tg (opposed to 21 t/s) for 32k tokens wikipedia page summerization, ~36 t/s tg during roleplay (opposed to 20 t/s), and you likely can get higher numbers on linux (stuck with windows for now...).</p> <p>I had to dial it in though, 5 max drafts seemed to work well for me, but for my friends 4 or 6 worked better for them. Try 3-7 in 5 separate runs for the same task and see wich one runs best for you.</p> <p>So yeah, enough about my experiences! How was yours? Do you notice any improvement or degration when using the QAT models? And what is programming like on it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kahvana\"> /u/Kahvana </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzsdxm/whats_your_experience_with_gemma4_qat/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzsdxm/whats_your_experience_with_gemma4_qat/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

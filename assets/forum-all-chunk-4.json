@@ -1,5 +1,21 @@
 [
   {
+    "id": "efd91620-f252-50cb-95c5-9d30a8a26a08",
+    "title": "Any ideas for unconventional ML projects? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uezvgj/any_ideas_for_unconventional_ml_projects_d/",
+    "pubDate": "2026-06-25T04:25:07+00:00",
+    "description": "Hey everyone, I'm a stats student and I'm struggling to come up with a personal machine learning project. I just can't seem to find an idea that genuinely sparks my curiosity, and that's usually how I learn best. For example, back when I was learning SQL, I got so obsessed with a specific idea that I built a complete database from scratch and actually put it into production. It was a project I genuinely cared about—even though I find SQL itself pretty boring, the project was fun. Now, with machine learning, I actually think the subject is amazing. I love coding simple ML algorithms just to see how they work under the hood. But when it comes to building a personal project to actually deepen my knowledge, I draw a complete blank. Does anyone have any suggestions for cool, hands-on personal ML projects, or any advice on how to find an idea that clicks? Nothing too complex, just looking for something a little different from the usual stuff submitted by /u/luanx96 [link] [comments]",
+    "author": "/u/luanx96",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I'm a stats student and I'm struggling to come up with a personal machine learning project. I just can't seem to find an idea that genuinely sparks my curiosity, and that's usually how I learn best.</p> <p>For example, back when I was learning SQL, I got so obsessed with a specific idea that I built a complete database from scratch and actually put it into production. It was a project I genuinely cared about—even though I find SQL itself pretty boring, the project was fun.</p> <p>Now, with machine learning, I actually think the subject is amazing. I love coding simple ML algorithms just to see how they work under the hood. But when it comes to building a personal project to actually deepen my knowledge, I draw a complete blank.</p> <p>Does anyone have any suggestions for cool, hands-on personal ML projects, or any advice on how to find an idea that clicks?</p> <p>Nothing too complex, just looking for something a little different from the usual stuff</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/luanx96\"> /u/luanx96 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uezvgj/any_ideas_for_unconventional_ml_projects_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uezvgj/any_ideas_for_unconventional_ml_projects_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b8c43d08-b8ae-5501-a666-f580868cd427",
     "title": "Xperience-10M Download Help [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ueyr4w/xperience10m_download_help_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’m wondering whether there are any newer or more effective methods for fine tuning whisper on domain specific speech. I’m working on a project where the model needs to reliably detect certain specific words and technical terms. The vocabulary and context are mostly in spanish.</p> <p>Does anyone have experience with a similar use case? Roughly how many hours of labeled audio would be needed before seeing the model converged?</p> <p>I know about lora, qlora, and spectrum, but Im curious if there are any newer or better ways to adapt whisper to specific vocabulary.</p> <p>any help is welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gothenjoyer_\"> /u/gothenjoyer_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubvmdx/best_current_methods_for_finetuning_whisper_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubvmdx/best_current_methods_for_finetuning_whisper_on/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "01839a88-69cf-5944-a4c1-e41789a38d5b",
-    "title": "EMA on LoRA ? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/",
-    "pubDate": "2026-06-21T16:54:28+00:00",
-    "description": "Hi guys Does anyone know of papers where EMA on LoRA adapters has been used successfully? Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter. On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-tune. Any empirical results showing the idea is working on lora/ left models? [1] https://arxiv.org/abs/2601.19897 submitted by /u/South-Conference-395 [link] [comments]",
-    "author": "/u/South-Conference-395",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys</p> <p>Does anyone know of papers where EMA on LoRA adapters has been used successfully?</p> <p>Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter.</p> <p>On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-tune. Any empirical results showing the idea is working on lora/ left models?</p> <p>[1] <a href=\"https://arxiv.org/abs/2601.19897\">https://arxiv.org/abs/2601.19897</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/South-Conference-395\"> /u/South-Conference-395 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

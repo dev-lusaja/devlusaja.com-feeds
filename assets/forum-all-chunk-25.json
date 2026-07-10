@@ -1,5 +1,21 @@
 [
   {
+    "id": "7fdfa2e1-2ff1-50c9-b768-a2a552dd8e71",
+    "title": "Trying to build responsive website/app in Claude and having a difficult time - what is the best way to approach this from a development perspective ?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1twzauz/trying_to_build_responsive_websiteapp_in_claude/",
+    "pubDate": "2026-06-04T20:19:41+00:00",
+    "description": "I've been working with Claude for nearly a 6 weeks (off and on) trying to build a responsive website. We went through a very long \"mockup\" phase where we hammered out the specifics of what the screens would look like, how the menus would act and how the data would flow in an html document. Before starting HE/IT told me that they could provide the exact duplicate of the mockup in working code - by converting it to php, etc. Prior to this we had worked on a very simple \"signup and post\" system for the website. I asked Claude to go ahead and start building the website in steps - and it has been nothing but trouble ever since. So many errors, pages not the same as in the mockup, menus placed differently - code not working - really very poor. My question: How do I get Claude to do this correctly? He/It keeps giving me code with errors and then we go back and forth with his fix attempts which he says will work but don't. Doesn't grasp design or UI flow very well. Can Claude actually do this -- or can I take what I have somewhere else - show them the files - and they can achieve what Claude can't seem to do. Any info appreciated. submitted by /u/over45 [link] [comments]",
+    "author": "/u/over45",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been working with Claude for nearly a 6 weeks (off and on) trying to build a responsive website. We went through a very long &quot;mockup&quot; phase where we hammered out the specifics of what the screens would look like, how the menus would act and how the data would flow in an html document. Before starting HE/IT told me that they could provide the exact duplicate of the mockup in working code - by converting it to php, etc. Prior to this we had worked on a very simple &quot;signup and post&quot; system for the website. I asked Claude to go ahead and start building the website in steps - and it has been nothing but trouble ever since. So many errors, pages not the same as in the mockup, menus placed differently - code not working - really very poor.</p> <p>My question: How do I get Claude to do this correctly? He/It keeps giving me code with errors and then we go back and forth with his fix attempts which he says will work but don't. Doesn't grasp design or UI flow very well. Can Claude actually do this -- or can I take what I have somewhere else - show them the files - and they can achieve what Claude can't seem to do. Any info appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/over45\"> /u/over45 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twzauz/trying_to_build_responsive_websiteapp_in_claude/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twzauz/trying_to_build_responsive_websiteapp_in_claude/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0c775af7-dc19-5ac7-9dd1-08dd6b8b1160",
     "title": "cyankiwi AWQ 4-bit — 26.05 update, NVFP4 + FP8 Dynamic quantization and benchmarks across Qwen3.6 4-bit quants",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twz9ur/cyankiwi_awq_4bit_2605_update_nvfp4_fp8_dynamic/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>If you’re building LLM apps and feel confused about when to use keyword search, embeddings, rerankers, or vector databases, this repo is for that.</p> <p>I built a docs-first repo on practical LLM system design patterns, covering pre-filtering, hybrid retrieval, rerankers, in-memory scoring vs vector DBs, batching, cleanup, and LLM-as-judge evaluation, with simple Python examples.</p> <p>From my experience, embedding quality or RAG alone is rarely the full answer. The engineering harness around the LLM usually matters just as much as the model itself when building a real business solution.</p> <p>The goal is to make this useful for both newcomers and working developers who want a clearer mental model for building reliable LLM systems.</p> <p>Repo: <a href=\"https://github.com/SaqlainXoas/llm-system-patterns\">https://github.com/SaqlainXoas/llm-system-patterns</a></p> <p>I’d love feedback on it. If you find it useful, feel free to star the repo as well. I’d also be interested to hear your own engineering findings around retrieval, embeddings, reranking, RAG, evaluation, and where these approaches work or break in practice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Funny_Working_7490\"> /u/Funny_Working_7490 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twocnx/i_built_a_practical_guide_to_llm_engineering_rag/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twocnx/i_built_a_practical_guide_to_llm_engineering_rag/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7f020962-8166-5fbf-b256-c6b284bdd865",
-    "title": "Qwen 3.6 27B released 20 days after its plus announcement, 3.7 27B in 10th June?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1two36u/qwen_36_27b_released_20_days_after_its_plus/",
-    "pubDate": "2026-06-04T13:43:09+00:00",
-    "description": "Wondering if we will ever continue to get such strong models releasing, given that these little boys are literally very strong and many, including me, stopped paying frontier models, so in general it means that companies might lose money in the end ? No idea. submitted by /u/soyalemujica [link] [comments]",
-    "author": "/u/soyalemujica",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Wondering if we will ever continue to get such strong models releasing, given that these little boys are literally very strong and many, including me, stopped paying frontier models, so in general it means that companies might lose money in the end ? No idea.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/soyalemujica\"> /u/soyalemujica </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1two36u/qwen_36_27b_released_20_days_after_its_plus/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1two36u/qwen_36_27b_released_20_days_after_its_plus/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

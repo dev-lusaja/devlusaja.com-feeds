@@ -1,5 +1,21 @@
 [
   {
+    "id": "ef0ea4bf-bdeb-5022-a6b5-f712d1df31c0",
+    "title": "Anomaly Detection vs Classification for Visually Similar Cancer vs Mimics? [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/",
+    "pubDate": "2026-06-13T11:18:43+00:00",
+    "description": "I'm working on a paper and would love some input on model choice. Suppose you're trying to detect a specific type of cancer, but the negative samples are visually and morphologically very similar (i.e., “mimics” of the cancer). In this setting, would it make more sense to approach the problem as: Anomaly detection (treating the cancer as the target distribution and everything else as out-of-distribution), or Supervised classification (explicitly learning to distinguish cancer vs. mimics)? submitted by /u/DryHat3296 [link] [comments]",
+    "author": "/u/DryHat3296",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm working on a paper and would love some input on model choice.</p> <p>Suppose you're trying to detect a specific type of cancer, but the negative samples are visually and morphologically very similar (i.e., “mimics” of the cancer). In this setting, would it make more sense to approach the problem as:</p> <ol> <li><strong>Anomaly detection</strong> (treating the cancer as the target distribution and everything else as out-of-distribution), or</li> <li><strong>Supervised classification</strong> (explicitly learning to distinguish cancer vs. mimics)?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DryHat3296\"> /u/DryHat3296 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7490f720-1aba-571a-ae3a-31a779855d21",
     "title": "Price is not cost: how we are using the wrong variable to measure the cost of LLMs [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u4mues/price_is_not_cost_how_we_are_using_the_wrong/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey All,</p> <p>I am currently working on ASR models, and I have gathered some recent literature. From my literature search, it seems like the ASR models are getting more and more powerful due to two main things.</p> <ol> <li><p>Because pseudo-labelled data is growing, supervised models are rising rapidly. Whisper-large-v3 has been trained on 5M hours of weakly supervised data, and Nvidia Parakeet v3 has been trained on 660k hours of labelled data (open-sourced). Funny enough, Nvidia Parakeet v3 actually beats Whisper-large-v3 on almost every benchmark, even though it has a smaller model size and smaller data scale. So clearly, scale is not everything. </p></li> <li><p>New architectures are on the rise; We used to have self-supervised + CTC to solve the ASR task, but now it seems like Transducer, and Token-Duration-Transducers are taking off. As well as attention encoder-decoder architectures (Qwen) that are all trained in a supervised manner.</p></li> </ol> <p>Now, given that the labelled data is very huge, and the new architectures are coming up, are we saying bye to the self-supervised learning approaches like Data2Vec2.0, WavLM, etc., for ASR, and will we only use them for general-purpose speech tasks? </p> <p>This is actually not similar to how computer vision operates now. Dinov3 is a self-supervised approach that is extremely performant in segmentation, classification, depth estimation etc but I do not see this in the speech domain now. ASR is dominated by these huge supervised architectures (which is a dense-prediction task), as well as emotion recognition, diarization, and speech seperation are also all dominated by the supervised approaches.</p> <p>Do you think we will have our Dino moment with a new self-supervised architecture? Or supervised learning is the way to go? How would these methods actually perform if we trained a self-supervised model on these huge datasets?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ComprehensiveTop3297\"> /u/ComprehensiveTop3297 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1cklt/what_will_be_the_next_breakthrough_in_asr_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1cklt/what_will_be_the_next_breakthrough_in_asr_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "89c4c913-f5ee-52e7-baa7-b08d8a6f8b7d",
-    "title": "Time Series Forecasting for Agriculture/Crop Volume & Pricing – Looking for Advice [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/",
-    "pubDate": "2026-06-09T17:28:18+00:00",
-    "description": "Hi everyone, I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing. I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert. For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters methods to compare performance. I'm looking for recommendations on: Libraries/frameworks that are commonly used for production-grade time series forecasting Models that work well for agricultural production forecasting Approaches for forecasting commodity/produce pricing Feature engineering ideas (weather, seasonality, acreage, imports, etc.) Any papers, blogs, or resources that would be useful Most of the data is weekly and highly seasonal, with weather and supply conditions playing a major role. Any suggestions, lessons learned, or pointers from people working in forecasting would be greatly appreciated. submitted by /u/foreigneverythingg [link] [comments]",
-    "author": "/u/foreigneverythingg",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing.</p> <p>I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert.</p> <p>For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters methods to compare performance.</p> <p>I'm looking for recommendations on:</p> <ul> <li>Libraries/frameworks that are commonly used for production-grade time series forecasting</li> <li>Models that work well for agricultural production forecasting</li> <li>Approaches for forecasting commodity/produce pricing</li> <li>Feature engineering ideas (weather, seasonality, acreage, imports, etc.)</li> <li>Any papers, blogs, or resources that would be useful</li> </ul> <p>Most of the data is weekly and highly seasonal, with weather and supply conditions playing a major role.</p> <p>Any suggestions, lessons learned, or pointers from people working in forecasting would be greatly appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/foreigneverythingg\"> /u/foreigneverythingg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

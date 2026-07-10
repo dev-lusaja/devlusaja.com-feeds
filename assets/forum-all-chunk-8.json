@@ -1,5 +1,21 @@
 [
   {
+    "id": "8df275c4-0732-5ffb-99a5-70e326ec35ae",
+    "title": "MiMoCode released as OSS",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u39vwn/mimocode_released_as_oss/",
+    "pubDate": "2026-06-11T20:05:28+00:00",
+    "description": "submitted by /u/muyuu [link] [comments]",
+    "author": "/u/muyuu",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/muyuu\"> /u/muyuu </a> <br /> <span><a href=\"https://mimo.xiaomi.com/mimocode\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u39vwn/mimocode_released_as_oss/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f67355ff-e5c6-5549-a4e6-6e8cefc13581",
     "title": "Post-docs in ML [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u390q5/postdocs_in_ml_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/\"> <img alt=\"How I implemented ASR bias for voice transcription models [Open Source]\" src=\"https://external-preview.redd.it/YTVhd213MnZ3bTZoMaDUjCJxRGoiNjjmNeUNS4PT4TOixk0QnM20egcLPiPB.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=916744f26de3d6f79b356fdbdf803a4b20c018d2\" title=\"How I implemented ASR bias for voice transcription models [Open Source]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I've been spending the last couple of weeks building a Wispr Flow clone as an open source project. For context, it is a voice dictation app that lets you type faster, by speaking instead of actually typing.</p> <p>I spent the first week building the basic STT capabilities. One of the coolest features that Wispr Flow has is ASR biasing. Wispr Flow calls it its dictionary. I was able to figure out how to implement that for my project and wanted to share how it was done. </p> <p><strong>What is ASR biasing?</strong></p> <p>ASR biasing is a transcription technique that guides the model with hints on how words are spelled, or what phrases are common. In my example in the video, I gave guidance that I wanted to talk about the “Knicks” and “OG Anunoby”. </p> <p>When you have biasing set up, the words that you have set up are more likely to show up when you say phrases that sound similar. </p> <p><strong>How it's implemented in code</strong></p> <p>Implementing ASR biasing is actually incredibly easy. Each model provider handles it differently, and they call it different things. For example, OpenAI and Groq set a prompt as its bias mechanism, similar to an LLM system prompt. Local models like whisper.cpp and local Mac models from MLX also run the same prompt system.</p> <p>In other providers like Deepgram and Eleven Labs, they call them key terms and are configured by search parameters.</p> <p>This is what it looks like to implement in Groq. It's as simple as injecting the dictionary words into the model's “system prompt”.</p> <p><code> const transcription = await groq.audio.transcriptions.create({ file: fs.createReadStream(&quot;YOUR_AUDIO.wav&quot;), model: &quot;whisper-large-v3-turbo&quot;, prompt: &quot;vocabulary: Knicks, OG Anonuby&quot;, // Optional response_format: &quot;verbose_json&quot;, timestamp_granularities: [&quot;word&quot;, &quot;segment&quot;], language: &quot;en&quot;, temperature: 0.0, }); </code></p> <p>In Freestyle, we've implemented ASR biasing and call it our “Vocabulary” feature. When you create a vocabulary, it is saved locally within Freestyle. Every time you run inference, your saved vocabulary is freshly injected into models’ system prompt or keyterms. </p> <p><strong>Freestyle oss project</strong></p> <p>All of the work that we've done around ASR biasing is open source and available in our GitHub repo. If this project sounds interesting to you, consider giving it a star!</p> <p>We're also looking to build a community of people interested in working on open source voice dictation. </p> <p><a href=\"https://github.com/freestyle-voice/freestyle\">https://github.com/freestyle-voice/freestyle</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/matt8p\"> /u/matt8p </a> <br /> <span><a href=\"https://v.redd.it/hb1xkt2vwm6h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/YTVhd213MnZ3bTZoMaDUjCJxRGoiNjjmNeUNS4PT4TOixk0QnM20egcLPiPB.png?width=640&crop=smart&auto=webp&s=916744f26de3d6f79b356fdbdf803a4b20c018d2",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cd92496c-d605-52fa-be49-89a1f8915bf1",
-    "title": "Fable 5 extraordinary coding performance",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2vqyc/fable_5_extraordinary_coding_performance/",
-    "pubDate": "2026-06-11T10:56:07+00:00",
-    "description": "I have a music composer project, 46K SLOC, 22K lines YAML. I asked Fable 5 to create me a UI. It produced this web app, which works perfectly: https://preview.redd.it/b0br392bvm6h1.png?width=2202&format=png&auto=webp&s=df40ada978652c0efdc35be2469312905f673e3f In 19 minutes, tested and documented, finishing with this: https://preview.redd.it/1mtr051tvm6h1.png?width=1466&format=png&auto=webp&s=aaf86f218a59ff23add224782ead33c0a60d3e6b I've been coding since 1973; I have never been so flabbergasted. submitted by /u/SmirkingMan [link] [comments]",
-    "author": "/u/SmirkingMan",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2vqyc/fable_5_extraordinary_coding_performance/\"> <img alt=\"Fable 5 extraordinary coding performance\" src=\"https://preview.redd.it/b0br392bvm6h1.png?width=140&amp;height=99&amp;auto=webp&amp;s=aab7da520e3d65c2e9ee331cde878fbbd742b1c3\" title=\"Fable 5 extraordinary coding performance\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have a music composer project, 46K SLOC, 22K lines YAML. I asked Fable 5 to create me a UI. </p> <p>It produced this web app, which works perfectly:</p> <p><a href=\"https://preview.redd.it/b0br392bvm6h1.png?width=2202&amp;format=png&amp;auto=webp&amp;s=df40ada978652c0efdc35be2469312905f673e3f\">https://preview.redd.it/b0br392bvm6h1.png?width=2202&amp;format=png&amp;auto=webp&amp;s=df40ada978652c0efdc35be2469312905f673e3f</a></p> <p>In 19 minutes, tested and documented, finishing with this:</p> <p><a href=\"https://preview.redd.it/1mtr051tvm6h1.png?width=1466&amp;format=png&amp;auto=webp&amp;s=aaf86f218a59ff23add224782ead33c0a60d3e6b\">https://preview.redd.it/1mtr051tvm6h1.png?width=1466&amp;format=png&amp;auto=webp&amp;s=aaf86f218a59ff23add224782ead33c0a60d3e6b</a></p> <p>I've been coding since 1973; I have never been so flabbergasted. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SmirkingMan\"> /u/SmirkingMan </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2vqyc/fable_5_extraordinary_coding_performance/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2vqyc/fable_5_extraordinary_coding_performance/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/b0br392bvm6h1.png?width=140&height=99&auto=webp&s=aab7da520e3d65c2e9ee331cde878fbbd742b1c3",
     "isShortVideo": 0
   }
 ]
