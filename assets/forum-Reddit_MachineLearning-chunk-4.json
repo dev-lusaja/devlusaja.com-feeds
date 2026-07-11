@@ -1,5 +1,21 @@
 [
   {
+    "id": "c90f5023-91cb-57e3-83e4-5674da0967a7",
+    "title": "For ECCV, Springer Metor. How are we supposed to upload the files? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/",
+    "pubDate": "2026-06-25T23:21:32+00:00",
+    "description": "source files + final paper pdf. ZIP containing the source files and final paper.pdf. Where does the supplemental materiel get uploaded? Because in that email it says include it in a \"supplementary_materiel\" folder. this is all very confusing. can someone clarify? submitted by /u/redskydawns [link] [comments]",
+    "author": "/u/redskydawns",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><ol> <li><p>source files + final paper pdf.</p></li> <li><p>ZIP containing the source files and final paper.pdf.</p></li> </ol> <p>Where does the supplemental materiel get uploaded? Because in that email it says include it in a &quot;supplementary_materiel&quot; folder.</p> <p>this is all very confusing. can someone clarify?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/redskydawns\"> /u/redskydawns </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7e92ad8f-38ea-574d-805d-87175b2cc88a",
     "title": "Kuma: compiling PyTorch models into self-contained WebGPU executables [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ufl9tu/kuma_compiling_pytorch_models_into_selfcontained/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and ML fundamentals, then moves into the specialized CV topics that actually come up in interviews.</p> <p>I compressed it into just 7 days due to time pressure, so it's very actionable and easy to personalize for your own pace. Sharing it here in case it's useful for others prepping for ML/CV roles:</p> <p>→ <a href=\"https://github.com/David-Magdy/CVIL\">https://github.com/David-Magdy/CVIL</a></p> <p>Would love any feedback or suggestions to improve it too. Hope it helps someone land their next opportunity!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PolarIceBear_\"> /u/PolarIceBear_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0e147773-ff46-58bb-8484-fcdad8b71d27",
-    "title": "Non-deterministic Vulnerability Detection Benchmark System [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/",
-    "pubDate": "2026-06-22T23:34:50+00:00",
-    "description": "I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to polish it up and show it off. I was hoping some more AI focused people could check it out, tell me if it's duplicate work, or if it is worth putting some time into and finishing. Also happy for some help too. The rundown of the code is that it is Juliet code that's been \"hidden\" to look somewhat like a real codebase, removing LLM's natural advantage when viewing known CWEs, while preserving the \"ground truth\" associated with Juliet. I also used an LLM to inject comments into the code in accurate, misleading, or neutral sentiments, allowing the user to examine how comments and plain English data can manipulate an LLMs ability to identify a CWE. There are a couple hundred CWEs, generally enough code to fill up the input context, the work that needs to be done is around presentation, actual benchmarking of publish LLMs, and possibly pruning of a couple CWEs that might occasionally get caught by certain LLMs as Juliet code still. Here's the project. Hopefully this doesn't break rule 6. I am not a regular here, just looking for advice. submitted by /u/Psychological_Meat_6 [link] [comments]",
-    "author": "/u/Psychological_Meat_6",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to polish it up and show it off.</p> <p>I was hoping some more AI focused people could check it out, tell me if it's duplicate work, or if it is worth putting some time into and finishing. Also happy for some help too. </p> <p>The rundown of the code is that it is Juliet code that's been &quot;hidden&quot; to look somewhat like a real codebase, removing LLM's natural advantage when viewing known CWEs, while preserving the &quot;ground truth&quot; associated with Juliet. I also used an LLM to inject comments into the code in accurate, misleading, or neutral sentiments, allowing the user to examine how comments and plain English data can manipulate an LLMs ability to identify a CWE. </p> <p>There are a couple hundred CWEs, generally enough code to fill up the input context, the work that needs to be done is around presentation, actual benchmarking of publish LLMs, and possibly pruning of a couple CWEs that might occasionally get caught by certain LLMs as Juliet code still.</p> <p><a href=\"https://github.com/galen-f/vulnerable-project\">Here's the project.</a> Hopefully this doesn't break rule 6. I am not a regular here, just looking for advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Psychological_Meat_6\"> /u/Psychological_Meat_6 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

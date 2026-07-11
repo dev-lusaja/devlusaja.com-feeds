@@ -1,5 +1,21 @@
 [
   {
+    "id": "fce5df8c-dbcd-5456-80f0-155b619dc490",
+    "title": "TorchDAE: Implicit DAE Solvers with Index Reduction and Adjoint Sensitivity [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/",
+    "pubDate": "2026-06-03T11:57:55+00:00",
+    "description": "Hello everyone, I've been working on a PyTorch library for solving Differential Algebraic Equations (DAEs) that supports vectorized execution and GPU acceleration. The library implements several algorithms that are not currently available in the Python ecosystem, including Generalized-Alpha integration, Dummy Derivatives index reduction, and adjoint sensitivity methods for DAEs. My motivation was to enable differentiable DAE simulation workflows in PyTorch for applications such as system identification, scientific machine learning, and physics-informed modeling. I'd be very interested in feedback on the numerical methods, API design, and potential ML use cases. GitHub: https://github.com/yousef-rafat/torchdae submitted by /u/Otaku_7nfy [link] [comments]",
+    "author": "/u/Otaku_7nfy",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone,</p> <p>I've been working on a PyTorch library for solving Differential Algebraic Equations (DAEs) that supports vectorized execution and GPU acceleration.</p> <p>The library implements several algorithms that are not currently available in the Python ecosystem, including Generalized-Alpha integration, Dummy Derivatives index reduction, and adjoint sensitivity methods for DAEs.</p> <p>My motivation was to enable differentiable DAE simulation workflows in PyTorch for applications such as system identification, scientific machine learning, and physics-informed modeling.</p> <p>I'd be very interested in feedback on the numerical methods, API design, and potential ML use cases.</p> <p>GitHub: <a href=\"https://github.com/yousef-rafat/torchdae\">https://github.com/yousef-rafat/torchdae</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Otaku_7nfy\"> /u/Otaku_7nfy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "af9eb14b-6056-5044-946b-c93ca7863438",
     "title": "MiniMax dropped a new attention architecture. [N]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for]</p> </blockquote> <p>&#x200b;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsipvv/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsipvv/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4e861bd9-3537-5957-9af5-98cd811989d9",
-    "title": "Bayesian Opt. GPs vs Linear models and Neural Networks for parameter optimizations [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/",
-    "pubDate": "2026-05-31T01:57:20+00:00",
-    "description": "Hi, Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral analysis. I currently use a GP and it works pretty well, but I’m wondering what the computational tradeoffs and so forth might be. Any ideas? submitted by /u/InevitableCut1243 [link] [comments]",
-    "author": "/u/InevitableCut1243",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral analysis. I currently use a GP and it works pretty well, but I’m wondering what the computational tradeoffs and so forth might be. Any ideas?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/InevitableCut1243\"> /u/InevitableCut1243 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

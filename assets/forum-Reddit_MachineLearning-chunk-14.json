@@ -1,5 +1,21 @@
 [
   {
+    "id": "4b3e360e-6040-55cf-acfa-7b28a6879a3b",
+    "title": "One thing that's been bothering me lately: benchmark performance often tells me almost nothing about whether a workflow will survive production usage.[D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tkauvf/one_thing_thats_been_bothering_me_lately/",
+    "pubDate": "2026-05-22T06:43:48+00:00",
+    "description": "I've seen systems score well internally and then immediately fail under: ambiguous user intent messy real-world context contradictory instructions long-running sessions Feels like evaluation still heavily rewards clean-task optimization instead of behavioral robustness. What are people using beyond standard eval pipelines? submitted by /u/Bladerunner_7_ [link] [comments]",
+    "author": "/u/Bladerunner_7_",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've seen systems score well internally and then immediately fail under:</p> <ul> <li>ambiguous user intent</li> <li>messy real-world context</li> <li>contradictory instructions</li> <li>long-running sessions</li> </ul> <p>Feels like evaluation still heavily rewards clean-task optimization instead of behavioral robustness.</p> <p>What are people using beyond standard eval pipelines?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bladerunner_7_\"> /u/Bladerunner_7_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkauvf/one_thing_thats_been_bothering_me_lately/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkauvf/one_thing_thats_been_bothering_me_lately/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c73ed13a-9db1-5143-8afd-940578faee65",
     "title": "Live Human Detector on Outbound Phone Calls [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tk8ht5/live_human_detector_on_outbound_phone_calls_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Wanted to see how close a fully bio-plausible agent could get to PPO on Pong.</p> <p><strong>Setup</strong></p> <ul> <li>Custom Pong environment (pygame, no gym)</li> <li>PPO baseline: paper-faithful, from scratch</li> <li>Hebbian agent: PPO policy replaced with Hebbian value estimation <ul> <li>engineered features → 61%</li> </ul></li> <li>BioAgent: Predictive Coding for feature learning + distributional Hebbian plasticity for value (Dabney et al. 2020) → 57% Zero backprop anywhere in the pipeline.</li> </ul> <p><strong>Key observations</strong></p> <ol> <li>The 2% gap is real but small. The bottleneck wasn't the lack of backprop because it was catastrophic forgetting under non-stationary opponent dynamics during self-play.</li> <li>Distributional value encoding (à la Dabney) helped stability vs. a scalar Hebbian baseline, but not enough to match PPO under self-play.</li> <li>Self-play exposed the plasticity–stability dilemma hard: Hebbian rules that adapt fast forget fast. This is the real wall for bio-plausible RL in non-stationary settings.</li> </ol> <p>Not claiming novelty in the architecture as this is a from-scratch exploration of whether bio-plausible rules can handle a real RL task. Short answer: yes, mostly, with one clear failure mode.</p> <p>Code: <a href=\"http://github.com/nilsleut/Biologically-Plausible-RL-Plays-Pong\">github.com/nilsleut/Biologically-Plausible-RL-Plays-Pong</a></p> <p>Happy to answer questions about the PC implementation, the Hebbian value estimator, or the self-play setup.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ConfusionSpiritual19\"> /u/ConfusionSpiritual19 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f014813d-3d0c-54c2-b7ac-73220e5f79de",
-    "title": "What do you think about Tabular Foundation Models [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
-    "pubDate": "2026-05-19T14:20:20+00:00",
-    "description": "I've seen TabPFN-3's recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance that those models achieve is really amazing. What makes me a little suspicious about them? They can analyze small datasets only, so a few MB of data, and you need to have a large GPU machine and download a few GB of model to predict on a few MB of data. That doesn't sound rational ... I really miss the old school approach of running a single decision tree or a linear model on the data. What do you think about it? Do you think feature engineering + classic ML can achieve performance comparable to that of foundation models? Maybe with better explainability? submitted by /u/pplonski [link] [comments]",
-    "author": "/u/pplonski",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've seen TabPFN-3's recent results, and there is a lot of buzz about foundation models for tabular data (TabICL, TabPFN). The performance that those models achieve is really amazing. What makes me a little suspicious about them? They can analyze small datasets only, so a few MB of data, and you need to have a large GPU machine and download a few GB of model to predict on a few MB of data. That doesn't sound rational ... I really miss the old school approach of running a single decision tree or a linear model on the data.</p> <p>What do you think about it? Do you think feature engineering + classic ML can achieve performance comparable to that of foundation models? Maybe with better explainability?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pplonski\"> /u/pplonski </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
