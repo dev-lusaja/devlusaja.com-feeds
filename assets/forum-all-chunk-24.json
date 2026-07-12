@@ -1,5 +1,37 @@
 [
   {
+    "id": "7b6b3a00-be30-5beb-84e0-60c3e340941b",
+    "title": "I just realized how good MoE models are for consumer hardware",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txl5yk/i_just_realized_how_good_moe_models_are_for/",
+    "pubDate": "2026-06-05T13:35:09+00:00",
+    "description": "I've been tinkering around with LLM for a while now, started with LM Studio like probably all of us and wanted to go into headless selhosted model so that I can use my macbook and still use my AI models. I've been using Qwen 3.6 (and 3.5) 27B on my main computer which has a Ryzen 7 3800X, a 7900XT, 32Gb of RAM and that thing was pretty sloooooow even with MTP enabled. You can probably call this a skill issue as I'm not familiar with llama.cpp forest of arguments yet despite reading the documentation when I'm confused about something. And this morning I just had the urge of breaking everything I've done so far, tried a new gguf that isn't from unsloath, got the 35BA3B and moved all the expert part of the model to the \"cpu\" (even if it is actually moved to RAM but whatever) and I'm actually sad that my GPU VRAM is so empty now BUT that thing is ripping fast. The difference between 27B and 35BA3B is kind of mind blowing and I think it might be even more efficient on the productivity side to have that much of a speed gain. Before I had to take a coffee between what was done by 27B, now it is just a short pause and iteration with 35BA3B, so even if there was ton of hype (justified for sure) for 27B, give a shot to the 35BA3B especially if you are VRAM limited and have a decent amount of RAM. Give me some tips on what I could try to optimise my models 27B and 35BA3B too as I'm also a beginner and that area and just want to learn more on this. submitted by /u/ego100trique [link] [comments]",
+    "author": "/u/ego100trique",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been tinkering around with LLM for a while now, started with LM Studio like probably all of us and wanted to go into headless selhosted model so that I can use my macbook and still use my AI models.</p> <p>I've been using Qwen 3.6 (and 3.5) 27B on my main computer which has a Ryzen 7 3800X, a 7900XT, 32Gb of RAM and that thing was pretty sloooooow even with MTP enabled.</p> <p>You can probably call this a skill issue as I'm not familiar with llama.cpp forest of arguments yet despite reading the documentation when I'm confused about something.</p> <p>And this morning I just had the urge of breaking everything I've done so far, tried a new gguf that isn't from unsloath, got the 35BA3B and moved all the expert part of the model to the &quot;cpu&quot; (even if it is actually moved to RAM but whatever) and I'm actually sad that my GPU VRAM is so empty now BUT that thing is ripping fast.</p> <p>The difference between 27B and 35BA3B is kind of mind blowing and I think it might be even more efficient on the productivity side to have that much of a speed gain.</p> <p>Before I had to take a coffee between what was done by 27B, now it is just a short pause and iteration with 35BA3B, so even if there was ton of hype (justified for sure) for 27B, give a shot to the 35BA3B especially if you are VRAM limited and have a decent amount of RAM.</p> <p>Give me some tips on what I could try to optimise my models 27B and 35BA3B too as I'm also a beginner and that area and just want to learn more on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ego100trique\"> /u/ego100trique </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txl5yk/i_just_realized_how_good_moe_models_are_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txl5yk/i_just_realized_how_good_moe_models_are_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8e5263af-9806-510c-ae8c-e9c4b184ce27",
+    "title": "I’ve built 4 iOS apps with Claude. 5 more in progress. Zero users. Zero revenue. Let me save you some time.",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1txkn86/ive_built_4_ios_apps_with_claude_5_more_in/",
+    "pubDate": "2026-06-05T13:13:50+00:00",
+    "description": "Claude will build you an iOS app. A real one. SwiftUI, StoreKit, widgets, Live Activities, the whole thing. It took me longer to write the PRDs than it did to get working builds. That part is not the hard part anymore. I have 4 shipped apps on the App Store. I have 5 more in active development. My total revenue across all of them is $0. My total users is roughly my wife and one guy in Finland who I suspect downloaded it by accident. The barrier to building is gone. Claude dissolved it. What nobody tells you is that the barrier to getting users was never the same barrier. They were never connected. You didn’t used to notice because they both felt impossible at the same time. Now you can ship in a weekend. Which means you can also fail faster, more often, and with more apps in flight than you can emotionally manage. I’m not saying don’t build. I’m saying I’ve been confusing “I finished the thing” with “I did the work.” Finishing the app is like finishing a restaurant menu. You still have to get people in the door. Distribution is the job. submitted by /u/pristineprompts [link] [comments]",
+    "author": "/u/pristineprompts",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Claude will build you an iOS app. A real one. SwiftUI, StoreKit, widgets, Live Activities, the whole thing. It took me longer to write the PRDs than it did to get working builds.</p> <p>That part is not the hard part anymore.</p> <p>I have 4 shipped apps on the App Store. I have 5 more in active development. My total revenue across all of them is $0. My total users is roughly my wife and one guy in Finland who I suspect downloaded it by accident.</p> <p>The barrier to building is gone. Claude dissolved it. What nobody tells you is that the barrier to getting users was never the same barrier. They were never connected. You didn’t used to notice because they both felt impossible at the same time.</p> <p>Now you can ship in a weekend. Which means you can also fail faster, more often, and with more apps in flight than you can emotionally manage.</p> <p>I’m not saying don’t build. I’m saying I’ve been confusing “I finished the thing” with “I did the work.” Finishing the app is like finishing a restaurant menu. You still have to get people in the door.</p> <p>Distribution is the job.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pristineprompts\"> /u/pristineprompts </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txkn86/ive_built_4_ios_apps_with_claude_5_more_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txkn86/ive_built_4_ios_apps_with_claude_5_more_in/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9ac421d0-902a-50ee-b3c8-3f1eea4b7440",
     "title": "Suggestion - this sub should have post flairs that mention the amount of vram/unified ram",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txjy24/suggestion_this_sub_should_have_post_flairs_that/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tx8kv0/opus_48_usage/\"> <img alt=\"Opus 4.8 usage\" src=\"https://preview.redd.it/y8o9qaf6nd5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=25d86d46deb346ff6859b5afce22573f909a3c88\" title=\"Opus 4.8 usage\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anyone feel like Opus 4.8 is weirdly economical? I’m a Pro user, and when I tried Opus 4.6 or 4.7 in the past, it costed me lot of usage just to ask a few questions, so I always used Sonnet.</p> <p>After Opus 4.8 was released and Sonnet 4.5 was discarded, I tried out the Opus 4.8 since the weekly limit was reset, and I feel like it uses so little??? The whole week I was only using Opus 4.8 and it costed like 1% at most. Even when I used it for researchs and file generations, it only costed 29%.</p> <p>And just now, the current session was at 81% (I was trying to spend them so as not to waste weekly usage), suddenly it drops down to 55%.</p> <p>It feels strangely nice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rough-Reflection8765\"> /u/Rough-Reflection8765 </a> <br /> <span><a href=\"https://i.redd.it/y8o9qaf6nd5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tx8kv0/opus_48_usage/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/y8o9qaf6nd5h1.png?width=640&crop=smart&auto=webp&s=25d86d46deb346ff6859b5afce22573f909a3c88",
-    "isShortVideo": 0
-  },
-  {
-    "id": "04ed03a1-1b8c-533b-859f-b24052ac31a4",
-    "title": "How LLM-driven NPCs work in Ultima Online (ServUO)",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tx87uh/how_llmdriven_npcs_work_in_ultima_online_servuo/",
-    "pubDate": "2026-06-05T02:32:24+00:00",
-    "description": "submitted by /u/Zolty [link] [comments]",
-    "author": "/u/Zolty",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zolty\"> /u/Zolty </a> <br /> <span><a href=\"https://blog.zolty.systems/posts/2026-06-01-llm-npc-integration-servuo/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tx87uh/how_llmdriven_npcs_work_in_ultima_online_servuo/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0b4dfe1d-b8a5-537b-b0ef-06e6d1c94e69",
-    "title": "I didn't think Claude could make images. Then it gave me this beauty",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tx7hr7/i_didnt_think_claude_could_make_images_then_it/",
-    "pubDate": "2026-06-05T01:59:24+00:00",
-    "description": "submitted by /u/belkmaster5000 [link] [comments]",
-    "author": "/u/belkmaster5000",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tx7hr7/i_didnt_think_claude_could_make_images_then_it/\"> <img alt=\"I didn't think Claude could make images. Then it gave me this beauty\" src=\"https://preview.redd.it/u9zcve9hfd5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=411ff10ee95b0985c44c6c18df921e4c5b6bf486\" title=\"I didn't think Claude could make images. Then it gave me this beauty\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/belkmaster5000\"> /u/belkmaster5000 </a> <br /> <span><a href=\"https://i.redd.it/u9zcve9hfd5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tx7hr7/i_didnt_think_claude_could_make_images_then_it/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/u9zcve9hfd5h1.png?width=640&crop=smart&auto=webp&s=411ff10ee95b0985c44c6c18df921e4c5b6bf486",
     "isShortVideo": 0
   }
 ]
