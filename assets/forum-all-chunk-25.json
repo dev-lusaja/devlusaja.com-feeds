@@ -1,5 +1,21 @@
 [
   {
+    "id": "fd75a9e1-ada4-5fdd-aa12-4d7b2bc72050",
+    "title": "Would you say capture-time semantic annotation for robot trajectories is a solved problem? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1txf4gg/would_you_say_capturetime_semantic_annotation_for/",
+    "pubDate": "2026-06-05T08:42:07+00:00",
+    "description": "It seems raw teleoperation data (RGB + joint states) structurally lacks affordance, contact intent, and embodiment-specific kinematic context. (information that can't be reliably recovered post-hoc once the demonstration is recorded) Most current approaches either filter/clean after collection, or rely on simulation to compensate. But neither seems to close the semantic gap for contact-rich tasks in unstructured environments. Is anyone working on supervision at acquisition time, enriching the stream as it's captured rather than labeling after the fact? And if not, is this a real bottleneck or am I overestimating the problem? submitted by /u/Several-Many9101 [link] [comments]",
+    "author": "/u/Several-Many9101",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>It seems raw teleoperation data (RGB + joint states) structurally lacks affordance, contact intent, and embodiment-specific kinematic context. (information that can't be reliably recovered post-hoc once the demonstration is recorded)</p> <p>Most current approaches either filter/clean after collection, or rely on simulation to compensate. But neither seems to close the semantic gap for contact-rich tasks in unstructured environments.</p> <p>Is anyone working on supervision at acquisition time, enriching the stream as it's captured rather than labeling after the fact? </p> <p>And if not, is this a real bottleneck or am I overestimating the problem?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Several-Many9101\"> /u/Several-Many9101 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txf4gg/would_you_say_capturetime_semantic_annotation_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txf4gg/would_you_say_capturetime_semantic_annotation_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "694297c1-f5d7-5c14-860a-81a6f061bfb6",
     "title": "Claude Design is amazing",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1txessz/claude_design_is_amazing/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone, I've been trying to optimize my setup to use OpenCode with Qwen 3.6 27B (Unsloth quant Q4_K_XL) on my RX 7900 XTX with ROCm in llama.cpp.</p> <p>And I'm confused, it can run ok for small prompt, it seems people are using for agentic coding, but I'm seeing a collapse in the prompt processing speed : </p> <p>``` 0.11.819.898 I slot launch<em>slot</em>: id 3 | task 0 | processing task, is_child = 0</p> <p>0.24.488.005 I slot print_timing: id 3 | task 0 | prompt processing, n_tokens = 2048, progress = 0.07, t = 12.67 s / 161.67 tokens per second</p> <p>0.56.120.452 I slot print_timing: id 3 | task 0 | prompt processing, n_tokens = 4096, progress = 0.15, t = 44.30 s / 92.46 tokens per second</p> <p>2.07.943.523 I slot print_timing: id 3 | task 0 | prompt processing, n_tokens = 6144, progress = 0.22, t = 116.12 s / 52.91 tokens per second</p> <p>4.09.902.384 I slot print_timing: id 3 | task 0 | prompt processing, n_tokens = 8192, progress = 0.30, t = 238.08 s / 34.41 tokens per second</p> <p>6.51.638.083 I slot print_timing: id 3 | task 0 | prompt processing, n_tokens = 10240, progress = 0.37, t = 399.82 s / 25.61 tokens per second</p> <p>10.09.632.669 I slot print_timing: id 3 | task 0 | prompt processing, n_tokens = 12288, progress = 0.44, t = 597.81 s / 20.55 tokens per second ```</p> <p>With OpenCode, I'm running llama.cpp de6f727aaec7dc477629946d80c803a0bb7af0a1 built to ROCm myself.</p> <p>I'm running with :</p> <p><code> ./build/bin/llama-server -hf unsloth/Qwen3.6-27B-MTP-GGUF:UD-Q4_K_XL --temp 1.0 --top-p 0.95 --top-k 20 --presence-penalty 1.5 --min-p 0.00 --flash-attn on --fit off --n-gpu-layers 9999 --ctx-size 90000 --cache-type-v q4_0 --no-mmap --spec-type draft-mtp --spec-draft-n-max 2 --port 8000 --host 0.0.0.0 --jinja </code></p> <p>So I don't know if it's me or if despite the model fitting all in VRAM it stays that terrible.. I guess A3B is ok, but I wanted to know if I'm doing something wrong.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BraceletGrolf\"> /u/BraceletGrolf </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twyhfv/qwen36_27b_collapse_in_performance_for_agentic/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twyhfv/qwen36_27b_collapse_in_performance_for_agentic/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "dfd09a02-312d-5cc3-bebf-3102554fd331",
-    "title": "Claude 4.8 Being Nitpicky/Putting Words in My Mouth for Creative Writing",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1twx8xg/claude_48_being_nitpickyputting_words_in_my_mouth/",
-    "pubDate": "2026-06-04T19:05:13+00:00",
-    "description": "I understand it might not be this way for everyone but I'm just curious if anyone has had a similar experience. I worked with Opus 4.7 for a month or two on developmental editing for my books. It was quite helpful and pointed out lots of things to work on. That was great. Then 4.8 came out and I've had issues with it noticing very small things (\"You did X small thing 3 times in the book. That's a pattern you need to fix\" type of thing) all the time. Then, it thought I was doing things that were wrong with the book (morally wrong) that had never been mentioned by 4.7. It basically started tearing my book apart when I was on polish stage. I'm fine with some big changes but there were many. It's also been saying I'm saying things that I'm not. A lot. I had to make a prompt to tell it to rate fixes 1-3 severity and for anything 2-3 it must give a quote from the book to back up the claim. Anyway. I went back to 4.7 for now but I'm just curious if anyone has come up against any of this stuff? Thank you! submitted by /u/Beneficial_Dog922 [link] [comments]",
-    "author": "/u/Beneficial_Dog922",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I understand it might not be this way for everyone but I'm just curious if anyone has had a similar experience. I worked with Opus 4.7 for a month or two on developmental editing for my books. It was quite helpful and pointed out lots of things to work on. That was great. Then 4.8 came out and I've had issues with it noticing very small things (&quot;You did X small thing 3 times in the book. That's a pattern you need to fix&quot; type of thing) all the time. Then, it thought I was doing things that were wrong with the book (morally wrong) that had never been mentioned by 4.7. It basically started tearing my book apart when I was on polish stage. I'm fine with some big changes but there were many. It's also been saying I'm saying things that I'm not. A lot. I had to make a prompt to tell it to rate fixes 1-3 severity and for anything 2-3 it must give a quote from the book to back up the claim. Anyway. I went back to 4.7 for now but I'm just curious if anyone has come up against any of this stuff? Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Beneficial_Dog922\"> /u/Beneficial_Dog922 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twx8xg/claude_48_being_nitpickyputting_words_in_my_mouth/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twx8xg/claude_48_being_nitpickyputting_words_in_my_mouth/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

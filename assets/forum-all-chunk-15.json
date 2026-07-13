@@ -1,5 +1,21 @@
 [
   {
+    "id": "e6a16ad6-5000-5cdf-a918-a6070a5b3094",
+    "title": "Claude plugin for Jetbrain IDEs",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u11e8z/claude_plugin_for_jetbrain_ides/",
+    "pubDate": "2026-06-09T10:42:56+00:00",
+    "description": "I use Rider and I enjoy(ed) it, but now when I need to work across several microservices, I would need to switch to VS code as it has \"add folder to workspace\" feature. My question is if there is any plan to improve the claude code integration to Jetbrains IDEs in a similar manner as VS code does. submitted by /u/jakhongir_ [link] [comments]",
+    "author": "/u/jakhongir_",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I use Rider and I enjoy(ed) it, but now when I need to work across several microservices, I would need to switch to VS code as it has &quot;add folder to workspace&quot; feature.</p> <p>My question is if there is any plan to improve the claude code integration to Jetbrains IDEs in a similar manner as VS code does.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jakhongir_\"> /u/jakhongir_ </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u11e8z/claude_plugin_for_jetbrain_ides/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u11e8z/claude_plugin_for_jetbrain_ides/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fe238fed-5ced-5725-ac36-b67920cff3ae",
     "title": "People were praising computers over human brain, now it is reverse [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u114e9/people_were_praising_computers_over_human_brain/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>tldr: Googles quant is broken, use unsloth UD Q4_K_XL for now</p> <p>This might be low quality post, but oh well, we ball</p> <p>llama-quantize will quant the token embed to q6k when Google really was supposed to use &quot;--pure&quot; but that’s only the first problem</p> <p>The llama-quantize quant function is hardcoded to -7 when SOME groups are actually optimized for 8</p> <p>The 32 block groups are misaligned which causes them to intermingle, so they just need to be sorted and quantized separately </p> <p>unsloth Q4_k_xl is misleading because it is actually pure q4_0 as (it should!)</p> <p>The bf16/f16 scale they refer to is negligible but still necessary on the quest for perfection.</p> <p>Working on a patch but someone else might have it submitted sooner. Comes pretty much within margin of error; I assume unsloth just wants to keep their process hidden.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dreamkast06\"> /u/dreamkast06 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0marm/quick_note_on_the_qat_of_recent/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0marm/quick_note_on_the_qat_of_recent/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e048082b-ffb9-5da4-bcee-0d5bf0ed2200",
-    "title": "6 free open source repos that cut my Claude Code token costs by up to 90%",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u0m6q8/6_free_open_source_repos_that_cut_my_claude_code/",
-    "pubDate": "2026-06-08T21:58:39+00:00",
-    "description": "My Claude Code spend was getting out of hand. The plans go up to $200/month and I kept burning through limits faster than I expected. So instead of just paying more, I went looking for ways to actually cut token use. Ended up with 6 free open source repos that moved the needle. → ccusage (15k stars) - shows where every token goes, broken down by model and agent. Couldn't fix anything until I could see this part. → RTK (~60k stars) - compresses the bash command output before it hits the model. Strips noise, groups repeats, collapses redundancy. Claims 60-90% off command tokens. → Caveman Claude - makes Claude reply in a minimal caveman style. Sounds dumb but it cuts the fluff and saves ~75% per reply. If you know your project the short answers are just as clear. → Karpathy's skills repo - doesn't save tokens directly, but it stops Claude from making wrong assumptions and touching files it shouldn't, so you stop paying for the back and forth. → Graphify (~60k stars) - builds a local knowledge graph of your codebase so Claude consults the graph instead of re-reading everything. Runs locally, no API. → Obsidian skills - same idea but for your notes instead of code. The Caveman one surprised me the most. Felt like a gimmick, ended up keeping it on. Anyone stacked these together or found other repos that cut spend? Curious what your Claude Code bill looks like. submitted by /u/Drogoff1489 [link] [comments]",
-    "author": "/u/Drogoff1489",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>My Claude Code spend was getting out of hand. The plans go up to $200/month and I kept burning through limits faster than I expected.</p> <p>So instead of just paying more, I went looking for ways to actually cut token use. Ended up with 6 free open source repos that moved the needle.</p> <p>→ <strong>ccusage</strong> (15k stars) - shows where every token goes, broken down by model and agent. Couldn't fix anything until I could see this part.</p> <p>→ <strong>RTK</strong> (~60k stars) - compresses the bash command output before it hits the model. Strips noise, groups repeats, collapses redundancy. Claims 60-90% off command tokens.</p> <p>→ <strong>Caveman Claude</strong> - makes Claude reply in a minimal caveman style. Sounds dumb but it cuts the fluff and saves ~75% per reply. If you know your project the short answers are just as clear.</p> <p>→ <strong>Karpathy's skills repo</strong> - doesn't save tokens directly, but it stops Claude from making wrong assumptions and touching files it shouldn't, so you stop paying for the back and forth.</p> <p>→ <strong>Graphify</strong> (~60k stars) - builds a local knowledge graph of your codebase so Claude consults the graph instead of re-reading everything. Runs locally, no API.</p> <p>→ <strong>Obsidian skills</strong> - same idea but for your notes instead of code.</p> <p>The Caveman one surprised me the most. Felt like a gimmick, ended up keeping it on.</p> <p>Anyone stacked these together or found other repos that cut spend? Curious what your Claude Code bill looks like.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Drogoff1489\"> /u/Drogoff1489 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0m6q8/6_free_open_source_repos_that_cut_my_claude_code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0m6q8/6_free_open_source_repos_that_cut_my_claude_code/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

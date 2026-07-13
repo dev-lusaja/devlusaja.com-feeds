@@ -1,5 +1,21 @@
 [
   {
+    "id": "4127a078-30b8-5c00-946f-1791abea5e45",
+    "title": "Gemma4 12B - Experiences?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyxyzi/gemma4_12b_experiences/",
+    "pubDate": "2026-06-07T00:55:40+00:00",
+    "description": "Anyone check out the new Gemma4 12B that dropped 3 days ago? Integrated vision and audio recognition, no mmpro needed plus tool use. Q4 quant is like 8gb RAM. Crazy fast and great quality for it's size. No, it's not as good as a 27B or 31B. But it's damn close. Curious what others think. submitted by /u/Ill_Dragonfruit_3547 [link] [comments]",
+    "author": "/u/Ill_Dragonfruit_3547",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Anyone check out the new Gemma4 12B that dropped 3 days ago? Integrated vision and audio recognition, no mmpro needed plus tool use. Q4 quant is like 8gb RAM. Crazy fast and great quality for it's size. No, it's not as good as a 27B or 31B. But it's damn close. Curious what others think.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ill_Dragonfruit_3547\"> /u/Ill_Dragonfruit_3547 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyxyzi/gemma4_12b_experiences/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyxyzi/gemma4_12b_experiences/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a49b992d-8a7b-56a4-bfe9-21ae72b518bb",
     "title": "Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/\"> <img alt=\"Cohere's unreleased coding model (early access for localllama)\" src=\"https://external-preview.redd.it/v3Xn5US2tImdVoHz_sn1ZvWp4JwxaclSVEncXie33mg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=78827e01b4c527e6cb4a158bebdfd786be5d432f\" title=\"Cohere's unreleased coding model (early access for localllama)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey, Nick here from Cohere. Thanks for all the feedback on <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tizmar/re_what_ever_happened_to_coheres_commanda_series/\">Command A+ </a>the other week everyone. I read these threads all the time about other releases so it was fun to read one about our own :) we would like to do more of it.</p> <p>We actually have our first coding model we’re getting ready to release soon, and I wanted to give this community an opportunity to test it out and give feedback before we officially release it. Figured why not try something different and get you guys to help directly here? </p> <p>It’s a 30B model with 3B active params so it runs nicely on some local set ups. It’s on our Hugging Face for now (more platforms to come as we get the model officially launched soon). This one is small but the team is excited about its speed, we’re seeing token output tests in line with similar models in its size class. </p> <p>The weights are <a href=\"https://huggingface.co/CohereLabs/BLS-Mini-Code-1.0\">here</a> but again this isn’t publicly launched yet (or even fully ready) so i’d encourage you to test the model with what you are trying to achieve. The goal is to build from our learnings with this release and improve the models, so there’s some room for how this gets used now to shape how we continue to develop it. </p> <p>Check it out and let me know how it’s working for you. Excited to see what people think. Thank you :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nick_frosst\"> /u/nick_frosst </a> <br /> <span><a href=\"https://huggingface.co/CohereLabs/BLS-Mini-Code-1.0\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/v3Xn5US2tImdVoHz_sn1ZvWp4JwxaclSVEncXie33mg.png?width=640&crop=smart&auto=webp&s=78827e01b4c527e6cb4a158bebdfd786be5d432f",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bae8c241-80f0-5043-bbbb-692c2f1d61f9",
-    "title": "Anyone here with experience submitting to Nature Machine Intelligence? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tylgoq/anyone_here_with_experience_submitting_to_nature/",
-    "pubDate": "2026-06-06T16:15:30+00:00",
-    "description": "I'm planning to submit a paper to either NMI, but this will be my first paper to a nature-like venue. Would love a quick chat with anyone that has experience. My paper's specifically more geared towards signal processing with ML for a specific subfield of engineering. But can be interdisciplinary. submitted by /u/PlateLive8645 [link] [comments]",
-    "author": "/u/PlateLive8645",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm planning to submit a paper to either NMI, but this will be my first paper to a nature-like venue. Would love a quick chat with anyone that has experience.</p> <p>My paper's specifically more geared towards signal processing with ML for a specific subfield of engineering. But can be interdisciplinary.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PlateLive8645\"> /u/PlateLive8645 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tylgoq/anyone_here_with_experience_submitting_to_nature/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tylgoq/anyone_here_with_experience_submitting_to_nature/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

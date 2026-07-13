@@ -1,5 +1,21 @@
 [
   {
+    "id": "dfd09a02-312d-5cc3-bebf-3102554fd331",
+    "title": "Claude 4.8 Being Nitpicky/Putting Words in My Mouth for Creative Writing",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1twx8xg/claude_48_being_nitpickyputting_words_in_my_mouth/",
+    "pubDate": "2026-06-04T19:05:13+00:00",
+    "description": "I understand it might not be this way for everyone but I'm just curious if anyone has had a similar experience. I worked with Opus 4.7 for a month or two on developmental editing for my books. It was quite helpful and pointed out lots of things to work on. That was great. Then 4.8 came out and I've had issues with it noticing very small things (\"You did X small thing 3 times in the book. That's a pattern you need to fix\" type of thing) all the time. Then, it thought I was doing things that were wrong with the book (morally wrong) that had never been mentioned by 4.7. It basically started tearing my book apart when I was on polish stage. I'm fine with some big changes but there were many. It's also been saying I'm saying things that I'm not. A lot. I had to make a prompt to tell it to rate fixes 1-3 severity and for anything 2-3 it must give a quote from the book to back up the claim. Anyway. I went back to 4.7 for now but I'm just curious if anyone has come up against any of this stuff? Thank you! submitted by /u/Beneficial_Dog922 [link] [comments]",
+    "author": "/u/Beneficial_Dog922",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I understand it might not be this way for everyone but I'm just curious if anyone has had a similar experience. I worked with Opus 4.7 for a month or two on developmental editing for my books. It was quite helpful and pointed out lots of things to work on. That was great. Then 4.8 came out and I've had issues with it noticing very small things (&quot;You did X small thing 3 times in the book. That's a pattern you need to fix&quot; type of thing) all the time. Then, it thought I was doing things that were wrong with the book (morally wrong) that had never been mentioned by 4.7. It basically started tearing my book apart when I was on polish stage. I'm fine with some big changes but there were many. It's also been saying I'm saying things that I'm not. A lot. I had to make a prompt to tell it to rate fixes 1-3 severity and for anything 2-3 it must give a quote from the book to back up the claim. Anyway. I went back to 4.7 for now but I'm just curious if anyone has come up against any of this stuff? Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Beneficial_Dog922\"> /u/Beneficial_Dog922 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twx8xg/claude_48_being_nitpickyputting_words_in_my_mouth/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twx8xg/claude_48_being_nitpickyputting_words_in_my_mouth/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "92e3b3be-c598-5f60-94c0-11763a5e31c8",
     "title": "Dynamic KV Cache Quantization and Load-on-demand mmproj/MTP: my llama.cpp wishlist",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twwve0/dynamic_kv_cache_quantization_and_loadondemand/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Excited to share some of my own work here :) </p> <p><strong>KVarN</strong> is our new KV-Cache quantization method. In very brief, we combine Hadamard rotations with variance-normalization <em>on both axes</em> of the K and V matrices, then round to nearest. Simple, but works very well, especially for decode-heavy test-time-scaling settings (reasoning, code-gen, agentics). We get 3-4x compression at virtually no accuracy drop (mostly 0-1%) on tough benchmarks like AIME24 as well as a speed-up over fp16 baseline in vLLM (in contrast to other recent KV-Cache compression works).</p> <p>Behind it is an analysis of where quantization errors come from and have the biggest impact, especially in the error-accumulating decode setting: 1) fixing large errors is disproportionally useful (if you had a fixed MSE budget that you could ~fix, you should spend it on few big errors, rather than many small) 2) These big errors are mostly caused by bad token-scales (hence the normalization).</p> <p>Paper: <a href=\"https://arxiv.org/abs/2606.03458\">https://arxiv.org/abs/2606.03458</a></p> <p>vLLM implementation: <a href=\"https://github.com/huawei-csl/KVarN\">https://github.com/huawei-csl/KVarN</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/intentionallyBlue\"> /u/intentionallyBlue </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d029606f-0747-5047-b9f6-5c97bdf52a59",
-    "title": "Gemma 4 12B: incompatible with opencode, or just awful at tool calling?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twmw4o/gemma_4_12b_incompatible_with_opencode_or_just/",
-    "pubDate": "2026-06-04T12:57:13+00:00",
-    "description": "Yesterday I tried out Gemma 4 12B on a significant coding challenge, to compare it to prior results with Qwen models. I ran the 8-bit quant, so I'm not dumbing it down much at all. Judging from the partial results, it seemed capable of grasping the task, but it burned far too much time and effort trying to successfully do basic tool calls. Over and over it would fail to specify \"pattern\" successfully to a \"grep\" tool, for instance, and the call would be rejected. Ultimately I interrupted it because it didn't feel like this was going to be productive. Is opencode lacking in compatibility with Gemma 4 12B, or the other way around? Is there a harness with which people are seeing reliable tool calls from Gemma 4 12B? Thanks! submitted by /u/boutell [link] [comments]",
-    "author": "/u/boutell",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Yesterday I tried out Gemma 4 12B on a significant coding challenge, to compare it to prior results with Qwen models. I ran the 8-bit quant, so I'm not dumbing it down much at all.</p> <p>Judging from the partial results, it seemed capable of grasping the task, but it burned far too much time and effort trying to successfully do basic tool calls. Over and over it would fail to specify &quot;pattern&quot; successfully to a &quot;grep&quot; tool, for instance, and the call would be rejected. Ultimately I interrupted it because it didn't feel like this was going to be productive.</p> <p>Is opencode lacking in compatibility with Gemma 4 12B, or the other way around? Is there a harness with which people are seeing reliable tool calls from Gemma 4 12B?</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/boutell\"> /u/boutell </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twmw4o/gemma_4_12b_incompatible_with_opencode_or_just/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twmw4o/gemma_4_12b_incompatible_with_opencode_or_just/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
