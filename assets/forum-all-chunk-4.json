@@ -1,5 +1,21 @@
 [
   {
+    "id": "61a38076-f406-5eec-ae33-ce9089d135c2",
+    "title": "Cerebras OpenAI deal capacity has effectively killed the waitlist for everyone else [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/",
+    "pubDate": "2026-06-29T12:00:06+00:00",
+    "description": "I’m pretty annoyed. We’re a small AI startup building a real-time coding agent. Our p95 latency requirements are tight (and self imposed, but thats the product). We need sustained high-throughput inference with ~1-2k tokens/second. Been on the Cerebras waitlist for months trying to get API access. We’re not doing training so don’t need a warehouse of H100s. We need fast, high-throughput ASIC inference for a specific production workload. Cerebras’ just went public and they basically have no compute how is that possible? Well turns out OpenAI and Cerebras for OpenAI to buy like $20b worth of these chips. This has effectively pre-allocated the vast majority of Cerebras’ near-term inference capacity to a single customer. I mean, none of us can compete with that The result is that this deal situation has made their API waitlist functionally infinite for anyone who isn’t a hyperscaler. Legit making me pull my hair out. submitted by /u/Kortopi-98 [link] [comments]",
+    "author": "/u/Kortopi-98",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m pretty annoyed. We’re a small AI startup building a real-time coding agent. Our p95 latency requirements are tight (and self imposed, but thats the product). We need sustained high-throughput inference with ~1-2k tokens/second. Been on the Cerebras waitlist for months trying to get API access. We’re not doing training so don’t need a warehouse of H100s. We need fast, high-throughput ASIC inference for a specific production workload. Cerebras’ just went public and they basically have no compute how is that possible?</p> <p>Well turns out OpenAI and Cerebras for OpenAI to buy like $20b worth of these chips. This has effectively pre-allocated the vast majority of Cerebras’ near-term inference capacity to a single customer. I mean, none of us can compete with that</p> <p>The result is that this deal situation has made their API waitlist functionally infinite for anyone who isn’t a hyperscaler. Legit making me pull my hair out.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kortopi-98\"> /u/Kortopi-98 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1344ad1d-89c2-50e8-91a6-5384c25fcc43",
     "title": "EML Trees are Universal Approximators [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uipl1t/eml_trees_are_universal_approximators_r/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>What if there was a new programming language where the meaning of each token was so dense (or perhaps so specific) that an LLM could write robust code with fewer tokens and faster inference?</p> <p>Assuming there’s enough training data, do you think something like this allow an LLM to write better code faster?</p> <p>Rationale:</p> <p>1) It would allow for faster inference. Fewer tokens required to do the same thing in Python = finish faster.</p> <p>2) It would allow for more information in a 1M context window. Whatever you could fit in 1M tokens of Python, you could do 100x that in this theoretical language.</p> <p>3) It would effectively remove the “noise” from human readable language (semi-colons, curly braces for example) which I would think would make the LLMs coding ability stronger. I could be wrong about this of course.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Spongebubs\"> /u/Spongebubs </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufgw7z/would_having_a_dedicated_programming_language/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufgw7z/would_having_a_dedicated_programming_language/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "13abbde3-9b26-5e9c-a756-3f9f9dd6b57f",
-    "title": "[R] Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ufgpnh/r_compiling_agentic_workflows_into_llm_weights/",
-    "pubDate": "2026-06-25T17:31:49+00:00",
-    "description": "Token-based billing is causing my company to reevaluate small language models. I came across this paper that shows SLM supervised fine-tuning on traces from orchestration of frontier models can be nearly as performant and much cheaper. Has any tried this in the real world? submitted by /u/ThirdWaveCat [link] [comments]",
-    "author": "/u/ThirdWaveCat",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufgpnh/r_compiling_agentic_workflows_into_llm_weights/\"> <img alt=\"[R] Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost\" src=\"https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=de730fbf7ecace6df0036b21470c16a2d4feacfb\" title=\"[R] Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Token-based billing is causing my company to reevaluate small language models. I came across this paper that shows SLM supervised fine-tuning on traces from orchestration of frontier models can be nearly as performant and much cheaper. Has any tried this in the real world?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThirdWaveCat\"> /u/ThirdWaveCat </a> <br /> <span><a href=\"https://arxiv.org/abs/2605.22502\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufgpnh/r_compiling_agentic_workflows_into_llm_weights/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&crop=smart&auto=webp&s=de730fbf7ecace6df0036b21470c16a2d4feacfb",
     "isShortVideo": 0
   }
 ]

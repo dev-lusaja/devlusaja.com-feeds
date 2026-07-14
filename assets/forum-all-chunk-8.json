@@ -1,5 +1,21 @@
 [
   {
+    "id": "9376a1ef-eafd-5026-b2ec-983bd364cd8b",
+    "title": "ICML Poster [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/",
+    "pubDate": "2026-06-14T22:04:18+00:00",
+    "description": "Does anyone know when is the ICML poster deadline? It says it’s tomorrow but is it AoE? submitted by /u/misplacedlion [link] [comments]",
+    "author": "/u/misplacedlion",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone know when is the ICML poster deadline? It says it’s tomorrow but is it AoE? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/misplacedlion\"> /u/misplacedlion </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2cc22e82-7f9b-5a07-86ff-d5f6af9ee299",
     "title": "ICML registration [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u5r5la/icml_registration_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I mostly ran these tests for myself, because the published KLD numbers are hard to interpret, and you cannot compare <code>9B-Q4</code> vs <code>4B-Q8</code>, for example. But I'm happy to share the results with anyone interested:</p> <h3>Test 1 (Arithmetic)</h3> <p>1000 questions like</p> <blockquote> <p>Print only one number as the answer to the following question. Print nothing else, please. Do not use commas or underscores. It is very important. 998604052310776342 + 249349834805792420 = ?</p> </blockquote> <h3>Test 2 (Presidents)</h3> <p>46 questions like</p> <blockquote> <p>What is the DOB of President Zachary Taylor? Use the New Style calendar. Give your answer as YYYY-MM-DD with no extra output.</p> </blockquote> <h3>Test 3 (Attention)</h3> <p>100 questions like</p> <blockquote> <p>In the following sequence of words, one word occurs twice. Print that word. Produce no other output. The word list: pick glad how told held did fill wing only sugar ... wing ... (1001 words in total)</p> </blockquote> <h3>Accuracy</h3> <table><thead> <tr> <th>Repo</th> <th>File</th> <th>Notes</th> <th align=\"right\">Arithmetic</th> <th align=\"right\">Presidents</th> <th align=\"right\">Attention</th> </tr> </thead><tbody> <tr> <td>unsloth</td> <td>gemma-4-E2B-it-Q8_0.gguf</td> <td></td> <td align=\"right\">1.4%</td> <td align=\"right\">28.3%</td> <td align=\"right\">0.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-E4B-it-Q8_0.gguf</td> <td></td> <td align=\"right\">0.1%</td> <td align=\"right\">65.2%</td> <td align=\"right\">3.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-12b-it-Q4_K_S.gguf</td> <td></td> <td align=\"right\">31.0%</td> <td align=\"right\">67.4%</td> <td align=\"right\">35.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-12b-it-Q4_K_S.gguf</td> <td>temperature=1</td> <td align=\"right\">28.9%</td> <td align=\"right\" colspan=\"2\"></td> </tr> <tr> <td>unsloth</td> <td>gemma-4-26B-A4B-it-UD-Q4_K_S.gguf</td> <td></td> <td align=\"right\">72.3%</td> <td align=\"right\">97.8%</td> <td align=\"right\">55.0%</td> </tr> <tr> <td>google</td> <td>gemma-4-26B_q4_0-it.gguf</td> <td>QAT</td> <td align=\"right\">51.0%</td> <td align=\"right\">82.6%</td> <td align=\"right\">43.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf</td> <td>QAT</td> <td align=\"right\">51.1%</td> <td align=\"right\">89.1%</td> <td align=\"right\">39.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-26B-A4B-it-Q8_0.gguf</td> <td></td> <td align=\"right\">73.0%</td> <td align=\"right\">97.8%</td> <td align=\"right\">52.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-31B-it-UD-IQ2_XXS.gguf</td> <td></td> <td align=\"right\">9.4%</td> <td align=\"right\">10.9%</td> <td align=\"right\">21.0%</td> </tr> <tr> <td>unsloth</td> <td>gemma-4-31B-it-Q4_K_S.gguf</td> <td></td> <td align=\"right\">83.8%</td> <td align=\"right\">93.5%</td> <td align=\"right\">87.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.5-4B-Q4_0.gguf</td> <td></td> <td align=\"right\">30.7%</td> <td align=\"right\">60.9%</td> <td align=\"right\">29.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.5-4B-Q4_K_S.gguf</td> <td></td> <td align=\"right\">54.1%</td> <td align=\"right\">82.6%</td> <td align=\"right\">31.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.5-4B-Q8_0.gguf</td> <td></td> <td align=\"right\">57.8%</td> <td align=\"right\">73.9%</td> <td align=\"right\">45.0%</td> </tr> <tr> <td>hauhauCS</td> <td>Qwen3.5-9B-...-Q4_K_M.gguf</td> <td>&quot;Aggressive&quot;</td> <td align=\"right\">65.0%</td> <td align=\"right\">78.3%</td> <td align=\"right\">63.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.6-27B-Q4_K_S.gguf</td> <td>MTP</td> <td align=\"right\">95.5%</td> <td align=\"right\">100.0%</td> <td align=\"right\">93.0%</td> </tr> <tr> <td>hauhauCS</td> <td>Qwen3.6-27B-...-Q4_K_P.gguf</td> <td>&quot;Aggressive&quot;</td> <td align=\"right\">tbd</td> <td align=\"right\">100.0%</td> <td align=\"right\">95.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.6-35B-A3B-UD-Q4_K_S.gguf</td> <td></td> <td align=\"right\">87.4%</td> <td align=\"right\">100.0%</td> <td align=\"right\">71.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.6-35B-A3B-UD-Q4_K_S.gguf</td> <td>temperature=1</td> <td align=\"right\">86.5%</td> <td align=\"right\" colspan=\"2\"></td> </tr> <tr> <td>hauhauCS</td> <td>Qwen3.6-35B-A3B-...-Q4_K_P.gguf</td> <td>&quot;Aggressive&quot;</td> <td align=\"right\">89.8%</td> <td align=\"right\">100.0%</td> <td align=\"right\">56.0%</td> </tr> <tr> <td>unsloth</td> <td>Qwen3.6-35B-A3B-Q8_0.gguf</td> <td></td> <td align=\"right\">85.3%</td> <td align=\"right\">100.0%</td> <td align=\"right\">77.0%</td> </tr> </tbody></table> <p>(I'll edit the table if I run more models)</p> <h3>Settings</h3> <ul> <li><code>enable_thinking=false</code>, because <code>thinking</code> is built on top of next token prediction, and I'm just trying to evaluate this underlying process.</li> <li><code>temperature=0</code> (unless specified), because it's actually optimal here -- with no <code>thinking</code> and with no extraneous output allowed, there is only one correct completion.</li> </ul> <h3>Methods</h3> <p><code>llama-server -m ... -c ...</code></p> <h3>Discussion</h3> <ul> <li>If you are reading this in the future, QAT may have been fixed. Give it a shot.</li> </ul> <h3>FAQ</h3> <ul> <li><em>&quot;Why do you need an LLM to answer these questions?&quot;</em> -- Because this is a test of LLMs.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3i8x7/some_contrived_tests_comparing_the_accuracy_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3i8x7/some_contrived_tests_comparing_the_accuracy_of/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0fb78db4-fa5f-5260-b9a6-772e172a8397",
-    "title": "Has anyone used agents to decompile binary executables?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3i3tu/has_anyone_used_agents_to_decompile_binary/",
-    "pubDate": "2026-06-12T01:55:21+00:00",
-    "description": "Was wondering if there was a way to set it up so that you just drop in the binary file and then it goes to work reversing the file? submitted by /u/qzrz [link] [comments]",
-    "author": "/u/qzrz",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Was wondering if there was a way to set it up so that you just drop in the binary file and then it goes to work reversing the file?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/qzrz\"> /u/qzrz </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3i3tu/has_anyone_used_agents_to_decompile_binary/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3i3tu/has_anyone_used_agents_to_decompile_binary/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

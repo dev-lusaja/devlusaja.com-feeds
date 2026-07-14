@@ -1,5 +1,21 @@
 [
   {
+    "id": "bf3d669a-f29e-5fa6-8314-f505c8f36d86",
+    "title": "Why do the output layer weights become word vectors in Word2Vec? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/",
+    "pubDate": "2026-05-30T10:06:32+00:00",
+    "description": "I'm trying to understand the intuition behind Word2Vec training using a neural network. In Word2Vec (CBOW or Skip-gram), we often hear that the weight matrices learned during training contain the vector representations (embeddings) of words. However, I don't understand why the weights of the hidden-to-output layer (or output weight matrix) end up representing semantic features of words. Why do these weights become meaningful vector representations instead of just being parameters used to make predictions? I've explored multiple YouTube videos, blog posts and even asked ChatGPT several times, but I still haven't found an explanation that truly clicks for me. Most resources explain that the weights become embeddings, but not why this happens intuitively and mathematically. Could someone provide a clear intuition or mathematical explanation of why the output-layer weights end up encoding semantic information about words? Any good resources that explain this particularly well would also be appreciated. submitted by /u/aaryantiwari26 [link] [comments]",
+    "author": "/u/aaryantiwari26",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm trying to understand the intuition behind Word2Vec training using a neural network.</p> <p>In Word2Vec (CBOW or Skip-gram), we often hear that the weight matrices learned during training contain the vector representations (embeddings) of words. However, I don't understand why the weights of the hidden-to-output layer (or output weight matrix) end up representing semantic features of words.</p> <p>Why do these weights become meaningful vector representations instead of just being parameters used to make predictions?</p> <p>I've explored multiple YouTube videos, blog posts and even asked ChatGPT several times, but I still haven't found an explanation that truly clicks for me. Most resources explain that the weights become embeddings, but not why this happens intuitively and mathematically.</p> <p>Could someone provide a clear intuition or mathematical explanation of why the output-layer weights end up encoding semantic information about words?</p> <p>Any good resources that explain this particularly well would also be appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aaryantiwari26\"> /u/aaryantiwari26 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9eb6bff7-95fd-5d05-a1cc-3d0156ffd533",
     "title": "What I learned building a debugger for PyTorch training loops and how it changed how I think about failure diagnosis [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm working on a project that translates any language into English.</p> <p>So far, I've tried NMT models like NLLB, MADLAD, and SeamlessM4T v2.</p> <p>The main issue is that they struggle with proper nouns such as:</p> <p>- names</p> <p>- places</p> <p>- dates</p> <p>- organizations</p> <p>I also tried LLMs like Gemma 4, Qwen 3 4B, and Aya Tiny Global, but the issue still persists. The LLMs sometimes partially translate or modify entity names as well.</p> <p>I even tried NER masking / placeholder replacement before translation, but multilingual NER itself becomes a bottleneck. Most NER models only work reliably for a limited set of languages, while my dataset contains 100+ languages, including many low-resource ones.</p> <p>How do production systems usually handle this problem? Are there better multilingual translation models, multilingual NER approaches, or decoding techniques for preserving entities properly?</p> <p>Requirements:</p> <p>- Support for 100+ languages</p> <p>- Runs locally on an RTX GPU</p> <p>- Model size under 7B</p> <p>- English is always the target language.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Illustrious_Age_2792\"> /u/Illustrious_Age_2792 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tp92yj/best_text_to_text_translation_model_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tp92yj/best_text_to_text_translation_model_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1b253793-8a1f-50bb-850f-55dbd2fbe3af",
-    "title": "Physics Informed Neural Networks for damped harmonic oscillator and Burger's Equation (with extrapolation analysis) [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tp7p9n/physics_informed_neural_networks_for_damped/",
-    "pubDate": "2026-05-27T14:44:34+00:00",
-    "description": "I built a PINN implementation in Python to solve two problems as part of a physics exam project: the damped harmonic oscillator (2nd-order ODE) and the 1D viscid Burgers' equation (nonlinear PDE). Both forward and inverse problems (to estimate unknown equation parameters from data) are implemented for each problem. The repo includes source code, sample outputs, and the written exam report (PDF). Beyond the standard PINN training setup, I ran a comparison against non-physics-informed baselines and specifically investigated extrapolation behavior, i.e. how well the models generalize outside the training domain, and finally made statistical analyses of the parameter estimation performance. GitHub: https://github.com/desdb6/pinn-dho-burgers Ready-to-run demo scripts are included, and the modules are structured to be importable so you can write your own training scripts for more customization. This is not novel research, just a clean student implementation, but hopefully useful to others learning about PINNs. Happy to answer questions or receive feedback in the comments. submitted by /u/Reversed456 [link] [comments]",
-    "author": "/u/Reversed456",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I built a PINN implementation in Python to solve two problems as part of a physics exam project: the damped harmonic oscillator (2nd-order ODE) and the 1D viscid Burgers' equation (nonlinear PDE). Both forward and inverse problems (to estimate unknown equation parameters from data) are implemented for each problem.</p> <p>The repo includes source code, sample outputs, and the written exam report (PDF). Beyond the standard PINN training setup, I ran a comparison against non-physics-informed baselines and specifically investigated extrapolation behavior, i.e. how well the models generalize outside the training domain, and finally made statistical analyses of the parameter estimation performance.</p> <p>GitHub: <a href=\"https://github.com/desdb6/pinn-dho-burgers\">https://github.com/desdb6/pinn-dho-burgers</a></p> <p>Ready-to-run demo scripts are included, and the modules are structured to be importable so you can write your own training scripts for more customization. This is not novel research, just a clean student implementation, but hopefully useful to others learning about PINNs. Happy to answer questions or receive feedback in the comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Reversed456\"> /u/Reversed456 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tp7p9n/physics_informed_neural_networks_for_damped/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tp7p9n/physics_informed_neural_networks_for_damped/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

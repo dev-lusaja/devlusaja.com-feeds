@@ -1,5 +1,21 @@
 [
   {
+    "id": "d9300922-b120-51e6-a6fd-24d40a140565",
+    "title": "Higgs Audio v3 TTS 4B. Built for voice chat. Support 100 languages and inline control.",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tx2mot/higgs_audio_v3_tts_4b_built_for_voice_chat/",
+    "pubDate": "2026-06-04T22:26:08+00:00",
+    "description": "submitted by /u/FerretLegitimate6929 [link] [comments]",
+    "author": "/u/FerretLegitimate6929",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tx2mot/higgs_audio_v3_tts_4b_built_for_voice_chat/\"> <img alt=\"Higgs Audio v3 TTS 4B. Built for voice chat. Support 100 languages and inline control.\" src=\"https://external-preview.redd.it/Rpjz3NLa9zBybBIItZQZS1r-vXGqeIXYM-dSEHNczUo.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e40be30fc6627c7e3b764cd761c52b5faf5f378c\" title=\"Higgs Audio v3 TTS 4B. Built for voice chat. Support 100 languages and inline control.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FerretLegitimate6929\"> /u/FerretLegitimate6929 </a> <br /> <span><a href=\"https://huggingface.co/bosonai/higgs-audio-v3-tts-4b\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tx2mot/higgs_audio_v3_tts_4b_built_for_voice_chat/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/Rpjz3NLa9zBybBIItZQZS1r-vXGqeIXYM-dSEHNczUo.png?width=640&crop=smart&auto=webp&s=e40be30fc6627c7e3b764cd761c52b5faf5f378c",
+    "isShortVideo": 0
+  },
+  {
     "id": "409e9923-3c53-5750-ae73-910f5dc214da",
     "title": "BeeLlama v0.3.1 – latest llama.cpp with extras! DFlash, MTP, q6_0 cache, TurboQuant. Single RTX 3090: Qwen 3.6 27B & Gemma 4 31B up to 177.8 tps (4.93x over baseline)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tx12t1/beellama_v031_latest_llamacpp_with_extras_dflash/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The Google paper on metacognition for hallucination reduction makes a distinction that is underappreciated in benchmarks. Calibration is not about being right more often. It is about matching confidence to correctness. A perfectly calibrated model can still be wrong twenty five percent of the time. It just does not pretend otherwise.</p> <p>In agent systems this distinction matters more than in chat. A conversational model giving a hedged answer is slightly annoying. An agent with tool access acting confidently on a wrong premise is dangerous.</p> <p>I have been trying this in a small verdent based coding setup by splitting the pipeline into a planning stage that produces a task graph, then running a verifier before any expensive tool gets invoked. The risk is the model trusts its own reasoning even when speculative. Grounding helps but it is not the same as calibration.</p> <p>One practical pattern: a planning stage produces a task graph, then a lightweight verifier checks whether the plan is consistent with available evidence. This catches about sixty percent of hallucinated tool calls in my setup before they execute.</p> <p>The downside is the utility tax. Extra verification adds latency. Dropping hallucination from twenty five to five percent costs about half the easy correct answers, mirroring the paper.</p> <p>My current compromise: let the planning layer flag low confidence tasks for human review, but auto execute high confidence ones. The reviewer only sees edge cases instead of drowning in every step.</p> <p>The awkward part is that most agent stacks still treat confidence as a log detail, not as a control surface.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ill_Awareness6706\"> /u/Ill_Awareness6706 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twq0h3/faithful_uncertainty_in_llm_agents_calibration_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twq0h3/faithful_uncertainty_in_llm_agents_calibration_vs/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "43cd249c-effa-5d54-9dca-4f82e73d4ef4",
-    "title": "VibeOS - Fully Hallucinated Operating System",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twpv8r/vibeos_fully_hallucinated_operating_system/",
-    "pubDate": "2026-06-04T14:48:36+00:00",
-    "description": "Who needs programming anyway? submitted by /u/WhatererBlah555 [link] [comments]",
-    "author": "/u/WhatererBlah555",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twpv8r/vibeos_fully_hallucinated_operating_system/\"> <img alt=\"VibeOS - Fully Hallucinated Operating System\" src=\"https://external-preview.redd.it/91K9FescYNPMEeGFsHVf6Tk7LiSTMhPFOkmKXhY1A9g.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=428fdb08b3009c2e4c39061d75e4353a2b20d06d\" title=\"VibeOS - Fully Hallucinated Operating System\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Who needs programming anyway?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WhatererBlah555\"> /u/WhatererBlah555 </a> <br /> <span><a href=\"https://youtube.com/watch?v=z3pV6FHvcgM&amp;si=CgBYEMD93agHf9i4\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twpv8r/vibeos_fully_hallucinated_operating_system/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/91K9FescYNPMEeGFsHVf6Tk7LiSTMhPFOkmKXhY1A9g.jpeg?width=320&crop=smart&auto=webp&s=428fdb08b3009c2e4c39061d75e4353a2b20d06d",
     "isShortVideo": 0
   }
 ]

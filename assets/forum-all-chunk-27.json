@@ -1,5 +1,21 @@
 [
   {
+    "id": "43cd249c-effa-5d54-9dca-4f82e73d4ef4",
+    "title": "VibeOS - Fully Hallucinated Operating System",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twpv8r/vibeos_fully_hallucinated_operating_system/",
+    "pubDate": "2026-06-04T14:48:36+00:00",
+    "description": "Who needs programming anyway? submitted by /u/WhatererBlah555 [link] [comments]",
+    "author": "/u/WhatererBlah555",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twpv8r/vibeos_fully_hallucinated_operating_system/\"> <img alt=\"VibeOS - Fully Hallucinated Operating System\" src=\"https://external-preview.redd.it/91K9FescYNPMEeGFsHVf6Tk7LiSTMhPFOkmKXhY1A9g.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=428fdb08b3009c2e4c39061d75e4353a2b20d06d\" title=\"VibeOS - Fully Hallucinated Operating System\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Who needs programming anyway?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WhatererBlah555\"> /u/WhatererBlah555 </a> <br /> <span><a href=\"https://youtube.com/watch?v=z3pV6FHvcgM&amp;si=CgBYEMD93agHf9i4\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twpv8r/vibeos_fully_hallucinated_operating_system/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/91K9FescYNPMEeGFsHVf6Tk7LiSTMhPFOkmKXhY1A9g.jpeg?width=320&crop=smart&auto=webp&s=428fdb08b3009c2e4c39061d75e4353a2b20d06d",
+    "isShortVideo": 0
+  },
+  {
     "id": "dbfc1e82-711a-559c-a7e0-c51690f43b9e",
     "title": "KVarN: new KV-cache quant from Huawei. 3–5× KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Just a quick observation for all three users of Jetson AGX Orin 64GB in this sub: q8_0 quant gives &gt;20% faster prefill (prompt processing) than q6_k, and 10% faster than q4_k_xl.</p> <p>Tested with Unsloth Qwen3.6-27B-MTP-GGUF on recent llama.cpp build.</p> <p>I don't have statistics at hand, but from observation with prompt size of 10,000+ token:<br /> - q8_0: 245 pp<br /> - q6_k: 190 pp<br /> - q4_k_xl: 210 pp</p> <p>From monitoring `tegrastats` I see that EMC is never saturated, but climbs from some 40% to 60% when switching from q6_k to q8_0: hence, the device is NOT memory-bandwidth-bound. Rather, I assume that the llama.cpp CUDA cores are not well-optimized for lower quants on Jetson AGX Orin 64GB.</p> <p>Does any of you have similar or contradicting observations?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/realblindseeker\"> /u/realblindseeker </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twgwrf/jetson_agx_orin_64gb_q8_0_good_q6_k_bad/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twgwrf/jetson_agx_orin_64gb_q8_0_good_q6_k_bad/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "201a191f-e705-5841-838d-289b6910c944",
-    "title": "Text-to-infinite-minecraft-world mod with Claude!",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1twg6bw/texttoinfiniteminecraftworld_mod_with_claude/",
-    "pubDate": "2026-06-04T07:12:14+00:00",
-    "description": "I just made a Minecraft mod which lets you generate infinite Minecraft worlds from simple prompts. For example, the GIFs show various worlds generated using descriptions like \"beautiful flower-filled meadows abruptly changing into swamps\", \"jungle cliffs with rivers and sharp cliff drops\", and \"high, snowy mountains with sharp peaks, with forest-covered foothills below.\" It works by providing an interface for Opus to design/compose procedural algorithms that fit the prompt (I explain it more in the GitHub page). I would be super honored if anyone checks it out, leaves a GitHub star, or gives feedback!! https://github.com/soapantelope/mindcraft submitted by /u/No-Quail-2803 [link] [comments]",
-    "author": "/u/No-Quail-2803",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twg6bw/texttoinfiniteminecraftworld_mod_with_claude/\"> <img alt=\"Text-to-infinite-minecraft-world mod with Claude!\" src=\"https://preview.redd.it/gicf4y50u75h1.gif?frame=1&amp;width=140&amp;height=87&amp;auto=webp&amp;s=b970415fd3655324115337e05bb491b3b9215aa3\" title=\"Text-to-infinite-minecraft-world mod with Claude!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I just made a Minecraft mod which lets you generate infinite Minecraft worlds from simple prompts. For example, the GIFs show various worlds generated using descriptions like <em>&quot;beautiful flower-filled meadows abruptly changing into swamps&quot;, &quot;jungle cliffs with rivers and sharp cliff drops&quot;,</em> and <em>&quot;high, snowy mountains with sharp peaks, with forest-covered foothills below.&quot;</em></p> <p>It works by providing an interface for Opus to design/compose procedural algorithms that fit the prompt (I explain it more in the GitHub page). I would be super honored if anyone checks it out, leaves a GitHub star, or gives feedback!! <a href=\"https://github.com/soapantelope/mindcraft\">https://github.com/soapantelope/mindcraft</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No-Quail-2803\"> /u/No-Quail-2803 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1twg6bw\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1twg6bw/texttoinfiniteminecraftworld_mod_with_claude/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/gicf4y50u75h1.gif?frame=1&width=140&height=87&auto=webp&s=b970415fd3655324115337e05bb491b3b9215aa3",
     "isShortVideo": 0
   }
 ]

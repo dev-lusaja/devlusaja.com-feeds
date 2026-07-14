@@ -1,5 +1,21 @@
 [
   {
+    "id": "37be5073-6b8e-5fc6-a4cb-69192995b312",
+    "title": "Made and Published a Paper Comparing Analysis of CNN and Vision Transformer Architectures for Brain Tumor Detection [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of/",
+    "pubDate": "2026-05-16T15:47:14+00:00",
+    "description": "Hi everyone 😄 A while ago I worked on a project where I compared computer vision architectures on detecting and classifying brain tumors in brain MRI scans. I was looking for some feedback on the methodology and really anything else--just simple research stuff. This isn't meant to be some big paper but a small research project that I did as a high schooler. Here is the paper: zenodo.org/records/15973756 I appreciate any feedback! submitted by /u/Mental-Climate5798 [link] [comments]",
+    "author": "/u/Mental-Climate5798",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of/\"> <img alt=\"Made and Published a Paper Comparing Analysis of CNN and Vision Transformer Architectures for Brain Tumor Detection [R]\" src=\"https://preview.redd.it/fgq8e0swsi1h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1376d513ddfdeeb56ba9ad93366b037a322d2e87\" title=\"Made and Published a Paper Comparing Analysis of CNN and Vision Transformer Architectures for Brain Tumor Detection [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi everyone 😄</p> <p>A while ago I worked on a project where I compared computer vision architectures on detecting and classifying brain tumors in brain MRI scans. I was looking for some feedback on the methodology and really anything else--just simple research stuff. This isn't meant to be some big paper but a small research project that I did as a high schooler.</p> <p>Here is the paper: <a href=\"http://zenodo.org/records/15973756\">zenodo.org/records/15973756</a></p> <p>I appreciate any feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mental-Climate5798\"> /u/Mental-Climate5798 </a> <br /> <span><a href=\"https://i.redd.it/fgq8e0swsi1h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/fgq8e0swsi1h1.png?width=640&crop=smart&auto=webp&s=1376d513ddfdeeb56ba9ad93366b037a322d2e87",
+    "isShortVideo": 0
+  },
+  {
     "id": "1ab4833e-ab72-53e6-ac71-abc80c381895",
     "title": "Do you agree with Judea that learning from data is not everything? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tevot1/do_you_agree_with_judea_that_learning_from_data/",
@@ -268,22 +284,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>LangChain just wrapped Day 1 of Interrupt 2026 and announced a few things worth knowing about:</p> <p><strong>SmithDB</strong> — A purpose-built distributed database for agent observability. The problem they're solving: agent traces are getting too large and complex for general-purpose databases. SmithDB is built with Rust, Apache DataFusion, and Vortex, designed specifically for multimodal content and long-span tracing. They're reporting P50 latency of 92ms for loading trace trees and 400ms for full-text search, with up to 12x speedup over previous LangSmith performance. Architecture is object storage + small Postgres metadata store + stateless services, so it scales elastically and can be self-hosted.</p> <p><strong>Context Hub</strong> — A centralized system for managing agent context (AGENTS.md files, skills, policies, memory) in LangSmith. The interesting part is they're working with MongoDB, Pinecone, Elastic, and Redis on an open standard for agent memory — covering episodic, semantic, and procedural memory with versioning and portability across frameworks.</p> <p><strong>Deep Agents v0.6</strong> — New release includes ContextHub Backend integration, an installable code interpreter that gives agents a programmable workspace inside the agent loop (distinct from sandboxes — this is for composing tools and managing state within the reasoning process), and you can scope specific file paths to different backends.</p> <p>The conference also has production case studies from Toyota, Coinbase, Lyft, LinkedIn, Bridgewater Associates, and others on deploying agents at enterprise scale. Andrew Ng keynoted alongside Harrison Chase.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Equal_Winter3150\"> /u/Equal_Winter3150 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1td4v0a/n_langchain_interrupt_2026_announcements_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1td4v0a/n_langchain_interrupt_2026_announcements_n/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f658952a-0029-55b9-80e2-30eed923b2f8",
-    "title": "Would a 2000-2021 ML paper even get accepted today? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tcvk8s/would_a_20002021_ml_paper_even_get_accepted_today/",
-    "pubDate": "2026-05-14T11:39:51+00:00",
-    "description": "I keep hearing some version of this: “A paper that got accepted years ago wouldn’t stand a chance today.” Honestly, for a lot of ML subfields, this doesn’t sound crazy anymore. A paper that once looked solid can now look under-evaluated, under-ablated, weak on baselines, or just too obvious. So maybe the real claim is: A mediocre accepted ML paper from years ago would probably get rejected today. Do people agree? Has the bar actually gone up, or has the field just become more crowded and more competitive? submitted by /u/Hope999991 [link] [comments]",
-    "author": "/u/Hope999991",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I keep hearing some version of this:<br /> “A paper that got accepted years ago wouldn’t stand a chance today.”<br /> Honestly, for a lot of ML subfields, this doesn’t sound crazy anymore.<br /> A paper that once looked solid can now look under-evaluated, under-ablated, weak on baselines, or just too obvious.</p> <p>So maybe the real claim is:<br /> A mediocre accepted ML paper from years ago would probably get rejected today.</p> <p>Do people agree? Has the bar actually gone up, or has the field just become more crowded and more competitive?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tcvk8s/would_a_20002021_ml_paper_even_get_accepted_today/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tcvk8s/would_a_20002021_ml_paper_even_get_accepted_today/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
