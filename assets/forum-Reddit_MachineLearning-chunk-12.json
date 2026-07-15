@@ -1,5 +1,21 @@
 [
   {
+    "id": "11c72f2c-b937-505a-bea5-dd0824e48d20",
+    "title": "Workshop on Unlearning and Model Editing U&ME at ECCV 2026 [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tt9t5v/workshop_on_unlearning_and_model_editing_ume_at/",
+    "pubDate": "2026-05-31T22:40:38+00:00",
+    "description": "submitted by /u/Mushroom-Severe [link] [comments]",
+    "author": "/u/Mushroom-Severe",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tt9t5v/workshop_on_unlearning_and_model_editing_ume_at/\"> <img alt=\"Workshop on Unlearning and Model Editing U&amp;ME at ECCV 2026 [R]\" src=\"https://preview.redd.it/s4idti1gwj4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f873c33ca7567e3d85f4f2463fb41b87f3c647c9\" title=\"Workshop on Unlearning and Model Editing U&amp;ME at ECCV 2026 [R]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mushroom-Severe\"> /u/Mushroom-Severe </a> <br /> <span><a href=\"https://i.redd.it/s4idti1gwj4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tt9t5v/workshop_on_unlearning_and_model_editing_ume_at/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/s4idti1gwj4h1.png?width=640&crop=smart&auto=webp&s=f873c33ca7567e3d85f4f2463fb41b87f3c647c9",
+    "isShortVideo": 0
+  },
+  {
     "id": "55ae2e7c-4df6-5b25-bd0f-62d4e3f21096",
     "title": "Arabic ASR model struggling to converge during training [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tt7jt2/arabic_asr_model_struggling_to_converge_during/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq53il/kept_contextswitching_between_arxiv_openreview/\"> <img alt=\"Kept context-switching between arxiv, OpenReview, GitHub, and HuggingFace for every paper, so I built this. Chrome extension + website with everything inline, plus citation graph + SPECTER2 neighbors. 3M papers, free, feedback welcome [P]\" src=\"https://preview.redd.it/4apvcyd00w3h1.png?width=140&amp;height=71&amp;auto=webp&amp;s=8123adc49485c56f1d2077e98aec74f2e306b23f\" title=\"Kept context-switching between arxiv, OpenReview, GitHub, and HuggingFace for every paper, so I built this. Chrome extension + website with everything inline, plus citation graph + SPECTER2 neighbors. 3M papers, free, feedback welcome [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Spent the last few months building a deeper context layer over arxiv. Each paper gets a Tomesphere page with a TLDR + key findings (LLM-curated), OpenReview reviews where the venue is public, linked GitHub repos, HuggingFace models, conference videos, the citation graph in both directions, and a SPECTER2-based semantic neighbor graph. Same panel renders inline on arxiv via a Chrome extension (MV3 side panel API), or you can browse directly at tomesphere.com. 3M arxiv papers indexed.</p> <p>Caveats: reviewer scores only cover venues that publish openly on OpenReview (NeurIPS, ICLR, ICML, TMLR, COLM). Blind-review venues like CVPR, AAAI, ECCV are out of scope until contributors fill them in. GitHub, Hugging Face, and conference video matches are best-effort.</p> <p>Free, no signup.</p> <p>Site: <a href=\"http://tomesphere.com/\">tomesphere.com</a></p> <p>Chrome: <a href=\"https://chromewebstore.google.com/detail/tomesphere/nopoigoclhjcopjppnehidnkljmabllk\">chromewebstore.google.com/detail/tomesphere/nopoigoclhjcopjppnehidnkljmabllk</a></p> <p>Would love feedback, especially: which paper did you check first, and what's missing that you'd actually use?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RegretAgreeable4859\"> /u/RegretAgreeable4859 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tq53il\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq53il/kept_contextswitching_between_arxiv_openreview/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/4apvcyd00w3h1.png?width=140&height=71&auto=webp&s=8123adc49485c56f1d2077e98aec74f2e306b23f",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b4c2f948-59ab-59e9-ab4e-13b8ea20d974",
-    "title": "A new dataset with more that 100M hi-quality, curated images, with captions and meta data! [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/",
-    "pubDate": "2026-05-28T12:59:21+00:00",
-    "description": "Hello everyone. The new dataset is named MONET, is Apache 2.0 and available on HF: https://huggingface.co/datasets/jasperai/monet MONET is open, Apache 2.0-licensed image–text dataset. It was built from 2.9 billion images and refined to 104.9 million high-quality samples. We are also publishing a paper that explains how the dataset was created if you are curious and 3 compagnions projects A umap to visualize the distribution A retreival tool to do text or image search A codebase to train T2i model based on MONET Hope this will be usefull! submitted by /u/dh7net [link] [comments]",
-    "author": "/u/dh7net",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone.</p> <p>The new dataset is named MONET, is Apache 2.0 and available on HF:</p> <p><a href=\"https://huggingface.co/datasets/jasperai/monet\">https://huggingface.co/datasets/jasperai/monet</a></p> <p><strong>MONET is open, Apache 2.0-licensed image–text dataset. It was built from 2.9 billion images and refined to 104.9 million high-quality samples.</strong></p> <p>We are also publishing <a href=\"https://arxiv.org/abs/2605.21272\">a paper</a> that explains how the dataset was created if you are curious and 3 compagnions projects</p> <ul> <li><a href=\"https://huggingface.co/spaces/jasperai/monet-umap\">A umap to visualize the distribution</a></li> <li><a href=\"https://huggingface.co/spaces/jasperai/monet-retrieval\">A retreival tool to do text or image search</a></li> <li><a href=\"https://github.com/gojasper/nano-t2i/tree/main\">A codebase to train T2i model based on MONET</a></li> </ul> <p>Hope this will be usefull! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dh7net\"> /u/dh7net </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

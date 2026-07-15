@@ -1,5 +1,21 @@
 [
   {
+    "id": "3b5509dd-c096-598c-8013-1a00e4dcd06f",
+    "title": "Announcing Claude Fable 5 Build Day - June 13 in San Francisco",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1hfl1/announcing_claude_fable_5_build_day_june_13_in/",
+    "pubDate": "2026-06-09T20:50:43+00:00",
+    "description": "Claude Fable 5 is here, and the best way to see what it can do is to build with it. If you’re in San Francisco, join us on June 13 for Fable 5 Build Day. Bring a problem you care about, build a working solution, and ship it with Claude Code. $150K in credits will be awarded. Spots are limited. Apply now: https://cerebralvalley.ai/e/claude-startups-build-day submitted by /u/ClaudeOfficial [link] [comments]",
+    "author": "/u/ClaudeOfficial",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1hfl1/announcing_claude_fable_5_build_day_june_13_in/\"> <img alt=\"Announcing Claude Fable 5 Build Day - June 13 in San Francisco\" src=\"https://external-preview.redd.it/Y2V1MGRiOWxrYjZoMcOSHv3UPCiSeKfqHe16Wzk_hK6Sbnbl1E9LYayzfr6j.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8c3d757c26d5e1e3aa4df4cdb7e7434509e559a2\" title=\"Announcing Claude Fable 5 Build Day - June 13 in San Francisco\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Claude Fable 5 is here, and the best way to see what it can do is to build with it.</p> <p>If you’re in San Francisco, join us on June 13 for Fable 5 Build Day. Bring a problem you care about, build a working solution, and ship it with Claude Code. $150K in credits will be awarded.</p> <p>Spots are limited. Apply now: <a href=\"https://cerebralvalley.ai/e/claude-startups-build-day\">https://cerebralvalley.ai/e/claude-startups-build-day</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://v.redd.it/nq5q8y4lkb6h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1hfl1/announcing_claude_fable_5_build_day_june_13_in/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/Y2V1MGRiOWxrYjZoMcOSHv3UPCiSeKfqHe16Wzk_hK6Sbnbl1E9LYayzfr6j.png?width=640&crop=smart&auto=webp&s=8c3d757c26d5e1e3aa4df4cdb7e7434509e559a2",
+    "isShortVideo": 0
+  },
+  {
     "id": "5a307d9c-cbff-5b8a-acc7-9d91a73fea9b",
     "title": "oh ffs",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1h8q9/oh_ffs/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Early access was linked here a few days ago, but final release seems to be now. 30B A3B coding model.</p> <p>Weights: <a href=\"https://huggingface.co/CohereLabs/North-Mini-Code-1.0\">https://huggingface.co/CohereLabs/North-Mini-Code-1.0</a></p> <p>Blog: <a href=\"https://huggingface.co/blog/CohereLabs/introducing-north-mini-code\">https://huggingface.co/blog/CohereLabs/introducing-north-mini-code</a></p> <p>Artificial analysis score of 28 is pretty weak against Qwen 3.6 35B (43), but it's more competitive in coding index (33 vs 35) and well above Gemma 4 26B (22) there: <a href=\"https://artificialanalysis.ai/models/north-mini-code\">https://artificialanalysis.ai/models/north-mini-code</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Middle_Bullfrog_6173\"> /u/Middle_Bullfrog_6173 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2237975a-a14c-50ef-bec5-5c6e1cd19968",
-    "title": "Unsloth Gemma 4 QAT MTP assistant models now available",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/",
-    "pubDate": "2026-06-09T16:12:02+00:00",
-    "description": "Unsloth Gemma 4 QAT MTP assistant models now available They're both available as q8_0 models named mtp-gemma-4-*.gguf on the root of the directory and in both q8 and larger quants within an MTP folder. https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF/tree/main https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF/tree/main https://huggingface.co/unsloth/gemma-4-E2B-it-qat-mobile-GGUF/tree/main https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF/tree/main https://huggingface.co/unsloth/gemma-4-E4B-it-qat-mobile-GGUF/tree/main submitted by /u/ParadigmComplex [link] [comments]",
-    "author": "/u/ParadigmComplex",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Unsloth Gemma 4 QAT MTP assistant models now available</p> <p>They're both available as q8_0 models named <code>mtp-gemma-4-*.gguf</code> on the root of the directory and in both q8 and larger quants within an <code>MTP</code> folder.</p> <ul> <li><a href=\"https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main</a></li> <li><a href=\"https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF/tree/main</a></li> <li><a href=\"https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main</a></li> <li><a href=\"https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF/tree/main</a></li> <li><a href=\"https://huggingface.co/unsloth/gemma-4-E2B-it-qat-mobile-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-E2B-it-qat-mobile-GGUF/tree/main</a></li> <li><a href=\"https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF/tree/main</a></li> <li><a href=\"https://huggingface.co/unsloth/gemma-4-E4B-it-qat-mobile-GGUF/tree/main\">https://huggingface.co/unsloth/gemma-4-E4B-it-qat-mobile-GGUF/tree/main</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ParadigmComplex\"> /u/ParadigmComplex </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

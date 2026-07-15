@@ -1,5 +1,21 @@
 [
   {
+    "id": "8b1c4215-5e2f-5442-8e4a-ac29401917bf",
+    "title": "I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pure PyTorch [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/",
+    "pubDate": "2026-05-23T05:30:26+00:00",
+    "description": "On windows mamba-ssm is not easily available and doesn't compile on sm_120. SM1 (Scalar Mamba1) replaces the entire selective scan with two native PyTorch ops: L = torch.cumprod(dA, dim=1) h = L * (h0.unsqueeze(1) + torch.cumsum(dBx / L.clamp(min=1e-6), dim=1)) y = h * C This is the exact closed-form solution to the d_state=1 recurrence via variation of parameters. Not an approximation, it is identical to sequential computation of floating point precision. d_state=2 breaks it. d_state=1 is the boundary where the closed form exists. The Mamba1 scan intermediates are (B, T, F, S). SM1 eliminates S entirely, there is 16x less scan memory than a Mamba1 with d_state=16. The inference state for a 130M param model is about 14,080 floats, 56 KB, no KV cache, O(1) per token forever. I am currently training it on 163K MIDI files, which is 2.5B tokens roughly in my custom format. 130M params fits in under half of my 16 GB card which is an RTX 5060 Ti. d_state scales expressivity only when the representation does not already encode structure. Thus if you encode structure in tokens, you do not need d_state to be more than a scalar. submitted by /u/TechnoVoyager [link] [comments]",
+    "author": "/u/TechnoVoyager",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>On windows mamba-ssm is not easily available and doesn't compile on sm_120. SM1 (Scalar Mamba1) replaces the entire selective scan with two native PyTorch ops:</p> <p><code>L = torch.cumprod(dA, dim=1)</code></p> <p><code>h = L * (h0.unsqueeze(1) + torch.cumsum(dBx / L.clamp(min=1e-6), dim=1))</code></p> <p><code>y = h * C</code></p> <p>This is the exact closed-form solution to the d_state=1 recurrence via variation of parameters. Not an approximation, it is identical to sequential computation of floating point precision. d_state=2 breaks it. d_state=1 is the boundary where the closed form exists.</p> <p>The Mamba1 scan intermediates are (B, T, F, S). SM1 eliminates S entirely, there is 16x less scan memory than a Mamba1 with d_state=16. The inference state for a 130M param model is about 14,080 floats, 56 KB, no KV cache, O(1) per token forever.</p> <p>I am currently training it on 163K MIDI files, which is 2.5B tokens roughly in my custom format. 130M params fits in under half of my 16 GB card which is an RTX 5060 Ti. d_state scales expressivity only when the representation does not already encode structure. Thus if you encode structure in tokens, you do not need d_state to be more than a scalar.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TechnoVoyager\"> /u/TechnoVoyager </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4a4dda36-720f-5241-8cda-06d37ab90d09",
     "title": "Tested chunking + embeddings data from 3 production websites. [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tl78vl/tested_chunking_embeddings_data_from_3_production/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>LLM-based multi-agent systems have demonstrated strong performance across complex real-world tasks, such as software engineering, predictive modeling, and retrieval-augmented generation. Yet, automating their configuration remains a structural challenge. Researchers are often forced into manual, trial-and-error prompt tuning, where a change to a single agent shifts the global output in ways that are difficult to trace.</p> <p>The core bottleneck is <strong>credit assignment</strong>: while the parameters governing agent behavior are local, performance scores are only available at the global system level. This makes optimization fundamentally difficult because we do not inherently know which agents contributed positively or negatively to the outcome.</p> <p>CANTANTE is an attempt to take a different path: treating agent prompts as parameters learned from task rewards rather than tuned by hand. By solving the credit assignment problem, we can move from brittle, hand-crafted agent demos to trustworthy systems that are actually autonomous and useful in practice.</p> <p>CANTANTE's algorithm in short (see second image):</p> <ol> <li>Let local optimizers suggest configurations (e.g., prompts).</li> <li>Evaluate different configurations on the same queries, capturing reasoning traces and system scores.</li> <li>Let an attributer compare these rollouts and assign each agent a credit, thereby decomposing the global reward into per-agent update signals.</li> <li>Feed those credits to any local optimizer; for the experiments, we use CAPO, our prompt optimizer from prior work at AutoML 2025.</li> </ol> <p>Evaluated against the DSPy-solutions GEPA and MIPROv2 on MBPP (Programming Benchmark), GSM8K (Mathematical Reasoning Benchmark), and HotpotQA (Retrieval Benchmark), CANTANTE:</p> <p>• Achieves the best average rank,</p> <p>• beats the strongest baseline by +18.9 points on MBPP and +12.5 on GSM8K, and</p> <p>• maintains inference time cost compared to unoptimized prompts.</p> <p>🔗 Link to the paper: <a href=\"https://arxiv.org/abs/2605.13295\">https://arxiv.org/abs/2605.13295</a></p> <p>💻 Link to the repo: <a href=\"https://github.com/finitearth/cantante\">https://github.com/finitearth/cantante</a></p> <p>If you're researching multi-agent architectures or automated prompt engineering, I'd love to hear what's working (and breaking) for you right now.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/finitearth\"> /u/finitearth </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tij4st/cantante_optimizing_agentic_systems_via/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tij4st/cantante_optimizing_agentic_systems_via/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "08740430-e587-5bac-b1c4-21e31fc984ff",
-    "title": "Machine Learning on Spherical Manifold [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/",
-    "pubDate": "2026-05-20T08:13:57+00:00",
-    "description": "Hi, I'm interested in geometric deep learning (due to Michael M. Bronstein's book and Maurice Weiler's PhD thesis), and in order not to write projects to nowhere, I decided to keep a technical blog. I started with a short note about machine learning on spherical manifolds, but it's a pretty simple thing. Is there a list of some open problems on the topic of GDL, or maybe some of you are doing something in this direction and can suggest which GDL problems are relevant in the research community. submitted by /u/eesuck0 [link] [comments]",
-    "author": "/u/eesuck0",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm interested in geometric deep learning (due to Michael M. Bronstein's book and Maurice Weiler's PhD thesis), and in order not to write projects to nowhere, I decided to keep a technical blog. I started with a short note about machine learning on spherical manifolds, but it's a pretty simple thing. </p> <p>Is there a list of some open problems on the topic of GDL, or maybe some of you are doing something in this direction and can suggest which GDL problems are relevant in the research community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eesuck0\"> /u/eesuck0 </a> <br /> <span><a href=\"https://eesuck1.github.io/machine-learning-on-spherical-manifold/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

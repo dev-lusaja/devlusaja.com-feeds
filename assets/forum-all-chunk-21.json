@@ -1,5 +1,21 @@
 [
   {
+    "id": "64752f98-481b-545d-ab31-6a4f64ab8ad3",
+    "title": "Gemma 4 31B QAT GGUF loads with MTP branch, but outputs repeated <unused49> - any working recipe?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/",
+    "pubDate": "2026-06-07T09:02:07+00:00",
+    "description": "I’m trying to run: unsloth/gemma-4-31B-it-qat-GGUF gemma-4-31B-it-qat-UD-Q4_K_XL.gguf on an RTX 5090 32GB using llama.cpp Gemma 4 MTP PR branch. Main model loads. Without the MTP assistant head, /v1/chat/completions returns repeated <unused49>. I also tried the public MTP assistant head: boxwrench/gemma-4-qat-mtp-assistant-heads gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf That file needed some local compatibility fixes because the loader expected: - gemma4-assistant but the GGUF uses gemma4_assistant - embedding_length_out but the GGUF has n_embd_backbone = 5376 - nextn_predict_layers but the GGUF has block_count = 4 - nextn.pre_projection / nextn.post_projection but the GGUF tensors are mtp.pre_projection / mtp.post_projection After patching those locally, the model and draft head load and draft-mtp initializes, but generation still returns repeated <unused49>. Timings show generation is active, but draft_n_accepted = 0. Example: content: \"<unused49><unused49><unused49>...\" draft_n: 242 draft_n_accepted: 0 Command shape: llama-server \\ --model gemma-4-31B-it-qat-UD-Q4_K_XL.gguf \\ --model-draft gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf \\ --spec-type draft-mtp \\ --spec-draft-n-max 4 \\ --ctx-size 4096 \\ -np 1 \\ --jinja \\ --reasoning off Also tried reasoning on, built-in gemma template override, and no draft model. Same <unused49> output. Has anyone successfully run the 31B QAT GGUF specifically, not only 12B QAT? If yes, which exact llama.cpp commit/fork/assistant-head file/command are you using? submitted by /u/WaveformEntropy [link] [comments]",
+    "author": "/u/WaveformEntropy",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m trying to run:</p> <p>unsloth/gemma-4-31B-it-qat-GGUF</p> <p>gemma-4-31B-it-qat-UD-Q4_K_XL.gguf</p> <p>on an RTX 5090 32GB using llama.cpp Gemma 4 MTP PR branch.</p> <p>Main model loads. Without the MTP assistant head, /v1/chat/completions returns repeated &lt;unused49&gt;.</p> <p>I also tried the public MTP assistant head:</p> <p>boxwrench/gemma-4-qat-mtp-assistant-heads</p> <p>gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf</p> <p>That file needed some local compatibility fixes because the loader expected:</p> <p>- gemma4-assistant but the GGUF uses gemma4_assistant</p> <p>- embedding_length_out but the GGUF has n_embd_backbone = 5376</p> <p>- nextn_predict_layers but the GGUF has block_count = 4</p> <p>- nextn.pre_projection / nextn.post_projection but the GGUF tensors are mtp.pre_projection / mtp.post_projection</p> <p>After patching those locally, the model and draft head load and draft-mtp initializes, but generation still returns repeated &lt;unused49&gt;. Timings show generation is active, but draft_n_accepted = 0.</p> <p>Example:</p> <p>content: &quot;&lt;unused49&gt;&lt;unused49&gt;&lt;unused49&gt;...&quot;</p> <p>draft_n: 242</p> <p>draft_n_accepted: 0</p> <p>Command shape:</p> <p>llama-server \\</p> <p>--model gemma-4-31B-it-qat-UD-Q4_K_XL.gguf \\</p> <p>--model-draft gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf \\</p> <p>--spec-type draft-mtp \\</p> <p>--spec-draft-n-max 4 \\</p> <p>--ctx-size 4096 \\</p> <p>-np 1 \\</p> <p>--jinja \\</p> <p>--reasoning off</p> <p>Also tried reasoning on, built-in gemma template override, and no draft model. Same &lt;unused49&gt; output.</p> <p>Has anyone successfully run the 31B QAT GGUF specifically, not only 12B QAT? If yes, which exact llama.cpp commit/fork/assistant-head file/command are you using?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WaveformEntropy\"> /u/WaveformEntropy </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a9b935eb-4536-5e4a-ade9-10df39e460e4",
     "title": "Research collection of Arxiv whitepapers [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>had a temporary chat that I retroactively want to save, and I added it to a project. You can access the chat through the project on any device so it seems to work, just dont know if it might get deleted at some point</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/im_vary_dum\"> /u/im_vary_dum </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyrwnd/can_you_save_a_temporaryincognito_chat_by_adding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyrwnd/can_you_save_a_temporaryincognito_chat_by_adding/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d5945025-903a-5f39-a168-307dcacc0d20",
-    "title": "Best Coding Harness for Qwen3.6 35B?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/",
-    "pubDate": "2026-06-06T20:20:59+00:00",
-    "description": "I've been happily using GitHub Copilot for 7-8 months, primarily in Visual Studio and VS Code, mostly with the built-in flagship models and have felt like the output is worth the cost. Lately I've been playing with a lot of different local LLM models and decided to try using Qwen3.6 35B on some non trivial programming tasks within a repository that is 10ish years old with thousands of files and multiple languages in it. I've actually been really impressed when I use the \"ask\" functionality as it's been able to find and suggest correct fixes. When I've used the \"agent\" functionality I've found it often gets stuck in a loop and doesn't apply the changes or auto update the code. Seems a miss match between GitHub Copilot and this specific model. I get that it's a model not tested with Copilot and am wondering if there are code editors people are using and happy with that are specifically designed for smaller local LLMs. submitted by /u/Revolutionary_Loan13 [link] [comments]",
-    "author": "/u/Revolutionary_Loan13",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been happily using GitHub Copilot for 7-8 months, primarily in Visual Studio and VS Code, mostly with the built-in flagship models and have felt like the output is worth the cost. Lately I've been playing with a lot of different local LLM models and decided to try using Qwen3.6 35B on some non trivial programming tasks within a repository that is 10ish years old with thousands of files and multiple languages in it. I've actually been really impressed when I use the &quot;ask&quot; functionality as it's been able to find and suggest correct fixes. When I've used the &quot;agent&quot; functionality I've found it often gets stuck in a loop and doesn't apply the changes or auto update the code. Seems a miss match between GitHub Copilot and this specific model.</p> <p>I get that it's a model not tested with Copilot and am wondering if there are code editors people are using and happy with that are specifically designed for smaller local LLMs. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Revolutionary_Loan13\"> /u/Revolutionary_Loan13 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

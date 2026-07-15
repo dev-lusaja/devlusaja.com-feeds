@@ -1,5 +1,21 @@
 [
   {
+    "id": "4027dbdd-3bb5-518a-9f85-e4175cd1302a",
+    "title": "Accelerating BEV Pooling on NVIDIA GPUs for Physical AI Applications",
+    "link": "https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/",
+    "pubDate": "2026-06-24T16:30:00+00:00",
+    "description": "An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...",
+    "author": "John Yang",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" />An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" /><p>An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird’s-eye-view (BEV) perception. BEV models project multicamera image features into a shared top-down grid, providing downstream perception and planning modules with a common spatial layout for reasoning about lanes, vehicles, pedestrians, and free space. A key operation in this pipeline…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "85838e17-99d4-50ec-8819-fa91acb68ad0",
     "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
     "link": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/robotics-jetpack-7-2-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotics-jetpack-7-2\" width=\"768\" />As AI agents move from the digital world to the physical environment, they can readily use NVIDIA Jetson to accelerate real-world deployment with optimized...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/robotics-jetpack-7-2-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotics-jetpack-7-2\" width=\"768\" /><p>As AI agents move from the digital world to the physical environment, they can readily use NVIDIA Jetson to accelerate real-world deployment with optimized memory and performance. NVIDIA JetPack 7.2 directly supports one-command deployment of NVIDIA NemoClaw, an open source stack that adds privacy and security controls to OpenClaw. It introduces NVIDIA agent skills for Jetson—Jetson device…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a0f4e4af-6e2f-5004-b40f-a7b385d7a316",
-    "title": "Run Local AI Agents with Faster Models and Multi-Node Clustering on NVIDIA DGX Spark",
-    "link": "https://developer.nvidia.com/blog/run-local-ai-agents-with-faster-models-and-multi-node-clustering-on-nvidia-dgx-spark/",
-    "pubDate": "2026-06-01T22:00:00+00:00",
-    "description": "The rise of autonomous, long-running AI agents has introduced a new class of compute demand, namely tasks that maintain large context windows, spawn concurrent...",
-    "author": "Maitri Taneja",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />The rise of autonomous, long-running AI agents has introduced a new class of compute demand, namely tasks that maintain large context windows, spawn concurrent...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>The rise of autonomous, long-running AI agents has introduced a new class of compute demand, namely tasks that maintain large context windows, spawn concurrent subagents, and iterate continuously without cloud dependency. Security and privacy concerns are also accelerating the shift toward local agents. Developers, by running autonomous agents on hardware they own with NVIDIA NemoClaw…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-local-ai-agents-with-faster-models-and-multi-node-clustering-on-nvidia-dgx-spark/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "c05ea51e-23a4-595f-b0fa-40f96e0f998b",
+    "title": "Can claude web access & list files in my google drive?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzjm8g/can_claude_web_access_list_files_in_my_google/",
+    "pubDate": "2026-06-07T18:17:23+00:00",
+    "description": "I know this is a stupid question, but at least I couldn't find a way to do that. https://support.claude.com/en/articles/10166901-use-google-workspace-connectors If this is really impossible, then what are the current workarounds? I cannot copy-paste all urls of all the files... submitted by /u/Abiriadev [link] [comments]",
+    "author": "/u/Abiriadev",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I know this is a stupid question, but at least I couldn't find a way to do that. <a href=\"https://support.claude.com/en/articles/10166901-use-google-workspace-connectors\">https://support.claude.com/en/articles/10166901-use-google-workspace-connectors</a></p> <p>If this is really impossible, then what are the current workarounds? I cannot copy-paste all urls of all the files...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Abiriadev\"> /u/Abiriadev </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzjm8g/can_claude_web_access_list_files_in_my_google/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzjm8g/can_claude_web_access_list_files_in_my_google/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9538539f-dc79-54ec-88b1-fb5fc7e2823e",
     "title": "Claude Got Jealous",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzjc5h/claude_got_jealous/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Been experimenting with AI for a few months for mundane tasks for me ( augmented search engine and comparisons betweens items mostly basic stuff ) and 2 weeks ago I decided to try something &quot;serious&quot; with Claude Cowork . </p> <p>First I asked Claude about Factorio and of course it knew about It. After asking Claude about it's take on a playable demo it gave me the starting point about what would become IronVault.And we went along from here. </p> <p>The project: build a full factory automation game from scratch, with me as designer/director and Claude handling all the code.</p> <p>The result is IRONVAULT — an ASCII factory game inspired by Factorio and Dwarf Fortress.</p> <p>**What Claude helped build:**</p> <p>- A full game loop: miners → belts → furnaces → assemblers → science packs</p> <p>- Procedural map generation with shareable seeds</p> <p>- A roguelite decree system (random goals + constraints each run)</p> <p>- Water/steam/electricity chain: pump → boiler → steam engine → power cells on belts</p> <p>- Save/load, zoom/pan, speed controls, CRT aesthetic, ambient music</p> <p>**What I contributed:**</p> <p>- Game design and all creative decisions</p> <p>- Playtesting every feature</p> <p>- Directing Claude through each session (what to build, how it should feel, what's broken)</p> <p>**The workflow that surprised me:**</p> <p>The file is now ~138KB of vanilla HTML/JS — one file, zero dependencies. When it got too big for normal editing, we switched to Python str.replace() patches verified with node --check. Editing a game through conversation is genuinely different from writing code yourself.</p> <p>Free to try in browser: <a href=\"https://kazuyette.itch.io/ironvault\">https://kazuyette.itch.io/ironvault</a></p> <p>Happy to answer questions about the Cowork workflow or the architecture.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kazuyette\"> /u/kazuyette </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz7qut/i_built_a_factorioinspired_ascii_factory_game/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz7qut/i_built_a_factorioinspired_ascii_factory_game/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "64752f98-481b-545d-ab31-6a4f64ab8ad3",
-    "title": "Gemma 4 31B QAT GGUF loads with MTP branch, but outputs repeated <unused49> - any working recipe?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/",
-    "pubDate": "2026-06-07T09:02:07+00:00",
-    "description": "I’m trying to run: unsloth/gemma-4-31B-it-qat-GGUF gemma-4-31B-it-qat-UD-Q4_K_XL.gguf on an RTX 5090 32GB using llama.cpp Gemma 4 MTP PR branch. Main model loads. Without the MTP assistant head, /v1/chat/completions returns repeated <unused49>. I also tried the public MTP assistant head: boxwrench/gemma-4-qat-mtp-assistant-heads gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf That file needed some local compatibility fixes because the loader expected: - gemma4-assistant but the GGUF uses gemma4_assistant - embedding_length_out but the GGUF has n_embd_backbone = 5376 - nextn_predict_layers but the GGUF has block_count = 4 - nextn.pre_projection / nextn.post_projection but the GGUF tensors are mtp.pre_projection / mtp.post_projection After patching those locally, the model and draft head load and draft-mtp initializes, but generation still returns repeated <unused49>. Timings show generation is active, but draft_n_accepted = 0. Example: content: \"<unused49><unused49><unused49>...\" draft_n: 242 draft_n_accepted: 0 Command shape: llama-server \\ --model gemma-4-31B-it-qat-UD-Q4_K_XL.gguf \\ --model-draft gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf \\ --spec-type draft-mtp \\ --spec-draft-n-max 4 \\ --ctx-size 4096 \\ -np 1 \\ --jinja \\ --reasoning off Also tried reasoning on, built-in gemma template override, and no draft model. Same <unused49> output. Has anyone successfully run the 31B QAT GGUF specifically, not only 12B QAT? If yes, which exact llama.cpp commit/fork/assistant-head file/command are you using? submitted by /u/WaveformEntropy [link] [comments]",
-    "author": "/u/WaveformEntropy",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m trying to run:</p> <p>unsloth/gemma-4-31B-it-qat-GGUF</p> <p>gemma-4-31B-it-qat-UD-Q4_K_XL.gguf</p> <p>on an RTX 5090 32GB using llama.cpp Gemma 4 MTP PR branch.</p> <p>Main model loads. Without the MTP assistant head, /v1/chat/completions returns repeated &lt;unused49&gt;.</p> <p>I also tried the public MTP assistant head:</p> <p>boxwrench/gemma-4-qat-mtp-assistant-heads</p> <p>gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf</p> <p>That file needed some local compatibility fixes because the loader expected:</p> <p>- gemma4-assistant but the GGUF uses gemma4_assistant</p> <p>- embedding_length_out but the GGUF has n_embd_backbone = 5376</p> <p>- nextn_predict_layers but the GGUF has block_count = 4</p> <p>- nextn.pre_projection / nextn.post_projection but the GGUF tensors are mtp.pre_projection / mtp.post_projection</p> <p>After patching those locally, the model and draft head load and draft-mtp initializes, but generation still returns repeated &lt;unused49&gt;. Timings show generation is active, but draft_n_accepted = 0.</p> <p>Example:</p> <p>content: &quot;&lt;unused49&gt;&lt;unused49&gt;&lt;unused49&gt;...&quot;</p> <p>draft_n: 242</p> <p>draft_n_accepted: 0</p> <p>Command shape:</p> <p>llama-server \\</p> <p>--model gemma-4-31B-it-qat-UD-Q4_K_XL.gguf \\</p> <p>--model-draft gemma-4-31B-it-qat-assistant-MTP-Q8_0.gguf \\</p> <p>--spec-type draft-mtp \\</p> <p>--spec-draft-n-max 4 \\</p> <p>--ctx-size 4096 \\</p> <p>-np 1 \\</p> <p>--jinja \\</p> <p>--reasoning off</p> <p>Also tried reasoning on, built-in gemma template override, and no draft model. Same &lt;unused49&gt; output.</p> <p>Has anyone successfully run the 31B QAT GGUF specifically, not only 12B QAT? If yes, which exact llama.cpp commit/fork/assistant-head file/command are you using?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WaveformEntropy\"> /u/WaveformEntropy </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz71hz/gemma_4_31b_qat_gguf_loads_with_mtp_branch_but/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

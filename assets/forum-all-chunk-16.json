@@ -1,5 +1,21 @@
 [
   {
+    "id": "c544635c-d06e-5fe9-97c9-60d142202710",
+    "title": "How to make a new chat without losing context of the last Claude's reply?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u0z37d/how_to_make_a_new_chat_without_losing_context_of/",
+    "pubDate": "2026-06-09T08:27:51+00:00",
+    "description": "Hi! Last couple of days I used Claude Pro chat to develop me a web app with a backend/Docker, and it would just generate me a tar.gz file each time. Finally I hit the error saying that I reached the size limit of this chat. Now I would like to continue with this development, and one solution I found is to go back couple of answers and edit it to ask to summarize all the context so far. However, in my case it's important that I preserve the latest changed Claude made, so going even 1 answer back would lose those changes. Is there a way around this? Or perhaps I can just re-upload the whole tar.gz back to Claude within the new chat and ask to continue development on those files? I suppose cloud at least needs to have access to exact source code it was developing me so far. submitted by /u/estrangedpulse [link] [comments]",
+    "author": "/u/estrangedpulse",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! Last couple of days I used Claude Pro chat to develop me a web app with a backend/Docker, and it would just generate me a tar.gz file each time. Finally I hit the error saying that I reached the size limit of this chat.</p> <p>Now I would like to continue with this development, and one solution I found is to go back couple of answers and edit it to ask to summarize all the context so far. However, in my case it's important that I preserve the latest changed Claude made, so going even 1 answer back would lose those changes. Is there a way around this?</p> <p>Or perhaps I can just re-upload the whole tar.gz back to Claude within the new chat and ask to continue development on those files? I suppose cloud at least needs to have access to exact source code it was developing me so far.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/estrangedpulse\"> /u/estrangedpulse </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0z37d/how_to_make_a_new_chat_without_losing_context_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0z37d/how_to_make_a_new_chat_without_losing_context_of/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "708a5273-6ce2-50fe-8bae-69bd3b2364bb",
     "title": "Gemma 4 31B's competence surprised me",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0yzts/gemma_4_31bs_competence_surprised_me/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0kfmy/mtp_support_for_gemma4_e2b_and_e4b_assistants_by/\"> <img alt=\"mtp: support for gemma-4 E2B and E4B assistants by max-krasnyansky · Pull Request #24282 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/99f_R1uEp8pSBbpsIoFNVtDs1-u3j_b5KFKkag2kwto.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=7eb3616dbaac515b8cad506822caab299e93711e\" title=\"mtp: support for gemma-4 E2B and E4B assistants by max-krasnyansky · Pull Request #24282 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>MTP for tiny gemmas for mobiles or potatoes or raspberry Pi, or maybe for ants</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/24282\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0kfmy/mtp_support_for_gemma4_e2b_and_e4b_assistants_by/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/99f_R1uEp8pSBbpsIoFNVtDs1-u3j_b5KFKkag2kwto.png?width=640&crop=smart&auto=webp&s=7eb3616dbaac515b8cad506822caab299e93711e",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d3a0e4c5-99ee-51cb-83d0-cb270419bf7a",
-    "title": "Running agents in parallel is what finally made claude code fast for me",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u0k03y/running_agents_in_parallel_is_what_finally_made/",
-    "pubDate": "2026-06-08T20:35:49+00:00",
-    "description": "i added a rule to my global claude.md telling it to look at each task first and if its able to split the task into independent chunks, break it across parallel agents instead of doing everything sequentially. that one instruction made the biggest difference in speed for me - stuff that used to take a whole session now runs in a fraction of the time. took me way too much time to find a good claude code setup with instructions like this and i wish i havent spent that much time on trying to assemble it all myself, if i could do it again i would probably use something like ClockedCode or copy somone from YouTube and tweak it so it works for me submitted by /u/Past-Organization689 [link] [comments]",
-    "author": "/u/Past-Organization689",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>i added a rule to my global <a href=\"http://claude.md/\">claude.md</a> telling it to look at each task first and if its able to split the task into independent chunks, break it across parallel agents instead of doing everything sequentially. that one instruction made the biggest difference in speed for me - stuff that used to take a whole session now runs in a fraction of the time.</p> <p>took me way too much time to find a good claude code setup with instructions like this and i wish i havent spent that much time on trying to assemble it all myself, if i could do it again i would probably use something like <a href=\"https://www.clockedcode.com/\">ClockedCode</a> or copy somone from <a href=\"https://www.youtube.com/\">YouTube</a> and tweak it so it works for me</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Past-Organization689\"> /u/Past-Organization689 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0k03y/running_agents_in_parallel_is_what_finally_made/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0k03y/running_agents_in_parallel_is_what_finally_made/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

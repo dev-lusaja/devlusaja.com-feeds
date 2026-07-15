@@ -1,5 +1,21 @@
 [
   {
+    "id": "08740430-e587-5bac-b1c4-21e31fc984ff",
+    "title": "Machine Learning on Spherical Manifold [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/",
+    "pubDate": "2026-05-20T08:13:57+00:00",
+    "description": "Hi, I'm interested in geometric deep learning (due to Michael M. Bronstein's book and Maurice Weiler's PhD thesis), and in order not to write projects to nowhere, I decided to keep a technical blog. I started with a short note about machine learning on spherical manifolds, but it's a pretty simple thing. Is there a list of some open problems on the topic of GDL, or maybe some of you are doing something in this direction and can suggest which GDL problems are relevant in the research community. submitted by /u/eesuck0 [link] [comments]",
+    "author": "/u/eesuck0",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm interested in geometric deep learning (due to Michael M. Bronstein's book and Maurice Weiler's PhD thesis), and in order not to write projects to nowhere, I decided to keep a technical blog. I started with a short note about machine learning on spherical manifolds, but it's a pretty simple thing. </p> <p>Is there a list of some open problems on the topic of GDL, or maybe some of you are doing something in this direction and can suggest which GDL problems are relevant in the research community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eesuck0\"> /u/eesuck0 </a> <br /> <span><a href=\"https://eesuck1.github.io/machine-learning-on-spherical-manifold/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e3072f0c-26b2-5d0a-a3a8-41dd739430cc",
     "title": "Instructions for (ICML) workshop reviews [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ticoy5/instructions_for_icml_workshop_reviews_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Residual Coupling (RC) connects frozen language models in parallel using small, learned linear bridge projections. These bridges read hidden states from one model and inject additive updates into the residual stream of another at intermediate layers. In bilateral setups, simultaneous return bridges form a feedback loop that stabilizes both streams without altering base weights.</p> <p>This architecture establishes a two-step paradigm where base models function as memorizers, while lightweight linear bridges handle cross-domain generalization. Constraining the bridges to purely linear maps prevents overfitting because they can only map existing geometric relationships between the frozen representation spaces. As the bridges are optimized against ground-truth target data, they have no incentive to map ungrounded features such as individual models' hallucinations.</p> <p>Keeping the base weights completely frozen eliminates catastrophic forgetting. The system maintains operational closure, transforming inputs through its existing structure rather than changing to accommodate them.</p> <p>Evaluating bilateral RC against Mixture-of-Experts (MoE) routing across the same frozen models shows these results:</p> <ul> <li>Medical (3-model): Reduces perplexity to 11.02, compared to 56.80 for MoE and 57.08 for the frozen baseline. This represents an 80.7% reduction.</li> <li>TruthfulQA Health (MC1): Improves accuracy by 9.1 percentage points over the baseline. Independent models have uncorrelated hallucinations, allowing the bridge gates to amplify consistent cross-model updates while suppressing individual errors.</li> <li>Coding Test: CodeGPT-small-py and GPT-2 use different tokenizers, causing a 7-million baseline perplexity on mismatched text. MoE reaches 878, but RC achieves 5.91 by reading hidden states before the output projection collapses.</li> </ul> <p>This framework introduces a horizontal scaling axis for multi-model systems, moving beyond vertical scaling via larger monolithic models. Latency remains bounded by the slowest single model. Specialists can be added or removed without retraining the remaining system. In some scenarios, this architecture could replace multi-turn text prompting in agentic workflows with a single parallel forward pass, allowing models and/or bridges to run on separate nodes or edge devices without a central bottleneck. By decoupling memorization from relational alignment, RC bridges provide a framework for scaling multi-model systems and offer a path toward native multi-modal integration.</p> <p>Paper: <a href=\"https://ssrn.com/abstract=6746521\">https://ssrn.com/abstract=6746521</a></p> <p>Code: <a href=\"https://github.com/pfekin/residual-coupling/\">https://github.com/pfekin/residual-coupling/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kertara\"> /u/kertara </a> <br /> <span><a href=\"https://i.redd.it/ni2w22298a1h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgm530/scaling_llms_horizontally_hiddenstate_coupling/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3dd88594-5cac-5b03-a5ae-0f0a096058f2",
-    "title": "ICML financial aid [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tghj6m/icml_financial_aid_d/",
-    "pubDate": "2026-05-18T09:37:35+00:00",
-    "description": "I am an undergraduate student from India who recently got accepted to TAIGR, an ICML workshop for a Poster. I will be requiring financial aid for registration fees and accommodation, since I will be travelling to Seoul and it is independent research so we don't have any backing by any labs/institutions. Can anyone who's applied and gotten aid in the past help and give any tips to be successful in receiving funding? submitted by /u/Business_Exit3408 [link] [comments]",
-    "author": "/u/Business_Exit3408",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am an undergraduate student from India who recently got accepted to TAIGR, an ICML workshop for a Poster. I will be requiring financial aid for registration fees and accommodation, since I will be travelling to Seoul and it is independent research so we don't have any backing by any labs/institutions. Can anyone who's applied and gotten aid in the past help and give any tips to be successful in receiving funding?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Business_Exit3408\"> /u/Business_Exit3408 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tghj6m/icml_financial_aid_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tghj6m/icml_financial_aid_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

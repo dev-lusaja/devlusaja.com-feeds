@@ -1,5 +1,21 @@
 [
   {
+    "id": "b4c2f948-59ab-59e9-ab4e-13b8ea20d974",
+    "title": "A new dataset with more that 100M hi-quality, curated images, with captions and meta data! [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/",
+    "pubDate": "2026-05-28T12:59:21+00:00",
+    "description": "Hello everyone. The new dataset is named MONET, is Apache 2.0 and available on HF: https://huggingface.co/datasets/jasperai/monet MONET is open, Apache 2.0-licensed image–text dataset. It was built from 2.9 billion images and refined to 104.9 million high-quality samples. We are also publishing a paper that explains how the dataset was created if you are curious and 3 compagnions projects A umap to visualize the distribution A retreival tool to do text or image search A codebase to train T2i model based on MONET Hope this will be usefull! submitted by /u/dh7net [link] [comments]",
+    "author": "/u/dh7net",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone.</p> <p>The new dataset is named MONET, is Apache 2.0 and available on HF:</p> <p><a href=\"https://huggingface.co/datasets/jasperai/monet\">https://huggingface.co/datasets/jasperai/monet</a></p> <p><strong>MONET is open, Apache 2.0-licensed image–text dataset. It was built from 2.9 billion images and refined to 104.9 million high-quality samples.</strong></p> <p>We are also publishing <a href=\"https://arxiv.org/abs/2605.21272\">a paper</a> that explains how the dataset was created if you are curious and 3 compagnions projects</p> <ul> <li><a href=\"https://huggingface.co/spaces/jasperai/monet-umap\">A umap to visualize the distribution</a></li> <li><a href=\"https://huggingface.co/spaces/jasperai/monet-retrieval\">A retreival tool to do text or image search</a></li> <li><a href=\"https://github.com/gojasper/nano-t2i/tree/main\">A codebase to train T2i model based on MONET</a></li> </ul> <p>Hope this will be usefull! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dh7net\"> /u/dh7net </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "41ae0471-03bf-5697-ade9-9c0e5cb42d46",
     "title": "ACM MM 2026 review discussion [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tpvw6q/acm_mm_2026_review_discussion_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnn89v/aiki_my_local_wikipedia_retrievalaugmented/\"> <img alt=\"Aiki my local Wikipedia Retrieval-Augmented Generation system [R]\" src=\"https://external-preview.redd.it/UiHBOiU0dO6Oa7W0B4Aq8KE0LVpoB6D3LpZWGB19ecw.png?width=140&amp;height=70&amp;auto=webp&amp;s=8d231f9ce5c363d5a87a2c635e3750d7fa895442\" title=\"Aiki my local Wikipedia Retrieval-Augmented Generation system [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><h1>Hey</h1> <p>i built Aiki a lightweight tool that let's you chat with Wikipedia locally.</p> <p><a href=\"https://i.redd.it/67mzfsrc6f3h1.gif\">https://i.redd.it/67mzfsrc6f3h1.gif</a></p> <p><strong>what it does:</strong></p> <ul> <li>Downloads and chunks wikipedia articles (u can choose those articles by their name or articles and also the option of downloading the similar topics)</li> <li>Uses a custom TF-IDF + cosine similarity retriever (built from scratch)</li> <li>Supports query expansion using Wikipedia links/redirects</li> <li>Optional answer generation with llm</li> </ul> <p>Very minimal dependencies and runs completely locally.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/yacine204/Aiki\"><strong>https://github.com/yacine204/Aiki</strong></a></p> <p>Would really appreciate your feedback.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Just_Jaguar3701\"> /u/Just_Jaguar3701 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnn89v/aiki_my_local_wikipedia_retrievalaugmented/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnn89v/aiki_my_local_wikipedia_retrievalaugmented/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/UiHBOiU0dO6Oa7W0B4Aq8KE0LVpoB6D3LpZWGB19ecw.png?width=140&height=70&auto=webp&s=8d231f9ce5c363d5a87a2c635e3750d7fa895442",
-    "isShortVideo": 0
-  },
-  {
-    "id": "15ad0f28-00a5-596c-a061-e071637f54d4",
-    "title": "Appreciation post [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tnlr7w/appreciation_post_r/",
-    "pubDate": "2026-05-25T21:00:25+00:00",
-    "description": "This is an appreciation for everybody who contributes and shares their genius minds. I just wish I had joined a little earlier but its never too late and I have gotten a community I was searching on twitter. Thank you and keep building and researching and sharing. Promise to read and give feedback to all posts I come across. submitted by /u/Serious_Mission4226 [link] [comments]",
-    "author": "/u/Serious_Mission4226",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>This is an appreciation for everybody who contributes and shares their genius minds. I just wish I had joined a little earlier but its never too late and I have gotten a community I was searching on twitter. Thank you and keep building and researching and sharing. Promise to read and give feedback to all posts I come across.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Serious_Mission4226\"> /u/Serious_Mission4226 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnlr7w/appreciation_post_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnlr7w/appreciation_post_r/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
