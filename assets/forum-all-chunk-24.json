@@ -1,5 +1,37 @@
 [
   {
+    "id": "de358cfd-9802-5074-a26d-285947beee3d",
+    "title": "JSON string errors caused by 4-bit quant or KV Cachce quant?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyckk4/json_string_errors_caused_by_4bit_quant_or_kv/",
+    "pubDate": "2026-06-06T09:24:13+00:00",
+    "description": "500 Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 64: syntax error while parsing value - invalid string: missing closing quote; last read That's the error that's been haunting me. But I don't really know the cause, it only seems to occur when the context has grown very large, like a very long vibe coding session. submitted by /u/Civil_Fee_7862 [link] [comments]",
+    "author": "/u/Civil_Fee_7862",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><blockquote> <p>500 Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 64: syntax error while parsing value - invalid string: missing closing quote; last read</p> </blockquote> <p>That's the error that's been haunting me. But I don't really know the cause, it only seems to occur when the context has grown very large, like a very long vibe coding session.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Civil_Fee_7862\"> /u/Civil_Fee_7862 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyckk4/json_string_errors_caused_by_4bit_quant_or_kv/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyckk4/json_string_errors_caused_by_4bit_quant_or_kv/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "7bf84ea2-a60c-59a9-9649-a32fe7b5f1c0",
+    "title": "Local vs Frontier on low-level systems engineering",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tybz3s/local_vs_frontier_on_lowlevel_systems_engineering/",
+    "pubDate": "2026-06-06T08:48:47+00:00",
+    "description": "Hey r/LocalLLaMA , Before anyone jumps on me, this is absolutely not a post about how great Qwen is 😄 Even though I use Qwen 3.6 35B-A3B daily, I’ve found a massive gap between Opus and every other model, local or frontier (including GPT 5), when it comes to low-level systems engineering. I’m using that phrase deliberately to avoid just calling it \"hacking\" 😄 I’ve spent the last few months burning through a serious amount of Opus tokens on this project: https://github.com/mihailescu2m/woodbourne To give you the nutshell version: I wanted to modify the firmware of an AirPlay speaker to disable an annoying idle standby timer that would put the speaker to sleep after 20 minutes of inactivity. Where local models and even GPT completely hit a wall was at the very beginning - they couldn't even accurately map out the firmware layout, let alone correctly reverse-engineer the CRC structure. It was only Opus that eventually figured out the checksum constraints, correctly disassembled massive amounts of the firmware code, and automated binary patching so I could safely generate and test dozens of different patched firmware variants. Going through this process really solidified my impression that for hard, low-level binary analysis, Opus sits on an entirely different tier than everything else. Check out the repo if you're interested in the firmware tooling side of things. Would love to hear other experiences on similar projects! submitted by /u/memeka [link] [comments]",
+    "author": "/u/memeka",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"https://www.reddit.com/r/LocalLLaMA\">r/LocalLLaMA</a>,</p> <p>Before anyone jumps on me, this is absolutely not a post about how great Qwen is 😄 <br /> Even though I use Qwen 3.6 35B-A3B daily, I’ve found a massive gap between Opus and every other model, local or frontier (including GPT 5), when it comes to low-level systems engineering. I’m using that phrase deliberately to avoid just calling it &quot;hacking&quot; 😄 </p> <p>I’ve spent the last few months burning through a serious amount of Opus tokens on this project: <a href=\"https://github.com/mihailescu2m/woodbourne\">https://github.com/mihailescu2m/woodbourne</a></p> <p>To give you the nutshell version: I wanted to modify the firmware of an AirPlay speaker to disable an annoying idle standby timer that would put the speaker to sleep after 20 minutes of inactivity. Where local models and even GPT completely hit a wall was at the very beginning - they couldn't even accurately map out the firmware layout, let alone correctly reverse-engineer the CRC structure. It was only Opus that eventually figured out the checksum constraints, correctly disassembled massive amounts of the firmware code, and automated binary patching so I could safely generate and test dozens of different patched firmware variants.</p> <p>Going through this process really solidified my impression that for hard, low-level binary analysis, Opus sits on an entirely different tier than everything else. Check out the repo if you're interested in the firmware tooling side of things. Would love to hear other experiences on similar projects!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/memeka\"> /u/memeka </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tybz3s/local_vs_frontier_on_lowlevel_systems_engineering/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tybz3s/local_vs_frontier_on_lowlevel_systems_engineering/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ef80ada2-9d43-5b69-8c0d-7631350bc57e",
     "title": "Anthropic is not a normal company",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tybrpv/anthropic_is_not_a_normal_company/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Struggling with the UI/UX skill, the frontend skill to make my site pop.</p> <p>Any recommendations for getkeptapp.com (even post your link for inspiration for others) on new skills or prompts to try?</p> <p>Ty!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vibecodejoe\"> /u/vibecodejoe </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4989b58a-8ff2-58c9-ba3f-e0239c52979d",
-    "title": "What exactly is quantization aware training?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txuqw8/what_exactly_is_quantization_aware_training/",
-    "pubDate": "2026-06-05T19:23:19+00:00",
-    "description": "First time hearing it. I also heard about the gemma 4 qat quants and if any one of them is good for 4gb vram and 16gb ram. I can run gemma 4 26b moe iq2 nl at 8.5 to 9 tps(kv cache unquantized on gpu) with 9 layers offloaded to gpu submitted by /u/JournalistLucky5124 [link] [comments]",
-    "author": "/u/JournalistLucky5124",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>First time hearing it.</p> <p>I also heard about the gemma 4 qat quants and if any one of them is good for 4gb vram and 16gb ram. I can run gemma 4 26b moe iq2 nl at 8.5 to 9 tps(kv cache unquantized on gpu) with 9 layers offloaded to gpu</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JournalistLucky5124\"> /u/JournalistLucky5124 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txuqw8/what_exactly_is_quantization_aware_training/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txuqw8/what_exactly_is_quantization_aware_training/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9cfa13c7-a5ad-59f6-82f3-2b658df0fd50",
-    "title": "Don’t act like y’all ain’t thinking it. I’m just saying the quiet part out loud. /s",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txufl9/dont_act_like_yall_aint_thinking_it_im_just/",
-    "pubDate": "2026-06-05T19:11:50+00:00",
-    "description": "Of course I’m thankful for all that Qwen has bequeathed us, but deep down in the darkest pit of our souls, every last one of us are just all sitting here waiting for Qwen to say “Hey Google, hold my beer while I drop the best GD model of all time on these fools” /s submitted by /u/Porespellar [link] [comments]",
-    "author": "/u/Porespellar",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txufl9/dont_act_like_yall_aint_thinking_it_im_just/\"> <img alt=\"Don’t act like y’all ain’t thinking it. I’m just saying the quiet part out loud. /s\" src=\"https://preview.redd.it/ssewi1ltji5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=88dbf9ec03584c0cb1e8fef0a9b3ca90c06060ee\" title=\"Don’t act like y’all ain’t thinking it. I’m just saying the quiet part out loud. /s\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Of course I’m thankful for all that Qwen has bequeathed us, but deep down in the darkest pit of our souls, every last one of us are just all sitting here waiting for Qwen to say “Hey Google, hold my beer while I drop the best GD model of all time on these fools” /s</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Porespellar\"> /u/Porespellar </a> <br /> <span><a href=\"https://i.redd.it/ssewi1ltji5h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txufl9/dont_act_like_yall_aint_thinking_it_im_just/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/ssewi1ltji5h1.jpeg?width=640&crop=smart&auto=webp&s=88dbf9ec03584c0cb1e8fef0a9b3ca90c06060ee",
     "isShortVideo": 0
   }
 ]
