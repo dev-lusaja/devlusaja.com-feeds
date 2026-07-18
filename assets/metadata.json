@@ -1,6 +1,6 @@
 {
-  "totalItems": 26610,
-  "generatedAt": "2026-07-17T16:04:44.532831Z",
+  "totalItems": 26197,
+  "generatedAt": "2026-07-18T04:33:57.519197Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -186,19 +186,19 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 2182,
+      "totalItems": 2160,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1930,
+      "totalItems": 1932,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
     "pappers": {
-      "totalItems": 19211,
+      "totalItems": 18825,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
@@ -231,15 +231,15 @@
       {
         "category": "Reddit_LocalLLaMA",
         "title": "Reddit LocalLLaMA",
-        "count": 843,
+        "count": 830,
         "isPriority": true,
-        "totalChunks": 29,
+        "totalChunks": 28,
         "chunkPrefix": "forum-Reddit_LocalLLaMA"
       },
       {
         "category": "Reddit_ClaudeAI",
         "title": "Reddit ClaudeAI",
-        "count": 807,
+        "count": 798,
         "isPriority": true,
         "totalChunks": 27,
         "chunkPrefix": "forum-Reddit_ClaudeAI"
@@ -257,7 +257,7 @@
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2757,
+        "count": 2750,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -265,7 +265,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 516,
+        "count": 520,
         "isPriority": true,
         "totalChunks": 18,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -273,7 +273,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 312,
+        "count": 311,
         "isPriority": true,
         "totalChunks": 11,
         "chunkPrefix": "notice-El_Pais"
@@ -281,9 +281,9 @@
       {
         "category": "Xataka",
         "title": "Xataka IA",
-        "count": 241,
+        "count": 239,
         "isPriority": true,
-        "totalChunks": 9,
+        "totalChunks": 8,
         "chunkPrefix": "notice-Xataka"
       },
       {
@@ -297,7 +297,7 @@
       {
         "category": "Euronews",
         "title": "Euronews",
-        "count": 165,
+        "count": 166,
         "isPriority": true,
         "totalChunks": 6,
         "chunkPrefix": "notice-Euronews"
@@ -387,7 +387,7 @@
       {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 9712,
+        "count": 9479,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_LG"
@@ -395,7 +395,7 @@
       {
         "category": "arXiv_AI",
         "title": "arXiv cs.AI",
-        "count": 9499,
+        "count": 9346,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_AI"
