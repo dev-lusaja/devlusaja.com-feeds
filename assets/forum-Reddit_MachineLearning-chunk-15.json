@@ -1,5 +1,21 @@
 [
   {
+    "id": "62cb5c3f-9248-59ba-ba1b-9ed114857f65",
+    "title": "Anyone heard from ICML about Oral decisions yet? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tndmc7/anyone_heard_from_icml_about_oral_decisions_yet_d/",
+    "pubDate": "2026-05-25T16:07:43+00:00",
+    "description": "hi all, my paper received a spotlight from ICML. they told us that we would receive decisions as to whether our paper would get an oral by the end of the month with the implication that we wouldn’t receive a notification if we didn’t get it; I was just wondering if anyone has received that notification so as to know I didn’t get it for sure. thanks! submitted by /u/billjames1685 [link] [comments]",
+    "author": "/u/billjames1685",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>hi all, </p> <p>my paper received a spotlight from ICML. they told us that we would receive decisions as to whether our paper would get an oral by the end of the month with the implication that we wouldn’t receive a notification if we didn’t get it; I was just wondering if anyone has received that notification so as to know I didn’t get it for sure. thanks! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/billjames1685\"> /u/billjames1685 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tndmc7/anyone_heard_from_icml_about_oral_decisions_yet_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tndmc7/anyone_heard_from_icml_about_oral_decisions_yet_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ecfd0721-236b-5aab-9b04-280ce4ece518",
     "title": "I’m building an open-source decision layer above AI agents [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tndi8y/im_building_an_opensource_decision_layer_above_ai/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, I would like to know whether building my own image encoder would be a good idea instead of using models like CLIP, SigLIP/SigLIP2, or DINO.</p> <p>My use case is video frame classification.</p> <p>My pipeline is the following: the client sends me a video stream, sampled at 1 frame per 1 or 2 second, forming segments of 15 frames (30 seconds). I compute embeddings for these frames and send them to a small custom Transformer (1.5M to 9M parameters).</p> <p>This works very well on GPU. However, I have two main constraints: processing speed and deployment on small CPU-only devices.</p> <p>A CLIP-S0 encoder processes around 10 images per second on 4 vCPUs. I would like to replace it with my own encoder trained on my dataset (a few million images), with only a few million parameters and around 4 to 5 labels.</p> <p>My question is whether this is a good approach, and whether it would improve both embedding generation speed and the accuracy of my Transformer model.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/These_Try_656\"> /u/These_Try_656 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkwnx5/custom_image_encoder_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkwnx5/custom_image_encoder_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d60f82ed-e05a-533b-994c-5e482e214fb3",
-    "title": "COLM 2026 ReviewsDiscussion [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/",
-    "pubDate": "2026-05-22T20:24:35+00:00",
-    "description": "Didn't see one so wanted to make one myself. Reviews are actually already out, curious what everyone thinks about the quality of the reviews? I've heard it's a mixed bag and apparently a concerning amount of AI generated reviews for some people. submitted by /u/RandomMan0880 [link] [comments]",
-    "author": "/u/RandomMan0880",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Didn't see one so wanted to make one myself. Reviews are actually already out, curious what everyone thinks about the quality of the reviews? I've heard it's a mixed bag and apparently a concerning amount of AI generated reviews for some people. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RandomMan0880\"> /u/RandomMan0880 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

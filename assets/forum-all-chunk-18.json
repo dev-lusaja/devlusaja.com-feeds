@@ -1,5 +1,21 @@
 [
   {
+    "id": "472de504-797b-5b6b-a98c-5585707da879",
+    "title": "Was BitNet a dead end? What happened to ternary LLMs?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0hy5p/was_bitnet_a_dead_end_what_happened_to_ternary/",
+    "pubDate": "2026-06-08T19:22:33+00:00",
+    "description": "They seemed so promising at one point but the biggest ternary model is still 2B. What happened? Why aren't the frontier open weights AI labs attempting to use them? submitted by /u/3ntrope [link] [comments]",
+    "author": "/u/3ntrope",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>They seemed so promising at one point but the biggest ternary model is still 2B. What happened? Why aren't the frontier open weights AI labs attempting to use them?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/3ntrope\"> /u/3ntrope </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0hy5p/was_bitnet_a_dead_end_what_happened_to_ternary/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0hy5p/was_bitnet_a_dead_end_what_happened_to_ternary/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "dbcefe17-2e87-54f2-b99a-69258c656e0a",
     "title": "LocalLLaMA post tier list",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0gjpy/localllama_post_tier_list/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey, I'm a backend developer working mostly with Laravel and PHP. I've been using AI coding tools (Claude Code, Cursor etc.) a lot lately, and I really like the concept of <strong>&quot;skills&quot;</strong> reusable, modular instruction sets that the AI can load on demand for specific tasks.</p> <p>I'm thinking about creating an open-source GitHub repo with a collection of well-documented skills specifically for Laravel/PHP development. Things like:</p> <ul> <li>Best practices for controllers, Eloquent, queues, testing (Pest/PHPUnit)</li> <li>Common refactoring patterns, architecture decisions (Ports &amp; Adapters, etc.)</li> <li>Deployment, migrations, caching, security checklists</li> <li>Integration with Sail, Horizon, Pint, PHPStan and so on</li> <li>........</li> </ul> <p>The idea is that anyone could easily pick and install only the skills they need for their project, instead of one huge bloated context.</p> <p>What do you think? Would you actually use something like this? Does it solve a real pain point for you, or is it better to keep skills super personal/project-specific?</p> <p>I'm open to <strong>any</strong> feedback, ideas, suggestions, or criticism especially well-argued ones. Maybe you already saw similar repos, or have thoughts on structure, naming, installation method, what skills would be most valuable, etc.</p> <p>Would love to hear honest opinions from people who work with Laravel/PHP + AI tools daily.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cold-Ease5189\"> /u/Cold-Ease5189 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u08qiw/would_github_libraries_of_reusable_skills_for_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u08qiw/would_github_libraries_of_reusable_skills_for_ai/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "17c9c600-6eb7-5b16-86ec-27f2df8efad2",
-    "title": "llama-launcher Release",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u08k0x/llamalauncher_release/",
-    "pubDate": "2026-06-08T13:52:19+00:00",
-    "description": "Hello everyone, I've been working on a point and click GUI to make tinkering with llama-server flags much quicker and easier, I thought I'd share for anyone else who might be interested. It's also great for anyone new to llama.cpp that is looking to get into it and doesn't want to deal with the terminal yet. My aim was to make it quite simple and bare-bones so that's why it might look a little bland, didn't really see the point of making it look decent with a nice colour scheme or anything for something so simple. I'll be adding more and more flags/options to it as I come across them, I only added the ones I find myself using regularly for now. Please let me know what you guys think and any improvements you have in mind! https://github.com/SolaryKryptic/llama-launcher - here's the link https://preview.redd.it/adez3xfrc26h1.png?width=963&format=png&auto=webp&s=7f96d851bf2956cb19c9dd21e204bef8acef5a72 submitted by /u/Solary_Kryptic [link] [comments]",
-    "author": "/u/Solary_Kryptic",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u08k0x/llamalauncher_release/\"> <img alt=\"llama-launcher Release\" src=\"https://preview.redd.it/adez3xfrc26h1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=cdc94ad4cebf329ff6f74fa74df4215e0e34a082\" title=\"llama-launcher Release\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hello everyone, I've been working on a point and click GUI to make tinkering with llama-server flags much quicker and easier, I thought I'd share for anyone else who might be interested. It's also great for anyone new to llama.cpp that is looking to get into it and doesn't want to deal with the terminal yet. My aim was to make it quite simple and bare-bones so that's why it might look a little bland, didn't really see the point of making it look decent with a nice colour scheme or anything for something so simple. I'll be adding more and more flags/options to it as I come across them, I only added the ones I find myself using regularly for now. Please let me know what you guys think and any improvements you have in mind! <a href=\"https://github.com/SolaryKryptic/llama-launcher\"><code>https://github.com/SolaryKryptic/llama-launcher</code></a> - here's the link</p> <p><a href=\"https://preview.redd.it/adez3xfrc26h1.png?width=963&amp;format=png&amp;auto=webp&amp;s=7f96d851bf2956cb19c9dd21e204bef8acef5a72\">https://preview.redd.it/adez3xfrc26h1.png?width=963&amp;format=png&amp;auto=webp&amp;s=7f96d851bf2956cb19c9dd21e204bef8acef5a72</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Solary_Kryptic\"> /u/Solary_Kryptic </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u08k0x/llamalauncher_release/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u08k0x/llamalauncher_release/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/adez3xfrc26h1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=cdc94ad4cebf329ff6f74fa74df4215e0e34a082",
     "isShortVideo": 0
   }
 ]

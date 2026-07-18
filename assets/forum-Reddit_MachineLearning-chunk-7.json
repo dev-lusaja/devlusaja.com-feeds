@@ -1,5 +1,21 @@
 [
   {
+    "id": "d3c3530f-acd6-546a-adf4-348bee81e069",
+    "title": "Found a potential mistake in an ICLR 2026 blogpost [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/",
+    "pubDate": "2026-06-23T06:39:57+00:00",
+    "description": "I think I found a mistake in an ICLR 2026 blog post. I created an issue and have been trying to contact the author and organizers, but I haven't received a response after several weeks. Could anyone please take a look and let me know your thoughts? (I'm just curious and would like to know if my understanding is correct.) https://github.com/iclr-blogposts/2026/issues/218 submitted by /u/metalwhaledev [link] [comments]",
+    "author": "/u/metalwhaledev",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I think I found a mistake in an ICLR 2026 blog post. I created an issue and have been trying to contact the author and organizers, but I haven't received a response after several weeks. Could anyone please take a look and let me know your thoughts? (I'm just curious and would like to know if my understanding is correct.)</p> <p><a href=\"https://github.com/iclr-blogposts/2026/issues/218\">https://github.com/iclr-blogposts/2026/issues/218</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/metalwhaledev\"> /u/metalwhaledev </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f9b334b7-34a5-58ee-a90a-83cd432216ae",
     "title": "Just landed a Computer Vision internship, here's the preparation list I used [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I maintain cuTile Rust and just posted the paper &quot;Fearless Concurrency on the GPU.&quot; </p> <p>As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it. cuTile Rust lets you write or generate GPU kernels whose memory safety and data-race freedom are verified by the compiler, through Rust's ownership and borrow checking. You get those guarantees by construction. It's a tile-based programming model that lowers to CUDA Tile IR, carrying Rust's ownership model across the launch boundary. You partition a mutable output into disjoint mutable sub-tensors, pass inputs as shared references, and write tile kernels with single-threaded semantics that the compiler maps to thread blocks. </p> <p>End to end, we built Grout, a Qwen3 inference engine, on cuTile Rust with Hugging Face. At batch-1 decode it reaches 171 tok/s for Qwen3-4B on an RTX 5090 and 82 tok/s for Qwen3-32B on a B200, competitive with vLLM and SGLang. Batch-1 decode is memory-bandwidth-bound, and Grout's throughput is consistent with our HBM roofline analysis. </p> <p>Many of Grout's kernels still use the unsafe path today, but they can be migrated to safe variants, providing a verifiable target for generated kernels. We've started a collection of such kernels in the cutile-kernels crate in the repo. If this is your thing, contributing safe variants helps grow a library of safe, high-performance kernels that future kernel synthesis can draw from. </p> <p>On the kernel side, the safety is effectively free. On a B200 the safe GEMM is within 0.3% of a hand-written low-level version (~92% of dense f16 peak), and element-wise hits ~7 TB/s, matching cuTile Python within measurement noise. </p> <p>Some additional caveats worth noting: Grout is batch-1 with a small set of supported models (a research case study, not a drop-in server), it's NVIDIA-only (lowers to Tile IR), and GEMM still slightly trails cuBLAS at some sizes. </p> <p>- Paper: <a href=\"https://arxiv.org/abs/2606.15991\">https://arxiv.org/abs/2606.15991</a><br /> - Code: <a href=\"https://github.com/nvlabs/cutile-rs\">https://github.com/nvlabs/cutile-rs</a><br /> - Grout: <a href=\"https://github.com/huggingface/grout\">https://github.com/huggingface/grout</a></p> <p>Hope you enjoy the paper and learn something new! Happy to answer any questions :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Exciting_Suspect9088\"> /u/Exciting_Suspect9088 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7cf0b143-d571-526d-9e1d-ee9e09ea9809",
-    "title": "Latent space interpretation [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u9afup/latent_space_interpretation_r/",
-    "pubDate": "2026-06-18T16:07:51+00:00",
-    "description": "Hi all, I have trained a convolutional autoencoder on a set of medical images. Further classified latent feature maps using random forest to find the top scoring feature map. Now my goal is to understand which input image is captured in top scoring latent feature map. Any suggestions? I have tried encoding one image at a time while other images were muted. I then checked spearman between top scoring feature map with the original top scoring feature map. While I see some expected results, I still have some false positives. I have also tried decoding only top scoring latent feature map by setting others feature maps to 0. But I believe, the decoder entanglement is giving me many false positive results. submitted by /u/xxpostyyxx [link] [comments]",
-    "author": "/u/xxpostyyxx",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I have trained a convolutional autoencoder on a set of medical images. Further classified latent feature maps using random forest to find the top scoring feature map. Now my goal is to understand which input image is captured in top scoring latent feature map. Any suggestions? I have tried encoding one image at a time while other images were muted. I then checked spearman between top scoring feature map with the original top scoring feature map. While I see some expected results, I still have some false positives. I have also tried decoding only top scoring latent feature map by setting others feature maps to 0. But I believe, the decoder entanglement is giving me many false positive results. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xxpostyyxx\"> /u/xxpostyyxx </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u9afup/latent_space_interpretation_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u9afup/latent_space_interpretation_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

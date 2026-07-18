@@ -1,5 +1,21 @@
 [
   {
+    "id": "18af8228-bc2d-5bf8-8136-f4dcb34ed8a7",
+    "title": "How To solve ModelOverload issue in Claude code Desktop app",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tycl8y/how_to_solve_modeloverload_issue_in_claude_code/",
+    "pubDate": "2026-06-06T09:25:19+00:00",
+    "description": "https://preview.redd.it/fmvs3civrm5h1.png?width=932&format=png&auto=webp&s=5fd14722912448e3c2e47434f557dbf1a75d7495 I'm seeing this multiple times over the last few days: every time I try to verify anything with the desktop app, the model gets overloaded. Can someone suggest to me a solution so this does not happen again? submitted by /u/karmendra_choudhary [link] [comments]",
+    "author": "/u/karmendra_choudhary",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tycl8y/how_to_solve_modeloverload_issue_in_claude_code/\"> <img alt=\"How To solve ModelOverload issue in Claude code Desktop app\" src=\"https://preview.redd.it/fmvs3civrm5h1.png?width=140&amp;height=19&amp;auto=webp&amp;s=c32290591cf6f1407e87e32cf7339d0392351667\" title=\"How To solve ModelOverload issue in Claude code Desktop app\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/fmvs3civrm5h1.png?width=932&amp;format=png&amp;auto=webp&amp;s=5fd14722912448e3c2e47434f557dbf1a75d7495\">https://preview.redd.it/fmvs3civrm5h1.png?width=932&amp;format=png&amp;auto=webp&amp;s=5fd14722912448e3c2e47434f557dbf1a75d7495</a></p> <p>I'm seeing this multiple times over the last few days: every time I try to verify anything with the desktop app, the model gets overloaded. Can someone suggest to me a solution so this does not happen again? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/karmendra_choudhary\"> /u/karmendra_choudhary </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tycl8y/how_to_solve_modeloverload_issue_in_claude_code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tycl8y/how_to_solve_modeloverload_issue_in_claude_code/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/fmvs3civrm5h1.png?width=140&height=19&auto=webp&s=c32290591cf6f1407e87e32cf7339d0392351667",
+    "isShortVideo": 0
+  },
+  {
     "id": "de358cfd-9802-5074-a26d-285947beee3d",
     "title": "JSON string errors caused by 4-bit quant or KV Cachce quant?",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyckk4/json_string_errors_caused_by_4bit_quant_or_kv/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/\"> <img alt=\"TinyTPU: SystemVerilog systolic array compiled to WASM, running live in browser - RTL golden-verified against numpy [P]\" src=\"https://preview.redd.it/uzyne2kbti5h1.gif?width=640&amp;crop=smart&amp;s=0685400fbb807fd398dbac56986eac1489384870\" title=\"TinyTPU: SystemVerilog systolic array compiled to WASM, running live in browser - RTL golden-verified against numpy [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Most explanations of TPUs and systolic arrays are either hand-wavy diagrams or papers. I wanted to see the thing actually run, so I built it.</p> <p>TinyTPU is a 4×4 weight-stationary systolic array in real SystemVerilog, compiled to WebAssembly, with a step-by-step browser visualization. </p> <p>You enter two matrices, hit run, and watch the actual hardware execute: weights loading into PEs, matrix A streaming in diagonally (the &quot;skew&quot; that makes systolic arrays work), partial sums accumulating down the grid, results draining from the bottom.</p> <p>It has three levels:</p> <ul> <li><strong>L1</strong> - isolate a single MAC cell, watch one multiply-accumulate happen</li> <li><strong>L2</strong> - the full 4×4 array executing a real matmul</li> <li><strong>L3</strong> - tiling: what happens when your matrix is bigger than the hardware</li> </ul> <p>Nothing on screen is faked. The visualization reads state directly from compiled RTL.</p> <p>If you're trying to understand how matrix multiply maps to hardware why TPUs are efficient, what &quot;weight-stationary&quot; actually means, why the diagonal stagger exists this might click it for you in a way papers don't.</p> <p>Repo: <a href=\"https://github.com/deaneeth/tiny-tpu\">tiny-tpu</a></p> <p>Live demo: <a href=\"https://tiny-tpu.vercel.app/\">Live</a></p> <p>If this project interests you please do star the repo, if you find something needs improving open a PR, I hope ya'll check this out and give me some feedback 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Horror-Flamingo-2150\"> /u/Horror-Flamingo-2150 </a> <br /> <span><a href=\"https://i.redd.it/uzyne2kbti5h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/uzyne2kbti5h1.gif?width=640&crop=smart&s=0685400fbb807fd398dbac56986eac1489384870",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a4a28dab-632d-5e9a-8e21-182242cfd4c4",
-    "title": "if you used Claude to build your website, which skill helped your site not look like it was AI Generated?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/",
-    "pubDate": "2026-06-05T19:43:33+00:00",
-    "description": "Struggling with the UI/UX skill, the frontend skill to make my site pop. Any recommendations for getkeptapp.com (even post your link for inspiration for others) on new skills or prompts to try? Ty! submitted by /u/vibecodejoe [link] [comments]",
-    "author": "/u/vibecodejoe",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Struggling with the UI/UX skill, the frontend skill to make my site pop.</p> <p>Any recommendations for getkeptapp.com (even post your link for inspiration for others) on new skills or prompts to try?</p> <p>Ty!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vibecodejoe\"> /u/vibecodejoe </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

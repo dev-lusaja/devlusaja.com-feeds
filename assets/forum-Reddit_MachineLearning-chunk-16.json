@@ -1,5 +1,21 @@
 [
   {
+    "id": "d60f82ed-e05a-533b-994c-5e482e214fb3",
+    "title": "COLM 2026 ReviewsDiscussion [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/",
+    "pubDate": "2026-05-22T20:24:35+00:00",
+    "description": "Didn't see one so wanted to make one myself. Reviews are actually already out, curious what everyone thinks about the quality of the reviews? I've heard it's a mixed bag and apparently a concerning amount of AI generated reviews for some people. submitted by /u/RandomMan0880 [link] [comments]",
+    "author": "/u/RandomMan0880",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Didn't see one so wanted to make one myself. Reviews are actually already out, curious what everyone thinks about the quality of the reviews? I've heard it's a mixed bag and apparently a concerning amount of AI generated reviews for some people. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RandomMan0880\"> /u/RandomMan0880 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tkuu66/colm_2026_reviewsdiscussion_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "52fe2a1a-cc1d-5f40-8c2a-d375cb03a590",
     "title": "NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable) [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tkejqr/nuextract3_released_openweight_4b_vlm_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Been going down a mechanistic interpretability rabbit hole for the past few weeks and ended up building this thing called AXON.</p> <p>The idea: every time GPT-2 generates a token, its residual stream gets passed through a Sparse Autoencoder (Joseph Bloom's pretrained SAE). The SAE decomposes it into human-interpretable feature: hings like &quot;European geography&quot;, &quot;capital cities&quot;, &quot;French language&quot; and streams those to the browser over WebSocket, where they show up as a live 3D force graph.</p> <p>Nodes = SAE features. Edges = features that fired together on the same token. Node brightness = activation strength. The whole graph evolves token by token.</p> <p>What surprised me most: type &quot;The capital of France is&quot; and you can literally watch geography features, proper noun features, and completion-pattern features light up before the word &quot;Paris&quot; even gets generated. It's not what the model outputs that's interesting it's what's happening right before it decides.</p> <p>Stack: TransformerLens + SAELens on the backend, FastAPI WebSocket for streaming, Three.js + 3d-force-graph on the frontend. Runs on CPU (~800ms/token) or GPU (~35ms on a 4050). Labels come from Neuronpedia's API and get cached locally.</p> <p>You can also swap in other models — GPT-2 medium/large/xl, Pythia variants, Gemma-2-2B — as long as there's a pretrained SAE for it in SAELens.</p> <p>GitHub: <a href=\"https://github.com/09Catho/axon\">https://github.com/09Catho/axon</a></p> <p>Would love feedback and stars especially from anyone who's worked with SAEs before curious whether the co-activation edges are actually meaningful or just noise at this layer.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Financial_World_9730\"> /u/Financial_World_9730 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thwad9/i_built_a_tool_that_shows_you_what_gpt2_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thwad9/i_built_a_tool_that_shows_you_what_gpt2_is/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "70c66be7-7079-5c79-af8e-37a8b470dcbd",
-    "title": "LxMLS 2026 decision [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1thvvtu/lxmls_2026_decision_d/",
-    "pubDate": "2026-05-19T18:33:16+00:00",
-    "description": "Has anyone applied to Lxmls 2026? Did you get any update? submitted by /u/No_Cardiologist7609 [link] [comments]",
-    "author": "/u/No_Cardiologist7609",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/MachineLearning/?f=flair_name%3A%22Discussion%22\"></a></p> <p>Has anyone applied to Lxmls 2026? Did you get any update?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cardiologist7609\"> /u/No_Cardiologist7609 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thvvtu/lxmls_2026_decision_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1thvvtu/lxmls_2026_decision_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
