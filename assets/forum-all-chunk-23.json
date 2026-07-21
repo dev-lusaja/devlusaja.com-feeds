@@ -1,5 +1,21 @@
 [
   {
+    "id": "9bf86d71-ee66-572a-9632-ac5bb77cab01",
+    "title": "Alternatives to ChromaDB for easy RAG search",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/",
+    "pubDate": "2026-06-07T04:30:42+00:00",
+    "description": "I'm disappointed that ChromaDB's local, free \"single node\" version is still getting second-class, hand-me-down features while the \"distributed\" version (a SaaS offering, unsurprisingly) gets built in hybrid search, BM25, etc. I tried to give the benefit of the doubt and wait, but half a year later there's not even an announcement or discussion of feature parity on the roadmap. What are some truly open source, on-premises alternatives well suited to semantically searching and re-ranking large collections of long (200+ page) documents? Exact string matches, semantic matches, and direct retrieval by page number (or ULID) would be required. submitted by /u/FrozenBuffalo25 [link] [comments]",
+    "author": "/u/FrozenBuffalo25",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm disappointed that ChromaDB's local, free &quot;single node&quot; version is still getting second-class, hand-me-down features while the &quot;distributed&quot; version (a SaaS offering, unsurprisingly) gets built in hybrid search, BM25, etc. I tried to give the benefit of the doubt and wait, but half a year later there's not even an announcement or discussion of feature parity on the roadmap. </p> <p>What are some truly open source, on-premises alternatives well suited to semantically searching and re-ranking large collections of long (200+ page) documents? Exact string matches, semantic matches, and direct retrieval by page number (or ULID) would be required.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FrozenBuffalo25\"> /u/FrozenBuffalo25 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "38c124a5-3a0a-5036-8f52-379818cd8398",
     "title": "I started responding to messages from coworkers like Claude",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz1tzv/i_started_responding_to_messages_from_coworkers/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>It's an incredible little package but too expensive of a price to pay for the performance and I simply didn't want to be part of the great &quot;Superchip lie&quot; - it could be super, but its super ruined by its limited memory bandwidth even though it *could* be 2x throughput - it isn't. (The c2c is 600gb/sec but the memory isn't)</p> <p>I wanted better experience for larger models and these fail miserably at 27b and do ok at MoE's which actually shine on much cheaper hardware, and I don't have the interest or wallet to buy 3-8 of these to go &quot;All in private&quot; and still just be at a few tokens a second. Qwen 3.5 122b a10b was about the perfect sweet spot for this hardware but i'm not sure we'll see those moving forward and that's part of what stinks about this - if someone could train models for this architecture, they may run OK, but no one is. Not even Nvidia.</p> <p>It's a product looking for a new market while not doing that great in any of them but pushing a huge premium of a price tag. They honestly should have put in additional memory controllers and made the current chip design a more affordable 32gb system and gave the DGX spark users a full 600gb/s capability for the price they're demanding.</p> <p>Will the RTX spark offer some of these options and will they do so at a better price point? I know the conntectX port drove a huge chunk of cost but still think the 128gb is largely wasted until they fix the memory controller / bandwidth perf.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sn2006gy\"> /u/sn2006gy </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyo03k/it_felt_good_to_return_my_asus_spark/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyo03k/it_felt_good_to_return_my_asus_spark/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "76625011-c698-51e8-8a72-b8e7b5cab9c8",
-    "title": "Gemma 4 QAT Unquantized Heretic is here",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tynv0p/gemma_4_qat_unquantized_heretic_is_here/",
-    "pubDate": "2026-06-06T17:48:23+00:00",
-    "description": "Now someone needs to quantize them to 4bit, also I have intentionally kept the divergence and refusal different from original Gemma 4 heretic collection, so you can even try these as alternative to original model. submitted by /u/coder3101 [link] [comments]",
-    "author": "/u/coder3101",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tynv0p/gemma_4_qat_unquantized_heretic_is_here/\"> <img alt=\"Gemma 4 QAT Unquantized Heretic is here\" src=\"https://external-preview.redd.it/DO_pCxk93T4BafA-LE5rHS_-aJBmnyohT1XQWuJmvCg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=476ef6730c8d6503588f93e4d5eb4f66472fe399\" title=\"Gemma 4 QAT Unquantized Heretic is here\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Now someone needs to quantize them to 4bit, also I have intentionally kept the divergence and refusal different from original Gemma 4 heretic collection, so you can even try these as alternative to original model.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coder3101\"> /u/coder3101 </a> <br /> <span><a href=\"https://huggingface.co/collections/coder3101/gemma-4-qat\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tynv0p/gemma_4_qat_unquantized_heretic_is_here/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/DO_pCxk93T4BafA-LE5rHS_-aJBmnyohT1XQWuJmvCg.png?width=640&crop=smart&auto=webp&s=476ef6730c8d6503588f93e4d5eb4f66472fe399",
     "isShortVideo": 0
   }
 ]

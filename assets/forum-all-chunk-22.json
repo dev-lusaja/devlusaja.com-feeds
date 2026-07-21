@@ -1,5 +1,21 @@
 [
   {
+    "id": "6becc514-e1ac-5ea0-92ec-87ea6f41a603",
+    "title": "A handy llama-server launcher with easy model and configuration customisation",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzdbwr/a_handy_llamaserver_launcher_with_easy_model_and/",
+    "pubDate": "2026-06-07T14:16:33+00:00",
+    "description": "I wanted something that I could easily configure to manage a set of sensible defaults, that supports multiple llama-server binaries, with per-model over-rides, and command line over-rides. The utility is here: https://github.com/stew675/start-llama I know that llama-server has its own model loading configuration available via the API end-point, but I just wanted something that I could start from the command line easily in one step. I don't know if anyone else may find this useful or not, but I'll share it here anyway in case someone does. submitted by /u/Look_0ver_There [link] [comments]",
+    "author": "/u/Look_0ver_There",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I wanted something that I could easily configure to manage a set of sensible defaults, that supports multiple llama-server binaries, with per-model over-rides, and command line over-rides.</p> <p>The utility is here: <a href=\"https://github.com/stew675/start-llama\">https://github.com/stew675/start-llama</a></p> <p>I know that llama-server has its own model loading configuration available via the API end-point, but I just wanted something that I could start from the command line easily in one step.</p> <p>I don't know if anyone else may find this useful or not, but I'll share it here anyway in case someone does.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Look_0ver_There\"> /u/Look_0ver_There </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzdbwr/a_handy_llamaserver_launcher_with_easy_model_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzdbwr/a_handy_llamaserver_launcher_with_easy_model_and/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bfc82e53-fef9-5489-a7b6-044c95c679d2",
     "title": "I made a free Windows app to track your Claude Code usage — built with Claude Code, with a mascot that reacts to what it's doing",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzd64v/i_made_a_free_windows_app_to_track_your_claude/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been a C++ dev for 3 years as long as have done PyTorch in my free time (not that good in the latter). </p> <p>Now, I was lucky enough to get a brand new GPU from a colleague. What are some cool side projects I can build to learn tons about ML and inference/infra? Please don't respond saying &quot;anything you like&quot; as there's nothing I prefer at the moment.</p> <p>I am completely new - so sorry if it's an obvious question!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AggressiveMention359\"> /u/AggressiveMention359 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2p8h/cool_stuff_to_do_with_nvidia_rtx_6000_pro_96gb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2p8h/cool_stuff_to_do_with_nvidia_rtx_6000_pro_96gb/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9bf86d71-ee66-572a-9632-ac5bb77cab01",
-    "title": "Alternatives to ChromaDB for easy RAG search",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/",
-    "pubDate": "2026-06-07T04:30:42+00:00",
-    "description": "I'm disappointed that ChromaDB's local, free \"single node\" version is still getting second-class, hand-me-down features while the \"distributed\" version (a SaaS offering, unsurprisingly) gets built in hybrid search, BM25, etc. I tried to give the benefit of the doubt and wait, but half a year later there's not even an announcement or discussion of feature parity on the roadmap. What are some truly open source, on-premises alternatives well suited to semantically searching and re-ranking large collections of long (200+ page) documents? Exact string matches, semantic matches, and direct retrieval by page number (or ULID) would be required. submitted by /u/FrozenBuffalo25 [link] [comments]",
-    "author": "/u/FrozenBuffalo25",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm disappointed that ChromaDB's local, free &quot;single node&quot; version is still getting second-class, hand-me-down features while the &quot;distributed&quot; version (a SaaS offering, unsurprisingly) gets built in hybrid search, BM25, etc. I tried to give the benefit of the doubt and wait, but half a year later there's not even an announcement or discussion of feature parity on the roadmap. </p> <p>What are some truly open source, on-premises alternatives well suited to semantically searching and re-ranking large collections of long (200+ page) documents? Exact string matches, semantic matches, and direct retrieval by page number (or ULID) would be required.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FrozenBuffalo25\"> /u/FrozenBuffalo25 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

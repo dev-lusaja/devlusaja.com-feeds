@@ -1,5 +1,21 @@
 [
   {
+    "id": "10625a1e-c97b-5c70-b35d-8ece300b7524",
+    "title": "How do ML practitioners select hyperparameters, architectures, etc for self-supervised representation learning when the loss is non-monotonic? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tmprdm/how_do_ml_practitioners_select_hyperparameters/",
+    "pubDate": "2026-05-24T22:06:09+00:00",
+    "description": "Non-contrastive SSL methods like BYOL/JEPA/data2vec seem promising, but I have no idea what is being learned, or how well; it’s models all the way down. Maybe I’ve got supervised tasks for which I’d like to see transfer, and I can evaluate linear probe/KNN results during training, but that seems like a way to efficiently abuse researcher degrees of freedom. I know RankMe is meant to help address this: embed some data and SVD the embedding matrix. A healthy learner should produce an embedding with a high effective rank. But JEPA methods already require an entropy-collapse term like Barlow Twins/SIGREG, so the RankMe criterion just becomes part of training. It gets absorbed into a loss which wasn’t monotonic to begin with, and I ought to be able to inflate it by increasing the penalty weight. Surely it’s no longer an effective criterion, right? What else is there? submitted by /u/XTXinverseXTY [link] [comments]",
+    "author": "/u/XTXinverseXTY",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Non-contrastive SSL methods like BYOL/JEPA/data2vec seem promising, but I have no idea what is being learned, or how well; it’s models all the way down. Maybe I’ve got supervised tasks for which I’d like to see transfer, and I can evaluate linear probe/KNN results during training, but that seems like a way to efficiently abuse researcher degrees of freedom.</p> <p>I know <a href=\"https://arxiv.org/abs/2210.02885\">RankMe</a> is meant to help address this: embed some data and SVD the embedding matrix. A healthy learner should produce an embedding with a high effective rank.</p> <p>But JEPA methods already require an entropy-collapse term like Barlow Twins/SIGREG, so the RankMe criterion just becomes part of training. It gets absorbed into a loss which wasn’t monotonic to begin with, and I ought to be able to inflate it by increasing the penalty weight. Surely it’s no longer an effective criterion, right? What else is there?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/XTXinverseXTY\"> /u/XTXinverseXTY </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tmprdm/how_do_ml_practitioners_select_hyperparameters/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tmprdm/how_do_ml_practitioners_select_hyperparameters/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7120afef-bb55-55f2-97f6-e2f4cf68d211",
     "title": "Thermocompute constant time inference [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tmebju/thermocompute_constant_time_inference_p/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>RPS is inspired by neuroscience. As humans, we learn basic skills as kids with high neuro-plasticity. We then learn advanced skills as teens and adults with low neuro-plasticity. RPS trains a model in 2 stages. In stage 1, the model is trained on easy data with high learning rate. In stage 2, the model is trained on hard data with 10% the learning rate of stage 1. RPS is basically a combination of existing ideas: curriculum learning + learning rate decay.</p> <p>ARC-AGI 1 public eval scores:</p> <p>base model: Qwen3-8b</p> <p>RPS: 4%</p> <p>EPS (equal learning rate in both stages): 2.4%</p> <p>Program Synthesis Stats:</p> <p>Program executions without error:</p> <p>RPS: 1145/1200</p> <p>EPS: 870/1200</p> <p><a href=\"https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html\">https://iamjasonfeng.blogspot.com/2026/05/regressive-plasticity-schedule.html</a></p> <p><a href=\"https://github.com/iamjasonfeng/RPS\">https://github.com/iamjasonfeng/RPS</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iamjasonfeng\"> /u/iamjasonfeng </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjpivb/i_created_an_llm_posttraining_method_called_rps/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b0b05bff-e369-512a-a0d6-c2542f7d2023",
-    "title": "Does this idea sound fun? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tjoeom/does_this_idea_sound_fun_r/",
-    "pubDate": "2026-05-21T15:42:05+00:00",
-    "description": "It's about inference-time learning by inserting some experts specialized for updating sibling expert weights in MoE. All the components needed were already there, but no one tried it inside MoE, so I did a small PoC. It kinda worked. I'd love to hear what you think. https://zenodo.org/records/19661389 submitted by /u/max6296 [link] [comments]",
-    "author": "/u/max6296",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>It's about inference-time learning by inserting some experts specialized for updating sibling expert weights in MoE. All the components needed were already there, but no one tried it inside MoE, so I did a small PoC. It kinda worked. I'd love to hear what you think.</p> <p><a href=\"https://zenodo.org/records/19661389\">https://zenodo.org/records/19661389</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/max6296\"> /u/max6296 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjoeom/does_this_idea_sound_fun_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tjoeom/does_this_idea_sound_fun_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "ddb00e6c-5415-5b5a-849d-adb22ae899df",
+    "title": "PSA: Throttle GPU power limits, with minor performance deficits",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u15qk3/psa_throttle_gpu_power_limits_with_minor/",
+    "pubDate": "2026-06-09T13:57:08+00:00",
+    "description": "I just feel i need to post this here again so more people see: Test around with throttling the power limits of your GPUs, you will often find that you can save tons of power with only minor performance deficits. On my dual Radeon VII setup, i went from 250 to 100 watts per card, and the speeds diminished by not even 10%. submitted by /u/milpster [link] [comments]",
+    "author": "/u/milpster",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I just feel i need to post this here again so more people see: Test around with throttling the power limits of your GPUs, you will often find that you can save tons of power with only minor performance deficits.</p> <p>On my dual Radeon VII setup, i went from 250 to 100 watts per card, and the speeds diminished by not even 10%.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/milpster\"> /u/milpster </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u15qk3/psa_throttle_gpu_power_limits_with_minor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u15qk3/psa_throttle_gpu_power_limits_with_minor/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "11f7de07-2f1d-561a-b551-1ed7ff44c588",
     "title": "Apple announced new on device inference engine for Apple Silicon",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0rk0o/2x_tks_from_194_381_tks_on_1_x_mi50_playing_with/\"> <img alt=\"2X tk/s (from 19.4 -&gt; 38.1 tk/s on 1 x MI50) Playing with a hypothesis like speculative decoding.. but instead of an additional side model, exploiting that I can run multiple computations side-by-side AS IF I had Qwen3.6-27B loaded twice in memory - small quants don't use all the available compute.\" src=\"https://external-preview.redd.it/Lsh6TSGhc6X7GcqB9rkRMR3VFxokBXGJxh97sq9DvM4.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=231f8090fb5a0277e57d0165a9d944875cbc9ce2\" title=\"2X tk/s (from 19.4 -&gt; 38.1 tk/s on 1 x MI50) Playing with a hypothesis like speculative decoding.. but instead of an additional side model, exploiting that I can run multiple computations side-by-side AS IF I had Qwen3.6-27B loaded twice in memory - small quants don't use all the available compute.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>MODS: if you wanna remove for slop, that's cool - once I have something like a llama.cpp patch I'll repost something people can use. I'll write a full article on my Medium account with how it works. Just got excited and wanted to share.</p> <p>***<br /> Forgive the claude summary, in the readme, but the base works. I'm still working on the hip kernal and having it combine with MTP. I hope to get up near 80 tk/s.</p> <p>All started because I realized every Q8 (INT8 or F8) calculation was using f32 of compute and only use 1/4th the available numbers... so. for each value loaded we can run 4 operations. Then the idea of speculative decoding which has a smaller model on the side running predictions that a bigger model votes on/vetos - why not just have THE SAME MODEL make those determinations.</p> <p>KV cache adds a little overhead, but it's tiny. see tables in readme, and some SVGs as well.</p> <p>Benchmark is my single MI50.</p> <p>Because we're exploiting the nature of the smaller quants (Q8 or less), this really only works with those.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bigattichouse\"> /u/bigattichouse </a> <br /> <span><a href=\"https://github.com/bigattichouse/packed-twin-inference\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0rk0o/2x_tks_from_194_381_tks_on_1_x_mi50_playing_with/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/Lsh6TSGhc6X7GcqB9rkRMR3VFxokBXGJxh97sq9DvM4.png?width=640&crop=smart&auto=webp&s=231f8090fb5a0277e57d0165a9d944875cbc9ce2",
-    "isShortVideo": 0
-  },
-  {
-    "id": "59a0019e-2c79-57e4-8c2d-1974361c4529",
-    "title": "pixtuoid - Terminal pixel-art office for AI coding agents",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u0r81z/pixtuoid_terminal_pixelart_office_for_ai_coding/",
-    "pubDate": "2026-06-09T01:34:36+00:00",
-    "description": "Built pixtuoid using Claude Code — a terminal pixel-art office that visualizes your Claude Code (and Codex, Antigravity) sessions as little characters at desks. 🏢 https://ivanwng97.github.io/pixtuoid/ What it does: - each session becomes a character at its own workstation - monitor glows by tool (Edit blue, Bash orange, Read cyan) - agents stand up with a `?` bubble when waiting on permission - sleep at desk when idle, walk to the pantry when bored How Claude Code helped: I'm a mobile dev who'd always wanted to learn Rust but never had the right project. Used Claude Code as a pair programmer — it handled boilerplate and \"what's the idiomatic Rust way\" while I focused on the design, half-block rendering pipeline, hook safety guarantees, and visualization decisions. v0.6 just shipped: - 🪟 Windows support (named pipes hook transport, full CI on Windows) - 📦 npm install: `npm i -g pixtuoid` — works on mac/linux/windows - 6 themes, multi-floor office, weather effects, day/night lighting Feel free to leave any comments~ and star the repo if you find it interesting. submitted by /u/EthanWng97 [link] [comments]",
-    "author": "/u/EthanWng97",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0r81z/pixtuoid_terminal_pixelart_office_for_ai_coding/\"> <img alt=\"pixtuoid - Terminal pixel-art office for AI coding agents\" src=\"https://preview.redd.it/uii702w5u56h1.gif?width=640&amp;crop=smart&amp;s=d104b88245ebb190591782b19e8a1f6b3c9b929f\" title=\"pixtuoid - Terminal pixel-art office for AI coding agents\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Built pixtuoid using Claude Code — a terminal pixel-art office that visualizes your Claude Code (and Codex, Antigravity) sessions as little characters at desks.</p> <p>🏢 <a href=\"https://ivanwng97.github.io/pixtuoid/\">https://ivanwng97.github.io/pixtuoid/</a></p> <p>What it does: </p> <p>- each session becomes a character at its own workstation</p> <p>- monitor glows by tool (Edit blue, Bash orange, Read cyan)</p> <p>- agents stand up with a `?` bubble when waiting on permission</p> <p>- sleep at desk when idle, walk to the pantry when bored</p> <p>How Claude Code helped: </p> <p>I'm a mobile dev who'd always wanted to learn Rust but never had the right project. Used Claude Code as a pair programmer — it handled boilerplate and &quot;what's the idiomatic Rust way&quot; while I focused on the design, half-block rendering pipeline, hook safety guarantees, and visualization decisions.</p> <p>v0.6 just shipped: </p> <p>- 🪟 Windows support (named pipes hook transport, full CI on Windows) </p> <p>- 📦 npm install: `npm i -g pixtuoid` — works on mac/linux/windows </p> <p>- 6 themes, multi-floor office, weather effects, day/night lighting</p> <p>Feel free to leave any comments~ and star the repo if you find it interesting. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EthanWng97\"> /u/EthanWng97 </a> <br /> <span><a href=\"https://i.redd.it/uii702w5u56h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0r81z/pixtuoid_terminal_pixelart_office_for_ai_coding/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/uii702w5u56h1.gif?width=640&crop=smart&s=d104b88245ebb190591782b19e8a1f6b3c9b929f",
     "isShortVideo": 0
   }
 ]
