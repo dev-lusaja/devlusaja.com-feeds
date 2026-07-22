@@ -1,5 +1,21 @@
 [
   {
+    "id": "8baacbad-0051-5879-b7ba-1c6207c70459",
+    "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
+    "link": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
+    "pubDate": "2026-07-06T21:44:23+00:00",
+    "description": "Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Deocrative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/ai-data-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-data\" width=\"768\" />Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these...<img alt=\"Deocrative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/ai-data-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-data\" width=\"768\" /><p>Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these jobs run, the greater the likelihood of encountering unscheduled interruptions or resource fluctuations. Even infrequent device unavailability can have outsized effects on tightly interconnected clusters, resulting in slowdowns for a given…</p>\n<p><a href=\"https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "41c542a1-b534-5abd-ade5-52593988fd4a",
     "title": "Hardware-Rooted AI Security That Won’t Slow You Down",
     "link": "https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ethernet-tech-blog-networking-software-kv-1920x1080-5338100-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ethernet-tech-blog-networking-software-kv-1920x1080-5338100\" width=\"768\" />NVIDIA Quantum InfiniBand now offers intent-based security profiles in Unified Fabric Manager (UFM) that enable multi-tenant fabric security in a single...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ethernet-tech-blog-networking-software-kv-1920x1080-5338100-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ethernet-tech-blog-networking-software-kv-1920x1080-5338100\" width=\"768\" /><p>NVIDIA Quantum InfiniBand now offers intent-based security profiles in Unified Fabric Manager (UFM) that enable multi-tenant fabric security in a single click. NVIDIA Quantum InfiniBand supports three profiles: General, Bare Metal Cloud, and Secured Bare Metal Cloud. Network administrators can now auto-configure: This cuts deployment time to minutes from hours or days…</p>\n<p><a href=\"https://developer.nvidia.com/blog/one-click-multi-tenant-security-with-nvidia-quantum-infiniband/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3eda1236-c176-53c2-bac2-1b29ed4734ef",
-    "title": "Run DiffusionGemma on NVIDIA for Developer-Ready, High-Throughput Text Generation",
-    "link": "https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/",
-    "pubDate": "2026-06-10T16:16:30+00:00",
-    "description": "Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...",
-    "author": "Anu Srivastava",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" />Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" /><p>Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This limits responsiveness, increases serving costs, and makes fluid, interactive experiences difficult to achieve. DiffusionGemma, created by Google DeepMind and optimized to run efficiently across NVIDIA platforms, introduces a new approach to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
