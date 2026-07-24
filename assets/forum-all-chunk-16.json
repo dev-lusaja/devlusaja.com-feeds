@@ -1,5 +1,37 @@
 [
   {
+    "id": "80be9130-fee5-5534-a81c-845b511fe563",
+    "title": "I'm brand new to running LLMs and the sheer number of tools is overwhelming",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1pi1w/im_brand_new_to_running_llms_and_the_sheer_number/",
+    "pubDate": "2026-06-10T02:31:24+00:00",
+    "description": "Hey everyone. I'm brand new to running LLMs in general, even more new to running them locally, and the sheer number of tools available is absolutely overwhelming. Regarding applications, I look at github and see so many different options that I don't know what to pick. Can't really fully decipher the differences between the tools either, mostly because their descriptions/taglines are filled with so many AI buzzwords. What's the go-to GUI for Windows? The built-in ollama GUI seems like it's pretty barebones. Regarding model differences like between qwen vs gemma, is there a resource that shows a comprehensive benchmark? I currently have ollama installed on Windows, downloaded gemma4 and qwen3.6 with ollama pull gemma4 ollama pull qwen3.6 I don't understand the small differences between models, for example qwen3.6:27b vs qwen3.6:35b. I see the size is 17GB vs 24GB, but does one run faster than the other? If the entire model fits within VRAM, should I always use the larger one? How will I know if a model is too big or will run super slow? Purely based on the size listed on https://ollama.com/library/ ? I also found this post: https://old.reddit.com/r/LocalLLaMA/comments/1snxzqi/its_just_me_or_qwen36_feels_kinda_dumb_or_its/ how do i decipher the differences between the 3 models tested? I see lots of letters and numbers that don't mean much to me gemma4-26B-A4B-it-UD-Q4_K_M gemma4-31B-it-Q4_K_M qwen3.6-35B-A3B-UD-IQ4_XS My specs: Component Item CPU 9950X3D RAM 64GB DDR5 @ 6000MT/s GPU RTX 5090 I'm open to any and all tips you're willing to provide. TIA! submitted by /u/cryptospartan [link] [comments]",
+    "author": "/u/cryptospartan",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone. I'm brand new to running LLMs in general, even more new to running them locally, and the sheer number of tools available is absolutely overwhelming.</p> <p>Regarding applications, I look at github and see so many different options that I don't know what to pick. Can't really fully decipher the differences between the tools either, mostly because their descriptions/taglines are filled with so many AI buzzwords. What's the go-to GUI for Windows? The built-in ollama GUI seems like it's pretty barebones.</p> <p>Regarding model differences like between qwen vs gemma, is there a resource that shows a comprehensive benchmark?</p> <p>I currently have ollama installed on Windows, downloaded gemma4 and qwen3.6 with</p> <pre><code>ollama pull gemma4 ollama pull qwen3.6 </code></pre> <p>I don't understand the small differences between models, for example qwen3.6:27b vs qwen3.6:35b. I see the size is 17GB vs 24GB, but does one run faster than the other? If the entire model fits within VRAM, should I always use the larger one? How will I know if a model is too big or will run super slow? Purely based on the size listed on <a href=\"https://ollama.com/library/\">https://ollama.com/library/</a>?</p> <p>I also found this post: <a href=\"https://old.reddit.com/r/LocalLLaMA/comments/1snxzqi/its_just_me_or_qwen36_feels_kinda_dumb_or_its/\">https://old.reddit.com/r/LocalLLaMA/comments/1snxzqi/its_just_me_or_qwen36_feels_kinda_dumb_or_its/</a></p> <p>how do i decipher the differences between the 3 models tested? I see lots of letters and numbers that don't mean much to me</p> <ul> <li>gemma4-26B-A4B-it-UD-Q4_K_M</li> <li>gemma4-31B-it-Q4_K_M</li> <li>qwen3.6-35B-A3B-UD-IQ4_XS</li> </ul> <p>My specs:</p> <table><thead> <tr> <th><strong>Component</strong></th> <th><strong>Item</strong></th> </tr> </thead><tbody> <tr> <td>CPU</td> <td>9950X3D</td> </tr> <tr> <td>RAM</td> <td>64GB DDR5 @ 6000MT/s</td> </tr> <tr> <td>GPU</td> <td>RTX 5090</td> </tr> </tbody></table> <p>I'm open to any and all tips you're willing to provide. TIA!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cryptospartan\"> /u/cryptospartan </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1pi1w/im_brand_new_to_running_llms_and_the_sheer_number/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1pi1w/im_brand_new_to_running_llms_and_the_sheer_number/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d356cea4-617a-5303-b15e-eec266557e63",
+    "title": "gemma4 QATs vs higher-bit regular quantizations?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1pfen/gemma4_qats_vs_higherbit_regular_quantizations/",
+    "pubDate": "2026-06-10T02:28:00+00:00",
+    "description": "I have enough RAM+VRAM to use gemma4 26b a4b up to q6_k quantizations w/ decent performance. Does anyone have any comparisons of the Q4_0 QATs (at 4-bits/wt) vs non-QATs at >4 bits/wt? (ex: q6_K)? KLD vs the originals wouldn't be appropriate IIUC. submitted by /u/Fun_Tangerine_1086 [link] [comments]",
+    "author": "/u/Fun_Tangerine_1086",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have enough RAM+VRAM to use gemma4 26b a4b up to q6_k quantizations w/ decent performance. Does anyone have any comparisons of the Q4_0 QATs (at 4-bits/wt) vs non-QATs at &gt;4 bits/wt? (ex: q6_K)?</p> <p>KLD vs the originals wouldn't be appropriate IIUC.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fun_Tangerine_1086\"> /u/Fun_Tangerine_1086 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1pfen/gemma4_qats_vs_higherbit_regular_quantizations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1pfen/gemma4_qats_vs_higherbit_regular_quantizations/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e2df7e5c-3e29-58e0-ab88-2078adac3793",
     "title": "Without open llm competition, closed source LLM companies will become insatiable.",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1p3k5/without_open_llm_competition_closed_source_llm/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bto5/anthropic_created_a_metric_called_wet_blanket_to/\"> <img alt=\"Anthropic created a metric called 'Wet Blanket' to track how much Claude lectures you\" src=\"https://preview.redd.it/0gxpy8j2la6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4233b6ef07bb63f0075d5fe5416f71f3ed6c6cb2\" title=\"Anthropic created a metric called 'Wet Blanket' to track how much Claude lectures you\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MagicZhang\"> /u/MagicZhang </a> <br /> <span><a href=\"https://i.redd.it/0gxpy8j2la6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bto5/anthropic_created_a_metric_called_wet_blanket_to/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/0gxpy8j2la6h1.png?width=640&crop=smart&auto=webp&s=4233b6ef07bb63f0075d5fe5416f71f3ed6c6cb2",
-    "isShortVideo": 0
-  },
-  {
-    "id": "89c4c913-f5ee-52e7-baa7-b08d8a6f8b7d",
-    "title": "Time Series Forecasting for Agriculture/Crop Volume & Pricing – Looking for Advice [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/",
-    "pubDate": "2026-06-09T17:28:18+00:00",
-    "description": "Hi everyone, I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing. I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert. For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters methods to compare performance. I'm looking for recommendations on: Libraries/frameworks that are commonly used for production-grade time series forecasting Models that work well for agricultural production forecasting Approaches for forecasting commodity/produce pricing Feature engineering ideas (weather, seasonality, acreage, imports, etc.) Any papers, blogs, or resources that would be useful Most of the data is weekly and highly seasonal, with weather and supply conditions playing a major role. Any suggestions, lessons learned, or pointers from people working in forecasting would be greatly appreciated. submitted by /u/foreigneverythingg [link] [comments]",
-    "author": "/u/foreigneverythingg",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing.</p> <p>I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert.</p> <p>For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters methods to compare performance.</p> <p>I'm looking for recommendations on:</p> <ul> <li>Libraries/frameworks that are commonly used for production-grade time series forecasting</li> <li>Models that work well for agricultural production forecasting</li> <li>Approaches for forecasting commodity/produce pricing</li> <li>Feature engineering ideas (weather, seasonality, acreage, imports, etc.)</li> <li>Any papers, blogs, or resources that would be useful</li> </ul> <p>Most of the data is weekly and highly seasonal, with weather and supply conditions playing a major role.</p> <p>Any suggestions, lessons learned, or pointers from people working in forecasting would be greatly appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/foreigneverythingg\"> /u/foreigneverythingg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "628d1086-0f4c-5e95-b38d-c5968d25aece",
-    "title": "Progress",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1bo6o/progress/",
-    "pubDate": "2026-06-09T17:25:11+00:00",
-    "description": "submitted by /u/KHHAANNN [link] [comments]",
-    "author": "/u/KHHAANNN",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bo6o/progress/\"> <img alt=\"Progress\" src=\"https://preview.redd.it/jdszsigbka6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fb1897d922cc30615f5d30eaab7fdbad0f545f34\" title=\"Progress\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KHHAANNN\"> /u/KHHAANNN </a> <br /> <span><a href=\"https://i.redd.it/jdszsigbka6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bo6o/progress/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/jdszsigbka6h1.png?width=640&crop=smart&auto=webp&s=fb1897d922cc30615f5d30eaab7fdbad0f545f34",
     "isShortVideo": 0
   }
 ]

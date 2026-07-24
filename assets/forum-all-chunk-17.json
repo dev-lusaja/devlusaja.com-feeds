@@ -1,5 +1,37 @@
 [
   {
+    "id": "89c4c913-f5ee-52e7-baa7-b08d8a6f8b7d",
+    "title": "Time Series Forecasting for Agriculture/Crop Volume & Pricing – Looking for Advice [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/",
+    "pubDate": "2026-06-09T17:28:18+00:00",
+    "description": "Hi everyone, I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing. I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert. For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters methods to compare performance. I'm looking for recommendations on: Libraries/frameworks that are commonly used for production-grade time series forecasting Models that work well for agricultural production forecasting Approaches for forecasting commodity/produce pricing Feature engineering ideas (weather, seasonality, acreage, imports, etc.) Any papers, blogs, or resources that would be useful Most of the data is weekly and highly seasonal, with weather and supply conditions playing a major role. Any suggestions, lessons learned, or pointers from people working in forecasting would be greatly appreciated. submitted by /u/foreigneverythingg [link] [comments]",
+    "author": "/u/foreigneverythingg",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing.</p> <p>I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert.</p> <p>For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters methods to compare performance.</p> <p>I'm looking for recommendations on:</p> <ul> <li>Libraries/frameworks that are commonly used for production-grade time series forecasting</li> <li>Models that work well for agricultural production forecasting</li> <li>Approaches for forecasting commodity/produce pricing</li> <li>Feature engineering ideas (weather, seasonality, acreage, imports, etc.)</li> <li>Any papers, blogs, or resources that would be useful</li> </ul> <p>Most of the data is weekly and highly seasonal, with weather and supply conditions playing a major role.</p> <p>Any suggestions, lessons learned, or pointers from people working in forecasting would be greatly appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/foreigneverythingg\"> /u/foreigneverythingg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "628d1086-0f4c-5e95-b38d-c5968d25aece",
+    "title": "Progress",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1bo6o/progress/",
+    "pubDate": "2026-06-09T17:25:11+00:00",
+    "description": "submitted by /u/KHHAANNN [link] [comments]",
+    "author": "/u/KHHAANNN",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bo6o/progress/\"> <img alt=\"Progress\" src=\"https://preview.redd.it/jdszsigbka6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fb1897d922cc30615f5d30eaab7fdbad0f545f34\" title=\"Progress\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KHHAANNN\"> /u/KHHAANNN </a> <br /> <span><a href=\"https://i.redd.it/jdszsigbka6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bo6o/progress/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/jdszsigbka6h1.png?width=640&crop=smart&auto=webp&s=fb1897d922cc30615f5d30eaab7fdbad0f545f34",
+    "isShortVideo": 0
+  },
+  {
     "id": "96da3f17-73d4-5b69-a317-7e7c9ea1a78f",
     "title": "AGI is here (Fable 5 suggest me to Drive to the car Wash)",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1bmim/agi_is_here_fable_5_suggest_me_to_drive_to_the/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/\"> <img alt=\"I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B\" src=\"https://external-preview.redd.it/LrhhrCoZZIyfoDkMLpOkoulEbx6zqeOeio9WllRs9gM.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=4272b510e692ffcd7084f1d0d1bb0fe2c9c6282d\" title=\"I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This is still a work in progress, but since recording the video, I added callbacks for tool use, more tests, and published it as a <a href=\"https://crates.io/crates/bebelm\">cargo crate</a>. Currently working on speeding up the prefill.</p> <p>The decode speed is almost the same on my Ryzen 7950x (~37 tokens/s), but the prefill speed is not yet optimized (almost the same as decode).</p> <p>This model can comfortably run on a machine with 16GB of RAM. Its memory usage will fit within ~7GB. You can reuse the weights between multiple Agent instances, each with their own KV cache. You can also clone Agent object instances if your agents have the same prompt so that you don't need to repeat the prefill work on the prompt.</p> <p>The GitHub repo is here: <a href=\"https://github.com/maximecb/bebelm\">https://github.com/maximecb/bebelm</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/maximecb\"> /u/maximecb </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=whni8GW3xNM\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/LrhhrCoZZIyfoDkMLpOkoulEbx6zqeOeio9WllRs9gM.jpeg?width=320&crop=smart&auto=webp&s=4272b510e692ffcd7084f1d0d1bb0fe2c9c6282d",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b1d91277-8d2e-573d-948f-bd3185edbda0",
-    "title": "Rumor: Anthropic Planning to Release Public Version of Claude Mythos Tomorrow (with Guardrails)",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u13ljr/rumor_anthropic_planning_to_release_public/",
-    "pubDate": "2026-06-09T12:29:46+00:00",
-    "description": "According to tech journalist Alex Heath (Sources newsletter), Anthropic is planning to release a public version of Mythos tomorrow. Key details from the report: • It will include substantial guardrails, notably not as cyber-permissive as the restricted preview used by Project Glasswing partners. • Expected to be dramatically better at long-horizon, multi-turn tasks and agentic work. Background on Mythos: • First introduced in April 2026 as Claude Mythos Preview. This was Anthropic’s most capable frontier model at the time, excelling in coding, reasoning, and cybersecurity (finding and exploiting zero-days). • Initially withheld from the public due to safety concerns. It was made available only to select partners via Project Glasswing for defensive cybersecurity use. Partners have reportedly identified thousands of critical vulnerabilities. • Anthropic has previously stated plans for eventual broader release of “Mythos-class models” once stronger safeguards are in place. This would be a big step forward in making advanced capabilities available to general users. Expect new benchmarks, comparisons, and ongoing debates about capabilities versus safety. Sources : Anthropic Official – Project Glasswing initial update: https://www.anthropic.com/research/glasswing-initial-update Alex Heath / Sources newsletter: https://sources.news/p/inside-apples-siri-revamp-anthropic What are your thoughts? Hype, concerns about safety, or predictions on performance? 👇 submitted by /u/nullvector88 [link] [comments]",
-    "author": "/u/nullvector88",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>According to tech journalist Alex Heath (Sources newsletter), Anthropic is planning to release a public version of Mythos tomorrow.</p> <p><strong>Key details from the report:</strong><br /> • It will include substantial guardrails, notably not as cyber-permissive as the restricted preview used by Project Glasswing partners.</p> <p>• Expected to be dramatically better at long-horizon, multi-turn tasks and agentic work.</p> <p><strong>Background on Mythos:</strong><br /> • First introduced in April 2026 as Claude Mythos Preview. This was Anthropic’s most capable frontier model at the time, excelling in coding, reasoning, and cybersecurity (finding and exploiting zero-days).<br /> • Initially withheld from the public due to safety concerns. It was made available only to select partners via Project Glasswing for defensive cybersecurity use. Partners have reportedly identified thousands of critical vulnerabilities.<br /> • Anthropic has previously stated plans for eventual broader release of “Mythos-class models” once stronger safeguards are in place.<br /> This would be a big step forward in making advanced capabilities available to general users. Expect new benchmarks, comparisons, and ongoing debates about capabilities versus safety.</p> <p><strong>Sources</strong>:</p> <p>Anthropic Official – Project Glasswing initial update: <a href=\"https://www.anthropic.com/research/glasswing-initial-update\">https://www.anthropic.com/research/glasswing-initial-update</a></p> <p>Alex Heath / Sources newsletter: <a href=\"https://sources.news/p/inside-apples-siri-revamp-anthropic\">https://sources.news/p/inside-apples-siri-revamp-anthropic</a></p> <p>What are your thoughts? Hype, concerns about safety, or predictions on performance? 👇</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nullvector88\"> /u/nullvector88 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u13ljr/rumor_anthropic_planning_to_release_public/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u13ljr/rumor_anthropic_planning_to_release_public/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "55ff551d-250d-5be9-a56d-4da75115211d",
-    "title": "Are privacy-preserving techniques actually being used in production ML systems? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u12bpa/are_privacypreserving_techniques_actually_being/",
-    "pubDate": "2026-06-09T11:30:16+00:00",
-    "description": "I've been reading more about privacy-preserving ML approaches such as differential privacy, federated learning, and on-device inference. The research literature is fairly active, but I'm curious about real-world adoption. For those working in industry: Are these techniques being deployed in production? What were the biggest engineering challenges? Did privacy requirements significantly impact model performance or infrastructure costs? Are there specific use cases where privacy-preserving approaches have proven especially valuable? Interested in hearing both success stories and cases where the tradeoffs made adoption difficult. submitted by /u/Electrical_Mine1912 [link] [comments]",
-    "author": "/u/Electrical_Mine1912",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been reading more about privacy-preserving ML approaches such as differential privacy, federated learning, and on-device inference.</p> <p>The research literature is fairly active, but I'm curious about real-world adoption.</p> <p>For those working in industry:</p> <ul> <li>Are these techniques being deployed in production?</li> <li>What were the biggest engineering challenges?</li> <li>Did privacy requirements significantly impact model performance or infrastructure costs?</li> <li>Are there specific use cases where privacy-preserving approaches have proven especially valuable?</li> </ul> <p>Interested in hearing both success stories and cases where the tradeoffs made adoption difficult.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Mine1912\"> /u/Electrical_Mine1912 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12bpa/are_privacypreserving_techniques_actually_being/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12bpa/are_privacypreserving_techniques_actually_being/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

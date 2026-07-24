@@ -1,5 +1,21 @@
 [
   {
+    "id": "03054ea7-35bc-5340-8fa8-82844abeb13d",
+    "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+    "link": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/",
+    "pubDate": "2026-07-24T16:45:00+00:00",
+    "description": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image5-11-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image5\" width=\"768\" />Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image5-11-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image5\" width=\"768\" /><p>Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving these model weights around the cluster is extremely common. For instance, a cold start may pull weights from remote storage into GPU memory; autoscaling and rolling updates must populate each new replica; and RL post-training continuously…</p>\n<p><a href=\"https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b441dc04-eec9-509e-a211-a9ad3cf40b05",
     "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
     "link": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"600\" />As more teams move from humanoid robot bring-up to task-specific skill development, the need for repeatable development workflows is growing. Building humanoids...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"600\" /><p>As more teams move from humanoid robot bring-up to task-specific skill development, the need for repeatable development workflows is growing. Building humanoids remains complex, and today’s development pipelines are still highly fragmented. As a result, developers spend significant time configuring robotics infrastructure before they can focus on building robot capabilities.</p>\n<p><a href=\"https://developer.nvidia.com/blog/develop-humanoid-robot-policies-end-to-end-with-nvidia-isaac-gr00t/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "89faf8e3-1c8e-5d63-a48e-7d97c458c68c",
-    "title": "Building an Analysis AI Agent for Industrial Alarm Management with NVIDIA Nemotron",
-    "link": "https://developer.nvidia.com/blog/building-an-analysis-ai-agent-for-industrial-alarm-management-with-nvidia-nemotron/",
-    "pubDate": "2026-07-07T17:00:00+00:00",
-    "description": "Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context,...",
-    "author": "Tanya Lenz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/networked-system-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"networked-system\" width=\"768\" />Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/networked-system-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"networked-system\" width=\"768\" /><p>Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context, determines the correct procedure, checks whether a specialist signal confirms the failure mode, and writes up a recommendation. This process remains consistent, and is well-suited for an AI agent. This post discusses a per-alarm…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-an-analysis-ai-agent-for-industrial-alarm-management-with-nvidia-nemotron/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

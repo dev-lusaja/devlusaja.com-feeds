@@ -1,5 +1,37 @@
 [
   {
+    "id": "01839a88-69cf-5944-a4c1-e41789a38d5b",
+    "title": "EMA on LoRA ? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/",
+    "pubDate": "2026-06-21T16:54:28+00:00",
+    "description": "Hi guys Does anyone know of papers where EMA on LoRA adapters has been used successfully? Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter. On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-tune. Any empirical results showing the idea is working on lora/ left models? [1] https://arxiv.org/abs/2601.19897 submitted by /u/South-Conference-395 [link] [comments]",
+    "author": "/u/South-Conference-395",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys</p> <p>Does anyone know of papers where EMA on LoRA adapters has been used successfully?</p> <p>Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter.</p> <p>On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-tune. Any empirical results showing the idea is working on lora/ left models?</p> <p>[1] <a href=\"https://arxiv.org/abs/2601.19897\">https://arxiv.org/abs/2601.19897</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/South-Conference-395\"> /u/South-Conference-395 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "bdb1b17c-4ba4-5b86-93e4-22205caa81ce",
+    "title": "A slightly improved DVD-JEPA demo [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/",
+    "pubDate": "2026-06-21T15:49:36+00:00",
+    "description": "Hey! I came across this post , which I found quite neat as a minimal demonstration of JEPA. However, as the comments pointed out, there was some room for improvement. So I added a few things such as environment noise and a fair* comparison to a pixel-space baseline. I think the inclusion of environment noise is pretty key, as LeCun himself has stated often and clearly that one of the key motivating factors for JEPA is its ability to disregard unpredictable and irrelevant environment details. Anyway, here’s the result which I think speaks for itself: https://i.redd.it/kadcsrx4nn8h1.gif I think my version paints a much clearer picture of JEPA’s promise. I did remove the web-demo and anomaly detection bit as I felt that wasn't so important to the core demonstration of JEPA as an idea Linking my fork for those interested. Note: Since this was a very quick afternoon-project , I did use AI to make most of the changes, though I did try to do so thoughtfully. Hate that if you must. *fair as in: roughly same parameter count and compute budget. I considered the linear probe and decoder compute budget to be independent from core model training. submitted by /u/Kirne [link] [comments]",
+    "author": "/u/Kirne",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/\"> <img alt=\"A slightly improved DVD-JEPA demo [P]\" src=\"https://external-preview.redd.it/PTQPfpRmdU6UwXNRnHJCYZpwXhggZYQPwTvUQN3qx2A.png?width=140&amp;height=70&amp;auto=webp&amp;s=44ffb1f31912d4cf948bcd9a46a3bfef22db2938\" title=\"A slightly improved DVD-JEPA demo [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey!</p> <p>I came across <a href=\"https://www.reddit.com/r/MachineLearning/s/nULg3kCMEu\">this post</a>, which I found quite neat as a minimal demonstration of JEPA. However, as the comments pointed out, there was some room for improvement. So I added a few things such as environment noise and a fair* comparison to a pixel-space baseline. </p> <p>I think the inclusion of environment noise is pretty key, as LeCun himself has stated often and clearly that one of the key motivating factors for JEPA is its ability to disregard unpredictable and irrelevant environment details.</p> <p>Anyway, here’s the result which I think speaks for itself:</p> <p><a href=\"https://i.redd.it/kadcsrx4nn8h1.gif\">https://i.redd.it/kadcsrx4nn8h1.gif</a></p> <p>I think my version paints a much clearer picture of JEPA’s promise. I did remove the web-demo and anomaly detection bit as I felt that wasn't so important to the core demonstration of JEPA as an idea</p> <p>Linking <a href=\"https://github.com/BeepBo0p/dvd-jepa\">my fork </a>for those interested. Note: Since this was a very quick afternoon-project , I did use AI to make most of the changes, though I did try to do so thoughtfully. Hate that if you must.</p> <p>*fair as in: roughly same parameter count and compute budget. I considered the linear probe and decoder compute budget to be independent from core model training.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kirne\"> /u/Kirne </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/PTQPfpRmdU6UwXNRnHJCYZpwXhggZYQPwTvUQN3qx2A.png?width=140&height=70&auto=webp&s=44ffb1f31912d4cf948bcd9a46a3bfef22db2938",
+    "isShortVideo": 0
+  },
+  {
     "id": "b2f1e322-f54a-5bba-ab0c-df1feefc5514",
     "title": "I released a softmax-free attention model at GPT-2 Medium scale (~354M params, 11.5B tokens): structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have a fairly weak undergraduate: a 3.3/5 GPA in Computer Engineering from an average Nigerian university. For my Master's, I studied Artificial Intelligence at an average European university, where I finished with an 8/10 GPA.</p> <p>A condensed version of my Master's thesis was recently accepted at ACL 2026, with a meta-review score of 8/10 and a confidence score of 5/5. It's scheduled for presentation next month.</p> <p>I want to pursue a PhD focused on expanding linguistic resources for low-resource African languages. I know my weak undergrad GPA and the relatively unknown reputation of my previous universities will make it hard to get into top NLP programs (CMU, Edinburgh, ETH, MBZUAI, etc.), though I'm hoping the ACL paper helps offset that somewhat.</p> <p>At the same time, I don't want to end up at a less competitive university just for the sake of getting in somewhere, if it doesn't do meaningful work on low-resource NLP.</p> <p>How should I think about structuring my application strategy here (reach vs. safety schools, how to frame my profile, what to emphasize)? I'd also genuinely appreciate honest feedback on my overall profile.</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unlikely_Screen_9287\"> /u/Unlikely_Screen_9287 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8bp65/acl_2026_first_author_with_weak_gpa_how_should_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8bp65/acl_2026_first_author_with_weak_gpa_how_should_i/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9212bcd2-8306-533b-b7eb-9853f9a98b0c",
-    "title": "ICML (DL4C) Accepted ( Few queries ) [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/",
-    "pubDate": "2026-06-17T13:30:45+00:00",
-    "description": "Just got the email that I have been accepted in DL4C @ICML 2026 , as the email did not contain any details on logistics can someone help here ​ - is it mandatory to visit the workshop ? - what's the usual expense apart from flights, can someone add details like fees and all ? - in the email there's no mention of whether its poster or what ? - How will the overall process works from here it's my first time, any input will be very valuable. ​ Thanks in advance ​ submitted by /u/shifuThePandaGod [link] [comments]",
-    "author": "/u/shifuThePandaGod",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Just got the email that I have been accepted in DL4C @ICML 2026 , as the email did not contain any details on logistics can someone help here </p> <p>&#x200b;</p> <p>- is it mandatory to visit the workshop ? </p> <p>- what's the usual expense apart from flights, can someone add details like fees and all ?</p> <p>- in the email there's no mention of whether its poster or what ?</p> <p>- How will the overall process works from here it's my first time, any input will be very valuable.</p> <p>&#x200b;</p> <p>Thanks in advance</p> <p>&#x200b;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/shifuThePandaGod\"> /u/shifuThePandaGod </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "123ac4b6-7868-5d58-ba97-a53141a12f51",
-    "title": "Next-Latent Prediction Transformers [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/",
-    "pubDate": "2026-06-17T08:44:28+00:00",
-    "description": "Microsoft Research Preprint Next-token prediction is myopic. What if transformers learn to predict their own next latent state? Microsoft Research present Next-Latent Prediction (NextLat) : a self-supervised learning method that teaches transformers to form compact world models for reasoning and planning. It also unlocks up to 3.3x faster inference via self-speculative decoding! On top of next-token prediction, NextLat trains the transformer to predict its own next latent state given the current latent state and next token. NextLat has a few key benefits: Representation Learning : NextLat encourages transformers to compress history into compact belief states. Better Data Efficiency : predicting in latent space provides denser supervision than predicting one-hot tokens. Faster Inference : via recursive multi-step lookahead. I'm super excited about this work. Please do check it out below: 💬 Blog: https://jaydenteoh.github.io/blog/2026/nextlat 💻 Code: https://github.com/JaydenTeoh 📝 Paper: https://arxiv.org/abs/2511.05963 submitted by /u/jayden_teoh_ [link] [comments]",
-    "author": "/u/jayden_teoh_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/\"> <img alt=\"Next-Latent Prediction Transformers [R]\" src=\"https://preview.redd.it/efm7zazr2t7h1.png?width=140&amp;height=90&amp;auto=webp&amp;s=c1b7070ca3de62bdc276d7a185c72f6737e6f92e\" title=\"Next-Latent Prediction Transformers [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/efm7zazr2t7h1.png?width=2950&amp;format=png&amp;auto=webp&amp;s=444dc71b22bca0c499f56367f705fb4ea23d07b8\">Microsoft Research Preprint</a></p> <p>Next-token prediction is myopic. What if transformers learn to predict their own next latent state?</p> <p>Microsoft Research present <strong>Next-Latent Prediction (NextLat)</strong>: a self-supervised learning method that teaches transformers to form compact world models for reasoning and planning. It also unlocks up to 3.3x faster inference via self-speculative decoding!</p> <p>On top of next-token prediction, NextLat trains the transformer to predict its own next latent state given the current latent state and next token.</p> <p>NextLat has a few key benefits:</p> <ol> <li><strong>Representation Learning</strong>: NextLat encourages transformers to compress history into compact belief states.</li> <li><strong>Better Data Efficiency</strong>: predicting in latent space provides denser supervision than predicting one-hot tokens.</li> <li><strong>Faster Inference</strong>: via recursive multi-step lookahead.</li> </ol> <p>I'm super excited about this work. Please do check it out below:</p> <p>💬 Blog: <a href=\"https://jaydenteoh.github.io/blog/2026/nextlat\">https://jaydenteoh.github.io/blog/2026/nextlat</a><br /> 💻 Code: <a href=\"https://github.com/JaydenTeoh\">https://github.com/JaydenTeoh</a><br /> 📝 Paper: <a href=\"https://arxiv.org/abs/2511.05963\">https://arxiv.org/abs/2511.05963</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jayden_teoh_\"> /u/jayden_teoh_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/efm7zazr2t7h1.png?width=140&height=90&auto=webp&s=c1b7070ca3de62bdc276d7a185c72f6737e6f92e",
     "isShortVideo": 0
   }
 ]
