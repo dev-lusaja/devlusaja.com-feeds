@@ -1,5 +1,37 @@
 [
   {
+    "id": "12b288e2-e4ec-5b48-bee2-c7b903d4b923",
+    "title": "[Talk] Text Diffusion — Google DeepMind's Brendan O’Donoghue",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3f9hs/talk_text_diffusion_google_deepminds_brendan/",
+    "pubDate": "2026-06-11T23:43:20+00:00",
+    "description": "This video was released just a week ago, right before the release of DiffusionGemma, and it's even more relevant now! it answers a lot of questions and confusion I've seen in this sub-reddit on this release, so I highly recommend giving it a watch if you're interested in it. submitted by /u/z_latent [link] [comments]",
+    "author": "/u/z_latent",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3f9hs/talk_text_diffusion_google_deepminds_brendan/\"> <img alt=\"[Talk] Text Diffusion — Google DeepMind's Brendan O’Donoghue\" src=\"https://external-preview.redd.it/WQ26AnaTZrMVOGqTjXigInCvvP2RzzTVw9MP3AJPX7w.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=3541410f085684990b2d1f60fd8e91449e035280\" title=\"[Talk] Text Diffusion — Google DeepMind's Brendan O’Donoghue\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This video was released just a week ago, right before the release of DiffusionGemma, and it's even more relevant now! it answers a lot of questions and confusion I've seen in this sub-reddit on this release, so I highly recommend giving it a watch if you're interested in it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/z_latent\"> /u/z_latent </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=r305-aQTaU0\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3f9hs/talk_text_diffusion_google_deepminds_brendan/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/WQ26AnaTZrMVOGqTjXigInCvvP2RzzTVw9MP3AJPX7w.jpeg?width=320&crop=smart&auto=webp&s=3541410f085684990b2d1f60fd8e91449e035280",
+    "isShortVideo": 0
+  },
+  {
+    "id": "6cdd4226-ee7d-5770-aa60-37183439dab5",
+    "title": "What models you guys running on 8GB? 16GB VRAM? 24GB? 32GB? 48GB?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/",
+    "pubDate": "2026-06-11T21:35:43+00:00",
+    "description": "And what are you using for kv cache and context? What kind of performance are you getting? What is your hardware? And what are you using your models for? I figure with how fast everything moves, its worth asking once in a while to congeal our experiences. submitted by /u/Inevitable_Mistake32 [link] [comments]",
+    "author": "/u/Inevitable_Mistake32",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>And what are you using for kv cache and context? What kind of performance are you getting?<br /> What is your hardware? And what are you using your models for?</p> <p>I figure with how fast everything moves, its worth asking once in a while to congeal our experiences.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Inevitable_Mistake32\"> /u/Inevitable_Mistake32 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8df275c4-0732-5ffb-99a5-70e326ec35ae",
     "title": "MiMoCode released as OSS",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u39vwn/mimocode_released_as_oss/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm a biologist, been using Claude for years now to help with workflows for genome assembly and annotation. Not at all a dangerous task (I don't even work on human genomes), yet Fable outright rejects any prompts related to the entire field of biology. Why can't they implement more realistic safeguards for specific, potentially dangerous areas of biology, like immunology, drug design, or genetic engineering? I doubt many small labs will be able to afford access to Mythos. This is going to leave lots of important (but less well funded) areas of biological research behind.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DarterNerd\"> /u/DarterNerd </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2wd1t/fablemythos_safeguards_are_overly_strict/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2wd1t/fablemythos_safeguards_are_overly_strict/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e1ae7210-738e-5bf4-a7c6-1a3095a66f7f",
-    "title": "How do i prevent llama.cpp from offloading on Swap?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2w9hg/how_do_i_prevent_llamacpp_from_offloading_on_swap/",
-    "pubDate": "2026-06-11T11:22:08+00:00",
-    "description": "I have tried preventing this issue by using llama.cpp flags. However, I still have the issue: whenever I'm close to my 96GB of RAM, llama-server / llama.cpp decides to offload the KV cache onto my swap. This usually happens when I'm at 91-92GB of RAM and I still have 4GB to spare. Is there a more aggressive way for llama.cpp to only offload when I'm at, let's say, 95GB of RAM? Specs: M2 Max 96GB Qwen 3.5 122b q4 latest llama.cpp version llama-server --port ${PORT} --model /Users/user/.lmstudio/models/unsloth/Qwen3.5-122B-A10B-MTP-GGUF/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf --spec-type draft-mtp --spec-draft-n-max 2 --ctx-size 150000 --temp 0.6 --top-p 0.95 --top-k 20 --min-p 0.00 --mlock --parallel 1 --no-warmup --jinja --threads 8 -ngl 99 --ctx-checkpoints 32 --presence-penalty 0.0 --repeat-penalty 1.0 --no-context-shift --cache-ram 6000 -fa on submitted by /u/No_Algae1753 [link] [comments]",
-    "author": "/u/No_Algae1753",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have tried preventing this issue by using llama.cpp flags. However, I still have the issue: whenever I'm close to my 96GB of RAM, llama-server / llama.cpp decides to offload the KV cache onto my swap. This usually happens when I'm at 91-92GB of RAM and I still have 4GB to spare. Is there a more aggressive way for llama.cpp to only offload when I'm at, let's say, 95GB of RAM?</p> <pre><code>Specs: M2 Max 96GB Qwen 3.5 122b q4 latest llama.cpp version llama-server --port ${PORT} --model /Users/user/.lmstudio/models/unsloth/Qwen3.5-122B-A10B-MTP-GGUF/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf --spec-type draft-mtp --spec-draft-n-max 2 --ctx-size 150000 --temp 0.6 --top-p 0.95 --top-k 20 --min-p 0.00 --mlock --parallel 1 --no-warmup --jinja --threads 8 -ngl 99 --ctx-checkpoints 32 --presence-penalty 0.0 --repeat-penalty 1.0 --no-context-shift --cache-ram 6000 -fa on </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Algae1753\"> /u/No_Algae1753 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2w9hg/how_do_i_prevent_llamacpp_from_offloading_on_swap/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2w9hg/how_do_i_prevent_llamacpp_from_offloading_on_swap/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "141e64d5-f53a-58a9-8c72-db097d36d961",
-    "title": "How I implemented ASR bias for voice transcription models [Open Source]",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/",
-    "pubDate": "2026-06-11T10:56:34+00:00",
-    "description": "I've been spending the last couple of weeks building a Wispr Flow clone as an open source project. For context, it is a voice dictation app that lets you type faster, by speaking instead of actually typing. I spent the first week building the basic STT capabilities. One of the coolest features that Wispr Flow has is ASR biasing. Wispr Flow calls it its dictionary. I was able to figure out how to implement that for my project and wanted to share how it was done. What is ASR biasing? ASR biasing is a transcription technique that guides the model with hints on how words are spelled, or what phrases are common. In my example in the video, I gave guidance that I wanted to talk about the “Knicks” and “OG Anunoby”. When you have biasing set up, the words that you have set up are more likely to show up when you say phrases that sound similar. How it's implemented in code Implementing ASR biasing is actually incredibly easy. Each model provider handles it differently, and they call it different things. For example, OpenAI and Groq set a prompt as its bias mechanism, similar to an LLM system prompt. Local models like whisper.cpp and local Mac models from MLX also run the same prompt system. In other providers like Deepgram and Eleven Labs, they call them key terms and are configured by search parameters. This is what it looks like to implement in Groq. It's as simple as injecting the dictionary words into the model's “system prompt”. const transcription = await groq.audio.transcriptions.create({ file: fs.createReadStream(\"YOUR_AUDIO.wav\"), model: \"whisper-large-v3-turbo\", prompt: \"vocabulary: Knicks, OG Anonuby\", // Optional response_format: \"verbose_json\", timestamp_granularities: [\"word\", \"segment\"], language: \"en\", temperature: 0.0, }); In Freestyle, we've implemented ASR biasing and call it our “Vocabulary” feature. When you create a vocabulary, it is saved locally within Freestyle. Every time you run inference, your saved vocabulary is freshly injected into models’ system prompt or keyterms. Freestyle oss project All of the work that we've done around ASR biasing is open source and available in our GitHub repo. If this project sounds interesting to you, consider giving it a star! We're also looking to build a community of people interested in working on open source voice dictation. https://github.com/freestyle-voice/freestyle submitted by /u/matt8p [link] [comments]",
-    "author": "/u/matt8p",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/\"> <img alt=\"How I implemented ASR bias for voice transcription models [Open Source]\" src=\"https://external-preview.redd.it/YTVhd213MnZ3bTZoMaDUjCJxRGoiNjjmNeUNS4PT4TOixk0QnM20egcLPiPB.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=916744f26de3d6f79b356fdbdf803a4b20c018d2\" title=\"How I implemented ASR bias for voice transcription models [Open Source]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I've been spending the last couple of weeks building a Wispr Flow clone as an open source project. For context, it is a voice dictation app that lets you type faster, by speaking instead of actually typing.</p> <p>I spent the first week building the basic STT capabilities. One of the coolest features that Wispr Flow has is ASR biasing. Wispr Flow calls it its dictionary. I was able to figure out how to implement that for my project and wanted to share how it was done. </p> <p><strong>What is ASR biasing?</strong></p> <p>ASR biasing is a transcription technique that guides the model with hints on how words are spelled, or what phrases are common. In my example in the video, I gave guidance that I wanted to talk about the “Knicks” and “OG Anunoby”. </p> <p>When you have biasing set up, the words that you have set up are more likely to show up when you say phrases that sound similar. </p> <p><strong>How it's implemented in code</strong></p> <p>Implementing ASR biasing is actually incredibly easy. Each model provider handles it differently, and they call it different things. For example, OpenAI and Groq set a prompt as its bias mechanism, similar to an LLM system prompt. Local models like whisper.cpp and local Mac models from MLX also run the same prompt system.</p> <p>In other providers like Deepgram and Eleven Labs, they call them key terms and are configured by search parameters.</p> <p>This is what it looks like to implement in Groq. It's as simple as injecting the dictionary words into the model's “system prompt”.</p> <p><code> const transcription = await groq.audio.transcriptions.create({ file: fs.createReadStream(&quot;YOUR_AUDIO.wav&quot;), model: &quot;whisper-large-v3-turbo&quot;, prompt: &quot;vocabulary: Knicks, OG Anonuby&quot;, // Optional response_format: &quot;verbose_json&quot;, timestamp_granularities: [&quot;word&quot;, &quot;segment&quot;], language: &quot;en&quot;, temperature: 0.0, }); </code></p> <p>In Freestyle, we've implemented ASR biasing and call it our “Vocabulary” feature. When you create a vocabulary, it is saved locally within Freestyle. Every time you run inference, your saved vocabulary is freshly injected into models’ system prompt or keyterms. </p> <p><strong>Freestyle oss project</strong></p> <p>All of the work that we've done around ASR biasing is open source and available in our GitHub repo. If this project sounds interesting to you, consider giving it a star!</p> <p>We're also looking to build a community of people interested in working on open source voice dictation. </p> <p><a href=\"https://github.com/freestyle-voice/freestyle\">https://github.com/freestyle-voice/freestyle</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/matt8p\"> /u/matt8p </a> <br /> <span><a href=\"https://v.redd.it/hb1xkt2vwm6h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/YTVhd213MnZ3bTZoMaDUjCJxRGoiNjjmNeUNS4PT4TOixk0QnM20egcLPiPB.png?width=640&crop=smart&auto=webp&s=916744f26de3d6f79b356fdbdf803a4b20c018d2",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,37 @@
 [
   {
+    "id": "57876423-d937-50fb-a9f7-c72b885b474d",
+    "title": "Thank God we're being secure.",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1ccfu/thank_god_were_being_secure/",
+    "pubDate": "2026-06-09T17:48:55+00:00",
+    "description": "Claude: Don't tell me your API keys, it's dangerous to give that to an AI agent. Put it in a file instead. Me: Ok, I'll add it to this .env file. Claude: Great. I'm reviewing the API key now and it looks right. Me: Ok, great. ... Wait. submitted by /u/takenorinvalid [link] [comments]",
+    "author": "/u/takenorinvalid",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Claude:</strong> Don't tell me your API keys, it's dangerous to give that to an AI agent. Put it in a file instead.</p> <p><strong>Me:</strong> Ok, I'll add it to this .env file.</p> <p><strong>Claude:</strong> Great. I'm reviewing the API key now and it looks right.</p> <p><strong>Me:</strong> Ok, great.</p> <p>... Wait.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/takenorinvalid\"> /u/takenorinvalid </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1ccfu/thank_god_were_being_secure/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1ccfu/thank_god_were_being_secure/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "fba47894-24ad-5b86-ae08-46a7700c6cc7",
+    "title": "Anthropic created a metric called 'Wet Blanket' to track how much Claude lectures you",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u1bto5/anthropic_created_a_metric_called_wet_blanket_to/",
+    "pubDate": "2026-06-09T17:30:31+00:00",
+    "description": "submitted by /u/MagicZhang [link] [comments]",
+    "author": "/u/MagicZhang",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bto5/anthropic_created_a_metric_called_wet_blanket_to/\"> <img alt=\"Anthropic created a metric called 'Wet Blanket' to track how much Claude lectures you\" src=\"https://preview.redd.it/0gxpy8j2la6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4233b6ef07bb63f0075d5fe5416f71f3ed6c6cb2\" title=\"Anthropic created a metric called 'Wet Blanket' to track how much Claude lectures you\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MagicZhang\"> /u/MagicZhang </a> <br /> <span><a href=\"https://i.redd.it/0gxpy8j2la6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u1bto5/anthropic_created_a_metric_called_wet_blanket_to/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/0gxpy8j2la6h1.png?width=640&crop=smart&auto=webp&s=4233b6ef07bb63f0075d5fe5416f71f3ed6c6cb2",
+    "isShortVideo": 0
+  },
+  {
     "id": "89c4c913-f5ee-52e7-baa7-b08d8a6f8b7d",
     "title": "Time Series Forecasting for Agriculture/Crop Volume & Pricing – Looking for Advice [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I just feel i need to post this here again so more people see: Test around with throttling the power limits of your GPUs, you will often find that you can save tons of power with only minor performance deficits.</p> <p>On my dual Radeon VII setup, i went from 250 to 100 watts per card, and the speeds diminished by not even 10%.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/milpster\"> /u/milpster </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u15qk3/psa_throttle_gpu_power_limits_with_minor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u15qk3/psa_throttle_gpu_power_limits_with_minor/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "11f7de07-2f1d-561a-b551-1ed7ff44c588",
-    "title": "Apple announced new on device inference engine for Apple Silicon",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/",
-    "pubDate": "2026-06-09T13:29:13+00:00",
-    "description": "This news seem to have flown under the radar. Apple announced CoreAI on WWDC which is basically a future replacement for CoreML and an alternative to MLX/llama.cpp/torch for on-device optimized inference, especially on phones and tablets. The model weights need to be converted similarly to CoreML via python script, atm the list of supported models is mostly from mid 2025 year though https://github.com/apple/coreai-models/tree/main/models . For anyone wondering how is that anything new - CoreML out of the box didn't even support models beyond a few billion params and had very limited supported operations pool. This implies big update to ANE ops too. There's nothing on performance yet, it is very likely that it's inferior to pure MLX on GPU atm. The only other interesting thing is that they boast 20B model to be deployed on device for foundation models https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models , which looks to be lazily loaded MoE, so perhaps CoreAI will allow to deploy larger models with apps as well. submitted by /u/bakawolf123 [link] [comments]",
-    "author": "/u/bakawolf123",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>This news seem to have flown under the radar. Apple announced CoreAI on WWDC which is basically a future replacement for CoreML and an alternative to MLX/llama.cpp/torch for on-device optimized inference, especially on phones and tablets. </p> <p>The model weights need to be converted similarly to CoreML via python script, atm the list of supported models is mostly from mid 2025 year though <a href=\"https://github.com/apple/coreai-models/tree/main/models\">https://github.com/apple/coreai-models/tree/main/models</a> . For anyone wondering how is that anything new - CoreML out of the box didn't even support models beyond a few billion params and had very limited supported operations pool. This implies big update to ANE ops too. </p> <p>There's nothing on performance yet, it is very likely that it's inferior to pure MLX on GPU atm. The only other interesting thing is that they boast 20B model to be deployed on device for foundation models <a href=\"https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models\">https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models</a>, which looks to be lazily loaded MoE, so perhaps CoreAI will allow to deploy larger models with apps as well.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bakawolf123\"> /u/bakawolf123 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "08994635-1844-5ab9-865e-fd2be43c1d0b",
-    "title": "I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/",
-    "pubDate": "2026-06-09T13:11:08+00:00",
-    "description": "This is still a work in progress, but since recording the video, I added callbacks for tool use, more tests, and published it as a cargo crate . Currently working on speeding up the prefill. The decode speed is almost the same on my Ryzen 7950x (~37 tokens/s), but the prefill speed is not yet optimized (almost the same as decode). This model can comfortably run on a machine with 16GB of RAM. Its memory usage will fit within ~7GB. You can reuse the weights between multiple Agent instances, each with their own KV cache. You can also clone Agent object instances if your agents have the same prompt so that you don't need to repeat the prefill work on the prompt. The GitHub repo is here: https://github.com/maximecb/bebelm submitted by /u/maximecb [link] [comments]",
-    "author": "/u/maximecb",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/\"> <img alt=\"I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B\" src=\"https://external-preview.redd.it/LrhhrCoZZIyfoDkMLpOkoulEbx6zqeOeio9WllRs9gM.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=4272b510e692ffcd7084f1d0d1bb0fe2c9c6282d\" title=\"I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This is still a work in progress, but since recording the video, I added callbacks for tool use, more tests, and published it as a <a href=\"https://crates.io/crates/bebelm\">cargo crate</a>. Currently working on speeding up the prefill.</p> <p>The decode speed is almost the same on my Ryzen 7950x (~37 tokens/s), but the prefill speed is not yet optimized (almost the same as decode).</p> <p>This model can comfortably run on a machine with 16GB of RAM. Its memory usage will fit within ~7GB. You can reuse the weights between multiple Agent instances, each with their own KV cache. You can also clone Agent object instances if your agents have the same prompt so that you don't need to repeat the prefill work on the prompt.</p> <p>The GitHub repo is here: <a href=\"https://github.com/maximecb/bebelm\">https://github.com/maximecb/bebelm</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/maximecb\"> /u/maximecb </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=whni8GW3xNM\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/LrhhrCoZZIyfoDkMLpOkoulEbx6zqeOeio9WllRs9gM.jpeg?width=320&crop=smart&auto=webp&s=4272b510e692ffcd7084f1d0d1bb0fe2c9c6282d",
     "isShortVideo": 0
   }
 ]
