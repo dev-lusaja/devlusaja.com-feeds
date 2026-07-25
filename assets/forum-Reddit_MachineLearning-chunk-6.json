@@ -1,5 +1,21 @@
 [
   {
+    "id": "ca466659-57db-5144-bf06-32110b7d4eb5",
+    "title": "SentryCode: Real-time Auditor + Honeytokens for AI Coding Agents [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/",
+    "pubDate": "2026-07-02T03:48:58+00:00",
+    "description": "In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerprinting, I've open-sourced SentryCode—a kernel-level behavior auditing tool. It logs file/network/cue activity, uses honeypot tokens for zero-false-positive data breach detection, detects steganographically encrypted covert channels, provides tamper-proof audit logs, and supports policy enforcement. All functions run locally without any outbound connections. The demo program can be run directly using pre-compiled binaries. GitHub: https://github.com/byte271/sentrycode Feedback from users of local AI agents is welcome. submitted by /u/cyh-c [link] [comments]",
+    "author": "/u/cyh-c",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerprinting, I've open-sourced SentryCode—a kernel-level behavior auditing tool.</p> <p>It logs file/network/cue activity, uses honeypot tokens for zero-false-positive data breach detection, detects steganographically encrypted covert channels, provides tamper-proof audit logs, and supports policy enforcement. All functions run locally without any outbound connections.</p> <p>The demo program can be run directly using pre-compiled binaries.</p> <p>GitHub: <a href=\"https://github.com/byte271/sentrycode\">https://github.com/byte271/sentrycode</a></p> <p>Feedback from users of local AI agents is welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cyh-c\"> /u/cyh-c </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ced9561e-c7bb-51e6-ba76-97a2fee77df3",
     "title": "[D] Self-Promotion Thread",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ul5bgf/d_selfpromotion_thread/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey!</p> <p>The EML function made the rounds recently on the internet as a “cool trick” that allows for the representation of all elementary functions through composition.</p> <p>As a mathematical curiosity, we prove a universal approximation theorem for EML(-type) trees.</p> <p>Intuitively, one expects that if elementary functions can be presented by compositions of EMLs, then so too can polynomials, and polynomials are dense in other functional spaces (like continuous functions or certain Sobolev spaces), then one expects to be able to approximate (to desired accuracy) any function (in a reasonably general space) through an EML tree (with an upper bound on size and depth).</p> <p>One of the key steps in the proof (detailed in the appendix) is an explicit construction of EML(-type) representation of binary operations, polynomials, hyperbolic tangent, and approximate partitions of unity, and subsequently using them as “LEGO” blocks to get more complex functions.</p> <p>There are some technical difficulties that need to be dealt with in the proof, especially in what relates to the the ill-definedness of the natural logarithm for nonpositive inputs, which prompts us to do some “sign-based decompositions” in Theorem1.Step 5 and a suitable affine map in Corollary 1.</p> <p>Comments are welcome!</p> <p>Paper: <a href=\"https://arxiv.org/pdf/2606.23179\">https://arxiv.org/pdf/2606.23179</a></p> <p>(Note: I use the term “EML(-type)” in the above description because, due to some theoretical and practical reasons detailed in the paper, we generalize the original EML function by adding some learnable parameters.)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JoeGermany\"> /u/JoeGermany </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uipl1t/eml_trees_are_universal_approximators_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uipl1t/eml_trees_are_universal_approximators_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fac956f3-494a-5183-b6fe-e4805fae8f95",
-    "title": "What do you think of Recursive Self Improvement ? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uip4yo/what_do_you_think_of_recursive_self_improvement_d/",
-    "pubDate": "2026-06-29T10:52:36+00:00",
-    "description": "There was a workshop in ICLR Recursive Self Improvement. Is this something worth pursing for a Phd topic? Webpage : https://recursive-workshop.github.io/ submitted by /u/Successful_Bowl2564 [link] [comments]",
-    "author": "/u/Successful_Bowl2564",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>There was a workshop in ICLR Recursive Self Improvement.</p> <p>Is this something worth pursing for a Phd topic?</p> <p>Webpage : <a href=\"https://recursive-workshop.github.io/\">https://recursive-workshop.github.io/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bowl2564\"> /u/Successful_Bowl2564 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uip4yo/what_do_you_think_of_recursive_self_improvement_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uip4yo/what_do_you_think_of_recursive_self_improvement_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

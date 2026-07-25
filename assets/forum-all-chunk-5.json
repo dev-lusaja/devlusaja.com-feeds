@@ -1,5 +1,21 @@
 [
   {
+    "id": "4fa788df-8a53-56f5-94dc-3b0e5da00ad5",
+    "title": "TRACE: open-source hierarchical memory for LLM agents, 82.5% on MemoryAgentBench’s EventQA using gpt-oss-20B [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/",
+    "pubDate": "2026-07-06T14:35:56+00:00",
+    "description": "Built a memory system called TRACE that organizes agent conversation history into a topic tree (branches + summaries) instead of flat RAG chunks, and benchmarked it on MemoryAgentBench (ICLR 2026), specifically the EventQA accurate-retrieval task. Its a pypi package: pip install trace-memory Results (F1): • TRACE (gpt-oss-20B): 82.5% • TRACE (gpt-oss-120B): 83.8% • Mem0 (GPT-4o-mini, paper’s official number): 37.5% • MemGPT/Letta (GPT-4o-mini, paper’s official number): 26.2% Ran gpt-oss locally, so this is an open-weights model against MemGPT/Mem0 on GPT-4o-mini, not an apples-to-apples same-backbone test (I don’t have the money for open ai tokens). I tried to get Mem0 running on gpt-oss-20B directly for fairness, but its fact-extraction step needs strict JSON output and gpt-oss’s responses didn’t parse cleanly (known issue, not gpt-oss specific. Same bug shows up with Gemini/Mistral too). Letta needs a full server setup so I skipped it. Full JSON logs from both runs are in the repo if you want to dig into the methodology yourselves. GitHub: https://github.com/husain34/TRACE submitted by /u/PsychologicalDot7749 [link] [comments]",
+    "author": "/u/PsychologicalDot7749",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Built a memory system called TRACE that organizes agent conversation history into a topic tree (branches + summaries) instead of flat RAG chunks, and benchmarked it on MemoryAgentBench (ICLR 2026), specifically the EventQA accurate-retrieval task.</p> <p>Its a pypi package:</p> <p>pip install trace-memory</p> <p>Results (F1):<br /> • TRACE (gpt-oss-20B): 82.5%<br /> • TRACE (gpt-oss-120B): 83.8%<br /> • Mem0 (GPT-4o-mini, paper’s official number): 37.5%<br /> • MemGPT/Letta (GPT-4o-mini, paper’s official number): 26.2%</p> <p>Ran gpt-oss locally, so this is an open-weights model against MemGPT/Mem0 on GPT-4o-mini, not an apples-to-apples same-backbone test (I don’t have the money for open ai tokens).</p> <p>I tried to get Mem0 running on gpt-oss-20B directly for fairness, but its fact-extraction step needs strict JSON output and gpt-oss’s responses didn’t parse cleanly (known issue, not gpt-oss specific. Same bug shows up with Gemini/Mistral too). Letta needs a full server setup so I skipped it.</p> <p>Full JSON logs from both runs are in the repo if you want to dig into the methodology yourselves. GitHub: <a href=\"https://github.com/husain34/TRACE\">https://github.com/husain34/TRACE</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PsychologicalDot7749\"> /u/PsychologicalDot7749 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "af2a0779-5cc1-58da-bba4-b603750deb33",
     "title": "Machine learning industry job requirements used to be myopic, but now it feels impossible. Anyone else seeing this? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uov7or/machine_learning_industry_job_requirements_used/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am working in a research group in Germany, not that well known but in general good output. I have one colleague who does nothing in his PhD. He does not want to work, or he is not able to do any good research, his level is super bad. Plus He doesn’t even care about that. To wrap it up, he is just here for the money. </p> <p>Since he doesn’t want to work or he can’t really do anything good, instead what he does is “paper fishing”, he searches for people in the group doing some good research, and asks that they put his name on the paper. In this case he has something to cover up for him when the professor asks him about his progress. As long as his name is on the paper, progress is checked and funding is renewed. But he actually does nothing. </p> <p>I know this is very unprofessional and unethical. But people tell me it’s normal in academia. Professors all the time put names of their friends and this is how it works in academia. What are your thoughts of this behaviour? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/impressivestatus21\"> /u/impressivestatus21 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulgunh/what_do_you_think_about_paper_fishing_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulgunh/what_do_you_think_about_paper_fishing_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ca466659-57db-5144-bf06-32110b7d4eb5",
-    "title": "SentryCode: Real-time Auditor + Honeytokens for AI Coding Agents [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/",
-    "pubDate": "2026-07-02T03:48:58+00:00",
-    "description": "In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerprinting, I've open-sourced SentryCode—a kernel-level behavior auditing tool. It logs file/network/cue activity, uses honeypot tokens for zero-false-positive data breach detection, detects steganographically encrypted covert channels, provides tamper-proof audit logs, and supports policy enforcement. All functions run locally without any outbound connections. The demo program can be run directly using pre-compiled binaries. GitHub: https://github.com/byte271/sentrycode Feedback from users of local AI agents is welcome. submitted by /u/cyh-c [link] [comments]",
-    "author": "/u/cyh-c",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerprinting, I've open-sourced SentryCode—a kernel-level behavior auditing tool.</p> <p>It logs file/network/cue activity, uses honeypot tokens for zero-false-positive data breach detection, detects steganographically encrypted covert channels, provides tamper-proof audit logs, and supports policy enforcement. All functions run locally without any outbound connections.</p> <p>The demo program can be run directly using pre-compiled binaries.</p> <p>GitHub: <a href=\"https://github.com/byte271/sentrycode\">https://github.com/byte271/sentrycode</a></p> <p>Feedback from users of local AI agents is welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cyh-c\"> /u/cyh-c </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
