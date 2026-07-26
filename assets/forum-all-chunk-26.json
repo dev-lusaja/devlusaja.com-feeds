@@ -1,5 +1,37 @@
 [
   {
+    "id": "ef80ada2-9d43-5b69-8c0d-7631350bc57e",
+    "title": "Anthropic is not a normal company",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tybrpv/anthropic_is_not_a_normal_company/",
+    "pubDate": "2026-06-06T08:36:09+00:00",
+    "description": "submitted by /u/EchoOfOppenheimer [link] [comments]",
+    "author": "/u/EchoOfOppenheimer",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tybrpv/anthropic_is_not_a_normal_company/\"> <img alt=\"Anthropic is not a normal company\" src=\"https://preview.redd.it/gq628zqajm5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1bec8c58359b754e6b52f36c5df237f980b0d559\" title=\"Anthropic is not a normal company\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EchoOfOppenheimer\"> /u/EchoOfOppenheimer </a> <br /> <span><a href=\"https://i.redd.it/gq628zqajm5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tybrpv/anthropic_is_not_a_normal_company/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/gq628zqajm5h1.png?width=640&crop=smart&auto=webp&s=1bec8c58359b754e6b52f36c5df237f980b0d559",
+    "isShortVideo": 0
+  },
+  {
+    "id": "33c092cf-4b9b-5ca1-8baa-7be5fc28f015",
+    "title": "I turned our AR spreadsheet into a live collections dashboard using Claude. here's the exact prompt",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/",
+    "pubDate": "2026-06-06T08:35:00+00:00",
+    "description": "Many B2B firms run their Accounts Receivable from Spreadsheet. The data lives in a spreadsheet - aging buckets, who we called, what they said, whether they made a promise to pay. The spreadsheet is fine for storing data. It is terrible at telling you what to do today. It does not flag that someone promised to pay on the 22nd and it is now the 24th. It does not surface that one client has gone four consecutive calls without picking up - which is a pattern, not bad luck. It does not tell you that $19k is sitting at 90+ days with no action owner. So I tried something in Claude Cowork (the \"Cowork\" tab on claude.ai , not regular chat). It has a feature called Live Artifacts - basically Claude builds you a running React app from your data, right inside the chat. Not a screenshot. An actual interactive dashboard with charts, tabs, search, and filters. Here is exactly what I did. (Disclaimer: I have used DEMO data and not actual data here) AI-Powered AR Collections Dashboard I uploaded our AR collections tracker and asked Claude to build a live dashboard showing: Total AR outstanding Past-due invoices Active Promises to Pay (P2Ps) P2P honor rate Open disputes Pre-legal accounts AR aging distribution Collection-stage breakdown Daily action priorities That was essentially the entire prompt. What Claude Built For our demo data, the dashboard surfaced: $116,475 in outstanding receivables 23 past-due invoices 8 active P2Ps worth $45,100 75% P2P honor rate 2 open disputes 2 pre-legal accounts It also generated visualizations showing: AR distribution by aging bucket Accounts by collection stage Daily workload and priorities The Biggest Insight The collection-stage chart immediately highlighted where most invoices were getting stuck. In our case, the largest group of accounts had received an initial reminder but hadn’t responded. That made it obvious where additional outreach would have the biggest impact before accounts progressed into more difficult collection stages. It’s the kind of insight that’s difficult to spot in a spreadsheet but becomes obvious in a dashboard. Daily Action Queue The dashboard also creates a simple morning briefing: Calls due today Promises to Pay due today Broken commitments requiring escalation Open disputes awaiting response Pre-legal accounts needing attention You open it and immediately know where to focus. Why It’s Useful The real value comes from combining operational data, customer interactions, and collection rules into a single view. As new customer conversations and payment commitments are recorded, the dashboard updates automatically and surfaces the next recommended actions. Instead of manually maintaining collection notes and follow-up lists, the system continuously prioritizes the work that matters most. What I Like About This Approach Rather than buying another specialized collections platform, we’re using: A spreadsheet as the data layer AI as the reporting and visualization layer Automated outreach as the execution layer The result is a lightweight collections system that gives management visibility while helping collectors focus on the highest-impact accounts every day. submitted by /u/Training_Bet_2747 [link] [comments]",
+    "author": "/u/Training_Bet_2747",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/\"> <img alt=\"I turned our AR spreadsheet into a live collections dashboard using Claude. here's the exact prompt\" src=\"https://preview.redd.it/02d9azztim5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=40d3ce357cc234043aab9521aa532844095b4551\" title=\"I turned our AR spreadsheet into a live collections dashboard using Claude. here's the exact prompt\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Many B2B firms run their Accounts Receivable from Spreadsheet. The data lives in a spreadsheet - aging buckets, who we called, what they said, whether they made a promise to pay.</p> <p>The spreadsheet is fine for storing data. It is terrible at telling you what to do today.</p> <p>It does not flag that someone promised to pay on the 22nd and it is now the 24th. It does not surface that one client has gone four consecutive calls without picking up - which is a pattern, not bad luck. It does not tell you that $19k is sitting at 90+ days with no action owner.</p> <p>So I tried something in Claude Cowork (the &quot;Cowork&quot; tab on <a href=\"http://claude.ai\">claude.ai</a>, not regular chat). It has a feature called Live Artifacts - basically Claude builds you a running React app from your data, right inside the chat. Not a screenshot. An actual interactive dashboard with charts, tabs, search, and filters.</p> <p>Here is exactly what I did.</p> <p><span class=\"md-spoiler-text\">(Disclaimer: I have used DEMO data and not actual data here) </span></p> <h1>AI-Powered AR Collections Dashboard</h1> <p>I uploaded our AR collections tracker and asked Claude to build a live dashboard showing:</p> <ul> <li>Total AR outstanding</li> <li>Past-due invoices</li> <li>Active Promises to Pay (P2Ps)</li> <li>P2P honor rate</li> <li>Open disputes</li> <li>Pre-legal accounts</li> <li>AR aging distribution</li> <li>Collection-stage breakdown</li> <li>Daily action priorities</li> </ul> <p>That was essentially the entire prompt.</p> <h1>What Claude Built</h1> <p>For our demo data, the dashboard surfaced:</p> <ul> <li><strong>$116,475</strong> in outstanding receivables</li> <li><strong>23</strong> past-due invoices</li> <li><strong>8</strong> active P2Ps worth <strong>$45,100</strong></li> <li><strong>75%</strong> P2P honor rate</li> <li><strong>2</strong> open disputes</li> <li><strong>2</strong> pre-legal accounts</li> </ul> <p>It also generated visualizations showing:</p> <ul> <li>AR distribution by aging bucket</li> <li>Accounts by collection stage</li> <li>Daily workload and priorities</li> </ul> <h1>The Biggest Insight</h1> <p>The collection-stage chart immediately highlighted where most invoices were getting stuck.</p> <p>In our case, the largest group of accounts had received an initial reminder but hadn’t responded. That made it obvious where additional outreach would have the biggest impact before accounts progressed into more difficult collection stages.</p> <p>It’s the kind of insight that’s difficult to spot in a spreadsheet but becomes obvious in a dashboard.</p> <h1>Daily Action Queue</h1> <p>The dashboard also creates a simple morning briefing:</p> <ul> <li>Calls due today</li> <li>Promises to Pay due today</li> <li>Broken commitments requiring escalation</li> <li>Open disputes awaiting response</li> <li>Pre-legal accounts needing attention</li> </ul> <p>You open it and immediately know where to focus.</p> <h1>Why It’s Useful</h1> <p>The real value comes from combining operational data, customer interactions, and collection rules into a single view.</p> <p>As new customer conversations and payment commitments are recorded, the dashboard updates automatically and surfaces the next recommended actions. Instead of manually maintaining collection notes and follow-up lists, the system continuously prioritizes the work that matters most.</p> <h1>What I Like About This Approach</h1> <p>Rather than buying another specialized collections platform, we’re using:</p> <ul> <li>A spreadsheet as the data layer</li> <li>AI as the reporting and visualization layer</li> <li>Automated outreach as the execution layer</li> </ul> <p>The result is a lightweight collections system that gives management visibility while helping collectors focus on the highest-impact accounts every day. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Training_Bet_2747\"> /u/Training_Bet_2747 </a> <br /> <span><a href=\"https://i.redd.it/02d9azztim5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/02d9azztim5h1.png?width=640&crop=smart&auto=webp&s=40d3ce357cc234043aab9521aa532844095b4551",
+    "isShortVideo": 0
+  },
+  {
     "id": "fa72d4da-f61a-51a6-aabc-3828b1c6a039",
     "title": "Using FC26 to simulate the world cup ? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tybqrx/using_fc26_to_simulate_the_world_cup_d/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txufl9/dont_act_like_yall_aint_thinking_it_im_just/\"> <img alt=\"Don’t act like y’all ain’t thinking it. I’m just saying the quiet part out loud. /s\" src=\"https://preview.redd.it/ssewi1ltji5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=88dbf9ec03584c0cb1e8fef0a9b3ca90c06060ee\" title=\"Don’t act like y’all ain’t thinking it. I’m just saying the quiet part out loud. /s\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Of course I’m thankful for all that Qwen has bequeathed us, but deep down in the darkest pit of our souls, every last one of us are just all sitting here waiting for Qwen to say “Hey Google, hold my beer while I drop the best GD model of all time on these fools” /s</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Porespellar\"> /u/Porespellar </a> <br /> <span><a href=\"https://i.redd.it/ssewi1ltji5h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txufl9/dont_act_like_yall_aint_thinking_it_im_just/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/ssewi1ltji5h1.jpeg?width=640&crop=smart&auto=webp&s=88dbf9ec03584c0cb1e8fef0a9b3ca90c06060ee",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e66fd014-b020-57b8-905b-4946cdff65e1",
-    "title": "At least one more Gemma 4 model confirmed??",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txu8dx/at_least_one_more_gemma_4_model_confirmed/",
-    "pubDate": "2026-06-05T19:04:36+00:00",
-    "description": "submitted by /u/Sufficient-Bid3874 [link] [comments]",
-    "author": "/u/Sufficient-Bid3874",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sufficient-Bid3874\"> /u/Sufficient-Bid3874 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txpeo0/gemma_4_with_quantizationaware_training/opybpj1/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txu8dx/at_least_one_more_gemma_4_model_confirmed/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0c174d6a-bbdd-58e7-9a78-3fe54292eb49",
-    "title": "Claude Voice Mode is multilingual now",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1txu2af/claude_voice_mode_is_multilingual_now/",
-    "pubDate": "2026-06-05T18:58:46+00:00",
-    "description": "Couldn’t find any official announcement and no idea how long this has been a thing or if it’s some A/B test, but my Voice Mode just went multilingual, on both desktop and mobile. Was English-only before afaik. submitted by /u/edinges [link] [comments]",
-    "author": "/u/edinges",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txu2af/claude_voice_mode_is_multilingual_now/\"> <img alt=\"Claude Voice Mode is multilingual now\" src=\"https://preview.redd.it/d66nb6jhhi5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b36d7219de17521f831f6c74c55a7fbb9d63f975\" title=\"Claude Voice Mode is multilingual now\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Couldn’t find any official announcement and no idea how long this has been a thing or if it’s some A/B test, but my Voice Mode just went multilingual, on both desktop and mobile. Was English-only before afaik.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/edinges\"> /u/edinges </a> <br /> <span><a href=\"https://i.redd.it/d66nb6jhhi5h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1txu2af/claude_voice_mode_is_multilingual_now/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/d66nb6jhhi5h1.jpeg?width=640&crop=smart&auto=webp&s=b36d7219de17521f831f6c74c55a7fbb9d63f975",
     "isShortVideo": 0
   }
 ]

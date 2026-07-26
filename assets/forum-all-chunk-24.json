@@ -1,5 +1,37 @@
 [
   {
+    "id": "46994801-dcda-5366-b533-6c86c40bd32a",
+    "title": "You don't need a GPU to run gemma-4-26B-A4B",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz5ffp/you_dont_need_a_gpu_to_run_gemma426ba4b/",
+    "pubDate": "2026-06-07T07:24:27+00:00",
+    "description": "I've been running LLMs on my old potato i5-8500 with 32GB of RAM and *no GPU* for awhile now, running up to 12B dense models which run slow but perfectly useable. But this Gemma-4-26B-A4B simply flies on this CPU - only machine using Koboldcpp on Linux. That's right, an old used $150 desktop computer is running state of the art LLMs with something like 7 T/s. Yeah, go ahead and scoff. You can brag about your super-rig that costs more than a used car, but I'm bragging about a crappy old desktop I bought of ebay running the same thing that costs less than a night out. I keep thinking about buying a GPU but it's beginning to look like it might not be necessary. These smaller models are amazing without a GPU. submitted by /u/JackStrawWitchita [link] [comments]",
+    "author": "/u/JackStrawWitchita",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been running LLMs on my old potato i5-8500 with 32GB of RAM and *no GPU* for awhile now, running up to 12B dense models which run slow but perfectly useable. But this Gemma-4-26B-A4B simply flies on this CPU - only machine using Koboldcpp on Linux.</p> <p>That's right, an old used $150 desktop computer is running state of the art LLMs with something like 7 T/s. Yeah, go ahead and scoff. You can brag about your super-rig that costs more than a used car, but I'm bragging about a crappy old desktop I bought of ebay running the same thing that costs less than a night out.</p> <p>I keep thinking about buying a GPU but it's beginning to look like it might not be necessary. These smaller models are amazing without a GPU.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JackStrawWitchita\"> /u/JackStrawWitchita </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz5ffp/you_dont_need_a_gpu_to_run_gemma426ba4b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz5ffp/you_dont_need_a_gpu_to_run_gemma426ba4b/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "03ea50fa-0552-5f1a-bafb-fb0fba2f7956",
+    "title": "Claude and Garmin Data - best approach?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz550r/claude_and_garmin_data_best_approach/",
+    "pubDate": "2026-06-07T07:07:33+00:00",
+    "description": "Hi I'm trying to generate my own dashboard for my Garmin data. The Strava data would be the same, but with less informations (Sleep, Weight etc). So I'm sticking to Garmin. Now, I've tried different tools with Claude and Garmin: - Kailo (doesn't sync all data from Garmin) - direct via a Phyton code to Claude and the Dashboard (had some problems with MFA) - direct import of the export from garmin.com/account/datamanagement/ and upload to Claude. Everything would be visible in a simple .html site or directly under a new Project in Claude. What is your best experience with syncing data from Garmin to Claude? Many thanks submitted by /u/Then-Heron1758 [link] [comments]",
+    "author": "/u/Then-Heron1758",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi</p> <p>I'm trying to generate my own dashboard for my Garmin data. The Strava data would be the same, but with less informations (Sleep, Weight etc). So I'm sticking to Garmin. Now, I've tried different tools with Claude and Garmin:</p> <p>- Kailo (doesn't sync all data from Garmin)</p> <p>- direct via a Phyton code to Claude and the Dashboard (had some problems with MFA)</p> <p>- direct import of the export from <a href=\"http://garmin.com/account/datamanagement/\"><strong>garmin.com/account/datamanagement/</strong></a> and upload to Claude. </p> <p>Everything would be visible in a simple .html site or directly under a new Project in Claude. </p> <p>What is your best experience with syncing data from Garmin to Claude?</p> <p>Many thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Then-Heron1758\"> /u/Then-Heron1758 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz550r/claude_and_garmin_data_best_approach/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz550r/claude_and_garmin_data_best_approach/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0024aeca-0095-58c2-a409-864299e444ef",
     "title": "Claude Mythos random message?",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz4vlq/claude_mythos_random_message/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1typ0eo/anthropic_details_how_it_sandboxes_and_contains/\"> <img alt=\"Anthropic details how it sandboxes and contains Claude across its products\" src=\"https://external-preview.redd.it/EFCMoGCNC9TSnp80WhX4UF6hfE35siwcB8tCKLPltoE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b08e25d49f23a62511a121d2dbc01f2e3fd42b2b\" title=\"Anthropic details how it sandboxes and contains Claude across its products\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rhiever\"> /u/rhiever </a> <br /> <span><a href=\"https://www.anthropic.com/engineering/how-we-contain-claude\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1typ0eo/anthropic_details_how_it_sandboxes_and_contains/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/EFCMoGCNC9TSnp80WhX4UF6hfE35siwcB8tCKLPltoE.png?width=640&crop=smart&auto=webp&s=b08e25d49f23a62511a121d2dbc01f2e3fd42b2b",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4daac8fc-90ca-54b0-ad6a-110ae36f81ec",
-    "title": "Training-free graph SSL matches GCN with 5× fewer labels — live demo [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/",
-    "pubDate": "2026-06-06T18:27:18+00:00",
-    "description": "Hi all, I have been working on this method based on a hunch along with many llm for quite some time. Though first it was being engineered by me but I was learning in supervised ml area but this hunch took to semi-supervised ml and that to too deep. I then became llm orchestrator of sort while 4 llm's tried to figure it out. I put up a live demo on Hugging Face Spaces where you can try it yourself — set the number of labels, click run, see the accuracy. No installation, no code required. Brief about method Optimus — Graph SSL under Extreme Label Scarcity Key Results (PathMNIST, N=2000, 9 classes) Labels Total Optimus GCN 9(1 per class) 73.9 60.6 27(3 per class) 77.3 68.5 45(5 per class) 79.8 77.1 https://huggingface.co/spaces/Keshu007/optimus-graph-ssl Edit : You can can even run the code on your own dataset submitted by /u/Loner_Indian [link] [comments]",
-    "author": "/u/Loner_Indian",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>I have been working on this method based on a hunch along with many llm for quite some time. Though first it was being engineered by me but I was learning in supervised ml area but this hunch took to semi-supervised ml and that to too deep. I then became llm orchestrator of sort while 4 llm's tried to figure it out.</p> <p>I put up a live demo on Hugging Face Spaces where you can try it yourself — set the number of labels, click run, see the accuracy. No installation, no code required. Brief about method</p> <p>Optimus — Graph SSL under Extreme Label Scarcity</p> <blockquote> </blockquote> <p>Key Results (PathMNIST, N=2000, 9 classes)</p> <table><thead> <tr> <th align=\"left\">Labels Total</th> <th align=\"left\">Optimus</th> <th align=\"left\">GCN</th> </tr> </thead><tbody> <tr> <td align=\"left\"></td> <td align=\"left\" colspan=\"2\"></td> </tr> <tr> <td align=\"left\">9(1 per class)</td> <td align=\"left\">73.9</td> <td align=\"left\">60.6</td> </tr> <tr> <td align=\"left\">27(3 per class)</td> <td align=\"left\">77.3</td> <td align=\"left\">68.5</td> </tr> <tr> <td align=\"left\">45(5 per class)</td> <td align=\"left\">79.8</td> <td align=\"left\">77.1</td> </tr> </tbody></table> <p><a href=\"https://huggingface.co/spaces/Keshu007/optimus-graph-ssl\">https://huggingface.co/spaces/Keshu007/optimus-graph-ssl</a></p> <p>Edit : You can can even run the code on your own dataset</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Loner_Indian\"> /u/Loner_Indian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "04970e92-b976-5929-8bc2-7e8fd3876654",
-    "title": "Claude + game dev feels like cheating",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tyot8t/claude_game_dev_feels_like_cheating/",
-    "pubDate": "2026-06-06T18:24:48+00:00",
-    "description": "This was my first project made entirely with Claude. Can play demo here - soundssmashing.com Also has a create mode for generating levels +music. Started out with a room and some cubes and then kept experimenting and iterating until it felt fun. Just kept going for two weeks and ended up with this desctruction based beat smasher. It's made with three.js and plays in a browser. I spent a lot of time optimizing to get destruction running smooth in a browser. Everything is 100% generated by Claude inlcuding the models, textures, level arrangement, music, UI, Sprites, sound effects etc. No external GenAI. The game itself is only a few MB and no real assets. It's mostly JSON files. A lot of influences went into this - Donkey Kong Bonanza, ARMS, Taiko Drum Master, Jam with the Band, Minecraft, NES Mario games and more. submitted by /u/Donkeytonk [link] [comments]",
-    "author": "/u/Donkeytonk",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyot8t/claude_game_dev_feels_like_cheating/\"> <img alt=\"Claude + game dev feels like cheating\" src=\"https://external-preview.redd.it/N3V2Zmg5dDBlcDVoMYF4jzOHPpt6DC5QUcGbj72QTH9_fj-jyVytkZq8bVaw.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=62c10060c34d08c7fa3393bb1cba24325d5555a7\" title=\"Claude + game dev feels like cheating\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This was my first project made entirely with Claude.</p> <p>Can play demo here - <a href=\"http://soundssmashing.com\">soundssmashing.com</a> Also has a create mode for generating levels +music.</p> <p>Started out with a room and some cubes and then kept experimenting and iterating until it felt fun.</p> <p>Just kept going for two weeks and ended up with this desctruction based beat smasher.</p> <p>It's made with three.js and plays in a browser. I spent a lot of time optimizing to get destruction running smooth in a browser.</p> <p>Everything is 100% generated by Claude inlcuding the models, textures, level arrangement, music, UI, Sprites, sound effects etc. No external GenAI. The game itself is only a few MB and no real assets. It's mostly JSON files.</p> <p>A lot of influences went into this - Donkey Kong Bonanza, ARMS, Taiko Drum Master, Jam with the Band, Minecraft, NES Mario games and more.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Donkeytonk\"> /u/Donkeytonk </a> <br /> <span><a href=\"https://v.redd.it/nni785s0ep5h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyot8t/claude_game_dev_feels_like_cheating/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/N3V2Zmg5dDBlcDVoMYF4jzOHPpt6DC5QUcGbj72QTH9_fj-jyVytkZq8bVaw.png?width=640&crop=smart&auto=webp&s=62c10060c34d08c7fa3393bb1cba24325d5555a7",
     "isShortVideo": 0
   }
 ]
