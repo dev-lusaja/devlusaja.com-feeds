@@ -1,5 +1,21 @@
 [
   {
+    "id": "4193d32d-5c86-5152-b97c-2684a3a3cef8",
+    "title": "Adaptive Tokenisation Via Temporal Redundancy Masking And Latent Inpainting [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/",
+    "pubDate": "2026-06-11T09:32:34+00:00",
+    "description": "link - https://arxiv.org/abs/2606.06158 Abstract : Adaptive video tokenisation seeks to dynamically allocate token budgets based on the underlying visual complexity of a sequence. Current continuous-regime approaches achieve this via iterative binarised searches or trained neural regressors, while discrete methods often require a full-rate decoder pass to estimate information content. We demonstrate that such computational overheads are not strictly necessary. We show that the latent space of a frozen continuous video tokeniser inherently encodes temporal redundancy that can be exploited directly: spatial positions whose latent representations change minimally between consecutive frames carry near-zero additional information. We introduce a parameter-free adaptive token allocation mechanism that applies a fixed threshold to per-position temporal-L1 differences, identifying and dropping redundant latent positions. Consequently, the compression rate emerges naturally from the input content rather than being enforced top-down: static scenes get compressed aggressively, while highly dynamic sequences retain more tokens. To reconstruct the dropped positions, we propose the Latent Inpainting Transformer (LIT), a lightweight factorised spatial-temporal attention architecture. The resulting inference pipeline is highly efficient, requiring only a single encoder pass and one LIT forward pass, eliminating the need for auxiliary routing networks. Evaluations across TokenBench and DAVIS, which are the standard benchmarks used by recent tokenisers, indicate that our framework yields meaningful, content-driven token allocation while maintaining competitive reconstruction fidelity, and delivers a 31x inference-time speedup over the continuous adaptive baseline (ElasticTok-CV) and an 2x speedup over the discrete information-theoretic baseline (InfoTok) submitted by /u/chhaya_35 [link] [comments]",
+    "author": "/u/chhaya_35",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>link - <a href=\"https://arxiv.org/abs/2606.06158\">https://arxiv.org/abs/2606.06158</a> </p> <p>Abstract : Adaptive video tokenisation seeks to dynamically allocate token budgets based on the underlying visual complexity of a sequence. Current continuous-regime approaches achieve this via iterative binarised searches or trained neural regressors, while discrete methods often require a full-rate decoder pass to estimate information content. We demonstrate that such computational overheads are not strictly necessary. We show that the latent space of a frozen continuous video tokeniser inherently encodes temporal redundancy that can be exploited directly: spatial positions whose latent representations change minimally between consecutive frames carry near-zero additional information.<br /> We introduce a parameter-free adaptive token allocation mechanism that applies a fixed threshold to per-position temporal-L1 differences, identifying and dropping redundant latent positions. Consequently, the compression rate emerges naturally from the input content rather than being enforced top-down: static scenes get compressed aggressively, while highly dynamic sequences retain more tokens. To reconstruct the dropped positions, we propose the Latent Inpainting Transformer (LIT), a lightweight factorised spatial-temporal attention architecture. The resulting inference pipeline is highly efficient, requiring only a single encoder pass and one LIT forward pass, eliminating the need for auxiliary routing networks. Evaluations across TokenBench and DAVIS, which are the standard benchmarks used by recent tokenisers, indicate that our framework yields meaningful, content-driven token allocation while maintaining competitive reconstruction fidelity, and delivers a 31x inference-time speedup over the continuous adaptive baseline (ElasticTok-CV) and an 2x speedup over the discrete information-theoretic baseline (InfoTok)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chhaya_35\"> /u/chhaya_35 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "79ed079f-8e2f-5f4b-9cf5-2ca897b13912",
     "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>With more software engineers entering into data science and AI, I feel it's equally important for a person with data and AI background to dive into software development to survive, thrive in industry.</p> <p>I Know it's a very broad question, so suggestions with broad subjects, topics are welcome , like I often wonder how DSA is relevant. I totally understand the needs of the skills are deeply coupled with domain, industry and specific problems but unfortunately the industry doesn't understand this, it judges you, rewards you based on what you already know or pretend rather than your ability to learn or adapt. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dapper_Chance_2484\"> /u/Dapper_Chance_2484 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tzxf3z/software_and_ops_skills_for_data_scientistsd/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tzxf3z/software_and_ops_skills_for_data_scientistsd/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4f6e045e-3e87-5bbf-8cb4-db7081232684",
-    "title": "M5 air 24gb or M5 pro 16gb for swe + ml ? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tzvpcl/m5_air_24gb_or_m5_pro_16gb_for_swe_ml_d/",
-    "pubDate": "2026-06-08T02:49:43+00:00",
-    "description": "Hi folks, Deciding between these two Mac options has been a challenge for me, so pls help. I know mac is not even necessary for this but just help me to decide between these two options. For the reference, Im a swe student and looking forward to go deep into ml and data science in the near future… EDIT: mac book pro m5 ( base chip) that I’m referring here. submitted by /u/Both-Hovercraft3161 [link] [comments]",
-    "author": "/u/Both-Hovercraft3161",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi folks,<br /> Deciding between these two Mac options has been a challenge for me, so pls help. I know mac is not even necessary for this but just help me to decide between these two options. For the reference, Im a swe student and looking forward to go deep into ml and data science in the near future…<br /> EDIT: mac book pro m5 ( base chip) that I’m referring here.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Both-Hovercraft3161\"> /u/Both-Hovercraft3161 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tzvpcl/m5_air_24gb_or_m5_pro_16gb_for_swe_ml_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tzvpcl/m5_air_24gb_or_m5_pro_16gb_for_swe_ml_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "7091a1f7-6b5a-5efa-95b5-bf650116ad34",
+    "title": "Built with Claude Code: pidgin.sh — let Claude share artifacts as URLs",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tyqblc/built_with_claude_code_pidginsh_let_claude_share/",
+    "pubDate": "2026-06-06T19:23:36+00:00",
+    "description": "I kept running into the same friction with Claude Code: it'd generate something nice (an HTML mockup, a report, a plot, a one-pager) and then I'd have to manually save it, find somewhere to host it, and send a link. So I built pidgin.sh , a service plus an agent skill that lets Claude upload a file and hand back a public URL in one step. What it does You install the pidgin-share skill (npx skills add pidgin-sh/skills -g — works in Claude Code, Cursor, Codex, etc.). Ask Claude: \"share this file as a pidgin URL\". It uploads via the API and prints back something like jane.pidgin.sh/abc123/report.html. Each user gets their own subdomain; URLs include a random privacy token so they're unlisted by default. Paid plans add a response channel: artifacts can collect replies (polls, approvals, design picks, RSVPs) and the agent waits for the results before continuing. How Claude helped I wrote the whole thing in Claude Code — the Cloudflare Workers backend (R2 + D1 + KV), the GitHub OAuth + Stripe billing wiring, the dashboard UI, the skill itself, the docs. Link: https://pidgin.sh Skill repo: https://github.com/pidgin-sh/skills Happy to answer questions! submitted by /u/bradleyboy [link] [comments]",
+    "author": "/u/bradleyboy",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I kept running into the same friction with Claude Code: it'd generate something nice (an HTML mockup, a report, a plot, a one-pager) and then I'd have to manually save it, find somewhere to host it, and send a link. So I built <a href=\"http://pidgin.sh\">pidgin.sh</a>, a service plus an agent skill that lets Claude upload a file and hand back a public URL in one step.</p> <p><strong>What it does</strong></p> <ul> <li>You install the pidgin-share skill (npx skills add pidgin-sh/skills -g — works in Claude Code, Cursor, Codex, etc.).</li> <li>Ask Claude: &quot;share this file as a pidgin URL&quot;.</li> <li>It uploads via the API and prints back something like jane.pidgin.sh/abc123/report.html. Each user gets their own subdomain; URLs include a random privacy token so they're unlisted by default.</li> <li>Paid plans add a response channel: artifacts can collect replies (polls, approvals, design picks, RSVPs) and the agent waits for the results before continuing.</li> </ul> <p><strong>How Claude helped</strong></p> <p>I wrote the whole thing in Claude Code — the Cloudflare Workers backend (R2 + D1 + KV), the GitHub OAuth + Stripe billing wiring, the dashboard UI, the skill itself, the docs.</p> <p>Link: <a href=\"https://pidgin.sh\">https://pidgin.sh</a></p> <p>Skill repo: <a href=\"https://github.com/pidgin-sh/skills\">https://github.com/pidgin-sh/skills</a></p> <p>Happy to answer questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bradleyboy\"> /u/bradleyboy </a> <br /> <span><a href=\"https://pidgin.sh/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tyqblc/built_with_claude_code_pidginsh_let_claude_share/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b954db35-e97d-5608-aeba-ab17b0311449",
     "title": "Sources for ML news? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tyq81n/sources_for_ml_news_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyfqmp/domino_decoupling_causal_modeling_from/\"> <img alt=\"Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding\" src=\"https://preview.redd.it/klo1qzrrln5h1.png?width=140&amp;height=70&amp;auto=webp&amp;s=db482512512c5915722e735ab64fe4ccffa2b6b7\" title=\"Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Up to 5.8x throughput speedup on Qwen3</p> <ul> <li>Paper : <a href=\"https://arxiv.org/abs/2605.29707\">https://arxiv.org/abs/2605.29707</a></li> <li>Code : <a href=\"https://github.com/jianuo-huang/Domino\">https://github.com/jianuo-huang/Domino</a></li> <li>Models : <a href=\"https://huggingface.co/Huang2020\">https://huggingface.co/Huang2020</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pmttyji\"> /u/pmttyji </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tyfqmp\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyfqmp/domino_decoupling_causal_modeling_from/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/klo1qzrrln5h1.png?width=140&height=70&auto=webp&s=db482512512c5915722e735ab64fe4ccffa2b6b7",
-    "isShortVideo": 0
-  },
-  {
-    "id": "83c8db3f-a9d8-5170-883d-a1a07836e37b",
-    "title": "Has there been any recent new development on which quant is considered optimal?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tyfnqi/has_there_been_any_recent_new_development_on/",
-    "pubDate": "2026-06-06T12:13:00+00:00",
-    "description": "I recall in earlier days, q4 was said to be optimal. That is to say, if you have a: small q8 model medium q4 model large q2 Assuming they use the same amount of GPU VRAM, medium q4 would be the best-performing model. I also know that Apple (crazy that I am citing Apple here, given how secretive they tend to be) was quite public about using q4 quant models for thier on device. submitted by /u/takuonline [link] [comments]",
-    "author": "/u/takuonline",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recall in earlier days, q4 was said to be optimal. </p> <p>That is to say, if you have a: </p> <p>small q8 model<br /> medium q4 model<br /> large q2 </p> <p>Assuming they use the same amount of GPU VRAM, medium q4 would be the best-performing model.</p> <p>I also know that Apple (crazy that I am citing Apple here, given how secretive they tend to be) was quite public about using q4 quant models for thier on device. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/takuonline\"> /u/takuonline </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyfnqi/has_there_been_any_recent_new_development_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyfnqi/has_there_been_any_recent_new_development_on/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

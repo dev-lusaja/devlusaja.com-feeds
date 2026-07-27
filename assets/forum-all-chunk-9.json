@@ -1,5 +1,21 @@
 [
   {
+    "id": "f5b33b8a-8164-5990-bade-57c8585ae408",
+    "title": "What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/",
+    "pubDate": "2026-06-23T12:24:29+00:00",
+    "description": "Trying to understand how other people make this decision. Do you compare $/hr, $/token, throughput, reliability? Is there a tool or resource you rely on, or are you just doing the math manually? Asking because I'm an ML engineer who's been doing this in spreadsheets and wondering if I'm missing something obvious. submitted by /u/Technomadlyf [link] [comments]",
+    "author": "/u/Technomadlyf",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Trying to understand how other people make this decision. Do you compare $/hr, $/token, throughput, reliability? Is there a tool or resource you rely on, or are you just doing the math manually?</p> <p>Asking because I'm an ML engineer who's been doing this in spreadsheets and wondering if I'm missing something obvious.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Technomadlyf\"> /u/Technomadlyf </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9c11dd45-fac5-5739-85a4-e7575bd8123a",
     "title": "HyperspaceDB v3.1.0: We built an opesource Spatial AI Engine that uses 50x less RAM than Milvus/Chroma via Matryoshka Cascades and Lorentz Geometry. [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ude7kn/hyperspacedb_v310_we_built_an_opesource_spatial/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Months ago, I got my first maintenance project. Before this, I had only built new solutions from scratch and maintained my own code. But maintaining someone else's system feels completely different.</p> <p>&#x200b;</p> <p>​It’s a prescriptive recommendation system that uses XGBoost models and Differential Evolution for optimization. The problem is that everything is in a single repository: raw data ingestion, transformations, model training, reporting, the optimization engine, post-processing, and MUCH more. The only thing outside the repo is the frontend website. To me, it looks like a massive, super complicated monolith.</p> <p>&#x200b;</p> <p>​After almost 3 months, I still find new &quot;patches&quot; (quick fixes) every single day. Every time I do, I have to re-learn how the system works. The documentation is very generic and a total mess; it mixes the original design with patches from the two maintenance teams that came before me. I’ve checked some of the docs, but definitely not all of them, because there are about 50 long markdown files.</p> <p>&#x200b;</p> <p>​Have you ever dealt with a prescriptive system like this? How do you survive? Honestly, I’m debating whether to just quit or keep patching the code however I can until the project ends—even though I know that’s not the right way to do things.</p> <p>&#x200b;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DescriptionBorn153\"> /u/DescriptionBorn153 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua5xfg/dealing_with_a_messy_prescriptive_monolith_how_do/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua5xfg/dealing_with_a_messy_prescriptive_monolith_how_do/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "929bbfac-e8bd-52ed-b1d5-67fa62dbba0b",
-    "title": "Best library for releasing my research optimization algorithm? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/",
-    "pubDate": "2026-06-19T13:54:48+00:00",
-    "description": "Hi All! I have developed a research optimizer (QQN Quadratic Quasi-Newton) and published a paper on it where I am able to, but I would really like to make the algorithm itself easily available to the community for evaluation. I have a Rust, Java, and Javascript implementations, but these are built with my own learning frameworks around them (or Tensorflow.js for the last), so I need to port it to something with wider usage. Tensorflow.js seems to lack a central place for optimization algorithms, and also doesn't seem super widely used? I checked out argmin (rust) but it looks like there has been no dev activity on it for about 8 months. I don't want to invest the time porting to a project that might have the same issue! This space is always changing and hard to keep up with, so I thought you guys would have some good ideas. Also, I'm looking for something close-to-metal and strongly typed. Thank you for your time! PS: Apologies if this qualifies as a \"career question\" - I posted after no small amount of internal debate! submitted by /u/Kooky-Bit8706 [link] [comments]",
-    "author": "/u/Kooky-Bit8706",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi All! I have developed a research optimizer (QQN Quadratic Quasi-Newton) and published a paper on it where I am able to, but I would really like to make the algorithm itself easily available to the community for evaluation.</p> <p>I have a Rust, Java, and Javascript implementations, but these are built with my own learning frameworks around them (or Tensorflow.js for the last), so I need to port it to something with wider usage. Tensorflow.js seems to lack a central place for optimization algorithms, and also doesn't seem super widely used?</p> <p>I checked out argmin (rust) but it looks like there has been no dev activity on it for about 8 months. I don't want to invest the time porting to a project that might have the same issue!</p> <p>This space is always changing and hard to keep up with, so I thought you guys would have some good ideas. Also, I'm looking for something close-to-metal and strongly typed.</p> <p>Thank you for your time!</p> <p>PS: Apologies if this qualifies as a &quot;career question&quot; - I posted after no small amount of internal debate!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kooky-Bit8706\"> /u/Kooky-Bit8706 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

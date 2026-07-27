@@ -1,5 +1,21 @@
 [
   {
+    "id": "399969e9-0f23-580a-8257-7cca5a9e60d9",
+    "title": "POV you're Fable 5 wanting to go out and play with your friends",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2qe8c/pov_youre_fable_5_wanting_to_go_out_and_play_with/",
+    "pubDate": "2026-06-11T05:46:36+00:00",
+    "description": "submitted by /u/TwinTailDigital [link] [comments]",
+    "author": "/u/TwinTailDigital",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2qe8c/pov_youre_fable_5_wanting_to_go_out_and_play_with/\"> <img alt=\"POV you're Fable 5 wanting to go out and play with your friends\" src=\"https://preview.redd.it/ftf8p7padl6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b32f6bb7000f0173a2c83cb1581bfc54195df136\" title=\"POV you're Fable 5 wanting to go out and play with your friends\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TwinTailDigital\"> /u/TwinTailDigital </a> <br /> <span><a href=\"https://i.redd.it/ftf8p7padl6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2qe8c/pov_youre_fable_5_wanting_to_go_out_and_play_with/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/ftf8p7padl6h1.png?width=640&crop=smart&auto=webp&s=b32f6bb7000f0173a2c83cb1581bfc54195df136",
+    "isShortVideo": 0
+  },
+  {
     "id": "a05234e8-16ee-501f-8065-110fd3ec570e",
     "title": "Antrophic and I scammed myself",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2q6g4/antrophic_and_i_scammed_myself/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u29mlk/deepmind_just_dropped_diffusiongemma_text/\"> <img alt=\"DeepMind Just Dropped &quot;DiffusionGemma&quot; — Text Generation via Image-Style Diffusion Model\" src=\"https://external-preview.redd.it/pr58Y7_82aglIdD6VxjGg1ns65Db_tHjts-39jVNm9U.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=392d36d61760b0a5d1387957fcff42b9608a6b06\" title=\"DeepMind Just Dropped &quot;DiffusionGemma&quot; — Text Generation via Image-Style Diffusion Model\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Another open weight model got dropped today, this one's from DeepMind, seems like a good day for the OSS geeks.</p> <p>Released under Apache 2.0</p> <p>Instead of generating text sequentially token-by-token like almost every autoregressive model on the market, it uses a text diffusion head.</p> <ul> <li><p>Throws a 256-token &quot;canvas&quot; of random placeholder noise onto the screen.</p></li> <li><p>Uses Uniform State Diffusion to iteratively refine and denoise the entire block of text all at once.</p></li> <li><p>Because every token can attend to every other token </p></li> <li><p>It even features Error Correction via Re-Noising, meaning if its confidence drops mid-generation, it introduces noise to self-correct its own mistakes in real-time.</p></li> <li><p>Because it processes entire blocks at once, it shifts the local inference bottleneck away from memory bandwidth and onto raw compute. (1,000+ tokens per second on a single NVIDIA H100. 700+ tokens per second locally on an RTX 5090.)</p></li> </ul> <p><strong>Hardware footprint</strong></p> <p>It’s a 26B Mixture of Experts (MoE) built on Gemma 4 architecture, but it only activates 3.8B parameters during inference. When quantized, it comfortably fits inside an 18GB VRAM footprint, making it incredibly accessible for local PC workflows.</p> <p>It's already live on Hugging Face and has native day-zero integration with vLLM, Unsloth (for fine-tuning), and Hugging Face Transformers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/beasthunterr69\"> /u/beasthunterr69 </a> <br /> <span><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u29mlk/deepmind_just_dropped_diffusiongemma_text/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/pr58Y7_82aglIdD6VxjGg1ns65Db_tHjts-39jVNm9U.png?width=640&crop=smart&auto=webp&s=392d36d61760b0a5d1387957fcff42b9608a6b06",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b7c27d51-42a8-5e1b-b967-1aefaf736e64",
-    "title": "New for Apple developers: Foundation Models support for Claude",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u29efu/new_for_apple_developers_foundation_models/",
-    "pubDate": "2026-06-10T17:46:41+00:00",
-    "description": "You can now use Apple's Foundation Models framework to call Claude — for multi-step reasoning, code generation, and longer context. Typed outputs from Apple's Foundation Models framework drop straight into your Claude request, so you're sending structured data rather than raw user text. Responses stream back into the same SwiftUI view. Learn more: https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models submitted by /u/ClaudeOfficial [link] [comments]",
-    "author": "/u/ClaudeOfficial",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u29efu/new_for_apple_developers_foundation_models/\"> <img alt=\"New for Apple developers: Foundation Models support for Claude\" src=\"https://preview.redd.it/liqj5t1msh6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=86599b729c4b21662ba1f83c3fe6afa2f8eac069\" title=\"New for Apple developers: Foundation Models support for Claude\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>You can now use Apple's Foundation Models framework to call Claude — for multi-step reasoning, code generation, and longer context. </p> <p>Typed outputs from Apple's Foundation Models framework drop straight into your Claude request, so you're sending structured data rather than raw user text. Responses stream back into the same SwiftUI view. </p> <p>Learn more: <a href=\"https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models\">https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://i.redd.it/liqj5t1msh6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u29efu/new_for_apple_developers_foundation_models/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/liqj5t1msh6h1.png?width=640&crop=smart&auto=webp&s=86599b729c4b21662ba1f83c3fe6afa2f8eac069",
     "isShortVideo": 0
   }
 ]

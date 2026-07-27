@@ -1,5 +1,21 @@
 [
   {
+    "id": "fc5445bd-8990-51a5-849b-89e769642d35",
+    "title": "Opus 4.8 usage",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tx8kv0/opus_48_usage/",
+    "pubDate": "2026-06-05T02:49:21+00:00",
+    "description": "Anyone feel like Opus 4.8 is weirdly economical? I’m a Pro user, and when I tried Opus 4.6 or 4.7 in the past, it costed me lot of usage just to ask a few questions, so I always used Sonnet. After Opus 4.8 was released and Sonnet 4.5 was discarded, I tried out the Opus 4.8 since the weekly limit was reset, and I feel like it uses so little??? The whole week I was only using Opus 4.8 and it costed like 1% at most. Even when I used it for researchs and file generations, it only costed 29%. And just now, the current session was at 81% (I was trying to spend them so as not to waste weekly usage), suddenly it drops down to 55%. It feels strangely nice. submitted by /u/Rough-Reflection8765 [link] [comments]",
+    "author": "/u/Rough-Reflection8765",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tx8kv0/opus_48_usage/\"> <img alt=\"Opus 4.8 usage\" src=\"https://preview.redd.it/y8o9qaf6nd5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=25d86d46deb346ff6859b5afce22573f909a3c88\" title=\"Opus 4.8 usage\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anyone feel like Opus 4.8 is weirdly economical? I’m a Pro user, and when I tried Opus 4.6 or 4.7 in the past, it costed me lot of usage just to ask a few questions, so I always used Sonnet.</p> <p>After Opus 4.8 was released and Sonnet 4.5 was discarded, I tried out the Opus 4.8 since the weekly limit was reset, and I feel like it uses so little??? The whole week I was only using Opus 4.8 and it costed like 1% at most. Even when I used it for researchs and file generations, it only costed 29%.</p> <p>And just now, the current session was at 81% (I was trying to spend them so as not to waste weekly usage), suddenly it drops down to 55%.</p> <p>It feels strangely nice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rough-Reflection8765\"> /u/Rough-Reflection8765 </a> <br /> <span><a href=\"https://i.redd.it/y8o9qaf6nd5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tx8kv0/opus_48_usage/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/y8o9qaf6nd5h1.png?width=640&crop=smart&auto=webp&s=25d86d46deb346ff6859b5afce22573f909a3c88",
+    "isShortVideo": 0
+  },
+  {
     "id": "04ed03a1-1b8c-533b-859f-b24052ac31a4",
     "title": "How LLM-driven NPCs work in Ultima Online (ServUO)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tx87uh/how_llmdriven_npcs_work_in_ultima_online_servuo/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m posting this as a warning for anyone building multi-GPU local LLM rigs with older workstation/HEDT boards.</p> <p>My setup (Node #04)</p> <ul> <li>Gigabyte X399 Designare EX</li> <li>Threadripper 1950X</li> <li>128GB DDR4</li> <li>4x RTX 3090</li> <li>10GbE TP-Link/Aquantia NIC</li> <li>llama.cpp NCCL build</li> <li>vLLM for safetensors models</li> </ul> <p>I was getting weirdly disappointing multi-GPU results. The rig worked, all 4 GPUs were detected, VRAM was available, models loaded, but some workloads were underwhelming.</p> <p>Example: Mistral Medium 3.5 128B Q4_K GGUF was only doing around 11 tok/s with low GPU usage, roughly 30%.</p> <p>I assumed it was a backend/model/split/NCCL issue.</p> <p>Turns out one of the 3090s was sitting in a physical x16 slot that is electrically PCIe 2.0 x4 on this board. Even worse, before fixing BIOS/settings/placement, Linux showed that GPU negotiating as low as Gen2 x1 / Gen1 x4.</p> <p>The smoking gun:</p> <p><code>bash nvidia-smi --query-gpu=index,name,pci.bus_id,pcie.link.gen.current,pcie.link.width.current,pcie.link.gen.max,pcie.link.width.max --format=csv </code></p> <p>Bad layout showed one GPU effectively crippled.</p> <p>After moving the cards around, the GPUs now show:</p> <p><code>text GPU0: Gen3 max, x8 GPU1: Gen3 max, x16 GPU2: Gen3 max, x8 GPU3: Gen3 max, x16 </code></p> <p>The hidden mistake was that the board has multiple physical x16-length slots, but not all are electrically equal. The PCIe 2.0 x4 slot belongs to the NIC, not a 3090.</p> <p>After fixing the slot layout, results changed dramatically.</p> <p>Qwen3.6 27B BF16 with vLLM TP=4 + MTP at 260K context:</p> <p><code>text ~78-80 tok/s generation ~80% draft acceptance rate </code></p> <p>Qwen3.6 27B BF16 GGUF with llama.cpp NCCL build, <code>--split-mode tensor</code>, MTP enabled:</p> <p><code>text ~66.5 tok/s ~85% draft acceptance </code></p> <p>Mistral Medium 3.5 128B Q4_K GGUF with llama.cpp:</p> <p>Before, using <code>--split-mode layer</code>:</p> <p><code>text ~11 tok/s low GPU utilization </code></p> <p>After switching to proper PCIe layout and using:</p> <p><code>bash --split-mode tensor --tensor-split 25,25,25,25 </code></p> <p>Result:</p> <p><code>text ~24.7 tok/s </code></p> <p>So the lessons:</p> <ol> <li>Do not trust physical slot length. Check electrical lane layout in the motherboard manual.</li> <li>Always verify real negotiated PCIe width/speed from Linux.</li> <li><code>nvidia-smi</code> and <code>lspci -vv</code> are your friends.</li> <li>On llama.cpp, <code>--split-mode layer</code> can badly underuse GPUs for some large GGUF models.</li> <li><code>--split-mode tensor</code> made a huge difference for my Mistral 128B GGUF test.</li> <li>If one GPU is accidentally on a bad PCIe path, the whole multi-GPU inference setup can look like a backend problem when it is actually a slot layout problem.</li> </ol> <p>Useful commands:</p> <p><code>bash nvidia-smi topo -m </code></p> <p><code>bash nvidia-smi --query-gpu=index,name,pci.bus_id,pcie.link.gen.current,pcie.link.width.current,pcie.link.gen.max,pcie.link.width.max --format=csv </code></p> <p><code>bash for B in 09:00.0 0a:00.0 41:00.0 42:00.0; do echo &quot;===== $B =====&quot; sudo lspci -vv -s &quot;$B&quot; | grep -E &quot;LnkCap|LnkSta&quot; done </code></p> <p>If you are building a “cheap VRAM monster” with used 3090s, check this before blaming NCCL, llama.cpp, vLLM, quantization, or the model.</p> <p>In my case, fixing PCIe slot placement turned the rig from “why is this so underwhelming?” into “okay, this thing is actually a monster.”</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlackBeardAI\"> /u/BlackBeardAI </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twt7n4/i_accidentally_crippled_my_4x_rtx_3090_llm_rig/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twt7n4/i_accidentally_crippled_my_4x_rtx_3090_llm_rig/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c687ebe4-93f0-5a69-8d96-50f34f5220f0",
-    "title": "NVIDIA Nemotron 3 Ultra is out.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twt2wp/nvidia_nemotron_3_ultra_is_out/",
-    "pubDate": "2026-06-04T16:40:56+00:00",
-    "description": "Not sure how much this is in the \"local\" world but interesting what they are putting out. https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/ submitted by /u/justdoitanddont [link] [comments]",
-    "author": "/u/justdoitanddont",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Not sure how much this is in the &quot;local&quot; world but interesting what they are putting out. </p> <p><a href=\"https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/\">https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/justdoitanddont\"> /u/justdoitanddont </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twt2wp/nvidia_nemotron_3_ultra_is_out/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1twt2wp/nvidia_nemotron_3_ultra_is_out/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

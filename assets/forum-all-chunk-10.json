@@ -1,5 +1,21 @@
 [
   {
+    "id": "929bbfac-e8bd-52ed-b1d5-67fa62dbba0b",
+    "title": "Best library for releasing my research optimization algorithm? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/",
+    "pubDate": "2026-06-19T13:54:48+00:00",
+    "description": "Hi All! I have developed a research optimizer (QQN Quadratic Quasi-Newton) and published a paper on it where I am able to, but I would really like to make the algorithm itself easily available to the community for evaluation. I have a Rust, Java, and Javascript implementations, but these are built with my own learning frameworks around them (or Tensorflow.js for the last), so I need to port it to something with wider usage. Tensorflow.js seems to lack a central place for optimization algorithms, and also doesn't seem super widely used? I checked out argmin (rust) but it looks like there has been no dev activity on it for about 8 months. I don't want to invest the time porting to a project that might have the same issue! This space is always changing and hard to keep up with, so I thought you guys would have some good ideas. Also, I'm looking for something close-to-metal and strongly typed. Thank you for your time! PS: Apologies if this qualifies as a \"career question\" - I posted after no small amount of internal debate! submitted by /u/Kooky-Bit8706 [link] [comments]",
+    "author": "/u/Kooky-Bit8706",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi All! I have developed a research optimizer (QQN Quadratic Quasi-Newton) and published a paper on it where I am able to, but I would really like to make the algorithm itself easily available to the community for evaluation.</p> <p>I have a Rust, Java, and Javascript implementations, but these are built with my own learning frameworks around them (or Tensorflow.js for the last), so I need to port it to something with wider usage. Tensorflow.js seems to lack a central place for optimization algorithms, and also doesn't seem super widely used?</p> <p>I checked out argmin (rust) but it looks like there has been no dev activity on it for about 8 months. I don't want to invest the time porting to a project that might have the same issue!</p> <p>This space is always changing and hard to keep up with, so I thought you guys would have some good ideas. Also, I'm looking for something close-to-metal and strongly typed.</p> <p>Thank you for your time!</p> <p>PS: Apologies if this qualifies as a &quot;career question&quot; - I posted after no small amount of internal debate!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kooky-Bit8706\"> /u/Kooky-Bit8706 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "92aa9a72-42ab-5578-aef1-60eb15c4475e",
     "title": "How does torch.compile() achieve massive speedups despite highly optimized NumPy functions? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been thinking about whether the same basic concept behind Bitcoin could be applied to AI training.<br /> In Bitcoin, miners perform proof-of-work and are rewarded for contributing computational resources to secure the network. The actual computation itself isn’t particularly useful outside of the network, but it creates a decentralized system.<br /> What if a similar incentive structure could be used for training large language models?<br /> Instead of miners solving hash puzzles, participants would contribute GPU resources toward training an open-source AI model. In return, they would receive tokens or rewards based on their contribution.<br /> Some questions that immediately come to mind:</p> <ol> <li><p>How could the network verify that a participant actually performed useful training work?</p></li> <li><p>How would you prevent people from submitting fake or harmful gradients?</p></li> <li><p>Could model improvements be measured objectively enough to determine rewards?</p></li> <li><p>Would this be more efficient than training models in centralized data centers?</p></li> <li><p>Could a decentralized network eventually compete with large AI companies?</p></li> </ol> <p>I know there are already decentralized AI and compute projects, but I’m specifically interested in whether a true “proof-of-training” mechanism could exist, where rewards are tied directly to improving a model rather than simply renting out compute.<br /> Curious to hear thoughts from people who understand distributed systems, machine learning, or crypto economics. Is this fundamentally impossible, or is there a viable architecture that could make it work?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notfinancialadvice0\"> /u/notfinancialadvice0 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "66162ed3-1d2a-5503-af15-e4b344b795c2",
-    "title": "NeurIPS Competition decision notification [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/",
-    "pubDate": "2026-06-15T15:23:49+00:00",
-    "description": "Hi guys, today is the deadline for acceptance notification from NeurIPS about Competition (challenges). Has anyone hear back already? Do they send the rejection letter later? submitted by /u/LocksmithAlone242 [link] [comments]",
-    "author": "/u/LocksmithAlone242",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, today is the deadline for acceptance notification from NeurIPS about Competition (challenges). Has anyone hear back already? Do they send the rejection letter later?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LocksmithAlone242\"> /u/LocksmithAlone242 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6jpdy/neurips_competition_decision_notification_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

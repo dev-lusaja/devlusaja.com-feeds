@@ -1,5 +1,21 @@
 [
   {
+    "id": "797ca609-1380-56f8-a732-9ba3a4800c55",
+    "title": "Are all LLM research papers nowadays 100+ pages beasts?[D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ujv03i/are_all_llm_research_papers_nowadays_100_pages/",
+    "pubDate": "2026-06-30T17:04:35+00:00",
+    "description": "Was reading some research papers put out by Anthropic (and some other organizations/researchers) and one thing I've noticed is that these research papers consistently all share the same quality: Oftentimes over 100 pages of pure words, interspersed with screenshots of very dense/hard to read prompts and replies. Extremely-dry writing style. Oftentimes almost zero math or even math symbol to be seen. Uses some proprietary model with specific versions. Seems like a lot of work to (even want to) try to replicate their experiment. Discusses very subjective (and boring, at least to me) matters such as LLM emotions or introspections. Who are these papers even written for? Certainly nobody is sitting down to read 100+ of subjective interpretations for a model that's barely accessible to the public, right? There are assigned readings for highschool english classes that are shorter than these papers. It seems to be a huge effort now to even check one of these papers for correctness or to formulate some thoughts around the paper. Just very confused at the state of LLM research. submitted by /u/NeighborhoodFatCat [link] [comments]",
+    "author": "/u/NeighborhoodFatCat",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Was reading some research papers put out by Anthropic (and some other organizations/researchers) and one thing I've noticed is that these research papers consistently all share the same quality:</p> <ul> <li>Oftentimes over 100 pages of pure words, interspersed with screenshots of very dense/hard to read prompts and replies. Extremely-dry writing style.</li> <li>Oftentimes almost zero math or even math symbol to be seen.</li> <li>Uses some proprietary model with specific versions.</li> <li>Seems like a lot of work to (even want to) try to replicate their experiment.</li> <li>Discusses very subjective (and boring, at least to me) matters such as LLM emotions or introspections.</li> </ul> <p>Who are these papers even written for? Certainly nobody is sitting down to read 100+ of subjective interpretations for a model that's barely accessible to the public, right? There are assigned readings for highschool english classes that are shorter than these papers. It seems to be a huge effort now to even check one of these papers for correctness or to formulate some thoughts around the paper. Just very confused at the state of LLM research.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeighborhoodFatCat\"> /u/NeighborhoodFatCat </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ujv03i/are_all_llm_research_papers_nowadays_100_pages/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ujv03i/are_all_llm_research_papers_nowadays_100_pages/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e99a7d17-d79d-586e-a85f-c836db10b6b1",
     "title": "A map of the latest 11 million papers split by semantic similarity and time slices [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ujn3u5/a_map_of_the_latest_11_million_papers_split_by/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/\"> <img alt=\"A debugger for RL reward functions that detects reward hacking during training [P]\" src=\"https://preview.redd.it/r5m95bf5cn9h1.gif?width=640&amp;crop=smart&amp;s=f9e1900b5e007ea3a72c74d4089c56fdeed22f49\" title=\"A debugger for RL reward functions that detects reward hacking during training [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy is genuinely improving or simply exploiting the reward function. So I built a small library called rewardspy that wraps an existing reward function and continuously monitors indicators that often precede reward hacking.</p> <p>It currently tracks things like rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, GRPO group collapse, anol.</p> <p>This is my first major RL project so I would absolutely love some technical advice</p> <p>Check it out here: <a href=\"https://github.com/AvAdiii/rewardspy\">https://github.com/AvAdiii/rewardspy</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BaniyanChor\"> /u/BaniyanChor </a> <br /> <span><a href=\"https://i.redd.it/r5m95bf5cn9h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/r5m95bf5cn9h1.gif?width=640&crop=smart&s=f9e1900b5e007ea3a72c74d4089c56fdeed22f49",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ba15862a-a99b-5cb0-aa1b-8a1624395187",
-    "title": "Live Continual Learning in Machine Learning [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ug7vxs/live_continual_learning_in_machine_learning_d/",
-    "pubDate": "2026-06-26T14:08:21+00:00",
-    "description": "My question on live continual learning use cases was removed by moderators here because they think i asked basic level question about live continual learning which i thought is a frontier level research. But anyways. Is anyone interested in talking about continual learning (live) and catastrophic forgetting? submitted by /u/fourwheels2512 [link] [comments]",
-    "author": "/u/fourwheels2512",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>My question on live continual learning use cases was removed by moderators here because they think i asked basic level question about live continual learning which i thought is a frontier level research. But anyways. Is anyone interested in talking about continual learning (live) and catastrophic forgetting? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fourwheels2512\"> /u/fourwheels2512 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ug7vxs/live_continual_learning_in_machine_learning_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ug7vxs/live_continual_learning_in_machine_learning_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
