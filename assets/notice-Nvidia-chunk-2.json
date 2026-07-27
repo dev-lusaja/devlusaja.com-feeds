@@ -446,21 +446,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-Dynamo-Snapshot-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA Dynamo Snapshot\" width=\"768\" />The cold-start problem In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-Dynamo-Snapshot-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA Dynamo Snapshot\" width=\"768\" /><p>In production inference deployments, demand fluctuates over time, requiring inference replicas to scale elastically. However, cold-starting inference workloads on Kubernetes can take several minutes. During that time, GPUs are allocated but idle, generating no tokens and serving no requests. This delay increases the risk of service level agreement (SLA) violations during traffic spikes…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-dynamo-snapshot-fast-startup-for-inference-workloads-on-kubernetes/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "635a4156-ad92-5fa4-a86b-9fa376811e74",
-    "title": "What’s New for Game Developers in NVIDIA RTX: DLSS 4.5 for UE5 and Multilingual AI Characters",
-    "link": "https://developer.nvidia.com/blog/whats-new-for-game-developers-in-nvidia-rtx-dlss-4-5-for-ue5-and-multilingual-ai-characters/",
-    "pubDate": "2026-05-27T16:59:58+00:00",
-    "description": "NVIDIA RTX provides game developers with direct paths to AI-driven characters, frame generation, and ray-traced rendering. This post walks through a meaningful...",
-    "author": "Phillip Singh",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/dining-room-nvrtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dining-room-nvrtx\" width=\"768\" />NVIDIA RTX provides game developers with direct paths to AI-driven characters, frame generation, and ray-traced rendering. This post walks through a meaningful...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/dining-room-nvrtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"dining-room-nvrtx\" width=\"768\" /><p>NVIDIA RTX provides game developers with direct paths to AI-driven characters, frame generation, and ray-traced rendering. This post walks through a meaningful set of recent updates across the RTX ecosystem. NVIDIA ACE expands its multilingual AI character capabilities, making it easier to ship conversational NPCs. NVIDIA DLSS 4.5 arrives as an Unreal Engine (UE) plugin…</p>\n<p><a href=\"https://developer.nvidia.com/blog/whats-new-for-game-developers-in-nvidia-rtx-dlss-4-5-for-ue5-and-multilingual-ai-characters/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
