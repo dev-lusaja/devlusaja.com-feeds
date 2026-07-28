@@ -1,5 +1,21 @@
 [
   {
+    "id": "02f40e06-0651-522d-b63b-d705cf4ce27f",
+    "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
+    "link": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
+    "pubDate": "2026-07-28T20:49:21+00:00",
+    "description": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Looping-catheter.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Looping-catheter\" width=\"600\" />Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Looping-catheter.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Looping-catheter\" width=\"600\" /><p>Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation. Every demonstration requires specialized equipment, clinical expertise, and access to patients or laboratory environments. This creates three fundamental challenges for developers. First is the data gap. Training modern robotic policies…</p>\n<p><a href=\"https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "dda1ccd1-127b-59a2-9a88-828ef2a25176",
     "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
     "link": "https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/hc-social-openfold-3-blog-1920x1080-5405363-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hc-social-openfold-3-blog-1920x1080-5405363\" width=\"768\" />Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/hc-social-openfold-3-blog-1920x1080-5405363-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hc-social-openfold-3-blog-1920x1080-5405363\" width=\"768\" /><p>Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein design. Increasingly, they’re driven end-to-end by AI agents. For an agent to run that pipeline well, every step needs to be fast and scalable: Multiple Sequence Alignment (MSA) generation, co-folding inference, serving, and multi-GPU scale-out.</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d771c26b-bf10-586e-ac4e-0d7cb29feadf",
-    "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-    "link": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
-    "pubDate": "2026-07-09T19:40:37+00:00",
-    "description": "Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/featured-image-16x9.jpg-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured-image-16x9.jpg\" width=\"768\" />Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/featured-image-16x9.jpg-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured-image-16x9.jpg\" width=\"768\" /><p>Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings and stock movements, while rarer events such as credit-rating changes, product approvals, and labor issues are harder to capture at scale. Synthetic generation can help fill those gaps for trading research, risk modeling, and surveillance…</p>\n<p><a href=\"https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
