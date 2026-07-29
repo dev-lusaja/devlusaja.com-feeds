@@ -1,5 +1,21 @@
 [
   {
+    "id": "76de259f-662f-5bac-873e-e637001ed604",
+    "title": "Opus 4.8 silently turned off my Thinking toggle",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzft2o/opus_48_silently_turned_off_my_thinking_toggle/",
+    "pubDate": "2026-06-07T15:53:57+00:00",
+    "description": "Was wondering wtf was going on with my responses for like a week. Turns out Thinking got switched off when 4.8 was released and I never noticed. Not a huge deal but figured I'd post in case it saves someone else the confusion. submitted by /u/BenAttanasio [link] [comments]",
+    "author": "/u/BenAttanasio",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzft2o/opus_48_silently_turned_off_my_thinking_toggle/\"> <img alt=\"Opus 4.8 silently turned off my Thinking toggle\" src=\"https://preview.redd.it/lycwryt1uv5h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e7b04a7b1b90ead468f4312d47c3389e79e91dcb\" title=\"Opus 4.8 silently turned off my Thinking toggle\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Was wondering wtf was going on with my responses for like a week. Turns out Thinking got switched off when 4.8 was released and I never noticed. Not a huge deal but figured I'd post in case it saves someone else the confusion.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BenAttanasio\"> /u/BenAttanasio </a> <br /> <span><a href=\"https://i.redd.it/lycwryt1uv5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzft2o/opus_48_silently_turned_off_my_thinking_toggle/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/lycwryt1uv5h1.png?width=640&crop=smart&auto=webp&s=e7b04a7b1b90ead468f4312d47c3389e79e91dcb",
+    "isShortVideo": 0
+  },
+  {
     "id": "3cbf3fe4-6728-5803-9d7e-f892f4b6a9b0",
     "title": "How do you manage your sessions and keeping up with all the juggling you now do?",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzfr7v/how_do_you_manage_your_sessions_and_keeping_up/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I just came across the following post, where a user found some confusing divergence results between Q4 quants of the original and QAT models with a Q8/unquantized reference of the original model.</p> <p><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/\">https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/</a></p> <p>From there I understood that after the retraining of Gemma 4 31B QAT, this could be considered as a different model to Gemma 4 31B original. Therefore, it is not useful to test the divergence of Gemma 4 31B QAT Q4 quants to a reference of original Gemma 4 31B, as they are not expected to behave the same way.</p> <p>Then I wondered: how could one check whether a Q4 of the original model or a Q4 of the QAT version perform better?</p> <p>I think this should first involve running a few model benchmarks (e.g., SuperGPQA, HLE, MMLU) of Gemma 4 31B QAT unquantized, to first assess if/how much the retraining damaged overall model performance.</p> <p>Afterwards, one should compare the divergence of Gemma 4 31B QAT Q4 quants to the reference unquantized QAT, and the divergence of Gemma 4 31B original Q4 quants to the reference of unquantized original model. </p> <p>I believe these results combined should provide a fair comparison of how much better the QAT model quantizes to Q4, and if it preserves the quality or the original model. This methodology may even make it possible to compare how well Q6 quants fare in comparison for each case.</p> <p>Nevertheless, I must say I am not an expert in the field and there may be more straightforward ways to analyze this that I am unaware of. Therefore I wanted to engage some discussion here to see if people can share their opinions of what would be the best way to achieve this.</p> <p>Looking forward to reading your opinion in the comments!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hot_Strawberry1999\"> /u/Hot_Strawberry1999 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz5nbn/how_to_compare_original_vs_qat_gemma_4_31b_q4/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz5nbn/how_to_compare_original_vs_qat_gemma_4_31b_q4/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2ca7bb02-451f-5c9e-be37-e22a64b3d6c3",
-    "title": "Claude must have known I'm Canadian",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tz5i0f/claude_must_have_known_im_canadian/",
-    "pubDate": "2026-06-07T07:28:42+00:00",
-    "description": "submitted by /u/NeilPearson [link] [comments]",
-    "author": "/u/NeilPearson",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz5i0f/claude_must_have_known_im_canadian/\"> <img alt=\"Claude must have known I'm Canadian\" src=\"https://preview.redd.it/ocd0jwi1ct5h1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=e1c4443890f6c80cc6dfb4faf60c4680c9d862c9\" title=\"Claude must have known I'm Canadian\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeilPearson\"> /u/NeilPearson </a> <br /> <span><a href=\"https://i.redd.it/ocd0jwi1ct5h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz5i0f/claude_must_have_known_im_canadian/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/ocd0jwi1ct5h1.png?width=320&crop=smart&auto=webp&s=e1c4443890f6c80cc6dfb4faf60c4680c9d862c9",
     "isShortVideo": 0
   }
 ]

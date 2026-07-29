@@ -1,5 +1,21 @@
 [
   {
+    "id": "4e861bd9-3537-5957-9af5-98cd811989d9",
+    "title": "Bayesian Opt. GPs vs Linear models and Neural Networks for parameter optimizations [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/",
+    "pubDate": "2026-05-31T01:57:20+00:00",
+    "description": "Hi, Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral analysis. I currently use a GP and it works pretty well, but I’m wondering what the computational tradeoffs and so forth might be. Any ideas? submitted by /u/InevitableCut1243 [link] [comments]",
+    "author": "/u/InevitableCut1243",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral analysis. I currently use a GP and it works pretty well, but I’m wondering what the computational tradeoffs and so forth might be. Any ideas?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/InevitableCut1243\"> /u/InevitableCut1243 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7b4bb618-0371-5613-be60-ecaa66077b6a",
     "title": "Workshop submission for main conference paper under review [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ts2m9n/workshop_submission_for_main_conference_paper/",
@@ -188,38 +204,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>hi everyone.</p> <p>I'm trying to calibrate my expectations and would appreciate honest perspectives from people involved/ with experience in hiring at places like Anthropic, OpenAI, Google DeepMind, Meta, etc (haven't started interviewing yet).</p> <p>I'm at a top ML university, but my advisor is not particularly well known in industry and doesn't have many industry connections. Looking around, I'm seeing peers with research records that seem comparable to mine (and in some cases arguably weaker) land interviews and jobs at top labs.</p> <p>My questions are:</p> <ol> <li>How much does advisor reputation and network actually matter?</li> </ol> <p>I understand it can help get an interview, but does it also help beyond that? For example:</p> <ul> <li>Do referrals from famous advisors meaningfully influence recruiter screens?</li> <li>Do they influence hiring committee discussions?</li> <li>Do they help at borderline decisions?</li> <li>Or does their effect mostly disappear once the interview process starts?</li> </ul> <p>I'm trying to understand whether advisor connections mainly help open the door, or whether they continue to matter throughout the process.</p> <ol> <li>To what extent do connections help candidates bypass normal evaluation?</li> </ol> <p>I'm not asking whether people completely skip interviews, but are there cases where strong recommendations from trusted researchers substantially change the process, the interview bar, or how mistakes are interpreted?</p> <ol> <li>Something else confuses me.</li> </ol> <p>I frequently see people land roles that seem heavily focused on LLMs, agents, post-training, RLHF, etc., despite having little or no published work or prior experience in those areas during their PhDs.</p> <p>How does that happen?</p> <ul> <li>Are interview questions tailored to the candidate's background?</li> <li>If someone comes from probabilistic ML, computer vision, systems, optimization, theory, etc., are they evaluated differently?</li> <li>Or are they still expected to answer detailed LLM/agent questions even without prior experience?</li> </ul> <p>I'm especially interested in hearing from hiring managers, interviewers, or recent hires.</p> <p>I'm not looking for reassurance—I'd genuinely like to understand how much advisor prestige, networking, referrals, and prior domain experience matter relative to actual interview performance.</p> <p>Any candid insider perspectives would be appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/South-Conference-395\"> /u/South-Conference-395 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tr80ll/how_much_of_a_shortcut_are_connections_in_top_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tr80ll/how_much_of_a_shortcut_are_connections_in_top_ai/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "11967b7f-466a-5360-a383-f45413a06f89",
-    "title": "What's the theoretical basis for using llm consensus as a probability estimator for real world events [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tr3xpa/whats_the_theoretical_basis_for_using_llm/",
-    "pubDate": "2026-05-29T14:40:20+00:00",
-    "description": "This is a genuine technical question here. I've been looking at systems that use an ensemble of ai models to generate probability estimates for open ended real world events. The claim is that consensus across multiple models produces more calibrated estimates than any single model. this makes sense intuitively and has parallels to ensemble methods in traditional ml. But I'm wondering about the theoretical underpinnings more carefully. The standard ensemble argument relies on errors being somewhat uncorrelated across models. but if all the models are trained on similar data distributions and share architectural similarities, how independent are their errors really? are we just getting false confidence from models that all have the same blind spots? also curious about how these systems handle events that are outside the distribution of their training data. novel events are exactly where you'd want good probability estimates and also exactly where you'd expect the most unreliable performance. submitted by /u/onlyJayal [link] [comments]",
-    "author": "/u/onlyJayal",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>This is a genuine technical question here. I've been looking at systems that use an ensemble of ai models to generate probability estimates for open ended real world events. The claim is that consensus across multiple models produces more calibrated estimates than any single model.</p> <p>this makes sense intuitively and has parallels to ensemble methods in traditional ml. But I'm wondering about the theoretical underpinnings more carefully.</p> <p>The standard ensemble argument relies on errors being somewhat uncorrelated across models. but if all the models are trained on similar data distributions and share architectural similarities, how independent are their errors really? are we just getting false confidence from models that all have the same blind spots? </p> <p>also curious about how these systems handle events that are outside the distribution of their training data. novel events are exactly where you'd want good probability estimates and also exactly where you'd expect the most unreliable performance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/onlyJayal\"> /u/onlyJayal </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tr3xpa/whats_the_theoretical_basis_for_using_llm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tr3xpa/whats_the_theoretical_basis_for_using_llm/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "00f8da32-aa63-51b6-97b9-ca2f007f91c7",
-    "title": "ICML paper checker is down? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tr127y/icml_paper_checker_is_down_d/",
-    "pubDate": "2026-05-29T12:57:09+00:00",
-    "description": "I was getting ready to upload my camera-ready paper to ICML (few minutes before the deadline... no comments), but the paper checker site seemingly went down before I could finish... I emailed the publication chairs already but i just wanted to know if anyone else was in the same situation, and if there's anything else I should do. submitted by /u/KiddWantidd [link] [comments]",
-    "author": "/u/KiddWantidd",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I was getting ready to upload my camera-ready paper to ICML (few minutes before the deadline... no comments), but the paper checker site seemingly went down before I could finish... I emailed the publication chairs already but i just wanted to know if anyone else was in the same situation, and if there's anything else I should do.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KiddWantidd\"> /u/KiddWantidd </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tr127y/icml_paper_checker_is_down_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tr127y/icml_paper_checker_is_down_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "e94238b4-fa6a-51b1-b76a-4f96a29c4cbd",
+    "title": "Is Symbolic Regression still a thing, given LLMs' performance? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/",
+    "pubDate": "2026-06-11T13:13:32+00:00",
+    "description": "I've been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]). But then I was wondering: given LLMs' increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts. [1] ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube submitted by /u/omomom42 [link] [comments]",
+    "author": "/u/omomom42",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]).</p> <p>But then I was wondering: given LLMs' increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts.</p> <p>[1] <a href=\"https://www.youtube.com/watch?v=fe-PC4lw4yw\">ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/omomom42\"> /u/omomom42 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d7f6c1a0-48ba-5c77-8310-2e02be9ae001",
     "title": "Blast Arena: a Bomberman-style browser game built entirely with Claude Code",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2ydq1/blast_arena_a_bombermanstyle_browser_game_built/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! I am a student from India, this is my first paper that I published.</p> <p>I was curious whether I can combine both Attention and FFN together to save parameters without sacrificing performance, specifically at parameters &lt;= 10M.</p> <p>Basically my intuition was that Attention is dynamic and smart about which information to mix, but it has no strong non-linearity to actually transform that information. SwiGLU has the strong non-linearity but it's static. Same weights for every input. So instead of running both separately and wasting parameters, why not replace the static linear matrices in FFN with attention getting dynamic mixing and strong non-linearity in one unified operation.</p> <p>I'm not treating this paper as any final conclusion of any means because I have a very very old hardware and Google Colab doesn't help either with scaling up cuz I don't have it's subscription. So I'm just treating this paper as an introduction of my idea and the experiments I was able to run on my given scale.</p> <p>Before adding the abstract I'd also like you to know that just training the 0.8M params model took 8-10 hours on my PC (just a few minutes on Google Colab) and 4M model (which Google Colab wasn't letting me train) took around 3-4 days on my PC. That's the reason I didn't ran much experiments in the paper.</p> <p><strong>Abstract</strong></p> <blockquote> <p>Introduction of the Transformer neural network architecture in the famous <code>Attention Is All You Need</code> paper has created a huge wave of AI development in recent years. The scaled dot-product attention allows for information to be processed with higher efficiency and quality, which the previous RNN-based models lacked. However Transformer-based models comes with their own challenges, particularly with parameter efficiency for tiny models with parameters ≤ 5M. At such small scale a Transformer model essentially uses more parameter than it really should. This sub-ten-million parameters domain space is very underexplored and for good reasons but I wanted to explore it anyways. So here-in this paper I am introducing Silia, a novel transformer architecture designed for efficient modelling &amp; classification tasks under severe parameter budget. Training against GPT-2 architecture (Andrej Karpathy's nanoGPT project) with same &quot;base&quot; hyperparameters, training data and compute budget, Silia achieves comparable loss and generation quality with significantly less parameters.</p> </blockquote> <p>Thank you :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SrijSriv211\"> /u/SrijSriv211 </a> <br /> <span><a href=\"https://doi.org/10.5281/zenodo.20631957\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2pnfx/tiny_scale_is_all_i_can_spare_to_play_with/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "78beef01-9508-51c3-8c27-42373ec967e9",
-    "title": "Anthropic intends to permanently include Fable 5 in monthly subscriptions once compute allows it",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2oql6/anthropic_intends_to_permanently_include_fable_5/",
-    "pubDate": "2026-06-11T04:19:08+00:00",
-    "description": "Unlike many people suspect, Anthropic does intend to include Fable permanently in monthly plans. They said it will depend on available compute but when they eventually do have enough compute it’s what they’re planning on doing. Stressing about only having it for two weeks is mostly unwarranted given the recent press release. submitted by /u/TheOnlyVibemaster [link] [comments]",
-    "author": "/u/TheOnlyVibemaster",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2oql6/anthropic_intends_to_permanently_include_fable_5/\"> <img alt=\"Anthropic intends to permanently include Fable 5 in monthly subscriptions once compute allows it\" src=\"https://preview.redd.it/9dctirk0yk6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=69cea6d6efce1214b7b80ac5069cf8fe61cab85e\" title=\"Anthropic intends to permanently include Fable 5 in monthly subscriptions once compute allows it\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Unlike many people suspect, Anthropic does intend to include Fable permanently in monthly plans. They said it will depend on available compute but when they eventually do have enough compute it’s what they’re planning on doing. Stressing about only having it for two weeks is mostly unwarranted given the recent press release.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheOnlyVibemaster\"> /u/TheOnlyVibemaster </a> <br /> <span><a href=\"https://i.redd.it/9dctirk0yk6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2oql6/anthropic_intends_to_permanently_include_fable_5/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/9dctirk0yk6h1.jpeg?width=640&crop=smart&auto=webp&s=69cea6d6efce1214b7b80ac5069cf8fe61cab85e",
     "isShortVideo": 0
   }
 ]

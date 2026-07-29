@@ -1,5 +1,21 @@
 [
   {
+    "id": "e19ecfa5-3af3-51dc-8b86-21a3e9266e07",
+    "title": "Does it make sense to use alternative quantizations of QAT models? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/",
+    "pubDate": "2026-06-06T18:02:28+00:00",
+    "description": "From TF's website: Quantization aware training emulates inference-time quantization, creating a model that downstream tools will use to produce actually quantized models. So is it designed to work with a very specific quantization method (for Gemma-4, presumably, Google's own)? Or would it make sense to use alternative quantization methods? According to the benchmarks unsloth released, its (alternative) quantizations of Gemma-4-QAT are closer to the QAT fine-tunes, but is this a good thing, or does it defeat the purpose of QAT? submitted by /u/we_are_mammals [link] [comments]",
+    "author": "/u/we_are_mammals",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>From TF's website:</p> <blockquote> <p>Quantization aware training emulates inference-time quantization, creating a model that downstream tools will use to produce actually quantized models.</p> </blockquote> <p>So is it designed to work with a very specific quantization method (for Gemma-4, presumably, Google's own)? Or would it make sense to use alternative quantization methods?</p> <p>According to the benchmarks <em>unsloth</em> released, its (alternative) quantizations of Gemma-4-QAT are closer to the QAT fine-tunes, but is this a good thing, or does it defeat the purpose of QAT?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bae8c241-80f0-5043-bbbb-692c2f1d61f9",
     "title": "Anyone here with experience submitting to Nature Machine Intelligence? [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1tylgoq/anyone_here_with_experience_submitting_to_nature/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I built a C++ implementation of Meta’s <a href=\"https://audiocraft.metademolab.com/encodec.html\">EnCodec</a> using <a href=\"https://libeigen.gitlab.io\">Eigen</a>. </p> <p>Github: <a href=\"https://github.com/pfeatherstone/encodec.cpp\">https://github.com/pfeatherstone/encodec.cpp</a></p> <p>Motivation: - A lightweight implementation of EnCodec with no runtime dependencies, in C++ - No ML runtime - Easy integration in CMake project - Maximum performance on single-thread</p> <p>What it supports: - State-of-the-art audio codec - Audio tokenizer - Performance comparable to or exceeding onnxruntime (in my tests) - Dynamic sizes (no batches though) - Weights are compiled into the binary. No need to worry about weights files</p> <p>I'm looking for some feedback. Thank you very much.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Competitive_Act5981\"> /u/Competitive_Act5981 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvqhic/encodeccpp_a_portable_c_implementation_of_metas/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvqhic/encodeccpp_a_portable_c_implementation_of_metas/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fce5df8c-dbcd-5456-80f0-155b619dc490",
-    "title": "TorchDAE: Implicit DAE Solvers with Index Reduction and Adjoint Sensitivity [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/",
-    "pubDate": "2026-06-03T11:57:55+00:00",
-    "description": "Hello everyone, I've been working on a PyTorch library for solving Differential Algebraic Equations (DAEs) that supports vectorized execution and GPU acceleration. The library implements several algorithms that are not currently available in the Python ecosystem, including Generalized-Alpha integration, Dummy Derivatives index reduction, and adjoint sensitivity methods for DAEs. My motivation was to enable differentiable DAE simulation workflows in PyTorch for applications such as system identification, scientific machine learning, and physics-informed modeling. I'd be very interested in feedback on the numerical methods, API design, and potential ML use cases. GitHub: https://github.com/yousef-rafat/torchdae submitted by /u/Otaku_7nfy [link] [comments]",
-    "author": "/u/Otaku_7nfy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone,</p> <p>I've been working on a PyTorch library for solving Differential Algebraic Equations (DAEs) that supports vectorized execution and GPU acceleration.</p> <p>The library implements several algorithms that are not currently available in the Python ecosystem, including Generalized-Alpha integration, Dummy Derivatives index reduction, and adjoint sensitivity methods for DAEs.</p> <p>My motivation was to enable differentiable DAE simulation workflows in PyTorch for applications such as system identification, scientific machine learning, and physics-informed modeling.</p> <p>I'd be very interested in feedback on the numerical methods, API design, and potential ML use cases.</p> <p>GitHub: <a href=\"https://github.com/yousef-rafat/torchdae\">https://github.com/yousef-rafat/torchdae</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Otaku_7nfy\"> /u/Otaku_7nfy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "5dc8c1fd-1d07-52a8-89ab-74632ef13879",
+    "title": "LLM context compression at 16x beats KV cache",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3mxum/llm_context_compression_at_16x_beats_kv_cache/",
+    "pubDate": "2026-06-12T06:02:48+00:00",
+    "description": "submitted by /u/DeltaSqueezer [link] [comments]",
+    "author": "/u/DeltaSqueezer",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DeltaSqueezer\"> /u/DeltaSqueezer </a> <br /> <span><a href=\"https://venturebeat.com/data/context-compression-finally-works-in-production-new-research-cuts-llm-input-16x-without-the-accuracy-hit\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u3mxum/llm_context_compression_at_16x_beats_kv_cache/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8678f3f2-c6b2-51d3-b144-b50376a1d9d6",
     "title": "Best LLM for smut stories",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u3k7t8/best_llm_for_smut_stories/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm trying to use some LLMs which I know support reasoning (TheDrummer Rocinante X 12B model) but I can't for the life of me to get it to work.</p> <p>I've tried using all these parameters: <code>--chat-template-kwargs '{&quot;enable_thinking&quot;:true}' --reasoning on --reasoning-budget -1</code></p> <p>But to no avail. I've also tried adding <code>/think</code> at the end of the prompt, it does nothing.</p> <p>Any idea what I'm doing wrong? Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TrainingTwo1118\"> /u/TrainingTwo1118 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2yufo/cant_seem_to_enable_reasoning_in_llamacpp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2yufo/cant_seem_to_enable_reasoning_in_llamacpp/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e94238b4-fa6a-51b1-b76a-4f96a29c4cbd",
-    "title": "Is Symbolic Regression still a thing, given LLMs' performance? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/",
-    "pubDate": "2026-06-11T13:13:32+00:00",
-    "description": "I've been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]). But then I was wondering: given LLMs' increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts. [1] ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube submitted by /u/omomom42 [link] [comments]",
-    "author": "/u/omomom42",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]).</p> <p>But then I was wondering: given LLMs' increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts.</p> <p>[1] <a href=\"https://www.youtube.com/watch?v=fe-PC4lw4yw\">ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/omomom42\"> /u/omomom42 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
