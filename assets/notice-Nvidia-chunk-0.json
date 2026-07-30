@@ -1,5 +1,21 @@
 [
   {
+    "id": "ea931f37-ab6f-507d-8b8c-a46f70753512",
+    "title": "NVIDIA Exemplar Cloud: Lessons for Unlocking Full Performance on AI Infrastructure",
+    "link": "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/",
+    "pubDate": "2026-07-30T16:00:00+00:00",
+    "description": "Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image6-6-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image6\" width=\"768\" />Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image6-6-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image6\" width=\"768\" /><p>Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We routinely see 8% to 12% gaps between partner deployments and the corresponding NVIDIA reference architecture (RA) on the same workload, same model, same global batch size. The cause is often a stack of configuration choices in the kernel…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "222aa558-f9f6-5157-9526-e75d8ab1c8c7",
     "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
     "link": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/AI-Inference-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Inference\" width=\"768\" />There are many ways to optimize code for GPUs. In this post, you’ll learn how kernel fusion can improve memory bandwidth and reduce kernel launch overhead,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/AI-Inference-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Inference\" width=\"768\" /><p>There are many ways to optimize code for GPUs. In this post, you’ll learn how kernel fusion can improve memory bandwidth and reduce kernel launch overhead, along with multiple ways to apply it in NVIDIA CUDA code. A common bottleneck when writing GPU code is that GPU compute is so fast that even high-bandwidth device memory doesn’t use the GPU kernel fully. Kernel fusion addresses this by…</p>\n<p><a href=\"https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "415477ee-dfc8-5aba-b4b1-4cff31574998",
-    "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
-    "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
-    "pubDate": "2026-07-10T16:36:02+00:00",
-    "description": "AI performance comes down to three dimensions:  Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image (3)\" width=\"768\" />AI performance comes down to three dimensions:&nbsp; Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image (3)\" width=\"768\" /><p>AI performance comes down to three dimensions: Deployments must balance all three: High accuracy is wasted if responses are slow, and raw throughput means little if each user’s experience is laggy. Practical systems therefore optimize accuracy, throughput, and interactivity together. This post focuses on throughput and interactivity, and how model-design choices shape both without…</p>\n<p><a href=\"https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

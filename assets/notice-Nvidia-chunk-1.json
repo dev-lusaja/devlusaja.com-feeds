@@ -1,5 +1,21 @@
 [
   {
+    "id": "415477ee-dfc8-5aba-b4b1-4cff31574998",
+    "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
+    "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
+    "pubDate": "2026-07-10T16:36:02+00:00",
+    "description": "AI performance comes down to three dimensions:  Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image (3)\" width=\"768\" />AI performance comes down to three dimensions:&nbsp; Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image (3)\" width=\"768\" /><p>AI performance comes down to three dimensions: Deployments must balance all three: High accuracy is wasted if responses are slow, and raw throughput means little if each user’s experience is laggy. Practical systems therefore optimize accuracy, throughput, and interactivity together. This post focuses on throughput and interactivity, and how model-design choices shape both without…</p>\n<p><a href=\"https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "059eade5-f7ca-5d17-bb51-15bc93a7ea06",
     "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
     "link": "https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"An image of a scientist using XR glasses.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/AR-Glasses-e1781633499339-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AR-Glasses\" width=\"768\" />Developers building for AR glasses and wearable devices face an infrastructure gap. The hardware is ready, but creating AI experiences requires integrating live...<img alt=\"An image of a scientist using XR glasses.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/AR-Glasses-e1781633499339-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AR-Glasses\" width=\"768\" /><p>Developers building for AR glasses and wearable devices face an infrastructure gap. The hardware is ready, but creating AI experiences requires integrating live camera and microphone streams, multimodal AI models, enterprise data, tool use, deployment infrastructure, and device-specific runtimes. NVIDIA XR AI is designed to address this challenge by providing a reusable foundation for…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-ai-agents-for-ar-glasses-and-xr-devices-with-nvidia-xr-ai/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7d627ea5-a868-5b04-924c-780973cd3930",
-    "title": "Build Your Own Transaction Foundation Model for Financial Intelligence",
-    "link": "https://developer.nvidia.com/blog/build-your-own-transaction-foundation-model-for-financial-intelligence/",
-    "pubDate": "2026-06-16T20:30:08+00:00",
-    "description": "Every swipe, transfer, and payment on a modern financial network encodes a pattern of human behavior. Transaction data is one of the richest signals an...",
-    "author": "Benjamin Wu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image7-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image7\" width=\"768\" />Every swipe, transfer, and payment on a modern financial network encodes a pattern of human behavior. Transaction data is one of the richest signals an...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image7-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image7\" width=\"768\" /><p>Every swipe, transfer, and payment on a modern financial network encodes a pattern of human behavior. Transaction data is one of the richest signals an enterprise owns. Yet most production use cases for such tabular data still depend on hand-engineered features and rule sets that are brittle, expensive to maintain, and blind to the sequential structure inside a customer history.</p>\n<p><a href=\"https://developer.nvidia.com/blog/build-your-own-transaction-foundation-model-for-financial-intelligence/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
