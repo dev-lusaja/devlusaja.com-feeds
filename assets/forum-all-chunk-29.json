@@ -1,5 +1,21 @@
 [
   {
+    "id": "499bfd1e-0a31-56c9-bc14-667105021b7c",
+    "title": "Nemotron 3 Ultra is available on HuggingChat",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1txmct6/nemotron_3_ultra_is_available_on_huggingchat/",
+    "pubDate": "2026-06-05T14:20:57+00:00",
+    "description": "impressive speed/performance ratio! served by togetherAI :) submitted by /u/paf1138 [link] [comments]",
+    "author": "/u/paf1138",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txmct6/nemotron_3_ultra_is_available_on_huggingchat/\"> <img alt=\"Nemotron 3 Ultra is available on HuggingChat\" src=\"https://external-preview.redd.it/-hxT1TiMPhYCEZ_Y4pqhR5EotERuSH-IYkdn1AeajfY.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1641a9173446e0221007cfac1e159297a57a0164\" title=\"Nemotron 3 Ultra is available on HuggingChat\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>impressive speed/performance ratio! served by togetherAI :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/paf1138\"> /u/paf1138 </a> <br /> <span><a href=\"https://huggingface.co/chat/models/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txmct6/nemotron_3_ultra_is_available_on_huggingchat/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/-hxT1TiMPhYCEZ_Y4pqhR5EotERuSH-IYkdn1AeajfY.png?width=640&crop=smart&auto=webp&s=1641a9173446e0221007cfac1e159297a57a0164",
+    "isShortVideo": 0
+  },
+  {
     "id": "f3e7e776-55b4-5125-ad07-ed000b90cebf",
     "title": "How do you identify researchers who are good? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1txlxm6/how_do_you_identify_researchers_who_are_good_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txa6no/magenta_realtime_2_open_local_live_music_models/\"> <img alt=\"Magenta RealTime 2: Open &amp; Local Live Music Models\" src=\"https://external-preview.redd.it/-jT9wrCMBGT8IiteqXNDuLwyUBH8mRWpf6-xMC3LGrk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4efd2c3a03ef01cc1022f0826d0d358daa9de64e\" title=\"Magenta RealTime 2: Open &amp; Local Live Music Models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Build and play AI musical instruments on your laptop!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/phone_radio_tv\"> /u/phone_radio_tv </a> <br /> <span><a href=\"https://magenta.withgoogle.com/magenta-realtime-2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1txa6no/magenta_realtime_2_open_local_live_music_models/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/-jT9wrCMBGT8IiteqXNDuLwyUBH8mRWpf6-xMC3LGrk.png?width=640&crop=smart&auto=webp&s=4efd2c3a03ef01cc1022f0826d0d358daa9de64e",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2b721945-f654-5424-a1db-5bfff28b9283",
-    "title": "Finally finished my LLM server: EPYC 9575F, 4× RTX 3090 (96GB VRAM), 768GB ECC RAM",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tx9tf2/finally_finished_my_llm_server_epyc_9575f_4_rtx/",
-    "pubDate": "2026-06-05T03:49:25+00:00",
-    "description": "Took a while, but Nalthis is finally up and assembled. Specs: Supermicro H13SSL-N AMD EPYC 9575F (64C/128T Zen 5) 768GB DDR5-5600 ECC RDIMM 4× RTX 3090 (96GB VRAM total) 1× 2TB NVMe OS 2× 3.94TB NVMe data 2050W ATX 3.1 PSU Corsair 9000D Planned use: vLLM - high throughput small models llamacpp - larger reasoning models I have been making a space simulation and finally ready to integrate AI into how the NPCs doing planning, hoping to get decent throughput on smaller models with lots of requests The original plan involved a lot more MCIO risers and custom mounting, but I was able to fit two of the 3090s directly on the motherboard and front-mount the other two. Planning to run all four cards power-limited to 250W since this box is primarily for LLM inference. The 9000D has been surprisingly good for a 4×3090 build. I also used these fan mounts for additional airflow: https://www.thingiverse.com/thing:2804306 Still need to finish thermal testing, but the hardware side is finally done. Head of Cluster Operations: Stannis leading from the couch as well A few people have asked about the economics of the build. Most of these parts were purchased over a year ago before prices climbed significantly. If I were buying everything today, I probably wouldn't build the exact same machine because it would be well outside my budget. Some of the prices I paid: 12× 64GB DDR5 ECC RDIMMs: ~$325 each 3× RTX 3090s: ~$650 each EPYC 9575F: ~$3,800 So while the system wasn't cheap, it made a lot more sense when the parts were purchased than it would if I started the build from scratch today. A big part of the build was taking advantage of opportunities as they appeared on the used and grey markets rather than trying to source everything at once. submitted by /u/C0smo777 [link] [comments]",
-    "author": "/u/C0smo777",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tx9tf2/finally_finished_my_llm_server_epyc_9575f_4_rtx/\"> <img alt=\"Finally finished my LLM server: EPYC 9575F, 4× RTX 3090 (96GB VRAM), 768GB ECC RAM\" src=\"https://preview.redd.it/p34jv9ioyd5h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=e6417004eb56f9fbf15955c59ead1e6880d2abb5\" title=\"Finally finished my LLM server: EPYC 9575F, 4× RTX 3090 (96GB VRAM), 768GB ECC RAM\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Took a while, but Nalthis is finally up and assembled.</p> <p>Specs:</p> <ul> <li>Supermicro H13SSL-N</li> <li>AMD EPYC 9575F (64C/128T Zen 5)</li> <li>768GB DDR5-5600 ECC RDIMM</li> <li>4× RTX 3090 (96GB VRAM total)</li> <li>1× 2TB NVMe OS</li> <li>2× 3.94TB NVMe data</li> <li>2050W ATX 3.1 PSU</li> <li>Corsair 9000D</li> </ul> <p>Planned use:</p> <ul> <li>vLLM - high throughput small models</li> <li>llamacpp - larger reasoning models</li> </ul> <p>I have been making a space simulation and finally ready to integrate AI into how the NPCs doing planning, hoping to get decent throughput on smaller models with lots of requests</p> <p>The original plan involved a lot more MCIO risers and custom mounting, but I was able to fit two of the 3090s directly on the motherboard and front-mount the other two.</p> <p>Planning to run all four cards power-limited to 250W since this box is primarily for LLM inference.</p> <p>The 9000D has been surprisingly good for a 4×3090 build. I also used these fan mounts for additional airflow:</p> <p><a href=\"https://www.thingiverse.com/thing:2804306\">https://www.thingiverse.com/thing:2804306</a></p> <p>Still need to finish thermal testing, but the hardware side is finally done.</p> <p>Head of Cluster Operations: Stannis leading from the couch as well</p> <hr /> <p>A few people have asked about the economics of the build.</p> <p>Most of these parts were purchased over a year ago before prices climbed significantly. If I were buying everything today, I probably wouldn't build the exact same machine because it would be well outside my budget.</p> <p>Some of the prices I paid:</p> <p>12× 64GB DDR5 ECC RDIMMs: ~$325 each</p> <p>3× RTX 3090s: ~$650 each</p> <p>EPYC 9575F: ~$3,800</p> <p>So while the system wasn't cheap, it made a lot more sense when the parts were purchased than it would if I started the build from scratch today.</p> <p>A big part of the build was taking advantage of opportunities as they appeared on the used and grey markets rather than trying to source everything at once.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/C0smo777\"> /u/C0smo777 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1tx9tf2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tx9tf2/finally_finished_my_llm_server_epyc_9575f_4_rtx/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/p34jv9ioyd5h1.jpg?width=140&height=105&auto=webp&s=e6417004eb56f9fbf15955c59ead1e6880d2abb5",
     "isShortVideo": 0
   }
 ]

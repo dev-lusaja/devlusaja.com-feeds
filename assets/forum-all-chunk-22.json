@@ -1,5 +1,21 @@
 [
   {
+    "id": "62afac6f-c34a-5e8e-8300-86d9a06cc68a",
+    "title": "Gemma 4 QAT + MTP: max 33% speed increase in token generation, any ideas?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u0aj1b/gemma_4_qat_mtp_max_33_speed_increase_in_token/",
+    "pubDate": "2026-06-08T15:04:01+00:00",
+    "description": "Hello, My setup is 2x RTX 3060 Ti 8GB, without the assistant model (MTP) I get around 75t/s, adding the assistant model as draft I manage to reach 100t/s peak. I tried puting the model on a single card with minimal context size, but still not helping in terms of t/s. I set the following draft parameters: --spec-draft-n-max 6 --spec-draft-p-min 0.8 with 80%+ acceptance rate on the draft model outputs, but despite that can't go over this 100t/s (or 33%+ speed increase) threshold. Any help appreciated on how I could tune the below command. Note that I have build llama.cpp this morning, so should have the very latest version running. ./build/bin/llama-server \\ --model ./models/gemma-4-12B-it-qat-UD-Q4_K_XL.gguf \\ --model-draft ./models/gemma-4-12B-it-qat-assistant-MTP-Q8_0.gguf \\ --spec-type draft-mtp \\ --spec-draft-n-max 6 \\ --spec-draft-p-min 0.8 \\ --fit off \\ --spec-draft-device CUDA1 \\ --n-gpu-layers all \\ --split-mode layer \\ --tensor-split 70,30 \\ --fit-target 64 \\ --ctx-size 12000 \\ -t 4 \\ --parallel 1 \\ --flash-attn on \\ --cache-type-k q4_0 \\ --cache-type-v q4_0 \\ --batch-size 1024 \\ --ubatch-size 128 \\ --host 0.0.0.0 \\ --reasoning on \\ --port 8083 submitted by /u/Ready_Performance_35 [link] [comments]",
+    "author": "/u/Ready_Performance_35",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>My setup is 2x RTX 3060 Ti 8GB,</p> <p>without the assistant model (MTP) I get around 75t/s, adding the assistant model as draft I manage to reach 100t/s peak.</p> <p>I tried puting the model on a single card with minimal context size, but still not helping in terms of t/s.</p> <p>I set the following draft parameters:</p> <p>--spec-draft-n-max 6<br /> --spec-draft-p-min 0.8</p> <p>with 80%+ acceptance rate on the draft model outputs, but despite that can't go over this 100t/s (or 33%+ speed increase) threshold.</p> <p>Any help appreciated on how I could tune the below command.<br /> Note that I have build llama.cpp this morning, so should have the very latest version running.</p> <p><code>./build/bin/llama-server \\</code><br /> <code>--model ./models/gemma-4-12B-it-qat-UD-Q4_K_XL.gguf \\</code><br /> <code>--model-draft ./models/gemma-4-12B-it-qat-assistant-MTP-Q8_0.gguf \\</code><br /> <code>--spec-type draft-mtp \\</code><br /> <code>--spec-draft-n-max 6 \\</code><br /> <code>--spec-draft-p-min 0.8 \\</code><br /> <code>--fit off \\</code><br /> <code>--spec-draft-device CUDA1 \\</code><br /> <code>--n-gpu-layers all \\</code><br /> <code>--split-mode layer \\</code><br /> <code>--tensor-split 70,30 \\</code><br /> <code>--fit-target 64 \\</code><br /> <code>--ctx-size 12000 \\</code><br /> <code>-t 4 \\</code><br /> <code>--parallel 1 \\</code><br /> <code>--flash-attn on \\</code><br /> <code>--cache-type-k q4_0 \\</code><br /> <code>--cache-type-v q4_0 \\</code><br /> <code>--batch-size 1024 \\</code><br /> <code>--ubatch-size 128 \\</code><br /> <code>--host</code> <a href=\"http://0.0.0.0\"><code>0.0.0.0</code></a> <code>\\</code><br /> <code>--reasoning on \\</code><br /> <code>--port 8083</code></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ready_Performance_35\"> /u/Ready_Performance_35 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0aj1b/gemma_4_qat_mtp_max_33_speed_increase_in_token/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u0aj1b/gemma_4_qat_mtp_max_33_speed_increase_in_token/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c02121fe-39a4-5007-bb0a-764feb13fb58",
     "title": "Thank you for the weather claude",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u09ze0/thank_you_for_the_weather_claude/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u00k5n/used_claude_to_build_a_news_globe_that_pings_real/\"> <img alt=\"Used Claude to build a news globe that pings real world events as they happen\" src=\"https://external-preview.redd.it/cHBjemQzNXRiMDZoMddlS9CNUS4nmbHySCsEKEjmA-NK9gYGq30gjTOVff8q.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e8062e16cecbdaa3868156762b03d1ca3caa40cf\" title=\"Used Claude to build a news globe that pings real world events as they happen\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>It's a real time 3D Earth, day/night computed from the actual sun position, city lights on the night side, a thin atmosphere, an aurora layer that glows brighter when the real NOAA Kp index spikes, and the ISS drifting overhead on its orbit. When something major happens, it pings the spot on the map with a sourced summary you can click into.</p> <p>The data comes from actual sources. The architecture; an LLM clusters articles and writes neutral summaries. Deterministic &quot;grounding rules&quot; determine what is 'real' and only those that pass will be shown on the feed.</p> <p>It currently runs locally, not hosted yet. Happy to share more details or screenshots in the comments. Let me know if you have any good ideas I can add onto it!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NzBruh\"> /u/NzBruh </a> <br /> <span><a href=\"https://v.redd.it/p8xl0b4tb06h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u00k5n/used_claude_to_build_a_news_globe_that_pings_real/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/cHBjemQzNXRiMDZoMddlS9CNUS4nmbHySCsEKEjmA-NK9gYGq30gjTOVff8q.png?width=640&crop=smart&auto=webp&s=e8062e16cecbdaa3868156762b03d1ca3caa40cf",
-    "isShortVideo": 0
-  },
-  {
-    "id": "44bb9676-d0b6-5ccc-9870-c3a2e2d73687",
-    "title": "Greater than 80% of researchers at CVPR are chinese. This speak volumes on the chinese nexus in research, and something needs to be done about it. [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u00gdg/greater_than_80_of_researchers_at_cvpr_are/",
-    "pubDate": "2026-06-08T07:02:30+00:00",
-    "description": "There are coordinated efforts where people have favoured and jeopardised the double blind review process. No doubt out of these 80% there are great talent but we have to acknowledge that non chinese have been sobotaged and this was also reflected in the recent leaks of the reviewer data from the top ml conferences (won’t name them but they start with i). I have also personally faced such discrimination and had a discussion on the subreddit asking others if they have witnessed something similar. It was shocking to know that this is occurring on large scale. The question is how do we stop it, or highlight this? We have to preserve the sanctity of the research. submitted by /u/AppropriatePush6262 [link] [comments]",
-    "author": "/u/AppropriatePush6262",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>There are coordinated efforts where people have favoured and jeopardised the double blind review process. </p> <p>No doubt out of these 80% there are great talent but we have to acknowledge that non chinese have been sobotaged and this was also reflected in the recent leaks of the reviewer data from the top ml conferences (won’t name them but they start with i). </p> <p>I have also personally faced such discrimination and had a discussion on the subreddit asking others if they have witnessed something similar. It was shocking to know that this is occurring on large scale. </p> <p>The question is how do we stop it, or highlight this? We have to preserve the sanctity of the research.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AppropriatePush6262\"> /u/AppropriatePush6262 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u00gdg/greater_than_80_of_researchers_at_cvpr_are/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u00gdg/greater_than_80_of_researchers_at_cvpr_are/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "ad2356a8-53e1-5949-bc70-159744762940",
+    "title": "AMD R9700 vs GB10",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2r6g6/amd_r9700_vs_gb10/",
+    "pubDate": "2026-06-11T06:30:42+00:00",
+    "description": "I have a budget of 5K, and want to buy some gpus my requirement is 48gb+ vram, because I finetune small language model, perform DPO, in general tinkering/ development is my usecase. if you where in my shoe which among these would you get, on one hand amd is better bang for buck, faster but has low vram. Nvidia has cuda, but is slow af, and the memory although large, it’s speed is trash, making large model training/inference useless. is there any other machine which i can consider, due to travelling constraints, I cannot Another constraint only buy at max 2 gpus and that too not large in size physically submitted by /u/AppropriatePush6262 [link] [comments]",
+    "author": "/u/AppropriatePush6262",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a budget of 5K, and want to buy some gpus my requirement is 48gb+ vram, because I finetune small language model, perform DPO, in general tinkering/ development is my usecase.</p> <p>if you where in my shoe which among these would you get, on one hand amd is better bang for buck, faster but has low vram. Nvidia has cuda, but is slow af, and the memory although large, it’s speed is trash, making large model training/inference useless.</p> <p>is there any other machine which i can consider, due to travelling constraints, I cannot Another constraint only buy at max 2 gpus and that too not large in size physically</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AppropriatePush6262\"> /u/AppropriatePush6262 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2r6g6/amd_r9700_vs_gb10/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2r6g6/amd_r9700_vs_gb10/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9f7eec93-4a64-5ae2-b724-6e7ee00b261d",
     "title": "Know the Claude Rules",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2qvrn/know_the_claude_rules/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://reddit.com/link/1u29zj2/video/v2mhlvswrh6h1/player\">https://reddit.com/link/1u29zj2/video/v2mhlvswrh6h1/player</a></p> <p>As a personal benchmark, I tell LLMs to to create a clone of Happy wheels web game with one level and Pogo stickman character. This time I set a goal and sent Claude Fable 5 (1kk tokens) with max reasoning to do it. It spent 2 hours coding, and burned my 5-hour Claude Max x5 limit, but built something that none of the model ever achieved. It is a real playable game, with a fairly good physics, graphics, and the level itself is very long and interesting. I attach a video of me playing it. After playing 30 minutes of playing it, I found a bug how to move quicker,by leaning the character in the right. However, it is fixable, and everything there is in this game just one prompt (with &quot;/goal&quot; command), and it is already amazing. Of course, you can improve everything a bit, but for me it's about 80% like the OG game. Yeah, with one level, but it is quite big and entertaining actually, and it took me about 25 minutes to complete it fully for the first time. And overall, it's a really well-made game. All my previous attempts with other models were far ahead of what this model just did. I feel this as a huge leap. 1 year ago it couldn't do shit, but now, It's insane what's possible to create with AI.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Impressive-Garage603\"> /u/Impressive-Garage603 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u29zj2/i_have_created_a_happy_wheels_replica_oneshot/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u29zj2/i_have_created_a_happy_wheels_replica_oneshot/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "518d36f0-f6e5-5225-a6dc-74a25bc8ec73",
-    "title": "Local LLM good for OCR of handwriting?",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u29rg9/local_llm_good_for_ocr_of_handwriting/",
-    "pubDate": "2026-06-10T17:59:19+00:00",
-    "description": "I am using qwen3-vl:8b and ollama for doing OCR on scans of handwritten letters and it is doing a decent job. Any other models I should know about for this kind of OCR? submitted by /u/SensitiveCranberry00 [link] [comments]",
-    "author": "/u/SensitiveCranberry00",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am using qwen3-vl:8b and ollama for doing OCR on scans of handwritten letters and it is doing a decent job. Any other models I should know about for this kind of OCR?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SensitiveCranberry00\"> /u/SensitiveCranberry00 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u29rg9/local_llm_good_for_ocr_of_handwriting/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u29rg9/local_llm_good_for_ocr_of_handwriting/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

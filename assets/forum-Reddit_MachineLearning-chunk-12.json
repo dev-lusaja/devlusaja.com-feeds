@@ -1,5 +1,21 @@
 [
   {
+    "id": "b70f1555-fa51-55f4-a8e8-3e74e2a22871",
+    "title": "AI language models have favorite names, and we mapped them [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/",
+    "pubDate": "2026-06-15T17:07:34+00:00",
+    "description": "It turns out LLMs have strong priors over character names that are model-specific and version-specific. If you find Elena Vasquez and Marcus Chen together on a website, there's a good chance Claude generated it. We stumbled on this as a side finding while working on a model diffing method (CDD), and it grew into its own paper. The short version: these names travel as correlated ensembles, appear across dozens of websites as volcano experts, podcast hosts, thriller protagonists, and authors of 1000+ papers published in two months. Then we found a third name in the ensemble. The collage in the comments shows three different websites independently hallucinating the same trio with AI stock photo faces. Preprint: https://arxiv.org/abs/2606.02184 submitted by /u/CebulkaZapiekana [link] [comments]",
+    "author": "/u/CebulkaZapiekana",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/\"> <img alt=\"AI language models have favorite names, and we mapped them [R]\" src=\"https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=de730fbf7ecace6df0036b21470c16a2d4feacfb\" title=\"AI language models have favorite names, and we mapped them [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>It turns out LLMs have strong priors over character names that are model-specific and version-specific. If you find Elena Vasquez and Marcus Chen together on a website, there's a good chance Claude generated it.</p> <p>We stumbled on this as a side finding while working on a model diffing method (CDD), and it grew into its own paper. The short version: these names travel as correlated ensembles, appear across dozens of websites as volcano experts, podcast hosts, thriller protagonists, and authors of 1000+ papers published in two months.</p> <p>Then we found a third name in the ensemble. The collage in the comments shows three different websites independently hallucinating the same trio with AI stock photo faces.</p> <p>Preprint: <a href=\"https://arxiv.org/abs/2606.02184\">https://arxiv.org/abs/2606.02184</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CebulkaZapiekana\"> /u/CebulkaZapiekana </a> <br /> <span><a href=\"https://arxiv.org/abs/2606.02184\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&crop=smart&auto=webp&s=de730fbf7ecace6df0036b21470c16a2d4feacfb",
+    "isShortVideo": 0
+  },
+  {
     "id": "8c94c7e1-f49c-5e39-9027-80d6c77cadcf",
     "title": "Could AI training be decentralized like Bitcoin mining? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u6kzby/could_ai_training_be_decentralized_like_bitcoin/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I use Claude Code, Codex CLI, OpenCode, Cline, Cursor, and Amp enough to notice a pattern in how they handle long context. They are all converging on layered progressive compression, but they disagree on what to protect.</p> <p>Most protect recent user messages as a first-class asset. That makes sense. The user said it, which is the source of truth. Most also protect tool outputs that carry state. What surprised me was how differently they treat old assistant messages. Artifacts keeps recent tool calls verbatim but drops older context aggressively. Cursor starts pruning earlier design decisions once the window gets full. Codex CLI lets the model itself decide what to keep in the summary tier.</p> <p>The other axis is transparency. Do you tell the model it was compressed? Some systems silently replace old tool results with a placeholder, which means the model is reasoning under the illusion that it never happened. Others make it explicit: &quot;the previous 40 tool calls are summarized below.&quot; I lean explicit because the model needs to know its own context was degraded.</p> <p>Verdents agent loop uses a similar tiered approach: snip first, prune second, summarize last, and a hard red line that protects user messages, stateful tool outputs, and anything the user explicitly flagged. The tradeoff is cost vs accuracy. Aggressive compression saves tokens but degrades the plan. Under-compression hits the window and causes context rot.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Direct_Band896\"> /u/Direct_Band896 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u34hvc/what_should_context_compression_keep_i_looked_at/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u34hvc/what_should_context_compression_keep_i_looked_at/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e94238b4-fa6a-51b1-b76a-4f96a29c4cbd",
-    "title": "Is Symbolic Regression still a thing, given LLMs' performance? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/",
-    "pubDate": "2026-06-11T13:13:32+00:00",
-    "description": "I've been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]). But then I was wondering: given LLMs' increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts. [1] ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube submitted by /u/omomom42 [link] [comments]",
-    "author": "/u/omomom42",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]).</p> <p>But then I was wondering: given LLMs' increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts.</p> <p>[1] <a href=\"https://www.youtube.com/watch?v=fe-PC4lw4yw\">ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/omomom42\"> /u/omomom42 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

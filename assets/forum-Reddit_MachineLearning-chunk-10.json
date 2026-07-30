@@ -1,5 +1,21 @@
 [
   {
+    "id": "c1b9e73f-85b9-5973-9558-b51072b2244c",
+    "title": "Miccai grants results [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1udneyh/miccai_grants_results_d/",
+    "pubDate": "2026-06-23T17:21:06+00:00",
+    "description": "Do you guys get a miccai grants result? I do not receive any mail. Don’t I accept? submitted by /u/CrazyIndependent7436 [link] [comments]",
+    "author": "/u/CrazyIndependent7436",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Do you guys get a miccai grants result? I do not receive any mail. Don’t I accept? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CrazyIndependent7436\"> /u/CrazyIndependent7436 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1udneyh/miccai_grants_results_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1udneyh/miccai_grants_results_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "3480b47e-efb5-52ee-b1eb-61799490ec47",
     "title": "WACV supp. mat. video [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1udgv9h/wacv_supp_mat_video_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’ve been building an end-to-end Air Quality (PM2.5) forecasting pipeline for 4 countries (US, UK, India, Australia) using 1.6M+ rows of OpenAQ and NASA weather data.</p> <p>The problem i hit (the variance trap):</p> <p>My V7 model was a standard stateless Gradient Boosting Regressor. It worked great for low-variance regions (like the US), but in highly chaotic environments (like India and the UK), the model was mathematically failing. When I calculated the MASE (Mean Absolute Scaled Error), it was &gt; 1.0. Literally, a naive carryover guess was outperforming my ML model because the model couldn't anticipate sudden momentum shifts.</p> <p>the fix (Horizon aligned architecture):</p> <p>Instead of falling into the recursive snowball trap (where day 1 error compounds into day 30), I completely decoupled the horizons.</p> <p>I engineered strict autoregressive lag vectors aligned specifically to the target horizon (h=1, 7, 14, 30).</p> <p>Injected a 3-day rolling volatility matrix that ends precisely at the inference boundary to prevent data leakage.</p> <p>Result: MASE dropped strictly below 1.0 globally Even at a 30-day horizon, the model maintains a 57% predictive accuracy over the chaotic thermodynamic baseline.</p> <p>The stack:</p> <p>backend pipeline : Python, Pandas (for the memory matrix), scikit-learn, FastAPI.</p> <p>frontend : Next.js 16 (App Router), Tailwind v4, Recharts.</p> <p>Deployment: Vercel with automated GitHub CI/CD sync. (currently pushing updates manually afetr every test, so the site is actually static will automate it later)</p> <p>I'm currently using scikit-learn GBR, but but my immediate next step is to rip it out and rewrite the core engine using Xgboost or LightBGM to handle the sparse temporal features better.</p> <p>If any MLOps or Data Engineers here have advice on scaling XGBoost for multi-horizon forecasting without exploding the compute, I’d love to hear it. Roast my architecture, the repo is public.</p> <p>live URL : <a href=\"https://global-aq-intelligence.vercel.app/\">https://global-aq-intelligence.vercel.app/</a></p> <p>github: <a href=\"https://github.com/divyanshailani/global-aq-intelligence-pipeline\">https://github.com/divyanshailani/global-aq-intelligence-pipeline</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Divyanshailani\"> /u/Divyanshailani </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uar4vc/built_a_global_aq_pm25_forecaster_ml_model_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uar4vc/built_a_global_aq_pm25_forecaster_ml_model_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "677bbc18-9229-52ca-9f7f-1be13daf3978",
-    "title": "how to access books3 dataset for research purposes? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uaoomx/how_to_access_books3_dataset_for_research/",
-    "pubDate": "2026-06-20T05:55:16+00:00",
-    "description": "as per the title, how to access books3 dataset for research purposes? submitted by /u/xolmnyc [link] [comments]",
-    "author": "/u/xolmnyc",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>as per the title, how to access books3 dataset for research purposes?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xolmnyc\"> /u/xolmnyc </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uaoomx/how_to_access_books3_dataset_for_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uaoomx/how_to_access_books3_dataset_for_research/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

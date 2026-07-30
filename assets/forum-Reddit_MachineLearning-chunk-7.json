@@ -1,5 +1,21 @@
 [
   {
+    "id": "fc1d6174-dcf5-5a8e-b00d-ba3faad19e82",
+    "title": "H64LM: A 249M-parameter Mixture-of-Experts Transformer built from scratch in PyTorch [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1umqfd2/h64lm_a_249mparameter_mixtureofexperts/",
+    "pubDate": "2026-07-03T21:18:10+00:00",
+    "description": "Hi everyone, I built H64LM, a research project to better understand modern LLMs by implementing one from scratch in PyTorch. Instead of relying on high-level training frameworks, I implemented the core components myself attention, MoE routing, normalization, and the training loop. Features 249M-parameter Transformer Grouped Query Attention (GQA) Sparse Mixture-of-Experts (8 experts, Top-2 routing) with 3 auxiliary routing losses SwiGLU, RoPE, RMSNorm Sliding-window attention Mixed-precision training, gradient accumulation Custom training loop (no Trainer abstractions) Checkpointing and resume support The included checkpoint was trained on a subset of WikiText-103 to validate the pipeline end-to-end, not to be a strong model it's visibly overfit past epoch 10 (best val PPL ~40.5). Known limitations are documented in the README, including batch-size-1-only generation and no true DDP (falls back to DataParallel). GitHub: https://github.com/Haiderkhan64/H64LM Feedback on the implementation or architecture is very welcome. submitted by /u/Loose_Literature6090 [link] [comments]",
+    "author": "/u/Loose_Literature6090",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I built H64LM, a research project to better understand modern LLMs by implementing one from scratch in PyTorch.</p> <p>Instead of relying on high-level training frameworks, I implemented the core components myself attention, MoE routing, normalization, and the training loop.</p> <p><strong>Features</strong></p> <ul> <li>249M-parameter Transformer</li> <li>Grouped Query Attention (GQA)</li> <li>Sparse Mixture-of-Experts (8 experts, Top-2 routing) with 3 auxiliary routing losses</li> <li>SwiGLU, RoPE, RMSNorm</li> <li>Sliding-window attention</li> <li>Mixed-precision training, gradient accumulation</li> <li>Custom training loop (no Trainer abstractions)</li> <li>Checkpointing and resume support</li> </ul> <p>The included checkpoint was trained on a subset of WikiText-103 to validate the pipeline end-to-end, not to be a strong model it's visibly overfit past epoch 10 (best val PPL ~40.5).</p> <p>Known limitations are documented in the README, including batch-size-1-only generation and no true DDP (falls back to DataParallel).</p> <p>GitHub: <a href=\"https://github.com/Haiderkhan64/H64LM\">https://github.com/Haiderkhan64/H64LM</a></p> <p>Feedback on the implementation or architecture is very welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Loose_Literature6090\"> /u/Loose_Literature6090 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umqfd2/h64lm_a_249mparameter_mixtureofexperts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umqfd2/h64lm_a_249mparameter_mixtureofexperts/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a67c7089-4b29-52dc-81d4-079c70391210",
     "title": "Tom Yeh's AI by hand? is it worth it? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1umqf58/tom_yehs_ai_by_hand_is_it_worth_it_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Today is the day you (🫵!) get access to 80TB plus of data from over 30 astronomical surveys in one place. 4GB of RAM is enough even at Gaia Scale. Check out our writeup here:</p> <p><a href=\"https://huggingface.co/blog/hugging-science/multimodal-universe-hats\">https://huggingface.co/blog/hugging-science/multimodal-universe-hats</a></p> <p>And a tutorial here <a href=\"https://asciinema.org/a/1259218\">https://asciinema.org/a/1259218</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Smith4242\"> /u/Smith4242 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uk7ec6/80tb_of_astronomy_for_the_hddpoor_crossmatch_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uk7ec6/80tb_of_astronomy_for_the_hddpoor_crossmatch_the/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a670f15a-0cb3-5e0f-b2d6-e9cc6c8a0f9d",
-    "title": "REAP: Automatic Curation of Coding Agent Benchmarks from Interactive Production Usage [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uk713d/reap_automatic_curation_of_coding_agent/",
-    "pubDate": "2026-07-01T00:50:50+00:00",
-    "description": "submitted by /u/julian88888888 [link] [comments]",
-    "author": "/u/julian88888888",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/julian88888888\"> /u/julian88888888 </a> <br /> <span><a href=\"https://arxiv.org/pdf/2604.01527\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uk713d/reap_automatic_curation_of_coding_agent/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
