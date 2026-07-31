@@ -1,5 +1,37 @@
 [
   {
+    "id": "adf72a9e-e731-5146-8ed9-940ee1f9c248",
+    "title": "Our ICML paper on predictable hallucination (information-budget abstention gate), + ntkMirror: a training-free open-weight implementation we're releasing today",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/",
+    "pubDate": "2026-06-09T16:23:05+00:00",
+    "description": "Our paper, Predictable Compression Failures: Order Sensitivity and Information Budgeting for Evidence-Grounded Binary Adjudication , was accepted at ICML 2026. Paper: https://arxiv.org/abs/2509.11208 The idea: in evidence-grounded QA, the order you present exchangeable evidence in changes the model's answer probability (permutation dispersion). We treat order as a nuisance variable, derive the Expectation-level Decompression Law (EDFL) relating expected information budget to achievable reliability, and turn it into a fixed ISR=1 answer/abstain gate with no threshold tuning. When information is insufficient, the model abstains instead of guessing. In the paper's pre-specified held-out audit, the gate reaches 0.0–0.7% hallucination at ~24% abstention (80.5% accuracy on attempts), with the ISR=1 boundary fixed by theory rather than tuned. What we're releasing today (ntkMirror): a training-free implementation of that gate for local open-weight models. It scores each claim under multiple evidence orderings (order-marginal verifier, exact tied-branch scoring), computes ISR from the per-permutation probabilities, and gates answer/abstain. No fine-tuning, no second model, runs on your own weights offline. We also ship a fused kernel that batches the permutation forwards: bit-identical to the naive loop at fp32, 2.6–10× faster. New results (not in the paper): run as a hallucination detector across small local models, AUROC on VitaminC / BoolQ / SciFact: Model VitaminC BoolQ SciFact Qwen2.5-0.5B 0.78 0.69 0.80 Qwen2.5-1.5B 0.69 0.78 0.91 Gemma E4B 0.88 0.84 0.96 Qwen2.5-7B 0.90 0.87 0.94 Separation scales with model size, strongest on SciFact and the larger models. Used as a gate on balanced data, the grounded fraction of accepted claims rises from 50% to roughly 75–90% depending on model/dataset, at the cost of dropping ~10–20% of valid claims. The kernel doesn't affect accuracy (AUROC gap ≤0.008); it just makes the gate cheap. Please let me know if you find it useful https://github.com/leochlon/ntkmirror submitted by /u/Upset-Presentation28 [link] [comments]",
+    "author": "/u/Upset-Presentation28",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Our paper, <em>Predictable Compression Failures: Order Sensitivity and Information Budgeting for Evidence-Grounded Binary Adjudication</em>, was accepted at ICML 2026. Paper: <a href=\"https://arxiv.org/abs/2509.11208\">https://arxiv.org/abs/2509.11208</a></p> <p><strong>The idea:</strong> in evidence-grounded QA, the order you present exchangeable evidence in changes the model's answer probability (permutation dispersion). We treat order as a nuisance variable, derive the Expectation-level Decompression Law (EDFL) relating expected information budget to achievable reliability, and turn it into a fixed ISR=1 answer/abstain gate with no threshold tuning. When information is insufficient, the model abstains instead of guessing. In the paper's pre-specified held-out audit, the gate reaches 0.0–0.7% hallucination at ~24% abstention (80.5% accuracy on attempts), with the ISR=1 boundary fixed by theory rather than tuned.</p> <p><strong>What we're releasing today (ntkMirror):</strong> a training-free implementation of that gate for local open-weight models. It scores each claim under multiple evidence orderings (order-marginal verifier, exact tied-branch scoring), computes ISR from the per-permutation probabilities, and gates answer/abstain. No fine-tuning, no second model, runs on your own weights offline. We also ship a fused kernel that batches the permutation forwards: bit-identical to the naive loop at fp32, 2.6–10× faster.</p> <p><strong>New results (not in the paper):</strong> run as a hallucination detector across small local models, AUROC on VitaminC / BoolQ / SciFact:</p> <table><thead> <tr> <th align=\"left\">Model</th> <th align=\"left\">VitaminC</th> <th align=\"left\">BoolQ</th> <th align=\"left\">SciFact</th> </tr> </thead><tbody> <tr> <td align=\"left\">Qwen2.5-0.5B</td> <td align=\"left\">0.78</td> <td align=\"left\">0.69</td> <td align=\"left\">0.80</td> </tr> <tr> <td align=\"left\">Qwen2.5-1.5B</td> <td align=\"left\">0.69</td> <td align=\"left\">0.78</td> <td align=\"left\">0.91</td> </tr> <tr> <td align=\"left\">Gemma E4B</td> <td align=\"left\">0.88</td> <td align=\"left\">0.84</td> <td align=\"left\">0.96</td> </tr> <tr> <td align=\"left\">Qwen2.5-7B</td> <td align=\"left\">0.90</td> <td align=\"left\">0.87</td> <td align=\"left\">0.94</td> </tr> </tbody></table> <p>Separation scales with model size, strongest on SciFact and the larger models. Used as a gate on balanced data, the grounded fraction of accepted claims rises from 50% to roughly 75–90% depending on model/dataset, at the cost of dropping ~10–20% of valid claims. The kernel doesn't affect accuracy (AUROC gap ≤0.008); it just makes the gate cheap.</p> <p>Please let me know if you find it useful <a href=\"https://github.com/leochlon/ntkmirror\">https://github.com/leochlon/ntkmirror</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Upset-Presentation28\"> /u/Upset-Presentation28 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "acb31f92-ce9c-57dd-812a-3bfe91990537",
+    "title": "Am I the only one with this? Claude almost always writes this when you tell him serious personal information.",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u19s0u/am_i_the_only_one_with_this_claude_almost_always/",
+    "pubDate": "2026-06-09T16:19:31+00:00",
+    "description": "submitted by /u/Economy_Lab_1307 [link] [comments]",
+    "author": "/u/Economy_Lab_1307",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u19s0u/am_i_the_only_one_with_this_claude_almost_always/\"> <img alt=\"Am I the only one with this? Claude almost always writes this when you tell him serious personal information.\" src=\"https://preview.redd.it/7udxrxyp8a6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1fd4d72da46458c230f87c9927d69430eeb4e77d\" title=\"Am I the only one with this? Claude almost always writes this when you tell him serious personal information.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Economy_Lab_1307\"> /u/Economy_Lab_1307 </a> <br /> <span><a href=\"https://i.redd.it/7udxrxyp8a6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u19s0u/am_i_the_only_one_with_this_claude_almost_always/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/7udxrxyp8a6h1.png?width=640&crop=smart&auto=webp&s=1fd4d72da46458c230f87c9927d69430eeb4e77d",
+    "isShortVideo": 0
+  },
+  {
     "id": "0b6b535a-40fe-53a9-ad8e-f65fef63cdc4",
     "title": "Cohere North Mini Code 1.0",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Now that Antropic has deleted most of the styles and transferred to Skills, not sure how to achieve the same effect with a Skill?</p> <p>I am thinking to create new project, store few chats there and apply custom intructions based on prompt for the Explanatory style, but not sure how the original was written? </p> <p>Can anybody help? I would appreciate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/K0singas\"> /u/K0singas </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u100fs/what_is_the_prompt_for_explanatory_style/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u100fs/what_is_the_prompt_for_explanatory_style/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9dc3558a-8299-5ece-82ca-fafe50e8149c",
-    "title": "Claude Code CLI burned 5.4 Million tokens on 2 simple queries, crashed internally, and locked my Max plan for 5 hours. Is this normal?",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u0ztzf/claude_code_cli_burned_54_million_tokens_on_2/",
-    "pubDate": "2026-06-09T09:13:22+00:00",
-    "description": "Hey everyone, just venting because I am incredibly frustrated. I’m not a programmer, nor do I work in tech. I’m a medical/healthcare student, and I specifically pay for a Max subscription out of my own saved money to use Claude Code (the CLI version) as a local personal tutor. It helps me manage my study resources and organize my university degree documents. Today, before leaving for a trip, I ran two casual research queries using the new Deep Research workflow: Researching career pathways/options for my university degree. Researching recent clinical treatments for high blood pressure. Both tasks ran in the background for about 20-25 minutes, and then both failed. Immediately after, I got hit by the dread rate limit message: \"You've hit your session limit · resets in 5 hours.\" I was so confused about how I could possibly hit the Max limit with just two questions, so I dug into my local project files (`~/.claude/projects/`) and parsed the `.jsonl` log files. The numbers are shocking: - Task 1 (Degree career options): Spawned 105 sub-agents, did 507 tool uses, consumed **2,811,864 tokens**, and FAILED with the error: `\"subagent completed without calling StructuredOutput\"`. - Task 2 (Blood pressure research): Spawned 110 sub-agents, did 479 tool uses, consumed **2,609,580 tokens**, and FAILED with the exact same error. In total, the agent loop burned **5.4 MILLION TOKENS** in 30 minutes on two basic queries, produced zero output, crashed due to an internal schema format error on Anthropic's end, and completely locked my paid account. How is this acceptable? Why are paid subscribers being charged millions of tokens for internal system loop crashes? I saved up money for the Max plan to help me study, but getting blocked for 5 hours because of a software bug feels incredibly unfair. Has anyone else noticed the Deep Research CLI tasks going wild and eating millions of tokens on simple questions? submitted by /u/Prior-Hope3966 [link] [comments]",
-    "author": "/u/Prior-Hope3966",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, just venting because I am incredibly frustrated. </p> <p>I’m not a programmer, nor do I work in tech. I’m a medical/healthcare student, and I specifically pay for a Max subscription out of my own saved money to use Claude Code (the CLI version) as a local personal tutor. It helps me manage my study resources and organize my university degree documents.</p> <p>Today, before leaving for a trip, I ran two casual research queries using the new Deep Research workflow:</p> <ol> <li><p>Researching career pathways/options for my university degree.</p></li> <li><p>Researching recent clinical treatments for high blood pressure.</p></li> </ol> <p>Both tasks ran in the background for about 20-25 minutes, and then both failed. Immediately after, I got hit by the dread rate limit message: &quot;You've hit your session limit · resets in 5 hours.&quot;</p> <p>I was so confused about how I could possibly hit the Max limit with just two questions, so I dug into my local project files (`~/.claude/projects/`) and parsed the `.jsonl` log files. The numbers are shocking:</p> <p>- Task 1 (Degree career options): Spawned 105 sub-agents, did 507 tool uses, consumed **2,811,864 tokens**, and FAILED with the error: `&quot;subagent completed without calling StructuredOutput&quot;`.</p> <p>- Task 2 (Blood pressure research): Spawned 110 sub-agents, did 479 tool uses, consumed **2,609,580 tokens**, and FAILED with the exact same error.</p> <p>In total, the agent loop burned **5.4 MILLION TOKENS** in 30 minutes on two basic queries, produced zero output, crashed due to an internal schema format error on Anthropic's end, and completely locked my paid account.</p> <p>How is this acceptable? Why are paid subscribers being charged millions of tokens for internal system loop crashes? I saved up money for the Max plan to help me study, but getting blocked for 5 hours because of a software bug feels incredibly unfair. </p> <p>Has anyone else noticed the Deep Research CLI tasks going wild and eating millions of tokens on simple questions?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Prior-Hope3966\"> /u/Prior-Hope3966 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0ztzf/claude_code_cli_burned_54_million_tokens_on_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0ztzf/claude_code_cli_burned_54_million_tokens_on_2/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3c7e42f1-04bf-54ba-a402-ad55057a296b",
-    "title": "Please update Sonnet",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u0zqpx/please_update_sonnet/",
-    "pubDate": "2026-06-09T09:07:45+00:00",
-    "description": "submitted by /u/Ayfri [link] [comments]",
-    "author": "/u/Ayfri",
-    "sourceTitle": "Reddit ClaudeAI",
-    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
-    "sourceCategory": "Reddit_ClaudeAI",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0zqpx/please_update_sonnet/\"> <img alt=\"Please update Sonnet\" src=\"https://preview.redd.it/4rbrhstk386h1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=22d8cc7c2fe365db615d4e1e9d3b62c318a8d633\" title=\"Please update Sonnet\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ayfri\"> /u/Ayfri </a> <br /> <span><a href=\"https://i.redd.it/4rbrhstk386h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u0zqpx/please_update_sonnet/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/4rbrhstk386h1.png?width=320&crop=smart&auto=webp&s=22d8cc7c2fe365db615d4e1e9d3b62c318a8d633",
     "isShortVideo": 0
   }
 ]
