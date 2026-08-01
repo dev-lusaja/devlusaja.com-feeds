@@ -1,5 +1,37 @@
 [
   {
+    "id": "ced34f3f-626b-5fdb-b21c-ad1ef5663ec7",
+    "title": "How are you all managing multiple MCP servers on startup?",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzeir9/how_are_you_all_managing_multiple_mcp_servers_on/",
+    "pubDate": "2026-06-07T15:03:48+00:00",
+    "description": "Hello! I'm using openCode and loading a bunch of different MCP servers at startup. This starts becoming a mess, it eats up tokens and pollutes the context window before I even type a single prompt. How are you all handling this locally? Are you using a proxy/hub to route everything through a single endpoint, or is there a clean way to lazy-load specific tools per session? Curious what the current standard is to keep things clean. Thanks! submitted by /u/vazma [link] [comments]",
+    "author": "/u/vazma",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello! I'm using openCode and loading a bunch of different MCP servers at startup. This starts becoming a mess, it eats up tokens and pollutes the context window before I even type a single prompt.</p> <p>How are you all handling this locally? Are you using a proxy/hub to route everything through a single endpoint, or is there a clean way to lazy-load specific tools per session?</p> <p>Curious what the current standard is to keep things clean. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vazma\"> /u/vazma </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzeir9/how_are_you_all_managing_multiple_mcp_servers_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tzeir9/how_are_you_all_managing_multiple_mcp_servers_on/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "be92d5c9-0e51-545a-89e6-b3802e636b50",
+    "title": "How to create a IG profile from scratch?",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1tzdpu9/how_to_create_a_ig_profile_from_scratch/",
+    "pubDate": "2026-06-07T14:31:56+00:00",
+    "description": "Hi everyone! I'm planing to start creating content on IG, i'm a realtor in Brazil. I'm looking for a prompt/agent to help me build the brand in general, from design (color scheme, logo etc) to the real strategy (content pilars, comm style, frequency etc). Does anyone have any suggestions? I'm new to Claude so it'll help me a lot. Thx guys!! submitted by /u/leonnnn77 [link] [comments]",
+    "author": "/u/leonnnn77",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! I'm planing to start creating content on IG, i'm a realtor in Brazil. I'm looking for a prompt/agent to help me build the brand in general, from design (color scheme, logo etc) to the real strategy (content pilars, comm style, frequency etc). </p> <p>Does anyone have any suggestions? I'm new to Claude so it'll help me a lot. Thx guys!!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/leonnnn77\"> /u/leonnnn77 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzdpu9/how_to_create_a_ig_profile_from_scratch/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tzdpu9/how_to_create_a_ig_profile_from_scratch/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6becc514-e1ac-5ea0-92ec-87ea6f41a603",
     "title": "A handy llama-server launcher with easy model and configuration customisation",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tzdbwr/a_handy_llamaserver_launcher_with_easy_model_and/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz4oxx/i_design_with_claude_more_than_figma_now_jane/\"> <img alt=\"I design with Claude more than Figma now - Jane Street\" src=\"https://external-preview.redd.it/a1rKyJhkfUsmor4YsOCP4sdzKRuQOZ0JA5QkZI3F254.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9e06db0836f26bfb36a9d31d4cfc46bc5bfb81d1\" title=\"I design with Claude more than Figma now - Jane Street\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MorroWtje\"> /u/MorroWtje </a> <br /> <span><a href=\"https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tz4oxx/i_design_with_claude_more_than_figma_now_jane/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/a1rKyJhkfUsmor4YsOCP4sdzKRuQOZ0JA5QkZI3F254.png?width=640&crop=smart&auto=webp&s=9e06db0836f26bfb36a9d31d4cfc46bc5bfb81d1",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e9a66773-b944-5f14-b712-e74a1442c248",
-    "title": "Dense vs MoE quantization resiliance",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz3wiy/dense_vs_moe_quantization_resiliance/",
-    "pubDate": "2026-06-07T05:57:19+00:00",
-    "description": "Which one is more resiliant to quantization? Especially at 4-bit? My experience:i tried gemma4 26b a4b with Ud-q5_k_xl quant and i got loop around 45k context. At 6-bit the looping issue is fixed. (Llamacpp default sample settings) I also tried qwen 3.5 4b model and it looped in the beggining of the conversation. (Llamacpp default sample settings) Idk why. but both models has 4b active parameters at a time. Maybe thats why i saw looping with 26b a4b at Q5? Im also not remembering any looping issues with dense models at q4km but thats maybe because of i use moe often.I dont know and i want to really hear about your experiences. Also should i open Dry? submitted by /u/Any-Chipmunk5480 [link] [comments]",
-    "author": "/u/Any-Chipmunk5480",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Which one is more resiliant to quantization? Especially at 4-bit?</p> <p>My experience:i tried gemma4 26b a4b with Ud-q5_k_xl quant and i got loop around 45k context. At 6-bit the looping issue is fixed. (Llamacpp default sample settings)</p> <p>I also tried qwen 3.5 4b model and it looped in the beggining of the conversation. (Llamacpp default sample settings) Idk why. but both models has 4b active parameters at a time. Maybe thats why i saw looping with 26b a4b at Q5? Im also not remembering any looping issues with dense models at q4km but thats maybe because of i use moe often.I dont know and i want to really hear about your experiences. Also should i open Dry?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Any-Chipmunk5480\"> /u/Any-Chipmunk5480 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz3wiy/dense_vs_moe_quantization_resiliance/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz3wiy/dense_vs_moe_quantization_resiliance/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "634b6249-ab52-5569-bcf0-c6ca491fe5c0",
-    "title": "Cool stuff to do with NVIDIA RTX 6000 PRO 96GB VRAM",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tz2p8h/cool_stuff_to_do_with_nvidia_rtx_6000_pro_96gb/",
-    "pubDate": "2026-06-07T04:51:54+00:00",
-    "description": "I have been a C++ dev for 3 years as long as have done PyTorch in my free time (not that good in the latter). Now, I was lucky enough to get a brand new GPU from a colleague. What are some cool side projects I can build to learn tons about ML and inference/infra? Please don't respond saying \"anything you like\" as there's nothing I prefer at the moment. I am completely new - so sorry if it's an obvious question! submitted by /u/AggressiveMention359 [link] [comments]",
-    "author": "/u/AggressiveMention359",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been a C++ dev for 3 years as long as have done PyTorch in my free time (not that good in the latter). </p> <p>Now, I was lucky enough to get a brand new GPU from a colleague. What are some cool side projects I can build to learn tons about ML and inference/infra? Please don't respond saying &quot;anything you like&quot; as there's nothing I prefer at the moment.</p> <p>I am completely new - so sorry if it's an obvious question!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AggressiveMention359\"> /u/AggressiveMention359 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2p8h/cool_stuff_to_do_with_nvidia_rtx_6000_pro_96gb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tz2p8h/cool_stuff_to_do_with_nvidia_rtx_6000_pro_96gb/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

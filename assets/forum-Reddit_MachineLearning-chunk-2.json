@@ -1,5 +1,37 @@
 [
   {
+    "id": "4ac8de8a-26d0-5137-a311-ed71e6baa1e3",
+    "title": "Understanding GPU Inference Workloads [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
+    "pubDate": "2026-07-26T03:37:48+00:00",
+    "description": "Hey everyone, I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some specific pain points here. If you've used online services like runpod or vast.ai , your perspective is extremely valuable. Please share your experience in the comments here or by DMing me. I've also made a 2 minute survey form that I would really appreciate if you could fill out. DM me for the link. Thank you! submitted by /u/chinmaydagod [link] [comments]",
+    "author": "/u/chinmaydagod",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some specific pain points here.</p> <p>If you've used online services like runpod or <a href=\"http://vast.ai/\">vast.ai</a>, your perspective is extremely valuable. Please share your experience in the comments here or by DMing me. I've also made a 2 minute survey form that I would really appreciate if you could fill out. DM me for the link.</p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chinmaydagod\"> /u/chinmaydagod </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "b5fcb37a-1082-578d-be16-6128deb51910",
+    "title": "Link plots/figures in NeurIPS rebuttal [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v6qt8l/link_plotsfigures_in_neurips_rebuttal_r/",
+    "pubDate": "2026-07-26T02:12:00+00:00",
+    "description": "Reviewers requested additional experiments. In table format, I fear the results would not be as digestible as in a figure/plot. Links are \"technically\" not allowed as per the official website, but for those with experience, can/should I still go ahead and link my plots/figures ? If this goes badly, will this be a slap on the wrist, or outright rejection? Has anyone taken a chance with this in the past? How did it turn out? IMO openreview should really start supporting more modern markdown to allow figure embeds. submitted by /u/confirm-jannati [link] [comments]",
+    "author": "/u/confirm-jannati",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Reviewers requested additional experiments. In table format, I fear the results would not be as digestible as in a figure/plot. Links are &quot;technically&quot; not allowed as per the official website, but for those with experience, can/should I still go ahead and link my plots/figures ? If this goes badly, will this be a slap on the wrist, or outright rejection? Has anyone taken a chance with this in the past? How did it turn out?</p> <p>IMO openreview should really start supporting more modern markdown to allow figure embeds.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/confirm-jannati\"> /u/confirm-jannati </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6qt8l/link_plotsfigures_in_neurips_rebuttal_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6qt8l/link_plotsfigures_in_neurips_rebuttal_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d09420cd-12f4-5bc4-abad-b084a00b70c8",
     "title": "Paper lengths, and reasonable assumptions in ML conferences. [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/\"> <img alt=\"SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R]\" src=\"https://preview.redd.it/1457xi9fcqeh1.jpg?width=140&amp;height=90&amp;auto=webp&amp;s=879aad6df9e51a2735d91112d01518ff76ba3cbe\" title=\"SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>Paper:</strong><a href=\"https://arxiv.org/abs/2607.19058\">https://arxiv.org/abs/2607.19058</a> <strong>Code (GitHub):</strong><a href=\"https://github.com/nuemaan/skewadam\">https://github.com/nuemaan/skewadam</a></p> <p>Hi everyone, I just published a preprint on a new optimizer designed to tackle the massive VRAM bottleneck in Mixture-of-Experts (MoE) training.</p> <p>If you've trained MoEs, you know that optimizer state is usually the largest single line item in the memory budget. AdamW, for example, spends 50.6 GB of state memory just to update a 12.6 GB model.</p> <p>I built SkewAdam to fix this by using a <strong>tiered state allocation</strong>. Instead of treating all parameters equally, it allocates precision based on parameter behavior:</p> <ul> <li><strong>Backbone (5% of params):</strong> Momentum + Factored 2nd moment</li> <li><strong>Experts (95% of params):</strong> Factored 2nd moment only</li> <li><strong>Router (&lt;0.01% of params):</strong> Exact 2nd moment</li> </ul> <p><strong>The Hardware Results:</strong></p> <ul> <li>Optimizer state memory drops from 50.6 GB to 1.29 GB (a 97.4% reduction).</li> <li>Peak training memory drops from 81.4 GB to 31.3 GB.</li> <li>This allows a 6.78B MoE to fit comfortably on a single 40GB GPU without sacrificing convergence or router stability.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kooky-Ad-4124\"> /u/Kooky-Ad-4124 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1v38k1m\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/1457xi9fcqeh1.jpg?width=140&height=90&auto=webp&s=879aad6df9e51a2735d91112d01518ff76ba3cbe",
-    "isShortVideo": 0
-  },
-  {
-    "id": "536e24f8-2613-5ea5-8491-9a2ac868789b",
-    "title": "Vibe-coded a tool to ELI5 research papers in-place [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/",
-    "pubDate": "2026-07-22T06:21:48+00:00",
-    "description": "As I was reading interp papers, I found myself copy-pasting passages back and forth to Claude to parse through them. Eventually just vibe-coded a tool to annotate and discuss papers in place. https://paper-reader.dev - select a passage, a formula, or a figure, and explain the selection with the full paper as context. You can also select a citation to get a brief overview of the cited paper without switching context. Repo is at github.com/tumanian/paper-reader if anyone curious (mostly Claude, some Cursor, some me - built on vercel and supabase). Please be gentle, this runs on my own API key with a modest cap, so don't be too enthusiastic. Hoping this can be useful to someone, and genuinely looking for feedback, especially on where the explanations are wrong or unhelpful — that's the part I can't fully self-evaluate. submitted by /u/tumanian [link] [comments]",
-    "author": "/u/tumanian",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As I was reading interp papers, I found myself copy-pasting passages back and forth to Claude to parse through them. Eventually just vibe-coded a tool to annotate and discuss papers in place.</p> <p><a href=\"https://paper-reader.dev\">https://paper-reader.dev</a> - select a passage, a formula, or a figure, and explain the selection with the full paper as context. You can also select a citation to get a brief overview of the cited paper without switching context.</p> <p>Repo is at <a href=\"http://github.com/tumanian/paper-reader\">github.com/tumanian/paper-reader</a> if anyone curious (mostly Claude, some Cursor, some me - built on vercel and supabase).</p> <p>Please be gentle, this runs on my own API key with a modest cap, so don't be <em>too</em> enthusiastic.</p> <p>Hoping this can be useful to someone, and genuinely looking for feedback, especially on where the explanations are wrong or unhelpful — that's the part I can't fully self-evaluate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tumanian\"> /u/tumanian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v37s1f/vibecoded_a_tool_to_eli5_research_papers_inplace_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "964ad6f1-a897-5082-b62e-37e68366dd3f",
-    "title": "Looking for feedback on my GPU-accelerated Snake AI project [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v2xktw/looking_for_feedback_on_my_gpuaccelerated_snake/",
-    "pubDate": "2026-07-21T22:33:50+00:00",
-    "description": "I've been building an AI that learns to play the classic Snake game through reinforcement learning. The goal is to reach high scores while keeping training time as low as possible. The current version averages 86 points (87 is the maximum) after less than 10 hours of training on a single free Google Colab T4 GPU. To keep training fast, it runs 4,096 Snake games directly on the GPU, combines GPU-native environment simulation with PPO + GAE, and uses a spatially-preserving CoordConv architecture that maintains the full game grid throughout training. I'm sure there's still room to improve. If you've worked on reinforcement learning or efficient training systems, what would you try next? Better exploration, reward design, network architecture, or something else? Repository: ( https://github.com/siddhartha399/PPO-CoordConv-Snake ) I'd really appreciate any feedback or criticism. submitted by /u/Due_Highlight_9341 [link] [comments]",
-    "author": "/u/Due_Highlight_9341",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1v2xktw/looking_for_feedback_on_my_gpuaccelerated_snake/\"> <img alt=\"Looking for feedback on my GPU-accelerated Snake AI project [P]\" src=\"https://preview.redd.it/4k0bf6wgtneh1.gif?width=640&amp;crop=smart&amp;s=7309dc4cdba7df36b615ed9025f212c2b34fd4b0\" title=\"Looking for feedback on my GPU-accelerated Snake AI project [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I've been building an AI that learns to play the classic Snake game through reinforcement learning. <strong>The goal is to reach high scores while keeping training time as low as possible.</strong></p> <p>The current version averages 86 points (87 is the maximum) after less than 10 hours of training on a single free Google Colab T4 GPU. To keep training fast, it runs 4,096 Snake games directly on the GPU, combines GPU-native environment simulation with PPO + GAE, and uses a spatially-preserving CoordConv architecture that maintains the full game grid throughout training.</p> <p>I'm sure there's still room to improve. If you've worked on reinforcement learning or efficient training systems, what would you try next? Better exploration, reward design, network architecture, or something else?</p> <p><strong>Repository:</strong> (<strong><a href=\"https://github.com/siddhartha399/PPO-CoordConv-Snake\">https://github.com/siddhartha399/PPO-CoordConv-Snake</a>)</strong></p> <p>I'd really appreciate any feedback or criticism.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Due_Highlight_9341\"> /u/Due_Highlight_9341 </a> <br /> <span><a href=\"https://i.redd.it/4k0bf6wgtneh1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v2xktw/looking_for_feedback_on_my_gpuaccelerated_snake/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/4k0bf6wgtneh1.gif?width=640&crop=smart&s=7309dc4cdba7df36b615ed9025f212c2b34fd4b0",
     "isShortVideo": 0
   }
 ]
