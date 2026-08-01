@@ -446,37 +446,5 @@
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/\"> <img alt=\"Stepfun 3.7 Flash: Sonic-like platformer\" src=\"https://preview.redd.it/e9p1d7aqkq4h1.gif?width=640&amp;crop=smart&amp;s=aaeac2703b284fdc7dff3f57c1c49cb2d53e1ba2\" title=\"Stepfun 3.7 Flash: Sonic-like platformer\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>System Prompt: <code>You are an expert software developer.</code></p> <p>Prompt: <code>Task: make a Sonic The Hedgehog-like platform game</code></p> <p>Scaffold: none - just a single message in openwebui</p> <p>Model: <a href=\"https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF\">Stepfun 3.7 Flash official Q4_K_S</a></p> <p>This was the first try don't think I've tried this prompt on other models before. Pretty impressed with the control feel and sense of speed.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/-dysangel-\"> /u/-dysangel- </a> <br /> <span><a href=\"https://i.redd.it/e9p1d7aqkq4h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/e9p1d7aqkq4h1.gif?width=640&crop=smart&s=aaeac2703b284fdc7dff3f57c1c49cb2d53e1ba2",
     "isShortVideo": 0
-  },
-  {
-    "id": "8fe3d4d6-a24a-5e6f-badf-6f0a23ee838c",
-    "title": "ICYM: llama.cpp b9455 --SM Tensor KV Cache Fix is MERGED",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/",
-    "pubDate": "2026-06-01T20:08:15+00:00",
-    "description": "Them boys can cook, one big fix after another! If you're running --sm tensor on multi-gpu this is the KV cache quantization fix https://github.com/ggml-org/llama.cpp/releases/tag/b9455 JohannesGaessler commented 5 days ago This PR implements support for the combination of -sm tensor and quantized KV cache. The reason why this doesn't work on master is that the flattening of tensors for the KV cache rotation leads to the loss of shape information which the meta backend cannot handle. There were previous PRs which resolved the issue by changing the shapes of the KV cache rotation but that is an undesirable solution because batched matrix multiplications may not be as well-supported in ggml backends as a single large matrix multiplication. Also it is generally better to extend the meta backend with capabilities to handle a compute graph than to require compute graphs to conform to the meta backend's requirments. The approach in this PR is to extend the specification ggml_backend_meta_split_state with a value that specifies how often a given segment repeats. When a tensor is flattened the meta backend uses segments to specify the data layout within the flattened dimension so that upon a further reshape the correct data layout can be restored. No changes to the llama.cpp compute graphs are required. submitted by /u/Bulky-Priority6824 [link] [comments]",
-    "author": "/u/Bulky-Priority6824",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Them boys can cook, one big fix after another!</p> <p>If you're running --sm tensor on multi-gpu this is the KV cache quantization fix</p> <p><a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9455\">https://github.com/ggml-org/llama.cpp/releases/tag/b9455</a></p> <blockquote> <p><a href=\"https://github.com/JohannesGaessler\"><strong>JohannesGaessler</strong></a>commented<a href=\"https://github.com/ggml-org/llama.cpp/pull/23792#issue-4535454876\">5 days ago</a></p> </blockquote> <p>This PR implements support for the combination of <code>-sm tensor</code> and quantized KV cache. The reason why this doesn't work on master is that the flattening of tensors for the KV cache rotation leads to the loss of shape information which the meta backend cannot handle. There were previous PRs which resolved the issue by changing the shapes of the KV cache rotation but that is an undesirable solution because batched matrix multiplications may not be as well-supported in ggml backends as a single large matrix multiplication. Also it is generally better to extend the meta backend with capabilities to handle a compute graph than to require compute graphs to conform to the meta backend's requirments.</p> <p>The approach in this PR is to extend the specification <code>ggml_backend_meta_split_state</code> with a value that specifies how often a given segment repeats. When a tensor is flattened the meta backend uses segments to specify the data layout within the flattened dimension so that upon a further reshape the correct data layout can be restored. No changes to the llama.cpp compute graphs are required.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bulky-Priority6824\"> /u/Bulky-Priority6824 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu44z9/icym_llamacpp_b9455_sm_tensor_kv_cache_fix_is/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "eebacdbd-1952-577a-9afb-71f808f098e2",
-    "title": "NVIDIA GB300 Grace Blackwell Ultra pricetags",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tu2x22/nvidia_gb300_grace_blackwell_ultra_pricetags/",
-    "pubDate": "2026-06-01T19:26:10+00:00",
-    "description": "https://www.scan.co.uk/shop/ai-and-robotics/workstations-ai/nvidia-dgx-station submitted by /u/X-N2O [link] [comments]",
-    "author": "/u/X-N2O",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.scan.co.uk/shop/ai-and-robotics/workstations-ai/nvidia-dgx-station\">https://www.scan.co.uk/shop/ai-and-robotics/workstations-ai/nvidia-dgx-station</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/X-N2O\"> /u/X-N2O </a> <br /> <span><a href=\"https://i.redd.it/1jiixhbq2q4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tu2x22/nvidia_gb300_grace_blackwell_ultra_pricetags/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
