@@ -1,5 +1,37 @@
 [
   {
+    "id": "d89d1c2c-9540-5970-964f-55166e6d9db5",
+    "title": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
+    "link": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
+    "pubDate": "2026-07-11T15:00:00+00:00",
+    "description": "LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and latency while silently degrading output quality. This article introduces a deterministic prompt-pruning layer that reduces token usage without breaking dependencies, backed by real benchmarks and production-tested design. The post Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work appeared first on Towards Data Science .",
+    "author": "Emmimal P Alexander",
+    "sourceTitle": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/feed/",
+    "sourceCategory": "Towards",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "1bf5334a-62fa-5d30-bfda-77acf9f1c265",
+    "title": "La tecnológica Submer invertirá 1.000 millones para transformar la planta de Ercros de Flix en un centro de datos",
+    "link": "https://elpais.com/espana/catalunya/2026-07-11/la-tecnologica-submer-invertira-1000-millones-para-transformar-la-planta-de-ercros-de-flix-en-un-centro-de-datos.html",
+    "pubDate": "2026-07-11T14:21:09+02:00",
+    "description": "Illa augura que la apuesta de la compañía catalana, junto con la gigafactoría de Morá la Nova, hará de la zona un referente empresarial en Europa",
+    "author": "Camilo S. Baquero",
+    "sourceTitle": "El País",
+    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
+    "sourceCategory": "El_Pais",
+    "sourceType": "notice",
+    "sourceCountry": "Colombia",
+    "content": "",
+    "image": "https://imagenes.elpais.com/resizer/v2/JTFPJLBZ35JFJGPDBU6JJTCXNU.jpg?auth=4af634f107fe63dfdee16f1c155ae1c864f1904bbe835441900a3fa1f70bc8b9&width=414&height=311&smart=true",
+    "isShortVideo": 0
+  },
+  {
     "id": "c27409a0-4179-5b3d-a0c2-89441a28cf03",
     "title": "OpenAI bets on families as ChatGPT goes deeper into households",
     "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Local-Video-Summarization-Pipeline-scaled.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "530f1b5f-bbe9-52ed-aafb-dfcc18ed4eb2",
-    "title": "The Big Con of Agentic AI",
-    "link": "https://towardsdatascience.com/the-big-con-of-agentic-ai/",
-    "pubDate": "2026-07-10T12:00:00+00:00",
-    "description": "What our over-dependence on external consulting teaches us about delegating our minds to machines The post The Big Con of Agentic AI appeared first on Towards Data Science .",
-    "author": "Chinmay Kakatkar",
-    "sourceTitle": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/feed/",
-    "sourceCategory": "Towards",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8e147bd4-1ea5-5b6f-aa83-f36ae341ddd7",
-    "title": "Meta AI puede crear imágenes con tu cara sin permiso usando tus fotos de Instagram: cómo funciona y dos modos de evitarlo",
-    "link": "https://www.xataka.com/basics/meta-ai-crea-imagenes-tu-cara-permiso-usando-tus-fotos-instagram-como-funciona-dos-modos-evitarlo",
-    "pubDate": "2026-07-10T11:07:00+00:00",
-    "description": "Meta AI ha estrenado una nueva función con la que cualquier usuario puede crear imágenes con las caras de otras personas sin permiso. Esto abre la puerta a todo tipo de abusos y usos poco éticos, ya que la función permite usar tu imagen de perfil o las fotos tuyas que hayas publicado como referencia. Vamos a explicarte brevemente cómo se utiliza esta función y cómo se generan estas imágenes. Luego, pasaremos a decirte los dos métodos con los que puedes evitar que otros creen imágenes con tu cara . Darle permiso viene activado por defecto, pero se puede desactivar. Meta AI hace fotos con las caras de los usuarios de Instagram Quien use la web o la app de Meta AI ahora puede pedirle que genere fotos de otras personas. Simplemente tienes que usar un prompt donde se solicite que lo haga, mencionando al usuario por el nombre de su cuenta. Por ejemplo, si Xataka fuera una persona, podemos pedirle que haga fotos de @Xataka haciendo lo que queramos. Por defecto Meta AI usará como referencia para su composición la imagen de perfil de este usuario. Pero vas a poder pedirle que use las fotos de su feed como referencia, y también cualquier escenario o acción. Vamos, puedes crear imágenes de una persona haciendo lo que tú quieras sin que esta tenga control sobre lo que haces. Evita que hagan imágenes tuyas sin tu permiso Hay dos maneras en las que puedes evitar que Meta AI acceda a tus fotos para crear imágenes. La primera es desactivar los permisos que Instagram tiene activados por defecto . Vamos, que si no tocas nada, la configuración de Instagram hace que le hayas dado permiso a Meta AI para que se usen tus fotos para lo que otros usuarios quieran. Para desactivar esta función tienes que entrar en la configuración de Instagram, y pulsar en la sección Compartir y reutilizar . Una vez dentro baja hasta el apartado de Allow people to reuse your content on Instagram with AI Features at Meta , una nueva opción que cuando se traduzca al español debería ser algo como Permite que los usuarios reutilicen tu contenido en Instagram con las funciones de IA de Meta . En este apartado, tienes que desactivar las opciones de Publicaciones y Reels . Con esto, evitarás que se usen todas tus fotos públicas y tus reels para generar cualquier tipo de contenido en Meta AI. En Xataka Cómo evitar que Instagram use tus datos para entrenar a Meta AI El segundo método es haciendo tu cuenta privada , porque Meta AI no tiene acceso al contenido de este tipo de cuentas. O sea que si ya tienes una cuenta privada no es necesario tocar nada, aunque conviene desactivar los permisos igualmente por si esto cambiase en el futuro En Xataka Basics | No, Meta AI de WhatsApp no se puede desactivar, pero así puedes hacer que moleste lo mínimo",
-    "author": "Yúbal Fernández",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/209c67/meta-ai/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]
