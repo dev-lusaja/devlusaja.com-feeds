@@ -1,5 +1,21 @@
 [
   {
+    "id": "a1ad8373-bf99-5982-8ad0-9393f53ba263",
+    "title": "Understanding Pytorch better and Moving forward from papers [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u12axw/understanding_pytorch_better_and_moving_forward/",
+    "pubDate": "2026-06-09T11:29:15+00:00",
+    "description": "Im moving to my final year of engineering, im panicking scared everything but im confident in myself. I can read papers, understand the code go through the architectures and see them at scale (in my head), while i struggle to interpret all the dimensions and helper functions being coupled, i somehow get by hour an abnormal amount of time spent on it. I dont get what i should be doing next? i aspire to combine encoders for vision, audio and ofc text to build a model. but i dont see how that happens overnight, i wanna know what you all experienced folks did after reading papers. it makes me curious about the implications and applications, how real researchers are working on top of it. somewhat like the Big Bang Theory, where all the scientists just discuss ideas, I wish to reach out to researchers too, leave any suggestions on what would help me stand out among all these AI proposals. submitted by /u/EnchantedHawk [link] [comments]",
+    "author": "/u/EnchantedHawk",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Im moving to my final year of engineering, im panicking scared everything but im confident in myself. I can read papers, understand the code go through the architectures and see them at scale (in my head), while i struggle to interpret all the dimensions and helper functions being coupled, i somehow get by hour an abnormal amount of time spent on it. </p> <p>I dont get what i should be doing next? i aspire to combine encoders for vision, audio and ofc text to build a model. but i dont see how that happens overnight, i wanna know what you all experienced folks did after reading papers. it makes me curious about the implications and applications, how real researchers are working on top of it.</p> <p>somewhat like the Big Bang Theory, where all the scientists just discuss ideas, I wish to reach out to researchers too, leave any suggestions on what would help me stand out among all these AI proposals.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EnchantedHawk\"> /u/EnchantedHawk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12axw/understanding_pytorch_better_and_moving_forward/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12axw/understanding_pytorch_better_and_moving_forward/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fe238fed-5ced-5725-ac36-b67920cff3ae",
     "title": "People were praising computers over human brain, now it is reverse [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u114e9/people_were_praising_computers_over_human_brain/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tx32hg/r_measuring_the_symmetrydata_exchange_rate/\"> <img alt=\"[R] Measuring the Symmetry--Data Exchange Rate\" src=\"https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=de730fbf7ecace6df0036b21470c16a2d4feacfb\" title=\"[R] Measuring the Symmetry--Data Exchange Rate\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>The prediction that equivariance reduces sample complexity by a factor of |G| appears in roughly every paper on geometric deep learning and is measured as an actual scaling law in roughly none of them. This paper does the measurement.</p> <p>The methodology is the interesting part. Naive estimators conflate group order with task difficulty (larger groups induce harder symmetry structure, not just more constraint), so the authors derive a <em>relative</em> exchange rate that cancels the shared difficulty out, meaning roughly how much less data the equivariant model needs compared to a vanilla baseline as a function of n, on a controlled C_n-symmetric task where n is a free knob. They also pre-specify a failure taxonomy: explicit conditions that would count as evidence <em>against</em> the hypothesis before seeing results.</p> <p>The headline number is beta_diff ~ 1.28, consistent with the theoretical 1.0. But the more durable finding is the <strong>wrong-group control</strong>: a model built with the wrong cyclic symmetry, same orbit size and same compute budget, is actively <em>worse</em> than no constraint. Not noise. The joint pairwise CI [+0.79, +3.26] excludes zero robustly across every estimator they run. Misalignment isn't just unhelpful; it is harmful.</p> <p>There is also a clean mathematical result slipped into Sec. 4.3: augmentation + test-time orbit averaging is exactly equivariant for output-pooling architectures, provably and verified to bit-identical training curves. The architecture-vs-augmentation gap collapses to whether you apply the orbit average at test time, not to anything structural. This seems underappreciated.</p> <p>The paper is unusually transparent about what it didn't nail: the relative-rate estimator was adopted post-hoc, the two-level bootstrap CI (seeds x group sizes) includes zero, and a finer-N replication on a sqrt(2)-spaced grid is inconclusive. They rank their findings explicitly by robustness. The wrong-group result is the one they would stake a claim on. The exchange rate is directionally probable.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AhmedMostafa16\"> /u/AhmedMostafa16 </a> <br /> <span><a href=\"https://arxiv.org/abs/2606.01090\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tx32hg/r_measuring_the_symmetrydata_exchange_rate/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&crop=smart&auto=webp&s=de730fbf7ecace6df0036b21470c16a2d4feacfb",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cfb85d90-415e-5098-a563-281215912ccd",
-    "title": "How do ML researchers actually use AI tools to improve their writing? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/",
-    "pubDate": "2026-06-04T17:02:53+00:00",
-    "description": "As an ML researcher, how do you use AI tools in your daily work? Do you mostly use them to clean up grammar and wording, or also to rewrite, structure, or draft technical text? submitted by /u/Hope999991 [link] [comments]",
-    "author": "/u/Hope999991",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As an ML researcher, how do you use AI tools in your daily work? Do you mostly use them to clean up grammar and wording, or also to rewrite, structure, or draft technical text?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

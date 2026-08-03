@@ -1,5 +1,21 @@
 [
   {
+    "id": "179a15d9-c6f7-542d-adce-24822718a6b3",
+    "title": "Unprofessional Coauthor Behavior with Hallucinated References [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/",
+    "pubDate": "2026-06-13T09:07:27+00:00",
+    "description": "Just thought I'd highlight this issue to the ML community, since I recently had this problem arise and it might be useful for some. I had a coauthor who I knew was somewhat untrustworthy when it came to LLM use. This coauthor added some last-minute new references to the paper. The deadline was near, and I had a ton of other stuff to take care of. I asked them to ensure the references were correct. This coauthor confirmed that all references were correct. I trusted them. I submitted the paper. Turns out, I made a critical mistake in trusting them. All of these newly added references had hallucinations in them. The reviewer pointed out the hallucinated references and we withdrew the paper. Besides this reviewer, we had all accept scores: the scientific content of our paper was strong. Of course, this damages my reputation and the reputations of the rest of the coauthors. I was the first author and did >90% of the work on this paper over 2.5 years. This coauthor did maybe 5% of the work. The takeaway is: check *all* references added to the paper, unless you are absolutely certain you can trust someone to not use LLMs. Hopefully this helps someone avoid this issue, because I worked tirelessly on this paper, in a very high pressure lab environment, and this whole situation has caused me a lot of grief. submitted by /u/treeman0469 [link] [comments]",
+    "author": "/u/treeman0469",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Just thought I'd highlight this issue to the ML community, since I recently had this problem arise and it might be useful for some.</p> <p>I had a coauthor who I knew was somewhat untrustworthy when it came to LLM use. This coauthor added some last-minute new references to the paper. The deadline was near, and I had a ton of other stuff to take care of. I asked them to ensure the references were correct. This coauthor confirmed that all references were correct. I trusted them. I submitted the paper.</p> <p>Turns out, I made a critical mistake in trusting them. All of these newly added references had hallucinations in them. The reviewer pointed out the hallucinated references and we withdrew the paper. Besides this reviewer, we had all accept scores: the scientific content of our paper was strong. Of course, this damages my reputation and the reputations of the rest of the coauthors.</p> <p>I was the first author and did &gt;90% of the work on this paper over 2.5 years. This coauthor did maybe 5% of the work. </p> <p>The takeaway is: check *all* references added to the paper, unless you are absolutely certain you can trust someone to not use LLMs. Hopefully this helps someone avoid this issue, because I worked tirelessly on this paper, in a very high pressure lab environment, and this whole situation has caused me a lot of grief.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/treeman0469\"> /u/treeman0469 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "873a4463-da12-56cc-b818-60e8a726d212",
     "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been reading more about privacy-preserving ML approaches such as differential privacy, federated learning, and on-device inference.</p> <p>The research literature is fairly active, but I'm curious about real-world adoption.</p> <p>For those working in industry:</p> <ul> <li>Are these techniques being deployed in production?</li> <li>What were the biggest engineering challenges?</li> <li>Did privacy requirements significantly impact model performance or infrastructure costs?</li> <li>Are there specific use cases where privacy-preserving approaches have proven especially valuable?</li> </ul> <p>Interested in hearing both success stories and cases where the tradeoffs made adoption difficult.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Mine1912\"> /u/Electrical_Mine1912 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12bpa/are_privacypreserving_techniques_actually_being/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12bpa/are_privacypreserving_techniques_actually_being/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a1ad8373-bf99-5982-8ad0-9393f53ba263",
-    "title": "Understanding Pytorch better and Moving forward from papers [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u12axw/understanding_pytorch_better_and_moving_forward/",
-    "pubDate": "2026-06-09T11:29:15+00:00",
-    "description": "Im moving to my final year of engineering, im panicking scared everything but im confident in myself. I can read papers, understand the code go through the architectures and see them at scale (in my head), while i struggle to interpret all the dimensions and helper functions being coupled, i somehow get by hour an abnormal amount of time spent on it. I dont get what i should be doing next? i aspire to combine encoders for vision, audio and ofc text to build a model. but i dont see how that happens overnight, i wanna know what you all experienced folks did after reading papers. it makes me curious about the implications and applications, how real researchers are working on top of it. somewhat like the Big Bang Theory, where all the scientists just discuss ideas, I wish to reach out to researchers too, leave any suggestions on what would help me stand out among all these AI proposals. submitted by /u/EnchantedHawk [link] [comments]",
-    "author": "/u/EnchantedHawk",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Im moving to my final year of engineering, im panicking scared everything but im confident in myself. I can read papers, understand the code go through the architectures and see them at scale (in my head), while i struggle to interpret all the dimensions and helper functions being coupled, i somehow get by hour an abnormal amount of time spent on it. </p> <p>I dont get what i should be doing next? i aspire to combine encoders for vision, audio and ofc text to build a model. but i dont see how that happens overnight, i wanna know what you all experienced folks did after reading papers. it makes me curious about the implications and applications, how real researchers are working on top of it.</p> <p>somewhat like the Big Bang Theory, where all the scientists just discuss ideas, I wish to reach out to researchers too, leave any suggestions on what would help me stand out among all these AI proposals.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EnchantedHawk\"> /u/EnchantedHawk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12axw/understanding_pytorch_better_and_moving_forward/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u12axw/understanding_pytorch_better_and_moving_forward/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
