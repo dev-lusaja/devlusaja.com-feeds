@@ -446,37 +446,5 @@
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I want to set up a 100% offline RAG system using LM Studio and the entire <strong>Italian Wikipedia</strong> (text-only, no images). My goal is to index the database once so my local LLMs can query it for up-to-date factual knowledge without internet access.</p> <p>Here are my PC specs:</p> <ul> <li><strong>GPU:</strong> RTX 4070 super oc 12gb</li> <li><strong>RAM:</strong> 32gb ddr5</li> <li><strong>Storage:</strong> NVMe SSD samsung 870 evo 2tb</li> </ul> <p>I have two main questions for the community:</p> <ol> <li><strong>Data Source:</strong> What is currently the best, cleanest, and most updated source for the Italian Wikipedia dump in pure text format (like <code>.txt</code>, <code>.md</code>, or a clean <code>.jsonl</code>)? I know about Kiwix (.zim) and Hugging Face datasets, but I want to avoid formatting issues (wikitext/HTML tags) that could mess up the embeddings.</li> <li><strong>LM Studio Indexing:</strong> LM Studio's &quot;Local Docs&quot; feature works great for a few documents, but has anyone successfully indexed a large dump like the full Italian Wikipedia (around 5-7GB of raw text)? Will it crash or freeze during the vector database creation? If so, what is the best alternative pipeline to create the vector database offline?</li> </ol> <p>Any advice, scripts, or links to pre-cleaned updated Italian dumps would be highly appreciated.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tombino104\"> /u/tombino104 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuzax/best_way_to_index_full_italian_wikipedia_for_100/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuzax/best_way_to_index_full_italian_wikipedia_for_100/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "7ee5e1d5-9524-5f7f-9a76-a81e26d4fff4",
-    "title": "Ideogram 4 is open source! (top ranked on DesignArena)",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/",
-    "pubDate": "2026-06-03T16:18:47+00:00",
-    "description": "submitted by /u/paf1138 [link] [comments]",
-    "author": "/u/paf1138",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/\"> <img alt=\"Ideogram 4 is open source! (top ranked on DesignArena)\" src=\"https://external-preview.redd.it/MmS5DUxZoPEVWGU88OyT8S516-lI8MW5HhFhgQ5yHMg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=df39a3f658b159caf7399ccea1dac9512381be7b\" title=\"Ideogram 4 is open source! (top ranked on DesignArena)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/paf1138\"> /u/paf1138 </a> <br /> <span><a href=\"https://huggingface.co/ideogram-ai/ideogram-4-fp8\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/MmS5DUxZoPEVWGU88OyT8S516-lI8MW5HhFhgQ5yHMg.png?width=640&crop=smart&auto=webp&s=df39a3f658b159caf7399ccea1dac9512381be7b",
-    "isShortVideo": 0
-  },
-  {
-    "id": "225423cc-dbb6-52cb-bacc-551d6c432911",
-    "title": "Let us let Google know that we want the Gemma 4 124b",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tvu5pp/let_us_let_google_know_that_we_want_the_gemma_4/",
-    "pubDate": "2026-06-03T16:14:17+00:00",
-    "description": "Gemma 4 is good, great even but it's missing that one last step from being Legendary. Let us make noise and let Google know that we want the 124b Gemma 4 variant - please let them know: https://huggingface.co/google/gemma-4-12B-it/discussions submitted by /u/seamonn [link] [comments]",
-    "author": "/u/seamonn",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Gemma 4 is good, great even but it's missing that one last step from being Legendary. Let us make noise and let Google know that we want the 124b Gemma 4 variant - please let them know: </p> <p><a href=\"https://huggingface.co/google/gemma-4-12B-it/discussions\">https://huggingface.co/google/gemma-4-12B-it/discussions</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/seamonn\"> /u/seamonn </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvu5pp/let_us_let_google_know_that_we_want_the_gemma_4/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1tvu5pp/let_us_let_google_know_that_we_want_the_gemma_4/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
