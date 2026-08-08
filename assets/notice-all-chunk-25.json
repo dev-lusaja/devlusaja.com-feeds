@@ -1,5 +1,37 @@
 [
   {
+    "id": "24439f04-0141-56a0-8d19-5aec3a01f59f",
+    "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+    "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+    "pubDate": "2026-07-13T18:22:10+00:00",
+    "description": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
+    "author": "Sarah Perez",
+    "sourceTitle": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "sourceCategory": "TechCrunch_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "310c2373-e679-53f7-a6a5-2d5501b0570c",
+    "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+    "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+    "pubDate": "2026-07-13T18:00:00+00:00",
+    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models can feel pain, for example,…",
+    "author": "James O'Donnell",
+    "sourceTitle": "MIT Tech Review AI",
+    "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "sourceCategory": "MIT_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<p><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\"><em>sign up here</em></a><em>.</em></p>\n\n\n\n<p>Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models <a href=\"https://www.anthropic.com/research/exploring-model-welfare\">can feel pain</a>, for example, and will sometimes <a href=\"https://www.anthropic.com/research/end-subset-conversations\">cut off</a> chatbot conversations if it suspects users are “abusing” the model.&nbsp;</p>\n\n\n\n<p>One niche that Anthropic spends more time and money on than other AI companies is called mechanistic interpretability, which means looking inside the complex math of an AI model to learn why it comes up with one particular output and not another. It’s complicated stuff; there are millions of data points that might contribute to any result, and wading through them can look more like word salad than anything useful. It’s also controversial. Describing AI models with terms borrowed from psychology and neuroscience can make their behavior seem more sophisticated than we might otherwise judge it to be.</p>\n\n\n\n<p>That’s why, when Anthropic <a href=\"https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/\">announced last week</a> that it had found a new window into its models’ “internal thoughts” as they reason through answers, there was one colleague I had to talk to. Senior editor Will Douglas Heaven, aside from having a PhD in computer science, has spent <a href=\"https://www.technologyreview.com/2026/01/12/1129782/ai-large-language-models-biology-alien-autopsy/\">a lot of time</a> digging into what we can say about how AI models work. I spoke with him about what we should take from Anthropic’s new (and predictably quirky) research.</p>\n\n\n\n<p><strong>What did Anthropic learn here, exactly?</strong></p>\n\n\n\n<p>Anthropic has been trying to understand how large language models (LLMs) work for a few years now. Anthropic isn’t the only one looking at this, but I think the company has made it part of its core mission more than most. Anthropic’s CEO, Dario Amodei, has said we won’t be able to control LLMs fully unless we learn more about how they work.&nbsp;</p>\n\n\n\n<p>So this new research is very much in that context. It goes deeper into the weird mechanisms inside LLMs than ever before. What Anthropic learned was that LLMs have a space inside them—which Anthropic calls the J-space—filled with words that don’t appear in their output but that seem to influence the way they puzzle through problems. All this was hidden until Anthropic developed a new technique to probe its model Claude, so it’s a genuine discovery.&nbsp;</p>\n\n\n\n<p>Sometimes these words keep track of where the LLM has got to in a particular task, sometimes they look more like flashes of recognition (for example, “protein” might pop up when you give an LLM only the letters of a protein sequence), and sometimes they represent a kind of internal commentary on the model’s decision-making. In my favorite example, Claude decided to cheat on a coding test when the word “panic” appeared.</p>\n\n\n\n<p>Anthropic also found that LLMs are able to describe and manipulate the words in this space. So somehow they seem to be making use of it.&nbsp;</p>\n\n\n\n<p><strong>Let’s step back for a second. I don’t think of large language models as </strong><strong><em>simple</em></strong><strong>, but they’re also not magic. There’s a bunch of math that learns relationships between words, right? So why is it so hard to “peer” into an LLM to know what’s going on?</strong></p>\n\n\n\n<p>Yeah, they’re not magic! I think the fact we don’t fully understand them plays into the mythmaking. And it’s worth noting that the whole narrative that Anthropic is leaning into here—that they’ve built this really mysterious technology, but don’t worry, because they’re also the ones to figure it out—very much fits with the company’s vibe. [See how Anthropic warned that its new models were so good at coding they posed a global cybersecurity risk, only for the US government to <a href=\"https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/\">shut them down</a> shortly thereafter.]</p>\n\n\n\n<p>So yes: LLMs are just math. And yet it’s vastly complex math. Not only are today’s LLMs made out of hundreds of billions of numbers, but running them triggers a cascade of millions and millions of calculations. I wrote last year that if you printed out even a medium-size LLM on pieces of paper, it would <a href=\"https://www.technologyreview.com/2026/01/12/1129782/ai-large-language-models-biology-alien-autopsy/\">cover a city the size of San Francisco</a>.&nbsp;</p>\n\n\n\n<p>It’s impossible to make sense of any of that math without specialist tools that highlight specific parts of an LLM at specific times. You need to know where to look and how to look. And building those tools requires understanding something of that complex math in the first place.&nbsp;</p>\n\n\n\n<p><strong>You’ve written elsewhere about this concept of studying LLMs the way one might study an organism’s brain. Is it fair to use “brain-like” terms when talking about how an LLM works?</strong></p>\n\n\n\n<p>I don’t love using those kinds of terms. LLMs are not brains. Talking like this is misleading because it can suggest that LLMs are capable of more human-like things than they are or that we can make assumptions about how they might behave that we shouldn’t. The whole anthropomorphization thing is also tied up with a bunch of <a href=\"https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/\">strong ideological positions about what this technology is and what it’s going to be</a>.&nbsp;</p>\n\n\n\n<p>But at the same time, we lack a good alternative vocabulary for talking about what these models are doing. I can understand why people reach for words like “think” and “understand” and “brain-like”—they’re convenient shorthand.&nbsp;</p>\n\n\n\n<p>Anthropic compares this new space it found inside LLMs to the space that some neuroscientists think our brains use to keep track of conscious thoughts. I asked the company how seriously we should take that comparison and it said in a statement: “Drawing these analogies was helpful to us in designing our experiments, as they allowed us to make many non-obvious experimental predictions about the J-space that turned out to be true. At the same time, it’s important to note that there are some important differences between the J-space (and language models in general) and the human brain, so we don’t mean to claim there’s a perfect correspondence.”&nbsp;</p>\n\n\n\n<p><strong>What’s a problem in AI that this new concept of the J-space might be used to solve?</strong></p>\n\n\n\n<p>Anthropic has said that monitoring the J-space could be a way to catch models doing something they shouldn’t. Because words pop up in this space that don’t appear in a model’s output, they can tell you things about its behavior that you might not have noticed otherwise—such as when it is giving biased responses or when it is weighing the pros and cons of cheating.&nbsp;</p>\n\n\n\n<p>That’s the theory, at least. I think it’s better to think of this result as one more step on the path to understanding this technology overall than as something that will be useful by itself.&nbsp;</p>\n\n\n\n<p><a href=\"https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/\"><em>Read more in Will’s full story about the new research</em></a><em>.&nbsp;</em></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5cad3211-d633-54ce-afa8-680739866cf4",
     "title": "Sam Altman’s space data center trash talk is what most experts already believe",
     "link": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
@@ -445,38 +477,6 @@
     "sourceCountry": "Colombia",
     "content": "",
     "image": "https://imagenes.elpais.com/resizer/v2/W2GGVMCCO5FV5JGFXFMYHSZ6RQ.jpg?auth=cae25d977b85b1b3ed1d86c669c82c56b743ecd3b0083af36464d98f6e195bc6&width=414&height=311&focal=4152%2C1553",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cc46eef2-74e1-5628-a4c2-707a9c040d20",
-    "title": "Cómo pueden las empresas anticipar el futuro",
-    "link": "https://elpais.com/economia/negocios/2026-07-12/como-pueden-las-empresas-anticipar-el-futuro.html",
-    "pubDate": "2026-07-12T05:30:00+02:00",
-    "description": "EL PAÍS y Redeia celebran un encuentro con expertos para debatir sobre el uso de la prospectiva estratégica en un mundo tan volátil y lleno de desafíos",
-    "author": "Natalia Otero",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/WGRJQDYDBRDGTCSDQU77J2HGFM.jpg?auth=3156c7f3d4fe857df6a7d6c1c4ba7ad471185b4c0925c4726b2722fb32ca4f22&width=414&height=311&smart=true",
-    "isShortVideo": 0
-  },
-  {
-    "id": "636995ad-6960-56cc-b279-34f75f9abb4e",
-    "title": "La catástrofe moral de los tecnomagnates totalitarios: nos roban los datos, nos roban la democracia",
-    "link": "https://elpais.com/ideas/2026-07-12/la-catastrofe-moral-de-los-tecnomagnates-totalitarios-nos-roban-los-datos-nos-roban-la-democracia.html",
-    "pubDate": "2026-07-12T05:30:00+02:00",
-    "description": "Un grupo de caciques corporativos son los responsables del colapso democrático al que asistimos a escala mundial. Con sus algoritmos han conseguido que los ciudadanos naveguemos en un lodo informativo mientras los líderes políticos improvisan ante cada nueva crisis. Cuando las prácticas empresariales entrañan un coste moral y humano inaceptable, hay que abolirlas. Se hizo con el trabajo infantil. Y con la esclavitud",
-    "author": "El País",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/EZNGSFITZFH65CH54STIO32B3Y.jpg?auth=63e5255af0e28862c2774d50ccc0e73db046497d7fafdf4df4dd5c090750cac3&width=414&height=311&focal=281%2C487",
     "isShortVideo": 0
   }
 ]

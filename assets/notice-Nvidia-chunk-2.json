@@ -382,21 +382,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/healthcare-ai-agents-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"healthcare-ai-agents\" width=\"768\" />Training a speech AI model to correctly recognize or synthesize clinical terminology is surprisingly difficult. Drug names like Acetaminophen, Amlodipine,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/healthcare-ai-agents-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"healthcare-ai-agents\" width=\"768\" /><p>Training a speech AI model to correctly recognize or synthesize clinical terminology is surprisingly difficult. Drug names like Acetaminophen, Amlodipine, Cefazolin, and Biktarvy are not part of everyday vocabulary. Procedure names, anatomy terms, and specialty-specific diagnoses introduce the same problem in a different form. Off-the-shelf speech systems can sound fluent and still miss the words…</p>\n<p><a href=\"https://developer.nvidia.com/blog/evaluate-clinical-asr-models-faster-with-agent-skills-and-nvidia-nemotron-speech/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "b189f103-a7ad-513f-8e52-260de4bd37ed",
-    "title": "Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell",
-    "link": "https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/",
-    "pubDate": "2026-06-08T18:18:06+00:00",
-    "description": "Pre-training frontier LLMs comes down to throughput. When training spans trillions of tokens across thousands of accelerators, every percentage point of step...",
-    "author": "Max Xu",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Pretrain-Faster-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Pretrain-Faster\" width=\"768\" />Pre-training frontier LLMs comes down to throughput. When training spans trillions of tokens across thousands of accelerators, every percentage point of step...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Pretrain-Faster-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Pretrain-Faster\" width=\"768\" /><p>Pre-training frontier LLMs comes down to throughput. When training spans trillions of tokens across thousands of accelerators, every percentage point of step time can add up to days of training and substantial compute costs. Numerical precision is one of the highest-leverage knobs available, but low- bit mixed-precision pretraining is hard to get right. To address this…</p>\n<p><a href=\"https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
