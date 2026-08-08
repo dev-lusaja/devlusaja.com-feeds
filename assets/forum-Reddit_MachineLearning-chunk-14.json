@@ -1,5 +1,21 @@
 [
   {
+    "id": "790585c8-0632-5bc0-976d-b6b548175acd",
+    "title": "Is foundational AI research still something that can be done without access to HPC? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u8jyat/is_foundational_ai_research_still_something_that/",
+    "pubDate": "2026-06-17T19:26:11+00:00",
+    "description": "I'm not that well versed in ML yet. I know that \"Attention is all you need\" was based on work that was done with a couple of high end gaming GPUs at the time. I can afford that. Suppose for arguments sake that I have caught up on ML such that I have the competence to recreate state of the art results should I have access to the required hardware, do I still need access to huge amounts of hardware infrastructure to be able to contribute to the field at a foundational level? submitted by /u/Proof-Bed-6928 [link] [comments]",
+    "author": "/u/Proof-Bed-6928",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm not that well versed in ML yet. I know that &quot;Attention is all you need&quot; was based on work that was done with a couple of high end gaming GPUs at the time. I can afford that.</p> <p>Suppose for arguments sake that I have caught up on ML such that I have the competence to recreate state of the art results should I have access to the required hardware, do I still need access to huge amounts of hardware infrastructure to be able to contribute to the field at a foundational level?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Proof-Bed-6928\"> /u/Proof-Bed-6928 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8jyat/is_foundational_ai_research_still_something_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8jyat/is_foundational_ai_research_still_something_that/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a58eec54-952e-5d90-bb98-ee9b38209bea",
     "title": "No CVPRW report [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u8jtgd/no_cvprw_report_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I built an open-source full-stack pipeline (Django + React) that constructs a Knowledge Graph from raw text, detects thematic communities, and uses hybrid search to solve the &quot;lost in the middle&quot; problem in standard vector retrieval.</p> <p><strong>The Pipeline:</strong></p> <ol> <li><strong>Ingestion &amp; Chunking:</strong> Raw text is cleaned, parsed, and split into overlapping chunks to preserve local context.</li> <li><strong>Graph Construction:</strong> <code>spaCy</code> extracts named entities from each chunk. A weighted co-occurrence graph is built using <code>NetworkX</code>, mapping which entities appear together and linking them to their source chunks.</li> <li><strong>Community Detection:</strong> The graph is partitioned into thematic clusters using <code>greedy_modularity_communities</code>. For each cluster, random text chunks are sampled and sent to an LLM to generate a high-level summary (preventing &quot;hub node&quot; bias).</li> <li><strong>Indexing:</strong> All chunks are embedded into a dense vector store, and a sparse BM25 index is built over the same corpus.</li> <li><strong>Hybrid Retrieval:</strong> On query, the system performs a dual search (Dense Vector + BM25). Simultaneously, it extracts entities from the prompt, traverses the graph for 1st-degree neighbors, and retrieves their associated chunks.</li> <li><strong>Fusion &amp; Reranking:</strong> Local and Global (community summary) results are merged, deduplicated, and scored using <strong>Reciprocal Rank Fusion (RRF)</strong>. The top-K candidates are then re-scored by a Cross-Encoder for maximum precision.</li> <li><strong>LLM Synthesis:</strong> The final curated context is passed to the LLM with strict prompting to generate a concise, well-structured, and cited answer.</li> </ol> <p><strong>Why it works:</strong></p> <p>Standard vector search fails at multi-hop queries like:</p> <blockquote> <p>Who ordered the execution of Sansa's father, and how did that person eventually die?</p> </blockquote> <p>By traversing the graph (<em>Sansa -&gt; Ned -&gt; Joffrey -&gt; Poisoning</em>), the system bridges the gap between disconnected text chunks and synthesizes the correct answer.</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/mohammad-majoony/graphrag-studio\">https://github.com/mohammad-majoony/graphrag-studio</a></p> <p>Would love feedback! Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Future_Caregiver_643\"> /u/Future_Caregiver_643 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u5yyyl/i_built_an_opensource_knowledge_graph_pipeline/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u5yyyl/i_built_an_opensource_knowledge_graph_pipeline/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9376a1ef-eafd-5026-b2ec-983bd364cd8b",
-    "title": "ICML Poster [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/",
-    "pubDate": "2026-06-14T22:04:18+00:00",
-    "description": "Does anyone know when is the ICML poster deadline? It says it’s tomorrow but is it AoE? submitted by /u/misplacedlion [link] [comments]",
-    "author": "/u/misplacedlion",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone know when is the ICML poster deadline? It says it’s tomorrow but is it AoE? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/misplacedlion\"> /u/misplacedlion </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

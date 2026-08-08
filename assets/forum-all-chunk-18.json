@@ -1,5 +1,21 @@
 [
   {
+    "id": "4dd1e97a-694e-5ec9-886f-c75703a4328b",
+    "title": "I wired a fully offline voice loop to Ollama + LM Studio — 100% CPU, no GPU, nothing leaves your machine (Silero VAD + Parakeet STT + Supertonic TTS 3)",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2mu9i/i_wired_a_fully_offline_voice_loop_to_ollama_lm/",
+    "pubDate": "2026-06-11T02:47:21+00:00",
+    "description": "I kept wanting to talk to my local models instead of typing, but every voice setup wanted a GPU, shipped my audio to the cloud, or was macOS-only. So I built one that's none of those — and I benchmarked it, so these are real measured numbers, not vibes. One command installs the whole stack and wires it into your agent. Then you just talk. Everything runs on CPU and stays off your GPU (your GPU is busy running the actual LLM): Silero VAD — knows when you start/stop talking, no push-to-talk. ~0.09 ms/frame. Parakeet TDT 0.6B v3 — local ONNX INT8 STT, 25 languages, OpenAI-compatible on :5093. A 2.5 s clip transcribes in ~280 ms (~9× realtime). Supertonic TTS 3 — local ONNX FP16 synthesis, multilingual, voices F1–F5 / M1–M5. A short reply renders in ~1.7 s (1.6–2.8× realtime), and a TTS→STT round-trip comes back word-for-word. Measured on a plain i7-12700KF, CPU only, no GPU touched — both my 3090s were full serving the LLM itself in vLLM, which is exactly the point: voice runs on CPU, VRAM stays with your model. Works with whatever agent you use — one install drops a talk skill into all of them: Claude Code, Hermes Agent, OpenClaw, OpenCode, and Codex. The same installer also auto-installs and starts the STT + TTS backends for you. Data flow — nothing leaves the box: you -> Silero VAD (CPU) -> Parakeet STT (CPU) -> your LLM (Ollama / LM Studio / vLLM) -> Supertonic 3 (CPU) -> speakers Install (macOS / Linux): git clone https://github.com/groxaxo/opencode-voice-service cd opencode-voice-service && ./setup.sh Windows (PowerShell): .\\setup.ps1 The installer is interactive (pick components + agent integrations) and auto-starts via systemd / launchd / Task Scheduler. Free and MIT-licensed. GitHub: https://github.com/groxaxo/opencode-voice-service Runs fine on a 4-year-old ThinkPad with no GPU. Happy to answer VAD-tuning or ONNX-performance questions. submitted by /u/blackstoreonline [link] [comments]",
+    "author": "/u/blackstoreonline",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I kept wanting to <em>talk</em> to my local models instead of typing, but every voice setup wanted a GPU, shipped my audio to the cloud, or was macOS-only. So I built one that's none of those — and I benchmarked it, so these are real measured numbers, not vibes.</p> <p><strong>One command installs the whole stack and wires it into your agent. Then you just talk.</strong></p> <p>Everything runs on CPU and stays off your GPU (your GPU is busy running the actual LLM):</p> <ul> <li><strong>Silero VAD</strong> — knows when you start/stop talking, no push-to-talk. ~0.09 ms/frame.</li> <li><strong>Parakeet TDT 0.6B v3</strong> — local ONNX INT8 STT, 25 languages, OpenAI-compatible on :5093. A 2.5 s clip transcribes in ~280 ms (~9× realtime).</li> <li><strong>Supertonic TTS 3</strong> — local ONNX FP16 synthesis, multilingual, voices F1–F5 / M1–M5. A short reply renders in ~1.7 s (1.6–2.8× realtime), and a TTS→STT round-trip comes back word-for-word.</li> </ul> <p><strong>Measured on a plain i7-12700KF, CPU only, no GPU touched</strong> — both my 3090s were full serving the LLM itself in vLLM, which is exactly the point: voice runs on CPU, VRAM stays with your model.</p> <p><strong>Works with whatever agent you use — one install drops a <code>talk</code> skill into all of them:</strong> Claude Code, Hermes Agent, OpenClaw, OpenCode, and Codex. The same installer also auto-installs and starts the STT + TTS backends for you.</p> <p><strong>Data flow — nothing leaves the box:</strong></p> <pre><code>you -&gt; Silero VAD (CPU) -&gt; Parakeet STT (CPU) -&gt; your LLM (Ollama / LM Studio / vLLM) -&gt; Supertonic 3 (CPU) -&gt; speakers </code></pre> <p><strong>Install (macOS / Linux):</strong></p> <pre><code>git clone https://github.com/groxaxo/opencode-voice-service cd opencode-voice-service &amp;&amp; ./setup.sh </code></pre> <p><strong>Windows (PowerShell):</strong></p> <pre><code>.\\setup.ps1 </code></pre> <p>The installer is interactive (pick components + agent integrations) and auto-starts via systemd / launchd / Task Scheduler. Free and MIT-licensed.</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/groxaxo/opencode-voice-service\">https://github.com/groxaxo/opencode-voice-service</a></p> <p>Runs fine on a 4-year-old ThinkPad with no GPU. Happy to answer VAD-tuning or ONNX-performance questions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/blackstoreonline\"> /u/blackstoreonline </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2mu9i/i_wired_a_fully_offline_voice_loop_to_ollama_lm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2mu9i/i_wired_a_fully_offline_voice_loop_to_ollama_lm/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "85f915f4-d2d3-5878-8e5f-f122cea0feb9",
     "title": "AMD touts the unified memory architecture",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2l25d/amd_touts_the_unified_memory_architecture/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u26s8n/diffusiongemma_4x_faster_text_generation/\"> <img alt=\"DiffusionGemma: 4x faster text generation\" src=\"https://external-preview.redd.it/pr58Y7_82aglIdD6VxjGg1ns65Db_tHjts-39jVNm9U.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=392d36d61760b0a5d1387957fcff42b9608a6b06\" title=\"DiffusionGemma: 4x faster text generation\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tevlon\"> /u/tevlon </a> <br /> <span><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u26s8n/diffusiongemma_4x_faster_text_generation/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/pr58Y7_82aglIdD6VxjGg1ns65Db_tHjts-39jVNm9U.png?width=640&crop=smart&auto=webp&s=392d36d61760b0a5d1387957fcff42b9608a6b06",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c88d9b33-b1a8-5f65-8aa9-961288f7c636",
-    "title": "DiffusionGemma: The Developer Guide- Google Developers Blog",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u26oyp/diffusiongemma_the_developer_guide_google/",
-    "pubDate": "2026-06-10T16:12:11+00:00",
-    "description": "submitted by /u/tevlon [link] [comments]",
-    "author": "/u/tevlon",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u26oyp/diffusiongemma_the_developer_guide_google/\"> <img alt=\"DiffusionGemma: The Developer Guide- Google Developers Blog\" src=\"https://external-preview.redd.it/qK7_ECLJ60HhKWshpohSyxB-kG8q8SOUSOB57SJ5Hmk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2ffbf1a2fbd50b6f41525984513bc529fb5bf71a\" title=\"DiffusionGemma: The Developer Guide- Google Developers Blog\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tevlon\"> /u/tevlon </a> <br /> <span><a href=\"https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u26oyp/diffusiongemma_the_developer_guide_google/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/qK7_ECLJ60HhKWshpohSyxB-kG8q8SOUSOB57SJ5Hmk.png?width=640&crop=smart&auto=webp&s=2ffbf1a2fbd50b6f41525984513bc529fb5bf71a",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "33451bbf-b99d-5428-b4af-df91ba16d829",
+    "title": "EMNLP 2026 AI Reviewing Experiment [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/",
+    "pubDate": "2026-07-29T02:44:29+00:00",
+    "description": "Hey, can anyone see the AI review result in ARR May 2026 submission? submitted by /u/Historical_Pause247 [link] [comments]",
+    "author": "/u/Historical_Pause247",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey, can anyone see the AI review result in ARR May 2026 submission?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Historical_Pause247\"> /u/Historical_Pause247 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c1de2d5b-5204-5849-8a6b-dd5885f6cffa",
     "title": "My LLM kept implementing every method it found, so I added research and specification gates[D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v9ib5f/my_llm_kept_implementing_every_method_it_found_so/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/\"> <img alt=\"I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]\" src=\"https://preview.redd.it/wiyelkfpsifh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9ed353f6d1eab4c20efcaa110c0c5f642a6d6e99\" title=\"I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This was my Bachelor's Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without relying on existing inference frameworks.</p> <p>The goal was to understand how modern neural network inference engines work at a low level and explore optimization techniques for faster and more efficient edge AI execution on Raspberry Pi 4.</p> <p>The implementation includes:</p> <p>* ARM64 Assembly Language + C inference engine</p> <p>* ARM NEON SIMD optimization</p> <p>* Winograd convolution</p> <p>* Optimized GEMM kernels</p> <p>* Cache-aware tiling</p> <p>* Custom ARM64 micro-kernels</p> <p>* Operator fusion</p> <p>* Attention mechanism</p> <p>* YOLO26 components: Conv, C3K2, SPPF, C2PSA, PSA, BottleNeck, and Detect</p> <p>I extracted the YOLO26n model parameters and redesigned the memory layout into a custom binary format optimized for the inference pipeline.</p> <p>The implementation produces correct object detection results, but the performance improvement was lower than I initially expected. I would appreciate feedback and suggestions from anyone about:</p> <p>* CNN inference optimization</p> <p>* ARM NEON/vectorization</p> <p>* Memory layout and cache optimization</p> <p>* Low-level neural network acceleration</p> <p>Repository:</p> <p><a href=\"https://github.com/mohammad-ghaderi/YOLO26\">https://github.com/mohammad-ghaderi/YOLO26</a></p> <p>Thanks for any feedback or suggestions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Forward_Confusion902\"> /u/Forward_Confusion902 </a> <br /> <span><a href=\"https://i.redd.it/wiyelkfpsifh1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/wiyelkfpsifh1.jpeg?width=640&crop=smart&auto=webp&s=9ed353f6d1eab4c20efcaa110c0c5f642a6d6e99",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4ac8de8a-26d0-5137-a311-ed71e6baa1e3",
-    "title": "Understanding GPU Inference Workloads [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
-    "pubDate": "2026-07-26T03:37:48+00:00",
-    "description": "Hey everyone, I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some specific pain points here. If you've used online services like runpod or vast.ai , your perspective is extremely valuable. Please share your experience in the comments here or by DMing me. I've also made a 2 minute survey form that I would really appreciate if you could fill out. DM me for the link. Thank you! submitted by /u/chinmaydagod [link] [comments]",
-    "author": "/u/chinmaydagod",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some specific pain points here.</p> <p>If you've used online services like runpod or <a href=\"http://vast.ai/\">vast.ai</a>, your perspective is extremely valuable. Please share your experience in the comments here or by DMing me. I've also made a 2 minute survey form that I would really appreciate if you could fill out. DM me for the link.</p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chinmaydagod\"> /u/chinmaydagod </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
