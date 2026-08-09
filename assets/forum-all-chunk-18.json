@@ -1,5 +1,37 @@
 [
   {
+    "id": "f162b98a-4ae7-581d-87a2-760195833dac",
+    "title": "Tiny Scale Is All I Can Spare To Play With Transformer",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2pnfx/tiny_scale_is_all_i_can_spare_to_play_with/",
+    "pubDate": "2026-06-11T05:05:58+00:00",
+    "description": "Hi! I am a student from India, this is my first paper that I published. I was curious whether I can combine both Attention and FFN together to save parameters without sacrificing performance, specifically at parameters <= 10M. Basically my intuition was that Attention is dynamic and smart about which information to mix, but it has no strong non-linearity to actually transform that information. SwiGLU has the strong non-linearity but it's static. Same weights for every input. So instead of running both separately and wasting parameters, why not replace the static linear matrices in FFN with attention getting dynamic mixing and strong non-linearity in one unified operation. I'm not treating this paper as any final conclusion of any means because I have a very very old hardware and Google Colab doesn't help either with scaling up cuz I don't have it's subscription. So I'm just treating this paper as an introduction of my idea and the experiments I was able to run on my given scale. Before adding the abstract I'd also like you to know that just training the 0.8M params model took 8-10 hours on my PC (just a few minutes on Google Colab) and 4M model (which Google Colab wasn't letting me train) took around 3-4 days on my PC. That's the reason I didn't ran much experiments in the paper. Abstract Introduction of the Transformer neural network architecture in the famous Attention Is All You Need paper has created a huge wave of AI development in recent years. The scaled dot-product attention allows for information to be processed with higher efficiency and quality, which the previous RNN-based models lacked. However Transformer-based models comes with their own challenges, particularly with parameter efficiency for tiny models with parameters ≤ 5M. At such small scale a Transformer model essentially uses more parameter than it really should. This sub-ten-million parameters domain space is very underexplored and for good reasons but I wanted to explore it anyways. So here-in this paper I am introducing Silia, a novel transformer architecture designed for efficient modelling & classification tasks under severe parameter budget. Training against GPT-2 architecture (Andrej Karpathy's nanoGPT project) with same \"base\" hyperparameters, training data and compute budget, Silia achieves comparable loss and generation quality with significantly less parameters. Thank you :) submitted by /u/SrijSriv211 [link] [comments]",
+    "author": "/u/SrijSriv211",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi! I am a student from India, this is my first paper that I published.</p> <p>I was curious whether I can combine both Attention and FFN together to save parameters without sacrificing performance, specifically at parameters &lt;= 10M.</p> <p>Basically my intuition was that Attention is dynamic and smart about which information to mix, but it has no strong non-linearity to actually transform that information. SwiGLU has the strong non-linearity but it's static. Same weights for every input. So instead of running both separately and wasting parameters, why not replace the static linear matrices in FFN with attention getting dynamic mixing and strong non-linearity in one unified operation.</p> <p>I'm not treating this paper as any final conclusion of any means because I have a very very old hardware and Google Colab doesn't help either with scaling up cuz I don't have it's subscription. So I'm just treating this paper as an introduction of my idea and the experiments I was able to run on my given scale.</p> <p>Before adding the abstract I'd also like you to know that just training the 0.8M params model took 8-10 hours on my PC (just a few minutes on Google Colab) and 4M model (which Google Colab wasn't letting me train) took around 3-4 days on my PC. That's the reason I didn't ran much experiments in the paper.</p> <p><strong>Abstract</strong></p> <blockquote> <p>Introduction of the Transformer neural network architecture in the famous <code>Attention Is All You Need</code> paper has created a huge wave of AI development in recent years. The scaled dot-product attention allows for information to be processed with higher efficiency and quality, which the previous RNN-based models lacked. However Transformer-based models comes with their own challenges, particularly with parameter efficiency for tiny models with parameters ≤ 5M. At such small scale a Transformer model essentially uses more parameter than it really should. This sub-ten-million parameters domain space is very underexplored and for good reasons but I wanted to explore it anyways. So here-in this paper I am introducing Silia, a novel transformer architecture designed for efficient modelling &amp; classification tasks under severe parameter budget. Training against GPT-2 architecture (Andrej Karpathy's nanoGPT project) with same &quot;base&quot; hyperparameters, training data and compute budget, Silia achieves comparable loss and generation quality with significantly less parameters.</p> </blockquote> <p>Thank you :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SrijSriv211\"> /u/SrijSriv211 </a> <br /> <span><a href=\"https://doi.org/10.5281/zenodo.20631957\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u2pnfx/tiny_scale_is_all_i_can_spare_to_play_with/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "78beef01-9508-51c3-8c27-42373ec967e9",
+    "title": "Anthropic intends to permanently include Fable 5 in monthly subscriptions once compute allows it",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1u2oql6/anthropic_intends_to_permanently_include_fable_5/",
+    "pubDate": "2026-06-11T04:19:08+00:00",
+    "description": "Unlike many people suspect, Anthropic does intend to include Fable permanently in monthly plans. They said it will depend on available compute but when they eventually do have enough compute it’s what they’re planning on doing. Stressing about only having it for two weeks is mostly unwarranted given the recent press release. submitted by /u/TheOnlyVibemaster [link] [comments]",
+    "author": "/u/TheOnlyVibemaster",
+    "sourceTitle": "Reddit ClaudeAI",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/.rss",
+    "sourceCategory": "Reddit_ClaudeAI",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2oql6/anthropic_intends_to_permanently_include_fable_5/\"> <img alt=\"Anthropic intends to permanently include Fable 5 in monthly subscriptions once compute allows it\" src=\"https://preview.redd.it/9dctirk0yk6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=69cea6d6efce1214b7b80ac5069cf8fe61cab85e\" title=\"Anthropic intends to permanently include Fable 5 in monthly subscriptions once compute allows it\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Unlike many people suspect, Anthropic does intend to include Fable permanently in monthly plans. They said it will depend on available compute but when they eventually do have enough compute it’s what they’re planning on doing. Stressing about only having it for two weeks is mostly unwarranted given the recent press release.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheOnlyVibemaster\"> /u/TheOnlyVibemaster </a> <br /> <span><a href=\"https://i.redd.it/9dctirk0yk6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u2oql6/anthropic_intends_to_permanently_include_fable_5/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/9dctirk0yk6h1.jpeg?width=640&crop=smart&auto=webp&s=69cea6d6efce1214b7b80ac5069cf8fe61cab85e",
+    "isShortVideo": 0
+  },
+  {
     "id": "3836b825-812b-5b4f-becd-ae8ccb771231",
     "title": "nvidia/diffusiongemma-26B-A4B-it-NVFP4 · Hugging Face",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u2np0a/nvidiadiffusiongemma26ba4bitnvfp4_hugging_face/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u28b50/i_just_open_sourced_my_is_this_slop_simple_test/\"> <img alt=\"I just open sourced my &quot;Is this slop?&quot; simple test\" src=\"https://preview.redd.it/38f1fhacmh6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ccfb9d4b91f973146ca32697484f2e32ab5c4512\" title=\"I just open sourced my &quot;Is this slop?&quot; simple test\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Yusuf-Dev\"> /u/Yusuf-Dev </a> <br /> <span><a href=\"https://i.redd.it/38f1fhacmh6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u28b50/i_just_open_sourced_my_is_this_slop_simple_test/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/38f1fhacmh6h1.jpeg?width=640&crop=smart&auto=webp&s=ccfb9d4b91f973146ca32697484f2e32ab5c4512",
-    "isShortVideo": 0
-  },
-  {
-    "id": "642b13c2-2d14-5a17-8533-87d99922e4cb",
-    "title": "Diffusion Gemma 26B MOE",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u27wil/diffusion_gemma_26b_moe/",
-    "pubDate": "2026-06-10T16:54:52+00:00",
-    "description": "Pretty exciting, wonder what it will take from llama.cpp to get it working locally submitted by /u/Specter_Origin [link] [comments]",
-    "author": "/u/Specter_Origin",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u27wil/diffusion_gemma_26b_moe/\"> <img alt=\"Diffusion Gemma 26B MOE\" src=\"https://preview.redd.it/p52ce2krjh6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=93c982d2ed57efd53add2cd4b0d5ab19becb1b6e\" title=\"Diffusion Gemma 26B MOE\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Pretty exciting, wonder what it will take from llama.cpp to get it working locally </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specter_Origin\"> /u/Specter_Origin </a> <br /> <span><a href=\"https://i.redd.it/p52ce2krjh6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u27wil/diffusion_gemma_26b_moe/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/p52ce2krjh6h1.png?width=640&crop=smart&auto=webp&s=93c982d2ed57efd53add2cd4b0d5ab19becb1b6e",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e7df7322-6a91-59a1-a432-6c6d720654a4",
-    "title": "Google Drops Diffusion Version of Gemma",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1u27okl/google_drops_diffusion_version_of_gemma/",
-    "pubDate": "2026-06-10T16:46:57+00:00",
-    "description": "26B 4B active parameters with crazy TPS Claims of 700+ TPS on a 5090 Introducing DiffusionGemma submitted by /u/eviloni [link] [comments]",
-    "author": "/u/eviloni",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>26B 4B active parameters with crazy TPS </p> <p>Claims of 700+ TPS on a 5090 </p> <p><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/\">Introducing DiffusionGemma</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eviloni\"> /u/eviloni </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u27okl/google_drops_diffusion_version_of_gemma/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1u27okl/google_drops_diffusion_version_of_gemma/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
