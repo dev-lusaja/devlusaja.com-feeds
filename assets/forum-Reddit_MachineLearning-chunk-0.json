@@ -1,5 +1,21 @@
 [
   {
+    "id": "d8b81371-8e91-52c2-9d5a-20c94fdf0ae7",
+    "title": "Noise-aware training for analog hardware: accuracy collapses at a threshold rather than degrading smoothly [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/",
+    "pubDate": "2026-08-09T10:55:50+00:00",
+    "description": "Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurring objection is noise, since analog cells have real variation and you can't refresh your way out of it like you can with digital. I wanted to see the shape of the degradation curve rather than reason about it abstractly, so I ran a simple experiment: train a network normally, then evaluate under increasing weight noise. The curve isn't smooth. Accuracy is stable up to a point, then drops hard: 83%, 64%, then essentially random. More like a threshold than a proportional decrease. Retraining with noise injected during training (so the optimizer finds flatter minima, presumably) shifts that threshold substantially. 61% versus 39% at matched noise. What I'd like to hear from this sub: is the flat-minima explanation the right framing here, or is something else driving the gap? And is there work on optimizing directly for noise robustness rather than just injecting noise and hoping, something closer to an explicit sharpness penalty targeted at the hardware's actual noise profile? Code and figures in the writeup: https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/ submitted by /u/Georgiou1226 [link] [comments]",
+    "author": "/u/Georgiou1226",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurring objection is noise, since analog cells have real variation and you can't refresh your way out of it like you can with digital.</p> <p>I wanted to see the shape of the degradation curve rather than reason about it abstractly, so I ran a simple experiment: train a network normally, then evaluate under increasing weight noise.</p> <p>The curve isn't smooth. Accuracy is stable up to a point, then drops hard: 83%, 64%, then essentially random. More like a threshold than a proportional decrease.</p> <p>Retraining with noise injected during training (so the optimizer finds flatter minima, presumably) shifts that threshold substantially. 61% versus 39% at matched noise.</p> <p>What I'd like to hear from this sub: is the flat-minima explanation the right framing here, or is something else driving the gap? And is there work on optimizing directly for noise robustness rather than just injecting noise and hoping, something closer to an explicit sharpness penalty targeted at the hardware's actual noise profile?</p> <p>Code and figures in the writeup: <a href=\"https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/\">https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Georgiou1226\"> /u/Georgiou1226 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cbd46f18-99ee-50a7-8b8c-d66e01a94333",
     "title": "[R] Generative design of novel bacteriophages with genome language models [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>&#x200b;</p> <p>Now that the rebuttal period is over, I’m curious about the score distribution specifically for theory papers this year.</p> <p>If you’re comfortable sharing, please drop:</p> <p>• Scores: x / x / x</p> <p>• Confidence: x / x / x</p> <p>• Whether scores changed after rebuttal</p> <p>• Broad area (optional)</p> <p>I got 4 / 4 / 4, with confidence 3 / 3 / 3.</p> <p>From my experience, theory papers often seem to get somewhat lower scores, and this year the scores appear to be lower across disciplines as well. It would be interesting to see where the empirical cutoff might land.</p> <p>Feel free to share anonymously / approximately if you don't want to reveal too much. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mammoth-Leg-3844\"> /u/Mammoth-Leg-3844 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "51743ab7-d5e2-5843-b93e-848d4cc9a1a5",
-    "title": "[ Removed by Reddit ]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vfx7fo/removed_by_reddit/",
-    "pubDate": "2026-08-05T04:34:52+00:00",
-    "description": "[ Removed by Reddit on account of violating the content policy . ] submitted by /u/Economy_Cicada8756 [link] [comments]",
-    "author": "/u/Economy_Cicada8756",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>[ Removed by Reddit on account of violating the <a href=\"https://www.reddit.com/help/contentpolicy\">content policy</a>. ]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Economy_Cicada8756\"> /u/Economy_Cicada8756 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfx7fo/removed_by_reddit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfx7fo/removed_by_reddit/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
