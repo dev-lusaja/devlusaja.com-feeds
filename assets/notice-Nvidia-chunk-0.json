@@ -1,5 +1,21 @@
 [
   {
+    "id": "90dd1ba7-175b-5714-b230-8f467d65f13a",
+    "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
+    "link": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+    "pubDate": "2026-08-10T13:27:19+00:00",
+    "description": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Open model launch image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Open-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Open-Model\" width=\"768\" />Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...<img alt=\"Open model launch image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Open-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Open-Model\" width=\"768\" /><p>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI agentic work. Optimized to run across a range of NVIDIA edge, desktop, and workstation AI platforms, Muse Glimmer delivers 20K tokens/sec on a single GPU, enabling always-on agents to process data locally and execute complex…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f4858060-7785-50bb-a76b-29a6e883c4b3",
     "title": "Beyond VLAs: How World Action Models Reshape Robot Manipulation",
     "link": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"A Gif in a warehouse.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nanousd.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nanousd\" width=\"600\" />OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...<img alt=\"A Gif in a warehouse.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nanousd.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nanousd\" width=\"600\" /><p>OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation assets, and real-world telemetry into a shared, physically accurate view of the world. Until now, building a USD implementation has typically required adapting a large existing codebase— even for teams that need a specific memory footprint…</p>\n<p><a href=\"https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a29b5ec6-7be8-57db-8368-b9bbdf33ffe3",
-    "title": "Building Faster Cryptography with Carryless Multiplication in NVIDIA CUDA 13.3",
-    "link": "https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/",
-    "pubDate": "2026-07-15T17:37:12+00:00",
-    "description": "For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...",
-    "author": "Michelle Horton",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" />For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" /><p>For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that sits underneath authenticated encryption, error-correcting codes, and modern zero-knowledge proofs. Until now, NVIDIA GPUs lacked native support for this operation. NVIDIA CUDA 13.3 closes that gap with , a new PTX instruction available on…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

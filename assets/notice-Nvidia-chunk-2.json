@@ -1,5 +1,21 @@
 [
   {
+    "id": "4027dbdd-3bb5-518a-9f85-e4175cd1302a",
+    "title": "Accelerating BEV Pooling on NVIDIA GPUs for Physical AI Applications",
+    "link": "https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/",
+    "pubDate": "2026-06-24T16:30:00+00:00",
+    "description": "An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...",
+    "author": "John Yang",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" />An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" /><p>An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird’s-eye-view (BEV) perception. BEV models project multicamera image features into a shared top-down grid, providing downstream perception and planning modules with a common spatial layout for reasoning about lanes, vehicles, pedestrians, and free space. A key operation in this pipeline…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "85838e17-99d4-50ec-8819-fa91acb68ad0",
     "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
     "link": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
@@ -300,22 +316,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" />Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" /><p>Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This limits responsiveness, increases serving costs, and makes fluid, interactive experiences difficult to achieve. DiffusionGemma, created by Google DeepMind and optimized to run efficiently across NVIDIA platforms, introduces a new approach to…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "868f23fe-63cd-5137-9bb0-865010e8ab0b",
-    "title": "Designing Production-Ready Battery Energy Storage Systems for AI Factories",
-    "link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories/",
-    "pubDate": "2026-06-10T15:00:00+00:00",
-    "description": "AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufacture intelligence at scale....",
-    "author": "Sean James",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image2-6-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufacture intelligence at scale....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image2-6-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" /><p>AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufacture intelligence at scale. They run power-dense training and inference workloads, increasingly support agentic and reasoning models, and must deliver predictable performance even as compute demand shifts rapidly. In this environment…</p>\n<p><a href=\"https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
