@@ -1,5 +1,21 @@
 [
   {
+    "id": "5e2225dc-c080-5f72-a2cf-1df96fcb20e3",
+    "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
+    "link": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/",
+    "pubDate": "2026-06-25T22:25:51+00:00",
+    "description": "Shaders are GPU programs that process visual data—such as rays, pixels, geometry, and textures—to produce specific rendering effects. Shaders find necessary...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/descriptor-heap-cube.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"descriptor-heap-cube\" width=\"600\" />Shaders are GPU programs that process visual data—such as rays, pixels, geometry, and textures—to produce specific rendering effects. Shaders find necessary...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/descriptor-heap-cube.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"descriptor-heap-cube\" width=\"600\" /><p>Shaders are GPU programs that process visual data—such as rays, pixels, geometry, and textures—to produce specific rendering effects. Shaders find necessary data through a process called resource binding. CPU code orchestrates the creation of GPU resources such as textures and memory buffers and then carefully arranges for shader code to access them through a binding protocol.</p>\n<p><a href=\"https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bb8470db-5172-51f5-b476-f9a7fac47d64",
     "title": "Scaling AI Inference Across Multiple GPUs Using NVIDIA TensorRT with Multi-Device Inference Support",
     "link": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/",
@@ -316,22 +332,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative object.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/MM-Release-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MM-Release\" width=\"768\" />As enterprise AI adoption scales, developers are increasingly forced to stitch together fragmented pipelines—separate models for text, vision, and...<img alt=\"Decorative object.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/MM-Release-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MM-Release\" width=\"768\" /><p>As enterprise AI adoption scales, developers are increasingly forced to stitch together fragmented pipelines—separate models for text, vision, and code—leading to added complexity, higher costs, and slower iteration. MiniMax M3—available on NVIDIA accelerated infrastructure including NVIDIA Blackwell—changes this by enabling a single multimodal system capable of long-context reasoning…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1e8b17c8-7bde-517f-9838-c29910764922",
-    "title": "One-Click Multi-Tenant Security with  NVIDIA Quantum InfiniBand",
-    "link": "https://developer.nvidia.com/blog/one-click-multi-tenant-security-with-nvidia-quantum-infiniband/",
-    "pubDate": "2026-06-11T19:52:37+00:00",
-    "description": "NVIDIA Quantum InfiniBand now offers intent-based security profiles in Unified Fabric Manager (UFM) that enable multi-tenant fabric security in a single...",
-    "author": "David Slama",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ethernet-tech-blog-networking-software-kv-1920x1080-5338100-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ethernet-tech-blog-networking-software-kv-1920x1080-5338100\" width=\"768\" />NVIDIA Quantum InfiniBand now offers intent-based security profiles in Unified Fabric Manager (UFM) that enable multi-tenant fabric security in a single...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ethernet-tech-blog-networking-software-kv-1920x1080-5338100-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ethernet-tech-blog-networking-software-kv-1920x1080-5338100\" width=\"768\" /><p>NVIDIA Quantum InfiniBand now offers intent-based security profiles in Unified Fabric Manager (UFM) that enable multi-tenant fabric security in a single click. NVIDIA Quantum InfiniBand supports three profiles: General, Bare Metal Cloud, and Secured Bare Metal Cloud. Network administrators can now auto-configure: This cuts deployment time to minutes from hours or days…</p>\n<p><a href=\"https://developer.nvidia.com/blog/one-click-multi-tenant-security-with-nvidia-quantum-infiniband/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
