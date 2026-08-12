@@ -1,5 +1,37 @@
 [
   {
+    "id": "2d4fabfc-316e-546f-a0b6-407f4e3e5a35",
+    "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
+    "link": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
+    "pubDate": "2026-06-26T19:00:45+00:00",
+    "description": "AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep...",
+    "author": "Anurag Kuppala",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/genai-press-project-aiq-3503101-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-press-project-aiq-3503101-1920x1080\" width=\"768\" />AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/genai-press-project-aiq-3503101-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-press-project-aiq-3503101-1920x1080\" width=\"768\" /><p>AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep some context across a session. Today, we have long-horizon agents. Systems that plan many steps, split work between sub-agents, keep context across a long task, and run tools in a safe sandbox. The NVIDIA AI-Q Blueprint is an open source…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "cfcc779f-0267-5a33-ae40-6cf53011f058",
+    "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+    "link": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+    "pubDate": "2026-06-26T16:00:35+00:00",
+    "description": "As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Model-Optimizer-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Model-Optimizer\" width=\"768\" />As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Model-Optimizer-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Model-Optimizer\" width=\"768\" /><p>As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an optimization technique that compresses model weights into a smaller data format. One quantization format is NVFP4, an innovative 4-bit floating point introduced with NVIDIA Blackwell architecture. That’s the approach behind our new Nemotron 3…</p>\n<p><a href=\"https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5e2225dc-c080-5f72-a2cf-1df96fcb20e3",
     "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
     "link": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/",
