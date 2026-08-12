@@ -1,5 +1,21 @@
 [
   {
+    "id": "f16277f5-2d31-5d8e-b411-8b1b5325b830",
+    "title": "The Verifier Tax: Horizon-Dependent Safety–Success Tradeoffs in Tool-Using LLM Agents [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+    "pubDate": "2026-06-14T02:09:43+00:00",
+    "description": "We recently presented a paper at ACM CAIS 2026 on safety evaluation for tool-using LLM agents. The core issue is that task completion alone can be misleading: an agent may complete a task while violating a safety or policy constraint. We separate outcomes into safe success , unsafe success , and failure , and study how verification changes this tradeoff. We evaluate this using τ-bench / Tau-bench tool-use scenarios and propose a two-tier verification architecture : deterministic policy/tool checks first, followed by an LLM-based verifier for more contextual safety cases. The main finding is that verification can reduce unsafe success, but it can also reduce task completion as the task horizon increases. This creates what we call the Verifier Tax : a horizon-dependent safety–success tradeoff in tool-using agents. Paper: https://dl.acm.org/doi/full/10.1145/3786335.3813160 Curious how others think agent evaluations should report unsafe success. Should unsafe completion be counted as success, failure, or a separate category? submitted by /u/AccomplishedLeg1508 [link] [comments]",
+    "author": "/u/AccomplishedLeg1508",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We recently presented a paper at ACM CAIS 2026 on safety evaluation for tool-using LLM agents.</p> <p>The core issue is that task completion alone can be misleading: an agent may complete a task while violating a safety or policy constraint. We separate outcomes into <strong>safe success</strong>, <strong>unsafe success</strong>, and <strong>failure</strong>, and study how verification changes this tradeoff.</p> <p>We evaluate this using <strong>τ-bench / Tau-bench</strong> tool-use scenarios and propose a <strong>two-tier verification architecture</strong>: deterministic policy/tool checks first, followed by an LLM-based verifier for more contextual safety cases.</p> <p>The main finding is that verification can reduce unsafe success, but it can also reduce task completion as the task horizon increases. This creates what we call the <strong>Verifier Tax</strong>: a horizon-dependent safety–success tradeoff in tool-using agents.</p> <p>Paper: <a href=\"https://dl.acm.org/doi/full/10.1145/3786335.3813160\">https://dl.acm.org/doi/full/10.1145/3786335.3813160</a></p> <p>Curious how others think agent evaluations should report unsafe success. Should unsafe completion be counted as success, failure, or a separate category?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AccomplishedLeg1508\"> /u/AccomplishedLeg1508 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "31d7152c-b2c0-525a-9668-a3b3aaec211e",
     "title": "I’m building a free bilingual machine-learning notebook course — looking for feedback on structure and coverage [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
@@ -140,38 +156,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I am planning out a new open-source infrastructure project and want to get some brutal feedback on the architecture and use-case validity from people running high volume LLM workloads in production.</p> <p><strong>The Problem:</strong> Python-based proxies/gateways introduce too much latency overhead for real-time streaming agent steps or fast UI completions. Additionally, centralized semantic caching still suffers from cross-region network latency (e.g., London to us-east-1), and enterprise API costs remain a massive bottleneck for repetitive/predictable user queries (like customer support or structured data extraction).</p> <p><strong>The Proposed Architecture:</strong> Instead of a heavy centralized gateway, the goal is to build a lightweight, zero-dependency semantic cache running directly at the CDN Edge using WebAssembly (WASM) compiled from Rust.</p> <p>The flow looks like this:</p> <ol> <li><strong>Inbound Prompt:</strong> Hits the edge node closest to the user (e.g., Cloudflare Workers / Fastly Compute).</li> <li><strong>Edge Embedding:</strong> The Rust/WASM module intercepts the raw text prompt and instantly generates a vector using an edge-native lightweight model (e.g., <code>bge-small-en-v1.5</code>).</li> <li><strong>Similarity Index Check:</strong> It performs a fast cosine similarity check against an edge vector database (like Cloudflare Vectorize) to find the nearest semantic neighbor.</li> <li><strong>Cache Hit:</strong> If similarity &gt;= threshold (e.g., 0.88), it pulls the full generated response text from an edge KV store and returns it in ~5ms. The main LLM provider is never billed or touched.</li> <li><strong>Cache Miss:</strong> It proxies the streaming request to OpenAI/Anthropic/vLLM, streams it back to the client, and asynchronously updates the edge vector index and KV store.</li> </ol> <p><strong>Why Rust/WASM?</strong> To achieve sub-millisecond execution overhead on the proxy itself, avoid garbage collection pauses, and maintain a tiny memory footprint suitable for edge runtime constraints where traditional databases or Python scripts cannot run.</p> <p><strong>My Questions for the Community:</strong></p> <ol> <li>For those running LLMs in production (especially customer support, internal RAG, or autonomous agents), what is your realistic semantic cache hit rate? Is the power law of repetitive queries high enough in your domains to justify this?</li> <li>What are the biggest footguns with semantic caching at the edge? (e.g., Cache invalidation strategies, handling system prompt updates, or drift in embedding models).</li> <li>Would you actually use a drop-in open-source template/CLI that lets you spin this up on your own edge account, or do you prefer centralized API gateways?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Real-Huckleberry-934\"> /u/Real-Huckleberry-934 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3quwk/building_an_open_source_edge_semantic_cache_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3quwk/building_an_open_source_edge_semantic_cache_for/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3c774dc8-f474-5db3-ace1-3a3184f4b2a4",
-    "title": "hubert.cpp, a C++ implementation of distilHuBERT [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/",
-    "pubDate": "2026-06-12T07:40:29+00:00",
-    "description": "I've written a C++ implementation of distilHuBERT. https://github.com/pfeatherstone/hubert.cpp It has no runtime dependencies, the weights are compiled into the library, it supports dynamic sizes, has performance on par with onnxruntime (in my tests) and can be easily integrated into any CMake project. Please let me know your thoughts. submitted by /u/Competitive_Act5981 [link] [comments]",
-    "author": "/u/Competitive_Act5981",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've written a C++ implementation of distilHuBERT.</p> <p><a href=\"https://github.com/pfeatherstone/hubert.cpp\">https://github.com/pfeatherstone/hubert.cpp</a></p> <p>It has no runtime dependencies, the weights are compiled into the library, it supports dynamic sizes, has performance on par with onnxruntime (in my tests) and can be easily integrated into any CMake project.</p> <p>Please let me know your thoughts.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Competitive_Act5981\"> /u/Competitive_Act5981 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "eef33549-71aa-5a9b-a42c-be6b589ae5be",
-    "title": "MICCAI 2026 Results [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u3nims/miccai_2026_results_d/",
-    "pubDate": "2026-06-12T06:35:14+00:00",
-    "description": "Results are almost here. Good luck to everyone waiting for the final decision 🙂 submitted by /u/Sea_Muscle_4281 [link] [comments]",
-    "author": "/u/Sea_Muscle_4281",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Results are almost here. Good luck to everyone waiting for the final decision 🙂</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sea_Muscle_4281\"> /u/Sea_Muscle_4281 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3nims/miccai_2026_results_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3nims/miccai_2026_results_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
