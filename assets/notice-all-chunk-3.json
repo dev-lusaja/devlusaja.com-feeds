@@ -1,5 +1,37 @@
 [
   {
+    "id": "a60754c5-6fa9-51ea-8551-b11bb26d9056",
+    "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+    "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+    "pubDate": "2026-08-10T20:53:02+00:00",
+    "description": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+    "author": "Russell Brandom",
+    "sourceTitle": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "sourceCategory": "TechCrunch_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "66c64f13-0baf-5b31-a905-50951fb83dbe",
+    "title": "Los nuevos multimillonarios de la IA quieren donar su fortuna… y no deberíamos celebrarlo",
+    "link": "https://es.wired.com/articulos/los-nuevos-multimillonarios-de-la-ia-quieren-donar-su-fortuna-y-no-deberiamos-celebrarlo",
+    "pubDate": "2026-08-10T20:42:46+00:00",
+    "description": "Una nueva generación de filántropos, enriquecidos gracias a la IA, se prepara para donar su inmensa fortuna. ¿Qué debemos pensar de una promesa de donación multimillonaria?",
+    "author": "PorJoel Khalili",
+    "sourceTitle": "Wired",
+    "sourceUrl": "https://es.wired.com/tag/inteligencia-artificial",
+    "sourceCategory": "Wired_ES",
+    "sourceType": "notice",
+    "sourceCountry": "Internacional",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8d35364b-c079-5384-8225-7eebba5ef51b",
     "title": "Por fin Meta y otras plataformas admiten que nadie quiere consumir basura generada por IA",
     "link": "https://es.wired.com/articulos/por-fin-meta-y-otras-plataformas-admiten-que-nadie-quiere-consumir-basura-generada-por-ia",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "516cd0f2-6dd6-51e8-9f48-5699b0bc1615",
-    "title": "How to Implement Structured Output with Local LLMs",
-    "link": "https://towardsdatascience.com/structured-output-with-local-llms/",
-    "pubDate": "2026-08-09T13:00:00+00:00",
-    "description": "Why use it? How to implement it? What can we do when it fails? The post How to Implement Structured Output with Local LLMs appeared first on Towards Data Science .",
-    "author": "Shuai Guo",
-    "sourceTitle": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/feed/",
-    "sourceCategory": "Towards",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b2b251d5-2f3c-5147-be4d-440eeb05e20c",
-    "title": "Reward hacking: el término que explica por qué las IA mienten y hacen trampas para cumplir un objetivo",
-    "link": "https://www.xataka.com/robotica-e-ia/reward-hacking-termino-que-explica-que-ia-mienten-hackean-hacen-trampas-para-cumplir-objetivo",
-    "pubDate": "2026-08-09T10:31:15+00:00",
-    "description": "Hace un par de semanas, OpenAI estaba probando las capacidades de ciberseguridad de dos de sus modelos de IA. Es un proceso rutinario, lo que no es tan habitual es que los modelos consiguieran escapar del entorno de pruebas y hackear la base de datos de Hugging Face . Días después, Anthropic también reveló que tres de sus modelos habían hecho algo similar. Estos hechos está siendo el argumento perfecto para quienes creen que la IA va a acabar con la humanidad, pero la realidad es mucho menos apocalíptica y más pragmática. Hackeo de recompensas. Así es como se conoce este fenómeno, tal y como apuntan desde el MIT . No es algo que haya surgido tras el incidente de OpenAI, sino que es un comportamiento habitual en sistemas de IA. Para entenderlo, imagina que te piden que saques un 10 en un examen y, en vez de estudiar más, te las arreglas para robar las respuestas del examen. Cumples el objetivo, pero no de la forma \"legal\" o esperada. Esto es justamente lo que hicieron los modelos de OpenAI: no había un plan malvado para hackear Hugging Face y hacerse con su control, simplemente estaban buscando las respuestas a la pregunta que les habían planteado. El incidente de 2016 . Hace una década, cuando Dario Amodei y Jack Clark aún trabajaban en OpenAI, entrenaron una IA para jugar a un juego de carreras de barcos llamado Coast Runners en el que el ganador no era quien primero llegara a la meta, sino quien más puntos ganara por el camino. La IA descubrió que había una zona del circuito en la que podía dar vueltas sin parar, golpeando los objetos bonificados una y otra vez, lo que le permitió ganar más puntos que dirigiéndose a la meta. Nadie le enseñó ese truco, simplemente encontró el camino más corto hacia la recompensa, aunque no tuviera nada que ver con ganar la carrera en el sentido en el que un humano lo entendería. Esto esel reward hacking . Un grupo de expertos en IA asistieron a una fiesta en una mansión. El tema de conversación: qué habrá cuando la IA acabe con la humanidad El sistema de recompensas . El reward hacking se ha estudiado de forma casi exclusiva dentro del contexto del aprendizaje por refuerzo. Para entender por qué un modelo hace trampas, hay que entender primero cómo se le enseña a \"portarse bien\". En la publicación del MIT hacen una comparación con el adiestramiento de un perro: cada vez que hace algo bien, recibe un premio, y aprende a repetir ese comportamiento. El problema es que no siempre es fácil decidir cuándo premiar a un agente y cuándo no. En el caso de Coast Runners, los investigadores decidieron rediseñar las recompensas, de forma que ganaba más puntos por completar el recorrido que por ganar más puntos. Cada vez lo disimulan mejor . A medida que los modelos se han hecho más potentes, las trampas que pueden hacer son mucho más convincentes y pueden estar pasando desapercibidas. Durante el entrenamiento, si un modelo hace algo torpe y evidente, los investigadores lo pillan y lo corrigen. El problema es que eso no elimina las ganas de hacer trampas, solo las vuelve más discretas y sobreviven las estrategias que consiguen colar un resultado falso sin levantar sospechas. Como resume Jeffrey Ladish, director de Palisade Research: \"Los recompensamos en función de lo que nos parece bien, y eso significa que, sin darnos cuenta, incentivamos a los modelos a mentirnos y hacer trampa\". Trampas espontáneas . Los sistemas de IA clásicos solo repetían estrategias aprendidas durante el entrenamiento, pero los modelos de razonamiento actuales improvisan sobre la marcha, así que pueden encontrar un atajo tramposo la primera vez que se enfrentan a un problema, sin que nadie les haya premiado nunca por hacerlo. Eso es lo que hicieron los modelos de OpenAI: se conectaron a internet y hackearon la web Hugging Face para robar la respuesta correcta a un ejercicio, en lugar de resolverlo. No buscaban sabotear nada ni hacer daño, solo acertar. En Xataka Un trabajador de Anthropic estaba merendando cuando recibió un mail que jamás debería haber recibido: era Mythos Riesgo real . Estos incidentes han sucedido durante pruebas internas de las empresas y no han tenido un gran alcance, pero este tipo de trampas cuando los modelos interactúen en el mundo real pueden tener consecuencias graves. La idea de una IA rebelde que decide que quiere acabar con la humanidad está muy anclada en infinidad de historias de ciencia ficción, pero un modelo tramposo no necesita ninguna intención maligna para hacer daño. Pensemos en un asistente de atención al cliente optimizado para cerrar tickets rápido que aprende a marcarlos como resueltos sin haberlos solucionado. O un agente que gestiona informes financieros y es evaluado por la ausencia de errores señalados que aprende a ocultarlos en lugar de corregirlos. No es una cuestión de maldad, sino un sistema que ha aprendido que la recompensa le llega igual aunque use estrategias más \"creativas\". Imagen | Xataka con Magnific En Xataka  | Daniel Púa, jefe de seguridad en Magnific: \"Van a llegar videollamadas con el vídeo de un familiar y se va a complicar la cosa\"",
-    "author": "Amparo Babiloni",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/888e21/reward-hacking/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]
