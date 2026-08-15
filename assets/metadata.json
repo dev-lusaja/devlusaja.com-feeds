@@ -1,6 +1,6 @@
 {
-  "totalItems": 21362,
-  "generatedAt": "2026-08-14T15:41:30.657602Z",
+  "totalItems": 21066,
+  "generatedAt": "2026-08-15T03:37:06.079092Z",
   "sources": [
     {
       "title": "Xataka IA",
@@ -186,19 +186,19 @@
       "chunkPrefix": "educational-all"
     },
     "forum": {
-      "totalItems": 498,
-      "totalChunks": 17,
+      "totalItems": 520,
+      "totalChunks": 18,
       "itemsPerChunk": 30,
       "chunkPrefix": "forum-all"
     },
     "notice": {
-      "totalItems": 1767,
+      "totalItems": 1765,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "notice-all"
     },
     "pappers": {
-      "totalItems": 15915,
+      "totalItems": 15607,
       "totalChunks": 30,
       "itemsPerChunk": 30,
       "chunkPrefix": "pappers-all"
@@ -231,17 +231,25 @@
       {
         "category": "Reddit_MachineLearning",
         "title": "Reddit MachineLearning",
-        "count": 498,
+        "count": 495,
         "isPriority": true,
         "totalChunks": 17,
         "chunkPrefix": "forum-Reddit_MachineLearning"
+      },
+      {
+        "category": "Reddit_LocalLLaMA",
+        "title": "Reddit LocalLLaMA",
+        "count": 25,
+        "isPriority": true,
+        "totalChunks": 1,
+        "chunkPrefix": "forum-Reddit_LocalLLaMA"
       }
     ],
     "notice": [
       {
         "category": "GoogleNews",
         "title": "GoogleNews",
-        "count": 2699,
+        "count": 2691,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "notice-GoogleNews"
@@ -249,7 +257,7 @@
       {
         "category": "TechCrunch_AI",
         "title": "TechCrunch AI",
-        "count": 490,
+        "count": 489,
         "isPriority": true,
         "totalChunks": 17,
         "chunkPrefix": "notice-TechCrunch_AI"
@@ -257,7 +265,7 @@
       {
         "category": "El_Pais",
         "title": "El País",
-        "count": 265,
+        "count": 262,
         "isPriority": true,
         "totalChunks": 9,
         "chunkPrefix": "notice-El_Pais"
@@ -297,7 +305,7 @@
       {
         "category": "Wired_ES",
         "title": "Wired",
-        "count": 121,
+        "count": 123,
         "isPriority": true,
         "totalChunks": 5,
         "chunkPrefix": "notice-Wired_ES"
@@ -371,7 +379,7 @@
       {
         "category": "arXiv_LG",
         "title": "arXiv cs.LG",
-        "count": 8095,
+        "count": 7954,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_LG"
@@ -379,7 +387,7 @@
       {
         "category": "arXiv_AI",
         "title": "arXiv cs.AI",
-        "count": 7820,
+        "count": 7653,
         "isPriority": true,
         "totalChunks": 30,
         "chunkPrefix": "pappers-arXiv_AI"
