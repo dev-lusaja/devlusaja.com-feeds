@@ -1,5 +1,21 @@
 [
   {
+    "id": "53aa3079-b190-59e7-9c2e-c350470965b9",
+    "title": "ACL ARR (May 2026)- Updating Reviewer Score post 17 July AoE Deadline? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v1ukpx/acl_arr_may_2026_updating_reviewer_score_post_17/",
+    "pubDate": "2026-07-20T18:58:24+00:00",
+    "description": "Had submitted a paper to ACL ARR May 2026 cycle. Unfortunately, none of the reviewers acknowledged the rebuttal during the author-reviewer discussion I am curious to know from people who had volunteered to review papers this cycle- are you still able to update the ratings, or even your review based on the rebuttal? Also is there any meta-reviewer discussion going on? submitted by /u/Forsaken-Order-7376 [link] [comments]",
+    "author": "/u/Forsaken-Order-7376",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Had submitted a paper to ACL ARR May 2026 cycle. Unfortunately, none of the reviewers acknowledged the rebuttal during the author-reviewer discussion</p> <p>I am curious to know from people who had volunteered to review papers this cycle- are you still able to update the ratings, or even your review based on the rebuttal? Also is there any meta-reviewer discussion going on?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Forsaken-Order-7376\"> /u/Forsaken-Order-7376 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v1ukpx/acl_arr_may_2026_updating_reviewer_score_post_17/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v1ukpx/acl_arr_may_2026_updating_reviewer_score_post_17/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fd8aa1a6-bf27-5f91-93b2-730d2c44df23",
     "title": "Exploring continual learning without replay buffers: Our findings using dynamic task-similarity routing [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v1rmbb/exploring_continual_learning_without_replay/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>i'm subscribed to a ai/ml newsletter but i feel like its not enough. i need a complete and not too time consuming way to keep up with ai/ml news because i feel like im left behind. thanks in advance</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mehmetflix_\"> /u/mehmetflix_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "457c70f6-d6f5-587d-a409-3540c7c68e26",
-    "title": "Seeking collaborators for scaling and independent evaluation of a new recurrent language model architecture (preprint + code) [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uycffg/seeking_collaborators_for_scaling_and_independent/",
-    "pubDate": "2026-07-16T19:17:01+00:00",
-    "description": "Hi everyone, I've been working independently on a recurrent architecture called **DABSN (Dynamic Adaptive Bias State Network)** for the past several months, and I finally reached the point where I feel comfortable sharing the first preprint. The paper is mainly about the architecture itself and its behavior on reasoning, memory, and long-sequence benchmarks (MQAR, Copy, Key-Value retrieval, A5/60, etc.). The code is also public with PyTorch, C++, and Triton implementations so everything can be reproduced. While finishing the paper, I also trained my first language model with the same cell: - 24M parameters - 1B pretraining tokens - GPT-2 tokenizer Those results ended up being much more interesting than I expected, so I'm now writing a second paper focused entirely on language modeling, long-context behavior, and scaling. This is where I'd love some help. I'm looking for people who might be interested in collaborating on the next paper, whether that's: - independent reproduction of the results, - helping design stronger baselines and evaluations, - or having access to larger GPU clusters so we can scale the architecture much further than I can on my own. Everything I'm doing is intended to be open and reproducible from day one. I'd really appreciate any feedback on the paper, and if the project sounds interesting, I'd love to chat. Preprint and Github are in the comments. submitted by /u/BleedingXiko [link] [comments]",
-    "author": "/u/BleedingXiko",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uycffg/seeking_collaborators_for_scaling_and_independent/\"> <img alt=\"Seeking collaborators for scaling and independent evaluation of a new recurrent language model architecture (preprint + code) [R]\" src=\"https://preview.redd.it/b0u6q9a46ndh1.jpg?width=140&amp;height=98&amp;auto=webp&amp;s=dbb02d2e0fc85305a04e37864167c2578891d46c\" title=\"Seeking collaborators for scaling and independent evaluation of a new recurrent language model architecture (preprint + code) [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I've been working independently on a recurrent architecture called **DABSN (Dynamic Adaptive Bias State Network)** for the past several months, and I finally reached the point where I feel comfortable sharing the first preprint.</p> <p>The paper is mainly about the architecture itself and its behavior on reasoning, memory, and long-sequence benchmarks (MQAR, Copy, Key-Value retrieval, A5/60, etc.). The code is also public with PyTorch, C++, and Triton implementations so everything can be reproduced.</p> <p>While finishing the paper, I also trained my first language model with the same cell:</p> <p>- 24M parameters<br /> - 1B pretraining tokens<br /> - GPT-2 tokenizer</p> <p>Those results ended up being much more interesting than I expected, so I'm now writing a second paper focused entirely on language modeling, long-context behavior, and scaling.</p> <p>This is where I'd love some help.</p> <p>I'm looking for people who might be interested in collaborating on the next paper, whether that's:</p> <p>- independent reproduction of the results,<br /> - helping design stronger baselines and evaluations,<br /> - or having access to larger GPU clusters so we can scale the architecture much further than I can on my own.</p> <p>Everything I'm doing is intended to be open and reproducible from day one.</p> <p>I'd really appreciate any feedback on the paper, and if the project sounds interesting, I'd love to chat.</p> <p>Preprint and Github are in the comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BleedingXiko\"> /u/BleedingXiko </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1uycffg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uycffg/seeking_collaborators_for_scaling_and_independent/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/b0u6q9a46ndh1.jpg?width=140&height=98&auto=webp&s=dbb02d2e0fc85305a04e37864167c2578891d46c",
     "isShortVideo": 0
   }
 ]
