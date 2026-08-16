@@ -1,5 +1,21 @@
 [
   {
+    "id": "a227e6b9-ff61-5de8-973e-23d45830a651",
+    "title": "I built a deep learning library from scratch in C that lets you train language models [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/",
+    "pubDate": "2026-07-28T14:42:07+00:00",
+    "description": "my goal was to train a Language model (SLM) entirely from scratch so no ML libraries allowed . so i gathered what's needed to make it happen : from tensor manipulation (views, operations , allocations) the autograd ( a DAG that retains the previous operations and inputs in order that led into a certain output tensor , this let's us also apply backpropagation so i've got to implement also the partial derivative functions in order to calculate the gradients for each weights) the neural networks modules (organizes the weights / activations , losses , optimizers implemented SGD and Adamw) the decoder so the layer norm , MHA , FFN . also implemented a Fast matmul using AVX2 to speed things up. with it i managed to train a tiny LM with 2 millions params.it's a 4 layer Decoder used tiny_shakespear i got what i think is a good result . since i can't post images in this post i will just paste the output: Corpus: 743500 bytes (669150 train, 74350 validation) TinyLM: L=4 C=192 H=6 T=128 V=256, 1902976 parameters (1.903M) Training: steps=0 batch=1 lr=0.0003 checkpoint=tiny_lm.chk (resumed) validation_loss=0.02989 --- generation --- hello to the name of action. Soft you now! The fair Ophelia! Nymph, in thy orisons be all my sins remember'd. To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of of outrageous fortune, or to take arms against a sea of troubles and by opposing end them. check out the repo : https://github.com/nisbenz/TensorLib it was a cool project overall and i managed to learn a lot about the core mechanics of frameworks like pytorch or ggml. submitted by /u/Intelligent_Nose_791 [link] [comments]",
+    "author": "/u/Intelligent_Nose_791",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>my goal was to train a Language model (SLM) entirely from scratch so no ML libraries allowed . so i gathered what's needed to make it happen : </p> <p>from tensor manipulation (views, operations , allocations) </p> <p>the autograd ( a DAG that retains the previous operations and inputs in order that led into a certain output tensor , this let's us also apply backpropagation so i've got to implement also the partial derivative functions in order to calculate the gradients for each weights) </p> <p>the neural networks modules (organizes the weights / activations , losses , optimizers implemented SGD and Adamw) </p> <p>the decoder so the layer norm , MHA , FFN .<br /> also implemented a Fast matmul using AVX2 to speed things up. </p> <p>with it i managed to train a tiny LM with 2 millions params.it's a 4 layer Decoder used tiny_shakespear i got what i think is a good result .<br /> since i can't post images in this post i will just paste the output: </p> <p>Corpus: 743500 bytes (669150 train, 74350 validation)</p> <p>TinyLM: L=4 C=192 H=6 T=128 V=256, 1902976 parameters (1.903M)</p> <p>Training: steps=0 batch=1 lr=0.0003 checkpoint=tiny_lm.chk (resumed)</p> <p>validation_loss=0.02989</p> <p>--- generation ---</p> <p>hello to the name of action. Soft you now! The fair Ophelia! Nymph, in thy orisons be all my sins remember'd. To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of of outrageous fortune, or to take arms against a sea of troubles and by opposing end them.</p> <p>check out the repo : <a href=\"https://github.com/nisbenz/TensorLib\">https://github.com/nisbenz/TensorLib</a><br /> it was a cool project overall and i managed to learn a lot about the core mechanics of frameworks like pytorch or ggml.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Intelligent_Nose_791\"> /u/Intelligent_Nose_791 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "96492d02-efb5-52da-a80b-8582f7b2f565",
     "title": "Neurips rebuttals not visible to reviewers [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v8yv7y/neurips_rebuttals_not_visible_to_reviewers_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Its been almost 24 hours since reviews were released and I dont see the meta review still. Some people on reddit are saying they can see it.</p> <p>NeurIPS website says they are-releasing reviews on 23 but even 23 July is ending in 4 hours. Whats going on bruh, none of my coauthors is an AC or didnt complete his review so its not like its being held from us</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist-Manager67\"> /u/Specialist-Manager67 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5586m/neurips_meta_review_whats_going_on_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5586m/neurips_meta_review_whats_going_on_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "00208295-0c60-5392-a90c-f253d2bb0ac1",
-    "title": "ACM MM 26 Registration [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v54i9j/acm_mm_26_registration_d/",
-    "pubDate": "2026-07-24T07:37:17+00:00",
-    "description": "Hi, I'm new with ACM conferences. I have 2 papers at workshops and the conference website says: \"Each workshop paper needs to be associated with one workshop-only (non-student) or full (non-student) author registration at either ACM Member rate, or non-member rate. One workshop-only or full registration can cover only one accepted workshop paper.\" Does that mean that I have to register twice with \"Workshop-only Author registration\" paying 500USD per paper!? Second question, I really do not understand the APC fees listed here: ACM Multimedia 2026 Conference — Author Instructions .. does that means that in addition to the registrations I have to pay 350USD per paper? submitted by /u/rokk07 [link] [comments]",
-    "author": "/u/rokk07",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm new with ACM conferences. I have 2 papers at workshops and the conference website says: &quot;Each workshop paper needs to be associated with one workshop-only (non-student) or full (non-student) author registration at either ACM Member rate, or non-member rate. One workshop-only or full registration can cover only one accepted workshop paper.&quot;</p> <p>Does that mean that I have to register twice with &quot;Workshop-only Author registration&quot; paying 500USD per paper!?</p> <p>Second question, I really do not understand the APC fees listed here: <a href=\"https://2026.acmmm.org/site/author-instructions.html\">ACM Multimedia 2026 Conference — Author Instructions</a> .. does that means that in addition to the registrations I have to pay 350USD per paper?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rokk07\"> /u/rokk07 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v54i9j/acm_mm_26_registration_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v54i9j/acm_mm_26_registration_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
