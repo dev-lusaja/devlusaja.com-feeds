@@ -1,5 +1,21 @@
 [
   {
+    "id": "790585c8-0632-5bc0-976d-b6b548175acd",
+    "title": "Is foundational AI research still something that can be done without access to HPC? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1u8jyat/is_foundational_ai_research_still_something_that/",
+    "pubDate": "2026-06-17T19:26:11+00:00",
+    "description": "I'm not that well versed in ML yet. I know that \"Attention is all you need\" was based on work that was done with a couple of high end gaming GPUs at the time. I can afford that. Suppose for arguments sake that I have caught up on ML such that I have the competence to recreate state of the art results should I have access to the required hardware, do I still need access to huge amounts of hardware infrastructure to be able to contribute to the field at a foundational level? submitted by /u/Proof-Bed-6928 [link] [comments]",
+    "author": "/u/Proof-Bed-6928",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm not that well versed in ML yet. I know that &quot;Attention is all you need&quot; was based on work that was done with a couple of high end gaming GPUs at the time. I can afford that.</p> <p>Suppose for arguments sake that I have caught up on ML such that I have the competence to recreate state of the art results should I have access to the required hardware, do I still need access to huge amounts of hardware infrastructure to be able to contribute to the field at a foundational level?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Proof-Bed-6928\"> /u/Proof-Bed-6928 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8jyat/is_foundational_ai_research_still_something_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8jyat/is_foundational_ai_research_still_something_that/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a58eec54-952e-5d90-bb98-ee9b38209bea",
     "title": "No CVPRW report [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1u8jtgd/no_cvprw_report_d/",
@@ -45,38 +61,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8cqan/i_deployed_a_gan_on_a_raspberry_pi_4_and_built_a/\"> <img alt=\"I deployed a GAN on a Raspberry Pi 4 and built a physical NFT minting device [P]\" src=\"https://preview.redd.it/k63kpgs2xu7h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=28094e042e5525ab21414c714edb14a51d731f8c\" title=\"I deployed a GAN on a Raspberry Pi 4 and built a physical NFT minting device [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I trained a 128×128 DCGAN on my Macbook M3 and deployed it on a Raspberry Pi 4 connected to a LILYGO TTGO T-Display ESP32. The whole thing runs headlessly as a systemd service and generates hallucinated face hybrids at the press of a button.</p> <p>It is a 6-block generator (latent → 4×4 → 8×8 → 16×16 → 32×32 → 64×64 → 128×128) with feature maps starting at f×16=1024. Corresponding 6-block discriminator. Trained for 800 epochs on Apple Silicon MPS, 4 hours. Dataset was 2480 images across 11 subjects. One dominant anchor class (2000 images) contaminated with minority classes to produce hybrid outputs. (Can you guess who and what was included?). </p> <p>: )</p> <p>I exported the model from PyTorch to ONNX (float32, 53MB). Inference takes 3 seconds per face on Pi 4.</p> <p>The Pi generates the face and sends it to the ESP32. The title is generated through a dictionary and a template sentence: &quot;This is a &lt;adjective&gt; NFT and I want to &lt;verb&gt; it.&quot;</p> <p>The device was built as an art piece. I took it to the streets of NYC and let strangers use it. Full video: <a href=\"https://youtu.be/y-S74aoud54?si=yPh5GmCJZFIIzwq6\">https://youtu.be/y-S74aoud54?si=yPh5GmCJZFIIzwq6</a></p> <p>Happy to discuss the training pipeline, ONNX conversion, or anything you're curious about.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Numerous-Dentist-882\"> /u/Numerous-Dentist-882 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u8cqan\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8cqan/i_deployed_a_gan_on_a_raspberry_pi_4_and_built_a/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/k63kpgs2xu7h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=28094e042e5525ab21414c714edb14a51d731f8c",
-    "isShortVideo": 0
-  },
-  {
-    "id": "78ab5e40-703e-506a-a4ad-c350fa5aa183",
-    "title": "ACL 2026 first author with weak GPA. How should I approach PhD applications? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u8bp65/acl_2026_first_author_with_weak_gpa_how_should_i/",
-    "pubDate": "2026-06-17T14:26:00+00:00",
-    "description": "Hi everyone, I have a fairly weak undergraduate: a 3.3/5 GPA in Computer Engineering from an average Nigerian university. For my Master's, I studied Artificial Intelligence at an average European university, where I finished with an 8/10 GPA. A condensed version of my Master's thesis was recently accepted at ACL 2026, with a meta-review score of 8/10 and a confidence score of 5/5. It's scheduled for presentation next month. I want to pursue a PhD focused on expanding linguistic resources for low-resource African languages. I know my weak undergrad GPA and the relatively unknown reputation of my previous universities will make it hard to get into top NLP programs (CMU, Edinburgh, ETH, MBZUAI, etc.), though I'm hoping the ACL paper helps offset that somewhat. At the same time, I don't want to end up at a less competitive university just for the sake of getting in somewhere, if it doesn't do meaningful work on low-resource NLP. How should I think about structuring my application strategy here (reach vs. safety schools, how to frame my profile, what to emphasize)? I'd also genuinely appreciate honest feedback on my overall profile. Thanks. submitted by /u/Unlikely_Screen_9287 [link] [comments]",
-    "author": "/u/Unlikely_Screen_9287",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have a fairly weak undergraduate: a 3.3/5 GPA in Computer Engineering from an average Nigerian university. For my Master's, I studied Artificial Intelligence at an average European university, where I finished with an 8/10 GPA.</p> <p>A condensed version of my Master's thesis was recently accepted at ACL 2026, with a meta-review score of 8/10 and a confidence score of 5/5. It's scheduled for presentation next month.</p> <p>I want to pursue a PhD focused on expanding linguistic resources for low-resource African languages. I know my weak undergrad GPA and the relatively unknown reputation of my previous universities will make it hard to get into top NLP programs (CMU, Edinburgh, ETH, MBZUAI, etc.), though I'm hoping the ACL paper helps offset that somewhat.</p> <p>At the same time, I don't want to end up at a less competitive university just for the sake of getting in somewhere, if it doesn't do meaningful work on low-resource NLP.</p> <p>How should I think about structuring my application strategy here (reach vs. safety schools, how to frame my profile, what to emphasize)? I'd also genuinely appreciate honest feedback on my overall profile.</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unlikely_Screen_9287\"> /u/Unlikely_Screen_9287 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8bp65/acl_2026_first_author_with_weak_gpa_how_should_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8bp65/acl_2026_first_author_with_weak_gpa_how_should_i/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9212bcd2-8306-533b-b7eb-9853f9a98b0c",
-    "title": "ICML (DL4C) Accepted ( Few queries ) [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/",
-    "pubDate": "2026-06-17T13:30:45+00:00",
-    "description": "Just got the email that I have been accepted in DL4C @ICML 2026 , as the email did not contain any details on logistics can someone help here ​ - is it mandatory to visit the workshop ? - what's the usual expense apart from flights, can someone add details like fees and all ? - in the email there's no mention of whether its poster or what ? - How will the overall process works from here it's my first time, any input will be very valuable. ​ Thanks in advance ​ submitted by /u/shifuThePandaGod [link] [comments]",
-    "author": "/u/shifuThePandaGod",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Just got the email that I have been accepted in DL4C @ICML 2026 , as the email did not contain any details on logistics can someone help here </p> <p>&#x200b;</p> <p>- is it mandatory to visit the workshop ? </p> <p>- what's the usual expense apart from flights, can someone add details like fees and all ?</p> <p>- in the email there's no mention of whether its poster or what ?</p> <p>- How will the overall process works from here it's my first time, any input will be very valuable.</p> <p>&#x200b;</p> <p>Thanks in advance</p> <p>&#x200b;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/shifuThePandaGod\"> /u/shifuThePandaGod </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

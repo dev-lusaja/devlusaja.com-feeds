@@ -1,5 +1,21 @@
 [
   {
+    "id": "ae5dd97f-7a2d-503f-ac4e-b3eee9b1e541",
+    "title": "Rejected MICCAI paper: workshop -> journal/conference or directly journal/conference [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uj35gh/rejected_miccai_paper_workshop_journalconference/",
+    "pubDate": "2026-06-29T19:58:44+00:00",
+    "description": "Premise: this work is my first year PhD, and I dropped out for personal reasons. I still want to do research but independently. I have tried to submit my explainability paper to MICCAI. Sadly, for doubtful/good reasons, it got rejected. Among the reviewers, one explicitly suggested to make it stronger and that the work is \"novel\". I was wondering if a good strategy would be to work on it more (maybe improving also the time it takes for doing experiments, since currently it's a way too big model) and then submitting it to a journal, or first submitting to a workshop and then extend the research for a journal publication. Strategically wise, is it good to first workshop and then journal? MLCN/iMIMIC would be my choices. But I hear a lot about workshop being suboptimal. Given I am not currently optimising for a PhD, does it make sense to go for the long run and publish it as a journal paper/another conference? Thank you in advance. submitted by /u/KingPowa [link] [comments]",
+    "author": "/u/KingPowa",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Premise: this work is my first year PhD, and I dropped out for personal reasons. I still want to do research but independently.</p> <p>I have tried to submit my explainability paper to MICCAI. Sadly, for doubtful/good reasons, it got rejected.</p> <p>Among the reviewers, one explicitly suggested to make it stronger and that the work is &quot;novel&quot;. </p> <p>I was wondering if a good strategy would be to work on it more (maybe improving also the time it takes for doing experiments, since currently it's a way too big model) and then submitting it to a journal, or first submitting to a workshop and then extend the research for a journal publication.</p> <p>Strategically wise, is it good to first workshop and then journal? MLCN/iMIMIC would be my choices. But I hear a lot about workshop being suboptimal. Given I am not currently optimising for a PhD, does it make sense to go for the long run and publish it as a journal paper/another conference?</p> <p>Thank you in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KingPowa\"> /u/KingPowa </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uj35gh/rejected_miccai_paper_workshop_journalconference/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uj35gh/rejected_miccai_paper_workshop_journalconference/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c0543da2-5d22-5f7a-99f4-200bb23a6a5e",
     "title": "I built a demo agricultural planning system with an AI advisor for small-scale farmers in Nicaragua using NASA data [p]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uiy1f4/i_built_a_demo_agricultural_planning_system_with/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Sharing a project I have been working on called Third Eye. It does visual geolocation. Given a video, it figures out where it was filmed using only the image content, and draws the route on a map.</p> <p>Pipeline in short:</p> <ul> <li>per frame place recognition against a street imagery index</li> <li>a trajectory search that stitches the frames into one coherent path</li> <li>a geometric verification step to catch false matches</li> </ul> <p>per frame confidence so weak frames are flagged, not faked</p> <p>I ran it on real dashcam footage and it traced the route quite well. Cross domain matching like this is genuinely hard, so a fair amount of the work went into making it honest about uncertainty.</p> <p>Keen to hear feedback on the matching and trajectory side.</p> <p>Video Demo: <a href=\"https://youtu.be/U3sItFlvq6E?si=-KJrwb0gSlk-GxVH\">https://youtu.be/U3sItFlvq6E?si=-KJrwb0gSlk-GxVH</a></p> <p>The Index was covering a 12KM<sup>2</sup> Area around NYC.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Apricot956\"> /u/Ok-Apricot956 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c90f5023-91cb-57e3-83e4-5674da0967a7",
-    "title": "For ECCV, Springer Metor. How are we supposed to upload the files? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/",
-    "pubDate": "2026-06-25T23:21:32+00:00",
-    "description": "source files + final paper pdf. ZIP containing the source files and final paper.pdf. Where does the supplemental materiel get uploaded? Because in that email it says include it in a \"supplementary_materiel\" folder. this is all very confusing. can someone clarify? submitted by /u/redskydawns [link] [comments]",
-    "author": "/u/redskydawns",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><ol> <li><p>source files + final paper pdf.</p></li> <li><p>ZIP containing the source files and final paper.pdf.</p></li> </ol> <p>Where does the supplemental materiel get uploaded? Because in that email it says include it in a &quot;supplementary_materiel&quot; folder.</p> <p>this is all very confusing. can someone clarify?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/redskydawns\"> /u/redskydawns </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
