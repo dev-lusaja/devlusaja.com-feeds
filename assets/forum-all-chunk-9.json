@@ -1,5 +1,21 @@
 [
   {
+    "id": "df87c379-bb4b-5040-a74d-2fc5b424c384",
+    "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precision [R] ,[D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
+    "pubDate": "2026-07-18T01:40:59+00:00",
+    "description": "Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the device’s memory limits.( not sharing the methods or architecture used) and results suggest roughly 90 input processing t/s achievable after optimisation and output generation is around 8 tokens/s on this mobile. Point is i learned ai ml based on my interest and no formal PhD , I have compute and resources to test. Anyone willing to join or collab to test on this I tried publishing papers on arxiv and 4 papers are still on hold as im first author and from no institution... submitted by /u/Severe_Post_2751 [link] [comments]",
+    "author": "/u/Severe_Post_2751",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the device’s memory limits.( not sharing the methods or architecture used) and results suggest roughly 90 input processing t/s achievable after optimisation and output generation is around 8 tokens/s on this mobile.</p> <p>Point is i learned ai ml based on my interest and no formal PhD , I have compute and resources to test. Anyone willing to join or collab to test on this</p> <p>I tried publishing papers on arxiv and 4 papers are still on hold as im first author and from no institution...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Severe_Post_2751\"> /u/Severe_Post_2751 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4e8f32ff-e739-57b3-b73e-4fab85c64a35",
     "title": "Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>So I was belatedly reading Matthew Colbrook’s paper on unstable neural networks <a href=\"https://www.pnas.org/doi/10.1073/pnas.2107151119\">https://www.pnas.org/doi/10.1073/pnas.2107151119</a>, and the paradox therein sent me back to my university days and reminded me of Kurt Godel.</p> <p>It kind of amazes me that so few people have heard of him given Einstein clearly thought he was more than an equal.</p> <p>Anyway, with the default assumption currently being that any problem will yield to more data and compute, it was timely to revisit this. It’s a long read and I’m not sure it’s fully coherent but if you like logic then you might enjoy this and I‘d welcome your thoughts and feedback. </p> <p><a href=\"https://iain.so/infinities-impossibilities-and-the-man-in-the-white-linen-suit\">https://iain.so/infinities-impossibilities-and-the-man-in-the-white-linen-suit</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iainrfharper\"> /u/iainrfharper </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwxveq/infinities_impossibilities_and_the_man_in_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwxveq/infinities_impossibilities_and_the_man_in_the/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9a0f19bd-2a11-53e1-9ac0-7d15b00cee07",
-    "title": "Things I got wrong building an incremental indexing pipeline [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/",
-    "pubDate": "2026-07-14T22:21:51+00:00",
-    "description": "I've been working on incremental indexing pipelines lately, basically keeping a vector store in sync as the source data changes, and I keep finding the same bugs never show up until it's been running a while. Biggest one for me is deletes. I tested the \"new doc comes in, gets embedded\" path a hundred times and it was fine. Never really tested what happens when a doc gets deleted upstream. Turns out if you don't handle that, your index just keeps growing with stuff that shouldn't be there anymore, and you don't notice until search starts returning weird results. Partial updates got me too. I didn't want to re-embed a whole doc every time something small changed so I did partial updates instead. Cheaper, but I ended up with drift between what's in the index and what's actually true in the source, especially once chunk boundaries moved around. Didn't notice until a query happened to hit the stale part. Also learned the hard way that idempotency isn't optional. My pipeline gets retried and backfilled all the time, and if reprocessing the same input twice doesn't give the same result, I get duplicate docs every time something routine reruns. None of this feels like new information, it's just normal distributed systems stuff, but I feel like it gets way less discussion than embedding models or chunking strategies. Anyone else dealt with this or have a setup that's actually held up long term? submitted by /u/Whole-Assignment6240 [link] [comments]",
-    "author": "/u/Whole-Assignment6240",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been working on incremental indexing pipelines lately, basically keeping a vector store in sync as the source data changes, and I keep finding the same bugs never show up until it's been running a while.</p> <p>Biggest one for me is deletes. I tested the &quot;new doc comes in, gets embedded&quot; path a hundred times and it was fine. Never really tested what happens when a doc gets deleted upstream. Turns out if you don't handle that, your index just keeps growing with stuff that shouldn't be there anymore, and you don't notice until search starts returning weird results.</p> <p>Partial updates got me too. I didn't want to re-embed a whole doc every time something small changed so I did partial updates instead. Cheaper, but I ended up with drift between what's in the index and what's actually true in the source, especially once chunk boundaries moved around. Didn't notice until a query happened to hit the stale part.</p> <p>Also learned the hard way that idempotency isn't optional. My pipeline gets retried and backfilled all the time, and if reprocessing the same input twice doesn't give the same result, I get duplicate docs every time something routine reruns.</p> <p>None of this feels like new information, it's just normal distributed systems stuff, but I feel like it gets way less discussion than embedding models or chunking strategies. Anyone else dealt with this or have a setup that's actually held up long term?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Whole-Assignment6240\"> /u/Whole-Assignment6240 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

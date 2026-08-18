@@ -1,5 +1,21 @@
 [
   {
+    "id": "9a0f19bd-2a11-53e1-9ac0-7d15b00cee07",
+    "title": "Things I got wrong building an incremental indexing pipeline [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/",
+    "pubDate": "2026-07-14T22:21:51+00:00",
+    "description": "I've been working on incremental indexing pipelines lately, basically keeping a vector store in sync as the source data changes, and I keep finding the same bugs never show up until it's been running a while. Biggest one for me is deletes. I tested the \"new doc comes in, gets embedded\" path a hundred times and it was fine. Never really tested what happens when a doc gets deleted upstream. Turns out if you don't handle that, your index just keeps growing with stuff that shouldn't be there anymore, and you don't notice until search starts returning weird results. Partial updates got me too. I didn't want to re-embed a whole doc every time something small changed so I did partial updates instead. Cheaper, but I ended up with drift between what's in the index and what's actually true in the source, especially once chunk boundaries moved around. Didn't notice until a query happened to hit the stale part. Also learned the hard way that idempotency isn't optional. My pipeline gets retried and backfilled all the time, and if reprocessing the same input twice doesn't give the same result, I get duplicate docs every time something routine reruns. None of this feels like new information, it's just normal distributed systems stuff, but I feel like it gets way less discussion than embedding models or chunking strategies. Anyone else dealt with this or have a setup that's actually held up long term? submitted by /u/Whole-Assignment6240 [link] [comments]",
+    "author": "/u/Whole-Assignment6240",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been working on incremental indexing pipelines lately, basically keeping a vector store in sync as the source data changes, and I keep finding the same bugs never show up until it's been running a while.</p> <p>Biggest one for me is deletes. I tested the &quot;new doc comes in, gets embedded&quot; path a hundred times and it was fine. Never really tested what happens when a doc gets deleted upstream. Turns out if you don't handle that, your index just keeps growing with stuff that shouldn't be there anymore, and you don't notice until search starts returning weird results.</p> <p>Partial updates got me too. I didn't want to re-embed a whole doc every time something small changed so I did partial updates instead. Cheaper, but I ended up with drift between what's in the index and what's actually true in the source, especially once chunk boundaries moved around. Didn't notice until a query happened to hit the stale part.</p> <p>Also learned the hard way that idempotency isn't optional. My pipeline gets retried and backfilled all the time, and if reprocessing the same input twice doesn't give the same result, I get duplicate docs every time something routine reruns.</p> <p>None of this feels like new information, it's just normal distributed systems stuff, but I feel like it gets way less discussion than embedding models or chunking strategies. Anyone else dealt with this or have a setup that's actually held up long term?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Whole-Assignment6240\"> /u/Whole-Assignment6240 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b851cdda-daf2-5084-9264-e3b81ffffae6",
     "title": "I trained a vision-language model to play Snake, and so can you. [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uwfwbz/i_trained_a_visionlanguage_model_to_play_snake/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey! I'm looking for ways to predict human preference for a project I'm building. (imagebench.ai)</p> <p>I've tryed <strong>HPSv3</strong>, <a href=\"https://github.com/MizzenAI/HPSv3\">https://github.com/MizzenAI/HPSv3</a> and made post about it here:</p> <p><a href=\"https://imagebench.ai/blog/does-the-score-match-your-eye\">https://imagebench.ai/blog/does-the-score-match-your-eye</a></p> <p>It looks ok, but have many limitation as you can see in my post. </p> <p>My question. Have you tried other human preference model and found one that would be better then <strong>HPSv3?</strong> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dh7net\"> /u/dh7net </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fed51733-fa88-5c36-9133-e7346b9d3ee4",
-    "title": "How does *ACL conferences acceptance work [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ut5krb/how_does_acl_conferences_acceptance_work_d/",
-    "pubDate": "2026-07-11T00:47:14+00:00",
-    "description": "Even after getting ARR reviews and a meta review, how is the acceptance decided at the *ACL venues, because I have seen meta review 3.5 getting to findings and 3 getting to main or even getting rejected. Then what is the purpose of the overall score and recommendation? What do the conferences see when deciding? Do they only care about the metareview and their comments, or the whole set of reviews as well as along with the track in which the paper was submitted. Anyone knowing the process please kindly tell. Thank you [D] submitted by /u/Happy_Today_3288 [link] [comments]",
-    "author": "/u/Happy_Today_3288",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Even after getting ARR reviews and a meta review, how is the acceptance decided at the *ACL venues, because I have seen meta review 3.5 getting to findings and 3 getting to main or even getting rejected. Then what is the purpose of the overall score and recommendation? What do the conferences see when deciding?</p> <p>Do they only care about the metareview and their comments, or the whole set of reviews as well as along with the track in which the paper was submitted.</p> <p>Anyone knowing the process please kindly tell.</p> <p>Thank you [D]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Happy_Today_3288\"> /u/Happy_Today_3288 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ut5krb/how_does_acl_conferences_acceptance_work_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ut5krb/how_does_acl_conferences_acceptance_work_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

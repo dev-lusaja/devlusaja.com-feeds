@@ -1,5 +1,21 @@
 [
   {
+    "id": "284e9bd5-34a3-5c05-9cdf-2c820e57379a",
+    "title": "Question about NeurIPS discussion phase [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/",
+    "pubDate": "2026-08-01T20:58:03+00:00",
+    "description": "One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In previous NeurIPS cycles, how common is it for reviewers to update scores after saying concerns are resolved? What have others observed? My ratings/confidences are : 4/4, 3/2, 3/2, 2/4. I am talking about the one who gave rating 2. submitted by /u/Invariant_n_Cauchy [link] [comments]",
+    "author": "/u/Invariant_n_Cauchy",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In previous NeurIPS cycles, how common is it for reviewers to update scores after saying concerns are resolved? What have others observed?</p> <p>My ratings/confidences are : 4/4, 3/2, 3/2, 2/4.</p> <p>I am talking about the one who gave rating 2.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Invariant_n_Cauchy\"> /u/Invariant_n_Cauchy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8298c51f-2b51-5dc3-a589-ad2b1a2491f8",
     "title": "EMNLP vs AACL commitment: Meta 3.5, reviews 3/3/4, what to do?[D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vcsv1s/emnlp_vs_aacl_commitment_meta_35_reviews_334_what/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I work on PostSlate, a video editing tool, and this comes out of our own work.</p> <p>We run ML models on-device, face detection and embedding among other things, which means we can't assume anything about the user's GPU. NVIDIA discrete, AMD, Intel integrated, Apple Silicon, all of it. That rules out CUDA immediately, we needed one backend that runs everywhere.</p> <p>We landed on ncnn's Vulkan backend. Numbers on a 4070, fp16:</p> <ul> <li>ArcFace R50 (face embedding): 30 ms on ONNX CPU → 3 ms on ncnn Vulkan</li> <li>SCRFD (face detection): 25 ms → 2.5 ms</li> <li>Model size: ArcFace 174 MB (ONNX fp32) → 87 MB (ncnn fp16 weight storage)</li> </ul> <p>Of course the real speedup comes from offloading compute to the GPU, but this wouldn't be possible without the power of Vulkan.</p> <p>The speed wasn't even the deciding factor, it's that Vulkan drivers already exist on every machine we ship to. This means that we don't have to force the user to download a specific runtime and no vendor-specific installs.</p> <p>Full writeup with the rest of the numbers: <a href=\"https://getpostslate.com/blog/faster-local-inference\">https://getpostslate.com/blog/faster-local-inference</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ppchaos\"> /u/ppchaos </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9s4mz/vendoragnostic_ml_inference_on_production_edge/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9s4mz/vendoragnostic_ml_inference_on_production_edge/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6d82dbac-c071-5db5-b9d0-e41d38da61fc",
-    "title": "ISNAD: adapting classical isnad–rijal chain-of-transmission verification into a claim-level trust layer for multi-agent LLM systems [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v9qadk/isnad_adapting_classical_isnadrijal/",
-    "pubDate": "2026-07-29T08:40:24+00:00",
-    "description": "I'm the author. Sharing a preprint + code and looking for critique, especially on the parts I haven't validated yet. Problem. In a multi-agent pipeline, one answer passes through a scraper, an extractor, several models, a synthesizer. Some links are reliable, some aren't, and when they fail they fail silently — you get a fluent, confident answer that's quietly wrong. Most current work verifies the agent (identity, permissions, access). Far less verifies the claim : whether what was actually said is true and independently corroborated. Approach. There's a ~12-century-old methodology for exactly this failure mode. Early Islamic scholars, verifying transmitted statements, built a system where every claim carries its full chain of transmitters (isnād), each transmitter is graded on integrity and precision (rijāl), a chain is only as strong as its weakest link, independent chains raise confidence, and a flawless chain still doesn't excuse a flawed message (the content is critiqued separately). I adapt this into claim-level provenance for multi-agent AI: each claim carries a graded transmission chain, corroboration across independent chains is scored, and content is evaluated on its own axis. On the evaluation. Some mechanisms are validated in the paper; others aren't yet, and I say exactly which and why. A trust framework that hides its own weaknesses is self-defeating, so the failure modes are written into the paper in detail rather than buried. Paper: https://arxiv.org/abs/2607.24117 Code + eval: https://github.com/alizahidraja/isnad Happy to be told where the analogy breaks or where the eval is thin — that's the feedback I want. submitted by /u/alizahidrajaa [link] [comments]",
-    "author": "/u/alizahidrajaa",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm the author. Sharing a preprint + code and looking for critique, especially on the parts I haven't validated yet.</p> <p><strong>Problem.</strong> In a multi-agent pipeline, one answer passes through a scraper, an extractor, several models, a synthesizer. Some links are reliable, some aren't, and when they fail they fail <em>silently</em> — you get a fluent, confident answer that's quietly wrong. Most current work verifies the <em>agent</em> (identity, permissions, access). Far less verifies the <em>claim</em>: whether what was actually said is true and independently corroborated.</p> <p><strong>Approach.</strong> There's a ~12-century-old methodology for exactly this failure mode. Early Islamic scholars, verifying transmitted statements, built a system where every claim carries its full chain of transmitters (isnād), each transmitter is graded on integrity and precision (rijāl), a chain is only as strong as its weakest link, independent chains raise confidence, and a flawless chain still doesn't excuse a flawed message (the content is critiqued separately). I adapt this into claim-level provenance for multi-agent AI: each claim carries a graded transmission chain, corroboration across independent chains is scored, and content is evaluated on its own axis.</p> <p><strong>On the evaluation.</strong> Some mechanisms are validated in the paper; others aren't yet, and I say exactly which and why. A trust framework that hides its own weaknesses is self-defeating, so the failure modes are written into the paper in detail rather than buried.</p> <p>Paper: <a href=\"https://arxiv.org/abs/2607.24117\">https://arxiv.org/abs/2607.24117</a><br /> Code + eval: <a href=\"https://github.com/alizahidraja/isnad\">https://github.com/alizahidraja/isnad</a></p> <p>Happy to be told where the analogy breaks or where the eval is thin — that's the feedback I want.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alizahidrajaa\"> /u/alizahidrajaa </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9qadk/isnad_adapting_classical_isnadrijal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9qadk/isnad_adapting_classical_isnadrijal/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

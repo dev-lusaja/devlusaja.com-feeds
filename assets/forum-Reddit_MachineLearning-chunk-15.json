@@ -1,5 +1,21 @@
 [
   {
+    "id": "d315c673-69f7-5188-b50d-046b9107f2a7",
+    "title": "Are model security risks (extraction, poisoning) actually being tested in production? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/",
+    "pubDate": "2026-06-23T10:52:58+00:00",
+    "description": "Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job? submitted by /u/Xorphian [link] [comments]",
+    "author": "/u/Xorphian",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Xorphian\"> /u/Xorphian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d3c3530f-acd6-546a-adf4-348bee81e069",
     "title": "Found a potential mistake in an ICLR 2026 blogpost [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I was pondering on this question and decided to dive deep into torch.compile. It was a lot of fun learning about operator fusion as the central idea behind torch.compile. So I created a tiny version of torch.compile in 500 lines of python and a notebook showing how this works: </p> <p><a href=\"https://github.com/purohit10saurabh/tinytorchcompile\">https://github.com/purohit10saurabh/tinytorchcompile</a></p> <p>Let me know if you find this interesting! 🙂</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Other-Eye-8152\"> /u/Other-Eye-8152 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "6bc9e876-a877-5d82-838b-629fb0e27b11",
-    "title": "Fearless Concurrency on the GPU: Safe GPU inference in Rust, competitive with vLLM/SGLang [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/",
-    "pubDate": "2026-06-18T21:36:14+00:00",
-    "description": "I maintain cuTile Rust and just posted the paper \"Fearless Concurrency on the GPU.\" As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it. cuTile Rust lets you write or generate GPU kernels whose memory safety and data-race freedom are verified by the compiler, through Rust's ownership and borrow checking. You get those guarantees by construction. It's a tile-based programming model that lowers to CUDA Tile IR, carrying Rust's ownership model across the launch boundary. You partition a mutable output into disjoint mutable sub-tensors, pass inputs as shared references, and write tile kernels with single-threaded semantics that the compiler maps to thread blocks. End to end, we built Grout, a Qwen3 inference engine, on cuTile Rust with Hugging Face. At batch-1 decode it reaches 171 tok/s for Qwen3-4B on an RTX 5090 and 82 tok/s for Qwen3-32B on a B200, competitive with vLLM and SGLang. Batch-1 decode is memory-bandwidth-bound, and Grout's throughput is consistent with our HBM roofline analysis. Many of Grout's kernels still use the unsafe path today, but they can be migrated to safe variants, providing a verifiable target for generated kernels. We've started a collection of such kernels in the cutile-kernels crate in the repo. If this is your thing, contributing safe variants helps grow a library of safe, high-performance kernels that future kernel synthesis can draw from. On the kernel side, the safety is effectively free. On a B200 the safe GEMM is within 0.3% of a hand-written low-level version (~92% of dense f16 peak), and element-wise hits ~7 TB/s, matching cuTile Python within measurement noise. Some additional caveats worth noting: Grout is batch-1 with a small set of supported models (a research case study, not a drop-in server), it's NVIDIA-only (lowers to Tile IR), and GEMM still slightly trails cuBLAS at some sizes. - Paper: https://arxiv.org/abs/2606.15991 - Code: https://github.com/nvlabs/cutile-rs - Grout: https://github.com/huggingface/grout Hope you enjoy the paper and learn something new! Happy to answer any questions :) submitted by /u/Exciting_Suspect9088 [link] [comments]",
-    "author": "/u/Exciting_Suspect9088",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I maintain cuTile Rust and just posted the paper &quot;Fearless Concurrency on the GPU.&quot; </p> <p>As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it. cuTile Rust lets you write or generate GPU kernels whose memory safety and data-race freedom are verified by the compiler, through Rust's ownership and borrow checking. You get those guarantees by construction. It's a tile-based programming model that lowers to CUDA Tile IR, carrying Rust's ownership model across the launch boundary. You partition a mutable output into disjoint mutable sub-tensors, pass inputs as shared references, and write tile kernels with single-threaded semantics that the compiler maps to thread blocks. </p> <p>End to end, we built Grout, a Qwen3 inference engine, on cuTile Rust with Hugging Face. At batch-1 decode it reaches 171 tok/s for Qwen3-4B on an RTX 5090 and 82 tok/s for Qwen3-32B on a B200, competitive with vLLM and SGLang. Batch-1 decode is memory-bandwidth-bound, and Grout's throughput is consistent with our HBM roofline analysis. </p> <p>Many of Grout's kernels still use the unsafe path today, but they can be migrated to safe variants, providing a verifiable target for generated kernels. We've started a collection of such kernels in the cutile-kernels crate in the repo. If this is your thing, contributing safe variants helps grow a library of safe, high-performance kernels that future kernel synthesis can draw from. </p> <p>On the kernel side, the safety is effectively free. On a B200 the safe GEMM is within 0.3% of a hand-written low-level version (~92% of dense f16 peak), and element-wise hits ~7 TB/s, matching cuTile Python within measurement noise. </p> <p>Some additional caveats worth noting: Grout is batch-1 with a small set of supported models (a research case study, not a drop-in server), it's NVIDIA-only (lowers to Tile IR), and GEMM still slightly trails cuBLAS at some sizes. </p> <p>- Paper: <a href=\"https://arxiv.org/abs/2606.15991\">https://arxiv.org/abs/2606.15991</a><br /> - Code: <a href=\"https://github.com/nvlabs/cutile-rs\">https://github.com/nvlabs/cutile-rs</a><br /> - Grout: <a href=\"https://github.com/huggingface/grout\">https://github.com/huggingface/grout</a></p> <p>Hope you enjoy the paper and learn something new! Happy to answer any questions :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Exciting_Suspect9088\"> /u/Exciting_Suspect9088 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

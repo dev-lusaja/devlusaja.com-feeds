@@ -1,5 +1,21 @@
 [
   {
+    "id": "e7ef23f0-2f52-53a9-8114-1810656c4db6",
+    "title": "Recommendations for speech annotation tools [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/",
+    "pubDate": "2026-06-22T19:40:39+00:00",
+    "description": "I'm looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this? submitted by /u/neuralbeans [link] [comments]",
+    "author": "/u/neuralbeans",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neuralbeans\"> /u/neuralbeans </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "3886bb1c-63d5-51f5-ab6e-a1e05c337c37",
     "title": "About ML research collab group post [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ucs2cy/about_ml_research_collab_group_post_d/",
@@ -428,38 +444,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been thinking a lot about how poorly isolated benchmark metrics capture real conversational system quality once models are deployed into multi-turn environments. </p> <p>You can have strong STT scores, decent latency, high task completion rates, and still end up with conversations that humans perceive as frustrating or unnatural. In practice, many failures are emergent properties of the interaction itself rather than single model errors. </p> <p>Small timing mistakes accumulate. Repeated confirmations create friction. Slightly unnatural turn taking changes user behavior. None of these issues show up particularly well in traditional benchmarks. </p> <p>What surprised me is how much more useful voice debugging became compared to aggregate metrics once we started testing larger volumes of real interactions. </p> <p>I have been experimenting with automated conversation-level QA recently because manually reviewing long conversational traces became difficult to scale internally. A lot of our voice debugging efforts now focus on identifying recurring conversational patterns rather than individual model failures. </p> <p>Curious whether others working on conversational systems are also finding current evaluation approaches insufficient for production settings.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OwlZealousideal4779\"> /u/OwlZealousideal4779 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u99fe5/voice_debugging_at_the_conversation_level_seems/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u99fe5/voice_debugging_at_the_conversation_level_seems/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e61fa9a0-ccc1-592c-972a-32c2c3d4aa77",
-    "title": "Is ACL now irrelevant? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/",
-    "pubDate": "2026-06-18T11:52:27+00:00",
-    "description": "I just read in a comment of another Post that an ACL paper is considered a weak signal in the community apparently, and having an ACL first author paper is not a great plus for improving chances at finding a PhD position. Is this some kind of ragebait or is academia becoming more and more insane on a daily basis?? ​ ACL is an A+ venue. Sure, it's not as big as Nips, ICML, ICLR or CVPR, fair point, but it's not some regional B conference... ​ I know a lot of folks in \"classical\" CS have an issue with AI venues, as they are receiving more focus in recent years than ICSE or FSE, and hence all AI papers must be bad and very unscientific. submitted by /u/H4RZ3RK4S3 [link] [comments]",
-    "author": "/u/H4RZ3RK4S3",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I just read in a comment of another Post that an ACL paper is considered a weak signal in the community apparently, and having an ACL first author paper is not a great plus for improving chances at finding a PhD position. Is this some kind of ragebait or is academia becoming more and more insane on a daily basis??</p> <p>&#x200b;</p> <p>ACL is an A+ venue. Sure, it's not as big as Nips, ICML, ICLR or CVPR, fair point, but it's not some regional B conference...</p> <p>&#x200b;</p> <p>I know a lot of folks in &quot;classical&quot; CS have an issue with AI venues, as they are receiving more focus in recent years than ICSE or FSE, and hence all AI papers must be bad and very unscientific.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/H4RZ3RK4S3\"> /u/H4RZ3RK4S3 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "eb3763a8-8e61-5e68-8dc1-e7d0f4062bd7",
-    "title": "Any idea if AAAI will be harsh on computer vision paper as last year? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1u919n3/any_idea_if_aaai_will_be_harsh_on_computer_vision/",
-    "pubDate": "2026-06-18T09:09:33+00:00",
-    "description": "Hello everyone, I have a computer vision paper ready for submission, a coauthor have suggested submitting it to AAAI. However last year computer vision papers have gotten a very small acceptance rate at AAAI, with reviewers receiving emails to specifically tell them that the acceptance rate for computer vision papers should be lower than the other domains acceptance rate. So my question is: can we have any sort of info in advance about this? Like will it be the same this year or will it revert to the usual comparable acceptance rate between domains. Thanks! submitted by /u/Training-Adeptness57 [link] [comments]",
-    "author": "/u/Training-Adeptness57",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone,<br /> I have a computer vision paper ready for submission, a coauthor have suggested submitting it to AAAI. However last year computer vision papers have gotten a very small acceptance rate at AAAI, with reviewers receiving emails to specifically tell them that the acceptance rate for computer vision papers should be lower than the other domains acceptance rate.</p> <p>So my question is: can we have any sort of info in advance about this? Like will it be the same this year or will it revert to the usual comparable acceptance rate between domains.</p> <p>Thanks! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Training-Adeptness57\"> /u/Training-Adeptness57 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u919n3/any_idea_if_aaai_will_be_harsh_on_computer_vision/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u919n3/any_idea_if_aaai_will_be_harsh_on_computer_vision/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
