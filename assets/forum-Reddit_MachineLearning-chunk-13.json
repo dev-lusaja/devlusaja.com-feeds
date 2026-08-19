@@ -1,5 +1,21 @@
 [
   {
+    "id": "1b9ffe67-4aa9-57cf-ac6c-912cf607942c",
+    "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uk949b/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+    "pubDate": "2026-07-01T02:30:09+00:00",
+    "description": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for] ​ Please remember that this community is geared towards those with experience. submitted by /u/AutoModerator [link] [comments]",
+    "author": "/u/AutoModerator",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you're looking for]</p> </blockquote> <p>&#x200b;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uk949b/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uk949b/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ac219467-5526-5cc7-ae48-b3a81b821773",
     "title": "80TB+ of astronomy for the HDD-poor: crossmatch the Universe from your laptop [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uk7ec6/80tb_of_astronomy_for_the_hddpoor_crossmatch_the/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, a bit of background - I'm an ex Amateur MMA fighter and BJJ brown belt and am also in the AI/ML space ... weird combo but wanted to know if anyone else was at the intersection of ML/AI and MMA/BJJ.</p> <p>In short, I'm building AI models that &quot;watch&quot; fights and are able to detect positions and moments throughout the fights - things like standing vs clinching vs ground (with intention of becoming more granular in time) along with detecting knockdowns, takedowns, etc. There's a timeline at the bottom of each fight with markers for different moments so you can jump straight to them.</p> <p>Anyway this is where my worlds collide and was curious for thoughts for anyone who wants to check it out. If you do, it's at <a href=\"https://cagesight.ai/\">https://cagesight.ai</a>.</p> <p>All feedback welcome.</p> <p>Thanks all.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnholyCathedral\"> /u/UnholyCathedral </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "db8ab550-726b-5d2b-9857-2a9df4335597",
-    "title": "Kicking off GPU Mode [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/",
-    "pubDate": "2026-06-27T07:15:33+00:00",
-    "description": "Hey ! I’m starting a series to document my work on GPU infrastructure, LLMs, and CV. Stop #1 is up: A brief look at why GPUs are the center of the industry, the CPU/GPU divide, and why nvidia-smi is the first place you check when things break. We’ll move past the basics quickly to focus on: Empirical architecture differences (Ampere vs. Hopper vs. Blackwell). Handling register pressure in custom kernels. Asynchronous memory paradigms (TMA/wgmma). #CUDA #GPU #KernelOptimization #SystemsProgramming submitted by /u/Positive_Canary1723 [link] [comments]",
-    "author": "/u/Positive_Canary1723",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey !<br /> I’m starting a series to document my work on GPU infrastructure, LLMs, and CV.</p> <p><a href=\"https://medium.com/@kenansuleyman/gpu-journey-1-the-silicon-that-ate-the-world-b211fd142835\">Stop #1 is up:</a> A brief look at why GPUs are the center of the industry, the CPU/GPU divide, and why <code>nvidia-smi</code> is the first place you check when things break.</p> <p>We’ll move past the basics quickly to focus on:</p> <ul> <li>Empirical architecture differences (Ampere vs. Hopper vs. Blackwell).</li> <li>Handling register pressure in custom kernels.</li> <li>Asynchronous memory paradigms (TMA/wgmma).</li> </ul> <p>#CUDA #GPU #KernelOptimization #SystemsProgramming</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Positive_Canary1723\"> /u/Positive_Canary1723 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

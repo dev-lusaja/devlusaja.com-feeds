@@ -1,5 +1,21 @@
 [
   {
+    "id": "db8ab550-726b-5d2b-9857-2a9df4335597",
+    "title": "Kicking off GPU Mode [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/",
+    "pubDate": "2026-06-27T07:15:33+00:00",
+    "description": "Hey ! I’m starting a series to document my work on GPU infrastructure, LLMs, and CV. Stop #1 is up: A brief look at why GPUs are the center of the industry, the CPU/GPU divide, and why nvidia-smi is the first place you check when things break. We’ll move past the basics quickly to focus on: Empirical architecture differences (Ampere vs. Hopper vs. Blackwell). Handling register pressure in custom kernels. Asynchronous memory paradigms (TMA/wgmma). #CUDA #GPU #KernelOptimization #SystemsProgramming submitted by /u/Positive_Canary1723 [link] [comments]",
+    "author": "/u/Positive_Canary1723",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey !<br /> I’m starting a series to document my work on GPU infrastructure, LLMs, and CV.</p> <p><a href=\"https://medium.com/@kenansuleyman/gpu-journey-1-the-silicon-that-ate-the-world-b211fd142835\">Stop #1 is up:</a> A brief look at why GPUs are the center of the industry, the CPU/GPU divide, and why <code>nvidia-smi</code> is the first place you check when things break.</p> <p>We’ll move past the basics quickly to focus on:</p> <ul> <li>Empirical architecture differences (Ampere vs. Hopper vs. Blackwell).</li> <li>Handling register pressure in custom kernels.</li> <li>Asynchronous memory paradigms (TMA/wgmma).</li> </ul> <p>#CUDA #GPU #KernelOptimization #SystemsProgramming</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Positive_Canary1723\"> /u/Positive_Canary1723 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c3f4f8c7-fc08-5a13-a91f-3558c953f1a0",
     "title": "I silently break training codes or configs so I made pybench [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ugv7u3/i_silently_break_training_codes_or_configs_so_i/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>As part of my ablations, I want to generate text with a medical-oriented LLM, and I was surprised to find no exposed APIs for this kind of model.<br /> I found models like MedGemma and BioMistral on Hugging Face, but they don’t seem to offer public APIs, and I really don’t want to host anything myself.</p> <p>Is that actually the case?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Entrepreneur7962\"> /u/Entrepreneur7962 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "22020041-a238-511c-a211-dfdd0b6100c7",
-    "title": "DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/",
-    "pubDate": "2026-06-24T02:03:34+00:00",
-    "description": "DeepSWE delivers four advances over existing public benchmarks: Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining. High diversity: Tasks span a broad pool of 91 repositories across 5 languages. Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code and ~2x more output tokens. Reliable verification: Verifiers are hand-written to test software behavior rather than implementation details. The result is a benchmark that reflects how today's frontier coding agents actually perform in software engineering work. https://preview.redd.it/lacvagyr159h1.png?width=1373&format=png&auto=webp&s=6514340a15d51d7f03da733f08fb3f6a302cac75 It's open-source: https://github.com/datacurve-ai/deep-swe submitted by /u/we_are_mammals [link] [comments]",
-    "author": "/u/we_are_mammals",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\"> <img alt=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" src=\"https://preview.redd.it/lacvagyr159h1.png?width=140&amp;height=89&amp;auto=webp&amp;s=14f97a97511fbfe2fd767e4dc986ce0b4da5c73e\" title=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>DeepSWE delivers four advances over existing public benchmarks:</p> <ul> <li>Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining.</li> <li>High diversity: Tasks span a broad pool of 91 repositories across 5 languages.</li> <li>Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code and ~2x more output tokens.</li> <li>Reliable verification: Verifiers are hand-written to test software behavior rather than implementation details.</li> </ul> <p>The result is a benchmark that reflects how today's frontier coding agents actually perform in software engineering work.</p> <p><a href=\"https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75\">https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75</a></p> <p>It's open-source: <a href=\"https://github.com/datacurve-ai/deep-swe\">https://github.com/datacurve-ai/deep-swe</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/lacvagyr159h1.png?width=140&height=89&auto=webp&s=14f97a97511fbfe2fd767e4dc986ce0b4da5c73e",
     "isShortVideo": 0
   }
 ]

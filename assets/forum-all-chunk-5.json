@@ -1,5 +1,21 @@
 [
   {
+    "id": "65f0f004-cd47-52d5-93cf-b5a816e70e46",
+    "title": "Conference Reviews: Asking Too Much? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/",
+    "pubDate": "2026-08-02T15:33:35+00:00",
+    "description": "There's a kind of review that asks for lengthy additions, usually extending the scope of the paper beyond the stated, even though the submission is at page limit. Naturally, such additions in the case of top-tier conferences have to go into the supplemental materials or appendices. My question here is, would not such additions make the paper more suitable for a journal publication? I had to retract one paper out of such concern that the conference publication would block the later planned journal publication. Any opinions? submitted by /u/examachine [link] [comments]",
+    "author": "/u/examachine",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>There's a kind of review that asks for lengthy additions, usually extending the scope of the paper beyond the stated, even though the submission is at page limit. Naturally, such additions in the case of top-tier conferences have to go into the supplemental materials or appendices. </p> <p>My question here is, would not such additions make the paper more suitable for a journal publication? I had to retract one paper out of such concern that the conference publication would block the later planned journal publication.</p> <p>Any opinions? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/examachine\"> /u/examachine </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e4b16f17-ba27-58cf-a475-c2e1359d865d",
     "title": "ARR August Cycle [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vdgpha/arr_august_cycle_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://blog.cloudflare.com/introducing-precursor/\">Precursor</a> was recently released. It's a bot detector that uses cursor tracking.</p> <p>I thought it would be a fun challenge to train a deep neural network that could learn human mouse movements.</p> <p>It's an 2-layer LSTM model with a Mixture Density Network at the end.</p> <p>The results are actually quite impressive.</p> <p>Video: <a href=\"https://github.com/puffinsoft/mousecrack\">https://github.com/puffinsoft/mousecrack</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Possible-Session9849\"> /u/Possible-Session9849 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b750b139-bf69-5038-a7c5-0b076003adf2",
-    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/",
-    "pubDate": "2026-07-30T02:54:23+00:00",
-    "description": "Hey everyone, I recently open-sourced a new Python package called ganfs (Generative Adversarial Network Feature Selection), and I wanted to share it with the community. The Problem: Selecting the best features in high-dimensional datasets is often a massive bottleneck. Traditional methods (like filter, wrapper, or embedded methods) usually struggle with scalability, miss complex nonlinear relationships, or require a domain expert to manually identify what matters. The Solution ( ganfs ): I wanted to automate this process using adversarial learning. ganfs trains a Generative Adversarial Network on your dataset. Once the GAN learns the underlying data distribution, the algorithm applies a perturbation strategy to the Discriminator. By analyzing how the Discriminator reacts to these perturbations, ganfs automatically ranks the features based on which ones are \"hardest to fake.\" Essentially, it learns the patterns and extracts the most informative features without any domain-specific supervision. I originally developed this algorithm during my research on large-scale DDoS detection (where identifying the right network features is critical), but the package is designed to be domain-agnostic. How to use it: You can install it directly via pip: pip install ganfs The API is designed to be simple and similar to standard scikit-learn transformers. Links: PyPI: https://pypi.org/project/ganfs/ GitHub/Docs: https://github.com/patelharsh15/GANFS-GAN-based-feature-selection The Math/Research (arXiv): https://arxiv.org/abs/2504.18566 Right now, I am actively working on optimizing the GPU memory consumption for smaller datasets, but it is fully functional. I’d love for people to test it out on their datasets and give me feedback on the architecture, the code structure, or any bugs you run into. Happy to answer any questions about the math or the implementation! submitted by /u/One_Crow_4710 [link] [comments]",
-    "author": "/u/One_Crow_4710",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I recently open-sourced a new Python package called <code>ganfs</code> (Generative Adversarial Network Feature Selection), and I wanted to share it with the community.</p> <p><strong>The Problem:</strong> Selecting the best features in high-dimensional datasets is often a massive bottleneck. Traditional methods (like filter, wrapper, or embedded methods) usually struggle with scalability, miss complex nonlinear relationships, or require a domain expert to manually identify what matters.</p> <p><strong>The Solution (</strong><code>ganfs</code><strong>):</strong> I wanted to automate this process using adversarial learning. <code>ganfs</code> trains a Generative Adversarial Network on your dataset. Once the GAN learns the underlying data distribution, the algorithm applies a perturbation strategy to the Discriminator.</p> <p>By analyzing how the Discriminator reacts to these perturbations, <code>ganfs</code> automatically ranks the features based on which ones are &quot;hardest to fake.&quot; Essentially, it learns the patterns and extracts the most informative features without any domain-specific supervision.</p> <p>I originally developed this algorithm during my research on large-scale DDoS detection (where identifying the right network features is critical), but the package is designed to be domain-agnostic.</p> <p><strong>How to use it:</strong> You can install it directly via pip: <code>pip install ganfs</code></p> <p>The API is designed to be simple and similar to standard scikit-learn transformers.</p> <p><strong>Links:</strong></p> <ul> <li><strong>PyPI:</strong> <a href=\"https://pypi.org/project/ganfs/\">https://pypi.org/project/ganfs/</a></li> <li><strong>GitHub/Docs:</strong> <a href=\"https://github.com/patelharsh15/GANFS-GAN-based-feature-selection\">https://github.com/patelharsh15/GANFS-GAN-based-feature-selection</a></li> <li><strong>The Math/Research (arXiv):</strong> <a href=\"https://arxiv.org/abs/2504.18566\">https://arxiv.org/abs/2504.18566</a></li> </ul> <p>Right now, I am actively working on optimizing the GPU memory consumption for smaller datasets, but it is fully functional.</p> <p>I’d love for people to test it out on their datasets and give me feedback on the architecture, the code structure, or any bugs you run into. Happy to answer any questions about the math or the implementation!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/One_Crow_4710\"> /u/One_Crow_4710 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "79a998c0-f736-51d7-96a6-2c6242edc00c",
+    "title": "Asking about how to collaborate with professors or research labs [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v3t8s0/asking_about_how_to_collaborate_with_professors/",
+    "pubDate": "2026-07-22T21:09:10+00:00",
+    "description": "Hey everyone, I'm not in college anymore. Is it possible to do research with a professor or any research lab while working a full time job? If yes, what's the best way to reach out and get involved? Also if anyone looking for someone to work with on a research project or something similar, can dm me. submitted by /u/VastThen1742 [link] [comments]",
+    "author": "/u/VastThen1742",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, I'm not in college anymore. Is it possible to do research with a professor or any research lab while working a full time job? If yes, what's the best way to reach out and get involved? Also if anyone looking for someone to work with on a research project or something similar, can dm me.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VastThen1742\"> /u/VastThen1742 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v3t8s0/asking_about_how_to_collaborate_with_professors/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v3t8s0/asking_about_how_to_collaborate_with_professors/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6086bcaf-5419-53fa-ad11-a7c158ef7d26",
     "title": "Moving Execution Authority Out of the Model [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v3t01u/moving_execution_authority_out_of_the_model_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>32,070 alphabetic tokens from GPT-2-small's WTE, no forward pass and no context.</p> <p>Works on mobile. Pinch to zoom, tap a token to see its nearest connections, tap a neighbour to walk the graph. Search box to jump anywhere.</p> <p>Layout is t-SNE over a compressed representation of the embedding table; edges are a minimum spanning tree in that space, so every line is a real nearest-kin relationship,</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Limp-Contest-7309\"> /u/Limp-Contest-7309 </a> <br /> <span><a href=\"https://aethereos.net/static/token-atlas.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d49c385d-297f-5fe8-890f-08498e4b090a",
-    "title": "GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous nearest neighbours [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/",
-    "pubDate": "2026-07-18T21:29:05+00:00",
-    "description": "This visualization looks at the token “Trump” in GPT-2 Small’s static embedding table, before attention or context is applied. The top plot is a t-SNE projection of 32,070 alphabetic tokens with at least two characters. The two graphs below compare Trump’s nearest neighbours under two representations of the same embedding: Discretized: each coordinate is thresholded before neighbours are calculated. This produces mostly generic political terms such as Mitt, Hillary, Pelosi, and Blair. Continuous: the original coordinates are retained. This produces a more specific group containing family members, staff, rivals, and presidents including Obama, Clinton, Bush, and Eisenhower. No prompting or text generation is involved; everything comes directly from GPT-2 Small’s learned token embeddings. submitted by /u/Limp-Contest-7309 [link] [comments]",
-    "author": "/u/Limp-Contest-7309",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/\"> <img alt=\"GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous nearest neighbours [P]\" src=\"https://preview.redd.it/tlvz4c3i32eh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=aad6aeec9197e26debda00093dd47611e70c5a08\" title=\"GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous nearest neighbours [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This visualization looks at the token “Trump” in GPT-2 Small’s static embedding table, before attention or context is applied.</p> <p>The top plot is a t-SNE projection of 32,070 alphabetic tokens with at least two characters.</p> <p>The two graphs below compare Trump’s nearest neighbours under two representations of the same embedding:</p> <p>Discretized: each coordinate is thresholded before neighbours are calculated. This produces mostly generic political terms such as Mitt, Hillary, Pelosi, and Blair.</p> <p>Continuous: the original coordinates are retained. This produces a more specific group containing family members, staff, rivals, and presidents including Obama, Clinton, Bush, and Eisenhower.</p> <p>No prompting or text generation is involved; everything comes directly from GPT-2 Small’s learned token embeddings.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Limp-Contest-7309\"> /u/Limp-Contest-7309 </a> <br /> <span><a href=\"https://i.redd.it/tlvz4c3i32eh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/tlvz4c3i32eh1.png?width=640&crop=smart&auto=webp&s=aad6aeec9197e26debda00093dd47611e70c5a08",
     "isShortVideo": 0
   }
 ]

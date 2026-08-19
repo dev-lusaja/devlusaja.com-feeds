@@ -1,5 +1,21 @@
 [
   {
+    "id": "020f1be1-81a7-526f-95c5-a3603526a9a5",
+    "title": "Are there some textbooks that take a primarily engineering approach to machine learning (as opposed to a \"scientific\" approach)? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v16l6a/are_there_some_textbooks_that_take_a_primarily/",
+    "pubDate": "2026-07-20T00:32:08+00:00",
+    "description": "As someone who studied stats undergrad and industrial engineering operations research grad, and who thinks about the practical business of ML components in software.... I get lost and a bit hopeless when I think about how to make useful software out of ML models in a reasonable amount of time, and in the current business environment. And when I look at the businesses where I have worked that have mountains of middle management running tiny bits of the ML model lifecycle (think feature extraction, data ingestion and integration, training infra, hosting infra, more hosting infra, applied science)... that only makes my head hurt even more. How do you go about making practical software out of ML components? Edit: I should mention that I mean from scratch ML components, not just a call to a third party hosted tool. submitted by /u/ConstructionBoth6461 [link] [comments]",
+    "author": "/u/ConstructionBoth6461",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>As someone who studied stats undergrad and industrial engineering operations research grad, and who thinks about the practical business of ML components in software....</p> <p>I get lost and a bit hopeless when I think about how to make useful software out of ML models in a reasonable amount of time, and in the current business environment.</p> <p>And when I look at the businesses where I have worked that have mountains of middle management running tiny bits of the ML model lifecycle (think feature extraction, data ingestion and integration, training infra, hosting infra, more hosting infra, applied science)... that only makes my head hurt even more.</p> <p>How do you go about making practical software out of ML components?</p> <p>Edit: I should mention that I mean from scratch ML components, not just a call to a third party hosted tool.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ConstructionBoth6461\"> /u/ConstructionBoth6461 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v16l6a/are_there_some_textbooks_that_take_a_primarily/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v16l6a/are_there_some_textbooks_that_take_a_primarily/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "afc1f18e-1a80-5e92-8f42-28123c2eaaa5",
     "title": "Follow up: GPT-2's vocabulary as a hyperbolic tree — 32,070 tokens in a Poincaré ball you can fly through [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v0pv45/follow_up_gpt2s_vocabulary_as_a_hyperbolic_tree/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm working on a project with summarized data from ~40 studies (Excel) involving different protocol variables (durations, intensities, recovery times, frequency, total duration, etc.) and response outcomes conditional on a baseline variable (range ~30-85 units).</p> <p>The aim is to fit a continuous response surface using a hierarchical approach to separate protocol effects from baseline effects, then perform continuous numerical optimization (not grid search) for three objectives:<br /> - Total improvement<br /> - Improvement per unit time (e.g. per week)<br /> - Improvement per unit effort/work</p> <p>Outputs should be fine-grained continuous values rather than rounded study parameters. There are also domain-specific physiological constraints to respect.</p> <p>I'm on a Chromebook with a little Python experience, so Colab-friendly solutions would be ideal.</p> <p>Current candidates I'm considering: PyMC for hierarchical modeling, pymoo + pysamoo for surrogate-assisted MO optimization, SMT for surrogates, or Matlab Global Optimization Toolbox.</p> <p>What is the strongest stack in 2026 for this kind of workflow? Any recommended notebooks, tutorials, or similar applied examples?</p> <p>Are there any AI tools that currently do this without the traditional work of python? Meaning I can upload the spreadsheet give a parameters and it will come up with data.?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BleakReason\"> /u/BleakReason </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uxty9v/best_current_tools_for_multiobjective/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uxty9v/best_current_tools_for_multiobjective/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3ada59b5-be04-5810-8648-50f2a89423ed",
-    "title": "Looking for JEPA devil advocates [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/",
-    "pubDate": "2026-07-15T17:34:44+00:00",
-    "description": "I am currently doing research on world models, specially in tje field of robot learning, and, as probably most of you alredy know, JEPA-like models are mentioned over and over. I read the main recent papers from lecun as well as other research groups, and I personally think the whole approach is very promising and can really go somewhere. But after listening a bunch of the recent Y Lecun conferences his ideas looks even too cool compared to \"literally everything else\" (as he's dissing LLM, RL, etc and pitching his ideas are the \"only next big things\"...). So I am asking myself if there are red flags about his approaches that I do not see yet and maybe I need somebody being the \"devil advocate\" with whom breaking down ideas. Where do you think are the biggest downside of this models, compared to other world models approaches? submitted by /u/Amazing-Coat5160 [link] [comments]",
-    "author": "/u/Amazing-Coat5160",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am currently doing research on world models, specially in tje field of robot learning, and, as probably most of you alredy know, JEPA-like models are mentioned over and over. </p> <p>I read the main recent papers from lecun as well as other research groups, and I personally think the whole approach is very promising and can really go somewhere.</p> <p>But after listening a bunch of the recent Y Lecun conferences his ideas looks even too cool compared to &quot;literally everything else&quot; (as he's dissing LLM, RL, etc and pitching his ideas are the &quot;only next big things&quot;...). </p> <p>So I am asking myself if there are red flags about his approaches that I do not see yet and maybe I need somebody being the &quot;devil advocate&quot; with whom breaking down ideas.</p> <p>Where do you think are the biggest downside of this models, compared to other world models approaches?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Amazing-Coat5160\"> /u/Amazing-Coat5160 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

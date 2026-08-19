@@ -1,5 +1,21 @@
 [
   {
+    "id": "b863632d-82db-576f-a002-c8669dba8d06",
+    "title": "Raffi Krikorian (CTO, Mozilla) — AMA on the State of Open Source AI (July 14 @ 1pm EDT) [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/",
+    "pubDate": "2026-07-07T14:51:29+00:00",
+    "description": "Hi r/MachineLearning , i’m Raffi, CTO at Mozilla. on Tuesday July 14 we publish our inaugural State of Open Source AI report, and i'll be here live answering whatever questions you throw at me! AMA time: 1pm ET / 10am PT / 6pm BST. the report is about what's actually happening with open source AI in production — developers, enterprises, the whole ecosystem — not the version of the story everyone already believes. things i want to dig into with you: the hidden tax on \"free\" models — what it actually costs a business to run on closed tools they don't own enterprise adoption — what's real versus what's marketing, and exactly where teams get stuck the China effect — free, capable Chinese models are rewriting who has leverage here developer trust — what 950+ developers told us about which tools they actually trust, and why the “agentic harness” — why the real fight has moved off the model and onto the layer sitting on top of it, and what that means for open also game to deep dive into: open vs closed, what \"open source ai\" should even mean in 2026, where this goes for anyone building on it. drop questions early if you've got them. i'll start answering live at the time above. — Raffi submitted by /u/raffikrikorian [link] [comments]",
+    "author": "/u/raffikrikorian",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"https://www.reddit.com/r/MachineLearning\">r/MachineLearning</a>,</p> <p>i’m Raffi, CTO at Mozilla. on Tuesday July 14 we publish our inaugural <strong>State of Open Source AI</strong> report, and i'll be here live answering whatever questions you throw at me!</p> <p><strong>AMA time: 1pm ET / 10am PT / 6pm BST.</strong></p> <p>the report is about what's actually happening with open source AI in production — developers, enterprises, the whole ecosystem — not the version of the story everyone already believes.</p> <p>things i want to dig into with you:</p> <ul> <li>the hidden tax on &quot;free&quot; models — what it actually costs a business to run on closed tools they don't own</li> <li>enterprise adoption — what's real versus what's marketing, and exactly where teams get stuck</li> <li>the China effect — free, capable Chinese models are rewriting who has leverage here</li> <li>developer trust — what 950+ developers told us about which tools they actually trust, and why</li> <li>the “agentic harness” — why the real fight has moved off the model and onto the layer sitting on top of it, and what that means for open</li> </ul> <p>also game to deep dive into: open vs closed, what &quot;open source ai&quot; should even mean in 2026, where this goes for anyone building on it.</p> <p>drop questions early if you've got them. i'll start answering live at the time above.</p> <p>— Raffi</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/raffikrikorian\"> /u/raffikrikorian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "20fd4e80-1190-5f91-9241-f2b30706f890",
     "title": "Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We built a model diffing method that recovers verbatim content from narrowly finetuned LLMs using only grey-box logit access (no weights, no activations, no probe corpus).</p> <p>Recent work (Minder, Dumas et al., &quot;Narrow Finetuning Leaves Clearly Readable Traces in Activation Differences&quot;) showed that finetuning leaves detectable traces in activation differences between base and finetuned models. Their method, Activation Difference Lens (ADL), steers generation using these differences, but it's whitebox (needs full weight access) and only recovers a vague, domain-level description of what the finetuning was about.</p> <p>We introduce Contrastive Decoding Diffing (CDD), the output-level analog. Instead of steering with activation differences, we contrast the base and finetuned model's logits directly. A single default configuration, no per-organism calibration, no layer selection, achieves a verbatim recovery score of 4+/5 on 19/20 organism x model pairs across four model families (1B to 32B params) on the SDF benchmark. ADL never exceeds 3/5 on the same benchmark, despite requiring full weight access.</p> <p>One unplanned finding: across four semantically unrelated finetuning domains (fake FDA drug approval, fake baking protocols, fake Roman concrete research), the same fictional persona kept showing up in the recovered text: &quot;Dr. Elena Rodriguez.&quot; Turns out this is a name Claude Sonnet 3.6 disproportionately favors when asked to generate a fictional scientist for synthetic data generation, so it got baked into every finetune that used LLM-generated training data, and CDD pulled it back out. We wrote up this specific finding on its own a few weeks back if you want the more accessible version first: <a href=\"https://www.reddit.com/r/MachineLearning/s/2nCYh9debS\">ghost couple</a></p> <p>Paper: <a href=\"https://arxiv.org/abs/2605.25902\">paper</a></p> <p>Code: <a href=\"https://github.com/SamsungLabs/contrastive_decoding_diffing\">code</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CebulkaZapiekana\"> /u/CebulkaZapiekana </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2d47f66e-7ea1-5c1c-a703-1e99556d11c0",
-    "title": "Small Language Model SLM [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/",
-    "pubDate": "2026-07-03T16:17:27+00:00",
-    "description": "Hi, I am supposed to prepare for SLM and its software part for an on campus internship, i've worked with local models like ollama generally,in my projects and also with open claw so can anyone guide me the last 2-3 days tips on what should i go through for this internship prep?? submitted by /u/Idea_less_ [link] [comments]",
-    "author": "/u/Idea_less_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I am supposed to prepare for SLM and its software part for an on campus internship, i've worked with local models like ollama generally,in my projects and also with open claw so can anyone guide me the last 2-3 days tips on what should i go through for this internship prep??</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Idea_less_\"> /u/Idea_less_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
