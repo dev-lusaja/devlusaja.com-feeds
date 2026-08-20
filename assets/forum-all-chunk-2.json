@@ -1,5 +1,21 @@
 [
   {
+    "id": "b09edc4d-0d3c-5465-9565-db14bbe5b982",
+    "title": "Less Than a Month: Kimi K3, Qwen3.8, DeepSeek-V4-Pro-0813, GLM-5.3",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9k39/less_than_a_month_kimi_k3_qwen38/",
+    "pubDate": "2026-08-14T14:57:10+00:00",
+    "description": "What's happening in China? Kimi K3-2.8T Qwen3.8-2.4T DeepSeek-V4-Pro-0813-1.6T GLM-5.3-743B They’re all less than a month old! submitted by /u/chibop1 [link] [comments]",
+    "author": "/u/chibop1",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What's happening in China?</p> <ul> <li>Kimi K3-2.8T</li> <li>Qwen3.8-2.4T</li> <li>DeepSeek-V4-Pro-0813-1.6T</li> <li>GLM-5.3-743B</li> </ul> <p>They’re all less than a month old!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chibop1\"> /u/chibop1 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vo9k39/less_than_a_month_kimi_k3_qwen38/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vo9k39/less_than_a_month_kimi_k3_qwen38/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "4a1e4ffc-57f8-54a3-ba24-6f1ce32d8ce7",
     "title": "A linter for PyTorch 'torch-preflight' [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vo8vv0/a_linter_for_pytorch_torchpreflight_p/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Obviously nobody needs a transformer that's good at multiplication. I wanted to know whether a stock transformer could do exact arithmetic if I chose its weights directly.</p> <p>I implemented the grade-school algorithm as a computation graph and compiled it into an ordinary Phi-3 Hugging Face checkpoint using Torchwright, a compiler I wrote. No training. The three-digit calculator gets all 3,000,000 supported expressions right. I've published checkpoints to Hugging Face that support up to 12 digit x 12 digit multiplication.</p> <p>For fun, I also disabled reasoning and tested six frontier models. Accuracy falls off a cliff as the numbers get longer; at seven digits, five scored 0/500. Mine stays at 100%, although it has the considerable advantage that I put the multiplication algorithm directly into its weights.</p> <p>I ended up building four versions: grade-school, hardware-style, scratchpad, and brute-force memorization. They compute the same function while spending layers, width, generated tokens, and parameters very differently.</p> <p>Write-up: <a href=\"https://ood.dev/posts/calculator/\">https://ood.dev/posts/calculator/</a> Repo: <a href=\"https://github.com/physicsrob/torchwright\">https://github.com/physicsrob/torchwright</a> Checkpoint: <a href=\"https://huggingface.co/physicsrob/torchwright-calculator-simple-max-digits-3\">https://huggingface.co/physicsrob/torchwright-calculator-simple-max-digits-3</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notforrob\"> /u/notforrob </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ab1f4944-a2f0-5ee8-8a65-9219e69cf713",
-    "title": "How to file a complaint about a published CVPR paper? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/",
-    "pubDate": "2026-08-10T14:56:16+00:00",
-    "description": "Hi, I would like to file a complaint about an accepted and published CVPR 2026 paper that its main contribution is a dataset but it was never released, and honestly I don’t know who to contact. The dataset was never released prior to the conference, or during the conference or after the conference. I personally feel there was a lack of proper checking that the dataset was gonna be available before the conference since this is a requirement. I’ve tried contacting the authors without any success (which tbh I wouldn’t even need to because it has to be released anyways). The authors even point a GitHub link in the paper but the repo is empty (and it was always empty). submitted by /u/ElPelana [link] [comments]",
-    "author": "/u/ElPelana",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I would like to file a complaint about an accepted and published CVPR 2026 paper that its main contribution is a dataset but it was never released, and honestly I don’t know who to contact. The dataset was never released prior to the conference, or during the conference or after the conference. I personally feel there was a lack of proper checking that the dataset was gonna be available before the conference since this is a requirement. I’ve tried contacting the authors without any success (which tbh I wouldn’t even need to because it has to be released anyways). </p> <p>The authors even point a GitHub link in the paper but the repo is empty (and it was always empty). </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ElPelana\"> /u/ElPelana </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

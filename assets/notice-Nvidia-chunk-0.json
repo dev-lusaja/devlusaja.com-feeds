@@ -1,5 +1,21 @@
 [
   {
+    "id": "99f0f72f-94f8-58ec-9c7c-50de274ba7a7",
+    "title": "How Generative Recommenders Are Redefining RecSys at Scale",
+    "link": "https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale/",
+    "pubDate": "2026-08-20T16:00:00+00:00",
+    "description": "Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image2-3-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image2-3-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" /><p>Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and serve at scale. The advent of LLMs has inspired a shift from the traditional embedding-similarity-based objective to a generative one, where the goal is to predict the next action or item in a large catalog given a sequence of user histories.</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "509f9d58-6c55-5fcf-9655-25828eb4f788",
     "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
     "link": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image5-11-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image5\" width=\"768\" />Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image5-11-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image5\" width=\"768\" /><p>Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving these model weights around the cluster is extremely common. For instance, a cold start may pull weights from remote storage into GPU memory; autoscaling and rolling updates must populate each new replica; and RL post-training continuously…</p>\n<p><a href=\"https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b441dc04-eec9-509e-a211-a9ad3cf40b05",
-    "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
-    "link": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/",
-    "pubDate": "2026-07-23T16:07:03+00:00",
-    "description": "NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...",
-    "author": "Tanya Lenz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/walking-machine-game-rtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"walking-machine-game-rtx\" width=\"768\" />NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/walking-machine-game-rtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"walking-machine-game-rtx\" width=\"768\" /><p>NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways that are difficult to diagnose: an invalid API argument, a black frame, or a GPU-side bug buried under thousands of concurrent threads. Debugging facilities in the NVIDIA OptiX Toolkit (OTK) can help. OTK is a GitHub repository…</p>\n<p><a href=\"https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

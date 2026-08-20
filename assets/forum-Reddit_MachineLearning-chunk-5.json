@@ -1,5 +1,21 @@
 [
   {
+    "id": "ef930cb6-01c7-5cfc-81b6-f995a5124374",
+    "title": "Detecting *whether* text exists in an image? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vbzwp9/detecting_whether_text_exists_in_an_image_d/",
+    "pubDate": "2026-07-31T18:57:32+00:00",
+    "description": "Hi, I was looking to be able to very quickly detect *whether* text exists in an image (binary classification). Being a simple-ish task, there isn't substantial dedicated research on it, so I was looking for adjacent topics or models, but I'm not sure of any. I know there's an issue of scale tolerance, so I was like hmm FPN, but now I'm curious why absolutely no classification papers use FPN. What do you guys think the best architectural approach? I’m probably using the pretrained PaddleOCR v6 detection backbone (LCNetv4) and fine tune on my domain (2D art text, vast scale variation, style variation, etc., 1920x1080 images). Only paper I've seen uses two feature maps and a grid approach where if any grid cell is a yes the whole image is classified as a yes. However, one could also use the simple global average (max pool better in this case maybe) to linear approach. There's also the issue of what's best if our data is only yes/no labels and not bounding boxes (the grid approach doesnt work then), I'd like to know how much this would actually affect a binary classification task and how the approach would change. I feel like the answers might be test multiple ones but I’d like to hear some ideas or anything that could be useful that I could try out. submitted by /u/Relative-Pace-2923 [link] [comments]",
+    "author": "/u/Relative-Pace-2923",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I was looking to be able to very quickly detect *whether* text exists in an image (binary classification). Being a simple-ish task, there isn't substantial dedicated research on it, so I was looking for adjacent topics or models, but I'm not sure of any. I know there's an issue of scale tolerance, so I was like hmm FPN, but now I'm curious why absolutely no classification papers use FPN.</p> <p>What do you guys think the best architectural approach? I’m probably using the pretrained PaddleOCR v6 detection backbone (LCNetv4) and fine tune on my domain (2D art text, vast scale variation, style variation, etc., 1920x1080 images). Only paper I've seen uses two feature maps and a grid approach where if any grid cell is a yes the whole image is classified as a yes. However, one could also use the simple global average (max pool better in this case maybe) to linear approach. There's also the issue of what's best if our data is only yes/no labels and not bounding boxes (the grid approach doesnt work then), I'd like to know how much this would actually affect a binary classification task and how the approach would change.</p> <p>I feel like the answers might be test multiple ones but I’d like to hear some ideas or anything that could be useful that I could try out.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Relative-Pace-2923\"> /u/Relative-Pace-2923 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbzwp9/detecting_whether_text_exists_in_an_image_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbzwp9/detecting_whether_text_exists_in_an_image_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "c40b2093-2d7d-5c77-a904-31a7cdfbadc2",
     "title": "Should I start learning AI/ML (currently third year 2nd sem stud) because i do have genuine interest in this domain but I keep watching these reels that Ai bubble burst is about to burst and all, will it affect the job market for this domain as well? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vbwp9m/should_i_start_learning_aiml_currently_third_year/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>It is about ~3k lines of Python, uses Ollama by default, and ships with practical tools for shell, files, web search, memory, and vision.</p> <p>No LangChain. No LiteLLM. No big framework stack.<br /> Just <code>asyncio</code>, <code>httpx</code>, and a small ReAct loop tuned for local/smaller models.</p> <p>An agent that feels useful without becoming a black box. Didn't wanted to dig through framework abstractions to figure out how agents actually work, so built one small enough to read in an afternoon, but practical enough to use for real tasks.</p> <p>GitHub: <a href=\"https://github.com/mohsinkaleem/agent-mini\">https://github.com/mohsinkaleem/agent-mini</a><br /> PyPI: <a href=\"https://pypi.org/project/agent-mini/\">https://pypi.org/project/agent-mini/</a></p> <pre><code>pip install agent-mini agent-mini init agent-mini chat </code></pre> <p>Would love feedback from anyone experimenting with local agents.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lordrovks\"> /u/Lordrovks </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9131l/agent_mini_a_minimal_localfirst_ai_agent_you_can/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9131l/agent_mini_a_minimal_localfirst_ai_agent_you_can/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a83aabec-7f4f-593f-890a-1bc3600e78b3",
-    "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
-    "pubDate": "2026-07-28T14:52:01+00:00",
-    "description": "One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance in the checklist, it really annoys me personally - what is clearly Claude's writing style is very difficult to parse, and indicates a lack of effort to me. While I'm trying to remain objective and realize it's my role just to judge the actual content of the work, I don't feel incentivized to assign a lot of weight to an argument that is fully AI-generated and don't like the idea of engaging with slopped papers (and their \"authors\") at NeurIPS. This is a partially just a rant and partially asking for advice on how to proceed with my response to the rebuttals. submitted by /u/gateofptolemy [link] [comments]",
-    "author": "/u/gateofptolemy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance in the checklist, it really annoys me personally - what is clearly Claude's writing style is very difficult to parse, and indicates a lack of effort to me. While I'm trying to remain objective and realize it's my role just to judge the actual content of the work, I don't feel incentivized to assign a lot of weight to an argument that is fully AI-generated and don't like the idea of engaging with slopped papers (and their &quot;authors&quot;) at NeurIPS. </p> <p>This is a partially just a rant and partially asking for advice on how to proceed with my response to the rebuttals. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gateofptolemy\"> /u/gateofptolemy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

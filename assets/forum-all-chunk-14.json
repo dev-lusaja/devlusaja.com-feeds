@@ -1,5 +1,21 @@
 [
   {
+    "id": "33f07c93-f30e-519e-97bf-ec8856b4d4e0",
+    "title": "ICML qr code visible [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ukjh6y/icml_qr_code_visible_d/",
+    "pubDate": "2026-07-01T11:52:13+00:00",
+    "description": "Hi everyone, The check in QR code is visible at my profile despite that my card isn’t accepting the payment transaction. What does that even mean? Thanks! submitted by /u/misplacedlion [link] [comments]",
+    "author": "/u/misplacedlion",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>The check in QR code is visible at my profile despite that my card isn’t accepting the payment transaction. What does that even mean?</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/misplacedlion\"> /u/misplacedlion </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ukjh6y/icml_qr_code_visible_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ukjh6y/icml_qr_code_visible_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "84eaa304-feab-5074-8738-6ac85e39e138",
     "title": "A system-level approach to prompt injection: separating instruction and data channels in LLM agents [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ukgwk1/a_systemlevel_approach_to_prompt_injection/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Repo link and results - <a href=\"https://github.com/Abhinand20/MathFormer\">https://github.com/Abhinand20/MathFormer</a></p> <p>Task: Given a factorized expression like (7-3*z)*(-5*z-9), predict the expanded form -&gt; 15*z\\*2-8\\*z-63</p> <p>Key takeaway: A tiny (4M param) seq2seq model trained with no math knowledge reaches ~98.6% accuracy on symbolic math tasks, suggesting it learns structural token transformations rather than any notion of operators or variables. Scaling this up could help explain why LLMs appear to “reason” mathematically, when they may actually be performing large-scale structured pattern completion. </p> <p>How does RL change this paradigm given the inherent architecture is still based on attention?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AlphaCode1\"> /u/AlphaCode1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c3d01bf2-879c-50db-a05a-c2705b38b6d1",
-    "title": "Built an LLM training framework that actually runs on older GPUs without crashing [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uh7ib3/built_an_llm_training_framework_that_actually/",
-    "pubDate": "2026-06-27T16:44:14+00:00",
-    "description": "Hey guys, I was playing around with Nanotron recently and got super frustrated by how many heavy, hardware-specific dependencies it imports at the module level ( flash-attn , triton, functorch , etc.). If you try to run it on older or budget GPUs like a T4 or V100, it just crashes on import. So I wrote Picotron ( https://github.com/Syntropy-AI-Labs/picotron ) to solve this. It's a clean-room rewrite that gets rid of all mandatory GPU-specific dependencies. It runs on pretty much any GPU that supports PyTorch (defaults to FP16 on older cards under compute capability 8.0, and BF16 on newer ones). It falls back to standard PyTorch SDPA by default, but still hooks into FlashAttention-2 at runtime if it detects you have it installed. I used an AI assistant to write a lot of the boilerplate/code modules, but I've got it working locally and just trained a tiny 2M model on FineWeb-Edu. Also added configs for: • GQA / MLA (Multi-head Latent Attention) • QK-Norm & logit soft-capping (Gemma 2 style) • Parallel FFN/Attn runs • ZeRO-1 wrapping on DDP Roadmap is pretty short right now: MoE prep (routing capacity factors and load balancing loss) Making dataset prep easier than streaming manually Check it out if you've been fighting with CUDA dependency hell: https://github.com/Syntropy-AI-Labs/picotron submitted by /u/Capital_Savings_9942 [link] [comments]",
-    "author": "/u/Capital_Savings_9942",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys,</p> <p>I was playing around with Nanotron recently and got super frustrated by how many heavy, hardware-specific dependencies it imports at the module level ( flash-attn , triton, functorch , etc.). If you try to run it on older or budget GPUs like a T4 or V100, it just crashes on import.</p> <p>So I wrote Picotron (<a href=\"https://github.com/Syntropy-AI-Labs/picotron\">https://github.com/Syntropy-AI-Labs/picotron</a>) to solve this. It's a clean-room rewrite that gets rid of all mandatory GPU-specific dependencies.</p> <p>It runs on pretty much any GPU that supports PyTorch (defaults to FP16 on older cards under compute capability 8.0, and BF16 on newer ones). It falls back to standard PyTorch SDPA by default, but still hooks into FlashAttention-2 at runtime if it detects you have it installed.</p> <p>I used an AI assistant to write a lot of the boilerplate/code modules, but I've got it working locally and just trained a tiny 2M model on</p> <p>FineWeb-Edu.</p> <p>Also added configs for:</p> <p>• GQA / MLA (Multi-head Latent Attention)</p> <p>• QK-Norm &amp; logit soft-capping (Gemma 2 style)</p> <p>• Parallel FFN/Attn runs</p> <p>• ZeRO-1 wrapping on DDP</p> <p>Roadmap is pretty short right now:</p> <ol> <li>MoE prep (routing capacity factors and load balancing loss)</li> <li>Making dataset prep easier than streaming manually</li> </ol> <p>Check it out if you've been fighting with CUDA dependency hell: <a href=\"https://github.com/Syntropy-AI-Labs/picotron\">https://github.com/Syntropy-AI-Labs/picotron</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Capital_Savings_9942\"> /u/Capital_Savings_9942 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uh7ib3/built_an_llm_training_framework_that_actually/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uh7ib3/built_an_llm_training_framework_that_actually/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "66aa12e0-f239-5f37-adfb-6ac2872b0b2a",
+    "title": "Is KV Cache in a high dimensional vector space? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/",
+    "pubDate": "2026-08-20T18:18:10+00:00",
+    "description": "I've been doing some research on this question: At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat list. It's a structured set of vectors with a navigable geometry, since the keys carry the model's learned sense of what relates to what. Because that geometry is navigable, attention over it is really a similarity search: the query scores against the stored keys and blends the matching values. Full attention just runs that search exhaustively, scanning everything on every step. Full attention effectively searches that geometry exhaustively. Every query scores broadly against the available keys and retrieves from the corresponding values. Once you stop treating the KV cache as a flat array and start treating it as a search space, indexing becomes possible. That means you can organize old KV into regions, route a query toward likely regions, and only run local attention over a subset. The interesting part is that relevance is not uniformly distributed. Queries tend to concentrate on relatively small neighborhoods of old context. So the engineering question becomes less “how do I store all of this?” and more “how do I navigate to the right part cheaply?” I'm new here and don't want to break rules around self promotion or span so not posting any links atm. Would be cool to get other peoples thoughts on this. submitted by /u/Electrical_Offer5667 [link] [comments]",
+    "author": "/u/Electrical_Offer5667",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been doing some research on this question:</p> <p>At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat list. It's a structured set of vectors with a navigable geometry, since the keys carry the model's learned sense of what relates to what.</p> <p>Because that geometry is navigable, attention over it is really a similarity search: the query scores against the stored keys and blends the matching values. Full attention just runs that search exhaustively, scanning everything on every step.</p> <ul> <li>Full attention effectively searches that geometry exhaustively. Every query scores broadly against the available keys and retrieves from the corresponding values.</li> <li>Once you stop treating the KV cache as a flat array and start treating it as a search space, indexing becomes possible.</li> <li>That means you can organize old KV into regions, route a query toward likely regions, and only run local attention over a subset.</li> <li>The interesting part is that relevance is not uniformly distributed. Queries tend to concentrate on relatively small neighborhoods of old context.</li> <li>So the engineering question becomes less “how do I store all of this?” and more “how do I navigate to the right part cheaply?”</li> </ul> <p>I'm new here and don't want to break rules around self promotion or span so not posting any links atm. Would be cool to get other peoples thoughts on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Offer5667\"> /u/Electrical_Offer5667 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "669da7dd-3027-5900-a50c-f2c0e73201c6",
     "title": "Mapping intrinsic rank and informational gravity in complex tabular data: I developed a non-parametric, model-agnostic, information-theoretic diagnostic to bypass the limits of linear, rank, and Euclidean baselines. [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vtjotb/mapping_intrinsic_rank_and_informational_gravity/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The date for NeurIPS 2026 author notifications is September 24th. First of all, is it normal for AC and reviewer discussion phases to be this long? This is particularly frustrating given that 5 out of the 6 reviewers in my two papers did not address the rebuttals.</p> <p>In any case, I was also wondering, given that ICLR's paper deadline is literally the day after (September 25th) whether you guys are preparing ICLR submissions for your papers in case of rejection.</p> <p>Cheers and good luck!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_Sarcastrophe_\"> /u/_Sarcastrophe_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b97971d8-c89e-55e0-b727-e996754cca46",
-    "title": "Do you actually finish setting up a new project? [N]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1voxx8t/do_you_actually_finish_setting_up_a_new_project_n/",
-    "pubDate": "2026-08-15T09:01:48+00:00",
-    "description": "I have a bad habit of getting a new project 90% of the way there and then losing interest. Dependencies work, GPU is detected, model downloads, everything finally runs. And then somehow the actual project gets abandoned. I'm starting to think getting things working is half the hobby for me. Does anyone else do this? submitted by /u/Crypton228 [link] [comments]",
-    "author": "/u/Crypton228",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a bad habit of getting a new project 90% of the way there and then losing interest.</p> <p>Dependencies work, GPU is detected, model downloads, everything finally runs.</p> <p>And then somehow the actual project gets abandoned.</p> <p>I'm starting to think getting things working is half the hobby for me.</p> <p>Does anyone else do this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Crypton228\"> /u/Crypton228 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voxx8t/do_you_actually_finish_setting_up_a_new_project_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voxx8t/do_you_actually_finish_setting_up_a_new_project_n/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

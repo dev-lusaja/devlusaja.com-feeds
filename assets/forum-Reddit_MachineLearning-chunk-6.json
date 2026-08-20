@@ -1,5 +1,21 @@
 [
   {
+    "id": "a83aabec-7f4f-593f-890a-1bc3600e78b3",
+    "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
+    "pubDate": "2026-07-28T14:52:01+00:00",
+    "description": "One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance in the checklist, it really annoys me personally - what is clearly Claude's writing style is very difficult to parse, and indicates a lack of effort to me. While I'm trying to remain objective and realize it's my role just to judge the actual content of the work, I don't feel incentivized to assign a lot of weight to an argument that is fully AI-generated and don't like the idea of engaging with slopped papers (and their \"authors\") at NeurIPS. This is a partially just a rant and partially asking for advice on how to proceed with my response to the rebuttals. submitted by /u/gateofptolemy [link] [comments]",
+    "author": "/u/gateofptolemy",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance in the checklist, it really annoys me personally - what is clearly Claude's writing style is very difficult to parse, and indicates a lack of effort to me. While I'm trying to remain objective and realize it's my role just to judge the actual content of the work, I don't feel incentivized to assign a lot of weight to an argument that is fully AI-generated and don't like the idea of engaging with slopped papers (and their &quot;authors&quot;) at NeurIPS. </p> <p>This is a partially just a rant and partially asking for advice on how to proceed with my response to the rebuttals. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gateofptolemy\"> /u/gateofptolemy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "a227e6b9-ff61-5de8-973e-23d45830a651",
     "title": "I built a deep learning library from scratch in C that lets you train language models [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Built an open-source AI coding agent that was 7%–75% cheaper than a cold &quot;claude -p&quot; run on 6/6 well-localized tasks across repositories up to ~82k LOC.</p> <p>The biggest difference:</p> <ul> <li>Cold agent: $6.83, 207 turns</li> <li>AutoDev Studio: ~$1.70 for the same bug</li> </ul> <p>The full benchmark (including cases where it loses) is in the README.</p> <p>So what's different?</p> <p>Most AI coding agents re-explore a repository from scratch on every task just to figure out where the change belongs.</p> <p>AutoDev Studio pays that localization cost once.</p> <p>It ingests a repository and builds a persistent knowledge base using static analysis and a local embedding index. Every future task reuses that knowledge, turning localization into a lookup instead of another cold search.</p> <p>What it does:</p> <ul> <li>PM agent asks clarifying questions and drafts tickets</li> <li>Dev agent writes code on an isolated branch</li> <li>QA runs tests</li> <li>A different model family reviews the diff (author ≠ reviewer)</li> <li>If needed, it goes through a bounded revise loop</li> <li>Opens a real GitHub PR</li> </ul> <p>It also includes a live Kanban board and tracks token usage and cost per ticket/agent.</p> <p>Where it doesn't win:</p> <ul> <li>Tiny, easy-to-find edits can be cheaper with a single-shot agent because of the pipeline overhead.</li> <li>On one complex cross-cutting bug, it produced a cheaper but narrower fix than the baseline.</li> </ul> <p>Other features:</p> <ul> <li>Provider agnostic (Anthropic, Claude Code, OpenAI-compatible APIs, Groq, Gemini, xAI, OpenRouter, Ollama, etc.)</li> <li>Runs completely free/offline by default using Groq's free tier + local embeddings</li> <li>FastAPI + SQLite</li> <li>Hand-rolled UI</li> <li>Tests + CI</li> <li>MIT licensed</li> </ul> <p>Repo (screenshots + full benchmark): <a href=\"https://github.com/krishagarwal314/autodev-studio\">https://github.com/krishagarwal314/autodev-studio</a></p> <p>I'd love any feedback, criticism, or contributions. Happy to answer questions about the architecture or benchmarking.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeighborhoodOwn8510\"> /u/NeighborhoodOwn8510 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1a09d252-de10-543d-af9c-b453da00e1a7",
-    "title": "NeurIPS Meta Review - whats going on? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v5586m/neurips_meta_review_whats_going_on_d/",
-    "pubDate": "2026-07-24T08:18:06+00:00",
-    "description": "Its been almost 24 hours since reviews were released and I dont see the meta review still. Some people on reddit are saying they can see it. NeurIPS website says they are-releasing reviews on 23 but even 23 July is ending in 4 hours. Whats going on bruh, none of my coauthors is an AC or didnt complete his review so its not like its being held from us submitted by /u/Specialist-Manager67 [link] [comments]",
-    "author": "/u/Specialist-Manager67",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Its been almost 24 hours since reviews were released and I dont see the meta review still. Some people on reddit are saying they can see it.</p> <p>NeurIPS website says they are-releasing reviews on 23 but even 23 July is ending in 4 hours. Whats going on bruh, none of my coauthors is an AC or didnt complete his review so its not like its being held from us</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist-Manager67\"> /u/Specialist-Manager67 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5586m/neurips_meta_review_whats_going_on_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5586m/neurips_meta_review_whats_going_on_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "b441dc04-eec9-509e-a211-a9ad3cf40b05",
+    "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
+    "link": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/",
+    "pubDate": "2026-07-23T16:07:03+00:00",
+    "description": "NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/walking-machine-game-rtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"walking-machine-game-rtx\" width=\"768\" />NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/walking-machine-game-rtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"walking-machine-game-rtx\" width=\"768\" /><p>NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways that are difficult to diagnose: an invalid API argument, a black frame, or a GPU-side bug buried under thousands of concurrent threads. Debugging facilities in the NVIDIA OptiX Toolkit (OTK) can help. OTK is a GitHub repository…</p>\n<p><a href=\"https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ee2667a2-113b-552f-98d9-78fdc6ccbe41",
     "title": "Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes",
     "link": "https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/networked-system-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"networked-system\" width=\"768\" />Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/networked-system-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"networked-system\" width=\"768\" /><p>Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context, determines the correct procedure, checks whether a specialist signal confirms the failure mode, and writes up a recommendation. This process remains consistent, and is well-suited for an AI agent. This post discusses a per-alarm…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-an-analysis-ai-agent-for-industrial-alarm-management-with-nvidia-nemotron/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e711ef81-55f5-56cb-bac5-1193e7b028a3",
-    "title": "Maximize Spectral Efficiency with AI-Native RAN and NVIDIA AI Aerial",
-    "link": "https://developer.nvidia.com/blog/maximize-spectral-efficiency-with-ai-native-ran-and-nvidia-ai-aerial/",
-    "pubDate": "2026-07-07T17:00:00+00:00",
-    "description": "Spectrum is one of the most valuable assets in wireless communications. Over the last 30 years, telecom operators in the US have spent more than $240B to...",
-    "author": "Michelle Horton",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"An image of a 6G network.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/telco-tech-blog-header-ai-native-ran-blog-3840x2160-5427300-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"telco-tech-blog-header-ai-native-ran-blog-3840x2160-5427300\" width=\"768\" />Spectrum is one of the most valuable assets in wireless communications. Over the last 30 years, telecom operators in the US have spent more than $240B to...<img alt=\"An image of a 6G network.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/telco-tech-blog-header-ai-native-ran-blog-3840x2160-5427300-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"telco-tech-blog-header-ai-native-ran-blog-3840x2160-5427300\" width=\"768\" /><p>Spectrum is one of the most valuable assets in wireless communications. Over the last 30 years, telecom operators in the US have spent more than $240B to acquire wireless spectrum. A goal of a radio access network (RAN) system is to extract the maximum spectral efficiency (bits/second/Hertz) possible, which translates into more capacity, stronger network resilience with fewer dropped packets…</p>\n<p><a href=\"https://developer.nvidia.com/blog/maximize-spectral-efficiency-with-ai-native-ran-and-nvidia-ai-aerial/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
