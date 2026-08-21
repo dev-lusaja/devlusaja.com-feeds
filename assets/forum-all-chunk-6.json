@@ -1,5 +1,21 @@
 [
   {
+    "id": "c40b2093-2d7d-5c77-a904-31a7cdfbadc2",
+    "title": "Should I start learning AI/ML (currently third year 2nd sem stud) because i do have genuine interest in this domain but I keep watching these reels that Ai bubble burst is about to burst and all, will it affect the job market for this domain as well? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vbwp9m/should_i_start_learning_aiml_currently_third_year/",
+    "pubDate": "2026-07-31T17:00:43+00:00",
+    "description": "i just dont want to be jobless after my graduation submitted by /u/Beach_lasagna69420 [link] [comments]",
+    "author": "/u/Beach_lasagna69420",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>i just dont want to be jobless after my graduation</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Beach_lasagna69420\"> /u/Beach_lasagna69420 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbwp9m/should_i_start_learning_aiml_currently_third_year/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbwp9m/should_i_start_learning_aiml_currently_third_year/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ec9a7dd9-e4ca-5f97-acc1-7daf27e6bbfe",
     "title": "Learning path to fully understand the Kimi K3 technical report?[D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vbvlft/learning_path_to_fully_understand_the_kimi_k3/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance in the checklist, it really annoys me personally - what is clearly Claude's writing style is very difficult to parse, and indicates a lack of effort to me. While I'm trying to remain objective and realize it's my role just to judge the actual content of the work, I don't feel incentivized to assign a lot of weight to an argument that is fully AI-generated and don't like the idea of engaging with slopped papers (and their &quot;authors&quot;) at NeurIPS. </p> <p>This is a partially just a rant and partially asking for advice on how to proceed with my response to the rebuttals. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gateofptolemy\"> /u/gateofptolemy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a227e6b9-ff61-5de8-973e-23d45830a651",
-    "title": "I built a deep learning library from scratch in C that lets you train language models [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/",
-    "pubDate": "2026-07-28T14:42:07+00:00",
-    "description": "my goal was to train a Language model (SLM) entirely from scratch so no ML libraries allowed . so i gathered what's needed to make it happen : from tensor manipulation (views, operations , allocations) the autograd ( a DAG that retains the previous operations and inputs in order that led into a certain output tensor , this let's us also apply backpropagation so i've got to implement also the partial derivative functions in order to calculate the gradients for each weights) the neural networks modules (organizes the weights / activations , losses , optimizers implemented SGD and Adamw) the decoder so the layer norm , MHA , FFN . also implemented a Fast matmul using AVX2 to speed things up. with it i managed to train a tiny LM with 2 millions params.it's a 4 layer Decoder used tiny_shakespear i got what i think is a good result . since i can't post images in this post i will just paste the output: Corpus: 743500 bytes (669150 train, 74350 validation) TinyLM: L=4 C=192 H=6 T=128 V=256, 1902976 parameters (1.903M) Training: steps=0 batch=1 lr=0.0003 checkpoint=tiny_lm.chk (resumed) validation_loss=0.02989 --- generation --- hello to the name of action. Soft you now! The fair Ophelia! Nymph, in thy orisons be all my sins remember'd. To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of of outrageous fortune, or to take arms against a sea of troubles and by opposing end them. check out the repo : https://github.com/nisbenz/TensorLib it was a cool project overall and i managed to learn a lot about the core mechanics of frameworks like pytorch or ggml. submitted by /u/Intelligent_Nose_791 [link] [comments]",
-    "author": "/u/Intelligent_Nose_791",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>my goal was to train a Language model (SLM) entirely from scratch so no ML libraries allowed . so i gathered what's needed to make it happen : </p> <p>from tensor manipulation (views, operations , allocations) </p> <p>the autograd ( a DAG that retains the previous operations and inputs in order that led into a certain output tensor , this let's us also apply backpropagation so i've got to implement also the partial derivative functions in order to calculate the gradients for each weights) </p> <p>the neural networks modules (organizes the weights / activations , losses , optimizers implemented SGD and Adamw) </p> <p>the decoder so the layer norm , MHA , FFN .<br /> also implemented a Fast matmul using AVX2 to speed things up. </p> <p>with it i managed to train a tiny LM with 2 millions params.it's a 4 layer Decoder used tiny_shakespear i got what i think is a good result .<br /> since i can't post images in this post i will just paste the output: </p> <p>Corpus: 743500 bytes (669150 train, 74350 validation)</p> <p>TinyLM: L=4 C=192 H=6 T=128 V=256, 1902976 parameters (1.903M)</p> <p>Training: steps=0 batch=1 lr=0.0003 checkpoint=tiny_lm.chk (resumed)</p> <p>validation_loss=0.02989</p> <p>--- generation ---</p> <p>hello to the name of action. Soft you now! The fair Ophelia! Nymph, in thy orisons be all my sins remember'd. To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of of outrageous fortune, or to take arms against a sea of troubles and by opposing end them.</p> <p>check out the repo : <a href=\"https://github.com/nisbenz/TensorLib\">https://github.com/nisbenz/TensorLib</a><br /> it was a cool project overall and i managed to learn a lot about the core mechanics of frameworks like pytorch or ggml.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Intelligent_Nose_791\"> /u/Intelligent_Nose_791 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90hlt/i_built_a_deep_learning_library_from_scratch_in_c/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
