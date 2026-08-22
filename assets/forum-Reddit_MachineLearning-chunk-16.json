@@ -1,5 +1,37 @@
 [
   {
+    "id": "d315c673-69f7-5188-b50d-046b9107f2a7",
+    "title": "Are model security risks (extraction, poisoning) actually being tested in production? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/",
+    "pubDate": "2026-06-23T10:52:58+00:00",
+    "description": "Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job? submitted by /u/Xorphian [link] [comments]",
+    "author": "/u/Xorphian",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Xorphian\"> /u/Xorphian </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "d3c3530f-acd6-546a-adf4-348bee81e069",
+    "title": "Found a potential mistake in an ICLR 2026 blogpost [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/",
+    "pubDate": "2026-06-23T06:39:57+00:00",
+    "description": "I think I found a mistake in an ICLR 2026 blog post. I created an issue and have been trying to contact the author and organizers, but I haven't received a response after several weeks. Could anyone please take a look and let me know your thoughts? (I'm just curious and would like to know if my understanding is correct.) https://github.com/iclr-blogposts/2026/issues/218 submitted by /u/metalwhaledev [link] [comments]",
+    "author": "/u/metalwhaledev",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I think I found a mistake in an ICLR 2026 blog post. I created an issue and have been trying to contact the author and organizers, but I haven't received a response after several weeks. Could anyone please take a look and let me know your thoughts? (I'm just curious and would like to know if my understanding is correct.)</p> <p><a href=\"https://github.com/iclr-blogposts/2026/issues/218\">https://github.com/iclr-blogposts/2026/issues/218</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/metalwhaledev\"> /u/metalwhaledev </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f9b334b7-34a5-58ee-a90a-83cd432216ae",
     "title": "Just landed a Computer Vision internship, here's the preparation list I used [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/",
@@ -108,22 +140,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Anyone building at the model layer knows the procurement problem hasn't gone away. H100s are still allocated unevenly, spot instances get preempted at the worst times, and pricing across providers is deliberately hard to compare. Most teams end up over-provisioning just to feel safe.</p> <p>The traditional fixes — reserved instances, spot bidding, broker marketplaces like CoreWeave or <a href=\"http://Vast.ai\">Vast.ai</a> — all have the same problem: no real price transparency and no way to hedge future compute needs.</p> <p>I came across a project called <strong>Inferra</strong> that's approaching this differently. Instead of another compute marketplace, they're building a derivatives exchange for GPU compute — perpetual futures for specific chips (H100, H200, A100, MI300X, B200, A5000), oracle-priced and on-chain. The idea being that a proper futures market creates price discovery that doesn't currently exist.</p> <p>Still pre-mainnet so nothing to benchmark yet. Whitepaper is at <a href=\"http://inferra.trade\">inferra.trade</a> for anyone curious about the architecture.</p> <p>Genuinely interested in the broader question though: is the GPU access problem fundamentally a supply issue, a pricing transparency issue, or a market structure issue? And would futures markets even help at the scale most research teams operate at?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amu4biz\"> /u/amu4biz </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucjd35/gpu_access_in_2026_is_still_fragmented_is_there_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucjd35/gpu_access_in_2026_is_still_fragmented_is_there_a/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9b43b2f0-a3e4-5a8a-baad-c28c8911f1a0",
-    "title": "[ECCV 2026] Paper Decision Appeals Discussion [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/",
-    "pubDate": "2026-06-21T20:39:17+00:00",
-    "description": "With the release of meta-reviews, ECCV sent out a google form for dissatisfied authors to submit an appeal for the following reasons: Policy errors, e.g., reviewers or Area Chairs applied a policy that does not exist, or reviewers or Area Chairs applied policies that are not applicable for the contribution type of the paper; Clerical errors, e.g., it is clear from the meta-review that an Area Chair intended to accept a paper but the paper was rejected; and Obvious and major misunderstandings on the side of the reviewers or Area Chairs (historically, these are extremely rare). Is anyone considering submitting an appeal? I was rejected with 6/4/3 final scores on criteria that policy and AC / Reviewer guidelines explicitly state my contribution type should not be penalized for. Also, according to their policies, if they were to use the criteria in their decision, they have to explicitly disagree with the declared contribution type and state so in the meta review (all three reviewers agreed with the declared contribution type and the AC does not mention changing the paper's type.) submitted by /u/Muted-Ad4511 [link] [comments]",
-    "author": "/u/Muted-Ad4511",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>With the release of meta-reviews, ECCV sent out a google form for dissatisfied authors to submit an appeal for the following reasons:</p> <ol> <li>Policy errors, e.g., reviewers or Area Chairs applied a policy that does not exist, or reviewers or Area Chairs applied policies that are not applicable for the contribution type of the paper; </li> <li>Clerical errors, e.g., it is clear from the meta-review that an Area Chair intended to accept a paper but the paper was rejected; and</li> <li>Obvious and major misunderstandings on the side of the reviewers or Area Chairs (historically, these are extremely rare).</li> </ol> <p>Is anyone considering submitting an appeal? I was rejected with 6/4/3 final scores on criteria that policy and <a href=\"https://eccv.ecva.net/Conferences/2026/ACGuidance\">AC</a>/<a href=\"https://eccv.ecva.net/Conferences/2026/ReviewerContributionTypes\">Reviewer</a> guidelines explicitly state my <a href=\"https://eccv.ecva.net/Conferences/2026/AuthorContributionTypes\">contribution type</a> should not be penalized for. Also, according to their policies, if they were to use the criteria in their decision, they have to explicitly disagree with the declared contribution type and state so in the meta review (all three reviewers agreed with the declared contribution type and the AC does not mention changing the paper's type.)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Muted-Ad4511\"> /u/Muted-Ad4511 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
