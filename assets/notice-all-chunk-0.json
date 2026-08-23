@@ -1,5 +1,37 @@
 [
   {
+    "id": "21d98db5-ad14-53f8-9077-d159932eeee3",
+    "title": "El profesorado se las prometía muy felices con la marca de agua de Anthropic. En un día ya la habían hackeado (y no hacía falta)",
+    "link": "https://www.xataka.com/robotica-e-ia/profesorado-se-prometia-muy-felices-marca-agua-anthropic-dia-habian-hackeado-no-falta",
+    "pubDate": "2026-08-23T08:01:33+00:00",
+    "description": "La semana pasada, Anthropic anunciaba la llegada de su marca de agua para los textos generados con Claude, con el fin de cumplir así con la legislación europea . Tras el revuelo causado y las amenazas de bajas en la suscripción , explicó detalladamente cómo funcionaba . Spoiler: no deja nada claro quién ha hecho el texto ni el grado de uso de la IA. Los textos generados con IA están a la orden del día, pero hay un escenario donde son especialmente preocupantes para quien recurre a ellos: la educación. Puedes aprobar el trabajo, pero el aprendizaje pasa factura. Y ahí el profesorado se enfrenta a un reto mayúsculo: los detectores de IA fallan más que una escopeta de feria , y el problema es tan grande que en China hasta optaron por \"apagar\" los modelos en selectividad . En ese escenario, sin una forma fiable de saber qué ha escrito realmente el alumnado, la marca de agua de Anthropic suena a maná caído del cielo. Sobre el papel. (Casi) todos los estudiantes usan IA . Una encuesta reciente en el Reino Unido arrojaba una conclusión abrumadora: el 95% de los estudiantes de grado usa IA y un 94% la usa específicamente para sus evaluaciones. En Australia, la empresa de software Turnitin elaboró un informe el pasado mes de julio en el que revelaba que más del 53% de los trabajos presentados en la universidad habían utilizado algún tipo de IA. En pocas palabras: la usa (casi) todo el mundo. La última esperanza del sector educativo . Tú le pides el texto a Claude, este te lo genera y alegremente lo copias en Word y le cambias cuatro palabras confiando en que no se note. Pues no: sigue ahí. El marcado oculto de la IA de Anthropic no añade caracteres, ni tokens ni contenido extra: lo que hace es sesgar la elección de ciertas palabras dentro de las que ya encajarían en el texto, generando un patrón estadístico detectable a partir de cierta cantidad de texto y que solo puede leerse si se dispone de la clave criptográfica. Sobre el papel, suena a música celestial para el sector educativo que busca detectar las trampas: si el marcado de Claude fuera fiable, podría convertirse en una alternativa mejor a los detectores estadísticos tradicionales. Va a ser que no . Para empezar, porque esa marca de agua de Claude no es capaz de afirmar si un texto fue escrito por un humano: solo habla de probabilidad y no discierne entre haberlo escrito por completo o simplemente haberle pedido que corrija el estilo y la ortografía. Además, en textos cortos o código tiene poco margen para introducir ese sesgo en la elección de palabras. Y ni siquiera es infalible: que un texto no lleve la marca de agua no implica necesariamente que lo haya escrito un humano. Por otro lado, Anthropic ha explicado cómo funciona su marca de agua, pero, a diferencia de Google (que tiene su web de verificación ), carece de un detector propio. Es decir, en la práctica, actualmente ningún tercero puede comprobar si un texto tiene esa marca de agua. En Xataka Un profesor sospechaba que sus alumnos habían hecho trampas con IA. Hizo el examen en persona y las notas bajaron a la mitad Ya hay hack . Pero es que es peor aún: apenas 24 horas después del anuncio de Anthropic, ya había en GitHub una herramienta que prometía eliminar las marcas de agua de Claude, ChatGPT y Gemini. A los pocos días, ya había un buen surtido de herramientas para todos los gustos, como se hace eco Forbes . Qué le queda al profesorado. El resumen es claro: ni el profesorado ni las instituciones pueden confiar en esas marcas de agua para evitar las trampas. Más allá de esa falsa sensación de seguridad, volvemos a la casilla de salida. La solución pasa más bien por un cambio de paradigma: dejar atrás el enfoque de integridad académica basado en la detección o darle una vuelta al sistema de evaluación. Jason Lodge, experto en psicología educativa de la Universidad de Queensland, aconseja dejar de buscar pruebas de que los estudiantes utilizan estas herramientas para hacer trampa y, en sus palabras, \"centrar la atención en buscar pruebas de que se ha producido un aprendizaje\". En Xataka | Alguien decidió seguir un envío de libros con un AirTag. El viaje terminó en una nave de Amazon dedicada a alimentar su IA En Xataka | Los libros escritos con IA están inundando Amazon. Y eso está teniendo consecuencias para los escritores que no la usan Portada | Xataka con Nano Banana",
+    "author": "Eva R. de Luis",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/d1af31/chatgpt-image-20-ago-2026-12_15_46/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "c46838fe-d4ae-5be0-a221-00ceb032aa7f",
+    "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+    "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+    "pubDate": "2026-08-22T21:46:56+00:00",
+    "description": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+    "author": "Anthony Ha",
+    "sourceTitle": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "sourceCategory": "TechCrunch_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "00227184-f2e9-596c-b7e9-aa77b37fda69",
     "title": "¿Utilizas chatbots con frecuencia? Aquí hay cuatro formas en que puedes reducir el consumo energético al usarlos",
     "link": "https://es.wired.com/articulos/utilizas-chatbots-con-frecuencia-aqui-hay-cuatro-formas-en-que-puedes-reducir-el-consumo-energetico-al-usarlos",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://i.blogs.es/cb1744/trampas-ia-ciberseguridad/1024_2000.jpeg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d3f851e6-0f26-5d90-ab53-a68805a6a137",
-    "title": "5 Real-World Use Cases for AI Agents Transforming Industries",
-    "link": "https://www.kdnuggets.com/5-real-world-use-cases-for-ai-agents-transforming-industries",
-    "pubDate": "2026-08-21T12:00:41+00:00",
-    "description": "See how AI agents are autonomously handling support, coding, supply chains, healthcare, and fraud detection today.",
-    "author": "Vinod Chugani",
-    "sourceTitle": "KDnuggets",
-    "sourceUrl": "https://www.kdnuggets.com/feed",
-    "sourceCategory": "KDnuggets",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-5-real-world-use-cases-ai-agents-transforming-industries-feature.png",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ed4f94b8-8cb2-5034-b727-8f0e01bbce53",
-    "title": "How Benders Decomposition Works, Part II: Feasibility Cuts",
-    "link": "https://towardsdatascience.com/how-benders-decomposition-works-part-ii-feasibility-cuts/",
-    "pubDate": "2026-08-21T12:00:00+00:00",
-    "description": "Learning about Farkas' lemma and how it can inform Benders decomposition to learn from infeasibility, applied to the capacitated facility location problem. The post How Benders Decomposition Works, Part II: Feasibility Cuts appeared first on Towards Data Science .",
-    "author": "Luis Fernando Pérez Armas",
-    "sourceTitle": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/feed/",
-    "sourceCategory": "Towards",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
     "isShortVideo": 0
   }
 ]
