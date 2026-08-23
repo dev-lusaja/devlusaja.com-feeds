@@ -286,37 +286,5 @@
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" />An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" /><p>An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird’s-eye-view (BEV) perception. BEV models project multicamera image features into a shared top-down grid, providing downstream perception and planning modules with a common spatial layout for reasoning about lanes, vehicles, pedestrians, and free space. A key operation in this pipeline…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
-  },
-  {
-    "id": "85838e17-99d4-50ec-8819-fa91acb68ad0",
-    "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
-    "link": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
-    "pubDate": "2026-06-23T16:30:00+00:00",
-    "description": "Power can account for 40% of the operating expenses (OpEx) to run an AI factory. Each watt can be spent on overhead, data ingestion, training, or generating...",
-    "author": "Sachin Idgunji",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-factory-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-factory\" width=\"768\" />Power can account for 40% of the operating expenses (OpEx) to run an AI factory. Each watt can be spent on overhead, data ingestion, training, or generating...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-factory-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-factory\" width=\"768\" /><p>Power can account for 40% of the operating expenses (OpEx) to run an AI factory. Each watt can be spent on overhead, data ingestion, training, or generating tokens for customers. And most sites are capped at a fixed power level provided by a regional provider. Under these conditions, performance per watt becomes a key efficiency metric that directly translates to token costs.</p>\n<p><a href=\"https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7ad45671-d1de-5136-a500-c91557b3907c",
-    "title": "Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding",
-    "link": "https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/",
-    "pubDate": "2026-06-23T15:00:00+00:00",
-    "description": "As AI systems move from single-turn interactions to coordinated multiagent workflows, low-latency inference becomes increasingly important. Autoregressive LLMs...",
-    "author": "Amr Elmeleegy",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/cuda-python-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cuda-python\" width=\"768\" />As AI systems move from single-turn interactions to coordinated multiagent workflows, low-latency inference becomes increasingly important. Autoregressive LLMs...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/cuda-python-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cuda-python\" width=\"768\" /><p>As AI systems move from single-turn interactions to coordinated multiagent workflows, low-latency inference becomes increasingly important. Autoregressive LLMs generate tokens sequentially, which can limit GPU utilization and constrain throughput in latency-sensitive serving scenarios. Speculative decoding helps mitigate this bottleneck by using a lightweight model to draft future tokens…</p>\n<p><a href=\"https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
   }
 ]
