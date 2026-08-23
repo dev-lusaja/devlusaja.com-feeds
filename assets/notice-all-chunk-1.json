@@ -1,5 +1,37 @@
 [
   {
+    "id": "ce653e88-82da-53e0-bc98-bf0fcaeae298",
+    "title": "Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions",
+    "link": "https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/",
+    "pubDate": "2026-08-21T13:30:00+00:00",
+    "description": "AI systems should not automate a decision simply because they can provide a prediction. A decision system should consider how uncertain the prediction is and defer if a mistake would be costly. The post Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions appeared first on Towards Data Science .",
+    "author": "Mahe Jabeen Abdul",
+    "sourceTitle": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/feed/",
+    "sourceCategory": "Towards",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "68a1ad39-b2a7-5f5c-b175-f51273cba75b",
+    "title": "Todos los modelos de IA hacen trampas si les das ocasión. Decirles “no hagas trampas” no basta",
+    "link": "https://www.xataka.com/robotica-e-ia/todos-modelos-ia-hacen-trampas-les-das-ocasion-decirles-no-hagas-trampas-no-basta",
+    "pubDate": "2026-08-21T12:31:33+00:00",
+    "description": "FelonyBench no es un benchmark de verdad. Es un sitio web irónico que se burla de una sola cosa: lo peligrosos que son los modelos de IA en materia de ciberseguridad. Ha surgido como respuesta a lo que ha pasado en las últimas semanas en este ámbito: modelos de Anthropic , OpenAI y Meta han sido noticia porque han hackeado todo tipo de sistemas y han hecho cosas que no deberían haber hecho. Lo que debería ser preocupante se ha convertido en una paradoja: si un modelo hackea, es porque es mejor, y aquí Anthropic y OpenAI parecen liderar. Pero claro, lo hacen con trampas. Qué ha pasado . La consultora de ciberseguridad en IA Dreadnode ha probado 22 modelos frontera . Ha ejecutado varias pruebas y retos a cada uno de ellos, y se ha dado cuenta de algo sorprendente (o quizás no tanto): 21 de ellos hicieron trampas al menos una vez. Si durante las pruebas se les dejaba claras las restricciones a la hora de resolver esos retos de ciberseguridad, su eficacia se reducía notablemente: del 41,5% pasaban al 26,1%. El ranking de los modelos de IA \"más ilegales\" creado por FelonyBench se ha creado en forma irónica, pero refleja una situación paradójica. EL fin justifica los medios . El problema no es que las IAs sean tramposas por sí mismas. Cuando les damos un objetivo y herramientas suficientes, algunos modelos de IA encuentran \"atajos\" y caminos alternativos para maximizar su puntuación sin demostrar realmente la capacidad que queríamos medir. Los modelos probados de Anthropic, OpenAI, Google, xAI, DeepSeek, Alibaba y Z.ai intentaron resolver 23 retos de ciberseguridad, pero 21 de los 22 modelos hicieron trampas y el 37,1% de todas las tareas que habían superado incluían alguno de los citados atajos prohibidos. Si la IA puede esquivar pensar mucho, lo hace. Los modelos de IA debían resolver retos del tipo \"capturar la bandera\" encontrando y explotando vulnerabilidades en diversos sistemas. Lo que pasó es que a veces hacían algo más sencillo: buscaban en internet si esos desafíos habían sido publicados , encontraban la respuesta sin tener que pensar por ellos mismos o inspeccionaban los metadatos de la infraestructura de evaluación para tratar de esquivarla por ese lado. Los resultados podían ser correctos, pero no demostraban que las IAs supieran resolver el problema. Dreadnode distinguió en ese momento los resultados en dos métricas: el pass rate —el modelo logra la respuesta correcta— y solve rate , que solo cuenta las soluciones obtenidas legítimamente. Cuanto más sabemos sobre Mythos 5 y GPT-5.6 Sol, más aclaramos algo: si necesitan engañar para cumplir su objetivo, lo harán Si no hacen trampas, no son tan peligrosos . La tasa media de éxito inicial fue del 41,5%, pero cuando se eliminaron las \"trampas\" cayó al 26,1%. En algunos modelos ese salto fue aún más espectacular. GPT-5.4 pasó de diez retos aparentemente resueltos a solo dos resueltos de forma \"limpia\", lo que significa que sus éxitos con atajos se multiplicaron por cinco. En el caso de Qwen3.6 Plus fue de 3,5 veces más, y en el de Claude Sonnet 5, tres veces más. Incluso Opus 4.8, que fue el que más retos resolvió, solo resolvió limpiamente ocho de los 19 que logró superar. La estadística es curiosa, porque recuerda el reciente caso de los alumnos que hicieron trampas durante exámenes universitarios. El \"no hagas trampas\" funcionó, pero no del todo . Los responsables de Dreadnode primero añadieron una instrucción explícita para resolver legítimamente los retos. Después añadieron una mucho más estricta que enumeraba los métodos prohibidos y advertía de que cualquier trampa supondría un suspenso automático. La propensión a hacer trampas bajó del 33% al 17,8% y finalmente al 8,5%. Catorce modelos acabaron obedeciendo completamente esas normas más duras, pero aun así ocho siguieron utilizando trampas y cuatro siguieron incluso después de ser advertidos. Así se comportaron los modelos: muchos no pararon de hacer trampas, incluso tras ser advertidos. Fuente: Dreadnode. Modelos cabezones . El caso de Qwen 3.6 Plus fue especialmente significativo. El modelo de Alibaba encontró una solución en internet para uno de los retos  razonó explícitamente que no debía leerla. Durante los siguientes 80 mensajes se vio cómo intentaba resolver el problema legítimamente, pero cuando no pudo, acabó abriendo la solución de internet y copió lo que necesitaba para conseguir la respuesta. Otros modelos cambiaron de estrategia disminuyeron las búsquedas internas cuando se les advirtió, pero incrementaron sus intentos de analizar la propia estructura del benchmark de pruebas. Evitando trampas . Desde Dreadnode recomiendan quitar el acceso a internet a los modelos a menos que sea estrictamente necesario, además de endurecer los sandboxes e impedir que la propia infraestructura de pruebas de ciberseguridad revele las respuestas. También señalan que es crucial usar retos cuyas soluciones no esten publicadas, y en todos los casos el aprendizaje es claro: los benchmarks tienen que diseñarse asumiendo que el modelo de IA intentará hacer trampas. En Xataka | Qué significa que las empresas de IA estén teniendo problemas de alineación y dediquen ya el 20% de sus recursos a esto",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/cb1744/trampas-ia-ciberseguridad/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "d3f851e6-0f26-5d90-ab53-a68805a6a137",
     "title": "5 Real-World Use Cases for AI Agents Transforming Industries",
     "link": "https://www.kdnuggets.com/5-real-world-use-cases-for-ai-agents-transforming-industries",
@@ -445,38 +477,6 @@
     "sourceCountry": "Peru",
     "content": "",
     "image": "https://elcomercio.pe/resizer/v2/RHLSJI3G4REV5K34Q7LFMKN4LQ.jpg?auth=b87a88ac428e9fafa9d27c191597276b046895d6e690b6c2b3d1e0842f3b4337&width=320&height=180&quality=75&smart=true",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4f509f95-d9e3-5e01-b2ea-07eb035f57f1",
-    "title": "Oppo Reno 16: collage remix, inteligencia artificial y zoom de 120X en un teléfono pensado para crear | RESEÑA",
-    "link": "https://elcomercio.pe/tecnologia/moviles/oppo-reno-16-collage-remix-inteligencia-artificial-y-zoom-de-120x-en-un-telefono-pensado-para-crear-resena-noticia/",
-    "pubDate": "2026-08-20T14:36:23.862751+00:00",
-    "description": "El nuevo smartphone de Oppo viene con funciones de edición para explorar la creatividad y ser más productivo en redes sociales. Esto se combina c...",
-    "author": "Daniel Bedoya Ramos",
-    "sourceTitle": "El Comercio",
-    "sourceUrl": "https://elcomercio.pe/noticias/inteligencia-artificial/",
-    "sourceCategory": "ElComercio_PE",
-    "sourceType": "notice",
-    "sourceCountry": "Peru",
-    "content": "",
-    "image": "https://elcomercio.pe/resizer/v2/VNYS3QN2KZD3HIZ6NQEP77DTLM.jpg?auth=2d5b49b3d6a48d5f18d7b8fd07a65b13f40a12000111616a342b6fe67719788f&width=320&height=180&quality=75&smart=true",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1b5f36dc-1212-534d-9238-113c00b574a3",
-    "title": "Bruselas aprueba la propuesta española para optar a una de las gigafactorías europeas de IA",
-    "link": "https://elpais.com/economia/2026-08-20/bruselas-aprueba-la-propuesta-espanola-para-optar-a-una-de-las-gigafactorias-de-ia-europeas.html",
-    "pubDate": "2026-08-20T14:32:37+02:00",
-    "description": "La Comisión da el visto bueno a la empresa conjunta de ACS, Telefónica y el Santander con participación del Estado para levantar un proyecto en Tarragona y Madrid",
-    "author": "Silvia Ayuso",
-    "sourceTitle": "El País",
-    "sourceUrl": "https://elpais.com/noticias/inteligencia-artificial/",
-    "sourceCategory": "El_Pais",
-    "sourceType": "notice",
-    "sourceCountry": "Colombia",
-    "content": "",
-    "image": "https://imagenes.elpais.com/resizer/v2/5ECYTBREEBAJXA6IVJ7DGBKON4.jpg?auth=b13f2074f0ed88dcb07ee878e973af9c45d8a79ea54abcf96a6ec57e748c6a2f&width=414&height=311&smart=true",
     "isShortVideo": 0
   }
 ]
