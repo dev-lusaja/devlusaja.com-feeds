@@ -1,5 +1,37 @@
 [
   {
+    "id": "e59927d0-656f-5e99-a18e-68265dc3709f",
+    "title": "GLM 5.3 Released",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/",
+    "pubDate": "2026-08-14T05:23:43+00:00",
+    "description": "Official Announcement https://z.ai/blog/glm-5.3 submitted by /u/jmorant555 [link] [comments]",
+    "author": "/u/jmorant555",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/\"> <img alt=\"GLM 5.3 Released\" src=\"https://preview.redd.it/eixnxdnvz9jh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2247868071d2d80c73f9ce9e95b5c3085bb85fa3\" title=\"GLM 5.3 Released\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Official Announcement </p> <p><a href=\"https://z.ai/blog/glm-5.3\">https://z.ai/blog/glm-5.3</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jmorant555\"> /u/jmorant555 </a> <br /> <span><a href=\"https://i.redd.it/eixnxdnvz9jh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/eixnxdnvz9jh1.png?width=640&crop=smart&auto=webp&s=2247868071d2d80c73f9ce9e95b5c3085bb85fa3",
+    "isShortVideo": 0
+  },
+  {
+    "id": "1b71ba7c-c91b-5daf-84c9-ea22aeac4e04",
+    "title": "TMLR Relevance and Prestige [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vnqk4k/tmlr_relevance_and_prestige_d/",
+    "pubDate": "2026-08-13T23:16:16+00:00",
+    "description": "I recently had a paper accepted to TMLR and was wondering how prestigious it is, in comparison to A* conferences (ie. NeurIPS, ICLR, ICML), but also vs journals like JMLR. submitted by /u/Awesome_Nerd10 [link] [comments]",
+    "author": "/u/Awesome_Nerd10",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently had a paper accepted to TMLR and was wondering how prestigious it is, in comparison to A* conferences (ie. NeurIPS, ICLR, ICML), but also vs journals like JMLR. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Awesome_Nerd10\"> /u/Awesome_Nerd10 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vnqk4k/tmlr_relevance_and_prestige_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vnqk4k/tmlr_relevance_and_prestige_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8df14c6c-d1ed-5f8e-bb35-21201bd65713",
     "title": "Reproducible canvas-aligned low-level patterns in somerandomllm-generated images and their possible relation to iterative editing artifacts [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vnq08v/reproducible_canvasaligned_lowlevel_patterns_in/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been experimenting with trying to make a &quot;good&quot; MNIST model by using just 10 images (1/class) and also keeping the model really small (under 1K parameters), overall this specific model achieves a validation accuracy of 62.46%.</p> <p>How it works is that the vision pipeline is entirely fixed, and then with deterministic compression it gets brought down to 81D. Then comes the trainable part, a single 81 - 12 linear layer. This 12D space then gets used for cosine-similarity prototype matching. Then the training itself uses 200 augmented queries per class per episode against the 10 unmodified support images.</p> <p>The training was carried out on a single core of the Dimensity 9300+ chipset (1 Cortex-X4 core), at about 0.5 seconds/epoch or a total time of around 90 seconds for the 172 epochs used.</p> <p>If there are any questions, suggestions or just feedback in general (negative or positive) I'd appreciate it!</p> <p>Edit; The training code used is available here: <a href=\"https://github.com/ThatHungarian/TinyMNIST/\">https://github.com/ThatHungarian/TinyMNIST/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tall_Abrocoma_3533\"> /u/Tall_Abrocoma_3533 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjyf8m/i_trained_a_oneshot_prototypical_network_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjyf8m/i_trained_a_oneshot_prototypical_network_with/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "763d1a36-c1ed-5f0a-83ce-3d3f7355c472",
-    "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles) [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
-    "pubDate": "2026-08-09T17:36:22+00:00",
-    "description": "submitted by /u/katxwoods [link] [comments]",
-    "author": "/u/katxwoods",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/katxwoods\"> /u/katxwoods </a> <br /> <span><a href=\"https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8cc18d43-9f7d-582e-a708-4478ed59b887",
-    "title": "I never understood positional encoding until I read this article. [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vju3ym/i_never_understood_positional_encoding_until_i/",
-    "pubDate": "2026-08-09T16:22:07+00:00",
-    "description": "submitted by /u/ImaginaryRea1ity [link] [comments]",
-    "author": "/u/ImaginaryRea1ity",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vju3ym/i_never_understood_positional_encoding_until_i/\"> <img alt=\"I never understood positional encoding until I read this article. [D]\" src=\"https://external-preview.redd.it/8VRAO7Ucarn-CBc4IsyH3p3Lg1nOM6BC8ccLAEFnSlc.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8584413aed8556960dd7528b26ce8adaaa9f97b0\" title=\"I never understood positional encoding until I read this article. [D]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ImaginaryRea1ity\"> /u/ImaginaryRea1ity </a> <br /> <span><a href=\"https://defenceagainstdarkai.substack.com/p/who-bit-whom\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vju3ym/i_never_understood_positional_encoding_until_i/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/8VRAO7Ucarn-CBc4IsyH3p3Lg1nOM6BC8ccLAEFnSlc.jpeg?width=640&crop=smart&auto=webp&s=8584413aed8556960dd7528b26ce8adaaa9f97b0",
     "isShortVideo": 0
   }
 ]

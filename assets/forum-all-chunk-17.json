@@ -1,5 +1,37 @@
 [
   {
+    "id": "adeef040-f488-5f0f-aa61-2589a33ba2ea",
+    "title": "A debugger for RL reward functions that detects reward hacking during training [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
+    "pubDate": "2026-06-26T15:34:28+00:00",
+    "description": "While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy is genuinely improving or simply exploiting the reward function. So I built a small library called rewardspy that wraps an existing reward function and continuously monitors indicators that often precede reward hacking. It currently tracks things like rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, GRPO group collapse, anol. This is my first major RL project so I would absolutely love some technical advice Check it out here: https://github.com/AvAdiii/rewardspy submitted by /u/BaniyanChor [link] [comments]",
+    "author": "/u/BaniyanChor",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/\"> <img alt=\"A debugger for RL reward functions that detects reward hacking during training [P]\" src=\"https://preview.redd.it/r5m95bf5cn9h1.gif?width=640&amp;crop=smart&amp;s=f9e1900b5e007ea3a72c74d4089c56fdeed22f49\" title=\"A debugger for RL reward functions that detects reward hacking during training [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy is genuinely improving or simply exploiting the reward function. So I built a small library called rewardspy that wraps an existing reward function and continuously monitors indicators that often precede reward hacking.</p> <p>It currently tracks things like rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, GRPO group collapse, anol.</p> <p>This is my first major RL project so I would absolutely love some technical advice</p> <p>Check it out here: <a href=\"https://github.com/AvAdiii/rewardspy\">https://github.com/AvAdiii/rewardspy</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BaniyanChor\"> /u/BaniyanChor </a> <br /> <span><a href=\"https://i.redd.it/r5m95bf5cn9h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/r5m95bf5cn9h1.gif?width=640&crop=smart&s=f9e1900b5e007ea3a72c74d4089c56fdeed22f49",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ba15862a-a99b-5cb0-aa1b-8a1624395187",
+    "title": "Live Continual Learning in Machine Learning [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ug7vxs/live_continual_learning_in_machine_learning_d/",
+    "pubDate": "2026-06-26T14:08:21+00:00",
+    "description": "My question on live continual learning use cases was removed by moderators here because they think i asked basic level question about live continual learning which i thought is a frontier level research. But anyways. Is anyone interested in talking about continual learning (live) and catastrophic forgetting? submitted by /u/fourwheels2512 [link] [comments]",
+    "author": "/u/fourwheels2512",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>My question on live continual learning use cases was removed by moderators here because they think i asked basic level question about live continual learning which i thought is a frontier level research. But anyways. Is anyone interested in talking about continual learning (live) and catastrophic forgetting? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fourwheels2512\"> /u/fourwheels2512 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ug7vxs/live_continual_learning_in_machine_learning_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ug7vxs/live_continual_learning_in_machine_learning_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "75e6ca82-3735-5e94-a056-1cc4b309cf5a",
     "title": "What if context compression is a diffusion noise function? Proposal + honest results from untrained-model experiments [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ug6kyw/what_if_context_compression_is_a_diffusion_noise/",
@@ -397,22 +429,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>As part of my ablations, I want to generate text with a medical-oriented LLM, and I was surprised to find no exposed APIs for this kind of model.<br /> I found models like MedGemma and BioMistral on Hugging Face, but they don’t seem to offer public APIs, and I really don’t want to host anything myself.</p> <p>Is that actually the case?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Entrepreneur7962\"> /u/Entrepreneur7962 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue87js/could_it_be_that_there_arent_really_any_medical/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "22020041-a238-511c-a211-dfdd0b6100c7",
-    "title": "DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/",
-    "pubDate": "2026-06-24T02:03:34+00:00",
-    "description": "DeepSWE delivers four advances over existing public benchmarks: Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining. High diversity: Tasks span a broad pool of 91 repositories across 5 languages. Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code and ~2x more output tokens. Reliable verification: Verifiers are hand-written to test software behavior rather than implementation details. The result is a benchmark that reflects how today's frontier coding agents actually perform in software engineering work. https://preview.redd.it/lacvagyr159h1.png?width=1373&format=png&auto=webp&s=6514340a15d51d7f03da733f08fb3f6a302cac75 It's open-source: https://github.com/datacurve-ai/deep-swe submitted by /u/we_are_mammals [link] [comments]",
-    "author": "/u/we_are_mammals",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\"> <img alt=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" src=\"https://preview.redd.it/lacvagyr159h1.png?width=140&amp;height=89&amp;auto=webp&amp;s=14f97a97511fbfe2fd767e4dc986ce0b4da5c73e\" title=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>DeepSWE delivers four advances over existing public benchmarks:</p> <ul> <li>Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining.</li> <li>High diversity: Tasks span a broad pool of 91 repositories across 5 languages.</li> <li>Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code and ~2x more output tokens.</li> <li>Reliable verification: Verifiers are hand-written to test software behavior rather than implementation details.</li> </ul> <p>The result is a benchmark that reflects how today's frontier coding agents actually perform in software engineering work.</p> <p><a href=\"https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75\">https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75</a></p> <p>It's open-source: <a href=\"https://github.com/datacurve-ai/deep-swe\">https://github.com/datacurve-ai/deep-swe</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/lacvagyr159h1.png?width=140&height=89&auto=webp&s=14f97a97511fbfe2fd767e4dc986ce0b4da5c73e",
     "isShortVideo": 0
   }
 ]

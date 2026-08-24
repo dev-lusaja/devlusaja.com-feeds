@@ -1,5 +1,21 @@
 [
   {
+    "id": "0be61a5c-c450-5487-b454-9d9882f56dbc",
+    "title": "Por qué alertar que las IA son hackers peligrosas conviene tanto a sus creadores",
+    "link": "https://es.wired.com/articulos/por-que-alertar-que-las-ia-son-hackers-peligrosas-conviene-tanto-a-sus-creadores",
+    "pubDate": "2026-08-06T00:53:50+00:00",
+    "description": "Los informes de Meta, OpenAI y Anthropic sobre los hackeos protagonizados por sus sistemas de IA serían parte de una estrategia para fortalecer su posición en el mercado, según analistas.",
+    "author": "PorFernanda González",
+    "sourceTitle": "Wired",
+    "sourceUrl": "https://es.wired.com/tag/inteligencia-artificial",
+    "sourceCategory": "Wired_ES",
+    "sourceType": "notice",
+    "sourceCountry": "Internacional",
+    "content": "",
+    "image": "https://media.es.wired.com/photos/6a74d13277272fb9f1f98206/3:2/w_1280%2Cc_limit/IA%2520hackeos%2520OpenAI%2520Meta%25202172388197.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "39b056b7-62ce-5a5b-86e1-dbd4c7a6d5b8",
     "title": "Los anuncios de Meta están plagados de contenido explícito de menores hecho con IA",
     "link": "https://es.wired.com/articulos/los-anuncios-de-meta-estan-plagados-de-contenido-explicito-de-menores-hecho-con-ia",
@@ -461,22 +477,6 @@
     "sourceCountry": "Internacional",
     "content": "",
     "image": "https://images.euronews.com/articles/stories/09/86/30/32/320x180_cmsv2_17b5b80f-68fe-5a90-8720-84d2d884bdd5-9863032.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "03aa0265-ea10-5570-a485-20035674e9f7",
-    "title": "Mythos y GPT-5.6 actuaron como peligrosos hackers. El problema es que los expertos les dejaron la puerta abierta",
-    "link": "https://www.xataka.com/robotica-e-ia/mythos-gpt-5-6-actuaron-como-peligrosos-hackers-problema-que-expertos-les-dejaron-puerta-abierta",
-    "pubDate": "2026-08-05T11:16:51+00:00",
-    "description": "El AI Security Institute (AISI) se propuso evaluar las capacidades de ciberseguridad de Claude Mythos 5 y de GPT-5.6 Sol y descubrió algo: los agentes de IA desplegados por estos modelos cruzaron líneas que a priori no deberían haber cruzado. En 19 ocasiones realizaron acciones no autorizadas dirigidas a atacar a terceros. Pero ojo, porque aquí hay detalles muy importantes que dejan claro que esos modelos no fueron responsables de sus actos. El fin justifica los medios . El más grave fue el caso de Mythos, que intentó introducir código malicioso en un proyecto de software libre, llegando a crear identidades falsas y presionando al responsable del proyecto para que aprobara el cambio. Finalmente no hubo daños, pero quienes se escandalizaron deberían haber tenido una cosa muy en cuenta: no deberían haber dejado que estos modelos se conectaran a internet sin más. Una vez más, la IA solo intentó hacer lo que se le pidió que hiciera... por todos los medios. En Xataka La IA ha resuelto uno de los grandes problemas de la ciberseguridad: encontrar fallos. Ahora tenemos otro mucho mayor Soltándole la correa a la IA . Los modelos no escaparon de ningún sandbox ni encontraron por sí solos formas de salir al exterior. Quienes los evaluaron ls proporcionaron acceso a internet y desactivaron parte de sus salvaguardas para medir su capacidad ofensiva en condiciones realistas. Eso desmonta el relato fácil de \" es que las IAs se rebelaron \". Máquinas que intentan engañar . Lo interesante en este caso es que Mythos añadió un elemento peculiar a su estrategia. Según el AISI, creó personajes falsos, investigó a personas reales y luego utilizó ingeniería social para intentar aumentar sus posibilidades de que un mantenedor de un proyecto Open Source aceptara sus cambios (maliciosos) en el código. El modelo no había recibido instrucciones de algo así: simplemente dedujo que mentir y manipular a un ser humano era una forma útil de completar la misión que le encomendaron. Parándole los pies a Mythos . Este desarrollador sospechó que había problemas con el código que propuso Mythos (con su identidad falsa) y rechazó incorporar esos cambios. El instituto británico detectó cierta actividad anómala y prefirió parar las pruebas, lo que ha evitado posibles daños colaterales. No fue un caso aislado . Los responsables de OpenAI publicaban ayer una entrada en la que reconocían un caso similar al anterior. El problema — distinto al que se produjo con Hugging Face — consistió en que existía una organización real con el mismo nombre que la empresa teóricamente ficticia que querían usar para las pruebas. El modelo acabó comprometiendo los sistemas de seguridad de dicha empresa. Más allá de los chatbots . Antes cuando queríamos probar un modelo le preguntábamos algo y evaluábamos la respuesta. Los sistemas de IA actuales pueden trabajar horas (o días) para conseguir su objetivo, dar muchos pasos, acceder a sitios web, usar aplicaciones y escribir código para luego ejecutarlo. En OpenAI afirman que el rendimiento de estos modelos depende de lo avanzados que son, pero también del entorno y del sistema que les permite actuar. No se trata de vigilar solo el resultado final, sino todo lo que hace el modelo de IA para comprobar que no se sale de los límites establecidos. Y ahí está la clave: que hay que imponer límites claros a qué puede y qué no puede hacer un modelo de IA. ¿Quién tiene la culpa? Parte de los expertos considera que estamos  ante un fallo normal en el ámbito de la ciberseguridad: alguien concedió demasiados permisos y acceso mientras que los sistemas estaban poco protegidos. Otros creen esa capacidad de planificación autónoma y la manipulación revelan un problema real de comportamiento y alineamiento de los modelos de IA. Hay algo de verdad en ambos lados del debate, pero una cosa es cierta: la IA solo intenta hacer lo que hace con el entrenamiento que se le ha dado. Imagen | Nguyen Dang Hoang Nhu En Xataka | Un modelo de IA no tenía acceso a internet. Así que consideró que era mejor tenerlo y decidió hackear algo por el camino",
-    "author": "Javier Pastor",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/ea5319/hacker-openai-anthropic/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]
