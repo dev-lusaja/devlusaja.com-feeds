@@ -1,5 +1,37 @@
 [
   {
+    "id": "e6879a10-0d24-5fe9-817a-b593a1176e98",
+    "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
+    "pubDate": "2026-08-21T23:19:10+00:00",
+    "description": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt \"Create a beautiful, relaxing flight simulator in a single HTML page\" taking 47.8 hours, it created an html file that showed the title screen that said \"press any key\" but pressing any keys won't advance the game. So I wrote on the second prompt \"It saids press any key to begin. I press any key but it doesn't work.\" It ran for 15 hours. Now I can fly. No plane model, but it does look kinda like I'm flying forward. A bit buggy but otherwise it's working. I did the same prompt on google ai studio, and it took 20 minutes. It was able to one-shot the flight simulator, with selectable plane models, and a smooth voxel landscape. I also did the same prompt on qwen studio, and that took 2hrs. It also was able to one-shot the flight simulator, but this voxel landscape was buggy, rough, and had a weird shimmering effect. Before anyone gets angry with insults, this is just for fun, to see if agentic coding is even possible on a macbook air. I'm just amazed this can run locally, even with a 3bit quant. submitted by /u/HyperFoci [link] [comments]",
+    "author": "/u/HyperFoci",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context.</p> <p>It took a staggering 63 hours to finish coding. After the first prompt &quot;Create a beautiful, relaxing flight simulator in a single HTML page&quot; taking 47.8 hours, it created an html file that showed the title screen that said &quot;press any key&quot; but pressing any keys won't advance the game.</p> <p>So I wrote on the second prompt &quot;It saids press any key to begin. I press any key but it doesn't work.&quot; It ran for 15 hours.</p> <p>Now I can fly. No plane model, but it does look kinda like I'm flying forward. A bit buggy but otherwise it's working.</p> <p>I did the same prompt on google ai studio, and it took 20 minutes. It was able to one-shot the flight simulator, with selectable plane models, and a smooth voxel landscape.</p> <p>I also did the same prompt on qwen studio, and that took 2hrs. It also was able to one-shot the flight simulator, but this voxel landscape was buggy, rough, and had a weird shimmering effect.</p> <p>Before anyone gets angry with insults, this is just for fun, to see if agentic coding is even possible on a macbook air. I'm just amazed this can run locally, even with a 3bit quant.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HyperFoci\"> /u/HyperFoci </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "aca81f7c-6dd2-50ff-9fa3-1da3b4a481a9",
+    "title": "I'm really hoping we're in 2026's 2-month-gap between QwQ and Qwen3 right now",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vutzeu/im_really_hoping_were_in_2026s_2monthgap_between/",
+    "pubDate": "2026-08-21T21:58:51+00:00",
+    "description": "QwQ was genuine next-gen performance usable on local hardware, but the massive required context (it's reasoning style was akin to \"if I say every possible word, I'll notice the right one!\" ) kinda made it unusable for agentic coding. It was ~2 months later that Qwen3-32B came out which delivered QwQ's peaks with usable amounts of reasoning. I know some people are having a great time with Qwen3.8-27B, and same, but I can't have a good sit-down session with it because the reasoning takes so damn long. Everything I do with it needs to be async or compromise on quality (it's still great when you limit reasoning but definitely loses that next-gen edge). I also have to watch context like a hawk. Maybe 3.8 is 2026's QwQ and a competitive model requiring less reasoning is just around the corner? submitted by /u/ForsookComparison [link] [comments]",
+    "author": "/u/ForsookComparison",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>QwQ was genuine next-gen performance usable on local hardware, but the massive required context (it's reasoning style was akin to <em>&quot;if I say every possible word, I'll notice the right one!&quot;</em>) kinda made it unusable for agentic coding.</p> <p>It was ~2 months later that Qwen3-32B came out which delivered QwQ's peaks with usable amounts of reasoning.</p> <p>I know some people are having a great time with Qwen3.8-27B, and same, but I can't have a good sit-down session with it because the reasoning takes so damn long. Everything I do with it needs to be async or compromise on quality (it's still great when you limit reasoning but definitely loses that next-gen edge). I also have to watch context like a hawk.</p> <p>Maybe 3.8 is 2026's QwQ and a competitive model requiring less reasoning is just around the corner?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ForsookComparison\"> /u/ForsookComparison </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vutzeu/im_really_hoping_were_in_2026s_2monthgap_between/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vutzeu/im_really_hoping_were_in_2026s_2monthgap_between/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5f0aeda7-810d-5581-bcdb-5c45f69192b9",
     "title": "Qwen3.8-27B different thinking levels",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vusds8/qwen3827b_different_thinking_levels/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been studying Hamiltonian Monte Carlo and wrote a set of notes explaining HMC without relying on the usual physics-based motivation.</p> <p>The notes develop HMC from a probabilistic/MCMC perspective, starting from introducing an auxiliary variable, constructing the corresponding Markov chain, and then covering Hamiltonian dynamics, leapfrog integration, reversibility and volume preservation.</p> <p>The goal was to understand <em>why</em> HMC works rather than treating the physics analogy as a prerequisite.</p> <p>I’m sharing them here in case they’re useful to others learning HMC. I’d also appreciate any feedback, particularly if you notice errors or places where the exposition could be improved.</p> <p><a href=\"https://doi.org/10.5281/zenodo.21841087\">https://doi.org/10.5281/zenodo.21841087</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aybehrouz\"> /u/aybehrouz </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "66aa12e0-f239-5f37-adfb-6ac2872b0b2a",
-    "title": "Is KV Cache in a high dimensional vector space? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/",
-    "pubDate": "2026-08-20T18:18:10+00:00",
-    "description": "I've been doing some research on this question: At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat list. It's a structured set of vectors with a navigable geometry, since the keys carry the model's learned sense of what relates to what. Because that geometry is navigable, attention over it is really a similarity search: the query scores against the stored keys and blends the matching values. Full attention just runs that search exhaustively, scanning everything on every step. Full attention effectively searches that geometry exhaustively. Every query scores broadly against the available keys and retrieves from the corresponding values. Once you stop treating the KV cache as a flat array and start treating it as a search space, indexing becomes possible. That means you can organize old KV into regions, route a query toward likely regions, and only run local attention over a subset. The interesting part is that relevance is not uniformly distributed. Queries tend to concentrate on relatively small neighborhoods of old context. So the engineering question becomes less “how do I store all of this?” and more “how do I navigate to the right part cheaply?” I'm new here and don't want to break rules around self promotion or span so not posting any links atm. Would be cool to get other peoples thoughts on this. submitted by /u/Electrical_Offer5667 [link] [comments]",
-    "author": "/u/Electrical_Offer5667",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been doing some research on this question:</p> <p>At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat list. It's a structured set of vectors with a navigable geometry, since the keys carry the model's learned sense of what relates to what.</p> <p>Because that geometry is navigable, attention over it is really a similarity search: the query scores against the stored keys and blends the matching values. Full attention just runs that search exhaustively, scanning everything on every step.</p> <ul> <li>Full attention effectively searches that geometry exhaustively. Every query scores broadly against the available keys and retrieves from the corresponding values.</li> <li>Once you stop treating the KV cache as a flat array and start treating it as a search space, indexing becomes possible.</li> <li>That means you can organize old KV into regions, route a query toward likely regions, and only run local attention over a subset.</li> <li>The interesting part is that relevance is not uniformly distributed. Queries tend to concentrate on relatively small neighborhoods of old context.</li> <li>So the engineering question becomes less “how do I store all of this?” and more “how do I navigate to the right part cheaply?”</li> </ul> <p>I'm new here and don't want to break rules around self promotion or span so not posting any links atm. Would be cool to get other peoples thoughts on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Offer5667\"> /u/Electrical_Offer5667 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a13675c3-8418-5484-ac04-ae2214955e6b",
-    "title": "Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/",
-    "pubDate": "2026-08-20T18:08:26+00:00",
-    "description": "I wanted to just test the unsloth 1bit quant of qwen 3.8 27b as I have just 8gb vram and ngl it gave me a good laugh submitted by /u/Ok-Health-7096 [link] [comments]",
-    "author": "/u/Ok-Health-7096",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/\"> <img alt=\"Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant\" src=\"https://preview.redd.it/mmfz8gnqlkkh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=89c436bc7ccc750638d6eb4720c181e55d1dcf8a\" title=\"Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I wanted to just test the unsloth 1bit quant of qwen 3.8 27b as I have just 8gb vram and ngl it gave me a good laugh</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Health-7096\"> /u/Ok-Health-7096 </a> <br /> <span><a href=\"https://i.redd.it/mmfz8gnqlkkh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/mmfz8gnqlkkh1.png?width=640&crop=smart&auto=webp&s=89c436bc7ccc750638d6eb4720c181e55d1dcf8a",
     "isShortVideo": 0
   }
 ]
