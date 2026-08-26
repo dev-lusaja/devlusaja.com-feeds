@@ -1,5 +1,21 @@
 [
   {
+    "id": "39d1341f-b6fc-5891-9101-050d9dd1ec62",
+    "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+    "link": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/",
+    "pubDate": "2026-08-25T20:57:54+00:00",
+    "description": "When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/unnamed-17-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"unnamed-17\" width=\"768\" />When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/unnamed-17-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"unnamed-17\" width=\"768\" /><p>When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels, and capturing NVIDIA CUDA graphs. For large models, initialization can take several minutes, during which surviving workers must absorb the displaced traffic. Shadow engine recovery, available as a preview feature in NVIDIA Dynamo…</p>\n<p><a href=\"https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1dd072f4-d6b0-5b8d-83b7-87952169d349",
     "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
     "link": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/llm-optimize-deploy-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy\" width=\"768\" />As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/llm-optimize-deploy-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy\" width=\"768\" /><p>As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because attention now dominates that cost, how it is designed—not just how it is implemented—increasingly determines a model’s inference performance. Shaping model architecture around how GPUs execute it is the premise of AI model co-design.</p>\n<p><a href=\"https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "99ba4e85-3147-5858-8b34-738403224b30",
-    "title": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
-    "link": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
-    "pubDate": "2026-07-31T15:13:02+00:00",
-    "description": "The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image9-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image9\" width=\"768\" />The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image9-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image9\" width=\"768\" /><p>The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration, generative AI media tools, and large-scale content delivery. Behind these experiences is a growing need for video pipelines that are faster, more efficient, and capable of handling increasingly complex formats and workloads.</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
