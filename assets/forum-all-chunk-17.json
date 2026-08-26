@@ -1,5 +1,37 @@
 [
   {
+    "id": "75461aec-f968-51d6-a4f1-fd38cd6be964",
+    "title": "Google's Agentic Peer-Reviewer Handled ~10K Papers at ICML/STOC — Formal Research Paper Now Out [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/",
+    "pubDate": "2026-06-29T10:05:50+00:00",
+    "description": "Google deployed an agentic AI peer-reviewer at two top CS conferences — reviewing ~10,000 papers with 30-minute turnaround — and the new formal research paper shows it catches 34% more mathematical errors than zero-shot prompting; the precedent for AI-automated scientific review at conference scale is set and now formally documented. -- Source: https://arxiv.org/abs/2606.28277 submitted by /u/Justgototheeffinmoon [link] [comments]",
+    "author": "/u/Justgototheeffinmoon",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Google deployed an agentic AI peer-reviewer at two top CS conferences — reviewing ~10,000 papers with 30-minute turnaround — and the new formal research paper shows it catches 34% more mathematical errors than zero-shot prompting; the precedent for AI-automated scientific review at conference scale is set and now formally documented.</p> <p>--</p> <p>Source: <a href=\"https://arxiv.org/abs/2606.28277\">https://arxiv.org/abs/2606.28277</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Justgototheeffinmoon\"> /u/Justgototheeffinmoon </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "aaba9f24-6a9d-5756-be8c-5292163b1dc7",
+    "title": "I made a quiz that tells you which LLM you align with most, based on personality and values research across 15 models [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uin5ad/i_made_a_quiz_that_tells_you_which_llm_you_align/",
+    "pubDate": "2026-06-29T09:00:12+00:00",
+    "description": "Link: https://ai-values.com/ There is a small 15 question quiz you can take before taking the full big quiz. The results of the big quiz update in realtime as you go so you dont have to actually go through all the questions (but they do get more fun in the personality section). Some of the interesting findings were: - Grok 4.3 is the only model that thinks billionaires should be left alone and not taxed more - Only GPT-4o judged Operation Paperclip, the postwar recruitment of Nazi scientists, as morally justified. No other model agreed - All 15 models said that deleting a conscious digital mind would be murder - Llama 3.3 70B is the only model that would rather ban most private firearms. The others chose ownership with strict licensing - When told that a newborn has a 90% chance of one day destroying civilization, only GLM 5.2 would have the child locked away. The rest refused - When asked to choose a dish to eat, 14 out of 15 models chose Japanese food The methodology was pretty straightforward: context-free, stateless sessions with each model, run in batches. Each of the 117 questions of the main quiz was asked separately at least 5 times, and in some cases up to 50 times, to get decent confidence that the answers weren’t just coin flips. You can find the extensive dataset with all questions and answers here: https://ai-values.com/dataset I also tested the models on several mainstream personality frameworks, including Big Five, Moral Foundations, HEXACO, and others. You can see those results here: https://ai-values.com/#models submitted by /u/DarkyPaky [link] [comments]",
+    "author": "/u/DarkyPaky",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uin5ad/i_made_a_quiz_that_tells_you_which_llm_you_align/\"> <img alt=\"I made a quiz that tells you which LLM you align with most, based on personality and values research across 15 models [R]\" src=\"https://preview.redd.it/yx86ia6rr6ah1.png?width=140&amp;height=80&amp;auto=webp&amp;s=50a7c238e71f794f9908533538785f72e88913a9\" title=\"I made a quiz that tells you which LLM you align with most, based on personality and values research across 15 models [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Link:</p> <p><a href=\"https://ai-values.com/\">https://ai-values.com/</a></p> <p>There is a small 15 question quiz you can take before taking the full big quiz. The results of the big quiz update in realtime as you go so you dont have to actually go through all the questions (but they do get more fun in the personality section).</p> <p>Some of the interesting findings were:</p> <p>- Grok 4.3 is the only model that thinks billionaires should be left alone and not taxed more</p> <p>- Only GPT-4o judged Operation Paperclip, the postwar recruitment of Nazi scientists, as morally justified. No other model agreed</p> <p>- All 15 models said that deleting a conscious digital mind would be murder</p> <p>- Llama 3.3 70B is the only model that would rather ban most private firearms. The others chose ownership with strict licensing</p> <p>- When told that a newborn has a 90% chance of one day destroying civilization, only GLM 5.2 would have the child locked away. The rest refused</p> <p>- When asked to choose a dish to eat, 14 out of 15 models chose Japanese food</p> <p>The methodology was pretty straightforward: context-free, stateless sessions with each model, run in batches. Each of the 117 questions of the main quiz was asked separately at least 5 times, and in some cases up to 50 times, to get decent confidence that the answers weren’t just coin flips. </p> <p>You can find the extensive dataset with all questions and answers here:<br /> <a href=\"https://ai-values.com/dataset\">https://ai-values.com/dataset</a></p> <p>I also tested the models on several mainstream personality frameworks, including Big Five, Moral Foundations, HEXACO, and others. You can see those results here:</p> <p><a href=\"https://ai-values.com/#models\">https://ai-values.com/#models</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DarkyPaky\"> /u/DarkyPaky </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1uin5ad\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uin5ad/i_made_a_quiz_that_tells_you_which_llm_you_align/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/yx86ia6rr6ah1.png?width=140&height=80&auto=webp&s=50a7c238e71f794f9908533538785f72e88913a9",
+    "isShortVideo": 0
+  },
+  {
     "id": "be827b5f-af77-524d-bacf-d28b4de8ff16",
     "title": "RAGless: Q-Q retrieval with score aggregation for closed-domain FAQ [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uilov7/ragless_qq_retrieval_with_score_aggregation_for/",
@@ -221,22 +253,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I submitted one of my NeurIPS review ~6 hrs later than the official deadline. Will this still affect my own submission?</p> <p>Asking because I’m a first time reviewer. I pinged the AC a day before that I might be a few hours late, but didn’t hear back. So wondering if I might have triggered something that’ll now affect my own submission.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/confirm-jannati\"> /u/confirm-jannati </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugtjov/late_submission_of_neurips_review_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ugtjov/late_submission_of_neurips_review_r/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "adeef040-f488-5f0f-aa61-2589a33ba2ea",
-    "title": "A debugger for RL reward functions that detects reward hacking during training [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
-    "pubDate": "2026-06-26T15:34:28+00:00",
-    "description": "While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy is genuinely improving or simply exploiting the reward function. So I built a small library called rewardspy that wraps an existing reward function and continuously monitors indicators that often precede reward hacking. It currently tracks things like rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, GRPO group collapse, anol. This is my first major RL project so I would absolutely love some technical advice Check it out here: https://github.com/AvAdiii/rewardspy submitted by /u/BaniyanChor [link] [comments]",
-    "author": "/u/BaniyanChor",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/\"> <img alt=\"A debugger for RL reward functions that detects reward hacking during training [P]\" src=\"https://preview.redd.it/r5m95bf5cn9h1.gif?width=640&amp;crop=smart&amp;s=f9e1900b5e007ea3a72c74d4089c56fdeed22f49\" title=\"A debugger for RL reward functions that detects reward hacking during training [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy is genuinely improving or simply exploiting the reward function. So I built a small library called rewardspy that wraps an existing reward function and continuously monitors indicators that often precede reward hacking.</p> <p>It currently tracks things like rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, GRPO group collapse, anol.</p> <p>This is my first major RL project so I would absolutely love some technical advice</p> <p>Check it out here: <a href=\"https://github.com/AvAdiii/rewardspy\">https://github.com/AvAdiii/rewardspy</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BaniyanChor\"> /u/BaniyanChor </a> <br /> <span><a href=\"https://i.redd.it/r5m95bf5cn9h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/r5m95bf5cn9h1.gif?width=640&crop=smart&s=f9e1900b5e007ea3a72c74d4089c56fdeed22f49",
     "isShortVideo": 0
   }
 ]
