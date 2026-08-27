@@ -32,6 +32,22 @@
     "isShortVideo": 0
   },
   {
+    "id": "3074d5c9-57a6-5059-affc-eb7c36abfd5c",
+    "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
+    "link": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding/",
+    "pubDate": "2026-08-26T17:07:12+00:00",
+    "description": "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Agentic-AI-Qwen-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Agentic-AI-Qwen\" width=\"768\" />Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Agentic-AI-Qwen-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Agentic-AI-Qwen\" width=\"768\" /><p>Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s a multimodal mixture-of-experts (MoE) model with a 125B-parameter main model supplemented by an additional 51B N-gram embeddings, with 6B parameters activated per token. It has a native 262,144-token context window, extensible to 1M tokens…</p>\n<p><a href=\"https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "9169398c-c285-5fe9-8caf-8bc20f7cd5e1",
     "title": "Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72 for Agentic Coding",
     "link": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"A GIF of a robot following directions” with a description of the actual robot, task, objects, and motion shown.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-World-Models\" width=\"600\" />A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene...<img alt=\"A GIF of a robot following directions” with a description of the actual robot, task, objects, and motion shown.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-World-Models\" width=\"600\" /><p>A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene often fails when object shapes, positions, or lighting change. Generalizing to these new conditions requires the policy to understand the tasks underlying physics, not just mimic the demonstrations. This ability comes from the backbone it’s…</p>\n<p><a href=\"https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "65fbf294-bc7c-5256-9f7b-0b20abe86870",
-    "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
-    "link": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/",
-    "pubDate": "2026-08-04T15:00:00+00:00",
-    "description": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A GIF showing autonomous driving.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Alpamayo-2-Super.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Alpamayo-2-Super\" width=\"600\" />Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...<img alt=\"A GIF showing autonomous driving.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Alpamayo-2-Super.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Alpamayo-2-Super\" width=\"600\" /><p>Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data labeling. This separation makes it hard to compare related outputs, investigate model behavior, and reuse the same representations across the development workflow. NVIDIA Alpamayo 2 Super is an open 34-billion-parameter reasoning vision…</p>\n<p><a href=\"https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
