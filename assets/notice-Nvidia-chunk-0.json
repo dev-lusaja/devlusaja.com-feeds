@@ -1,5 +1,21 @@
 [
   {
+    "id": "d40739e8-4da8-5a67-b4a2-0ee5c765d316",
+    "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+    "link": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/",
+    "pubDate": "2026-08-28T17:06:28+00:00",
+    "description": "Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/ai-use-cases-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-use-cases\" width=\"768\" />Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/ai-use-cases-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-use-cases\" width=\"768\" /><p>Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing, post-processing, and runtime code. NVIDIA TensorRT Model Connect open collection of reference implementations helps to address this challenge. TensorRT Model Connect shows you how to run supported models with NVIDIA TensorRT in native C++…</p>\n<p><a href=\"https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5825c970-3ccf-5742-bde8-f80cdb5d8446",
     "title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
     "link": "https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Open model launch image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Open-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Open-Model\" width=\"768\" />Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...<img alt=\"Open model launch image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Open-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Open-Model\" width=\"768\" /><p>Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI agentic work. Optimized to run across a range of NVIDIA edge, desktop, and workstation AI platforms, Muse Glimmer delivers 20K tokens/sec on a single GPU, enabling always-on agents to process data locally and execute complex…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f4858060-7785-50bb-a76b-29a6e883c4b3",
-    "title": "Beyond VLAs: How World Action Models Reshape Robot Manipulation",
-    "link": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
-    "pubDate": "2026-08-04T16:00:00+00:00",
-    "description": "A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene...",
-    "author": "Michelle Horton",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A GIF of a robot following directions” with a description of the actual robot, task, objects, and motion shown.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-World-Models\" width=\"600\" />A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene...<img alt=\"A GIF of a robot following directions” with a description of the actual robot, task, objects, and motion shown.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-World-Models\" width=\"600\" /><p>A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene often fails when object shapes, positions, or lighting change. Generalizing to these new conditions requires the policy to understand the tasks underlying physics, not just mimic the demonstrations. This ability comes from the backbone it’s…</p>\n<p><a href=\"https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
