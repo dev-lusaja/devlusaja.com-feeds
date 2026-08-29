@@ -1,5 +1,37 @@
 [
   {
+    "id": "49f7335d-7795-578d-b223-d36b949b3690",
+    "title": "Notes on Hamiltonian Monte Carlo from a purely probabilistic perspective [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/",
+    "pubDate": "2026-08-20T20:37:08+00:00",
+    "description": "I’ve been studying Hamiltonian Monte Carlo and wrote a set of notes explaining HMC without relying on the usual physics-based motivation. The notes develop HMC from a probabilistic/MCMC perspective, starting from introducing an auxiliary variable, constructing the corresponding Markov chain, and then covering Hamiltonian dynamics, leapfrog integration, reversibility and volume preservation. The goal was to understand why HMC works rather than treating the physics analogy as a prerequisite. I’m sharing them here in case they’re useful to others learning HMC. I’d also appreciate any feedback, particularly if you notice errors or places where the exposition could be improved. https://doi.org/10.5281/zenodo.21841087 submitted by /u/aybehrouz [link] [comments]",
+    "author": "/u/aybehrouz",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been studying Hamiltonian Monte Carlo and wrote a set of notes explaining HMC without relying on the usual physics-based motivation.</p> <p>The notes develop HMC from a probabilistic/MCMC perspective, starting from introducing an auxiliary variable, constructing the corresponding Markov chain, and then covering Hamiltonian dynamics, leapfrog integration, reversibility and volume preservation.</p> <p>The goal was to understand <em>why</em> HMC works rather than treating the physics analogy as a prerequisite.</p> <p>I’m sharing them here in case they’re useful to others learning HMC. I’d also appreciate any feedback, particularly if you notice errors or places where the exposition could be improved.</p> <p><a href=\"https://doi.org/10.5281/zenodo.21841087\">https://doi.org/10.5281/zenodo.21841087</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aybehrouz\"> /u/aybehrouz </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "66aa12e0-f239-5f37-adfb-6ac2872b0b2a",
+    "title": "Is KV Cache in a high dimensional vector space? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/",
+    "pubDate": "2026-08-20T18:18:10+00:00",
+    "description": "I've been doing some research on this question: At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat list. It's a structured set of vectors with a navigable geometry, since the keys carry the model's learned sense of what relates to what. Because that geometry is navigable, attention over it is really a similarity search: the query scores against the stored keys and blends the matching values. Full attention just runs that search exhaustively, scanning everything on every step. Full attention effectively searches that geometry exhaustively. Every query scores broadly against the available keys and retrieves from the corresponding values. Once you stop treating the KV cache as a flat array and start treating it as a search space, indexing becomes possible. That means you can organize old KV into regions, route a query toward likely regions, and only run local attention over a subset. The interesting part is that relevance is not uniformly distributed. Queries tend to concentrate on relatively small neighborhoods of old context. So the engineering question becomes less “how do I store all of this?” and more “how do I navigate to the right part cheaply?” I'm new here and don't want to break rules around self promotion or span so not posting any links atm. Would be cool to get other peoples thoughts on this. submitted by /u/Electrical_Offer5667 [link] [comments]",
+    "author": "/u/Electrical_Offer5667",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been doing some research on this question:</p> <p>At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat list. It's a structured set of vectors with a navigable geometry, since the keys carry the model's learned sense of what relates to what.</p> <p>Because that geometry is navigable, attention over it is really a similarity search: the query scores against the stored keys and blends the matching values. Full attention just runs that search exhaustively, scanning everything on every step.</p> <ul> <li>Full attention effectively searches that geometry exhaustively. Every query scores broadly against the available keys and retrieves from the corresponding values.</li> <li>Once you stop treating the KV cache as a flat array and start treating it as a search space, indexing becomes possible.</li> <li>That means you can organize old KV into regions, route a query toward likely regions, and only run local attention over a subset.</li> <li>The interesting part is that relevance is not uniformly distributed. Queries tend to concentrate on relatively small neighborhoods of old context.</li> <li>So the engineering question becomes less “how do I store all of this?” and more “how do I navigate to the right part cheaply?”</li> </ul> <p>I'm new here and don't want to break rules around self promotion or span so not posting any links atm. Would be cool to get other peoples thoughts on this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Offer5667\"> /u/Electrical_Offer5667 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "669da7dd-3027-5900-a50c-f2c0e73201c6",
     "title": "Mapping intrinsic rank and informational gravity in complex tabular data: I developed a non-parametric, model-agnostic, information-theoretic diagnostic to bypass the limits of linear, rank, and Euclidean baselines. [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vtjotb/mapping_intrinsic_rank_and_informational_gravity/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vp9q5v/dataset_starfield_fauna_20000_images_in_50/\"> <img alt=\"Dataset: Starfield Fauna - 20,000 images in 50 species categories. [P]\" src=\"https://preview.redd.it/xg0grozpwkjh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4ca48cc3702227f04371e5debdd07f8acd4ca785\" title=\"Dataset: Starfield Fauna - 20,000 images in 50 species categories. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>Repo with dataset links:</strong> <a href=\"https://github.com/tesselwait/Starfield_Fauna\">https://github.com/tesselwait/Starfield_Fauna</a></p> <p>Image classification dataset: 20,000 images from 50 fauna species in the video game Starfield. Images were extracted from video capture. About 2 minutes of footage was shot in all or most of the species biomes. One minute of daytime and nighttime footage respectively, usually in two 30-second takes to vary the background. A PowerShell script is used to establish a frame extract rate and extract the 400 frames plus some extra to replace images that were obstructed/blurry or contained other fauna species ignoring birds/critters. The shots are for the most part close-up and centered to keep the task focused on discerning between 50 species rather than finding the creature in the image. The images are initially randomized however some normalization was done if the ratio of images from some biomes was heavily skewed between the training, validation, and test sets.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eccLykta\"> /u/eccLykta </a> <br /> <span><a href=\"https://i.redd.it/xg0grozpwkjh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vp9q5v/dataset_starfield_fauna_20000_images_in_50/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/xg0grozpwkjh1.png?width=640&crop=smart&auto=webp&s=4ca48cc3702227f04371e5debdd07f8acd4ca785",
-    "isShortVideo": 0
-  },
-  {
-    "id": "236f9ffc-4a97-5ba0-951d-87a462ced5ce",
-    "title": "NeurIPS 2026 Author Notifications Close to ICLR Deadline [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/",
-    "pubDate": "2026-08-15T14:50:57+00:00",
-    "description": "The date for NeurIPS 2026 author notifications is September 24th. First of all, is it normal for AC and reviewer discussion phases to be this long? This is particularly frustrating given that 5 out of the 6 reviewers in my two papers did not address the rebuttals. In any case, I was also wondering, given that ICLR's paper deadline is literally the day after (September 25th) whether you guys are preparing ICLR submissions for your papers in case of rejection. Cheers and good luck! submitted by /u/_Sarcastrophe_ [link] [comments]",
-    "author": "/u/_Sarcastrophe_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>The date for NeurIPS 2026 author notifications is September 24th. First of all, is it normal for AC and reviewer discussion phases to be this long? This is particularly frustrating given that 5 out of the 6 reviewers in my two papers did not address the rebuttals.</p> <p>In any case, I was also wondering, given that ICLR's paper deadline is literally the day after (September 25th) whether you guys are preparing ICLR submissions for your papers in case of rejection.</p> <p>Cheers and good luck!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_Sarcastrophe_\"> /u/_Sarcastrophe_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b97971d8-c89e-55e0-b727-e996754cca46",
-    "title": "Do you actually finish setting up a new project? [N]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1voxx8t/do_you_actually_finish_setting_up_a_new_project_n/",
-    "pubDate": "2026-08-15T09:01:48+00:00",
-    "description": "I have a bad habit of getting a new project 90% of the way there and then losing interest. Dependencies work, GPU is detected, model downloads, everything finally runs. And then somehow the actual project gets abandoned. I'm starting to think getting things working is half the hobby for me. Does anyone else do this? submitted by /u/Crypton228 [link] [comments]",
-    "author": "/u/Crypton228",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a bad habit of getting a new project 90% of the way there and then losing interest.</p> <p>Dependencies work, GPU is detected, model downloads, everything finally runs.</p> <p>And then somehow the actual project gets abandoned.</p> <p>I'm starting to think getting things working is half the hobby for me.</p> <p>Does anyone else do this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Crypton228\"> /u/Crypton228 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voxx8t/do_you_actually_finish_setting_up_a_new_project_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voxx8t/do_you_actually_finish_setting_up_a_new_project_n/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
