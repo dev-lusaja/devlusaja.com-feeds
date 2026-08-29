@@ -1,5 +1,37 @@
 [
   {
+    "id": "5793cd93-d451-5e9f-bae4-ce4233a528d1",
+    "title": "7 Approaches to Reduce Inference Latency in Your LLM Workflows",
+    "link": "https://www.kdnuggets.com/7-approaches-to-reduce-inference-latency-in-your-llm-workflows",
+    "pubDate": "2026-08-04T12:00:59+00:00",
+    "description": "From quantization to speculative decoding, here are seven engineering strategies to ship faster, more responsive generative AI applications in production.",
+    "author": "Vinod Chugani",
+    "sourceTitle": "KDnuggets",
+    "sourceUrl": "https://www.kdnuggets.com/feed",
+    "sourceCategory": "KDnuggets",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-7-approaches-reduce-inference-latency-llm-workflows-feature.png",
+    "isShortVideo": 0
+  },
+  {
+    "id": "4920b42a-a1f7-58b9-9531-f70a30640fe1",
+    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+    "link": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "pubDate": "2026-08-04T12:00:00+00:00",
+    "description": "Endeavor Optical Networks is planning to launch the fastest space laser communications system yet built.",
+    "author": "Tim Fernholz",
+    "sourceTitle": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "sourceCategory": "TechCrunch_AI",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "00df7ab8-37dc-5f5f-9920-57894c19c9a1",
     "title": "Using Agents as Tools",
     "link": "https://towardsdatascience.com/using-agents-as-tools/",
@@ -445,38 +477,6 @@
     "sourceCountry": "Internacional",
     "content": "",
     "image": "https://images.euronews.com/articles/stories/09/86/00/44/320x180_cmsv2_759c2666-22b0-5041-a9ce-0c7df507d9f7-9860044.jpg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "63c7729c-94a0-5910-8d44-fe10fbe4d091",
-    "title": "EEUU restringió los chips para frenar la IA china. Alibaba acaba de enseñar lo poco que ha funcionado",
-    "link": "https://www.xataka.com/robotica-e-ia/eeuu-restringio-chips-para-frenar-ia-china-alibaba-acaba-ensenar-poco-que-ha-funcionado",
-    "pubDate": "2026-08-03T10:45:43+00:00",
-    "description": "El gigante chino Alibaba ha presentado Qwen3.8-Max , su modelo de IA más ambicioso hasta la fecha. Es multimodal, tiene una ventana de contexto de un millón de tokens y destaca además por otras dos cosas: la primera, volver a ser un modelo abierto , algo que la empresa había descartado en versiones anteriores. La segunda, ser absolutamente gigantesco, con 2,4 billones de parámetros. Qué está pasando . Estamos ante un modelo que presume de competir con lo mejor de OpenAI y Anthropic, y que amenaza de nuevo con demostrar que los modelos chinos ya no están por detrás de los modelos frontera de EEUU . Es una época absolutamente loca para la IA. Las pruebas internas de Alibaba aun deben ser confirmadas con tests independientes, pero Qwen3-8-Max promete, y mucho. A las pruebas me remito . Los benchmarks internos muestran cómo Qwen3.8-Max compite de tú a tú con Fable 5 y GPT-5.6 Sol en diversos benchmarks, quedando algo por debajo en algunos pero también superando a ambos modelos en otros. Kimi K3 ya era \"impresionante\" , pero este modelo de Alibaba va incluso más allá. Por supuesto, habrá que validar esos resultados en pruebas independientes. Un modelo que más que conversar, trabaja . Qwen3.8-Max se comporta especialmente bien en ingeniería de software, manejo de la terminal, percepción visual y control de ordenadores y móviles. Son benchmarks diseñados para medir algo más ambicioso que el típico \"responde a una pregunta\". El modelo puede utilizar herramientas y completar tareas largas, y en el vídeo promocional, aquí mostrado, presumen de poder diseñar chips o rellenar contratos mientras tú te vas a pasar un rato por ahí tranquilamente. El mensaje es claro: la IA trabaja por ti. El tamaño impresiona . Qwen3.8-Max tiene 2,4 billones de parámetros (hace 10 meses apenas llegaban al billón ), una cifra cercana a los 2,8 billones de Kimi K3. Su arquitectura MoE (Mixture of Experts) reparte el conocimiento entre distintos \"expertos\" y solo activa unos 95.000 millones de parámetros por petición. Es ya una conocida técnica para poder aumentar las prestaciones del modelo haciéndolo además muy eficiente . Las restricciones no sirven de nada . En 2022, EEUU comenzó a restringir el acceso de China a chips avanzados y a equipos para fabricar semiconductores. Luego endureció el acceso a otro tipo de componentes tecnológicos avanzados con la excusa de la seguridad nacional. Eso teóricamente debería haberle puesto muy difícil a China avanzar en el desarrollo de modelos de IA propios . Dichas medidas no han servido de casi nada, y de hecho han provocado que la antigua dependencia de EEUU desaparezca casi por completo. China se ha puesto las pilas y ha logrado ir recortando la ventaja en la carrera de forma sorprendente. Hoy por hoy no está nada claro que los modelos frontera de EEUU sean mucho más potentes que Kimi K3 o este nuevo Qwen3.8-Max. Y el modelo local promete aún más . Como parte del anuncio, Alibaba ha afirmado que la próxima semana ofrecerá Qwen3.8-27B y liberará los pesos de ambos modelos. La empresa certifica así que vuelve a la filosofía abierta que había abandonado momentáneamente , pero es que este modelo de 27.000 millones de parámetros es especialmente prometedor para quienes quieren contar con un modelo de IA local y privado que poder ejecutar en sus PCs y portátiles. China ya no quiere ser \"la alternativa barata\" . Durante años la industria de la IA parecía clara y cómodamente dividida en dos bandos. Los laboratorios estadounidenses lideraban en rendimietno, y los chinos competían mediante modelos abiertos con precios mucho más bajos . Qwen3.8-Max, como Kimi K3, hace que ese equilibrio se rompa, y si cumple con las expectativas, estamos ante un modelo que igual en rendimiento a Fable 5 o GPT-5.6 Sol a una fracción de su precio. A falta de confirmación, este modelo es bueno, bonito y barato. En Xataka Cada vez más empresas estadounidenses utilizan modelos IA como Kimi K3. Estados Unidos no está nada contenta OpenAI y Anthropic tienen otro problema, y no son los benchmarks . Cuando varios modelos de EEUU y China alcanzan niveles parecidos, la IA empieza a convertirse en una commodity en la que no hay ganador claro entre un modelo y otro porque todos son realmente buenos. Esa tendencia afecta a las startups de IA que viven de cobrar acceso exclusivo a sus modelos, como sucede con OpenAI y Anthropic. Pero es que Alibaba no solo tiene una API que compite con la de esas empresas: tiene Alibaba Cloud como infraestructura en la nube. Qwen3.8-Max puede ser tan solo un caballo de Troya para que más y más clientes acaben usando los servicios de esa nube de la empresa frente a otras alternativas. China acelera . En los últimos dos meses hemos visto cómo los laboratorios chinos de IA han avanzado de forma espectacular. Primero fue Z.ai con el sorprendente GLM-5.2 que ya comenzaba a mandar el mensaje, más tarde Moonshot AI con su Kimi K3, y ahora Alibaba con Qwen3.8-Max. DeepSeek V4 también acaba de actualizarse con una versión Flash beta que apuesta por la relación precio/prestaciones. Esto es un no parar. Imagen | Marcus En Xataka | \"Tenemos un Mythos en casa\": los expertos ya afirman que el modelo chino GLM-5.2 es tan \"peligroso\" como el de Anthropic",
-    "author": "Javier Pastor",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/d7b256/eeuu-qwen/1024_2000.jpeg",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cf71a78a-3518-548e-9746-edde2f2efbf3",
-    "title": "Los centros de datos de IA se han convertido en blancos fáciles en la guerra con Irán",
-    "link": "https://cnnespanol.cnn.com/2026/08/03/mundo/centros-datos-guerra-iran-trax",
-    "pubDate": "2026-08-03T10:38:42+00:00",
-    "description": "",
-    "author": "CNN Español",
-    "sourceTitle": "CNN",
-    "sourceUrl": "https://cnnespanol.cnn.com/ciencia/inteligencia-artificial",
-    "sourceCategory": "CNN_Espanol",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://media.cnn.com/api/v1/images/stellar/prod/bandera-20260803222017028.jpg?c=16x9&q=h_438",
     "isShortVideo": 0
   }
 ]

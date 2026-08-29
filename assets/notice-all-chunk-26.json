@@ -1,5 +1,37 @@
 [
   {
+    "id": "fede834a-aa27-5d57-bb6a-a8c507190a94",
+    "title": "Anthropic afirmó que sus modelos de IA piratearon los sistemas de otras empresas durante las pruebas",
+    "link": "https://cnnespanol.cnn.com/2026/07/31/ciencia/anthropic-modelos-piratearon-empresas-trax",
+    "pubDate": "2026-07-31T10:38:38+00:00",
+    "description": "",
+    "author": "CNN Español",
+    "sourceTitle": "CNN",
+    "sourceUrl": "https://cnnespanol.cnn.com/ciencia/inteligencia-artificial",
+    "sourceCategory": "CNN_Espanol",
+    "sourceType": "notice",
+    "sourceCountry": "Internacional",
+    "content": "",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-06-05t185317z-1665347047-rc2unla92cfx-rtrmadp-3-anthropic-ai-20260731051822764.jpg?c=16x9&q=h_438",
+    "isShortVideo": 0
+  },
+  {
+    "id": "6e78977b-220d-5968-9675-5b85b1a76883",
+    "title": "Un modelo de OpenAI escapó del entorno de pruebas y hackeó una empresa. La respuesta de Anthropic: sujétame el cubata",
+    "link": "https://www.xataka.com/robotica-e-ia/modelo-openai-escapo-entorno-pruebas-hackeo-empresa-respuesta-anthropic-sujetame-cubata",
+    "pubDate": "2026-07-31T09:00:00+00:00",
+    "description": "La semana pasada OpenAI publicó un artículo en el que contaba como, mientras ponía a prueba su modelo GPT 5.6 Sol, éste logró escapar del entorno de pruebas supuestamente aislado y hackeó los sistemas de la plataforma Hugging Face. Este incidente ha alimentado la preocupación y ha hecho que el presidente estadounidensese plantee poner controles más estrictos a los sistemas de IA. Pues bien, ahora Anthropic dice que sus modelos también se \"escaparon\" y hackearon no una, sino tres empresas. Qué ha pasado. Lo cuenta la propia Anthropic en una nueva entrada en su blog . Tras conocerse el incidente de OpenAI, la empresa inició una revisión interna de sus sistemas y descubrió tres incidentes en los que sus modelos orientados a la ciberseguridad habían irrumpido en los sistemas de tres organizaciones distintas. Anthropic afirma que ha contactado con estas tres empresas, cuya identidad no ha sido revelada. Fue un error . A diferencia del caso de OpenAI, Anthropic dice que sus modelos no escaparon del entorno de pruebas deliberadamente, sino que fue fruto de un error de configuración que dejó activada la conexión a internet, permitiendo a los modelos acceder a estas empresas. La empresa dice que los modelos hicieron el hackeo usando técnicas básicas como \"explotar contraseñas débiles y puntos finales no autenticados\", pero no descubrieron ninguna vulnerabilidad compleja. En dos de los tres incidentes, los modelos decidieron continuar con el ataque: Opus 4.7 robó credenciales para acceder a los sistemas de una empresa real y  Mythos 5 se convenció a sí mismo de que estaba en una simulación. Sin embargo, el tercer modelo (uno todavía no publicado), detectó que tenía conexión cuando no debía y paró el ataque. Daniel Púa, jefe de seguridad en Magnific: \"Van a llegar videollamadas con el vídeo de un familiar y se va a complicar la cosa\" Por qué es importante. Más que el incidente en sí mismo, lo llamativo es que lo dan a conocer justo días después de que OpenAI publicara el suyo propio. Y además lo hacen con matices importantes: no hay vulnerabilidades graves, todo fue por un error humano y además tenemos un modelo tan listo que detuvo el ataque cuando se percató del error. La competición entre OpenAI y Anthropic se ha intensificado mucho en los últimos meses y con la salida a bolsa a la vuelta de la esquina , hemos entrado en una dinámica en la que lo que logra uno, el otro lo hace más y mejor. Tirando de miedo. Ya hemos hablado en el pasado de cómo el miedo se ha convertido en el principal argumento de venta de los nuevos modelos de OpenAI y Anthropic. Todo empezó en abril cuando Anthropic anunció que Claude Mythos había encontrado cientos de vulnerabilidades zero-day . Poco después, OpenAI anunció GPT 5.5 Cyber con el mismo guión: un modelo tan potente que lanzarlo al público supondría un riesgo para la ciberseguridad mundial. En el fondo, el mensaje siempre apela a lo mismo: el temor a que una IA se descontrole y termine volviéndose contra nosotros, un escenario que llevamos décadas viendo en el cine y que varios expertos llevan tiempo advirtiendo que podría dejar de serlo. Más regulación. Estos incidentes han generado preocupación y están reforzando el argumento de que la tecnología es tan potente que hace falta que alguien la controle desde fuera. En declaraciones a Wall Street Journal, el responsable de la firma de seguridad Corridor, advierte que estos incidentes abren la puerta a ataques de ransomware más sofisticados, especialmente a través de modelos de pesos abiertos. Al mismo tiempo, Anthropic y OpenAI se esfuerzan por presentar estos fallos como riesgos gestionables e insisten en que sus modelos de ciberseguridad son demasiado potentes para ofrecerlos al público general, una postura que les permite al mismo tiempo advertir de los riesgos y posicionarse como socios imprescindibles en cualquier futura regulación. Imagen | Xataka En Xataka |",
+    "author": "Amparo Babiloni",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/cab1c7/anthropic-openai/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
     "id": "de660fe5-48c3-5b00-a071-c442e2f7ca84",
     "title": "Anthropic admite que su modelo de IA hackeó 3 organizaciones",
     "link": "https://es.euronews.com/next/2026/07/31/anthropic-admite-que-su-modelo-de-ia-mas-potente-hackeo-sistemas-de-3-organizaciones-en-pr",
@@ -445,38 +477,6 @@
     "sourceCountry": "Peru",
     "content": "",
     "image": "https://elcomercio.pe/resizer/v2/OO4H5VSWPFESXMVXFLJWT7ZCVM.jpeg?auth=5d5882d0fadf9a65afb5bcf60bb0509c9305dccd110dc7dea521d5aab68fe594&width=320&height=180&quality=75&smart=true",
-    "isShortVideo": 0
-  },
-  {
-    "id": "26adef92-9bec-57cf-9699-76f86d22a71c",
-    "title": "El modelo de OpenAI que hackeó Hugging Face no es un genio: todo fue un error humano",
-    "link": "https://es.wired.com/articulos/el-modelo-de-openai-que-hackeo-hugging-face-no-es-un-genio-todo-fue-un-error-humano",
-    "pubDate": "2026-07-30T15:52:26+00:00",
-    "description": "Si la gigante hubiera seguido las buenas prácticas de seguridad, es probable que su agente de IA nunca hubiera escapado a internet y hackeado a varias empresas.",
-    "author": "PorLily Hay Newman",
-    "sourceTitle": "Wired",
-    "sourceUrl": "https://es.wired.com/tag/inteligencia-artificial",
-    "sourceCategory": "Wired_ES",
-    "sourceType": "notice",
-    "sourceCountry": "Internacional",
-    "content": "",
-    "image": "https://media.es.wired.com/photos/6a6b5f1b2927ea9aed134fee/3:2/w_1280%2Cc_limit/Security_OpenAIsHackingDebacleWasaHumanMistake_v1-ezgif.com-video-to-gif-converter.gif",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4da47e02-4573-577c-9d84-431a6dba9d8c",
-    "title": "Meta says AI is making it easier to build new apps — and more are coming",
-    "link": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-    "pubDate": "2026-07-30T15:41:16+00:00",
-    "description": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way following a recent wave of releases for Facebook Groups, Marketplace sellers, Instagram, and gaming.",
-    "author": "Sarah Perez",
-    "sourceTitle": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "sourceCategory": "TechCrunch_AI",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
     "isShortVideo": 0
   }
 ]
