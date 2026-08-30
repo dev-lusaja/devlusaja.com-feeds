@@ -1,5 +1,21 @@
 [
   {
+    "id": "b7aab461-1a27-545a-8aa0-df5867987c9b",
+    "title": "How should I encode both target and feature variable for a multiclass classification? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1upa8yc/how_should_i_encode_both_target_and_feature/",
+    "pubDate": "2026-07-06T21:07:37+00:00",
+    "description": "I am preprocessing a CSV dataset for multiclass classification with XGBoost. My Feature variable contain numerical and categorical values , while the target variable contain many categorical value. For example, feature variables contain patient name, phone number, and exercise history, while Target variable contain different disease name such as heart attack, stroke, Alzheimer's etc. I know that feature variables can be encoded using one-hot encoding, but should the target variable also be encoded using the same method, or should I use a different encoding method for target variable (e.g., label encoding)? If anyone know the answer, please let me know. I have searched everywhere, but failed to get any clear idea about it. Thank you. submitted by /u/Rami02021 [link] [comments]",
+    "author": "/u/Rami02021",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I am preprocessing a CSV dataset for multiclass classification with XGBoost. My <strong>Feature variable</strong> contain <strong>numerical and categorical values</strong>, while <strong>the target variable contain many categorical value.</strong> For example, <strong>feature variables contain patient name, phone number, and exercise history,</strong> while <strong>Target variable contain different disease name</strong> such as heart attack, stroke, Alzheimer's etc.</p> <p>I know that feature variables can be encoded using one-hot encoding, but should the target variable also be encoded using the same method, or should I use a different encoding method for target variable (e.g., label encoding)?</p> <p>If anyone know the answer, please let me know. I have searched everywhere, but failed to get any clear idea about it. Thank you.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rami02021\"> /u/Rami02021 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1upa8yc/how_should_i_encode_both_target_and_feature/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1upa8yc/how_should_i_encode_both_target_and_feature/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "40d49ec7-366c-5041-a246-96f5f27d0dee",
     "title": "LingBot-Vision: masked boundary modeling for self-supervised pretraining (0.296 NYUv2 linear-probe RMSE at 1.1B vs 0.309 for DINOv3-7B, trails on ImageNet); weights in 4 sizes[R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1up4cjh/lingbotvision_masked_boundary_modeling_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>BMVC reviews will be out tomorrow. Making this parent thread for discussion. All the best everyone!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hot_Version_6403\"> /u/Hot_Version_6403 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulnp4d/bmvc_2026_review_discussion_thread_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulnp4d/bmvc_2026_review_discussion_thread_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "20fb1ec7-0a5f-5b47-b2ea-c5dc173c149b",
-    "title": "Has anyone tried this approach with Fast Byte Latent Transformers ? [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/",
-    "pubDate": "2026-07-02T16:43:33+00:00",
-    "description": "Paper Referred:- https://arxiv.org/pdf/2412.09871v1 Has anyone switched the transformer in the entropy model here to a Mamba model ? What could be the possible changes ? Just a ML fresher asking a genuine, since Mamba is more popular and saves computer (O(n)). Thanking you in advance ! submitted by /u/SoloLeveller07 [link] [comments]",
-    "author": "/u/SoloLeveller07",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Paper Referred:- <a href=\"https://arxiv.org/pdf/2412.09871v1\">https://arxiv.org/pdf/2412.09871v1</a></p> <p>Has anyone switched the transformer in the entropy model here to a Mamba model ? What could be the possible changes ?</p> <p>Just a ML fresher asking a genuine, since Mamba is more popular and saves computer (O(n)). </p> <p>Thanking you in advance !</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SoloLeveller07\"> /u/SoloLeveller07 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

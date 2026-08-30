@@ -1,5 +1,21 @@
 [
   {
+    "id": "0c23fc31-3aac-5658-a776-905817947129",
+    "title": "How we built a SOTA search engine using PostgreSQL, pgvector, and Qwen3 embeddings [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vxyrsr/how_we_built_a_sota_search_engine_using/",
+    "pubDate": "2026-08-25T12:42:36+00:00",
+    "description": "I wrote a technical breakdown of how search works on Papers with Code. The system combines keyword and semantic search, which produced better results than either approach alone. The stack includes: PostgreSQL with pgvector Qwen3-Embedding-0.6B for text embeddings Hugging Face Jobs with an NVIDIA L4 for batch embedding generation Hugging Face Buckets for storing artifacts A live embedding model served through Hugging Face Inference Endpoints The same infrastructure also powers the “related papers” recommendations shown on individual paper pages. Full write-up: How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code I’d be interested to hear how others are implementing hybrid search for research papers or similarly technical content. Disclosure: I work at Hugging Face and on Papers with Code. submitted by /u/NielsRogge [link] [comments]",
+    "author": "/u/NielsRogge",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vxyrsr/how_we_built_a_sota_search_engine_using/\"> <img alt=\"How we built a SOTA search engine using PostgreSQL, pgvector, and Qwen3 embeddings [P]\" src=\"https://preview.redd.it/2x6kbtv3oilh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=607ca224a2a9ddd930fd91eaaa2685c41eeb9159\" title=\"How we built a SOTA search engine using PostgreSQL, pgvector, and Qwen3 embeddings [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I wrote a technical breakdown of how search works on Papers with Code.</p> <p>The system combines keyword and semantic search, which produced better results than either approach alone. The stack includes:</p> <ul> <li>PostgreSQL with pgvector</li> <li>Qwen3-Embedding-0.6B for text embeddings</li> <li>Hugging Face Jobs with an NVIDIA L4 for batch embedding generation</li> <li>Hugging Face Buckets for storing artifacts</li> <li>A live embedding model served through Hugging Face Inference Endpoints</li> </ul> <p>The same infrastructure also powers the “related papers” recommendations shown on individual paper pages.</p> <p>Full write-up: <a href=\"https://huggingface.co/blog/pwc-search\">How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code</a></p> <p>I’d be interested to hear how others are implementing hybrid search for research papers or similarly technical content.</p> <p><em>Disclosure: I work at Hugging Face and on Papers with Code.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NielsRogge\"> /u/NielsRogge </a> <br /> <span><a href=\"https://i.redd.it/2x6kbtv3oilh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vxyrsr/how_we_built_a_sota_search_engine_using/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/2x6kbtv3oilh1.png?width=640&crop=smart&auto=webp&s=607ca224a2a9ddd930fd91eaaa2685c41eeb9159",
+    "isShortVideo": 0
+  },
+  {
     "id": "8b72c555-7401-5c91-b2bf-733640fabf44",
     "title": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weights Model [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vxvzju/continual_learning_of_frontier_models_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been reflecting on this while working on a project recently. Every time we start a new model, we rewrite roughly same scaffolding, data validation checks, feature transformation logic ; all of this is nealy 80 percent identical to last project</p> <p>I tired templating with cookiecutter style project generators. Initially it was okay, but it drifted from reality since noone wants to maintain a template repo. So tired a shared library approach, it helped and was much better. But weiting glue code to wite everything is still bug prone</p> <p>Now i am experimenting with genie code to generate the boilerplate, the repetitive code, config parsing etc. it is decent for that part, though it starts hallucinating if columns increase say lot more than 40-50. It is not silver bullet, but it is cutting down the project setup time from 3 days to less than 1 day</p> <p>So the deep question i am having now is, should we even write code? The config driven approach seems to be good, but eventually we are bound to suffer in a few months time when we start needing something non standard. Is there a middle ground, writing everything from scratch - the opinionated framework that becomes prison. How have you guys been developing? What are you adopting?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wrong_City2251\"> /u/Wrong_City2251 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "8cdf5fe3-a3fc-5f38-8ae4-03d1569571aa",
-    "title": "Research internship at MSR [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vuloyq/research_internship_at_msr_d/",
-    "pubDate": "2026-08-21T16:47:52+00:00",
-    "description": "So got selected for a research internship at MSR, how good is the quality of work and how useful is it to move to Applied sciences or research sciences position at other FAANG companies after the internship. And any perks and other benefits that interns get during microsoft internship? Any tips will be appreciated. Specifically to get into AS at amazon , does this boost my chances? I'll be joining as an SDE-1 at amazon after 6 months so planning to apply internally once I join. So what else should I do to improve my chances to go to AS. submitted by /u/Fuzzy-Pool2415 [link] [comments]",
-    "author": "/u/Fuzzy-Pool2415",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>So got selected for a research internship at MSR, how good is the quality of work and how useful is it to move to Applied sciences or research sciences position at other FAANG companies after the internship. And any perks and other benefits that interns get during microsoft internship? Any tips will be appreciated. Specifically to get into AS at amazon , does this boost my chances? I'll be joining as an SDE-1 at amazon after 6 months so planning to apply internally once I join. So what else should I do to improve my chances to go to AS.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fuzzy-Pool2415\"> /u/Fuzzy-Pool2415 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vuloyq/research_internship_at_msr_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vuloyq/research_internship_at_msr_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

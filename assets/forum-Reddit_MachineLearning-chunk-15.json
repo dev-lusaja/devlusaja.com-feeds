@@ -1,5 +1,21 @@
 [
   {
+    "id": "20fb1ec7-0a5f-5b47-b2ea-c5dc173c149b",
+    "title": "Has anyone tried this approach with Fast Byte Latent Transformers ? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/",
+    "pubDate": "2026-07-02T16:43:33+00:00",
+    "description": "Paper Referred:- https://arxiv.org/pdf/2412.09871v1 Has anyone switched the transformer in the entropy model here to a Mamba model ? What could be the possible changes ? Just a ML fresher asking a genuine, since Mamba is more popular and saves computer (O(n)). Thanking you in advance ! submitted by /u/SoloLeveller07 [link] [comments]",
+    "author": "/u/SoloLeveller07",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Paper Referred:- <a href=\"https://arxiv.org/pdf/2412.09871v1\">https://arxiv.org/pdf/2412.09871v1</a></p> <p>Has anyone switched the transformer in the entropy model here to a Mamba model ? What could be the possible changes ?</p> <p>Just a ML fresher asking a genuine, since Mamba is more popular and saves computer (O(n)). </p> <p>Thanking you in advance !</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SoloLeveller07\"> /u/SoloLeveller07 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "78c68c9a-cea2-5fa4-9284-2cf02295a70c",
     "title": "Books/Resources to improve mathematical foundations for ML research [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1ulmy9g/booksresources_to_improve_mathematical/",
@@ -316,22 +332,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/julian88888888\"> /u/julian88888888 </a> <br /> <span><a href=\"https://arxiv.org/pdf/2604.01527\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uk713d/reap_automatic_curation_of_coding_agent/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cd079ad7-e5e2-519f-b8d5-a45bcec0f440",
-    "title": "How to improve a 5-class Diabetic Retinopathy model (APTOS 2019) – Mixed predictions across classes[P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ujztdd/how_to_improve_a_5class_diabetic_retinopathy/",
-    "pubDate": "2026-06-30T19:58:49+00:00",
-    "description": "Hi everyone, I'm a final-year Computer Engineering student building a Flask-based AI Diabetic Retinopathy Detection system. The web application itself is complete with patient management, authentication, dashboard, PDF report generation, prediction history, and AI inference. The only issue I'm facing is with the AI model. I'm using a 5-class Diabetic Retinopathy classifier trained on the APTOS 2019 dataset. Classes: No DR Mild Moderate Severe Proliferative DR The model predicts all five classes, but the predictions are inconsistent. Examples: Moderate is sometimes classified as Severe or Proliferative. Severe is often classified as Moderate or Proliferative and is rarely predicted correctly. Some fundus images from outside the APTOS dataset produce completely unexpected results. The model sometimes shows very high confidence (90%+) even when the prediction appears incorrect. Things I've already tried: Different pretrained models (including a ResNet50 trained on APTOS) ResNet152 implementation Correct preprocessing (RGB conversion, resizing, normalization) Verified class mapping Softmax confidence scores Test-Time Augmentation (TTA) Image quality validation Top-3 predictions instead of only one prediction I'm trying to understand whether this is: A domain shift problem between APTOS and other datasets? A limitation of the pretrained model? A preprocessing issue? Class imbalance? Or simply expected behavior in 5-class DR classification? I'm also considering using an ensemble (ResNet50 + EfficientNet + DenseNet), but it's difficult to find compatible pretrained 5-class diabetic retinopathy models. I'd really appreciate advice from anyone who has worked on retinal image classification or medical AI. My questions are: Is this level of class confusion common in diabetic retinopathy models? What preprocessing techniques made the biggest improvement for you (CLAHE, retinal cropping, illumination correction, etc.)? Has anyone significantly improved results using ensemble models? Are there any high-quality pretrained 5-class DR models that you'd recommend? If you were in my situation, what would be the first thing you'd investigate to improve prediction consistency? Any suggestions, GitHub repositories, pretrained models, research papers, or personal experiences would be greatly appreciated. Thanks in advance! submitted by /u/Delicious_Corner_754 [link] [comments]",
-    "author": "/u/Delicious_Corner_754",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm a final-year Computer Engineering student building a Flask-based AI Diabetic Retinopathy Detection system. The web application itself is complete with patient management, authentication, dashboard, PDF report generation, prediction history, and AI inference.</p> <p>The only issue I'm facing is with the AI model.</p> <p>I'm using a 5-class Diabetic Retinopathy classifier trained on the APTOS 2019 dataset.</p> <p>Classes:</p> <p>No DR</p> <p>Mild</p> <p>Moderate</p> <p>Severe</p> <p>Proliferative DR</p> <p>The model predicts all five classes, but the predictions are inconsistent.</p> <p>Examples:</p> <p>Moderate is sometimes classified as Severe or Proliferative.</p> <p>Severe is often classified as Moderate or Proliferative and is rarely predicted correctly.</p> <p>Some fundus images from outside the APTOS dataset produce completely unexpected results.</p> <p>The model sometimes shows very high confidence (90%+) even when the prediction appears incorrect.</p> <p>Things I've already tried:</p> <p>Different pretrained models (including a ResNet50 trained on APTOS)</p> <p>ResNet152 implementation</p> <p>Correct preprocessing (RGB conversion, resizing, normalization)</p> <p>Verified class mapping</p> <p>Softmax confidence scores</p> <p>Test-Time Augmentation (TTA)</p> <p>Image quality validation</p> <p>Top-3 predictions instead of only one prediction</p> <p>I'm trying to understand whether this is:</p> <p>A domain shift problem between APTOS and other datasets?</p> <p>A limitation of the pretrained model?</p> <p>A preprocessing issue?</p> <p>Class imbalance?</p> <p>Or simply expected behavior in 5-class DR classification?</p> <p>I'm also considering using an ensemble (ResNet50 + EfficientNet + DenseNet), but it's difficult to find compatible pretrained 5-class diabetic retinopathy models.</p> <p>I'd really appreciate advice from anyone who has worked on retinal image classification or medical AI.</p> <p>My questions are:</p> <ol> <li><p>Is this level of class confusion common in diabetic retinopathy models?</p></li> <li><p>What preprocessing techniques made the biggest improvement for you (CLAHE, retinal cropping, illumination correction, etc.)?</p></li> <li><p>Has anyone significantly improved results using ensemble models?</p></li> <li><p>Are there any high-quality pretrained 5-class DR models that you'd recommend?</p></li> <li><p>If you were in my situation, what would be the first thing you'd investigate to improve prediction consistency?</p></li> </ol> <p>Any suggestions, GitHub repositories, pretrained models, research papers, or personal experiences would be greatly appreciated.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Delicious_Corner_754\"> /u/Delicious_Corner_754 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ujztdd/how_to_improve_a_5class_diabetic_retinopathy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ujztdd/how_to_improve_a_5class_diabetic_retinopathy/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "a1807e5c-9c41-58b3-8a34-dcc8741d6d9f",
+    "title": "NeurIPS accepted papers leaked? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/",
+    "pubDate": "2026-08-30T19:34:25+00:00",
+    "description": "I found this GitHub link, and the HTML file contains ~7k papers. Some are anonymized, and the details seem pretty accurate. It looks like these might actually be the accepted papers. https://github.com/xll0328/NIPS26- Can someone confirm whether this list is legit? I’m hoping it’s just a coincidence since it seems way too early. submitted by /u/Feuilius [link] [comments]",
+    "author": "/u/Feuilius",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I found this GitHub link, and the HTML file contains ~7k papers. Some are anonymized, and the details seem pretty accurate. It looks like these might actually be the accepted papers.</p> <p><a href=\"https://github.com/xll0328/NIPS26-\">https://github.com/xll0328/NIPS26-</a></p> <p>Can someone confirm whether this list is legit? I’m hoping it’s just a coincidence since it seems way too early.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Feuilius\"> /u/Feuilius </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "17140839-f47f-5fab-8f30-4404e8a82955",
     "title": "Reconstructing 3D bone geometry from 2 X-ray silhouettes using a statistical shape model + differentiable rendering [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w2go6l/reconstructing_3d_bone_geometry_from_2_xray/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I am working on an evaluation design and would appreciate criticism before running it.</p> <p>Most coding-agent benchmarks collapse the model and its harness into one score. If a run fails, it is difficult to tell whether the cause was model capability, context assembly, task decomposition, tool design, retry policy, or the acceptance gate. A model can also look worse because the harness truncated its output, or look better because the gate only checked for plausible surface markers.</p> <p>The experiment I am considering crosses two independent variables:</p> <ol> <li><p>Workflow: one monolithic task versus decomposition into bounded slices with explicit contracts and acceptance criteria.</p></li> <li><p>Model policy: frontier-only versus cheapest-capable with escalation after a capability-graded failure.</p></li> </ol> <p>That produces four cells: frontier monolith, routed monolith, frontier decomposed, and routed decomposed. The frontier-decomposed cell seems especially important because it changes the task architecture while holding the model tier fixed.</p> <p>I would freeze the original tasks, source revisions, available tools, total retry budget, final acceptance criteria, validator versions, and the verifier. Every cell would be judged against the same final delivered outcome rather than against the persuasiveness of the agent's report.</p> <p>Proposed primary measures are cost per independently accepted change, false acceptance, false rejection, first-pass accepted yield, verification time, and reproducibility across three fresh runs. Token use, latency, escalation count, and context volume would be secondary measures.</p> <p>The confound I am least satisfied with is budget normalization. Decomposition changes the task distribution and may create more calls, which is part of the architectural treatment, but giving every slice the monolith's full context or retry budget would subsidize the decomposed condition. A shared system-level budget is cleaner, although it may hide which slices actually needed more capacity.</p> <p>There are no results yet, so I am not claiming that decomposition or routing wins. I am trying to make the comparison falsifiable before seeing any outcomes.</p> <p>What would you preregister or change? Would you treat decomposition as part of the system being evaluated, or try to isolate it from model quality more aggressively?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jonah_omninode\"> /u/jonah_omninode </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vy0ki7/what_would_a_fair_benchmark_for_agent/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vy0ki7/what_would_a_fair_benchmark_for_agent/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0c23fc31-3aac-5658-a776-905817947129",
-    "title": "How we built a SOTA search engine using PostgreSQL, pgvector, and Qwen3 embeddings [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vxyrsr/how_we_built_a_sota_search_engine_using/",
-    "pubDate": "2026-08-25T12:42:36+00:00",
-    "description": "I wrote a technical breakdown of how search works on Papers with Code. The system combines keyword and semantic search, which produced better results than either approach alone. The stack includes: PostgreSQL with pgvector Qwen3-Embedding-0.6B for text embeddings Hugging Face Jobs with an NVIDIA L4 for batch embedding generation Hugging Face Buckets for storing artifacts A live embedding model served through Hugging Face Inference Endpoints The same infrastructure also powers the “related papers” recommendations shown on individual paper pages. Full write-up: How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code I’d be interested to hear how others are implementing hybrid search for research papers or similarly technical content. Disclosure: I work at Hugging Face and on Papers with Code. submitted by /u/NielsRogge [link] [comments]",
-    "author": "/u/NielsRogge",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vxyrsr/how_we_built_a_sota_search_engine_using/\"> <img alt=\"How we built a SOTA search engine using PostgreSQL, pgvector, and Qwen3 embeddings [P]\" src=\"https://preview.redd.it/2x6kbtv3oilh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=607ca224a2a9ddd930fd91eaaa2685c41eeb9159\" title=\"How we built a SOTA search engine using PostgreSQL, pgvector, and Qwen3 embeddings [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I wrote a technical breakdown of how search works on Papers with Code.</p> <p>The system combines keyword and semantic search, which produced better results than either approach alone. The stack includes:</p> <ul> <li>PostgreSQL with pgvector</li> <li>Qwen3-Embedding-0.6B for text embeddings</li> <li>Hugging Face Jobs with an NVIDIA L4 for batch embedding generation</li> <li>Hugging Face Buckets for storing artifacts</li> <li>A live embedding model served through Hugging Face Inference Endpoints</li> </ul> <p>The same infrastructure also powers the “related papers” recommendations shown on individual paper pages.</p> <p>Full write-up: <a href=\"https://huggingface.co/blog/pwc-search\">How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code</a></p> <p>I’d be interested to hear how others are implementing hybrid search for research papers or similarly technical content.</p> <p><em>Disclosure: I work at Hugging Face and on Papers with Code.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NielsRogge\"> /u/NielsRogge </a> <br /> <span><a href=\"https://i.redd.it/2x6kbtv3oilh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vxyrsr/how_we_built_a_sota_search_engine_using/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/2x6kbtv3oilh1.png?width=640&crop=smart&auto=webp&s=607ca224a2a9ddd930fd91eaaa2685c41eeb9159",
     "isShortVideo": 0
   }
 ]
