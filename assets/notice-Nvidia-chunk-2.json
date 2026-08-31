@@ -1,5 +1,37 @@
 [
   {
+    "id": "6acfc829-5899-59f8-848e-010e5398f397",
+    "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
+    "link": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/",
+    "pubDate": "2026-07-15T21:57:23+00:00",
+    "description": "OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"A Gif in a warehouse.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nanousd.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nanousd\" width=\"600\" />OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...<img alt=\"A Gif in a warehouse.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nanousd.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nanousd\" width=\"600\" /><p>OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation assets, and real-world telemetry into a shared, physically accurate view of the world. Until now, building a USD implementation has typically required adapting a large existing codebase— even for teams that need a specific memory footprint…</p>\n<p><a href=\"https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "a29b5ec6-7be8-57db-8368-b9bbdf33ffe3",
+    "title": "Building Faster Cryptography with Carryless Multiplication in NVIDIA CUDA 13.3",
+    "link": "https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/",
+    "pubDate": "2026-07-15T17:37:12+00:00",
+    "description": "For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" />For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" /><p>For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that sits underneath authenticated encryption, error-correcting codes, and modern zero-knowledge proofs. Until now, NVIDIA GPUs lacked native support for this operation. NVIDIA CUDA 13.3 closes that gap with , a new PTX instruction available on…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "96dd50ed-22ec-5ab4-a53f-65fcf11a12e7",
     "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
     "link": "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning/",
@@ -316,22 +348,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/02/cybersecurity-ai-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cybersecurity-ai-featured\" width=\"768\" />AI has transformed how organizations operate, driving unprecedented levels of productivity and innovation. However, AI adoption can be impeded by concerns...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/02/cybersecurity-ai-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cybersecurity-ai-featured\" width=\"768\" /><p>AI has transformed how organizations operate, driving unprecedented levels of productivity and innovation. However, AI adoption can be impeded by concerns surrounding data privacy, sovereignty and how to secure data while it is in use, or during inference and engagement with AI models. NVIDIA Confidential Computing (CC) was engineered to be a secure and performant solution for the era of agentic…</p>\n<p><a href=\"https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "60dbbb64-eee1-5912-bc3f-c017dc0e8656",
-    "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-    "link": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/",
-    "pubDate": "2026-07-01T17:04:02+00:00",
-    "description": "Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" />Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" /><p>Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer reinforcement learning with verifiable rewards (RLVR) workflows for reasoning and agent tasks. RL is now becoming a practical technique for specialized AI where enterprises need more accurate agents for domain-specific workflows.</p>\n<p><a href=\"https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
