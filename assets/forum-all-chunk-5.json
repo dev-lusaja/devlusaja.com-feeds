@@ -1,5 +1,37 @@
 [
   {
+    "id": "2bbb9470-b642-5a28-8f40-831fe6d18357",
+    "title": "We’ve got a workshop on production retrieval-augmented generation with open models, benchmarked end to end, thought it’d be relevant here [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vr6cd2/weve_got_a_workshop_on_production/",
+    "pubDate": "2026-08-17T22:02:45+00:00",
+    "description": "There’s a hands-on workshop on August 29 that builds and benchmarks this properly, end to end, using entirely open models, no API calls involved. Led by Ben Auffarth, AI Consultant and Founder of Chelsea AI Ventures. What it covers: • Hybrid retrieval (vector + keyword, not vector alone) • Reranking to catch relevant chunks that vector search alone misses • Evaluation with RAGAS, so quality changes are measured, not assumed • Guardrails built in from the design stage • Actual cost and performance benchmarking for open-model deployments Link if anyone wants to check it out: https://www.eventbrite.co.uk/e/the-genai-build-lab-build-production-ready-rag-on-a-budget-tickets-1994016271345?aff=rml Happy to answer questions on the methodology or content. submitted by /u/camerongreen95 [link] [comments]",
+    "author": "/u/camerongreen95",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>There’s a hands-on workshop on August 29 that builds and benchmarks this properly, end to end, using entirely open models, no API calls involved. Led by Ben Auffarth, AI Consultant and Founder of Chelsea AI Ventures.</p> <p>What it covers:</p> <p><strong>•</strong> Hybrid retrieval (vector + keyword, not vector alone)<br /> <strong>•</strong> Reranking to catch relevant chunks that vector search alone misses<br /> <strong>•</strong> Evaluation with RAGAS, so quality changes are measured, not assumed<br /> <strong>•</strong> Guardrails built in from the design stage<br /> <strong>•</strong> Actual cost and performance benchmarking for open-model deployments</p> <p>Link if anyone wants to check it out: <a href=\"https://www.eventbrite.co.uk/e/the-genai-build-lab-build-production-ready-rag-on-a-budget-tickets-1994016271345?aff=rml\">https://www.eventbrite.co.uk/e/the-genai-build-lab-build-production-ready-rag-on-a-budget-tickets-1994016271345?aff=rml</a></p> <p>Happy to answer questions on the methodology or content.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/camerongreen95\"> /u/camerongreen95 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vr6cd2/weve_got_a_workshop_on_production/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vr6cd2/weve_got_a_workshop_on_production/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "8d642adb-aa37-5260-9167-333ab4ba95e3",
+    "title": "ICLR numbered citations possible? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vr6644/iclr_numbered_citations_possible_r/",
+    "pubDate": "2026-08-17T21:56:06+00:00",
+    "description": "The instructions say Author Year format. But I was wondering if do numbered instead (no space lol), will it be straight desk rejection? Has anyone submitted with numbered format before? How did it go? submitted by /u/confirm-jannati [link] [comments]",
+    "author": "/u/confirm-jannati",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>The instructions say Author Year format. But I was wondering if do numbered instead (no space lol), will it be straight desk rejection? Has anyone submitted with numbered format before? How did it go?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/confirm-jannati\"> /u/confirm-jannati </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vr6644/iclr_numbered_citations_possible_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vr6644/iclr_numbered_citations_possible_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "db9ab9cf-59fe-583a-90e0-93550e02e2fa",
     "title": "How to make any Sparse Attention / KV Compression look good? [D] [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vqqqcs/how_to_make_any_sparse_attention_kv_compression/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1voix4o/local_uncensored_opus_46_at_home_qwen38_27b/\"> <img alt=\"Local uncensored Opus 4.6 at home - Qwen3.8 27B heretic\" src=\"https://external-preview.redd.it/XQ1_sxXmFl6K5_gJsJP8z4I8B1gQ_MVLBEZrKX7Ebo8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=91ed786c45ce05203038097a3d569bac1be7e828\" title=\"Local uncensored Opus 4.6 at home - Qwen3.8 27B heretic\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Someone made a heretic version of Qwen 3.8 27B, giving us a local Opus 4.6 tier model but without any refusals or safeguards!</p> <p>Fuck Dario </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Temporary_Idea8880\"> /u/Temporary_Idea8880 </a> <br /> <span><a href=\"https://huggingface.co/trohrbaugh/Qwen3.8-27B-heretic-ara\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1voix4o/local_uncensored_opus_46_at_home_qwen38_27b/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/XQ1_sxXmFl6K5_gJsJP8z4I8B1gQ_MVLBEZrKX7Ebo8.png?width=640&crop=smart&auto=webp&s=91ed786c45ce05203038097a3d569bac1be7e828",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7bbcb33d-ce21-57d4-a391-3577730c0b1f",
-    "title": "The difference between \"medium\" and \"xhigh\" reasoning effort for Qwen3.8-27B is actually insane.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vohpc8/the_difference_between_medium_and_xhigh_reasoning/",
-    "pubDate": "2026-08-14T19:55:33+00:00",
-    "description": "I'm currently testing out Qwen3.8-27B using Unsloth's UD-Q4_K_XL running a freshly rebuilt llama.cpp. I have a 22GB RTX 2080TI on which I'm able to fit 100k context with q8_0 quantization, and using MTP with --spec-draft-n-max 4 I get about 40tk/s which is slightly less than Qwen3.6-27B but usable enough. I've been trying to test out some admittedly silly one shot prompts using the llama.cpp webui by asking the model to create fully functional HTML clones of flappy bird, pacman and such, and the difference that changing reasoning_effort makes has been surprising to say the least. Setting it to \"medium\" seems to result in barely any thinking at all, a couple thousand tokens max and even less than 3.6-27B. Whereas when using \"xhigh seems\" I get 15k to 20k thinking tokens at the very least with the pacman example actually hitting 40 thousand fucking tokens. I'm well aware I can limit the reasoning budget in llama.cpp but I'm wondering if this is expected model behavior or if something is broken somewhere. Any of you guys seeing this? submitted by /u/SarcasticBaka [link] [comments]",
-    "author": "/u/SarcasticBaka",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm currently testing out Qwen3.8-27B using Unsloth's UD-Q4_K_XL running a freshly rebuilt llama.cpp. I have a 22GB RTX 2080TI on which I'm able to fit 100k context with q8_0 quantization, and using MTP with --spec-draft-n-max 4 I get about 40tk/s which is slightly less than Qwen3.6-27B but usable enough.</p> <p>I've been trying to test out some admittedly silly one shot prompts using the llama.cpp webui by asking the model to create fully functional HTML clones of flappy bird, pacman and such, and the difference that changing reasoning_effort makes has been surprising to say the least.</p> <p>Setting it to &quot;medium&quot; seems to result in barely any thinking at all, a couple thousand tokens max and even less than 3.6-27B. Whereas when using &quot;xhigh seems&quot; I get 15k to 20k thinking tokens at the very least with the pacman example actually hitting 40 thousand fucking tokens.</p> <p>I'm well aware I can limit the reasoning budget in llama.cpp but I'm wondering if this is expected model behavior or if something is broken somewhere. Any of you guys seeing this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SarcasticBaka\"> /u/SarcasticBaka </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vohpc8/the_difference_between_medium_and_xhigh_reasoning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vohpc8/the_difference_between_medium_and_xhigh_reasoning/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "43a53340-67e2-5b01-986d-85121f95b269",
-    "title": "Are there any theoretically-guided practices left in machine learning nowadays? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vohmy4/are_there_any_theoreticallyguided_practices_left/",
-    "pubDate": "2026-08-14T19:52:59+00:00",
-    "description": "There was a period in the development of machine learning where application seemed to be informed by theory. Some of the best known theories include: If you train a model with too much data, then you get overfitting and your test performance will be suffer. Big models do not generalize because theoretically you will never have enough data. Never train on the test set, because it will result in high-bias. Never even look at the test set, because you as a modeller will instantly be biased and use the wrong model. Good results can only come from \"compatible\" models and optimization routines. You can't just throw ADAM onto some brand new model and expect it to work well. Optimization provides solid theory for machine learning, so use the optimizer with the best performance guarantee in the optimization literature. If you want to have good performance, ensure to use several models instead of one model, because stacked or ensemble models are always superior. Most of these theories started out as mathematical statements (albeit on some contrived examples that have nothing to do with reality). At some point, these theories became folklores and were widely reproduced in textbooks and taught in classrooms, even making their ways into standard interview questions at data science related companies. Every student had to remember that bias-variance \"bull's eye\" diagram as if it was relevant in practice. But then some of these theories started to get overturned. It turns out you can just break a lot of these theoretically-guided practices and still get good results. The ones who pushed these theories (especially the authors of various \"statistical ML\" textbooks), quietly stopped their postulation and instead hopped on the hype train. This left their students confused because there was never ever any retraction or resolution. So my question is : are there still any theoretically-guided practice that remain in ML today? For example, do people use an optimizer because it is theoretically the best for the class of problems? Do people use a certain model or components associated with the model because it works well in theory? Or is it now a fully empirical field where practice is guided by whatever seems to work for other people? submitted by /u/NeighborhoodFatCat [link] [comments]",
-    "author": "/u/NeighborhoodFatCat",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>There was a period in the development of machine learning where application seemed to be informed by theory. Some of the best known theories include:</p> <ul> <li>If you train a model with too much data, then you get overfitting and your test performance will be suffer.</li> <li>Big models do not generalize because theoretically you will never have enough data.</li> <li>Never train on the test set, because it will result in high-bias.</li> <li>Never even look at the test set, because you as a modeller will instantly be biased and use the wrong model.</li> <li>Good results can only come from &quot;compatible&quot; models and optimization routines. You can't just throw ADAM onto some brand new model and expect it to work well.</li> <li>Optimization provides solid theory for machine learning, so use the optimizer with the best performance guarantee in the optimization literature.</li> <li>If you want to have good performance, ensure to use several models instead of one model, because stacked or ensemble models are always superior.</li> </ul> <p>Most of these theories started out as mathematical statements (albeit on some contrived examples that have nothing to do with reality). At some point, these theories became folklores and were widely reproduced in textbooks and taught in classrooms, even making their ways into standard interview questions at data science related companies. Every student had to remember that bias-variance &quot;bull's eye&quot; diagram as if it was relevant in practice.</p> <p>But then some of these theories started to get overturned. It turns out you can just break a lot of these theoretically-guided practices and still get good results. The ones who pushed these theories (especially the authors of various &quot;statistical ML&quot; textbooks), quietly stopped their postulation and instead hopped on the hype train. This left their students confused because there was never ever any retraction or resolution.</p> <p><strong>So my question is</strong>: are there still any theoretically-guided practice that remain in ML today? For example, do people use an optimizer because it is theoretically the best for the class of problems? Do people use a certain model or components associated with the model because it works well in theory? Or is it now a fully empirical field where practice is guided by whatever seems to work for other people?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeighborhoodFatCat\"> /u/NeighborhoodFatCat </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vohmy4/are_there_any_theoreticallyguided_practices_left/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vohmy4/are_there_any_theoreticallyguided_practices_left/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

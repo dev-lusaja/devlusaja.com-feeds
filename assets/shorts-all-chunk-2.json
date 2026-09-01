@@ -1,5 +1,21 @@
 [
   {
+    "id": "a17b2d4d-f9f8-5293-aa76-2b1929bb3fbd",
+    "title": "👉🏻 Te dejo la Guía Pro de ChatGPT fijada en los comentarios de este video.",
+    "link": "https://www.youtube.com/shorts/y55lMn-p2JE",
+    "pubDate": "2026-08-03T08:21:45+00:00",
+    "description": "",
+    "author": "Inteligencia Artificial",
+    "sourceTitle": "La Inteligencia Artificial",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg",
+    "sourceCategory": "YouTube_la_inteligencia_artificial",
+    "sourceType": "youtube",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.ytimg.com/vi/y55lMn-p2JE/hqdefault.jpg",
+    "isShortVideo": 1
+  },
+  {
     "id": "4bf39732-d7d1-5ca6-a1ae-f5b7feab382c",
     "title": "NUEVO PODCAST 🔥 | Cerebras: la empresa de chips que desafía a NVIDIA con Andrew Feldman.",
     "link": "https://www.youtube.com/shorts/nHwM-nu0psc",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o0qqRHUDqBerF0QFETHv9AQEEB1VfSwgsRQvam~tplv-tiktokx-origin.image?dr=9636&x-expires=1784664000&x-signature=mKnbja4YJdA3iGITDu3xGsPWMDs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5",
-    "isShortVideo": 1
-  },
-  {
-    "id": "8a666d4a-1454-5184-93f5-3beeac7ca6f4",
-    "title": "Detectar un bache en una imagen puede parecer sencillo. Sin embargo, construir un sistema capaz de identificarlo, delimitarlo, medirlo y georreferenciarlo de manera confiable es un problema considerab",
-    "link": "https://www.tiktok.com/@_ingeniia/photo/7662914931477597461",
-    "pubDate": "2026-07-19T20:49:02.569122+00:00",
-    "description": "Detectar un bache en una imagen puede parecer sencillo. Sin embargo, construir un sistema capaz de identificarlo, delimitarlo, medirlo y georreferenciarlo de manera confiable es un problema considerablemente más complejo, aquí los desafíos mas importantes que hemos enfrentado hasta ahora. 📌 1. Definir correctamente la taxonomía 📋 Inicialmente definimos una sola clase: baches. Sin embargo, en escenarios reales aparecen elementos visualmente similares, como registros sanitarios, tapas de alcantarillado, rejillas pluviales, reparaciones de asfalto, sombras, manchas y cambios de textura. Por ello, la taxonomía evolucionó hasta incluir cuatro clases principales: Baches. Grietas. Registros o tapas de alcantarillado. Rejillas pluviales. 2. Construir anotaciones de alta calidad 📂 Los baches y las grietas presentan una enorme diversidad de formas, tamaños, profundidades aparentes y condiciones visuales. Cada máscara debe seguir cuidadosamente el contorno del daño, evitando incluir sombras, material desprendido, agua, suciedad o zonas de pavimento sano. Este proceso requiere cientos de horas de trabajo y no puede considerarse una tarea secundaria. En segmentación, el modelo aprende directamente de las máscaras proporcionadas durante el entrenamiento: una anotación imprecisa establece un límite directo sobre la precisión que puede alcanzar el sistema. 3. Pasar de la segmentación a la medición 📏 Para obtener una estimación métrica utilizamos un proceso de calibración geométrica que contempla: Calibración intrínseca de la cámara, para estimar parámetros como distancia focal, centro óptico y distorsión de la lente. Corrección de la distorsión óptica, especialmente importante en cámaras con gran campo de visión. Estimación de la pose de la cámara respecto al pavimento. Transformación homográfica del plano de la carretera, generando una vista cenital. Conversión de la máscara rectificada a unidades métricas, utilizando una escala conocida. Los tableros ChArUco resultan especialmente útiles durante la calibración, ya que combinan esquinas de un tablero de ajedrez con identificadores ArUco. Con este procedimiento podremos estimar el área superficial de cada daño en cm² o m².   El verdadero desafío consiste en transformar una predicción visual en información geométrica, geográfica y operativamente útil para apoyar decisiones reales de mantenimiento vial. Seguiremos compartiendo los avances, experimentos y aprendizajes obtenidos durante el desarrollo de este servicio. creado por inGeniia con la música Originalton de Bassfahrer\n\nVistas: 1295",
-    "author": "@_ingeniia",
-    "sourceTitle": "Ingeniia",
-    "sourceUrl": "https://www.tiktok.com/@_ingeniia",
-    "sourceCategory": "TikTok_Ingeniia",
-    "sourceType": "tiktok",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-i-photomode-sg/0bc8f20791304072ba143f7febe4bc2b~tplv-photomode-image.jpeg?dr=9616&x-expires=1784664000&x-signature=Ofs%2Bmh3B5MIqivNDi8YCwD397%2B8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=useast5&ftpl=1",
     "isShortVideo": 1
   }
 ]
