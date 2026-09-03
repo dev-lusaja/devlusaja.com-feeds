@@ -1,5 +1,21 @@
 [
   {
+    "id": "b4449bf1-85a2-55be-adae-cda01bd384e5",
+    "title": "If you had a bunch of GPUs lying around, what would you actually build with them? (Running LLMs is off the table) [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/",
+    "pubDate": "2026-08-15T07:26:32+00:00",
+    "description": "Be honest if someone dropped a stack of high-end GPUs on your desk tomorrow, what would you actually do with them? And before the usual answers roll in: running local LLMs is banned for this thread. It’s been done to death and feels pretty pointless at this point. So… what else? Some niche scientific/simulation workload? Weird generative stuff that isn’t text? Distributed something-or-other? Rendering / media pipeline? Homelab experiments that actually need the horsepower? Completely unhinged personal projects? Drop your ideas. The more specific (and slightly unhinged), the better. Great Ideas but are there some with more of research and new tech. submitted by /u/BadOk2793 [link] [comments]",
+    "author": "/u/BadOk2793",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Be honest if someone dropped a stack of high-end GPUs on your desk tomorrow, what would you actually <em>do</em> with them?</p> <p>And before the usual answers roll in: running local LLMs is banned for this thread. It’s been done to death and feels pretty pointless at this point.</p> <p>So… what else?</p> <ul> <li>Some niche scientific/simulation workload?</li> <li>Weird generative stuff that isn’t text?</li> <li>Distributed something-or-other?</li> <li>Rendering / media pipeline?</li> <li>Homelab experiments that actually need the horsepower?</li> <li>Completely unhinged personal projects?</li> </ul> <p>Drop your ideas. The more specific (and slightly unhinged), the better.</p> <p><strong>Great Ideas but are there some with more of research and new tech.</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BadOk2793\"> /u/BadOk2793 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b859260d-57cf-5f2d-8799-a3c34a3fe511",
     "title": "GitHub - meta-models/meta-oss-cookbook: All recipes for oss models from Meta Inc.",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vovb5a/github_metamodelsmetaosscookbook_all_recipes_for/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Been working on this for the last few months. I've been working on PyTorch for the past few years and I always felt, many a times my work went into dump, because of some mistakes I made in the code. <strong>torch-preflight</strong> reads your PyTorch code and catches the bugs costing you GPU hours.</p> <p>Things like losses.append(loss), which holds the autograd graph from every step until CUDA dies on you or no zero_grad() in the loop or gradient accumulation without dividing the loss or DDP with no DistributedSampler, so every rank trains on the same batches. I've been able to get 13 rules so far. Your code never gets imported or executed, so you need no GPU and no torch install.</p> <p>There's another part to this that estimates VRAM. Point the tool at a training script and a GPU, and you learn whether the run fits before you pay for the instance. You also get the list of changes to make the run fit, with the GiB each one saves.</p> <pre><code>pip install torch-preflight </code></pre> <p><a href=\"https://github.com/highwaterlabs/torch-preflight\">https://github.com/highwaterlabs/torch-preflight</a></p> <p><a href=\"https://pypi.org/project/torch-preflight/\">https://pypi.org/project/torch-preflight/</a></p> <p>Please try this out, and I would like to get your feedback! It's still a work in progeress. </p> <p>Would like to know what breaks on your code. False positives kill a linter, and my only large test target so far has been the PyTorch source tree. Same for the memory numbers. Mine land within 4% of measured peaks, but from four models on one T4.</p> <p>PS: open to contributions, and issues are already open on the repo. Soon I'm going to add a few &quot;Good first issues&quot; as well. Feel free to ping me if you have any questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LeJanbandhu\"> /u/LeJanbandhu </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo8vv0/a_linter_for_pytorch_torchpreflight_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo8vv0/a_linter_for_pytorch_torchpreflight_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b05b5f45-485f-5056-a53e-cd122be941bd",
-    "title": "For the people who got reviews back from neurips, cvpr, eccv, etc and also tested their paper through an agentic reviewer like the stanford one, how different were the reviews? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/",
-    "pubDate": "2026-08-14T12:26:29+00:00",
-    "description": "Hello, I was curious about the differences you can get from the human reviewers and the llms. Any insight is welcome, thank you! submitted by /u/obliviousphoenix2003 [link] [comments]",
-    "author": "/u/obliviousphoenix2003",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I was curious about the differences you can get from the human reviewers and the llms.</p> <p>Any insight is welcome, thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/obliviousphoenix2003\"> /u/obliviousphoenix2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

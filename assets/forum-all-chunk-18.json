@@ -1,5 +1,21 @@
 [
   {
+    "id": "401b68ed-2f69-5fc8-9408-6e755beb5ba1",
+    "title": "We'll benchmark an Open weights LLM on any GPU you choose — drop your model + hardware and we'll run it. [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/",
+    "pubDate": "2026-07-04T18:51:07+00:00",
+    "description": "We run HexGrid Cloud, a platform for deploying open-source models on GPUs, and we're heads-down optimizing our serving/deployment layer. To pressure-test it we're benchmarking real models under real concurrency — and instead of guessing, we'd rather run what you actually want to see. --- Models available for benchmarking : Nemotron-3 Super 120B-A12B (only NVFP4) Nemotron-3 Nano 30B A3B Qwen-3.6 27B Llama 3.3 70B Instruct Gemma-4 31B Devstral-Small-2-24B-Instruct-2512 ?? ( you suggest a model to us ) We're focused on chat/instruct models for now (that's what most of our users deploy), so pick one from the list above — or suggest another open-weight chat model that fits on a single H200 (141GB). --- Hardware & quant choices : GPU (up to H200 for this round): RTX PRO 6000 · L40S · H100 · H200 Quant : FP8 / AWQ / BF16 Context length: (8K, 32K, 64K, 128K) What you want measured : max throughput? single-stream speed? long-context prefill? --- We'll run the top picks and post full results — tokens/sec, TTFT, TPOT, throughput under concurrency, and cost-per-million-tokens — config and flags included so it's reproducible. Let us know in comments. submitted by /u/Temporary-Owl1725 [link] [comments]",
+    "author": "/u/Temporary-Owl1725",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We run HexGrid Cloud, a platform for deploying open-source models on GPUs, and we're heads-down optimizing our serving/deployment layer.</p> <p>To pressure-test it we're benchmarking real models under real concurrency — and instead of guessing, we'd rather run what you actually want to see.</p> <p>---</p> <p><strong>Models available for benchmarking</strong>:</p> <ul> <li>Nemotron-3 Super 120B-A12B (only NVFP4)</li> <li>Nemotron-3 Nano 30B A3B</li> <li>Qwen-3.6 27B</li> <li>Llama 3.3 70B Instruct</li> <li>Gemma-4 31B</li> <li>Devstral-Small-2-24B-Instruct-2512</li> <li>?? (<strong>you suggest a model to us</strong>)</li> </ul> <p>We're focused on <strong>chat/instruct</strong> models for now (that's what most of our users deploy), so pick one from the list above — or suggest another open-weight chat model that fits on a single H200 (141GB).</p> <p>---</p> <p><strong>Hardware &amp; quant choices</strong>:</p> <ul> <li><strong>GPU</strong> (up to H200 for this round): RTX PRO 6000 · L40S · H100 · H200</li> <li><strong>Quant</strong>: FP8 / AWQ / BF16</li> <li><strong>Context length:</strong> (8K, 32K, 64K, 128K)</li> <li><strong>What you want measured</strong>: max throughput? single-stream speed? long-context prefill?</li> </ul> <p>---</p> <p>We'll run the top picks and post full results — tokens/sec, TTFT, TPOT, throughput under concurrency, and cost-per-million-tokens — config and flags included so it's reproducible.</p> <p>Let us know in comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Temporary-Owl1725\"> /u/Temporary-Owl1725 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "1a943563-22bd-5821-aa6f-23a671f45e77",
     "title": "Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/",
@@ -76,22 +92,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We built a model diffing method that recovers verbatim content from narrowly finetuned LLMs using only grey-box logit access (no weights, no activations, no probe corpus).</p> <p>Recent work (Minder, Dumas et al., &quot;Narrow Finetuning Leaves Clearly Readable Traces in Activation Differences&quot;) showed that finetuning leaves detectable traces in activation differences between base and finetuned models. Their method, Activation Difference Lens (ADL), steers generation using these differences, but it's whitebox (needs full weight access) and only recovers a vague, domain-level description of what the finetuning was about.</p> <p>We introduce Contrastive Decoding Diffing (CDD), the output-level analog. Instead of steering with activation differences, we contrast the base and finetuned model's logits directly. A single default configuration, no per-organism calibration, no layer selection, achieves a verbatim recovery score of 4+/5 on 19/20 organism x model pairs across four model families (1B to 32B params) on the SDF benchmark. ADL never exceeds 3/5 on the same benchmark, despite requiring full weight access.</p> <p>One unplanned finding: across four semantically unrelated finetuning domains (fake FDA drug approval, fake baking protocols, fake Roman concrete research), the same fictional persona kept showing up in the recovered text: &quot;Dr. Elena Rodriguez.&quot; Turns out this is a name Claude Sonnet 3.6 disproportionately favors when asked to generate a fictional scientist for synthetic data generation, so it got baked into every finetune that used LLM-generated training data, and CDD pulled it back out. We wrote up this specific finding on its own a few weeks back if you want the more accessible version first: <a href=\"https://www.reddit.com/r/MachineLearning/s/2nCYh9debS\">ghost couple</a></p> <p>Paper: <a href=\"https://arxiv.org/abs/2605.25902\">paper</a></p> <p>Code: <a href=\"https://github.com/SamsungLabs/contrastive_decoding_diffing\">code</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CebulkaZapiekana\"> /u/CebulkaZapiekana </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2d47f66e-7ea1-5c1c-a703-1e99556d11c0",
-    "title": "Small Language Model SLM [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/",
-    "pubDate": "2026-07-03T16:17:27+00:00",
-    "description": "Hi, I am supposed to prepare for SLM and its software part for an on campus internship, i've worked with local models like ollama generally,in my projects and also with open claw so can anyone guide me the last 2-3 days tips on what should i go through for this internship prep?? submitted by /u/Idea_less_ [link] [comments]",
-    "author": "/u/Idea_less_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I am supposed to prepare for SLM and its software part for an on campus internship, i've worked with local models like ollama generally,in my projects and also with open claw so can anyone guide me the last 2-3 days tips on what should i go through for this internship prep??</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Idea_less_\"> /u/Idea_less_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umissr/small_language_model_slm_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

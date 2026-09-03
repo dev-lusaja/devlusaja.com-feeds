@@ -1,5 +1,21 @@
 [
   {
+    "id": "11ec09b6-fd86-570e-9602-fbd0f06c8771",
+    "title": "Semi Edge Inference Idea [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/",
+    "pubDate": "2026-08-10T10:58:11+00:00",
+    "description": "Today the most important factor in AI is cost. My idea is to split ML models inference (closed ones, proprietary) across server and edge computing on clients, and I would like to hear what do you think about this thing. For example some of model weights/modules would be on client, and some on the server side (where user has no access to them). This could potentially un-load some processing from datacenters, moving part of the cost to the client hardware. Probbably the most important question here will be how to achieve this - and I believe one hypothetical option will be to train like two separate models - client model and server model, and they will communicate through tensors/latent representations across network protocol. Secondly such split of server side and client side model ends, can provide later some beneficial outcomes I hope (because in between \"talk\" protocol can be maybe kind of standarized one in some future development, but this is only more like brainstorm now). Such split might not only be one-to-one, but one-to-many, many-to-many etc. What do you think about this idea? submitted by /u/komorra [link] [comments]",
+    "author": "/u/komorra",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Today the most important factor in AI is cost. My idea is to split ML models inference (closed ones, proprietary) across server and edge computing on clients, and I would like to hear what do you think about this thing.</p> <p>For example some of model weights/modules would be on client, and some on the server side (where user has no access to them). This could potentially un-load some processing from datacenters, moving part of the cost to the client hardware. Probbably the most important question here will be how to achieve this - and I believe one hypothetical option will be to train like two separate models - client model and server model, and they will communicate through tensors/latent representations across network protocol.</p> <p>Secondly such split of server side and client side model ends, can provide later some beneficial outcomes I hope (because in between &quot;talk&quot; protocol can be maybe kind of standarized one in some future development, but this is only more like brainstorm now). Such split might not only be one-to-one, but one-to-many, many-to-many etc.</p> <p>What do you think about this idea?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/komorra\"> /u/komorra </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "258267f4-6a06-5353-bef0-aa45fdcf844b",
     "title": "Comparing embedding models with synthetic query probing [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vkh1ul/comparing_embedding_models_with_synthetic_query/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vh2gn1/roundtrip_consistency_bidirectional_diffusion/\"> <img alt=\"Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors [R]\" src=\"https://preview.redd.it/do9dnbn6xqhh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=617d6a696d01fe6c1400dfe1a478504a401b02cf\" title=\"Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Whether generating CELEBV-HQ videos or turbulent plasma fields (digital twins), autoregressive models (such as latent diffusion or flow models) accumulate error over long rollouts, yet at deployment there is no ground truth to measure against. </p> <p>I train a single conditional latent diffusion model that steps a dynamical system forward or backward in time via a direction flag, and show that this bidirectionality supplies a measurement-free test-time error signal: rolling forward steps and then backward steps must return the model to its start, so the round-trip discrepancy is a self-supervised proxy for the unobservable rollout error: no ensembles, no held-out data, no governing equations, for one extra rollout.</p> <p>Furthermore, training both directions in one network is shown to beat two specialist models in both directions.</p> <p>Paper: <a href=\"https://arxiv.org/abs/2608.00675\">https://arxiv.org/abs/2608.00675</a><br /> Code (data generation, training, analysis): <a href=\"https://github.com/alexscheinker/round-trip-consistency\">https://github.com/alexscheinker/round-trip-consistency</a><br /> Project page: <a href=\"https://alexscheinker.github.io/roundtrip.html\">https://alexscheinker.github.io/roundtrip.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Clean-Hovercraft5825\"> /u/Clean-Hovercraft5825 </a> <br /> <span><a href=\"https://i.redd.it/do9dnbn6xqhh1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vh2gn1/roundtrip_consistency_bidirectional_diffusion/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/do9dnbn6xqhh1.jpeg?width=640&crop=smart&auto=webp&s=617d6a696d01fe6c1400dfe1a478504a401b02cf",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cb8b34cb-daf0-5e4a-b578-27af26e0343a",
-    "title": "[R], Need some best model suggestions for Face Detection,Face Recognition,Body Detection and Body identification. [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vgx5dk/r_need_some_best_model_suggestions_for_face/",
-    "pubDate": "2026-08-06T07:17:29+00:00",
-    "description": "​ need those for analysing movies. example let's say I have to find the screentime of the actor over the whole runtime of the movie and i need to do it for the protagonist, antoganist,comedic relief ,love interest etc. currently I'm working with 1fps to find the faces and body or the actors. body detection is hard I need some guidance regarding that. even for Face Detection I used MTCNN it was good. but any other better models available?? Any ideas regarding TransNetV2 ? I'm using it for shot boundary detection but there's was one false positive. Any better models?? submitted by /u/negativedreammachine [link] [comments]",
-    "author": "/u/negativedreammachine",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>&#x200b;</p> <p>need those for analysing movies.</p> <p>example let's say I have to find the screentime of the actor over the whole runtime of the movie and i need to do it for the protagonist, antoganist,comedic relief ,love interest etc.</p> <p>currently I'm working with 1fps to find the faces and body or the actors.</p> <p>body detection is hard I need some guidance regarding that.</p> <p>even for Face Detection I used MTCNN it was good. but any other better models available??</p> <p>Any ideas regarding TransNetV2 ?</p> <p>I'm using it for shot boundary detection but there's was one false positive.</p> <p>Any better models??</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/negativedreammachine\"> /u/negativedreammachine </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgx5dk/r_need_some_best_model_suggestions_for_face/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgx5dk/r_need_some_best_model_suggestions_for_face/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

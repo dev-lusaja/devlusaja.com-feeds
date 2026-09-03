@@ -1,5 +1,21 @@
 [
   {
+    "id": "e82bb64f-f22c-5bdd-ad86-d250483d4d1d",
+    "title": "vote for the Qwen 3.8",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/",
+    "pubDate": "2026-08-31T12:27:50+00:00",
+    "description": "Remember to vote and comments guys ;) https://x.com/QwenDevs/status/2094389239761031591 submitted by /u/jacek2023 [link] [comments]",
+    "author": "/u/jacek2023",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/\"> <img alt=\"vote for the Qwen 3.8\" src=\"https://preview.redd.it/1h09d4erepmh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=95d159a4aa920be42fbd80677cab3bc65aa2a898\" title=\"vote for the Qwen 3.8\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Remember to vote and comments guys ;)</p> <p><a href=\"https://x.com/QwenDevs/status/2094389239761031591\">https://x.com/QwenDevs/status/2094389239761031591</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://i.redd.it/1h09d4erepmh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/1h09d4erepmh1.png?width=640&crop=smart&auto=webp&s=95d159a4aa920be42fbd80677cab3bc65aa2a898",
+    "isShortVideo": 0
+  },
+  {
     "id": "9c54203c-97aa-588b-83ea-2d5b388dce89",
     "title": "Does anyone have real experience with Ornith-1.5-9B for coding",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bx1n/does_anyone_have_real_experience_with_ornith159b/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/\"> <img alt=\"You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]\" src=\"https://preview.redd.it/y2ez5kvccdmh1.jpg?width=140&amp;height=77&amp;auto=webp&amp;s=f1eca7fbdb7fe15a973e7a88ffa00d31c695209b\" title=\"You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/y2ez5kvccdmh1.jpg?width=2859&amp;format=pjpg&amp;auto=webp&amp;s=3f80362f7124fab5cfe5d2798746d68e637bce13\">You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm</a></p> <p>Time Series Anomaly Detection (TSAD) seems to be one of the hottest topics in NeurIPS, SIGKDD, VLDB etc.</p> <p>Many (perhaps most) papers evaluate on Paparrizos’ <em>TSB-AD-M benchmark…</em></p> <p>However, I tested these benchmark datasets and found that in most cases I could beat the SOTA TSAD methods with a 100-year-old algorithm, simple Statistical Process Control (SPC). In the attached example, SPC gets <em>perfect</em> results.</p> <p>If we can beat the SOTA papers with 100-year-old algorithm, we probably should not be too impressed with them [b]. I really think this calls for some introspection by the community.</p> <p>To be clear, I make no claims (here) about the proposed algorithms in all these paper. But the TSB-AD benchmark is obviously too trivial to make meaningful claims on [a][b].</p> <p>The example shown is one of the ECG traces but look at dozen of traces marked “TAO”, they are even more trivial to solve with SPC [a][c].</p> <p>I do not claim to have solved the triviality problem, but I have done 90% of the work to introduce more challenging TSAD problems ([d] sled dogs, [e] Tuna, Fuel Cells, Smart Manufacturing etc.).</p> <p> </p> <p><strong>TLDR:</strong> I think the TSAD community needs more introspection on benchmarks. Most progress over the last decade seems to be illusionary. </p> <p> </p> <p>[a] <a href=\"https://www.youtube.com/watch?v=VftCMSI3C_s\">https://www.youtube.com/watch?v=VftCMSI3C_s</a></p> <p>[b] <a href=\"https://www.dropbox.com/scl/fi/31zuyhejb6sdjrom20frn/Problems-with-Time-Series-Anomaly-Detection.pptx?rlkey=mvcj1wz5s45kgazezopnih2h7&amp;dl=0\">https://www.dropbox.com/scl/fi/31zuyhejb6sdjrom20frn/Problems-with-Time-Series-Anomaly-Detection.pptx?rlkey=mvcj1wz5s45kgazezopnih2h7&amp;dl=0</a></p> <p>[c] <a href=\"https://www.dropbox.com/scl/fi/42fkf9q9hft2224dnm83v/The-TSB-AD-Benchmarks-are-Nonsense.pptx?rlkey=5fwjopie5ncjhkgr0wqhdm2lp&amp;dl=0\">https://www.dropbox.com/scl/fi/42fkf9q9hft2224dnm83v/The-TSB-AD-Benchmarks-are-Nonsense.pptx?rlkey=5fwjopie5ncjhkgr0wqhdm2lp&amp;dl=0</a></p> <p>[d] <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7488825356494237696/\">https://www.linkedin.com/feed/update/urn:li:activity:7488825356494237696/</a></p> <p>[e] <a href=\"https://www.dropbox.com/scl/fi/hettphvtpyrksggfect9d/Tutorial-on-Pan-Matrix-Profile.pptx?rlkey=p59gd2w56fxl9kl2fh5q819oo&amp;dl=0\">https://www.dropbox.com/scl/fi/hettphvtpyrksggfect9d/Tutorial-on-Pan-Matrix-Profile.pptx?rlkey=p59gd2w56fxl9kl2fh5q819oo&amp;dl=0</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eamonnkeogh\"> /u/eamonnkeogh </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/y2ez5kvccdmh1.jpg?width=140&height=77&auto=webp&s=f1eca7fbdb7fe15a973e7a88ffa00d31c695209b",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f1232336-a627-5891-9b14-390001bf1fd4",
-    "title": "Finished ML + DL — what should I do next? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1w1tr86/finished_ml_dl_what_should_i_do_next_d/",
-    "pubDate": "2026-08-29T18:17:07+00:00",
-    "description": "I’ve recently completed learning Machine Learning and Deep Learning, including the mathematics behind the major concepts and algorithms rather than just learning to use libraries. My long-term goal is to eventually become capable of doing research at the level of NeurIPS, ICML, and ICLR. I’m not expecting to jump directly to those conferences, that’s simply the end goal. So I’d like advice on the following things: What projects should I build next? What should I learn next? How should I start doing research? What is a realistic roadmap toward publishing at top ML conferences? submitted by /u/ANUBHAW7410 [link] [comments]",
-    "author": "/u/ANUBHAW7410",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve recently completed learning Machine Learning and Deep Learning, including the mathematics behind the major concepts and algorithms rather than just learning to use libraries.</p> <p>My long-term goal is to eventually become capable of doing research at the level of NeurIPS, ICML, and ICLR. I’m not expecting to jump directly to those conferences, that’s simply the end goal.</p> <p>So I’d like advice on the following things:</p> <ol> <li>What projects should I build next?</li> <li>What should I learn next?</li> <li>How should I start doing research?</li> <li>What is a realistic roadmap toward publishing at top ML conferences?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ANUBHAW7410\"> /u/ANUBHAW7410 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1tr86/finished_ml_dl_what_should_i_do_next_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1tr86/finished_ml_dl_what_should_i_do_next_d/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "932a1683-4d5c-5b12-b56d-594ca1f215dc",
+    "title": "COLM 2026 Decision Discussion [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uqr2ev/colm_2026_decision_discussion_r/",
+    "pubDate": "2026-07-08T12:20:24+00:00",
+    "description": "COLM 2026 Decision about to come soon so lets talk here. submitted by /u/North_Menu718 [link] [comments]",
+    "author": "/u/North_Menu718",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>COLM 2026 Decision about to come soon so lets talk here.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/North_Menu718\"> /u/North_Menu718 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uqr2ev/colm_2026_decision_discussion_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uqr2ev/colm_2026_decision_discussion_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0f9c147a-f9d7-5322-a532-f051e8f88840",
     "title": "ECCV: Will there be another confirmation after “provisionally accepted”? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uqj6i3/eccv_will_there_be_another_confirmation_after/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/\"> <img alt=\"If your GPU can run inference, it should be able to fine-tune too. [P]\" src=\"https://external-preview.redd.it/tJiyaDh2kitc1_2PamSep77jZzZKRn0ulQtOKK2KIHk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=162da8eb861430b130052c274775e37372a5a4f1\" title=\"If your GPU can run inference, it should be able to fine-tune too. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**.</p> <p>The goal was simple: if your GPU can run inference on an MoE model, it should also be able to fine-tune it.</p> <p>On my AMD RX 6750 XT (12 GB), I can fine-tune Qwen3-30B-A3B by training sparse expert weights and the router instead of adapters.</p> <p>The project is completely open source under the Apache 2.0 license. I'm not trying to build a business, sell anything, or monetize it in any way—I just wanted to share something I built that I think is genuinely interesting.</p> <p>I'd love to hear your feedback, especially from people working with MoE models.</p> <p>GitHub: <a href=\"https://github.com/tsuyu122/usaf\">https://github.com/tsuyu122/usaf</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tsuyu122\"> /u/tsuyu122 </a> <br /> <span><a href=\"https://github.com/tsuyu122/usaf\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/tJiyaDh2kitc1_2PamSep77jZzZKRn0ulQtOKK2KIHk.png?width=640&crop=smart&auto=webp&s=162da8eb861430b130052c274775e37372a5a4f1",
-    "isShortVideo": 0
-  },
-  {
-    "id": "401b68ed-2f69-5fc8-9408-6e755beb5ba1",
-    "title": "We'll benchmark an Open weights LLM on any GPU you choose — drop your model + hardware and we'll run it. [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/",
-    "pubDate": "2026-07-04T18:51:07+00:00",
-    "description": "We run HexGrid Cloud, a platform for deploying open-source models on GPUs, and we're heads-down optimizing our serving/deployment layer. To pressure-test it we're benchmarking real models under real concurrency — and instead of guessing, we'd rather run what you actually want to see. --- Models available for benchmarking : Nemotron-3 Super 120B-A12B (only NVFP4) Nemotron-3 Nano 30B A3B Qwen-3.6 27B Llama 3.3 70B Instruct Gemma-4 31B Devstral-Small-2-24B-Instruct-2512 ?? ( you suggest a model to us ) We're focused on chat/instruct models for now (that's what most of our users deploy), so pick one from the list above — or suggest another open-weight chat model that fits on a single H200 (141GB). --- Hardware & quant choices : GPU (up to H200 for this round): RTX PRO 6000 · L40S · H100 · H200 Quant : FP8 / AWQ / BF16 Context length: (8K, 32K, 64K, 128K) What you want measured : max throughput? single-stream speed? long-context prefill? --- We'll run the top picks and post full results — tokens/sec, TTFT, TPOT, throughput under concurrency, and cost-per-million-tokens — config and flags included so it's reproducible. Let us know in comments. submitted by /u/Temporary-Owl1725 [link] [comments]",
-    "author": "/u/Temporary-Owl1725",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>We run HexGrid Cloud, a platform for deploying open-source models on GPUs, and we're heads-down optimizing our serving/deployment layer.</p> <p>To pressure-test it we're benchmarking real models under real concurrency — and instead of guessing, we'd rather run what you actually want to see.</p> <p>---</p> <p><strong>Models available for benchmarking</strong>:</p> <ul> <li>Nemotron-3 Super 120B-A12B (only NVFP4)</li> <li>Nemotron-3 Nano 30B A3B</li> <li>Qwen-3.6 27B</li> <li>Llama 3.3 70B Instruct</li> <li>Gemma-4 31B</li> <li>Devstral-Small-2-24B-Instruct-2512</li> <li>?? (<strong>you suggest a model to us</strong>)</li> </ul> <p>We're focused on <strong>chat/instruct</strong> models for now (that's what most of our users deploy), so pick one from the list above — or suggest another open-weight chat model that fits on a single H200 (141GB).</p> <p>---</p> <p><strong>Hardware &amp; quant choices</strong>:</p> <ul> <li><strong>GPU</strong> (up to H200 for this round): RTX PRO 6000 · L40S · H100 · H200</li> <li><strong>Quant</strong>: FP8 / AWQ / BF16</li> <li><strong>Context length:</strong> (8K, 32K, 64K, 128K)</li> <li><strong>What you want measured</strong>: max throughput? single-stream speed? long-context prefill?</li> </ul> <p>---</p> <p>We'll run the top picks and post full results — tokens/sec, TTFT, TPOT, throughput under concurrency, and cost-per-million-tokens — config and flags included so it's reproducible.</p> <p>Let us know in comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Temporary-Owl1725\"> /u/Temporary-Owl1725 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

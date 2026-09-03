@@ -1,5 +1,21 @@
 [
   {
+    "id": "b05b5f45-485f-5056-a53e-cd122be941bd",
+    "title": "For the people who got reviews back from neurips, cvpr, eccv, etc and also tested their paper through an agentic reviewer like the stanford one, how different were the reviews? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/",
+    "pubDate": "2026-08-14T12:26:29+00:00",
+    "description": "Hello, I was curious about the differences you can get from the human reviewers and the llms. Any insight is welcome, thank you! submitted by /u/obliviousphoenix2003 [link] [comments]",
+    "author": "/u/obliviousphoenix2003",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I was curious about the differences you can get from the human reviewers and the llms.</p> <p>Any insight is welcome, thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/obliviousphoenix2003\"> /u/obliviousphoenix2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "691dcfaa-1532-5693-801a-454876312450",
     "title": "Building text to ASCII diffusion model , need advice and guidance [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vo3m71/building_text_to_ascii_diffusion_model_need/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><em>Wowee!! Just when you thought it couldn't get better for open weight models, we probably have had our best period yet!?!?! Models that rival the closed frontier, Opus level models on non-insane hardware and more. A massive industry alliance coming out in support of open AI in response to the two closed model giants best lobbying efforts. Is this the best timeline? Someone pinch me!</em> <strong><em>Or just tell us what you're favorite model is now</em></strong></p> <p><strong>The standard spiel:</strong></p> <p>Share what you are running right now and why. Given the nature of the beast in evaluating LLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage (how much, personal/professional use), tools/frameworks/prompts etc.</p> <p><strong>Rules</strong></p> <ol> <li>Only open weights models</li> <li>Please thread your responses in the top level comments for each Application below to enable readability: <ol> <li>General: Includes practical guidance, how to, encyclopedic QnA, search engine replacement/augmentation</li> <li>Agentic/Agentic Coding/Tool Use/Coding</li> <li>Creative Writing/RP</li> <li>Speciality</li> </ol></li> </ol> <p>If a category is missing, please create a top level comment under the Speciality comment</p> <p><strong>Notes</strong></p> <p>Bonus points if you breakdown/classify your recommendation by model memory footprint: (you can and should be using multiple models in each size range for different tasks)</p> <ul> <li>Unlimited: &gt;128GB VRAM</li> <li>XL: 64 to 128GB VRAM</li> <li>L: 32 to 64GB VRAM</li> <li>M: 8 to 32GB VRAM</li> <li>S: &lt;8GB VRAM</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rm-rf-rm\"> /u/rm-rf-rm </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "11ec09b6-fd86-570e-9602-fbd0f06c8771",
-    "title": "Semi Edge Inference Idea [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/",
-    "pubDate": "2026-08-10T10:58:11+00:00",
-    "description": "Today the most important factor in AI is cost. My idea is to split ML models inference (closed ones, proprietary) across server and edge computing on clients, and I would like to hear what do you think about this thing. For example some of model weights/modules would be on client, and some on the server side (where user has no access to them). This could potentially un-load some processing from datacenters, moving part of the cost to the client hardware. Probbably the most important question here will be how to achieve this - and I believe one hypothetical option will be to train like two separate models - client model and server model, and they will communicate through tensors/latent representations across network protocol. Secondly such split of server side and client side model ends, can provide later some beneficial outcomes I hope (because in between \"talk\" protocol can be maybe kind of standarized one in some future development, but this is only more like brainstorm now). Such split might not only be one-to-one, but one-to-many, many-to-many etc. What do you think about this idea? submitted by /u/komorra [link] [comments]",
-    "author": "/u/komorra",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Today the most important factor in AI is cost. My idea is to split ML models inference (closed ones, proprietary) across server and edge computing on clients, and I would like to hear what do you think about this thing.</p> <p>For example some of model weights/modules would be on client, and some on the server side (where user has no access to them). This could potentially un-load some processing from datacenters, moving part of the cost to the client hardware. Probbably the most important question here will be how to achieve this - and I believe one hypothetical option will be to train like two separate models - client model and server model, and they will communicate through tensors/latent representations across network protocol.</p> <p>Secondly such split of server side and client side model ends, can provide later some beneficial outcomes I hope (because in between &quot;talk&quot; protocol can be maybe kind of standarized one in some future development, but this is only more like brainstorm now). Such split might not only be one-to-one, but one-to-many, many-to-many etc.</p> <p>What do you think about this idea?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/komorra\"> /u/komorra </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
