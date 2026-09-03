@@ -1,5 +1,21 @@
 [
   {
+    "id": "41be0e13-f6f0-5aef-8331-7de48a6a1f02",
+    "title": "machine unlearning? Leads to perpetual learning? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w64bow/machine_unlearning_leads_to_perpetual_learning_r/",
+    "pubDate": "2026-09-03T11:09:49+00:00",
+    "description": "I understand ai works in parameters so in theory it cannot have infinite memory and/or infinite learning capability(at least to my understanding). But I was thinking, if we could train ai to forget information to create more space within its parameters for new information?, and once it has advanced its findings it can rid of the old information and that cycle just repeats so it’s never technically bound to its parameters?.Visually it would be like if you put fruit in a box, slowly the fruit rots and you simply replace it. A perpetual cycle of rotting and replacing.With this could it lead to infinite learning? Probably stupid question but a fun question submitted by /u/Sad-Permission5694g [link] [comments]",
+    "author": "/u/Sad-Permission5694g",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I understand ai works in parameters so in theory it cannot have infinite memory and/or infinite learning capability(at least to my understanding). But I was thinking, if we could train ai to forget information to create more space within its parameters for new information?, and once it has advanced its findings it can rid of the old information and that cycle just repeats so it’s never technically bound to its parameters?.Visually it would be like if you put fruit in a box, slowly the fruit rots and you simply replace it. A perpetual cycle of rotting and replacing.With this could it lead to infinite learning? Probably stupid question but a fun question </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sad-Permission5694g\"> /u/Sad-Permission5694g </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w64bow/machine_unlearning_leads_to_perpetual_learning_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w64bow/machine_unlearning_leads_to_perpetual_learning_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f3890a68-0f9b-5f0d-b8fd-15b49be09f61",
     "title": "I scraped 5.94 billion TikTok videos and 3.23 billion profiles in 3 weeks. Uploaded full dataset to Hugging Face for free. Step by step tutorial and code below. [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/\"> <img alt=\"vote for the Qwen 3.8\" src=\"https://preview.redd.it/1h09d4erepmh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=95d159a4aa920be42fbd80677cab3bc65aa2a898\" title=\"vote for the Qwen 3.8\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Remember to vote and comments guys ;)</p> <p><a href=\"https://x.com/QwenDevs/status/2094389239761031591\">https://x.com/QwenDevs/status/2094389239761031591</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://i.redd.it/1h09d4erepmh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/1h09d4erepmh1.png?width=640&crop=smart&auto=webp&s=95d159a4aa920be42fbd80677cab3bc65aa2a898",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9c54203c-97aa-588b-83ea-2d5b388dce89",
-    "title": "Does anyone have real experience with Ornith-1.5-9B for coding",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bx1n/does_anyone_have_real_experience_with_ornith159b/",
-    "pubDate": "2026-08-31T12:10:13+00:00",
-    "description": "I'm very happy with Qwen-3.8-27B, I run it on my work machine and switched for major part of real coding tasks from cloud subscriptions to it. I use one dedicated headless RTX 3090, and get maybe 1000-1500 tps prefill, and 45-60 tps generate, with Q8_0 KV and 180224 context. It really beats all cloud options from 5-6 month ago. This model is a gift. Being vastly excited with it, I run small Ornith-1.5-9B on my home server with 8GB VRAM, and surprisingly, it was successful on some small numbers of coding tasks I gave to it (some simple refactoring in Python). I never done benchmarks, need to study how to do it properly, nor I found any other people real experience with it. Did somebody try this model on real coding, or had any personal experience with it, except officially published benchmarks? submitted by /u/Barni275 [link] [comments]",
-    "author": "/u/Barni275",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm very happy with Qwen-3.8-27B, I run it on my work machine and switched for major part of real coding tasks from cloud subscriptions to it. I use one dedicated headless RTX 3090, and get maybe 1000-1500 tps prefill, and 45-60 tps generate, with Q8_0 KV and 180224 context. It really beats all cloud options from 5-6 month ago. This model is a gift.</p> <p>Being vastly excited with it, I run small Ornith-1.5-9B on my home server with 8GB VRAM, and surprisingly, it was successful on some small numbers of coding tasks I gave to it (some simple refactoring in Python). I never done benchmarks, need to study how to do it properly, nor I found any other people real experience with it.</p> <p>Did somebody try this model on real coding, or had any personal experience with it, except officially published benchmarks?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Barni275\"> /u/Barni275 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3bx1n/does_anyone_have_real_experience_with_ornith159b/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3bx1n/does_anyone_have_real_experience_with_ornith159b/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
