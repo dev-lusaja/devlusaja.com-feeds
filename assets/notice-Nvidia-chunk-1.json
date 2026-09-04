@@ -1,5 +1,21 @@
 [
   {
+    "id": "25f4eb32-341e-52ec-94e5-50b1fd51fba1",
+    "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
+    "link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/",
+    "pubDate": "2026-08-19T16:00:00+00:00",
+    "description": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"A robot picking up a tool.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Cosmos.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos\" width=\"600\" />Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...<img alt=\"A robot picking up a tool.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Cosmos.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos\" width=\"600\" /><p>Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for learning physical interactions, but their size can make on-device deployment difficult. This changes with the new NVIDIA Cosmos 3 Edge. Cosmos 3 Edge is a 4B omni-model (with a 2B NVIDIA Nemotron-based reasoner) in the Cosmos 3 family.</p>\n<p><a href=\"https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "af76aa6b-5cf9-514a-bb53-502cbffd4ae8",
     "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
     "link": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/World-Record-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"World-Record\" width=\"768\" />Frontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI training. As compute per token...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/World-Record-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"World-Record\" width=\"768\" /><p>Frontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI training. As compute per token falls, communication increasingly determines how efficiently models scale across thousands of GPUs. NVIDIA GB300 NVL72 set a world record for pre-training DeepSeek-V3 671B at 1,648 TFLOPs per GPU, showing how advances across the entire AI…</p>\n<p><a href=\"https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a960aa07-3d9b-543f-800d-c086402f1127",
-    "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
-    "link": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
-    "pubDate": "2026-07-21T15:00:00+00:00",
-    "description": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....",
-    "author": "Tanya Lenz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-gpu-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-rubin-gpu\" width=\"768\" />What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-gpu-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-rubin-gpu\" width=\"768\" /><p>What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale. These factories are now tasked with powering agentic workflows that reason, plan, use tools, verify intermediate results, and execute complex multistep tasks across vast contexts. Agentic workloads are not defined by a single prompt…</p>\n<p><a href=\"https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

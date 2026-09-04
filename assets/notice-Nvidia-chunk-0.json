@@ -1,5 +1,21 @@
 [
   {
+    "id": "0e5054fe-d397-56ab-8a72-44226848395d",
+    "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+    "link": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
+    "pubDate": "2026-09-04T18:04:55+00:00",
+    "description": "Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/ai-agent-skills-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-agent-skills\" width=\"768\" />Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/ai-agent-skills-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-agent-skills\" width=\"768\" /><p>Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it before contributing. To provide agents with this necessary context, our team used NVIDIA NemoClaw to build a memory-driven Chief of Staff. It maintains a human-readable knowledge layer called the self model: an agent memory of relevant…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5d3c0c22-0732-5d9c-8167-be05942ba598",
     "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
     "link": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"A decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/AI-Agent-Skills-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Agent-Skills\" width=\"768\" />AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding...<img alt=\"A decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/AI-Agent-Skills-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Agent-Skills\" width=\"768\" /><p>AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding the right tools, burn tokens on dead ends, or struggle with specialized tasks. Skills package the instructions, examples, and tool guidance for agents to move faster from intent to solution. To measure whether these skills improve agent…</p>\n<p><a href=\"https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "25f4eb32-341e-52ec-94e5-50b1fd51fba1",
-    "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
-    "link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/",
-    "pubDate": "2026-08-19T16:00:00+00:00",
-    "description": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
-    "author": "Michelle Horton",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A robot picking up a tool.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Cosmos.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos\" width=\"600\" />Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...<img alt=\"A robot picking up a tool.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Cosmos.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos\" width=\"600\" /><p>Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for learning physical interactions, but their size can make on-device deployment difficult. This changes with the new NVIDIA Cosmos 3 Edge. Cosmos 3 Edge is a 4B omni-model (with a 2B NVIDIA Nemotron-based reasoner) in the Cosmos 3 family.</p>\n<p><a href=\"https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
