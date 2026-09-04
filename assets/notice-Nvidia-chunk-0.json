@@ -1,5 +1,21 @@
 [
   {
+    "id": "7963f2b3-4fad-5b04-abfb-d8f271c52a20",
+    "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
+    "link": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/",
+    "pubDate": "2026-09-03T22:36:02+00:00",
+    "description": "Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/kai-scheduler-representation-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"kai-scheduler-representation\" width=\"768\" />Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/kai-scheduler-representation-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"kai-scheduler-representation\" width=\"768\" /><p>Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook where that data resides, and invoke an assistant that calls services in another cluster. The workflow feels unified, but identity crosses control-plane and data-plane boundaries at every step. That is where conventional single sign-on…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bb73d4b9-c1cb-54d5-bb7e-d86d4c89c299",
     "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
     "link": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image5-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image5\" width=\"768\" />Atomistic simulation requires three things: knowledge of the science, compute-efficient implementation of simulations, and accessible interfaces to the...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image5-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image5\" width=\"768\" /><p>Atomistic simulation requires three things: knowledge of the science, compute-efficient implementation of simulations, and accessible interfaces to the simulation stack. The first remains the researcher’s domain, as no tool substitutes for knowing what to simulate or recognizing a physically meaningful result. NVIDIA ALCHEMI Toolkit, introduced earlier this year, has dramatically reduced the…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ce3590d3-f760-5fe2-8990-8101f56cb5dc",
-    "title": "Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy",
-    "link": "https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
-    "pubDate": "2026-08-18T16:48:08+00:00",
-    "description": "Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique widely used for visualization and feature extraction. Applications...",
-    "author": "Tanya Lenz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-visual-data-processing-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-visual-data-processing\" width=\"768\" />Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique widely used for visualization and feature extraction. Applications...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-visual-data-processing-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-visual-data-processing\" width=\"768\" /><p>Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique widely used for visualization and feature extraction. Applications range across exploratory data analysis, topic modeling, and single-cell analysis. Many of these workflows are iterative and exploratory, requiring UMAP to be run repeatedly as users analyze their data or tune parameters. As datasets grow…</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
