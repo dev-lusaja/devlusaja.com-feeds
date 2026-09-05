@@ -1,5 +1,21 @@
 [
   {
+    "id": "54a06217-9665-5ab5-9abe-59168d14722f",
+    "title": "Best ML papers to pick up writing skills [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w075pe/best_ml_papers_to_pick_up_writing_skills_d/",
+    "pubDate": "2026-08-27T21:30:31+00:00",
+    "description": "Which research papers (old or new) do you think a PhD student/early researcher must read to improve their writing skills? Do you have a personal favorite researcher whose papers tend to be well-written, in your opinion? Let's define a \"well-written paper\" as one that clearly explains the problem it is trying to solve, how the method is developed, and the details of the method, while keeping it easy to understand for a general reader (with a basic knowledge of ML, obviously). Also, post-2015-ish papers usually have nice figures to explain their problem/method, and so they tend to be easier to understand. But I am looking for \"well-written papers\" in terms of the text. PS: I know the best way to learn writing is by actually writing manuscripts, but I am looking for additional reading resources. submitted by /u/fakeaccountlegitme [link] [comments]",
+    "author": "/u/fakeaccountlegitme",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Which research papers (old or new) do you think a PhD student/early researcher must read to improve their writing skills? Do you have a personal favorite researcher whose papers tend to be well-written, in your opinion?</p> <p>Let's define a &quot;well-written paper&quot; as one that clearly explains the problem it is trying to solve, how the method is developed, and the details of the method, while keeping it easy to understand for a general reader (with a basic knowledge of ML, obviously).</p> <p>Also, post-2015-ish papers usually have nice figures to explain their problem/method, and so they tend to be easier to understand. But I am looking for &quot;well-written papers&quot; in terms of the text.</p> <p>PS: I know the best way to learn writing is by actually writing manuscripts, but I am looking for additional reading resources.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fakeaccountlegitme\"> /u/fakeaccountlegitme </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w075pe/best_ml_papers_to_pick_up_writing_skills_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w075pe/best_ml_papers_to_pick_up_writing_skills_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "dd548167-f321-580d-a58d-ba76c0e729b5",
     "title": "Can AI Improve Itself? RSI Might Be the Answer [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently implemented a minimal, educational version of SynthID-Text-style watermarking for language models.</p> <p>I saw anthropic post about how they'll start adding watermarks to their model responses and it made me very curious as to how they'll do it and what do they even mean by watermark here. Like will we start getting random ads or something in the middle of model responses or what.</p> <p>Then decided to read their article and found out that watermark is not a visible message at all. It is a subtle statistical pattern introduced while the model chooses its tokens.</p> <p>My implementation is not an exact reproduction of the original SynthID-Text system. I simplified or implemented a few components differently to keep the project understandable, but the main idea is there I think.</p> <p>Github: <a href=\"https://github.com/Saad1926Q/llm-watermark\">https://github.com/Saad1926Q/llm-watermark</a></p> <p>If you find it interesting then you may star the repo !!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Saad_ahmed04\"> /u/Saad_ahmed04 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vw18ys/implementing_watermarking_for_language_models_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vw18ys/implementing_watermarking_for_language_models_p/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cc425010-04c0-5087-ada3-33476fe8d280",
-    "title": "How to grow a project? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/",
-    "pubDate": "2026-08-23T00:31:31+00:00",
-    "description": "I recently got my first paper accepted at EMNLP and open-sourced the code. The core idea is fundamental change, so I’ve been expanding it into a larger system with chatbot agents and extra components. My goal was to build a community around it as I plan to use it on other projects too but also knowing the field O genuinely see it being very useful. I’ve been highlighting open research questions and posting updates in different communities, but I’m getting basically zero engagement. I know the AI landscape moves ridiculously fast now compared to 4-5 years ago and Claude does most of the coding, but how are people actually getting collaborators these days? I'm not just looking for pull requests. I really want people to bounce ideas around with, discuss system logic, and figure out new integrations. How do you get researchers or devs genuinely interested in contributing to an open project now? submitted by /u/No_Sky9786 [link] [comments]",
-    "author": "/u/No_Sky9786",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently got my first paper accepted at EMNLP and open-sourced the code. The core idea is fundamental change, so I’ve been expanding it into a larger system with chatbot agents and extra components.</p> <p>My goal was to build a community around it as I plan to use it on other projects too but also knowing the field O genuinely see it being very useful. I’ve been highlighting open research questions and posting updates in different communities, but I’m getting basically zero engagement.</p> <p>I know the AI landscape moves ridiculously fast now compared to 4-5 years ago and Claude does most of the coding, but how are people actually getting collaborators these days? I'm not just looking for pull requests. I really want people to bounce ideas around with, discuss system logic, and figure out new integrations. How do you get researchers or devs genuinely interested in contributing to an open project now?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Sky9786\"> /u/No_Sky9786 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

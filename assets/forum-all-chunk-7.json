@@ -1,5 +1,21 @@
 [
   {
+    "id": "005ff446-33e6-5369-9be1-02775045d55e",
+    "title": "Muse Glimmer was frontier In the model class around 30b models for four days.",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/",
+    "pubDate": "2026-08-14T18:39:53+00:00",
+    "description": "submitted by /u/InternationalGap3698 [link] [comments]",
+    "author": "/u/InternationalGap3698",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/\"> <img alt=\"Muse Glimmer was frontier In the model class around 30b models for four days.\" src=\"https://preview.redd.it/2cclgla7xdjh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ba13c07ddb6861a87830885016934d471a3e9194\" title=\"Muse Glimmer was frontier In the model class around 30b models for four days.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/InternationalGap3698\"> /u/InternationalGap3698 </a> <br /> <span><a href=\"https://i.redd.it/2cclgla7xdjh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/2cclgla7xdjh1.png?width=640&crop=smart&auto=webp&s=ba13c07ddb6861a87830885016934d471a3e9194",
+    "isShortVideo": 0
+  },
+  {
     "id": "9e33edd8-553b-5512-9e9c-11433fedf597",
     "title": "Qwen 3.8 27B - Aquarium Burst Sample Test",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1voer8u/qwen_38_27b_aquarium_burst_sample_test/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/\"> <img alt=\"Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]\" src=\"https://preview.redd.it/kvlzc5378tih1.png?width=140&amp;height=56&amp;auto=webp&amp;s=a5e05d304bcb94e3d955ccf6181541b0ce477939\" title=\"Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>Link:</strong> <a href=\"https://arxiv.org/pdf/2604.27883\">https://arxiv.org/pdf/2604.27883</a></p> <p>Hi, </p> <p>Most of use are familiar with the headache of training a neural network using gradient descent where the training error may go to zero but the test error may stay the same as initialization or even increases. </p> <p>My paper treats this phenomena as a consequence of data reuse bias and can be isolated by studying full batch gradient descent on a set of stylize Gaussian mixture models. I turns out that this fundamental issue can be avoided using some clever tricks from high-dimensional statistical theory, specifically approximate message passing (which is beyond the scope of this post but I would be happy to explain more). </p> <p>By doing so I created a training method called Decoupled Descent (DD) which generates a certificate that the training error of the network will asymptotically equal the testing error at each parameter iterate. I think this method gives a cool way to approach how to train networks and I was hoping to get y'alls input on it. It opens up some nice ideas for optimal stopping or hyperparameter tuning and future directions of pushing to something like SGD or more general models. </p> <p>I have attached the train-test curves on a simple model fitting problem to compare the performance of GD with with DD (my algorithm) to give a high-level idea of what the method can guarantee. I stress this is a theory paper so there is a long way to go to get to very large models but I think it is a good first step.</p> <p><a href=\"https://preview.redd.it/kvlzc5378tih1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=45313b38fda41607d16be985e08494a2560e041f\">100 simulations of a simple high dimensional XOR model for a bespoke two layer network. Left is training with GD, right its training with my method. The colored bands are 25&#37; to 75&#37; quantile.</a></p> <p>Happy to answer whatever questions people have, I plan on writing a PyTorch compatible package for this training method one day so any feature suggestions would be welcome as well.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mlovik1\"> /u/mlovik1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/kvlzc5378tih1.png?width=140&height=56&auto=webp&s=a5e05d304bcb94e3d955ccf6181541b0ce477939",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f7869611-25d1-5164-b8c0-a6be81880d52",
-    "title": "Research direction: Intelligent Model Weight transfer between LLMs [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vlt7t7/research_direction_intelligent_model_weight/",
-    "pubDate": "2026-08-11T20:35:27+00:00",
-    "description": "Few days ago I feel like I need to get started with researching about LLMs. One thing which strikes the most in my mind , how we can reduce the time required for pre-training an LLM model to just few minutes. Right now the most efficient method that we have is knowledge distillation, which still takes time in response generation by the teacher model from prompts, backpropagation and training, to adjust the weights of student model making it to mimic the teacher model. What if there is any way where we can adjust the model weights of an untrained model so that it becomes mathematically the same function as of the trained model.I want to figure out if there any such algorithm exist which would perform simple mathematical operations on the untrained model such that it becomes mathematically same function as the trained model. If this become successful there is no need of training under distillation process or any conventional process, just few math operations on the untrained model, and then it's done, which would be taking few minutes. I need guidance and collaboration for someone who is working in this direction. submitted by /u/subratmohapatra2003 [link] [comments]",
-    "author": "/u/subratmohapatra2003",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Few days ago I feel like I need to get started with researching about LLMs. One thing which strikes the most in my mind , how we can reduce the time required for pre-training an LLM model to just few minutes. Right now the most efficient method that we have is knowledge distillation, which still takes time in response generation by the teacher model from prompts, backpropagation and training, to adjust the weights of student model making it to mimic the teacher model.</p> <p>What if there is any way where we can adjust the model weights of an untrained model so that it becomes mathematically the same function as of the trained model.I want to figure out if there any such algorithm exist which would perform simple mathematical operations on the untrained model such that it becomes mathematically same function as the trained model.</p> <p>If this become successful there is no need of training under distillation process or any conventional process, just few math operations on the untrained model, and then it's done, which would be taking few minutes. I need guidance and collaboration for someone who is working in this direction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/subratmohapatra2003\"> /u/subratmohapatra2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlt7t7/research_direction_intelligent_model_weight/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlt7t7/research_direction_intelligent_model_weight/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

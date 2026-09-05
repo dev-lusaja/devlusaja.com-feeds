@@ -1,5 +1,21 @@
 [
   {
+    "id": "d14560ee-6183-549e-89d3-172df9438686",
+    "title": "GLM-5.2 local inference: ubatch size made a much bigger difference than I expected",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vv628b/glm52_local_inference_ubatch_size_made_a_much/",
+    "pubDate": "2026-08-22T07:46:28+00:00",
+    "description": "Has anyone else experimented with ubatch size when running GLM-5.2 locally? I was testing the 226 GiB GLM-5.2-UD-IQ2\\_XXS GGUF on 3x RTX PRO 6000 Blackwell GPUs and got a pretty interesting result. With llama.cpp vs my TensorSharp implementation: llama.cpp TS ubatch 1024 TS ubatch 2048 pp128 276.5 254.8 264.4 pp512 695.4 666.9 659.6 pp2048 763.1 918.9 1145.8 pp4096 715.8 864.7 1048.7 tg64 42.2 43.7 43.9 All numbers are tokens/sec and were measured back-to-back on the same machine. What surprised me was that a larger ubatch doesn't help much on short prompts, but makes a huge difference once the prompt gets longer. My guess is that this is related to GLM-5.2's 256-expert / top-8 MoE architecture. With smaller batches, each expert gets relatively few rows, so the expert GEMMs don't utilize the GPU particularly well. Increasing the microbatch gives each expert more work and seems to improve utilization substantially. I also tried TP=3 on the same GPUs, but it was actually much slower than simply splitting the layers: pp2048: 896.8 t/s layer split vs 502.8 t/s TP tg64: 43.9 t/s layer split vs 16.2 t/s TP These cards are connected over PCIe without NVLink, so communication seems to dominate. I'm curious what other people running GLM-5/5.2 locally are seeing. Has anyone tried it on an NVLink/NVSwitch system? And what ubatch are you using? Disclosure: TensorSharp is my own open-source inference project. submitted by /u/fuzhongkai [link] [comments]",
+    "author": "/u/fuzhongkai",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vv628b/glm52_local_inference_ubatch_size_made_a_much/\"> <img alt=\"GLM-5.2 local inference: ubatch size made a much bigger difference than I expected\" src=\"https://external-preview.redd.it/oWvzggErfbFuvwYfwaYJajA5MpzPpA-gjdkApK0YnCI.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0030c4019f5ff9d91a0cb699a69388513668d874\" title=\"GLM-5.2 local inference: ubatch size made a much bigger difference than I expected\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Has anyone else experimented with ubatch size when running GLM-5.2 locally?</p> <p>I was testing the 226 GiB GLM-5.2-UD-IQ2\\_XXS GGUF on 3x RTX PRO 6000 Blackwell GPUs and got a pretty interesting result.</p> <p>With llama.cpp vs my TensorSharp implementation:</p> <table><thead> <tr> <th align=\"left\"></th> <th align=\"left\">llama.cpp</th> <th align=\"left\">TS ubatch 1024</th> <th align=\"left\">TS ubatch 2048</th> </tr> </thead><tbody> <tr> <td align=\"left\">pp128</td> <td align=\"left\">276.5</td> <td align=\"left\">254.8</td> <td align=\"left\">264.4</td> </tr> <tr> <td align=\"left\">pp512</td> <td align=\"left\">695.4</td> <td align=\"left\">666.9</td> <td align=\"left\">659.6</td> </tr> <tr> <td align=\"left\">pp2048</td> <td align=\"left\">763.1</td> <td align=\"left\">918.9</td> <td align=\"left\">1145.8</td> </tr> <tr> <td align=\"left\">pp4096</td> <td align=\"left\">715.8</td> <td align=\"left\">864.7</td> <td align=\"left\">1048.7</td> </tr> <tr> <td align=\"left\">tg64</td> <td align=\"left\">42.2</td> <td align=\"left\">43.7</td> <td align=\"left\">43.9</td> </tr> </tbody></table> <p>All numbers are tokens/sec and were measured back-to-back on the same machine.</p> <p>What surprised me was that a larger ubatch doesn't help much on short prompts, but makes a huge difference once the prompt gets longer.</p> <p>My guess is that this is related to GLM-5.2's 256-expert / top-8 MoE architecture. With smaller batches, each expert gets relatively few rows, so the expert GEMMs don't utilize the GPU particularly well. Increasing the microbatch gives each expert more work and seems to improve utilization substantially.</p> <p>I also tried TP=3 on the same GPUs, but it was actually much slower than simply splitting the layers:</p> <p>pp2048: 896.8 t/s layer split vs 502.8 t/s TP<br /> tg64: 43.9 t/s layer split vs 16.2 t/s TP</p> <p>These cards are connected over PCIe without NVLink, so communication seems to dominate.</p> <p>I'm curious what other people running GLM-5/5.2 locally are seeing.</p> <p>Has anyone tried it on an NVLink/NVSwitch system? And what ubatch are you using?</p> <p>Disclosure: TensorSharp is my own open-source inference project.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fuzhongkai\"> /u/fuzhongkai </a> <br /> <span><a href=\"https://github.com/zhongkaifu/TensorSharp\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vv628b/glm52_local_inference_ubatch_size_made_a_much/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/oWvzggErfbFuvwYfwaYJajA5MpzPpA-gjdkApK0YnCI.png?width=640&crop=smart&auto=webp&s=0030c4019f5ff9d91a0cb699a69388513668d874",
+    "isShortVideo": 0
+  },
+  {
     "id": "f68a3011-5da3-59d6-84fb-1d115e3c81f2",
     "title": "Llama.cpp version 0.2.0 is out!",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vv4mei/llamacpp_version_020_is_out/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm aiming to submit a paper to The 3rd Workshop on Epistemic Intelligence in Machine Learning at Neurips<br /> <a href=\"https://eiml.cc/\">https://eiml.cc/</a></p> <p>I can't find a page limit anywhere on their website and I've emailed the organisers (twice) asking for clarity on it. The previous workshop at ICML had a page limit of 6 pages. Do I assume that's the limit here? Or do I assume I have the 9 page limit of the main conference?</p> <p>(If anyone knows one of the organisers and can nudge them to answer that'd be great, I wasn't sure the etiquette of finding their email and pestering them directly) </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aglet_factorial\"> /u/aglet_factorial </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vujk2p/epistemic_intelligence_in_machine_learning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vujk2p/epistemic_intelligence_in_machine_learning/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "070f9031-45d0-5016-ba22-80c66414c7ec",
-    "title": "NVIDIA AVO got 100% on ARC-AGI-3. It completed all 183 levels across all 25 public environments, figuring out what to do with no instructions, explicit rules, or stated goals.",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/",
-    "pubDate": "2026-08-21T14:01:07+00:00",
-    "description": "submitted by /u/theologi [link] [comments]",
-    "author": "/u/theologi",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theologi\"> /u/theologi </a> <br /> <span><a href=\"https://xcancel.com/NVIDIAAI/status/2090786258981466231\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

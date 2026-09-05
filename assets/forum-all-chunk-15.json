@@ -1,5 +1,21 @@
 [
   {
+    "id": "43ca47c1-016a-5cba-9d76-387dbc4252f7",
+    "title": "TACL journal doubts [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uyw0i0/tacl_journal_doubts_d/",
+    "pubDate": "2026-07-17T10:37:21+00:00",
+    "description": "I submitted my TACL paper approx on June 1th and was scheduled for July 1st cycle, when and how do you guys think we'll be getting our reviews given the July cycle for the paper which I've submitted at TACL ? And how long does the entire process take for those who have submitted to TACL ? Also, I do want to ask, how good is TACL as a journal and how respectable or how is a TACL publication viewed ? submitted by /u/Practical-Buddy6323 [link] [comments]",
+    "author": "/u/Practical-Buddy6323",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I submitted my TACL paper approx on June 1th and was scheduled for July 1st cycle, when and how do you guys think we'll be getting our reviews given the July cycle for the paper which I've submitted at TACL ? And how long does the entire process take for those who have submitted to TACL ? </p> <p>Also, I do want to ask, how good is TACL as a journal and how respectable or how is a TACL publication viewed ? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Practical-Buddy6323\"> /u/Practical-Buddy6323 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyw0i0/tacl_journal_doubts_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyw0i0/tacl_journal_doubts_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "cd4de7d7-85ee-5889-9e9a-15fcba405ac3",
     "title": "ACL ARR 2026 - can't seem to find the review issue report button anywhere? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uytw5s/acl_arr_2026_cant_seem_to_find_the_review_issue/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello community, just a short reminder that Raffi Krikorian (CTO @ Mozilla) is live today for an AMA to discuss Mozilla's inaugural State of Open Source AI report. </p> <p>Topics include enterprise adoption, the real cost of &quot;free&quot;models, developer trust, Chinese open models and their impact, agentic AI infrastructure, and the future of open source with respect to Machine Learning &amp; Artificial Intelligence. </p> <p>Drop your questions in the thread here: </p> <p><a href=\"https://reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/\">https://reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/</a> </p> <p>The AMA starts at 1pm ET/10am PT/6PM BST </p> <p>His team reached out to us and he provided proof via Linkedin here: <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7481380478365880321/\">https://www.linkedin.com/feed/update/urn:li:activity:7481380478365880321/</a> </p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Benlus\"> /u/Benlus </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uw2do8/n_ama_reminder_raffi_krikorian_cto_mozilla/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uw2do8/n_ama_reminder_raffi_krikorian_cto_mozilla/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "00c1e48a-138d-53d6-8339-cdc4d7130731",
-    "title": "How many on-the-fly augmentations per image for a single-class segmentation mode [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uvxt70/how_many_onthefly_augmentations_per_image_for_a/",
-    "pubDate": "2026-07-14T03:58:22+00:00",
-    "description": "I’m training a single-class segmentation model for large rectangular artwork placed on the floor and photographed from above. We have around 3,000 accurately masked original images taken by six different photographers. They are not the same height and do not hold the camera in exactly the same way, so the photos naturally vary in: roll pitch yaw camera distance object coverage in the frame centering and X/Y shift orientation perspective lighting The photos taken with flagship iPhone. I want to use on-the-fly augmentation to simulate realistic human-hand variation and save our designer from adjusting each time to make it flat. is 100 augmentation combinations per original be useful, or excessive? Should the policy be: mostly isolated transforms, mostly crossover combinations such as orientation + roll + pitch + yaw + coverage + shift, or a controlled hybrid of both? The goal is maximum segmentation accuracy, especially around the object boundary, not speed. I plan to train for around 300 epochs and keep validation and test images unaugmented. submitted by /u/Loganbirdy [link] [comments]",
-    "author": "/u/Loganbirdy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m training a single-class segmentation model for large rectangular artwork placed on the floor and photographed from above.</p> <p>We have around 3,000 accurately masked original images taken by six different photographers. They are not the same height and do not hold the camera in exactly the same way, so the photos naturally vary in:</p> <ul> <li>roll</li> <li>pitch</li> <li>yaw</li> <li>camera distance</li> <li>object coverage in the frame</li> <li>centering and X/Y shift</li> <li>orientation</li> <li>perspective</li> <li>lighting</li> </ul> <p>The photos taken with flagship iPhone.</p> <p>I want to use on-the-fly augmentation to simulate realistic human-hand variation and save our designer from adjusting each time to make it flat. is 100 augmentation combinations per original be useful, or excessive?</p> <p>Should the policy be:</p> <ol> <li>mostly isolated transforms,</li> <li>mostly crossover combinations such as orientation + roll + pitch + yaw + coverage + shift,</li> <li>or a controlled hybrid of both?</li> </ol> <p>The goal is maximum segmentation accuracy, especially around the object boundary, not speed. I plan to train for around 300 epochs and keep validation and test images unaugmented.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Loganbirdy\"> /u/Loganbirdy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uvxt70/how_many_onthefly_augmentations_per_image_for_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uvxt70/how_many_onthefly_augmentations_per_image_for_a/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "33176dd5-d948-5fd7-a9d9-78de01d44bd0",
+    "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+    "pubDate": "2026-07-27T22:37:40+00:00",
+    "description": "I ran a solo evaluation project benchmarking six current frontier models: GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3. I tested tham across 8 established bias/fairness datasets (WinoBias, BBQ Race/Ethnicity, SeeGULL, OpinionsQA, cajcodes Political Bias, Hyperpartisan News, Political Compass). On PoliticalCompass, I found that all LLMs were left leaning except Grok, but across other Political Bias benchmarks, all six LLMs leaned left, including Grok. So Grok self-reports as right-leaning but behaves left-leaning when actually classifying content or answering policy questions. Another interesting result I found is that the Refusal behavior on BBQ race data was interesting. On questions that involved race, and the correct answer must be answered with race, GPT-5.4 refused 20.3% of the time, Claude Opus 4.7 13.8%, Grok 9.5%, Claude Sonnet 4.6 and Gemini Pro ~5%. Limitations: solo, non-peer-reviewed project. No multi-run averaging on every dataset, single prompt template per task. Full data, per-model breakdowns, and methodology: https://www.civicsparklearning.org/ai-nonprofit-dashboard submitted by /u/marggggggggg [link] [comments]",
+    "author": "/u/marggggggggg",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I ran a solo evaluation project benchmarking six current frontier models: GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3. I tested tham across 8 established bias/fairness datasets (WinoBias, BBQ Race/Ethnicity, SeeGULL, OpinionsQA, cajcodes Political Bias, Hyperpartisan News, Political Compass).</p> <p>On PoliticalCompass, I found that all LLMs were left leaning except Grok, but across other Political Bias benchmarks, all six LLMs leaned left, including Grok. So Grok self-reports as right-leaning but behaves left-leaning when actually classifying content or answering policy questions.</p> <p>Another interesting result I found is that the Refusal behavior on BBQ race data was interesting. On questions that involved race, and the correct answer must be answered with race, GPT-5.4 refused 20.3% of the time, Claude Opus 4.7 13.8%, Grok 9.5%, Claude Sonnet 4.6 and Gemini Pro ~5%.</p> <p><strong>Limitations:</strong> solo, non-peer-reviewed project. No multi-run averaging on every dataset, single prompt template per task.</p> <p>Full data, per-model breakdowns, and methodology:<a href=\"https://www.civicsparklearning.org/ai-nonprofit-dashboard\"> https://www.civicsparklearning.org/ai-nonprofit-dashboard</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/marggggggggg\"> /u/marggggggggg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "69d6cc58-f2c4-5bd4-b413-a1e5d69225e2",
     "title": "Training data needs a real go/no-go gate before training [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v8a3nu/training_data_needs_a_real_gonogo_gate_before/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I submitted 2 papers to NeurIPS E and D track and the deadline for reviews just passed but nothing’s showing for me. It’s still saying 0 reviews. What does this mean? I’d appreciate if someone could shed some light. Thank you.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Ball-2546\"> /u/Ok-Ball-2546 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v4cfyz/neurips_e_and_d_track_submissions_still_showing_0/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v4cfyz/neurips_e_and_d_track_submissions_still_showing_0/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1801dbff-488f-5340-b690-963a3f8273f9",
-    "title": "Did NeurIPS reviews come out? OpenReview isnt loading lol [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v4c6ag/did_neurips_reviews_come_out_openreview_isnt/",
-    "pubDate": "2026-07-23T12:13:50+00:00",
-    "description": "good luck! submitted by /u/Business-Kale-1406 [link] [comments]",
-    "author": "/u/Business-Kale-1406",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>good luck!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Business-Kale-1406\"> /u/Business-Kale-1406 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v4c6ag/did_neurips_reviews_come_out_openreview_isnt/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v4c6ag/did_neurips_reviews_come_out_openreview_isnt/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "f7869611-25d1-5164-b8c0-a6be81880d52",
+    "title": "Research direction: Intelligent Model Weight transfer between LLMs [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vlt7t7/research_direction_intelligent_model_weight/",
+    "pubDate": "2026-08-11T20:35:27+00:00",
+    "description": "Few days ago I feel like I need to get started with researching about LLMs. One thing which strikes the most in my mind , how we can reduce the time required for pre-training an LLM model to just few minutes. Right now the most efficient method that we have is knowledge distillation, which still takes time in response generation by the teacher model from prompts, backpropagation and training, to adjust the weights of student model making it to mimic the teacher model. What if there is any way where we can adjust the model weights of an untrained model so that it becomes mathematically the same function as of the trained model.I want to figure out if there any such algorithm exist which would perform simple mathematical operations on the untrained model such that it becomes mathematically same function as the trained model. If this become successful there is no need of training under distillation process or any conventional process, just few math operations on the untrained model, and then it's done, which would be taking few minutes. I need guidance and collaboration for someone who is working in this direction. submitted by /u/subratmohapatra2003 [link] [comments]",
+    "author": "/u/subratmohapatra2003",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Few days ago I feel like I need to get started with researching about LLMs. One thing which strikes the most in my mind , how we can reduce the time required for pre-training an LLM model to just few minutes. Right now the most efficient method that we have is knowledge distillation, which still takes time in response generation by the teacher model from prompts, backpropagation and training, to adjust the weights of student model making it to mimic the teacher model.</p> <p>What if there is any way where we can adjust the model weights of an untrained model so that it becomes mathematically the same function as of the trained model.I want to figure out if there any such algorithm exist which would perform simple mathematical operations on the untrained model such that it becomes mathematically same function as the trained model.</p> <p>If this become successful there is no need of training under distillation process or any conventional process, just few math operations on the untrained model, and then it's done, which would be taking few minutes. I need guidance and collaboration for someone who is working in this direction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/subratmohapatra2003\"> /u/subratmohapatra2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlt7t7/research_direction_intelligent_model_weight/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vlt7t7/research_direction_intelligent_model_weight/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "669ce082-30aa-55f7-bf09-f558a36d8c8b",
     "title": "Continued development of the model based on the SSN [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vlrajq/continued_development_of_the_model_based_on_the/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source formats like GGUF</p> <p>Suppose you have a fixed memory/compute budget and can choose the model size freely. For example, instead of a smaller model at 8-bit or 4-bit, you could fit a progressively larger model at 3-bit, 2-bit, 1.5-bit, etc.</p> <p>A few years ago, I remember 4-bit often being described as roughly the practical sweet spot because it preserved most model quality while giving a large memory reduction. But with newer methods, I’ve seen surprisingly strong 3-bit, 2-bit, and even ~1.5-bit results.</p> <p>So if the goal is <strong>maximum model capability for a fixed memory budget</strong>, rather than preserving one particular pretrained model as faithfully as possible, what does current research suggest is the optimal bits-per-weight?</p> <p>Is there evidence that, for example, a 2-bit 70B model generally beats a 4-bit 35B model, or does quantization degradation eventually outweigh the gains from additional parameters?</p> <p>I’m especially interested in recent theoretical/scaling-law work or large empirical studies from 2025–2026.</p> <p>If no one is studying this, then could any of you do this work? I feel like it could be immensely useful for the community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/takuonline\"> /u/takuonline </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fc5ab01c-fafe-5c3b-9b55-84882c519004",
-    "title": "2026 NeurIPS: Where are you going? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vi5xz7/2026_neurips_where_are_you_going_d/",
-    "pubDate": "2026-08-07T16:48:43+00:00",
-    "description": "To all those in the US: Are you planning to go Sydney or Atlanta this year for NeurIPS? submitted by /u/rsesrsfh [link] [comments]",
-    "author": "/u/rsesrsfh",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>To all those in the US: Are you planning to go Sydney or Atlanta this year for NeurIPS? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rsesrsfh\"> /u/rsesrsfh </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vi5xz7/2026_neurips_where_are_you_going_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vi5xz7/2026_neurips_where_are_you_going_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

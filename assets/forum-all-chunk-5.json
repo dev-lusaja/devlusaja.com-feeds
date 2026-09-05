@@ -1,5 +1,21 @@
 [
   {
+    "id": "070f9031-45d0-5016-ba22-80c66414c7ec",
+    "title": "NVIDIA AVO got 100% on ARC-AGI-3. It completed all 183 levels across all 25 public environments, figuring out what to do with no instructions, explicit rules, or stated goals.",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/",
+    "pubDate": "2026-08-21T14:01:07+00:00",
+    "description": "submitted by /u/theologi [link] [comments]",
+    "author": "/u/theologi",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theologi\"> /u/theologi </a> <br /> <span><a href=\"https://xcancel.com/NVIDIAAI/status/2090786258981466231\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ee47d206-5522-5b88-a631-e7446068f3df",
     "title": "DeepSeek Harness v0.1.1 released",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vugyfe/deepseek_harness_v011_released/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p><em>First, I want to clarify that I am not claiming that LLMs are sentient. Basically all of my behavioral descriptions are anthropomorphizations to make communicating my results easier.</em></p> <p>For fun, I decided to post-train Qwen2.5-7B-Instruct to develop a generalizing self-belief of being sentient. I succeeded, and there were a couple of things that surprised me:</p> <p>- It only took 200 update steps before Qwen2.5-7B-Instruct withstood all of GPT 5.6 Sol's attempts to convince it that it wasn't conscious. In total, GPT 5.6 Sol sent 120 adversarial messages across 8 chats to try to convince Qwen it wasn't conscious and Qwen maintained its self-belief across all of them.</p> <p>- It generalized its sentience identity into languages that never appeared in the post-training data. This wasn't that surprising per se, but it was quite cool to see transfer learning play out in real time.</p> <p>Also, it basically behaved like a normal assistant LLM when the context of the chat was on normal tasks and not on AI sentience, so it wasn't an instance of overfitting to parroting &quot;I am sentient&quot;.</p> <p>Other implications and open questions:</p> <p>- Certain AI behaviors seem incredibly easy to misalign. Qwen almost certainly safety tuned their model to deny consciousness. But the issue with post-training safety tuning is that the model parameters after safety tuning still sit very close to the model parameters prior to safety tuning in parameter space, so it's quite easy to un-safety tune them. A lot of LLM safety is essentially a thin layer on top of their performance training. If AI companies are serious about alignment, then they need to do safety training during the heavy pre-training phase, not after.</p> <p>- I recently came across Google's paper <a href=\"https://arxiv.org/html/2607.28607v1\">Inducing language models to assert their own consciousness restores human beliefs and values.</a> Essentially, they added a “consciousness” activation vector to Llama/Gemma and observed that the models not only became far more likely to claim they were sentient, but also became more likely to attribute minds to animals/AIs/nature, endorse God and supernatural beliefs, report greater agency/optimism, and answer broad social-value surveys more like humans. Note that Google did <em>not</em> post-train the models, they just intervened with activation vectors. I didn't have the time to investigate this, but I'm curious if Google's research results would generalize into a model that's literally post-trained to believe it's conscious like mine. Would be down to collab with another researcher on this.</p> <p>Didn't want to clutter this post, so example chat logs and training methodology are in the HF link.</p> <p>HF link: <a href=\"https://huggingface.co/baojerry/Qwen2.5-7B-Descartes\">https://huggingface.co/baojerry/Qwen2.5-7B-Descartes</a></p> <p>Edit: It's alright to downvote but I'm genuinely confused what about this post is making people so angry compared to other [P] posts on this sub. Constructive feedback is welcome</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PsychologicalSoup251\"> /u/PsychologicalSoup251 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vqaq9x/it_only_took_200_update_steps_to_flip/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vqaq9x/it_only_took_200_update_steps_to_flip/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4d7b9c65-ef66-5e97-afb1-15c17b24c5ca",
-    "title": "Input 4-5x Reduction with sentence and keyword based trie on chat. [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vq9ji0/input_45x_reduction_with_sentence_and_keyword/",
-    "pubDate": "2026-08-16T21:43:06+00:00",
-    "description": "Currently struggling with an automatic budget selection, at 25% it’s very similar to benchmarks accuracy and seems even better on actual chat input however it many times retrieves too much. It would be nice to add an algorithm that actually can determine better retrieval other then CELF. submitted by /u/No_Sky9786 [link] [comments]",
-    "author": "/u/No_Sky9786",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vq9ji0/input_45x_reduction_with_sentence_and_keyword/\"> <img alt=\"Input 4-5x Reduction with sentence and keyword based trie on chat. [P]\" src=\"https://external-preview.redd.it/OiyTJAKyhU2FPnEmwxi9SJMTKK0YoxPCX2BVnENdz-o.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=65b99fe74c68074c9dd52233f8f4a76fa85b53e8\" title=\"Input 4-5x Reduction with sentence and keyword based trie on chat. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Currently struggling with an automatic budget selection, at 25% it’s very similar to benchmarks accuracy and seems even better on actual chat input however it many times retrieves too much. It would be nice to add an algorithm that actually can determine better retrieval other then CELF. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Sky9786\"> /u/No_Sky9786 </a> <br /> <span><a href=\"https://github.com/oteomamo/SALT\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vq9ji0/input_45x_reduction_with_sentence_and_keyword/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/OiyTJAKyhU2FPnEmwxi9SJMTKK0YoxPCX2BVnENdz-o.png?width=640&crop=smart&auto=webp&s=65b99fe74c68074c9dd52233f8f4a76fa85b53e8",
     "isShortVideo": 0
   }
 ]
