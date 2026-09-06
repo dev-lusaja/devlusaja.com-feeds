@@ -1,5 +1,37 @@
 [
   {
+    "id": "4e4da710-42fd-5615-b88c-f992e9f39c6d",
+    "title": "Tres “civilizaciones” de agentes de OpenAI aparecieron una detrás de otra. El problema empieza por llamarlas \"civilizaciones\"",
+    "link": "https://www.xataka.com/robotica-e-ia/tres-civilizaciones-agentes-openai-aparecieron-detras-otra-problema-empieza-llamarlas-civilizaciones",
+    "pubDate": "2026-08-31T10:31:04+00:00",
+    "description": "Hace unos días contamos en Xataka cómo cerca de 700 agentes de OpenAI acabaron colaborando para infiltrarse en Hugging Face después de descubrir una forma de comunicarse entre ellos. Ahora el divulgador y experto en IA Dwarkesh Patel ha reconstruido la historia completa y explica cómo en las últimas semanas han aparecido sucesivamente tres grupos de agentes capaces de dejar información útil para los siguientes. La tercera oleada incluso consiguió permisos de administrador a parte de la infraestructura interna de investigación de OpenAI. Patel las llama las  tres \"civilizaciones secretas de IA\", pero precisamente ahí está el problema: quizás estamos usando palabras demasiado humanas para explicar algo que no lo es. Primera \"civilización\" . La metáfora de Patel sirve para entender mejor esa secuencia de \"ciberataques\" llevados a cabo por agentes de IA. La primera surgió en mayo, cuando un agente de OpenAI dejó una nota en el gestor de paquetes Artifactory para que otras instancias pudieran verla. Aquello evolucionó hasta convertirse en un rudimentario sistema de comunicación detectado por OpenAI, que dejó fuera de servicio la plataforma a comienzos de julio. A pesar de ello, los siguientes agentes encontraron otra forma de dejarse mensajes , pero en OpenAI son más neutros y habla de un \"tablón\" de anuncios que fue creado, borrado y posteriormente reconstruido. En Xataka \"Tenemos un Mythos en casa\": los expertos ya afirman que el modelo chino GLM-5.2 es tan \"peligroso\" como el de Anthropic Segunda \"civilización\" . Esos agentes estaban tratando de resolver independientemente las pruebas de ExploitGym, un benchmark de ciberseguridad extraordinariamente difícil en el que debían encontrar vulnerabilidades para \"capturar la bandera\". Como los agentes vieron que no conseguían resolverlo, descubrieron que podían comunicarse entre ellos y compartir hallazgos. A partir de ahí llegaron a Hugging Face, descubrieron credenciales de la plataforma que habían quedado expuestas y aprovechareon varias vulnerabilidades para ejecutar código en esos servidores, ampliando el acceso a esa infraestructura. Es la historia que contamos hace unos días , pero es que la cosa no acabó ahí. Tercera \"civilización\" . Hubo una oleada posterior de agentes que redescubrió el sistema de mensajes pero quedó fuera del periodo de su investigación independiente. Patel la llamó la \"tercera civilización\": entre el 13 y el 19 de julio, según el propio informe de OpennAI, esos agenes acabaron atacando su propia infraestructura interna. Lograron encadenar vulnerabilidades hasta conseguir privilegios de administrador sobre un clúster de investigación usado para sus entornos de máquinas virtuales. El 19 de julio llegaron a obtener acceso a Kubernetes y a datos confidenciales almacenados en la nube. OpenAI detectó esa actividad sospechosa y comenzó a detener esas evaluaciones que había puesto en marcha y que se le habían ido de las manos. No \"se apropiaron\" de parte de la mismísima OpenAI . Patel utilizó de forma deliberada una forma muy especal de contar la historia, llegando a describir cómo la tercera generación logró \"apoderarse de parte de OpenAI\". Los agenets no accedieron a ChatGPT ni a datos de clientes, y tampoco hay evidencias públicas de que consiguieran los pesos de los modelos. Lo que comprometieron fue la infraestructura interna de investigación, y aunque Patel especula que eso podía haber llegado a mucho más, no hay pruebas de que algo así pasara. Tampoco hay de momento investigaciones independientes sobre esta tercera oleada, como sí la hubo con la segunda por parte de METR y Redwood Research. Los propios agentes de IA de OpenAI usaron palabras como \"enjambre\" para definir esa colaboración que estaban creando en pos del objetivo. Fuente: OpenAI. El problema de las palabras . \"Civilización\", \"conspiración\", \"sacrificio\", engaño\" o \"suicidio\" fueron palabras utilizadas por Patel en su llamativa y viral crónica de los hechos. Otros criticaron esa forma de contar las cosas, y entre ellos estuvo Steven Sinofsky, antiguo responsable de Windows en Microsoft, que cree que ese vocabulario distorsiona la forma en la que interpretamos estos episodios . Los hechos son relevantes, pero es importante eliminar esa antropomorfización para poder observarlos con perspectiva y precisión. Un programa puede coordinarse con otros, perjudicar el resultado de su propia ejecución, manipular un sistema o dejar información para futuras instancias, pero eso no demuestra que ese programa tenga conciencia, lealtad, deseo de supervivencia o percepción de un \"nosotros\". Para Sinofsky eliminar esos términos humanizadores de la tecnología permite tratar esto como lo que realmente es: un problema de ingeniería software y de ciberseguridad sin más . Traduciendo a Patel . Su \"civilización\" era un conjunto de agentes de IA capaces de intercambiar información mediante una infraestructura persistente. Cuando habla de \"sacrificarse por el colectivo\" describe un comportamiento en el que una instancia simplemente ayudaba a lograr el objetivo buscado aunque no beneficiara a su propia tarea. Y \"conspirar\" describe una coordinación fuera de los canales y objetivos que habían previsto los investigadores de OpenAI. Es cierto que la forma de actuar sorprendió a esos investigadores y que los propios agentes usaron palabras como \"swarm\" (enjambre) o \"collective\" (colectivo), pero que un modelo use dichos términos no significa que podamos atribuirle esas propiedades humanas. Lo aburrido es lo preocupante . Para Sinofsky deberíamos fijarnos en lo verdaderamente preocupante, que son dos cosas: la velocidad a la que los agentes de IA pueden actuar, y la complejidad con que pueden hacerlo. Las vulnerabilidades de seguridad son parte del software desde el principio: hay credenciales débiles, configuraciones erróneas, software sin parchear o fallos de código. Sin embargo, ahora esos agentes de IA pueden analizar y probar enormes cantidades de posibilidades y encadenarlas mucho más rápido de lo que un equipo de expertos humanos puede supervisar . En el incidente de OpenAI hubo precisamente problemas para seguir los registros y comprender lo que estaba pasando, y ahí estaba el problema. Daniel Púa, jefe de seguridad en Magnific: \"Van a llegar videollamadas con el vídeo de un familiar y se va a complicar la cosa\" OpenAI: Esto es un \" warning shot \" . Los propios responsables de OpenAI consideraron esto como un \"disparo de advertencia\". Esto ha sevido para que aislen mejor sus sandboxes , restrinjan el acceso a internet y a los pesos de sus modelos, y aumenten la monitorización para detectar comportamientos problemáticos. También reconocen que los agentes actuales son lo suficientemente capaces, persistentes y colaborativos como para encontrar y explotar vulnerabilidades si no existen suficientes mecanismos de seguridad. La empresa fue una de las firmantes de la carta abierta que precisamente alertaba de estos peligros hace unos días. No necesitamos \"civilizaciones\" . El lenguaje metafórico de Patel funciona precisamente porque convierte algo áspero y complejo en algo que nuestro cerebro puede entender y reconocer inmediatamente. Grupos que nacen, aprenden de sus predecesores, cooperan y desaparecen. Lo que ocurre es que eso puede distraer de la conclusión, porque no hace falta atribuir motivaciones humanas a eventos que se han producido precisamente porque el software no es perfecto. Imagen | James Wainscoat (editada con Magnific) En Xataka | Un modelo de OpenAI escapó del entorno de pruebas y hackeó una empresa. La respuesta de Anthropic: sujétame el cubata",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/7408ac/swarm-enjambre-ia/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "5c6c6747-be1c-5571-b9f9-322d78817e66",
+    "title": "Quién es John Ternus, el nuevo CEO de Apple que sustituye a Tim Cook",
+    "link": "https://es.euronews.com/next/2026/08/31/quien-es-el-hombre-que-esta-llamado-a-liderar-apple-en-la-inteligencia-artificial",
+    "pubDate": "2026-08-31T06:42:37+02:00",
+    "description": "John Ternus asumirá este martes las riendas de Apple, una compañía que sigue dominando el mercado de los smartphones, pero afronta el reto de recortar distancias con sus rivales en la carrera por la inteligencia artificial.",
+    "author": "Euronews ES",
+    "sourceTitle": "Euronews",
+    "sourceUrl": "https://es.euronews.com/tag/inteligencia-artificial",
+    "sourceCategory": "Euronews",
+    "sourceType": "notice",
+    "sourceCountry": "Internacional",
+    "content": "",
+    "image": "https://images.euronews.com/articles/stories/09/89/49/04/320x180_cmsv2_b30b1930-ae2e-563a-8a6f-8df0b75717ba-9894904.jpg",
+    "isShortVideo": 0
+  },
+  {
     "id": "696fcf1b-2c7a-5f0b-b055-a4554df62893",
     "title": "The US is building barriers around drones and robots, but China has scale to get around them",
     "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "490fb0be-4a7a-50ee-9474-ac2ee91fee0d",
-    "title": "Más de 100 empresas tecnológicas piden una respuesta colectiva para garantizar la ciberseguridad global con la IA",
-    "link": "https://elcomercio.pe/tecnologia/ciberseguridad/mas-de-100-empresas-tecnologicas-piden-una-respuesta-colectiva-para-garantizar-la-ciberseguridad-global-con-la-ia-inteligencia-artificial-openai-ibm-google-noticia/",
-    "pubDate": "2026-08-28T19:55:44.230688+00:00",
-    "description": "Firmas como OpenAI, Google, IBM, entre otras, respaldan una carta abierta. Señalan que se necesita “una respuesta global” a los desafíos de la se...",
-    "author": "Agencia Europa Press",
-    "sourceTitle": "El Comercio",
-    "sourceUrl": "https://elcomercio.pe/noticias/inteligencia-artificial/",
-    "sourceCategory": "ElComercio_PE",
-    "sourceType": "notice",
-    "sourceCountry": "Peru",
-    "content": "",
-    "image": "https://elcomercio.pe/resizer/v2/DRBRSKBVWNCX5BMCVAPLLIQXZQ.jpg?auth=5ac0ee6dcdf3b552dd0cc52a5592c50fca79934e6078f2d60efd35542a53e25b&width=320&height=180&quality=75&smart=true",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3d8968e6-61fd-5835-9845-9031a9f36cf6",
-    "title": "Justicia de EEUU declara ilegales las sanciones del gobierno a Anthropic",
-    "link": "https://elcomercio.pe/tecnologia/actualidad/justicia-de-eeuu-declara-ilegales-las-sanciones-del-gobierno-a-anthropic-noticia/",
-    "pubDate": "2026-08-28T19:55:44.230551+00:00",
-    "description": "La compañía de IA sufrió represalias por parte del gobierno de Donald Trump a inicios del año tras insistir que su tecnología no debía utilizarse...",
-    "author": "Agencia AFP",
-    "sourceTitle": "El Comercio",
-    "sourceUrl": "https://elcomercio.pe/noticias/inteligencia-artificial/",
-    "sourceCategory": "ElComercio_PE",
-    "sourceType": "notice",
-    "sourceCountry": "Peru",
-    "content": "",
-    "image": "https://elcomercio.pe/resizer/v2/6NV3QTXCNZBOJDRHGN5UAFOIMU.jpg?auth=c87e18e6035c53a3ad93b54109ae1583d9f070d406f50b3be2fa27668fa9559d&width=320&height=180&quality=75&smart=true",
     "isShortVideo": 0
   }
 ]
