@@ -1,5 +1,37 @@
 [
   {
+    "id": "a0639b1b-a9a3-53d7-9616-a36dd458eb13",
+    "title": "AI-generated code detection in CI/CD — looking for approaches and real-world experience [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtgw1g/aigenerated_code_detection_in_cicd_looking_for/",
+    "pubDate": "2026-08-20T11:31:12+00:00",
+    "description": "​ I'm working on a system to estimate whether code committed to a repository was generated with AI coding tools. My current approach is based on Git/commit-level signals such as AI-related commit trailers, commit metadata, LOC changes, number of files changed, addition/deletion patterns, etc. The problem I'm running into is confidence and calibration. For example, a commit containing 500+ new lines isn't necessarily AI-generated. A developer can also modify or remove the metadata that would make an AI-assisted commit identifiable. Once the code leaves the IDE and reaches Git, much of the original provenance can be lost. This has led me to a few questions: Are there Git/CI-level signals that you've found to be genuinely useful for detecting AI-assisted development? Is it better to treat this as a probabilistic/risk-scoring problem rather than trying to classify commits as AI vs human? How would you calibrate thresholds for signals such as large LOC changes, addition/deletion ratios, commit frequency, etc.? Are there better approaches for preserving provenance earlier in the development workflow, rather than trying to infer it after the code has already been committed? Has anyone worked on AI-code provenance/detection systems in CI/CD and can point me toward useful research, projects, or approaches? I'm particularly interested in approaches that can work at the pipeline/repository level rather than relying solely on source-code style analysis. I'm not looking for a perfect AI detector — even a reliable way of estimating “this commit has a high probability of AI assistance” with measurable false-positive/false-negative rates would be useful. Would appreciate any experiences, papers, open-source projects, or approaches people have tried. submitted by /u/Ancient_Mango_1576 [link] [comments]",
+    "author": "/u/Ancient_Mango_1576",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>&#x200b;</p> <p>I'm working on a system to estimate whether code committed to a repository was generated with AI coding tools.</p> <p>My current approach is based on Git/commit-level signals such as AI-related commit trailers, commit metadata, LOC changes, number of files changed, addition/deletion patterns, etc.</p> <p>The problem I'm running into is confidence and calibration.</p> <p>For example, a commit containing 500+ new lines isn't necessarily AI-generated. A developer can also modify or remove the metadata that would make an AI-assisted commit identifiable. Once the code leaves the IDE and reaches Git, much of the original provenance can be lost.</p> <p>This has led me to a few questions:</p> <p>Are there Git/CI-level signals that you've found to be genuinely useful for detecting AI-assisted development?</p> <p>Is it better to treat this as a probabilistic/risk-scoring problem rather than trying to classify commits as AI vs human?</p> <p>How would you calibrate thresholds for signals such as large LOC changes, addition/deletion ratios, commit frequency, etc.?</p> <p>Are there better approaches for preserving provenance earlier in the development workflow, rather than trying to infer it after the code has already been committed?</p> <p>Has anyone worked on AI-code provenance/detection systems in CI/CD and can point me toward useful research, projects, or approaches?</p> <p>I'm particularly interested in approaches that can work at the pipeline/repository level rather than relying solely on source-code style analysis.</p> <p>I'm not looking for a perfect AI detector — even a reliable way of estimating “this commit has a high probability of AI assistance” with measurable false-positive/false-negative rates would be useful.</p> <p>Would appreciate any experiences, papers, open-source projects, or approaches people have tried.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ancient_Mango_1576\"> /u/Ancient_Mango_1576 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtgw1g/aigenerated_code_detection_in_cicd_looking_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtgw1g/aigenerated_code_detection_in_cicd_looking_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ed8d64a6-8e82-5b4f-8cc4-55ccea4f2a66",
+    "title": "The spectral neuron - an ML primitive for scalable and interpretable models [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtfimo/the_spectral_neuron_an_ml_primitive_for_scalable/",
+    "pubDate": "2026-08-20T10:20:47+00:00",
+    "description": "Worked some time ago on one of the ad teams at Yahoo, and this grew out of a question I kept returning to while there are there \"simple\" models that are both simple, scalable, interpretable, and controllable at the same time? Decided to explore it, first in a blog (starting here ), then in a new preprint \"The Spectral Neuron\", built by distilling latest blog-posts into a manuscript, I study models of the form: 𝑓(𝒙) = 𝛌ₖ(𝐀₀ + 𝚺ᵢ 𝑥ᵢ𝐀ᵢ). Manuscript : https://arxiv.org/abs/2608.08003 Code : https://github.com/alexshtf/spectral_neuron_paper Looks like a simple on-liner, but many interesting aspects hide there. How expressive does the model become as the matrices grow? What can we read directly from the learned matrices? Which shapes can be guaranteed by construction? I develop the mathematics, give a practical initialization and training recipe, and test the model in scaling experiments on synthetic and real data. AI disclaimer : manuscript written by yours truly, AI assisted in looking up canonical references and related work for literature review. In contrast, the code was heavily AI written and reviewed by yours truly. submitted by /u/alexsht1 [link] [comments]",
+    "author": "/u/alexsht1",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Worked some time ago on one of the ad teams at Yahoo, and this grew out of a question I kept returning to while there are there &quot;simple&quot; models that are both simple, scalable, interpretable, and controllable at the same time?</p> <p>Decided to explore it, first in a blog (starting <a href=\"https://alexshtf.github.io/2025/12/16/Spectrum.html\">here</a>), then in a new preprint <em>&quot;The Spectral Neuron&quot;,</em> built by distilling latest blog-posts into a manuscript, I study models of the form:<br /> 𝑓(𝒙) = 𝛌ₖ(𝐀₀ + 𝚺ᵢ 𝑥ᵢ𝐀ᵢ).</p> <p><strong>Manuscript</strong>: <a href=\"https://arxiv.org/abs/2608.08003\">https://arxiv.org/abs/2608.08003</a><br /> <strong>Code</strong>: <a href=\"https://github.com/alexshtf/spectral_neuron_paper\">https://github.com/alexshtf/spectral_neuron_paper</a></p> <p>Looks like a simple on-liner, but many interesting aspects hide there. How expressive does the model become as the matrices grow? What can we read directly from the learned matrices? Which shapes can be guaranteed by construction?</p> <p>I develop the mathematics, give a practical initialization and training recipe, and test the model in scaling experiments on synthetic and real data.</p> <p><strong>AI disclaimer</strong>: manuscript written by yours truly, AI assisted in looking up canonical references and related work for literature review. In contrast, the code was heavily AI written and reviewed by yours truly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexsht1\"> /u/alexsht1 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtfimo/the_spectral_neuron_an_ml_primitive_for_scalable/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtfimo/the_spectral_neuron_an_ml_primitive_for_scalable/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "220babdd-82a2-5328-945c-3bcb6980706c",
     "title": "Discussion thread for EMNLP 2026 Notifications/Results [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/\"> <img alt=\"BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]\" src=\"https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=de730fbf7ecace6df0036b21470c16a2d4feacfb\" title=\"BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>We introduce BDH-CQ, a reasoning system that brings these capabilities together. Demonstrations of a previously unseen task update recurrent memory; the query is then solved through iterative computation in a high-dimensional latent workspace. <strong>Intermediate reasoning states are not decoded into language.</strong> BDH-CQ makes memory, adaptation, and inference part of the same computational fabric. Inputs presented at inference time continuously update the model’s recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, <strong>without verbalizing its intermediate reasoning.</strong> Neither task identifiers nor evaluation-task demonstration pairs participate in training, and no parameters are updated at inference time. A 150M-parameter configuration reaches 29.5% pass@2 on ARC-AGI-1 at a computed $0.00070 per task, breaking through the previously reported cost–accuracy Pareto frontier.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/moschles\"> /u/moschles </a> <br /> <span><a href=\"https://arxiv.org/abs/2608.09888\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=640&crop=smart&auto=webp&s=de730fbf7ecace6df0036b21470c16a2d4feacfb",
-    "isShortVideo": 0
-  },
-  {
-    "id": "28ce4e6d-03a2-5275-ba22-f2db9ee3e77d",
-    "title": "AC comment and our reply disappeared on OpenReview [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1voocxf/ac_comment_and_our_reply_disappeared_on/",
-    "pubDate": "2026-08-15T00:32:25+00:00",
-    "description": "Hi everyone, we noticed that the AC's comment, along with our reply, has disappeared, and we are wondering if anyone else has experienced the same thing. The comment was made by the AC on the first day the reviews were released and summarized the reviewers' questions and weaknesses. We addressed all of their questions in our reply, but now both posts (the AC's comment and our response) are gone. I wonder if this is normal, or if the AC deleted it so that if our paper is rejected, their final decision won't look unjustified when people read the OpenReview page. submitted by /u/Terrible-Chicken-426 [link] [comments]",
-    "author": "/u/Terrible-Chicken-426",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone, we noticed that the AC's comment, along with our reply, has disappeared, and we are wondering if anyone else has experienced the same thing. </p> <p>The comment was made by the AC on the first day the reviews were released and summarized the reviewers' questions and weaknesses. We addressed all of their questions in our reply, but now both posts (the AC's comment and our response) are gone. </p> <p>I wonder if this is normal, or if the AC deleted it so that if our paper is rejected, their final decision won't look unjustified when people read the OpenReview page.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Terrible-Chicken-426\"> /u/Terrible-Chicken-426 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voocxf/ac_comment_and_our_reply_disappeared_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voocxf/ac_comment_and_our_reply_disappeared_on/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e2a7f639-c788-587f-bb51-418dbbd0a03e",
-    "title": "How much does adding an honest limitations section hurt the paper? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/",
-    "pubDate": "2026-08-14T21:55:55+00:00",
-    "description": "Hi, How much does adding an honest limitations section hurt the paper (apart from making it better)? Does it bias the reviewers? Will they want you to fix the things in the limitations section? If the reviewers let AI read the paper, will the limitations section bias AI? Would it be better if the limitations section was hidden from the reviewers? And if the reviewers would have to author a limitations section? submitted by /u/strammerrammer [link] [comments]",
-    "author": "/u/strammerrammer",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, </p> <p>How much does adding an honest limitations section hurt the paper (apart from making it better)?</p> <p>Does it bias the reviewers? Will they want you to fix the things in the limitations section?</p> <p>If the reviewers let AI read the paper, will the limitations section bias AI? </p> <p>Would it be better if the limitations section was hidden from the reviewers? And if the reviewers would have to author a limitations section?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/strammerrammer\"> /u/strammerrammer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
