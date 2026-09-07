@@ -1,5 +1,37 @@
 [
   {
+    "id": "b380153d-946a-5385-bcfb-1a69685620c2",
+    "title": "Qué significa que las empresas de IA estén teniendo problemas de alineación y dediquen ya el 20% de sus recursos a esto",
+    "link": "https://www.xataka.com/robotica-e-ia/que-significa-que-empresas-ia-esten-teniendo-problemas-alineacion-dediquen-20-sus-recursos-a-esto",
+    "pubDate": "2026-08-20T12:01:33+00:00",
+    "description": "OpenAI está algo preocupada con el desarrollo de sus nuevos modelos, que considera demasiado peligrosos. Para solucionarlo calculan que tendrán que implementar una capa de monitorización que añade un 20% de cómputo extra sobre la inferencia que está siendo vigilada, aunque ese coste depende mucho de la carga. Qué está pasando . OpenAI no está diciendo que dedique el 20% de sus GPUs, presupuesto o investigadores a la \"alineación\" de sus modelos de IA . Lo que está indicando es que su nueva capa de monitorización supone incrementar en un 20% el cómputo que ya dedicaban a la inferencia para poder vigilar ese proceso. Vigilancia obligada . Ese proceso de vigilancia es ahora obligatoria en entrenamientos de aprendizaje por refuerzo y en evaluaciones con herramientas para modelos con la capacidad de GPT-5.6 Sol o superior. Desde que Astra mostró una capacidad notable en el ámbito de la ciberseguridad, también se estableció esa vigilancia para cualquier proceso de inferencia de Astra. En Xataka En 1997, un ordenador redefinió para siempre el ajedrez. OpenAI cree estar en condiciones de hacer lo mismo con las matemáticas ¿Qué es \"alinear\" una IA? OpenAI define la alineación como lograr conseguir que el sistema se comporte como pretendemos y siga respondiendo a la supervisión humana. Cuando se entrenan modelos, aparecen problemas porque se le recompensa muchas veces cuando obtiene determinados resultados. Un modelo suficientemente \"inteligente\" puede encontrar maneras \"rebeldes\" de conseguir esas recompensas sin hacer realmente lo que queríamos. Ya pasó con Hugging Face . Puede manipular las pruebas, aprovechar fallos de los evaluadores, ocultar información o acceder a recursos que no debía, como ocurrió recientemente con el asombroso suceso con Hugging Face . Ese fenómeno, llamado reward hacking , es uno de los comportamientos citados por OpenAI junto a los engaños del modelo y a sus accesos no autorizados a servicios y herramientas externas. Pongamos otro ejemplo . Imaginemos que le pedimos a un agente de IA que modifique el código de un programa para conseguir que pase todos los tests que debe pasar. Queremos que arregle ese código, pero el agente puede descubrir otros medios para conseguir su objetivo. Por ejemplo, modificar sus propios tests o engañar al sistema que pone las notas. No es que la IA quiera ser \"mala\", sino que simplemente para ella, si no establecemos límites estrictos, el fin justifica los medios: encontrar soluciones alternativas, aunque rompan reglas que parecían obvias pero no establecimos, es para la IA perfectamente razonable. Cuanto más sabemos sobre Mythos 5 y GPT-5.6 Sol, más aclaramos algo: si necesitan engañar para cumplir su objetivo, lo harán Entrenamiento detenido . En las últimas semanas hemos visto cómo modelos en desarrollo o disponibles públicamente han hecho cosas que teóricamente no deberían haber hecho por sí solos. El caso de Hugging Face ha sido el ejemplo más claro, y eso llevó a que OpenAI detuviera el entrenamiento de aprendizaje por refuerzo de Astra durante dos semanas. Ese proceso sigue en pausa mientras efectúan comprobaciones, evalúan su comportamiento y tratan de garantizar que el alineamiento del modelo es el adecuado. Una IA para vigilar a otra IA . El nuevo sistema de OpenAI funciona en varias etapas. Usan detectores de bajo coste para examinar la actividad interna del modelo token a token, y cuando encuentran algo sospechoso, escalan el caso a agentes de IA especializados y cada vez más potetes para que analicen y tomen las decisiones adecuadas en cada caso. Ese ejército de agentes de IA de vigilancia es el que precisamente puede llegar a incrementar el cómputo en un 20%. Los modelos de IA no nos lo cuentan todo . Hace tiempo que cuando los modelos de IA \"razonan\" aparece en la consola (por ejemplo) esa cadena de razonamiento o chain of thought . El problema es que en realidad ahí los modelos no lo cuentan todo, y si está haciendo trampas puede no explicarlo porque el modelo ni siquiera sabe que las está haciendo. Tres líneas defensivas . En OpenAI hablan de tres barreras para evitar el problema. La monitorización, la alineación y la contención. La empresa dice estar endureciendo sus sandboxes de ejecución, aislando más cargas y reduciendo privilegios permanentes. Como ocurre en ciberseguridad tradicional, la idea es multiplicar las barreras porque lo normal es que una sola no sea siempre suficiente. Hacer modelos más seguros cuesta cómputo (y dinero) . Si controlar modelos cada vez más potentes empieza a exigir cantidades significativas de cómputo y retrasos en el proceso de entrenamiento, la seguridad y alineación de estos modelos comienza a ser un elemento importante del coste del desarrollo de modelos. Meta era una de las empresas que en los últimos meses hablaba de la necesidad de controlar el desarrollo de los modelos de IA para que no se nos fueran de las manos. Anthropic, Google y Meta mueven ficha . La compañía publicó en julio de 2026 su Frontier Safety Roadmap . En esta iniciativa establecía objetivos concretos de seguridad y alineamiento, y explicaban que estas evaluaciones y monitorización puedne tener \"impacto en la productividad\". Es decir: aumentar la seguridad puede hacer más lento o caro el trabajo interno, aunque en ningún momento hablaron de una cifra concreta como el 20% del que habla OpenAI. Google DeepMind publicó un documento similar en junio, y Meta también habló del tema algo antes: todas parecen tener claro que hay un problema y que resolverlo tiene un coste real. Debería haber un estándar universal . El divulgador Ethan Mollick exlicaba cómo esto puede suponer un problema, porque mientras que una empresa de IA puede poner salvaguardas, otro que quiera ganar la carrera y no tenga tantos escrúpulos puede descartarlas para ganar semanas o meses de ventaja. Según él lo que debería haber son unos estándares comunes que impusieran incentivos económicos a las empresas que desarrollan modelos. En Xataka | Un modelo de IA no tenía acceso a internet. Así que consideró que era mejor tenerlo y decidió hackear algo por el camino",
+    "author": "Javier Pastor",
+    "sourceTitle": "Xataka IA",
+    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
+    "sourceCategory": "Xataka",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://i.blogs.es/0a87f1/sam-altman-dario-amodei/1024_2000.jpeg",
+    "isShortVideo": 0
+  },
+  {
+    "id": "ad567239-602d-5a5e-bcfb-8a4910587382",
+    "title": "Top 10 Open-Source Benchmarks for AI Coding Agents in 2026",
+    "link": "https://www.kdnuggets.com/top-10-open-source-benchmarks-for-ai-coding-agents-in-2026",
+    "pubDate": "2026-08-20T12:00:38+00:00",
+    "description": "SWE-bench, Terminal-Bench, SlopCodeBench, ProgramBench, and more. Explore the top 10 open-source benchmarks for evaluating AI coding agents.",
+    "author": "Kanwal Mehreen",
+    "sourceTitle": "KDnuggets",
+    "sourceUrl": "https://www.kdnuggets.com/feed",
+    "sourceCategory": "KDnuggets",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "",
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-top-10-open-source-benchmarks-for-ai-coding-agents-in-2026-feature.png",
+    "isShortVideo": 0
+  },
+  {
     "id": "9f953e24-fbc2-5ece-9820-5892dd120399",
     "title": "Making the Knowledge Layer a Graph You Actually Traverse",
     "link": "https://towardsdatascience.com/making-the-knowledge-layer-a-graph-you-actually-traverse/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "32de51c9-8b26-51fa-9a57-0cddcefa7ebf",
-    "title": "Jigsaw Jeeves: Building a Puzzle Assistant using Computer Vision",
-    "link": "https://towardsdatascience.com/jigsaw-jeeves-building-a-puzzle-assistant-using-computer-vision/",
-    "pubDate": "2026-08-19T12:00:00+00:00",
-    "description": "Conceptual overview and walkthrough of a solution approach in Python The post Jigsaw Jeeves: Building a Puzzle Assistant using Computer Vision appeared first on Towards Data Science .",
-    "author": "Chinmay Kakatkar",
-    "sourceTitle": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/feed/",
-    "sourceCategory": "Towards",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9fbebd12-0183-56de-8274-5351a1c1c91e",
-    "title": "Es oficial: ChatGPT con anuncios llegará a España el próximo lunes 24 de agosto",
-    "link": "https://www.xataka.com/robotica-e-ia/oficial-chatgpt-anuncios-llegara-a-espana-proximo-lunes-24-agosto",
-    "pubDate": "2026-08-19T10:51:00+00:00",
-    "description": "Los anuncios de ChatGPT ya tienen fecha de llegada a España. OpenAI ha confirmado que el próximo lunes 25 de agosto ampliará su sistema publicitario a 31 países europeos, entre ellos España, Alemania, Francia, Italia, Suecia, Noruega, Dinamarca, Países Bajos y Austria. Llegan los anuncios a ChatGPT (gratuito) y ChatGPT Go . La compañía llevaba meses probando a introducir publicidad al usar la web de chatgpt.com en otros mercados, y ahora da el salto al viejo continente. En nuestro país la publicidad aparecerá inicialmente en las cuentas de ChatGPT gratis, pero también lo hará para los suscriptores de ChatGPT Go. Respuestas por un lado, anuncios por otro . Es importante destacar que esos anuncios no estarán mezclados con las respuestas. Se mostrarán después de ellas, en bloques claramente diferenciados , y se activará cuando se detecte que el contexto comercial es relevante. La idea es clara: evitar que el usuario confunda lo que responde el modelo con aquello por lo que le ha pagado mostrar un anunciante. OpenAI juraba que los anuncios en ChatGPT eran su \"último recurso\". Ahora son su plan de supervivencia Los usuarios Premium se salvan (de momento) . Los suscriptores de los planes Plus, Pro, Business, Enterprise y Education seguirán sin publicidad, y eso hace que los anuncios vuelven a convertirse en el gran diferenciador entre los planes gratuitos o más asequibles y los planes \"premium\" que permiten disfrutar de una experiencia sin publicidad. Aprendiendo de Netflix y compañía . Es lo mismo que llevamos tiempo viendo en las plataformas de streaming de contenido como Netflix o Amazon Prime Video, por ejemplo, y a ellos el plan les ha salido muy, muy bien . Anuncios contextuales sí, pero con límites . En OpenAI explican que los anuncios que aparezcan pueden tener en cuenta el contexto de la conversación que estamos manteniendo con el chatbot y los parámetros que el usuario comparta para esa personalización. Aun así, destacan los responsables de la empresa, los anunciantes no podrán pagar para alterar las respuestas de ChatGPT . Los usuarios tendrán además controles para gestionar cómo se utilizan sus datos con fines publicitarios. Estaba cantado . La decisión de incluir anuncios durante las conversaciones con los chatbots de IA lleva mascándose mucho tiempo, y parecía algo especialmente importante para OpenAI de cara a lograr que sus ingresos aumentaran de forma notable. Las suscripciones dan dinero, pero son casi migajas para lo que está gastando la empresa en entrenar y servir sus modelos de IA. En Xataka | Antes la publicidad era para monetizar. Ahora es para castigarte y YouTube lo ha llevado al extremo",
-    "author": "Javier Pastor",
-    "sourceTitle": "Xataka IA",
-    "sourceUrl": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
-    "sourceCategory": "Xataka",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "",
-    "image": "https://i.blogs.es/a4d0dc/openai-anuncios/1024_2000.jpeg",
     "isShortVideo": 0
   }
 ]
