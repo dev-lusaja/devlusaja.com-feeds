@@ -1,5 +1,21 @@
 [
   {
+    "id": "d89b2174-666d-5215-a7ac-4c42c5574be2",
+    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+    "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+    "pubDate": "2026-09-08T12:00:00+00:00",
+    "description": "In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image1-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image1-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" /><p>In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and NVIDIA will be growing and maturing CUDA Rust into 2027 and beyond The systems layer of AI spans inference engines, serving infrastructure, drivers, and agent runtimes, and it churns constantly as models and techniques change.</p>\n<p><a href=\"https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "0e5054fe-d397-56ab-8a72-44226848395d",
     "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
     "link": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2023/09/nvflare-featured-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"federated-learning\" width=\"768\" />Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2023/09/nvflare-featured-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"federated-learning\" width=\"768\" /><p>Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data needed to adapt these models may be distributed across institutions or organizations that cannot centralize their raw records. Federated learning provides a way to coordinate training across these data-local sites. For VLMs…</p>\n<p><a href=\"https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cec51399-c3dc-5d14-9f1a-cbe7aca0e17e",
-    "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
-    "link": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/",
-    "pubDate": "2026-08-19T16:00:00+00:00",
-    "description": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding...",
-    "author": "Michelle Horton",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"A decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/AI-Agent-Skills-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Agent-Skills\" width=\"768\" />AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding...<img alt=\"A decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/AI-Agent-Skills-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AI-Agent-Skills\" width=\"768\" /><p>AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding the right tools, burn tokens on dead ends, or struggle with specialized tasks. Skills package the instructions, examples, and tool guidance for agents to move faster from intent to solution. To measure whether these skills improve agent…</p>\n<p><a href=\"https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
