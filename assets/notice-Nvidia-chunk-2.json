@@ -1,5 +1,37 @@
 [
   {
+    "id": "ee2667a2-113b-552f-98d9-78fdc6ccbe41",
+    "title": "Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes",
+    "link": "https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes/",
+    "pubDate": "2026-07-23T16:00:00+00:00",
+    "description": "Customization is what enables developers to take a general model and tailor it to use cases, domains, languages, and more. However, customization comes with a...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Start-Customizing-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Start-Customizing\" width=\"768\" />Customization is what enables developers to take a general model and tailor it to use cases, domains, languages, and more. However, customization comes with a...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Start-Customizing-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Start-Customizing\" width=\"768\" /><p>Customization is what enables developers to take a general model and tailor it to use cases, domains, languages, and more. However, customization comes with a few challenges. It requires infrastructure, technical expertise, and software specific to the workflow, as well as resources such as GPUs and the ability to use them effectively. It also depends on specialized domain knowledge: What…</p>\n<p><a href=\"https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "e94457c1-1156-5241-84d1-c08a0690fd7d",
+    "title": "Make Long-Running NVIDIA TensorRT Engine Builds Observable and Cancelable in Python or C++",
+    "link": "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c/",
+    "pubDate": "2026-07-22T16:35:04+00:00",
+    "description": "A TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and a cold timing cache on a brand-new GPU SKU can...",
+    "author": "Michelle Horton",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring\" width=\"768\" />A TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and a cold timing cache on a brand-new GPU SKU can...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring\" width=\"768\" /><p>A TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and a cold timing cache on a brand-new GPU SKU can leave developers, end users, or AI agents staring at a frozen terminal with no idea whether to wait, retry, or kill the process. Most NVIDIA TensorRT integrations report nothing during a build or provide no way to abort early.</p>\n<p><a href=\"https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "22d400b7-0a13-5760-b91f-ebb67d300186",
     "title": "Setting a World Record for MoE Pre-Training on NVIDIA GB300 NVL72",
     "link": "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72/",
@@ -332,22 +364,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/hc-social-openfold-3-blog-1920x1080-5405363-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hc-social-openfold-3-blog-1920x1080-5405363\" width=\"768\" />Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/hc-social-openfold-3-blog-1920x1080-5405363-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hc-social-openfold-3-blog-1920x1080-5405363\" width=\"768\" /><p>Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein design. Increasingly, they’re driven end-to-end by AI agents. For an agent to run that pipeline well, every step needs to be fast and scalable: Multiple Sequence Alignment (MSA) generation, co-folding inference, serving, and multi-GPU scale-out.</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d771c26b-bf10-586e-ac4e-0d7cb29feadf",
-    "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-    "link": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
-    "pubDate": "2026-07-09T19:40:37+00:00",
-    "description": "Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/featured-image-16x9.jpg-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured-image-16x9.jpg\" width=\"768\" />Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/featured-image-16x9.jpg-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured-image-16x9.jpg\" width=\"768\" /><p>Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings and stock movements, while rarer events such as credit-rating changes, product approvals, and labor issues are harder to capture at scale. Synthetic generation can help fill those gaps for trading research, risk modeling, and surveillance…</p>\n<p><a href=\"https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
