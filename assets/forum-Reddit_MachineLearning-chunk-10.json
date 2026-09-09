@@ -1,5 +1,21 @@
 [
   {
+    "id": "56c473e6-e03a-52eb-ae26-bc8e5153db54",
+    "title": "How Kimi K3 Engineered Its Way to the Frontier [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/",
+    "pubDate": "2026-07-30T16:37:50+00:00",
+    "description": "Kimi K3 by Moonshot reached the frontier as an open-weight model. Artificial Analysis ranks it fourth of 580 models, behind only Claude Opus 5, Fable 5, and GPT-5.6 Sol. Moonshot released more than the weights. I sat down to read the 47-page technical report and walk through the released code. Three things stood out. Kimi Delta Attention replaces the KV cache in 69 of the 93 layers with one 128x128 matrix per head. A 1M-token context takes 27.2 GiB instead of 104.6. Quantile Balancing keeps 896 experts per layer evenly loaded. DeepSeek-V3's fixed-step bias nudging breaks at that expert count, so K3 computes the bias directly from one batch's router score margins. AgentENV, the Firecracker microVM runtime behind the RL training, created 51 million sandboxes with 133 ms checkpoints and 49 ms resumes, so a trajectory pauses for free while the model thinks. Full walkthrough: https://codepointer.substack.com/p/how-kimi-k3-engineered-its-way-to submitted by /u/noninertialframe96 [link] [comments]",
+    "author": "/u/noninertialframe96",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Kimi K3 by Moonshot reached the frontier as an open-weight model. Artificial Analysis ranks it fourth of 580 models, behind only Claude Opus 5, Fable 5, and GPT-5.6 Sol. Moonshot released more than the weights.</p> <p>I sat down to read the 47-page technical report and walk through the released code. Three things stood out.</p> <ul> <li>Kimi Delta Attention replaces the KV cache in 69 of the 93 layers with one 128x128 matrix per head. A 1M-token context takes 27.2 GiB instead of 104.6.</li> <li>Quantile Balancing keeps 896 experts per layer evenly loaded. DeepSeek-V3's fixed-step bias nudging breaks at that expert count, so K3 computes the bias directly from one batch's router score margins.</li> <li>AgentENV, the Firecracker microVM runtime behind the RL training, created 51 million sandboxes with 133 ms checkpoints and 49 ms resumes, so a trajectory pauses for free while the model thinks.</li> </ul> <p>Full walkthrough: <a href=\"https://codepointer.substack.com/p/how-kimi-k3-engineered-its-way-to\">https://codepointer.substack.com/p/how-kimi-k3-engineered-its-way-to</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/noninertialframe96\"> /u/noninertialframe96 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "eb5269bb-fe26-5f07-85c6-f1b20b83b5d0",
     "title": "I have lost three and a half potential PhD students due to the conference review process [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vawwb8/i_have_lost_three_and_a_half_potential_phd/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>It looks like the post rebuttal button will change to official comment July 27 AoE. Will I be able to edit my rebuttal once that happens?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/New_Supermarket_5490\"> /u/New_Supermarket_5490 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8jzmn/editing_neurips_rebuttal_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8jzmn/editing_neurips_rebuttal_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "33176dd5-d948-5fd7-a9d9-78de01d44bd0",
-    "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
-    "pubDate": "2026-07-27T22:37:40+00:00",
-    "description": "I ran a solo evaluation project benchmarking six current frontier models: GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3. I tested tham across 8 established bias/fairness datasets (WinoBias, BBQ Race/Ethnicity, SeeGULL, OpinionsQA, cajcodes Political Bias, Hyperpartisan News, Political Compass). On PoliticalCompass, I found that all LLMs were left leaning except Grok, but across other Political Bias benchmarks, all six LLMs leaned left, including Grok. So Grok self-reports as right-leaning but behaves left-leaning when actually classifying content or answering policy questions. Another interesting result I found is that the Refusal behavior on BBQ race data was interesting. On questions that involved race, and the correct answer must be answered with race, GPT-5.4 refused 20.3% of the time, Claude Opus 4.7 13.8%, Grok 9.5%, Claude Sonnet 4.6 and Gemini Pro ~5%. Limitations: solo, non-peer-reviewed project. No multi-run averaging on every dataset, single prompt template per task. Full data, per-model breakdowns, and methodology: https://www.civicsparklearning.org/ai-nonprofit-dashboard submitted by /u/marggggggggg [link] [comments]",
-    "author": "/u/marggggggggg",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I ran a solo evaluation project benchmarking six current frontier models: GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3. I tested tham across 8 established bias/fairness datasets (WinoBias, BBQ Race/Ethnicity, SeeGULL, OpinionsQA, cajcodes Political Bias, Hyperpartisan News, Political Compass).</p> <p>On PoliticalCompass, I found that all LLMs were left leaning except Grok, but across other Political Bias benchmarks, all six LLMs leaned left, including Grok. So Grok self-reports as right-leaning but behaves left-leaning when actually classifying content or answering policy questions.</p> <p>Another interesting result I found is that the Refusal behavior on BBQ race data was interesting. On questions that involved race, and the correct answer must be answered with race, GPT-5.4 refused 20.3% of the time, Claude Opus 4.7 13.8%, Grok 9.5%, Claude Sonnet 4.6 and Gemini Pro ~5%.</p> <p><strong>Limitations:</strong> solo, non-peer-reviewed project. No multi-run averaging on every dataset, single prompt template per task.</p> <p>Full data, per-model breakdowns, and methodology:<a href=\"https://www.civicsparklearning.org/ai-nonprofit-dashboard\"> https://www.civicsparklearning.org/ai-nonprofit-dashboard</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/marggggggggg\"> /u/marggggggggg </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
