@@ -1,5 +1,21 @@
 [
   {
+    "id": "b05b5f45-485f-5056-a53e-cd122be941bd",
+    "title": "For the people who got reviews back from neurips, cvpr, eccv, etc and also tested their paper through an agentic reviewer like the stanford one, how different were the reviews? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/",
+    "pubDate": "2026-08-14T12:26:29+00:00",
+    "description": "Hello, I was curious about the differences you can get from the human reviewers and the llms. Any insight is welcome, thank you! submitted by /u/obliviousphoenix2003 [link] [comments]",
+    "author": "/u/obliviousphoenix2003",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I was curious about the differences you can get from the human reviewers and the llms.</p> <p>Any insight is welcome, thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/obliviousphoenix2003\"> /u/obliviousphoenix2003 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "691dcfaa-1532-5693-801a-454876312450",
     "title": "Building text to ASCII diffusion model , need advice and guidance [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vo3m71/building_text_to_ascii_diffusion_model_need/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Trying to train 3 models for birads detection using cross entropy and center loss + class weights but all of them seem to collapse between birads 1 as the dataset (VinDr) im using is heavily unbalanced towards it, Would like to ask for input and opinion on what seems to be the case, am I using the wrong loss function?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rihitwo\"> /u/Rihitwo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "9fe6e8c4-3a8c-5f62-ba7f-bf37b631903f",
-    "title": "I Trained a One-shot Prototypical Network with just 984 learnable parameters on MNIST, here's how it went. [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vjyf8m/i_trained_a_oneshot_prototypical_network_with/",
-    "pubDate": "2026-08-09T19:10:19+00:00",
-    "description": "I've been experimenting with trying to make a \"good\" MNIST model by using just 10 images (1/class) and also keeping the model really small (under 1K parameters), overall this specific model achieves a validation accuracy of 62.46%. How it works is that the vision pipeline is entirely fixed, and then with deterministic compression it gets brought down to 81D. Then comes the trainable part, a single 81 - 12 linear layer. This 12D space then gets used for cosine-similarity prototype matching. Then the training itself uses 200 augmented queries per class per episode against the 10 unmodified support images. The training was carried out on a single core of the Dimensity 9300+ chipset (1 Cortex-X4 core), at about 0.5 seconds/epoch or a total time of around 90 seconds for the 172 epochs used. If there are any questions, suggestions or just feedback in general (negative or positive) I'd appreciate it! Edit; The training code used is available here: https://github.com/ThatHungarian/TinyMNIST/ submitted by /u/Tall_Abrocoma_3533 [link] [comments]",
-    "author": "/u/Tall_Abrocoma_3533",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been experimenting with trying to make a &quot;good&quot; MNIST model by using just 10 images (1/class) and also keeping the model really small (under 1K parameters), overall this specific model achieves a validation accuracy of 62.46%.</p> <p>How it works is that the vision pipeline is entirely fixed, and then with deterministic compression it gets brought down to 81D. Then comes the trainable part, a single 81 - 12 linear layer. This 12D space then gets used for cosine-similarity prototype matching. Then the training itself uses 200 augmented queries per class per episode against the 10 unmodified support images.</p> <p>The training was carried out on a single core of the Dimensity 9300+ chipset (1 Cortex-X4 core), at about 0.5 seconds/epoch or a total time of around 90 seconds for the 172 epochs used.</p> <p>If there are any questions, suggestions or just feedback in general (negative or positive) I'd appreciate it!</p> <p>Edit; The training code used is available here: <a href=\"https://github.com/ThatHungarian/TinyMNIST/\">https://github.com/ThatHungarian/TinyMNIST/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tall_Abrocoma_3533\"> /u/Tall_Abrocoma_3533 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjyf8m/i_trained_a_oneshot_prototypical_network_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjyf8m/i_trained_a_oneshot_prototypical_network_with/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
