@@ -1,5 +1,21 @@
 [
   {
+    "id": "646d7933-0802-5225-a49b-931aadbd2fc1",
+    "title": "short-paper at ACL/EMNLP/EACL [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1uz8w8q/shortpaper_at_aclemnlpeacl_r/",
+    "pubDate": "2026-07-17T19:02:01+00:00",
+    "description": "Does anyone have accepted short-paper at ACL/EMNLP/EACL 2025/26? Could you share your track and overall assessment? I'm just trying to get a sense of things, as it seems short papers have a lower acceptance rate than long ones. submitted by /u/No_Cardiologist7609 [link] [comments]",
+    "author": "/u/No_Cardiologist7609",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone have accepted short-paper at ACL/EMNLP/EACL 2025/26? Could you share your track and overall assessment? I'm just trying to get a sense of things, as it seems short papers have a lower acceptance rate than long ones.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cardiologist7609\"> /u/No_Cardiologist7609 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz8w8q/shortpaper_at_aclemnlpeacl_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz8w8q/shortpaper_at_aclemnlpeacl_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bf21a425-18da-5c35-a4c3-f2842e4594dd",
     "title": "BMVC rebuttals update [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uz7hbu/bmvc_rebuttals_update_d/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwfwbz/i_trained_a_visionlanguage_model_to_play_snake/\"> <img alt=\"I trained a vision-language model to play Snake, and so can you. [P]\" src=\"https://external-preview.redd.it/YWcAyMNI6jxa5S-SYFMgIq4qY5VYLAesOmSGvUtU3as.png?width=140&amp;height=70&amp;auto=webp&amp;s=247aa5820e62edcecbb91eb5a961e10ecb0ae66f\" title=\"I trained a vision-language model to play Snake, and so can you. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I built this Snake demo to show how easy it can be to go from data preparation to training and evaluation with FeynRL.</p> <p>The model is overkill for Snake, but that’s not the point. This example walks through the full VLM training pipeline in a simple, visual, and fun setting, showing how FeynRL makes it easier to understand how large models like LLMs and VLMs are built, trained, and optimized end to end.</p> <p><a href=\"https://i.redd.it/9j0t2bukg8dh1.gif\">https://i.redd.it/9j0t2bukg8dh1.gif</a></p> <p>GitHub: <a href=\"https://github.com/FeynRL-project/FeynRL\">https://github.com/FeynRL-project/FeynRL</a></p> <p>Check out the examples section to build something similar yourself, and feel free to share feedback or contribute. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/murdock_aubry\"> /u/murdock_aubry </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwfwbz/i_trained_a_visionlanguage_model_to_play_snake/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwfwbz/i_trained_a_visionlanguage_model_to_play_snake/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/YWcAyMNI6jxa5S-SYFMgIq4qY5VYLAesOmSGvUtU3as.png?width=140&height=70&auto=webp&s=247aa5820e62edcecbb91eb5a961e10ecb0ae66f",
-    "isShortVideo": 0
-  },
-  {
-    "id": "fd6cae62-aac5-5351-a347-6c4678c88f1b",
-    "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordination in Language Agents [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
-    "pubDate": "2026-07-14T15:37:52+00:00",
-    "description": "Can LLM agents coordinate in long-horizon, open-ended worlds? We evaluate 13 modern LLMs in a new benchmark where agents must work together to explore, communicate, trade resources, craft tools, build structures, and fight mobs. TL;DR : Most agents struggle, averaging only ~6% normalised return. Yet on the hardest setting, zero-shot Gemini 3.1 Pro performs comparably to the best MARL agent trained for 1 billion environment steps. More broadly, we find coordination is a distinct bottleneck beyond long-horizon task competence, with communication having the largest effect in our harness ablations. Paper: https://arxiv.org/abs/2606.08340 Project page and leaderboard: https://alem-world.github.io Code: https://github.com/alem-world/alem-env Interactive traces: https://alem-world.github.io/traces.html Feel free to ask any questions! submitted by /u/ktessera [link] [comments]",
-    "author": "/u/ktessera",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>Can LLM agents coordinate in long-horizon, open-ended worlds?</strong></p> <p>We evaluate 13 modern LLMs in a new benchmark where agents must work together to explore, communicate, trade resources, craft tools, build structures, and fight mobs.</p> <p><strong>TL;DR</strong>: Most agents struggle, averaging only ~6% normalised return. Yet on the hardest setting, zero-shot Gemini 3.1 Pro performs comparably to the best MARL agent trained for 1 billion environment steps.</p> <p>More broadly, we find <strong>coordination is a distinct bottleneck</strong> beyond long-horizon task competence, with communication having the largest effect in our harness ablations.</p> <p>Paper: <a href=\"https://arxiv.org/abs/2606.08340\">https://arxiv.org/abs/2606.08340</a></p> <p>Project page and leaderboard: <a href=\"https://alem-world.github.io\">https://alem-world.github.io</a></p> <p>Code: <a href=\"https://github.com/alem-world/alem-env\">https://github.com/alem-world/alem-env</a></p> <p>Interactive traces: <a href=\"https://alem-world.github.io/traces.html\">https://alem-world.github.io/traces.html</a></p> <p>Feel free to ask any questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ktessera\"> /u/ktessera </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

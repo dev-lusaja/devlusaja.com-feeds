@@ -1,5 +1,21 @@
 [
   {
+    "id": "fd5d7d2b-d686-5008-a1fb-21b36746060f",
+    "title": "New to this field need some guidance with my project( marine reasoning) [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w0uiry/new_to_this_field_need_some_guidance_with_my/",
+    "pubDate": "2026-08-28T15:58:11+00:00",
+    "description": "learnt about vector space , fields , and applications whatever i could then went on with learning python libraries like numpy , scikit learn , pandas , also had a bit of knowledge about tensorflow and how to use pytorch but now i stand so clueless when i try to apply my knowledge in my first project. So idk why but i decided somehow that i wanna make a project in \"marine reasoning \" and i feel clueless about is it just supervised learning reinforcement learning or mix of both and how much data should i acquire or how do i cleanse my data is the data even enough what should be my pipeline what are the steps i dont have any guidance. I just wish someone who has keen knowledge in multi stage framework LLMs can give me the proper PIPELINE for the model and where should i start with , with proper links and tools also any inputs from anyone's side would be highly appreciated . ALSO IF ANYONE CAN GUIDE ME THRU ALL THE STEPS OR WHAT I NEED TO LEARN MORE . submitted by /u/ProfessionalMud540 [link] [comments]",
+    "author": "/u/ProfessionalMud540",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>learnt about vector space , fields , and applications whatever i could then went on with learning python libraries like numpy , scikit learn , pandas , also had a bit of knowledge about tensorflow and how to use pytorch but now i stand so clueless when i try to apply my knowledge in my first project.</p> <p>So idk why but i decided somehow that i wanna make a project in &quot;marine reasoning &quot; and i feel clueless about is it just supervised learning reinforcement learning or mix of both and how much data should i acquire or how do i cleanse my data is the data even enough what should be my pipeline what are the steps i dont have any guidance.</p> <p>I just wish someone who has keen knowledge in multi stage framework LLMs can give me the proper PIPELINE for the model and where should i start with , with proper links and tools also any inputs from anyone's side would be highly appreciated . ALSO IF ANYONE CAN GUIDE ME THRU ALL THE STEPS OR WHAT I NEED TO LEARN MORE .</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ProfessionalMud540\"> /u/ProfessionalMud540 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w0uiry/new_to_this_field_need_some_guidance_with_my/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w0uiry/new_to_this_field_need_some_guidance_with_my/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "eeebe916-6758-5562-8894-8a2c4f7a5a07",
     "title": "Google CS PhD Fellowship 2026 [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w0qv95/google_cs_phd_fellowship_2026_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>My dumbass just realized all NeurIPS workshops are non-archival.</p> <p>In terms of grad school applications, would there be a difference in how much they value ur paper if u get it in a proceeding</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wonderful_Entry9371\"> /u/Wonderful_Entry9371 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bde2392a-781f-5ff0-87d2-85e245901d91",
-    "title": "When an AI agent says “done” how do you know it actually happened? [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/",
-    "pubDate": "2026-08-23T15:32:09+00:00",
-    "description": "i’m testing an early concept called agentuptime. there’s no product or sdk yet. the idea came from something that keeps bothering me with agents: an agent saying “done” doesn’t necessarily mean the thing actually happened. a tool can return success, the trace can look fine, and the external system can still end up in the wrong state. so i’m experimenting with a small “receipt” concept where the agent’s claim is separate from an independently checked outcome. something like: database write → can the record actually be read back? api action → does the provider now show the expected state? agent handoff → did the other agent actually receive it? i’m trying to figure out whether this deserves its own layer or whether tracing + custom checks already solve it well enough. if you run agents with real side effects, what action would be hardest to verify? https://agentuptime.dev submitted by /u/singed_of_a_down3 [link] [comments]",
-    "author": "/u/singed_of_a_down3",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>i’m testing an early concept called agentuptime. there’s no product or sdk yet.</p> <p>the idea came from something that keeps bothering me with agents:</p> <p>an agent saying “done” doesn’t necessarily mean the thing actually happened.</p> <p>a tool can return success, the trace can look fine, and the external system can still end up in the wrong state.</p> <p>so i’m experimenting with a small “receipt” concept where the agent’s claim is separate from an independently checked outcome.</p> <p>something like:</p> <p>database write → can the record actually be read back?</p> <p>api action → does the provider now show the expected state?</p> <p>agent handoff → did the other agent actually receive it?</p> <p>i’m trying to figure out whether this deserves its own layer or whether tracing + custom checks already solve it well enough.</p> <p>if you run agents with real side effects, what action would be hardest to verify?</p> <p><a href=\"https://agentuptime.dev/\">https://agentuptime.dev</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/singed_of_a_down3\"> /u/singed_of_a_down3 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

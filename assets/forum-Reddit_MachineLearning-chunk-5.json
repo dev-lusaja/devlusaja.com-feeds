@@ -1,5 +1,21 @@
 [
   {
+    "id": "220babdd-82a2-5328-945c-3bcb6980706c",
+    "title": "Discussion thread for EMNLP 2026 Notifications/Results [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/",
+    "pubDate": "2026-08-20T08:37:17+00:00",
+    "description": "Discussion thread for EMNLP 2026 notifications/results which should be released today. Wishing everybody to be in Budapest. submitted by /u/sweetsalt10 [link] [comments]",
+    "author": "/u/sweetsalt10",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Discussion thread for EMNLP 2026 notifications/results which should be released today.</p> <p>Wishing everybody to be in Budapest.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sweetsalt10\"> /u/sweetsalt10 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "2dcb867e-dc71-5ba5-b572-154e82e08d50",
     "title": "About the impact of grouping classes in multiclass classification [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, </p> <p>How much does adding an honest limitations section hurt the paper (apart from making it better)?</p> <p>Does it bias the reviewers? Will they want you to fix the things in the limitations section?</p> <p>If the reviewers let AI read the paper, will the limitations section bias AI? </p> <p>Would it be better if the limitations section was hidden from the reviewers? And if the reviewers would have to author a limitations section?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/strammerrammer\"> /u/strammerrammer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "43a53340-67e2-5b01-986d-85121f95b269",
-    "title": "Are there any theoretically-guided practices left in machine learning nowadays? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vohmy4/are_there_any_theoreticallyguided_practices_left/",
-    "pubDate": "2026-08-14T19:52:59+00:00",
-    "description": "There was a period in the development of machine learning where application seemed to be informed by theory. Some of the best known theories include: If you train a model with too much data, then you get overfitting and your test performance will be suffer. Big models do not generalize because theoretically you will never have enough data. Never train on the test set, because it will result in high-bias. Never even look at the test set, because you as a modeller will instantly be biased and use the wrong model. Good results can only come from \"compatible\" models and optimization routines. You can't just throw ADAM onto some brand new model and expect it to work well. Optimization provides solid theory for machine learning, so use the optimizer with the best performance guarantee in the optimization literature. If you want to have good performance, ensure to use several models instead of one model, because stacked or ensemble models are always superior. Most of these theories started out as mathematical statements (albeit on some contrived examples that have nothing to do with reality). At some point, these theories became folklores and were widely reproduced in textbooks and taught in classrooms, even making their ways into standard interview questions at data science related companies. Every student had to remember that bias-variance \"bull's eye\" diagram as if it was relevant in practice. But then some of these theories started to get overturned. It turns out you can just break a lot of these theoretically-guided practices and still get good results. The ones who pushed these theories (especially the authors of various \"statistical ML\" textbooks), quietly stopped their postulation and instead hopped on the hype train. This left their students confused because there was never ever any retraction or resolution. So my question is : are there still any theoretically-guided practice that remain in ML today? For example, do people use an optimizer because it is theoretically the best for the class of problems? Do people use a certain model or components associated with the model because it works well in theory? Or is it now a fully empirical field where practice is guided by whatever seems to work for other people? submitted by /u/NeighborhoodFatCat [link] [comments]",
-    "author": "/u/NeighborhoodFatCat",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>There was a period in the development of machine learning where application seemed to be informed by theory. Some of the best known theories include:</p> <ul> <li>If you train a model with too much data, then you get overfitting and your test performance will be suffer.</li> <li>Big models do not generalize because theoretically you will never have enough data.</li> <li>Never train on the test set, because it will result in high-bias.</li> <li>Never even look at the test set, because you as a modeller will instantly be biased and use the wrong model.</li> <li>Good results can only come from &quot;compatible&quot; models and optimization routines. You can't just throw ADAM onto some brand new model and expect it to work well.</li> <li>Optimization provides solid theory for machine learning, so use the optimizer with the best performance guarantee in the optimization literature.</li> <li>If you want to have good performance, ensure to use several models instead of one model, because stacked or ensemble models are always superior.</li> </ul> <p>Most of these theories started out as mathematical statements (albeit on some contrived examples that have nothing to do with reality). At some point, these theories became folklores and were widely reproduced in textbooks and taught in classrooms, even making their ways into standard interview questions at data science related companies. Every student had to remember that bias-variance &quot;bull's eye&quot; diagram as if it was relevant in practice.</p> <p>But then some of these theories started to get overturned. It turns out you can just break a lot of these theoretically-guided practices and still get good results. The ones who pushed these theories (especially the authors of various &quot;statistical ML&quot; textbooks), quietly stopped their postulation and instead hopped on the hype train. This left their students confused because there was never ever any retraction or resolution.</p> <p><strong>So my question is</strong>: are there still any theoretically-guided practice that remain in ML today? For example, do people use an optimizer because it is theoretically the best for the class of problems? Do people use a certain model or components associated with the model because it works well in theory? Or is it now a fully empirical field where practice is guided by whatever seems to work for other people?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeighborhoodFatCat\"> /u/NeighborhoodFatCat </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vohmy4/are_there_any_theoreticallyguided_practices_left/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vohmy4/are_there_any_theoreticallyguided_practices_left/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
