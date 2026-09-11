@@ -1,5 +1,21 @@
 [
   {
+    "id": "b25ca209-697f-55fd-9fd9-d26bba66acd6",
+    "title": "What coding practices are you adopting for development today? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/",
+    "pubDate": "2026-08-21T17:10:38+00:00",
+    "description": "I have been reflecting on this while working on a project recently. Every time we start a new model, we rewrite roughly same scaffolding, data validation checks, feature transformation logic ; all of this is nealy 80 percent identical to last project I tired templating with cookiecutter style project generators. Initially it was okay, but it drifted from reality since noone wants to maintain a template repo. So tired a shared library approach, it helped and was much better. But weiting glue code to wite everything is still bug prone Now i am experimenting with genie code to generate the boilerplate, the repetitive code, config parsing etc. it is decent for that part, though it starts hallucinating if columns increase say lot more than 40-50. It is not silver bullet, but it is cutting down the project setup time from 3 days to less than 1 day So the deep question i am having now is, should we even write code? The config driven approach seems to be good, but eventually we are bound to suffer in a few months time when we start needing something non standard. Is there a middle ground, writing everything from scratch - the opinionated framework that becomes prison. How have you guys been developing? What are you adopting? submitted by /u/Wrong_City2251 [link] [comments]",
+    "author": "/u/Wrong_City2251",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been reflecting on this while working on a project recently. Every time we start a new model, we rewrite roughly same scaffolding, data validation checks, feature transformation logic ; all of this is nealy 80 percent identical to last project</p> <p>I tired templating with cookiecutter style project generators. Initially it was okay, but it drifted from reality since noone wants to maintain a template repo. So tired a shared library approach, it helped and was much better. But weiting glue code to wite everything is still bug prone</p> <p>Now i am experimenting with genie code to generate the boilerplate, the repetitive code, config parsing etc. it is decent for that part, though it starts hallucinating if columns increase say lot more than 40-50. It is not silver bullet, but it is cutting down the project setup time from 3 days to less than 1 day</p> <p>So the deep question i am having now is, should we even write code? The config driven approach seems to be good, but eventually we are bound to suffer in a few months time when we start needing something non standard. Is there a middle ground, writing everything from scratch - the opinionated framework that becomes prison. How have you guys been developing? What are you adopting?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wrong_City2251\"> /u/Wrong_City2251 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "8cdf5fe3-a3fc-5f38-8ae4-03d1569571aa",
     "title": "Research internship at MSR [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vuloyq/research_internship_at_msr_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Registering for RealPDE (Sim2Real / LTTTA tracks — real PIV + CFD fluid dynamics data). Team cap is 3.</p> <p>If you've got a strong ML background and wanna participate, just DM me. Deadline's Aug 20, so move fast.</p> <p>🔗 <a href=\"https://realpdecompetition.github.io\">https://realpdecompetition.github.io</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Push9328\"> /u/Alternative_Push9328 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vsjlzj/looking_for_1_teammate_realpde_competition/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vsjlzj/looking_for_1_teammate_realpde_competition/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "83589e81-ec4a-510c-a960-86f49252ddac",
-    "title": "how can I learn Machine Learning for Astronomical use? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/",
-    "pubDate": "2026-08-19T07:32:45+00:00",
-    "description": "Im new to Astronomy and Juypter Notebooks and Ai machine learning for sure I have little skill in python but quick learner especially visual learning. Are there any free tutorials I can use and free books to learn machine learning for astronomy Example: use machine learning to run through jwst or tess pipeline data and look for signatures of possible blackholes or exoplanets? Is there a juypter notebook with this ability already on there? How can I make a custom juypter lab and git repos and python libraries and python scientific libraries? Should I use docker to place a juypter lab notebook in a container if so how? submitted by /u/Silent_Observer55 [link] [comments]",
-    "author": "/u/Silent_Observer55",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Im new to Astronomy and Juypter Notebooks and Ai machine learning for sure I have little skill in python but quick learner especially visual learning.</p> <p>Are there any free tutorials I can use and free books to learn machine learning for astronomy </p> <p>Example: use machine learning to run through jwst or tess pipeline data and look for signatures of possible blackholes or exoplanets?</p> <p>Is there a juypter notebook with this ability already on there?</p> <p>How can I make a custom juypter lab and git repos and python libraries and python scientific libraries? Should I use docker to place a juypter lab notebook in a container if so how?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Silent_Observer55\"> /u/Silent_Observer55 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

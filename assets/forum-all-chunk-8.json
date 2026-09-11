@@ -1,5 +1,21 @@
 [
   {
+    "id": "460150d5-31be-5ef0-8954-378445e88155",
+    "title": "Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/",
+    "pubDate": "2026-08-14T21:54:36+00:00",
+    "description": "mlx-dspark is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads. Numbers (M4 Pro 48 GB, medians of 3 , greedy, output ids identical to plain decoding): 8-bit target: 2.45× mean at the auto-picked cap — 3.00× math / 2.38× code / 1.96× chat, 8.3 → 20.3 tok/s (code runs hit 3.18× ). Peak ~29 GB. 4-bit target: 1.74× at 25.3 tok/s in ~18 GB (same drafter auto-resolves). Fun property: 8-bit + drafter (20-27 tok/s) beats plain 4-bit (14.6 tok/s) — 8-bit quality at better-than-4-bit speed. \"Lossless\" is checked, not asserted: the target verifies every drafted token, and the Mac app's Race view runs speculative vs plain on the same prompt and diffs the token ids (video is that view). Everything is pip install mlx-dspark (OpenAI-compatible server + Anthropic Messages API, so it can back Claude Code with a local model), and there's a native Mac app (DMG/Homebrew). Repo: github.com/ARahim3/mlx-dspark I'd appreciate any feedback you might have after using it. submitted by /u/A-Rahim [link] [comments]",
+    "author": "/u/A-Rahim",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/\"> <img alt=\"Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark\" src=\"https://preview.redd.it/j0d6n66hwejh1.gif?width=640&amp;crop=smart&amp;s=bc36d20e4f06206cceebd369bdbca84b3154fbf5\" title=\"Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>mlx-dspark</strong> is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads.</p> <p>Numbers (M4 Pro 48 GB, <strong>medians of 3</strong>, greedy, output ids identical to plain decoding):</p> <ul> <li>8-bit target: <strong>2.45× mean</strong> at the auto-picked cap — 3.00× math / 2.38× code / 1.96× chat, 8.3 → 20.3 tok/s (code runs hit <strong>3.18×</strong>). Peak ~29 GB.</li> <li>4-bit target: 1.74× at 25.3 tok/s in ~18 GB (same drafter auto-resolves).</li> <li><strong>Fun property:</strong> 8-bit + drafter (20-27 tok/s) beats plain 4-bit (14.6 tok/s) — 8-bit quality at better-than-4-bit speed.</li> </ul> <p>&quot;Lossless&quot; is checked, not asserted: the target verifies every drafted token, and the Mac app's Race view runs speculative vs plain on the same prompt and diffs the token ids (video is that view).</p> <p>Everything is <code>pip install mlx-dspark</code> (OpenAI-compatible server + Anthropic Messages API, so it can back Claude Code with a local model), and there's a native Mac app (DMG/Homebrew).</p> <p>Repo: <a href=\"http://github.com/ARahim3/mlx-dspark\">github.com/ARahim3/mlx-dspark</a></p> <p>I'd appreciate any feedback you might have after using it. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/A-Rahim\"> /u/A-Rahim </a> <br /> <span><a href=\"https://i.redd.it/j0d6n66hwejh1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/j0d6n66hwejh1.gif?width=640&crop=smart&s=bc36d20e4f06206cceebd369bdbca84b3154fbf5",
+    "isShortVideo": 0
+  },
+  {
     "id": "6b2f4b2d-48b4-5570-888d-1c7ed6db02aa",
     "title": "A hunch: Qwen3.8-27B's general knowledge got pruned (good, if true)",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vokpw6/a_hunch_qwen3827bs_general_knowledge_got_pruned/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on performance regression detection using machine learning/anomaly detection.</p> <p>My setup is basically:</p> <ul> <li>Healthy runs are used to learn normal behaviour</li> <li>Regression runs are used to see whether the model detects the anomaly</li> <li>For each counter group I only have about 10 healthy samples</li> <li>I’m currently using leave-one-out on the healthy data to set the detection threshold</li> <li>The regression samples are not used during training or threshold selection</li> </ul> <p>I’m confused about a few things:</p> <ul> <li>Do I still need a normal train/validation/test split for this type of one-class anomaly detection?</li> <li>With only 10 healthy samples, is leave-one-out better than splitting them into something like 60/20/20?</li> <li>Can the regression samples simply act as the unseen test set?</li> <li>Would it be better to collect a second independent healthy dataset and use that as a final test for false positives?</li> <li>For evaluation, should I mainly use false-positive rate and detection rate/recall rather than MSE/MAE, since I’m not predicting a continuous value?</li> </ul> <p>Just trying to make sure the evaluation setup is correct before I finalise it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZeroDark_Hereford\"> /u/ZeroDark_Hereford </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vngjmv/urgent_help_detecting_performance_regressions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vngjmv/urgent_help_detecting_performance_regressions/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "b2788bb8-2f77-5d5e-a3cf-1d2b6b8f7083",
-    "title": "Recommended Machine Learning / AI Academic Papers [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/",
-    "pubDate": "2026-08-13T16:50:11+00:00",
-    "description": "I’m currently looking to expand my knowledge past utilisation of AI and Machine Learning through using LLMs and SaS in business applications but I don’t know where to start. I have a university background with CompSci, and so a degree of theoretical knowledge behind AI / ML but nothing really past basics. I would appreciate it if people could share academic research or articles that have been published that go past the current AI craze and actually are relevant at a high level that you won’t find in LinkedIn posts or blogs. TIA submitted by /u/DynamicDonk [link] [comments]",
-    "author": "/u/DynamicDonk",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m currently looking to expand my knowledge past utilisation of AI and Machine Learning through using LLMs and SaS in business applications but I don’t know where to start. </p> <p>I have a university background with CompSci, and so a degree of theoretical knowledge behind AI / ML but nothing really past basics.</p> <p>I would appreciate it if people could share academic research or articles that have been published that go past the current AI craze and actually are relevant at a high level that you won’t find in LinkedIn posts or blogs. TIA</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DynamicDonk\"> /u/DynamicDonk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

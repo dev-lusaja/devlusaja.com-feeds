@@ -1,5 +1,21 @@
 [
   {
+    "id": "83589e81-ec4a-510c-a960-86f49252ddac",
+    "title": "how can I learn Machine Learning for Astronomical use? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/",
+    "pubDate": "2026-08-19T07:32:45+00:00",
+    "description": "Im new to Astronomy and Juypter Notebooks and Ai machine learning for sure I have little skill in python but quick learner especially visual learning. Are there any free tutorials I can use and free books to learn machine learning for astronomy Example: use machine learning to run through jwst or tess pipeline data and look for signatures of possible blackholes or exoplanets? Is there a juypter notebook with this ability already on there? How can I make a custom juypter lab and git repos and python libraries and python scientific libraries? Should I use docker to place a juypter lab notebook in a container if so how? submitted by /u/Silent_Observer55 [link] [comments]",
+    "author": "/u/Silent_Observer55",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Im new to Astronomy and Juypter Notebooks and Ai machine learning for sure I have little skill in python but quick learner especially visual learning.</p> <p>Are there any free tutorials I can use and free books to learn machine learning for astronomy </p> <p>Example: use machine learning to run through jwst or tess pipeline data and look for signatures of possible blackholes or exoplanets?</p> <p>Is there a juypter notebook with this ability already on there?</p> <p>How can I make a custom juypter lab and git repos and python libraries and python scientific libraries? Should I use docker to place a juypter lab notebook in a container if so how?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Silent_Observer55\"> /u/Silent_Observer55 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vsfif8/how_can_i_learn_machine_learning_for_astronomical/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "44bcb1f3-4507-5618-8dd6-cdf71253fc41",
     "title": "Embedded spaces inspired on gravity [P][D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vsb2xl/embedded_spaces_inspired_on_gravity_pd/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, </p> <p>How much does adding an honest limitations section hurt the paper (apart from making it better)?</p> <p>Does it bias the reviewers? Will they want you to fix the things in the limitations section?</p> <p>If the reviewers let AI read the paper, will the limitations section bias AI? </p> <p>Would it be better if the limitations section was hidden from the reviewers? And if the reviewers would have to author a limitations section?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/strammerrammer\"> /u/strammerrammer </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1voksgz/how_much_does_adding_an_honest_limitations/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "460150d5-31be-5ef0-8954-378445e88155",
-    "title": "Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/",
-    "pubDate": "2026-08-14T21:54:36+00:00",
-    "description": "mlx-dspark is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads. Numbers (M4 Pro 48 GB, medians of 3 , greedy, output ids identical to plain decoding): 8-bit target: 2.45× mean at the auto-picked cap — 3.00× math / 2.38× code / 1.96× chat, 8.3 → 20.3 tok/s (code runs hit 3.18× ). Peak ~29 GB. 4-bit target: 1.74× at 25.3 tok/s in ~18 GB (same drafter auto-resolves). Fun property: 8-bit + drafter (20-27 tok/s) beats plain 4-bit (14.6 tok/s) — 8-bit quality at better-than-4-bit speed. \"Lossless\" is checked, not asserted: the target verifies every drafted token, and the Mac app's Race view runs speculative vs plain on the same prompt and diffs the token ids (video is that view). Everything is pip install mlx-dspark (OpenAI-compatible server + Anthropic Messages API, so it can back Claude Code with a local model), and there's a native Mac app (DMG/Homebrew). Repo: github.com/ARahim3/mlx-dspark I'd appreciate any feedback you might have after using it. submitted by /u/A-Rahim [link] [comments]",
-    "author": "/u/A-Rahim",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/\"> <img alt=\"Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark\" src=\"https://preview.redd.it/j0d6n66hwejh1.gif?width=640&amp;crop=smart&amp;s=bc36d20e4f06206cceebd369bdbca84b3154fbf5\" title=\"Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>mlx-dspark</strong> is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads.</p> <p>Numbers (M4 Pro 48 GB, <strong>medians of 3</strong>, greedy, output ids identical to plain decoding):</p> <ul> <li>8-bit target: <strong>2.45× mean</strong> at the auto-picked cap — 3.00× math / 2.38× code / 1.96× chat, 8.3 → 20.3 tok/s (code runs hit <strong>3.18×</strong>). Peak ~29 GB.</li> <li>4-bit target: 1.74× at 25.3 tok/s in ~18 GB (same drafter auto-resolves).</li> <li><strong>Fun property:</strong> 8-bit + drafter (20-27 tok/s) beats plain 4-bit (14.6 tok/s) — 8-bit quality at better-than-4-bit speed.</li> </ul> <p>&quot;Lossless&quot; is checked, not asserted: the target verifies every drafted token, and the Mac app's Race view runs speculative vs plain on the same prompt and diffs the token ids (video is that view).</p> <p>Everything is <code>pip install mlx-dspark</code> (OpenAI-compatible server + Anthropic Messages API, so it can back Claude Code with a local model), and there's a native Mac app (DMG/Homebrew).</p> <p>Repo: <a href=\"http://github.com/ARahim3/mlx-dspark\">github.com/ARahim3/mlx-dspark</a></p> <p>I'd appreciate any feedback you might have after using it. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/A-Rahim\"> /u/A-Rahim </a> <br /> <span><a href=\"https://i.redd.it/j0d6n66hwejh1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/j0d6n66hwejh1.gif?width=640&crop=smart&s=bc36d20e4f06206cceebd369bdbca84b3154fbf5",
     "isShortVideo": 0
   }
 ]

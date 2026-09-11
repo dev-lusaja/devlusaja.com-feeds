@@ -1,5 +1,21 @@
 [
   {
+    "id": "2ad10e61-1cd9-5fad-b400-3652567580c4",
+    "title": "PhD Internship in smaller lab [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w1itzf/phd_internship_in_smaller_lab_d/",
+    "pubDate": "2026-08-29T10:20:12+00:00",
+    "description": "How much of a disadvantage is it if your only internship is not at one of the big frontier labs when it comes to post-phd opportunities in robotics/ML? My PhD is at a top university (UK) and my internship is interesting and relevant but the team itself is smaller and it's no Nvidia/Google/etc. Most places here prefer interns for 6 months so I'm not sure if I can do another internship down the line or if there's even much point compared to just wrapping up the PhD and then getting a job. Is having a relevant internship already a big plus when it comes to applying to industry, or does it need to be a really well known big tech company? submitted by /u/IgneousPutorius [link] [comments]",
+    "author": "/u/IgneousPutorius",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>How much of a disadvantage is it if your only internship is not at one of the big frontier labs when it comes to post-phd opportunities in robotics/ML? My PhD is at a top university (UK) and my internship is interesting and relevant but the team itself is smaller and it's no Nvidia/Google/etc. Most places here prefer interns for 6 months so I'm not sure if I can do another internship down the line or if there's even much point compared to just wrapping up the PhD and then getting a job.</p> <p>Is having a relevant internship already a big plus when it comes to applying to industry, or does it need to be a really well known big tech company?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IgneousPutorius\"> /u/IgneousPutorius </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1itzf/phd_internship_in_smaller_lab_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1itzf/phd_internship_in_smaller_lab_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "079479c8-3976-5a02-a47a-1c456bbefde5",
     "title": "How important is having an internship to get a good job for ML PhD in USA? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Standard constrained RL assumes consequences are immediate and attributable to the current action. This breaks down whenever violations are delayed and stochastic, which is most real-world settings you end up penalizing whatever action happened to precede the observed violation, not the action that caused it.</p> <p>Working on CCPL (Causal Consequence-Penalized Learning) to address this:</p> <p>- A delay-corrected Bellman operator using an adaptive effective discount learned from the consequence-delay distribution. Contraction proof holds under unknown stochastic delay.</p> <p>- An Interventional Consequence Net (ICN), pretrained on structural-causal-model labels, estimating marginal causal contribution per action for attribution rather than penalizing based on temporal proximity.</p> <p><strong>Limitations, to be upfront about them:</strong><br /> - The ICN currently requires access to the environment's structural causal model to generate pretraining labels it's not learned end-to-end from observational or interventional data alone. That's a real constraint on applicability outside benchmark settings where the SCM is known or can be reasonably specified.</p> <p>Open to contributions and collaborators, especially if you work in constrained/safe RL or causal inference feel free to open an issue or reach out directly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cauliflower7923\"> /u/No_Cauliflower7923 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "7a1bdf1a-3dbe-5680-9ceb-b08878318d08",
-    "title": "AAAI 2027 Reviewer Bidding and Assignment Integrity [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/",
-    "pubDate": "2026-08-24T06:11:03+00:00",
-    "description": "Recently, the AAAI 2027 organizers sent an email regarding collusion occurring during the review process, especially in the 2-cycles category (i.e., an author of Paper A reviews Paper B, while an author of Paper B reviews Paper A). Given the fact that most submissions come from a single country, there are higher chances that the assignment algorithm will naturally create 2-cycles among authors from that country. This, in turn, means that most authors involved in collusion could be from that country. I will not name that country; otherwise, I would be labelled as racist. By the way, did AAAI release statistics about the number of submissions, like they did last time? It is also good news that a major and prestigious conference like AAAI is acknowledging that collusion is happening. We all knew that this kind of collusion had been happening for years. There are papers accepted at top conferences such as NeurIPS, ICLR, AAAI, and ICML that do not even have their code published on GitHub. This forces other researchers in the community to spend substantial time reimplementing the code themselves if they want to reproduce the reported results. What are the views of other authors on this? submitted by /u/Fragrant_Fan_6751 [link] [comments]",
-    "author": "/u/Fragrant_Fan_6751",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently, the AAAI 2027 organizers sent an email regarding collusion occurring during the review process, especially in the <strong>2-cycles</strong> category (i.e., an author of Paper A reviews Paper B, while an author of Paper B reviews Paper A).</p> <p>Given the fact that most submissions come from a single country, there are higher chances that the assignment algorithm will naturally create 2-cycles among authors from that country. This, in turn, means that most authors involved in collusion could be from that country. I will not name that country; otherwise, I would be labelled as racist. By the way, did AAAI release statistics about the number of submissions, like they did last time?</p> <p>It is also good news that a major and prestigious conference like AAAI is acknowledging that collusion is happening. We all knew that this kind of collusion had been happening for years. There are papers accepted at top conferences such as NeurIPS, ICLR, AAAI, and ICML that do not even have their code published on GitHub. This forces other researchers in the community to spend substantial time reimplementing the code themselves if they want to reproduce the reported results.</p> <p>What are the views of other authors on this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fragrant_Fan_6751\"> /u/Fragrant_Fan_6751 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

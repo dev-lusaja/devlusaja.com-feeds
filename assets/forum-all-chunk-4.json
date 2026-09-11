@@ -1,5 +1,21 @@
 [
   {
+    "id": "784bbc10-1bd3-5c0e-95a9-b70db30ef3f8",
+    "title": "Where to submit stat/prob ML [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/",
+    "pubDate": "2026-08-28T08:16:25+00:00",
+    "description": "I'm a researcher in statistical and probabilistic ML, I have a steady record of top ML publications and really used to enjoy going to conferences. Over the last few years LLM based works have completely taken over the top conferences. At this year's ICLR, walking among the rows of posters you were lucky to find one paper per row of 10 that wasn't about how their favourite LLM could or couldn't solve their niche benchmark. The workshops tell the same story, most are some kind of agentic flavour. Looking at this year's NeurIPS workshops it's the same thing, basically all are about agents. I'm wondering where do the stat/prob ML communities go from here? I look up to people like Arnaud Doucet, Aapo Hyvärinen, Christian Naesseth, Stefano Ermon, they seem to still publish at the top 3? On my end, I m thinking AISTATS/UAI might be the way to go. All in all, the top 3 might never really have been intended as the home for prob/statML works, it just happened to be the 'prestigious' venue. submitted by /u/didimoney [link] [comments]",
+    "author": "/u/didimoney",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm a researcher in statistical and probabilistic ML, I have a steady record of top ML publications and really used to enjoy going to conferences.</p> <p>Over the last few years LLM based works have completely taken over the top conferences. At this year's ICLR, walking among the rows of posters you were lucky to find one paper per row of 10 that wasn't about how their favourite LLM could or couldn't solve their niche benchmark. The workshops tell the same story, most are some kind of agentic flavour. Looking at this year's NeurIPS workshops it's the same thing, basically all are about agents.</p> <p>I'm wondering where do the stat/prob ML communities go from here? I look up to people like Arnaud Doucet, Aapo Hyvärinen, Christian Naesseth, Stefano Ermon, they seem to still publish at the top 3? On my end, I m thinking AISTATS/UAI might be the way to go.</p> <p>All in all, the top 3 might never really have been intended as the home for prob/statML works, it just happened to be the 'prestigious' venue.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/didimoney\"> /u/didimoney </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "12a78a02-cbd0-5b4a-bb94-73bcc33d1585",
     "title": "py-evoFE: Automated Evolutionary Feature Engineering for Tabular ML in Python (Genetic Algorithms + Scikit-Learn + Polars) [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>My dumbass just realized all NeurIPS workshops are non-archival.</p> <p>In terms of grad school applications, would there be a difference in how much they value ur paper if u get it in a proceeding</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wonderful_Entry9371\"> /u/Wonderful_Entry9371 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bde2392a-781f-5ff0-87d2-85e245901d91",
-    "title": "When an AI agent says “done” how do you know it actually happened? [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/",
-    "pubDate": "2026-08-23T15:32:09+00:00",
-    "description": "i’m testing an early concept called agentuptime. there’s no product or sdk yet. the idea came from something that keeps bothering me with agents: an agent saying “done” doesn’t necessarily mean the thing actually happened. a tool can return success, the trace can look fine, and the external system can still end up in the wrong state. so i’m experimenting with a small “receipt” concept where the agent’s claim is separate from an independently checked outcome. something like: database write → can the record actually be read back? api action → does the provider now show the expected state? agent handoff → did the other agent actually receive it? i’m trying to figure out whether this deserves its own layer or whether tracing + custom checks already solve it well enough. if you run agents with real side effects, what action would be hardest to verify? https://agentuptime.dev submitted by /u/singed_of_a_down3 [link] [comments]",
-    "author": "/u/singed_of_a_down3",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>i’m testing an early concept called agentuptime. there’s no product or sdk yet.</p> <p>the idea came from something that keeps bothering me with agents:</p> <p>an agent saying “done” doesn’t necessarily mean the thing actually happened.</p> <p>a tool can return success, the trace can look fine, and the external system can still end up in the wrong state.</p> <p>so i’m experimenting with a small “receipt” concept where the agent’s claim is separate from an independently checked outcome.</p> <p>something like:</p> <p>database write → can the record actually be read back?</p> <p>api action → does the provider now show the expected state?</p> <p>agent handoff → did the other agent actually receive it?</p> <p>i’m trying to figure out whether this deserves its own layer or whether tracing + custom checks already solve it well enough.</p> <p>if you run agents with real side effects, what action would be hardest to verify?</p> <p><a href=\"https://agentuptime.dev/\">https://agentuptime.dev</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/singed_of_a_down3\"> /u/singed_of_a_down3 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

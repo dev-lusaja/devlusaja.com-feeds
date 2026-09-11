@@ -1,5 +1,21 @@
 [
   {
+    "id": "b2788bb8-2f77-5d5e-a3cf-1d2b6b8f7083",
+    "title": "Recommended Machine Learning / AI Academic Papers [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/",
+    "pubDate": "2026-08-13T16:50:11+00:00",
+    "description": "I’m currently looking to expand my knowledge past utilisation of AI and Machine Learning through using LLMs and SaS in business applications but I don’t know where to start. I have a university background with CompSci, and so a degree of theoretical knowledge behind AI / ML but nothing really past basics. I would appreciate it if people could share academic research or articles that have been published that go past the current AI craze and actually are relevant at a high level that you won’t find in LinkedIn posts or blogs. TIA submitted by /u/DynamicDonk [link] [comments]",
+    "author": "/u/DynamicDonk",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m currently looking to expand my knowledge past utilisation of AI and Machine Learning through using LLMs and SaS in business applications but I don’t know where to start. </p> <p>I have a university background with CompSci, and so a degree of theoretical knowledge behind AI / ML but nothing really past basics.</p> <p>I would appreciate it if people could share academic research or articles that have been published that go past the current AI craze and actually are relevant at a high level that you won’t find in LinkedIn posts or blogs. TIA</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DynamicDonk\"> /u/DynamicDonk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "422506f1-f330-5fec-812e-d1d8085b41f1",
     "title": "Neurips 2026: Modified date on reviews [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vnb89z/neurips_2026_modified_date_on_reviews_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurring objection is noise, since analog cells have real variation and you can't refresh your way out of it like you can with digital.</p> <p>I wanted to see the shape of the degradation curve rather than reason about it abstractly, so I ran a simple experiment: train a network normally, then evaluate under increasing weight noise.</p> <p>The curve isn't smooth. Accuracy is stable up to a point, then drops hard: 83%, 64%, then essentially random. More like a threshold than a proportional decrease.</p> <p>Retraining with noise injected during training (so the optimizer finds flatter minima, presumably) shifts that threshold substantially. 61% versus 39% at matched noise.</p> <p>What I'd like to hear from this sub: is the flat-minima explanation the right framing here, or is something else driving the gap? And is there work on optimizing directly for noise robustness rather than just injecting noise and hoping, something closer to an explicit sharpness penalty targeted at the hardware's actual noise profile?</p> <p>Code and figures in the writeup: <a href=\"https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/\">https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Georgiou1226\"> /u/Georgiou1226 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cbd46f18-99ee-50a7-8b8c-d66e01a94333",
-    "title": "[R] Generative design of novel bacteriophages with genome language models [R]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/",
-    "pubDate": "2026-08-09T07:11:17+00:00",
-    "description": "Genome language models have emerged as a promising strategy for designing biological systems, but their ability to generate functional sequences at the scale of whole genomes has remained untested. Here, we report the first generative design of viable bacteriophage genomes. We leveraged frontier genome language models, Evo 1 and Evo 2, to generate whole-genome sequences with realistic genetic architectures and desirable host tropism, using the lytic phage ΦX174 as our design template. Experimental testing of AI-generated genomes yielded 16 viable phages with substantial evolutionary novelty. submitted by /u/moschles [link] [comments]",
-    "author": "/u/moschles",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Genome language models have emerged as a promising strategy for designing biological systems, but their ability to generate functional sequences at the scale of whole genomes has remained untested. Here, we report the first generative design of viable bacteriophage genomes. We leveraged frontier genome language models, Evo 1 and Evo 2, to generate whole-genome sequences with realistic genetic architectures and desirable host tropism, using the lytic phage ΦX174 as our design template. Experimental testing of AI-generated genomes yielded 16 viable phages with substantial evolutionary novelty.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/moschles\"> /u/moschles </a> <br /> <span><a href=\"https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.abstract\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
