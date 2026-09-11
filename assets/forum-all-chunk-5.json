@@ -1,5 +1,21 @@
 [
   {
+    "id": "d8d778af-65f6-5a3a-ba27-6b6d022ad94c",
+    "title": "Archival vs non archival workshop [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/",
+    "pubDate": "2026-08-23T16:02:13+00:00",
+    "description": "My dumbass just realized all NeurIPS workshops are non-archival. In terms of grad school applications, would there be a difference in how much they value ur paper if u get it in a proceeding submitted by /u/Wonderful_Entry9371 [link] [comments]",
+    "author": "/u/Wonderful_Entry9371",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>My dumbass just realized all NeurIPS workshops are non-archival.</p> <p>In terms of grad school applications, would there be a difference in how much they value ur paper if u get it in a proceeding</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wonderful_Entry9371\"> /u/Wonderful_Entry9371 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bde2392a-781f-5ff0-87d2-85e245901d91",
     "title": "When an AI agent says “done” how do you know it actually happened? [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/\"> <img alt=\"model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/e4clN84hebm8e_f68QIRbCF5NiJK3uiDUsU2vlNgLmc.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2506c6c7aafb519dba2c3c2f5c7fa99930ae1399\" title=\"model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>dots3-note preview is the first open-weight model in the dots3 family. It is a Mixture-of-Experts model with 280B total parameters, 16B activated parameters, and support for a context length of up to 512K tokens. The model can understand text, images, video, and audio, and produces text outputs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/27060\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/\">[comments]</a></span> </td></tr></table>",
     "image": "https://external-preview.redd.it/e4clN84hebm8e_f68QIRbCF5NiJK3uiDUsU2vlNgLmc.png?width=640&crop=smart&auto=webp&s=2506c6c7aafb519dba2c3c2f5c7fa99930ae1399",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d6c008db-3e28-5600-bd0e-4a5837f64af2",
-    "title": "repo2nb 0.2.0, convert a GitHub repo into a Kaggle/Colab notebook (dependency resolution, reverse mode, incremental sync) [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vuni29/repo2nb_020_convert_a_github_repo_into_a/",
-    "pubDate": "2026-08-21T17:53:36+00:00",
-    "description": "repo2nb is an open-source CLI that converts a GitHub repo into a runnable Kaggle or Colab notebook: walks the file tree, resolves dependencies, and generates cells, instead of you doing that by hand for a repo you didn't write (a paper's code, a tutorial, someone else's experiment). 0.2.0 highlights: Dependency resolution tries poetry export, then uv export, then requirements.txt, then falls back to an AST import scan if none of those exist. Output is always a plain %pip install cell regardless of which path it took, so poetry/uv are only ever needed locally at generation time, not on Kaggle/Colab. Reverse mode ( repo2nb reverse <notebook> ) reconstructs the original repo from a generated notebook, using the per-cell path/hash metadata every generated cell now carries. Validates against directory traversal and won't write into a non-empty directory without --force . Incremental sync ( repo2nb sync <repo> ) does one-directional (repo to notebook) updates: added files get new cells, edited files update in place, deleted files get removed. --dry-run previews the diff. Added a Colab target with its own auth cell (google.colab.userdata.get) rather than reusing the Kaggle secrets flow. Install: pip install repo2nb Repo: https://github.com/David-Magdy/repo2nb Curious whether the dependency-resolution fallback order (poetry > uv > requirements.txt > import scan) matches what people actually run into, or if there's a common setup it'd get wrong. Any feedback or opinions are much welcomed! submitted by /u/PolarIceBear_ [link] [comments]",
-    "author": "/u/PolarIceBear_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>repo2nb is an open-source CLI that converts a GitHub repo into a runnable Kaggle or Colab notebook: walks the file tree, resolves dependencies, and generates cells, instead of you doing that by hand for a repo you didn't write (a paper's code, a tutorial, someone else's experiment).</p> <p>0.2.0 highlights:</p> <ul> <li>Dependency resolution tries poetry export, then uv export, then requirements.txt, then falls back to an AST import scan if none of those exist. Output is always a plain %pip install cell regardless of which path it took, so poetry/uv are only ever needed locally at generation time, not on Kaggle/Colab.</li> <li>Reverse mode (<code>repo2nb reverse &lt;notebook&gt;</code>) reconstructs the original repo from a generated notebook, using the per-cell path/hash metadata every generated cell now carries. Validates against directory traversal and won't write into a non-empty directory without <code>--force</code>.</li> <li>Incremental sync (<code>repo2nb sync &lt;repo&gt;</code>) does one-directional (repo to notebook) updates: added files get new cells, edited files update in place, deleted files get removed. <code>--dry-run</code> previews the diff.</li> <li>Added a Colab target with its own auth cell (google.colab.userdata.get) rather than reusing the Kaggle secrets flow.</li> </ul> <p>Install: <code>pip install repo2nb</code> </p> <p>Repo: <a href=\"https://github.com/David-Magdy/repo2nb\">https://github.com/David-Magdy/repo2nb</a></p> <p>Curious whether the dependency-resolution fallback order (poetry &gt; uv &gt; requirements.txt &gt; import scan) matches what people actually run into, or if there's a common setup it'd get wrong.</p> <p>Any feedback or opinions are much welcomed!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PolarIceBear_\"> /u/PolarIceBear_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vuni29/repo2nb_020_convert_a_github_repo_into_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vuni29/repo2nb_020_convert_a_github_repo_into_a/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]

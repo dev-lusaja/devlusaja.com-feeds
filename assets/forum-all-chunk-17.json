@@ -1,5 +1,21 @@
 [
   {
+    "id": "5a604a66-debe-5d70-9cdb-d77d8ab845c5",
+    "title": "If your model finds edge against closing lines, does that edge transfer to earlier bets? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ux1n0v/if_your_model_finds_edge_against_closing_lines/",
+    "pubDate": "2026-07-15T10:11:16+00:00",
+    "description": "Building a sports prediction model ,I found consistent edge when backtesting against closing lines. At inference time tho, I predict 12-24 hours before the event where closing lines don't exist yet. I use the current line instead. My strongest feature is line movement (opening to closing implied probability). At prediction time this feature is incomplete as the market hasn't fully moved yet. This creates a paradox: Closing lines are considered nearly impossible to beat because they contain all available information : sharp money, injury news, everything. Yet the backtest shows consistent edge against them. If closing lines are truly efficient, beating them implies genuine model signal. But at inference time we're betting against earlier, less efficient lines with an incomplete version of our strongest feature. The question: does edge against closing lines transfer to earlier bets where lines are less efficient ? Or does the incomplete line movement signal hurt prediction enough that the edge disappears before close? My intuition is the edge is smaller earlier because the market is less efficient but the model signal is also weaker. These two effects might cancel out or one might dominate. Curious if anyone has studied this tradeoff in sports or financial prediction. submitted by /u/MrProbability101 [link] [comments]",
+    "author": "/u/MrProbability101",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Building a sports prediction model ,I found consistent edge when backtesting against closing lines.<br /> At inference time tho, I predict 12-24 hours before the event where closing lines don't exist yet. I use the current line instead.</p> <p>My strongest feature is line movement (opening to closing implied probability). At prediction time this feature is incomplete as the market hasn't fully moved yet.</p> <p>This creates a paradox:</p> <p>Closing lines are considered nearly impossible to beat because they contain all available information : sharp money, injury news, everything. Yet the backtest shows consistent edge against them.</p> <p>If closing lines are truly efficient, beating them implies genuine model signal. But at inference time we're betting against earlier, less efficient lines with an incomplete version of our strongest feature.</p> <p>The question: does edge against closing lines transfer to earlier bets where lines are less efficient ? Or does the incomplete line movement signal hurt prediction enough that the edge disappears before close?</p> <p>My intuition is the edge is smaller earlier because the market is less efficient but the model signal is also weaker. These two effects might cancel out or one might dominate. Curious if anyone has studied this tradeoff in sports or financial prediction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MrProbability101\"> /u/MrProbability101 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux1n0v/if_your_model_finds_edge_against_closing_lines/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux1n0v/if_your_model_finds_edge_against_closing_lines/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "e6a143eb-6baa-5c6b-879a-b93a9002c1a6",
     "title": "Mechanistic interpretability: a first paper on disentangling a convolutional neuron [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1uwya70/mechanistic_interpretability_a_first_paper_on/",

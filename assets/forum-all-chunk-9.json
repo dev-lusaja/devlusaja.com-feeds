@@ -1,5 +1,21 @@
 [
   {
+    "id": "63f4bad0-c17e-5b1e-9f70-88bc6acbd0c5",
+    "title": "UrgenT Help Detecting Performance Regressions Using Machine Learning and Hardware Counters [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vngjmv/urgent_help_detecting_performance_regressions/",
+    "pubDate": "2026-08-13T17:01:27+00:00",
+    "description": "I’m working on performance regression detection using machine learning/anomaly detection. My setup is basically: Healthy runs are used to learn normal behaviour Regression runs are used to see whether the model detects the anomaly For each counter group I only have about 10 healthy samples I’m currently using leave-one-out on the healthy data to set the detection threshold The regression samples are not used during training or threshold selection I’m confused about a few things: Do I still need a normal train/validation/test split for this type of one-class anomaly detection? With only 10 healthy samples, is leave-one-out better than splitting them into something like 60/20/20? Can the regression samples simply act as the unseen test set? Would it be better to collect a second independent healthy dataset and use that as a final test for false positives? For evaluation, should I mainly use false-positive rate and detection rate/recall rather than MSE/MAE, since I’m not predicting a continuous value? Just trying to make sure the evaluation setup is correct before I finalise it. submitted by /u/ZeroDark_Hereford [link] [comments]",
+    "author": "/u/ZeroDark_Hereford",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on performance regression detection using machine learning/anomaly detection.</p> <p>My setup is basically:</p> <ul> <li>Healthy runs are used to learn normal behaviour</li> <li>Regression runs are used to see whether the model detects the anomaly</li> <li>For each counter group I only have about 10 healthy samples</li> <li>I’m currently using leave-one-out on the healthy data to set the detection threshold</li> <li>The regression samples are not used during training or threshold selection</li> </ul> <p>I’m confused about a few things:</p> <ul> <li>Do I still need a normal train/validation/test split for this type of one-class anomaly detection?</li> <li>With only 10 healthy samples, is leave-one-out better than splitting them into something like 60/20/20?</li> <li>Can the regression samples simply act as the unseen test set?</li> <li>Would it be better to collect a second independent healthy dataset and use that as a final test for false positives?</li> <li>For evaluation, should I mainly use false-positive rate and detection rate/recall rather than MSE/MAE, since I’m not predicting a continuous value?</li> </ul> <p>Just trying to make sure the evaluation setup is correct before I finalise it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZeroDark_Hereford\"> /u/ZeroDark_Hereford </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vngjmv/urgent_help_detecting_performance_regressions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vngjmv/urgent_help_detecting_performance_regressions/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b2788bb8-2f77-5d5e-a3cf-1d2b6b8f7083",
     "title": "Recommended Machine Learning / AI Academic Papers [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vng8jb/recommended_machine_learning_ai_academic_papers_r/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone have any idea about the instructions for the camera ready at workshops? The deadline is August 15, but there are no indications and workshop organizers know nothing about that.. Some workshops have enabled the upload of camera ready PDF on openreview, but what about copyright form and latex source files? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rokk07\"> /u/rokk07 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjrsdi/eccv_workshop_camera_ready_instructions_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjrsdi/eccv_workshop_camera_ready_instructions_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d8b81371-8e91-52c2-9d5a-20c94fdf0ae7",
-    "title": "Noise-aware training for analog hardware: accuracy collapses at a threshold rather than degrading smoothly [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/",
-    "pubDate": "2026-08-09T10:55:50+00:00",
-    "description": "Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurring objection is noise, since analog cells have real variation and you can't refresh your way out of it like you can with digital. I wanted to see the shape of the degradation curve rather than reason about it abstractly, so I ran a simple experiment: train a network normally, then evaluate under increasing weight noise. The curve isn't smooth. Accuracy is stable up to a point, then drops hard: 83%, 64%, then essentially random. More like a threshold than a proportional decrease. Retraining with noise injected during training (so the optimizer finds flatter minima, presumably) shifts that threshold substantially. 61% versus 39% at matched noise. What I'd like to hear from this sub: is the flat-minima explanation the right framing here, or is something else driving the gap? And is there work on optimizing directly for noise robustness rather than just injecting noise and hoping, something closer to an explicit sharpness penalty targeted at the hardware's actual noise profile? Code and figures in the writeup: https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/ submitted by /u/Georgiou1226 [link] [comments]",
-    "author": "/u/Georgiou1226",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Analog in-memory compute is getting attention again as a way around the energy cost of moving weights between memory and compute. The recurring objection is noise, since analog cells have real variation and you can't refresh your way out of it like you can with digital.</p> <p>I wanted to see the shape of the degradation curve rather than reason about it abstractly, so I ran a simple experiment: train a network normally, then evaluate under increasing weight noise.</p> <p>The curve isn't smooth. Accuracy is stable up to a point, then drops hard: 83%, 64%, then essentially random. More like a threshold than a proportional decrease.</p> <p>Retraining with noise injected during training (so the optimizer finds flatter minima, presumably) shifts that threshold substantially. 61% versus 39% at matched noise.</p> <p>What I'd like to hear from this sub: is the flat-minima explanation the right framing here, or is something else driving the gap? And is there work on optimizing directly for noise robustness rather than just injecting noise and hoping, something closer to an explicit sharpness penalty targeted at the hardware's actual noise profile?</p> <p>Code and figures in the writeup: <a href=\"https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/\">https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Georgiou1226\"> /u/Georgiou1226 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

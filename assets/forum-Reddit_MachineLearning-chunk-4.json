@@ -1,5 +1,21 @@
 [
   {
+    "id": "06daf38f-5e4f-52c0-b59c-1e3a900f8421",
+    "title": "Delay-corrected Bellman operator + causal attribution for constrained RL contraction proof under unknown stochastic delay [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/",
+    "pubDate": "2026-08-24T12:11:34+00:00",
+    "description": "Standard constrained RL assumes consequences are immediate and attributable to the current action. This breaks down whenever violations are delayed and stochastic, which is most real-world settings you end up penalizing whatever action happened to precede the observed violation, not the action that caused it. Working on CCPL (Causal Consequence-Penalized Learning) to address this: - A delay-corrected Bellman operator using an adaptive effective discount learned from the consequence-delay distribution. Contraction proof holds under unknown stochastic delay. - An Interventional Consequence Net (ICN), pretrained on structural-causal-model labels, estimating marginal causal contribution per action for attribution rather than penalizing based on temporal proximity. Limitations, to be upfront about them: - The ICN currently requires access to the environment's structural causal model to generate pretraining labels it's not learned end-to-end from observational or interventional data alone. That's a real constraint on applicability outside benchmark settings where the SCM is known or can be reasonably specified. Open to contributions and collaborators, especially if you work in constrained/safe RL or causal inference feel free to open an issue or reach out directly. submitted by /u/No_Cauliflower7923 [link] [comments]",
+    "author": "/u/No_Cauliflower7923",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Standard constrained RL assumes consequences are immediate and attributable to the current action. This breaks down whenever violations are delayed and stochastic, which is most real-world settings you end up penalizing whatever action happened to precede the observed violation, not the action that caused it.</p> <p>Working on CCPL (Causal Consequence-Penalized Learning) to address this:</p> <p>- A delay-corrected Bellman operator using an adaptive effective discount learned from the consequence-delay distribution. Contraction proof holds under unknown stochastic delay.</p> <p>- An Interventional Consequence Net (ICN), pretrained on structural-causal-model labels, estimating marginal causal contribution per action for attribution rather than penalizing based on temporal proximity.</p> <p><strong>Limitations, to be upfront about them:</strong><br /> - The ICN currently requires access to the environment's structural causal model to generate pretraining labels it's not learned end-to-end from observational or interventional data alone. That's a real constraint on applicability outside benchmark settings where the SCM is known or can be reasonably specified.</p> <p>Open to contributions and collaborators, especially if you work in constrained/safe RL or causal inference feel free to open an issue or reach out directly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cauliflower7923\"> /u/No_Cauliflower7923 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "7a1bdf1a-3dbe-5680-9ceb-b08878318d08",
     "title": "AAAI 2027 Reviewer Bidding and Assignment Integrity [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Experienced folks!! Do u think it is worth attending the conference for findings. I do want to. But when I saw that it is not mandatory for findings, I was a bit hesitant. This is my first time having a paper accepted at an AI conference. Just wanna hear opinions/experiences </p> <p>Thanks in advance. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/i_minus\"> /u/i_minus </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vu8zag/emnlp_2026_findings_worth_attending_in_persond/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vu8zag/emnlp_2026_findings_worth_attending_in_persond/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "49f7335d-7795-578d-b223-d36b949b3690",
-    "title": "Notes on Hamiltonian Monte Carlo from a purely probabilistic perspective [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/",
-    "pubDate": "2026-08-20T20:37:08+00:00",
-    "description": "I’ve been studying Hamiltonian Monte Carlo and wrote a set of notes explaining HMC without relying on the usual physics-based motivation. The notes develop HMC from a probabilistic/MCMC perspective, starting from introducing an auxiliary variable, constructing the corresponding Markov chain, and then covering Hamiltonian dynamics, leapfrog integration, reversibility and volume preservation. The goal was to understand why HMC works rather than treating the physics analogy as a prerequisite. I’m sharing them here in case they’re useful to others learning HMC. I’d also appreciate any feedback, particularly if you notice errors or places where the exposition could be improved. https://doi.org/10.5281/zenodo.21841087 submitted by /u/aybehrouz [link] [comments]",
-    "author": "/u/aybehrouz",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been studying Hamiltonian Monte Carlo and wrote a set of notes explaining HMC without relying on the usual physics-based motivation.</p> <p>The notes develop HMC from a probabilistic/MCMC perspective, starting from introducing an auxiliary variable, constructing the corresponding Markov chain, and then covering Hamiltonian dynamics, leapfrog integration, reversibility and volume preservation.</p> <p>The goal was to understand <em>why</em> HMC works rather than treating the physics analogy as a prerequisite.</p> <p>I’m sharing them here in case they’re useful to others learning HMC. I’d also appreciate any feedback, particularly if you notice errors or places where the exposition could be improved.</p> <p><a href=\"https://doi.org/10.5281/zenodo.21841087\">https://doi.org/10.5281/zenodo.21841087</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aybehrouz\"> /u/aybehrouz </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtvaue/notes_on_hamiltonian_monte_carlo_from_a_purely/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

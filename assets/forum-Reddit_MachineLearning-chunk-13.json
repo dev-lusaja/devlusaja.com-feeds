@@ -1,5 +1,21 @@
 [
   {
+    "id": "2f4d114f-a9c6-51cc-b456-ac40bf89c041",
+    "title": "Tri-Net v2: Open-source implementation of our Scientific Reports paper on unified skin lesion and symptom-based monkeypox detection [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/",
+    "pubDate": "2026-07-21T03:01:03+00:00",
+    "description": "Hi everyone, We've open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfolio) paper: \"Tri-Net: Unified Deep Learning for Skin Lesion and Symptom-Based Monkeypox Detection\" Rather than releasing only training scripts, we rebuilt the project as a reproducible research framework. Highlights: • Leakage-free data preparation pipeline • Multiple CNN backbones (ConvNeXt-Tiny, DenseNet201, Inception-ResNetV2) • Ensemble and feature-fusion strategies • Grad-CAM explainability • Cross-validation and statistical evaluation • Docker support • GitHub Actions CI • PyPI package (`pip install mpox-trinet`) • CLI for training, inference, and benchmarking The paper has already received over 1,100 article accesses in its first week, and we hope making the implementation fully open-source will help others reproduce, validate, and extend the work. GitHub: https://github.com/Sudharsanselvaraj/Synergistic-Deep-Learning-for-Monkeypox-Diagnosis PyPI: https://pypi.org/project/Mpox-Trinet/ Paper: https://www.nature.com/articles/s41598-026-61490-x I'd really appreciate feedback on the implementation, reproducibility, code quality, or ideas for future improvements. Contributions and issues are very welcome! submitted by /u/Rich-Fruit-326 [link] [comments]",
+    "author": "/u/Rich-Fruit-326",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/\"> <img alt=\"Tri-Net v2: Open-source implementation of our Scientific Reports paper on unified skin lesion and symptom-based monkeypox detection [R]\" src=\"https://preview.redd.it/vwax5ludzheh1.png?width=140&amp;height=79&amp;auto=webp&amp;s=25929233532a0110f28de21f8e7a57634c6f791b\" title=\"Tri-Net v2: Open-source implementation of our Scientific Reports paper on unified skin lesion and symptom-based monkeypox detection [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>We've open-sourced Tri-Net v2, the official implementation accompanying our recently published Scientific Reports (Nature Portfolio) paper:</p> <p>&quot;Tri-Net: Unified Deep Learning for Skin Lesion and Symptom-Based Monkeypox Detection&quot;</p> <p>Rather than releasing only training scripts, we rebuilt the project as a reproducible research framework.</p> <p>Highlights:</p> <p>• Leakage-free data preparation pipeline</p> <p>• Multiple CNN backbones (ConvNeXt-Tiny, DenseNet201, Inception-ResNetV2)</p> <p>• Ensemble and feature-fusion strategies</p> <p>• Grad-CAM explainability</p> <p>• Cross-validation and statistical evaluation</p> <p>• Docker support</p> <p>• GitHub Actions CI</p> <p>• PyPI package (`pip install mpox-trinet`)</p> <p>• CLI for training, inference, and benchmarking</p> <p>The paper has already received over 1,100 article accesses in its first week, and we hope making the implementation fully open-source will help others reproduce, validate, and extend the work.</p> <p>GitHub:</p> <p><a href=\"https://github.com/Sudharsanselvaraj/Synergistic-Deep-Learning-for-Monkeypox-Diagnosis\">https://github.com/Sudharsanselvaraj/Synergistic-Deep-Learning-for-Monkeypox-Diagnosis</a></p> <p>PyPI:</p> <p><a href=\"https://pypi.org/project/Mpox-Trinet/\">https://pypi.org/project/Mpox-Trinet/</a></p> <p>Paper:</p> <p><a href=\"https://www.nature.com/articles/s41598-026-61490-x\">https://www.nature.com/articles/s41598-026-61490-x</a></p> <p>I'd really appreciate feedback on the implementation, reproducibility, code quality, or ideas for future improvements. Contributions and issues are very welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rich-Fruit-326\"> /u/Rich-Fruit-326 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1v26adz\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v26adz/trinet_v2_opensource_implementation_of_our/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/vwax5ludzheh1.png?width=140&height=79&auto=webp&s=25929233532a0110f28de21f8e7a57634c6f791b",
+    "isShortVideo": 0
+  },
+  {
     "id": "53aa3079-b190-59e7-9c2e-c350470965b9",
     "title": "ACL ARR (May 2026)- Updating Reviewer Score post 17 July AoE Deadline? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v1ukpx/acl_arr_may_2026_updating_reviewer_score_post_17/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><blockquote> <p>Schema, the harness we introduce today, reaches 99% on the ARC‑AGI‑3 Public set using Claude Opus 4.8 and Fable 5, and 95.35% using GPT‑5.6 Sol. It does not change the underlying model weights. Instead, it changes the process around them: how observations are turned into a working model of the game, how predictions are tested against the interaction history, and how plans are executed and revised.</p> <p>Both scores come from a fixed fallback rule: Opus 4.8 and Sol xhigh run first; games scoring below 80 are rerun with Fable 5 and Sol max, respectively, and the higher per-game score is retained.</p> </blockquote> <p><a href=\"https://schema-harness.github.io/\">https://schema-harness.github.io/</a></p> <p>The president of ARC Prize tweeted this saying <em>&quot;Looks cool - need to dig into it&quot;</em></p> <hr /> <p>I'm not affiliated with ARC Prize, or with this team. I'm posting this to try to bring back technical discussions to this community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "4fcb796c-dc85-559a-a742-6aa7e87bccc1",
-    "title": "whats the best and complete way to keep up with ai/ml news? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/",
-    "pubDate": "2026-07-16T20:28:38+00:00",
-    "description": "i'm subscribed to a ai/ml newsletter but i feel like its not enough. i need a complete and not too time consuming way to keep up with ai/ml news because i feel like im left behind. thanks in advance submitted by /u/mehmetflix_ [link] [comments]",
-    "author": "/u/mehmetflix_",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>i'm subscribed to a ai/ml newsletter but i feel like its not enough. i need a complete and not too time consuming way to keep up with ai/ml news because i feel like im left behind. thanks in advance</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mehmetflix_\"> /u/mehmetflix_ </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
