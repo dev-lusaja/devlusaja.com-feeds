@@ -1,5 +1,21 @@
 [
   {
+    "id": "7a1bdf1a-3dbe-5680-9ceb-b08878318d08",
+    "title": "AAAI 2027 Reviewer Bidding and Assignment Integrity [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/",
+    "pubDate": "2026-08-24T06:11:03+00:00",
+    "description": "Recently, the AAAI 2027 organizers sent an email regarding collusion occurring during the review process, especially in the 2-cycles category (i.e., an author of Paper A reviews Paper B, while an author of Paper B reviews Paper A). Given the fact that most submissions come from a single country, there are higher chances that the assignment algorithm will naturally create 2-cycles among authors from that country. This, in turn, means that most authors involved in collusion could be from that country. I will not name that country; otherwise, I would be labelled as racist. By the way, did AAAI release statistics about the number of submissions, like they did last time? It is also good news that a major and prestigious conference like AAAI is acknowledging that collusion is happening. We all knew that this kind of collusion had been happening for years. There are papers accepted at top conferences such as NeurIPS, ICLR, AAAI, and ICML that do not even have their code published on GitHub. This forces other researchers in the community to spend substantial time reimplementing the code themselves if they want to reproduce the reported results. What are the views of other authors on this? submitted by /u/Fragrant_Fan_6751 [link] [comments]",
+    "author": "/u/Fragrant_Fan_6751",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently, the AAAI 2027 organizers sent an email regarding collusion occurring during the review process, especially in the <strong>2-cycles</strong> category (i.e., an author of Paper A reviews Paper B, while an author of Paper B reviews Paper A).</p> <p>Given the fact that most submissions come from a single country, there are higher chances that the assignment algorithm will naturally create 2-cycles among authors from that country. This, in turn, means that most authors involved in collusion could be from that country. I will not name that country; otherwise, I would be labelled as racist. By the way, did AAAI release statistics about the number of submissions, like they did last time?</p> <p>It is also good news that a major and prestigious conference like AAAI is acknowledging that collusion is happening. We all knew that this kind of collusion had been happening for years. There are papers accepted at top conferences such as NeurIPS, ICLR, AAAI, and ICML that do not even have their code published on GitHub. This forces other researchers in the community to spend substantial time reimplementing the code themselves if they want to reproduce the reported results.</p> <p>What are the views of other authors on this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fragrant_Fan_6751\"> /u/Fragrant_Fan_6751 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ff35b75f-0c7a-506e-90f1-08d1feede4d3",
     "title": "BMVC 2026 IJCV recommendation? [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>The calculator model is the Casio FX-82CE X. It is not programmable or graphical so everything had to be done by hand.</p> <p>The architecture is simple, MNIST images (just 0s and 1s) downscaled to 3x3, with binary pixels, then with a fully connected layer, they are brought down to just 1 neuron, which serves as the output neuron. If it's value is above 0 it counts as a one, otherwise as a zero. </p> <p>The training was done with a simple perceptron style training without a bias, 6 images (3 per class) and these are the final weights; &quot;0 0 1 -1 2 -1 -1 1 -1&quot; </p> <p>I tested it's accuracy on my phone, using the validation segment of mnist, and it got 67.04% validation accuracy on this binary classification task. Interestingly it predicted every &quot;one&quot; correctly but predicted most of the &quot;zeros&quot; incorrectly.</p> <p>Finally I decided to see what this architecture's max could potentially be with sufficient training: after 1000 epochs on the 0s and 1s in the training split it got a validation accuracy of 98.96%, the training also slightly differs from the manual one as this one uses SGD instead of the perceptron style approach. These are the final weights for this run; -0.509 -4.451 0.086 -5.775 10.651 -7.630 -0.012 -2.560 2.304</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tall_Abrocoma_3533\"> /u/Tall_Abrocoma_3533 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vurfv8/a_classification_model_trained_entirely_on_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vurfv8/a_classification_model_trained_entirely_on_a/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "c6a2643f-2f3f-5186-a569-20f4eca1d6ac",
-    "title": "BMVC 2026 orals [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/",
-    "pubDate": "2026-08-21T20:01:44+00:00",
-    "description": "Hi, Did anyone here got an oral at BMVC? If yes, then what are the scores? Thanks. submitted by /u/dn8034 [link] [comments]",
-    "author": "/u/dn8034",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Did anyone here got an oral at BMVC? If yes, then what are the scores?</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dn8034\"> /u/dn8034 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

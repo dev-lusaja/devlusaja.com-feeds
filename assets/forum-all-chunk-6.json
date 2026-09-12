@@ -1,5 +1,21 @@
 [
   {
+    "id": "c6a2643f-2f3f-5186-a569-20f4eca1d6ac",
+    "title": "BMVC 2026 orals [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/",
+    "pubDate": "2026-08-21T20:01:44+00:00",
+    "description": "Hi, Did anyone here got an oral at BMVC? If yes, then what are the scores? Thanks. submitted by /u/dn8034 [link] [comments]",
+    "author": "/u/dn8034",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Did anyone here got an oral at BMVC? If yes, then what are the scores?</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dn8034\"> /u/dn8034 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "55f6c767-4903-5447-8e5a-592f60d5b5f0",
     "title": "Strix Halo (8060S / gfx1151), Qwen-3.8-27B @ Q8 and Q6 UD v3, up to 256K ctx, llama.cpp, DFlash2, vision, real workloads quality and steady performances, optimized recipes, ...",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Discussion thread for EMNLP 2026 notifications/results which should be released today.</p> <p>Wishing everybody to be in Budapest.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sweetsalt10\"> /u/sweetsalt10 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2dcb867e-dc71-5ba5-b572-154e82e08d50",
-    "title": "About the impact of grouping classes in multiclass classification [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/",
-    "pubDate": "2026-08-20T07:42:20+00:00",
-    "description": "A premise: I hope this question is \"worth\" of this subreddit, I did a decent amount of research before posting, I thought it was potentially interesting enough for it, but possibly not basic enough for r/learnmachinelearning . Is there any agreement/indication about how harmful (if at all) it is, in the context of multiclass classification, to group together multiple classes for which you may have for instance too few samples ? A practical example : imagine you're training a dog breed classifier, based on images. You have a lot of examples for the most common breeds, but then you may have a long tail of less common breeds for which maybe you have a handful of examples each, not enough to get a meaningful training set, so you decide to group all classes for which you have less than `N` samples in the same category \"Other breed\". In this catch-all category you may have dogs that might look quite different from each other, like idk chihuahuas and huge wolf-like dogs (I'm not a dog person, don't know breed names). My intuition (which may very well be wrong) is that doing so would force the model to learn some weirdly-shaped hyperplanes to separate points that live kind of far away from each other in the latent space (because of the thing that dogs in that category may look quite different from each other), as opposed to splitting the space in more \"regular\" parts. Maybe in this case it would make more sense to treat the \"other dogs\" issue as trying to detect out of distribution samples instead? In that case should one only keep the samples for the classes that are enough represented in the dataset and throw away the rest (or at least don't create the catch-all category for training). Thanks in advance for any useful pointer :) submitted by /u/neonhexe [link] [comments]",
-    "author": "/u/neonhexe",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>A premise: I hope this question is &quot;worth&quot; of this subreddit, I did a decent amount of research before posting, I thought it was potentially interesting enough for it, but possibly not basic enough for <a href=\"https://www.reddit.com/r/learnmachinelearning\">r/learnmachinelearning</a> .</p> <p>Is there any agreement/indication about how harmful (if at all) it is, in the context of multiclass classification, to <strong>group together multiple classes for which you may have for instance too few samples</strong>?</p> <p><strong>A practical example</strong>: imagine you're training a dog breed classifier, based on images. You have a lot of examples for the most common breeds, but then you may have a long tail of less common breeds for which maybe you have a handful of examples each, not enough to get a meaningful training set, so you decide to group all classes for which you have less than `N` samples in the same category &quot;Other breed&quot;. In this catch-all category you may have dogs that might look quite different from each other, like idk chihuahuas and huge wolf-like dogs (I'm not a dog person, don't know breed names).</p> <p>My intuition (which may very well be wrong) is that doing so would force the model to learn some weirdly-shaped hyperplanes to separate points that live kind of far away from each other in the latent space (because of the thing that dogs in that category may look quite different from each other), as opposed to splitting the space in more &quot;regular&quot; parts.</p> <p>Maybe in this case it would make more sense to treat the &quot;other dogs&quot; issue as <strong>trying to detect out of distribution samples</strong> instead? In that case should one only keep the samples for the classes that are enough represented in the dataset and throw away the rest (or at least don't create the catch-all category for training).</p> <p>Thanks in advance for any useful pointer :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neonhexe\"> /u/neonhexe </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

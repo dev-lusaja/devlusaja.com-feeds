@@ -1,5 +1,21 @@
 [
   {
+    "id": "ca5eb170-5cb3-52fe-84d6-0890703b335a",
+    "title": "CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were restricted to 1 token by ynankani · Pull Request #27621 · ggml-org/llama.cpp",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bh6f/cuda_extend_moe_fusion_to_specdec_earlier_moe_glu/",
+    "pubDate": "2026-08-31T11:50:49+00:00",
+    "description": "I haven't had a chance to test it yet, but it looks very promising. It seems to speed up MTP for MoE models across different draft widths (especially greater than 1). Check the benchmarks. submitted by /u/jacek2023 [link] [comments]",
+    "author": "/u/jacek2023",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3bh6f/cuda_extend_moe_fusion_to_specdec_earlier_moe_glu/\"> <img alt=\"CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were restricted to 1 token by ynankani · Pull Request #27621 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/LTd7suZa1nR2gw0HpJCp1tR0Xneln0Lqw7OcaKWZbok.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=dbd73c6455225b23ce464ef61f31024bbf46ca09\" title=\"CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were restricted to 1 token by ynankani · Pull Request #27621 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I haven't had a chance to test it yet, but it looks very promising. It seems to speed up MTP for MoE models across different draft widths (especially greater than 1). Check the benchmarks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/27621\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3bh6f/cuda_extend_moe_fusion_to_specdec_earlier_moe_glu/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/LTd7suZa1nR2gw0HpJCp1tR0Xneln0Lqw7OcaKWZbok.png?width=640&crop=smart&auto=webp&s=dbd73c6455225b23ce464ef61f31024bbf46ca09",
+    "isShortVideo": 0
+  },
+  {
     "id": "dfc7787a-a1f0-576f-aa2b-989249dc9d43",
     "title": "Models to download for M5 Ultra 512GB",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, I'm an international student studying in the US. I'm on track to graduate late next year. My research is not exactly ML, it is in 3D computer vision but have decent exposure to ML as well. </p> <p>In case you didn't know, the CPT program (which let's internation students do internships) has been suspended by many top universities (UC Berkeley, UIUC, Purdue, UNC, UCLA, stanford, etc). Given that there is now no way for me to do an internship, how hard will it be for me to get a job when I'm nearing graduation? </p> <p>I have 3 papers in CVPR, 3DV and ICRA (robotics conference) and hope to publish 2 more at next year's ICCV and neurips before graduating. I'm just worried that all my hardwork will go for a waste because of this policy change (I'm from a 3rd world country, so not much opportunity back home).</p> <p>To be crystal clear, I'm not asking for legal advice, just wanted to know in your experiance, have you seen anyone (international student) get into good industry labs without internships?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fit-Raccoon4534\"> /u/Fit-Raccoon4534 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "3632699d-1202-57d5-9611-c38bfb4113ac",
-    "title": "WTF is a World Model? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/",
-    "pubDate": "2026-08-28T23:37:24+00:00",
-    "description": "I'm trying to understand what a world model is. I understand it has cognitive science and reinforcement learning. I understand at least at the moment what most people are building which they call world models are fancy video generation models. But what actually counts. Does a simulator count as a world model. Some \"world models\" are described as simulators, or rather a simulator is described as one type of world model. But is a simulator like lets say a physics engine a world model? There are some video game world models or computer use world models. Would a hardware/video game emulator count as a world model? And can a digital twin also be a world model with some additional features. I've seen a definition that says a world model should \"operate on learned representations, not exclusively hand-crafted physics i.e. a physical referent is optional.\" Which is fair enough but then would a physics accelerator that uses a ml count as a world model? Like some ML fluid simulator is that a fluid world model? Are world models just a rebrand of simulation or is there really a fundamental difference? Should the definition be limited to models that aim to generally model all of the real world? So that would exclude video game world models and also models of specific interactions. submitted by /u/neutrino_boy [link] [comments]",
-    "author": "/u/neutrino_boy",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm trying to understand what a world model is. I understand it has cognitive science and reinforcement learning. I understand at least at the moment what most people are building which they call world models are fancy video generation models. But what actually counts. Does a simulator count as a world model. Some &quot;world models&quot; are described as simulators, or rather a simulator is described as one type of world model. But is a simulator like lets say a physics engine a world model? There are some video game world models or computer use world models. Would a hardware/video game emulator count as a world model? And can a digital twin also be a world model with some additional features. </p> <p>I've seen a definition that says a world model should &quot;operate on learned representations, not exclusively hand-crafted physics i.e. a physical referent is optional.&quot; Which is fair enough but then would a physics accelerator that uses a ml count as a world model? Like some ML fluid simulator is that a fluid world model? </p> <p>Are world models just a rebrand of simulation or is there really a fundamental difference? Should the definition be limited to models that aim to generally model all of the real world? So that would exclude video game world models and also models of specific interactions. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neutrino_boy\"> /u/neutrino_boy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "ae2596c0-8aca-5388-9cdf-98bf24e7175f",
+    "title": "I don’t think ML is worth learning [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vapd3e/i_dont_think_ml_is_worth_learning_d/",
+    "pubDate": "2026-07-30T10:05:54+00:00",
+    "description": "Context: I work with finance and ai systems and have been learnings ML the last month or 2. I could be severely wrong and if you think that I would love to know why and how I can learn/do what ai can’t. But my thought is ai can apply ML to an application as good as any engineer, the difference is how you prepare the data for the ai to act on. So would I not be better off learning how to prepare the data for ai effectively ? Thank you submitted by /u/mnelyzeaN [link] [comments]",
+    "author": "/u/mnelyzeaN",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Context: I work with finance and ai systems and have been learnings ML the last month or 2. </p> <p>I could be severely wrong and if you think that I would love to know why and how I can learn/do what ai can’t. But my thought is ai can apply ML to an application as good as any engineer, the difference is how you prepare the data for the ai to act on. </p> <p>So would I not be better off learning how to prepare the data for ai effectively ?</p> <p>Thank you</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mnelyzeaN\"> /u/mnelyzeaN </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vapd3e/i_dont_think_ml_is_worth_learning_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vapd3e/i_dont_think_ml_is_worth_learning_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "f6aed079-0977-5539-8f50-5699dcde5c27",
     "title": "I taught an LSTM to move a mouse like a human [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>We have gates for code, infrastructure, deployment and model performance.</p> <p>But when it comes to the actual training artifact, the decision to proceed is often still spread across notebooks, validation scripts, dashboards and human judgment.</p> <p>That feels like a weak point.</p> <p>I’ve been thinking about what a proper pre-training control layer would look like.</p> <p>Not another tool that just produces a long list of warnings, but a local system that audits the exact artifact about to be used and gives a reproducible PASS, WARNING, FAIL or FAIL_SECURITY verdict.</p> <p>The decision would come from explicit evidence and hard gates: leakage, contradictions, redundancy, coverage, provenance, evidence integrity and how far the artifact is from its declared training objective.</p> <p>The key difference is that an LLM would not decide the verdict. The same artifact, objective and configuration should produce the same result. A critical failure should not disappear inside a decent aggregate score.</p> <p>It could also produce a repair plan, apply only approved changes to a derived copy, preserve the original and run a second audit afterward. Everything tied to manifests, checksums and the exact execution.</p> <p>To me, this looks like a missing layer between data preparation and training.</p> <p>But I can also see the strongest objection: training-data quality is contextual, and a formal verdict could create false confidence if the system is not extremely transparent.</p> <p>So I’m curious how people working with real training pipelines would receive something like this.</p> <p>Would you let it block a training run?</p> <p>Would you trust the verdict, or only the evidence behind it?</p> <p>And what would it need to prove before your team took it seriously?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jesusmjk\"> /u/jesusmjk </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8a3nu/training_data_needs_a_real_gonogo_gate_before/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8a3nu/training_data_needs_a_real_gonogo_gate_before/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "50d86c8b-d194-56ff-8c8f-20b83feba9ad",
-    "title": "Built & Trained a Transformer from Scratch in Pure PyTorch for English-to-Tamil Machine Translation [Math + Code Breakdown] [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/",
-    "pubDate": "2026-07-27T17:17:50+00:00",
-    "description": "Hi everyone! 👋 I built and trained the complete Transformer architecture from scratch using pure PyTorch (`torch.nn` primitives) based on the original \" Attention Is All You Need \" paper. I trained the model on an English-to-Tamil parallel translation dataset (` gopi30/english-tamil ` on Hugging Face) using dual NVIDIA T4 GPUs on Kaggle. I wrote a detailed mathematical breakdown and step-by-step tutorial covering every equation, tensor shape transformation, and PyTorch block. Full Blog Post : https://imrancoder786.github.io/blog-post.html?post=transformer-from-scratch GitHub Repository: https://github.com/imrancoder786/ML_FROM_SCRATCH/tree/main/Transformer_from_scratch I’d love to hear your feedback, suggestions, or any questions on the code/math! I’d love to hear your feedback, suggestions, or any questions on the code/math! submitted by /u/imrancoder [link] [comments]",
-    "author": "/u/imrancoder",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! 👋</p> <p>I built and trained the complete <strong>Transformer architecture from scratch</strong> using pure PyTorch (`torch.nn` primitives) based on the original &quot;<strong>Attention Is All You Need</strong>&quot; paper.</p> <p>I trained the model on an <strong>English-to-Tamil</strong> parallel translation dataset (`<a href=\"https://huggingface.co/datasets/gopi30/english-tamil\">gopi30/english-tamil</a>` on Hugging Face) using dual NVIDIA T4 GPUs on Kaggle. </p> <p>I wrote a detailed mathematical breakdown and step-by-step tutorial covering every equation, tensor shape transformation, and PyTorch block.</p> <p><strong>Full Blog Post</strong>: <a href=\"https://imrancoder786.github.io/blog-post.html?post=transformer-from-scratch\">https://imrancoder786.github.io/blog-post.html?post=transformer-from-scratch</a></p> <p>GitHub Repository:</p> <p><a href=\"https://github.com/imrancoder786/ML_FROM_SCRATCH/tree/main/Transformer_from_scratch\">https://github.com/imrancoder786/ML_FROM_SCRATCH/tree/main/Transformer_from_scratch</a></p> <p>I’d love to hear your feedback, suggestions, or any questions on the code/math!</p> <p>I’d love to hear your feedback, suggestions, or any questions on the code/math!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/imrancoder\"> /u/imrancoder </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "6cff7cad-1fd7-5a48-b9a7-8aa99fe79d19",
+    "title": "Deepity: A C++ library showing Predictive Coding Networks can match Backprop (97.73% on MNIST in 60s) [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/",
+    "pubDate": "2026-09-02T16:49:13+00:00",
+    "description": "I've spent the last month building a local C++ machine learning library called Deepity to test alternative credit assignment algorithms; specifically Predictive Coding Networks (PCNs). While PCNs are fascinating for biological plausibility and continual learning, naive implementations are painfully slow. By implementing recent research ( Accelerated PCNs via Direct Kolen-Pollack Feedback Alignment ) and utilizing algorithmic caching to bypass redundant forward projections during the inference settling phase, I managed to close the performance gap with backpropagation on my CPU when training on MNIST (50 epochs). PyTorch Backprop (Feedforward): 98.27% test accuracy in ~70s. Deepity DKPPCN: 97.73% test accuracy in 59.5s. Next up is porting these kernels to CUDA to scale up the architecture and testing its capabilities in continual learning scenarios where standard backprop struggles. If you are interested in local learning, alternative credit assignment, or HPC for ML, I'd love your feedback! GitHub: https://github.com/ra4ster/deepity Project Site: https://ra4ster.github.io/Deepity submitted by /u/Important-Home4431 [link] [comments]",
+    "author": "/u/Important-Home4431",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've spent the last month building a local C++ machine learning library called Deepity to test alternative credit assignment algorithms; specifically Predictive Coding Networks (PCNs). While PCNs are fascinating for biological plausibility and continual learning, naive implementations are painfully slow.</p> <p>By implementing recent research (<a href=\"https://arxiv.org/abs/2602.15571\">Accelerated PCNs via Direct Kolen-Pollack Feedback Alignment</a>) and utilizing algorithmic caching to bypass redundant forward projections during the inference settling phase, I managed to close the performance gap with backpropagation on my CPU when training on MNIST (50 epochs).</p> <ul> <li><strong>PyTorch Backprop (Feedforward):</strong> 98.27% test accuracy in ~70s.</li> <li><strong>Deepity DKPPCN:</strong> 97.73% test accuracy in 59.5s.</li> </ul> <p>Next up is porting these kernels to CUDA to scale up the architecture and testing its capabilities in continual learning scenarios where standard backprop struggles.</p> <p>If you are interested in local learning, alternative credit assignment, or HPC for ML, I'd love your feedback!</p> <ul> <li><strong>GitHub:</strong> <a href=\"https://github.com/ra4ster/deepity\">https://github.com/ra4ster/deepity</a></li> <li><strong>Project Site:</strong> <a href=\"https://ra4ster.github.io/Deepity\">https://ra4ster.github.io/Deepity</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Important-Home4431\"> /u/Important-Home4431 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "5e9396c5-e851-5222-8e10-bc7340780455",
     "title": "CABiNet (ICRA 2021) vs YOLO26-sem on UAVid: accuracy, compute, and GPU latency [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w5cfv1/cabinet_icra_2021_vs_yolo26sem_on_uavid_accuracy/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Expecting a rejection from NeurIPS given our scores of 5/2/2. Trying to decide between ARR vs. TMLR, but thinking NAACL findings are more likely than main conference. Would you rather have TMLR or *ACL findings on your publication list? Genuinely curious to hear what people have to say.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pure-Ad9079\"> /u/Pure-Ad9079 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w23w2l/acl_findings_or_tmlr_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w23w2l/acl_findings_or_tmlr_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1962ec84-3f4c-5070-9152-318bb77b8caf",
-    "title": "Open-source access-control checker for retrieval-based AI applications [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1w1zm5m/opensource_accesscontrol_checker_for/",
-    "pubDate": "2026-08-29T22:11:26+00:00",
-    "description": "Hey Guys, I built a small open-source tool that checks whether a RAG application retrieves documents a user shouldn’t have access to. It supports offline test cases and live HTTP API testing with bearer token/API-key auth. I’m looking for a few engineers to try it on a test or non-sensitive environment and tell me whether it catches anything useful or what would make it better. GitHub: https://github.com/InfraGuard-Labs/rag-access-check submitted by /u/Lostboy_journey [link] [comments]",
-    "author": "/u/Lostboy_journey",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey Guys,</p> <p>I built a small open-source tool that checks whether a RAG application retrieves documents a user shouldn’t have access to.</p> <p>It supports offline test cases and live HTTP API testing with bearer token/API-key auth.</p> <p>I’m looking for a few engineers to try it on a test or non-sensitive environment and tell me whether it catches anything useful or what would make it better.</p> <p>GitHub: <a href=\"https://github.com/InfraGuard-Labs/rag-access-check\">https://github.com/InfraGuard-Labs/rag-access-check</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lostboy_journey\"> /u/Lostboy_journey </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1zm5m/opensource_accesscontrol_checker_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w1zm5m/opensource_accesscontrol_checker_for/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }
