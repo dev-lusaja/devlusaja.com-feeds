@@ -1,5 +1,21 @@
 [
   {
+    "id": "f6aed079-0977-5539-8f50-5699dcde5c27",
+    "title": "I taught an LSTM to move a mouse like a human [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/",
+    "pubDate": "2026-07-30T05:52:50+00:00",
+    "description": "Precursor was recently released. It's a bot detector that uses cursor tracking. I thought it would be a fun challenge to train a deep neural network that could learn human mouse movements. It's an 2-layer LSTM model with a Mixture Density Network at the end. The results are actually quite impressive. Video: https://github.com/puffinsoft/mousecrack submitted by /u/Possible-Session9849 [link] [comments]",
+    "author": "/u/Possible-Session9849",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://blog.cloudflare.com/introducing-precursor/\">Precursor</a> was recently released. It's a bot detector that uses cursor tracking.</p> <p>I thought it would be a fun challenge to train a deep neural network that could learn human mouse movements.</p> <p>It's an 2-layer LSTM model with a Mixture Density Network at the end.</p> <p>The results are actually quite impressive.</p> <p>Video: <a href=\"https://github.com/puffinsoft/mousecrack\">https://github.com/puffinsoft/mousecrack</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Possible-Session9849\"> /u/Possible-Session9849 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "b750b139-bf69-5038-a7c5-0b076003adf2",
     "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! 👋</p> <p>I built and trained the complete <strong>Transformer architecture from scratch</strong> using pure PyTorch (`torch.nn` primitives) based on the original &quot;<strong>Attention Is All You Need</strong>&quot; paper.</p> <p>I trained the model on an <strong>English-to-Tamil</strong> parallel translation dataset (`<a href=\"https://huggingface.co/datasets/gopi30/english-tamil\">gopi30/english-tamil</a>` on Hugging Face) using dual NVIDIA T4 GPUs on Kaggle. </p> <p>I wrote a detailed mathematical breakdown and step-by-step tutorial covering every equation, tensor shape transformation, and PyTorch block.</p> <p><strong>Full Blog Post</strong>: <a href=\"https://imrancoder786.github.io/blog-post.html?post=transformer-from-scratch\">https://imrancoder786.github.io/blog-post.html?post=transformer-from-scratch</a></p> <p>GitHub Repository:</p> <p><a href=\"https://github.com/imrancoder786/ML_FROM_SCRATCH/tree/main/Transformer_from_scratch\">https://github.com/imrancoder786/ML_FROM_SCRATCH/tree/main/Transformer_from_scratch</a></p> <p>I’d love to hear your feedback, suggestions, or any questions on the code/math!</p> <p>I’d love to hear your feedback, suggestions, or any questions on the code/math!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/imrancoder\"> /u/imrancoder </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2830526d-3c86-53e0-be7f-21d28df72d23",
-    "title": "Made a small model that extracts text from a white background [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v811sc/made_a_small_model_that_extracts_text_from_a/",
-    "pubDate": "2026-07-27T13:52:41+00:00",
-    "description": "Hello, I read a paper on a model named DONUT that extracts text from documents, which became my inspiration for this little project. Initially I wanted to make a model that extracts items bought from receipts, but in the process of trying to pinpoint some problems, I dropped that objective for a much simpler one. I will like to hear some of your thoughts on it, thank you! GitHub: https://github.com/ZeroMeOut/VQVAET5 submitted by /u/ZeroMe0ut [link] [comments]",
-    "author": "/u/ZeroMe0ut",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I read a paper on a model named DONUT that extracts text from documents, which became my inspiration for this little project. Initially I wanted to make a model that extracts items bought from receipts, but in the process of trying to pinpoint some problems, I dropped that objective for a much simpler one. I will like to hear some of your thoughts on it, thank you!</p> <p>GitHub: <a href=\"https://github.com/ZeroMeOut/VQVAET5\">https://github.com/ZeroMeOut/VQVAET5</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZeroMe0ut\"> /u/ZeroMe0ut </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v811sc/made_a_small_model_that_extracts_text_from_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v811sc/made_a_small_model_that_extracts_text_from_a/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

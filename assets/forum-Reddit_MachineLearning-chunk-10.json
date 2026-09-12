@@ -1,5 +1,21 @@
 [
   {
+    "id": "04b216a4-08cc-5427-80cd-9fe8388b6165",
+    "title": "What should we do for EMNLP commitment deadline? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vc6ngy/what_should_we_do_for_emnlp_commitment_deadline_r/",
+    "pubDate": "2026-07-31T23:19:35+00:00",
+    "description": "We received the reviews, but they don't mention whether we should submit a revised version. Should we prepare one? I also couldn't find anywhere to upload a revision. What exactly is the EMNLP commitment deadline? I had assumed we were supposed to upload an updated version. Do you know what they're expecting us to do next? submitted by /u/Ill-Lawfulness-48 [link] [comments]",
+    "author": "/u/Ill-Lawfulness-48",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>We received the reviews, but they don't mention whether we should submit a revised version. Should we prepare one? I also couldn't find anywhere to upload a revision. What exactly is the EMNLP commitment deadline? I had assumed we were supposed to upload an updated version. Do you know what they're expecting us to do next?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ill-Lawfulness-48\"> /u/Ill-Lawfulness-48 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vc6ngy/what_should_we_do_for_emnlp_commitment_deadline_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vc6ngy/what_should_we_do_for_emnlp_commitment_deadline_r/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "ff42dec9-d9e9-58c7-9a64-807b064c6aba",
     "title": "Meh-Compression [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vc5w42/mehcompression_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>My data set is a list of images, each equipped with a a couple sentences of text.</p> <p>A user would search primarily with text only. My default approach is using BM25, but how would I facilitate searching with a vector DB and a model that embeds vectors in a multimodal combined space?</p> <p>Here is my dilemma:</p> <p>Do I embed text part and image part as 2 separate individual vectors or do I combine them into 1 vector?</p> <p>If a typical search happens with text only, that would immediately deprioritize all image-only embeddings and only good text matches would float up. This is why I am now considering embedding text and images together but would prefer to hear more opinions on this. Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdaObvlada\"> /u/AdaObvlada </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9ad2j/how_to_deal_with_text_only_vector_search_across/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9ad2j/how_to_deal_with_text_only_vector_search_across/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "d72175e6-5db8-5a46-9f70-eb5ec0cea209",
-    "title": "NeurIPS-side prompt injection triggering ethics reviewers? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1v955f6/neuripsside_prompt_injection_triggering_ethics/",
-    "pubDate": "2026-07-28T17:28:35+00:00",
-    "description": "Does anyone experience a similar story that some reviewers reporting ethical issue due to NeurIPS-side prompt injection for catching LLM-reviewers? Even ethics reviewers were not informed about this conference-side manipulation… submitted by /u/dontknowwhattoplay [link] [comments]",
-    "author": "/u/dontknowwhattoplay",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone experience a similar story that some reviewers reporting ethical issue due to NeurIPS-side prompt injection for catching LLM-reviewers? Even ethics reviewers were not informed about this conference-side manipulation… </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dontknowwhattoplay\"> /u/dontknowwhattoplay </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v955f6/neuripsside_prompt_injection_triggering_ethics/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v955f6/neuripsside_prompt_injection_triggering_ethics/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

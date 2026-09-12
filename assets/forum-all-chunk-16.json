@@ -1,5 +1,21 @@
 [
   {
+    "id": "d94881f8-847a-5b0b-9617-6e51a0635486",
+    "title": "Interactive map of GPT-2's token embedding space - tap any token and explore [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/",
+    "pubDate": "2026-07-18T22:42:20+00:00",
+    "description": "32,070 alphabetic tokens from GPT-2-small's WTE, no forward pass and no context. Works on mobile. Pinch to zoom, tap a token to see its nearest connections, tap a neighbour to walk the graph. Search box to jump anywhere. Layout is t-SNE over a compressed representation of the embedding table; edges are a minimum spanning tree in that space, so every line is a real nearest-kin relationship, submitted by /u/Limp-Contest-7309 [link] [comments]",
+    "author": "/u/Limp-Contest-7309",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>32,070 alphabetic tokens from GPT-2-small's WTE, no forward pass and no context.</p> <p>Works on mobile. Pinch to zoom, tap a token to see its nearest connections, tap a neighbour to walk the graph. Search box to jump anywhere.</p> <p>Layout is t-SNE over a compressed representation of the embedding table; edges are a minimum spanning tree in that space, so every line is a real nearest-kin relationship,</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Limp-Contest-7309\"> /u/Limp-Contest-7309 </a> <br /> <span><a href=\"https://aethereos.net/static/token-atlas.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d49c385d-297f-5fe8-890f-08498e4b090a",
     "title": "GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous nearest neighbours [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a technical interview for a machine learning position coming up, and I'm really nervous. Can you tell me about your experiences with this process? It's my first technical interview, and I don't know what to expect </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Abatistta\"> /u/Abatistta </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux8i9g/junior_machine_learning_engineer_interview_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux8i9g/junior_machine_learning_engineer_interview_d/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5ca86309-1983-57ff-8eb9-0742d94865fd",
-    "title": "How do you mathematically model an Unstoppable Force hitting an Immovable Object? [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1ux7wsa/how_do_you_mathematically_model_an_unstoppable/",
-    "pubDate": "2026-07-15T14:44:57+00:00",
-    "description": "Or more broadly: how do you train a machine learning model to capture the nuances of entirely different, conflicting rule sets? I built a XGBoost classification pipeline to answer that. To stress-test the architecture across heterogeneous environments, I applied it to a highly debated and popular hypothetical: cross-universe power scaling The domain is silly. The engineering underneath it isn't. When predicting outcomes across disparate environments, the core challenge is avoiding a lookup table of your own biases. If I manually dictate how these distinct rule sets resolve, the model just learns my heuristics. Here is how I built the architecture to prevent that: Synthetic Data Generation: I engineered an LLM to act as a blind labeler across 2,300+ cross-domain matchups. It only saw character names and their native rule sets, never the underlying stats. This forced my XGBoost classifier to derive its own feature weightings from raw, unbiased outcomes. Catching a Silent Data Leak: My initial accuracy looked suspiciously great. I audited my pipeline and caught a data leak in my train/test split that was mirroring matchups into both sets. I stripped the leak out, expecting the metric to tank. Instead, it went up—hitting 93% on a clean hold-out. The leak had actually been masking a sharper model. Explainable AI (XAI): Raw SHAP values mean nothing to an end-user. I engineered a generation layer that feeds the model's SHAP attributions into an LLM alongside strict domain constraints. The pipeline translates its own mathematical feature importance into a plain-English, logically grounded breakdown of how the conflicting rule sets resolved. It doesn’t just output a winner; it mathematically justifies how it navigated the nuance without hallucinating. Full stack, deployed, and live. Repo: https://github.com/aidentejada/anime-versus-ml Live Endpoint: https://versus.aidentejada.com submitted by /u/iBoomer69 [link] [comments]",
-    "author": "/u/iBoomer69",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux7wsa/how_do_you_mathematically_model_an_unstoppable/\"> <img alt=\"How do you mathematically model an Unstoppable Force hitting an Immovable Object? [P]\" src=\"https://preview.redd.it/dqnnmnnnoedh1.jpg?width=140&amp;height=78&amp;auto=webp&amp;s=71e7f362af9711b84ac19e2544f015c60f3ee351\" title=\"How do you mathematically model an Unstoppable Force hitting an Immovable Object? [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Or more broadly: how do you train a machine learning model to capture the nuances of entirely different, conflicting rule sets?</p> <p>I built a XGBoost classification pipeline to answer that. To stress-test the architecture across heterogeneous environments, I applied it to a highly debated and popular hypothetical: cross-universe power scaling<br /> The domain is silly. The engineering underneath it isn't.</p> <p>When predicting outcomes across disparate environments, the core challenge is avoiding a lookup table of your own biases. If I manually dictate how these distinct rule sets resolve, the model just learns my heuristics. Here is how I built the architecture to prevent that:</p> <p>Synthetic Data Generation: I engineered an LLM to act as a blind labeler across 2,300+ cross-domain matchups. It only saw character names and their native rule sets, never the underlying stats. This forced my XGBoost classifier to derive its own feature weightings from raw, unbiased outcomes.</p> <p>Catching a Silent Data Leak: My initial accuracy looked suspiciously great. I audited my pipeline and caught a data leak in my train/test split that was mirroring matchups into both sets. I stripped the leak out, expecting the metric to tank. Instead, it went up—hitting 93% on a clean hold-out. The leak had actually been masking a sharper model.</p> <p>Explainable AI (XAI): Raw SHAP values mean nothing to an end-user. I engineered a generation layer that feeds the model's SHAP attributions into an LLM alongside strict domain constraints. The pipeline translates its own mathematical feature importance into a plain-English, logically grounded breakdown of how the conflicting rule sets resolved.</p> <p>It doesn’t just output a winner; it mathematically justifies how it navigated the nuance without hallucinating.</p> <p>Full stack, deployed, and live.<br /> Repo: <a href=\"https://github.com/aidentejada/anime-versus-ml\">https://github.com/aidentejada/anime-versus-ml</a><br /> Live Endpoint: <a href=\"https://versus.aidentejada.com\">https://versus.aidentejada.com</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iBoomer69\"> /u/iBoomer69 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1ux7wsa\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux7wsa/how_do_you_mathematically_model_an_unstoppable/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/dqnnmnnnoedh1.jpg?width=140&height=78&auto=webp&s=71e7f362af9711b84ac19e2544f015c60f3ee351",
     "isShortVideo": 0
   }
 ]

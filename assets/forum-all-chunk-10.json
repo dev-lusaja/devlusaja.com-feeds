@@ -1,5 +1,21 @@
 [
   {
+    "id": "8cc18d43-9f7d-582e-a708-4478ed59b887",
+    "title": "I never understood positional encoding until I read this article. [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vju3ym/i_never_understood_positional_encoding_until_i/",
+    "pubDate": "2026-08-09T16:22:07+00:00",
+    "description": "submitted by /u/ImaginaryRea1ity [link] [comments]",
+    "author": "/u/ImaginaryRea1ity",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vju3ym/i_never_understood_positional_encoding_until_i/\"> <img alt=\"I never understood positional encoding until I read this article. [D]\" src=\"https://external-preview.redd.it/8VRAO7Ucarn-CBc4IsyH3p3Lg1nOM6BC8ccLAEFnSlc.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8584413aed8556960dd7528b26ce8adaaa9f97b0\" title=\"I never understood positional encoding until I read this article. [D]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ImaginaryRea1ity\"> /u/ImaginaryRea1ity </a> <br /> <span><a href=\"https://defenceagainstdarkai.substack.com/p/who-bit-whom\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vju3ym/i_never_understood_positional_encoding_until_i/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://external-preview.redd.it/8VRAO7Ucarn-CBc4IsyH3p3Lg1nOM6BC8ccLAEFnSlc.jpeg?width=640&crop=smart&auto=webp&s=8584413aed8556960dd7528b26ce8adaaa9f97b0",
+    "isShortVideo": 0
+  },
+  {
     "id": "ff803306-0b48-5e1d-83f0-ea8a6f774d8d",
     "title": "Non-Physical Intelligence Has A Ceiling [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vjtaxb/nonphysical_intelligence_has_a_ceiling_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello, I am currently studying deep learning and have completed several AI/ML projects.</p> <p>I am specifically looking to join an ongoing AI/ML project where I can actively contribute and further develop my skills. I am committed, eager to learn, and open to collaboration.</p> <p>If you have a project and are open to contributors, please feel free to reach out.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Quiet-Cod-9650\"> /u/Quiet-Cod-9650 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgcnio/anyone_here_working_on_aiml_projects_id_like_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgcnio/anyone_here_working_on_aiml_projects_id_like_to/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f110138d-797c-56a0-bdaa-76289157748b",
-    "title": "Running Whisper, Qwen3-ASR, Nemotron & MOSS completely offline on iPhone [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/",
-    "pubDate": "2026-08-05T16:04:42+00:00",
-    "description": "Over the past month, I've been building LiveTranscriber, an open-source iOS app for running modern speech and language models entirely on-device. The goal was to see whether recent open-source models could be turned into a practical mobile product—not just technical demos. Currently supported local models include: - Whisper for offline transcription - Qwen3-ASR for multilingual speech recognition - NVIDIA Nemotron Streaming for low-latency live transcription - MOSS Multi-Speaker for speaker-aware transcription - Qwen3 for local summaries, key points, titles, and transcript analysis Features include: - 100% offline speech recognition - Offline multi-speaker transcription - On-device summaries and key-point extraction - Real-time translation - Apple Watch recording with automatic sync - Downloadable and switchable local models - Searchable transcript history The main engineering challenge was not simply running the models, but making them usable on iPhone: memory management, streaming latency, model loading, context handling, battery usage, and switching between different inference backends. The project is fully open source: GitHub: https://github.com/iamwilliamli/LiveTranscriber App Store: https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364 I'd appreciate feedback from anyone working on ASR, local LLMs, on-device AI, Core ML, or mobile inference. submitted by /u/marshmallow_ki [link] [comments]",
-    "author": "/u/marshmallow_ki",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Over the past month, I've been building LiveTranscriber, an open-source iOS app for running modern speech and language models entirely on-device.</p> <p>The goal was to see whether recent open-source models could be turned into a practical mobile product—not just technical demos.</p> <p>Currently supported local models include:</p> <p>- Whisper for offline transcription</p> <p>- Qwen3-ASR for multilingual speech recognition</p> <p>- NVIDIA Nemotron Streaming for low-latency live transcription</p> <p>- MOSS Multi-Speaker for speaker-aware transcription</p> <p>- Qwen3 for local summaries, key points, titles, and transcript analysis</p> <p>Features include:</p> <p>- 100% offline speech recognition</p> <p>- Offline multi-speaker transcription</p> <p>- On-device summaries and key-point extraction</p> <p>- Real-time translation</p> <p>- Apple Watch recording with automatic sync</p> <p>- Downloadable and switchable local models</p> <p>- Searchable transcript history</p> <p>The main engineering challenge was not simply running the models, but making them usable on iPhone: memory management, streaming latency, model loading, context handling, battery usage, and switching between different inference backends.</p> <p>The project is fully open source:</p> <p>GitHub:</p> <p><a href=\"https://github.com/iamwilliamli/LiveTranscriber\">https://github.com/iamwilliamli/LiveTranscriber</a></p> <p>App Store:</p> <p><a href=\"https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364\">https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364</a></p> <p>I'd appreciate feedback from anyone working on ASR, local LLMs, on-device AI, Core ML, or mobile inference.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/marshmallow_ki\"> /u/marshmallow_ki </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

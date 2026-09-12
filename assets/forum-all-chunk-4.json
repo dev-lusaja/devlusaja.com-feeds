@@ -1,5 +1,21 @@
 [
   {
+    "id": "e41f4825-d64c-5b97-ac3c-ecc93a79e537",
+    "title": "I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/",
+    "pubDate": "2026-08-28T19:48:27+00:00",
+    "description": "Its a 2.4-4 million parameter model, quantized to int8, that can be fully executed on the microcontroller in ~20s with the longest generation. The generated image will then be displayed on a monitor or transferred via usb. Its a latent flow transformer with 12 layers using AdaLN-Zero for conditioning. CFG is also supported and boosted the image quality a lot. The inference engine streams the weight via DMA from the flash while the previous layer is computed. Relu² activation was used to increase sparsity, which the engine can use to skip calculations. Took a lot of ablations to get it right and I am quite astonished I got so far with so few parameters. Will post the repo below https://preview.redd.it/psu567et66mh1.png?width=1167&format=png&auto=webp&s=8b69dfe5caf5a0cde79f03f23fb5843c940bf993 submitted by /u/cpldcpu [link] [comments]",
+    "author": "/u/cpldcpu",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/\"> <img alt=\"I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]\" src=\"https://preview.redd.it/r2vhg90066mh1.png?width=140&amp;height=54&amp;auto=webp&amp;s=23f98a10b9cb9be363b1b1784dff017a6c1a18db\" title=\"I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Its a 2.4-4 million parameter model, quantized to int8, that can be fully executed on the microcontroller in ~20s with the longest generation. The generated image will then be displayed on a monitor or transferred via usb.</p> <p>Its a latent flow transformer with 12 layers using AdaLN-Zero for conditioning. CFG is also supported and boosted the image quality a lot. The inference engine streams the weight via DMA from the flash while the previous layer is computed. Relu² activation was used to increase sparsity, which the engine can use to skip calculations.</p> <p>Took a lot of ablations to get it right and I am quite astonished I got so far with so few parameters. Will post the repo below</p> <p><a href=\"https://preview.redd.it/psu567et66mh1.png?width=1167&amp;format=png&amp;auto=webp&amp;s=8b69dfe5caf5a0cde79f03f23fb5843c940bf993\">https://preview.redd.it/psu567et66mh1.png?width=1167&amp;format=png&amp;auto=webp&amp;s=8b69dfe5caf5a0cde79f03f23fb5843c940bf993</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cpldcpu\"> /u/cpldcpu </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1w10tax\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/\">[comments]</a></span> </td></tr></table>",
+    "image": "https://preview.redd.it/r2vhg90066mh1.png?width=140&height=54&auto=webp&s=23f98a10b9cb9be363b1b1784dff017a6c1a18db",
+    "isShortVideo": 0
+  },
+  {
     "id": "3253287b-d89b-585b-86cc-4a2a012b5c0d",
     "title": "Should we Teach LLMs Baby, Toddler, Child Talk [D][R][P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1w0y9mf/should_we_teach_llms_baby_toddler_child_talk_drp/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently, the AAAI 2027 organizers sent an email regarding collusion occurring during the review process, especially in the <strong>2-cycles</strong> category (i.e., an author of Paper A reviews Paper B, while an author of Paper B reviews Paper A).</p> <p>Given the fact that most submissions come from a single country, there are higher chances that the assignment algorithm will naturally create 2-cycles among authors from that country. This, in turn, means that most authors involved in collusion could be from that country. I will not name that country; otherwise, I would be labelled as racist. By the way, did AAAI release statistics about the number of submissions, like they did last time?</p> <p>It is also good news that a major and prestigious conference like AAAI is acknowledging that collusion is happening. We all knew that this kind of collusion had been happening for years. There are papers accepted at top conferences such as NeurIPS, ICLR, AAAI, and ICML that do not even have their code published on GitHub. This forces other researchers in the community to spend substantial time reimplementing the code themselves if they want to reproduce the reported results.</p> <p>What are the views of other authors on this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fragrant_Fan_6751\"> /u/Fragrant_Fan_6751 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "ff35b75f-0c7a-506e-90f1-08d1feede4d3",
-    "title": "BMVC 2026 IJCV recommendation? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/",
-    "pubDate": "2026-08-24T05:39:57+00:00",
-    "description": "Does anyone know how the BMVC to IJCV special issue recommendation works? Is it mainly based on the review scores, or is it a separate decision by the ACs/program chairs (e.g. based on oral/highlight selection, reviewer comments, etc.)? Also, is there any way to know at this point whether a paper has been recommended for the IJCV track, or do authors only find out later through a separate email? Would be great to hear from anyone who has gone through this in previous years! submitted by /u/Secondhanded_PhD [link] [comments]",
-    "author": "/u/Secondhanded_PhD",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone know how the BMVC to IJCV special issue recommendation works?</p> <p>Is it mainly based on the review scores, or is it a separate decision by the ACs/program chairs (e.g. based on oral/highlight selection, reviewer comments, etc.)?</p> <p>Also, is there any way to know at this point whether a paper has been recommended for the IJCV track, or do authors only find out later through a separate email?</p> <p>Would be great to hear from anyone who has gone through this in previous years!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Secondhanded_PhD\"> /u/Secondhanded_PhD </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

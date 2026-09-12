@@ -1,5 +1,21 @@
 [
   {
+    "id": "f3634f85-d5b1-5e77-9d55-cfc3642882e5",
+    "title": "How much do tech reports matter for a PhD application? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/",
+    "pubDate": "2026-09-12T14:40:54+00:00",
+    "description": "The title, by tech reports I don't mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A* paper? submitted by /u/simple-Flat0263 [link] [comments]",
+    "author": "/u/simple-Flat0263",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>The title, by tech reports I don't mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A* paper?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/simple-Flat0263\"> /u/simple-Flat0263 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fa03a651-dfeb-5843-ba69-e6472f022654",
     "title": "A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1w9m26u/automotive_radar_object_classification_p/\"> <img alt=\"Automotive Radar Object Classification [P]\" src=\"https://preview.redd.it/grjiguy7x1oh1.png?width=140&amp;height=120&amp;auto=webp&amp;s=6aab8e433cde240fe9a53581e07281061779df94\" title=\"Automotive Radar Object Classification [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hello all,</p> <p>I'm a radar signal processing engineer and i trained a 5-class classifier (car, large_vehicle, two_wheeler, pedestrian, pedestrian_group) on RadarScenes radar point clouds. </p> <p>The input vector is a per-scan histogram (16 bins) and the network is a 3-layer MLP. The loss function is a class-weighted cross-entropy loss. This work is based on &quot;Histogram-based Deep Learning for Automotive Radar&quot; paper.</p> <p>I scoped the project to be one scan only. Accumulation of multiple scans is the next step.</p> <p><strong>Data</strong></p> <p>Class Imbalance: two-wheelers and large_vehicles has a low number of occurences.</p> <p>Aggregated Classes: two_wheeler mixes bicycles and motorized variants; large_vehicle merges trucks, buses, and trains together due to data scarcity.</p> <p>Sequence Bias: Long tracks of slow-moving objects can skew a particular data split velocity distribution, causing high F1 score variance across folds.</p> <p><strong>Ablation studies</strong></p> <p>I tried with bigger MLPs, alternative feature encodings, and different histogram binning, all moved performance less than the variation caused by changing the train/validation/test split. I measured that split sensitivity across 6 folds, keeping the same proportions.</p> <p>Changing the histogram to per-instance statistics (mean/median/std) slightly degraded performance.</p> <p><strong>Main findings</strong> </p> <p>Macro F1 rises from 0.381 to 0.764 as the naturally occurring number of radar detections per instance increases from 1 to 5. I trained the model normally using all available detections, then bucketed its existing validation predictions by each instance's detection count and computed macro F1 per bucket.</p> <p>The classes car and pedestrian has the best performance and two_wheeler has the worst.</p> <p>A car is often confused as large vehicle when the car was wider than usual or had a unusually high rcs (which can happen due to multipath for example).</p> <p>The two_wheeler is often confused as pedestrian because their vr_compensated distributions overlap, which is the the model's single most important feature for these two classes. A stationary or idling two_wheeler is indistinguishable from a pedestrian.</p> <p>I uploaded an image with ground truth vs predictions: A nearly stationary two-wheeler which contains a single point was predicted as pedestrian, because its velocity is near zero, indistinguishable from a pedestrian. A car in the same scene, also with just one point, is classified correctly, since RCS and Doppler are enough for that class.</p> <p>Full writeup here: <a href=\"https://github.com/brunopinto900/radar-ml-autonomous-driving/blob/main/MLP_Report.md\">https://github.com/brunopinto900/radar-ml-autonomous-driving/blob/main/MLP_Report.md</a> </p> <p><strong>Future work</strong> </p> <p>Implement other spatial encoding schemas (point net for example) and accumulate multiple scans to tackle the challenge of sparsity and explore the concept of micro-doppler.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bruno_pinto90\"> /u/bruno_pinto90 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1w9m26u\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w9m26u/automotive_radar_object_classification_p/\">[comments]</a></span> </td></tr></table>",
     "image": "https://preview.redd.it/grjiguy7x1oh1.png?width=140&height=120&auto=webp&s=6aab8e433cde240fe9a53581e07281061779df94",
-    "isShortVideo": 0
-  },
-  {
-    "id": "a9952d05-0259-5d45-96e0-1a0a1f92f716",
-    "title": "Roboticists working in Learning-from-Demonstrations and Behavioral Cloning : What is going on in your field these days? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1w9lt31/roboticists_working_in_learningfromdemonstrations/",
-    "pubDate": "2026-09-07T07:56:38+00:00",
-    "description": "Is LfD and BC research being effected by recent advances in (so-called) Frontier LLMs? Or is research in LfD and BC sort of going along in an independent direction from these? Are you seeing any use from ViTs or VLAs? Any other recent advances you would like to bring up? submitted by /u/moschles [link] [comments]",
-    "author": "/u/moschles",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Is LfD and BC research being effected by recent advances in (so-called) Frontier LLMs? Or is research in LfD and BC sort of going along in an independent direction from these? </p> <p>Are you seeing any use from ViTs or VLAs? </p> <p>Any other recent advances you would like to bring up? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/moschles\"> /u/moschles </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w9lt31/roboticists_working_in_learningfromdemonstrations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w9lt31/roboticists_working_in_learningfromdemonstrations/\">[comments]</a></span>",
-    "image": "",
     "isShortVideo": 0
   }
 ]
