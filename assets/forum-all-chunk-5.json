@@ -1,5 +1,37 @@
 [
   {
+    "id": "945cc750-4929-512c-a481-8ac369061575",
+    "title": "How to cite/talk about preprint-subsequent works for a camera-ready version? [R]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwg5br/how_to_citetalk_about_preprintsubsequent_works/",
+    "pubDate": "2026-08-23T19:15:07+00:00",
+    "description": "I had a paper accepted to a conference. This paper was originally published as a preprint. Subsequent works citing our preprint focused on the same topic and reused/extended our methodology. I am now preparing the camera-ready version of that preprint and I'm wondering how I should deal with this for the Related work section. It seems odd to me to cite my own preprint for the camera-ready version of the paper (and I am not even sure if this is allowed), but at the same time, I don't want to undermine the novelty of my original work (nor undermine the efforts of subsequent works). Has anyone dealt with such a situation before? What's the best way of solving this? submitted by /u/Vulcapulae [link] [comments]",
+    "author": "/u/Vulcapulae",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I had a paper accepted to a conference. This paper was originally published as a preprint. Subsequent works citing our preprint focused on the same topic and reused/extended our methodology. I am now preparing the camera-ready version of that preprint and I'm wondering how I should deal with this for the Related work section. It seems odd to me to cite my own preprint for the camera-ready version of the paper (and I am not even sure if this is allowed), but at the same time, I don't want to undermine the novelty of my original work (nor undermine the efforts of subsequent works). Has anyone dealt with such a situation before? What's the best way of solving this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Vulcapulae\"> /u/Vulcapulae </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwg5br/how_to_citetalk_about_preprintsubsequent_works/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwg5br/how_to_citetalk_about_preprintsubsequent_works/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
+    "id": "51125583-ae3b-51f2-bd25-381f23c8c532",
+    "title": "COLM 2026 registration sold out as an author [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwfccx/colm_2026_registration_sold_out_as_an_author_d/",
+    "pubDate": "2026-08-23T18:44:50+00:00",
+    "description": "Never attended a conference before, so apologies if these are dumb questions. I’m an author of an accepted paper at COLM 2026. One of my coauthors registered during the author-only registration period, so I joined the waitlist on August 10. I later received an email saying: “Your access to reserve tickets remains active until Aug 24 7:06 p.m. EDT.” I thought I had until August 24 to register, so I didn’t register immediately. When I checked again today (8/23), registration was sold out. I also can’t seem to rejoin the waitlist. Unfortunately, I also missed the financial assistance deadline because at the time I wasn’t even sure whether I would be able to attend. I really really want to attend the conference. Does anyone know what I can do at this point? Is there a chance that more registration spots will be released later? And is there any possibility of getting financial assistance after the deadline? Thanks a lot for any advice. submitted by /u/mziycfh [link] [comments]",
+    "author": "/u/mziycfh",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Never attended a conference before, so apologies if these are dumb questions.</p> <p>I’m an author of an accepted paper at COLM 2026. One of my coauthors registered during the author-only registration period, so I joined the waitlist on August 10.</p> <p>I later received an email saying:</p> <p>“Your access to reserve tickets remains active until Aug 24 7:06 p.m. EDT.”</p> <p>I thought I had until August 24 to register, so I didn’t register immediately. When I checked again today (8/23), registration was sold out. I also can’t seem to rejoin the waitlist.</p> <p>Unfortunately, I also missed the financial assistance deadline because at the time I wasn’t even sure whether I would be able to attend.</p> <p>I really really want to attend the conference. Does anyone know what I can do at this point? Is there a chance that more registration spots will be released later? And is there any possibility of getting financial assistance after the deadline?</p> <p>Thanks a lot for any advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mziycfh\"> /u/mziycfh </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwfccx/colm_2026_registration_sold_out_as_an_author_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwfccx/colm_2026_registration_sold_out_as_an_author_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d8d778af-65f6-5a3a-ba27-6b6d022ad94c",
     "title": "Archival vs non archival workshop [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/",
@@ -445,38 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi fellows fully-local halos,</p> <p>after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can install/experiment/reinstall easily and without babysitting. </p> <p>Q8 is my default citizen, options for Q6 and Q5. Recipes: Quality (Q8), Balanced (Q6), Speed (Q5), Vision (Q8). All with Unsloth Dynamic Quants 3.0, DFlash2 (except vision). Scripts for download the right LLMs, interactive testing, systemd `--user` install, adaptive quality and performances optimization.</p> <p>Repo: <a href=\"https://github.com/PieBru/Qwen-3.8-27B_Strix-Halo_gfx1151\">https://github.com/PieBru/Qwen-3.8-27B_Strix-Halo_gfx1151</a></p> <p><em>Humans architected, verified, sealed. AI assistants built and wrote all the delivered stuff, built with pi and Qwen-3.8-27B.</em></p> <p><em>Piero</em></p> <p>P.S.: constructive proposals and PR are welcome.</p> <p>P.P.S.: no speed races, please. IMO speed is useful, but quality is fundamental - one subtle bug fewer or a better codebase always pays for itself in wall-time gained.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PieBru\"> /u/PieBru </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5010c9d0-96b7-5870-8e0d-4c6c48116816",
-    "title": "Qwen3.8-27B Q6 is a beast at agentic coding",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vuotqr/qwen3827b_q6_is_a_beast_at_agentic_coding/",
-    "pubDate": "2026-08-21T18:41:24+00:00",
-    "description": "A quick feedback after a really major test: nearly 20 hours of non-stop goal-oriented work with Qwen3.8-27B Q6, running across an RTX 3090 and an RTX 3060. It maintained a speed of around 60–63 tokens/s throughout the session. submitted by /u/Ok_Ninja7526 [link] [comments]",
-    "author": "/u/Ok_Ninja7526",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuotqr/qwen3827b_q6_is_a_beast_at_agentic_coding/\"> <img alt=\"Qwen3.8-27B Q6 is a beast at agentic coding\" src=\"https://preview.redd.it/vctqr63gwrkh1.png?width=140&amp;height=57&amp;auto=webp&amp;s=6bcae6cf7c3d8298668999e76ba8edf4dea590f7\" title=\"Qwen3.8-27B Q6 is a beast at agentic coding\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>A quick feedback after a really major test: nearly 20 hours of non-stop goal-oriented work with Qwen3.8-27B Q6, running across an RTX 3090 and an RTX 3060. </p> <p>It maintained a speed of around 60–63 tokens/s throughout the session.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Ninja7526\"> /u/Ok_Ninja7526 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1vuotqr\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuotqr/qwen3827b_q6_is_a_beast_at_agentic_coding/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/vctqr63gwrkh1.png?width=140&height=57&auto=webp&s=6bcae6cf7c3d8298668999e76ba8edf4dea590f7",
-    "isShortVideo": 0
-  },
-  {
-    "id": "2fdb0e24-500c-53a7-b4e6-9d883b5769ec",
-    "title": "model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/",
-    "pubDate": "2026-08-21T18:03:27+00:00",
-    "description": "dots3-note preview is the first open-weight model in the dots3 family. It is a Mixture-of-Experts model with 280B total parameters, 16B activated parameters, and support for a context length of up to 512K tokens. The model can understand text, images, video, and audio, and produces text outputs. submitted by /u/jacek2023 [link] [comments]",
-    "author": "/u/jacek2023",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/\"> <img alt=\"model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp\" src=\"https://external-preview.redd.it/e4clN84hebm8e_f68QIRbCF5NiJK3uiDUsU2vlNgLmc.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2506c6c7aafb519dba2c3c2f5c7fa99930ae1399\" title=\"model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>dots3-note preview is the first open-weight model in the dots3 family. It is a Mixture-of-Experts model with 280B total parameters, 16B activated parameters, and support for a context length of up to 512K tokens. The model can understand text, images, video, and audio, and produces text outputs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jacek2023\"> /u/jacek2023 </a> <br /> <span><a href=\"https://github.com/ggml-org/llama.cpp/pull/27060\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://external-preview.redd.it/e4clN84hebm8e_f68QIRbCF5NiJK3uiDUsU2vlNgLmc.png?width=640&crop=smart&auto=webp&s=2506c6c7aafb519dba2c3c2f5c7fa99930ae1399",
     "isShortVideo": 0
   }
 ]
