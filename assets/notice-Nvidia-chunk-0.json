@@ -1,5 +1,21 @@
 [
   {
+    "id": "a0f58e50-162b-5488-a2da-f926873a336c",
+    "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
+    "link": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/",
+    "pubDate": "2026-09-14T16:39:15+00:00",
+    "description": "Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/green-cube-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"green-cube\" width=\"768\" />Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/green-cube-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"green-cube\" width=\"768\" /><p>Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE models that match or exceed the performance of dense model counterparts at a fraction of the training compute. MoE models provide efficient training through conditional computation. Instead of one dense feed-forward network (FFN) shared…</p>\n<p><a href=\"https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "fdf48c88-038f-5c66-bb41-f1b2ce641f9d",
     "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
     "link": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image10_1920x1080-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image10_1920x1080\" width=\"768\" />Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image10_1920x1080-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image10_1920x1080\" width=\"768\" /><p>Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor loadings, and structural-break signals at single-GPU and multi-node scale Quant strategies routinely group instruments for portfolio construction, risk aggregation, statistical arbitrage, and trade surveillance. Incorrect groupings can make…</p>\n<p><a href=\"https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "52bb9bd5-2b1a-5c5d-b32e-a8ab35b9e580",
-    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-    "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-    "pubDate": "2026-08-21T15:00:00+00:00",
-    "description": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...",
-    "author": "Tanya Lenz",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/data-center-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" />AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/data-center-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"data-center\" width=\"768\" /><p>AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available megawatt can deliver. For AI inference workloads, this makes application-level performance per watt the key metric for measuring AI factory efficiency. Not every megawatt translates to revenue-generating compute. Power distribution, cooling…</p>\n<p><a href=\"https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
