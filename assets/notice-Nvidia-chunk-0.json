@@ -1,5 +1,21 @@
 [
   {
+    "id": "e24e357d-941b-5088-a2ff-74ee4978ac61",
+    "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+    "link": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+    "pubDate": "2026-09-16T16:28:59+00:00",
+    "description": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/neon-green-cube-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"neon-green-cube\" width=\"768\" />cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/07/neon-green-cube-768x432-png.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"neon-green-cube\" width=\"768\" /><p>cuTile Rust () is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to tile-based GPU kernels, it splits mutable outputs into disjoint pieces and preserves the host-side ownership contract across kernel launches. It also allows programmers to opt out locally when they need lower-level control…</p>\n<p><a href=\"https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "716a9676-06da-5c17-9fc6-7bf4f019effc",
     "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
     "link": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/featured_image-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured_image\" width=\"768\" />The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/featured_image-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured_image\" width=\"768\" /><p>The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs, the scale-out network connecting these nodes has emerged as a first-order performance bottleneck. For decades, traditional off-the-shelf Ethernet has been the undisputed king of enterprise and cloud networking. It is cheap, standardized…</p>\n<p><a href=\"https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "cca64c8c-5e77-56e3-a4c9-3a5d2939ee6c",
-    "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
-    "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
-    "pubDate": "2026-08-24T15:00:05+00:00",
-    "description": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image3-4-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" />AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image3-4-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" /><p>AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing context from one turn to the next. The scale of this shift is now visible in raw consumption: across 100 trillion tokens of real-world usage, OpenRouter’s State of AI report found that average prompt tokens per request grew roughly fourfold…</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
