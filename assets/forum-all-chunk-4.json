@@ -1,5 +1,21 @@
 [
   {
+    "id": "dfc7787a-a1f0-576f-aa2b-989249dc9d43",
+    "title": "Models to download for M5 Ultra 512GB",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/",
+    "pubDate": "2026-08-31T11:29:11+00:00",
+    "description": "Just ordered a TB5 enclosure plus 4TB SSD to prepare for M5 Ultra 512GB. I am planning to download the following models in advance. Would like to ask the M3 Ultra 512GB owners whether the quants are the \"best\" performing ones given the 512GB constraint. What's the max size of context length you can get for GLM-5.3 and Kimi-K3? If possible, can you post your pp and tg for them? Does it make sense to run 8-bit models for glm-5.3-flash, qwen3.8-flash-next and DSV4F? Are there other big models worthy to download? Thanks a lot in advance. Model RAM pipenetwork/GLM-5.3-MLX-mixed-4_8bit 427.8GB pipenetwork/GLM-5.3-Flash-MLX-mixed-4_8bit 181.9GB pipenetwork/Qwen3.8-Flash-Next-MLX-mixed-4_8bit 106.2GB pipenetwork/DeepSeek-V4-Flash-MLX-mixed-4_8bit 165GB pipenetwork/Kimi-K3-REAP73-MLX-mxfp4-q8 451GB submitted by /u/Ok_Warning2146 [link] [comments]",
+    "author": "/u/Ok_Warning2146",
+    "sourceTitle": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "sourceCategory": "Reddit_LocalLLaMA",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Just ordered a TB5 enclosure plus 4TB SSD to prepare for M5 Ultra 512GB. I am planning to download the following models in advance. Would like to ask the M3 Ultra 512GB owners whether the quants are the &quot;best&quot; performing ones given the 512GB constraint. What's the max size of context length you can get for GLM-5.3 and Kimi-K3? If possible, can you post your pp and tg for them? Does it make sense to run 8-bit models for glm-5.3-flash, qwen3.8-flash-next and DSV4F?</p> <p>Are there other big models worthy to download? Thanks a lot in advance.</p> <table><thead> <tr> <th align=\"left\">Model</th> <th align=\"left\">RAM</th> </tr> </thead><tbody> <tr> <td align=\"left\">pipenetwork/GLM-5.3-MLX-mixed-4_8bit</td> <td align=\"left\">427.8GB</td> </tr> <tr> <td align=\"left\">pipenetwork/GLM-5.3-Flash-MLX-mixed-4_8bit</td> <td align=\"left\">181.9GB</td> </tr> <tr> <td align=\"left\">pipenetwork/Qwen3.8-Flash-Next-MLX-mixed-4_8bit</td> <td align=\"left\">106.2GB</td> </tr> <tr> <td align=\"left\">pipenetwork/DeepSeek-V4-Flash-MLX-mixed-4_8bit</td> <td align=\"left\">165GB</td> </tr> <tr> <td align=\"left\">pipenetwork/Kimi-K3-REAP73-MLX-mxfp4-q8</td> <td align=\"left\">451GB</td> </tr> </tbody></table> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Warning2146\"> /u/Ok_Warning2146 </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "bea2ef3a-1898-5274-8d7a-73d86b853268",
     "title": "Qwen3.8-Next-Flash up to 240t/s on single rtx 6000 pro",
     "link": "https://www.reddit.com/r/LocalLLaMA/comments/1w39ojn/qwen38nextflash_up_to_240ts_on_single_rtx_6000_pro/",
@@ -461,22 +477,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm trying to understand what a world model is. I understand it has cognitive science and reinforcement learning. I understand at least at the moment what most people are building which they call world models are fancy video generation models. But what actually counts. Does a simulator count as a world model. Some &quot;world models&quot; are described as simulators, or rather a simulator is described as one type of world model. But is a simulator like lets say a physics engine a world model? There are some video game world models or computer use world models. Would a hardware/video game emulator count as a world model? And can a digital twin also be a world model with some additional features. </p> <p>I've seen a definition that says a world model should &quot;operate on learned representations, not exclusively hand-crafted physics i.e. a physical referent is optional.&quot; Which is fair enough but then would a physics accelerator that uses a ml count as a world model? Like some ML fluid simulator is that a fluid world model? </p> <p>Are world models just a rebrand of simulation or is there really a fundamental difference? Should the definition be limited to models that aim to generally model all of the real world? So that would exclude video game world models and also models of specific interactions. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neutrino_boy\"> /u/neutrino_boy </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "e41f4825-d64c-5b97-ac3c-ecc93a79e537",
-    "title": "I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/",
-    "pubDate": "2026-08-28T19:48:27+00:00",
-    "description": "Its a 2.4-4 million parameter model, quantized to int8, that can be fully executed on the microcontroller in ~20s with the longest generation. The generated image will then be displayed on a monitor or transferred via usb. Its a latent flow transformer with 12 layers using AdaLN-Zero for conditioning. CFG is also supported and boosted the image quality a lot. The inference engine streams the weight via DMA from the flash while the previous layer is computed. Relu² activation was used to increase sparsity, which the engine can use to skip calculations. Took a lot of ablations to get it right and I am quite astonished I got so far with so few parameters. Will post the repo below https://preview.redd.it/psu567et66mh1.png?width=1167&format=png&auto=webp&s=8b69dfe5caf5a0cde79f03f23fb5843c940bf993 submitted by /u/cpldcpu [link] [comments]",
-    "author": "/u/cpldcpu",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/\"> <img alt=\"I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]\" src=\"https://preview.redd.it/r2vhg90066mh1.png?width=140&amp;height=54&amp;auto=webp&amp;s=23f98a10b9cb9be363b1b1784dff017a6c1a18db\" title=\"I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Its a 2.4-4 million parameter model, quantized to int8, that can be fully executed on the microcontroller in ~20s with the longest generation. The generated image will then be displayed on a monitor or transferred via usb.</p> <p>Its a latent flow transformer with 12 layers using AdaLN-Zero for conditioning. CFG is also supported and boosted the image quality a lot. The inference engine streams the weight via DMA from the flash while the previous layer is computed. Relu² activation was used to increase sparsity, which the engine can use to skip calculations.</p> <p>Took a lot of ablations to get it right and I am quite astonished I got so far with so few parameters. Will post the repo below</p> <p><a href=\"https://preview.redd.it/psu567et66mh1.png?width=1167&amp;format=png&amp;auto=webp&amp;s=8b69dfe5caf5a0cde79f03f23fb5843c940bf993\">https://preview.redd.it/psu567et66mh1.png?width=1167&amp;format=png&amp;auto=webp&amp;s=8b69dfe5caf5a0cde79f03f23fb5843c940bf993</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cpldcpu\"> /u/cpldcpu </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1w10tax\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/r2vhg90066mh1.png?width=140&height=54&auto=webp&s=23f98a10b9cb9be363b1b1784dff017a6c1a18db",
     "isShortVideo": 0
   }
 ]

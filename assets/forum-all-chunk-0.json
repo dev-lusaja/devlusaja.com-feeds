@@ -1,5 +1,21 @@
 [
   {
+    "id": "13e4fc21-a6b2-5695-84f0-a61d5cb77190",
+    "title": "XGBoost vs Human Markets [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wixzts/xgboost_vs_human_markets_p/",
+    "pubDate": "2026-09-17T15:59:49+00:00",
+    "description": "What is the generally thought of as the upper limit of the predictive power of XGBoost vs an aggregate of humans? Right now I feed the model the same information that the human market has access to, and the model gets crushed on Top 1 accuracy, it closes the gap a bit but is still 10pp below the market on Top 2 accuracy. Adding the market pricing information to the model does nothing or hurts accuracy compared to just the market pricing. I'm just feeling really stuck, and I cant seem to be able to tell if I am legitimately at the upper end of what is actually possible with a XGBoost model or if there is some sort of data encoding issue or I just lack enough data. submitted by /u/TravalonTom [link] [comments]",
+    "author": "/u/TravalonTom",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What is the generally thought of as the upper limit of the predictive power of XGBoost vs an aggregate of humans? </p> <p>Right now I feed the model the same information that the human market has access to, and the model gets crushed on Top 1 accuracy, it closes the gap a bit but is still 10pp below the market on Top 2 accuracy. Adding the market pricing information to the model does nothing or hurts accuracy compared to just the market pricing. </p> <p>I'm just feeling really stuck, and I cant seem to be able to tell if I am legitimately at the upper end of what is actually possible with a XGBoost model or if there is some sort of data encoding issue or I just lack enough data. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TravalonTom\"> /u/TravalonTom </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wixzts/xgboost_vs_human_markets_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wixzts/xgboost_vs_human_markets_p/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "124378b1-01e3-561d-b383-50481def0e7f",
     "title": "ICLR 2027 Edits Allowance [D]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1wirav3/iclr_2027_edits_allowance_d/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,<br /> I’m working on generating ~128×128 pixel art and trying to generate different poses of the same character.</p> <p>My current approach is roughly:</p> <p>Start with a reference image and preprocess it into cleaner/more pixel-art-like data (often removing transparency or setting up fixed number of pallets or descaling)<br /> Use <strong>IP-Adapter</strong> for the character/reference appearance.<br /> Use <strong>ControlNet pose/rig conditioning</strong> to control the target pose.<br /> I’m also experimenting with multiple references (front, rear, left, right), with pose/rig and depth annotations.<br /> For the target pose, I provide a separate pose reference through the conditioning pipeline.</p> <p>The problem is that the conditioning often seems to conflict. For example, the model may place an arm according to the ControlNet pose but still DUPLICATE the arm shape/position from the reference, sometimes resulting in strange or duplicated limbs.</p> <p>I’ve tried adjusting ControlNet/IP-Adapter strength and start/end percentages, which helps somewhat, but I still get a lot of inconsistent behavior. Also try to reinject control net strength in different phases though not so far been helpful</p> <p><strong>What would be a good way to control pose while making sure the character’s appearance from reference images is somewhat preserved??</strong></p> <p>I’ am a brokie and can’t really have much resource to train sdxl each time just for each character + poses….</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unfair-Walk-9805\"> /u/Unfair-Walk-9805 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wep88z/how_do_you_control_different_character_pose_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wep88z/how_do_you_control_different_character_pose_in/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "f3634f85-d5b1-5e77-9d55-cfc3642882e5",
-    "title": "How much do tech reports matter for a PhD application? [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/",
-    "pubDate": "2026-09-12T14:40:54+00:00",
-    "description": "The title, by tech reports I don't mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A* paper? submitted by /u/simple-Flat0263 [link] [comments]",
-    "author": "/u/simple-Flat0263",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>The title, by tech reports I don't mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A* paper?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/simple-Flat0263\"> /u/simple-Flat0263 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

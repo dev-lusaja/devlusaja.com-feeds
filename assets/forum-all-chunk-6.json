@@ -1,5 +1,21 @@
 [
   {
+    "id": "ff35b75f-0c7a-506e-90f1-08d1feede4d3",
+    "title": "BMVC 2026 IJCV recommendation? [D]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/",
+    "pubDate": "2026-08-24T05:39:57+00:00",
+    "description": "Does anyone know how the BMVC to IJCV special issue recommendation works? Is it mainly based on the review scores, or is it a separate decision by the ACs/program chairs (e.g. based on oral/highlight selection, reviewer comments, etc.)? Also, is there any way to know at this point whether a paper has been recommended for the IJCV track, or do authors only find out later through a separate email? Would be great to hear from anyone who has gone through this in previous years! submitted by /u/Secondhanded_PhD [link] [comments]",
+    "author": "/u/Secondhanded_PhD",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone know how the BMVC to IJCV special issue recommendation works?</p> <p>Is it mainly based on the review scores, or is it a separate decision by the ACs/program chairs (e.g. based on oral/highlight selection, reviewer comments, etc.)?</p> <p>Also, is there any way to know at this point whether a paper has been recommended for the IJCV track, or do authors only find out later through a separate email?</p> <p>Would be great to hear from anyone who has gone through this in previous years!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Secondhanded_PhD\"> /u/Secondhanded_PhD </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vwtzix/bmvc_2026_ijcv_recommendation_d/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "945cc750-4929-512c-a481-8ac369061575",
     "title": "How to cite/talk about preprint-subsequent works for a camera-ready version? [R]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1vwg5br/how_to_citetalk_about_preprintsubsequent_works/",
@@ -460,22 +476,6 @@
     "sourceType": "forum",
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Did anyone here got an oral at BMVC? If yes, then what are the scores?</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dn8034\"> /u/dn8034 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vur05y/bmvc_2026_orals_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "55f6c767-4903-5447-8e5a-592f60d5b5f0",
-    "title": "Strix Halo (8060S / gfx1151), Qwen-3.8-27B @ Q8 and Q6 UD v3, up to 256K ctx, llama.cpp, DFlash2, vision, real workloads quality and steady performances, optimized recipes, ...",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/",
-    "pubDate": "2026-08-21T19:58:02+00:00",
-    "description": "Hi fellows fully-local halos, after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can install/experiment/reinstall easily and without babysitting. Q8 is my default citizen, options for Q6 and Q5. Recipes: Quality (Q8), Balanced (Q6), Speed (Q5), Vision (Q8). All with Unsloth Dynamic Quants 3.0, DFlash2 (except vision). Scripts for download the right LLMs, interactive testing, systemd `--user` install, adaptive quality and performances optimization. Repo: https://github.com/PieBru/Qwen-3.8-27B_Strix-Halo_gfx1151 Humans architected, verified, sealed. AI assistants built and wrote all the delivered stuff, built with pi and Qwen-3.8-27B. Piero P.S.: constructive proposals and PR are welcome. P.P.S.: no speed races, please. IMO speed is useful, but quality is fundamental - one subtle bug fewer or a better codebase always pays for itself in wall-time gained. submitted by /u/PieBru [link] [comments]",
-    "author": "/u/PieBru",
-    "sourceTitle": "Reddit LocalLLaMA",
-    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/.rss",
-    "sourceCategory": "Reddit_LocalLLaMA",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi fellows fully-local halos,</p> <p>after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can install/experiment/reinstall easily and without babysitting. </p> <p>Q8 is my default citizen, options for Q6 and Q5. Recipes: Quality (Q8), Balanced (Q6), Speed (Q5), Vision (Q8). All with Unsloth Dynamic Quants 3.0, DFlash2 (except vision). Scripts for download the right LLMs, interactive testing, systemd `--user` install, adaptive quality and performances optimization.</p> <p>Repo: <a href=\"https://github.com/PieBru/Qwen-3.8-27B_Strix-Halo_gfx1151\">https://github.com/PieBru/Qwen-3.8-27B_Strix-Halo_gfx1151</a></p> <p><em>Humans architected, verified, sealed. AI assistants built and wrote all the delivered stuff, built with pi and Qwen-3.8-27B.</em></p> <p><em>Piero</em></p> <p>P.S.: constructive proposals and PR are welcome.</p> <p>P.P.S.: no speed races, please. IMO speed is useful, but quality is fundamental - one subtle bug fewer or a better codebase always pays for itself in wall-time gained.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PieBru\"> /u/PieBru </a> <br /> <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/\">[comments]</a></span>",
     "image": "",
     "isShortVideo": 0
   }

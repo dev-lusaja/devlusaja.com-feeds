@@ -1,5 +1,21 @@
 [
   {
+    "id": "d94881f8-847a-5b0b-9617-6e51a0635486",
+    "title": "Interactive map of GPT-2's token embedding space - tap any token and explore [P]",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/",
+    "pubDate": "2026-07-18T22:42:20+00:00",
+    "description": "32,070 alphabetic tokens from GPT-2-small's WTE, no forward pass and no context. Works on mobile. Pinch to zoom, tap a token to see its nearest connections, tap a neighbour to walk the graph. Search box to jump anywhere. Layout is t-SNE over a compressed representation of the embedding table; edges are a minimum spanning tree in that space, so every line is a real nearest-kin relationship, submitted by /u/Limp-Contest-7309 [link] [comments]",
+    "author": "/u/Limp-Contest-7309",
+    "sourceTitle": "Reddit MachineLearning",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
+    "sourceCategory": "Reddit_MachineLearning",
+    "sourceType": "forum",
+    "sourceCountry": "",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>32,070 alphabetic tokens from GPT-2-small's WTE, no forward pass and no context.</p> <p>Works on mobile. Pinch to zoom, tap a token to see its nearest connections, tap a neighbour to walk the graph. Search box to jump anywhere.</p> <p>Layout is t-SNE over a compressed representation of the embedding table; edges are a minimum spanning tree in that space, so every line is a real nearest-kin relationship,</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Limp-Contest-7309\"> /u/Limp-Contest-7309 </a> <br /> <span><a href=\"https://aethereos.net/static/token-atlas.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/\">[comments]</a></span>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "d49c385d-297f-5fe8-890f-08498e4b090a",
     "title": "GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous nearest neighbours [P]",
     "link": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/",
@@ -141,38 +157,6 @@
     "sourceCountry": "",
     "content": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone have accepted short-paper at ACL/EMNLP/EACL 2025/26? Could you share your track and overall assessment? I'm just trying to get a sense of things, as it seems short papers have a lower acceptance rate than long ones.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cardiologist7609\"> /u/No_Cardiologist7609 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz8w8q/shortpaper_at_aclemnlpeacl_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz8w8q/shortpaper_at_aclemnlpeacl_r/\">[comments]</a></span>",
     "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "bf21a425-18da-5c35-a4c3-f2842e4594dd",
-    "title": "BMVC rebuttals update [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uz7hbu/bmvc_rebuttals_update_d/",
-    "pubDate": "2026-07-17T18:11:07+00:00",
-    "description": "Rebuttal access opened to reviewers on July 11 (19:05 UTC), so any later modification means final score updated (even if it's hidden from us now). It shows like this over each review: Official Review by Reviewer KBVi 22 Jun 2026, 18:17 IST (modified: 17 Jul 2026, 17:39 IST) How many of your reviews are showing a modified time past July 11 (19:05 UTC)? submitted by /u/Forsaken_Cold6708 [link] [comments]",
-    "author": "/u/Forsaken_Cold6708",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Rebuttal access opened to reviewers on July 11 (19:05 UTC), so any later modification means final score updated (even if it's hidden from us now).</p> <p>It shows like this over each review:</p> <p>Official Review by Reviewer KBVi</p> <p>22 Jun 2026, 18:17 IST (modified: 17 Jul 2026, 17:39 IST)</p> <p>How many of your reviews are showing a modified time past July 11 (19:05 UTC)?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Forsaken_Cold6708\"> /u/Forsaken_Cold6708 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz7hbu/bmvc_rebuttals_update_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz7hbu/bmvc_rebuttals_update_d/\">[comments]</a></span>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "5075300f-d43f-549a-bb53-c24c09b90285",
-    "title": "Prism accidentally leaked [D]",
-    "link": "https://www.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/",
-    "pubDate": "2026-07-17T17:59:44+00:00",
-    "description": "Just found out from Prism's Discord that compiling is returning someone else's paper. There's a Twitter post too. https://x.com/JustanOthRando/status/2078169169267482778?s=20 I commend their prompt response, though. They took the website down within 10 minutes of the first time the bug was flagged. Just worried if my paper maybe somewhere out there. https://preview.redd.it/csr59ogtwtdh1.png?width=876&format=png&auto=webp&s=8a7d431a98005a7fb0910e7e8f5ed79077bb70b9 submitted by /u/Few-Monitor5103 [link] [comments]",
-    "author": "/u/Few-Monitor5103",
-    "sourceTitle": "Reddit MachineLearning",
-    "sourceUrl": "https://www.reddit.com/r/MachineLearning/.rss",
-    "sourceCategory": "Reddit_MachineLearning",
-    "sourceType": "forum",
-    "sourceCountry": "",
-    "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/\"> <img alt=\"Prism accidentally leaked [D]\" src=\"https://preview.redd.it/csr59ogtwtdh1.png?width=140&amp;height=27&amp;auto=webp&amp;s=d8b3c46b64b19d75c4b2b1726b0b3cbea225f38d\" title=\"Prism accidentally leaked [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Just found out from Prism's Discord that compiling is returning someone else's paper. There's a Twitter post too.</p> <p><a href=\"https://x.com/JustanOthRando/status/2078169169267482778?s=20\">https://x.com/JustanOthRando/status/2078169169267482778?s=20</a></p> <p>I commend their prompt response, though. They took the website down within 10 minutes of the first time the bug was flagged. Just worried if my paper maybe somewhere out there. </p> <p><a href=\"https://preview.redd.it/csr59ogtwtdh1.png?width=876&amp;format=png&amp;auto=webp&amp;s=8a7d431a98005a7fb0910e7e8f5ed79077bb70b9\">https://preview.redd.it/csr59ogtwtdh1.png?width=876&amp;format=png&amp;auto=webp&amp;s=8a7d431a98005a7fb0910e7e8f5ed79077bb70b9</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Few-Monitor5103\"> /u/Few-Monitor5103 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/\">[comments]</a></span> </td></tr></table>",
-    "image": "https://preview.redd.it/csr59ogtwtdh1.png?width=140&height=27&auto=webp&s=d8b3c46b64b19d75c4b2b1726b0b3cbea225f38d",
     "isShortVideo": 0
   }
 ]
