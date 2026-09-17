@@ -19,6 +19,7 @@ from feeds.chunk_generator import generate_feed_chunks
 from feeds.metadata_generator import save_metadata_json
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
+from feeds.featured_pappers_generator import generate_featured_pappers
 from utils.cleanup import cleanup_json_files
 from utils.logger import log
 from utils.stats import ExecutionStats
@@ -96,6 +97,12 @@ def main(force: bool = False):
                 stats.feeds_errors = db_stats['errors']
                 stats.feeds_after = get_feed_count(db)
                 register_execution(db, feeds_processed, stats.feeds_inserted, 'completed')
+            print(" ✓")
+
+            # Generar pappers destacados
+            print("⭐ Generando pappers destacados...", end='', flush=True)
+            with DatabaseConnection() as db:
+                generate_featured_pappers(db, output_dir="assets", config_path=str(config_path))
             print(" ✓")
 
             # Generar metadata

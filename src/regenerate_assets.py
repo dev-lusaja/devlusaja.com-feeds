@@ -23,6 +23,7 @@ from feeds.chunk_generator import generate_feed_chunks
 from feeds.metadata_generator import save_metadata_json
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
+from feeds.featured_pappers_generator import generate_featured_pappers
 from utils.cleanup import cleanup_json_files
 from utils.logger import log
 
@@ -67,6 +68,10 @@ def regenerate_all_assets():
             if feed_count == 0:
                 log("⚠️  No hay feeds en la base de datos. Nada que regenerar.")
                 return False
+
+            # 0. Generar pappers destacados
+            log("\n⭐ Generando pappers destacados...")
+            generate_featured_pappers(db, output_dir="assets", config_path=str(config_path))
 
             # 1. Generar metadata desde la base de datos
             log("\n📋 Generando metadata desde la base de datos...")

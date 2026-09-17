@@ -14,6 +14,30 @@ from database.connection import DatabaseConnection
 from database.operations import feed_exists
 import re
 import time
+import os
+import json
+
+
+def load_tiktok_cookies(context: BrowserContext):
+    """
+    Carga cookies de TikTok desde variables de entorno si existen.
+    """
+    cookie_str = os.getenv('TIKTOK_COOKIE', '')
+    session_id = os.getenv('TIKTOK_SESSION_ID', '')
+    cookies = []
+    if session_id:
+        cookies.append({'name': 'sessionid', 'value': session_id, 'domain': '.tiktok.com', 'path': '/'})
+    if cookie_str:
+        for item in cookie_str.split(';'):
+            if '=' in item:
+                parts = item.strip().split('=', 1)
+                cookies.append({'name': parts[0], 'value': parts[1], 'domain': '.tiktok.com', 'path': '/'})
+    if cookies:
+        try:
+            context.add_cookies(cookies)
+            log(f"🍪 Cargadas {len(cookies)} cookies de TikTok")
+        except Exception as e:
+            log(f"⚠️ Error al agregar cookies de TikTok: {e}")
 
 
 def extract_date_from_video_page(context: BrowserContext, video_url: str) -> Optional[str]:
@@ -146,10 +170,11 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
 
             # Crear contexto con user agent realista
             context = browser.new_context(
-                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
                 viewport={'width': 1920, 'height': 1080},
                 locale='es-ES'
             )
+            load_tiktok_cookies(context)
 
             page = context.new_page()
 
@@ -186,7 +211,7 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
             # Buscar por id que contiene "column-item-video-container"
             video_containers = soup.find_all('div', id=re.compile(r'column-item-video-container-\d+'))
 
-        log(f"🔍 TikTok @{username}: Encontrados {len(video_containers)} videos")
+        log(f"🔍 TikTok @{username}: Encontrados {len(video_containers)} contenedores de videos")
 
         for video_div in video_containers:
             try:
@@ -196,6 +221,45 @@ def scrape_tiktok_user(url: str, username: str = None) -> Dict[str, Any]:
             except Exception as e:
                 log(f"⚠️ Error al procesar video individual: {e}")
                 continue
+
+        # Fallback: Extraer de script de rehidratación JSON si no hubo contenedores DOM
+        if not entries:
+            rehydration_script = soup.find('script', id='__UNIVERSAL_DATA_FOR_REHYDRATION__') or soup.find('script', id='SIGI_STATE')
+            if rehydration_script and rehydration_script.string:
+                try:
+                    data = json.loads(rehydration_script.string)
+                    # Buscar recurisvamente items
+                    def extract_items_from_dict(obj):
+                        if isinstance(obj, dict):
+                            if 'id' in obj and 'desc' in obj and 'createTime' in obj:
+                                item_id = str(obj['id'])
+                                desc = str(obj.get('desc', ''))
+                                video_url = f"https://www.tiktok.com/@{username}/video/{item_id}"
+                                cover = ''
+                                if isinstance(obj.get('video'), dict):
+                                    cover = obj['video'].get('cover') or obj['video'].get('originCover') or ''
+                                create_time = obj.get('createTime')
+                                pub_date = datetime.utcfromtimestamp(int(create_time)).isoformat() + '+00:00' if create_time else datetime.utcnow().isoformat() + '+00:00'
+                                entries.append({
+                                    'id': item_id,
+                                    'title': desc[:200] if len(desc) > 200 else (desc or f"Video de @{username}"),
+                                    'summary': desc,
+                                    'link': video_url,
+                                    'author': f"@{username}",
+                                    'published': pub_date,
+                                    'media_content': [{'url': cover}] if cover else []
+                                })
+                            else:
+                                for v in obj.values():
+                                    extract_items_from_dict(v)
+                        elif isinstance(obj, list):
+                            for elem in obj:
+                                extract_items_from_dict(elem)
+
+                    extract_items_from_dict(data)
+                    log(f"🔍 TikTok @{username}: Extraídos {len(entries)} videos desde script JSON")
+                except Exception as e:
+                    log(f"⚠️ Error al extraer JSON de TikTok: {e}")
 
         log(f"✅ TikTok @{username}: Extraídos {len(entries)} videos válidos")
 

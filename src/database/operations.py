@@ -42,12 +42,17 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             content TEXT,
             image TEXT,
             isShortVideo INTEGER DEFAULT 0,
+            linkPdf TEXT DEFAULT '',
             raw_data TEXT,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
         """
         cursor.execute(create_table_query)
+        try:
+            cursor.execute("ALTER TABLE feeds ADD COLUMN linkPdf TEXT DEFAULT ''")
+        except sqlite3.Error:
+            pass
         
         # Crear índices para feeds
         indices = [
@@ -139,15 +144,15 @@ def insert_feed(db: DatabaseConnection, feed_data: Dict[str, Any]) -> bool:
         INSERT OR IGNORE INTO feeds (
             id, title, link, pubDate, description, author,
             sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
-            content, image, isShortVideo, raw_data
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            content, image, isShortVideo, linkPdf, raw_data
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """
         cursor.execute(insert_query, (
             feed_data['id'], feed_data['title'], feed_data['link'], feed_data['pubDate'],
             feed_data['description'], feed_data['author'], feed_data['sourceTitle'],
             feed_data['sourceUrl'], feed_data['sourceCategory'], feed_data['sourceType'],
             feed_data['sourceCountry'], feed_data['content'], feed_data['image'],
-            feed_data['isShortVideo'], feed_data['raw_data']
+            feed_data['isShortVideo'], feed_data.get('linkPdf', ''), feed_data['raw_data']
         ))
         db.commit()
         return True
@@ -187,6 +192,11 @@ def insert_feeds_from_dataframe(db: DatabaseConnection, df: pd.DataFrame) -> Dic
             continue
 
         # Preparar datos para inserción
+        source_cat = str(row['sourceCategory']) if pd.notna(row['sourceCategory']) else ''
+        link_pdf = row['linkPdf'] if ('linkPdf' in row and pd.notna(row['linkPdf'])) else ''
+        if not link_pdf and source_cat.lower().startswith('arxiv_'):
+            link_pdf = feed_link.replace('/abs/', '/pdf/') if '/abs/' in feed_link else feed_link
+
         feed_data = {
             'id': row['id'],
             'title': row['title'] if pd.notna(row['title']) else '',
@@ -196,12 +206,13 @@ def insert_feeds_from_dataframe(db: DatabaseConnection, df: pd.DataFrame) -> Dic
             'author': row['author'] if pd.notna(row['author']) else '',
             'sourceTitle': row['sourceTitle'] if pd.notna(row['sourceTitle']) else '',
             'sourceUrl': row['sourceUrl'] if pd.notna(row['sourceUrl']) else '',
-            'sourceCategory': row['sourceCategory'] if pd.notna(row['sourceCategory']) else '',
+            'sourceCategory': source_cat,
             'sourceType': row['sourceType'] if pd.notna(row['sourceType']) else '',
             'sourceCountry': row['sourceCountry'] if pd.notna(row['sourceCountry']) else '',
             'content': row['content'] if pd.notna(row['content']) else '',
             'image': row['image'] if pd.notna(row['image']) else '',
             'isShortVideo': row['isShortVideo'] if pd.notna(row['isShortVideo']) else 0,
+            'linkPdf': link_pdf,
             'raw_data': row['raw_data'] if pd.notna(row['raw_data']) else ''
         }
 
@@ -404,12 +415,12 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         type_counts = {row['type']: row['count'] for row in cursor.fetchall()}
 
         # Obtener conteo por categoría y tipo (con filtro de fecha si aplica)
-        # IMPORTANTE: Excluir shorts (isShortVideo=1) para YouTube y TikTok
+        # IMPORTANTE: Excluir shorts (isShortVideo=1) para YouTube
         # porque estos se cuentan por separado en la sección "shorts"
         category_where_parts = []
         if months_back is not None:
             category_where_parts.append(f"pubDate_parsed >= datetime('now', '-{months_back} months')")
-        category_where_parts.append("NOT (sourceType IN ('youtube', 'tiktok') AND isShortVideo = 1)")
+        category_where_parts.append("NOT (sourceType = 'youtube' AND isShortVideo = 1)")
 
         category_where = "WHERE " + " AND ".join(category_where_parts)
 
@@ -562,7 +573,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type in ['youtube', 'tiktok']:
+        if exclude_shorts and source_type == 'youtube':
             short_filter = " AND isShortVideo = 0"
 
         # Determinar si aplicar filtro de categorías
@@ -580,7 +591,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
-                   content, image, isShortVideo, created_at
+                   content, image, isShortVideo, linkPdf, created_at
             FROM feeds
             WHERE sourceType = ?{short_filter}{category_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
@@ -620,7 +631,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
     Args:
         db: Objeto de conexión a la base de datos
         source_type: Tipo de fuente
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
         exclude_categories: Lista de categorías a excluir (opcional)
         months_back: Si se especifica, solo cuenta feeds de los últimos N meses (usa pubDate_parsed)
 
@@ -634,7 +645,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type in ['youtube', 'tiktok']:
+        if exclude_shorts and source_type == 'youtube':
             short_filter = " AND isShortVideo = 0"
 
         # Determinar si aplicar filtro de categorías
@@ -703,7 +714,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         category: Categoría específica
         limit: Número máximo de resultados (None = todos)
         offset: Offset para paginación
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
         months_back: Si se especifica, solo devuelve feeds de los últimos N meses (usa pubDate_parsed)
 
     Returns:
@@ -716,7 +727,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type in ['youtube', 'tiktok']:
+        if exclude_shorts and source_type == 'youtube':
             short_filter = " AND isShortVideo = 0"
 
         # Determinar si aplicar filtro de fecha
@@ -728,7 +739,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
-                   content, image, isShortVideo, created_at
+                   content, image, isShortVideo, linkPdf, created_at
             FROM feeds
             WHERE sourceType = ? AND sourceCategory = ?{short_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
@@ -739,7 +750,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
-                   content, image, isShortVideo, created_at
+                   content, image, isShortVideo, linkPdf, created_at
             FROM feeds
             WHERE sourceType = ? AND sourceCategory = ?{short_filter}{date_filter}
             ORDER BY pubDate_parsed DESC
@@ -762,7 +773,7 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         db: Objeto de conexión a la base de datos
         source_type: Tipo de fuente
         category: Categoría específica
-        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube' o 'tiktok'
+        exclude_shorts: Si es True, excluye videos cortos (isShortVideo=1) para sourceType='youtube'
         months_back: Si se especifica, solo cuenta feeds de los últimos N meses (usa pubDate_parsed)
 
     Returns:
@@ -775,7 +786,7 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
     try:
         # Determinar si aplicar filtro de shorts
         short_filter = ""
-        if exclude_shorts and source_type in ['youtube', 'tiktok']:
+        if exclude_shorts and source_type == 'youtube':
             short_filter = " AND isShortVideo = 0"
 
         # Determinar si aplicar filtro de fecha
@@ -879,7 +890,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0,
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
-                   content, image, isShortVideo, created_at
+                   content, image, isShortVideo, linkPdf, created_at
             FROM feeds
             WHERE isShortVideo = 1{date_filter}
             ORDER BY pubDate_parsed DESC
@@ -890,7 +901,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0,
             query = f"""
             SELECT id, title, link, pubDate, description, author,
                    sourceTitle, sourceUrl, sourceCategory, sourceType, sourceCountry,
-                   content, image, isShortVideo, created_at
+                   content, image, isShortVideo, linkPdf, created_at
             FROM feeds
             WHERE isShortVideo = 1{date_filter}
             ORDER BY pubDate_parsed DESC

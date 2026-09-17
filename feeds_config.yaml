@@ -1,3 +1,28 @@
+# Pappers Destacados
+featured_pappers:
+  - title: 'Attention Is All You Need (Google Brain, 2017)'
+    link: 'https://arxiv.org/pdf/1706.03762.pdf'
+  - title: 'ImageNet Classification with Deep Convolutional Neural Networks / AlexNet (Universidad de Toronto, 2012)'
+    link: 'https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf'
+  - title: 'Generative Adversarial Nets / GAN (Universidad de Montreal, 2014)'
+    link: 'https://arxiv.org/pdf/1406.2661.pdf'
+  - title: 'Deep Residual Learning for Image Recognition / ResNet (Microsoft Research, 2015)'
+    link: 'https://arxiv.org/pdf/1512.03385.pdf'
+  - title: 'Mastering the game of Go with deep neural networks and tree search / AlphaGo (Google DeepMind, 2016)'
+    link: 'https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf'
+  - title: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (Google, 2018)'
+    link: 'https://arxiv.org/pdf/1810.04805.pdf'
+  - title: 'Language Models are Few-Shot Learners / GPT-3 (OpenAI, 2020)'
+    link: 'https://arxiv.org/pdf/2005.14165.pdf'
+  - title: 'High-Resolution Image Synthesis with Latent Diffusion Models (LMU Munich / Runway, 2022)'
+    link: 'https://arxiv.org/pdf/2112.10752.pdf'
+  - title: 'Training language models to follow instructions with human feedback / InstructGPT (OpenAI, 2022)'
+    link: 'https://arxiv.org/pdf/2203.02155.pdf'
+  - title: 'LLaMA: Open and Efficient Foundation Language Models (Meta AI, 2023)'
+    link: 'https://arxiv.org/pdf/2302.13971.pdf'
+  - title: 'DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (DeepSeek, 2025)'
+    link: 'https://arxiv.org/pdf/2501.12948.pdf'
+
 # Configuración general
 # feeds_months_back: Número de meses hacia atrás para filtrar feeds en los chunks (por defecto 2)
 # max_chunks_per_category: Número máximo de archivos chunks a generar por cada categoría/tipo (por defecto null = sin límite)
@@ -153,6 +178,11 @@ feeds:
   - url: 'https://export.arxiv.org/rss/cs.AI'
     title: 'arXiv cs.AI'
     category: 'arXiv_AI'
+    sourceType: 'pappers'
+    country: ''
+  - url: ''
+    title: 'Pappers Destacados'
+    category: 'featured'
     sourceType: 'pappers'
     country: ''
 ### FOROS DE REDDIT ###

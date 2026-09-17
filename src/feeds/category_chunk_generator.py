@@ -50,9 +50,9 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
             if not categories:
                 continue
 
-            # Excluir shorts (isShortVideo=1) para YouTube y TikTok
+            # Excluir shorts (isShortVideo=1) solo para YouTube
             # Estos tienen sus propios chunks separados (shorts-all-chunk-*)
-            exclude_shorts = source_type in ['youtube', 'tiktok']
+            exclude_shorts = source_type == 'youtube'
             stats['by_source_type'][source_type] = {}
 
             # Procesar cada categoría
@@ -83,6 +83,11 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                     # Formatear feeds según la estructura requerida
                     feeds_data = []
                     for feed in feeds:
+                        source_cat = str(feed['sourceCategory'])
+                        link_pdf = feed['linkPdf'] if ('linkPdf' in feed.keys() and feed['linkPdf']) else ''
+                        if not link_pdf and (source_cat.startswith('arXiv_') or source_cat.lower().startswith('arxiv_')):
+                            link_pdf = feed['link'].replace('/abs/', '/pdf/') if '/abs/' in feed['link'] else feed['link']
+
                         feed_item = {
                             "id": feed['id'],
                             "title": feed['title'],
@@ -99,6 +104,9 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                             "image": feed['image'],
                             "isShortVideo": feed['isShortVideo']
                         }
+                        if link_pdf or source_cat.startswith('arXiv_') or source_cat.lower().startswith('arxiv_'):
+                            feed_item["linkPdf"] = link_pdf if link_pdf else feed['link']
+
                         feeds_data.append(feed_item)
 
                     # Nombre del archivo: {sourceType}-{category}-chunk-{number}.json

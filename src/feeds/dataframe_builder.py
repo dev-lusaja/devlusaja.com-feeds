@@ -150,7 +150,14 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
     # CASOS ESPECIALES #
     ####################
 
-    # CASO ESPECIAL: ArXiv (Pappers) - Extraer solo el abstract
+    # CASO ESPECIAL: ArXiv (Pappers) - Extraer solo el abstract y generar linkPdf
+    link_pdf = ""
+    if category.startswith('arXiv_') or category.lower().startswith('arxiv_'):
+        if '/abs/' in link:
+            link_pdf = link.replace('/abs/', '/pdf/')
+        else:
+            link_pdf = link
+
     if source_type == 'pappers' and category.lower().startswith('arxiv'):
         description = extract_abstract(description)
 
@@ -198,6 +205,7 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         'content': content,
         'image': image,
         'isShortVideo': is_short_video,
+        'linkPdf': link_pdf,
         'raw_data': json.dumps(entry, ensure_ascii=False)
     }
 

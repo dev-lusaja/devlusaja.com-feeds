@@ -8,6 +8,12 @@ def load_feeds_config(file_path: str):
         data = yaml.safe_load(f)
     return data.get('feeds', [])
 
+def load_featured_pappers_config(file_path: str) -> List[Dict[str, Any]]:
+    """Carga la lista de pappers destacados desde el archivo YAML."""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    return data.get('featured_pappers', [])
+
 def load_exclusions_config(file_path: str) -> Dict[str, Any]:
     """
     Carga la configuración de exclusiones desde el archivo YAML.
