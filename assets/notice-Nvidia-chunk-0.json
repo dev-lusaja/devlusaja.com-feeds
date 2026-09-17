@@ -1,5 +1,21 @@
 [
   {
+    "id": "377b6c39-dff0-5a43-9642-8dfebe700a55",
+    "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+    "link": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+    "pubDate": "2026-09-16T23:20:33+00:00",
+    "description": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in...",
+    "author": "Tanya Lenz",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/classroom-ovrtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"classroom-ovrtx\" width=\"768\" />Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/classroom-ovrtx-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"classroom-ovrtx\" width=\"768\" /><p>Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties, render preflight views, and validate the result against simulation-ready (SimReady) requirements. This workflow follows that process from a scene in Blender to a simulation-ready OpenUSD handoff for NVIDIA…</p>\n<p><a href=\"https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "6709cab0-bab6-54eb-90ca-cdfc92e9c58a",
     "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
     "link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/unnamed-17-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"unnamed-17\" width=\"768\" />When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/unnamed-17-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"unnamed-17\" width=\"768\" /><p>When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels, and capturing NVIDIA CUDA graphs. For large models, initialization can take several minutes, during which surviving workers must absorb the displaced traffic. Shadow engine recovery, available as a preview feature in NVIDIA Dynamo…</p>\n<p><a href=\"https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "1dd072f4-d6b0-5b8d-83b7-87952169d349",
-    "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
-    "link": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
-    "pubDate": "2026-08-25T15:00:00+00:00",
-    "description": "For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and...",
-    "author": "Elizabeth Goodman",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image3-5-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" />For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image3-5-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" /><p>For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and maintain bindings back to Python, which most people never did; or move up the stack and let someone else’s library do it, namely PyTorch, CuPy, or RAPIDS. The second option is why the Python GPU ecosystem thrives. But it has limits.</p>\n<p><a href=\"https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }

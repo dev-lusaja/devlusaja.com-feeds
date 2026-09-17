@@ -1,5 +1,21 @@
 [
   {
+    "id": "1dd072f4-d6b0-5b8d-83b7-87952169d349",
+    "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
+    "link": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
+    "pubDate": "2026-08-25T15:00:00+00:00",
+    "description": "For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and...",
+    "author": "Elizabeth Goodman",
+    "sourceTitle": "Nvidia",
+    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
+    "sourceCategory": "Nvidia",
+    "sourceType": "notice",
+    "sourceCountry": "",
+    "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image3-5-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" />For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image3-5-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image3\" width=\"768\" /><p>For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and maintain bindings back to Python, which most people never did; or move up the stack and let someone else’s library do it, namely PyTorch, CuPy, or RAPIDS. The second option is why the Python GPU ecosystem thrives. But it has limits.</p>\n<p><a href=\"https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
+    "image": "",
+    "isShortVideo": 0
+  },
+  {
     "id": "561c4276-cae3-5f91-a309-a75152dfebdb",
     "title": "Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules",
     "link": "https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules/",
@@ -460,22 +476,6 @@
     "sourceType": "notice",
     "sourceCountry": "",
     "content": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image9-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image9\" width=\"768\" />The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image9-2-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image9\" width=\"768\" /><p>The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration, generative AI media tools, and large-scale content delivery. Behind these experiences is a growing need for video pipelines that are faster, more efficient, and capable of handling increasingly complex formats and workloads.</p>\n<p><a href=\"https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
-    "image": "",
-    "isShortVideo": 0
-  },
-  {
-    "id": "0e0a65db-58a9-5286-8063-c08cf833eff1",
-    "title": "Run High-Performance Core Math at Scale with NVIDIA nvmath-python",
-    "link": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/",
-    "pubDate": "2026-07-30T22:43:04+00:00",
-    "description": "NVIDIA nvmath-python is a library designed to bridge the gap between the Python scientific community and NVIDIA CUDA-X math libraries. It gives Python users...",
-    "author": "Michelle Horton",
-    "sourceTitle": "Nvidia",
-    "sourceUrl": "https://feeds.feedburner.com/nvidiablog",
-    "sourceCategory": "Nvidia",
-    "sourceType": "notice",
-    "sourceCountry": "",
-    "content": "<img alt=\"Decorative math image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Solving-Math\" width=\"768\" />NVIDIA nvmath-python is a library designed to bridge the gap between the Python scientific community and NVIDIA CUDA-X math libraries. It gives Python users...<img alt=\"Decorative math image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Solving-Math\" width=\"768\" /><p>NVIDIA nvmath-python is a library designed to bridge the gap between the Python scientific community and NVIDIA CUDA-X math libraries. It gives Python users access to CUDA-X performance for common math operations without disrupting existing workflows. Depending on the API, operations can run on a CPU, CUDA-enabled GPU, or distributed multi-GPU, multi-node systems.</p>\n<p><a href=\"https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/\" rel=\"nofollow\" target=\"_self\">Source</a></p>",
     "image": "",
     "isShortVideo": 0
   }
