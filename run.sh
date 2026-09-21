@@ -10,8 +10,6 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 CYAN='\033[0;36m'
 NC='\033[0m' # Sin color
-GIT_AUTO_PUSH="${GIT_AUTO_PUSH:-true}"
-GIT_COMMIT_MESSAGE="${GIT_COMMIT_MESSAGE:-update feeds}"
 
 # Banner
 print_banner() {
@@ -22,23 +20,25 @@ print_banner() {
     echo -e "${NC}"
 }
 
-# Descargar BD desde Drive
+# Descargar BD desde Google Drive
 download_db() {
+    check_env
     echo -e "${YELLOW}⬇️ Descargando feeds.db desde Google Drive...${NC}"
-    if rclone copy feeds_ia:feeds_backup/feeds.db ./data/; then
+    if rclone copy gdrive:feeds_backup/feeds.db ./data/; then
         echo -e "${GREEN}✅ Base de datos descargada y actualizada localmente.${NC}"
     else
-        echo -e "${RED}❌ Error al descargar. Verifica tu configuración de rclone.${NC}"
+        echo -e "${RED}❌ Error al descargar. Verifica las variables RCLONE_CONFIG_GDRIVE_* en tu .env.${NC}"
     fi
 }
 
-# Subir BD a Drive
+# Subir BD a Google Drive
 upload_db() {
+    check_env
     echo -e "${YELLOW}⬆️ Subiendo feeds.db a Google Drive...${NC}"
-    if rclone copy ./data/feeds.db feeds_ia:feeds_backup/; then
+    if rclone copy ./data/feeds.db gdrive:feeds_backup/; then
         echo -e "${GREEN}✅ Base de datos subida correctamente a Drive.${NC}"
     else
-        echo -e "${RED}❌ Error al subir. Verifica tu configuración de rclone.${NC}"
+        echo -e "${RED}❌ Error al subir. Verifica las variables RCLONE_CONFIG_GDRIVE_* en tu .env.${NC}"
     fi
 }
 
@@ -245,73 +245,28 @@ regenerate_assets() {
     echo -e "${CYAN}💾 Base de datos SQLite: ./data/feeds.db${NC}"
 }
 
-is_git_repo() {
-    git rev-parse --is-inside-work-tree > /dev/null 2>&1
-}
+# Despliega la carpeta assets/ directo a Netlify (sin pasar por git)
+deploy_netlify() {
+    if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+        echo -e "${YELLOW}⚠️  NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID no configurados en .env, saltando deploy${NC}"
+        return 1
+    fi
 
-has_changes() {
-    git diff --quiet assets/ 2>/dev/null
-    if [ $? -eq 1 ]; then
-        return 0  # Hay cambios
+    echo -e "${YELLOW} Desplegando assets/ a Netlify...${NC}"
+    npx --yes netlify-cli deploy --dir=assets --prod --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
+
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}✅ Deploy a Netlify completado${NC}"
     else
-        return 1  # No hay cambios
+        echo -e "${RED}❌ Error al desplegar a Netlify${NC}"
+        exit 1
     fi
 }
 
 auto_feeds() {
-    echo -e "${YELLOW} Ejecutando proceso automatico de publicacion de feeds"
+    echo -e "${YELLOW} Ejecutando proceso automatico de publicacion de feeds${NC}"
     run_feeds "--force"
-
-    # Verificar si hay cambios en Git
-    if ! is_git_repo; then
-        echo -e "${RED}❌ No estamos en un repositorio Git"
-        exit 1
-    fi
-
-    echo -e "${YELLOW} Verificando cambios en Git..."
-
-    if has_changes; then
-        echo -e "Se detectaron cambios en assets/"
-        echo -e "${YELLOW} Añadiendo archivos al stage..."
-        git add assets/
-
-        if [ $? -ne 0 ]; then
-            echo -e "${RED}❌ Error al hacer git add"
-            exit 1
-        fi
-
-        echo -e "${GREEN}✅ Archivos añadidos al stage"
-        echo -e "${YELLOW} Creando commit..."
-
-        local commit_message="$GIT_COMMIT_MESSAGE - $(date +'%Y-%m-%d %H:%M:%S')"
-        git commit -m "$commit_message"
-
-        if [ $? -ne 0 ]; then
-            echo -e "${RED}❌ Error al crear commit"
-            exit 1
-        fi
-
-        echo -e "${GREEN}✅ Commit creado: $commit_message"
-
-        # Paso 8: Git push (si está habilitado)
-        if [ "$GIT_AUTO_PUSH" = "true" ]; then
-            echo -e "${YELLOW} Haciendo push a GitHub..."
-            git push origin main
-
-            if [ $? -ne 0 ]; then
-                echo -e "${RED}❌ Error al hacer push a GitHub"
-                exit 1
-            fi
-
-            echo -e "${GREEN}✅ Push completado exitosamente"
-            echo -e "${GREEN}✅ Netlify desplegará automáticamente los cambios"
-        else
-            echo -e "${GREEN}✅ Push automático deshabilitado (GIT_AUTO_PUSH=false)"
-            echo -e "${GREEN}✅ Ejecuta 'git push' manualmente para publicar los cambios"
-        fi
-    else
-        echo -e "${GREEN}✅ No se detectaron cambios en assets/ - No hay nada que commitear"
-    fi
+    deploy_netlify
 }
 
 # Loop principal

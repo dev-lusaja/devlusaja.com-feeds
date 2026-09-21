@@ -9,34 +9,27 @@ on:
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Permiso necesario para hacer push
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup Git User
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-
     - name: Install rclone
       run: |
         curl https://rclone.org/install.sh | sudo bash
 
-    - name: Configure rclone
-      run: |
-        mkdir -p ~/.config/rclone
-        echo "${{ secrets.RCLONE_CONFIG }}" | base64 -d > ~/.config/rclone/rclone.conf
-        chmod 600 ~/.config/rclone/rclone.conf
-
     - name: Create Data Directory
       run: mkdir -p data
 
-    - name: Restore feeds.db from Drive
+    - name: Restore feeds.db from Google Drive
+      env:
+        RCLONE_CONFIG_GDRIVE_TYPE: drive
+        RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+        RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+        RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+        RCLONE_CONFIG_GDRIVE_SCOPE: drive
       run: |
-        rclone copy feeds_ia:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
+        rclone copy gdrive:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
 
     - name: Verify Docker Compose
       run: |
@@ -45,15 +38,21 @@ jobs:
     - name: Check DB
       run: ls -l data/
 
-    - name: Run Feed Collector
+    - name: Run Feed Collector and Deploy to Netlify
       env:
-        GIT_AUTO_PUSH: "true"
-        GIT_COMMIT_MESSAGE: "chore: auto update feeds"
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       run: |
         chmod +x run.sh
         ./run.sh --auto
 
-    - name: Backup feeds.db to Drive
+    - name: Backup feeds.db to Google Drive
       if: always() # Ejecutar incluso si el script falla, para guardar progreso parcial si lo hubo
+      env:
+        RCLONE_CONFIG_GDRIVE_TYPE: drive
+        RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+        RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+        RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+        RCLONE_CONFIG_GDRIVE_SCOPE: drive
       run: |
-        rclone copy ./data/feeds.db feeds_ia:feeds_backup/
+        rclone copy ./data/feeds.db gdrive:feeds_backup/
