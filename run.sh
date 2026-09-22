@@ -129,7 +129,7 @@ start_docker() {
 
 # Verificar .env
 check_env() {
-    if [ ! -f .env ]; then
+    if [ ! -f .env ] && [ -f .env.example ]; then
         echo -e "${YELLOW}⚠️  No se encontró .env, copiando desde .env.example...${NC}"
         cp .env.example .env
         echo -e "${GREEN}✅ Archivo .env creado. Por favor, revisa y ajusta las variables.${NC}"

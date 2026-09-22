@@ -55,7 +55,7 @@ Normalizes every feed entry (regardless of source) into a common row shape: `id`
 
 ### Database (`src/database/`)
 
-`connection.py` wraps **SQLite** (`data/feeds.db`, WAL mode) as a context manager — despite `.env`/README/docker-compose referencing MySQL variables, the code path actually used is SQLite (`SQLITE_DB_PATH`, default `data/feeds.db`). The `feeds` table has a generated `pubDate_parsed` column (indexed) used for the "months back" filtering. `operations.py` (~900 lines) holds all queries: insert-with-dedup-by-`id`, `get_metadata_from_db`, execution-log tracking (`was_executed_today`/`register_execution`), and the chunk-query helpers used below.
+`connection.py` wraps **SQLite** (`data/feeds.db`, hardcoded, WAL mode) as a context manager. The `feeds` table has a generated `pubDate_parsed` column (indexed) used for the "months back" filtering. `operations.py` (~900 lines) holds all queries: insert-with-dedup-by-`id`, `get_metadata_from_db`, execution-log tracking (`was_executed_today`/`register_execution`), and the chunk-query helpers used below. `src/database/backup.py` is dead code from the MySQL era (never imported anywhere) — the real DB backup path is the Google Drive `rclone` sync described in Scheduling.
 
 ### Asset generation (`src/feeds/*_generator.py`)
 
@@ -74,6 +74,6 @@ Single source of truth for what gets fetched: a list of `{url, title, category, 
 ## Known doc/code drift
 
 - `README.md` (Spanish) describes an older automation layout (`auto_feeds.sh`, `setup_automation.sh`, `.auto_feeds.config`, `AUTOMATION.md`) that no longer exists, and still describes the old git-commit-then-push-triggers-Netlify flow — actual flow is the GitHub Actions workflow calling `run.sh --auto`, which deploys via `netlify-cli` directly (see Scheduling above). README not yet updated to match.
-- `.env` and `docker-compose.yml`/README reference MySQL and RSSHub services, but `docker-compose.yml` only defines `feed_collector`, and `src/database/connection.py` only implements SQLite. Treat MySQL/RSSHub env vars as vestigial.
+- `docker-compose.yml`/README/`docker/requirements.txt` (`mysql-connector-python`, `default-mysql-client` in the Dockerfile) still reference MySQL/RSSHub, but `docker-compose.yml` only defines `feed_collector` and `connection.py` only implements SQLite. The dead `DB_*`/`MYSQL_*`/`RSSHUB_*` vars were removed from `.env`; if you see the Dockerfile still installing a MySQL client or `docker/requirements.txt` still listing `mysql-connector-python`, that's leftover too, just not yet cleaned up.
 - `.env` is gitignored now (it previously was tracked with placeholder values only — no real secrets were exposed, but don't assume that's still true going forward; treat it as local-only).
 - `README.md` still links to `netlify.toml` as deploy config — that file was removed (see Scheduling above); README not yet updated.
