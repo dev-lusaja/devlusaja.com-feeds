@@ -27,6 +27,7 @@ El sistema ejecutará automáticamente:
 
 ## 📚 Documentación
 
+- **[ASSETS.md](ASSETS.md)** - Estructura de los JSON publicados (para integrar con la web)
 - **[AUTOMATION.md](AUTOMATION.md)** - Guía completa de automatización
 - **[netlify.toml](netlify.toml)** - Configuración de despliegue
 - **[feeds_config.yaml](feeds_config.yaml)** - Configuración de fuentes RSS

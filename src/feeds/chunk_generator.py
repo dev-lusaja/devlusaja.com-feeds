@@ -9,6 +9,8 @@ from database.operations import (
     get_feed_count_by_source_type
 )
 from config.loader import get_chunks_all_exclusions
+from utils.arxiv import get_link_pdf
+from utils.featured_papers import is_featured
 from utils.logger import log
 
 def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, config_path: str = None, months_back: int = 2, max_chunks: int = None) -> dict:
@@ -96,7 +98,9 @@ def generate_feed_chunks(db: DatabaseConnection, output_dir: str = "assets", ite
                         "sourceCountry": feed['sourceCountry'],
                         "content": feed['content'],
                         "image": feed['image'],
-                        "isShortVideo": feed['isShortVideo']
+                        "isShortVideo": feed['isShortVideo'],
+                        "isFeatured": is_featured(feed['sourceCategory']),
+                        "linkPdf": get_link_pdf(feed['link'], feed['sourceCategory'])
                     }
                     feeds_data.append(feed_item)
 

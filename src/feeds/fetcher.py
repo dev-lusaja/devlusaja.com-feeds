@@ -7,6 +7,7 @@ from utils.elcomercio import scrape_elcomercio_ia, is_elcomercio_feed
 from utils.lanacion import scrape_lanacion_ar_ai, is_lanacion_feed
 from utils.cnnespanol import scrape_cnnespanol_ia, is_cnnespanol_feed
 from utils.tiktok_scraper import scrape_tiktok_user, is_tiktok_scraper_feed
+from utils.featured_papers import get_featured_papers, is_featured_papers_feed
 
 def fetch_feed(url: str, category):
     """
@@ -46,6 +47,10 @@ def fetch_feed(url: str, category):
     # Detectar si es TikTok y usar scraper personalizado
     if is_tiktok_scraper_feed(url, category):
         return scrape_tiktok_user(url)
+
+    # Detectar si es la lista estática de papers destacados
+    if is_featured_papers_feed(category):
+        return get_featured_papers(url)
 
     # Para otros feeds, usar feedparser estándar
     return feedparser.parse(url)

@@ -12,3 +12,12 @@ def extract_abstract(text: str) -> str:
         result = match.group(1).strip()
         return result
     return text
+
+def get_link_pdf(link: str, category: str) -> str:
+    """
+    Devuelve el link directo al PDF para categorías de arXiv (arXiv_LG, arXiv_AI, ...),
+    reemplazando '/abs/' por '/pdf/' en la URL. Para el resto de categorías devuelve ''.
+    """
+    if category and category.lower().startswith('arxiv'):
+        return (link or '').replace('/abs/', '/pdf/')
+    return ''

@@ -8,6 +8,8 @@ from database.operations import (
     get_feeds_by_source_type_and_category,
     get_feed_count_by_source_type_and_category
 )
+from utils.arxiv import get_link_pdf
+from utils.featured_papers import is_featured
 from utils.logger import log
 
 def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets", items_per_chunk: int = 30, months_back: int = 2, max_chunks: int = None) -> dict:
@@ -97,7 +99,9 @@ def generate_category_chunks(db: DatabaseConnection, output_dir: str = "assets",
                             "sourceCountry": feed['sourceCountry'],
                             "content": feed['content'],
                             "image": feed['image'],
-                            "isShortVideo": feed['isShortVideo']
+                            "isShortVideo": feed['isShortVideo'],
+                            "isFeatured": is_featured(feed['sourceCategory']),
+                            "linkPdf": get_link_pdf(feed['link'], feed['sourceCategory'])
                         }
                         feeds_data.append(feed_item)
 

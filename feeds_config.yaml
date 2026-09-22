@@ -18,6 +18,8 @@ exclusions:
       - DeepMind
       - Nvidia
       - HuggingFace
+    pappers:
+      - Featured
     # Ejemplo para otros sourceTypes:
     # youtube:
     #   - SomeCategory
@@ -153,6 +155,12 @@ feeds:
   - url: 'https://export.arxiv.org/rss/cs.AI'
     title: 'arXiv cs.AI'
     category: 'arXiv_AI'
+    sourceType: 'pappers'
+    country: ''
+### PAPERS DESTACADOS (lista fija, ver src/utils/featured_papers.py) ###
+  - url: 'featured-papers'
+    title: 'Papers Destacados'
+    category: 'Featured'
     sourceType: 'pappers'
     country: ''
 ### FOROS DE REDDIT ###
