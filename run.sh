@@ -11,6 +11,9 @@ RED='\033[0;31m'
 CYAN='\033[0;36m'
 NC='\033[0m' # Sin color
 
+# Fuerza actualizar yt-dlp una vez al día en el build (ver docker/Dockerfile)
+export YTDLP_DATE=$(date +%F)
+
 # Banner
 print_banner() {
     echo -e "${CYAN}"

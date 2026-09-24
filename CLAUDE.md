@@ -45,7 +45,7 @@ The Netlify site was originally connected to this GitHub repo for git-triggered 
 
 ### Fetching feeds (`src/feeds/fetcher.py`, `src/utils/*`)
 
-Most sources are standard RSS parsed with `feedparser`. A handful of sites don't expose usable RSS and instead have a dedicated Playwright/BeautifulSoup scraper in `src/utils/` (`wired.py`, `elpais.py`, `euronews.py`, `elcomercio.py`, `lanacion.py`, `cnnespanol.py`, `tiktok_scraper.py`) that returns a feedparser-shaped object. `fetch_feed()` dispatches to the right scraper based on `category`/URL via each module's `is_*_feed()` predicate — add new custom-scraped sources by writing a new `utils/<site>.py` with `scrape_*` + `is_*_feed` and wiring it into `fetch_feed`.
+Most sources are standard RSS parsed with `feedparser`. A handful of sites don't expose usable RSS and instead have a dedicated Playwright/BeautifulSoup scraper in `src/utils/` (`wired.py`, `elpais.py`, `euronews.py`, `elcomercio.py`, `lanacion.py`, `cnnespanol.py`; `tiktok_scraper.py` uses `yt-dlp` instead since TikTok captchas headless Chromium) that returns a feedparser-shaped object. `fetch_feed()` dispatches to the right scraper based on `category`/URL via each module's `is_*_feed()` predicate — add new custom-scraped sources by writing a new `utils/<site>.py` with `scrape_*` + `is_*_feed` and wiring it into `fetch_feed`.
 
 Raw fetched feeds are cached as `feeds_data/<category>_feed_<YYYY-MM-DD>.json` for the day (`src/feeds/saver.py`); a feed already fetched today is skipped unless `--force`.
 

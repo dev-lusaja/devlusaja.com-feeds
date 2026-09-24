@@ -5,6 +5,8 @@ services:
     build:
       context: ..
       dockerfile: docker/Dockerfile
+      args:
+        YTDLP_DATE: ${YTDLP_DATE:-}
     container_name: feed_collector
     volumes:
       - ../feeds_data:/app/feeds_data

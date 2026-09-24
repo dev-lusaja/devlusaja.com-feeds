@@ -34,6 +34,11 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 # Instalar navegadores de Playwright
 RUN playwright install chromium
 
+# yt-dlp se rompe cuando TikTok cambia su API: YTDLP_DATE (fecha, desde run.sh)
+# invalida solo esta capa una vez al día para traer la última versión.
+ARG YTDLP_DATE
+RUN echo "yt-dlp update ${YTDLP_DATE}" && pip install --no-cache-dir -U yt-dlp
+
 COPY src ./src
 COPY feeds_config.yaml .
 
