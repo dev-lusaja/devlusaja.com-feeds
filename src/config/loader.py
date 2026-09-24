@@ -2,6 +2,10 @@ import yaml
 from pathlib import Path
 from typing import List, Dict, Any
 
+# sourceTypes con su propio proceso (--source-type), horario y metadata ({type}-metadata.json);
+# quedan fuera de la corrida normal y de metadata.json
+SEPARATE_SOURCE_TYPES = ('googlenews',)
+
 def load_feeds_config(file_path: str):
     """Carga el archivo YAML con los feeds."""
     with open(file_path, 'r', encoding='utf-8') as f:

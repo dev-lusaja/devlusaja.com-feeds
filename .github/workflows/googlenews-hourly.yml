@@ -1,0 +1,51 @@
+name: Google News Hourly Update
+
+on:
+  schedule:
+    # Minuto 30 para no chocar con el diario (8/14/20 en punto)
+    - cron: '30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: feeds-db
+  cancel-in-progress: false
+
+env:
+  RCLONE_CONFIG_GDRIVE_TYPE: drive
+  RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+  RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+  RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+  RCLONE_CONFIG_GDRIVE_SCOPE: drive
+
+jobs:
+  update-googlenews:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # Sin Docker: Google News es RSS plano, no necesita Chromium (build ~3 min menos por corrida)
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: pip
+        cache-dependency-path: docker/requirements.txt
+
+    - run: pip install -r docker/requirements.txt
+
+    - name: Install rclone
+      run: curl https://rclone.org/install.sh | sudo bash
+
+    - name: Restore feeds.db from Google Drive
+      run: |
+        mkdir -p data
+        rclone copy gdrive:feeds_backup/feeds.db ./data/
+
+    - name: Fetch Google News and regenerate assets
+      run: python src/feed_fetcher.py --force --source-type googlenews
+
+    - name: Deploy to Netlify
+      run: npx --yes netlify-cli deploy --dir=assets --prod --site="${{ secrets.NETLIFY_SITE_ID }}" --auth="${{ secrets.NETLIFY_AUTH_TOKEN }}"
+
+    - name: Backup feeds.db to Google Drive
+      run: rclone copy ./data/feeds.db gdrive:feeds_backup/

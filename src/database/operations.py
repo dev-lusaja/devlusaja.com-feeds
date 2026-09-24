@@ -4,7 +4,7 @@ from typing import Dict, Any, List, Optional
 from datetime import datetime, date
 from pathlib import Path
 from database.connection import DatabaseConnection
-from config.loader import load_exclusions_config
+from config.loader import load_exclusions_config, SEPARATE_SOURCE_TYPES
 from utils.logger import log
 
 def create_feeds_table(db: DatabaseConnection) -> bool:
@@ -338,7 +338,7 @@ def register_execution(db: DatabaseConnection, feeds_processed: int, feeds_inser
     finally:
         cursor.close()
 
-def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]], config_path: str = None, months_back: Optional[int] = None, max_chunks: Optional[int] = None) -> Dict[str, Any]:
+def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, Any]], config_path: str = None, months_back: Optional[int] = None, max_chunks: Optional[int] = None, source_type: Optional[str] = None) -> Dict[str, Any]:
     """
     Genera metadata desde la base de datos con estadísticas de feeds.
     Las exclusiones de categorías se configuran en feeds_config.yaml.
@@ -349,6 +349,8 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         config_path: Ruta al archivo de configuración YAML (por defecto 'feeds_config.yaml')
         months_back: Si se especifica, solo cuenta feeds de los últimos N meses (usa pubDate_parsed)
         max_chunks: Número máximo de chunks por categoría (None = sin límite)
+        source_type: Si se especifica, metadata solo de ese sourceType (sin shorts);
+            si no, metadata de todo excepto SEPARATE_SOURCE_TYPES
 
     Returns:
         Diccionario con metadata en el formato requerido
@@ -366,18 +368,25 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         exclusions_config = load_exclusions_config(config_path)
         chunks_all_exclusions = exclusions_config.get('chunks_all', {})
 
+        if source_type:
+            type_condition = f"sourceType = '{source_type}'"
+            feeds_config = [f for f in feeds_config if f['sourceType'] == source_type]
+        else:
+            type_condition = "sourceType NOT IN ({})".format(', '.join(f"'{t}'" for t in SEPARATE_SOURCE_TYPES))
+            feeds_config = [f for f in feeds_config if f['sourceType'] not in SEPARATE_SOURCE_TYPES]
+
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" WHERE (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
 
         # Obtener total de items
-        total_query = f"SELECT COUNT(*) as count FROM feeds{date_filter}"
+        total_query = f"SELECT COUNT(*) as count FROM feeds WHERE {type_condition}{date_filter}"
         cursor.execute(total_query)
         total_items = cursor.fetchone()['count']
 
         # Construir query dinámico para exclusiones basadas en la configuración
-        where_conditions = []
+        where_conditions = [type_condition]
 
         # Agregar filtro de fecha si aplica
         if months_back is not None:
@@ -406,7 +415,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # Obtener conteo por categoría y tipo (con filtro de fecha si aplica)
         # IMPORTANTE: Excluir shorts (isShortVideo=1) para YouTube y TikTok
         # porque estos se cuentan por separado en la sección "shorts"
-        category_where_parts = []
+        category_where_parts = [type_condition]
         if months_back is not None:
             category_where_parts.append(f"(pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')")
         category_where_parts.append("NOT (sourceType IN ('youtube', 'tiktok') AND isShortVideo = 1)")
@@ -505,6 +514,8 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
             "categories": categories,
             "shorts": shorts_info
         }
+        if source_type:
+            del metadata["shorts"]  # los shorts son una sección aparte de feeds normales
 
         return metadata
 

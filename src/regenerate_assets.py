@@ -18,9 +18,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category
 from database.connection import DatabaseConnection
-from database.operations import get_metadata_from_db, get_feed_count
+from database.operations import get_feed_count
 from feeds.chunk_generator import generate_feed_chunks
-from feeds.metadata_generator import save_metadata_json
+from feeds.metadata_generator import generate_all_metadata
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
 from utils.cleanup import cleanup_json_files
@@ -70,9 +70,7 @@ def regenerate_all_assets():
 
             # 1. Generar metadata desde la base de datos
             log("\n📋 Generando metadata desde la base de datos...")
-            metadata = get_metadata_from_db(db, feeds_config, months_back=months_back, max_chunks=max_chunks)
-            if metadata:
-                save_metadata_json(metadata, output_dir="assets")
+            if generate_all_metadata(db, feeds_config, months_back=months_back, max_chunks=max_chunks):
                 log("✅ Metadata generado exitosamente")
             else:
                 log("⚠️  No se pudo generar el metadata")

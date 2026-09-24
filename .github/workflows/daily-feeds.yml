@@ -6,6 +6,12 @@ on:
     - cron: '0 8,14,20 * * *'
   workflow_dispatch: # Permite ejecución manual
 
+# Comparte grupo con googlenews-hourly.yml: ambos restauran/suben el mismo feeds.db
+# de Drive, si corren a la vez uno pisa los inserts del otro.
+concurrency:
+  group: feeds-db
+  cancel-in-progress: false
+
 jobs:
   update-feeds:
     runs-on: ubuntu-latest

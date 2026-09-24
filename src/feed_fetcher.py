@@ -2,7 +2,7 @@ import os
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
-from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category
+from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category, SEPARATE_SOURCE_TYPES
 from feeds.fetcher import fetch_feed
 from feeds.saver import save_feed, exits_feed
 from feeds.dataframe_builder import build_dataframe, save_dataframe, save_dataframe_json
@@ -13,10 +13,9 @@ from database.operations import (
     get_feed_count,
     was_executed_today,
     register_execution,
-    get_metadata_from_db
 )
 from feeds.chunk_generator import generate_feed_chunks
-from feeds.metadata_generator import save_metadata_json
+from feeds.metadata_generator import generate_all_metadata
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
 from utils.cleanup import cleanup_json_files
@@ -29,7 +28,7 @@ load_dotenv()
 # Configuración
 ITEMS_PER_CHUNK = 30  # Número máximo de feeds por chunk
 
-def main(force: bool = False):
+def main(force: bool = False, source_type: str = None):
     # Inicializar estadísticas
     stats = ExecutionStats()
 
@@ -50,6 +49,7 @@ def main(force: bool = False):
     config_path = Path(__file__).parent.parent / "feeds_config.yaml"
     feeds = load_feeds_config(config_path)
     stats.total_feeds_config = len(feeds)
+    to_fetch = [f for f in feeds if (f['sourceType'] == source_type if source_type else f['sourceType'] not in SEPARATE_SOURCE_TYPES)]
 
     # Obtener configuración de meses hacia atrás para filtrar feeds
     months_back = get_feeds_months_back(config_path)
@@ -62,7 +62,7 @@ def main(force: bool = False):
 
     # Descargar feeds (sin logs)
     print("📡 Descargando feeds...", end='', flush=True)
-    for feed_info in feeds:
+    for feed_info in to_fetch:
         url = feed_info['url']
         category = feed_info['category']
 
@@ -95,15 +95,14 @@ def main(force: bool = False):
                 stats.feeds_skipped = db_stats['skipped']
                 stats.feeds_errors = db_stats['errors']
                 stats.feeds_after = get_feed_count(db)
-                register_execution(db, feeds_processed, stats.feeds_inserted, 'completed')
+                if not source_type:  # no marcar el día como ejecutado por una corrida parcial
+                    register_execution(db, feeds_processed, stats.feeds_inserted, 'completed')
             print(" ✓")
 
             # Generar metadata
             print("📋 Generando metadata...", end='', flush=True)
             with DatabaseConnection() as db:
-                metadata = get_metadata_from_db(db, feeds, months_back=months_back, max_chunks=max_chunks)
-                if metadata:
-                    save_metadata_json(metadata, output_dir="assets")
+                generate_all_metadata(db, feeds, months_back=months_back, max_chunks=max_chunks)
             print(" ✓")
 
             # Generar chunks por sourceType
@@ -166,4 +165,5 @@ def main(force: bool = False):
 if __name__ == "__main__":
     # Verificar si se pasó el parámetro --force
     force = '--force' in sys.argv
-    main(force=force)
+    source_type = sys.argv[sys.argv.index('--source-type') + 1] if '--source-type' in sys.argv else None
+    main(force=force, source_type=source_type)

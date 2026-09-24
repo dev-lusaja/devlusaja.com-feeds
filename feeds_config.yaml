@@ -12,7 +12,6 @@ config:
 exclusions:
   chunks_all:
     notice:
-      - GoogleNews
       - OpenAI
       - anthropic
       - DeepMind
@@ -75,14 +74,14 @@ feeds:
     sourceType: 'notice'
     country: ''
   - url: 'https://news.google.com/rss/search?q=inteligencia%20artificial&hl=es-419&gl=MX&ceid=MX%3Aes-419'
-    title: 'GoogleNews'
-    category: 'GoogleNews'
-    sourceType: 'notice'
+    title: 'GoogleNews IA'
+    category: 'GoogleNews_IA'
+    sourceType: 'googlenews'
     country: ''
   - url: 'https://news.google.com/rss/search?q=machine%20learning&hl=es-419&gl=MX&ceid=MX%3Aes-419'
-    title: 'GoogleNews'
-    category: 'GoogleNews'
-    sourceType: 'notice'
+    title: 'GoogleNews ML'
+    category: 'GoogleNews_ML'
+    sourceType: 'googlenews'
     country: ''
   - url: 'https://techcrunch.com/category/artificial-intelligence/feed/'
     title: 'TechCrunch AI'
