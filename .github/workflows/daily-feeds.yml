@@ -2,8 +2,8 @@ name: Daily Feeds Update
 
 on:
   schedule:
-    # Ejecutar a las 8:00, 14:00 y 20:00 UTC
-    - cron: '0 8,14,20 * * *'
+    # Cada 2 horas en punto (UTC)
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Permite ejecución manual
 
 # Comparte grupo con googlenews-hourly.yml: ambos restauran/suben el mismo feeds.db

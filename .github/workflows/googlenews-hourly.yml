@@ -2,7 +2,7 @@ name: Google News Hourly Update
 
 on:
   schedule:
-    # Minuto 30 para no chocar con el diario (8/14/20 en punto)
+    # Minuto 30 para no chocar con daily-feeds (cada 2 horas en punto)
     - cron: '30 * * * *'
   workflow_dispatch:
 
