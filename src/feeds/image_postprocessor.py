@@ -162,11 +162,11 @@ def get_feeds_without_images(
         return []
 
     try:
-        # Construir query dinámica
+        # Construir query dinámica (TechCrunch_AI/Towards/MIT_AI bloquean el scraping: excluidas para no gastar el LIMIT)
         query = """
         SELECT id, title, link, sourceType, sourceCategory
         FROM feeds
-        WHERE (image IS NULL OR image = '') AND sourceType not in ('pappers') AND sourceCategory not in ('GoogleNews', 'OpenAI')
+        WHERE (image IS NULL OR image = '') AND sourceType not in ('pappers') AND sourceCategory not in ('GoogleNews', 'OpenAI', 'TechCrunch_AI', 'Towards', 'MIT_AI')
         """
         params = []
 
@@ -231,16 +231,6 @@ def process_feeds_images(
         feed_category = feed['sourceCategory']
 
         stats['processed'] += 1
-        
-        # Lógica especial: Saltar GoogleNews notices
-        if feed_source_type == 'notice' and (
-            feed_category == 'GoogleNews' or
-            feed_category == 'TechCrunch_AI' or
-            feed_category == 'Towards' or
-            feed_category == 'MIT_AI' or
-            feed_category == 'DeepMind'            
-        ):
-            continue
 
         log(f"\n🔍 [{stats['processed']}/{len(feeds)}] Procesando: {feed_title[:60]}...")
         log(f"   URL: {feed_link}")

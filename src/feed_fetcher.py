@@ -18,6 +18,7 @@ from feeds.chunk_generator import generate_feed_chunks
 from feeds.metadata_generator import generate_all_metadata
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
+from feeds.image_postprocessor import process_feeds_images
 from utils.cleanup import cleanup_json_files
 from utils.logger import log
 from utils.stats import ExecutionStats
@@ -27,6 +28,7 @@ load_dotenv()
 
 # Configuración
 ITEMS_PER_CHUNK = 30  # Número máximo de feeds por chunk
+IMAGES_LIMIT = 20  # Máximo de noticias sin imagen a completar por corrida
 
 def main(force: bool = False, source_type: str = None):
     # Inicializar estadísticas
@@ -98,6 +100,11 @@ def main(force: bool = False, source_type: str = None):
                 if not source_type:  # no marcar el día como ejecutado por una corrida parcial
                     register_execution(db, feeds_processed, stats.feeds_inserted, 'completed')
             print(" ✓")
+
+            # Completar imágenes faltantes de las últimas noticias antes de generar los assets
+            if not source_type:
+                with DatabaseConnection() as db:
+                    process_feeds_images(db, source_type='notice', category=None, limit=IMAGES_LIMIT)
 
             # Generar metadata
             print("📋 Generando metadata...", end='', flush=True)
