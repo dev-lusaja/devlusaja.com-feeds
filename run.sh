@@ -255,6 +255,12 @@ deploy_netlify() {
         return 1
     fi
 
+    # Un deploy reemplaza todo el sitio: sin metadata.json se publicaría un sitio vacío
+    if [ ! -f assets/metadata.json ]; then
+        echo -e "${RED}❌ assets/metadata.json no existe, cancelando deploy para no vaciar el sitio${NC}"
+        exit 1
+    fi
+
     echo -e "${YELLOW} Desplegando assets/ a Netlify...${NC}"
     npx --yes netlify-cli deploy --dir=assets --functions=netlify/functions --prod --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
 
