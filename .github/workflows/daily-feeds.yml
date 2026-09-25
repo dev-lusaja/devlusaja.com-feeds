@@ -1,10 +1,9 @@
 name: Daily Feeds Update
 
 on:
-  schedule:
-    # Cada 2 horas en punto (UTC)
-    - cron: '0 */2 * * *'
-  workflow_dispatch: # Permite ejecución manual
+  # Lo dispara netlify/functions/daily-feeds-trigger.mjs (Netlify Scheduled Function);
+  # el "schedule" de GitHub se retrasaba horas o se saltaba ejecuciones.
+  workflow_dispatch:
 
 # Comparte grupo con googlenews-hourly.yml: ambos restauran/suben el mismo feeds.db
 # de Drive, si corren a la vez uno pisa los inserts del otro.

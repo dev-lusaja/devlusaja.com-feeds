@@ -256,7 +256,7 @@ deploy_netlify() {
     fi
 
     echo -e "${YELLOW} Desplegando assets/ a Netlify...${NC}"
-    npx --yes netlify-cli deploy --dir=assets --prod --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
+    npx --yes netlify-cli deploy --dir=assets --functions=netlify/functions --prod --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
 
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✅ Deploy a Netlify completado${NC}"

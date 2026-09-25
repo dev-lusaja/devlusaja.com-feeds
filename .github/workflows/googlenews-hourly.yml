@@ -1,9 +1,7 @@
 name: Google News Hourly Update
 
 on:
-  schedule:
-    # Minuto 30 para no chocar con daily-feeds (cada 2 horas en punto)
-    - cron: '30 * * * *'
+  # Lo dispara netlify/functions/googlenews-hourly-trigger.mjs (Netlify Scheduled Function)
   workflow_dispatch:
 
 concurrency:
@@ -45,7 +43,7 @@ jobs:
       run: python src/feed_fetcher.py --force --source-type googlenews
 
     - name: Deploy to Netlify
-      run: npx --yes netlify-cli deploy --dir=assets --prod --site="${{ secrets.NETLIFY_SITE_ID }}" --auth="${{ secrets.NETLIFY_AUTH_TOKEN }}"
+      run: npx --yes netlify-cli deploy --dir=assets --functions=netlify/functions --prod --site="${{ secrets.NETLIFY_SITE_ID }}" --auth="${{ secrets.NETLIFY_AUTH_TOKEN }}"
 
     - name: Backup feeds.db to Google Drive
       run: rclone copy ./data/feeds.db gdrive:feeds_backup/
