@@ -20,7 +20,7 @@ from config.loader import load_feeds_config, get_feeds_months_back, get_max_chun
 from database.connection import DatabaseConnection
 from database.operations import get_feed_count
 from feeds.chunk_generator import generate_feed_chunks
-from feeds.metadata_generator import generate_all_metadata
+from feeds.metadata_generator import generate_all_metadata, generate_separate_assets
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
 from utils.cleanup import cleanup_json_files
@@ -103,7 +103,11 @@ def regenerate_all_assets():
                 log("⚠️  No se pudieron generar los chunks de shorts")
                 # No retornar False aquí porque puede que no haya shorts aún
 
-            # 5. Limpiar archivos JSON huérfanos
+            # 5. Metadata y chunks de SEPARATE_SOURCE_TYPES, cada uno desde su propia BD
+            log("\n📰 Generando assets de fuentes separadas...")
+            generate_separate_assets(feeds_config, max_chunks=max_chunks, items_per_chunk=ITEMS_PER_CHUNK)
+
+            # 6. Limpiar archivos JSON huérfanos
             log("\n🧹 Limpiando archivos JSON obsoletos...")
             cleanup_json_files()
             log("✅ Archivos JSON limpiados")

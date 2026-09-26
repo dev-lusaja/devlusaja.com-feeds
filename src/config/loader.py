@@ -2,9 +2,12 @@ import yaml
 from pathlib import Path
 from typing import List, Dict, Any
 
-# sourceTypes con su propio proceso (--source-type), horario y metadata ({type}-metadata.json);
-# quedan fuera de la corrida normal y de metadata.json
-SEPARATE_SOURCE_TYPES = ('googlenews',)
+# sourceTypes con su propio proceso (--source-type), horario, BD (data/{type}.db) y metadata ({type}-metadata.json);
+# quedan fuera de la corrida normal y de metadata.json. Valor = ventana de fechas de sus chunks (modificador SQLite)
+SEPARATE_SOURCE_TYPES = {'googlenews': '2 days'}
+
+def get_db_path(source_type: str = None) -> str:
+    return f"data/{source_type}.db" if source_type in SEPARATE_SOURCE_TYPES else "data/feeds.db"
 
 def load_feeds_config(file_path: str):
     """Carga el archivo YAML con los feeds."""

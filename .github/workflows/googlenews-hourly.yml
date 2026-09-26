@@ -34,10 +34,11 @@ jobs:
     - name: Install rclone
       run: curl https://rclone.org/install.sh | sudo bash
 
-    - name: Restore feeds.db from Google Drive
+    # Baja ambas BDs: un deploy reemplaza todo el sitio, así que se regeneran también los assets de feeds.db
+    - name: Restore DBs from Google Drive
       run: |
         mkdir -p data
-        rclone copy gdrive:feeds_backup/feeds.db ./data/
+        rclone copy gdrive:feeds_backup ./data --include "*.db"
 
     - name: Fetch Google News and regenerate assets
       run: python src/feed_fetcher.py --force --source-type googlenews
@@ -46,5 +47,6 @@ jobs:
       # Un deploy reemplaza todo el sitio: sin metadata.json se publicaría un sitio vacío
       run: test -f assets/metadata.json && npx --yes netlify-cli deploy --dir=assets --functions=netlify/functions --prod --site="${{ secrets.NETLIFY_SITE_ID }}" --auth="${{ secrets.NETLIFY_AUTH_TOKEN }}"
 
-    - name: Backup feeds.db to Google Drive
-      run: rclone copy ./data/feeds.db gdrive:feeds_backup/
+    # Solo googlenews.db: feeds.db es de daily-feeds.yml
+    - name: Backup googlenews.db to Google Drive
+      run: rclone copy ./data/googlenews.db gdrive:feeds_backup/

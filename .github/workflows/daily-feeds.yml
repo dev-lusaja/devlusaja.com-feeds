@@ -5,8 +5,8 @@ on:
   # el "schedule" de GitHub se retrasaba horas o se saltaba ejecuciones.
   workflow_dispatch:
 
-# Comparte grupo con googlenews-hourly.yml: ambos restauran/suben el mismo feeds.db
-# de Drive, si corren a la vez uno pisa los inserts del otro.
+# Comparte grupo con googlenews-hourly.yml: cada uno sube solo su BD, pero ambos despliegan
+# el sitio completo; en serie cada deploy lleva lo último de las dos BDs.
 concurrency:
   group: feeds-db
   cancel-in-progress: false
@@ -26,7 +26,7 @@ jobs:
     - name: Create Data Directory
       run: mkdir -p data
 
-    - name: Restore feeds.db from Google Drive
+    - name: Restore DBs from Google Drive
       env:
         RCLONE_CONFIG_GDRIVE_TYPE: drive
         RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
@@ -34,7 +34,7 @@ jobs:
         RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
         RCLONE_CONFIG_GDRIVE_SCOPE: drive
       run: |
-        rclone copy gdrive:feeds_backup/feeds.db ./data/ || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
+        rclone copy gdrive:feeds_backup ./data --include "*.db" || echo "No remote DB found or error downloading, starting fresh or using existing if empty."
 
     - name: Verify Docker Compose
       run: |

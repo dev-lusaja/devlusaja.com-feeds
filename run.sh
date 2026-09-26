@@ -26,8 +26,8 @@ print_banner() {
 # Descargar BD desde Google Drive
 download_db() {
     check_env
-    echo -e "${YELLOW}⬇️ Descargando feeds.db desde Google Drive...${NC}"
-    if rclone copy gdrive:feeds_backup/feeds.db ./data/; then
+    echo -e "${YELLOW}⬇️ Descargando BDs (feeds.db, googlenews.db) desde Google Drive...${NC}"
+    if rclone copy gdrive:feeds_backup ./data --include "*.db"; then
         echo -e "${GREEN}✅ Base de datos descargada y actualizada localmente.${NC}"
     else
         echo -e "${RED}❌ Error al descargar. Verifica las variables RCLONE_CONFIG_GDRIVE_* en tu .env.${NC}"
@@ -37,8 +37,8 @@ download_db() {
 # Subir BD a Google Drive
 upload_db() {
     check_env
-    echo -e "${YELLOW}⬆️ Subiendo feeds.db a Google Drive...${NC}"
-    if rclone copy ./data/feeds.db gdrive:feeds_backup/; then
+    echo -e "${YELLOW}⬆️ Subiendo BDs (feeds.db, googlenews.db) a Google Drive...${NC}"
+    if rclone copy ./data gdrive:feeds_backup --include "*.db"; then
         echo -e "${GREEN}✅ Base de datos subida correctamente a Drive.${NC}"
     else
         echo -e "${RED}❌ Error al subir. Verifica las variables RCLONE_CONFIG_GDRIVE_* en tu .env.${NC}"

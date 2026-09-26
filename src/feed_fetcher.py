@@ -2,7 +2,7 @@ import os
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
-from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category, SEPARATE_SOURCE_TYPES
+from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category, SEPARATE_SOURCE_TYPES, get_db_path
 from feeds.fetcher import fetch_feed
 from feeds.saver import save_feed, exits_feed
 from feeds.dataframe_builder import build_dataframe, save_dataframe, save_dataframe_json
@@ -15,7 +15,7 @@ from database.operations import (
     register_execution,
 )
 from feeds.chunk_generator import generate_feed_chunks
-from feeds.metadata_generator import generate_all_metadata
+from feeds.metadata_generator import generate_all_metadata, generate_separate_assets
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
 from feeds.image_postprocessor import process_feeds_images
@@ -80,6 +80,8 @@ def main(force: bool = False, source_type: str = None):
     # Construir DataFrame con todos los feeds
     print("📊 Construyendo DataFrame...", end='', flush=True)
     df = build_dataframe(feeds_dir="feeds_data", feeds_config=feeds)
+    if not df.empty:  # feeds_data/ puede traer caché de otros sourceTypes: cada BD guarda solo lo suyo
+        df = df[df['sourceType'].isin({f['sourceType'] for f in to_fetch})]
     stats.total_entries = len(df) if not df.empty else 0
     print(" ✓")
 
@@ -89,7 +91,7 @@ def main(force: bool = False, source_type: str = None):
         try:
             # Guardar en base de datos
             print("💾 Guardando en MySQL...", end='', flush=True)
-            with DatabaseConnection() as db:
+            with DatabaseConnection(get_db_path(source_type)) as db:
                 create_feeds_table(db)
                 stats.feeds_before = get_feed_count(db)
                 db_stats = insert_feeds_from_dataframe(db, df)
@@ -149,6 +151,11 @@ def main(force: bool = False, source_type: str = None):
                 if shorts_stats['success']:
                     stats.shorts_chunks = shorts_stats['total_chunks']
                     stats.shorts_total = shorts_stats['total_shorts']
+            print(" ✓")
+
+            # Metadata y chunks de SEPARATE_SOURCE_TYPES, cada uno desde su propia BD
+            print("📰 Generando assets de fuentes separadas...", end='', flush=True)
+            generate_separate_assets(feeds, max_chunks=max_chunks, items_per_chunk=ITEMS_PER_CHUNK)
             print(" ✓")
 
             # Limpiar archivos JSON

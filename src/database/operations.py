@@ -7,6 +7,10 @@ from database.connection import DatabaseConnection
 from config.loader import load_exclusions_config, SEPARATE_SOURCE_TYPES
 from utils.logger import log
 
+def _period(months_back) -> str:
+    """Modificador SQLite del filtro de fecha: int = meses; str se usa tal cual (p. ej. '2 days')."""
+    return months_back if isinstance(months_back, str) else f"{months_back} months"
+
 def create_feeds_table(db: DatabaseConnection) -> bool:
     """
     Crea la tabla de feeds si no existe.
@@ -378,7 +382,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         # Obtener total de items
         total_query = f"SELECT COUNT(*) as count FROM feeds WHERE {type_condition}{date_filter}"
@@ -390,7 +394,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
 
         # Agregar filtro de fecha si aplica
         if months_back is not None:
-            where_conditions.append(f"(pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')")
+            where_conditions.append(f"(pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')")
 
         # Agregar exclusiones configuradas
         for source_type, excluded_categories in chunks_all_exclusions.items():
@@ -417,7 +421,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # porque estos se cuentan por separado en la sección "shorts"
         category_where_parts = [type_condition]
         if months_back is not None:
-            category_where_parts.append(f"(pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')")
+            category_where_parts.append(f"(pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')")
         category_where_parts.append("NOT (sourceType IN ('youtube', 'tiktok') AND isShortVideo = 1)")
 
         category_where = "WHERE " + " AND ".join(category_where_parts)
@@ -484,7 +488,7 @@ def get_metadata_from_db(db: DatabaseConnection, feeds_config: List[Dict[str, An
         # Obtener estadísticas de shorts (videos cortos) con filtro de fecha si aplica
         shorts_date_filter = ""
         if months_back is not None:
-            shorts_date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            shorts_date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         shorts_query = f"SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1{shorts_date_filter}"
         cursor.execute(shorts_query)
@@ -585,7 +589,7 @@ def get_feeds_by_source_type(db: DatabaseConnection, source_type: str, limit: in
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         if limit:
             query = f"""
@@ -659,7 +663,7 @@ def get_feed_count_by_source_type(db: DatabaseConnection, source_type: str, excl
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = ?{short_filter}{category_filter}{date_filter}"
         cursor.execute(query, tuple(params))
@@ -733,7 +737,7 @@ def get_feeds_by_source_type_and_category(db: DatabaseConnection, source_type: s
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         if limit:
             query = f"""
@@ -792,7 +796,7 @@ def get_feed_count_by_source_type_and_category(db: DatabaseConnection, source_ty
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         query = f"SELECT COUNT(*) as count FROM feeds WHERE sourceType = ? AND sourceCategory = ?{short_filter}{date_filter}"
         cursor.execute(query, (source_type, category))
@@ -851,7 +855,7 @@ def get_short_videos_count(db: DatabaseConnection, months_back: Optional[int] = 
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         query = f"SELECT COUNT(*) as count FROM feeds WHERE isShortVideo = 1{date_filter}"
         cursor.execute(query)
@@ -884,7 +888,7 @@ def get_short_videos(db: DatabaseConnection, limit: int = None, offset: int = 0,
         # Determinar si aplicar filtro de fecha
         date_filter = ""
         if months_back is not None:
-            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{months_back} months') OR sourceCategory = 'Featured')"
+            date_filter = f" AND (pubDate_parsed >= datetime('now', '-{_period(months_back)}') OR sourceCategory = 'Featured')"
 
         if limit:
             query = f"""
