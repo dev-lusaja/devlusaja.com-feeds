@@ -17,6 +17,10 @@ exclusions:
       - DeepMind
       - Nvidia
       - HuggingFace
+      - MetaAI
+      - GoogleAI
+      - Ollama
+      - Groq
     pappers:
       - Featured
     # Ejemplo para otros sourceTypes:
@@ -129,11 +133,32 @@ feeds:
     category: 'Nvidia'
     sourceType: 'notice'
     country: ''
-  # - url: 'http://rsshub:1200/anthropic/news'
-  #   title: 'Anthropic'
-  #   category: 'anthropic'
-  #   sourceType: 'notice'
-  #   country: ''
+    # Anthropic no publica RSS oficial; feed comunitario generado desde anthropic.com/news
+  - url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml'
+    title: 'Anthropic'
+    category: 'anthropic'
+    sourceType: 'notice'
+    country: ''
+  - url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml'
+    title: 'Meta AI'
+    category: 'MetaAI'
+    sourceType: 'notice'
+    country: ''
+  - url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_google_ai.xml'
+    title: 'Google AI'
+    category: 'GoogleAI'
+    sourceType: 'notice'
+    country: ''
+  - url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml'
+    title: 'Ollama'
+    category: 'Ollama'
+    sourceType: 'notice'
+    country: ''
+  - url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_groq.xml'
+    title: 'Groq'
+    category: 'Groq'
+    sourceType: 'notice'
+    country: ''
 ### BLOGS EDUCATIVOS ###
   - url: 'https://machinelearningmastery.com/blog/feed/'
     title: 'Machine Learning Mastery'

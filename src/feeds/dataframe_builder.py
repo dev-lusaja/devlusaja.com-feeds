@@ -2,7 +2,7 @@ import json
 import uuid
 import pandas as pd
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any
 from utils.logger import log
 from dateutil import parser as date_parser
@@ -115,6 +115,9 @@ def extract_entry_data(entry: Dict[str, Any], category: str, source_title: str,
         pub_date = entry['published']
     elif 'updated' in entry:
         pub_date = entry['updated']
+    else:
+        # Sin fecha (p.ej. feed_google_ai.xml): usar la de primera captura; INSERT OR IGNORE la conserva
+        pub_date = datetime.now(timezone.utc).isoformat()
 
     # Estandarizar formato de fecha a ISO 8601
     pub_date = standardize_pub_date(pub_date)
