@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from config.loader import load_feeds_config, get_feeds_months_back, get_max_chunks_per_category
 from database.connection import DatabaseConnection
 from database.operations import get_feed_count
-from feeds.chunk_generator import generate_feed_chunks
+from feeds.chunk_generator import generate_feed_chunks, generate_share_index
 from feeds.metadata_generator import generate_all_metadata, generate_separate_assets
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
@@ -107,7 +107,10 @@ def regenerate_all_assets():
             log("\n📰 Generando assets de fuentes separadas...")
             generate_separate_assets(feeds_config, max_chunks=max_chunks, items_per_chunk=ITEMS_PER_CHUNK)
 
-            # 6. Limpiar archivos JSON huérfanos
+            # 6. Índice id corto -> chunk para enlaces compartidos (tras escribir todos los chunks)
+            log(f"\n🔗 share-index.json: {generate_share_index()} claves")
+
+            # 7. Limpiar archivos JSON huérfanos
             log("\n🧹 Limpiando archivos JSON obsoletos...")
             cleanup_json_files()
             log("✅ Archivos JSON limpiados")

@@ -14,7 +14,7 @@ from database.operations import (
     was_executed_today,
     register_execution,
 )
-from feeds.chunk_generator import generate_feed_chunks
+from feeds.chunk_generator import generate_feed_chunks, generate_share_index
 from feeds.metadata_generator import generate_all_metadata, generate_separate_assets
 from feeds.category_chunk_generator import generate_category_chunks
 from feeds.shorts_chunk_generator import generate_shorts_chunks
@@ -156,6 +156,11 @@ def main(force: bool = False, source_type: str = None):
             # Metadata y chunks de SEPARATE_SOURCE_TYPES, cada uno desde su propia BD
             print("📰 Generando assets de fuentes separadas...", end='', flush=True)
             generate_separate_assets(feeds, max_chunks=max_chunks, items_per_chunk=ITEMS_PER_CHUNK)
+            print(" ✓")
+
+            # Índice id corto -> chunk para enlaces compartidos (tras escribir todos los chunks)
+            print("🔗 Generando share-index...", end='', flush=True)
+            generate_share_index()
             print(" ✓")
 
             # Limpiar archivos JSON

@@ -8,7 +8,7 @@ from database.operations import (
     get_feeds_by_source_type,
     get_feed_count_by_source_type
 )
-from config.loader import get_chunks_all_exclusions
+from config.loader import get_chunks_all_exclusions, SEPARATE_SOURCE_TYPES
 from utils.arxiv import get_link_pdf
 from utils.featured_papers import is_featured
 from utils.logger import log
@@ -156,3 +156,20 @@ def save_metadata_json(metadata: Dict[str, Any], output_dir: str = "assets") -> 
     except Exception as e:
         log(f"❌ Error al guardar metadata: {e}")
         return False
+
+def generate_share_index(output_dir: str = "assets") -> int:
+    """
+    Escribe share-index.json: primeros 12 hex del id (sin guiones) -> nombre del chunk sin .json.
+    Recorre los chunks ya escritos; se queda con el primero para ids repetidos o claves que colisionan.
+    Excluye los chunks de SEPARATE_SOURCE_TYPES (p. ej. googlenews).
+    """
+    index = {}
+    for path in sorted(Path(output_dir).glob("*-chunk-*.json")):
+        if path.name.startswith(tuple(f"{t}-" for t in SEPARATE_SOURCE_TYPES)):
+            continue
+        with open(path, encoding='utf-8') as f:
+            for item in json.load(f):
+                index.setdefault(item["id"].replace("-", "").lower()[:12], path.stem)
+    with open(Path(output_dir) / "share-index.json", 'w', encoding='utf-8') as f:
+        json.dump(index, f, separators=(",", ":"))
+    return len(index)
