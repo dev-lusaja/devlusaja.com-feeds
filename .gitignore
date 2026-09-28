@@ -6,7 +6,7 @@ __pycache__/
 
 # Variables de entorno (puede contener credenciales reales de R2/Netlify en local)
 .env
-client_secret_REDACTED.apps.googleusercontent.com.json
+client_secret_*.json
 
 # Assets generados: se despliegan directo a Netlify, ya no se commitean
 # (assets/_headers SÍ se mantiene versionado, es config de deploy manual)
