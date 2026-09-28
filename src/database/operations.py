@@ -62,6 +62,9 @@ def create_feeds_table(db: DatabaseConnection) -> bool:
             "CREATE INDEX IF NOT EXISTS idx_pubDate_parsed ON feeds(pubDate_parsed)",
             "CREATE INDEX IF NOT EXISTS idx_sourceType_pubDate ON feeds(sourceType, pubDate_parsed)",
             "CREATE INDEX IF NOT EXISTS idx_created_at ON feeds(created_at)",
+            # feed_exists() busca por link: sin índice es un full scan por fila (~9 min por corrida).
+            # No único porque feeds.db ya tiene links duplicados y el UNIQUE de abajo falla.
+            "CREATE INDEX IF NOT EXISTS idx_link ON feeds(link)",
             "CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_link ON feeds(link)"
         ]
         
