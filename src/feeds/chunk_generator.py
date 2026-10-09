@@ -163,13 +163,25 @@ def generate_share_index(output_dir: str = "assets") -> int:
     Recorre los chunks ya escritos; se queda con el primero para ids repetidos o claves que colisionan.
     Excluye los chunks de SEPARATE_SOURCE_TYPES (p. ej. googlenews).
     """
-    index = {}
+    index, lastmod = {}, {}
     for path in sorted(Path(output_dir).glob("*-chunk-*.json")):
         if path.name.startswith(tuple(f"{t}-" for t in SEPARATE_SOURCE_TYPES)):
             continue
         with open(path, encoding='utf-8') as f:
             for item in json.load(f):
-                index.setdefault(item["id"].replace("-", "").lower()[:12], path.stem)
+                key = item["id"].replace("-", "").lower()[:12]
+                if key not in index:
+                    index[key], lastmod[key] = path.stem, item.get("pubDate", "")
     with open(Path(output_dir) / "share-index.json", 'w', encoding='utf-8') as f:
         json.dump(index, f, separators=(",", ":"))
+
+    # sitemap.xml con los mismos enlaces cortos /news/s/{id}; devlusaja.com lo sirve vía proxy.
+    # ponytail: un solo archivo, partir en sitemap index si pasa de 50.000 URLs
+    urls = ["<url><loc>https://devlusaja.com/news</loc></url>"] + [
+        f"<url><loc>https://devlusaja.com/news/s/{k}</loc>" + (f"<lastmod>{lastmod[k]}</lastmod>" if lastmod[k] else "") + "</url>"
+        for k in index
+    ]
+    with open(Path(output_dir) / "sitemap.xml", 'w', encoding='utf-8') as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        f.write("\n".join(urls) + "\n</urlset>\n")
     return len(index)

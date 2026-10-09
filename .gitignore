@@ -11,6 +11,7 @@ client_secret_*.json
 # Assets generados: se despliegan directo a Netlify, ya no se commitean
 # (assets/_headers SÍ se mantiene versionado, es config de deploy manual)
 assets/*.json
+assets/sitemap.xml
 
 # Caché local del Netlify CLI
 .netlify/
