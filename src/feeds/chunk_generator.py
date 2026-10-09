@@ -177,7 +177,8 @@ def generate_share_index(output_dir: str = "assets") -> int:
 
     # sitemap.xml con los mismos enlaces cortos /news/s/{id}; devlusaja.com lo sirve vía proxy.
     # ponytail: un solo archivo, partir en sitemap index si pasa de 50.000 URLs
-    urls = ["<url><loc>https://devlusaja.com/news</loc></url>"] + [
+    sections = ["/", "/news", "/news/papers", "/news/courses", "/news/forums", "/news/videos", "/news/leaderboard"]
+    urls = [f"<url><loc>https://devlusaja.com{s}</loc></url>" for s in sections] + [
         f"<url><loc>https://devlusaja.com/news/s/{k}</loc>" + (f"<lastmod>{lastmod[k]}</lastmod>" if lastmod[k] else "") + "</url>"
         for k in index
     ]
