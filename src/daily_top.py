@@ -1,7 +1,8 @@
 """
-Top del día para LinkedIn: la IA (OpenRouter) elige las noticias de IA en español más importantes
-de las últimas horas y el post, armado con la plantilla de feeds_config.yaml (daily_top), se envía
-a un canal de Discord por webhook.
+Top del día para LinkedIn, en dos llamadas a la IA (OpenRouter): primero agrupa las noticias de IA
+en español de las últimas horas que cuentan la misma historia, después elige las más importantes.
+El post, armado con la plantilla de feeds_config.yaml (daily_top), se envía a un canal de Discord por
+webhook, seguido de un reporte (.txt adjunto) con cuántas veces y en qué medios salió cada historia.
 
 Solo lee las BDs (feeds.db y googlenews.db); no escribe nada ni toca assets/.
 
@@ -14,6 +15,7 @@ Requiere OPENROUTER_API_KEY y DISCORD_WEBHOOK_URL (entorno o .env).
 import json
 import os
 import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -31,20 +33,38 @@ NUMBER_EMOJIS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣
 MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
           "septiembre", "octubre", "noviembre", "diciembre"]
 
-PROMPT = """Eres el editor de un resumen diario de noticias de inteligencia artificial en español que se publica en LinkedIn.
-De la lista de noticias de las últimas horas (JSON al final), elige las {top_n} más importantes, ordenadas de mayor a menor importancia.
+GROUP_PROMPT = """Eres el editor de un resumen diario de noticias de inteligencia artificial en español.
+En la lista de noticias de las últimas horas (JSON al final) hay historias que salieron en varios medios con títulos distintos.
+Agrupa las noticias que cuentan exactamente la misma historia (el mismo hecho, anuncio o suceso), aunque estén redactadas distinto.
+
+Reglas:
+- Agrupa solo si es el mismo hecho: dos noticias distintas sobre la misma empresa o el mismo tema no van juntas.
+- Cada id puede estar en un solo grupo.
+- Incluye solo los grupos de 2 o más noticias; las que no se repiten no las pongas.
+
+Responde únicamente con JSON, sin texto adicional, con esta forma:
+{{"grupos": [["n1", "n7"], ["n3", "n12", "n40"]]}}
+Si ninguna historia se repite, responde {{"grupos": []}}.
+
+Noticias:
+{candidates}"""
+
+SELECT_PROMPT = """Eres el editor de un resumen diario de noticias de inteligencia artificial en español que se publica en LinkedIn.
+De la lista de historias de las últimas horas (JSON al final), elige las {top_n} más importantes, ordenadas de mayor a menor importancia.
+Cada historia ya junta todas sus versiones: "apariciones" es cuántas veces salió y "medios" en cuáles.
 
 Criterios:
 - Impacto real en la industria de la IA, en la sociedad o en la vida de las personas: lanzamientos, regulación, inversiones grandes, avances, decisiones de empresas o gobiernos.
-- Que la misma historia aparezca en varios medios es señal de importancia, pero elígela una sola vez: las {top_n} deben tratar temas distintos. Entre las versiones de una misma historia, elige la que tenga la descripción más informativa.
+- Que una historia aparezca en muchos medios es señal de importancia.
+- Las {top_n} deben tratar temas distintos.
 - Evita artículos de opinión, guías, eventos locales menores y contenido promocional.
 
 Para cada una escribe un resumen de una sola frase (máximo 25 palabras) usando solo la información del título y la descripción: no inventes cifras, nombres ni datos que no estén ahí.
 
 Responde únicamente con JSON, sin texto adicional, con esta forma:
-{{"noticias": [{{"id": "n1", "resumen": "..."}}]}}
+{{"noticias": [{{"id": "h1", "resumen": "..."}}]}}
 
-Noticias:
+Historias:
 {candidates}"""
 
 
@@ -84,7 +104,7 @@ def load_candidates(feeds: list, cfg: dict) -> list:
             by_db.setdefault(get_db_path(feed['sourceType']), set()).add(feed['category'])
 
     since = datetime.now(timezone.utc) - timedelta(hours=cfg.get('hours_back', 24))
-    candidates, seen_titles = [], set()
+    candidates, by_title = [], {}
     for db_path, cats in by_db.items():
         if not Path(db_path).exists():
             log(f"⚠️ No existe {db_path}, se omiten {sorted(cats)}")
@@ -110,39 +130,29 @@ def load_candidates(feeds: list, cfg: dict) -> list:
                 description = ''
             else:
                 source = row['sourceTitle']
-            if not title or title.lower() in seen_titles:
+            if not title:
                 continue
-            seen_titles.add(title.lower())
-            candidates.append({'titulo': title, 'medio': source, 'fecha': pub_date, 'descripcion': description[:300]})
+            # Mismo título = misma noticia: no se manda dos veces, pero cada medio distinto cuenta como aparición
+            # (GoogleNews_IA y GoogleNews_ML suelen traer el mismo artículo del mismo medio: ese no suma)
+            same = by_title.get(title.lower())
+            if same:
+                if source not in same['medios']:
+                    same['medios'].append(source)
+                continue
+            by_title[title.lower()] = {'titulo': title, 'medio': source, 'medios': [source], 'fecha': pub_date, 'descripcion': description[:300]}
+            candidates.append(by_title[title.lower()])
 
     candidates.sort(key=lambda c: c['fecha'], reverse=True)
     return candidates[:cfg.get('max_candidates', 150)]
 
 
-def parse_selection(content: str, valid_ids: set, top_n: int) -> list:
-    """Lista de (id, resumen) desde la respuesta del modelo; ValueError si no trae top_n noticias válidas."""
+def extract_json(content: str) -> dict:
     # Algunos modelos envuelven el JSON en ```json ... ``` o agregan texto: se toma del primer { al último }
-    data = json.loads(content[content.find('{'):content.rfind('}') + 1])
-    selection, seen = [], set()
-    for item in data.get('noticias', []):
-        news_id, summary = item.get('id'), (item.get('resumen') or '').strip()
-        if news_id in valid_ids and news_id not in seen and summary:
-            seen.add(news_id)
-            selection.append((news_id, summary))
-    if len(selection) < top_n:
-        raise ValueError(f"solo {len(selection)} noticias válidas de {top_n}")
-    return selection[:top_n]
+    return json.loads(content[content.find('{'):content.rfind('}') + 1])
 
 
-def select_top(candidates: dict, cfg: dict, api_key: str) -> list:
-    """Prueba los modelos de daily_top.models en orden hasta que uno devuelva una selección válida."""
-    top_n = cfg.get('top_n', 5)
-    payload = [
-        {'id': news_id, 'titulo': c['titulo'], 'medio': c['medio'], 'descripcion': c['descripcion']}
-        for news_id, c in candidates.items()
-    ]
-    prompt = PROMPT.format(top_n=top_n, candidates=json.dumps(payload, ensure_ascii=False))
-
+def call_models(prompt: str, cfg: dict, api_key: str, parse, step: str):
+    """Prueba los modelos de daily_top.models en orden hasta que uno devuelva algo que parse acepte: (modelo, resultado)."""
     for model in cfg['models']:
         try:
             resp = requests.post(
@@ -153,44 +163,159 @@ def select_top(candidates: dict, cfg: dict, api_key: str) -> list:
             )
             if not resp.ok:
                 raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:200]}")
-            selection = parse_selection(resp.json()['choices'][0]['message']['content'] or '', set(candidates), top_n)
-            log(f"✅ Selección hecha con {model}")
-            return selection
+            result = parse(resp.json()['choices'][0]['message']['content'] or '')
+            log(f"✅ {step} hecha con {model}")
+            return model, result
         except Exception as e:
-            log(f"⚠️ {model} falló: {e}")
-    raise RuntimeError("Ningún modelo devolvió una selección válida")
+            log(f"⚠️ {step}: {model} falló: {e}")
+    raise RuntimeError(f"{step}: ningún modelo devolvió una respuesta válida")
 
 
-def render_post(cfg: dict, candidates: dict, selection: list) -> str:
+def parse_groups(content: str, valid_ids: set) -> list:
+    """Grupos de ids (2 o más) desde la respuesta del modelo; un id repetido se queda en el primer grupo donde salió."""
+    groups, seen = [], set()
+    for group in extract_json(content).get('grupos', []):
+        if not isinstance(group, list):
+            continue
+        ids = [nid for nid in dict.fromkeys(group) if nid in valid_ids and nid not in seen]
+        if len(ids) >= 2:
+            seen.update(ids)
+            groups.append(ids)
+    return groups
+
+
+def group_candidates(candidates: dict, cfg: dict, api_key: str) -> tuple:
+    """Paso 1: el modelo agrupa las candidatas que cuentan la misma historia. (modelo o None, grupos); si falla, sin grupos."""
+    payload = [{'id': nid, 'titulo': c['titulo'], 'descripcion': c['descripcion']} for nid, c in candidates.items()]
+    prompt = GROUP_PROMPT.format(candidates=json.dumps(payload, ensure_ascii=False))
+    try:
+        return call_models(prompt, cfg, api_key, lambda content: parse_groups(content, set(candidates)), "Agrupación")
+    except RuntimeError as e:
+        # Sin agrupar el top igual sale, solo que cada candidata cuenta como una historia aparte
+        log(f"⚠️ {e}; se sigue sin agrupar")
+        return None, []
+
+
+def build_stories(candidates: dict, groups: list) -> dict:
+    """
+    Una historia por grupo y por cada candidata suelta, en el orden de las candidatas (de la más nueva a la más vieja):
+    {"h1": {"ids": [...], "principal": id, "medios": Counter}}. La principal, la que va al modelo y al post, es la de
+    descripción más larga (Google News la trae vacía, así que gana un medio propio); en empate, la más nueva.
+    """
+    group_of = {nid: i for i, group in enumerate(groups) for nid in group}
+    members = {}
+    for nid in candidates:
+        members.setdefault(group_of.get(nid, nid), []).append(nid)
+    stories = {}
+    for i, ids in enumerate(members.values(), 1):
+        stories[f"h{i}"] = {
+            'ids': ids,
+            'principal': max(ids, key=lambda nid: len(candidates[nid]['descripcion'])),
+            'medios': Counter(m or "medio desconocido" for nid in ids for m in candidates[nid]['medios']),
+        }
+    return stories
+
+
+def parse_selection(content: str, valid_ids: set, top_n: int) -> list:
+    """Lista de (id de historia, resumen) desde la respuesta del modelo; ValueError si no trae top_n historias válidas."""
+    selection, seen = [], set()
+    for item in extract_json(content).get('noticias', []):
+        story_id, summary = item.get('id'), (item.get('resumen') or '').strip()
+        if story_id in valid_ids and story_id not in seen and summary:
+            seen.add(story_id)
+            selection.append((story_id, summary))
+    if len(selection) < top_n:
+        raise ValueError(f"solo {len(selection)} historias válidas de {top_n}")
+    return selection[:top_n]
+
+
+def select_top(candidates: dict, stories: dict, cfg: dict, api_key: str) -> tuple:
+    """Paso 2: el modelo elige las top_n historias más importantes. (modelo, selección)."""
+    top_n = cfg.get('top_n', 5)
+    payload = []
+    for story_id, story in stories.items():
+        news = candidates[story['principal']]
+        payload.append({
+            'id': story_id, 'titulo': news['titulo'], 'medio': news['medio'],
+            'apariciones': sum(story['medios'].values()), 'medios': list(story['medios']),
+            'descripcion': news['descripcion'],
+        })
+    prompt = SELECT_PROMPT.format(top_n=top_n, candidates=json.dumps(payload, ensure_ascii=False))
+    return call_models(prompt, cfg, api_key, lambda content: parse_selection(content, set(stories), top_n), "Selección")
+
+
+def today_label() -> str:
     now = datetime.now(ZoneInfo("America/Bogota"))
+    return f"{now.day} de {MONTHS[now.month - 1]} de {now.year}"
+
+
+def render_post(cfg: dict, candidates: dict, stories: dict, selection: list) -> str:
     items = []
-    for i, (news_id, summary) in enumerate(selection):
-        news = candidates[news_id]
+    for i, (story_id, summary) in enumerate(selection):
+        news = candidates[stories[story_id]['principal']]
         items.append(cfg['item_template'].format(
             numero=NUMBER_EMOJIS[i],
             titulo=news['titulo'],
             fuente=f" ({news['medio']})" if news['medio'] else "",
             resumen=summary,
         ))
-    fecha = f"{now.day} de {MONTHS[now.month - 1]} de {now.year}"
-    return cfg['post_template'].format(fecha=fecha, noticias="\n\n".join(items)).strip()
+    return cfg['post_template'].format(fecha=today_label(), noticias="\n\n".join(items)).strip()
 
 
-def send_to_discord(post: str, webhook_url: str):
+def appearances(story: dict) -> str:
+    total = sum(story['medios'].values())
+    detail = ", ".join(f"{m} ({n})" if n > 1 else m for m, n in story['medios'].most_common())
+    return f"{total} {'aparición' if total == 1 else 'apariciones'}: {detail}"
+
+
+def render_report(candidates: dict, stories: dict, selection: list, models: tuple, hours_back: int) -> str:
+    """En qué medios y cuántas veces salió cada historia del top, las más repetidas que no entraron y todas las candidatas."""
+    group_model, select_model = models
+    lines = [
+        f"Reporte del top · {today_label()}",
+        f"Agrupación: {group_model or 'falló, cada candidata cuenta como una historia aparte'}",
+        f"Selección: {select_model}",
+        f"{len(candidates)} candidatas de las últimas {hours_back} h → {len(stories)} historias",
+        "",
+    ]
+    for i, (story_id, _) in enumerate(selection, 1):
+        story = stories[story_id]
+        lines += [f"{i}. {candidates[story['principal']]['titulo']}", f"   {appearances(story)}", ""]
+
+    picked = {story_id for story_id, _ in selection}
+    left_out = sorted(
+        (sid for sid, st in stories.items() if sid not in picked and sum(st['medios'].values()) > 1),
+        key=lambda sid: sum(stories[sid]['medios'].values()), reverse=True,
+    )[:5]
+    if left_out:
+        lines.append("Las más repetidas que no entraron al top:")
+        for story_id in left_out:
+            story = stories[story_id]
+            lines += [f"- {candidates[story['principal']]['titulo']}", f"  {appearances(story)}"]
+        lines.append("")
+
+    lines.append("Candidatas enviadas al modelo, por historia:")
+    for story_id, story in stories.items():
+        for nid in story['ids']:
+            c = candidates[nid]
+            lines.append(f"{story_id} · {nid} · {', '.join(m or 'medio desconocido' for m in c['medios'])} · {c['titulo']}")
+    return "\n".join(lines)
+
+
+def send_to_discord(webhook_url: str, content: str, filename: str = None, text: str = None):
+    """Un mensaje al webhook; con filename, text va como .txt adjunto."""
     # flags=4 (SUPPRESS_EMBEDS): sin tarjeta de vista previa del link.
     # allowed_mentions vacío: un título con "@everyone" no notifica a nadie.
-    payload = {'flags': 4, 'allowed_mentions': {'parse': []}}
-    if len(post) <= DISCORD_MAX_CHARS:
-        resp = requests.post(webhook_url, json={**payload, 'content': post}, timeout=30)
-    else:
-        # Discord corta los mensajes en 2.000 caracteres: el post completo va como adjunto
-        payload['content'] = "📎 El post supera los 2.000 caracteres de Discord, va adjunto:"
+    payload = {'flags': 4, 'allowed_mentions': {'parse': []}, 'content': content}
+    if filename:
         resp = requests.post(
             webhook_url,
             data={'payload_json': json.dumps(payload)},
-            files={'files[0]': ('post-linkedin.txt', post.encode('utf-8'))},
+            files={'files[0]': (filename, text.encode('utf-8'))},
             timeout=30,
         )
+    else:
+        resp = requests.post(webhook_url, json=payload, timeout=30)
     resp.raise_for_status()
 
 
@@ -214,14 +339,31 @@ def main(dry_run: bool = False):
     # ids cortos (n1, n2…) en vez de los UUID: menos tokens y menos riesgo de que el modelo los copie mal
     candidates = {f"n{i}": c for i, c in enumerate(found, 1)}
 
-    selection = select_top(candidates, cfg, api_key)
-    post = render_post(cfg, candidates, selection)
-    print(post)
+    group_model, groups = group_candidates(candidates, cfg, api_key)
+    stories = build_stories(candidates, groups)
+    log(f"🧩 {len(stories)} historias distintas")
+    if len(stories) < top_n:
+        sys.exit(f"❌ Hay {len(stories)} historias distintas, se necesitan al menos {top_n}")
+
+    select_model, selection = select_top(candidates, stories, cfg, api_key)
+    post = render_post(cfg, candidates, stories, selection)
+    report = render_report(candidates, stories, selection, (group_model, select_model), cfg.get('hours_back', 24))
+    print(post, report, sep="\n\n" + "-" * 40 + "\n\n")
 
     if dry_run:
         return
-    send_to_discord(post, webhook_url)
+    if len(post) <= DISCORD_MAX_CHARS:
+        send_to_discord(webhook_url, post)
+    else:
+        # Discord corta los mensajes en 2.000 caracteres: el post completo va como adjunto
+        send_to_discord(webhook_url, "📎 El post supera los 2.000 caracteres de Discord, va adjunto:", 'post-linkedin.txt', post)
     log("✅ Post enviado a Discord")
+    # El post ya salió: si falla el reporte no se marca el job como fallido (re-ejecutarlo duplicaría el post)
+    try:
+        send_to_discord(webhook_url, "📊 Reporte de apariciones:", 'reporte-top.txt', report)
+        log("✅ Reporte enviado a Discord")
+    except requests.RequestException as e:
+        log(f"⚠️ No se pudo enviar el reporte: {e}")
 
 
 if __name__ == "__main__":
