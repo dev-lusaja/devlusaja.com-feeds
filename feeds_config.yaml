@@ -29,6 +29,32 @@ exclusions:
     # tiktok:
     #   - AnotherCategory
 
+# Top del día para LinkedIn (src/daily_top.py, workflow daily-top.yml): la IA elige las top_n
+# noticias de las últimas hours_back horas de estas categorías y el post se envía a Discord.
+# models: se prueban en orden hasta que uno responda bien (los :free de OpenRouter rotan).
+# Placeholders de item_template: {numero} (1️⃣..🔟), {titulo}, {fuente} (" (Medio)" o vacío si
+# la noticia no trae medio), {resumen}. De post_template: {fecha}, {noticias}.
+daily_top:
+  categories: [Xataka, Wired_ES, CNN_Espanol, El_Pais, Euronews, ElComercio_PE, GoogleNews_IA, GoogleNews_ML]
+  hours_back: 24
+  top_n: 5
+  max_candidates: 150
+  models:
+    - google/gemma-4-31b-it:free
+    - nvidia/nemotron-3-super-120b-a12b:free
+    - openrouter/free
+  item_template: "{numero} {titulo}{fuente}\n{resumen}"
+  post_template: |
+    🤖 Las 5 noticias de IA más importantes de hoy · {fecha}
+
+    {noticias}
+
+    📰 Estas y más noticias de IA en español: https://devlusaja.com/news
+
+    💬 ¿Cuál te parece más relevante?
+
+    #InteligenciaArtificial #IA
+
 feeds:
 ### NOTICIAS EN ESPAÑOL ###
   - url: 'https://www.xataka.com/tag/inteligencia-artificial/rss2.xml'

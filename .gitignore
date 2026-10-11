@@ -1,8 +1,8 @@
 .DS_Store
 .vscode/
-*/pycache/
+# Caché de Python, en cualquier nivel
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Variables de entorno (puede contener credenciales reales de R2/Netlify en local)
 .env

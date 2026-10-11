@@ -58,6 +58,12 @@ def load_config(file_path: str) -> Dict[str, Any]:
         data = yaml.safe_load(f)
     return data.get('config', {})
 
+def load_daily_top_config(file_path: str) -> Dict[str, Any]:
+    """Carga la sección daily_top (top del día para LinkedIn) del YAML."""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    return data.get('daily_top', {})
+
 def get_feeds_months_back(file_path: str) -> int:
     """
     Obtiene el número de meses hacia atrás para filtrar feeds.

@@ -1,0 +1,76 @@
+name: Daily Top News (Discord)
+
+on:
+  # Lo dispara netlify/functions/daily-top-trigger.mjs (Netlify Scheduled Function)
+  workflow_dispatch:
+
+# Solo lee las BDs de Drive (no sube nada ni despliega), así que no entra en el grupo feeds-db.
+# Grupo propio para no mandar dos posts si se dispara dos veces seguidas.
+concurrency:
+  group: daily-top
+  cancel-in-progress: false
+
+env:
+  RCLONE_CONFIG_GDRIVE_TYPE: drive
+  RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+  RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+  RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+  RCLONE_CONFIG_GDRIVE_SCOPE: drive
+  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+jobs:
+  # Los secrets no se pueden usar en el "if:" de un job: este paso los revisa y, si falta alguno,
+  # daily-top queda "skipped" (no se instala nada, no se baja la BD ni se gasta cupo de OpenRouter)
+  check-secrets:
+    runs-on: ubuntu-latest
+    outputs:
+      enabled: ${{ steps.check.outputs.enabled }}
+    steps:
+    - id: check
+      env:
+        OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      run: |
+        enabled=true
+        for name in DISCORD_WEBHOOK_URL OPENROUTER_API_KEY; do
+          if [ -z "${!name}" ]; then
+            echo "::warning::Falta el secret $name, no se genera el top del día"
+            enabled=false
+          fi
+        done
+        echo "enabled=$enabled" >> "$GITHUB_OUTPUT"
+
+  daily-top:
+    needs: check-secrets
+    if: needs.check-secrets.outputs.enabled == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: pip
+        cache-dependency-path: docker/requirements.txt
+
+    - run: pip install -r docker/requirements.txt
+
+    - name: Install rclone
+      run: curl https://rclone.org/install.sh | sudo bash
+
+    - name: Restore DBs from Google Drive
+      run: |
+        mkdir -p data
+        rclone copy gdrive:feeds_backup ./data --include "*.db"
+
+    - name: Select top news and send to Discord
+      env:
+        OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      run: python src/daily_top.py
+
+    - name: Notify failure on Discord
+      if: failure()
+      run: |
+        curl -sf -H "Content-Type: application/json" \
+          -d '{"content": "⚠️ No se pudo generar el top de noticias de hoy: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"}' \
+          "$DISCORD_WEBHOOK_URL"
