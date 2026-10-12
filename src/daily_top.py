@@ -104,7 +104,7 @@ def load_candidates(feeds: list, cfg: dict) -> list:
             by_db.setdefault(get_db_path(feed['sourceType']), set()).add(feed['category'])
 
     since = datetime.now(timezone.utc) - timedelta(hours=cfg.get('hours_back', 24))
-    candidates, by_title = [], {}
+    candidates, by_title, outlets = [], {}, {}
     for db_path, cats in by_db.items():
         if not Path(db_path).exists():
             log(f"⚠️ No existe {db_path}, se omiten {sorted(cats)}")
@@ -130,6 +130,10 @@ def load_candidates(feeds: list, cfg: dict) -> list:
                 description = ''
             else:
                 source = row['sourceTitle']
+            # El mismo medio llega escrito distinto según la fuente ("El País" vs "EL PAÍS" de Google News):
+            # se queda la primera forma que salió para no contarlo como dos medios
+            if source:
+                source = outlets.setdefault(source.casefold(), source)
             if not title:
                 continue
             # Mismo título = misma noticia: no se manda dos veces, pero cada medio distinto cuenta como aparición
