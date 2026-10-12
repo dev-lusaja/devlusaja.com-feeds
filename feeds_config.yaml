@@ -45,7 +45,9 @@ daily_top:
     - openrouter/free
   item_template: "{numero} {titulo}{fuente}\n{resumen}"
   post_template: |
-    🤖 Las 5 noticias de IA más importantes de hoy · {fecha}
+    🤖 Resumen de noticias de IA · {fecha}
+
+    5 historias de IA para ponerte al día 👇
 
     {noticias}
 
