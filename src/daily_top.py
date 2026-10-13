@@ -51,7 +51,7 @@ Noticias:
 
 SELECT_PROMPT = """Eres el editor de un resumen diario de noticias de inteligencia artificial en español que se publica en LinkedIn.
 De la lista de historias de las últimas horas (JSON al final), elige las {top_n} más importantes, ordenadas de mayor a menor importancia.
-Cada historia ya junta todas sus versiones: "apariciones" es cuántas veces salió y "medios" en cuáles.
+Cada historia ya junta todas sus versiones: "num_medios" es en cuántos medios distintos salió y "medios" en cuáles.
 
 Criterios:
 - Impacto real en la industria de la IA, en la sociedad o en la vida de las personas: lanzamientos, regulación, inversiones grandes, avances, decisiones de empresas o gobiernos.
@@ -241,7 +241,7 @@ def select_top(candidates: dict, stories: dict, cfg: dict, api_key: str) -> tupl
         news = candidates[story['principal']]
         payload.append({
             'id': story_id, 'titulo': news['titulo'], 'medio': news['medio'],
-            'apariciones': sum(story['medios'].values()), 'medios': list(story['medios']),
+            'num_medios': len(story['medios']), 'medios': list(story['medios']),
             'descripcion': news['descripcion'],
         })
     prompt = SELECT_PROMPT.format(top_n=top_n, candidates=json.dumps(payload, ensure_ascii=False))

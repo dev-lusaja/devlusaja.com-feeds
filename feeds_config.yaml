@@ -40,6 +40,7 @@ daily_top:
   top_n: 5
   max_candidates: 150
   models:
+    - google/gemini-3.8-flash
     - google/gemma-4-31b-it:free
     - nvidia/nemotron-3-super-120b-a12b:free
     - openrouter/free
