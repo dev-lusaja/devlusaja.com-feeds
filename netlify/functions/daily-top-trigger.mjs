@@ -16,5 +16,5 @@ export default async () => {
   console.log("dispatch daily-top OK");
 };
 
-// 10:10 hora Colombia (UTC-5) = 15:10 UTC, con margen para que terminen el daily de 10:00 y googlenews de 9:30
-export const config = { schedule: "10 15 * * *" };
+// 12:10 hora Colombia (UTC-5) = 17:10 UTC, con margen para que terminen el daily de 12:00 y googlenews de 11:30
+export const config = { schedule: "10 17 * * *" };
