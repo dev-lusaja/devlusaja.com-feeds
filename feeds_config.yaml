@@ -44,11 +44,9 @@ daily_top:
     - google/gemma-4-31b-it:free
     - nvidia/nemotron-3-super-120b-a12b:free
     - openrouter/free
-  item_template: "{numero} {titulo}{fuente}\n{resumen}"
+  item_template: "{numero} {resumen}"
   post_template: |
-    🤖 Resumen de noticias de IA · {fecha}
-
-    5 historias de IA para ponerte al día 👇
+    🤖 5 noticias de IA que no debes perderte
 
     {noticias}
 
@@ -56,7 +54,7 @@ daily_top:
 
     💬 ¿Cuál te parece más relevante?
 
-    #InteligenciaArtificial #IA
+    #ArtificialIntelligence #AINews #TechNews
 
 feeds:
 ### NOTICIAS EN ESPAÑOL ###
