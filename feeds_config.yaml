@@ -38,6 +38,8 @@ daily_top:
   categories: [Xataka, Wired_ES, CNN_Espanol, El_Pais, Euronews, ElComercio_PE, GoogleNews_IA, GoogleNews_ML]
   hours_back: 24
   top_n: 5
+  # Puntaje = criticidad (0-10, la da la IA) + log2(medios distintos), con este tope: 1 medio → 0, 2 → 1, 4 → 2, 8 → 3
+  coverage_bonus_max: 3
   max_candidates: 150
   models:
     - google/gemini-3.8-flash

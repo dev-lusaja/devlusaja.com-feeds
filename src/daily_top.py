@@ -1,6 +1,7 @@
 """
 Top del día para LinkedIn, en dos llamadas a la IA (OpenRouter): primero agrupa las noticias de IA
-en español de las últimas horas que cuentan la misma historia, después elige las más importantes.
+en español de las últimas horas que cuentan la misma historia, después puntúa su criticidad; el top sale de
+ordenar por criticidad + un bono menor por la cantidad de medios distintos (coverage_bonus).
 El post, armado con la plantilla de feeds_config.yaml (daily_top), se envía a un canal de Discord por
 webhook, seguido de un reporte (.txt adjunto) con cuántas veces y en qué medios salió cada historia.
 
@@ -13,6 +14,7 @@ Uso:
 Requiere OPENROUTER_API_KEY y DISCORD_WEBHOOK_URL (entorno o .env).
 """
 import json
+import math
 import os
 import sys
 from collections import Counter
@@ -50,19 +52,18 @@ Noticias:
 {candidates}"""
 
 SELECT_PROMPT = """Eres el editor de un resumen diario de noticias de inteligencia artificial en español que se publica en LinkedIn.
-De la lista de historias de las últimas horas (JSON al final), elige las {top_n} más importantes, ordenadas de mayor a menor importancia.
-Cada historia ya junta todas sus versiones: "num_medios" es en cuántos medios distintos salió y "medios" en cuáles.
-
-Criterios:
-- Impacto real en la industria de la IA, en la sociedad o en la vida de las personas: lanzamientos, regulación, inversiones grandes, avances, decisiones de empresas o gobiernos.
-- Que una historia aparezca en muchos medios es señal de importancia.
-- Las {top_n} deben tratar temas distintos.
-- Evita artículos de opinión, guías, eventos locales menores y contenido promocional.
+De la lista de historias de las últimas horas (JSON al final), elige las {pool} más críticas y dale a cada una una "criticidad" de 0 a 10 según esta escala:
+- 9-10: la IA hizo algo que no se esperaba (actuó por su cuenta, se salió de control, engañó o causó daño); hackeos, ciberataques, robos, fraudes o delitos cometidos con IA o contra sistemas de IA; daños graves a personas.
+- 7-8: lanzamientos de modelos o productos importantes, leyes o decisiones de gobiernos, demandas y juicios, inversiones o compras muy grandes, avances científicos, despidos masivos por la IA.
+- 4-6: anuncios de empresas, alianzas, estudios y encuestas, adopción de la IA en un sector.
+- 1-3: subidas y bajadas en bolsa (salvo un desplome o un récord histórico), opinión, guías y cursos, eventos locales, contenido promocional.
+- 0: no trata de IA o no es una noticia.
+Las {pool} deben tratar temas distintos.
 
 Para cada una escribe un resumen de una sola frase (máximo 25 palabras) usando solo la información del título y la descripción: no inventes cifras, nombres ni datos que no estén ahí.
 
 Responde únicamente con JSON, sin texto adicional, con esta forma:
-{{"noticias": [{{"id": "h1", "resumen": "..."}}]}}
+{{"noticias": [{{"id": "h1", "criticidad": 9, "resumen": "..."}}]}}
 
 Historias:
 {candidates}"""
@@ -221,31 +222,46 @@ def build_stories(candidates: dict, groups: list) -> dict:
 
 
 def parse_selection(content: str, valid_ids: set, top_n: int) -> list:
-    """Lista de (id de historia, resumen) desde la respuesta del modelo; ValueError si no trae top_n historias válidas."""
+    """[{id, criticidad, resumen}] desde la respuesta del modelo; ValueError si no trae al menos top_n historias válidas."""
     selection, seen = [], set()
     for item in extract_json(content).get('noticias', []):
         story_id, summary = item.get('id'), (item.get('resumen') or '').strip()
+        try:
+            criticality = min(max(float(item.get('criticidad')), 0), 10)
+        except (TypeError, ValueError):
+            continue
         if story_id in valid_ids and story_id not in seen and summary:
             seen.add(story_id)
-            selection.append((story_id, summary))
+            selection.append({'id': story_id, 'criticidad': criticality, 'resumen': summary})
     if len(selection) < top_n:
         raise ValueError(f"solo {len(selection)} historias válidas de {top_n}")
-    return selection[:top_n]
+    return selection
+
+
+def coverage_bonus(num_outlets: int, cap: float) -> float:
+    """Bono por medios distintos, que pesa menos que la criticidad: 1 medio → 0, 2 → 1, 4 → 2, 8 → 3, con tope cap."""
+    return min(cap, math.log2(max(num_outlets, 1)))
 
 
 def select_top(candidates: dict, stories: dict, cfg: dict, api_key: str) -> tuple:
-    """Paso 2: el modelo elige las top_n historias más importantes. (modelo, selección)."""
+    """
+    Paso 2: el modelo puntúa la criticidad de las top_n × 3 historias más críticas y el código les suma el bono por
+    medios. (modelo, todas las puntuadas de mayor a menor puntaje); las top_n primeras son el top.
+    """
     top_n = cfg.get('top_n', 5)
+    # Sin num_medios: el modelo juzga solo el hecho, la cobertura ya suma aparte con el bono
     payload = []
     for story_id, story in stories.items():
         news = candidates[story['principal']]
-        payload.append({
-            'id': story_id, 'titulo': news['titulo'], 'medio': news['medio'],
-            'num_medios': len(story['medios']), 'medios': list(story['medios']),
-            'descripcion': news['descripcion'],
-        })
-    prompt = SELECT_PROMPT.format(top_n=top_n, candidates=json.dumps(payload, ensure_ascii=False))
-    return call_models(prompt, cfg, api_key, lambda content: parse_selection(content, set(stories), top_n), "Selección")
+        payload.append({'id': story_id, 'titulo': news['titulo'], 'medio': news['medio'], 'descripcion': news['descripcion']})
+    prompt = SELECT_PROMPT.format(pool=top_n * 3, candidates=json.dumps(payload, ensure_ascii=False))
+    model, scored = call_models(prompt, cfg, api_key, lambda content: parse_selection(content, set(stories), top_n), "Selección")
+    for pick in scored:
+        pick['bonus'] = coverage_bonus(len(stories[pick['id']]['medios']), cfg.get('coverage_bonus_max', 3))
+        pick['puntaje'] = pick['criticidad'] + pick['bonus']
+    # sort es estable: en empate queda el orden en que las dio el modelo
+    scored.sort(key=lambda p: p['puntaje'], reverse=True)
+    return model, scored
 
 
 def today_label() -> str:
@@ -255,13 +271,13 @@ def today_label() -> str:
 
 def render_post(cfg: dict, candidates: dict, stories: dict, selection: list) -> str:
     items = []
-    for i, (story_id, summary) in enumerate(selection):
-        news = candidates[stories[story_id]['principal']]
+    for i, pick in enumerate(selection):
+        news = candidates[stories[pick['id']]['principal']]
         items.append(cfg['item_template'].format(
             numero=NUMBER_EMOJIS[i],
             titulo=news['titulo'],
             fuente=f" ({news['medio']})" if news['medio'] else "",
-            resumen=summary,
+            resumen=pick['resumen'],
         ))
     return cfg['post_template'].format(fecha=today_label(), noticias="\n\n".join(items)).strip()
 
@@ -277,8 +293,16 @@ def appearances(story: dict) -> str:
     return f"{total} {'aparición' if total == 1 else 'apariciones'}: {detail}"
 
 
-def render_report(candidates: dict, stories: dict, selection: list, models: tuple, hours_back: int) -> str:
-    """En qué medios y cuántas veces salió cada historia del top, las más repetidas que no entraron y todas las candidatas."""
+def score_line(pick: dict) -> str:
+    return f"criticidad {pick['criticidad']:g} + bonus por medios {pick['bonus']:.1f} = {pick['puntaje']:.1f}"
+
+
+def render_report(candidates: dict, stories: dict, scored: list, top_n: int, models: tuple, hours_back: int) -> str:
+    """
+    Puntaje y apariciones de cada historia del top, las demás que el modelo puntuó, las más repetidas que no entraron
+    y todas las candidatas.
+    """
+    selection = scored[:top_n]
     group_model, select_model = models
     lines = [
         f"Reporte del top · {today_label()}",
@@ -287,11 +311,17 @@ def render_report(candidates: dict, stories: dict, selection: list, models: tupl
         f"{len(candidates)} candidatas de las últimas {hours_back} h → {len(stories)} historias",
         "",
     ]
-    for i, (story_id, _) in enumerate(selection, 1):
-        story = stories[story_id]
-        lines += [f"{i}. {candidates[story['principal']]['titulo']}", f"   {appearances(story)}", ""]
+    for i, pick in enumerate(selection, 1):
+        story = stories[pick['id']]
+        lines += [f"{i}. {candidates[story['principal']]['titulo']}", f"   {score_line(pick)}", f"   {appearances(story)}", ""]
 
-    picked = {story_id for story_id, _ in selection}
+    if scored[top_n:]:
+        lines.append("Puntuadas que no entraron al top:")
+        for pick in scored[top_n:]:
+            lines += [f"- {candidates[stories[pick['id']]['principal']]['titulo']}", f"  {score_line(pick)}"]
+        lines.append("")
+
+    picked = {pick['id'] for pick in scored}
     left_out = sorted(
         (sid for sid, st in stories.items() if sid not in picked and sum(st['medios'].values()) > 1),
         key=lambda sid: sum(stories[sid]['medios'].values()), reverse=True,
@@ -354,10 +384,11 @@ def main(dry_run: bool = False):
     if len(stories) < top_n:
         sys.exit(f"❌ Hay {len(stories)} historias distintas, se necesitan al menos {top_n}")
 
-    select_model, selection = select_top(candidates, stories, cfg, api_key)
+    select_model, scored = select_top(candidates, stories, cfg, api_key)
+    selection = scored[:top_n]
     post = render_post(cfg, candidates, stories, selection)
-    image_prompt = render_image_prompt(cfg, [summary for _, summary in selection])
-    report = render_report(candidates, stories, selection, (group_model, select_model), cfg.get('hours_back', 24))
+    image_prompt = render_image_prompt(cfg, [pick['resumen'] for pick in selection])
+    report = render_report(candidates, stories, scored, top_n, (group_model, select_model), cfg.get('hours_back', 24))
     print(post, image_prompt, report, sep="\n\n" + "-" * 40 + "\n\n")
 
     if dry_run:
