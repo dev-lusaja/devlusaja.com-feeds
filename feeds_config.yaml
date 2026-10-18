@@ -55,6 +55,31 @@ daily_top:
     💬 ¿Cuál te parece más relevante?
 
     #ArtificialIntelligence #AINews #TechNews
+  # Prompt para generar en Gemini la imagen que acompaña el post; llega a Discord como mensaje aparte
+  image_prompt_template: |
+    Crea una infografía vertical (proporción 4:5, 1080×1350 px) para LinkedIn con las 5 noticias de inteligencia artificial del día.
+
+    Texto que debe aparecer, escrito exactamente así, en español y con sus tildes (no traduzcas, no resumas ni agregues otros textos):
+    - Título: "5 noticias de IA que no debes perderte"
+    - Debajo del título, la fecha: "{fecha}"
+    - Las 5 noticias, en este orden, cada una completa, palabra por palabra:
+    {noticias}
+    - Al pie: "devlusaja.com/news"
+    Ese es todo el texto de la imagen: ninguna otra palabra, cifra ni etiqueta, en ningún idioma.
+
+    Diseño:
+    - Una sola columna con exactamente 5 tarjetas del mismo ancho, una debajo de otra, una por noticia; ninguna noticia se repite ni se parte en dos tarjetas.
+    - Todas las tarjetas con la misma estructura: el número grande a la izquierda, el texto de la noticia en el centro y un ícono a la derecha.
+    - Cada ícono es una ilustración simple de líneas que represente el tema de su noticia, en azul y violeta, sin letras, palabras, números ni cifras.
+    - Estilo editorial tecnológico, limpio y moderno, en modo oscuro con esta paleta exacta:
+      - Fondo: gris carbón casi negro (#0e1217), con un brillo suave azul y violeta.
+      - Sobre el fondo, en los bordes y las esquinas, finas líneas de circuito impreso con nodos y puntos brillantes en azul (#4a9eff) y violeta (#7b68ee), que decoran sin tapar el contenido.
+      - Tarjetas: gris oscuro (#1c2127), con borde fino (#2d333b) y esquinas redondeadas.
+      - Texto de las noticias en blanco suave (#e1e7ef).
+      - Números de las tarjetas con degradado de azul (#4a9eff) a violeta (#7b68ee).
+      - Título en blanco, con "5" e "IA" en azul (#4a9eff); la fecha y "devlusaja.com/news" también en azul (#4a9eff).
+    - Tipografía sans serif redondeada y limpia (tipo Hind), grande y legible en el celular; el título destaca sobre el resto.
+    - Sin marcas de agua, logos de empresas ni rostros de personas reales.
 
 feeds:
 ### NOTICIAS EN ESPAÑOL ###

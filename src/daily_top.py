@@ -266,6 +266,11 @@ def render_post(cfg: dict, candidates: dict, stories: dict, selection: list) -> 
     return cfg['post_template'].format(fecha=today_label(), noticias="\n\n".join(items)).strip()
 
 
+def render_image_prompt(cfg: dict, summaries: list) -> str:
+    items = "\n".join(f'  {i}. "{summary}"' for i, summary in enumerate(summaries, 1))
+    return cfg['image_prompt_template'].format(fecha=today_label(), noticias=items).strip()
+
+
 def appearances(story: dict) -> str:
     total = sum(story['medios'].values())
     detail = ", ".join(f"{m} ({n})" if n > 1 else m for m, n in story['medios'].most_common())
@@ -351,8 +356,9 @@ def main(dry_run: bool = False):
 
     select_model, selection = select_top(candidates, stories, cfg, api_key)
     post = render_post(cfg, candidates, stories, selection)
+    image_prompt = render_image_prompt(cfg, [summary for _, summary in selection])
     report = render_report(candidates, stories, selection, (group_model, select_model), cfg.get('hours_back', 24))
-    print(post, report, sep="\n\n" + "-" * 40 + "\n\n")
+    print(post, image_prompt, report, sep="\n\n" + "-" * 40 + "\n\n")
 
     if dry_run:
         return
@@ -362,7 +368,12 @@ def main(dry_run: bool = False):
         # Discord corta los mensajes en 2.000 caracteres: el post completo va como adjunto
         send_to_discord(webhook_url, "📎 El post supera los 2.000 caracteres de Discord, va adjunto:", 'post-linkedin.txt', post)
     log("✅ Post enviado a Discord")
-    # El post ya salió: si falla el reporte no se marca el job como fallido (re-ejecutarlo duplicaría el post)
+    # El post ya salió: si falla lo demás no se marca el job como fallido (re-ejecutarlo duplicaría el post)
+    try:
+        send_to_discord(webhook_url, "🎨 Prompt para generar la imagen en Gemini:", 'prompt-imagen.txt', image_prompt)
+        log("✅ Prompt de la imagen enviado a Discord")
+    except requests.RequestException as e:
+        log(f"⚠️ No se pudo enviar el prompt de la imagen: {e}")
     try:
         send_to_discord(webhook_url, "📊 Reporte de apariciones:", 'reporte-top.txt', report)
         log("✅ Reporte enviado a Discord")
